@@ -17,23 +17,32 @@
                       width : 400px;
                       margin: 0 auto;
                     }
+                    .form-inline{
+                      margin: 0 auto;
+                      display: inline-block;
+                      margin-bottom: 10px;
+		
+                    }
                     .button{
                       text-align:center;
+                    }
+                    .form-control{
+                      margin-bottom: 10px;
                     }
                 </style>
                 <head>
                   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
                   <meta charset="utf-8">
                   <title>Form</title>
-                  <h1 style = "text-align:; padding:50px;">Human Corrector</h1>
+                  <h1 style = "padding:50px;">Human Corrector</h1>
                   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
                 </head>
                 <body>
                   <form>
                     <div class="form-group">
-                      <label for="topic_field">Broad Topic</label> 
-                      <input id="topic_field" name="topic_field" type="text" value="default value" class="form-control">
+                      <label for="broadtopic_field">Broad Topic</label> 
+                      <input id="broadtopic_field" name="topic_field" type="text" value="default value" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="subject_field">Subject</label> 
@@ -43,14 +52,42 @@
                       <label for="chapter_field">Chapter</label> 
                       <input id="chapter_field" name="chapter_field" type="text" value="default value" class="form-control">
                     </div>
+                  </form>
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <label for="topic1_field">Topic1: </label> 
+                      <input id="topic1_field" name="topic1_field" type="text" value="default value" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="topic2_field">Topic2: </label> 
+                      <input id="topic2_field" name="topic2_field" type="text" value="default value" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="topic3_field">Topic3: </label> 
+                      <input id="topic3_field" name="topic3_field" type="text" value="default value" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="topic4_field">Topic4: </label> 
+                      <input id="topic4_field" name="topic4_field" type="text" value="default value" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="topic5_field">Topic5: </label> 
+                      <input id="topic5_field" name="topic5_field" type="text" value="default value" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="topic6_field">Topic6: </label> 
+                      <input id="topic6_field" name="topic6_field" type="text" value="default value" class="form-control">
+                    </div>
+                  </form class = "form-inline">
+                  <form>
                     <div class="form-group">
                       <label for="sentence1_field">Sentence 1</label> 
-                      <input id="sentence1_field" name="sentence1_field" placeholder="Enter your first sentence..." type="text" value="default value" class="form-control">
+                      <input id="sentence1_field" name="sentence1_field" placeholder="Enter your first sentence here..." type="text" value="default value" class="form-control">
                     </div>
                     <div class="form-group">
                         <div>
                           <select id="conjunctive_field" name="relationship_field" class="custom-select">
-                            <option value="in relatio to">in relation to</option>
+                            <option value="in relation to">in relation to</option>
                             <option value="thus">thus</option>
                             <option value="therefore">therefore</option>
                             <option value="proving">proving</option>
@@ -61,12 +98,27 @@
                     </div>
                     <div class="form-group">
                       <label for="sentence2_field">Sentence 2</label> 
-                      <input id="sentence2_field" name="sentence2_field" placeholder="Enter your second sentence..." type="text" value="default value" class="form-control">
+                      <input id="sentence2_field" name="sentence2_field" placeholder="Enter your second sentence here..." type="text" value="default value" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="text">Author</label> 
                       <input id="text" name="text" type="text" class="form-control" value="default value">
                     </div>
+                    <div class="form-group">
+                      <label for="text">Other recommended statements</label>
+                    </div>
+                  </form>
+                  <form class="form-inline">
+                     <div class="form-group">
+                      <input id="text" name="text" type="text" class="form-control" value="default value" style=""/>
+                      </div>
+                    <div class="form-group">
+                      <input id="text" name="text" type="text" class="form-control" value="default value"/>
+                    </div>
+                    <div class="form-group">
+                      <input id="text" name="text" type="text" class="form-control" value="default value"/>
+                      </div>
+                    </form>
                     <div class="button" >
                       <button name="submit" type="submit" class="btn btn-primary">Submit</button>   
                      </div>
