@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Input Box</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="CSS/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <h1>Input Box</h1>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="firstN">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" id="firstN">
+                    </div>
+                    <div class="col">
+                        <label for="lastN">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" id="lastN">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone"  placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="statement">Statement</label>
+                <textarea class="form-control" id="statement" rows="3" placeholder="Please check the NLP result for the statement before submit it."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="result">NLP Result</label>
+                <textarea class="form-control" id="result" rows="5" disabled="disabled"></textarea>
+            </div>
+            <br />
+            <button type="button" class="btn btn-success" onclick="nlp()">Get NLP Result</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <script src="script/index.js"></script>
+    </div>
+</body>
+</html>
