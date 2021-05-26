@@ -1,0 +1,15 @@
+﻿body{
+    background-color:bisque
+}
+
+.main{
+    width: 55%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3f3c3c
+}
