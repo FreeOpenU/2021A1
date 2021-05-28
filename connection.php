@@ -4,7 +4,7 @@
    $dbpass = 'xzsawq21xzsawq21';
    $dbname = 'D2021A1'
    
-   $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+   $con = new con($dbhost, $dbuser, $dbpass, $dbname);
    
    if ($con -> connect_errno) {
    echo "Failed to connect to MySQL: " . $con -> connect_error;
