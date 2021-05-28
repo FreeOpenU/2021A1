@@ -11,7 +11,7 @@
    exit();
    }
    
-   mysqli_query($con, "SELECT * FROM Form");
+   mysqli_query($conn, "SELECT * FROM Form");
    echo "Affected rows: " . mysqli_affected_rows($con);
 
 
