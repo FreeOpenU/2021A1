@@ -7,12 +7,12 @@
    $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
    
    if ($con -> connect_errno) {
-   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+   echo "Failed to connect to MySQL: " . $con -> connect_error;
    exit();
    }
    
    $sql = "SELECT * FROM Form";
-   $result -> $mysqli -> query($sql);
+   $result -> $con -> query($sql);
 
    // Fetch all
    $result -> fetch_all(MYSQLI_ASSOC);
@@ -20,5 +20,5 @@
    // Free result set
    $result -> free_result();
 
-   $mysqli -> close();
+   $con -> close();
 ?>
