@@ -4,16 +4,21 @@
    $dbpass = 'xzsawq21xzsawq21';
    $dbname = 'D2021A1'
    
-   $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+   $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
    
-   if (mysqli_connect_errno()) {
-   echo "Failed to connect to MySQL: " . mysqli_connect_error();
+   if ($con -> connect_errno) {
+   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
    exit();
    }
    
-   mysqli_query($con, "SELECT * FROM Form");
-   echo "Affected rows: " . mysqli_affected_rows($con);
+   $sql = "SELECT * FROM Form";
+   $result -> $mysqli -> query($sql);
 
+   // Fetch all
+   $result -> fetch_all(MYSQLI_ASSOC);
 
-   mysqli_close($con);
+   // Free result set
+   $result -> free_result();
+
+   $mysqli -> close();
 ?>
