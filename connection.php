@@ -1,6 +1,6 @@
 <?php
    $dbhost = 'localhost:3036';
-   $dbuser = 'd2021a';
+   $dbuser = 'd2021a1';
    $dbpass = 'xzsawq21xzsawq21';
    $dbname = 'D2021A1'
    
