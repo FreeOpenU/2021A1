@@ -1,27 +1,24 @@
 <?php
-    $dbhost = 'localhost:3036';
-    $dbuser = 'd2021a';
-    $dbpass = 'xzsawq21xzsawq21';
-    
-    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-    
-    if(! $conn ) {
-       die('Could not connect: ' . mysql_error());
-    }
-    $sql = 'SELECT broad_topic FROM Form';
-   mysql_select_db('D2021A1');
-   $retval = mysql_query( $sql, $conn );
+   $dbhost = 'localhost:3036';
+   $dbuser = 'd2021a1';
+   $dbpass = 'xzsawq21xzsawq21';
+   $dbname = 'D2021A1'
    
-   if(! $retval ) {
-      die('Could not get data: ' . mysql_error());
+   $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+   
+   if ($mysqli -> connect_errno) {
+   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+   exit();
    }
    
-   while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
-      echo "Broad Topic :{$row['broad_topic']}  <br> ".
-         "--------------------------------<br>";
-   }
-   
-   echo "Fetched data successfully\n";
-   
-   mysql_close($conn);
+   $sql = "SELECT * FROM Form";
+   $result -> $mysqli -> query($sql);
+
+   // Fetch all
+   $result -> fetch_all(MYSQLI_ASSOC);
+
+   // Free result set
+   $result -> free_result();
+
+   $mysqli -> close();
 ?>
