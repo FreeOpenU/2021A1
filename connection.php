@@ -1,27 +1,29 @@
 <?php
-    $dbhost = 'localhost:3036';
-    $dbuser = 'd2021a';
-    $dbpass = 'xzsawq21xzsawq21';
-    
-    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-    
-    if(! $conn ) {
-       die('Could not connect: ' . mysql_error());
-    }
-    $sql = 'SELECT broad_topic FROM Form';
-   mysql_select_db('D2021A1');
-   $retval = mysql_query( $sql, $conn );
-   
-   if(! $retval ) {
-      die('Could not get data: ' . mysql_error());
-   }
-   
-   while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
-      echo "Broad Topic :{$row['broad_topic']}  <br> ".
-         "--------------------------------<br>";
-   }
-   
-   echo "Fetched data successfully\n";
-   
-   mysql_close($conn);
+$servername = "localhost";
+$username = "d2021a";
+$password = "xzsawq21xzsawq21";
+$dbname = "D2021A1";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM Form";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+  //  echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+echo '<pre>'; print_r($row); echo '</pre>';
+echo $row;
+  }
+ echo "results";
+} else {
+  echo "0 results";
+}
+$conn->close();
 ?>

@@ -20,7 +20,7 @@
       <hr style="height:5px;width:250px;margin-left: 220px;background-color:#2F4F4F">
       </div>
       <div class="container" style="padding: 50px;">
-        <form>
+        <form action="connection.php" method="post">
           <div class="form-group">
             <label for="broadtopic_field" style="margin-top:20px;">Broad Topic</label>
             <input id="broadtopic_field" name="topic_field" type="text" value="default value" class="form-control">
@@ -37,6 +37,7 @@
           <div class="form-group">
             Choose from the topics:
             <select id="topic_field" name="topic_field" class="custom-select">
+              
               <option value="Topic1">Topic1</option>
               <option value="Topic2">Topic2</option>
               <option value="Topic3">Topic3</option>
@@ -45,14 +46,17 @@
           </div>
 
           <div class="form-group">
-            Choose:
+            <label for="analyze" style="margin-top:20px;">Analyze</label>:
             <select id="choice" name="choice_field" class="custom-select">
-              <option value="Sentences">Sentence</option>
-              <option value="Words">Word</option>
+              <option value="All">All</option>
+              <option value="Sentence">Sentences</option>
+              <option value="Word">Words</option>
+              <option value="Paragraph">Paragraph</option>
             </select>
             </div>
-        <div class = "form-group" id = sentence_relationship>
-            <label for="sentence1_field">Sentence 1</label>
+        <div class = "form-group" id = "sentence_relationship">
+            <h2 for="sentencerelation" ><strong>Sentence Relationship</strong></h2>
+            <label for="sentence1_field" style="margin-top:20px;">Sentence 1</label>
             <input id="sentence1_field" name="sentence1_field" placeholder="Enter your first sentence here..." type="text" value="default value" class="form-control">
 
           
@@ -65,12 +69,19 @@
                 <option value="juxtapose">juxtapose</option>
               </select>
             
-          
-          
-            <label for="sentence2_field">Sentence 2</label>
+            <label for="sentence2_field" style="margin-top:5px;">Sentence 2</label>
             <input id="sentence2_field" name="sentence2_field" placeholder="Enter your second sentence here..." type="text" value="default value" class="form-control">
             <div class="form-group">
-            <label for="text">Other recommended statements</label>
+            <h2 for="sentencetransitions"><strong>Sentence-Level Transitions</strong></h2>
+            <label for="connections" style="margin-top:5px;">Connections between the ideas of the above two sentences</label>
+             To Show <select id ="connection_field"name = "connection_field" class = "custom-select" style="margin-top:5px;">
+                <option value="in relation to">Similarity</option>
+                <option value="thus">Contrast</option>
+                <option value="therefore">Exemplify</option>
+                <option value="proving">Cause and Effect</option>
+                <option value="hence">Additional Support</option> 
+              </select>
+            <label for="text" style="margin-top:5px;">Other connecting words that show the same include</label>
           </div>
 
           <div class="form-inline">
@@ -86,10 +97,11 @@
           </div>
           </div>
           <div class="form-group" id="word_insight">
-            <label for="word_field">Word</label>
-            <input id="word_field" name="word_field" placeholder="Enter your word here..." type="text" value="default value" class="form-control">
+            <label for="word_field" style="margin-top:10px;">Enter the word</label>
+            <input id="word_field" name="word_field" placeholder="Enter your word here..." type="text" class="form-control">
 
-          
+            <label for="word_meaning" style="margin-top:10px;">Meaning of word in the context</label>
+            <input id="word_meaning" name="word_meaning" placeholder="Enter meaning here..." type="text"  class="form-control">
           <div class="form-group">
             <label for="text">Word Synonyms</label>
           </div>
@@ -107,8 +119,30 @@
             </div>
     
           </div>
+
+          <div class = "form-group" id = "paragraph_analyze">
+            
+              <label for="paragraph" style="margin-top:10px;">Enter paragraph/phrase</label>
+              <div>
+              <textarea id="paragraph" for="paragraph" style="margin-top:5px;" placeholder="Enter text here..."></textarea>
+              </div>
+            <div>
+              <label for="diction" style="margin-top:10px;">Type of dictions used by author</label>
+              <input id="diction1_field" name="diction1_field" type="text" class="form-control" value="default value" style="" />
+              <input id="diction2_field" name="diction2_field" type="text" class="form-control" value="default value" style="" />
+              <input id="diction3_field" name="diction3_field" type="text" class="form-control" value="default value" style="" />
+              
+            </div>
+            <div>
+              <label for="tone" style="margin-top:5px;">Tone created by the author</label>
+              <input id="tone1_field" name="tone1_field" type="text" class="form-control" value="default value" style="" />
+              <input id="tone2_field" name="tone2_field" type="text" class="form-control" value="default value" style="" />
+              <input id="tone3_field" name="tone3_field" type="text" class="form-control" value="default value" style="" />
+            </div>
+           </div>
+
           <div class="form-group">
-            <label for="text">Author</label>
+            <label for="text" style="margin-top:5px;">Author</label>
             <input id="text" name="text" type="text" class="form-control" value="default value">
           </div>
           

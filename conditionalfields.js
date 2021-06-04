@@ -1,11 +1,15 @@
 $(document).ready(function(){
-    $('#choice_field, #sentence_relationship').show();
-    $('#word_insight').hide();
     
     $('#choice').change(function () {
         var selected = $('#choice option:selected').text();
-        $('#sentence_relationship').toggle(selected == "Sentence");
-        $('#word_insight').toggle(selected == "Word");
+        if(selected=="All"){
+            $('#sentence_relationship, #word_insight').show();
+        }
+        else{
+        $('#sentence_relationship').toggle(selected == "Sentences");
+        $('#word_insight').toggle(selected == "Words");
+        $('#paragraph_analyze').toggle(selected == "Paragraph");
+        }
     });
     
     });

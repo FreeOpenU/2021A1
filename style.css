@@ -14,11 +14,18 @@
     .sticky{
         font-size: 17px;
     }
-
+    #header{
+      position: fixed; /* Fixed position - sit on top of the page */
+      transition: 0.2s; /* a transition effect (when scrolling - and font size is decreased) */
+    }
     h1 {
 
       background-color: #ffdb58;
       
+    }
+    h2 {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 15px;
     }
 
     .form-group {
