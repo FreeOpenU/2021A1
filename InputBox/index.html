@@ -9,38 +9,38 @@
 <body>
     <div class="main">
         <h1>Input Box</h1>
-        <form>
+        <form name="myform" method="post" action="php/database.php" onsubmit = "return myValidation()">
             <div class="form-group">
                 <div class="row">
                     <div class="col">
                         <label for="firstN">First Name</label>
-                        <input type="text" class="form-control" placeholder="First name" id="firstN">
+                        <input type="text" class="form-control" placeholder="First name" id="firstN" name="firstN">
                     </div>
                     <div class="col">
                         <label for="lastN">Last Name</label>
-                        <input type="text" class="form-control" placeholder="Last name" id="lastN">
+                        <input type="text" class="form-control" placeholder="Last name" id="lastN" name="lastN">
                     </div>
                 </div>
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email">
             </div>
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" id="phone"  placeholder="Phone Number">
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">
             </div>
             <div class="form-group">
                 <label for="statement">Statement</label>
-                <textarea class="form-control" id="statement" rows="3" placeholder="Please check the NLP result for the statement before submit it."></textarea>
+                <textarea class="form-control" id="statement" name="statement" rows="3" placeholder="Please check the NLP result for the statement before submit it."></textarea>
             </div>
             <div class="form-group">
                 <label for="result">NLP Result</label>
-                <textarea class="form-control" id="result" rows="5" disabled="disabled"></textarea>
+                <textarea class="form-control" id="result" name="result" rows="5" ></textarea>
             </div>
             <br />
             <button type="button" id="nlp" class="btn btn-success">Get NLP Result</button>
-            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="submit" class="btn btn-primary" disabled="disabled">Submit</button>
         </form>
         <script src="script/index.js"></script>
     </div>
