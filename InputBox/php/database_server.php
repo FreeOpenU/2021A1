@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['statement'])){
 	// $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-	$con = mysqli_connect('localhost', 'root', '','inputbox');
+	$con = mysqli_connect('localhost:3306', 'feiyi', 'iamfeiyi21@','2021A2');
 
 		// get the post records
 
@@ -10,7 +10,7 @@ if(isset($_POST['statement'])){
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$statement = $_POST['statement'];
-	
+
 	$cmd = 'curl --data "' . $statement . '" http://66.76.242.198:9888/';
 	$output = shell_exec($cmd);
 
@@ -22,7 +22,6 @@ if(isset($_POST['statement'])){
 	if($rs)
 	{
 		echo "Statement received!";
-		echo "<pre>$output</pre>";
 	}
 }
 else{
