@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$broad_topic = mysqli_real_escape_string($conn, $_POST['broadtopic_field']);
+$broad_topic = mysqli_real_escape_string($conn, $_POST['word_meaning']);
 $sql = "INSERT INTO Form (broad_topic) VALUES ('$broad_topic')";
 $result = $conn->query($sql);
 print_r($_POST);
