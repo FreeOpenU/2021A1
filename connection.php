@@ -11,13 +11,13 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$broad_topic = mysqli_real_escape_string($conn, $_POST['broad_topic']);
+$broad_topic = mysqli_real_escape_string($conn, $_POST['broadtopic_field']);
 $sql = "INSERT INTO Form (broad_topic) VALUES ('$broad_topic')";
 $result = $conn->query($sql);
 
 if ($result === TRUE) {
   // output data of each row
-  echo "Data inserted succesfully"
+  echo "Data inserted succesfully";
  
 } else {
   echo "Error";
