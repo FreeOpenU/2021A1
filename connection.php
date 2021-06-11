@@ -11,19 +11,16 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM Form";
+$broad_topic = mysqli_real_escape_string($conn, $_POST['broad_topic']);
+$sql = "INSERT INTO Form (broad_topic) VALUES ('$broad_topic')";
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+if ($result === TRUE) {
   // output data of each row
-  while($row = $result->fetch_assoc()) {
-  //  echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
-echo '<pre>'; print_r($row); echo '</pre>';
-echo $row;
-  }
- echo "results";
+  echo "Data inserted succesfully"
+ 
 } else {
-  echo "0 results";
+  echo "Error";
 }
 $conn->close();
 ?>
