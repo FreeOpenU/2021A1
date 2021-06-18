@@ -14,7 +14,7 @@ if(isset($_POST['statement'])){
 	$cmd = 'curl --data "' . $statement . '" http://66.76.242.198:9888/';
 	$output = shell_exec($cmd);
 
-	echo $output;
+	//echo $output;
 
 	// database insert SQL code
 	$sql = "INSERT INTO `input` (`firstName`, `lastName`, `email`, `phone`, `statement`, `result`) 
