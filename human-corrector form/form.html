@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/conditionalfields.js"></script>
+    <script src="JS/buttontoaddtextfield.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>Form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+    <body>
+     <div class="header" >
+        <h1 style="padding-left: 220px; ">Human Corrector Form</h1>
+        <hr style="height:5px;width:450px; margin-left: 220px;background-color:grey">
+        <hr style="height:5px;width:350px; margin-left: 220px;background-color:#778899">
+        <hr style="height:5px;width:250px;margin-left: 220px;background-color:#2F4F4F">
+     </div>
+     <div class="container" style="padding: 50px;" >
+        <form id="myForm" action="connection.php" method="post">
+          <div class="form-group">
+            <label for="broadtopic_field" style="margin-top:20px;">Broad Topic</label>
+            <input id="broadtopic_field" name="broadtopic_field" type="text" value="default value" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="subject_field">Subject</label>
+            <input id="subject_field" name="subject_field" type="text" value="default value" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="chapter_field">Chapter</label>
+            <input id="chapter_field" name="chapter_field" type="text" value="default value" class="form-control">
+          </div>
+
+          <div class="form-group">
+            Choose from the topics:
+            <select id="topic_field" name="topic_field" class="custom-select">
+              
+              <option value="Topic1">Topic1</option>
+              <option value="Topic2">Topic2</option>
+              <option value="Topic3">Topic3</option>
+              <option value="Topic4">Topic4</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="analyze" style="margin-top:20px;">Analyze</label>:
+            <select id="choice" name="choice_field" class="custom-select">
+              <option value="All">All</option>
+              <option value="Sentence">Sentences</option>
+              <option value="Word">Words</option>
+              <option value="Paragraph">Paragraph</option>
+            </select>
+          </div>
+
+         <div class = "form-group" id = "sentence_relationship">
+            <h2 for="sentencerelation" ><strong>Sentence Relationship</strong></h2>
+            <label for="sentence1_field" style="margin-top:20px;">Sentence 1</label>
+            <input id="sentence1_field" name="sentence1_field" placeholder="Enter your first sentence here..." type="text" value="default value" class="form-control">
+            <select id="conjunctive_field" name="relationship_field" class="custom-select">
+              <option value="in relation to">in relation to</option>
+              <option value="thus">thus</option>
+              <option value="therefore">therefore</option>
+              <option value="proving">proving</option>
+              <option value="hence">hence</option>
+              <option value="juxtapose">juxtapose</option>
+            </select>
+            
+            <label for="sentence2_field" style="margin-top:5px;">Sentence 2</label>
+            <input id="sentence2_field" name="sentence2_field" placeholder="Enter your second sentence here..." type="text" value="default value" class="form-control">
+              <div class="form-group">
+                <h2 for="sentencetransitions"><strong>Sentence-Level Transitions</strong></h2>
+                <label for="connections" style="margin-top:5px;">Connections between the ideas of the above two sentences</label>
+                To Show <select id ="connection_field"name = "connection_field" class = "custom-select" style="margin-top:5px;">
+                    <option value="Similarity">Similarity</option>
+                    <option value="Contrast">Contrast</option>
+                    <option value="Exemplify">Exemplify</option>
+                    <option value="Cause and Effect">Cause and Effect</option>
+                    <option value="Additional Support">Additional Support</option> 
+                  </select>
+                <label for="text" style="margin-top:5px;">Other connecting words that show the same include</label>
+             </div>
+
+            <div class="form-group">
+              <button id="add1" type="button" name="add1">Add</button>
+              <input id="statement1_field" name="statement_field" type="text" class="form-control" value="default value" />
+              <div id="new_chq"></div>
+              <input type="hidden" value="1" id="total_chq">
+            </div>
+          </div>
+          
+          <div class="form-group" id="word_insight">
+            <h2 for="wordrelation" ><strong>Analyzing Word</strong></h2>
+            <label for="word_field" style="margin-top:10px;">Enter the word</label>
+            <input id="word_field" name="word_field" placeholder="Enter your word here..." type="text" class="form-control">
+
+            <label for="word_meaning" style="margin-top:10px;">Meaning of word in the context</label>
+            <input id="word_meaning" name="word_meaning" placeholder="Enter meaning here..." type="text"  class="form-control">
+          <div class="form-group">
+            <label for="text">Word Synonyms</label>
+          </div>
+            <div class="form-group">
+              <button id="add2" type="button">Add</button>
+              <input id="word1_field" name="word1_field" type="text" class="form-control" value="default value"/>
+              <div id="new_wrd"></div>
+              <input type="hidden" value="1" id="total_wrd">
+            </div>
+          </div>
+
+          <div class = "form-group" id = "paragraph_analyze">
+              <h2 for="wordrelation" ><strong>Analyzing Paragraph</strong></h2>
+              <label for="paragraph" style="margin-top:10px;">Enter paragraph/phrase</label>
+              <div>
+              <textarea id="paragraph" for="paragraph" style="margin-top:5px;" placeholder="Enter text here..."></textarea>
+              </div>
+          <div>
+              <label for="diction" style="margin-top:10px;">Type of dictions used by author</label>
+              <div><button id="add4" type="button">Add</button></div>
+              <input id="diction1_field" name="diction1_field" type="text" class="form-control" value="default value"/>
+              <div id="new_diction"></div>
+              <input type="hidden" value="1" id="total_diction">
+              
+            </div>
+            <div>
+              <label for="tone" style="margin-top:5px;">Tone created by the author</label>
+               <div><button id="add3" type="button">Add</button></div>
+              <input id="tone1_field" name="tone1_field" type="text" class="form-control" value="default value"/>
+              <div id="new_tone"></div>
+              <input type="hidden" value="1" id="total_tone">
+            </div>
+           </div>
+
+          <div class="form-group">
+            <label for="text" style="margin-top:5px;">Author</label>
+            <input id="text" name="text" type="text" class="form-control" value="default value">
+          </div>
+          
+          <div class="button">
+            <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+
+
+    </body>
+
+</html>
