@@ -22,29 +22,41 @@ $sen1 = $conn -> real_escape_string($_POST['sentence1_field']);
 $rel = $conn -> real_escape_string($_POST['relationship_field']);
 $sen2 = $conn -> real_escape_string($_POST['sentence2_field']);
 $connect = $conn -> real_escape_string($_POST['connection_field']);
-$conword1 = $conn -> real_escape_string($_POST['statement_field']);
+$conword1 = array($_POST['statement_field']);
+$author = $conn -> real_escape_string($_POST['author']);
+$word = $conn -> real_escape_string($_POST['word_field']);
+$wordmean = $conn -> real_escape_string($_POST['word_meaning']);
+$wordsyn = array($_POST['wordsyn_field']);
+$para = $_POST['para_field'];
+$dict = array($_POST['diction_field']);
+$tone = array($_POST['tone_field']);
 
-//$count =0;
-// if(isset($_POST['add1']))
+//print_r($_POST);
 
-// {   $count+=1;
-//     $n = "s"+$count;
-//     $sq = "ALTER TABLE Form ADD "+$n+" varchar(225) NOT NULL AFTER conn_word1;"
-//     $txt=$_POST["statement_field"];
-//     $c = $conn -> query($sq);
-//     $new = $conn -> real_escape_string($_POST['s'+$count]);
+foreach($conword1 as $v1){
+  $conwrd= implode(", ",$v1); 
+}
+foreach($wordsyn as $v2){
+  $syn= implode(", ",$v2); 
+}
+foreach($dict as $v3){
+  $diction= implode(", ",$v3); 
+}
+foreach($tone as $v4){
+  $tne= implode(", ",$v4); 
+}
+foreach($array as $v5){
+  $txt = implode("\n",$v5);
+}
+$sql = "INSERT INTO Form (broad_topic, subject, chapter, topics, choices, sentence1, relationship, sentence2, connection, conn_word1, author, word, wrd_mean, word_syn, para, dict, tone) VALUES ('$broadtopic','$subjec', '$chapt', '$topic', '$choice', '$sen1','$rel', '$sen2', '$connect' , '$conwrd', '$author', '$word' , '$wordmean' , '$syn' , '$para' , '$diction' , '$tne');";
 
-// }
-$sql = "INSERT INTO Form (broad_topic, subject, chapter, topics, choices, sentence1, relationship, sentence2, connection, conn_word1) VALUES ('$broadtopic','$subjec', '$chapt', '$topic', '$choice', '$sen1','$rel', '$sen2', '$connect' , '$conword1')";
-print_r($_POST);
+
 if ($conn -> query($sql)) {
   echo "Data inserted succesfully";
- 
 } else {
   echo "Error";
   echo("Error description: " . $conn -> error);
 }
-
 
 $conn->close();
 ?>
