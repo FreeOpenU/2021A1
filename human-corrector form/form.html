@@ -20,7 +20,8 @@
         <hr style="height:5px;width:350px; margin-left: 220px;background-color:#778899">
         <hr style="height:5px;width:250px;margin-left: 220px;background-color:#2F4F4F">
      </div>
-     <div class="container" style="padding: 50px;" >
+      <div class="container" style="padding: 50px;" >
+      
         <form id="myForm" action="connection.php" method="post">
           <div class="form-group">
             <label for="broadtopic_field" style="margin-top:20px;">Broad Topic</label>
@@ -85,13 +86,14 @@
              </div>
 
             <div class="form-group">
+            
               <button id="add1" type="button" name="add1">Add</button>
-              <input id="statement1_field" name="statement_field" type="text" class="form-control" value="default value" />
-              <div id="new_chq"></div>
-              <input type="hidden" value="1" id="total_chq">
+              <input id="statement_field" name="statement_field[]" type="text" class="form-control" value="default value" />
+              <div id="new_statement"> </div>
+           
             </div>
           </div>
-          
+
           <div class="form-group" id="word_insight">
             <h2 for="wordrelation" ><strong>Analyzing Word</strong></h2>
             <label for="word_field" style="margin-top:10px;">Enter the word</label>
@@ -99,43 +101,43 @@
 
             <label for="word_meaning" style="margin-top:10px;">Meaning of word in the context</label>
             <input id="word_meaning" name="word_meaning" placeholder="Enter meaning here..." type="text"  class="form-control">
-          <div class="form-group">
-            <label for="text">Word Synonyms</label>
-          </div>
             <div class="form-group">
-              <button id="add2" type="button">Add</button>
-              <input id="word1_field" name="word1_field" type="text" class="form-control" value="default value"/>
-              <div id="new_wrd"></div>
-              <input type="hidden" value="1" id="total_wrd">
+              <label for="text">Word Synonyms</label>
             </div>
-          </div>
-
+            <div class="form-group">
+              
+              <button id="add2" type="button">Add</button>
+              <input id="wordsyn_field" name="wordsyn_field[]" type="text" class="form-control" value="default value"/>
+              <div id="new_wordsyn"></div>
+              
+              </div>
+            </div>
           <div class = "form-group" id = "paragraph_analyze">
               <h2 for="wordrelation" ><strong>Analyzing Paragraph</strong></h2>
               <label for="paragraph" style="margin-top:10px;">Enter paragraph/phrase</label>
               <div>
-              <textarea id="paragraph" for="paragraph" style="margin-top:5px;" placeholder="Enter text here..."></textarea>
+              <textarea id="para_field" name="para_field" style="margin-top:5px;" class="form-control" type="text" placeholder="Enter text here..."></textarea>
               </div>
-          <div>
+             <div>
               <label for="diction" style="margin-top:10px;">Type of dictions used by author</label>
-              <div><button id="add4" type="button">Add</button></div>
-              <input id="diction1_field" name="diction1_field" type="text" class="form-control" value="default value"/>
+              <div><button id="add3" type="button">Add</button></div>
+              <input id="diction_field" name="diction_field[]" type="text" class="form-control" value="default value"/>
               <div id="new_diction"></div>
-              <input type="hidden" value="1" id="total_diction">
               
-            </div>
+             </div>
             <div>
               <label for="tone" style="margin-top:5px;">Tone created by the author</label>
-               <div><button id="add3" type="button">Add</button></div>
-              <input id="tone1_field" name="tone1_field" type="text" class="form-control" value="default value"/>
+              <div><button id="add4" type="button">Add</button></div>
+              <input id="tone_field" name="tone_field[]" type="text" class="form-control" value="default value"/>
               <div id="new_tone"></div>
-              <input type="hidden" value="1" id="total_tone">
-            </div>
+              
+            
+           </div>
            </div>
 
           <div class="form-group">
-            <label for="text" style="margin-top:5px;">Author</label>
-            <input id="text" name="text" type="text" class="form-control" value="default value">
+            <label for="author" style="margin-top:5px;">Author</label>
+            <input id="author" name="author" type="text" class="form-control" value="default value">
           </div>
           
           <div class="button">
