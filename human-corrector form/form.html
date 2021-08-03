@@ -14,12 +14,16 @@
     <link rel="stylesheet" href="CSS/style.css">
   </head>
     <body>
+	<div class="header-container">
+	 
      <div class="header" >
-        <h1 style="padding-left: 220px; ">Human Corrector Form</h1>
-        <hr style="height:5px;width:450px; margin-left: 220px;background-color:grey">
-        <hr style="height:5px;width:350px; margin-left: 220px;background-color:#778899">
-        <hr style="height:5px;width:250px;margin-left: 220px;background-color:#2F4F4F">
+		<img class="rawsb-logo" src="img/rawsbtech_logo.png">
+        <h1 class="human-corrector-form-title">Human Corrector Form</h1>
+        <hr class="line1">
+        <hr class="line2">
+        <hr class="line3">
      </div>
+	</div>
       <div class="container" style="padding: 50px;" >
       
         <form id="myForm" action="connection.php" method="post">
@@ -38,6 +42,7 @@
 
           <div class="form-group">
             Choose from the topics:
+			<br/>
             <select id="topic_field" name="topic_field" class="custom-select">
               
               <option value="Topic1">Topic1</option>
@@ -49,6 +54,7 @@
 
           <div class="form-group">
             <label for="analyze" style="margin-top:20px;">Analyze</label>:
+			<br/>
             <select id="choice" name="choice_field" class="custom-select">
               <option value="All">All</option>
               <option value="Sentence">Sentences</option>
@@ -58,10 +64,13 @@
           </div>
 
          <div class = "form-group" id = "sentence_relationship">
+			<br/>
+			<br/>
             <h2 for="sentencerelation" ><strong>Sentence Relationship</strong></h2>
-            <label for="sentence1_field" style="margin-top:20px;">Sentence 1</label>
+            <label for="sentence1_field" style="margin-top:10px;">Sentence 1</label>
             <input id="sentence1_field" name="sentence1_field" placeholder="Enter your first sentence here..." type="text" value="default value" class="form-control">
-            <select id="conjunctive_field" name="relationship_field" class="custom-select">
+            <br/>
+			<select id="conjunctive_field" name="relationship_field" class="custom-select">
               <option value="in relation to">in relation to</option>
               <option value="thus">thus</option>
               <option value="therefore">therefore</option>
@@ -69,30 +78,39 @@
               <option value="hence">hence</option>
               <option value="juxtapose">juxtapose</option>
             </select>
-            
+            <br/>
+			<br/>
             <label for="sentence2_field" style="margin-top:5px;">Sentence 2</label>
             <input id="sentence2_field" name="sentence2_field" placeholder="Enter your second sentence here..." type="text" value="default value" class="form-control">
-              <div class="form-group">
+
+          </div>
+		<div class="form-group">
+			    <br/>
                 <h2 for="sentencetransitions"><strong>Sentence-Level Transitions</strong></h2>
-                <label for="connections" style="margin-top:5px;">Connections between the ideas of the above two sentences</label>
-                To Show <select id ="connection_field"name = "connection_field" class = "custom-select" style="margin-top:5px;">
+                <label class="long-text" for="connections" style="margin-top:5px;">Connections between the ideas of the above two sentences</label>
+				<br/>
+				<br/>
+                To Show
+				<br/>
+				<select id ="connection_field"name = "connection_field" class = "custom-select" style="margin-top:5px;">
                     <option value="Similarity">Similarity</option>
                     <option value="Contrast">Contrast</option>
                     <option value="Exemplify">Exemplify</option>
                     <option value="Cause and Effect">Cause and Effect</option>
                     <option value="Additional Support">Additional Support</option> 
                   </select>
-                <label for="text" style="margin-top:5px;">Other connecting words that show the same include</label>
+				  <br/>
+				  <br/>
+                <label class="long-text" for="text" style="margin-top:5px;">Other connecting words that show the same include</label>
              </div>
 
             <div class="form-group">
             
-              <button id="add1" type="button" name="add1">Add</button>
+              <button id="add1" type="button" name="add1" style="margin-bottom:5px;">Add</button>
               <input id="statement_field" name="statement_field[]" type="text" class="form-control" value="default value" />
               <div id="new_statement"> </div>
            
             </div>
-          </div>
 
           <div class="form-group" id="word_insight">
             <h2 for="wordrelation" ><strong>Analyzing Word</strong></h2>
@@ -101,17 +119,18 @@
 
             <label for="word_meaning" style="margin-top:10px;">Meaning of word in the context</label>
             <input id="word_meaning" name="word_meaning" placeholder="Enter meaning here..." type="text"  class="form-control">
-            <div class="form-group">
+  
+            </div>
+			          <div class="form-group">
               <label for="text">Word Synonyms</label>
             </div>
             <div class="form-group">
               
-              <button id="add2" type="button">Add</button>
+              <button id="add2" type="button" style="margin-bottom:5px;">Add</button>
               <input id="wordsyn_field" name="wordsyn_field[]" type="text" class="form-control" value="default value"/>
               <div id="new_wordsyn"></div>
               
               </div>
-            </div>
           <div class = "form-group" id = "paragraph_analyze">
               <h2 for="wordrelation" ><strong>Analyzing Paragraph</strong></h2>
               <label for="paragraph" style="margin-top:10px;">Enter paragraph/phrase</label>
@@ -120,14 +139,14 @@
               </div>
              <div>
               <label for="diction" style="margin-top:10px;">Type of dictions used by author</label>
-              <div><button id="add3" type="button">Add</button></div>
+              <div><button id="add3" type="button" style="margin-bottom:5px;">Add</button></div>
               <input id="diction_field" name="diction_field[]" type="text" class="form-control" value="default value"/>
               <div id="new_diction"></div>
               
              </div>
             <div>
               <label for="tone" style="margin-top:5px;">Tone created by the author</label>
-              <div><button id="add4" type="button">Add</button></div>
+              <div><button id="add4" type="button" style="margin-bottom:5px;">Add</button></div>
               <input id="tone_field" name="tone_field[]" type="text" class="form-control" value="default value"/>
               <div id="new_tone"></div>
               
@@ -143,6 +162,8 @@
           <div class="button">
             <button name="submit" type="submit" class="btn btn-primary">Submit</button>
           </div>
+		  		  <br/>
+		  <br/>
         </form>
       </div>
 
