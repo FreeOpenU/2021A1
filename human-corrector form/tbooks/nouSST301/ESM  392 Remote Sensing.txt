@@ -1,0 +1,1300 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: ESM 392 COURSE TITLE: REMOTE SENSING AND RADIATION PRINCIPLES MODULE 1 [INTRODUCTION TO REMOTE SENSING AND RADIATION PRINCIPLES] Unit 1: Overview 1.0 Introduction This lesson will provide an overview of remote sensing process.
+As such, it is aimed at introducing the students to the science, art and technology of Remote Sensing (RS).
+The course covers the principles of remote sensing, radiation principles, imaging systems, geometry of air photographs aerial photo interpretation and the principles of digital image processing, etc.
+The synopsis of the course contents is presented below.
+2.0 Objectives 1.
+To formerly introduce the students to the science and technology of remote sensing 2.
+To give an outline of the entire course 3.
+To expose the students to the practical issues and the relevance of the course in problem solving.
+3.0 Main Body 3.1 Introduction to Remote Sensing The science of remote sensing has emerged as one of the most fascinating subjects over the past four decades.
+Earth observation from space through various remote sensing instruments has provided a vantage means of monitoring land surface dynamics, natural resources management, and the overall state of the environment itself (Joseph, 2005).
+Practically, our eyes and cameras are familiar means of obtaining remote sensing information about a distant object without having physical contact.
+Aerial photographs have been used for years to improve the accuracy of surface maps faster and more cheaply than can be done by on-site surveys.
+Deriving accurate measurements from photographs is the realm of photogrammetry, an important application of remote sensing.
+Remote sensing techniques allow taking images of the earth surface in various wavelength regions of the electromagnetic spectrum (EMS).
+One of the major characteristics of a remotely sensed image is the wavelength region it represents in the EMS.
+Some of the images represent reflected solar radiation in the visible and the near infrared regions of the electromagnetic spectrum, others are the measurements of the energy emitted by the earth surface itself i.e.
+in the thermal infrared wavelength region (Aggarwal, URL).
+The energy measured in the microwave region is the measure of relative return from the earth’s surface, where the energy is transmitted from the vehicle itself.
+This is known as active remote sensing, since the energy source is provided by the remote sensing platform.
+Whereas the systems where the remote sensing measurements depend upon the external energy source, such as sun are referred to as passive remote sensing systems.
+According to Lillisand and Kiefer (1999) Electromagnetic remote sensing involves 2 basic processes namely: data acquisition and data analysis.
+The data acquisition component include energy sources; propagation of energy through the atmosphere; energy interaction with earth surface features; retransmission of energy through the atmosphere; airborne and space borne sensors and generation of sensor data in pictorial and/or digital form.
+On the other hand, the data analysis process has to do with examining the data using various viewing and interpretation instruments/devices to analyze the acquired data.
+Maps and other data layers/tables may result from the analysis which may be used along with other data in a GIS to support decision.
+This course is designed on the one hand to introduce the students to remote sensing.
+The main aim is to equip the student with basic knowledge of the technology including the application issues.
+At the end of the course the student would have sufficiently learned quite a lot of things about remote sensing, including: • Meaning and Definition of Remote Sensing • Principles of Remote Sensing • Historical development of Development • Electromagnetic Radiation and the Radiation Principles • Remote Sensing Imaging Systems • Remote Sensing Data • Air photo Interpretation • Principles of Digital Image Processing • Applications of Remote Sensing • Issues in the implementation of a Remote Sensing Project.
+The Course is structured in modular format; hence the entire Course is divided into five (5) modules.
+Each module treats a particular theme associated with remote sensing.
+Also, each module is sub-divided into Units; there are five (5) Units in each module.
+The discussions in each Unit, though rich in content are not exhaustive.
+Therefore, some reference materials as well as other resources for further reading are given at the end of each Unit.
+4.0 Conclusion The science of remote sensing Remote Sensing is relatively new, at least within the Nigerian context.
+The students should therefore, be ready to learn some new terminologies, concepts and methods of managing spatial data in a computer environment.
+Importantly, the students should pay particular attention to the peculiarities and potentialities and, hence, practical applications of remote sensing.
+5.0 Summary This course is all about introducing the student to the principles of remote sensing.
+The course has been organised in a somewhat logical manner.
+There are (5) modules; each module, contains a number of units of interrelated issues.
+To fully understand and appreciate the art and science of remote sensing the student needs to consult the library extensively.
+6.0 References/Further Reading Aggarwal, S. (URL) Principles of Remote Sensing, Photogrammetry and Remote Sensing Division, Indian Institute of Remote Sensing, Dehra Dun.
+American Society of Phogrammetry(ASP), Manual of Remote Sensing, 2nd ed., ASP, Falls Church, VA, 1993.
+Christopherson,R.W.
+(1994) Geosystems: An Introduction to Physical Geography.
+6th Edition.
+New Jersey: Prentice hall.
+Fundamentals of Remote Sensing- A Canada Center for Remote Sensing Tutorial, (Prentice- Hall, New Jersey).
+Getis, A., Getis, J., Fellman,J.
+(2000) Introduction to Geography.
+7th Edition.
+McGraw Hill, New York.
+Joseph, G.(2005) Fundamentals of Remote Sensing, 2nd edition, Universities press (India) private Ltd.
+Nirjhon,R.
+(URL) Introduction and Scope of Remote Sensing.
+http://raselnirjhon.hubpages.com/hub/-introduction-and-scope-of-Remote-Sensing.
+Sharkov,E.A.
+(2003) Passive Microwave Remote Sensing of the Earth: Physical Foundations.
+Praxis Publishing LTD, Chichester, UK.
+Schowengerdt, R.A.(2006), Remote Sensing Models and Methods for image processing, 2nd edition, Elsevier publication.
+Unit 2 Electromagnetic Radiation 1.0 Introduction This lesson is aimed at introducing the students to the electromagnetic energy which is considered the main source of energy for remote sensing.
+According to Whittow (1984) electromagnetic energy (EME) (also known as electromagnetic radiation (EMR) is the propagation of radiant energy in a variety of classes which differ only in wavelength, during which electric and magnetic fields vary simultaneously.
+The classes of EMR are gamma radiation; X-rays; ultraviolet; visible radiation; infrared radiation; microwaves and radio waves.
+In this unit, these shall be considered with emphasis on the visible light.
+2.0 Objectives 1.
+To expose the students to the source of energy for remote sensing 2.
+To get the students to be acquainted with the idea of electromagnetic energy and the spectrum.
+3.0 Main Body 3.1 Electromagnetic Radiation Remote sensing requires energy source to illuminate the target.
+Some remote sensors are passive while others are active.
+The passive sensors utilize the energy from the sun for its activities, while the active ones generate their energy for the sensing process.
+This energy from the sun (also called solar energy/radiation) is in the form of electromagnetic radiation.
+All electromagnetic radiation has fundamental properties and behaves in predictable ways according to the basics of wave theory.
+Electromagnetic radiation has electrical field (E) which varies in magnitude in a direction perpendicular to the direction in which the radiation travels, and a magnetic field (M) oriented at right angles to the electrical field.
+Both fields travel at the speed of light (c) (Figure 1.1).
+Figure 1.1: The Electric and Magnetic Fields of the Electromagnetic Energy Source: Short (URL) 3.1.1 Wavelength and Frequency In understanding the electromagnetic radiation, two of its are particularly important.
+These include the wavelength and frequency.
+Wavelength is the distance between one wave peak and the other.
+Wavelength is usually represented by the Greek letter lambda ((cid:1)).
+The longer the wavelength the lesser the energy content and vice versa.
+Wavelength is measured in metres (m) or some factor of metres such as nanometres (nm, 10-9 metres), micrometres ((cid:1)m, 10-6 metres) or centimetres (cm, 10-2 metres).
+This is illustrated in the diagram in Figure 1.2  Figure 1.2: The Electromagnetic Wavelength Source: Short (URL) On the other hand, Frequency is the number (cycle of wave) of wave peaks that passes through a fixed point per unit time.
+It is measured in hertz (Hz), which is equivalent to one cycle per second, and various multiples of hertz.
+Wavelength and frequency are related by the following formula: 3.2 The Electromagnetic Spectrum Substances with temperature above what is known as absolute zero (-273oC or 0oK) are considered capable of emitting radiations if circumstance are right.
+But temperatures below absolute zero are not believed to exist.
+The array of wavelength ranges within which earth surface features react to incident radiation describes the electromagnetic spectrum.
+Displayed wavelengths have differences which vary from hundred of kilometres down to unimaginable short dimensions.
+However, a continuum is visualized (uninterrupted ordered sequence or something in which a fundamental common character is discernible amid a series of insensible or indefinite variations) of varieties of electromagnetic energy between these two extremes and the total array is called the electromagnetic spectrum.
+For convenience, the spectrum is commonly divided into regions, but really, such divisions are not discernible.
+Wavelength dimensions are used to bound regions and names are generally assigned to regions of the electromagnetic spectrum for convenience (See Figure 2.3).
+Figure 2.2: The Electromagnetic Spectrum Source: Short (URL) As said earlier, the Electromagnetic Spectrum is defined by wavelength.
+It ranges from very short wavelength cosmic rays to the long wavelength of standard radio waves.
+Typical aerial photography and infrared aerial photography are taken in the visible and photographic infrared bands, which range from 0.4 to 0.9 micrometers (Millionths of a meter) (Short, URL).
+Visible Spectrum The visible portion of the electromagnetic spectrum is always considered to be a spectrum within a spectrum.
+The visible spectrum consists of the light which our eyes can detect.
+It is important to note how small a portion of the electromagnetic spectrum is represented by the visible region.
+Figure 2.4: The Visible Spectrum Source: Short (URL) 4.0 Conclusion In this unit, electromagnetic energy has been discussed as a very important source of energy for remote sensing.
+This form of energy travels in a wave-like fashion at the speed of light.
+It is measured in wavelength and frequency.
+The longer the wavelength the smaller the energy content and vice versa.
+The array of wavelength ranges from the least to the highest describes the electromagnetic spectrum.
+This knowledge is necessary in understanding remote sensing.
+5.0 Summary Electromagnetic energy has been identified and discussed as the major source of energy for remote sensing.
+This energy is commonly measured in wavelength and sometimes in terms of the frequency.
+When the array of wavelengths is ordered from the least to the highest we have the electromagnetic spectrum.
+This is indeed fundamental to the understanding of other issues in the course.
+6.0 References/Further Reading Jensen, John R. (2000) Remote Sensing of the Environment: an Earth Resources Perspective, Hall and Prentice, New Jersey, ISBN 0-13-489733-1, 1st ed.. Lillesand, T., Kiefer, R. And Chipman, J.
+(2004) Remote Sensing and Image Interpretation.
+John Wiley and Sons, NY, 5th ed.. Aggarwal, S. (URL) Principles of Remote Sensing, Photogrammetry and Remote Sensing Division, Indian Institute of Remote Sensing, Dehra Dun.
+American Society of Phogrammetry(ASP), Manual of Remote Sensing, 2nd ed., ASP, Falls Church, VA, 1993.
+Christopherson,R.W.
+(1994) Geosystems: An Introduction to Physical Geography.
+6th Edition.
+New Jersey: Prentice hall.
+Fundamentals of Remote Sensing- A Canada Center for Remote Sensing Tutorial, (Prentice- Hall, New Jersey).
+Unit 3 Radiation Principle 1.0 Introduction The knowledge of radiation principle is quite essential in remote sensing.
+This is so since its source, the manner it travels, the interaction of earth surface features, etc.
+all determine the proportion of the radiation that is available for use by remote sensing systems.
+The amount of radiation from an object (called radiance) is influenced by both the properties of the object and the radiation hitting the object (irradiance).
+The human eyes register the solar light reflected by these objects and our brains interpret the colours, the grey tones and intensity variations.
+In remote sensing various kinds of tools and devices are used to make electromagnetic radiation outside this range from 400 to 700 nm visible to the human eye, especially the near infrared, middle-infrared, thermal-infrared and microwaves.
+2.0 Objectives 1.
+To get the students to understand the basic principles of radiation as they relate to remote sensing.
+3.0 Main Body 3.1 Radiation Principle The term radiation is defined as a process in which energy is transmitted in the form of waves or particles, by a body as it changes from a higher energy state to a lower energy state.
+It is one of the 3 recognized modes of energy transfer.
+The other two are conduction and convection.
+Of these 3 modes of transfer of energy, radiation is the most unique in the sense that it can be transferred through free space and through a medium like air.
+In most case, many characteristics of electromagnetic radiation are easily described by wave theory.
+Particle theory also offers useful insight into how electromagnetic energy interacts with matter.
+The theory states that electromagnetic radiation is composed of many discrete units called photons or quanta and that the energy of a quantum is inversely proportional to its wavelength.
+That is, the longer the wavelength involved, the lower its energy content.
+In remote sensing, it is extremely difficult to sense from earth surface features with such long wavelength radiations.
+The low energy content of long wavelength radiation implies that systems operating at long wavelengths must view large areas of the earth at given time so as to obtain a detectable energy signal.
+The sun is the most obvious source of electromagnetic radiation for remote sensing.
+However all matter at temperature above absolute zero (00 or - 2730) continuously emits electromagnetic radiation.
+The terrestrial objects are also sources though it is of considerably different magnitude and spectral composition than that of the sun (Lillisand and Kieffer, 2000).
+How much energy any object radiates is amongst other things a function of the surface temperature.
+This characteristic is expressed by the Stefan Boltzman’ law.
+This law states that, the higher the temperature of the radiator, the greater the total amount of the radiation it emits.
+4.0 Conclusion In this unit, radiation has been defined as a process in which energy is transmitted in the form of waves or particles, by a body as it changes from a higher energy state to a lower energy state.
+Particles law and Stefan Boltzman’s law presented also give useful insight to understanding the principles of radiation.
+Through the latter we know that the amount of energy radiated is directly proportional to the temperature of the body radiating it.
+5.0 Summary The usefulness of the principle of radiation to remote sensing is highlighted here.
+The facts presented here give an idea of what the principle is.
+Other related sources of reading are given at the end of the unit.
+6.0 References/Further Reading Jensen, John R. (2000) Remote Sensing of the Environment: an Earth Resources Perspective, Hall and Prentice, New Jersey, ISBN 0-13-489733-1, 1st ed.. Lillesand, T., Kiefer, R. And Chipman, J.
+(2004) Remote Sensing and Image Interpretation.
+John Wiley and Sons, NY, 5th ed.
+Aggarwal, S. (URL) Principles of Remote Sensing, Photogrammetry and Remote Sensing Division, Indian Institute of Remote Sensing, Dehra Dun.
+American Society of Phogrammetry(ASP), Manual of Remote Sensing, 2nd ed., ASP, Falls Church, VA, 1993.
+Christopherson,R.W.
+(1994) Geosystems: An Introduction to Physical Geography.
+6th Edition.
+New Jersey: Prentice hall.
+Fundamentals of Remote Sensing- A Canada Center for Remote Sensing Tutorial, (Prentice- Hall, New Jersey).
+Unit 4 Energy Interactions in the Atmosphere 1.0 Introduction As the electromagnetic energy passes through the atmospheric pathway, two things will likely take place.
+These include atmospheric scattering and absorption.
+How these affect the radiation that is available to remote sensors are discussed here.
+Finally, atmospheric windows are discussed which give useful insight to how the radiation gets to the earth surface.
+2.0 Objectives 1.
+To expose the students to the different aspects of energy interaction in the atmosphere.
+2.
+To discuss the different laws and principles which help explain the atmospheric interference to electromagnetic radiation.
+3.0 Main Body 3.1 Energy Interaction in the Atmosphere All Radiation detected by remote sensors pass through some path length of the atmosphere.
+As radiation passes through such distances in the atmosphere, two things take place namely atmospheric scattering and absorption.
+Both scattering and absorption, in one way or the other, affect the intensity as well as the spectral composition of the available radiation.
+1.
+Atmospheric Scattering According to Lillisand and Kieffer (1999) atmospheric scattering is the unpredictable diffusion of radiation by particles in the atmosphere.
+a. Rayleigh Scatter This occurs when there is an interaction between atmospheric molecules and other tiny particles that are much smaller in diameter than the wavelength of the interacting radiation.
+The effect of Rayleigh Scatter is inversely proportional to the fourth power of the wavelength.
+There is much more propensity for short wavelength to be scattered by this scattering mechanism than long wavelength.
+b. Mie Scatter This form of scatter takes place when atmospheric particles diameters equal the wavelength of the energy being sent.
+Dust and Water vapour are the main atmospheric constituents that scatter radiation.
+This type of scatter affect longer wavelength compared to Rayleigh Scatter.
+c. Non-selective Scatter This occurs when the diameters of the particles causing scatter are much larger than the energy wavelength being sent.
+For instance, water droplets cause much scatter.
+Such water droplets commonly have diameter ranging from 5 to 100um.
+They scatter all visible and I reflected infrared wavelengths equally.
+In the visible wavelength, equal quantities of blue, green and red light are scattered making fog and clouds appear white.
+2.
+Atmospheric Absorption Atmospheric absorption results in the effective loss of energy to atmospheric constituents at a given wavelength.
+Carbon dioxide, water vapour and ozone are the major absorbers of solar radiation.
+Due to the fact that these atmospheric constituents absorb EME in specific wavelength bands, they seriously influence where we look spectrally with any given remote sensing system.
+The wavelength range within which the atmosphere transmits energy are referred to as atmospheric windows.
+In short, we are forced by nature to channel our attention to those spectral regions where the atmosphere will transmit sufficient radiation to our detector.
+The visible region is the most familiar and widely used and has a wavelength range of 0.4 to 0.7um.
+4.0 Conclusion Energy interaction with atmospheric constituents was discussed here.
+Two things namely scattering and absorption take place in the atmosphere as radiation is passing through it.
+Dust Water vapour, etc.
+are atmospheric constituents that scatter radiation while carbon dioxide, water vapour and ozone are the major absorbers of radiation.
+5.0 Summary The interaction of radiation with atmospheric constituents was discussed under this unit.
+The different scattering laws were discussed amongst which are the Rayleigh, Mie, Non-selective scattering laws.
+The role of ozone, carbon dioxide and water vapour were as well presented as atmospheric constituents that absorb radiation.
+6.0 References/Further Reading Jensen, John R. (2000) Remote Sensing of the Environment: an Earth Resources Perspective, Hall and Prentice, New Jersey, ISBN 0-13-489733-1, 1st ed.. Lillesand, T., Kiefer, R. And Chipman, J.
+(2004) Remote Sensing and Image Interpretation.
+John Wiley and Sons, NY, 5th ed.. Unit 5 Energy Interaction with Earth Surface Features 1.0 Introduction When EME is incident on any given earth surface feature, it is reflected, absorbed and/or transmission.
+In remote sensing, the proportion of such radiation that is reflected or transmitted constitutes what is available to remote sensors.
+In this unit, these are discussed 2.0 Objectives 1.
+To highlight the different ways in which earth surface features interact with incident radiation 2.
+To discuss the relationship between the total energy available to that reflected, absorbed and transmitted.
+3.0 Main Body 3.1 Energy Interaction with Earth Surface Features When EME is incident on any given earth surface feature, three fundamental energy interactions will possibly take place.
+These include reflection (E ), absorption (E ) and R a transmission (E ).
+This is illustrated in Figure 2.5 for an element of the volume of a water body T below.
+Incident Energy Reflected Energy Water surface Absorbed Energy Transmitted Energy Figure 2.5: Basic interactions between Electromagnetic energy and Earth Surface features (after Lillisand and Kiefer, (1999) Various fractions of the energy incident on the elements are reflected, absorbed, and or transmitted.
+Applying the principle of conservation of energy, Lillisand and Kiefer (1999) stated the interrelationship between these three energy interactions as: E(λ) = E (λ) + E (λ) + E (λ) I R A T where E denotes the incident energy, E denotes the reflected energy, E denotes the absorbed I R A energy and E denotes the transmitted energy, with all energy components being a function of T wavelength (λ).
+The above equation is an energy balance equation which expresses the interrelationship between the mechanisms of reflection, absorption, and transmission.
+The proportions of energy reflected, absorbed, and transmitted vary for different earth features, depending on their material type and condition.
+These differences permit us to distinguish different features on an image.
+Also, the wavelength dependency means that, even within a given feature type, the proportion of reflected, absorbed, and transmitted energy will vary at different wavelengths.
+Consequently, two features may not be distinguishable in one spectral range and be very different in another wavelength band.
+Within the visible portion of the spectrum, these spectral variations result in the visual effect called colour.
+For instance, we call objects, "blue" when they reflect highly in the blue portion of the visible spectrum, "green" when they reflect highly in the green spectral region, and so on.
+Thus, the eye utilizes spectral variations in the magnitude of reflected energy in the visible region to discriminate between various objects.
+The geometric manner in which an object reflects energy is also an important consideration.
+This factor is primarily a function of the surface roughness of the object.
+Specular reflectors are flat surfaces that manifest mirror like reflections, where the angle of reflection equals the angle of incidence.
+Diffuse (or Lambertain) reflectors are rough surfaces t h at reflect uniformly in all directions (Lillisand and Kiefer, 1999).
+Most earth surfaces are neither perfectly specular nor diffuse reflectors.
+Their characteristics are somewhat in between the two extremes.
+The category that characterizes any given surface is dictated by the surface's roughness in comparison to the wavelength of the energy incident upon it.
+For example, in the relatively long wavelength radio range, rocky terrain can appear smooth to incident energy.
+In comparison, in the visible portion of the spectrum, even a material such as fine sand appears rough.
+In short, when the wavelength of incident energy is much smaller than the surface height variations or the particle sizes that make up a surface, the surface is diffuse.
+Diffuse reflections contain spectral information on the "colour" of the reflecting surface, whereas specular reflections do not.
+Hence, in remote sensing, we are most often interested in measuring the diffuse reflectance properties of terrain features.
+The reflectance characteristics of earth surface features may be quantified by measuring the portion of incident energy that is reflected.
+This is measured as a function of wavelength, and is called spectral reflectance, Rλ.
+It is mathematically defined as R = E (λ) = Energy of wavelength λ reflected from the object λ R X 100 E(λ) Energy of wavelength λ incidence upon the object I where Rλ is expressed as a percentage.
+3.1.1 Spectral Reflectance on Vegetation, Soil and Water (Adapted from Lillisand and Kiefer, 1999) Figure 2.6 shows typical spectral reflectance curves for three basic types of earth features: Healthy green vegetation, Dry bare soil (grey-brown loam), and Clear lake water.
+The lines in this figure represent average reflectance curves compiled by measuring a large sample of features.
+Note how distinctive the curves are for each feature.
+In general, the configuration of these curves is an indicator of the type and condition of the features to which they apply.
+Although the reflectance of individual features will vary considerably above and below the average, these curves demonstrate some fundamental points concerning spectral reflectance.
+For example, spectral reflectance curves for healthy green vegetation almost always manifest the "peakand-valley" configuration illustrated in Figure Dry bare soil (Gray-brown) Vegetation (Green) Wa ter (Clear) 60 ) 40 % ( e c n a t c e 20 fl e R 0 00..44 00..66 00..88 11..00 11..22 11..44 11..66 11..88 22..00 22..22 22..44 22..66 Wavelength (µm) Figure 2.6: Spectral reflectance curves for vegetation soil, and water (Lillisand and Kiefer (1999), adapted from Swain and Davis, 1978) The valleys in the visible portion of the spectrum are dictated by the pigments in plant leaves.
+Chlorophyll, for example, strongly absorbs energy in the wavelength bands centered at about 0.45 and 0.65 µm.
+Hence, our eyes perceive healthy vegetation as green in colour because of the very high reflection of green energy.
+If a plant is subject to some form of stress that interrupts its normal growth and productivity, it may decrease or cease chlorophyll production.
+The result is less chlorophyll absorption in the blue and red bands.
+Often the red reflectance increases to the point that we see the plant turn yellow (combination of green and red).
+As we go from the visible to the reflected infrared portion of the spectrum at about 0.7 µm, the reflectance of healthy vegetation i n creases dramatically.
+In the range from about 0.7 to 1.3µm, a plant leaf reflects about 50 percent of the energy incident upon it.
+Most of the remaining energy is transmitted, since absorption in this spectral region is minimal.
+Plant reflectance in the 0.7 to 1.3 µm range results primarily from the internal structure of plant leaves.
+Because this structure is highly variable between plant species, reflectance measurements in this range often permit us to discriminate between species, even if they look the same in visible wavelengths.
+Likewise, many plant stresses alter the reflectance in this region and sensors operating in this range are often used for vegetation stress detection.
+Beyond 1.3 µm, energy incident upon vegetation is essentially absorbed or reflected, with little to no transmittance of energy.
+Di p s i n reflectance occur at 1.4, 1.9, and 2.7 µm because water in the leaf absorbs strongly at these wave lengths.
+Accordingly, wavelengths in these spectral regions are referred to as water absorption bands.
+Reflectance peaks occur at about 1.6 and 2.2 µm, between the absorption bands.
+Throughout the range beyond 1.3 µm, leaf reflectance is approximately inversely related to the total water present in a leaf.
+This total is a function of both the moisture content and the thickness of a leaf.
+The soil curve in Figure 4 shows considerably less peak-and-valley variation in reflectance i.e., the factors that influence soil reflectance act over less specific spectral bands.
+Some of the factors affecting soil reflectance are moisture content, soil texture (proportion of sand, silt, and clay), surface roughness, the presence of iron oxide, and organic matter content.
+These factors are complex, variable, and interrelated.
+For example, the presence of moisture in soil will decrease its reflectance.
+As with vegetation, this effect is greatest in the water absorption bands at about 1.4, 1.9, and 2.7 µm (clay soils also have hydroxyl absorption bands at about 1.4 and 2.2 µm).
+Soil moisture content is strongly related to the soil texture: coarse, sandy soils are usually well drained, resulting in low moisture content and relatively high reflectance; poorly drained fine textured soils will generally have lower reflectance.
+In the absence of water, however, the soil itself will exhibit the reverse tendency: coarse textured soils will appear darker than fine textured soils.
+Thus, the reflectance properties of a soil are consistent only within particular ranges of conditions.
+Two other factors that reduce soil reflectance are surface roughness and the content of organic matter.
+The presence of iron oxide in a soil will also significantly decrease reflectance, at least in the visible wavelengths.
+In any case, it is essential that the analyst be familiar with the conditions at hand.
+Considering the spectral reflectance of water, probably the most distinctive characteristic is the energy absorption at reflected infrared wavelengths.
+In short, water absorbs energy in these wavelengths whether we are talking about water features per se (such as lakes and streams) or water contained in vegetation or soil.
+Locating and delineating water bodies with remote sensing data is done most easily in reflected infrared wavelengths because of this absorption property.
+However, various conditions of water bodies manifest themselves primarily in visible wavelengths.
+The energy/matter interactions at these wavelengths are very complex and depend on a number of interrelated factors.
+For example, the reflectance from a water body can stem from an interaction with the water's surface (specular reflection), with material suspended in the water, or with the bottom of the water body.
+Even with deep water where bottom effects are negligible, the reflectance properties of a water body are not only a function of the water per se but also the material in the water.
+Clear water absorbs relatively little energy having wavelengths less than about 0.6µm.
+High transmittance typifies these wavelengths with a maximum in the blue-green portion of the spectrum.
+However, as the turbidity of water changes (because of the presence of organic or inorganic materials) transmittance - and therefore reflectance -changes dramatically.
+For example, waters containing large quantities of suspended sediments resulting from soil erosion normally have much higher visible reflectance than other "clear" waters in the same geographical area.
+In the same manner,, the reflectance of water changes with the chlorophyll concentration involved.
+Increases in chlorophyll concentration tend to decrease water reflectance in blue wavelengths and increase it in the green wavelengths.
+These changes have been used to monitor the presence and estimate the concentration of algae via remote sensing data.
+4.0 Conclusion In the unit, the interaction of the different earth surface features with incident radiation was discussed.
+It is noted that the radiation could be reflected, absorbed and/or transmitted depending on the nature of the body.
+5.0 Summary In summary, it is clear each earth surface feature react differently to incident radiation and this knowledge is quite useful in understanding the processes involved.
+6.0 References/Further Reading Aggarwal, S. (URL) Principles of Remote Sensing, Photogrammetry and Remote Sensing Division, Indian Institute of Remote Sensing, Dehra Dun.
+American Society of Phogrammetry(ASP), Manual of Remote Sensing, 2nd ed., ASP, Falls Church, VA, 1993.
+Christopherson,R.W.
+(1994) Geosystems: An Introduction to Physical Geography.
+6th Edition.
+New Jersey: Prentice hall.
+Fundamentals of Remote Sensing- A Canada Center for Remote Sensing Tutorial, (Prentice-Hall, New Jersey).
+Jensen, J. R. (2000) Remote Sensing of the Environment: an Earth Resources Perspective, Hall and Prentice, New Jersey, ISBN 0-13-489733-1, 1st ed.. Lillesand, T., Kiefer, R. And Chipman, J.
+(2004) Remote Sensing and Image Interpretation.
+John Wiley and Sons, NY, 5th ed.. MODULE 2 [REMOTE SENSING PLATFORMS, IMAGING SYSTEM AND THEIR CAPABILITIES] Unit 1 Remote Sensing Platforms 1.0 Introduction In (Electromagnetic) remote sensing, sensors are used to acquire information which is converted into a form that can be understood and recorded.
+These sensors are mounted in vehicles.
+For all airborne systems, the sensors and perhaps also the energy source (for active sensors) need a vehicle to carry them, this known as the platform.
+A conventional aircraft is the commonest platform but helicopters, balloons and kites might be used in particular cases.
+Rockets spacecraft and skylab are other kinds of platforms.
+These are discussed in this section.
+2.0 Objectives 1.
+To expose the students to the various remote sensing platforms 2.
+To get the students to know the differences between the airborne and spaceborne platforms 3.0 Main Body 1.
+Remote Sensing Platforms There are basically two forms of platforms used in remote sensing.
+For all airborne and spaceborne systems, the sensors and perhaps also the energy source need a vehicle to carry them.
+This is generally known as platform.
+Such vehicles or carriers collect and record energy reflected or emitted from a target or surface.
+The sensor must rest on a stable platform from the target or surface being observed.
+There are so many types of remote sensing platforms; platforms may be situated on the ground, on an aircraft or balloon or on a spacecraft or satellite outside of the Earth’s atmosphere (Farooq, 2002).
+The remote sensing platforms can be classified into the following; a.
+Land – Based Platforms: the land – based remote sensing platforms include vans, trucks, tractors, tanks, tall buildings, ladder etc.
+Often, they are used to record detailed information about the surface which compared with information collected from aircraft or satellite sensors.
+In some cases, this can be used to better characterize these other sensors, making it possible to better understand the information in the imagery.
+b. Aerial Platforms: Aerial platforms are primarily stable wings aircrafts.
+Helicopters and ballons are occasionally used.
+Aircraft are often used to collect very detailed images and facilitate the collection of data over virtually any portion of the Earth’s surface at any time (Farooq, 2002).
+Aircraft platforms range from the very small, slow and low flying, to small jets.
+Due to their mobilization flexibility, aircrafts often have a definite advantage.
+Aircraft can also be used in small or large numbers, making it possible to collect seamless images over an entire country or state in a matter of days or weeks simply by having lots of planes in the air simulteneously.
+c. Satellite platforms: In space, remote sensing is sometimes conducted from the space shuttle or, more commonly, from satellites.
+Satellites are objects which revolve around another object - in this case, the Earth (Farouq, 2002).
+For example, the moon is a natural satellite, whereas man-made satellites include those platforms launched for remote sensing, communication, and telemetry (location and navigation) purposes.
+Satellite platforms are of two types.
+This depends on the orbit in which they are placed.
+A geostationary orbit is established when a satellite is placed at a very high altitude, roughly 36,000km above the Earth’s equator and carried to the orbit Earth’s rotation.
+Unless a geostationary satellite spins or turns its optics, its view is necessarily fixed.
+This allows for continuous consistent monitoring, and often a very large, synoptic view of much of one entire hemisphere.
+The coarse resolution versus the wide continuous field of view constitutes the main tradeoffs to consider for this orbit type.
+These characteristics make geostationary satellite best for collecting weather and climate data.
+The second group the sun – synchronous or polar orbiting satellite.
+This is the largest group of Earth – orbiting satellites.
+They are launched below the altitude of geostationary satellite closer to the Earth’s surface, at orbits ranging from 700km to 1000km.
+These satellites usually orbit at a steep inclination relative to the equator, in the direction opposite the Earth’s rotation, known as a retrograde orbit.
+When the satellite’s orbit and the Earth’s rotation are combined, they give rise to an S – shaped path relative to a map of the Earth’s surface.
+For the airborne systems, the flying height varies from project to project and depends on the requirements for spatial resolution, Ground Sample Distance (GSD) and accuracy.
+On the other hand, the altitude of a satellite platform (spaceborne platforms) is fixed by the orbital considerations; scale and resolution of the imagery and determined by the sensor design.
+Table 2.1: Important feature of some important satellite platforms.
+Features Landsat1,2,3 Landsat 4,5 SPOT IRS-IA IRS-IC Nature Sun Syn Sun Syn Sun Syn Sun Syn Sun Syn Altitude 919 705 832 904 817 (km) Orbital 103.3 99 101 103.2 101.35 period (minutes) inclination 99 98.2 98.7 99 98.69 (degrees Temporal 18 16 26 22 24 resolution (days) Revolutions 251 233 369 307 341 Equatorial 09.30 09.30 10.30 10.00 10.30 crossing (AM) Sensors RBV, MSS MSS, TM HRV LISS-I, LISS-III, LISS-II PAN, WIFS Source: Farouq, (2002) Because of their orbits, satellites permit repetitive coverage of the Earth's surface on a continuing basis.
+Cost is often a significant factor in choosing among the various platform options.
+4.0 Conclusion From the foregoing, it is clear the type of platforms used in different remote sensing activities.
+A distinction is made of the spaceborne and airborne platforms.
+For airborne systems, the flying height varies from project to project and depends on the requirements for spatial resolution, Ground Sample Distance (GSD) and accuracy, while that of spaceborne has much to do with orbital considerations.
+5.0 Summary The type of remote sensing platform to use depends on whether the exercise is airborne or spaceborne.
+These are described in this unit.
+Although the discussion gives insight to the related issues, they may not be exhaustive.
+Therefore, a list of references is attached for further reading.
+6.0 References/Further Reading Farooq, S (2002): Types of platforms and scanning systems.
+Aligarh: India Faridi, A (2008): Remote sensing platforms, cameras, scanners and sensors.
+http://rashid faridi.wordpress.com/ Lillesand, T. M & Kiefer, R (2000): Remote Sensing and Image Interpretation.
+New York: U.S.A Introduction to remote sensing and Image Processing: IDRISI Guide to GIS and Image processing Vol.1 http://www.cas.sc.edu/geog/rslab/rscc/rscc - frames.
+html http://mapsofworld.com/remote sensing.html  Unit 2 Imaging Systems 1.0 Introduction Depending on the number of spectral bands used, optical remote sensing can be classified into panchromatic imaging system, Multispectral Imaging System, Super - spectral Imaging System and Hyper – spectral Imaging System or Image Spectrometer.
+These are discussed in this unit.
+2.0 Objectives 1.
+To get the students to understand the different imaging systems used in remote sensing.
+2.
+To distinguish between the different imaging systems used in the various aspects of remote sensing.
+3.0 Main Body 3.1 Imaging Systems (after Lillisand and Kieffer, 2000) Depending on the number of spectral bands used, optical remote sensing can be classified into the following divisions; a. Panchromatic Imaging System: A single channel sensor is used to detect radiation within a broad wavelength.
+The range of wavelengths and the visible range can become same.
+If this happens the imagery will appear as black and white photograph taken from space.
+The approximate brightness of the target will measure the physical quality.
+The colour of the target is not available.
+Examples of panchromatic imaging systems are SPOT HRV – PAN and IKONOS PAN.
+b. Multispectral Imaging System: The difference between a panchromatic and multispectral imaging system is that the multispectral imaging system uses a multichannel detector and records radiation within a narrow range of wavelength.
+Both brightness and colour information are available on the image.
+Examples of the multispectral imaging system are; LANDSAT MSS, LANDSAT TM, SPOT HRV – XS and IKONOS MS. c. Super - spectral Imaging System: The super – spectral imaging systems consists of more than ten spectral channels.
+Band widths are narrow which help to capture the finer spectral characteristics of the features that are captured by the sensors.
+Examples of super – spectral imaging systems are; MODIS and MERIS.
+d. Hyper – spectral Imaging System or Image Spectrometer: This is more advanced optical remote sensing technique which records more than hundred spectral bands.
+Multi – spectral bands helps to record information in minute details like agricultural crops, their maturity, moisture level, coastal management etc.
+Example of this type of system is HYPERION.
+4.0 Conclusion The different imaging systems have been discussed here.
+They include panchromatic imaging system, Multispectral Imaging System, Super - spectral Imaging System and Hyper – spectral Imaging System or Image Spectrometer.
+5.0 Summary The type of remote sensing imaging systems used have been discussed here..
+These are described in this unit.
+Although the discussion gives insight to the related issues, they may not be exhaustive.
+Therefore, a list of references is attached for further reading.
+6.0 References/Further Reading Farooq, S (2002): Types of platforms and scanning systems.
+Aligarh: India Faridi, A (2008): Remote sensing platforms, cameras, scanners and sensors.
+http://rashid faridi.wordpress.com/ Lillesand, T. M & Kiefer, R (2000): Remote Sensing and Image Interpretation.
+New York: U.S.A Introduction to remote sensing and Image Processing: IDRISI Guide to GIS and Image processing Vol.1 http://www.cas.sc.edu/geog/rslab/rscc/rscc - frames.
+html http://mapsofworld.com/remote sensing.html Unit 3 Remote Sensors and their Capabilities 1.0 Introduction Each type of remote sensor reacts only to energy bands of specific frequency and wavelength.
+Consequently, the sensors are often designed with capabilities to sense within a certain wavelength range of the EME.
+2.0 Objectives 1.
+To get the students to know the remote sensors utilized in the process of remote sensing.
+2.
+To discuss the capabilities of such remote sensors with emphasis on those in contemporary usage.
+3.0 Main Body 3.1.
+Remote Sensors and their Capabilities Each type of remote sensor reacts only to energy bands of specific frequency and wavelength.
+For example radar receiver cannot detect visible light and transmitted microwaves are invisible to infrared scanners.
+Consequently, the sensors are often designed with capabilities to sense within a certain wavelength range of the EME.
+The major divisions of the spectrum include the following: GAMMA X- ULTRA VISIBLE INFRARED MICROWAVE RADIO RAYS RAYS VIOLET Y RAYS 0.4 0.7am Source: Lillisand and Kieffer (1999) Each type of remote sensor reacts only to energy bands of specific frequency and wavelength.
+For example radar receiver cannot detect visible light and transmitted microwaves are invisible to infrared scanners.
+These shall be examined in one after the other.
+a. Sensing with Light Aerial cameras produce their best imagery on cloudless, hazefree days.
+Standard black and white aerial film is sensitive to wavelengths of approximately .36um to .72 essentially the same as those to which the eye is sensitive.
+Although this sensitivity is intentional so that the image obtained will be a familiar one, difficulties are encountered in trying to extend this range very much for conventional camera and film system.
+Optical glass presents a problem for wavelengths, of less than .36um limiting the camera’s utility in the ultraviolet.
+Of course we do go beyond .72um with cameras but we must use infrared sensitive film.
+That the visible region of the electromagnetic spectrum is a spectrum within itself is a well known fact and it is possible to identify individual bands within the region by wavelength as in Table 2.2.
+Table 3.2: The Visible Portion of the Electromagnetic Spectrum Ultra Violet Blue Green Yellow Orange Red Infrared violet 400 446 500 578 592 620 700 Source: Lillisand and Kieffer, (1999) The light energy which creates the sensation of blue in the eye has wavelengths near .4un, green about .55um and red about .7um.
+with filter it is possible to restrict wavelength which reach the film so that a photo can be made with only one band such as green light or red light.
+With black or white film, the photo is still black and white but subtle differences between it and one made with the broader range of wavelength are discernible.
+Comparing photos of the same subject taken at the same time but with different bands of light has indicated that some tasks are better served by one band than the others The use of multiple layers of emulsion on the film base each sensitive to different wavelength of light and containing appropriate dyes, made possible the colour film so familiar today.
+Working use of the film has proved its superiority to black and white for many tasks notably because the image is more like the real world as we are accustomed to seeing it.
+It is especially valuable for tasks in which the distinction between like subjects is very subtle.
+Conventional photography is not likely to be replaced by non photographic remote sensing technique in the foreseeable future.
+The fidelity of detail reproduction – on conventional photography is typically superior to that obtainable by other sensor systems.
+Conventional photography also affords a more familiar view and is usually less expensive.
+Sophistication of camera systems and films, innovation use of film/filter combinations and other technical advances should enable photography to remain an important facet of remote sensing.
+b. Sensing Thermal Infrared Radiation In the longer wavelengths beyond 0.8um and up to 14um is an area known as the thermal infrared.
+The sensors are called thermal or optical-mechanical scanners.
+They are used to pick up heat radiated from the earth.
+Usually the sensor is insulated from all unwanted sources of heat like is the case with the light tight condition of the camera.
+The heat signal is picked up by a mirror rotating in the lateral direction of the aircraft and reflected on to a detector where the signal is converted so that it forms e display on the surface of a cathode-ray tube- the brightness of the image being in proportion to the heat detected.
+The display is recorded photographically thus forming a picture of the ground apparently similar to a normal photograph.
+The rate of rotation of the mirror is adjusted to the velocity of the sensor platform so that, ideally, adjoining scanline do not overlap or leave gaps in the landscape scene.
+Thermal IR can detect differences in water temperature and therefore monitor effluents from sources such as cooling towers and other pollutants which affect the temperature of the water.
+Infrared systems produce good day time imagery.
+However, since they respond to energy radiated from beyond the visible spectrum night infrared emissions with middle and far infrared sensitivity yield excellent results.
+For many purposes far infrared data flights obtain their best imagery after dark when depending on the side of the aerosol particles but clouds high surface, winds and rain greatly reduce image quality.
+c. Microwave Sensors The microwave region of the spectrum includes wavelengths from approximately one millimeter to several meters and is thus another large spectral region.
+As in the case of the infrared region not all parts of it are used.
+Most of the effort to date has utilized the shorter wavelength bands of the region.
+The two microwave sensors in common use are radar and the microwave radiometer.
+Although they may use some of the same wavelengths of energy, the microwave radiometer is sensing ‘natural’ radiation from the scene being surveyed whereas a radar set generates the energy with which it senses.
+For this reason, radar is called an active sensor.
+The microwave radiometer and the other sensors that have already been discussed are called passive sensors.
+d. Radar The term radar is an acronym created from RADIO, Detection and Ranging.
+Side looking airborne radar (SLAR) is the variety of radar that has enjoyed the greatest popularity in remote sensing.
+As the name implies, SLAR looks to one side of the aircraft at a right angle to the flight line.
+The returned signals are usually stored on tape and then replayed to create a photo-like image of the scene rather than using a scope display or carthode ray tube.
+Radar waves penetrate fog and cloud with minimum signal loss.
+Although all radar may be used day or night and is unaffected by clouds, shorter wavelength radars can detect rain showers.
+They also depict contrasting vegetation types differently although longer wavelength radars seem to ignore vegetation and emphasize the surface beneath.
+e. Sensors onboard Spaceborne Platforms i. LANDSAT: LANDSAT carries two multispectral sensors.
+The first is the Multi – Spectral Scanner (MSS) which acquire in four spectral bands: Blue, Green, Red and near Infrared.
+The second is the Thematic Mapper (TM) which collects seven bands: Blue, Green, Red, Near – Infrared, two mid – Infrared and one Thermal Infrared.
+The MSS has a special spectral resolution of 80 meters.
+Both sensors measure a 185 km wide swath.
+Recently, the enhanced thematic mapper (ETM) has been developed.
+ii.
+SPOT: SPOT satellites carry two different High Resolution Visible (HRV) pushroom sensors which operate in Multi – Spectral resolution or panchromatic mode.
+The Multispectral Image has 20 meter spectral resolution while the panchromatic images have 10 meter resolution.
+SPOT satellite 1-3 provide three thematic multispectral bands; Green, Red, and Infrared.
+SPOT 4, launched in 1998, provides the same three bands plus a short wave Infrared band.
+The panchromatic band for SPOT 1-3 is 0.51 – 0.73u while that of SPOT 4 is 0.61 – 0.68u.
+iii.
+All SPOT images cover a swath 60 km wide.
+The SPOT sensor may be pointed to image along adjacent paths.
+This allows the instrument to acquire repeat imagery of any area 12 times during its 26 day orbital period.
+The pointing capability makes SPOT the only satellite system which can acquire useful stereo satellite imagery.
+iv.
+IRS: The most important capabilities are offered by the IRS – 1C and IRS – 1D satellites that together provide continuing global coverage with the following sensors: IRS – Pan: 5.8m Panchromatic IRS – LISS3: 23.5m multispectral in the following bands: Green (0.58 – 0.59) Red (0.62 – 0.68) Near Infrared (0.77 – 0.86) Shortwave Infrared (1.55 – 1.7) IRS – WiFS: 180m multispectral in the following bands: Red (0.62 – 0.68) Near Infrared (0.77 – 0.86) v. NOAA – AVHRR: The Advanced Very High Resolution Radiometer (AVHRR) is carried on board a series of satellites operated by the US National Oceanic and Atmospheric Administration (NOAA).
+It acquires data along 2400 – km wide swath daily.
+AVHHRR collects five bands: Red, Near Infrared, and threeThermal Infrared – spectral resolution of the sensor is 1.1 km and this data is termed Local Area Coverage (LAC).
+For studying very large areas, a resample version with resolution of about 4km is also available, and is termed Global Area Coverage (GAC).
+AVHRR may be “high” spectral resolution for meteorological operations, but the images portray only broad patterns and detail for terrestrial studies.
+However, they do have a high temporal resolution, showing wide areas on a daily basis and are therefore a popularly choice for monitoring large areas.
+vi.
+RADARSAT: The spectral resolution of the C- band SAR imagery ranges from 8 to 100 meters per pixel and the ground coverage repeat interval is 24 days.
+Sensors can be pointed at location of interest which enables the collection of stereo RADAR Imagery.
+RADAR signals also penetrate clouds, thus accessing areas not available to other remote sensing systems.
+In contrast to other remotely sensed imagery, they returned RADAR signals is more affected by electrical and physical characteristics in the target than by its reflection and spectral pattern, therefore requiring special interpretation techniques.
+vii.
+MODIS: MODIS sensors is extension of the AVHRR by providing no fewer than 36 bands of medium – to – coarse resolution imagery with a high temporal repeat cycle (1 – 2 days).
+Bands 1 and 2 will provide 250m resolution images in the Red and Near Infrared regions.
+Bands 3 – 7 provide 500m resolution multispectral images in the Visible and Infrared regions.
+Finally, Bands 8 – 36 provide hyper - spectral coverage in the Visible, Reflected Infrared, and Thermal Infrared regions, with a 1km resolution.
+viii.
+AVIRIS: AVIRIS captures data in 224 bands over the same wavelength range as LANDSAT.
+ix.
+JERS: Japanese Earth Resolution Satellite offers 18m resolution L – band side – looking RADAR imager.
+This is a substantially longer wavelength band than the typical C – band used in the Earth resources applications.
+L – band RADAR is capable of penetrating vegetation as well as unconsolidated sand and is primarily used in geologic and coastal mapping applications.
+ix NIGERIASAT Nigeria launched her satellites, Nigeriasat 1 and 2 few years ago.
+NigeriaSat 1 is the Nigerian contribution to the international Disaster Monitoring Constellation (DMC) project.
+It is an earth observing microsatellite built by SSTL on the Microsat-100 platform.
+It features a 32- meter resolution imager in 3 spectral bands.
+The Disaster Monitoring Constellation (DMC) is a novel international co-operation in space, led by SSTL bringing together organizations from seven countries: Algeria, China, Nigeria, Thailand, Turkey, the United Kingdom and Vietnam.
+The DMC Consortium is forming the first-ever microsatellite constellation bringing remarkable Earth observation capabilities both nationally to the individual satellite owners, and internationally to benefit world-wide humanitarian aid efforts (Space, URL).
+NIGERIASAT 1  4.0 CONCLUSION The science of remote sensing is by far the most complete system for acquiring environmental data.
+Since it involve the collection of information about a phenomenon without practically being in contact with the phenomenon through the use of sensors, these sensor do not exist or operate in isolation.
+The sensors are carried by vehicles or carriers called platform.
+As we have seen, there are different types of remote sensors with their distinctive capabilities.
+5.0 SUMMARY Due to the great importance and usefulness of remote sensing in planning and other development issues, many remote sensing systems have evolved over time.
+The most recent of these is the successful launch of the Nigeriasat.
+In the next few years, many more shall be experienced.
+Consequently, one should familiar with current developments and trends.
+6.0 References/Further Reading Farooq, S (2002): Types of platforms and scanning systems.
+Aligarh: India Faridi, A (2008): Remote sensing platforms, cameras, scanners and sensors.
+http://rashid faridi.wordpress.com/ Lillesand, T. M & Kiefer, R (2000): Remote Sensing and Image Interpretation.
+New York: U.S.A Introduction to remote sensing and Image Processing: IDRISI Guide to GIS and Image processing Vol.1 http://www.cas.sc.edu/geog/rslab/rscc/rscc - frames.
+html http://mapsofworld.com/remote sensing.html http://en.wikipedia.or/wiki/sun-synchronous orbit https://www.e-education.psu.edu/qeog883/ http://space.skyrocket.de/doc_sdat/nigeriasat-1.htm MODULE 3 [AERIAL PHOTOGRAPHY] Unit 1 Meaning and History of Aerial Photography 1.0 Introduction Aerial Photography is one of the most common, versatile and economical forms of remote sensing.
+It is a means of fixing time within the framework of space (de Latil, 1961).
+Aerial photography was the first method of remote sensing and even used today in the era of satellite and electronic scanners.
+Aerial photographs will still remain the most widely used type of remote sensing data.
+2.0 Objectives 1.
+To introduce the subject matter of aerial photography to the students 2.
+To get students to understand the history of aerial photography 3.
+To expose students to the geometry of aerial photograph 4.
+To get the students to know how to map from aerial photograph 3.0 Main Body 3.1 Meaning According to Thomas (URL) the term "photography" is derived from two Greek words meaning "light" ( phos ) and "writing" ( graphien ).
+Photography means the art, hobby, or profession of taking photographs, and developing and printing the film or processing the digitized array image.
+Photography is the production of permanent images by means of the action of light on sensitized surfaces (film or array inside a camera), which finally giving rise to a new form of visual art.
+Aerial Photography means photography from the air.
+The aerial photograph was the first remote sensing device utilized to inventory and map characteristics of the earth.
+Today, it is even used in the area of satellite and electronic scanners.
+Aerial photographs will still remain the most widely used type of remote sensing data.
+Aerial photographs were taken from balloons and kites as early as the mid 1800s (de Latil, 1961).. Today, Aircraft and helicopters are most commonly used for aerial photograph but rockets, blimps, ho-air balloons, kites and parachutes can also be used.
+The earliest surviving aerial photograph is thought to be one of Paris in 1858 taken by Gasper Felix Tournachon Nadar “from an altitude of 1,200 feet over Paris.
+- "Nadir".
+Before the invention of the aeroplane, hot air balloons were commonly used to capture aerial photography although this technique had limited success.
+The aeroplane had a significant impact on the development of the aerial photography industry and what had started as a hobby by many enthusiasts suddenly had a potential to assist in military planning for combat situations in the World War I.
+By the mid 1930s aerial photography was used extensively to support the creation of small scale mapping.
+By the Second World War both the Allied and German forces were using the techniques for reconnaissance missions over enemy territory.
+(Sharkov, 2003).
+The aerial photograph is one of the most common versatile and commercial forms of remote sensing device.
+Although some highly sophisticated systems have recently been develop, to record earth data, the photograph with its great resolving power will undoubtedly continue to be widely used as a means of remote sensing.
+Even though most of these newer sensors detect energy outside the visible portion of the spectrum and record that information in some form of imagery many conventional photo interpretation techniques and procedures are still application in their analysis.
+Today only a small proportion of the millions of aerial photographs taken over this time survive but they have proved to be invaluable in temporal studies for a variety of different applications such as contaminated land investigations, rural planning, archaeological analysis and criminology.
+3.2 History of Aerial Photography The first attempt to practice aerial photography was made by the French photographer and balloonist Gaspard-Félix Tournachon, known as "Nadar" in 1858 over Paris, France.
+The first use of a motion picture camera mounted to a heavier-than-air aircraft took place on April 24, 1909 over Rome in the 3:28 silent film short.
+The Russian military engineer Colonel Potte V. F. designed the first special semi-automatic aerial camera in 1911.
+This was used during World War I.
+The use of aerial photography for military purposes was expanded during World War I by many other aviators such as Fred Zinn.
+One of the first notable battles was that of Neuve Chapelle, (Heiman, 1972).
+Aerial mapping came into use on the battlefronts during World War I.
+General Allenby in January 1918 used five Australian pilots to photograph a 1,620 km2 area in Palestine.
+This was used as an aid to correcting and improving maps of the Turkish front.
+Lieutenants Leonard Taplin, Allan Runciman Brown, H. L. Fraser, Edward Patrick Kenny, and L. W. Rogers photographed a block of land stretching from the Turkish front lines 51 km deep into their rear areas.
+Sherman Fairchild was one of the most successful pioneers of the commercial use of aerial photography.
+He started his own aircraft firm Fairchild Aircraft to develop and build specialized aircraft for high altitude aerial survey missions.
+One Fairchild aerial survey aircraft in 1935 carried unit that combined two synchronized cameras, and each camera having five six inch lenses with a ten inch lenses and took photos from 23,000 feet.
+Each photo cover two hundred and twenty five square miles.
+One of its first government contracts was an aerial survey of New Mexico to study soil erosion.
+Fairchild introduced a better high altitude camera with nine-lens in one unit that could take a photo of 600 square miles with each exposure from 30,000 feet a year later,.
+With the advent of inexpensive digital cameras, many people now take air photographs from commercial aircraft and increasingly from general aviation aircraft on private pleasure flights.
+4.0 Conclusion Aerial Photography is seen as one of the most common, versatile and economical forms of remote sensing utilize to carry out inventory of the earth resources.
+From a very seemingly uninteresting beginning, aerial photography has grown to a great height difficult to ignore.
+Gasper Felix Tournachon Nadar is credited to have taken the first aerial photograph ever.
+Aerial Photography has a rich history having begun as early as 1858.
+In the world today, it is an important method utilized to capture information for planning as well as military purposes 5.0 Summary In this unit, aerial photography was defined and the meaning discussed.
+Also, the history of aerial photography was reviewed although very briefly.
+6.0 References/Further Reading Conyers, N.R.
+(2003) Eyes of the RAF A History of Photo-Reconnaissance Sutton Getis A, Getis J, Fellmann J.
+(2000) Introduction to Geography (7th Edition), McGraw Hill, New York.
+Heiman, G. (1972) Aerial Photography :The Story of Aerial Photography and Reconnaissance Airforce Academy Series Macmillan New York.
+Macdonald, A.S. (1992), Air Photography at the Ordnance Survey from 1919 to 1991 Photogrammetric record 14 (80):Pp 249-260 Paine, D. P. (1981) Aerial Photography and Image Interpretation for Resource Management Wiley Sharkov, E.A.
+(2003) Passive Microwave Remote Sensing of the Earth : Physical Foundation in Geographic Science.
+Praxis Publishing Ltd, Chichester, UK http://www.landmap.ac.uk/index.php/Learning-Materials/Historical-Aerial-Photography- Course/.html http://www.bookrags.com/Aerial_photography www.rleggat.com/photohistory The Royal Photographic Society www.rps.org Unit 2 Types of Aerial Photograph 1.0 Introduction There are two types of aerial photograph the vertical and oblique aerial photographs.
+While in the vertical the camera axis are directed as vertical as possible, in the oblique, there is intentional tilting of the camera optical axis.
+This information is necessary in the choice of aerial photograph to use in a particular project.
+The issues are therefore discussed in this unit.
+2.0 Objectives 1.
+To get the students to understand the different types of aerial photograph 2.
+To distinguish between the vertical and oblique aerial photograph.
+3.0 Main Body 3.1 Types of aerial Photograph a. Vertical Aerial Photos: These are those photographs in which the axis of the camera is directed as vertical as possible.
+In this case, the axis is perpendicular to the ground.
+As the name suggests, vertical aerial photographs are taken from directly overhead looking down vertically and they therefore produce a mostly flat image almost like a map.
+It extremely difficult to obtain a truly vertical air photo because of the unavoidable angular tilts caused by the angular altitude of the aircraft during exposure.
+This may cause between 10 to 30 unintentional inclinations of the optical axis of the camera resulting in the acquisition of tilted air photographs.
+However, when this angular tilting is unintentional and perhaps within 10 to 30 mentioned earlier, it is still regarded as vertical air photograph.
+The great amount of information can be derived from vertical air photos.
+Vertical aerial photography is sometimes also called "overhead aerial photography".
+Vertical aerial photographs are most commonly used for mapping projects, for land use or geometric surveys, farm evaluation, flood risk assessment and scientific studies.
+b. Oblique Aerial Photographs: When the axis of the camera/lens is tilted intentionally at an angle of 30 to 900 to the ground the resulting photograph is said to be oblique.
+Thus we have high and low oblique air photographs.
+High oblique photographs include the image of the horizon while low oblique do not (please see Figure 4.1).
+The subject is seen at an angle and therefore the photographs are perceived by the human eye as having depth and definition.
+Oblique aerial photography is commonly used for aerial construction progress reports, archaeology, advertising and promotion work, in the sale of commercial and residential property and land, in legal disputes or just to produce a stunning aerial photograph for display.
+Figure 3.1 Vertical and Oblique Aerial Photographs 3.2 Types of Aerial Cameras There are many types of aerial cameras: (cid:1) Aerial mapping camera (single lens) (cid:1) Reconnaissance camera (cid:1) Strip camera (cid:1) Panoramic camera (cid:1) Multilens camera, the multi camera array (multiband aerial camera) and (cid:1) Digital camera Aerial Mapping (Single Lens) Camera (after Curran, 1988) Aerial mapping cameras (also called metric or cartographic cameras) are single lens frame cameras designed to provide extremely high geometric image quality.
+They employ a low distortion lens system held in a fixed position relative to the plane of the film.
+The film format size is commonly a square of 230 mm on a side.
+The total width of the film used is 240 mm and the film magazine capacity ranges up to film lengths of 120 metres.
+A frame of imagery is acquired with each opening of the camera shutter, which is tripped at a set frequency by an electronic device called an intervalometer.
+They are exclusively used in obtaining aerial photos for remote sensing in general and photogrammetric mapping purposes in particular.
+Single lens frame cameras are the most common cameras in use today.
+Figure 3.2.
+An aerial mapping camera (Carl ZerisRMK/A15/23) with automatic levelling and exposure control.
+It is mounted on a suspension mount, between the remote control unit (left) and its navigation telescope (right).
+Source: Curran, 1988).
+Figure 3.3: The principal components of a single lens frame mapping camera.
+Source: Lillesand et al, (2005) Panoramic Aerial Camera Here, the ground areas are covered by either rotating the camera lens or rotating a prism in front of the lens.
+The terrain is scanned from side to side, transverse to the flight direction.
+The film is exposed along a curved surface located at the focal distance from the rotating lens assembly, and the angular coverage can extend from horizon to horizon.
+Cameras with a rotating prism design contain a fixed lens and a flat film plane.
+Scanning is accomplished by rotating the prism in front of the lens.
+Figure 3.4.
+The operating principle of a panoramic camera Source: Thomas (URL) 4.0 Conclusion In the unit, vertical and oblique aerial photographs were discussed as the two types of aerial photograph.
+Vertical air photograph is the one in which the camera axis is as vertical as possible while that of oblique involves intentional angular tilting of the camera axis.
+The types of aerial cameras were also discussed.
+5.0 Summary In discussing the types of aerial photograph, it is good to note that each one could be used for quite different applications as discussed in this unit.
+6.0 References/Further Reading A history of Photography from its beginnings until the 1920s.
+www.rleggat.com/photohistory The Royal Photographic Society www.rps.org Conyers Nesbitt, Roy 2003 Eyes of the RAF A History of Photo-Reconnaissance Sutton Going, Christopher and Jones, Dr Alun 2004 Above the battle - D Day the lost evidence Crecy Heiman, Grover 1972 Aerial Photography – the story of Aerial Photography and Reconnaissance Airforce Academy Series Macmillan New York London Topographical Society, 2005.
+The London County Council Bomb Damage Maps 1939 – 1945 Macdonald, A.S. 1992 Air Photography at the Ordnance Survey from 1919 to 1991 Photogrammetric record 14 (80): 249-260 Martin, Rupert 1983 The View from Above The Photographers Gallery London Paine, David P 1981 Aerial Photography and Image Interpretation for Resource Management Wiley  Unit 3 Taking Vertical Aerial Photograph 1.0 Introduction The major objective of flying for aerial coverage is to obtain aerial photographs in the quickest and cheapest possible manner.
+This therefore enables the user to carryout necessary plotting to derive the needed information which in most cases is in map form.
+A systematic coverage of an area is obtained by flying the aircraft on a straight line and at a fixed height.
+These are discussed in this unit.
+2.0 Objective 1.
+To discuss the processes involved in taking vertical aerial photographs 3.0 Main Body 3.1 Taking Vertical Air Photographs The major objective of flying for aerial coverage is to obtain aerial photographs in the quickest and cheapest possible manner.
+A systematic coverage of an area is obtained by flying the aircraft in a series of straight line and at a fixed height.
+The photographs taken during the time the aircraft makes these runs are collectively called a strip as is indicated in Figure 3.5.
+Figure 3.5: A Strip of aerial photographs taken during a single run An airphoto derived from a camera is a Perspective View.
+This means that there is distortion in the image due to image motion and image displacement due to topography and the effect of Parallax.
+The geometric centre of the airphoto, or Principal Point, has no image displacement.
+This position on the ground is referred to as the Plumb Point or Nadir (please see Figure 4.6).
+Radially and towards the margins of the airphoto, the image displacement increases due to the effect of parallax.
+Figure 3.6: The Principal Point of Aerial Photographs Aerial photos are generally taken in a North-South or East-West direction along parallel flightlines.
+Flight Lines: are the paths that an aircraft takes in order to ensure complete coverage of the area to be photographed.
+Flightlines are arranged to give a succession of overlapping photos.
+The photos overlap within and between flightlines, and the overlap in these two directions is called Forward Overlap and Sidelap.
+Figure 4.7Flight Line Forward Overlap within a flightline is from 60 to 70%.
+This provides for stereoscopic view of the area and complete coverage (Figure 3.8).
+Figure 4.8: 60 to 70 Percent Overlap of Vertical Air Photograph  Sidelap:The sidelap between flightlines is from 25-40% and ensures that no areas are left uncovered.
+Figure 3.9: 25% - 40% Overlap Stereoscopic coverage of the project area must be ensured.
+This consists of adjacent pairs of overlapping aerial photographs called stereo pairs.
+Stereo pairs provide two different perspectives of the ground area within the area of coverage.
+When images forming a stereo pair are viewed with a stereoscope, each eye psychologically occupies the vantage point from which the respective image of the stereo pair was taken during flight.
+This results in a three- dimensional model.
+4.0 Conclusion The processes involved in taking vertical aerial photograph were discussed.
+From the facts presented, there must be systematic coverage of the project area during flight.
+To ensure this, it is required that the aircraft flies at a constant height and along a straight line (lines).
+One of such round of flight is called run.
+If this is not ensured, it may generate serious distortions which will go a long way to affecting the geometry of the captured aerial photographs which is the subject for the next unit.
+5.0 Summary This unit discussed the processes of taking aerial photograph.
+The various instruments employed for this purpose were also presented.
+Students should take advantage of the rich literature that is available in this subject matter to enrich their knowledge base.
+6.0 References/Further Reading A history of Photography from its beginnings until the 1920s.
+www.rleggat.com/photohistory The Royal Photographic Society www.rps.org Conyers Nesbitt, Roy 2003 Eyes of the RAF A History of Photo-Reconnaissance Sutton Going, Christopher and Jones, Dr Alun 2004 Above the battle - D Day the lost evidence Crecy Heiman, Grover 1972 Aerial Photography – the story of Aerial Photography and Reconnaissance Airforce Academy Series Macmillan New York London Topographical Society, 2005.
+The London County Council Bomb Damage Maps 1939 – 1945 Macdonald, A.S. 1992 Air Photography at the Ordnance Survey from 1919 to 1991 Photogrammetric record 14 (80): 249-260 Martin, Rupert 1983 The View from Above The Photographers Gallery London Paine, David P 1981 Aerial Photography and Image Interpretation for Resource Management Wiley  Unit 4 Geometric Property of Aerial Photograph 1.0 Introduction In this unit, the scale and other geometric properties of the vertical aerial photograph are presented.
+In order to extract useful information from the air photograph, the scale must be known.
+Relief displacement is also presented.
+2.0 Objectives 1.
+To get the students to understand the different ways to compute the scale of aerial photograph 2.
+To discuss different forms of displacement which affect the accuracy of information on air photographs 3.0 Main Body 3.1 Scale and Aerial Measurement Scale is the ratio of a distance on an aerial photograph to that on the ground.
+It can be expressed in unit equivalents like 1 inch to 2,000 feet or as a representative fraction (1/2, 000) or ratio (1:12,000).
+The amount of details shown on aerial photograph depends to a great extent on scale.
+Scale plays a major role because it determines what you can see, the accuracy of your estimates and how certain features will appear.
+The bigger the scale, the closer you are to reality.
+3.1.2 Evaluation of Scale It is possible to evaluate the scale of an aerial photograph by using the focal length of the camera system (f) and the height (H) above the terrain at which the photograph is obtained.
+Its given by the expression.
+Scale = focal length of camera = f/ Flying height above terrain H Figure 3.10 illustrate the relationship of focal length and flying height above terrain.
+The first thing is that the distance from D to E and A to B are proportional to the ratio of the focal length (f) to the height above the ground (H).
+This allows for the calculation of proportional length because the angle formed on either side of the lens, labeled point C on the diagram are identical.
+Also note that the centre point of the image (the principal point, PP) and the actual center point on the ground (Nadir) fall along the optical axis of the camera in this idealized diagram (Pope, Robert, 1957).
+Figure 3.10 illustrate the relationship of focal length and flying height above terrain  3.1.3 Photo Scale Knowledge of the camera focal length and the aircraft attitude makes it possible to determine photo scale (ps) and the representative fraction (RF) of a photo.
+3.11 3.1.4 Types of Scale On a map, all points are supposed to be at the same scale.
+We have point scale and average scale.
+1.
+Point scale Point scale is the scale at a point with a specific elevation on the ground.
+This implies that every point on a vertical photograph have a different scale.
+Therefore a photograph taken over a rugged terrain will display a varying range of scales associated with the variation in elevation of the ground as Figure 3.12 shows.
+Figure 3.12 Diagram Depicting Rugged Terrain 2.
+Average scale When the scale is computed for the different locations as shown in Figure 3.12 and the average taken, this will represent the average scale.
+The idea is that, in a rugged terrain, some points on higher elevation are closer to some at lower depths.
+Those on higher grounds will certainly appear bigger than those at lower elevation.
+Average project scale may not represent the actual of each individual photograph on each point on a photograph; it is referred to as a minimal scale.
+It is the desired average scale intended for the photo mission (Axelson, Hans 1956).
+3.1.5 Methods of determining Scale Different methods are used to determine the scale of aerial photograph.
+This however depends on the types of information available.
+The most straightforward technique of expressing scale is the one which uses the ratio of the distance between 2 point on the photograph (PP) to the corresponding distance on the ground (GD).
+From the basic geometry of a vertical aerial photograph, we can see that from similar triangle lop and LOP, photo scale (ps) may be expressed as: Ps = OD OP OD = PD OP GD Since Ps = PD GD Therefore Similarly, map scale may be expressed as Ms = MD GD Where: Ps is the photo scale Ms is the map scale PP is the photo distance measured between 2 points on the photograph MD is the map distance measured between 2 points on the map and GD is the ground distance between corresponding 2 points on the photograph expressed in the same units (Hager, and Nagy, 1955) (please see Figure 3.13).
+Figure 3.13  3.1.6 Image displacement on aerial photograph According to Mantron, and Kartografia, (1975) contrast frequency characteristics of image displacement are used to determine the quality of the image, which depends on the optical system, the lens aerial film system and such external factors as image displacement and atmospheric have.
+Since the contrast frequency characteristics is conventionally calculated assuming a sinusoidal illuminance distribution over the object to be photographical, the present analysis is arrived at determining the influence of image displacement (causal by the displacement of the aerial camera during exposure) on the change in the image contrast for objects with an actual (non-sinusoidal) illuminance distribution (Smithsonian Astrophysical observatory) under Nasa Grant NNX09AB39G.
+3.1.7 Distortion and Displacement There are basically 4 types of distortions and 3 three types of displacement.
+a.
+Types of distortion include: (1) Film and print shrinkage (2) Atmospheric refraction of light rays (3) Image motion and (4) Lens distribution.
+b.
+Types of Displacement 1.
+Curvature of the Earth 2.
+Tilt and 3.
+Topographic or relief (including object height) For detailed discussion, please refer to Mantron, and Kartografia, (1975) and Lillisand and Kieffer, (1999) 3.1.8 Relief Displacement Topographic displacement varies directly with the radial distance from the Nadir to the object.
+A particular elevation 2 inches from the Nadir will have half the displacement as that same elevation 4 inches from the Nadir.
+Topographic displacement varies directly with the height of an object.
+A 100 feet tree would be displaced twice as far as a 50 feet tree the same distance from Nadir.
+Topographic displacement varies inversely with the flying height of the base of the object.
+As a result there is little apparent topographic displacement on space photograph.
+The reason for small relief displacement from space is that to achieve a given scale a shorter focal length lens requires flying at a lower altitude.
+The effect of using short focal length lenses is to increase topographic displacement distribution and the apparent depth of the third dimension (vertical exaggeration) in stereoscopic images).
+To get a scale of 1:20,000 you fly at 10,000 with a six inch focal length lens, but at 20,000 ft with a 12 inch focal length lens.
+Basically, then the most important cause of object displacement on aerial photograph is local relief.
+Remember here that there are times when increased displacement can be a good thing (e.g.
+for height measurements) so in flat areas you may want to use a short focal length lens to achieve a given scale (Arnold p.7-13).
+4.0 Conclusion The scale and geometry of aerial photograph was discussed here.
+This knowledge is very crucial in using aerial photograph for mapping and other applications.
+To a great extent, the accuracy of the information depends upon these.
+5.0 Summary The technicalities involved in the calculation of photo scale have been discussed here.
+Also summarized are information of other geometric properties of the aerial photograph.
+For useful information to be derived, the knowledge of this is important.
+6.0 References/Further Reading Heiman, G. (1972) Aerial Photography :The Story of Aerial Photography and Reconnaissance Airforce Academy Series Macmillan New York.
+Macdonald, A.S. (1992), Air Photography at the Ordnance Survey from 1919 to 1991 Photogrammetric record 14 (80):Pp 249-260 Paine, D. P. (1981) Aerial Photography and Image Interpretation for Resource Management Wiley Sharkov, E.A.
+(2003) Passive Microwave Remote Sensing of the Earth : Physical Foundation in Geographic Science.
+Praxis Publishing Ltd, Chichester, UK http://www.landmap.ac.uk/index.php/Learning-Materials/Historical-Aerial-Photography- Course/.html http://www.bookrags.com/Aerial_photography www.rleggat.com/photohistory The Royal Photographic Society www.rps.org.
+Unit 5 Air Photo Interpretation 1.0 Introduction In an attempt to interpret aerial photographs to derive useful information, some visual variables are indeed considered.
+Such include tone, texture, shadow, etc.
+These and the actual interpretation are discussed.
+2.0 Objectives 1.
+To expose students to the processes involved in air photograph interpretation 2.
+To get students to understand how to map from aerial photograph 3.0 Main Body 3.1 Visual Variables in Aerial Photo Interpretation  a.
+Tone Tone can be defined as the relative brightness of objects on the photographs.
+It is the distinguishable variation from white to black.
+Color may be defined as each distinguishable variation on an image produced by a multitude of combinations of hue, value and chrome.
+Many factors influence the tone or color of objects or features recorded on photographic emulsions.
+But, if there is not sufficient contrast between an object and its background to permit, at least, detection there can be no identification.
+While a human interpreter may only be able to distinguish between ten and twenty shades of gray; interpreters can distinguish many more colors.
+The steeper the angle at which the sun rays reach the surface of an object, the brighter is its illumination.
+Many factors influence the tone, and so great care is needed in evaluating them.
+b.
+Resolution Resolution can be defined as the ability of the entire photographic system, including lens, exposure, processing, and other factors, to render a sharply defined image.
+An object or feature must be resolved in order to be detected and/or identified.
+Resolution is one of the most difficult concepts to address in image analysis because it can be described for systems in terms of modulation transfer (or point spread) functions, or it can be discussed for camera lenses in terms of being able to resolve so many line pairs per millimeter.
+There are resolution targets that help to determine this when testing camera lenses for metric quality.
+Photo interpreters often talk about resolution in terms of ground resolved distance which is the smallest normal contrast object that can be identified and measured c. Texture Texture is the frequency of change and arrangement of tones.
+This is a micro image characteristic.
+The visual impression of smoothness or roughness of an area can often be a valuable clue in image interpretation.
+Still water bodies are typically fine textured, grass medium, brush rough.
+There are always exceptions though and scale can play a role; grass could be smooth, brush medium and forest rough on higher altitude aerial photograph of the same area.
+d. Pattern Pattern is the spatial arrangement of objects.
+Patterns can be either man-made or natural.
+Pattern is a macro image characteristic.
+It is the regular arrangement of objects that can be diagnostic of features on the landscape.
+An orchard has a particular pattern.
+Pattern can also be important in geologic or geomorphologic analysis; drainage pattern can reveal a great deal about the lithology and geologic structural patterns of the underlying strata.
+Dendritic drainage patterns develop on flat bedded sediments, radial on domes, linear or trellis in areas with faults.
+e. Site and Situation Site refers to how objects are arranged with respect to one another, or with respect to terrain features.
+Aspect, topography, geology, soil, vegetation and cultural features on the landscape are distinctive factors that the interpreter should be aware of when examining a site.
+The relative importance of each of these factors will vary with local conditions, but all are important.
+Just as some vegetation grows in swamps others grow on sandy ridges or on the sunny side, the shaded sides of hills.
+Some objects are so commonly associated with one another that identification of one tends to indicate or confirm the existence of another.
+Smoke stacks, cooling ponds, transformer yards, coal piles, railroad tracks, coal fired power plant.
+Arid terrain, basin bottom location, highly reflective surface, sparse vegetation, which typically have halophytic vegetation e.g.
+saltbush.
+f. Association Association is one of the most helpful interpretation clues in identifying man made installations.
+Aluminum manufacture requires large amounts of electrical energy.
+Schools of different grade levels typically have characteristic playing fields, parking lots and clusters of buildings.
+Nuclear power plants are associated with a source of cooling water; weather patterns can be associated with pollution sources.
+3.2 Basic Air Photo Interpretation Equipment Air photo interpretation basically serves three purposes namely, viewing of photographs, making measurements on photographs and transferring interpreted information to base map (plotting).
+a. Stereoscopic Viewing One of the advantage of all aerial photographs is that when taken as overlapping pairs (called stereopairs) they can provide a 3D view of the terrain (perspective view).
+The 3D view is made possible by the effect of parallax.
+Parallax refers to the apparent change in relative positions of stationery objects caused by a change in viewing position.
+Our left and right eyes are recording information from two slightly differing viewpoints; the brain uses the effect of parallax to give us the perception of depth.
+b.
+Types of Stereoscopes Pocket Stereoscope Mirror Stereoscope  Stereoscope Scanning Stereoscope‘Interpreterscope’(Carl Zeiss in Thomas, URL) 3.3 Mapping from aerial photograph (manual tracing) Photogrammetry is the science and technology of obtaining spatial measurements and other geometrically derived products from aerial photographs (Lillisand et al., 2005).
+Photogrammetric analysis procedures range from obtaining distances, area, elevations using hardcopy (analog) photographic products, equipment and simple geometric concepts to generating precise digital elevation models (DEMs), orthophotos, thematic data and other derived products/information through the use of digital images and analytical techniques.
+Digital or soft copy photogrammetry refers to any photogrammetric operation involving the use of digital raster photographic image.
+Historically, one of the most widespread uses of photogrammetry is in preparation of topographic maps.
+Today, photogrammetric operations are extensively used to produce a range of GIS data products such asthematic data in 2D and 3D, raster image backdrops and DEMs.
+In this lesson, emphasis is on stereo plotting using aerial photographs In areas of flat terrain where photographic scales can be precisely determine, direct print tracings may serve, many useful purposes: such tracings however, cannot be technically referred to as true maps, because although the vertical aerial photograph presents a correct record of angles; constant changes in horizontal scale preclude accurate measurements of distance.
+The obvious alternative is to transfer photographic detail to reliable base maps of uniform scale.
+Planimetric maps are those that show correct horizontal or plain position of natural and cultural future.
+Regardless of the base map selected some enlargement or reduction is ordinarily requires before transferring print detail because differences between photographic and map scale most be reconciled.
+This may be accomplished by reconstructing the map at the approximate scale of the contact print using pantograph.
+When photo interpretation has been completed, the annotated details are transferred to the base map.
+a.
+The basic procedure is as follows: 1.
+Cover the base map with the same number of gird lines (i.e.
+A series of lines draw parallel to and at right angles with one another forming a series of squares) as you cover the photograph.
+2.
+Then transfer photo detail to the bare map, one square of the grid being completed at a time.
+3.
+If both base map and photo are on the same scale, transfer can be facilitated by direct tracing over a light table.
+Where scales differ, the squares on the base map would be proportional to those on the photo and transfer must be from one square (on the photo) to the equivalent proportional square (on the base map).
+In this way photo detail is actually “forced” into corresponding squares on the base map.
+Transfer of detail should not be extended outside of the framework of control, to avoid large errors.
+To minimize errors caused by this “forcing” however, other methods like the radial line triangulation could be adopted.
+b.
+Radial Line Triangulation (Plotting) This method of mapping is similar to triangulation survey with the compass or what is known as compass sketch survey in which intersection of rays from known locations accurately determine the position of selected stations.
+If pp, nadir and is centre coincide, objects relative to pp can be determine by rays from it to the object.
+ie.
+The centre of each aerial photograph is taken as an instrument station from which azimuth, lines are drawn as a basis for locating the correct relative positions of selected points.
+Procedure 1.
+Obtain two overlapping photograph.
+2.
+Mark carefully in china pencil the principal points and the corresponding conjugate principal points on each print.
+Label the principal point pp and pp .
+1 2 3.
+Measure carefully on each print the photo distance between pp and CPP.
+Determine the average photo base (PP – CPP).
+4.
+In the centre of a sheet of tracing paper mark two points separated by a distance corresponding to the average photo base.
+5.
+Mark one pp, and the other PP this point are now at fixed distance and orientation with 2. respect to each other and represent survey stations (actually they are point on the ground vertically beneath the camera station).
+6.
+Mark with a fine line, the flight path of the aircraft on each point.
+Also join the points on your tracing with a fine pencil line.
+7.
+Supposing you are interesting in mapping a river course and a main road along it, you can only map features occurring in the area of overlap.
+Identify on one prints those points along the roads and rivers that you wish to locate on your map.
+(such points should include intersection and sharp bends in the road, gentle curves in roads and rivers should be mapped by fixing a series of point around the curve).
+Mark the points with a fine dot and give each a different reference number.
+Transfer these points and numbers to the identical features on the second point.
+8. place your tracing paper over the print marked with pp, with a survey station mark superimposed over the principal point and the line joining the survey stations superimposed over the flight path, draw very light and fine pencil lines from the principal point to the numbered reference number to which such radial line belongs.
+(these radial lines need be draw to a length of about one inch on either side of the reference point to be mapped).
+Tracing paper 6 5 4 Survey station labeled pp1 on tracing paper superimposed on pp on print.
+1 1 2 3 Line joining pp to pp on tracing paper 1 2 superimposed over flight path on point Radial line from pp drawn through reference 1 9.
+Repeat this procedure using the second print with PP marked with the second station 2 PP Superimpose over the PP of that print.
+2.
+The radial lines to each reference point should intersect, thus marking the position of the feature.
+The road and the river can be interpreted between the fixed points X X X PP 2 Diagram of tracing showing intersection of lines from PP and PP 1 2 10.
+Complete the map with border, little, key and scale.
+4.0 Conclusion This unit dealt with how to view and interpret aerial photographs using a range of instruments.
+We have seen that stereo plotting may require a base map due to the problems of distortions and displacements which have been discussed here.
+The different methods of mapping from aerial photograph have been discussed.
+5.0 Summary 6.0 References/Further Reading Heiman, G. (1972) Aerial Photography :The Story of Aerial Photography and Reconnaissance Airforce Academy Series Macmillan New York.
+Macdonald, A.S. (1992), Air Photography at the Ordnance Survey from 1919 to 1991 Photogrammetric record 14 (80):Pp 249-260 Paine, D. P. (1981) Aerial Photography and Image Interpretation for Resource Management Wiley Sharkov, E.A.
+(2003) Passive Microwave Remote Sensing of the Earth : Physical Foundation in Geographic Science.
+Praxis Publishing Ltd, Chichester, UK Thomas, A.
+(URL) Aerial Photography.
+University of the Western Cape, Bellville 7535, Cape Town, South Africa http://www.landmap.ac.uk/index.php/Learning-Materials/Historical-Aerial-Photography- Course/.html http://www.bookrags.com/Aerial_photography www.rleggat.com/photohistory The Royal Photographic Society www.rps.org.
+MODULE 4 [PRINCIPLES OF DIGITAL IMAGE PROCESSING] Unit 1 Digital Image Pre-Processing 1.0 Introduction This part if the course will investigate the basic principles and introductory practical issues in the pre-processing of digital images.
+The raw satellite images may contain variety of geometric and radiometric errors.
+Consequently, it is important to rectify these images before their actual interpretation.
+This typically involves the initial processing of raw satellite image for correcting geometric distortions, radiometric corrections & calibration and noise removal from the data.
+This process is also referred as Image Rectification and Restoration.
+Image pre-processing is done before enhancement, manipulation, interpretation and classification of satellite images.
+2.0 Objectives 1.
+To introduce the students to the issues involved in the pre-processing of digital images 2.
+To expose the students to the possible techniques of image enhancement 3.
+To discuss the various techniques of processing of digital images 3.0 Main Body 3.1 Digital Image Pre-Processing (adapted from Erdas Imagine Field Guide) Image rectification and restoration processes are designed to recognize and compensate for errors, noise, and geometric distortion introduced into the data during the scanning, transmission, and recording processes (Sabins, 1987).
+The purpose is to make the image resemble the original scene.
+Image restoration is relatively simple because the pixels from each band are processed separately.
+The first step in the restoration process is to calculate the average DN value per scan line for the entire scene.
+The average DN value for each scan line is then compared with this scene average.
+Any scan line deviating from the average by more than a designated threshold value is considered defective.
+Next, the defective lines are replaced.
+For each pixel in a defective line, an average DN is calculated using DNs for the corresponding pixel on the preceding and succeeding scan lines.
+The resulting image is a major improvement, although every sixth scan line consists of artificial data.
+This restoration program is equally effective for random line dropouts that do not follow a systematic pattern (Sabins, 1987).
+a.
+Restoring Periodic Line Striping For each spectral band, the detectors (for Landsat MSS and TM) were carefully calibrated and matched before the Landsat was launched.
+With time, however, the response of some detectors may drift to higher or lower levels; as a result every scan line recorded by that detector is brighter or darker than the other lines.
+The general term for this defect is periodic line striping (Sabins, 1987).
+The defect is called sixth-line striping for MSS where every sixth line has a brightness offset.
+Valid data are present in the defective lines, but must be corrected to match the overall scene.
+One restoration method is to plot six histograms for the DNs recorded by each detector and compare these with a histogram for the entire scene.
+For each detector the mean and standard deviation are adjusted to match values for the entire scene.
+Another restoration method plots a histogram of DNs for each of the six detectors.
+Deviations in mean and median values for the histograms are used to recognize and determine corrections for detector differences.
+b. Filtering of Random Noise Random noise, on the other hand, requires more sophisticated restoration method (Sabins, 1987).
+Random noise typically occurs as individual pixels with DNs that are much higher or lower than the surrounding pixels.
+In the image, these pixels produce bright and dark spots that mar the image.
+These spots also interfere with information extraction procedures such as classification.
+Random-noise pixels may be removed by digital filters.
+These spots may be eliminated by a moving average filter in the following steps (after Sabins, 1987): 1.
+Design a filter kernel, which is a two-dimensional array of pixels with an odd number of pixels in both the x and y dimension.
+The odd-number requirement means that the kernel has a central pixel, which will be modified by the filter operation.
+Calculate the average of the nine pixels in the kernel; for the initial location, the average is 43.
+2. .
+If the central pixel deviates from the average DN of the kernel by more than a threshold value (in this example, 30), replace the central pixel by the average value.
+Move the kernel to the right by one column of pixels and repeat the operation.
+The new average is 41.
+The new central pixel (original value = 40), is within the threshold limit of the new average and remains unchanged.
+In the third position of the kernel, the central pixel (DN = 90) is replaced by a value of 53.
+3. .
+When the right margin of the kernel reaches the right margin of the pixel array, the kernel returns to the left margin, drops down one row of pixels, and the operation continues until the entire image has been subjected to the moving average filter.
+c. Correcting for Atmospheric Scattering For Landsat MSS images, band 4 (0.5 to 0.6 m) has the highest component of scattered light and band 7 (0.8 to 1.1 m) has the least.
+Atmospheric scattering produces haze, which results in low image contrast.
+The contrast ratio of an image is improved by correcting for this effect.
+Two techniques exist for determining the correction factor for different MSS bands.
+Both techniques are based on the fact that band 7 is essentially free of atmospheric effects.
+This can be verified by examining the DNs corresponding to bodies of clear water and to shadows.
+Both the water and the shadows have values of either 0 or 1 on band 7.
+The first restoration technique employs an area within the image that has shadows caused by irregular topography.
+For each pixel the DN in band 7 is plotted against the DN in band 4, and a straight line is fitted through the plot, using a least-squares technique.
+If there were no haze in band 4, the line would pass through the origin; because there is haze, the intercept is offset along the band 4 axis.
+Haze has an additive effect on scene brightness.
+To correct the haze effect on band 4, the value of the intercept offset is subtracted from the DN of each band-4 pixel for the entire image.
+Bands 5 and 6 are also plotted against band 7, and the procedure is repeated.
+The second restoration technique also requires that the image have some dense shadows or other areas of zero reflectance on band 7.
+The histogram of band 4 lacks zero values, and the peak is offset toward higher DNs because of the additive effect of the haze.
+Band 4 also shows a characteristic abrupt increase in the number of pixels on the low end of the DN scale (left side of the histogram).
+The lack of DNs below this threshold is attributed to illumination from light scattered into the sensor by the atmosphere.
+For band 4 this threshold typically occurs at a DN of 11; this value is subtracted from all the band 4 pixels to correct for haze.
+For band 5 the correction is generally a DN of 7 and for band 6 a DN of 3.
+There can be a problem with this correction technique if the Landsat scene lacks dense shadows and if there are no band-7 pixels with DNs of 0. d. Correcting Geometric Distortions During the scanning process, a number of systematic and non-systematic geometric distortions are introduced into MSS and TM image data.
+These distortions are corrected during production of the master images, which are remarkably orthogonal.
+The corrections may not be included in the CCTs, however, and geometric corrections must be applied before plotting images (Sabins, 1987).
+1.
+Non-systematic Distortions Non-systematic distortions are not constant because they result from variations in the spacecraft attitude, velocity, and altitude and therefore are not predictable.
+These distortions must be evaluated from Landsat tracking data or ground-control information.
+Variations in spacecraft velocity cause distortion in the along-track direction only and are known functions of velocity that can be obtained from tracking data.
+The amount of earth rotation during the 28 sec required to scan an image results in distortion in the scan direction that is a function of spacecraft latitude and orbit.
+In the correction process, successive groups of scan lines (6 for MSS, 16 for TM) are offset toward the west to compensate for earth rotation, resulting in the parallelogram outline of the image.
+Variations in attitude (roll, pitch, and yaw) and altitude of the spacecraft cause non- systematic distortions that must be determined for each image in order to be corrected.
+The correction process employs geographic features on the image, called ground control points (GCPs), whose positions are known.
+Intersections of major streams, highways, and airport runways are typical GCPs.
+Differences between actual GCP locations and their positions in the image are used to determine the geometric transformations required to restore the image.
+The original pixels are resampled to match the correct geometric coordinates.
+Geometric rectification, therefore involves the conversion of satellite image coordinate system to a standard map projection, it is necessary for accurate location within an image, and when importing remote sensing data to Geographic Information Systems.
+In geometric corrections, such approaches as Global Positioning System(GPS) using GCPs,( note that GPS works well with nadir imagery, relatively level terrain and permanent visible features), transformation based on sensor parameters, and the additional use of Digital Terrain Models(DTMs), see Figure 1 below.
+2.
+Systematic Distortions Geometric distortions whose effects are constant and can be predicted in advance are called systematic distortions.
+Scan skew, cross-track distortion, and variations in scanner mirror velocity belong to this category.
+Cross-track distortion results from sampling of data along the MSS scan line at regular time intervals that correspond to spatial intervals of 57 m. The length of the ground interval is actually proportional to the tangent of the scan angle and therefore is greater at either margin of the scan line.
+The resulting marginal compression of Landsat images is identical to that described for airborne thermal IR scanner images; however, distortion is minimal in Landsat images because the scan angle is only 5.8 deg on either side of vertical in contrast to the 45 deg to 60 deg angles of airborne cross-track scanners.
+Tests before Landsat was launched determined that the velocity of the MSS mirror would not be constant from start to finish of each scan line, resulting in minor systematic distortion along each scan line.
+The known mirror velocity variations may be used to correct for this effect.
+Similar corrections are employed for TM images.
+Scan skew is caused by the forward motion of the spacecraft during the time required for each mirror sweep.
+The ground swath scanned is not normal to the ground track but is slightly skewed, producing distortion across the scan line.
+The known velocity of the satellite is used to restore this geometric distortion.
+Figure 4.1: Image Rectification (a & b) Input and reference image with GCP locations, (c) using polynomial equations the grids are fitted together, (d) using resampling method the output grid pixel values are assigned.
+Source: Sabins (1987) 4.0 Conclusion Image rectification and restoration processes are designed to recognize and compensate for errors, noise, and geometric distortion introduced into the data during the scanning, transmission, and recording processes.
+The objective is to make the image resemble the original scene.
+Image restoration is relatively simple because the pixels from each band are processed separately.
+5.0 Summary From this lesson, it is clear the various methods of pre-processing digital images.
+Such include correction of atmospheric scattering, distortions, noise removal amongst others.
+After these pre-processing operations, the images are then ready for enhancement which is the subject for the next unit.
+6.0 References/Further Reading Jensen, J. R. 1986.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R. 1996.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+2d ed.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R., et al.
+1983.
+Urban/Suburban Land Use Analysis.
+Chapter 30 in Manual of Remote Sensing.
+Ed.
+R. N. Colwell.
+Falls Church, Virginia: American Society of Photogrammetry.
+DigitalGlobe, 2008a.
+QuickBird.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/85/QuickBird DigitalGlobe, 2008b.
+WorldView-1.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/86/WorldView-1 DigitalGlobe, 2010.
+WorldView-2.
+Retrieved September 7, 2010 from http://www.digitalglobe.com/index.php/88/WorldView-2 DLR (German Aerospace Center).
+2008.
+TerraSAR-X Mission.
+Retrieved December 5, 2008, from http://www.dlr.de/tsx/main/mission_en.htm Earth Remote Sensing Data Analysis Center (ERSDAC).
+2000.
+JERS-1 OPS.
+Retrieved December 28, 2001, from http://www.ersdac.or.jp/Projects/JERS1/JOPS/JOPS_E.html Unit 2 Digital Image Enhancement 1.0 Introduction Before interpreting satellite images, some image enhancement procedures are applied to manipulate them to improve and enhance features.
+This helps to improve the interpretability of the image and in segregating feature types.
+Image enhancement involves use of a number of statistical and image manipulation functions provided in image processing software.
+These include contrast enhancement, histogram equalization, density slicing, spatial filtering, image ratio (like RVI, NDVI, TVI etc.
+), principal components analysis (PCA), colour transformations, image fusion, image stacking e.t.c.
+2.0 Objectives 1.
+To discuss the different image enhancement procedures 3.0 Main Body 3.1 Digital Image Enhancement a.
+Contrast Enhancement Techniques for improving image contrast are among the most widely used enhancement processes.
+The sensitivity range of Landsat TM and MSS detectors was designed to record a wide range of terrain brightness from black basalt plateaus to white sea ice under a wide range of lighting conditions.
+Few individual scenes have a brightness range that utilizes the full sensitivity range of the MSS and TM detectors.
+To produce an image with the optimum contrast ratio, it is important to utilize the entire brightness range of the display medium, which is generally film.
+Three of the most useful methods of contrast enhancement are described in the following sections.
+Linear Contrast Stretch The simplest contrast enhancement is called a linear contrast stretch Nonlinear Contrast Stretch: Nonlinear contrast enhancement is also possible..
+This stretch applies the greatest contrast enhancement to the most populated range of brightness values in the original image.
+The resulting loss of contrast in the light and dark ranges is similar to that in the linear contrast stretch but not as severe.
+An important step in the process of contrast enhancement is for the user to inspect the original histogram and determine the elements of the scene that are of greatest interest.
+The user then chooses the optimum stretch for his needs.
+Experienced operators of image processing systems bypass the histogram examination stage and adjust the brightness and contrast of images that are displayed on a CRT.
+For some scenes a variety of stretched images are required to display fully the original data.
+It also bears repeating that contrast enhancement should not be done until other processing is completed, because the stretching distorts the original values of the pixels.
+b.
+Intensity, Hue, and Saturation Transformations Apart, from the additive system of primary colors (red, green, and blue, or RGB system) an alternate approach to color is the intensity, hue, and saturation system (IHS), which is useful because it presents colors more nearly as the human observer perceives them.
+The IHS system is based on the color sphere in which the vertical axis represents intensity, the radius is saturation, and the circumference is hue.
+The intensity (I) axis represents brightness variations and ranges from black (0) to white (255); no color is associated with this axis.
+Hue (H) represents the dominant wavelength of color.
+Hue values commence with 0 at the midpoint of red tones and increase counter-clockwise around the circumference of the sphere to conclude with 255 adjacent to 0.
+Saturation (S) represents the purity of color and ranges from 0 at the center of the color sphere to 255 at the circumference.
+A saturation of 0 represents a completely impure color, in which all wavelengths are equally represented and which the eye will perceive a shade of gray that ranges from white to black depending on intensity.
+Intermediate values of saturation represent pastel shades, whereas high values represent purer and more intense colors.
+The range from 0 to 255 is used here for consistency with the Landsat eight-bit scale; any range of values (0 to 100, for example) could be used as IHS coordinates.
+When any three spectral bands of MSS or TM data are combined in the RGB system, the resulting color images typically lack saturation, even though the bands have been contrast- stretched, but the color image has the pastel appearance that is typical of many Landsat images.
+The undersaturation is due to the high degree of correlation between spectral bands.
+High reflectance values in the green band, for example, are accompanied by high values in the blue and red bands, so pure colors are not produced.
+For the interval 0 < H < 1, extended to 1 < H < 3.
+After enhancing the saturation image, the IHS values are converted back into RGB images by inverse equations.
+The IHS transformation and its inverse are also useful for combining images of different types.
+For example, a digital radar image could be geometrically registered to the Thermopolis TM data.
+After the TM bands are transformed into IHS values, the radar image data may be substituted for the intensity image.
+The new combination (radar, hue, and enhanced saturation) can then be transformed back into an RGB image that incorporates both radar and TM data.
+c. Density Slicing Density slicing aims at converting the continuous gray tone of an image into a series of density intervals, or slices, each corresponding to a specified digital range.
+Digital slices may be displayed as separate colors or as areas bounded by contour lines.
+This technique emphasizes subtle gray-scale differences that may be imperceptible to the viewer.
+In Chapter 5 digital density slicing was illustrated in the description of calibrated image displays.
+d. Edge Enhancement Most interpreters are concerned with recognizing linear features in images.
+Geologists map faults, joints, and lineaments.
+Geographers map manmade linear features such as highways and canals.
+Some linear features occur as narrow lines against a background of contrasting brightness; others are the linear contact between adjacent areas of different brightness.
+In all cases, linear features are formed by edges.
+Some edges are marked by pronounced differences in brightness and are readily recognized.
+More typically, however, edges are marked by subtle brightness differences that may be difficult to recognize.
+Contrast enhancement may emphasize brightness differences associated with some linear features.
+This procedure, however, is not specific for linear features because all elements of the scene are enhanced equally, not just the linear elements.
+Digital filters have been developed specifically to enhance edges in images and fall into two categories: directional and non-directional.
+e. Non-directional Filters Laplacian filters are non-directional filters because they enhance linear features having almost any orientation in an image.
+The exception applies to linear features oriented parallel with the direction of filter movement; these features are not enhanced.
+A typical Laplacian filter is a kernel with a high central value, 0 at each corner, and -1 at the center of each edge.
+The second category of edge enhancers is 2nd-order derivative or Laplacian operators.
+These are best for line (or spot) detection as distinct from ramp edges.
+ERDAS IMAGINE Radar Interpreter offers two such arrays: Unweighted line and Weighted line (Pratt, 1991) The Laplacian kernel is placed over a three-by-three array of original pixels, and each pixel is multiplied by the corresponding value in the kernel.
+The nine resulting values (four of which are 0 and four are negative numbers) are summed.
+The resulting value for the filter kernel is combined with the central pixel of the three-by-three data array, and this new number replaces the original DN of the central pixel.
+g. Spatial Filtering This is the removal of spatial features for data enhancement.
+It is another processing procedure falling into the enhancement category that often divulges valuable information of a different nature is spatial filtering.
+Although less commonly performed, this technique explores the distribution of pixels of varying brightness over an image and is especially sensitive to detecting and sharpening boundary discontinuities between adjacent pixel sets with notable differences in DN values (Sabins, 1987).
+Patterns of sharp changes in scene illumination, which are typically abrupt rather than gradual, produce a relation that we express quantitatively as "spatial frequencies".
+The spatial frequency is defined as the number of cycles of change in image DN values per unit distance (e.g.10 cycles/mm) applicable to repeating tonal discontinuities along a particular direction in the image.
+An image with only one spatial frequency consists of equally spaced stripes (in a TV monitor, raster lines).
+For instance, a blank TV screen with the set turned on, can have horizontal stripes.
+This situation corresponds to zero frequency in the horizontal direction and a measurable spatial frequency in the vertical, evidenced by line boundary repeats.
+In general, images of practical interest consist of several dominant spatial frequencies.
+Fine detail in an image involves a larger number of changes per unit distance than the gross image features.
+The mathematical technique for separating an image into its various spatial frequency components is called Fourier Analysis (Sabins, 1987).
+After an image is separated into its components (done as a "Fourier Transform"), it is possible to emphasize certain groups (or "bands") of frequencies relative to others and recombine the spatial frequencies into an enhanced image.
+Algorithms for this purpose are called "filters" because they suppress (de-emphasize) certain frequencies and pass (emphasize) others (Sabins, 1987).
+Filters that pass high frequencies and, hence, emphasize fine detail and edges, are called highpass filters.
+Lowpass filters, which suppress high frequencies, are useful in smoothing an image, and may reduce or eliminate "salt and pepper" noise.
+Convolution filtering is the process of averaging small sets of pixels across an image.
+Convolution filtering is used to change the spatial frequency characteristics of an image (Jensen, 1996).
+A convolution kernel is a matrix of numbers that is used to average the value of each pixel with the values of surrounding pixels in a particular way.
+The numbers in the matrix serve to weight this average toward particular pixels.
+These numbers are often called coefficients, because they are used as such in the mathematical equations.
+In ERDAS IMAGINE, you can apply convolution filtering to an image using any of the following methods (Erdas, 2010): • Filtering dialog in the respective multispectral or panchromatic image type option • Convolution function in Spatial Resolution option • Spatial Resolution Non-directional Edge enhancement function • Convolve function in Model Maker Filtering is a broad term, which refers to the altering of spatial or spectral features for image enhancement (Jensen, 1996).
+According to Sabins (1987), Convolution filtering is one method of spatial filtering.
+Some texts may use the terms synonymously.filtering is a common mathematical method of implementing spatial filters.
+In this, each pixel value is replaced by the average over a square area centered on that pixel.
+Square sizes typically are 3 x 3, 5 x 5, or 9 x 9 pixels but other values are acceptable.
+This square array is called a moving window, or kernel, since in the computer manipulation of an image the array can be envisioned as moving systematically from one pixel to the next.
+As applied in lowpass filtering, this tends to reduce deviations from local averages and thus smoothes the image.
+The difference between the input image and the lowpass image is the highpass-filtered output.
+Generally, spatially filtered images must be contrast stretched to use the full range of image display.
+Nevertheless, filtered images tend to appear flat unless strong frequency repeat patterns are brought out (Sabins, 1987).
+Principal Component Analysis This is a technique for transforming a set of correlated variables into a new set of uncorrelated variables.
+PCA helps in reducing redundancy in a data set.
+This transformation is a rotation of the original axes to new orientations that are orthogonal to each other and therefore there is no correlation between variables.
+References/Further Reading Bernstein, R., and D. G. Ferneyhough, (1975), Digital image processing: Photogrammetric Engineering, v. 41, p. 1465-1476.
+Bryant.
+M., 1974, Digital image processing: Optronics International Publication 146, Chelmsford, Mass.
+Chavez, P. S., 1975, Atmospheric, solar, and MTF corrections for ERTS digital imagery: American Society of Photogrammetry, Proceedings of Annual Meeting in Phoenix, Ariz. Haralick, R. M., (1984), Digital step edges from zero crossing of second directional filters: IEEE Transactions on Pattern Analysis and Machine Intelligence, v. PAMI-6, p. 58-68.
+Holkenbrink, (1978), Manual on characteristics of Landsat computer-compatible tapes produced by the EROS Data Center digital image processing system: U.S. Geological Survey, ERO Sabins Jr., F. F. (1987).
+Remote sensing; principles and interpretation.
+New York: W. H. Freeman, CIESIN 2.0 References/Further Reading Jensen, J. R. 1986.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R. 1996.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+2d ed.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R., et al.
+1983.
+Urban/Suburban Land Use Analysis.
+Chapter 30 in Manual of Remote Sensing.
+Ed.
+R. N. Colwell.
+Falls Church, Virginia: American Society of Photogrammetry.
+DigitalGlobe, 2008a.
+QuickBird.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/85/QuickBird DigitalGlobe, 2008b.
+WorldView-1.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/86/WorldView-1 DigitalGlobe, 2010.
+WorldView-2.
+Retrieved September 7, 2010 from http://www.digitalglobe.com/index.php/88/WorldView-2 DLR (German Aerospace Center).
+2008.
+TerraSAR-X Mission.
+Retrieved December 5, 2008, from http://www.dlr.de/tsx/main/mission_en.htm Earth Remote Sensing Data Analysis Center (ERSDAC).
+2000.
+JERS-1 OPS.
+Retrieved December 28, 2001, from http://www.ersdac.or.jp/Projects/JERS1/JOPS/JOPS_E.html  Unit 3 Digital Image Classification 1.0 Introduction Digital image classification is a software–based image classification technique which involves automated information extraction and subsequent classification of multispectral satellite images.
+These are statistical decision rules which groups pixels in different feature classes.
+Digital classification techniques are less time consuming than visual techniques.
+Digital satellite images can be classified digitally using supervised, unsupervised or hybrid type of image classification (these will be discussed in detail later).
+2.0 O bjectives 1.
+T o get the students to understand the methods which can be used to classify digital images.
+3.0 Main Body 3.1 Digital Image Classification The overall objective of image classification is to automatically categorize all pixels in an image into land cover classes or themes.
+Normally, multispectral data are used to perform the classification, and the spectral pattern present within the data for each pixel is used as numerical basis for categorization.
+That is, different feature types manifest different combination of DNs based on their inherent spectral reflectance and emittance properties (Minakshi, 2011).
+The traditional methods of classification mainly follow two approaches: unsupervised and supervised.
+a.
+S upervised classification In supervised training, it is important that the analysts have a set of desired classes in mind, and then create the appropriate signatures from the data.
+You must also have some way of recognizing pixels that represent the classes that you want to extract.
+Supervised classification is usually appropriate when you want to identify relatively few classes, when you have selected training sites that can be verified with ground truth data, or when you can identify distinct, homogeneous regions that represent each class (Erdas, 2010).
+On the other hand, if you want the classes to be determined by spectral distinctions that are inherent in the data so that you can define the classes later, then the application is better suited to unsupervised training.
+Unsupervised training enables you to define many classes easily, and identify classes that are not in contiguous, easily recognized regions.
+To do this, representative sample sites of known cover types, called training sites, are used to compile a numerical interpretation key that describes the spectral attributes for each feature type of interest.
+This is called supervised signature.
+Each pixel in the data set is then compared numerically to each category in the signature and labeled with the name of the category it looks most like.
+In the supervised approach the user defines useful information categories and then examines their spectral separability whereas in the unsupervised approach he first determines spectrally separable classes and then defines their informational utility.
+It has been found that in areas of complex terrain, the unsupervised approach is preferable to the supervised one.
+In such conditions if the supervised approach is used, the user will have difficulty in selecting training sites because of the variability of spectral response within each class.
+Consequently, a prior ground data collection can be very time consuming.
+Also, the supervised approach is subjective in the sense that the analyst tries to classify information categories, which are often composed of several spectral classes whereas spectrally distinguishable classes will be revealed by the unsupervised approach, and hence ground data collection requirements may be reduced.
+Additionally, the unsupervised approach has the potential advantage of revealing discriminable classes unknown from previous work.
+However, when definition of representative training areas is possible and statistical information classes show a close correspondence, the results of supervised classification will be superior to unsupervised classification.
+b. U nsupervised classification Unsupervised training is more computer-automated and does not utilize training data as the basis for classification.
+It enables you to specify some parameters that the computer uses to uncover statistical patterns that are inherent in the data.
+These patterns do not necessarily correspond to directly meaningful characteristics of the scene, such as contiguous, easily recognized areas of a particular soil type or land use.
+They are simply clusters of pixels with similar spectral characteristics.
+In some cases, it may be more important to identify groups of pixels with similar spectral characteristics than it is to sort pixels into recognizable categories.
+Unsupervised training is dependent upon the data itself for the definition of classes.
+This method is usually used when less is known about the data before classification.
+It is then the analyst’s responsibility, after classification, to attach meaning to the resulting classes (Jensen, 1996).
+Unsupervised classification is useful only if the classes can be appropriately interpreted.
+Rather, this family of classifiers involves algorithms that examine the unknown pixels in an image and aggregate them into a number of classes based on the natural groupings or clusters present in the image values.
+It performs very well in cases where the values within a given cover type are close together in the measurement space, data in different classes are comparatively well separated.
+The classes that result from unsupervised classification are spectral classes because they are based solely on the natural groupings in the image values, the identity of the spectral classes will not be initially known.
+The analyst must compare the classified data with some form of reference data (such as larger scale imagery or maps) to determine the identity and informational value of the spectral classes.
+In the supervised approach we define useful information categories and then examine their spectral separability; in the unsupervised approach we determine spectrally separable classes and then define their informational utility.
+There are numerous clustering algorithms that can be used to determine the natural spectral groupings present in data set.
+One common form of clustering, called the “K-means” approach also called as ISODATA (Interaction Self-Organizing Data Analysis Technique) accepts from the analyst the number of clusters to be located in the data.
+The algorithm then arbitrarily “seeds”, or locates, that number of cluster centers in the multidimensional measurement space.
+Each pixel in the image is then assigned to the cluster whose arbitrary mean vector is closest.
+After all pixels have been classified in this manner, revised mean vectors for each of the clusters are computed.
+The revised means are then used as the basis of reclassification of the image data.
+The procedure continues until there is no significant change in the location of class mean vectors between successive iterations of the algorithm.
+Once this point is reached, the analyst determines the land cover identity of each spectral class.
+Because the K- means approach is iterative, it is computationally intensive.
+Therefore, it is often applied only to image sub-areas rather than to full scenes.
+4.0 Conclusion From the foregoing facts, the supervised and unsupervised classifications are commonly used in classifying satellite imageries.
+While the supervised approach training data, unsupervised does not.
+Other methods such as knowledge classifier exist.
+For detailed discussion on this, please see the reading list attached.
+5.0 S ummary The two methods which can be used for image processing have been discussed here.
+The advantages of one over the other are also spelt out.
+The circumstances each could be used have also been mentioned.
+This is just and introduction.
+A more in-depth study requires a computer and the related image processing systems including Erdas Imagine by Leica Geosystem, Idrissi by Clark Laboratory, Illwis Academic and a host of others.
+To carry out a successful image processing, the right data is very necessary.
+6.0 References/Further Reading Jensen, J. R. 1986.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R. 1996.
+Introductory Digital Image Processing: A Remote Sensing Perspective.
+2d ed.
+Englewood Cliffs, New Jersey: Prentice-Hall.
+Jensen, J. R., et al.
+1983.
+Urban/Suburban Land Use Analysis.
+Chapter 30 in Manual of Remote Sensing.
+Ed.
+R. N. Colwell.
+Falls Church, Virginia: American Society of Photogrammetry.
+DigitalGlobe, 2008a.
+QuickBird.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/85/QuickBird DigitalGlobe, 2008b.
+WorldView-1.
+Retrieved December 8, 2008 from http://www.digitalglobe.com/index.php/86/WorldView-1 DigitalGlobe, 2010.
+WorldView-2.
+Retrieved September 7, 2010 from http://www.digitalglobe.com/index.php/88/WorldView-2 DLR (German Aerospace Center).
+2008.
+TerraSAR-X Mission.
+Retrieved December 5, 2008, from http://www.dlr.de/tsx/main/mission_en.htm Earth Remote Sensing Data Analysis Center (ERSDAC).
+2000.
+JERS-1 OPS.
+Retrieved December 28, 2001, from http://www.ersdac.or.jp/Projects/JERS1/JOPS/JOPS_E.html MODULE 5 APPLICATION OF REMOTE SENSING 1.
+Unit 1 Land use/Land cover mapping 1.0 Introduction The applications of remote sensing technique are almost unlimited.
+In nearly all cases the applications relate to the collation of information necessary for the planning of future development, In land cover/land use, it is equally applicable.
+Almost every activity of man takes place on the land.
+Consequently, the knowledge of what exits where is very paramount for planning purposes.
+This information can be obtained from remote sensing data.
+2.0 Objectives 1.
+To expose the students to the different ways in which remote sensing can be used to derive information about land cover/land use.
+2.
+To discuss some examples of the application of remote sensing in land cover/land use mapping.
+3.0 Main Body 3.1 Land use/Land cover mapping The knowledge of land use and land cover is important for many planning and management activities concerned with the surface of the earth.
+The term land cover relates to the type of feature present on the surface of the earth.
+Urban buildings, lake, trees are all examples of land cover types.
+The term land use relates to human activity associated with a specific piece of land.
+Remote sensing tends to orient towards applications that have direct and immediate benefit to people and society.
+In this regards, map types that are designed to show both natural and manmade features on which data pertinent to those aims is recorded and from which up-to-date information is easily extracted are referred to as land cover and land use maps (Short, URL).
+The satellite images and aerial photographs are good starting points for making land use/cover maps.
+Satellite remote sensing is an evolving technology with the potential for contributing to studies for land cover and change detection by making globally comprehensive evaluations of many environmental and human actions possible.
+These changes, in turn, influence management and policy decision making.
+Satellite image data enable direct observation of the land surface at repetitive intervals and therefore allow mapping of the extent and monitoring and assessment of: (cid:1) Storm Water Runoff (cid:1) Change detection (cid:1) Air Quality (cid:1) Environmental analysis (cid:1) Energy Savings (cid:1) Carbon Storage and Avoidance (cid:1) Irrigated landscape mapping From the above, it is obvious that there are a variety of ways in which remote sensing can be used in land cover land use mapping and analysis.
+It is particularly useful when utilized along with geographical information systems (GIS) Green Vegetation Index Soil Brightness Map Vegetation Hue (color) Change Map Sharp Vegetation Index Black and White  Figure 6.1: Some examples of Vegetation index from QuickBird Satellite Image (Source, QuickBird, 2010) 4.0 Summary Satellite remote sensing is an evolving technology with the potential for contributing to studies for land cover and change detection by making globally comprehensive evaluations of many environmental and human actions possible.
+5.0 References/Further Reading Nicholas M. Short, Sr. URBAN AND LAND USE APPLICATIONS: FROM LOS ANGELES TO BEIJING.
+http://rst.gsfc.nasa.gov/Sect4/Sect4_1.html Satellite Imaging Corporation.
+http://www.satimagingcorp.com/svc/land_cover_and_change_detection.html.
+Unit 2 Agricultural and Natural Resources Applications 5.1 Introduction Remote Sensing in agriculture and natural resource management is an important promising tool.
+Comprehensive, reliable and timely information on agricultural resources are very much necessary for countries whose mainstay of the economy is agriculture.
+Agricultural survey is a backbone of planning and allocation of the limited resources to different sectors of the economy.
+Possible application areas include mapping of agricultural land resources using remote sensing; As a guide to farmers on the right type of crops that can be grown; remote sensing application to select tube well and rainwater harvesting sites; statistics for forecasting irrigation timings, harvest timings, price fluctuations, food availability and input requirements, etc.
+These and many more are discussed here.
+2.0 Objectives 1.
+To identify and discuss the different areas of the application of remote sensing in agriculture.
+2.
+To discuss some examples of the application of remote sensing in agriculture.
+3.0 Main Body 3.1 Remote Sensing in Agricultural and Natural Resources Application Regarding the application of remote sensing in agriculture, Kumar (2007) remarked that, “Remote Sensing in agriculture and natural resource management is an important promising tool in agricultural information and management system”.
+Comprehensive, reliable and timely information on agricultural resources are very much necessary for countries whose mainstay of the economy is agriculture.
+Agricultural survey is a backbone of planning and allocation of the limited resources to different sectors of the economy.
+Such countries need to use this technology more and more to address various agricultural challenges including water management system, estimation of soil nutrient profile, water profiling, biotic and abiotic plant stress, crop coverage, pest conditions and surveillance, deforestation, biodiversity assessment, marine biology, etc.
+(Kumar, 2007) .
+The potential of remote sensing technology is great, especially in conjunction with the rapidly developing information and communication technology including geographical information systems (GIS) for the benefit of the farming communities.
+Studies which involve the world-wide supply and demand for agricultural products, show that the applications of remote sensing in general are indeed many and varied ways.
+Aerial photographic interpretation is a useful aid in crop condition assessment.
+harmful condition can be assessed include crop disease, insect damage, plant stress from other causes and crop damage resulting from such disasters as flooding, fire tornadoes and hurricanes.
+Crop yield estimation based on air photo interpretation has also met varying degrees of success.
+Many additional agricultural applications include.
+Mapping of agricultural land resources using remote sensing.
+The current system of collecting and maintaining land records was fraught with difficulties and has always been full of controversies especially in the case of maintaining proper land records (Ghosh and Venniyoor, 2007).
+The use of remotely sensed data would ensure accuracy and transparency in this process.
+The use of the newly available and inexpensive handheld GPS guided mapping devices, to gather local level land records.
+Attention is also drawn to the role of GIS mapping in this area.
+Data collected could be entered real time into various layers of GIS based software for analysis.
+(cid:1) As a guide to farmers on the right type of crops that can be grown from the knowledge of the existing soil conditions, to get the maximum output.
+Other information like availability of water for irrigation and water retaining capacities of soil could also play a vital role in the choice of crops and inputs for maximum productivity all of which remote sensing can be applied.
+(cid:1) Remote sensing application to select tube well and rainwater harvesting sites, which could effectively help enhance the potential of ground water resources.
+Thus by surveying the areas under agriculture for various factors like soil nutrient profile, water availability, crop status etc., specific data could be generated for different agro climatic zones (Kumar, 2007).
+Planning specific cropping patterns and assessing production estimates based on the data provided would help farmers to minimize losses.
+(cid:1) To generate significant agricultural statistics for forecasting irrigation timings, harvest timings, price fluctuations, food availability and input requirements.
+(cid:1) Yield determination (cid:1) Soils and Fertility Analysis (cid:1) Crop health (cid:1) Irrigated landscape mapping (cid:1) Studies to determine areas for erosion control, weed control, fencing or other remedial measures.
+(cid:1) Determine of the adequacy of existing irrigation systems for uniformly wetting an entire field.
+(cid:1) Farm livestock survey.
+3.2 Water Resources Application Whether for irrigation, power generation, drinking, manufacturing or recreation, water is one of our most critical resources.
+Remote sensing technique can be employed in various ways to help monitor the quality, quantity and geographic distribution of this resource.
+For example air photo interpretation can be in water pollution detection and flood damage estimation.
+Also a knowledge of ground water location is important for both water supply and pollution control analysis.
+The identification of topographic and vegetation indicators of groundwater and the determination of the location of groundwater discharge areas (spring and seeps) can assist in the location of potential well site.
+Also it is important to be able to identify groundwater recharge zones in order to protect these areas from activities that would pollute the groundwater supply.
+4.0 Conclusion Of a truth remote sensing can play a very vital role in agricultural studies.
+It helps in ascertaining the exact crop area and land use pattern, etc.
+The applications are many and varied.
+This includes mapping of agricultural land resources, as a guide to farmers on the right type of crops that can be grown, remote sensing application to select tube well and rainwater harvesting sites, to generate significant agricultural statistics, etc.
+As far as agriculture is concerned, there are much more areas of application of remote sensing which the students can explore.
+5.0 Summary In this unit, the different areas of application of remote sensing were explored.
+Countries of the world that have agriculture as the mainstay of their economies utilize this technique a lot in solving agricultural problems thereby ensuring food security for the population.
+In Nigeria, remote sensing is yet to be fully utilized in solving practical agricultural problems despite huge investment in remote sensing related projects and programmes.
+One challenge is in the area of man power training which is at the front burner of this course.
+6.0 References/Further Reading Kumar, A (2007) Agriculture Today.
+New Delhi, India Agricultural Remote Sensing Basics By John Nowatzki, Robert Andres, Karry Kyllo; AE-1262; North Dakota State University; April 2004 http://www.ag.ndsu.edu/pubs/ageng/gis/ae1262w.htm FAO Publications on Remote Sensing http://www.fao.org/sd/EIdirect/EIre0003.htm#anchor977943 Geographic Information Systems in Sustainable Development By the Geographic Information Systems Group Environment and Natural Resources Service (SDRN); FAO Research, Extension and Training Division.
+http://www.fao.org/sd/EIdirect/gis/EIgis000.htm Ghosh, G. N. and Venniyoor,S.
+(2007) Application of Remote Sensing in Agriculture - Experiences.
+New Delhi.
+9 February 2007.
+Remote Sensing in Precision Agriculture: An Educational Primer By Ames Remote http://www.amesremote.com/contents.htm Remote Sensing in Agriculture By Natasha Wells; National Environmentally Sound Production Agriculture Laboratory http://nespal.cpes.peachnet.edu/pa/home/main.asp?TargetDir=25&content=0&media= Unit 3 Urban and Regional Planning 1.0 Introduction Urban and regional planning requires continuous acquisition of data to formulate governmental policies and programs.
+The roles of planning agencies and establishments are becoming increasingly more complex and extend to a wider range of activities.
+There is an increased need for these agencies to have timely, accurate and cost-effective sources of data of various forms.
+Remote sensing data fits clearly into this need.
+For such remote sensing data to serve the needs of urban and regional planning, it must have great resolving power.
+Presently, very high resolution satellite imageries of less than 1 x 1 meter are increasingly being produced by different imaging systems and companies.
+These are discussed in this unit.
+2.0 Objectives 3.
+To identify and discuss the different areas of the application of remote sensing in Urban and Regional Planning 4.
+To discuss some examples of the application of remote sensing in Urban and Regional Planning 3.0 Main body 3.1 Application of Remote Sensing in Urban and Regional Planning Urban and regional planning requires continuous acquisition of data to formulate governmental policies and programs.
+The role of planning agencies is becoming increasingly more complex and is extending to a wider range of activities.
+Consequently, there is an increased need for these agencies to have timely, accurate and cost-effective sources of data of various forms.
+According to Wanga Q., Chen, J. and Tian, Y (2008), the primary stage of making an urban planning is the survey of present situation, which required a lot of people, material and money in the past.
+But with the advent of remote sensing has been used as a new means to get the spatial and attribute information.
+That is more speedy, accurate and economical.
+There are mainly two ways to do the remote sensing image classification.
+Population estimates for instance can be indirectly obtained through our photo interpretation.
+Airphoto interpretation can also assist in housing quality studies, traffic and parking studies as well as in various location and sitting problems such as transportation route location, transmission line location etc.
+Specifically, the following areas of application are common in urban and Regional Planning: (cid:1) Urban infrastructure mapping (cid:1) Interpretation and analysis (cid:1) High resolution Satellite imageries used as map substitutes for visual interpretation (cid:1) Updating and monitoring using repetitive coverage (cid:1) Urban morphology, population estimation and other physical aspects of the urban environment (cid:1) Space use surveys in city centres (cid:1) Site suitability and catchment area analysis (cid:1) Transportation system planning and modeling (cid:1) Urban growth/sprawl and trend analysis 4.0 Conclusion Planners can apply remote sensing and geographic information technologies in all aspects of the planning process, including: data collection and storage, data analysis and presentation, plan and/or policy making, communication with the public and decision makers, and plan and/or policy implementation and administration (Nedovic (in press).
+This is most commonly used for comprehensive planning, zoning, land use inventories, site suitability assessments, and socio- demographic analysis, and generally for mapping purposes (Warnecke et al.
+1998).
+Planners use remote sensing and perhaps GIS primarily for mapping activities.
+The value of maps in understanding and communicating planning issues is well recognized and appreciated.
+5.0 Summary From the foregoing facts, it is clear that the role of remote sensing and other information technologies cannot be overemphasized as far as urban planning is concerned.
+The key areas of such application have been highlighted in this unit.
+There is definitely much more that remote sensing can assist in urban and regional planning.
+The students should therefore make use of the references/further reading list provided.
+6.0 References/Other References Wanga Q., Chen, J. and Tian, Y (2008) Remote Sensing Image Interpretation Study Serving Urban Planning Based on GIS.
+The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
+Vol.
+XXXVII.
+Part B4.
+Beijing 2008.
+Thomas M.Lillesand, Ralph W. Kiefer, (1994) Remote sensing and image interpretation.
+John Wiley ＆ Sons, INC, pp.
+585- 618 Robert A. Cshowengerdt, 1983a.
+Techniques for image processing and classification in remote sensing.
+Academic Press, INC, pp.
+129-195.
+Zhang Yinhui, Zhao Genxing, (2002), Classification methods of land use/ cover based on remote sensing technologies.
+Journal of China Agricultural Resources and Regional Planning, 23(3), pp.
+21-23 Shen Qi, Ma Jinhui, 2006a.
+The application of hyperspectral and high resolution remote sensing data to modern urban planning.
+Joural of Gansu Sciences, 18(1), pp.
+44-4 Iirs (2011) Remote Sensing Application and Urban Planning http://www.slideshare.net/TusharDholakia/iirs-dm-course-husad-dt-160610 Unit 4 Forestry Applications 1.0 Introduction Forestry is concerned with the management of forests for wood, forage, wildlife and recreation.
+However, because of the principal raw product from forests is wood, forestry is especially concerned with timber management, maintenance and improvement of existing forest stands and fire control.
+Forests have played a central role in the economic, social, and cultural development of many countries of the world.
+Forests were once seen solely as a frontier from which resources could be extracted, they now are viewed by many as precious islands that serve as refuges for nature and recreation and act as buffers against environmental degradation (Peterson, et al, 1999).
+This shift in values has been most noticeable in terms of the public forests.
+Effective management of forest resources requires reliable and timely information about the status and trends of forest resources.
+In this regard, remote sensing and GIS play very vital roles.
+New forest management priorities, however, have raised the question of whether these efforts— characterized by the use of ground and aerial observations and by a focus on vegetation measures—are evolving sufficiently to meet future information demands in terms of depth, breadth, and timeliness.
+The following discussion has attempted to resolve the concern raised by (Peterson et al (1999) in the foregoing statement.
+One of the most important areas of application of remote sensing is in forestry which is discussed in this unit.
+2.0 Objectives 1.
+To identify and discuss the different areas of the application of remote sensing in agriculture 2.
+To discuss some examples of the application of remote sensing in agriculture 3.0 Main body 3.1 Application of Remote Sensing in Forestry Forestry is concerned with the management of forests for wood, forage, wildlife and recreation.
+However, because of the principal raw product from forests is wood, forestry is especially concerned with timber management, maintenance and improvement of existing forest stands and fire control.
+According to Tunç (URL) there are many forestry issues that remote sensing can be applied.
+Some of these applications include terrain analysis, forest management, recultivation, updating of existing forest inventories, forest cover type discrimination, the delineation of burned areas, and mapping of cleared areas Forests of one type or another are distributed unevenly and their resources value varies widely.
+Airphoto interpretation provides a feasible means of monitoring many of the world’s conditions.
+Trees species can be identified on AP so also can the assessment of disease and insect infestation be carried out.
+The extent to which trees species can be recognized on AP is largely determined by the scale and quality of the photographs.
+The characteristics of the tree form, such as crown shape and branching habit, are heavily used for identification on large-scale photographs.
+Forest and Wildfire Example (after Tunç, URL) For several years the number of fires in European forests has increased.
+In most tropical forests, a new category of forest fire risk have appeared in some regions.
+Forest fires are a result of the simultaneous existence of at least three unfavourable phenomena: long- term drought, the effect of air pollution (decline and decay of trees, the formation of loose canopy and lush growth of grasses - all resulting in large amounts of inflammable material) and high tourist presence in forests (Tunç, URL).
+Because of this situation, new techniques mainly remote sensing and GIS technologies have been applied for forest protection.
+High resolution satellite data such as Landsat Thematic Mapper, SPOT and ERS-SAR combined with low resolution satellite images such as NOAA-AVHRR offer new possibilities to monitor forest fires.
+They have a number of advantages over conventional means of observation: Using satellite images, it is possible to view vast expanses of land (thousands to tens of thousands of km2 on one image) (Tunç, URL).
+This can be performed regularly for the same area and recorded in different wavelengths, thus providing information on the state of forest resources.
+Satellite data can be acquired without encountering administrative restrictions 4.0 Conclusion We can see that remote sensing in forestry is very important.
+Because we can see the places that are damaged by people, or the places that are cut from the space; and you can get these images when the satellite is passing above your region.
+You can understand where there is a fire, how big the fire is or where the fire is going to without going to that place, and you can take precautions immediately.
+For example after a hurricane or disasters, the damages on forests can be understood in a very short time, and the places where regrowth must be made can be seen from above.
+5.0 Summary Forests have played a central role in the economic, social, and cultural development of many countries of the world.
+Forests were once seen solely as a frontier from which resources could be extracted, they now are viewed by many as precious islands that serve as refuges for nature and recreation and act as buffers against environmental degradation (Peterson, et al, 1999).
+This shift in values has been most noticeable in terms of the public forests.
+Effective management of forest resources requires reliable and timely information about the status and trends of forest resources.
+In this regard, remote sensing and GIS play very vital roles.
+New forest management priorities, however, have raised the question of whether these efforts— characterized by the use of ground and aerial observations and by a focus on vegetation measures—are evolving sufficiently to meet future information demands in terms of depth, breadth, and timeliness.
+6.0 References/Further Reading Peterson, D. J. Resetar, S., Brower, J. and Diver, R. (1999) Forest Monitoring and Remote Sensing: A Survey of Accomplishments and Opportunities for the Future.
+Prepared for the White House Office of Science and Technology Policy, USA.
+http://www.fao.org/sd/EIdirect/EIre0074.htm http://www.geog.ucl.ac.uk/%7Esmerino/ http://forest.esf.edu/technicalAnalysis.html http://www.emporia.edu/earthsci/student/talk2/forestry1text.htm

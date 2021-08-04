@@ -1,0 +1,1233 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY309 COURSE TITLE: QUANTUM MECHANICS I 1  Course Code PHY 309 Course Title QUANTUM MECHANICS I Course Developer DR. A.
+B. Adeloye PHYSICS DEPARTMENT UNIVERSITY OF LAGOS Programme Leader Dr. Ajibola S. O.
+National Open University of Nigeria Lagos 2  PHY 309: Quantum Mechanics I COURSE GUIDE COURSE WRITER: Dr. A.
+B. ADELOYE Department of Physics University of Lagos Programme Leader Dr. Ajibola S. O.
+National Open University of Nigeria Lagos 3  NATIONAL OPEN UNIVERSITY OF NIGERIA Contents Introduction The Course Course Aims Course Objectives Working through the Course Course Material Study Units Textbooks Assessment Tutor Marked Assignment End of Course Examination Summary 4  Introduction Quantum Mechanics began with the work of Planck, Dirac, de Broglie, Heisenberg, Bohr, Schrödinger, and Einstein from 1900 to 1930.
+It became a necessity as classical mechanics, which had up to that time answered all questions concerning the motion of a body, failed to explain some physical phenomena.
+It became clear that matter behaves as a particle or as a wave.
+In other words, a particle behaves as a wave; a wave also behaves like a particle.
+For example, light waves behave like particles, called photons.
+On the other hand, with an appropriate „slit,‟ electrons can be diffracted just like any other wave.
+It became necessary, therefore, to develop a wave equation that gives the dynamics of a particle – the Schroedinger equation.
+But then, if matter now behaves like a wave, it becomes necessary to give a statistical probabilistic interpretation to the possibility of finding a particle at any particular point, or within a given range of space available for the particle.
+In other words, it no longer makes sense to say with certainty that a particle is at a particular position, rather, it spreads out over a given range of position: the electron in the hydrogen atom is indeed smeared over the entire sphere outside the nucleus.
+This is encapsulated in the Heisenberg Uncertainty Principle: It is impossible to measure the position and the linear momentum of a body with infinite accuracy, simultaneously.
+If the atom is not polarised, it is as if half the electron resides in each hemisphere.
+You wonder why we do not realise this in day-to-day experience.
+This is because the uncertainty in your position is so small, because uncertainty is related to Planck‟s constant, which is of the order of 1034Js.
+At the atomic scale, this number is no longer „small.‟ As such, quantum mechanics becomes inevitable at the atomic and subatomic range of distances and masses.
+Another consequence of the wave nature of matter is that physical quantities can no longer take a continuou range of values.
+You would recall, for instance, that waves on a string within rigid supports, as well as sound waves in a pipe opened on one or either end can only take a set of frequencies.
+It then becomes natural for the electron in the hydrogen atom can only occupy a certain set of „allowed energies.‟ That was what Bohr tried to explain with some ad-hoc assumptions of allowed orbits.
+With what you have seen in this introduction, it is obvious that quantum mechanics is an interesting, area of physics, that finds application in all life, particularly at the atomic level and below.
+Quantum mechanics is therefore the present and the future of physics.
+Solid state devices such as transistors, which are the building blocks of electronics and computers; any material, since all matter is composed of atoms, the ordinary light you 5 deal with everyday, Lasers, elementary particle physics, are just a few of the applications of quantum mechanics.
+THE COURSE PHY 309 (3 Credit Units) This 3-unit course, Quantum Mechanics I, is quite mathematical, and we shall start the course with a review of the mathematics you would need to understand the course.
+These include vector spaces and operators, orthogonality and some element of matrix algebra.
+Module 1, therefore, addresses your mathematical needs.
+Module 2 opens with the inadequacies of classical mechanics, and the need for a new way of doing physics.
+Then, a quantum-mechanical equation of motion, the Schroedinger equation is introduced.
+The postulates of quantum mechanics, a set of assumptions that give credence to quantum mechanics conclude the Module.
+Module 3 teaches you how to find the possible states and energies a body in a particular potential can attain – the infinite, as well as the finite potential wells.
+It also discusses what proportion can be reflected or transmitted of a mechanical particle behaving like a wave when incident on a potential barrier.
+Module 4 gives the quantum-mechanical treatment of the harmonic oscillator, as well as the ladder operator way of solving the same problem.
+We wish you success.
+COURSE AIMS The aim of this course is to teach you about the mechanics of the atomic and subatomic particles.
+COURSE OBJECTIVES After studying this course, you should be able to  Understand the mathematics needed to understand quantum mechanics.
+ Know the inadequacies of classical mechanics, and what was needed to get around the related difficulties.
+ Derive the equation for quantum-mechanical motion.
+ Statistically interpret the wavefunction associated with a particle.
+ Find the possible states in which a quantum-mechanical particle could be found.
+ Get the probability that the quantum-mechanical particle is in any particular state.
+ Understand the quantum-mechanical harmonic oscillator.
+WORKING THROUGH THE COURSE Quantum Mechanics is the foundational material for a good understanding of electronics.
+It is hoped that bearing this in mind, the 6 student would find enough motivation to thoroughly work at this course.
+THE COURSE MATERIAL You will be provided with the following materials: Course Guide Study Material containing study units At the end of the course, you will find a list of recommended textbooks which are necessary as supplements to the course material.
+However, note that it is not compulsory for you to acquire or indeed read them.
+STUDY UNITS for Quantum Mechanics I The following modules and study units are contained in this course: Module 1: Vector Spaces and Operators Unit 1: Vector Spaces Unit 2: Orthogonality and Orthonormality Unit 3: Operators Module 2: Inadequacies of Classical Mechanics and The Schroedinger Equation Unit 1: The Inadequacies of Classical Mechanics Unit 2: The Schroedinger Equation Unit 3: Postulates of Quantum Mechanics Module 3: Time-Independent Schroedinger Equation in One Dimension I Unit 1: Bound States Unit 2: Scattering States Module 4: Time-Independent Schroedinger Equation in One Dimension II Unit 1: The Simple Harmonic Oscillator Unit 2: Raising and Lowering Operators for the Harmonic Oscillator TEXTBOOKS Some reference books, which you may find useful, are given below: 1.
+Mathematical Physics – Butkov, E. 2.
+Mathematical Methods for Physics and Engineering – Riley, K. F., Hobson, M. P. and Bence, S. J.
+3.
+Quantum Mechanics demystified - David McMahon.
+4.
+Introduction to Quantum Mechanics – David J. Griffiths.
+7 5.
+Quantum Physics – Stephen Gasiorowicz Assessment There are two components of assessment for this course.
+The Tutor Marked Assignment (TMA), and the end of course examination.
+Tutor Marked Assignment The TMA is the continuous assessment component of your course.
+It accounts for 30% of the total score.
+You will be given 4 TMA‟s to answer.
+Three of these must be answered before you are allowed to sit for the end of course examination.
+The TMA‟s would be given to you by your facilitator and returned after they have been graded.
+End of Course Examination This examination concludes the assessment for the course.
+It constitutes 70% of the whole course.
+You will be informed of the time for the examination.
+It may or may not coincide with the university semester examination.
+Summary This course is designed to lay a foundation for you for further studies in quantum mechanics.
+At the end of this course, you will be able to answer the following types of questions:  What was wrong with classical mechanics, that warranted a new kind of mechanics?
+ What is the quantum-mechanical view of a particle?
+ What is the equation that govern the quantum-mechanical dynamics of a particle?
+ How do you interpret the wavefunction that arises from the quantum-mechanical equation of motion?
+ What are the possible states or values of energy a particle can occupy?
+ What is the probability that a particle occupies a particular state, or has the corresponding energy?
+ What is the behaviour of an electron confined within infinite or finite potential well?
+ What proportion of the wave corresponding to a particle is reflected at a barrier?
+ What is the essential difference between the classical and the quantum- mechancial treatment of the harmonic oscillator?
+We wish you success.
+8 Module 1: Vector Spaces and Operators Unit 1: Vector Spaces Unit 2: Orthogonality and Orthonormality Unit 3: Operators UNIT 1: Vector Spaces 1.0 Introduction 2.0 Objectives  At the end of this Unit, you should be able to:  Define Vector Spaces  Give examples of Vector Spaces  Define linear independence  Understand Inner or Scalar product of two vectors  Normalise any given vector 3.0 Main Content 3.1 Vector Spaces 3.2 Linear Independence 3.3 Basis Vector 3.4 Inner or Scalar Product 3.5 Norm of a Vector 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction In order to grasp Quantum Mechanics, you need to be conversant with Vector Spaces and other basic ideas of mathematics.
+The vector space of twice integrable functions enable you to define a set of functions that would form a set of „coordinates‟ for the vector-like functions, such that as we expand a given vector in 2-dimensional Euclidean space as a linear combination like ai+bj, we could also expand a given „quantum-mechanical function‟ as a linear combination of the set of functions.
+This Unit will teach you how to go about setting up the set of functions, that we shall call an orthonormal set.
+You shall learn to expand a given function in terms of the orthonormal set, and get to know how to recover the coefficient of expansion of a particular function.
+2.0 Objectives At the end of this Unit, you should be able to:  Define the term Vector Spaces  Give examples of Vector Spaces  Define linear independence  Understand Inner or Scalar product of two vectors  Normalise any given vector 3.0 Main Content 9  3.1 Vector Spaces No doubt, you are quite familiar with the concept of a vector.
+With vector spaces, we are generalising this basic idea.
+In other words, we shall have „vectors‟ that are no longer just ordinary geometrical vectors, but vectors of a different kind, but all having similar properties.
+We shall come across matrices that functions that you could give the same treatment as you did geometrical vectors.
+Definition   Given a set v ,v ,...,v = S .
+If 1 2 n (i) v v S i, j 1,2,...,n 1.1 i j (ii) v S i,1,2,..,n; 1.2 i K , where K is a field, e.g., the real number line (R) or the complex plane (C), then, S is called a vector space or linear space.
+The vector space is a real vector space if K  R, and a complex vector space if K C.
+Condition (i) says that if you add any two vectors of the vector space you will get a member of the space.
+Condition (ii) shows that a linear multiplication of any two vectors produces a vector also in the vector space.
+That certainly makes sense, doesn‟t it?
+You don‟t want a situation where you add two vectors in your space and get a vector not in the space.
+Moreover, you avoid a situation where multiplying by a constant takes your vector away from the space.
+We are now safe to carry out either operation without worrying whether the vector we get is a „sensible‟ vector, because we are sure it is.
+A way to remember these two conditions is: Additivity [condition (i)] + homogeneity [condition (ii)] = linearity.
+We now give you some examples of vectors spaces: Example 1: The set of Cartesian vectors in 3-dimensions, V 3 a, b V , R.
+3 (i) abV 1.3 3 (ii) a V 1.4 3 Of course, you know that when two 3-dimensional vectors are added, you also get a 3- dimensional vector.
+Moreover, multiplying a 3-dimensional vector by a real constant will give you a 3-dimensional vector.
+Example 2: mn matrices under addition and scalar multiplication, M mn A, BM , R or C mn (i) ABM 1.5 mn (ii) A M 1.6 mn mn 10 You would recall that the addition of two mnmatrices gives you an mn matrix.
+Similarly, multiplying an mn matrix by a real number or a complex number yields an mn matrix.
+  Example 3: A set of functions of x, f(x),g(x),.....  F f(x), g(x)F , R or C (i) f(x)g(x)F 1.7 (ii) f(x)F 1.8 Adding two functions of x will result in a function of x.
+It just has to be.
+Also, multiplying a function of x by a real number, you get a function of x.
+3.2 Linear Independence Given a set v n .
+If we can write i i1 a v a v a v = 0 1.9 1 1 2 2 n n and this implies the constants a a a = 0, then we say v n is a linearly 1 2 n i i1 independent set.
+If even just one of them is non-zero, then the set is linearly dependent.
+Think of it: a 3- dimensional Cartesian vector will be a zero vector, 0, notice the boldface type (not zero scalar), if and only if the three components are independently zero.
+Thus, for instance, i, j, and k, the traditional unit vectors in 3-dimensional Cartesian space are linearly independent.
+Mathematically, this means thatijk 0 if and only if 0.
+Some other examples are in order here: Example   1.
+Check if the set i,2i,j is linearly independent.
+Solution We form the expression c c c 0 1 1 2 2 3 3 where  i,  2i and   j 1 2 3 Thus, ic 2ic jc 0 1 2 3 or i(c 2c )jc 0 1 2 3 which implies c 2c 0 and c 0, since i and j are non-zero vectors.
+1 2 3 We see that c 2c , c 0 1 2 3 c and c do not necessarily have to be zero.
+1 2 Conclusion: The set is not linearly independent.
+11 2.
+Show that {i,2k,j}is a linearly independent set.
+Solution ic 2kc jc 0 1 2 3 c 0, c 0, c 0 1 2 3 The set is linearly independent.
+Note that we have made use of the fact that xi yjzk 0 implies x 0, y 0, z 0 1 1 1       3.
+Show that the set 0,1,2 is linearly independent       1 0 1       Solution 1 1 1       c 0c 1c 2 0 1 2 3       1 0 1       from which we obtain c c c 0 (i) 1 2 3 c 2c 0 (ii) 2 3 c c 0 (iii) 1 3 From (iii), c c (iv) 1 3 and from (ii), c 2c (v) 2 3 Putting (iv) and (v) in (i), gives c 2c c 0 3 3 3 2c 0 or c 0 3 3 c c 0, c 2c 0 1 3 2 3 c c c 0 1 2 3 Hence, we conclude the set is linearly independent.
+  Note that we could have written the set of three vectors as ik,ij,ijk .
+Try this out on your own, and be sure you can.
+These vectors are not mutually orthogonal, yet, since they are linearly independent, we can write any vector in 3-dimensional Euclidean space as a linear combination of the members of the set.
+12 Now, take the determinant of the matrix formed by each of the set in the examples and convince yourself that there is another way of checking if a set of vectors is linearly independent.
+We give two examples: 1 2 0 0 0 1 0 0 0 0 1 1 1 0 1 2 1(10)1(01)1(01)1110 1 0 1 Conclusion: The set is linearly independent if the determinant is not zero, it is linearly dependent if the determinant is zero.
+Does that sound strange?
+Look at the two rows or columns of a matrix such that one can be got from the other by a linear combination.
+The determinant of the matrix must be zero, meaning that the vectors are linearly dependent.
+3.3 Basis Vector Let V be an n- dimensional vector space.
+Any set of n linearly independent vectors e ,e ,,e forms a basis for V .
+Thus, any vector vV can be expressed as a linear 1 2 n combination of the vectors e ,e ,,e , i.e., 1 2 n x xe x e x e 1.10 1 1 2 2 n n Then we say that the vector space V is spanned by the set of vectors {e ,e ,,e }.
+1 2 n {e ,e ,,e } is said to be a basis for V .
+1 2 n If we wish to write any vector in 1 (say, x) direction, we need only one (if possible, a unit) vector.
+Any two vectors in the x direction must be linearly dependent, for we can write one as a i and the other a i, where a and a are scalars.
+1 2 1 2 We form the linear combination c (ai)c (a i)  0 1.11 1 1 2 2 where a and a are scalar constants.
+1 2 a Obviously, c and c need not be zero for the expression to hold, for c  c 2 would 1 2 1 2 a 1 also satisfy expression (1.11).
+We conclude therefore that the vectors must be linearly dependent.
+Can you then see that we can say that in general, any n1 vectors in an n-dimensional space must be linearly dependent?
+13 Example You are quite familiar with the set of vectors (i, j) as the normal basis vectors in 2- dimensional space or a plane.
+Show that (ij,ij) is also a set of basis vectors for the plane.
+Solution We check for linear independence.
+(ij)(ij)0 Then, i()j()0 This means that 0 and 0 Adding the last two equations makes us conclude that 0.
+Consequently,  is also 0.
+We conclude that the two vectors are linearly independent.
+Since these are two linearly independent vectors in two dimensional (Euclidean) space (a plane), they form a basis for the plane.
+3.4 Inner or Scalar Product Here, we shall expand your idea of the inner product of two vectors.
+In your first year in the University, you came across the dot or inner product of two vectors.
+In this section, we shall extend that idea, as mathematicians do, to other vector-like quantities.
+But first, let us take a look at the properties of an inner product.
+Properties of the Inner Product Let V be a vector space, real or complex.
+Then, the inner product of v, wV ,written as (v,w), has the following properties: (i) (v,v) 0 1.11 (ii) (v,v) = 0 if and only if v = 0 1.12 (iii) (v,w) = (w,v) (Symmetry) 1.13 (iv) (cv,w)= c*(v,w); (v,cw)= c(v,w) 1.14 (v) (v,wz)(v,w)(v,z) 1.15 (vi) (v,w) v w 1.16 where c* is the complex conjugate of the scalar c. Example 1: Given the vectors a and b in 3-dimensions, i.e., V , we define the inner 3 product as (a,b)aTb where aT is the transpose of the column matrix representing a.
+This is the dot product you have always been familiar with.
+14 1 2     a = 0 , and b = 1 .
+aT [1 0 1]     1 1     2 (a,b) aTb 1 0 11 3   1   Do not mix this up d  c  x x       (c,d) cTd  c c c d c d c d c d  d d d c (d,c), with x y z  y x x y y z z x y z  y d  c      z z c  c d c d c d  x x x x y x z      cdT  c d d d  c d c d c d dcT , generally.
+ y x y z  y x y y y z c  c d c d c d   z  z x z y z z Example 2: The space of mn matrices, M : mn The inner product of A and BM is defined as mn (A,B) = Tr(AB) 1.17 where A  AT , the complex conjugate of the transpose of A.
+Indeed, it does not matter in what order, so it could also be the transpose of the complex conjugate of A.
+If A is a real matrix, then there is no need taking the complex conjugate.
+In that case, A  AT .
+Tr(P) is the trace of the matrix P, the sum of the main diagonal elements of P. i 0 0 i e.g., let A = and B =     1 1 1 0  i 1 i 1 AT  ; A  AT      0 1  0 1 i 1 0 i 1 1 AB ATB =        0 1 1 0  1 0  (A,B)Tr(AB)101 Example 3: The space of square integrable complex valued functions, F , over the s interval [a,b], i.e., f(x)F implies that b f(x)2dx .
+s a We define the inner product on this space by b (f,g)   f *(x)g(x)dx 1.18 a where f *(x) is the complex conjugate of f(x).
+Later, you shall see that this space is of utmost importance in Quantum Mechanics.
+15  3.5 Norm of a Vector Let X be a vector space over K, the real or complex number field.
+A real valued function  on X is a norm on X (i.e.,  : X R) if and only if the following conditions are satisfied: (i) x 0 1.19 (ii) x 0 if and only if x0 1.20 (iii) xy  x  y x, yX (Triangle inequality) 1.21 (iv) x x xX and C (Absolute homogeneity) 1.22 The norm of a vector is its “distance” from the origin.
+Once again, you can see the basic idea of the distance of a point from the origin being generalised to the case of the vectors in any vector space.
+x is called the norm of x.
+In the case where X  R, the real number line, the norm is the absolute value, x .
+If the norm of v in the vector space V is unity, such a vector is said to be normalised.
+In any case, even if a vector is not normalised, we can normalise it by dividing by the norm.
+Example 1: Given the vector a inV , the norm of a is 3 a  (a,a) 1.23 1   Thus, if a = 0 , then   1   1    (a,a)  1 0 1 0  2   1   a  (a,a)  2 We see that a is not normalised.
+1 a 1   However, c   0 is normalised.
+  a 2 1   Example 2: The space of mn matrices: Given the mn matrix A, then the norm of A is defined as A  Tr(A,A) 1.24 16 i 0 e.g., let A =   1 1 i 1 i 1 AT  ; AT      0 1  0 1 i 1 i 0 2 1 ATA  =        0 1 1 1 1 1 Tr(AA)213 Therefore, A  3 A 1 i 0 A is not normalised, but C = = is normalised.
+  A 3 1 1 Example 3: The space of square integrable complex valued functions, F , over the s interval [a,b], Let f(x)F , then we define s f  (f, f) 1.25 where (f, f)  b f(x)2dx a f f might not be normalised, but h  is normalised.
+(f, f) It is now obvious that we have to deal with a square integrable set of functions.
+We want to deal with only functions that we can normalise.
+EXAMPLES Exercise   (i) Normalise each member of the set, and hence expand the vector 4i3j4k as a linear combination of the normalised set.
+1 2 1       (ii) Is the set 2, 0 ,2 linearly dependent or independent?
+Normalise       3 4 1       each vector.
+4.0 Conclusion In this unit, you have learnt about vector spaces, a generalisation of the idea of vectors you have all along been familiar with, expanded to cover matrices, certain functions and all mathematical structures that satisfy the basic laws of vector spaces.
+You also came across linear independence, and saw the example of the vectors i and j in two- dimensional Euclidean space, and with the help of linearly independent vectors, we were able to define a basis with which we could specify any vector in any given vector space.
+17 Then, you were introduced to the idea of the norm, a generalisation of the idea of the distance of a vector from the origin.
+Finally, you learnt how to normalise a vector.
+5.0 Summary In this Unit, you learnt the following:  Vector spaces are sets that contain some vector-like quantities that satisfy certain conditions.
+ How to check whether a set of vectors is linearly independent.
+ A set of linearly independent vectors is necessary to span a space.
+ n-dimensional vector space V is spanned by the set of n vectors.
+ The norm of a vector is its distance from the „origin.‟  Dividing a vector by its norm normalises it, so that its length is unity.
+6.0 Tutor-Marked Assignment (TMA) Tutor Marked Assignment 1.
+Show that the following are vector spaces over the indicated field: (i) The set of real numbers over the field of real numbers.
+(ii) The set of complex numbers over the field of real numbers.
+(iii) The set of quadratic polynomials over the complex field.
+2.
+Check whether the following vectors are linearly independent.
+(i) 2i3jk, i j3k and 3i2jk 1 1 3.
+Show whether or not the set  ,  is a basis for the two-dimensional 1 1 Euclidean space.
+ 1 2 4.
+Find the coordinates of the vector with respect to the basis   2 i 1 0 0 1 0 i 1 0   , ,  ,  .
+0 1 1 0 i 0  0 1 5.
+Find the inner product of the following vectors:  i   2      (i) 2 and 1     2 3     (ii) ix2 2 and 2x3i 0 x2.
+ 2 1 1 1 1 2 (iii) A, BM if A  and B  .
+    mn 1 3 1  1 3 1 6.
+Find the norm of the following: 18  2i  1 1 2     (i) 1 (ii) ix2 2, 0 x1 (iii) D 2 1 3     3 3 1 2     1 2 1       7.
+Normalise each vector in the set 2, 0 ,2.
+      3 4 1       7.0 References/Further Readings 1.
+Mathematical Physics – Butkov, E. 2.
+Mathematical Methods for Physics and Engineering – Riley, K. F., Hobson, M. P. and Bence, S. J.
+19 Solutions to Tutor Marked Assignment 1.
+Show that the following are vector spaces over the indicated field: (i) The set of real numbers over the field of real numbers.
+Let the set be R be the set of real numbers, then, abR  a, b R and aR  a R, R (ii) The set of complex numbers over the field of real numbers.
+Let the set be C be the set of complex numbers, then, c c C  a, b C 1 2 and cR  c C, C (iii) The set of quadratic polynomials over the complex field.
+Let this set be P. Then P a x2 b x2 c and P a x2 b x2 c are 1 1 1 1 2 2 2 2 in P, where a ,a ,b ,b ,c ,c are constants.
+1 2 1 2 1 2 a x2 b x2 c a x2 b x2 c 1 1 1 2 2 2 (a a )x2 (b b )x(c c ) P  P , P  P 1 2 1 2 1 2 1 2 (a x2 b xc ) P  P P, the complex field.
+1 1 1 1 2.
+Check whether the following vectors are linearly independent.
+(i) 2i3jk, i j3k and 3i2jk  2  1 3 0         a 3 b 1 c 2  0         1 3 1 0         2ab3c0 3ab2c0 a3bc0 The solution set is (0, 0, 0), i.e., a = b = c = 0.
+The vectors are linearly independent.
+Alternatively, 2 1 3 3 1 2  2(16)1(32)3(91) 1 3 1 2(5)530350  i 1  2 1 1 2  i 2i  (ii) , , and         2 2i i 2i  3 i  i 2 20  i 1  2 1 1 2  i 2i  0 0 a b c d            2 2i i 2i  3 i  i 2 0 0 Expanding, ai2bcid 0 (i) ab2c2id 0 (ii) 2aib3cid 0 (iii) 2ia2ibic2d 0 (iv) Multiplying (i) by 2 and adding to (ii), a(12i)5b0 (v) Multiplying (iii) by i and adding to (iv) gives (12i)b2ic3d 0 (vi) Multiplying (ii) by 2 and adding to (iii), (2i)b7c5id 0 (vii) Multiplying (vi) by 5i and (vii) by 3 and adding, 5i(12i)b10c15id 0 (vi) 3(2i)b21c15id 0 (vii) (5i10)b10c15id 0 (63i)b21c15id 0 (42i)b11c 0 (viii) a(12i) 11 From (v) and (viii), b    c 5 2i4 Hence, a(12i)(2i4) 86i c   a 55 55 Substituting for b and c in equation (vi),  (12i)   86i  (12i) a2i a3d 0  5   55  (34i) 16i12 a a 3d 5 55 3344i16i12 4560i 912i a  a  a d (ix) 165 165 55 Putting b, c, d in (i),  a(12i) 86i 12i9 ai2  ai a 0  5  55 55 2a 4ai 8a 6ai 12a 9ia ai      0 5 5 55 55 55 55  4 6 9   8 2 12 ai1   a   0  5 55 55 55 5 55 554469 82212 aia 0 55 55 21 18 26 a i 0.
+Hence, a = 0, meaning that b, c, and d are also 55 55 zero.
+ai2bcid 0 (i) ab2c2id 0 (ii) 2aib3cid 0 (iii) 2ia2ibic2d 0 (iv) i 2 1 i 1 1 2 2i Check if  0 2 i 3 i 2i 2i i 2 1 1 3.
+Show whether or not the set  ,  is a basis for the two-dimensional 1 1 Euclidean space.
+For the set to be a basis, the vectors must be linearly independent.
+1 1 0 a b         1 1 0 ab0, ab0 a b a and b do not have to be zero.
+Hence, the vectors are not linearly independent.
+Sketch the vectors and satisfy yourself that they are indeed linearly dependent: one can be got from the other because they degenerate into a line.
+Alternately, 1 1 0 1 1  1 2 4.
+Find the coordinates of the vector with respect to the basis   2 i 1 0 0 1 0 i 1 0   , ,  ,  .
+0 1 1 0 i 0  0 1  1 2 1 0 0 1 0 i 1 0   a b c d           2 i 0 1 1 0 i 0  0 1 1ad (i) 2bic (ii) 2bci (iii) i ad (iv) 22  Adding (i) and (iv): 1i  a 2 (i) – (iv): 1i  d 2 (ii) + (iii): 0b (iii) – (ii): 2   2i c i Hence,  1 2 1i1 0 0 1 0 i 1i1 0   0 2i            2 i 2 0 1 1 0 i 0  2 0 1 5.
+Find the inner product of the following vectors:  i   2      (i) 2 and 1     2 3      2      i 2 2 1 2i2682i   3   (ii) ix2 2 and 2x3i 0 x2.
+2 2  (ix2 2)*(2x3i)dx   (ix2 2)*(2x3i)dx 0 0 2   (2ix3 3x2 4x6i)dx 0 2  x4   i x3 2x2 6ix    2  0 8i8812i 4i  2 1 1 1 1 2 (iii) A, BM if A  and B  .
+    mn 1 3 1  1 3 1 2 1  21 23 41  1 1 2   (A,B) Tr(AB) Tr1 3   Tr13 19 23   1 3 1 1 1  11 13 21      23 3 5 3   Tr 2 8 5 8    0 2 3   6.
+Find the norm of the following:  2i  1 1 2     (i) 1 (ii) ix2 2, 0 x1 (iii) D 2 1 3     3 3 1 2     (i) 2i     2i 1 31  419  14   3   (ii) 1 1  (ix2 2)*(ix2 2)dx   (ix2 2)(ix2 2)dx 0 0 1 1  x5 1 21   (4 x4)dx  4x  4    0  5  5 5 0 21 Norm = 5 1 2 1       7.
+Normalise each vector in the set 2, 0 ,2.
+      3 4 1       1   Norm of 2 is 149  14   3   1 1   The normalised vector is 2 14   3   2 1 1   1   Similarly,  0  and 2 are normalised.
+20   6   4 1     24 UNIT 2: ORTHOGONALITY AND ORTHONOMALITY 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Definitions 3.2 Bra and Ket (Dirac) Notation 3.3 Orthogonal Functions 3.4 Gram-Schmidt Orthonormalisation 3.4.1Example from function vector space 3.4.2 Example from Rn 3.5 Some Useful Mathematics on Matrices 3.5.1 Orthogonal Matrices 3.5.2 Symmetric Matrices 3.5.3 Hermitian Matrices 3.5.4 Unitary Matrices 3.5.5 Normal Matrices 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction Orthogonal functions play an important role in Quantum mechanics.
+This is because they afford us a set of functions „which do not mix,‟ just the way you could resolve a vector in two dimensions in the x and y directions, respectively, with the unit vectors i and j.
+The dot product of the two unit vectors gives you zero.
+We would also like to resolve our vectors in some „directions.‟ Thus, you need to know about orthogonal and orthonormal functions.
+The orthonormal functions would form the possible states you can find a system.
+You know such states should not „mix.‟ In this Unit, you will learn about orthonormality and orthogonality; how to create an orthogonal and subsequently, an orthonormal set and expand a given function in terms of an orthonormal set.
+This would naturally lead to an analysis of the probability of finding a system in any of the states in the orthonormal set.
+This Unit also gives you an insight into some elements of matrix algebra.
+2.0 Objectives This Unit will equip you with the knowledge of:  Orthogonal functions  Orthonormal functions  Expansion of a given function as a linear combination of a set of orthonormal functions (states).
+ Recovering the coefficient of the expansion.
+ Finding the probability of finding the system in a given state.
+ Some elements of matrix algebra.
+25 3.0 Main Content 3.1 Definitions (i) We sayv and v in a vector space V are orthogonal if their inner product is 1 2 zero, that is, (v ,v )0.
+1 2 (ii) Suppose there exists a linearly independent set n , i.e., ,, ,, such i i1 1 2 n that(,) 0, i  j, then, n is an orthogonal set.
+i j i i1 (iii) If in addition to condition (ii) above, (,)1, then,n is an orthonormal i i i i1 set.
+For an orthonormal set, therefore, we can write (,) , where  is the Kronecker i j ij ij delta, equal to 0 if i  j and equal to 1 if i  j.
+As we have seen earlier, if any vector in the vector space, V , can be written as a linear combination n v a a  a  a 2.1 1 1 2 2 n n i i i1 then we say the space is spanned by the complete orthonormal basis n , where i i1 ( ,) 2.2 m n mn If n is an orthonormal set, It follows that we can recover the coefficient of expansion i i1 as follows: n n (,v) (,a) a (,)  a 2.3 j j i i i j i j i1 i1 Moreover, n n n n n (v,v) (a ,a) a *a (,) a 2 2.4 k k i i k i j i i k1 i1 k1 i1 i1 If, in addition, the vector v is normalised, then n  a 2 1 2.5 i i1 Do you remember what you learnt about probability in Statistics?
+The sum of the 2 probability for various possible events is unity.
+Thus, we can interpret the a as the i probability that the system which has n possible states, assumes state i with probability 2 2 a .
+In other words, the probability that the system is in state i is a .
+i i 3.2 Bra and Ket (Dirac) Notation We have written the inner product in the form (,).
+We could also write it in the form of a bra, |, and a ket, |.
+This is the Dirac notation.
+Putting the bra and the ket together 26 forms a „bracket‟ |.
+The set of vectors {}n can be seen as a set of bra vectors j j1 (space of vectors) {| }n .
+Then, we would need a dual set of vectors (dual space of j j1 vectors) { |}n to be able to write the inner product.
+Why?
+Recall that we needed to j j1 change our column vectors to row vectors to be able to take the inner product of two column vectors?
+If |B  is a column vector, then  B| is the dual vector, the row vector but with the entries being the complex conjugate of what they were as |B .
+It follows from the foregoing, that we can write the expansion of a wavefunction n c  as c |  2.6 j j j j j j1 Moreover, (,a)a(,) and (a,)a*(,).
+It follows that j j j j j j j j a(,)(,a)(a*,)(a*)*(,).
+We can extract the following rule j j j j j j j j from this: (,a)(a*,) 2.7 j j j j More generally, a could be an operator A.
+Then, (,A)(A,) 2.8 j j j j We can write this in the form,  | A| A |  j j j j Equations 2.3 and 2.4 now become, n n ,v  |a |  a  | a 2.9 j j i i i j i j i1 i1 n n n n n  v|v a  |a a *a  | a 2 2.10 k k i i k i j i i k1 i1 k1 i1 i1 3.3 Orthogonal Functions An even function is symmetrical about the y axis.
+In other words, a plane mirror placed on the axis will produce an image that is exactly the function across the axis.
+An example is shown in Fig …a.
+An odd function will need to be mirrored twice, once along the y axis, and once along the x axis to achieve the same effect.
+Fig.
+… b is an example of an odd function.
+A function f(x)of x is said to be an odd function if f(x) f(x), e.g., sinx, x2n1, and a function f(x)of x is said to be an even function if f(x) f(x), e.g., cosx, x2n where n0,1,2,.... y y x x 0 0 27  Odd function Even function Fig.
+… Some real-valued functions are odd, some are even; the rest are neither odd nor even.
+However, we can write any real-valued function as a sum of an odd and an even function.
+Let the function be h(x), then we can write h(x) f(x)g(x) 2.11 where f(x) is odd and g(x) is even.
+Then, f(x)f(x) and g(x) g(x) h(x) f(x)g(x)f(x)g(x) 2.12 Adding equations (2.11) and (2.12) gives h(x)h(x)2g(x) Subtracting equation (2.12) from equation (2.11) gives h(x)h(x)2f(x) It follows, therefore, that h(x)h(x) f(x)  2.13 2 and h(x)h(x) g(x)  2.14 2 Example Write the function h(x)e2xsinx as a sum of odd and even functions.
+Solution h(x)e2xsinx, h(x)e2xsin(x)e2xsinx Therefore, the odd function is h(x)h(x) e2xsinxe2xsinx e2x e2x f(x)    sinx 2 2 2 cosh2xsinx The even function is h(x)h(x) e2xsinxe2xsinx e2x e2x g(x)    sinx 2 2 2 sinh2xsinx It is obvious that the odd function is a product of an odd function and an even function.
+Likewise, the even function is a product of two odd functions.
+We conclude, therefore, that the following rules apply: EvenEven = Even 2.15 EvenOdd = Odd 2.16 28 OddOdd = Even 2.17 The integral a  f(x)dx 0 if f(x) is odd 2.18 a a a  f(x)dx 2 f(x)dx if f(x) is even 2.19 a 0 Recall that the inner product in the space of twice integrable complex valued functions of two complex valued functions f(x)and g(x) over the interval a xbis defined as b (f,g)   f *(x)g(x)dx.
+a Two functions f(x)and g(x) are said to be orthogonal over an interval a xb if their inner product is zero.
+Example Show that sinmx and sinnx are orthogonal, m n,  x.
+Solution  1  The inner product is  sinmxsinnxdx   [cos(mn)xcos(mn)x]dx  2  1 1  1     sin(mn)x  sin(mn)x = 0 2mn  mn  3.4 Gram-Schmidt Orthogonalisation Procedure This provides a method of constructing an orthogonal set from a given set.
+Normalising each member of the set then provides an orthonormal set.
+The method entails setting up the first vector, and then constructing the next member of the orthogonal set by making it orthogonal to the first member of the set under construction.
+Then the next member of the set is constructed in a way to be orthogonal to the two preceding members.
+This procedure can be continued until the last member of the set is constructed.
+3.4.1 Example from function vector space   Construct an orthonormal set from the set 1,x,x2,... over the interval 1 x1.
+Thus,     given the set f , f , f ,... , we want to construct an orthogonal set ,,,... , i.e., 1 2 3 1 2 3 1  (x)(x)dx = 0, if i  j, then we normalise each member of the set.
+i j 1 Let   f 1, and   f   x 1 1 2 2 1 Then, we determine , subject to (,)0 1 2 29 1 1 1 x2  1(x)dx  x 0 2.20 1 2 1 1 0 Thus,   x 2 Let   f    x2 x 3 3 2 1 subject to (,)0 and (,)0 1 3 2 3 The first condition gives: 1  1(x2 x)dx= 0 2.21 1 or 1 1 1 x3 x2 2x2 1  x  2x = 0 2.22 3 2 1 3 1 1 0 2 20 2.23 3 or 1   2.24 3 The second condition gives 1 1  x(x2 x)dx   (x3 x2 x)dx 1 1 or 1 1 1 x4 x3 x2   0 2.25 4 3 2 1 1 1 1 2x3 0 3 0 or 0 2.26 Putting the values of  and  from equations (2.24) and (2.26) into the expression   f    x2 x, we arrive at 3 3 2 1 1   x2  2.27 3 3 ,, etc., can be got in a similar fashion.
+4 5 To normalise  , we multiply the function by a normalisation constant, A, say, and j invoke the relation 1 A22(x)dx 1 2.28 j 1 30 For , this becomes 1 1 1  A212dx 2 A2dx= 1 1 0 from which 2A2 1 or 1 A 2 The normalised function 1   2.29 1 2 Similarly, 1  A2x2dx 1 1 1 x3 1 1 A2 A2  A2   2 1   3 3 3 3 1 3 Thus, A2  .
+2 Hence, the normalised function, 3   x 2 2 In like manner, 2 1  1 1  2 1  A2x2   dx 2 A2x4  x2  dx= 1 1  3 0  3 9 from which 1 x5 2x3 x 2A2   1 5 9 9 0 or 1 2 1 2A2   1 5 9 9 80 Therefore, A2 1 45 45 1 The normalised function   x2   2 8  3 3.4.2 Example from Rn We define the projection operator 31 u,v  Proj v  u 2.30 u u,u  u  v 2.31 1 1 u  v Pr v 2.32 2 2 u 2 1 u  v Pr v Pr v 2.33 3 3 u 3 u 3 1 2 .
+.
+n1 u  v Pr v 2.34 n n u n i i1 We can then normalise each vector u e  k 2.35 k ||u || k Note that Pr v projects vector v orthogonally onto vector u. u 3.5 Some Useful Mathematics on Matrices You shall be needing the following because we often represent an operator in quantum mechanics by a matrix.
+We shall take as the usual basis in 3-dimensional space, {e , e , 1 2 e }.
+You may also see this basis as {i, j, k}.
+3 3.5.1 Orthogonal Matrices A tensor Q such that (Qa)(Qb)ab  a, bEis called an orthogonal matrix.
+Since (Qa)(Qb)b{QT(Qa)}b{(QTQ)a}, a necessary and sufficient condition for Q to be orthogonal is QQT  I 2.36 or equivalently, Q1 QT 2.37 Note that det(QQT)det(Q)det(QT) det(Q)det(Q) det(Q)2 1 det(Q)1 2.38 Qis said to be a proper orthogonal matrix if det(Q)1 and an improper orthogonal matrix if det(Q)1.
+If det(Q)1, then det(QI)det(QI)det(QT) det(QQT QT) (det(A)det(B)det(AB)for any 2 square matrices) 32  det(I QT) (QQT  I for an orthogonal matrix Q) det(IT QTT) (det Adet AT for any square matrix A.)
+det(I Q) (IT  I and QTT  I ) det(QI) (det(A)det(A) for any square matrix A.)
+0 (if a number is equal to its negative, it must be zero) Therefore, 1 is an eigenvalue so that e  Qe e .
+3 3 3 Choose e , e to be orthonormal to e .
+In terms of this basis, 1 2 3 a b 0   Q  c d 0 2.39   0 0 1   a c 0   QT  b d 0 2.40   0 0 1   1 0 0 a2 b2 acbd 0     QQT  0 1 0  cabd c2 d2 0 2.41     0 0 1  0 0 1     a2 b2 1c2 d2 2.42 acbd 0cabd 2.43 Also, det(Q)1adbc 2.44 ac From equation 2.43, b   d Putting this in 2.43 gives ac2 ad  1 2.45 d a(c2 d2)d a d Use equation 2.43 in equation 2.42 to get c b.
+Therefore,  a b 0   Q  b a 0 2.46    0 0 1   with a2 b2 1.
+Thus, ,  a cos, bsin, so 33  cos sin 0   Q  sin cos 0 2.47    0 0 1   If you represent the three unit vectors in 3-dimensional Euclidean space by i, j, k, this corresponds to a rotation about an axis perpendicular to k .
+3.5.2 Symmetric Matrices For a symmetric matrix A, A AT Choose e ,e ,e as eigenvectors of A, with eigenvalues  , , .
+1 2 3 1 2 3 Ae  e 2.48 k k k  (e e ) Ae e 2.49 k k j k j e ATe k j e Ae k j (e e ).
+j k j This means that if  , then e e 0 j k k j Choose e ,e ,e to be unit vectors, then, e e  .
+1 2 3 i j ij This means that we could represent a symmetric matrix as a diagonal matrix with only the entries A : ii i  0 0  1   A 0  0 2.50  2   0 0    3 This result is referred to as the spectral representation of a symmetric matrix.
+3.5.3 Hermitian Matrices The Adjoint (or Hermitian conjugate) of a matrix A is given by   Adj(A) A  (A)T * 2.51 A Hermitian matrix is the complex equivalent of a real symmetric matrix, satisfying A  A 2.52 3.5.4 Unitary Matrices The complex analogue of a real orthogonal matrix is a unitary matrix, i.e., AA  Ior, equivalently, A  A1 2.53 3.5.5 Normal Matrices A normal matrix is one that commutes with its Hermitian conjugate.
+i.e., AA  AA 2.54 34 4.0 Conclusion This Unit introduced you to the concepts of orthogonality and orthonormality.
+They are so important in Quantum mechanics in that when in place, they guarantee that different vectors lie in specific directions that do not „mix up‟ just the way the traditional unit vectors in 3-dimensional space do not „mix up‟ when resolving them.
+You also came across the bra and ket or Dirac notation, another way of dealing with vectors and their inner products.
+Odd and even functions were brought in to make it easier for you to integrate functions within symmetric intervals.
+You also learnt about different types of matrices.
+With Gram-Schmidt orthonormalisation you have a way of creating an orthonormal set of vectors.
+With an orthonormal set, we can proceed to define the statistical probability with which a measurement of a physical quantity would result in a certain value.
+You also learnt about certain kinds of matrices.
+5.0 Summary  The inner product of a pair orthogonal vectors is zero.
+ A basis that consists of orthogonal vectors only is an orthogonal basis.
+ With an orthogonal basis, we can define the probabilities of measurement.
+ The Gram- Schmidt orthonormalisation scheme can be used to create an orthogonal basis.
+6.0 Tutor-Marked Assignment 1.
+Which of the following functions are even and which ones are odd?
+(i) x2sinxcoshx (ii) |ex |cosh2x (iii) secx 2.
+Write the following as a sum of odd and even functions.
+(i) ex coshx (ii) xlnx 3.
+Evaluate the following integrals a a (i)  x2n1dx, n0,1,2,.... (ii)  x2ndx, n0,1,2,.... a a 4.
+Show that (i) sinmx and cosnx are orthogonal,  x.
+(ii) sinmx and sinnx are orthogonal, m n,  x.
+3 x 5.
+If the matrix is a proper orthogonal matrix, find x.
+  1 2  y i 6.
+If the matrix is Hermitian, find the value of y.
+  i 2 7.0 References/Further Readings 1.
+Mathematical Physics – Butkov, E. 2.
+Mathematical Methods for Physics and Engineering – Riley, K. F., Hobson, M. P. and Bence, S. J.
+35 Solutions to Tutor Marked Assignment 1.
+Which of the following functions are even and which ones are odd?
+(i) x2sinxcoshx (ii) |ex |cosh2x (iii) secx (i) is odd, being the product of two even functions and an odd function.
+(ii) is an even function, a product of two even function.
+(iii) is an even function: 1 1 sec(x)   secx cos(x) cosx 2.
+Write the following as a sum of odd and even functions.
+(i) ex coshx (ii) xlnx (i) h(x)ex coshx, h(x)ex cosh(x)ex coshx 1 ex coshxex coshx ex ex  f(x)  [h(x)h(x)]  coshx   2 2  2  coshxsinhx 1 ex coshxex coshx ex ex  g(x)  [h(x)h(x)] coshx   2 2  2  cosh2 x 3.
+Evaluate the following integrals a a (i)  x2n1dx, n0,1,2,.... (ii)  x2ndx, n0,1,2,.... a a a (i)  x2n1dx= 0, the integrand being an odd function.
+a a a a x2n1 a2n1 (ii)  x2ndx 2 x2ndx  2  2 a 0 2n1 2n1 0 4.
+Show that (i) sinmx and cosnx are orthogonal,  x.
+(ii) sinmx and sinnx are orthogonal, m n,  x.
+ (i)  sinmxcosnxdx 0, the integrand is an odd function    1  (ii)  sinmxsinnxdx   cos(mn)xcos(mn)x dx  2 1 1  1     sin(mn)x  sin(mn)x  0 2mn  mn  3 x 5.
+If the matrix is a proper orthogonal matrix, find x.
+  1 2 36 3 x det 6x 1, or x 5   1 2  y i 6.
+If the matrix is Hermitian, find the value of y.
+  i 2 The matrix is Hermitian if it is equal to its Hermitian adjoint, i.e., *  y iT   y i   is equal to     i 2  i 2   *  y iT  y i*  y i           i 2  i 2  i 2   The matrix is Hermitian.
+37 UNIT 3: OPERATORS AND RELATED TOPICS 1.0 Introduction 2.0 Objectives At the end of this Unit, you should be able to:  3.0 Main Content 3.1 Linear Operators 3.1.1 Eigenvalues of a Linear Operator 3.2 Expectation value 3.3 Commutators and simultaneous eigenstates 3.4 Matrix Elements of a Linear Operator 3.5 Change of Basis 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction Operators are quite important in Quantum mechanics because every observable is represented by a Hermitian operator.
+The eigenvalues of the operator are the possible values the physical observable can take, and the expectation value of the observable in any particular state is the average value it takes in that particular state.
+Commuting operators indicate that the corresponding physical observables can have the same eigenstates, or equivalently, they can both be measured simultaneously with infinite accuracy.
+You shall get to learn about all these in this Unit.
+2.0 Objectives At the end of this Unit, you should be able to do the following:  Define a linear operator.
+ Find the eigenvalues of a linear operator.
+ Calculate the expectation value of a physical observable in a given state.
+ Do commutator algebra.
+ Find the matrix elements of a linear operator.
+ Write the matrix for a change from one basis to another.
+3.0 Main Content 3.1 Linear Operators A linear map, or linear transformation or linear operator, is a function f : X Y between vector spaces X and Y which preserves vector addition and scalar multiplication, i.e., f(x x )= f(x ) f(x ) 1 2 1 2 f(x)= f(x) for K, a constant, and x ,x X 1 2 Equivalently, f(ax bx )af(x )bf(x ).
+1 2 1 2 38  As am example, the differential operator is a linear operator.
+d d d (f (x)f (x)) f (x) f (x) dx 1 2 dx 1 dx 2 where  and  are constants (scalars) in the underlying field.
+3.1.1 Eigenvalues of a Linear Operator Let A be an operator and  the associated eigenvalue corresponding to an eigenvector .
+Then, we can write A 3.1 Frequently, the operator A is a matrix, and the eigenvector  a column matrix.
+It follows that (AI)0 3.2 where I is the appropriate identity matrix, that is, a square matrix that has 1 along its main diagonal and zero elsewhere.
+For a non-trivial solution, we require that the determinant vanish, that is, AI 0 3.3 Solving the resulting characteristic (or secular) equation, we obtain the possible values of , called the eigenvalues.
+Then armed with the eigenvalues, we can then obtain the associated eigenfunctions.
+Example 3 2 Given the matrix , find the corresponding eigenvectors and the eigenvalues.
+  1 2  Solution u  Let the eigenvector be u  1 , and the corresponding eigenvalue be .
+Then,   u   2 3 2u  u  1  1      1 2 u  u  2 2 or 3 2 1 0u     1 0      1 2  0 1u2 which implies 3 2 0 1 2 or 25620 2 580 39 5 2532 5 i 7    2 2 2 5 7 Let  = i .
+Then, the corresponding eigenvector can be found: 1 2 2 3 2u  5 7 u  1  i  1       1 2 u2 2 2 u2 5 7  3u 2u  i u (i) 1 2 2 2  1   5 7  u 2u  i u 1 2 2 2  2   5 7  1 7  From (i), 2u 3u  i u  i u 2 1 2 2  1 2 2  1     11 7  Thus, choosing u = 1, we get u =  i  1 2 22 2     1  Hence, an eigenfunction for the matrix is     1i 7 v  Similarly, choosing v  1 as the other eigenvector with a corresponding eigenvalue   v   2 5 7 v    i , we can get the eigenvector v  1 .
+  2 2 2 v  2 Central to the theory of quantum mechanics is the idea of an operator (as we have seen earlier).
+We have indeed come across some operators.
+Recall ˆ H(x) E(x) 3.4 ˆ where H is an operator.
+For the time-independent Schroedinger equation: 2 d2(x) ˆ H(x)  V(x)(x) 3.5 2m dx2 ˆ H is the total energy operator or Hamiltonian.
+We identify some other operators: ˆ (i) The kinetic energy operator T 2 d2 ˆ T   3.6 2m dx2 (ii) The linear momentum operator pˆ 40 d pˆ  i 3.7 dx (iii) The position operator xˆ xˆ  x 3.8 3.2 Expectation value The expectation value of a quantity is the statistical predicted mean value of all measurements.
+n 1 The (statistical) average value of the numbers x , x , …, x is x  x .
+However, if 1 2 n n i i1 there is a distribution, such that there are f of the value x , i= 1, 2, …, n, then the i i average becomes m  f x i i 1 n m x  i1   f x , since  f  n 3.9 m n i i i  f i1 i1 i i1 since n is the total number of observations.
+In the case of quantum mechanics, the average value, or expectation value, of an operator is  *(x)()(x)dx 3.10  Thus, the expectation value of x is   x *(x)x(x)dx 3.11  2 2x Thus, if  sin , with n= 2, and 0 x L, L  L  2 L 2x 2x  x    sin xsin dx 3.12 L L L 0 2 L 2x =  xsin2 dx L L 0 2 L2 L =   L 4 2 The expectation value of the momentum for the same case above is   d   p  *(x)i (x)dx 3.13   dx 2i L 2x d  2x =  sin sin dx L 0 L dx L  41 2i 2 L 2x 2x =   sin cos dx L L L L 0 2i 2 L1 4x =   sin dx L L 2 L 0 L 2i L 4x =  cos = 0 L2 4 L 0 The energy expectation value of for the ground state of the simple harmonic oscillator:   1  1  1  E  *Hˆdx   *      *dx   3.14  0 0  02 0 0 2 0  0 0 2 0 since  is normalised.
+0 This is a special case of the general result   *ˆdx *dx  3.15   Thus, we see that for any eigenstate of an operator, the expectation value of the observable represented by that operator is the eigenvalue.
+More generally, we would write the expectation value of an operator, A, in a certain state , as | A|.
+Example 1 2 1  2i      The expectation value of a matrix operator, 2 1 1  in state  1  is     1 3 2 1     1 2 12i 2i3  46i             2i 1 1 2 1 1  1   2i 1 14i2  4i2         1 3 2 1 2i1 2i1        3.3 Commutators and simultaneous eigenstates Consider an operator Pˆ that represents a physical observable of a system, e.g., energy or momentum.
+Suppose that the state  has a particular value p of this observable, i.e., Pˆ p.
+Suppose further that the same state also has the value q of a second ˆ ˆ observable represented by the operator Q, i.e., Qq.
+Then p and q are called simultaneous eigenvalues.
+Then, QˆPˆQˆp pQˆ pq 3.16 Similarly, 42  PˆQˆ PˆqqPˆqp 3.17 Since p and q are just real numbers, then qp  pq.
+Thus, the condition for simultaneous eigenstates is that PˆQˆQˆPˆ or PˆQˆ QˆPˆ 0 3.18 PˆQˆ QˆPˆ is said to be the commutator of Pˆ and Qˆ and operators that satisfy the condition PˆQˆ QˆPˆ 0 are said to commute.
+The commutator is normally written [Pˆ,Qˆ].
+Examples 1.
+Show that [Tˆ,pˆ].
+2 d2  d   d  2 d2  [Tˆ,pˆ]=  i i     2m dx2  dx  dx 2m dx2  i3 d3 i3 d3 =  0 2m dx3 2m dx3 2.
+Calculate [xˆ,pˆ].
+ d   d  [xˆ,pˆ] xi i (x)  dx  dx d d = ix iix dx dx = i Thus, we can write [xˆ,pˆ]= i The fact that xˆ and pˆ do not commute lead to the uncertainty relation xp.
+Indeed, when two operators do not commute, it means that the two associated observables cannot be measured with infinite accuracy simultaneously.
+Thus, an attempt to measure the momentum of a particle with infinite accuracy will cause an infinite error  in the position as is easily seen in the equation, x  .
+On the other hand, the p momentum and the energy of such a system can be measured simultaneously with infinite accuracy.
+Other non-commutating operators include Eˆ and tˆ, i.e., the energy operator and the time operator.
+The potential operator is just Vˆ V , just as xˆ  x.
+3.4 Matrix Elements of a Linear Operator We can represent any operator A by a square nnmatrix 43 A  | A| , i, j = 1, n 3.19 ij i j Examples 1.
+For the identity operator I , I | |  i i A  | A| = A  | =  3.20 ij i j ij i j ij Hence, 1 0 .
+.
+0   0 1 .
+.
+0   I  .
+.
+.
+.
+.
+3.21   .
+.
+.
+.
+.   0 0. .
+.
+1 0 0 1       2.
+Consider the basis B  0,1,0.
+Suppose we want to change to       1 0 0       1 0 0       C  0,1,0.
+Then, the matrix of transformation is       0 0 1       0 0 1   A = 0 1 0 ij   1 0 0    B |C   B |C   B |C   1 1 1 2 1 3  Note that A  B |C   B |C   B |C  ij 2 1 2 2 2 3    B |C   B |C   B |C    3 1 3 2 3 3 44 3.5 Change of Basis The basis for a vector space is not unique.
+We can easily construct a linear map (matrix) that takes a basis vector in one basis to another, as seen in example 2 above.
+Let us consider Rn as a vector space.
+Let {u }n be a basis in the vector space.
+We can write any vector a in the vector space i i1 a   1 a  2   as a  .
+.
+Then, we can write    .
+   a   n a  u  u  u   1  11  21  n1 a  u  u  u  2 12 22 n2         .
+c u c u ...c u = c .
+c .
+...c .
+3.22   1 1 2 2 n n 1  2  n   .
+  .
+  .
+  .
+         a u u u         n 1n 2n nn It follows that a cu c u ...c u 1 1 11 2 21 n n1 a cu c u ...c u 2 1 12 2 22 n n2 .
+.
+a cu c u ...c u n 1 1n 2 2n n nn We can write this compactly as a  u u .
+.
+u c   1  11 21 n1 1 a  u u .
+.
+u c  2 12 22 n2 2      .
+ .
+.
+.
+.
+.
+.
+3.23       .
+  .
+.
+.
+.
+.
+ .
+      a u u .
+.
+u c      n 1n 2n nn n a  c   1  1 a  c  2 2     or .
+ B .
+3.24      .
+  .
+     a c     n n where B is a matrix formed by arranging the vectors u , u , …, u in order.
+1 2 n It follows immediately that we can write 45 c  a   1  1 c  a  2 2  .
+  B1 .
+ 3.25      .
+  .
+     c a     n n But we might as well have written a in another basis {v }n , as j j1 a  v v .
+.
+v d  d   1  11 21 n1 1  1 a  v v .
+.
+v d  d  2 12 22 n2 2 2        .
+ d v d v ...d v  .
+.
+.
+.
+.
+.
+= D .
+  1 1 2 2 n n       .
+  .
+.
+.
+.
+.
+ .
+  .
+        a v v .
+.
+v d d        n 1n 2n nn n n v v .
+.
+v   11 21 n1 v v .
+.
+v  12 22 n2   where D= .
+.
+.
+.
+.
+3.26    .
+.
+.
+.
+.
+   v v .
+.
+v   1n 2n nn Therefore, equation 3.25 becomes c  a  d   1  1  1 c  a  d  2 2 2  .
+  B1 .
+  B1D .
+ 3.27        .
+  .
+  .
+       c a d       n n n Conversely, d  c   1  1 d  c  2 2     .
+= D1B .
+3.28      .
+  .
+     d c     n n Example 1 Given the basis {(2, 3), (1, 4)}, can we write the expression for a transformation to {(0, 2), (-1, 5)}?
+Solution 2 1 0 1 1 4 1 1 5 1 B  , D  , B1   , D1            3 4 2 5  53 2  22 0 46 1 4 1 0 1 12 9 B1D    =         53 2  2 5  5 4 13 1 5 1 2 1 113 9  D1B=    =         22 0 3 4 24 2 d  c  113 9 2 128 14   1 D1B 1   =  =              d  c  24 2 6  24 2 2 2 Check!
+c  d  12 914 110 2  1 B1D 1   =  =              c  d  5 4 132 5 30   6  2 2 4.0 Conclusion Linear operators are so important in Quantum mechanics because every observable has an associated linear operator.
+So, we introduced you to linear operators, and then outlined how to get the eigenvalues and eigenvectors of a given linear operator.
+The eigenvalues are the possible values a measurement will yield, and the eigenstates are the possible states we can find the system.
+You also learnt about the expectation value of a physical observable represented by a linear operator.
+We then went on to discuss commutators and saw that simultaneous eigenstates are possible for a pair of operators if they commutate.
+You learnt, thereafter, to calculate the matrix elements of a linear operator.
+You might need to change from one set of basis to another.
+You also learnt how to do this, so that you might have a picture of what a vector in the space would look like in another basis.
+5.0 Summary  A linear operator is needed for each physically observable physical quantity in Quantum Mechanics.
+ The eigenvalues of an operator are the possible values a measurement of the physical observable will yield.
+ The eigenstates or eigenvectors of an operator are the possible states in which the system under consideration could be found.
+ The matrix representing a linear operator can be determined.
+ The basis for a certain vector space is not unique as we can construct more bases as may be needed.
+6.0 Tutor-Marked Assignment (TMA) 1a.
+Find the eigenvalues and the corresponding eigenfunctions of the matrix.
+0 0 1   A 0 0 0   1 0 0   47 b.
+If this matrix represents a physically observable attribute of a particle, what is the expectation value of the attribute in each of the possible states.
+Comment on your results.
+1  1  2.
+You are given the set S1  1,1.
+(a) Are the linearly independent?\ (b) Are they orthogonal?
+(c) Are they normalised?
+If not, normalise them.
+3 (d) Write the vector     4 (i) in terms of the usual basis in the Euclidean plane.
+1  1  (ii) In terms of the basis SU  1,1.
+(e) Write the matrix of transformation from basis S to basisS ?
+U 1 1 0 3.
+Find the matrix of transformation between the bases  ,   and 0 1 1  1  3  ,  .
+Hence, express the vector   in the two different bases.
+1 1 4 4.
+Write the matrix of transformation between the following bases in R3, the 3- dimensional Euclidean plane.
+1 2 0 1  2   1              0 1, 3 and 2 1,  1              2 0 5 1 1 1             7.0 References/Further Readings 1.
+Mathematical Physics – Butkov, E. 2.
+Mathematical Methods for Physics and Engineering – Riley, K. F., Hobson, M. P. and Bence, S. J.
+48 Solutions to Tutor-Marked Assignment 1a.
+Find the eigenvalues and the corresponding eigenfunctions of the matrix.
+0 0 1   A 0 0 0   1 0 0   b.
+If this matrix represents a physically observable attribute of a particle, what is the expectation value of the attribute in each of the possible states.
+Comment on your results.
+ 0 1 a.
+The characteristic equation is formed by 0  0 0 1 0  3 0 Eigenvalues are 0, 1 and 1.
+0 0 1a  1    For = 0, eigenvector is given by 0 0 0 a   2 1 0 0a  3 a  0 1     Or a  1  2   a  0 3 a  0 1     The normalised eigenfunction is   a  1 1  2   a  0     3 1 0 1 a  0 1      1: 0 1 0 a  0   2    1 0 1a  0      3 a  1 1     a  0  2   a  1     3 a  1 1   1   The normalised wavefunction is   a  0 2  2   2 a  1     3 1 0 1a  0 1      1: 0 1 0 a  0   2   1 0 1a  0      3 49 a  1 1     a  0  2   a   1      3 a  1 1   1   Normalised wavefunction is   a  0 3  2   2 a   1      3 1   b.
+The expectation value of A in state 0 is   1   0 0 10 0         | A|  0 1 0 0 0 0 1  0 1 0 0 0 1 1      1 0 00 0      0 0 1 1 1 1    1   1   1  | A|  1 0 1 0 0 0 0  1 0 1 0  21 2 2 2   2   2   2 1 0 0 1 1       0 0 1 1  1  1    1   1   1  | A|  1 0 1 0 0 0 0  1 0 1 0  2 1 3 3 2   2   2   2 1 0 0  1  1       Comment: The expectation values are the eigenvalues we got earlier.
+This is another way of getting the eigenvalues of an operator.
+1  1  2.
+You are given the set S1  1,1.
+(f) Are the linearly independent?\ (g) Are they orthogonal?
+(h) Are they normalised?
+If not, normalise them.
+3 (i) Write the vector     4 (i) in terms of the usual basis in the Euclidean plane.
+1  1  (ii) In terms of the basis SU  1,1.
+(j) Write the matrix of transformation from basis S to basisS ?
+U 1 50 Solution (a) Given a set v n , if we can write a v a v a v = 0 and this i i1 1 1 2 2 n n implies a a a = 0, then we say v n is a linearly 1 2 n i i1 independent set.
+1  1  a=  , b=      1 1 To check if they are linearly independent.
+1  1  0 c  c  =   11 21 0 Hence, c c 0 and c c 0.
+From the last equation, c c .
+1 2 1 2 1 2 Putting this in the first equation, c c 0, or c = 0.
+Consequently, c = 1 1 1 2 0.
+Set is linearly independent.
+ 1  (b) To check orthogonality, (a,b) aTb (1 1) = 1 – 1 = 0   1 (They are orthogonal) 1 (c) Are they normalised?
+(a,a) (1 1)  2, or ||a||2.
+  1  1  (b,b) (1 1)  2.
+  1 They are not normalised.
+1 1 1  1   ,   are normalised.
+    2 1 2 1 1 1 1  1  The set {  ,  } forms an orthonormal basis for R2.
+    2 1 2 1 In the usual basis S , U 3 1 0   3i4j3 4        4 0 1 In the basis S 1 3  1   1              4 21 21 Hence, 3 2 and 4 2 27 2 and 2 2 Therefore, 3 7 2 1 2  1  71 1 1        =               4 2 2 1 2 2 1 21 21 51 1 0 3.
+Find the matrix of transformation between the bases  ,   and 0 1 1  1  3  ,  .
+Hence, express the vector   in the two different bases.
+1 1 4 1 0 The matrix from basis S is B  , and the matrix from basis S is   U 0 1 1 1 1  1 0 1 1 1 11 1  D  , B1  , D1           1 1 0 1 21 1  21 1 1 1  The matrix of transformation from S to S is B1D  D  .
+  U 1 1 1 11 1  The matrix of transformation from S to S is D1B  D1    1 U 21 1 3 3 11 1 3 1 7  7/2 So, in S transforms to D1B    in S .
+           4 U 4 21 14 21 2 1 3 Crosscheck!
+Does this transform into the other way?
+  4 7/2 1 7  11 1  7  16 3 in S transforms toB1D    in S .
+2 1 21 21 11 28 4 U 4.
+Write the matrix of transformation between the following bases in R3, the 3- dimensional Euclidean plane.
+1 2 0 1  2   1              0 1, 3 and 2 1,  1              2 0 5 1 1 1             1 2 0 1  2   1              Let S  0 1, 3, and S  2 1,  1  a b             2 0 5 1 1 1             1 2 0 1 2 1      The matrix related to S isB  0 1 3 , while the one related to S is 2 1 1 .
+a   b   2 0 5 1 1 1     We need to get the inverse of D, since we need D1B.
+The inverse of a matrix is the matrix of cofactors divided by the determinant.
+First, we evaluate the determinant of D. Determinant of D is 52  1(11)2(21)1(21)9 The inverse of D is the transpose of the matrix of cofactors divided by the determinant: T  1 1 2 1 2 1    1 1 1 1 1 1   0 3 3 T 0 3 3  1 2 1 1 1 1 2 1  1  D1     3 2 1  3 2 1       9 1 1 1 1 1 1 9 9   3 1 5 3 1 5      2 1 1 1 1 2     1 1 2 1 2 1   1 2 1 0 3 3  9 0 0 1 0 0 1   1    2 1 1 3 2 1  0 9 0  0 1 0        9 9 1 1 13 1 5 0 0 9 0 0 1        We have got the inverse right, DD1  I .
+The matrix of transformation from of transformation from to S is, and that of transformation from S to S is b a b 0 3 3 1 2 0  6 3 24  1   1  D1B  3 2 1 0 1 3  5 4 1      9 9 3 1 52 0 5 7 7 12      53 Module 2: Inadequacies of Classical Mechanics and The Schroedinger Equation Unit 1: The Inadequacies of Classical Mechanics Unit 2: The Schroedinger Equation Unit 3: Postulates of Quantum Mechanics Unit 1: The Inadequacies of Classical Mechanics 1.0 Introduction 2.0 Objectives 4.0 Main Content 4.1 Blackbody Radiation 4.2 Photoelectric Effect 4.3 Compton Effect 4.4 Bohr‟s Theory of the Hydrogen Atom 3.5 Heisenberg‟s Uncertainty Principle 3.6 Wave-particle duality 5.0 Conclusion 6.0 Summary 7.0 Tutor-Marked Assignment (TMA) 8.0 References/Further Readings 1.0 Introduction If classical mechanics had no inadequacies, there would have been no need for a new theory.
+Up until the turn of the century, it was thought that Newton‟s laws could account for all physical phenomena, irrespective of the size of the particle involved, and for any particle travelling at whatever speed.
+By now, you are familiar with the basic ideas of classical mechanics, based on Newton‟s laws of motion.
+It would appear that once you know the equation of motion of a body, you can simultaneously and accurately predict its position and linear momentum at any other time.
+Moreover, you would expect that an electron confined within the walls of a finite potential well, provided the energy is less than the height of the well, would have no effect outside the borders of the well.
+Of course, the harmonic oscillator you came across could have zero energy.
+In this unit, you will get to know that matter behaves like wave or like a particle; that the highest velocity with which photoelectrons emitted from a photometal is independent of the intensity of the incident radiation.
+2.0 Objectives  After going through this Unit, you should be able to:  Discuss the phenomena that pointed to the wave picture and the ones that required a particle nature of matter.
+ Appreciate the dual nature of matter: the wave and the particle pictures.
+3.0 Main Content 54 3.1 Blackbody radiation Every body at a temperature higher than absolute zero radiates energy as the internal energy (thermal) is converted to electromagnetic radiation.
+The spectrum of frequencies emitted by the body depends on its temperature.
+Thus, at low energies, lower frequencies (or longer wavelengths) are predominant.
+At higher temperatures, the higher frequencies (shorter wavelengths) are more prominent.
+It would be seen that the peak of the spectrum of radiation moves towards the higher frequencies as the temperature of the body increases.
+A blackbody is the perfect absorber and emitter of radiation.
+An example of a blackbody would be a tiny hole in a heated cavity.
+Radiation falling on such a hole would be bounced up and down inside the cavity, due to reflection, until all the radiation is absorbed.
+The radiation emitted by a blackbody per unit time, per unit area in the range of wavelength between Before the time of Planck, Stefan and Boltzmann came up with a formula for finding the total radiant energy emitted by a blackbody per unit surface area per unit time, as j*T4 1.1 where  is the Stefan-Boltzmann constant, equal to 5.6704108Js1m2K4, and T is the absolute temperature of the body.
+With this law, Stefan was able to determine the temperature of the sun.
+Rayleigh and Jeans predicted, based on the principle of equipartition of energy, that the radiation emitted by a blackbody per unit time, per unit area is given as 8v2kT u  1.2 c3 where k is the Boltzmann constant, v is the frequency of the radiation and T is the temperature of the body.
+However, neither the Stefan-Boltzmann nor the Rayleigh-Jeans formula could give the true picture (experimental); that is, neither fitted the observed spectrum of radiation.
+The former agreed with observation at high frequencies while the latter was fairly good for low frequencies.
+By making the assumption that radiant energy could only be emitted or absorbed in quanta (or little packets of energy), Planck arrived at the formula 8h v3 u  1.3 c3 ehv/KT 1 This formula agrees with observation at all frequencies.
+Fig.
+1 shows the spectrum for three temperatures: 2000 K, 3000 K and 4000 K. The figure also shows that the classical theory fits observation only at low frequencies (long wavelength range).
+55  7.E-16 6.E-16 ) 5.E-16 J ( y g 2000 K r 4.E-16 ne 3000 K e t 4000 K n 3.E-16 a Classical di a R 2.E-16 1.E-16 0.E+00 0.E+00 5.E-06 1.E-05 2.E-05 Wavelength (m) Fig.
+1: The spectrum of radiation for 2000, 3000 and 4000 K, and the classical result.
+3.2 Photoelectric effect Photoelectric effect is the phenomenon in which electrons are emitted from matter due to irradiation by electromagnetic waves of suitable frequency.
+Classical mechanics predicts that the higher the intensity of the incident wave, the higher the velocity of the emitted electron.
+Moreover, it expects any frequency of light to emit electrons.
+This was, however, not observed in nature.
+To start with, the electrons were never emitted unless the frequency of the incident wave was a certain value.
+In other words, there is a threshold below which the incident radiation would not emit any electrons.
+Einstein assumed that the incident radiation consisted of little packets of energy, quanta of light, called photons, each of energy E hf , where h is the Planck‟s constant and v is the frequency of the incident radiation.
+The assumption was that an electron would either absorb a photon or not.
+In the event that the electron absorbs this energy, then, part of the energy would be used in overcoming the work function of the metal, that is, the energy binding the electron to the metal.
+The excess energy would then be available for the electron to move away from the metal.
+In other words, if the energy of the photon is just enough to overcome the work function, the electron would be emitted, but would not have enough energy to leave the surface of the metal.
+56 Thus, the formula guiding photoelectric effect is 1 E  hf K  mv2 1.4 max 2 max K is the maximum kinetic energy of an emitted electron.
+It follows that the maximum max velocity an emitted electron can have is v  2(hf ) 1.5 max It is clear from equation 1.5, that for E hf less than the work function, no electron is emitted, meaning that, since h is a constant, if the frequency, f, is less than a threshold, no electron is emitted.
+Thus, the maximum kinetic energy a photon can have, hf , is independent of the intensity of the radiation, being a function only of the frequency, provided the metal remains the same (i.e., the work function  remains constant).
+We can also write the work function  as hf , where f is the threshold frequency, 0 0 below which no electron will be emitted.
+We can therefore now write v  2h(f  f ) 1.6 0 From equation 1.6, it is clear that no electron will be emitted if f  f , the threshold 0 frequency.
+For a given metal and a given radiation, the intensity of the radiation is directly proportional to the number of electrons emitted.
+This is because more electrons would be exposed to the radiation.
+The experimental set-up for photoelectric effect consists of an emitter plate and a collector plate.
+What opposing potential would stop the most energetic electrons from reaching the opposite plate of the collector?
+1 mv2 eV 1.7 2 max 0 where e is the charge on the electron and V is the stopping potential, since the potential 0 energy just balances the kinetic energy.
+Solving for V , 0 mv2 V  max 1.8 0 2e 3.3 Compton effect Let a photon with wavelength  collide with an electron at rest.
+After the collision, the photon is scattered in direction  relative to its initial direction.
+The electron is also scattered at an angle  with respect to the reference direction as shown in Fig.
+… We shall apply relativistic conditions, meaning that the speeds involved are large enough to be considered relativistic.
+57 Figure Conservation of energy EE  E'E 1.9 e e' hvm c2 hv' p 2c2 (m c2)2 1.10 e e e since the relativistic energy-momentum relation E 2  p 2c2 (m c2)2 1.11 e' e e Conservation of linear momentum pp p'p 1.12 e e' But p 0.
+Hence, e p p'p 1.13 e' From equation 1.10, hvm c2 hv' p 2c2 (m c2)2 1.14 0 e' e Squaring both sides, (hvm c2 hv')2  p 2c2 m 2c4 1.15 e e' e Hence, p 2c2 (hvm c2 hv')2 m 2c4 1.16 e' e e From equation 1.13, we can write, p pp' 1.17 e' Taking the dot product of both sides, p p  p 2 (pp')(pp')  p2  p'22pp'cos 1.18 e' e' e' Multiplying through with c2, p 2c2  p2c2  p'2c2 2pp'c2cos 1.19 e' Setting pc hv p 2c2 (hv)2 (hv')2 2(hv)(hv')cos 1.20 e' Equating the right sides of equations 1.16 and 1.20, (hvm c2 hv')2 m 2c4= (hv)2 (hv')2 2(hv)(hv')cos e e (hv)2 (m c2)2 (hv')2 2(hv)(m c2)2(hv)(hv')2(hv')(m c2)m 2c4 e e e e (hv)2 (hv')2 2(hv)(hv')cos or 2(hv)(m c2)2(hv')(m c2)2(hv)(hv')2(hv)(hv')cos 1.21 e e 58  from which we obtain, hvm c2 hv'm c2 2h2vv'2h2vv'cos 1.22 e e Dividing through by hvv'm c, e c c h   (1cos) 1.23 v v' m c e But c/v  and c/v''.
+We can therefore write equation 1.23 as h ' (1cos) 1.24 m c e Example Find the change in wavelength if a photon is scattered at an angle of 230 after its collision with an electron initially at rest.
+Solution The change in wavelength is h 6.6261034 ' (1cos)  (1cos230) 1.92941013m m c 9.110313108 e According to Classical electromagnetism, the wavelength of the scattered rays should remain the same, but this did not agree with experiments.
+The latter found that the wavelengths of the scattered rays were greater than the initial wavelength as borne out by equation 1.24.
+Thus, for Compton effect to be explained, we have to make recourse to radiation consisting of particles that have energy and momentum.
+3.4 Bohr’s Theory of the Hydrogen Atom Rutherford tried to explain the structure of the atom by proposing a central nucleus, with the electrons moving in orbits round the nucleus.
+However, quite a number of things were not right with his model.
+For instance, you would have been taught before now, that an accelerating charge would radiate energy.
+Remember that a body on curvilinear motion is accelerating even if the magnitude of the velocity remains constant (centripetal acceleration).
+As such, you would expect an electron moving round the nucleus to lose energy and subsequently fall into the massive nucleus.
+We therefore would have expected a continuous spectrum of energy as against the line spectra obtained in reality.
+Bohr attempted to solve this problem by making some postulates: (i) An electron can only orbit the nucleus at certain radii, such that the condition mvrn, where all symbols have their usual meanings.
+Thus, the radii are quantised; not just any radius would do.
+While in such an orbit, the electron would not radiate energy.
+(ii) Electrons can make a transition from one allowable orbit (or correspondingly, energy level) to another by absorbing or emitting the difference in energy, as the case may be.
+That is, the energy difference is E E h f i 59 where  is the frequency of the emitted photon, E and E being the initial i f and the final energy levels respectively.
+Taking into consideration the Coulombic force between the proton and the electron in the hydrogen atom, Bohr arrived at the allowable radii of the form, r Cn2 n where C is a constant.
+Correspondingly, the energy levels are also of the form D E  n n2 where D is a constant.
+Clearly, you can see again the fact that quantisation enters into the picture.
+Even though Bohr‟s theory would also not meet the ultimate needs of physics, it afforded a bridge from classical mechanics to quantum mechanics.
+Now you know that the electron in the atom is actually not to be seen as a particle anymore, as it is as if a part of it resides in every region in the atom, aside the nucleus.
+So, we see the electron as a cloud of sorts, and apply the laws of statistics in its distribution, especially in view of the Heisenberg‟s uncertainty principle which makes it impossible to simultaneously predict accurately the position and the momentum of a particle.
+3.5 Wave-particle duality So far, we have considered radiant energy and photons as being quantised.
+On the other hand, according to de-Broglie (1924), matter has a wave nature, with the wavelength given by h  p 1.25 This formula was later confirmed experimentally via electron diffraction.
+Other phenomena that support the wave nature of light include refraction, diffraction and interference.
+From the foregoing, it is quite clear that matter behaves as if composed of particles or as a wave, hence the term wave-particle duality.
+3.6.
+Heisenberg’s Uncertainty Principle Classical physics claims to know the future state of any particle, provided the position and the momentum are known at any point.
+Heisenberg‟s uncertainty principle excludes the possibility of simultaneously measuring the position and the linear momentum of any object with infinite accuracy.
+Indeed, any attempt to measure one of the quantities with infinite accuracy leads to infinite uncertainty in the other.
+Indeed, if the uncertainty in position x and that of the linear momentum of the particle is p, then,  xp  2 Thus, our whole world of classical mechanics seems to have melted away.
+However, classical mechanics has been tested and trusted for so long.
+Why does it now seem to fail?
+It is because we have been dealing with matter on the large scale.
+Quantum 60 mechanics makes the difference when we have to deal with small objects, for example on the scale of atoms.
+Indeed, quantum mechanics has to agree with classical physics in certain limits, in conformity with the correspondence principle.
+4.0 Conclusion You have taken a look at the inadequacies of classical mechanics, and have by now seen that there is the need to design a new mechanics, one that would treat a particle as a wave.
+You have seen waves behaving as particles and particles behaving as waves.
+You have seen also, that quantisation is a part of nature: the energy levels an electron can have in an atom, Planck‟s treatment of the radiation emitted by a blackbody, and the likes.
+We also noticed that we cannot simultaneously measure certain quantities with infinite accuracy.
+5.0 Summary  Classical mechanics is not adequate to describe motion at the atomic level.
+ Matter behaves like a wave.
+ Matter has the particle behaviour.
+ Indeed, matter exhibits the wave-particle duality.
+ A blackbody emits or absorbs energy in quanta.
+ Compton scattering is explained by the particle nature of light.
+ We need to assume that electromagnetic radiation consists of particles (photons) to explain photoelectric effect.
+ Heisenberg‟s uncertainty principle stipulates that we cannot simultaneously measure certain pairs of physical attributes of a body with infinite accuracy.
+6.0 Tutor Marked Assignment 1.
+Find the maximum kinetic energy with which an electron is emitted from a metal of work function 3.21039J when a radiation of energy E = 3.3131039J falls on it, given that the work function is 3.21039J .
+2.
+What value does Rayleigh-Jeans formula predict for the radiation of frequency 61013Hzemitted by a blackbody per unit time, per unit area at 2500 0K.
+Compare this value with that predicted by Planck.
+3.
+What is the wavelength of the wave associated with an electron moving at 106m/s.
+7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+61 Solutions to Tutor Marked Assignment 1.
+Find the maximum kinetic energy with which an electron is emitted from a photometal of work function 3.21039J when a radiation of energy E = 3.3131039J falls on it, given that the work function is 3.21039J .
+The maximum kinetic energy is given by 1 mv2  EW (3.3131039 3.21039)J 1.131040J 2 2.
+What value does Rayleigh-Jeans formula predict for the radiation of frequency 61013Hzemitted by a blackbody per unit time, per unit area at 2500 0K.
+Compare this value with that predicted by Planck.
+8v2kT 8(61013)2 1.381 10232500 Rayleigh-Jeans: u   c3 (3108)3 1.15691016 J Planck: 8h v3 86.6261034 1.381 1023 u    c3 ehv/KT 1 (3108)3 6.626103461013 exp 1    1.381 10232500  3.93791081J 3.
+What is the wavelength of the wave associated with an electron moving at 106m/s.
+h  p h 6.6261034   7.281010m p 9.11031106 62 UNIT 2: The Schroedinger Equation 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 The Schroedinger Equation 3.2 Interpretation of the equation and its solutions 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction The fact that matter behaves like a wave implies that we would need an equation or a set of equations to describe the wave behaviour of matter.
+As such, we would expect to have an equation describing the wave nature of the electron.
+Likewise, the quantum- mechanical treatment of the harmonic oscillator would involve an equation describing the wave behaviour of the oscillator.
+In this unit, we shall derive the appropriate differential equations for the wavefunction, and consequently, describe the probability with which the particle would be found at different points within the appropriate region of confinement, and possibly beyond.
+1.2 Objectives At the end of this unit, you would be able to do the following:  Derive the time-dependent Schroedinger equation  Deduce the time-independent Schroedinger equation  Interpret the Schroedinger and its solutions 3.0 Main Content We have seen in Unit 1 of this Module, that matter behaves as a wave.
+Indeed, we noticed that the electron in the hydrogen atom is best seen as a cloud.
+Moreover, you also saw that the wave-particle duality begs for a wave equation to describe the nature of particles, as it pushes our analysis into the statistical domain.
+The Schroedinger equation does this job.
+3.1 The Schroedinger Equation We are quite aware that you know that the total mechanical energy of a body is the sum of the kinetic energy T and the potential energy V. Of course, you also remember that the kinetic energy of a body of mass m is 1 1 m2v2 p2 mv2   2.1 2 2 m 2m Then, the sum of its kinetic and potential energies, that is, the total mechanical energy is: p2 E T V  V 2.2 2m You surely recall that we can write p k and E .
+Substituting these into equation (2.2) gives 63 2k2  V 2.3 2m Let us consider the case of a free particle (V 0).
+Then, 2k2  2.4 2m Let us try (x,t) Aei(kxt) Then, 2 (x,t) k2Aei(kxt) k2(x,t) x2  (x,t) iAei(kxt) i(x,t) t 2 Multiplying the first equation by  and the second by i gives 2m 2    (x,t) i (x,t) 2m x2 t which is in line with equation (2.4).
+For a particle that is not free, V(x,t)0, and we arrive at 2    (x,t)V(x,t)(x,t) i (x,t) 2.5 2m x2 t This is the time-dependent Schroedinger equation.
+Now, suppose the potential is time-independent.
+Then, 2    (x,t)V(x)(x,t) i (x,t) 2.6 2m x2 t Let (x,t)(x)(t) You would recognise this equation as showing that (x,t) is variable separable, that is, we can write it as a product of a function of x only, multiplied by a function of t only.
+2    [(x)(t)]V(x)[(x)(t)]i [(x)(t)] 2.7 2m x2 t 2 d d (t) (x)V(x)(x)(t) i(x) (t) 2.8 2m dx2 dt Dividing through equation (2.8) by (x)(t), 1 2 d 1 d  (x)V(x) i (t) 2.9 (x) 2m dx2 (t) dt 64  Notice that we could carry out this algebra only because the potential is a function of x alone.
+That is, the potential is time-independent.
+You would also observe that the partial differentials have become ordinary differentials since they now apply to a function of a single variable in each case.
+In equation 2.9, a function only of x is equated to a function only of t. This means that they must be separately equal to a constant.
+We know from the left part of equation 2.9, that the constant is the kinetic energy of the particle, E. Then, 1 d i (t)= E 2.10 (t) dt We can rewrite this equation as d E iE (t)  dt   dt 2.11 (t) i  Integrating, iE ln(t)   tc 2.12  where c is an arbitrary constant.
+Taking the exponential of both sides,  iE  (t) exp  tc       DeiEt/ 2.13 where D ec But we can set D equal to unity as we shall be writing the wavefunction as (x)(t), and in any case, the wavefunction has not been normalised.
+Hence, the time-dependent part of the wavefunction is (t)eiEt/ 2.14 The time-independent part of the equation is 2 d  (x)V(x)(x)  E 2.15 2m dx2 Rearranging, d 2m (x) [EV(x)](x) 0 2.16 dx2 2 This is the time-independent Schroedinger equation, applicable when the total (mechanical) energy of a system is constant.
+We would not be able to solve equation 2.16 until we know the specific form of the function V(x).
+65  We conclude that in the case where the potential is independent of the time, (x,t)(x)eiEt/ 2.17 3.2 Interpretation of the equation and its solutions 1.
+Generally, the solution (x,t)of this equation is generally a complex function.
+You already know that the magnitude of a complex function might not make any sense physically.
+But the square of the magnitude (the intensity) certainly does, being always a positive real number.
+Indeed, it is a measure of the probability of 2 the particle being described arriving somewhere.
+(x,t) is, therefore, a 2 probability density.
+Of course, this implies that, (x,t) dx is the probability of finding the particle between x and xdx at time t. (x,t)is the probability amplitude and is the wave function.
+This is the function that describes the behaviour of a particle as a function of x and t. This is the Born interpretation of .
+2.
+The solutions for equation 2.16 for a given functions V(x) are possible for many solutions, each with a corresponding energy E. This ensures that only certain values of E are allowed (energy quantisation).
+3.
+For a system in which the particle is in one of these levels, (x,t)(x)eiEt/ Then, (x,t)2  (x) since eiEt/ 2= 1 and the probability of finding the particle at any point is independent of time.
+Such a state is called a stationary state.
+4.
+Any function which satisfies the time-independent Schroedinger equation must be (a) single valued (b) continuous; (c) smoothly varying; and (d) tend to zero as x.
+5.
+The probability of finding the particle along the chosen 1-dimension is 1, Hence,   (x)2dx= 1.
+2.18  This is the normalisation condition, and it expresses the certainty (probability 1) of finding the particle anywhere in the range  x.
+4.0 Conclusion In this Unit, we have derived both the time-dependent and the time-independent Schroedinger equation.
+We saw that the time-dependent solution occurs when the potential involved is not a function of the time, so that we can apply the variables separable method of solving the time-dependent Schroedinger equation.
+In addition, you got to know the wavefunction is generally complex, and that the physically relevant 66 function is the product of the wavefunction and its complex conjugate, or the square of the magnitude, which is consequently defined as the probability density: the probability of finding the particle between x and xdx at time t. 5.0 Summary  Schroedinger equation gives the dynamics of a quantum-mechanical particle.
+ The time-independent Schroedinger is applicable when the potential is time- independent.
+ The square of the amplitude of the solution of the Schroedinger equation gives the probability density.
+ The normalisation condition requires that the integral of the probability density over the whole of the relevant range equals unity.
+6.0 Tutor-Marked Assignment (TMA) 1.
+By solving the time-dependent Schroedinger equation for a free particle (V = 0), find the condition imposed on the angular frequency and the wavenumber.
+2.
+By applying the method of separation of variables, solve the differential equation  2 2 2     = 0   x2 y2 z2  3.
+Which of the following functions would you recommend as a possible eigenfunction in quantum mechanics?
+(i) (x)ex2 (ii) (x)2x (iii) (x) xe2x2 n  x  4.
+What would the potential function be if (x)   e2x/x0is an eigenfunction   x   0 of the Schroedinger equation?
+Assume that when x, V(x)0.
+7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+67 Solutions to Tutor Marked Assignment 1.
+By solving the time-dependent Schroedinger equation for a free particle (V = 0), find the condition imposed on the angular frequency and the wavenumber.
+2    (x,t) i (x,t) (i) 2m x2 t Solution Let (x,t) Aei(kxt) Then, 2 (x,t) k2Aei(kxt) k2(x,t) x2  (x,t) iAei(kxt) i(x,t) t Putting these into the equation (i), we see that 2k2  2m 2.
+By applying the method of separation of variables, solve the differential equation  2 2 2     = 0   x2 y2 z2  Solution We shall assume that (x,y,z) X(x)Y(y)Z(z) Putting this in equation (133), 1 d2X 1 d2Y 1 d2Z   0 (i) X(x) dx2 Y(y) dy2 Z(z) dz2 For i.e., equation (i) to be valid, each term on the left must be separately equal to a constant.
+1 d2X 1 d2Y 1 d2Z k 2;  k 2;  k 2 X(x) dx2 1 Y(y) dy2 2 Z(z) dz2 3 subject to the condition: k 2 k 2 k 2 0 1 2 3 We can see that not all these constants can be real nor all imaginary.
+At least one of them must be real and one imaginary.
+The third may be real or imaginary.
+Which constants are real and which are imaginary will be decided by the physical situation of the problem we are dealing with.
+Let 68 k 2 2, k 2 2 and k 2 2 1 2 3 Then, 1 d2X 1 d2Y 1 d2Z  2;  2; 2 X(x) dx2 Y(y) dy2 Z(z) dz2 The solutions are: X(x) Aeix  A eix (i) 1 2 Y(y)Beiy B eiy (ii) 1 2 Z(z)Cez C ez (iii) 1 2 These are just a particular solution of the partial differential equation.
+As there may be other values of ,  and  which could give valid solutions, the general solution is:      (x,y,z)  Ar1eirx  Ar2eirx Bs1eisy Bs2eisy Ct1etz Ct2etz r,s,t 3.
+Which of the following functions would you recommend as a possible eigenfunction in quantum mechanics?
+(i) (x)ex2 (ii) (x)2x (iii) (x) xe2x2 Answer (i) This is a bell-shaped function tends to zero as x tends to + infinity and – infinity.
+In addition, it is twice differentiable, continuous, and normalisable.
+(ii) The function is not normalisable even though it is continuous.
+This is because it continues to grow as | x | becomes large.
+(iii) This is also a valid function.
+As | x | grows, the exponential function tames the function, preventing from tending to infinity.
+It is continuous and twice differentiable.
+n  x  4.
+What would the potential function be if (x)   e2x/x0is an eigenfunction   x   0 of the Schroedinger equation?
+Assume that when x, V(x)0.
+Solution n dF xn1 2  x   n e2x/x0    e2x/x0   dx x n x x  0 0 0 69 2 n d2F xn2 xn1 2 2 xn1  2   x   n(n1) e2x/x0 n  e2x/x0  n e2x/x0     e2x/x0       dx2 x n x n  x  x x n x  x  0 0 0 0 0 0 0 2 n xn2  2  xn1  2  xn1  2   x   n(n1) e2x/x0 n  e2x/x0 n  e2x/x0     e2x/x0         x n x  x n x  x n x  x  0 0 0 0 0 0 0 2 n xn2  4  xn1  2   x   n(n1) e2x/x0 n  e2x/x0     e2x/x0       x n x  x n x  x  0 0 0 0 0 2 n n(n1) xn  4  xn  2   x   e2x/x0 n  e2x/x0     e2x/x0       x2 x n xx  x n x  x  0 0 0 0 0 n(n1)  4   2 2 xn   n    e2x/x0      x2 xx  x   x n  0 0  0  2 n(n1)  4   2    n   (x)      x2 xx  x    0 0  Putting this into the Schroedinger equation, 2 d2(x) 2 n(n1)  4   2 2   n   (x) (V E)(x)     2m dx2 2m x2 xx  x    0 0  When x, V(x)0, meaning that, 22 E   mx 2 0 as the two terms that have x in their denominator tend to zero.
+Therefore, 2 n(n1)  n  V(x)   4  2m x2 xx0  70 UNIT 3: Postulates of Quantum Mechanics 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Postulates of Quantum Mechanics 3.2 The Correspondence Principle 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.1 Introduction So far, in the first units of this module, we have derived the Schroedinger equation, and have also interpreted its solution.
+In this unit you shall learn the postulates of quantum mechanics.
+You shall also learn how to expand a given wavefunction in terms of a complete set of orthonormal eigenstates, which are the states the system can possibly exist, recover the coefficient of each eigenstate in the expansion, and then determine the probability that it is indeed in any given state.
+It is necessary to know what value you should expect when you carry out a measurement of a physical observable.
+This you shall learn this with appropriate examples in this Unit as well.
+You shall also get to know in what limit quantum mechanics must agree with classical mechanics through the knowledge of the Correspondence Principle.
+2.0 Objectives By the time you are through with this Unit, you should be able to:  State and explain the postulates of quantum mechanics  Expand a given wavefunction as a linear combination of the possible orthonormal eigenstates  Recover the coefficient of each eigenstate in the expansion  Calculate the probability that the system is in any given eigenstate  Find the (statistical) expectation value of a physical observable in any given eigenstate of the system  Learn the limit in which quantum mechanics should conform to classical mechanics 3.1 Postulates of Quantum Mechanics A postulate is a something that is assumed to be self-evident, requiring no proof, used as a basis for reasoning.
+The postulates of Quantum Mechanics are the minimum conditions that must be satisfied for Quantum Mechanics to hold.
+If Quantum mechanics works based on these postulates, it means that the postulates are true.
+(1) There exists a function, called state (x,t).
+This gives the state of the system.
+It contains all that are relevant mechanically in the system.
+In other words, it gives the spatial and temporal (space and time) evolution of the quantum-mechanical particle.
+71  is single-valued in x, differentiable in x and t, (x,t) is square integrable in x.
+(2) To every measurement (of attributes of the system) there is a linear self-adjoint (Hermitian) operator, called an observable, A, operating on the wave function.
+E.g., A .
+That is, the operator acting on a state function  produces a state function .
+If  is a multiple of , say  , then, A .
+Then  is an eigenvector and  an eigenvalue of A.
+The eigenvalues {}are the values physically obtainable in measuring the attribute that has A as its observable.
+We therefore expect the‟s to be real.
+Hermitian operators are associated with real observables because they need to have real eigenvalues (possible measurements).
+For example, the operator corresponding to the energy of a system is the 2 d2 Hamiltonian, which is written as  V(x,t).
+There are two operators 2m dx2 involved, and you would remember that in Classical Mechanics, the two parts of the Hamiltonian are the kinetic energy and the potential energy.
+Clearly, you can 2 d2 see that the kinetic energy operator in Quantum Mechanics is  , and the 2m dx2 potential energy operator is V(x,t).
+But do you also remember that classically we p2 write the kinetic energy as ?
+Can you then see that in Quantum Mechanics, 2m d comparing the two expressions, we must write p  i .
+Square this expression dx d2 and confirm that indeed it gives you 2 .
+Applying the energy operator to dx2 the state function, we get,  2 d2   V(x,t) (x,t)  E(x,t) (3.1)    2m dx2  Depending on the potential V(x,t), we could get the possible values of the energy, E , of the particle.
+This is the idea behind quantisation.
+i (3) Let {} form a basis of H .
+Then, j n  c  , with c (,) (3.2) j j j j j1 There are many possible states for a quantum-mechanical system, usually infinite in number with n in equation 3.2 tending to infinity.
+Hence, the wavefunction (x,t) is a linear combination of all these possible states.
+This means the system described by  can be found in any of the possible states .
+We can recover the j coefficient of each of the possible states using equation c (,)Once we have i i done that, that is, we have found c , we could find the probability that the system i 72 is in that particular state (i), |c |2, provided the wavefunction  is normalised, i and the set { }n is an orthonormal set.
+Refer to Unit … j j1 (4) The expectation value of any property w(x) can be found by obtaining the expectation value of the corresponding operator with respect to the wavefunction.
+  w *(x)wˆ(x)dx  where wˆ is the operator associated with the physical quantity w. (5) Reduction Doctrine: If we make a measurement in state  and obtain  out of k all the possible states {}n , then if immediately after that measurement we j j1 make another, we obtain  with probability |c |2= 1, i.e., the process of j k measurement reduces  to  .
+k (6) The time evolution of the wavefunction is given by the equation  i (x,t)  H(x,t) (3.3) t As an illustration of the postulates of quantum mechanics, we take the following example: Example An electron whose normalized state function at time t = 0 is found to be 2 (x,t 0)  x is confined within the infinite time-independent potential well given L2 0,0 x  L by V(x)   , elsewhere 2 nx The allowed eigenstates are (x)  sin for 0 x L; n= 1, 2, 3, … The n L L 8 2 coefficient, c , of  in the expansion in the normalised(x) is   .
+m m L m22 (i) Find the probability that the electron is in state m2.
+(ii) What is the expectation value of the displacement and the linear momentum in state n = 3?
+222 (iii) The energy is measured and found to be .
+What is the state of the system ma2 immediately after measurement?
+(vi) Time evolution 73 Solution (i) The probability that the electron is in state m = 2: 8 2 c    m L m22 8 2 32 c     3 L 322 81L4 32 The probability that the electron is in state m = 2 is |c |2= 3 81L4 (ii) The expectation value of the displacement in state m = 3 is (since the operator for x is xˆ= x):   x   *(x)x(x)dx 3 3  In this case,  is non-zero only between 0 and L. Hence, the integral becomes n * L 2 3x  2 3x  x   sin  x sin dx     0  L L   L L  2 L 3x =  xsin2 dx L 0 L 2 L 1  3x 1 =  x 1cos2 dx (since sin2 [1cos2]) L 0 2  L  2 1 L  6x =  xxcos dx L 0   L  1 L =  xdx (the second integral is zero; can you show it?)
+L 0 L 1 x2 L2 L =   L 2 2L 2 0 This is to be expected.
+You can check this by looking up Fig.
+… The expectation value of the linear momentum in state m = 3 is (since the operator d for p is pˆ  i ): dx   d   x   *(x)i  (x)dx  3  dx 3 In this case,  is non-zero only between 0 and L. Hence, the integral becomes n * L 2 3x  d  2 3x  p   sin  i  sin dx     0  L L   dx L L  * 2 L 3x 3 3x = (i)  sin   cos dx L 0  L   L  L  74 6 L 3x 3x = i  sin cos dx L2 0 L L 6 L1  3x 1 = i  cos2 dx(since sincos cos2) L2 0 2  L  2 3 L 6x = i  cos dx L2 0  L  L 3 L 6x = i  sin  0 L2 6x  L  0 (iii) The measured energy is equivalent to the energy state n = 2, since we can write it 2222 n222 as  .
+Therefore, from the reduction principle, immediately after 2ma2 2ma2 the measurement, the electron will be found with probability 1 in the state n = 2, 2 2x that is with eigenfunction   sin .
+2 L L (iv) We can therefore write the wavefunction as  2 jx (x,0) c sin j L L j1 At time t 0,  2 jx (x,t) c (0) sin eiEnt/ j L L j1 3.2 The Correspondence Principle The correspondence principle states that as the quantum number n becomes large, quantum mechanics should approximate classical mechanics.
+For a new theory to be acceptable, it must conform to the well-tested existing theories.
+In this vein, the special theory of relativity, which is important only when the velocities involved are large, must conform to Newtonian mechanics when the velocities involved are small day to day values.
+As an instance of this law, we consider the Hydrogen atom as treated by Bohr.
+The frequency of the radiation emitted or absorbed in a transition between states n and n' is,  1 1  E  R    (3.4) nn' En'2 n2  where R is the Rydberg energy.
+E Now, classical mechanics predicts a continuous spectrum, while Bohr‟s theory gives rise to discrete lines.
+Let us take n' as being equal to n1.
+Then,  1 1  E  R   = R [(n1)2 n2] (3.5) nn' E(n1)2 n2  E Applying Binomial expansion, 75  R [(n1)2 n2]= R [n2 2n3 (2)(3)n4 ...n2] (3.6) E E Hence, 2 E   R (3.7) nn' n3 E This tends to zero as n tends to infinity.
+We conclude therefore, that as n tends to infinity, the spectrum becomes continuous, as predicted by classical mechanics.
+4.0 Conclusion In this Unit, you have learnt about the postulates of quantum mechanics, which are the minimum requirements for quantum mechanics to work.
+You learnt how to expand a given wavefunction for a particle in terms of the relevant eigenstates.
+Thereafter, you also got to know how to get the probability that the particle described by the wavefunction is in any particular one of the possible eigenstates.
+5.0 Summary In this Unit, you learnt the following:  The postulates of quantum mechanics  How to expand a given wavefunction as a linear combination of the possible orthonormal eigenstates  How to recover the coefficient of each eigenstate in the expansion  How to calculate the probability that the system is in any given possible eigenstate  How to find the (statistical) expectation value of a physical observable in any given eigenstate of the system  Learn the limit in which quantum mechanics should conform to classical mechanics 6.0 Tutor-Marked Assignment 1.
+A particle of mass m is confined within a one-dimensional box of length L/2, subject to a potential: 0, 0 x  L/2 V(x)   , elsewhere If at t , the wavefunction is (x) Ax(Lx/2), i.e., (x,0) Ax(Lx/2), 0 (i) normalise , and hence, determine the value of A.
+(ii) write (x,t) as a series, where t 0.
+(iii) write an expression for the coefficients in the series.
+2.
+(x) A(axx2) for | x|a.
+Normalise the wavefunction and find  x ,  x2  and x.
+3.
+A particle is confined within a one-dimensional region 0 x L. At time t = 0,  x x its wavefunction is given as A 1cos sin .
+   L  L 76 (i) Normalise the wavefunction.
+(ii) Find the average energy of the system at time t = 0 and at an arbitrary time t .
+0 (iii) Find the average energy of the particle.
+(iv) Write the expression for the probability that the particle is found within 0 x L/2?
+4.
+A particle trapped in the well 0, 0 x  a V   , elsewhere is found to have a wavefunction i 2 x 2 3x 2 3x sin  sin  sin  2 a  a  3a  a  16a  a  (a) If the energy is measured, what are the possible results and what is the probability of obtaining each result?
+(b) What is the most probable energy for this particle?
+(c) What is the average energy of the particle?
+5.
+A particle in a one-dimensional box 0 xa is in state: 1 x A 2x 3 3x (x)  sin  sin  sin 5a a a a 6a a (a) Find A so that (x) is normalized.
+A = 1/ 20 (b) What are the possible results of measurements of the energy, and what are the respective probabilities of obtaining each result?
+922 (c) The energy is measured and found to be .
+What is the state of the 2ma2 system immediately after measurement?
+7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+77 Solutions to Tutor Marked Assignment 1.
+A particle of mass m is confined within a one-dimensional box of length L/2, subject to a potential: 0, 0 x  L/2 V(x)   , elsewhere If at t , the wavefunction is (x) Ax(Lx/2), i.e., (x,0) Ax(Lx/2), 0 (i) normalise , and hence, determine the value of A.
+(ii) write (x,t) as a series, where t 0.
+(iii) write an expression for the coefficients in the series.
+Solution L/2  x2  x3 x4 x5L/2 (i)  A2x2 L dx= A2 L2 L      0  2  3 4 5  0  1 1 1  31  A2L5    A2L5 1   24 64 160 960 960 15 Hence, A 8 .
+The normalised wavefunction is 31L5 31L5 15 8 x(Lx/2).
+31L5 (ii) The allowed eigenfunctions for the well can be deduced from those of the well 0, | x| L V(x)   , elsewhere by making a transformation LL/2.
+2 nx Recall that for the latter well, (x)  sin .
+For the well at hand, then, n L L 2 nx 4 2nx 2 2nx (x)  sin  sin  sin , and the energy n L/2 L/2 L L L L n222 n222 eigenvalues are E  as against E  for the well of length n 2m(L/2)2 n 2mL2 L. We can therefore write the wavefunction as  2 2jx (x,0) c sin j L L j1 At time t 0, 78  2 2jx (x,0) c (0) sin eiEnt/ j L L j1 L/2 2 2jx 8 15  where c (0)(,(x,0))    sin  x(Lx/2)dx j j 0  L L 31L5  16 15 L/2 2jx    sin x(Lx/2)dx L3 31 0  L  16 15 3L3 48 15    L3 31 j j 31 Details of the integration We first carry out the integration L/2 L/2 L/2 x2  x(Lx/2)sinwxdx  L xsinwxdx sinwxdx.
+We shall later 0 0 0 2 2j make the identification w .
+We shall evaluate these integrals separately so L that you can make use of them at some other time, if need be.
+L/2 I   xsinwxdx 1 0 1 Let x u.
+Then, dx du.
+Let sinwxdx dv.
+Then, v   coswx w Applying the formula for integration by parts, udv uv vdu, L/2 x L L/2 I   coswx   coswxdx 1 w w 0 0 L/2 L/2 x 1 I   coswx  sinwx 1 w w2 0 0 L/2 x2 I   sinwxdx 2 0 2 L/2 2I   x2sinwxdx 2 0 We have integrated 2I , so you would know how to integrate  x2sinwxdx.
+2 1 Let x2 u.
+Then, 2xdx du.
+Let sinwxdx dv.
+Then, v   coswx w Applying the formula for integration by parts, udv uv vdu, L/2 x2 L/2 2I   coswx 2 xcoswxdx 2 w 0 0 79 1 In the integral, let x u.
+Then, dx du.
+Let dv coswxdx.
+Then, v  sinwx w Applying the formula for integration by parts, udv uv vdu, x2 L/2 2 x L/2 1 L/2  2I   coswx   sinwx   sinwxdx 2 w 0 ww 0 w 0  x2 L/2 2 x L/2 1 L/2 2I   coswx   sinwx  coswx  2 w 0 ww 0 w2 0  1 The integral we are interested in is, I  LI I  LI  2I .
+1 2 1 2 2 Therefore,  xL L/2 L L/2 1 x2 L/2 2 x L/2 1 L/2 I   coswx  sinwx   coswx   sinwx  coswx   w 0 w2 0  2 w 0 ww 0 w2 0   L L/2 L L/2 x2 L/2 1 1 L/2 1 L/2 I   xcoswx  sinwx  coswx   xsinwx  coswx   w 0 w2 0  2w 0 ww 0 2w2 0  Putting in the limits,  L L L  L  L  I    cosw 0cos 0 sinw sin0  w2 2  w2  2  (L/2)2 L (0)2  1 L L  1  L   cosw  cos 0  sinw 0 sin 0 cosw cos 0  2w 2  2w  w2 2 2  2w3  2   L L L L  L I    cosw  sinw   w2 2 w2  2 (L/2)2 L 1 L L 1  L   cosw    sinw  cosw 1  2w 2 w2 2 2 2w3  2  2j But w , or wL 2j L  L L  L  (L/2)2  1 L  1      I    cos2j sin2j cos2j  sin2j cos2j1   w2  w2   2w  w2 2  2w3  I  L Lcos2j0(L/2)2 cos2j 1 0 1 cos2j1  w2    2w  w2 2w3  80  L L  (L/2)2 1   1   I   0   0  11   w2   2w  w w2   L L2  (L/2)2L   L3 L3  3L3 I        2j 2   2(2j)   4j 16j j 2.
+(x) A(axx2) for | x|a.
+Normalise the wavefunction and find  x ,  x2  and x.
+Solution a a  *(x)(x)dx   A2(axx2)2dx a a a 2 A2(axx2)2dx, since the integrand is an even function, and 0 the limit of integration is from – a to a. a a 2 A2(axx2)2dx 2A2 (a2x2 x4 2ax3)dx 0 0 a3 a5 a4 1 1 1 2A2(a2  2a )  2a5A2    3 5 4 3 5 2 10615 1 2a5A2  2a5A2 1 30 30 A 30/2a5 30 a 30 a  x  (axx2)x(axx2)dx   x(axx2)2dx 0, since the 2a5 a 2a5 a integrand is an odd function.
+30 a 30 a  x2   (axx2)x2(axx2)dx 2  x2(axx2)2dx 0, since the 2a5 a 2a5 0 integrand is an even function.
+30 a 60 a 2  x2(axx2)2dx   x2(a2x2 x4 2ax3)dx 2a5 0 2a5 0 a 30a5 (a2x4 x6 2ax5)dx 0 30 1 1 1 211535 30a2 2a2  a7   30a2     a5 5 7 3 105 105 7 2a2 2a2 2 x   x2   x 2  02  a 7 7 7 81 3.
+A particle is confined within a one-dimensional region 0 x L. At time t = 0,  x x its wavefunction is given as A 1cos sin .
+   L  L (i) Normalise the wavefunction.
+(v) Find the average energy of the system at time t = 0 and at an arbitrary time t .
+0 (vi) Find the average energy of the particle.
+(vii) Write the expression for the probability that the particle is found within 0 x L/2?
+Solution 2  x x  A2 1cos sin2 dx 1    L  L L x x x x x or A2 sin2 sin2 cos2 2cos sin2 dx 1 0  L L L L L  x x 1 2x But sin2 1cos2  [1cos ] L L 2 L L1 2x 1 2x 1 2x x 1 2x  A2  [1cos ] [1cos ] [1cos ]2cos  [1cos ]dx 1 0 2 L 2 L 2 L L 2 L  = L1 2x 1 2x 1 2x x 1 2x  A2  [1cos ] [1cos ] [1cos ]2cos  [1cos ]dx 1 0 2 L 2 L 2 L L 2 L  L1 1 2x 1 2x x x 2x = A2  cos  [1cos2 ]cos cos cos dx   0 2 2 L 4 L L L L  L1 1 2x 1 1 4x x x 2x  A2  cos  [1 {1cos }]cos cos cos dx   0 2 2 L 4 2 L L L L  L1 1 2x 1 1 4x x x 2x  A2  cos [  cos }]cos cos cos dx   0 2 2 L 8 8 L L L L  1   Now, cosacosb  cos(ab)cos(ab) .
+Hence, 2 x 2x 1 3x x cos cos  cos cos , since cos(x)cosx   L L 2 L L  We can now integrate L1 1 2x 1 1 4x x 1 3x x A2   cos [  cos }]cos  cos cos dx    0 2 2 L 8 8 L L 2 L L  L x L 2x x L 4x L x L 3x L x = A2  sin   sin  sin  sin  sin   2 4 L 8 32 L  L 6 L 2 L  0 82 L x x L L 5 = A2  = A2   A2 L 1     2 8 2 8 8 0 Hence, 8 A 5L 8  x x The normalized wavefunction is 1cos sin 5L  L  L 2 nx (ii) We know that the allowable solutions are of the form   sin and the n L  L  energy eigenvalues are (from equation 3.2, Module 3, Unit 1) n222 E  , n = 1, 2, 3, … n 2mL2 Any wave function (x,t) can be expressed in  as n (x,t) A (t) (x,0) n n n where  iE t A (t)  A (0)exp n  n n    In this case, 8  x x (x,0)  1cos sin 5L L  L 8 x 1 2 2x = sin  sin 5L L 2 5L L we have, 2 1 A (0)  , A (0)   , A (0)0 for n1, 2.
+1 2 n 5 2 5 8  i2t  x 1 2  i2t  2x (x,t )  exp 0 sin  exp 0 sin 0 5L  2mL2  L 2 5L  mL2  L     (iii) The average energy of the system is  E  |E|  n n n = A (0)2E n n n 4 1 = E  E 5 1 20 2 83 422 1 422 17 222 1722 =    5 2ma2 20 2ma2 20 ma2 10ma2 (iv) The probability of finding the particle within 0 x L/2 is 2 L/2 L 8  x x  ||2 dx   1cos  sin2 dx 0 0 5L L  L 4.
+A particle trapped in the well 0, 0 x  a V   , elsewhere is found to have a wavefunction i 2 x 2 3x 2 3x sin  sin  sin  2 a  a  3a  a  16a  a  (d) If the energy is measured, what are the possible results and what is the probability of obtaining each result?
+(e) What is the most probable energy for this particle?
+(f) What is the average energy of the particle?
+Solution 2 nx (a) The allowable wavefunctions are of the form sin .
+Hence the a a expansion in terms of these eigenfunctions is, i 1 1 2 3x sin  sin  sin 2 1 3 2 2 a a The possible results of the measurement of the energy are: n222 E  , with n = 1, 2, 3 n 2ma2 Respectively, the possible results are: 22 2222 222 3222 922 E  , E   ,E   1 2ma2 2 2ma2 ma2 3 2ma2 2ma2 Since c i/2, c 1/ 2, c 1/4, the probability, respectively, that 1 2 3 the particle will be found in these states (n = 1, 2, 3): i i 1 1 1 1 1 1 1 |c |2   , |c |2   , |c |2   1 2 2 4 2 2 2 2 3 2 2 4 222 1 (b) The most probable energy of the particle is E  , with probability .
+2 2ma2 2 84 3 PE i i 3 (c) The average energy of the particle is i1  PE , since the 3 i i P i1 i i1 3 wavefunction  is normalized, so that P 1.
+i i1 Hence, the average energy of the particle is 1 22 1 222 1 922 122 822 9 22 922       4 2ma2 2 ma2 4 2ma2 8 ma2 8ma2 8 ma2 4ma2 5.
+A particle in a one-dimensional box 0 xa is in state: 1 x A 2x 3 3x (x)  sin  sin  sin 5a a a a 6a a (d) Find A so that (x) is normalized.
+A = 1/ 20 (e) What are the possible results of measurements of the energy, and what are the respective probabilities of obtaining each result?
+922 (f) The energy is measured and found to be .
+What is the state of the 2ma2 system immediately after measurement?
+Solution We first put  in the form of the allowable eigenfunctions: 1 x A 2x 3 3x (x)  sin  sin  sin 5a a a a 6a a 1 2 x A 2 2x 3 2 3x  sin  sin  sin 5a 2 a a 2 a 6a 2 a 1 2 x A 2 2x 3 2 3x  sin  sin  sin 10 a a 2 a a 2 6 a a 1 A 3       1 2 3 10 2 2 6 For  to be normalized, ((x),(x)1  1 A 3 1 A 3  or      ,     1  1 2 3 1 2 3  10 2 2 6 10 2 2 6   1 A2 9   1 10 2 24  9 1  1204512 63 or A2  21  2  .
+ 24 10  120  60 85 63 Hence, A 60 The normalised  is therefore, 1 63 3       10 1 120 2 2 6 3 The possible values of the energy are: 22 222 922 E  , E  ,E  , 1 2ma2 2 ma2 3 2ma2 1 63 9 and the probabilities, respectively, are |c |2= , |c |2= , |c |2= 1 10 2 120 3 24 922 3222 (c) Then, the energy is  , so that n = 3.
+The state of the 2ma2 2ma2 2 3x system immediately after the measurement is sin .
+a a 1 x A 2x 3 3x (x)  sin  sin  sin 5a a a a 6a a (g) Find A so that (x) is normalized.
+A = 1/ 20 (h) What are the possible results of measurements of the energy, and what are the respective probabilities of obtaining each result?
+922 (i) The energy is measured and found to be .
+What is the state of the 2ma2 system immediately after measurement?
+86 Module 3: Time-Independent Schroedinger Equation in One Dimension I Unit 1: Bound States Unit 2: Scattering States Unit 1: Bound States 1.0 Introduction 2.0 Objectives 9.0 Main Content 9.1 Bound States 9.2 Particle in an Infinite Potential Well 9.3 Particle in a Finite Potential Well 10.0 Conclusion 11.0 Summary 12.0 Tutor-Marked Assignment (TMA) 13.0 References/Further Readings 1.0 Introduction In Module 2, Unit 1, we were able to review the inadequacies of classical mechanics, and the need to evolve a wave description of a particle.
+In Module 2, Unit 2, we derived the differential equation that describes the wavefunction associated with a particle.
+We have now been provided the tool needed to describe the quantum-mechanical dynamics of a particle.
+We shall take a look at the particle in different types of wells, and then compare our results with those of classical mechanics.
+2.0 Objectives  By the end of this Unit, the student should be able to:  Explain what is meant by bound states  Sketch the infinite potential well  Write and solve the Schroedinger equation for the infinite potential well  Apply the necessary boundary conditions to obtain the condition for bound states.
+3.1 Bound States You would recall that a body in simple harmonic motion bounces back and forth between the two points where the total mechanical energy, E, of the body is equal to the potential energy.
+As the kinetic energy becomes zero, the body must turn back.
+In just the same way, a quantum-mechanical oscillator is a particle inside an infinite potential well.
+You shall see that indeed, the solutions will be sinusoidal, just the way it is with a harmonic oscillator.
+Such a state is an example of a bound state.
+More specifically, we shall say a system is in a bound state if, E V().
+As such the wavefunction involved must die at infinity, that is, (x)0 as x.
+E V()or/and E V() is called a scattering state.
+Another way of seeing a bound state is to say that the particle is subjected to an attracting potential.
+For a bound state, the following conditions apply: (i)  is continuous across the boundary (ii) The first derivative, ', is continuous across the boundary 87  3.2 Particle in an infinite potential well This is also called a particle in a box.
+Fig.
+1.1 illustrates a particle in an infinite potential well.
+  V 0 x 0 x  L Fig.
+1.1: The infinite square well potential confining a particle to a region of width L Inside the well, the potential is zero.
+Outside the well, the potential is infinite.
+We expect that the wavefunction outside the well will be zero.
+2 2m We recall Schroedinger equation  (EV)0.
+x2 2 When V = 0, d2 2m  E0 (1.1) dx2  which we can write as d2 k20 (1.2) dx2 The general solution of this equation is, (x)c eikx c eikx (1.3) 1 2 where c and c are constants to be determined, subject to the boundary conditions and 1 2 i  1.
+(In the case of the infinite potential well, the condition of continuity of the first differential is redundant, and you should know why.)
+Since (i) (x)= 0 for x 0 (0)c eik0 c eik0 1 2 = 0  c c 0  c c c 1 2 1 2  (x)c(eikx eikx) Asinkx, where A2ic.
+(ii) (x)= 0 for x  L AsinkL0  kLn, where n= 0, 1, 2, … 88 n It follows that the values of k are quantised, such that k  .
+n L 2k 2 n2h2 Thus, the corresponding energy E  n  , and the wavefunction n 2m 8mL2 nx corresponding to this energy is  (x)  A sin .
+n n L n = 3 n = 2 n = 1 x 0 x  L Fig.
+1.2: The lowest three wavefunctions (for n= 1, 2 and 3) in the infinite square well potential.
+Notice that the energy increases with n as n2, i.e., for n= 1, 2, 3, …, E= E , 4E , 9E , 1 1 1 … E is the energy of the ground state (n= 1) and E 4E is the energy of the first 1 2 1 excited state (n 2).
+89 n3 n 2 n 1 x 0 x  L Fig.
+3.3: The probability of finding a particle at different values of x for the energy levels n= 1, 2 and 3 in the infinite square well potential.
+A , called the normalisation constant is obtained by applying the normalisation n condition:   (x)2dx 1 (1.4)  i.e., L nx A 2 sin2 dx 1 (1.5) n L 0 1 or A 2  1, n 2 from which it follows that, 2 A  .
+n L We can therefore write 2 nx  (x)  sin for 0 x L; n= 1, 2, 3, … (1.6) n L L 90 You can now see that the eigenstates we dealt with so extensively in Module 2, Units 2 and 3 are the eigenstates allowable inside an infinite potential well.
+You would also notice that very much like harmonic oscillation in the classical case, the allowable wavefunctions are sinusoidal.
+Example Let the total wavefunction of the particle in the potential well above be   Dx.
+Where D is a normalisation constant.
+Find the probability that the particle is in state 0, 1, 2 and 5.
+The first thing to do is to normalise the wavefunctions  (x), which we have done.
+Next, n we normalise .
+L L  x2 L2 Dxdx  D  D 1   0  2  2 0 2 Therefore, D  , implying that L2 2 (x)  x (1.7) L2 Then, the total wavefunction can be expanded as a linear combination of the set of wavefunctions  (x), as n   (x)  c (x) (1.8) n n n1  2 nx 2  The coefficient c ( ,)  cos , x n n  L L L2    2 2 L nx =   xcos dx L L2 L 0 Integrating by parts, 2 2  L nxL L L nx  c    x sin  sin dx n L L2  n L 0 0 n L  2 2 L2 nx L =    cos L L2 n22 L 0 8 1   =   cosncos0 L n22 8 1   =   1(1)n L n22 8 2 =   for n odd and 0 for n even (1.9) L n22 91 Could you comment on this result?
+The probability of finding the particle in a particular eigenstate reduces as n increases.
+Thus, it is more likely that you find the particle in a lower eigenstate than in a higher one.
+You may also compare this expression with that of the hydrogen atom according to Bohr.
+Can you write an expression for the probability of finding the particle in state n?
+3.3 The Finite Potential Well In the last section, we dealt with the case of an infinite potential well, with the resulting wavefunctions being zero at the boundaries.
+In the case of a finite potential well, the wavefunctions “spill over” into the region outside the potential well.
+Let us see how.
+V 0 E Region I Region II Region III V 0 x L/2 x  L/2 Fig.
+1.3: The finite potential well of depth V and width L. When E V , a particle in 0 0 the potential is said to be bound.
+Compared to the infinite potential well, it is more convenient to take the centre of the well as x 0.
+Solutions: d2 2mE Region II: II   0, which can be written (where k2 2mE/2) as dx2 2 II d2 II k2 0 dx2 II (1.10) The solution can be written in the form:   AsinkxBcoskx (1.11) II This consists of an odd and an even solution.
+We first consider the even solution:   Bcoskx II d2 2m(V E) Region I: I  0  0, which can be written (where 2 2m(V E)/2 dx2 2 I 0 as d2 I 2 0 (1.12) dx2 I The solution can be written in the form:  Cex Dex (1.13) I However, we cannot allow an exponentially growing term; so we set D equal to zero.
+92   Cex (1.14) I d2 2m(V E) Region III: III  0  0, which can be written as dx2 2 III d2 III 2 0 (1.15) dx2 III The solution can be written in the form:   Fex Gex (1.16) III However, we cannot allow an exponentially growing term; so we set F equal to zero.
+ Cex (why C again?)
+(1.17) III The solutions  and d/dx in the three regions can be written as: Region I Region II Region III  Cex Bcoskx Cex '' Cex kBsinkx Cex At x L/2, both  and '' are continuous.
+Thus, at x  L/2, we have kL Bcos CeL/2 (1.18) 2 and kL kBsin CeL/2 (1.19) 2 Dividing one by the other, we get: kL  tan  (1.20) 2 k This is the equation that determines the values of k and hence the energy E for even parity solutions.
+For the odd parity solutions, Region I Region II Region III  Cex Asinkx Cex '' Cex kAcoskx Cex At x L/2, both  and '' are continuous.
+Thus, at x  L/2, we have kL Asin  CeL/2 (1.21) 2 and kL kAcos CeL/2 (1.22) 2 93 Dividing one by the other, we get: kL  cot   (1.23) 2 k This is the equation that determines the values of k and hence the energy E for odd parity solutions.
+Observation: Notice that unlike the classical case in which the probability of finding the particle outside the well is zero, in the quantum-mechanical case, the probability of finding the particle outside the well is not zero.
+It is finite within a finite distance from the bounds of the well, even though it tends to zero as x becomes large, since the solutions decreases exponentially.
+You can also see that if the region of finite potential is finite, there is a possibility of finding the particle outside the boundaries of the finite potential.
+Ordinarily, though, the two wells should give bound states, as the solutions for even the finite potential must die as x increases.
+Ordinarily, that is, provided the extents of the potential V is large enough.
+0 4.0 Conclusion In this Unit, you have learnt how to deal with the infinite potential well as well as the finite potential well, the latter in the case where the total kinetic energy E is less than the height of the potential well.
+The infinite potential well definitely gives bound states, and the probability of finding the particle outside the well is zero.
+In both cases, bound states exist, except in the finite case, if the potential is not thick enough.
+5.0 Summary You have learnt in this Unit:  What is meant by a bound state, and what kind of potential can give rise to it.
+ How to solve the time-independent Schroedinger equation for both the finite and the infinite potential well.
+ How to apply the appropriate boundary conditions in order to get the conditions for bound states.
+6.0 Tutor-Marked Assignment (TMA) What are the allowable eigenfunctions and energy eigenvalues of the infinite potential well?
+0, L x  L V(x)   ,elsewhere 7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+94 Solution Tutor Marked Assignment What are the allowable eigenfunctions and energy eigenvalues of the infinite potential well?
+0, L x  L V(x)   ,elsewhere Solution potential well.
+  V 0 x L x  L Fig.
+3.1: The infinite square well potential confining a particle to a region of width L Inside the well, the potential is zero.
+Outside the well, the potential is infinite.
+We expect that the wavefunction outside the well will be zero.
+2 2m We recall Schroedinger equation  (EV)0.
+x2 2 When V = 0, d2 2m  E0 (1.1) dx2  which we can write as d2 k20 (1.2) dx2 The general solution of this equation is (x) AcoskxBsinkx (1.3) where A and B are constants to be determined, subject to the boundary conditions.
+Since (x)= 0 for x L (L) Acos(kL)Bsin(kL) AcoskLBsinkL0 (i) (x)= 0 for x  L AcoskLBsinkL0 (ii) Adding (i) and (ii) 95  AcoskL0 For this to be satisfied, n kL , for n = 1, 2, … (iii) 2 Therefore, n  Acos x, n = 1, 2, … (iv) 2L These solutions are the even-parity solutions, as (x)(x).
+The allowable energies are then given by 2mE k2  2 or 2 n   2 2k2 2L E   n 2m 2m n222 E  n 8mL2 (ii) – (i): BsinkL0 In this case, kLn, for n = 1, 2, … n k  L Hence, for the odd-parity solution, nx (x)  Bsin L The allowable energies are then given by 2mE k2  2 or 2 n   2 2k2  L  E   n 2m 2m n222 E  n 2mL2 We normalise the odd-parity solution.
+L nx (,)  A2 sin2 dx L L 96 L 1 2nx  A2 1cos dx L2 L  L 1  L 2nx  A2 x sin   2  2n L  L 1  A2[L(L)] A2L 1 2 Hence, the normalisation constant is 1 A L The odd parity solution is 1 nx (x)  sin , n = 1, 2, … L L You can also show that the even parity solution is 1 nx (x)  cos , n = 1, 2, … L 2L 97 UNIT 2: Scattering States 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 The Potential Step 3.2 The Potential Barrier 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction In Unit 1, we discussed the infinite and the finite potential wells.
+In this Unit, we shall consider two cases: the potential step and the potential barrier for the case where the energy of the particle is less than the potential and when it is higher.
+These are the scattering cases, as we have mentioned in Unit 1.
+Rather than bound states, we are concerned in these cases with reflection and transmission coefficients.
+Yet again, we shall compare our results with those of the equivalent classical case.
+2.0 Objectives By the end of this Unit, the student should be able to:  Write the Schroedinger equations for the scattering states  Solve the appropriate Schroedinger equations  Apply the boundary conditions  Obtain the reflection and the transmission coefficients 3.1 The Potential Step We have investigated the case of the infinite and the finite potential well.
+What happens when a particle approaches a „bump‟ of potential as indicated in Fig.
+2.1 with energy E?
+E V 0 x 0 Fig.
+2.1 We can write this potential as 0, x 0 V   V , x 0  0 Let us consider the two possibilities: E V and E V .
+The former is such that the 0 0 energy of the incident particle is higher than the potential step.
+Classically, the particle 98 will pass the potential step and move on to the right, past x = 0.
+In the case E V , 0 classical mechanics predicts that the particle will be reflected to the left at x 0.
+We now take these cases one at a time.
+Case 1: E V 0 Then, Schroedinger equation for x0 is d2 2mE L   0, the subscript L denoting the region to the left of x = 0. dx2 2 L The solution to this equation is of the form:   Aeikx Beikx 2.1 (2.1) (2.1) L where 2mE k  2.2 2 For the region to the right of x = 0, d2 2m(EV ) R  0  0 dx2 2 R 2.3 and we can write the solution as x Ceix Deix 2.4 where 2m(EV )  0 2.5 2 From our knowledge of classical mechanics, we would expect perfect reflection at the barrier.
+We can take the incident wave as being Aeikx for x0 from the left and Deix for x 0 from the right, since the latter originated from the potential step and is traveling to the left.
+Experimentally, we should have a source to only one side of the step.
+If we assume that the incident wave is from the left, then we have to set D = 0.
+In that case,Beikx is the wave reflected at x = 0 and Ceixis the wave transmitted at x = 0.
+We can now write the following:   Aeikx 2.6 ( ) inc   Beikx 2.7 ( ) ref  Ceix 2.8 ( ) trans Now we match these solutions at x = 0, that is, both  and ' are continuous at this point.
+: Aeik(x0) Beik(x0) Cei(x0)  ABC 2.9 ':ikAeik(x0) ikBeik(x0) iCei(x0)  ikAikBiC 2.10 From equation 2.10, k(AB)C ( ) 2.11 Putting equation 2.9 in equation 2.11, 99  k(AB)(AB) 2.12 ( ) Hence, kAkBAB 2.13 or (k )A(k )B 2.14 ( ) We conclude, therefore, that k  B  A 2.15 ( ) k  and k  kAAkAA  2k  C  A A  A 2.16 ( ) k  k  k  Since the flux intensity is proportional to the product of the velocity and the probability, we make the following identification: Incident flux is proportional to vP 1 inc Reflected flux is proportional to vP 1 ref Transmitted flux is proportional to v P 2 trans P * (Aeikx)*(Aeikx) A*eikxAeikx | A|2 2.17 inc inc inc Similarly, P |B|2 2.18 ( ) ref and P |C|2 ( ) trans 2.19 The transmission coefficient is 2  2k  v   | A|2 transmittdflux v P v |C|2 2k  T   2 trans  2  2.20 incident flux v P v | A|2 v | A|2 1 inc 1 1 Hence, v 4k2 T  2 2.21 v (k )2 1 The reflection coefficient is, 2 k    | A|2 reflectedflux vP |B|2 k  R  1 ref   2.22 incidentflux vP | A|2 | A|2 1 inc or (k )2 R  2.23 (k )2 100 1 2m mv2 2mE 2 1 mv k    1 2 2  2.24 1 2m v 2 2m(EV ) 2 2 mv  0   2 2.25 2 2  k v  1 2.26  v 2 Adding, (k )2 v 4k2 (k )2  4k2 (k )2 4k RT   2     (k )2 v (k )2 (k )2 k (k )2 (k )2 (k )2 1 k2 2 2k4k k2 2 2k =  1 2.27 (k )2 k2 2 2k implying the conservation of particles across x = 0.
+Note: Since k , R0.
+This implies that even particles with E V could be 0 reflected.
+Classical mechanics predicts that as the particles with energy E V cross the 0 point x0 into a region of finite potential V , no particle should be reflected.
+They 0 should only be slowed down, as part of their energy has been used to overcome the potential.
+This indeed is why your simple pendulum slows down as it approaches a region where E V , and then changes direction as soon as it gets to the point E V .
+That is 0 0 why it oscillates between the two positions where E V .
+Thus in classical mechanics no 0 particle with energy greater than V will be reflected, and R would have been zero.
+In 0 the limiting case where E is just slightly greater than V , k is almost the same as  and 0 R will be close to zero, meaning that only a very small number of particles will be reflected.
+The fact that some particles are reflected even when E V is due to the fact 0 that particles have a wave nature.
+You would expect part of a wave to be reflected at such a point, wouldn‟t you?
+Case 2: E V 0 Equations 2.1 and 2.2 remain unchanged.
+Then, Schroedinger equation for x0 is d2 2mE L   0 2.28 dx2 2 L the subscript L denoting the region to the left of x = 0.
+The solution to this equation is of the form: x  Aeikx Beikx 2.29 ( where 2mE k  2.30 2 101 For the region to the right of x = 0, d2 2m(V E) R  0  0 dx2 2 R 2.31 and we can write the solution as xCex Dex 2.32 where 2m(V E)  0 2.33 2 In this case, we have to set C 0 as we do not want solutions that grow exponentially as they cannot be normalised.
+In this case,   Aeikx 2.34 ( ) inc   Beikx 2.35 ( ) ref   Dex 2.36 ( ) trans Now we match these solutions at x = 0, that is, both  and ' are continuous at this point.
+: Aeik(x0) Beik(x0) De(x0)  ABD 2.37 ':ikAeik(x0) ikBeik(x0) De(x0)ikAikBD 2.38 From equation 2.38, k(AB)iD (as 1/ii) 2.39 ( ) Putting equation 2.37 in equation 2.39, k(AB)i(AB) 2.40 ( ) Hence, kAkBiAiB 2.41 or (ki)A(ki)B 2.42 ( ) We conclude, therefore, that  k i B  A 2.43 ( )   k i and k i kAiAkAiA  2k  D A A  A 2.44   k i k i k i Since the flux intensity is proportional to the product of the velocity and the probability, we make the following identification: P | A|2 2.45 ( inc P |B|2 2.46 ref and 102  P |D|2 2.47 trans The reflection coefficient is, 2 k i | A|2 reflectedflux vP |B|2 k i R  1 ref   2.48 incidentflux vP | A|2 | A|2 1 inc or |k i|2 (k i)*(k i) (k i)(k i) R  =  1 2.49 |k i|2 (k i)*(k i) (k i)(k i) Thus, all the incident particles are reflected.
+However, the probability of finding the particle at a point a x0 is |Dex |2|D|2 e2x 2.50 This is finite for finite x.
+In the classical situation, the particles are definitely reflected at x0.
+That is also what „common sense‟ would predict.
+But the fact that particles behave also like waves necessitates that „some of the wave‟ would be found beyond x0.
+However, note that the probability decays exponentially, so that the probability is finite only if the distance x0 is.
+If V E, then  is very large, meaning that the decay of 0 the probability will be much faster.
+In the extreme, limiting, case, where V tends to 0 infinity, there is perfect reflection at the barrier, just as you had it for the infinite potential well.
+3.2 The Potential Barrier We have seen both the finite and the infinite potential well, as well as the potential step.
+Now, what happens if the potential is actually a rectangular barrier of height V of width a 0 as shown in Fig.
+2.2.
+E V 0 x 0 xa Fig.
+2.2: The potential barrier We identify three regions, one to the left of x0 (region I), between x0 and xa (region II), and beyond xa (region III).
+103 More compactly, we would write this as 0, x 0  V  V ,0 x  a 0  0, x  a Region I: d2 2m  E0 3.1 dx2 2 d2 2m  (EV )0 3.2 dx2 2 0 The solutions are,   Aeikx Beikx 3.3 I  Ceix Deix II   Eeikx Feikx 3.4 III 2mE 2m(EV ) where k  , and  0 2 2 2m(V E) Bear in mind that if E V , we can write i, where  0 3.5 0 2 Matching the solutions  and  at x0, I II (0) (0)  ABCD 3.6 I II d d    ik(AB)i(CD) 3.7 dx I dx I x0 x0  (a) (a) Ceia Deia Eeika 3.8 II III d d    iCeia iDeia ikEeika 3.9 dx II dx III xa xa Multiplying equation 3.6 by ik , we obtain ikAikBikCikD 3.10 Adding equations 3.7 and 3.10, 2ikAikCikDiCiDi(k)Ci(k)D 3.11 Hence, k  k  A C D 3.12 2k 2k Multiply equation 3.8 by i and add to equation 3.9.
+2iCeia iEeika ikEeika i(k)Eeika 104 or k C  Eei(k)a 3.13 2 We can also get D as follows: Multiplying equation 3.8 by i and adding to equation 3.9.
+2iDeia i(k )Eeika 3.14 k D Eei(k)a 3.15 2 Putting equations 3.13 and 3.14 into equation 3.12, we conclude that, k k k k A Eei(k)a  Eei(k)a 3.16 2k 2 2k 2 Therefore, A (k )2 (k )2  ei(k)a  ei(k)a E 4k 4k 3.17 or A (k )2 (k )2  ei(k)a  ei(k)a 3.18 E 4k 4k We have assumed that V  E, and this resulted in some wave being transmitted beyond 0 the point x = 0.
+For V  E, i, meaning that, from equation 3.18, 0 A (k i)2 (k i)2  ei(k(i))a  ei(k(i))a 3.19 E 4ik 4ik (k i)2 (k i)2 = e(ik)a  e(ik)a 3.20 4ik 4ik (k i)2 (k i)2 = eikaea  eikaea 3.21 4ik 4ik eika   = (k i)2ea (k i)2ea 3.22 4ik But (k i)2 k2 22ik, and (k i)2 k2 22ik 3.23 Hence, if k2 22ik, then *k2 22ik A eika    (k2 22ik)ea (k2 22ik)ea 3.24 E 4ik  A* eika      (k2 22ik)ea (k2 22ik)ea E 4ik 3.25 Hence, if k2 22ik, then *k2 22ik 3.26 A eika    ea *ea 3.27 E 4ik 105  A* eika      *ea ea E 4ik 3.28 Multiplying equations 3.27 and 3.28, *  A A 1         ea *ea *ea ea 3.29 EE 16k22 1   = ||2 e2a ()2 (*)2||2 e2a 3.30 16k22 1    ||2 (e2a e2a)[()2 (*)2] 16k22 3.31 2(k2 22ik)2 k4 44k222k224ik34ik2 3.32 (*)2(k2 22ik)2 k4 44k222k224ik34ik2 3.33 2(*)2  =2k4 12k2224= 2(k4 2k224k224) = 2(k4 2k224)8k22 = 2(k2 2)2 8k22 3.34 ||2*= (k2 22ik)(k2 22ik)=(k2 2)2 3.35 since |z|2(Rez)2 for any complex number.
+Hence, *  A A 1       (k2 2)2(e2a e2a)[2(k2 2)2 8k22] EE 16k22 1  (e2a e2a)  = 2(k2 2)2 2(k2 2)2 8k22   16k22  2  (k2 2)2 (e2a e2a) 4k22   1   16k22  2 (k2 2)2 (k2 2)2  4k22   cosh(2a)1   8k22  (k2 2)2 3.36 But 2 2 e2e2 ee ee       2  2   2  or cosh(2)cosh2sinh2 But, we also know that 2 2 ee ee e2e22 e2e22    1      2   2  4 4 106 or cosh2sinh21 cosh2cosh2sinh21sinhsinh1sinh2 or cosh21sinh2.
+Therefore,  A A* (k2 2)2  4k22      sinh2(a)  EE 8k22  (k2 2)2 (k2 2)2 1  sinh2(a) 8k22 2 3.37 The transmission coefficient is, 2 E 1 T   3.38 A (k2 2)2 1 sinh2(a) 8k22 2 As you can see, the transmission coefficient is not zero as predicted by classical physics for a particle with energy less than the potential barrier.
+This is what is called tunnelling, as the particle has effectively tunnelled through the barrier.
+ Write the Schroedinger equations for the scattering states  Solve the appropriate Schroedinger equations  Apply the boundary conditions  Obtain the reflection and the transmission coefficients 4.0 Conclusion You have learnt how to solve the potential step problem as well as the potential barrier in this Unit.
+We obtained the reflection and the transmission coefficients in each case.
+For the potential step, you noticed that unless the step is much higher than the total mechanical energy of the particle, a part of the wave is found beyond the point x = 0.
+In the case of the potential barrier, you also observed that there is the possibility of finding the particle beyond x = 0 unless V .
+In the latter case, there is perfect reflection at 0 the point x = 0.
+The fact that a part of the particle is found beyond x = 0 is due to the wave nature of the particle.
+In the case of the potential barrier, if the barrier is thin enough, the particle can tunnel through it.
+However, we noticed that, unlike the classical case in which the particle is only slowed down, provided the total mechanical energy is greater than the potential step in each case, some of the particle is reflected at the point x = 0.
+5.0 Summary You learnt in this Unit that: ForE V : 0  In both kinds of potential, a part of the particle is reflected, quite unlike the classical prediction that the particle should only slow down.
+107 For a finite potential, if E V : 0  Due to the wave nature of a particle, provided the potential is not infinite, there is a finite probability of finding it beyond the point x = 0.
+ In the case of potential barrier, there is a possibility of finding the particle beyond x = 0, if the potential is finite.
+ If the barrier is thin enough, the particle can tunnel through it.
+6.0 Tutor-Marked Assignment (TMA) 1.
+A particle of mass m is incident from the left on the potential step shown in Fig.
+Find the probability that it will be scattered backward by the potential if (a) E V , and 0 (b) E V 0  V 0 x 0 a 2.
+Calculate the reflection probability of a particle of mass m incident from the left with energy E in the potential barrier shown in Figure below, if the reflection coefficient tends to 1. x 0 a 3.
+Find the equation governing the bound states of a particle of mass m confined in the potential well below.
+ V 0 0 2L 7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+108 Solutions to Tutor Marked Assignment 1.
+A particle of mass m is incident from the left on the potential step shown in Fig.
+Find the probability that it will be scattered backward by the potential if (a) E V , and 0 (b) E V 0  V 0 x 0 a Solution (a) E V : 0 Region I:  eik(xa) Reik(xa) I Region II:  Teik'(xa) (wave travelling to the right only) Ii 2mE 2m(EV ) where k  and k' 0 .
+2 2 Matching the wavefunctions at xa, 1RT and the first derivative at xa, ik ikRik'T from which we deduce that kkRk'(1R)k'Rk' Therefore, kk' R kk' (kk')2 The probability of reflection is |R|2 .
+(kk')2 (b) E V 0 We identify two regions: Region I: V 0,0 xa Region II: V V ,xa 0 The solutions are: Region I:  eik(xa) Reik(xa) I Region II:  Tek'(xa) Ii 2mE 2m(V E) where k  and k' 0 .
+2 2 109 Matching the wavefunctions at xa, 1RT and the first derivative at xa, ik ikRk'T from which we deduce that ik ikRk'(1R)k'Rk' Therefore, ik k' R ik k' k2 k'2 The probability of reflection is |R|2 1, since the amplitude of incidence is k2 k'2 unity.
+2.
+Calculate the reflection probability of a particle of mass m incident from the left with energy E in the potential barrier shown in Fig.
+if the reflection coefficient tends to 1. x 0 a There are two regions: Region I: (x)eikx Reikx, x0 I Region II:  (x)(R1)ex, 0 xa II 2mE 2m(V E) where k  , and  0 .
+2 2 '(0) '(0): ik ikR(R1) I II or ik (ik )R Hence, ik  R ik  ik  ik ik  2ik T  R1 1  ik  ik  ik  3.
+Find the equation governing the bound states of a particle of mass m confined in the potential well below.
+ V 0 110 0 2L  We identify three regions: ,x 0  V(x)  0, x| 2L  V ,x  2L  0 Two regions are of interest: within the well (I) and to the right of the well (II).
+d2(x) 2m Region I:  E(x) 0 dx2 2 d2(x) 2m Region II:  (EV )(x) 0 dx2 2 0 For bound states, E V , meaning that the second term in the equation for region 0 II is indeed negative so that we may write the equation for region II as, d2(x) 2m  (V E)(x) 0 dx2 2 0 where the second term is now positive.
+We can then write the equations as d2(x) 2m Region I:  E(x) 0 dx2 2 d2(x) 2m Region II:  (V E)(x) 0 dx2 2 0 The solutions are: Region I:  (x) AsinkxBcoskx I Region II:  (x)Cex Dex II 2mE 2m(V E) where k2  and 2  0 .
+2 2 Obviously, we have to set B = 0 (condition  0 at x 0).
+We also set C 0 I as we don‟t want a solution that grows as x becomes large.
+Region I:  (x) Asinkx I Region II:  (x) Dex II Boundary conditions:  (2a) (2a): Asin2kaDe2a I II d d (2a)  (2a): 2kAcos2kaDe2a dx I dx II Hence, we conclude that, 111  1 V E cot2ka = 0 2k 2 E or 2k E tan2ka 2  V E 0 112 Module 4: Time-Independent Schroedinger Equation in One Dimension II Unit 1: The Simple Harmonic Oscillator Unit 2: Raising and Lowering Operators for the Harmonic Oscillator UNIT 1: The Simple Harmonic Oscillator 1.0 Introduction 2.0 Objectives 14.0 Main Content 14.1 The Harmonic Oscillator 15.0 Conclusion 16.0 Summary 17.0 Tutor-Marked Assignment (TMA) 18.0 References/Further Readings 1.0 Introduction Perhaps one of the most important concepts in Physics is that of the harmonic oscillator.
+This is because a lot of physical phenomena are fashioned after this kind of idealized motion.
+You must be quite familiar with the motion of a harmonic oscillator: it is confined within the two positions where the total mechanical energy, E, is equal to the potential energy.
+At these positions, the kinetic energy, or equivalently, the velocity is zero, and the particle has to change directions.
+In this Unit, you will learn about the quantum-mechanical equivalent.
+You will then see that the energy can only take specific values, and that the ground state energy is not zero.
+2.0 Objectives At the end of this Unit, you would have learnt:  How to derive the Schroedinger equation for the harmonic oscillator  How to derive the dimensionless form of the equation of the quantum oscillator  How to solve the Schroedinger equation for the harmonic oscillator  The allowed energy levels (energy eigenvalues) and the corresponding eigenstates 3.2 The simple harmonic oscillator You would recall that the potential for the simple harmonic oscillator is 1 V(x)= m2x2 1.1 2 0 where m2 is the force constant.
+0 The time-independent Schroedinger equation then becomes: 2 d2 1   m2x2 E 1.2 2m dx2 2 0 113 As we do at times, we consider an extreme value of x, in this case large values of x where V E.
+We can then modify the function that satisfies the large values of x by multiplying by a polynomial when the extreme condition is no longer valid.
+The equation approximates in the limit of largexto, 2 d2 1   m2x20 1.3 2m dx2 2 0 Let (x) Aexp(x2 /2a2) 1.4 Then, d x  Aexp(x2 /2a2) 1.5 dx a2 d2 1 x2   Aexp(x2 /2a2) Aexp(x2 /2a2) dx2 a2 a4 d2 1 x2     1.6 dx2 a2 a4 or d2 x2  1.7 dx2 a4 since x is large.
+Substituting in equation (1.3) and rearranging, 2 x2 1    m2x2, 2m a4 2 0 i.e., 2 a4  1.8 m22 0 We conclude that (x) Aexp(x2 /2a2) is a solution of the ordinary differential 2 equation provided a4  .
+m22 0 For small x, the approximation V E is no longer valid, and the wavefunction must be modified appropriately.
+As is often the practice, we shall multiply  for the extreme  x value of x by a polynomial, which in this case is H .
+To take into consideration the a various possible eigenfunctions, we write the trial function in the form, x  (x)  A H  exp(x2 /2a2) 1.9 n n na where A is the normalisation constant and H is a polynomial in x/a.
+n n 114 For the ground state, let us choose the simplest polynomial,H (x/a)1.
+So, we try the 0 solution  (x) A exp(x2 /2a2).
+0 0 1 Dividing through equation (1.2) by m2, we get 2 0 2 d2 2E   x2 1.10 m22 dx2 m2 0 0 2 Putting  a4, we obtain m22 0 d2 2E a4  x2 1.11 dx2 m2 0 Substituting for d2/dx2 from equation (1.6),  1 x2  2E a4   x2 0 1.12    a2 a4  m2 0 giving, by comparing terms in powers of x, 2E x0: a2  0 1.13 m2 0 1 1 x2: E  m2a2   1.14 0 2 0 2 0 The normalisation is determined from    2dx  A 2 exp(x2 /a2)dx  A 2a  1.15 0 0   Therefore, 1  (x)  exp(x2 /2a2) 1.16 0 a  and 1 E   1.17 0 2 0 Before we take on the excited states, we shall derive the dimensionless form of the time- independent Schroedinger equation for the harmonic oscillator.
+We recall that, d2 2m   [EV(x)] dx2 2 d d dx d d2 d2 Let us set R  x/a.
+Then,  a and  a2 , implying that, dR dx dR dx dR2 dx2 1 d2 2m  [EV(x)] 1.18 a2 dR2 2 115 or d2 2ma2   [EV(x)] dR2 2 1.19 2ma2 2ma2 Let E and W(R)  V(R) 2 2 Then, we get the time-independent Schroedinger equation in a dimensionless form: d2  [W(R)] 1.20 dR2 or d2  W(R) 1.21 dR2 We recall that we made the substitutions 2ma2 2ma2 R  x/a,  E and W(R)  V(R) 2 2 These are all dimensionless quantities.
+We can then see that the energy scale is E V(R) 2 /(2ma2), i.e.,  and W(R)  .
+2 /2ma2 2 /2ma2 Let us write  E/E .
+Then, equation 1.21 becomes 0 d2 x2 a2   1.22 dx2 a2 Further substituting R x/a we get another dimensionless form, d2  R2 1.23 dR2 Let   A H (R)exp(R2 /2) n n n Then, d dH n  A exp(R2 /2) n RA H (R)exp(R2 /2) dR n dR n n 1.24 d2 d2H dH n  A exp(R2 /2) n RA exp(R2 /2) n dR2 n dR2 n dR dH  A H (R)exp(R2 /2)RA exp(R2 /2) n R2A H (R)exp(R2 /2) n n n dR n n 1.25 Substituting equation 1.25 for the second differential of  with respect to R in equation n 1.23 with   A H (R)exp(R2 /2), n n n  d2H dH A exp(R2 /2) n RA exp(R2 /2) n n dR2 n dR  116  dH   A H (R)exp(R2 /2)RA exp(R2 /2) n R2A H (R)exp(R2 /2) n n n dR n n  R2A H (R)exp(R2 /2) A H (R)exp(R2 /2) n n n n n 1.26 d2H (R) dH (R) dH   dRn2 R dnR Hn(R)R dRn R2Hn(R) R2Hn(R)nHn(R) or d2H dH n 2R n ( 1)H 0 dR2 dR n n 1.27 an ordinary differential equation known as the Hermite’s equation.
+Recall that we are proposing solutions of the form H a Rn a Rn2 ... n n n2 Let us now substitute H a Rn a Rn2 ... into equation 1.27: n n n2 dH n na Rn1 (n2)a Rn3 ... dR n n2 d2H n  n(n1)a Rn2 (n2)(n3)a Rn4 ... 1.28 dR2 n n2 dH 2R n 2na Rn 2(n2)a Rn2 ... 1.29 dR n n2 ( 1)H ( 1)(a Rn a Rn2 ...) 1.30 n n n n n2 Adding equations 1.28, 1.29 and 1.30, d2H dH n 2R n ( 1)H dR2 dR n n n(n1)a Rn2 (n2)(n3)a Rn4 ... n n2 2na Rn 2(n2)a Rn2 ... n n2 ( 1)(a Rn a Rn2 ...) n n n2 a [n(n1)Rn2 2nRn ( 1)Rn] + terms in Rn2, Rn4, … = 0 1.31 n n But this would be true for all values of R and can therefore only happen if the coefficient of Rn vanishes, i.e., if 2n( 1)0, i.e., if  2n1.
+Thus, n n 2 2 m2 2 m2  (2n1)  1 E    0   0     n  n 2ma2 2m 2E 2m 2 4 0 4 0  2 0 0 0 2E 2ma2 where we made use of: a2  0  E. m2 2 0 117 It follows that the energy levels are equispaced.
+The first three of these are shown in Fig.
+1.1.
+E 5 /2 0 3 /2 0  /2 0 Fig.
+1.1: The energy levels of the quantum-mechanical harmonic oscillator Let us see if we can find the wavefunctions.
+We try by substituting a trial wavefunction into Hermite‟s equation.
+We choose the second excited state (n = 2) H (R)1bR2.
+2 Then, dH d2H 2  2bR and 2  2b dR dR2 Substituting, we get 2b2R2bR4(1bR2)0 and hence b2.
+Thus,  x2   (x)  A 12 exp(x2 /2a2) 1.32 2 2 a2  The constant A can be found by normalisation.
+2 We list the first three energy eigenvalues and wavefunctions for the simple harmonic oscillator.
+For the graph in Fig.
+1.2, we have chosen a= 1. n E Wavefunction 0 1 1/2   1  2 0   exp(x2 /2a2) a  1 3 1/2   1  x 2 0   2 exp(x2 /2a2) 2a  a 2 520 8a11/224ax2exp(x2 /2a2) 3 720 48a1 1/212ax8ax3exp(x2 /2a2)  1 1 Notice that E n  ; and thus, the ground state energy is not zero, but  .
+n  2 0 2 0 118 But, you may ask, why do we not observe the ground state in everyday Physics.
+It is because the number  is so small that only when the system is very small (typically atomic and subatomic) that it becomes significant.
+This is because some other parameters, such as the mass and distances are also small.
+n = 0 n = 1 n = 2 Fig.
+1.2: Eigenfunctions of the quantum-mechanical harmonic oscillator 4.0 Conclusion You have learnt how to derive the Schroedinger equation for the quantum-mechanical harmonic oscillator.
+You learnt how to solve a physical problem by first taking one limit and then multiplying your solution with a polynomial (in this case, the Hermite polynomials) to arrive at a solution valid for all the possible values of the independent variable.
+In the course of studying this Unit, you also found that the energy levels of the harmonic oscillator are quantised, quite unlike the classical oscillator that can assume any energy within the allowable region of its motion.
+5.0 Summary In this unit, you have learnt:  That the quantum-mechanical harmonic oscillator can only attain a set of quantised energies.
+ That the ground state energy is , as is the case with the classical oscillator.
+0  The energy levels are equispaced.
+ The ground state is not observed in day to day Physics because  is such a small number.
+ Hermite polynomials are related to the eigenfunctions of the harmonic oscillator.
+6.0 Tutor-Marked Assignment (TMA) 119 Tutor Marked Assignment  m  1.
+Normalise the eigenfunction (x)  Aexp x2.
+Hence, find the probability  2  that the particle subjected to harmonic oscillation lies in the range 0 x.
+2.
+A quantum-mechanical oscillator of mass m moves in one dimension such that its energy eigenstate (x)(2 /)1/4exp(2x2 /2) with energy E 22 /2m.
+(a) Find the mean position of the particle.
+(b) Find the mean momentum of the particle.
+7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+120 Solutions to Tutor Marked Assignment  m  1.
+Normalise the eigenfunction (x)  Aexp x2.
+Hence, find the probability  2  1 that the particle subjected to harmonic oscillation lies in the range 0 x  .
+2 Solution  A2(emx2/2)2dx  A2emx2/dx   m where   A2ex2dx  A2 1   2  A2ex2dx  A2   A2   A2    m/ m Equating this expression to unity,  A2 1 m m A2   1/4 m A    1/4 m  m  (x)   exp x2    2  1 The probability of finding the oscillator between x = 0 and is 2 2  m1/4  m   (x)dx     exp x2 0 0    2  1/2 m   m     exp x2dx   0    m      exp x2 dx  0 m 1  m 1  1     =  2   2 m 2 This makes sense, right?
+If the probability of finding the oscillator between  and  is unity, since the wavefunction is normalised, then the probability of finding it between 0 and must be half.
+121  2.
+A quantum-mechanical oscillator of mass m moves in one dimension such that its energy eigenstate (x)(2 /)1/4exp(2x2 /2) with energy E 22 /2m.
+(a) Find the mean position of the particle.
+(b) Find the mean momentum of the particle.
+Solution   (a)  x  *(x)x(x)dx (2 /)1/2 xexp(2x2)dx    (2 /)1/2 xexp(2x2)dx  dy Let y exp(2x2).
+Then,  2xexp(2x2).
+dx Hence, dy 2xexp(2x2)dx  dy 2 xexp(2x2)dx  yc But y exp(2x2).
+Therefore, 1  xexp(2x2)dx  exp(2x2)c 2 Hence,  1  x  exp(2x2) 0 2  (b)   d    d   p  *(x)i (x)dx (2 /)1/2 exp(2x2)i exp(2x2)dx   dx   dx  (i)(2 /)1/2 (22x)exp(2x2)dx   (i)2(2 /)1/2 2xexp(2x2)dx   (i)2(2 /)1/2exp(2x2) 0  122 UNIT 2: Operator Method for the Harmonic Oscillator 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Raising and Lowering Operators of the Harmonic Oscillator 3.2 The Number Operator 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment (TMA) 7.0 References/Further Readings 1.0 Introduction In this Unit, we introduce the ladder operators for the harmonic oscillator.
+These are also referred to as the raising and the lowering operators.
+As the name implies, once a certain state is known, higher or lower states can all be obtained by applying the appropriate ladder operator.
+You would also come across the number operator, 2.0 Objectives By the time you are through with this Unit, you should be able to understand and work with:  The ladder operators.
+ The number operator.
+3.0 Main Content 3.1 Raising and Lowering Operators for the Harmonic Oscillator p2 We recall that for the harmonic oscillator, E  V(q) 2m p2 m2x2 H   2m 2 Let m ip  a  x  3.1 2  m and the Hermitian adjoint m ip  a  x  3.2 2  m [a,a]= aa aa m ip ip  = x ,x  2  m m m I I  = 0  0 2  m m  123 m    0  0 2  m m  = = 1 3.3 Therefore, aa aa 1 aa aa 1 m ip  ip  aa = q q  2  m m m p2 i  = q2   (pqqp)   2  m22 m  m p2   = q2      2  m22 m m2  p2   aa= q2      2  m22 m 1 = H   3.4 2 Dividing through by  means that in units of , H 1  aa  2 3.5 Note that (aa) a(a) aa Let  be an eigenvector of aa.
+Then, we can write (aa) 3.6 Then, (,(aa))= (,) 3.7 To show that 0: (,(aa))(a,a)|a|2= (,) Now, |a|20, hence the result.
+Let us consider (aa) (aa)  3.8 n n n Let aact on (aa) a(aa) = (aaa) n = a(aa1) n = a a (since (aa)) n n n = a( 1) n n 124  = ( 1)(a ) (since  1 is just a number) 3.9 n n n We conclude that, if  is an eigenvector with eigenvalue  of aa, then a is an n n n eigenvector with eigenvalue  1 of aa.
+n Similarly, (aaa) = (aa 1)a n n = a(aa) a n n = a( )a n n n = ( 1)a 3.10 n n If  is an eigenvector with eigenvalue  of aa, then a is an eigenvector with n n n eigenvalue  1 of aa.
+n Hence, a is a raising or creation operator and a is a lowering or annihilation operator Hence, a  l l1 aa a  l l1 l2 There exists a lowest value of .
+Let the eigenvector corresponding to this eigenvalue be  .
+We also know that since all  0,  0.
+0 n 0 But then, we know that we cannot go lower than the ground state.
+Then we can write, a 0 0 m ip   x  0 2  m 0  ip  x  0  m 0  h d  x  0  mdq 0 d m   x dx 0  0  m   (x)  Aexp x2 3.11 0  2  1 Normalising, we again arrive at  (x)  exp(x2 /2a2) Recall a2 /m.
+0 a  (x)  a 1 0 125 m  d  = x  2  mdx 0  mx2  = Bxexp    2   m  d   a= x  2 1 2  mdx 1  mx2  = (x2 d)exp    2    mx2   (x)= H (x)exp  3.12 n n  2    where {H } are Hermite polynomials.
+n n0  aa =  0 0 0 0 a0  0 0 0   1= 1 1 0   1= 2 2 1  = n 3.13 n  1 H aa  E  2 n  1  1 E   n  3.14 n  n 2  2 1 E  0 3.15 0 2 3 E   3.16 1 2 Alternatively, you would recall that, H 1  aa 3.17  2 and this means we can write the Hamiltonian as,  1 H aa  3.18  2 Let us allow this operator to act on the energy eigenstate which we shall denote by E , or n simply n. Then,  1 H |n aa |n  3.19  2 126 1 aa|n   |n  2 Now, a|n(n1)|n, so that a(a|n)a[(n1)|n]n|n 3.20 This shows that the energy eigenstate |n  is an eigenstate of N aa, and the eigenvalue is n, for we could have written N |naa|nn|n 3.21 This is why we call N aa the number operator, and |n  called the number state.
+Hence, we can write equation 3.19 as 1 1 aa|n  |n n|n  |n  2 2 1  1 n|n   |n n |n  2  2 We conclude, therefore, that  1 H |n n |n   2 Could you relate  to n?
+That we have done before.
+n 4.0 Conclusion In this Unit, you learnt another way of treating the quantum-mechanical oscillator: the operator method.
+The results you obtained in Unit 1 were all got by applying one operator or another.
+The three major operators are: the creator, the annihilator and the number operator.
+You found that the ladder operators are Hermitian adjoint of each other.
+5.0 Summary  In this Unit, you have learnt how to obtain the results we got in Unit 1 via the ladder operators  Once a state is obtained, the ladder operators can be applied to obtain higher and lower states.
+ The number operator acting on a given state gives an energy eigenvalue n. 6.0 Tutor-Marked Assignment (TMA) m ip  m ip  1a.
+Given that the ladder operators a  x , a  x  and 2  m 2  m m 1 the position and momentum operators are given byxˆ  x and pˆ  p,  m (i) What is the value of the commutator [xˆ,pˆ].
+1 i (ii) Show that xˆ  (aa), pˆ  (aa).
+2 2 (iii) For the ground state, find  xˆ2  and  pˆ2 .
+127  b.
+Given that the expectation of the position and the momentum operators under consideration are zero in the ground state of the oscillator, prove that the 1 following expression holds: x2  p2 = |[x,p]|2.
+4 7.0 References/Further Readings 1.
+Quantum Mechanics demystified - David McMahon.
+2.
+Introduction to Quantum Mechanics – David J. Griffiths.
+3.
+Quantum Physics – Stephen Gasiorowicz.
+128 Solutions to Tutor Marked Assignment m ip  m ip  1a.
+Given that the ladder operators a  x , a  x  and 2  m 2  m m 1 the position and momentum operators are given byxˆ  x and pˆ  p,  m (i) What is the value of the commutator [xˆ,pˆ].
+1 i (ii) Show that xˆ  (aa), pˆ  (aa).
+2 2 (iv) For the ground state, find  xˆ2  and  pˆ2 .
+b.
+Given that the expectation of the position and the momentum operators under consideration are zero in the ground state of the oscillator, prove that the 1 following expression holds: x2  p2 = |[x,p]|2.
+4 m ip  m ip  a  x , a  x  2  m 2  m m 1 a. xˆ  x, pˆ  p  m m 1 1 (i) [xˆ,pˆ]= [x,p]= i= i  m 2 1 1 (ii) a  (xˆipˆ) and a  (xˆipˆ) 2 2 1 i Hence, xˆ  (aa), pˆ  (aa) 2 2 (x)2 x2  x 2, (p)2  p2  p 2 For the harmonic oscillator in its ground state,  x  p 0.
+1 (iii)  xˆ2  0|aaaa aaaa |0 2 1 = 0|aa |0 2 1 = 2 1  pˆ2  0|aaaa aaaa |0 2 1 = 0|aa |0 2 129 1 = 2 1 b.
+ xˆ2  pˆ2 = 4 2  x2  p2 = 4 [x,p]= i |[x,p]|2 Therefore, 1  x2  p2 = |[x,p]|2 4 130

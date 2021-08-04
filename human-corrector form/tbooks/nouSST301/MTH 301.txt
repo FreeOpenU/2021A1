@@ -1,0 +1,347 @@
+MTH 301 METRIC SPACE TOPOLOGY NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 301 COURSE TITLE: Metric Space Topology 1MTH 301 MODULE 2 Course Code MTH 301 Course Title Metric Space Topology NATIONAL OPEN UNIVERSITY OF NIGERIA National Open University of Nigeria 2 MTH 301 METRIC SPACE TOPOLOGY Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office: NOUN Building No.
+5, Dar es Sallam Street Off Aminu Kano Crescent Wuse II Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published by: National Open University of Nigeria 2008 First Printed 2008 ISBN: All Rights Reserved 3MTH 301 MODULE 2 CONTENTS PAGES Unit 1 Topological Spaces; Definitions and Examples Unit 2 Metric Spaces – Definitions and Examples Unit 3 Open Sphere and Closed set Interior, Exterior, Limit Pointed Closure of a Set Unit 4 Dense Subset and Separable Spaces, Baire Category Unit 5 Continuous Functions and Homeomorphisms Unit 6 Convergence in Metric Spaces Unit 7 Connectedness and Compactness 4 MTH 301 METRIC SPACE TOPOLOGY MODULE 1 Unit 1 Topological Spaces Unit 2 Metric Spaces Unit 3 Open Set and Closed Set.
+Interior, Exterior, Frontier, Limit Point and Closure of a Set Unit 4 Dense Subset and Separable Spaces, Baire category UNIT 1 TOPOLOGICAL SPACES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Topological Spaces 3.1.1 Definitions 3.1.2 Real Number System 3.1.3 Absolute Value Concept 3.1.4 Rp Dimensional Euclidean Space 3.1.5 Dome Theorems 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION The aim of this course is two-fold (i) To give the students a good expositism of metric space topology (ii) To develop fundamental notions of topological spaces In Topological spaces motion of open sets is fundamental.
+Although this course is metric space topology, however, it is better to start this course on a more general note, so that we could particurlarise these notions in a metric spaces.
+We shall topological spaces in a general setting.
+We shall also give examples of topological spaces.
+We shall consider the real Value Concepts, norms and state useful theorems on those concepts.
+5MTH 301 MODULE 2 2.0 OBJECTIVES At the end of this study you should be able to: • define topological spaces • give examples of topological • solve some questions on topological spaces.
+3.0 MAIN CONTENT 3.1 Topological Spaces 3.1.1 Definition A topological space (X, t ) is a non-empty set X of points together with a family t of subsets.
+(which we shall call open) possessing the following properties: (i) Xe t , fe t (ii) A1 e t , A2e t imply A1˙ Ae t 2 U (iii) Given Aae t , then Aae t .
+a The family t is called a topology for the bet X.
+Remark: The properties in this definition as we shall see in unit 2 are all satisfied by open sets in a metric space (X, d) where d is a metric of X.
+In fact we can associate a topological spaces (X, t ) where t is the family of open sets in (X, d).
+A topological space which is associated in this manner to some metric space is called metricable and the metric d is to be a metric for the topological space.
+Examples (i) Let X be any set.
+Let t = {X,f} then t is a topology on X. t is called indiscrete topology.
+(ii) Let X be any set Define t = {P(X) = 2X} = collection of all subset of X. t is a topology on X called the discrete topology, and (X, t ) is the discrete topological space.
+6 MTH 301 METRIC SPACE TOPOLOGY (iii) Let ´ - set of real numbers.
+A set G C ´ is open if the each Xe G t r >o such that B(x,r) = {y/1y-´ <1 r} CG Let t be set of all such open sets in ´ .
+t is a topology on ´ called the usual topology on ´ .
+Exercise Show that the examples i, ii, and iii are topological spaces by verifying properties.
+(i), (ii) and (iii) in definition (3.1.1).
+3.1.2 Real Number System A system ((´ +,•, ) is an ordered field if the following axioms are satisfied.
+I. Axiom of Addition.
+Given , x, y and „ e´1 (i) x + y = y + x (commutative law) (ii) R + (y + z) = (x + y + z) (associative law of addition) (iii) t 0e ´ such that x + 0 = x (iv) " x´e $ - x such that x + (- x) = 0 II.
+Axiom of Multiplication (i) x. y = y. x (ii) x.
+(y. z) = (x.y).z (iii) ` 1 e ´ such that x.1 = 1.x = x (iv) " x „ 0 ` x-1 such that x.x-1 = 1 (v) x.
+(y+z) = x.y + x.z III Order Axiom (i) If x£ y and y £ z⇒x £ z (ii) If x £ y and y £ x⇒ x = y (iii) If x, ye ´ , them either x £ y or y £ x ⇒ xe ´ only one of the following holds x>0, x = 0, ´ <0.
+(iv) if x £ y then X + z £ y + z.
+7MTH 301 MODULE 2 (v) x ‡ 0, y ‡ 0 then x y‡ 0.
+3.1.3 Absolute Value Concept Let xe ´ then the absolute value of x is demote by x and defined as: x =∫xx‡ 0 - x £x 0 This can be written as x if x<0 0 if x=0 -x if x<0.
+If x, ye ´ , the distance between them is demoted by x- y The following property is satisfied.
+If x, ye ´ then x#y £ x+ y We call this property the triangular inequality 3.1.4 ´ n Dimensional Euclidean Space Definition: The Euclidean space ´ n consist of n-topples of real numbers i.e ´ n = {(x , x ,…………x )} 1 2 n Such that xie ´ , £1£ i n ´ n is the cartesian product of ´ .
+Such that ´ =n´ x´ x…………x ´ (n times) Therefore, xe ´ n can be represented as x= (x , x , x , ……………….x ).
+1 2 3 n We shall can x a point or a vector in ´ n. Example: Let xe ´ n then x = (x , x ) 1 2 For any x, ye ´ n where x = (x , x ,……………x ), y = (y , y………….y ) 1 2 2 1 n 8 MTH 301 METRIC SPACE TOPOLOGY We define addition as x+y = (x +y , x + y , x + y +………………..x + y ) 1 1 2 2 3 3 n n We can also define sealar multiplication as follows: Let ae K where K is sealar field.
+Then for xe ´ na, x=a (x ,x ............x ) 1 2 n = (a xa, x .......a..... x ) 1 2 n The following statements are obvious.
+(i) ((´ +n, ,) is a vector space of dimension n. (ii) We can enumerate the basis vector as l = (1, 0 0 ………) 1 (l =(010..............) 2 en = (0 0 0 ……1) Therefore for xe ´ n,=x (x ,x ..........x ) 1 2 n n And x = ∑xe i i i=1 Definition: The length or norm of a vector xe ´ n is defined as the 1  n  2 number: x = ∑x 2   i  i=1  For example let n = 2 Then x = (x 2+x i)12 i 2 Other ways of defining norm are { } x = max x x ,............ x .
+1 13 2 n With the above definition of norms, we define the distance as follows: Let x ye ´ n, then the distance between x and y is defined as 1 1  n  2 x- y= ∑(x- y )2   i i  i=1  9MTH 301 MODULE 2 This is the metric define by ( ) d(x, y) = ∑(x - y )2 12 i i Hence d(x,y)= x- y We can view .
+as a function such that [ ] .
+:´ ﬁn ¥ 0n .. We can also define the inner product on ´ n´x n and denote n as 〈(cid:176) (cid:176)i 〉 n by 〈x,y〉=∑x y i i i=1 Now n 〈x,x〉=∑x2 = x 2 i i=1 3.1.4 Some Theorems Theorems 1: For a vector xe ´ n (i) x ‡ 0 (ii) x =0 iff x = 0 (iii) a x =a xae, ´ .
+(iv) x+y £ x+ y (D – inequality) Theorems 2: For a vector x e ´ n (i) d(x, y) ‡ 0 (ii) d(x, y) = > iff x = y.
+(iii) d(x, y) = d(y, x) (symmetric property) (iv) d(x, y) £ d(x, z) + d(z, y) " x, y, z e ´ n (D – inequality) Theorems 3: For x e ´ n. (i) 〈x,x〉 ‡ 0 (ii) 〈x,x〉=0 iff x = 0 (iii) 〈x,y〉=〈y,x〉 (iv) 〈x,y +y 〉=〈x,y 〉+〈x,y 〉 1 2 1 2 (v) 〈x,a y〉a= 〈x,y〉.
+(vi) 〈x,y〉 £ x y (Cauchy and wartz inequality) 10 MTH 301 METRIC SPACE TOPOLOGY 4.0 CONCLUSION The materials developed so far as well as the three theorems stated are sufficient background to allow us go into the details of our course.
+We shall be making use of them as we go on in this course.
+5.0 SUMMARY In this unit we have been introduced to concepts of Topological spaces, the real numbers system the absolute value concept the ´ n dimensional Euclidean space and some theorems on ´ n. The real space ´ and the product space ´ n are good examples of Metric spaces and these spaces carry the usual topological structure.
+6.0 TUTOR-MARKED ASSIGNMENT 7.0 REFERENCES/FURTHER READINGS 11MTH 301 MODULE 2 UNIT 2 METRIC SPACES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Metric Space 3.1.1 Definition 3.1.2 Examples 3.1.3 Pseudo metrics 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References /Further Readings 1.0 INTRODUCTION The real number system has two types of properties, namely the algebraic property which deals with addition, multiplication, etc.
+The property which deals with the notion of distance between two numbers and with the concepts of a limited.
+The second property is called topological property ins paces in which the notion of distance is defined.
+You will recall that in unit 1 we defined concept of topology in general and distance function on ´ n. Theorem 2 in unit 1 is particularly very instructive in this regard.
+2.0 OBJECTIVES As the end of this unit, you will be able to: • define and give examples of metric space • distinguish between a metric and pseudometric • answer questions at the end of the unit.
+12 MTH 301 METRIC SPACE TOPOLOGY 3.0 MAIN CONTENT 3.1 Metric Spaces You will recall in unit 1 that given x, y e ´ nwe can define the distance between the two vectors as follows: 1  n  2 x- y= ∑(x- y )2 …………………………………….
+(1)   i i  i=1  If Let we x- y= d(x,y) then ( ) d(x, y) = ∑(x - y )2 ………………………………………..(2) i i From theorem (2) it is very important to note that (i) d (x, y) ‡ 0 (ii) d (x, y) = 0 iff x = y (iii) d (x, y) = d (y, x) (iv) d(x, y) £ d(x, z) + (z, y) The above properties can be verified to be true of equation (2) on the bans of the above.
+We have the following definitions.
+3.1.1 Definition A metric space 〈x,d〉 is a non-empty sit x of elements together with a real-valued function d defined on X x X such that for all x, y –z e X.
+(i) d(x, y) ‡ 0 (ii) d(x, y) = 0 if and only if x = y (iii) d(x, y) = d(y, x) (symmetric property) (iv) d(x, y) £ d(x, z) + d(z, y) D- inequality The function d is called a metric.
+3.1.2 Examples (1) The first examples that is very obvious is the metric space of ´ - set of real number with D(x, y) = x- y 13MTH 301 MODULE 2 (2) Let ´ n be n-dimensional Euclidean space whose points are n tuples.
+x = (x , x …………..x ) of real numbers and 1 2 n d(x, y) = [(x -y )2 +…………..+ (x -y )2]½ 1 1 n n Remark: We need to emphasis that a metric space is not the set X of its points.
+It is the pair (X, d), consists of the set of its point together with metric d. For example we can define another metric d* (x, y) = ׀x1-y ׀ +……..+ 1 x - y which is another metric on ´ n. n n If we have two metric spaces 〈x,d〉 and 〈y,d* 〉.
+We can form a new metric space called the Cartesian product X x Y whose set points is the set X x Y = {〈x,y〉:xe X,ye Y} and whose metric t is given by t (x ,y ), (x , y ) = [d(x , x )2 + d(y , y )2]½ 1 1 2 2 1 2 1 2 SELF ASSESSMENT EXERCISE 1 Verify that t 〈(x ,y ),(x ,y )〉=d(x ,x )2+d•(y ,y 12 is a metric defined 1 1 2 2  1 2 1 2 on ´ 1´x 2.
+3.1.3 Pseudometics A pair (X, d) is called a pseudometric space if d satisfies all the conditions of a metric except that d (x, y) = 0 need not imply x = y. SELF ASSESSMENT EXERCISE 2 Show that d (x, y) = 0 is an equivalence relation, and if under this a relation, then d (x, y) depends only on the equivalence classes of x and y and defines a metric on X*.
+4.0 CONCLUSION In this unit we have studied metric spaces and consider some examples of metric spaces.
+The structure of metric spaces make it easier to construct space set on the space of ´ N, this we shall see in the subsequent unit.
+14 MTH 301 METRIC SPACE TOPOLOGY 5.0 SUMMARY Recalled that a metric space is a set X together with a distant function d defined as X such that (X, d) form a pair and satisfies the following properties.
+(i) d(x, y) ‡ 0 (ii) d(x, y) = 0 iff x = y (iii) d(x, y) = d(y, x) (iv) d(x, y) £ d(x, z) + d(z, y) – D – inequality A metric becomes a pseudometrics if in property (ii) d (x, y) = 0 need not imply x = y.
+The exercises in this units are designed to reveal more properties of the metric spaces.
+6.0 TUTOR-MARKED ASSIGNMENT 7.0 REFERENCES/FURTHER READINGS 15MTH 301 MODULE 2 UNIT 3 OPEN SET AND CLOSED SET, INTERIOR, EXTERIOR, FRONTIER, LIMIT POINT AND CLOSURE OF A SET.
+CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Open Set and Closed Set 3.2 Interior, Frontier, Limit Point and Closure of a Set 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References /Further Readings 1.0 INTRODUCTION The simplest types of set encountered on the real lines are intervals.
+It is sometimes important to distinguish between intervals which include their endpoints and intervals which do not.
+Suppose a < b, the open interval (a , b) is defined to be the set.
+(a , b) = {x/ a < x < b}.
+The closed interval [a , b] is the set [a , b] = {x/ a £ b}.
+Half open interval (a , b) and (a , b) are similarly defined, using the inequalities, (i) a < x £ b and (ii) a £ x < b, respectively.
+Infinite intervals are defined as follows: (iii) (a , + ¥ ) = {x|a <x} (iv) (a , + ¥ ) = {x| a £ x} (v) (-¥ ,a ) = {x| x < a } (vi) (-¥ ,a ) = {x| x £ a } The real line is sometimes refer to as open interval (-¥ ,a ).
+A single point is also considered a “degemerate” closed interval.
+16 MTH 301 METRIC SPACE TOPOLOGY In this unit we shall find that a number of the properties of the set of real numbers apply immediately to set in a metric spaces.
+Throughout the present unit are sets mentioned are subsets of a given metric space (X, d).
+2.0 OBJECTIVES At the end of the unit, you should be able to: • open set, closed interior and exterior point, a limit points and closure of a set • characterised them by their properties • answer questions on the above concepts.
+3.0 MAIN CONTENT 3.1 Open Set and Closed Set Definition (1): Let xe ´ be a fixed point, and e >0, then { } B (x, e ) = ye ´ n:d(x,y<) e is called an open ball or e - disk or e - neighbourhood.
+For example in ´ , for x e ´ , x-e <y<x+e is defined as {y : |x-y|<e }.
+{ } In open set we can write B (x, e ) = ye (cid:3) = x- y< e .
+We now have the following definition Definition (2): (Open set): A set AC(cid:3) n is said to be open if about each point xe A, ` e 0, such that B (x, 0) CA.
+Examples 1.
+Consider the interval (0,1), (0,1) is open in (cid:3) .
+To set this let xe (0,1), choose (x-e,x+e )C (0,1).
+(0,1) C (cid:3) 2 but not open in (cid:3) 2since there does not exist set (0,1) such that B (x, e) C (0,1) there (0,1) is not an open set in (cid:3) 2.
+2.
+The interval [0,1] is not open in (cid:3) since B(0, 1 ) and B (1, 1 ) n n are balls not entirely in [0, 1].
+17MTH 301 MODULE 2 Theorems (3,1): Let xe (cid:3) n, then the set B(x, e ), is open.
+Proof: Let ye B(x, e ), we need to find e such that B(y, e ) C 1 1 B(x, e).
+Since ye B(x,e ) then d(x, y) <e .
+⇒ e - d(x,y>) 0.
+Take e such thate =e - d(x,y), 1 1 Let z ‹ B(y,e ) ⇒ 1 d(z, y) < e 1 d(x, z) £ d(x, y) + d(y, z) < d(x, y) + e 1 < d(x, y) + e - d(x, y) = e .
+Therefore Z ‹ B(x,e).
+Remarks (1): In (cid:3) n, the empty set and (cid:3) n are open set.
+Prove!
+Theorem (3.1): (i) In (cid:3) n, the union of arbitrary collection of open set is open.
+(ii) The finite intersection of collection of open set is open.
+Proof: Let {G}ie I be arbitrary collection of open set.
+i U Let G = Gi ie I Let x<G ⇒ xe Gi for some 0 (i).
+since Gi is open for every ` e> 0’, B(xe, )CGi C UiGi=G k (ii) Let G1= I G i i =1 If x G1 then xe Gi " ie I.
+\ For each i ` ei >0 ` B (x, e ) C Gi Define e = num {e ) i 1(cid:176) £ 1(cid:176) £K Then B (x, e ) C B (x, ei) " c'e (1, 2,……………k ).
+18 MTH 301 METRIC SPACE TOPOLOGY And so B (x, e ) e Gi.
+Remark 2: Arbitrary intersection of open set is not open.
+Prove!
+Definitions (3) Closed Set A set is closed if its compliment is open.
+For example Bc = {(cid:3) n - B}, {x} = (cid:3) n is closed in (cid:3) n since it contains compliment which is open in (cid:3)1 The set defined as (1) {(x, y) | x2 + y2 = 1} is a closed set in (cid:3) 2.
+It is illustrated as y x Fig.
+(1) (2) The set [0, 1] £ (cid:3)1 is a closed set.
+(3) The set F (cid:3) n are both open and closed I Theorem (3.3): Let F= F be arbitrary intersection of closed set, ie1 i then (i) F is closed k (ii) U F i ie1 SELF ASSESSMENT EXERCISE (1) Prove Remark 1 and 2 (2) Prove Theorem (3.3).
+19MTH 301 MODULE 2 3.2 Interior, Frontier, Exterior Closure and Limit Point Definition (3 1 1): For any set AC(cid:3) n xA, is an interior point of A if ` 0 0 an open set U such that xe UCA U A x.
+Fig.
+2 The implication of the above is that given a set A, and a point x, x is an interior point of A if we can find e >0, such that B(x, e ) C A.
+We shall denote interior point of A as Int A.
+Examples (i) Let A = {x} then Interior A =f .
+(ii) Let A = x2 + y2 < 1 be a disk in (cid:3) 2 Then the Int A is defined as Int A = {(x, y) : x1 + y2 < 1}.
+Remark: We note that Int A = {collection of all interior point of A}.
+On the basis of the above remark, we have the following definition: Definition (3.1.2): The interior of set A in (cid:3) n is defined as the union of all open subset of A.
+Remark: (i) From the above definition Ant A is open (ii) Int A is the largest open subset of A (iii) A set which does not contain an open set has an empty interior.
+Theorem: A is op miff Ant A = A Prove: Trivial 20 MTH 301 METRIC SPACE TOPOLOGY FRONTIER OR BOUNDARY POINT Definition (3.1.3) Let (X, d) be a metric space, let S be a subset of X, a point of X is called a boundary point ` .
+If every open set containing this point also contains a point of S and a point not in S (see fig 3 below).
+X x S Fig.
+3 Definition (3.1.4): by a closure of a subset S of X, we mean the union of S and all its boundary point.
+The closure of S is denoted by S. Definition (3.1.5): S is closed and is equal to the intersection of all closed set containing S. In particular S=S .
+SELF ASSESSMENT EXERCISE Show that for the subsets S, T of X then (i) SUT = SUT (ii) SIT C SIT Definition (3.1.6): A point xe (cid:3) n is an accumulative point or a limit point of SC (cid:3) n if every open set U containing x interest with A at point other than x.
+This implies {(U- {x})IA– f .
+Examples: Let (0, 1) e (cid:3) let e〉0, then (0 - e, 0 + e ) – f 0 is a point of accumulation, but 0 ˛ (0,1).
+21MTH 301 MODULE 2 Definition (3.1.7): A set SC(cid:3) n close iff S contains all its accumulation points.
+We may characterized the closure of S as follows.
+Definition (3.1.7): Let SC(cid:3) n, and Q are closed set, such that i I SCQ " i.
+Then Q =S (closure of S).
+i ie I i Theorem: A set S C (cid:3) n is closed iff S=S .
+Theorem: Let S C(cid:3) n, then S consist of the union of S and its accumulation points.
+Remark: We normally denote the frontier of S by ¶ S. Theorem: ¶ S is a closed set.
+4.0 CONCLUSION In this section we have defined open set, closed set closure, limit point and closure of a set.
+We have also characterized them, with the properties of each.
+You are required to master those properties very well.
+Work through all the grades exercises and prove all the theorems left unproved.
+5.0 SUMMARY Recall that: • Open ball is B (x, e ) = {y e (cid:3) n : d(x, y) < e } • Set A C X is open if B(x, e ) < A.
+• Finite intersection of open set is open • Arbitrary union of open set is open • A set S, is closed if its compliment is open • Arbitrary intersection of closed set is closed • Finite union of closed set is closed • Interior of A is the union of all open subsets of A • A set SC(cid:3) n is closed if S contain all its accumulation points • A set S is closed if S=S .
+6.0 TUTOR-MARKED ASSIGNMENT 22 MTH 301 METRIC SPACE TOPOLOGY 7.0 REFERENCES/FURTHER READINGS 23MTH 301 MODULE 2 UNIT 4 DENSE SUBSET AND SEPARABLE SPACES, BAIRE CATEGORY CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Separable Set 3.2 Baire Category 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION This unit relied heavily on the concept of closed sets and properties of closure studied in unit 3.
+You are to master unit 3 properly before venturing into this unit.
+2.0 OBJECTIVES At the end of this study, you should be able to: • define correctly what is meant by dense set • explain what is separability of sets • proof theorem relating to separability • understand the Baire – category theorem • solve – problems on this unit correctly.
+3.0 MAIN CONTENT 3.1 Separable Set Before explaining the concept of separability we need to define some concepts.
+Definition (3.1.1): Countable Set: A set A is said to be countable if it is equivalent to the set of all positive integers or to some (finite or infinite) subset of the positive integers.
+24 MTH 301 METRIC SPACE TOPOLOGY Example (i) The set of rational number denoted by (cid:3) is countable.
+(ii) The set of real number (cid:3) is not countable Definition (3.1.2): Dense Subset: Let X be a non-empty set, suppose DCX, we say D is dense in X if D = X. i.e.
+the closure of D is the closure of X.
+Example: The set of rational numbers (cid:3) are dense in (cid:3) .
+Definition 3.1.3: (Separability): a metric space (X, d) is said to be separable, if it has a countable dense subset.
+Example: Let (cid:3) be real let (cid:3) C(cid:3) such that (cid:3) = {xe (cid:3) : x is a rational number} Now Q=(cid:3) , and since (cid:3) is countable the (cid:3) is separable.
+Theorem: (cid:3) n is separable.
+Proof: Take (cid:3) n = {xe (cid:3) n, x = (x ….x)} with x, is national.
+1 i We know that (cid:3) n is countable and dense in (cid:3) n Therefore (cid:3) n is separable.
+Theorem: In (cid:3) n, every family of disjoint non-empty open set is countable.
+Proof: Let {x } be countable dense subset.
+Let {B} be a family n i of non-empty disjoint open sets.
+Bie {Bi}, $ " n, xne Bi.
+f :{Bi}ﬁ Ni such that f (Bi) = smallest n, to which xne Bi Then f mass {Bi} into a subset of N hence it is countable.
+3.2 Baire Category In this section, we shall go deeply, by examining certain aspect of metric spaces.
+We first consider the following definition.
+Definition (3.2.1): A set E is said to be nowhere dense if (˛ )c is dense.
+25MTH 301 MODULE 2 The definition above is equivalent to saying that ˛ contain no spheroid.
+Example: Let (cid:3) be the set of real numbers and let (cid:3) be the set of integers then ((cid:3))c is dense in (cid:3) ⇒(cid:3) is nowhere dense in (cid:3) .
+Definition (3.2.2): First category: A set e is said to be of first category (or meager), if it is the union of countable collection of nowhere dense sets.
+Definition (3.2.3): A set which is not of first category is said to be of second category.
+Definition (3.2.4): (complete metric space) Let (X, d) be a metric space (X, d), we shall say that (X, d) is a complete metric space if all the Cauchy sequence {x } converges to points in the metric space.
+n (Refer to unit 6).
+Our intention is to show that a complete metric space is of second category.
+We begin with the following theorem Theorem: Let X be a complete metric space and {O } is countable n collection of dense open subset of X, then U0 is not empty.
+n Proof: Let x be a point of 0 and S a spheroid of radius r which 1 1 1 1, is countered at x and contained in 0 .
+Since 0 is dense, there must be a 1 1 1 point x in 0 ˙ S .
+Since 0 is open, there is a spheroid S countered at 1 2 1 2 2 x , and contained in 0 , and we may take the radius r of S to be smaller 1 2 2 2 than ½ r and smaller than r – ¶ (x , x ).
+Then S CS 1 1 1 2 2 1.
+Proceeding inductively, we obtain a sequence 〈S 〉 of spheroid such n that S C S and SnC0 and whose radii 〈r 〉 tend to zero.
+n n-1 n1 n Let 〈x 〉 be the sequence of centres of these sphere.
+Then for n, m‡ N .
+n we have x e S and dense S .
+Hence ¶ (xn, xm) £ ¶ r and {x } is a n N N n N Cauchy sequence, since r ﬁ 0.
+By the completeness of X there is a N point such that xnﬁ x,since xn e SN+1 for n>N, we have xe SN+1 C S N C 0 .
+Hence xe I0 N n. Corollary (Biare Category Theorem).
+A complete metric space is not the union of a countable collection of nowhere dense set.
+26 MTH 301 METRIC SPACE TOPOLOGY An application of Baire category.
+Theorem, we established the following theorem, which is known as uniform boundedness principle.
+We will state that theorem without prove!
+Theorem: Let t be family of real-valued continuous functions on a complete metric space X and suppose that for each xe X there is a number M such that if cxV<M " fe t , there is a non-empty open set k k OCX and a constant M such that f(x) £ M for all fe t and all xe O.
+4.0 CONCLUSION Baire category had been used extensively in establishing some powerful proves of some mathematical theorem in Degrel Theory.
+Although this is advance mathematics, but nonetheless it is a very useful tools in analysiss.
+5.0 SUMMARY 6.0 TUTOR-MARKED ASSIGNMENT 7.0 REFERENCES/FURTHER READINGS 27MTH 301 MODULE 2 MODULE 2 Unit 1 Continuous Functions and Homeo Morphisms Unit 2 UNIT 1 CONTINOUS FUNCTIONS AND HOMEO MORPHISMS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Functions from (cid:3) N to (cid:3) M 3.2 Continuity of Functions 3.3 Homeomorphism 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 3.0 INTRODUCTION In our previous lessons on real analysis, we made attempt to a point.
+In this section we shall consider functions defined on a whole set and open sets.
+4.0 OBJECTIVES At the end of this study, the students should be able to: • define correctly functions of several variables • explain concept of continuity in a metric spaces • explain concept pf moreomorphsim • solve related exercise correctly.
+3.0 MAIN CONTENT 3.1 Functions from (cid:3) N to (cid:3) M Definition (1): Let X and Y be arbitrary non-empty set.
+A function t from X into Y is a singled-valued relation such that DOMfCX and range fC Y.
+28 MTH 301 METRIC SPACE TOPOLOGY Definition (2) : Two functions f and g are identical if (i) Domf = Domg (ii) f(x) = g(x) " xe Domf.
+Definition (3): Function with the Range fC(cid:3) are called real- valued functions, while those with Rang fC (cid:3) n are called vector-valued function.
+If X = (cid:3) N, y = (cid:3) M there fC (cid:3) nx (cid:3) M' (ii) (f: (cid:3) N ﬁ (cid:3) M ).
+Definition (4): If in definition 3 above m- t , then we have f: (cid:3) N ﬁ (cid:3)1, f is called a function of several variables.
+N = 1 implies f: (cid:3) ﬁ (cid:3) Mand f(t ) e (cid:3) M f is called a vector valued functions.
+’" t e (cid:3) f(t )e (cid:3) M can be expressed as f(t ) = {f (t ), f (t ),……..f (t )} 1 2 n Definition (5): Let f: (cid:3) N ﬁ (cid:3) M Dom f e (cid:3) N , and Range fe (cid:3) M with let x be an accumulative point of 0 Dom (f).
+then we say f(x)ﬁ b e (cid:3) M as x ﬁ x if e >0, t e >0, t 0 de( )>0, such that f(x)- b< e" xe Dom f such that x- x < d .
+0 We write this as lim f(x) = b x ﬁ x Remark (1): lim f(x) = b ⇒ x ﬁ x e f(x) e B [b,eﬁ ] B xe [xd ] 0, x- x< d The implication of this is that given a neighbourhood U of B in (cid:3) m t a neighbourhood V of x with (cid:218)˙ Dom f – f such that xe (cid:218)˙ Dom (f) 0 ⇒ f(x)e U. Theorem (1): Let f be a function with domain fC(cid:3) N, and Range fC(cid:3) M. If f(n) ﬁ b as xﬁ x and f(x) ﬁ b as xﬁ x .
+1 0 2 0 Then b = b .
+1 2 Theorem (2): Let f and g be real-valued functions with Domain (f) = Range (g) = DC(cid:3) N. 29MTH 301 MODULE 2 Let x be a point of accumulation on D, if the 0 lim f(x) = l and limit g(x) = n nﬁ x xﬁ x 0 (i) forabe, ´ , then Lim (a f +b g)(x) = a l+b m. n = x 0 (ii) limt (fg) (x) = lm n ﬁ R 0 (iii) if g(x) – 0 for xe D and m– 0 Lim ( f )(x) = l = xﬁ x g m 0 lim f(x) x ﬁ x 0 lim g(x) x ﬁ x 0 Example (i) f: (cid:3) 2 ﬁ (cid:3) f(x, y) = x2 + y2 + 1 (x , y ) = (1, 3) 0 0 Solution lim f(x, y) = 1 + 9 + 1 = 11 (x , y,) ﬁ (1,3) 0 (ii) f: (cid:3) 2 ﬁ (cid:3) such that 2x f(x, y) = x2 + y2+1 as (R, y) = (1,3) 2x lim f(x, y) = lim x2 + y2 +1 (x , y ) ﬁ (1,3) (x y )ﬁ (1,3) 0 0 1 0 ( ) = 2 11  xy  (iii) fcx,y= x2 + y2 =0 x2 + y2 {0 (x,y)=0} 30 MTH 301 METRIC SPACE TOPOLOGY Show that the limit fcx, y) (x, y) ﬁ (0,0) Does not exist.
+x2 Solution: f(x,y) = =1 x2 +x2 2 As x = y Let (x, y) ﬁ 0 along the x-axis, ⇒ f(x, y) = (x, 0) = 0.
+This show that the limit does not exist since 0 = ½ Self assessment exercise 1 x2sin 1 +y2sin 1  y x   Let f(x, y) =  x– 0, y– 0   0 x =0,y =0    Find lim f(x, y) (x, y) ﬁ (0,0).
+3.2 Continuity of Functions Definition 3.2.1: Let A, B be metric spaces, with metric d , d A B respectively.
+Let f : Aﬁ B be a map.
+(a) f is continuous at x0e A if, given e >0, there exist d >0 such that d (x x ) <d implies d )fcx), f(cx,) <e A 1 0 B (b) f is continuous if it is continuous at x0 for every point x0e A Remark(2): the definition that we have proposed for continuity of maps between the choice of the particular metric.
+The closer study of continuity and its independence from specific choice of metric leads naturally to the idea of a topology.
+We will re-cast the definition of continuity given above.
+Definition (3.2.2): Let S be a metric space with metric d defined on S. given any xeS, let B (x) denote set of all points in S, whose distance a { } from x is less than a , i.e B (x) xeS d(x x1)<a a 1 We call B (x) open a =ball around x a 31MTH 301 MODULE 2 A map f: Aﬁ B (metric spaces) is said to be continuous at x if given 0 e >0, there exists d >0.
+Such that f((Bd (x ))CBe CY ) 0 0 We can write as B (x )cf - 1(B (y )) d 0 e 0 Theorem: f: Aﬁ B between metric spaces is continuous if and only if f-1 (V) is an open set in A whenever V is open set in B.
+Remark (3): The above theorem does not say that if U is open in A then f(U) is open in B.
+For example f: Rﬁ R defined by f(x) = x2 let U = R, then f(U) = R+ 0 which is not open in R. Proof of the theorem: Assume f is continuous.
+Let V be an open set in B.
+We need to show that f-1 (V) is open in A. choose any x in f-1(V) then f(x) e V and so since V is open then we can find some e >0, withB (f(x)) CV.
+Now the continuity of f guarantee the existence of e some Bd (x)CF- 1(V).
+This argument applies to each at f-1(V) and then shows that f-1(v) is open.
+Conversely, assume the property about open set and show that f is continuous.
+To see this, let xe A. for any e >0 then e - ball Be(f(x)) is and an open set in B and by hypothesis, f-1 (Be(f(x)) is open in A. this means that since xe f-1 (Be(f(x)) there is some d >0, with Bd (x)cf - 1(Be (f(x))or in other words f(Bd (x)) C Be(f(x)).
+This applies for each e >0 and so proves the continuity of f at x.
+Since x was an arbitrary point of A, we have shown that f is continuous.
+Remark (4): In view of the above theorem is a clear that in the study of continuity of maps between metric spaces, it is the family of open set in each space which is important, rather than the actual metric.
+More precisely, if two different metrics give rise to the same family of open sets then any map which is continuous using one metric will automatically be continuous using the other.
+The family of open sets of a metric space is called topology.
+32 MTH 301 METRIC SPACE TOPOLOGY 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR-MARKED ASSIGNMENT 7.0 REFERENCES/FURTHER READINGS 33MTH 301 MODULE 2 UNIT 2 CONVERGENCE IN METRIC SPACES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Convergence of Metric Spaces 3.2 Some Results on Convergence of Metric Spaces 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References /Further Readings 1.0 INTRODUCTION In a previous course in Real analysis students have been made to be familiar with the notion of convergence of sequence of real numbers.
+It is defined as follows.
+The sequence x , x ………x …….of real numbers 1 2 n is said to be converge to the real number x if given e >0 there exists a number n such that for all n‡ n , x - x < e .
+0 0 n From this, it is obvious that we can extend this definition from the set of real number (cid:3) with the Euclidean metric to any metric space.
+2.0 OBJECTIVES At the end of this study, you should be able to: • defined the convergence of metric spaces • be able to differentiate between convergence of sequence of real numbers and metric spaces • solve some questions on the convergence of metric spaces.
+34 MTH 301 METRIC SPACE TOPOLOGY 3.0 MAIN CONTENT 3.1 Convergence of Metric Spaces Definition: Let (x, d) be a metric space and x +……….x ….
+a 1 n sequence of points in X. then the sequence is said to converge to xe X if given an e >0 there exists an integer no such that for all n ‡ n , d(x, x ) 0 n < e .
+This is denoted by x ﬁ n. n The sequence y, y ……..y of points in (X, d) is said to be convergent if 2 n there exists a point y e X such that ynﬁ y.
+Remark Let x , x , ………..x be a sequence of point in a metric space (X, d).
+1 2 n Furthermore if x and y are points in (X, d) such that x ﬁ x and x ﬁ y, n n then n = y.
+The implication of this is that the point of convergence of sequence of points in metric space in always unique.
+Proposition (4.1) = Let (X, d) be a metric space.
+A subset A of X is closed in (X, d) if and only if every convergent sequence of points in A converges to a point in A.
+(In order words, A is closed in (X, d) if and only if a ﬁ x where xe X and a is a sequence of points in A " n n n implies that xe A).
+Proof: We assume that A is closed in (X, d) and let a ﬁ n, where a n n e A for all positive integers n. Suppose that x e (X- A).
+Then, as X-A is open set containing x, there exists an open ball B (x) such that x e e B (x)£ (X- A).
+Nothing that each a e A implies that d(x, a )>e for e n n each n. thence the sequence a , a , ………a ……does not converge to x.
+1 2 n This is a contradiction hence x e A as required.
+Conversely, we assume that every convergent sequence of points in A converges to a point of A.
+Suppose that X-A is not open.
+Then there exist a point y e x – A such that for each e >0 B (y)˙ –AF .
+For each e positive integer n, Let x be any point in B (y)˙ A.
+Then we claim that n 1 n x ﬁ y.
+To see this let e be any positive real number, and n any integer n 0 greater that 1 .
+Then for each n‡ n .
+e 0 xne B1 (y)˝ B1 (y) ˝ Be(y) n no 35MTH 301 MODULE 2 So xnﬁ y and by our assumption ye (X-A).
+This is also a contradiction and so (X – A) is open and thus A is closed in the space (X, d).
+Proposition 4.2: Let (X, d) and (Y, d,) be metric spaces and fa mapping of X into Y.
+Let t and t be the topologies determined by d and d respectively.
+Then f(x, 1 1 t )ﬁ (y, t ,) is continuous if and only if xnﬁ ﬁ x fﬁ(x ) f(x): that is if n x , x ,……..x ,….. is a sequence of points in (X, d) converging to x, 1 2 n then the sequence of points f(x ), f(x ),…………….f(x ),……..in (Y, d) 1 2 n Convergence to x.
+Proof: Assume that x ﬁ x⇒ f(x )ﬁ f(x).
+To show that f is n n continuous if suffices to prove that the inverse image of every closed set in (Y, t ) is closed in (X, t ).
+So let A be closed in (Y, t ,).
+Let x , 1 1 x ,……x …….. be a sequence of points in f,(A) convergent to a point 2 n x e X.
+As x ﬁ x, f(x ﬁ f(x).
+n n But since each f(x ) e A and A is closed proposition 4.
+L then implies n that f(x)e A. Thusxe f - 1(A).
+Hence we have shown that every convergent sequence of points from f - 1(A) converges to a point of f - 1(A).
+Thus A is closed and hence f is continuous.
+Conversely, let f be continuous andx ﬁ x.
+Let e be any positive real n number.
+Then the open ball B (f(x)) as an open set in (Y, t ).
+Therefore e 1 f - 1(B f(x)) in an open set in (X, t ) and it contains x.
+Therefore there e exists a d f0 such that xe B (x)˝ f - 1(B (f(x)).
+d e As x ﬁ x, there exists a positive integer n such that for all n 0 n‡ n ,x e B (x).
+Therefore 0 n d f(x )e f(B (x))˝ B (f(x)), for all n‡ n, n d e Thus f(x )ﬁ f(x,) n Corollary 4.1 Let (X, d) and (Y, d,) be metric spaces, f is mapping of X into Y and t and t the topologies determined by d and d, respectively.
+Then f: (x, 1 t )ﬁ (Y, t ) is continuous if and only for each x e X and e >0 there 1 0 exists a d >0 such that xe X and d(x, x ) <d ﬁ 0 d,(f(x), f(x<)) e 0 36 MTH 301 METRIC SPACE TOPOLOGY SELF ASSESSMENT EXERCISE 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Let C[0, 1] denote the set of continuous functions from [0, 1] into (cid:3) .
+Define a metric on this set by d(f,g)= 1 ∑1f(x)- g(x)|dx 0 [ ] Where g and f are are in (cid:204) 1,0 .
+Define a sequence of functions f , f ,……….f ……… in 1 2 n sin(nx) ((cid:204) [0,1],d) by f (x)= , n=1,2,.........xe[0,1] n n Prove that f ﬁ f where f (x)=0" xe[0,1] n 0 0 2.
+Let (X, d) be a metric space and x , x ,…………., x …….a 1 2 n sequence such that x ﬁ n if and x,ﬁ y.
+Prove that x = y .
+n 3.
+(i) Let (X, d) be a metric space, and an t the induced topology on X and x , x , ………..x ,….. a sequence of points in 1 2 n X.
+Prove that x ﬁ n if only if for every open set Ut x, there n exists a positive integer n t x e U for all n‡ n .
+0 n 0 (ii) Let x be a set and d and d, be equivalent metric on X. deduce from (i) that if x ﬁ x in (X, d) then x ﬁ x in (X, d,).
+n n 4.
+Let (X, t ) be a topological space and let x ,x ,........x .......be a 1 2 n sequence of points in X. we say that x ﬁ x if for each open set n Ut x there exists a positive integer n such that x e U for all 0 n n‡ n .
+Find an example of a topological space and a sequence 0 such that x ﬁ x and x ﬁ y be x– y. n n 5.
+Let A and B be non-empty set in a metric space (X, d).
+Define P(A, B) = in f {d(a,b):ae Aandbe B}.
+(a (A,B) is the distance between two sets A and B) 37MTH 301 MODULE 2 i.
+If S is non-empty subset of (X, d), prove that S = {x:xe X anda ({x},S}=0 ii.
+If S is any non-empty subset of (X, d), then the function f(X, d) ﬁ (cid:3) defined by f(x)=a ({x},S),ex X. is continuous.
+7.0 REFERENCES/FURTHER READINGS 38 MTH 301 METRIC SPACE TOPOLOGY UNIT 3 CONNECTEDNESS AND COMPACTNESS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References /Further Readings 1.0 INTRODUCTION Neighbourhoods.
+2.0 OBJECTIVES 3.0 MAIN CONTENT 3.1 Definition (1): Let X a metric space and N a subset of X and P a point in X.
+Then N is said to be a neighbourhood of the point P if there exist open set U such that PU˝ N Examples 1 The closed interval in (cid:3) is a neighbourhood of the point ½.
+Since ½ e (¼, ¾) ˝ [0,1].
+Examples 2 The interval [0, 1] in (cid:3) is a neighbourhood of the point ¼ as ¼ e (0, ½) ˝ (0,1].
+But (0, 1] is not a neighbourhood of point 1.
+Examples 3 If X is a metric space and U is a subspace of X then from definition 1 above it follows that U is a neighbourhood of every point Pe U for example every open interval (a, b) in (cid:3) is a neighbourhood of every point that it contains.
+Definition 1: Let X be a topological space.
+X is said to be connected if the only open and closed subsets of X are X and f .
+39MTH 301 MODULE 2 Example 1 The topological space (cid:3) is connected.
+Example 2 If X is a discrete space into more than one element, then X is not connected as each singleton set is open.
+Remark: From definition 1 above it follows that a topological space X is not connected if and only if there are non-empty open sets A and B such that AIB =f and AUB=X.
+Compactness Definition Let (X, d) be a metric space and let SCX.
+An open cover for S is a collection U, if open subsets of X such that S C U{U:Uey }.
+Definition: A subset K of a metric space (X, d) is called compact if for each open cover U of K there exist U , U , ……………U e ¨ such that K C U, 1 2 n ¨ .....¨.. u.
+Definition can be restated as “A set is compact if and only if each open cover has a finite subcover”.
+Examples: 1.
+Let (X, d) be a metric space and let S C X be definite that is, S = {X , X ……….X }.
+let U be an open cover of X.
+Then for each 1 2 n x e U .
+If follows that S C U, ¨ ......¨.. U hence, S is compact.
+j j n. 2.
+Let (X, d) be a compact metric space and let f – kcx be compact.
+Fix n e k. Since {B (x ) : r > 0 } is an open cover of K, there are 0 r 0 r,r ,.........,r >0 such that KCB (x )¨ .....¨.. B (x ).
+1 2 n r, 0 r 0 n With R : = max {r,r ,.........,r }, we observed that K C B (x so 1 2 n R 0) that the diameter of K claim (k) £ 2R<¥ .
+This means, for example that any unbounded subset (cid:3) n (or more generally of any 40 MTH 301 METRIC SPACE TOPOLOGY normal space) cannot be compact.
+Infact the only normal space that is compact is {0}.
+3.
+Let X = (0, 1) be equipped with the usual metric.
+For re (0,1) let u :(r,1).
+then {u :re (0,1)} is an open cover for (0, 1) which has r r no finite subcover.
+Proposition Let X be a metric space and let Y be a subspace of X than (i) If X is compact and Y is closed in X, then Y is compact (ii) If Y is compact, then it is closed in X.
+Proof: For (i): Let U be an open cover for Y.
+Since Y is closed in X, then family u¨ {X/Y} is an open cover for X. since X is compact, it has a finite subcover i.e.
+there are u ,u ,..........,u e u 1 2 n such that X =u ¨ u ,..........u¨ X/Y.
+1 2 n By intersecting this into Y it is observed that YCU,UU U,..........Uu 2 n. For (ii): Let xe X /Y .
+For each y e Y there are e d, ,>0 y y { } such thatB (x)˙ B (y=) f .
+Since B (y):ye Y is an open cover ey d y dy for Y, there are y , y e Y such that 1 n Y (cid:204) B (y,)U......UB (y ) d d n y, yn { } Letting e := min e ,....e, we obtain that y y 1 n B (x)IYCB (x)I(B (y )¨ ..¨.. B (y) =f .
+And thusB (x)(cid:204) X /Y .
+e e d 1 d e y1 yn Since xe X /Y is arbitrary this implies that X/Y is open hence Y is closed in X.
+Proposition: Let (k, d ) be a compact metric space.
+Let (Y, d ) be any k y metric space and let f: Kﬁ Y be continuous.
+Then f(k) in compact.
+Proof.
+Let U be an open cover for f(k).
+Then {f - 1(u ) : u e U } is an open cover for k. hence there are u ,……….u eu with 1 n K = f-1 (ư): ưe u with K = f-1 (ư,¨ .......U f - 1(ư ).
+and thus f(k) C ư, n ¨ ư ¨ .¨.. ư .
+2 n This proves the claim.
+Lemma: Let (k, d) be a compact metric space.
+Then every sequence in k has a convergent subsequence.
+41MTH 301 MODULE 2 { }d { }d Proof: Let x be a sequence in k. Assume that x has no n n=1 n n- 1 convergent subsequence.
+This means that for each x e X (It cannot be the limit of any subsequences of {x }d ) there is e >0 such that B (x) n n=1 n en contain infinitely many terms of {x }d ; that is there is n e (cid:3) such that n n=1 n { } x ¸ B (x) for ˙‡ n Since B (x):xek is an open cover for k there n e x. e x n are x1,x1,.....,x1 e k with k = B (x1)¨ .¨.. B (x1 ) 1 2 m e 1 e m { } n11 k1m For n‡ max n ,....,n this means that n1 n1 1 m x ¸ B (x1¨ ) ¨ .... B =(x1 ) k. This is contradiction hence every n e 1 e m n11 n1m sequence in k has a convergent sequence.
+Definition: Let (x, d) be a metric space.
+Then: (a) X is called totally bounded if for each e >0 there are n , n ,……, 1 2 x e X with X = B (x )¨ ...¨.. B (x ) n e 1 e n (b).
+X is called sequentially compact if every sequence is X has a convergent subsequence.
+Theorem: The following properties are equivalent for a metric space (X, d) (i) X is compact (ii) X is complete and totally bounded (iii) X is sequentially compact.
+Proof: Left as exercise Corollary: Let (X,d) be a totally bounded metric space.
+Then it’s completion is compact.
+Corollary: (Hence – Bored theorem) Let K (cid:204) (cid:3) n. Then K is compact if and only if it is bounded and closed in (cid:3) n. SELF ASSESSMENT EXERCISE 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR-MARKED ASSIGNMENT 7.0 REFERENCES/FURTHER READINGS 42

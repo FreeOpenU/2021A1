@@ -1,0 +1,1003 @@
+NoneCOURSE GUIDE MTH 131 COURSE GUIDE MTH 131 ELEMENTARY SET THEORY Course Developer Prof K. R. Adeboye Federal University of Technology Mina.
+Course Writer Prof K. R. Adeboye Federal University of Technology Mina.
+Programme Leader Dr. Makanjuola Oki School of Science & Technology National Open University of Nigeria Lagos Course Co-ordinator B. Abiola National Open University of Nigeria Lagos NATIONAL OPEN UNIVERSITY OF NIGERIA iiCOURSE GUIDE MTH 131 National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Annex 245 Samuel Adesujo Ademulegun Street Central Business District Opposite Arewa Suites Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng National Open University of Nigeria 2006 First Printed 2006 ISBN: 978-058-242-8 All Rights Reserved Printed by …………….. For National Open University of Nigeria iiiCOURSE GUIDE MTH 131 Contents Page Introduction................................................................... 1 What you will learn in this course............................................. 1 Course aims............................................................................... 1 Course objectives....................................................................... 2 Working through this course...................................................... 2 Course materials......................................................................... 2 Study units................................................................................. 2-3 Text Book................................................................................... 3 Assignment File ......................................................................... 3 How to get the most from this course......................................... 3-4 ivINTRODUCTION Welcome to Elementary set Theory.
+This course is a 1-credit unit course and it is offered at the undergraduate level.
+This course consists of eight (8) units There are no compulsory prerequisites for this course This Course Guide tells you briefly what the course is about, what course materials you will be using and how you can walk your way through these materials.
+What You Will Learn In This Course The theory of sets lies at the foundations of mathematics.
+Concepts in set theory, such as functions and relations appear explicitly or implicitly in every branch of mathematics.
+This text is an informal, non-axiomatic treatment of the theory of set.
+The text contains an introduction to the elementary operations of sets and a detailed discussion of the concept of a function and a relation.
+Each unit begins with clear statements of pertinent definitions, principles and theorems will illustrative and other descriptive materials.
+This is followed by graded sets of solved and supplementary problems.
+The solved problems serve to illustrate and amplify the theory, bring into sharp focus those fine points without which the student continually feels himself on unsafe ground, and provide the repetition of basic principles so vital to effective learning.
+Course Aims The aim of the course can be summarized as follows:- • To introduce you to the basic principles of set theory • Working with functions and the number systemMTH 131 ELEMENTARY SET THEORY Course Objectives To achieve the aims set out above, the course sets overall objectives.
+In addition, each unit also has specific objectives.
+The unit objectives are always included in the beginning of a unit; you should read them before you start working through the unit.
+You may want to refer to them during your study of the unit to check on your progress.
+You should always look at the unit objectives after completing a unit.
+In this way you can be sure that you have done what was required of you by the unit.
+Set out below are the wider objectives of the course as a whole.
+By meeting these objectives you should have achieved the aim of the course as a whole.
+On successful completion of this course, you should be able to:- • Explain sets, subsets, set notations, kinds of sets • Describe basic set operations • Identify intervals as sets and describe intervals using the real line • Identify functions and the relationship between product sets and graphs of functions • Apply the laws of the algebra of sets in proving set identities Working through this Course To complete this course, you are required to read the study units, read set books and read other materials provided by the NOUN Course Materials Major components of the course are:- 1.
+Course Guide 2.
+Study Units 3.
+Text books 4.
+Assignment File Study Units There are eight study units in this course, as follows:- Unit 1:Set and Subsets Unit 2:Basic Set Operations Unit 3:Sets of Numbers Unit 4:Functions iiMTH 131 ELEMENTARY SET THEORY Unit 5:Product Sets and Graphs of Functions Unit 6:Relations Unit 7:Further Theory of Sets Unit 8:Further Theory of Functions and Operations Text Books There are no compulsory text books for this course Assignment File The assignment File contains details of the work you must submit to your tutor for marking.
+It contains a more compact form of the Tutor-marked assignments.
+There are a maximum of five assignments in each unit Assessment There are two aspects of the assessment of the course.
+First are the tutor- marked assignments; second, there is a written examination.
+In tackling the assignments, you are expected to apply information, knowledge and techniques gathered during the course.
+The assignments must be submitted to your tutor for formal assessment in accordance with the stipulated deadlines.
+How to get the most from the course In distance learning, the study units replace the lecturer.
+This is one of the great advantages of distance learning; you can read and work through specially designed study materials at your pace, and at a time and place that suit you best.
+Think of it as reading the lecture instead of listening to a lecturer.
+In the same way that a lecturer might set you some reading to do, the study units tell you when to read your set books or other materials, and when to undertake computing practical work.
+Just as a lecturer might give you an in-class exercise, your study units provide exercises for you to do at appropriate points.
+Each of the study units follows a common format.
+The first item is an introduction to the subject matter of the unit and how a particular unit is integrated with the other units and the course as a whole.
+Next is a set of learning objectives.
+These objectives let you know what you should be able to do by the time you have completed the unit.
+You should use these objectives to guide your study.
+When you have finished the unit you must go iiiMTH 131 ELEMENTARY SET THEORY back and check whether you have achieved the objectives.
+If you make a habit of doing this you will significantly improve your chances of passing the course.
+Exercises are interspersed within the units, and answers are given.
+Working through these exercises will help you to achieve the objectives of the unit and help you to prepare for the assignments and examination.
+The following is a practical strategy for working through the course.
+1.
+Read this Course Guide thoroughly 2.
+Organize a study schedule.
+Refer to the “Course Overview” for more details 3.
+Once you have created your own study schedule, do everything you can to stick to it.
+The major reason that students fails is that they get behind with their course work.
+If you get into difficulties with your schedule, please let your tutor know before it is too late.
+4.
+Turn to Unit 1 and read the introduction and the objectives for the unit.
+5.
+Work through the unit.
+The content of the unit itself has been arranged to provide a sequence for you to follow.
+6. Review the objectives for each study unit to confirm that you have achieved them.
+If you feel unsure about any of the objectives, review the study materials or consult your tutor.
+7.
+When you are confident that you have achieved a unit’s objectives, you can then start on the next unit.
+Proceed unit by unit through the course and try to pace your study so that you keep yourself on schedule.
+8.
+When you have submitted an assignment to your tutor for marking, do not wait for its return before starting on the next unit.
+Keep to your schedule.
+When the assignment is returned, pay particular attention to your tutor’s comments.
+9.
+After completing the last unit, review the course and prepare yourself for final examination.
+Check that you have achieved the unit objectives (listed at the beginning of each unit) and the course objectives listed on this Course Guide.
+ivMTH 131 ELEMENTARY SET THEORY MAIN COURSE Course Code MTH 131 Course Title ELEMENTARY SET THOERY Course Developer Prof K. R. Adeboye Federal University of Technology Mina.
+Course Writer Prof K. R. Adeboye Federal University of Technology Mina.
+Programme Leader Dr. Makanjuola Oki School of Science & Technology National Open University of Nigeria Lagos Course Co-ordinator B. Abiola National Open University of Nigeria Lagos NATIONAL OPEN UNIVERSITY OF NIGERIA vMTH 131 ELEMENTARY SET THEORY Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Annex 245 Samuel Adesujo Ademulegun Street Central Business District Opposite Arewa Suites Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng National Open University of Nigeria 2006 First Printed 2006 ISBN: 978-058-242-8 All Rights Reserved Printed by …………….. For National Open University of Nigeria Table of Content Page Module 1 viMTH 131 ELEMENTARY SET THEORY Unit 1 Sets & Subsets......................................... 1-15 Unit 2 Basic Set Operations............................ 16-26 Unit 3 Set of Numbers....................................... 27-38 Unit 4 Functions................................................. 39-55 Unit 5 Functions............................................... 56-68 Module 2 Unit 1 Relations................................................ 69-76 Unit 2 Further Theory of Sets.......................... 77-87 Unit 3 Further Theory of Functions, Operation ............................................... 88-104 viiNoneMTH 131 ELEMENTARY SET THEORY Module 1 Unit 1 Sets & Subsets Unit 2 Basic Set Operations Unit 3 Set of Numbers Unit 4 Functions Unit 5 Functions UNIT 1 SETS & SUBSETS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Sets 3.1.1 Notation 3.1.2 Finite and Infinite sets 3.1.3 Equality of sets 3.1.3 Null Set 3.2 Subsets 3.2.1 Proper subsets 3.2.2 Comparability 3.2.3 Set of sets 3.2.4 Universal set 3.2.5 Power set 3.2.6 Disjoint sets 3.3 Venn-Euler diagrams 3.4 Axiomatic development of set theory 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked assignment 7.0 References and Further readings 1MTH 131 ELEMENTARY SET THEORY 1.0 INTRODUCTION The theory of sets lies at the foundation of mathematics.
+It is a concept that rears its head in almost all fields of mathematics; pure and applied.
+This unit aims at introducing basic concepts that would be explained Further in subsequent units.
+There will be definition of terms and lots of examples and exercises to help you as you go along.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • Identify sets from some given statements • Rewrite sets in the different set notation • Identify the different kinds of sets with examples 3.0 MAIN BODY 3.1 Sets As mentioned in the introduction, a fundamental concept in all a branch of mathematics is that of set.
+Here is a definition “A set is any well-defined list, collection or class of objects”.
+The objects in sets, as we shall see from examples, can be anything: But for clarity, we now list ten particular examples of sets: Example 1.1 The numbers 0,2,4,6,8 Example 1.2 The solutions of the equation x2 + 2x+1 = 0 Example 1.3 The vowels of the alphabet: a, e, i, o, u Example 1.4 The people living on earth Example 1.5 The students Tom, Dick and Harry Example 1.6 The students who are absent from school Example 1.7 The countries England, France and Denmark Example 1.8 The capital cities of Nigeria Example 1.9 The number 1, 3, 7, and 10 Example 1.10 The rivers in Nigeria 2MTH 131 ELEMENTARY SET THEORY Note that the sets in the odd numbered examples are defined, that is, presented, by actually listing its members; and the sets in the even numbered examples are defined by stating properties that is, rules, which decide whether or not a particular object is a member of the set.
+3.1.1 Notation Sets will usually be denoted by capital letters; A, B, X, Y,…… Lower case letters will usually represent the elements in our sets: Lets take as an example; if we define a particular set by actually listing its members, for example, let A consist of numbers 1,3,7, and 10, then we write A={1,3,7,10} That is, the elements are separated by commas and enclosed in brackets {}.
+We call this the tabular form of a set Now, try your hand on this Exercise 1.1 State in words and then write in tabular form 1.
+A = {x‌‌‌‌│x2 = 42} 2.
+B = {x│x – 2 = 5} 3.
+C = {x‌‌‌‌│x is positive, x is negative} 4.
+D = {x‌‌‌‌│x is a letter in the word “correct”} Solution: 1.
+It reads “A is the set of x such that x squared equals four”.
+The only numbers which when squared give four are 2 and -2.
+Hence A = {2, -2} 2.
+It reads “B is the set of x such that x minus 2 equals 5”.
+The only solution is 7; hence B = {7} 3.
+It read “C is the set of x such that x is positive and x is negative”.
+There is no number which is both positive and negative; hence C is empty, that is, C=Ø 3MTH 131 ELEMENTARY SET THEORY 4.
+It reads “D is the set of x such that x is letter in the work ‘correct’”.
+The indicated letters are c,o,r,e and t; thus D = {c,o,r,e,t} But if we define a particular set by stating properties which its elements must satisfy, for example, let B be the set of all even numbers, then we use a letter, usually x, to represent an arbitrary element and we write: B = {x‌│x is even} Which reads “B is the set of numbers x such that x is even”.
+We call this the set builders form of a set.
+Notice that the vertical line “│” is read “such as”.
+In order to illustrate the use of ht above notations, we rewrite the sets in examples 1.1-1.10.
+We denote the sets by A , A , ….. A respectively.
+1 2 10 Example 2.1: A = {0, 2, 4, 6, 8} 1 Example 2.2: A = {x│x2 +2x + 1 = 0} 2 Example 2.3: A = {a, e, i, o, u} 3 Example 2.4: A = {x │x is a person living on the earth} 4 Example 2.5: A = {Tom, Dick, Harry} 5 Example 2.6: A = {x │ x is a student and x is absent from 6 school} Example 2.7: A = {England, France, Denmark} 7 Example 2.8: A = {x│x is a capital city and x is in Nigeria} 8 Example 2.9: A = {1, 3, 7, 10} 9 Example 2.10: A = { x│x is a river and x is in Nigeria} 10 It is easy as that!
+Exercise 1.2 Write These Sets In A Set-Builder Form 1.
+Let A consist of the letters a, b, c, d and e 2.
+Let B = {2, 4, 6, 8……..} 3.
+Let C consist of the countries in the United Nations 4.
+Let D = {3} 5.
+Let E be the Heads of State Babangida, Abacha and Abdulsalami 4MTH 131 ELEMENTARY SET THEORY Solution 1.
+A = {x │x appears before f in the alphabet} = {x │x is one of the first letters in the alphabet} 2.
+B = {x │x is even and positive} 3.
+C = {x │x is a country, x is in the United Nations} 4.
+D = {x │x – 2 = 1} = {x│2x = 6} 5.
+E = {x │x was Head of state after Buhari} If an object x is a member of a set A, i.e., A contains x as one of its\ elements, then we write: x˛ A which can be read “x belongs to A” or ‘x is in A”.
+If, on the other hand, an object x is not a member of a set A, i.e A does not contain x as one of its elements, then we write; xˇ A It is a common custom in mathematics to put a vertical line “(cid:247) ” or “\” through a symbol to indicate the opposite or negative meaning of the symbol.
+Example 3:1: Let A = {a, e, i o, u}.
+Then a˛ A, bˇ A, fˇ A.
+Example 3.2: Let B = {x(cid:247) x is even}.
+Then 3ˇ B, 6˛ B, 11ˇ B, 14 ˛ B.
+3.1.1 Finite & Infinite Sets Sets can be finite or infinite.
+Intuitively, a set is finite if it consists of a specific number of different elements, i.e.
+if in counting the different members of the set the counting process can come to an end.
+Otherwise a set is infinite.
+Lets look at some examples.
+Example 4:1: Let M be the set of the days of the week.
+The M is finite Example 4:2: Let N = {0,2,4,6,8……..}.
+Then N is infinite 5MTH 131 ELEMENTARY SET THEORY Example 4:3: Let P = {x‌(cid:247) x is a river on the earth}.
+Although it may be difficult to count the number of rivers in the world, P is still a finite set.
+Exercise 1.3: which sets are finite?
+1.
+The months of the year 2.
+{1, 2, 3, ……… 99, 100} 3.
+The people living on the earth 4.
+{x | x is even} 5.
+{1, 2, 3,……..} Solution: The first three sets are finite.
+Although physically it might be impossible to count the number of people on the earth, the set is still finite.
+The last two sets are infinite.
+If we ever try to count the even numbers, we would never come to the end.
+3.1.2 Equality Of Sets Set A is equal to set B if they both have the same members, i.e if every element which belongs to A also belongs to B and if every element which belongs to B also belongs to A.
+We denote the equality of sets A and B by: A = B Example 5.1 Let A = {1, 2, 3, 4} and B = {3, 1, 4, 2}.
+Then A = B, that is {1,2,3,4} = {3,1,4,2}, since each of the elements 1,2,3 and 4 of A belongs to B and each of the elements 3,1,4 and 2 of B belongs to A.
+Note therefore that a set does not change if its elements are rearranged.
+Example 5.3 Let E={x ‌| x2–3x = -2}, F={2,1} and G ={1,2,2, 1}, Then E= F= G 6MTH 131 ELEMENTARY SET THEORY 3.1.3 Null Set It is convenient to introduce the concept of the empty set, that is, a set which contains no elements.
+This set is sometimes called the null set.
+We say that such a set is void or empty, and we denote its symbol˘ .
+Example 6.1 Let A be the set of people in the world who are older than 200 years.
+According to known statistics A is the null set.
+Example 6.2 Let B = {x ‌| x2 = 4, x is odd}, Then B is the empty set.
+3.2 Subsets If every element in a set A is also a member of a set B, then A is called subset of B.
+More specifically, A is a subset of B if x˛ A implies x˛ B.
+We denote this relationship by writing; A (cid:204) B, which can also be read “A is contained in B”.
+Example 7.1 The set C = {1,3,5} is a subset of D = {5,4,3,2,1}, since each number 1, 3 and 5 belonging to C also belongs to D. Example 7.2 The set E = {2,4,6} is a subset of F = {6,2,4}, since each number 2,4, and 6 belonging to E also belongs to F. Note, in particular, that E = F. In a similar manner it can be shown that every set is a subset of itself.
+Example 7.3 Let G = {x | x is even}, i.e.
+G = {2,4,6}, and let F = {x | x is a positive power of 2}, i.e.
+let F = {2,4,8,16…..} Then F (cid:204) G, i.e.
+F is contained in G. With the above definition of a subset, we are able to restate the definition of the equality of two sets.
+Two set A and B are equal, i.e A = B, if an only if A (cid:204) B and B(cid:204) A.
+If A is a subset of B, then we can also write B(cid:201) A 7MTH 131 ELEMENTARY SET THEORY which reads “B is a superset of A” or “B contains A”.
+Furthermore, we write: A ¸ B if A is not a subset of B. Conclusively, we state: 1.
+The null set ˘ is considered to be a subset of every set 2.
+If A is not a subset of B, that is, if A ¸ B, then there is at least one element in A that is not a member of B.
+3.2.1 Proper Subsets Since every set A is a subset of itself, we call B a proper subset of A if, first, is a subset of A and secondly, if B is not equal to A.
+More briefly, B is a proper subset of A if: B (cid:204) A and B „ A In some books “B is a subset of A” is denoted by B ˝ A and B” is a proper subset of A” is denoted by B (cid:204) A We will continue to use the previous notation in which we do not distinguished between a subset and a proper subset.
+3.2.2 Comparability Two sets A and B are said to be comparable if: A (cid:204) B or B (cid:204) A; That is, if one of the sets is a subset of the other set.
+Moreover, two sets A and B are said to be not comparable if: A ¸ B and B ¸ A 8MTH 131 ELEMENTARY SET THEORY Note that if A is not comparable to B then there is an element in A .which is not in B and … also, there is an element in B which is not in A.
+Example 8.1: Let A = {a,b} and B = {a,b,c}.
+The A is comparable to B, since A is a subset of B.
+Example 8.2: Let R – {a,b} and S = {b,c,d}.
+Then R and S are not comparable, since a ˛ R nd aˇ S and c ˇ R In mathematics, many statements can be proven to be true by the use of previous assumptions and definitions.
+In fact, the essence of mathematics consists of theorems and their proofs.
+We now proof our first Theorem 1.1If A is a subset of B and B is a subset of C then A is a subset of C, that is, A (cid:204) B and B (cid:204) C implies A (cid:204) B Proof: (Notice that we must show that any element in A is also an element in C).
+Let x be an element of A, that is, let x ˛ A.
+Since A is a subset of B, x also belongs to B, that is, x ˛ B.
+But by hypothesis, B (cid:204) C; hence every element of B, which includes x, is a number of C. We have shown that x ˛ A implies x ˛ C. Accordingly, by definition, A (cid:204) C. 3.2.3 Sets of Sets It sometimes will happen that the object of a set are sets themselves; for example, the set of all subsets of A.
+In order to avoid saying “set of sets”, it is common practice to say “family of sets” or “class of sets”.
+Under the circumstances, and in order to avoid confusion, we sometimes will let script letters A, B,……….
+Denote families, or classes, of sets since capital letters already denote their elements.
+9MTH 131 ELEMENTARY SET THEORY Example 9.1: In geometry we usually say “a family of lines” or “a family of curves” since lines and curves are themselves sets of points.
+Example 9.2: The set {{2,3}, {2}, {5,6}} is a family of sets.
+Its members are the sets {2,3}, {2} and {5,6}.
+Theoretically, it is possible that a set has some members, which are sets themselves and some members which are not sets, although in any application of the theory of sets this case arises infrequently.
+Example 9.3 Let A = {2, {1,3}, 4, {2,5}}.
+Then A is not a family of sets; here some elements of A are sets and some are not.
+3.2.4 Universal Set In any application of the theory of sets, all the sets under investigation will likely be subsets of a fixed set.
+We call this set the universal set or universe of discourse.
+We denote this set by U.
+Example 10.1:In plane geometry, the universal set consists of all the points in the plane.
+Example 10.2 In human population studies, the universal set consists of all the people in the world.
+3.2.5 Power Set The family of all the subsets of any set S is called the power set of S. We denote the power set of S by: 2S Example11.1Let M = {a,b} Then 2M = {{a, b}, {a}, {b}, ˘ } Example 11.2 Let T = {4,7,8} then 2T = {T, {4,7}, {4,8}, {7,8}, {4}, {7}, {8}, ˘ } If a set S is finite, say S has n elements, then the power set of S can be shown to have 2n elements.
+This is one reason why the class of subsets of S is called the power set of S and is denoted by 2S 10MTH 131 ELEMENTARY SET THEORY 3.2.6 Disjoint Sets If sets A and B have no elements in common, i.e if no element of A is in B and no element of B is in A, then we say that A and B are disjoint Example 12.1: Let A = {1,3,7,8} and B = {2,4,7,9}, Then A and B are not disjoint since 7 is in both sets, i.e 7˛ A and 7˛ B Example 12.2: Let A be the positive numbers and let B be the negative numbers.
+Then A and B are disjoint since no number is both positive and negative.
+Example 12.3: Let E = {x, y, z} and F = {r, s, t}, Then E and F are disjoint.
+3.3 Venn-Euler Diagrams A simple and instructive way of illustrating the relationships between sets is in the use of the so-called Ven-Euler diagrams or, simply, Venn .
+diagrams.
+Here we represent a set by a simple plane area, usually bounded by a circle.
+Example 13.1: Suppose A (cid:204) B and, say, A „ B, then A and B can be described by either diagram: B A A B Example 13.2: Suppose A and B are not comparable.
+Then A and B can be represented by the diagram on the right if they are disjoint, or the diagram on the let if they are not disjoint.
+11MTH 131 ELEMENTARY SET THEORY A A B A Example 13.3: Let A = {a, b, c, d} and B= {c, d, e, f}.
+Then we illustrate these sets a Venn diagram of the form: A B a c e b d f 3.
+4 Axiomatic Development Of Set Theory In an axiomatic development of a branch of mathematics, one begins with: 1.
+Undefined terms 2.
+Undefined relations 3.
+Axioms relating the undefined terms and undefined relations.
+Then, one develops theorems based upon the axioms and definitions Example 14:1 In an axiomatic development of Plane Euclidean geometry 1.
+“points” and “lines” are undefined terms 2.
+“points on a line” or, equivalent, “line contain a point” is an undefined relation 3.
+Two of the axioms are: Axiom 1: Two different points are on one and only one line Axiom 2: Two different lines cannot contain more than one point in common.
+12MTH 131 ELEMENTARY SET THEORY In an axiomatic development of set theory: 1.
+“element’ and “set” are undefined terms 2.
+“element belongs to a set” is undefined relation 3.
+Two of the axioms are Axiom of Extension: Two sets A and B are equal if and only if every element in A belongs to B and every element in B belongs to A. Axiom of Specification: Let P(x) be any statement and let A be any set.
+Then there exists a set: B={a(cid:247) a ˛ A, P(a) is true} Here, P(x) is a sentence in one variable for which P(a) is true or false for any a ˛ A. for example P(x) could be the sentence “x2 = 4” or “x is a member of the United Nations” 4.0 CONCLUSION You have been introduced to basic concepts of sets, set notation e.t.c that will be built upon in other units.
+If you have not mastered them by now you will notice you have to come back to this unit from time to time.
+5.0 SUMMARY A summary of the basic concept of set theory is as follows:  A set is any well-defined list, collection, or class of objects.
+ Given a set A with elements 1,3,5,7 the tabular form of representing this set is A = {1, 3, 5, 7}  The set-builder form of the same set is A = {x| x = 2n + 1,0 £ n£ 3}  Given the set N = {2,4,6,8,….}
+then N is said to be infinite, since the counting process of its elements will never come to an end, otherwise it is finite  Two sets of A and B are said to be equal if they both have the same elements, written A = B 13MTH 131 ELEMENTARY SET THEORY  The null set, ˘ , contains no elements and is a subset of every set  The set A is a subset of another set B, written A (cid:204) B, if every element of A is also an element of B, i.e.
+for every x˛ A then x˛ B  If B (cid:204) A and B „ A, then B is a proper subset of A  Two sets A and B are comparable if A(cid:204) B and B(cid:204) A  The power set 2S of any set S is the family of all the subsets of S  Two sets A and B are said to be disjoint if they do not have any element in common, i.e their intersection is a null set 6.0 TUTOR-MARKED ASSIGNMENTS 1.
+Rewrite the following statement using set notation: 1. x does not belong to A.
+2.
+R is a superset of S 3. d is a member of E 4.
+F is not a subset of G 5.
+H does not included D. 2.
+Which of these sets are equal: {r,t,s}, {s,t,r,s}, {t,s,t,r}, {s,r,s,t}?
+3.
+Which sets are finite?
+1.
+The months of the year 2.
+{1,2,3,……99, 100} 3.
+The people living on the earth 4.
+{x | x is even} 5.
+{1,2,3……..) The first three set are finite.
+Although physically it might be impossible to count the number of people on the earth, the set is still finite.
+The last two set are infinite.
+If we ever try to count the even numbers we would never come to the end.
+4.
+Which word is different from each other, and why: (1) empty, (2) void, (3)zero, (4) null?
+14MTH 131 ELEMENTARY SET THEORY 5 Let A = {x, y,z}.
+How many subsets does A contain, and what are they?
+7.0 REFERENCE AND FURTHER READING Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964,pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real-valued functions of a real variable, 1998, Vol.
+1) 15MTH 131 ELEMENTARY SET THEORY UNIT 2 BASIC SET OPERATIONS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Set Operations 3.1.1 Union 3.1.2 Intersection 3.1.3 Difference 3.1.4 Complement 3.2 Operations on Comparable Sets 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References and Further Readings 1.0 INTRODUCTION In this unit, we shall see operations performed on sets as in simple arithmetic.
+This operations simply give sets a language of their own.
+You will notice in subsequent units that you cannot talk of sets without reference, sort of, to these operations.
+2.0 OBJECTIVES At the end of this unit, you should be able to:  Compare two sets and/or assign to them another set depending on their comparability.
+ Represent these relationships on the Venn diagram.
+3.0 MAIN BODY 3.1 Set Operations In arithmetic, we learn to add, subtract and multiply, that is, we assign to each pair of numbers x and y a number x + y called the sum of x and y, a number x – y called the difference of x and y, and a number xy 16MTH 131 ELEMENTARY SET THEORY called the product of x and y.
+These assignments are called the operations of addition, subtraction and multiplication of numbers.
+In this unit, we define the operation Union, Intersection and difference of sets, that is, we will assign new pairs of sets A and B.
+In a later unit, we will see that these set operations behave in a manner somewhat similar to the above operations on numbers.
+3.1.1 Union The union of sets A and B is the set of all elements which belong to A or to B or to both.
+We denote the union of A and B by; A ¨ B Which is usually read “A union B” Example 1.1: In the Venn diagram in fig 2-1, we have shaded A ¨ B, i.e.
+the area of A and the area of B.
+A B A ¨ B is shaded Fig 2.1 Example 1.2: Let S = {a, b. c. d} and T = {f, b, d, g}.
+Then S T = {a, b, c, d, f, g}.
+Example 1.3: Let P be the set of positive real numbers and let Q be the set of negative real 17MTH 131 ELEMENTARY SET THEORY numbers.
+The P ¨ Q, the union of P and Q, consist of all the real numbers except zero.
+The union of A and B may also be defined concisely by A ¨ B = {x (cid:231) x ˛ A or x ˛ B} Remark 2.1:It follows directly from the definition of the union of two sets that A ¨ B and B ¨ A are the same set, i.e., A ¨ B = B ¨ A Remark 2.2:Both A and B are always subsets of A and B that is, A (cid:204) (A ¨ B) and B (cid:204) (A ¨ B) In some books, the union of A and B is denoted by A + B and is called the set-theoretic sum of A and B or, simply, A plus B.
+3.1.2 Intersection The Intersection of sets A and B is the set of elements which are common to A and B, that is, those elements which belong to A and which belong to B.
+We denote the intersection of A and B by: A ˙ B Which is read “A intersection B”.
+Example 2.1: In the Venn diagram in fig 2.2, we have shaded A ˙ B, the area that is common to both A and B.
+18MTH 131 ELEMENTARY SET THEORY A ˙ B is shaded Fig 2.2 Example 2.2: Let S = {a, b, c, d} and T = {f, b, d, g}.
+Then S ˙ T = {b, d} Example 2.3: Let V = 2, 3, 6, ……} i.e.
+the multiples of 2; and let W = {3, 6, 9,….}
+i.e.
+the multiples of 3.
+Then V ˙ W = {6, 12, 18……} The intersection of A and B may also be defined concisely by A ˙ B = {x (cid:231) x ˛ A, x ˛ B} Here, the comma has the same meaning as “and”.
+Remark 2.3:It follows directly from the definition of the intersection of two sets that; A ˙ B = B ˙ A Remark 2.4:Each of the sets A and B contains A ˙ B as a subset, i.e., (A ˙ B) (cid:204) A and (A ˙ B) (cid:204) B 19MTH 131 ELEMENTARY SET THEORY Remark 2.5:If sets A and B have no elements in common, i.e.
+if A and B are disjoint, then the intersection of A and B is the null set, i.e.
+A ˙ B = ˘ .
+In some books, especially on probability, the intersection of A and B is denoted by AB and is called the set-theoretic product of A and B or, simply, A times B.
+3.1.3 DIFFERENCE The difference of sets A and B is the set of elements which belong to A but which do not belong to B.
+We denote the difference of A and B by A – B Which is read “A difference B” or, simply, “A minus B”.
+Example 3.1: In the Venn diagram in Fig 2.3, we have shaded A – B, the area in A which is not part of B.
+A – B is shaded Fig 2.3 Example 3.2: Let R be the set of real numbers and let Q be the set of rational numbers.
+Then R – Q consists of the irrational numbers.
+The difference of A and B may also be defined concisely by A – B = { x (cid:247) x ˛ A, x ˇ B} 20MTH 131 ELEMENTARY SET THEORY Remark 2.6:Set A contains A – B as a subset, i.e., (A – B) (cid:204) A Remark 2.7:The sets (A – B), A ˙ B and (B – A) are mutually disjoint, that is, the intersection of any two is the null set.
+The difference of A and B is sometimes denoted by A/B or A ~ B 3.1.4 Complement The complement of a set A is the set of elements that do not belong to A, that is, the difference of the universal set U and A.
+We denote the complement of A by A¢ Example 4.1: In the Venn diagram in Fig 2.4, we shaded the complement of A, i.e.
+the area outside A.
+Here we assume that the universal set U consists of the area in the rectangle.
+A B A’ is shaded Fig.
+2.4 Example 4.2: Let the Universal set U be the English alphabet and let T = {a, b, c}.
+Then; T’ = {d, e, f, ….., y, z} Example 4.3: Let E = {2, 4, 6, …}, that is, the even numbers.
+Then E¢ = {1, 3, 5, …}, the odd numbers.
+Here we 21MTH 131 ELEMENTARY SET THEORY assume that the universal set is the natural numbers, 1, 2, 3,…..
+The complement of A may also be defined concisely by; A¢ = {x (cid:231) x ˛ U, x ˇ A} or, simply, A¢ = {x (cid:247) x ˇ A} We state some facts about sets, which follow directly from the definition of the complement of a set.
+Remark 2.8:The union of any set A and its complement A¢ is the universal set, i.e., A ¨ A’ = U Furthermore, set A and its complement A¢ are disjoint, i.e., A ˙ A’ = ˘ Remark 2.9: The complement of the universal set U is the null set ˘ , and vice versa, that is, U’ = ˘ and ˘ ’ = U Remark 2.10: The complement of the complement of set A is the set A itself.
+More briefly, (A¢ )¢ = A Our next remark shows how the difference of two sets can be defined in terms of the complement of a set and the intersection of two sets.
+More specifically, we have the following basic relationship: Remark 2.11:The difference of A and B is equal to the intersection of A and the complement of B, that is, A – B = A ˙ B¢ The proof of Remark 2.11 follows directly from definitions: 22MTH 131 ELEMENTARY SET THEORY A – B = {x (cid:247) x˛ A, xˇ B} = {x (cid:247) x˛ A, xˇ B’} = A ˙ B’ 3.2 Operations on Comparable Sets The operations of union, intersection, difference and complement have simple properties when the sets under investigation are comparable.
+The following theorems can be proved.
+Theorem 2.1: Let A be a subset of B.
+Then the union intersection of A and B is precisely A, that is, A (cid:204) B implies A ˙ B = A Theorem 2.2: Let A be a subset of B.
+Then the of A and B is precisely B, that is, A (cid:204) B implies A ¨ B = B Theorem 2.3: Let A be a subset of B.
+Then B’ is a subset of A’, that is, A (cid:204) B implies B’ (cid:204) A’ We illustrate Theorem 2.3 by the Venn diagrams in Fig 2-5 and 2-6.
+Notice how the area of B’ is included in the area of A’.
+B A B A B¢ is shaded A¢ is shaded Fig 2.5 Fig 2.6 23MTH 131 ELEMENTARY SET THEORY Theorem 2.4: Let A be a subset of B.
+Then the Union of A and (B – A) is precisely B, that is, A (cid:204) B implies A ¨ (B – A) = B Exercises 1.
+In the Venn diagram below, shade A Union B, that is, A ¨ B: (a) (b) (c) Solution: The union of A and B is the set of all elements that belong to A and to B or to both.
+We therefore shade the area in A and B as follows: 2.
+Let A = {1,2,3,4}, B = {2,4,6,8} and C = {3,4,5,6}.
+Find (a) A ¨ B, (b) A ¨ C, (c) B ¨ C, (d) B ¨ B.
+Solution: To form the union of A and B we put all the elements from A together with the elements of B Accordingly, A ¨ B = {1,2,3,4,6,8} 24MTH 131 ELEMENTARY SET THEORY A ¨ C = { 1,2,3,4,5,6} B ¨ C = {2,4,6,8,3,5} B ¨ B = {2,4,6,8} Notice that B¨ B is precisely B.
+3.
+Let A, B and C be the sets in Problem 2.
+Find (1) ( A ¨ B) ¨ C, (2) A ¨ (B ¨ C).
+Solution: 1.
+We first find (A ¨ B) = {1,2,3,4,6,8}.
+Then the union of {A ¨ B} and C is (A¨ B) ¨ C = {1,2,3,4,6,8,5} 2.
+We first find (B¨ C) = {2,4,6,8,3,5}.
+Then the union of A and (B¨ C) is A ¨ (B ¨ C) = {1,2,3,4,6,8,5}.
+Notice that (A ¨ B) ¨ C = A ¨ (B ¨ C).
+4.0 CONCLUSION You have seen how the basic operations of Union, Intersection, Difference and Complement on sets work like the operations on numbers.
+These are also the basic symbols associated with set theory.
+5.0 SUMMARY The basic set operations are Union, Intersection, Difference and Complement defined as:  The Union of sets A and B, denoted by A ¨ B, is the set of all elements, which belong to A or to B or to both.
+ The intersection of sets A and B, denoted by A ˙ B, is the set of elements, which are common to A and B.
+If A and B are disjoint then their intersection is the Null set ˘ .
+ The difference of sets A and B, denoted by A – B, is the set of elements which belong to A but which do not belong to B.
+25MTH 131 ELEMENTARY SET THEORY  The complement of a set A, denoted by A’, is the set of elements, which do not belong to A, that is, the difference of the universal set U and A.
+6.0 TUTOR – MARKED ASSIGNMENTS 1.
+Let X = {Tom, Dick, Harry}, Y = {Tom, Marc, Eric} and Z = {Marc, Eric, Edward}.
+Find (a) X ¨ Y, (b) Y ¨ Z (c) X ¨ Z 2.
+Prove: A ˙ ˘ = ˘ .
+3.
+Prove Remark 2.6: (A – B) (cid:204) A.
+4.
+Let U = {1,2,3,…,8,9}, A = {1,2,3,4}, B = {2,4,6,8} and C = {3,4,5,6}.
+Find (a) A’, (b) B’, (c) (A ˙ C)’, (d) (A ¨ B)’, (e) (A’)’, (f) (B – C)’ 5.
+Prove: B – A is a subset of A’.
+7.0 REFERENCES AND FURTHER READINGS Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964, pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real – valued functions of a real variable), 1998, Vol.
+1 26MTH 131 ELEMENTARY SET THEORY UNIT 3 SET OF NUMBERS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Set Operations 3.1.1 Integers, Z 3.1.2 Rational numbers, Q 3.1.3 Natural Numbers, N 3.1.4 Irrational Numbers, Q’ 3.1.5 Line diagram of the Number systems 3.2 Decimals and Real Numbers 3.3 Inequalities 3.4 Absolute Value 3.5 Intervals 3.5.1 Properties of intervals 3.5.2 Infinite Intervals 3.6 Bounded and Unbounded Sets 4.0 Conclusion 5.0 Summary 6.0 Tutor – Marked Assignments 7.0 References and Further Readings 1.0 INTRODUCTION Although, the theory of sets is very general, important sets, which we meet in elementary mathematics, are sets of numbers.
+Of particular importance, especially in analysis, is the set of real numbers, which we denote by ´ In fact, we assume in this unit, unless otherwise stated, that the set of real numbers ´ is out universal set.
+We first review some elementary properties of real numbers before applying our elementary principles of set theory to sets of numbers.
+The set of real numbers and its properties is called the real number system.
+27MTH 131 ELEMENTARY SET THEORY 2.0 OBJECTIVES After studying this unit, you should be able to do the following:  Represent the set of numbers on the real line  Perform the basic set operations on intervals 3.0 MAIN BODY ´ 3.1 Real Numbers, One of the most important properties of the real numbers is that points on a straight line that can represent them.
+As in Fig 3.1, we choose a point, called the origin, to represent 0 and another point, usually to the right, to represent 1.
+Then there is a natural way to pair off the points on the line and the real numbers, that is, each point will represent a unique real number and each real number will be represented by a unique point.
+We refer to this line as the real line.
+Accordingly, we can use the words point and number interchangeably.
+Those numbers to the right of 0, i.e.
+on the same side as 1, are called the positive numbers and those numbers to the left of 0 are called the negative numbers.
+The number 0 itself is neither positive nor negative.
+e = 2.
+718 -p ½ (cid:214) 2 p -5 - 4 -3 -2 -1 0 1 2 3 4 5 Fig 3.1 3.1.2 Integers, Z The integers are those real numbers …, -3, -2, -1, 0, 1, 2, 3,… We denote the integers by Z; hence we can write Z = { …, -2, - 1, 0, 1, 2,…} The integers are also referred to as the “whole” numbers.
+28MTH 131 ELEMENTARY SET THEORY One important property of the integers is that they are “closed” under the operations of addition, multiplication and subtraction; that is, the sum, product and difference of two integers is again in integer.
+Notice that the quotient of two integers, e.g.
+3 and 7, need not be an integer; hence the integers are not closed under the operation of division.
+3.1.3 Rational Numbers, Q The rational numbers are those real numbers, which can be expressed as the ratio of two integers.
+We denote the set of rational numbers by Q.
+Accordingly, Q = {x (cid:239) x = p q where p ˛ z, q ˛ z} Notice that each integer is also a rational number since, for example, 5 = 5/1; hence Z is a subset of Q.
+The rational numbers are closed not only under the operations of addition, multiplication and subtraction but also under the operation of division (except by 0).
+In other words, the sum, product, difference and quotient (except by 0) of two rational numbers is again a rational number.
+3.1.4 Natural Numbers, N The natural numbers are the positive integers.
+We denote the set of natural numbers by N; hence N = {1,2,3…..} The natural numbers were the first number system developed and were used primarily, at one time, for counting.
+Notice the following relationship between the above numbers systems: N (cid:204) Z (cid:204) Q (cid:204) ´ The natural numbers are closed only under the operation of addition and multiplication.
+The difference and quotient of two natural numbers needed not be a natural number.
+The prime numbers are those natural numbers p, excluding 1, which are only divisible 1 and p itself.
+We list the first few prime numbers: 2,3,5,7,11,13,17,19… 29MTH 131 ELEMENTARY SET THEORY 3.1.5 Irrational Numbers, Q’ The irrational numbers are those real numbers which are not rational, that is, the set of irrational numbers is the complement of the set of rational numbers Q in the real numbers ´ ; hence Q’ denote the irrational numbers.
+Examples of irrational numbers are (cid:214) 3, p , (cid:214) 2, etc.
+3.1.6 Line Diagram of the Number Systems Fig 3 -2 below is a line diagram of the various sets of number, which we have investigated.
+(For completeness, the diagram include the sets of complex numbers, number of the form a + bi where a and b are real.
+Notice that the set of complex numbers is superset of the set of real numbers.)
+Complex Numbers Real Numbers Rational Numbers Irrational Numbers Integers Negative Integers Zero Natural Numbers Prime Numbers Fig 3.2 3.2 Decimals and Real Numbers Every real number can be represented by a “non-terminating decimal”.
+The decimal representation of a rational number p/q can be found by 30MTH 131 ELEMENTARY SET THEORY “dividing the denominator q into the numerator p”.
+If the indicated division terminates, as for 3/8 = .375 We write 3/8 = .375000 Or 3/8 = .374999… If we indicated division of q into p does not terminate, then it is known that a block of digits will continually be repeated; for example, 2/11 = .181818… We now state the basic fact connecting decimals and real numbers.
+The rational numbers correspond precisely to those decimals in which a block of digits is continually repeated, and the irrational numbers correspond to the other non-terminating decimals.
+3.3 Inequalities The concept of “order” is introduced in the real number system by the Definition: The real number a is less than the real number b, written a < b If b – a is a positive number.
+The following properties of the relation a < b can be proven.
+Let a, b and c be real numbers; then: P : Either a < b, a = b or b < a.
+1 P : If a < b and b < c, then a < c. 2 P : If a < b, then a + c < b + c 3 P : If a < b and c is positive, then ac < bc 4 P : If a < b and c is negative, then bc < ac.
+5 Geometrically, if a < b then the point a on the real line lies to the left of the point b.
+We also denote a < b by b > a 31MTH 131 ELEMENTARY SET THEORY Which reads “b is greater then a”.
+Furthermore, we write a < b or b > a if a < b or a = b, that is, if a is not greater than b.
+Example 1.1: 2 < 5; -6 < -3 and 4 < 4; 5 > -8 Example 1.2: The notation x < 5 means that x is a real number which is less than 5; hence x lies to the left of 5 on the real line The notation 2 < x < 7; means 2 < x and also x < 7; hence x will lie between 2 and 7 on the real line.
+Remark 3.1:Notice that the concept of order, i.e.
+the relation a < b, is defined in terms of the concept of positive numbers.
+The fundamental property of the positive numbers which is used to prove properties of the relation a < b is that the positive numbers are closed under the operations of addition and multiplication.
+Moreover, this fact is intimately connected with the fact that the natural numbers are also closed under the operations of addition and multiplication.
+Remark 3.2:The following statements are true when a, b, c are any real numbers: 1. a < a 2. if a < b and b < a then a = b.
+3. if a < b and b < c then a < c. 3.4 Absolute Value The absolute value of a real number x, denoted by (cid:247) x(cid:247) is defined by the formula (cid:247) x(cid:247) = x if x > 0 -x if x < 0 32MTH 131 ELEMENTARY SET THEORY that is, if x is positive or zero then (cid:247) x(cid:247) equals x, and if x is negative then (cid:247) x(cid:247) equals – x. Consequently, the absolute value of any number is always non-negative, i.e.
+(cid:247) x(cid:247) > 0 for every x ˛ ´ .
+Geometrically speaking, the absolute value of x is the distance between the point x on the real line and the origin, i.e.
+the point 0.
+Moreover, the distance between any two points, i.e.
+real numbers, a and b is (cid:247) a - b(cid:247) = (cid:247) b - a(cid:247) .
+Example 2.1: (cid:247) -2(cid:247) = 2, (cid:247) 7(cid:247) = 7.
+(cid:247) -(cid:247)p = p Example 2.2: The statement (cid:247) x(cid:247) < 5 can be interpreted to mean that the distance between x and the origin is less than 5, i.e.
+x must lies between -5 and 5 on the real line.
+In other words, (cid:247) x(cid:247) < 5 and -5 < x < 5 have identical meaning.
+Similarly, (cid:247) x(cid:247) < 5 and -5 < x < 5 have identical meaning.
+3.5 Intervals Consider the following set of numbers; A = {x(cid:247) 2 < x < 5} 1 A = {x(cid:247) 2 < x < 5} 2 A = {x(cid:247) 2 < x < 5} 3 A = {x(cid:247) 2 < x < 5} 4 Notice, that the four sets contain only the points that lie between 2 and 5 with the possible exceptions of 2 and/or 5.
+We call these sets intervals, the numbers 2 and 5 being the endpoints of each interval.
+Moreover, A is an open interval as it does not contain either end point: 1 33MTH 131 ELEMENTARY SET THEORY A is a closed interval as it contains bother endpoints; A and A are 2 3 4 open-closed and closed-open respectively.
+We display, i.e.
+graph, these sets on the real line as follows.
+- - - - - 0 1 2 3 4 5 6 A 1 - - - - - 0 1 2 3 4 5 6 A 2 - - - - - 0 1 2 3 4 5 6 A 3 - - - - - 0 1 2 3 4 5 6 A 4 Notice that in each diagram we circle the endpoints 2 and 5 and thicken (or shade) the line segment between the points.
+If an interval includes an endpoint, then this is denoted by shading the circle about the endpoint.
+Since intervals appear very often in mathematics, a shorter notation is frequently used to designated intervals, Specifically, the above intervals are sometimes denoted by; A = (2, 5) 1 A = [2, 5] 2 A = (2, 5) 3 A = [2, 5) 4 34MTH 131 ELEMENTARY SET THEORY Notice that a parenthesis is used to designate an open endpoint, i.e.
+an endpoint that is not in the interval, and a bracket is used to designate a closed endpoint.
+3.5.1 Properties of Intervals Let ` be the family of all intervals on the real line.
+We include in ` the null set ˘ and single points a = [a, a].
+Then the intervals have the following properties: 1.
+The intersection of two intervals is an interval, that is, A ˛ ` , B ˛ ` implies A ˙ B ˛ ` 2.
+The union of two non-disjoint intervals is an interval, that is, A ˛ ` , B ˛ ` , A ˙ B „ ˘ implies A ¨ B ˛ ` 3.
+The difference of two non-comparable intervals is an interval, that is, A ˛ ` , B ˛ ` , A ¸ B, B ¸ A implies A - B ˛ ` Example 3.1: Let A = {2, 4), B = (3, 8).
+Then A ˙ B = (3, 4), A ¨ B = [2, 8) A – B = [2, 3], B – A = [4, 8) 3.5.2 Infinite Intervals Sets of the form A = {x(cid:247) x > 1} B = {x(cid:247) x > 2 C = {x(cid:247) x < 3} D = {x(cid:247) x < 4} E = {x (cid:247) x ˛ ´ } Are called infinite intervals and are also denoted by A = (1, ¥ ), B = [2, ¥ ), C = ( -¥ , 3), D = (-¥ , 4], E = (-¥ , ¥ ) 35MTH 131 ELEMENTARY SET THEORY We plot these intervals on the real line as follows: -4 -3 -2 -1 0 1 2 3 4 A is shaded -4 -3 -2 -1 0 1 2 3 4 B is shaded -4 -3 -2 -1 0 1 2 3 4 C is shaded -4 -3 -2 -1 0 1 2 3 4 D is shaded -4 -3 -2 -1 0 1 2 3 4 E is shaded 3.6 Bounded and Unbounded Sets Let A be a set of numbers, then A is called bounded set if A is the subset of a finite interval.
+An equivalent definition of boundedness is Definition 3.1: Set A is bounded if there exists a positive number M such that (cid:247) x (cid:247) £ M. for all x ˛ A.
+A set is called unbounded if it is not bounded 36MTH 131 ELEMENTARY SET THEORY Notice then, that A is a subset of the finite interval [ - M, M].
+Example 4.1: Let A = {1, ½ , 1/3,…..}.
+Then A is bounded since A is certainly a subset of the closed interval [0, 1].
+Example 4.2: Let A = {2, 4, 6,…..}.
+Then A is an unbounded set.
+Example 4.3: Let A = {7, 350, -473, 2322, 42}.
+Then A is bounded Remark 3.3: If a set A is finite then, it is necessarily bounded.
+If a set is infinite then it can be either bounded as in example 4.1 or unbounded as in example 4.2 4.0 CONCLUSION The set of real numbers is of utmost importance in analysis.
+All (except the set of complex numbers) other sets of numbers are subsets of the set of real numbers as can be seen from the line diagram of the number system.
+5.0 SUMMARY In this unit, you have been introduced to the sets of numbers.
+The set of real numbers, ´ , contains the set of integers, Z, Rational numbers, Q, Natural numbers, N, and Irrational numbers, Q’.
+Intervals on the real line are open, closed, open-closed or closed-open depending on the nature of the endpoints.
+6.0 TUTOR-MARKED ASSIGNMENTS 1.
+Prove: If a < b and B < c, then a < c 2.
+Under what conditions will the union of two disjoint interval be an interval?
+3.
+If two sets R and S are bounded, what can be said about the union and intersection of these sets?
+7.0 REFERENCES AND FURTHER READINGS 37MTH 131 ELEMENTARY SET THEORY Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964, pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real – valued functions of a real variable), 1998, Vol.
+1 38MTH 131 ELEMENTARY SET THEORY UNIT 4 FUNCTIONS I CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main body 3.1 Definition 3.2 Mappings, Operators, Transformations 3.3 Equal functions 3.4 Range of a function 3.5 One – One functions 3.6 Onto functions 3.7 Identity function 3.8 Constant Functions 3.9 Product Function 3.9.1 Associativity of Products of Functions 3.10 Inverse of a function 3.11 Inverse Function 3.11.1 Theorems on the Inverse Function 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignments 7.0 References and Further Readings 1.0 INTRODUCTION In this unit, you will be introduced to the concept of functions, mappings and transformations.
+You will also be given instructive and typical examples of functions.
+2.0 OBJECTIVES At the end of this unit, you should be able to:  Identify functions from statements or diagrams  State whether a function is one-one or onto  Find composition function of two or more functions 39MTH 131 ELEMENTARY SET THEORY 3.0 MAIN BODY 3.1 Definition Suppose that to each element in a set A there is assigned by some manner or other, a unique element of a set ´ .
+We call such assignment of function.
+If we let ƒ denote these assignments, we write; f : A B which reads “f is a function of A onto B”.
+The set A is called the domain of the function f, and B is called the co-domain of f. Further, if a ˛ A the element in B which is assigned to a is called the image of a and is denoted by; ƒ(a) which reads “f of a”.
+We list a number of instructive examples of functions.
+Example 1.1: Let f assign to each real number its square, that is, for every real number x let f(x) = x2.
+The domain and co- domain of f are both the real numbers, so we can write f : ´ ´ The image of -3 is 9; hence we can also write f(-3) = 9 or f : 3  9 Example 1.2: Let f assign to each country in the world its capital city.
+Here, the domain of f is the set of countries in the world; The co-domain of f is the list of capital cities in the world.
+The image of France is Paris, that is, f(France) = Paris Example 1.3: Let A = {a, b, c, d} and B = {a, b, c}.
+Define a function f of A into B by the correspondence f(a) = b, f(b) = c, f(c) = c and f(d) = b.
+By this definition, the image, for example, of b is c. 40MTH 131 ELEMENTARY SET THEORY Example 1.4: Let A = {-1, 1}.
+Let f assign to each rational number in ´ the number 1, and to each irrational number in ´ the number -1.
+Then f: ﬁ´ A, and f can be defined concisely by f(x) = 1 if x is rational -1 if a is irrational Example 1.5: Let A = {a, b, c, d} and B = {x, y, z}.
+Let f: A ﬁ B be defined by the diagram: x a y b z c d Notice that the functions in examples 1.1 and 1.4 are defined by specific formulas.
+But this need not always be the case, as is indicated by the other examples.
+The rules of correspondence which define functions can be diagrams as in example 1.5, can be geographical as in example 1.2, or, when the domain is finite, the correspondence can be listed for each element in the domain as in example 1.4.
+3.2 Mappings, Operators, Transformations If A and B are sets in general, not necessarily sets of numbers, then a function f of A into B is frequently called a mapping of A into B; and the notation f: : A ---> B is then read “f maps A into B”.
+We can also denote a mapping, or function, f of A into B by 41MTH 131 ELEMENTARY SET THEORY ƒ A B Or by the diagram B ƒ A If the domain and co-domain of a function are both the same set, say f: A ---> A then f is frequently called an operator or transformation on A.
+As we will see later operators are important special cases of functions.
+3.3 Equal Functions If f and g are functions defined on the same domain D and if f(a) = g(a) for every a ˛ D, then the functions f and g are equal and we write f = g Example 2.1: Let f(x) = x2 where x is a real number.
+Let g(x) = x2 where x is a complex number.
+Then the function f is not equal to g since they have different domains.
+Example 2.2: Let the function f be defined by the diagram 1 1 2 2 3 4 Let a function g be defined by the formula g(x) = x2 where the domain of g is the set {1, 2}.
+Then f = g since they both have 42MTH 131 ELEMENTARY SET THEORY the same domain and since f and g assign the same image to each element in the domain.
+Example 2.3: Let f: ´ ﬁ ´ and g: ´ ﬁ ´ .
+Suppose f is defined by f(x) = x2 and g by g(y) = y2.
+Then f and g are equal functions, that is, f = g. Notice that x and y are merely dummy variable in the formulas defining the functions.
+3.4 Range of a Function Let f be the mapping of A into B, that is, let f: A ﬁ B.
+Each element in B need not appear as the image of an element in A.
+We define the range of f to consist precisely of those elements in B which appear and the image of at least one element in A.
+We denote the range of f: A ﬁ B y f(A) f(A) Notice that f(A) is a subset of B. i.e f(A) Example 3.1 Let the function f: ´ ﬁ ´ be defined by the formula f(x) = x2.
+Then the range of f consists of the positive real numbers and zero.
+Example 3.2 Let f: A ﬁ B be the function in Example 1.3.
+Then f(A) = {b, c} 3.5 One – One (Injective) Functions Let f map A into B.
+Then f is called a one-one or Injective function if different elements in B are assigned to different elements in A, that is, if no two different elements in A have the same image.
+More briefly, f: A ﬁ B is one-one if f(a) = f(a’) implies a = a` or, equivalently, a = a` implies f(a) „ f(a`) Example 4.1: Let the function f: ´ ﬁ ´ be defined by the formula f(x) = x2.
+Then f is not a one-one function since f(2) = f(-2) = 4, that is, since the image of 43MTH 131 ELEMENTARY SET THEORY two different real numbers, 2 and -2, is the same number, 4.
+Example 4.2: Let the function f: ´ ﬁ ´ be defined by the formula f(x) = x3.
+Then f is a one-one mapping since the cubes of the different real numbers are themselves different.
+Example 4.3: The function f which assigns to each country in the world, its capital city is one-one since different countries have different capitals, that is no city is the capital of two different countries.
+3.6 Onto (Subjective) Function Let f be a function of A into B.
+Then the range f(A) of the function f is a subset of B, that is, f(A) (cid:204) B.
+If f(A) = B, that is, if every member of B appears as the image of at least one element of A, then we say “f is a function of A onto B”, or “f maps A onto B”, of “f is an onto or Subjective function”.
+Example 5.1: Let the function f: ´ ﬁ ´ be defined by the formula f(x) = x2.
+Then f is not an onto function since the negative numbers do not appear in the range of f, that is no negative number is the square of a real number.
+Example 5.2: Let f: A ﬁ B be the function in Example 1.3.
+Notice that f(A) = {b, c}.
+Since B = {a, b, c} the range of f does not equal co-domain, i.e.
+is not onto.
+Example 5.3: Let f: A ﬁ B be the function in example 1.5: Notice that f(A) = {x, y, z} = B that is, the range of f is equal to the co-domain B.
+Thus f maps A onto B, i.e.
+f is an onto mapping.
+44MTH 131 ELEMENTARY SET THEORY 3.7 Identity Function Let A be any set.
+Let the function f: A ﬁ A be defined b y the formula f(x) = x, that is, let f assign to each element in A the element itself.
+Then f is called the identity function or the identity transformation on A.
+We denote this function by 1 or by 1 .
+A 3.8 Constant Functions A function f of A onto B is called a constant function if the same element of b˛ B is assigned to every element in A.
+In other words, f: A ﬁ B is a constant function if the range of f consists of only one element.
+3.9 Product Function Let F: A ﬁ B and g: B ﬁ C be two functions then the product of functions f and g is denoted (g o f) : A ﬁ C defined by (g o f)(a) = g (f(a)) We can now complete our diagram: g ƒ A B C (g o f) Example 7.1: Let f: A ﬁ B and g: B ﬁ C be defined by the diagrams 45MTH 131 ELEMENTARY SET THEORY A B C a x r b y s c z t We compute (g o f): A ﬁ C by its definition: (g o f)(a) ” g(f(a)) = g(y) = t (g o f)(b) ” g(f(a)) = g(z) = r (g o f)(c) ” g(f(a)) = g(y) = t Notice that the function (g o f) is equivalent to “following the arrows” from A to C in the diagrams of the functions f and g. Example 7.2: To each real number let f assign its square, i.e.
+let f(x) = x2.
+To each real number let g assign the number plus 3, i.e.
+let g(x) = x + 3.
+Then (g o f)(x) ” f(g(x)) = f(x+3) = (x+3)2 = x2 + 6x + 9 (g o f)(x) ” g(f(x)) = g(x2) = x2 + 3 Remark 4.1: Let f: A ﬁ B.
+Then I o f = f and f o 1 = f B A that is, the product of any function and identity is .
+the function itself.
+3.9.1 Associativity of Products Of Functions Let f: A ﬁ B, g: B ﬁ C and h: c ﬁ D. Then, as illustrated in Figure 4-1, we can form the production function g o f: A ﬁ C, and then the function 46MTH 131 ELEMENTARY SET THEORY h o (g o f): A ﬁ D. f g h A B C D (g o f) (h o (g o f) Fig.
+4.1 Similarly, as illustrated in Figure 4-2, we can form the product function h o g: B --> D and then the function (h o g) o f: A ﬁ D. A B C D (h o g) (h o (g o f) Fig 4.2 Both h o (g o f) and (h o g) o f are function of A into D. A basic theorem on functions states that these functions are equal.
+Specifically, Theorem 4.1: Let f: A ﬁ B, B ﬁ C and h: C ﬁ D. Then (h o g) o f = h o (g o f) In view of Theorem 4.1, we can write 47MTH 131 ELEMENTARY SET THEORY h o g o f: A ﬁ D without any parenthesis.
+3.10 Inverse of a Function Let f be a function of A into B, and let b ˛ B.
+Then the inverse of b, denoted by f -1 (b) Consist of those elements in A which are mapped onto b, that is, those element in A which have m as their image.
+More briefly, if f: A ﬁ B then f -1 (b) = {x} x ˛ A; f(x) = b} Notice that f -1 (b) is always a subset of A.
+We read f -1 as “f inverse”.
+Example 8.1: Let the function f: A ---> B be defined by the diagram a x b y c z Then f -1 (x) = {b, c}, since both b and c have x as their image point.
+Also, f -1 (y) = {a}, as only a is mapped into y.
+The inverse of z, f -1 (z), is the null set ˘ , since no element of A is mapped into z.
+Example 8.2: Let f: ´ ---> ´ , the real numbers, be defined by the formula f(x) = x2.
+Then f -1 (4) = {2, -2}, since 4 is the image of both 2 and -2 and there is no other real number whose square is four.
+Notice that f -1 (-3) = ˘ , since there is no element in ´ whose square is -3.
+48MTH 131 ELEMENTARY SET THEORY Example 8.3: Let f be a function of the complex numbers into the complex numbers, where f is defined by the formula f(x) = x2.
+Then f -1 (3) = { (cid:214) 3i, - (cid:214) 3i}, as the square of each of these numbers is -3.
+Notice that the function in Example 8.2 and 8.3 are different although they are defined by the same formula We now extend the definition of the inverse of a function.
+Let f: A --> B and let D be a subset of B, that is, D (cid:204) B.
+Then the inverse of D under the mapping f, denoted by f –1 (D), consists of those elements in A which are mapped onto some element in D. More briefly, f -1 (D) = {x(cid:247) x ˛ A, f(x) ˛ D} Example 9.1: Let the function f: A --> B be defined by the diagram x r y s z t Then f -1 ({r, s}) = {y}, since only y is mapped into r or s. Also f -1 ({r, t}) = {x, y, z} = A, since each element in A as its image r or t. Example 9.2: Let f: ´ ---> ´ be defined by f(x) = x2, and let D = [4, 9] = {x (cid:247) 4 £ x £ 9} Then f -1 (D) = {x (cid:247) -3 £ x £ -2 or 2 £ x £ 3} Example 9.3: Let f: A ---> B be any function.
+Then f -1 (B) = A, since every element in A has its image in B.
+If f(A) denote the range of the function f, then f -1 (f(A)) = A 49MTH 131 ELEMENTARY SET THEORY Further, if b ˛ B, then f -1(b) = f -1({b}) Here f -1 has two meanings, as the inverse of an element of B and as the inverse of a subset of B.
+3.11 Inverse Function Let f be a function of A into B.
+In general, f -1(b) could consist of more than one element or might even be empty set ˘ .
+Now if f: A ﬁ B is a one-one function and an onto function, then for each b ˛ B the inverse f -1 (b) will consist of a single element in A.
+We therefore have a rule that assigns to each b ˛ B a unique element f -1(b) in A.
+Accordingly, f -1 is a function of B into A and we can write f -1 : B ﬁ A In this situation, when f: A ﬁ B is one-one and onto, we call f -1 the inverse function of f. Example 10.1: Let the function f: A ﬁ B be defined by the diagram f a x b y c z Notice that f is one-one and onto.
+Therefore f -1, the inverse function exists We describe f -1: B ﬁ A by the diagram f -1 x a 50MTH 131 ELEMENTARY SET THEORY y b z c Example 6.1: Let the function f be defined by the diagram: a 1 b 2 c 3 Then f is a constant function since 3 is assigned to every element in A.
+Example 6.3: Let f: ´ ﬁ ´ be defined by the formula f(x) = 5.
+Then f is a constant function since 5 is assigned to every element.
+3.9 Product Function Let f be a function of A and B and let g be a function of B, the co- domain of f, into C. We illustrate the function below.
+f g A B C Let a ˛ A; then its image f (x) is in B which is the domain of g. Accordingly, we can find the image of f (a) under the mapping of g, that is, we can find g (f(a)).
+Thus, we have a rule which assigns to each element a˛ A a corresponding element (f(a))˛ C. In other words, we have a function of A into C. This new function is called the product function or composition function of f and g and it is denoted by 51MTH 131 ELEMENTARY SET THEORY (g o f) or (gf) More briefly, if f: A ﬁ B and g: B ﬁ C then we define a function Notice further, that if we send the arrows in the opposite direction in the first diagram of f we essentially have the diagram of f -1.
+Example 10.2: Let the function f: A ﬁ B be defined by the diagram a x b y c z Since f(a) = y and f(c) = y, the function f is not one-one.
+Therefore, the inverse function f -1 does not exist.
+As f -1 (y) = {a, c}, we cannot assign both a and c to the element y ˛ B.
+Example 10.3: Let f: ´ ﬁ ´ , the real numbers, be defined by f(x) = x3.
+Notice that f is one-one and onto.
+Hence f -1: ´ ﬁ ´ exists.
+In fact, we have a formula which defines the inverse function, f -1 (x) = 3(cid:214) x.
+3.11.1 Theorems on the inverse Function Let a function f: A ﬁ B have an inverse function f -1: B ﬁ A.
+Then we see by the diagram 52MTH 131 ELEMENTARY SET THEORY f f -1 A B A ( f -1 o f) That we can form the product (f -1 o f) which maps A into A, and we see by the diagram f -1 f B A B ( f o f-1) That we can form the product function (f o f -1) which maps B into B.
+We now state the basic theorems on the inverse function: Theorem 4.2: Let the function f: A ﬁ B be one-one and onto; i.e.
+the inverse function f -1: B ﬁ A exists.
+Then the product function (f -1 o f): A ﬁ A is the identity function on A, and the product function (f o f -1): B ﬁ B is the identity function on B. Theorem 4.3: Let f: A ﬁ B and g: B ﬁ A.
+Then g is the inverse function of f, i.e.
+g = f – 1, if the product function (g o f): A ﬁ A is the 53MTH 131 ELEMENTARY SET THEORY identity function on A and (f o g): B ﬁ B is the identity function on B.
+Both conditions are necessary in Theorem 4.3 as we shall see from the example below x a a x b b y c c y (a) (b) Now define a function g: B ﬁ A by the diagram (b) above.
+We compute (g o f): A ﬁ A, (g o f)(x) = g (f(x)) = g(c) = x and (g o f)(y) = g (f(y)) = g(a) = y Therefore the product function (g o f) is the identity function on A.
+But g is not the inverse function of f because the product function (f o G) is not the identity function on B, f not being an onto function.
+4.0 CONCLUSION I believe that by now you fully grasp the idea of functions, mappings and transformations.
+This knowledge will be built upon in subsequent units.
+5.0 SUMMARY Recall that in this unit we have studied concepts such as mappings and functions.
+We have also examined the concepts of one-to-one and onto functions.
+This concept has allowed us to explain equality between two sets.
+We also established in the unit that the inverse of f: A – B usually denoted f-1, exit, if f is a one-to-one and onto function.
+54MTH 131 ELEMENTARY SET THEORY It is instructive to note that Inverse function is not studied in isolation but more importantly a useful and powerful tool in understanding calculus.
+6.0 TUTOR – MARKED ASSIGNMENTS 1.
+Let the function f: R# ﬁ R# be defined by f (X) = {1 if x is rational] {-1 if x is irrational.
+a.
+Express f in words b.
+Suppose the ordered pairs (x + y, 1) and (3, x – y) are equal.
+Find x and y.
+2.
+Let M = {1, 2, 3, 4, 5} and let the function f: M ﬁ ´ be defined by f(x) = x2 + 2x -1 Find the graph of f. 3.
+Prove: A x (B ˙ C) = (A x B) ˙ (A x C) 4.
+Prove A (cid:204) B and C (cid:204) D implies (A x C) (cid:204) (B x D).
+7.0 REFERENCES AND FURTHER READINGS Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964, pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real – valued functions of a real variable), 1998, Vol.
+1 55MTH 131 ELEMENTARY SET THEORY UNIT 5 FUNCTIONS II CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Ordered Pairs 3.2 Product Set 3.3 Coordinate Diagrams 3.4 Graph of a Function 3.4.1 Properties of the graph of a function 3.5 Graphs and Coordinate diagrams 3.5.1 Properties of Graphs of Functions on Coordinate diagrams 3.6 Functions as sets of ordered pairs 3.7 Product Sets in General 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References and Further Readings.
+1.0 INTRODUCTION In this unit, we are going to define a type of set that not only gives a better understanding of Cartesian coordinate but also brings the concept of real-valued functions to the fore.
+2.0 OBJECTIVES At the end of this unit, you should be able to:  Find the ordered pairs, given two sets  Find the ordered pairs corresponding to the points on the Cartesian coordinate diagram  Find the graph of functions  State whether or not a set of ordered pairs of a given set, say A, is a function of A into itself.
+56MTH 131 ELEMENTARY SET THEORY 3.0 MAIN BODY 3.1 Ordered Pairs Intuitively, an ordered pair consists of two elements, say a and b, in which one of them, say a, is designated as the first element and the other as the second element.
+An ordered pair is denoted by (a, b) Two ordered pairs (a, b) and (c, d) are equal if and only if a = c and b = d. Example 1.1: The ordered pairs (2, 3) and (3, 2) are different Example 1.2: The points in the Cartesian plane shown in fig 5.1 below represent ordered pairs of real numbers.
+Example 1.3: The set {2, 3} is not an ordered pair since the elements 2 and 3 are not distinguished Example 1.4: Ordered pairs can have the same first and second elements such as (1, 1), (4, 4) and (5, 5).
+Although the notation (a, b) is also used to denote an open interval, the correct meaning will be clear from the context.
+Remark 5.1:An ordered pair (a, b) can be defined rigorously by (a, b) = { {a}, {a, b} }} From this definition, the fundamental property of ordered pairs can be proven: (a, b) = (c, d) implies a = c and b = d 3.2 Product Set Let A and B be two sets.
+The product set of A and B consists of all ordered pairs (a, b) where a˛ A and b˛ B. it is denoted by A x B.
+Which reads “A cross B”.
+More precisely 57MTH 131 ELEMENTARY SET THEORY A x B = { (a, b) (cid:247) a˛ A, b˛ B} Example 2.1: Let A = {1, 2, 3} and B = {a, b}.
+Then the product set A x B = {(1, a), (1, b), (2, a), (2, b), (3, a) (3, b)} Example 2.2: Let W = {s, t}.
+Then W x W = {(s, s), (s, t), (t, s), (t, t)} Example 2.3: The Cartesian plane shown in Fig 5.1 is the product set of the real numbers with itself, i.e.
+´ x ´ The product set A x B is also called the Cartesian Product of A and B. it is named after the mathematician Descartes who, in the seventeenth century, first investigated the set ´ x ´ .
+It is also for this reason that ´ x ´ , as pictured in Fig.
+5.1, is called the Cartesian Plane.
+Remark 5.2:If set A has n elements and set B has m elements then the product set A x B has n times m elements, i.e.
+nm elements.
+If either A or B is the null set then A x B is also the null set.
+Lastly, if either A or B is infinite and the other is not empty, then a x B is infinite.
+Remark 5.3:The Cartesian product of two sets is not commutative; more specifically, A x B „ B x A Unless A = B or one of the factors is empty.
+3.3 Coordinate Diagrams You are familiar with the Cartesian plane ´ x ´ , as shown in Fig 5.1 below.
+Each point P represents an ordered pair (a, b) of real numbers.
+A vertical through P meets the horizontal axis at a and a horizontal line through P meets the vertical axis at b as in Fig.
+5.1.
+58MTH 131 ELEMENTARY SET THEORY Fig.
+5.1 The Cartesian product of any two sets, if they do not contain too many1 elements, can be displayed on a coordinate diagram in a similar manner.
+For example, if A = {a, b, c, d} and B = {x, y, z}, then the coordinate diagram of A x B is as shown in Fig 5.2 below.
+Here the elements of A are displayed on the horizontal axis and the elements of B are displayed on the vertical axis.
+Notice that the vertical lines through the elements of A and the horizontal lines through the elements of B meet 12 points.
+These points represent A x B in the obvious way.
+The point P is the ordered pair (c, y).
+59MTH 131 ELEMENTARY SET THEORY 3.4 Graph of A Function Let f be a function of A into B, that is, let f: A ---> B.
+The graph f* of the function f consists of all ordered pairs in which a˛ A appears as a first element and its image appears as its second element.
+In other words, f* = {(a, b) (cid:247) a˛ A, b + f(a)}s Notice that f*, the graph of f: A --> B, is a subset of A x B.
+Example 3.1: Let the function f: A --> B be defined by the diagram A B a 1 b c 2 d 3 Then f(a) = 2, f(b) = 3, f(c) = 2 and f(d) = 1.
+Hence the graph of f is F* = {(a, 2), (b, 3), (c, 2), (d, 1)} Example 3.2: Let W = {1,2,3,4}.
+Let the function f: W --> ´ be defined by f(x) = x + 3 Then the graph of f is f* = {(1, 4), (2, 5), (3, 6), (4, 7)} Example 3.3: Let N be the natural numbers 1, 2, 3,………Let the function g: 60MTH 131 ELEMENTARY SET THEORY N ﬁ N be defined by g(x) = x3 Then the graph of g is g* = {1,1), (2,8), (3, 27), (4, 64),…..} 3.4.1 Properties of the Graph of a function Let f: A ﬁ B.
+We recall two properties of the function f. First, for each element a˛ A there is assigned an element in B. Secondly, there is only one element B which is assigned to each a˛ A.
+In view of these properties of f, the graph f* of f has the following two properties: Property 1: For each a˛ A, there is an ordered pair (a, b) ˛ f* Property 2: Each a˛ A appears as the first element in only one ordered pair in f*, that is (a, b) ˛ f*, (a, c) ˛ f* implies b = c In the following examples, let A = {1,2,3,4} and B = {3,4,5,6} Example 4.1: The set of ordered pairs {(1,5), (2,3), (4,6)} cannot be the graph of a function of A into B since it violates property 1.
+Specifically, 3˛ A and there is no ordered pair in which 3 is a first element.
+Example 4.2: The set of ordered pairs {(1,5), (2,3), (3,6), (4,6), (2,4)}.
+cannot be the graph of a function of A into B since it violates Property 2, that is, the element 2˛ A appears as the first element in two different ordered pairs (2, 3) and (2,4) 61MTH 131 ELEMENTARY SET THEORY 3.5 Graphs and Coordinate Diagrams Let f* be the graph of a function f: A ﬁ B.
+As f* is a subset of A x B, it can be displayed, i.e.
+graphed, on the coordinate diagram of A x B.
+Example 5.1: Let f(x) = x2 define a function on the interval - 2£ x £ 4.
+Then the graph of f is displayed in Fig 5.3 below in the usual way: 15 10 5 -2 -1 0 1 2 3 4 -5 Fig 5.3 Example 5.2: Let a function f: A ﬁ B be defined by the diagram shown in Fig 5.4 below Here f*, the graph of f, consist of the ordered pairs (a, 2), (b, 3), (c, 1) and (d, 2).
+Then f* is displayed on the coordinate diagram A x B as shown in Fig 5.5 below.
+62MTH 131 ELEMENTARY SET THEORY A B a 1 3 2 b 2 1 c 3 a b c d d Fig.
+5.4 Fig.
+5.5 3.5.1 Properties of Graphs of Functions on Coordinate Diagrams Let f: A ﬁ B.
+Then f*, the graph of f, has the two properties listed previously: Property 1: For each a ˛ A, there is an ordered pair (a, b) ˛ f* Property 2: If (a, b) ˛ f* and (a, c) ˛ f*, then b = c. Therefore, if f* is displayed on the coordinate diagram of A x B, it has the following two properties: Property 1: Each vertical line will contain at least one point of f* Property 2: Each vertical line will contain only one point of f* Example 6.1:Let a = {a, b, c} and B = {1, 2, 3}.
+Consider the sets of points in the two coordinate diagrams of A x B below.
+63MTH 131 ELEMENTARY SET THEORY In (1), the vertical line through b does not contain a point of the set; hence the set of points cannot be the graph of a function of A into B.
+In (2), the vertical line through a contains two points of the set, hence this set of point cannot be the graph of a function of A into B.
+Example 6.2: The circle x2 + y2 = 9, pictured below, cannot be the graph of a function since there are vertical lines which contain more than one point of the circle.
+4 2 -4 -2 2 4 -2 -4 x2 + y2 = 9 is plotted 3.6 Functions as Sets of Ordered Pairs Let f* be a subset of A x B, the Cartesian product of sets A and B; and let f* have the two properties discussed previously: Property 1: For each a ˛ A, there is an ordered pair (a, b) ˛ f*.
+Property 2: No two different ordered pairs in f* have the same first element.
+64MTH 131 ELEMENTARY SET THEORY Thus, we have a rule that assigns to each element a ˛ A, the element b ˛ B that appear in the ordered pair (a, b) ˛ f*.
+Property 1 guarantees that each element in A will have an image, and Property 2 guarantees that the image is unique.
+Accordingly, f* is a function of A into B.
+In view of the correspondence between functions f: A ﬁ B and subset of A x B with property 1 and property 2 above, we redefine a function by the Definition 5.1: A function f of A into B is a subset of A x B in which each a ˛ A appears as the first element in one and only one ordered pair belonging to f. Although, this definition of a function may seem artificial, it has the advantage that it does not use such undefined terms as “assigns”, “rules”, “correspondence”.
+Example 7.1: Let A = (a, b, c) and B = (1, 2, 3).
+Furthermore, let f = {(a, 2), (c, 1), (b, 2)} Then f has Property 1 and Property 2.
+Hence f is a function of A into B, which is also illustrated in the following diagram: A B a 1 b 2 c 3 Example 7.2: Let V = {1, 2, 3} and W = {a, e, I, o, u}.
+Also let f + {(1, a), (2, e), (3, 1), (2, u)} Then f is not a function of V into W since two different ordered pairs in f, (2, e) and (2, u), have the same first element.
+If f is to be a function of V into W, then it cannot assign both e and u to the element 2˛ V. 65MTH 131 ELEMENTARY SET THEORY Example 7.3: Let S = {1,2,3,4} and T = {1,3,5}.
+Let f = {(1,1), (2, 5), (4, 3)} Then f is not a function of S into T since 3˛ S does not appear as the first element in any ordered pair belonging to f. The geometrical implication of Definition 5.1 is stated in.
+Remark 5.4: Let f be the set of points in the coordinate diagram of A x B. if every vertical line contains one and only point of f, then f is a function of A into B.
+Remark 5.5: Let the function f: A ﬁ B be one-one and onto.
+Then the inverse function f1 consists of those ordered pairs which when reversed, i.e.
+permuted, belong to f. More specifically, f1 = {(b, a) (cid:247) (a, b) ˛ f} 3.7 Product Sets in General The concept of a product set can be extended to more than two sets in a natural way.
+The Cartesian product of sets A, B, and C, denoted by A x B x C Consists of all ordered triplets (a, b, c) where a˛ A, b˛ B and c˛ C. Analogously, the Cartesian product of n sets A , A ,……A , denoted by 1 2 n A x A x… x A 1 2 n Consists of all ordered n-tuples (a , a ,…,an) where a ˛ A,…., a ˛ A.
+1 2 1 n Here an ordered n-tuple has the obvious intuitive meaning, that is,, it consists of n elements, not necessarily distinct, in which one of them is designated as the first element, another as the second element, etc.
+Example 8.1: In three-dimensional Euclidean geometry each point represents an ordered triplet, i.e.
+its x- 66MTH 131 ELEMENTARY SET THEORY component, its y-component and its z – component.
+Example 8.2: Let A = {a, b}, B = {1, 2, 3} and C = {x, y}.
+Then A x B x C = {(a, 1, x), (a, 1, y), (a, 2, x) (a, 2, y), (a, 3, x), (a, 3, y) (b, 1, x), (b, 1, y), (b, 2, x) (b, 2, y), (b, 3, x), (b, 3, y) 4.0 CONCLUSION In this unit you have studied concepts such as ordered pairs, product sets, co-ordinate diagram, Functions as set of ordered pairs.
+We have also learnt about how to represent function on a graph.
+We require the mastery of the above concepts in the understanding of the subsequent units.
+5.0 SUMMARY Recall the following: That an ordered pair is denoted by (a, B), a ˛ A and b ˛ B.
+Two ordered pairs (a, b) and (c, d) are if and only is a = c, and b = d. That is A and B are two sets such that a ˛ A and b ˛ B them the product of A and B is denoted by A × B = {(a, b)} a ˛ A, b ˛ B} That the Cartesian place is the product set of real number with itself i.e IR × IR That the concept of product can be extended to more than two sets in a natural ways i.e if A, B and C are sets then the product of A, B and C is denoted as A × B × C = {(a, b, c) a ˛ A, b ˛ B, c C} Generally the Cartesian product of n sets A , A , ……..A is denoted by 1 2 n 67MTH 131 ELEMENTARY SET THEORY A A A ….
+× A = {(a1, a2, a3 ……an)} 1 2 3 n a A , a A ………, a ˛ A } 1 1 2 2 n n 6.0 TUTOR-MARKED ASSIGNMENTS 1.
+Suppose the ordered pairs (x + y, 1) and (3, x – y) are equal.
+Find x and y.
+2.
+Let M = {1,2,3,4,5} and let the function f: M ﬁ ´ be defined by f(x) = x2 + 2x – 1 Find the graph of f. 3.
+Prove: A x (B ˙ C) = ( A x B) ˙ (A x C) 4.
+Prove A (cid:204) B and C (cid:204) D implies (A x C) (cid:204) (B x D).
+7.0 REFERENCES AND FURTHER READINGS Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964, pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real – valued functions of a real variable), 1998, Vol.
+1 Module 2 68MTH 131 ELEMENTARY SET THEORY Unit 1 Relations Unit 2 Further Theory of Sets Unit 3 Further Theory of Functions, Operation UNIT 1 RELATIONS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main body 3.1 Propositional Functions, Open Sentences 3.2 Relations 3.3 Solution Sets and Graphs of relations 3.4 Relations as Sets of Ordered Pairs 3.5 Reflexive Relations 3.6 Symmetric Relations 3.7 Anti-Symmetric Relations 3.8 Transitive Relations 3.9 Equivalence Relations 3.10 Domain and Range of a Relation 3.11 Relations and Functions 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked assignments 7.0 References and Further Readings 1.0 INTRODUCTION From the concept of ordered pairs, product set or Cartesian product we can draw relations based on propositional functions defined on the Cartesian product of two sets This is what will be developed in this unit 2.0 OBJECTIVES 69MTH 131 ELEMENTARY SET THEORY After going through this unit, you should be able to do the following: • Derive relations as ordered pairs between two sets based on open sentences.
+• Find the Domain, Range and Inverse of a relation • Define, with examples, the different kinds of relations • State whether or not a relation defined on a set is a function of the set into itself 3.0 MAIN BODY 3.1 Propositional Functions, Open Sentences A Propositional function defined on the Cartesian product A x B of two sets A and B is an expression denoted by P(x,y) Which has the property that P(a,b), where a and b are substituted for the variables x and y respectively in P(x,y), is true or false for any ordered pair (a,b) ˛ A x B.
+For example, if A is the set of playwright and B is the set of plays, then P(x,y) = “x wrote y” Is a propositional function on A x B, In particular, P (Shakespeare, Hamlet) = “Shakespeare wrote Hamlet” P(Shakespeare, Things Fall Apart) = “Shakespeare wrote Things Fall Apart” Are true and false respectively.
+The expression P(x,y) by itself shall be called an open sentence in two variables or, simply, an open sentence.
+Other examples of open sentences are as follows: Example 1.1: “x is less than y” 70MTH 131 ELEMENTARY SET THEORY Example 1.2: “x weighs y kilograms” Example 1.3: “x divides y” Example 1.4: “x is wife of y” Example 1.5: “The square of x plus the square of y is sixteen”, i.e “x2 + y2 = 16” Example 1.6:“Triangle x is similar to triangle y” In all of our examples there are two variable.
+It is also possible to have open sentences in one variable such as “x is in the United Nations”, or in more than two variables such as “x times y equals z” 3.2 Relations A relation R consists of the following 1. a set A 2. a set B 3 an open sentence P(x,y) in whch P(a, b) is either true or false for any ordered pair (a,b) belonging to A x B We then call R a relation from A to B and denote it by R = (A, B, P(x,y)) Furthermore, if (a,b) is true we write a R b which reads “a is related to B”.
+On the other hand, if P(a,b) is not true we write a R b which reads “a is not related to b” Example 2.1:Let R = (´ ,´ P(x,y)) where P(x,y) reads “x is less than 1 y”.
+Then R is a relation since P(a,b), i.e “a< b”, is either 1 true or false for any ordered pair (a,b) of real numbers.
+Moreover, since P(2, p ) is true we can write 2 R p 1 and since p(5, (cid:214) 2) is false we can write 71MTH 131 ELEMENTARY SET THEORY 5 R (cid:214) 2 1 Example 2:2 Let R = (A,B P(x,y)) where A is the set of men, B is the 2 set of women, and P(x,y) reads “x is the husband of y”.
+then R is a relation 2 Example 2:3 Let R = (N, N, P(x,y)) where N is the natural numbers 3 and P(x,y) reads “x divides y”.
+Then R is a relation.
+3 Furthermore, 3 R 12, 2 R 7, 5 R 15, 6 R 13 3 3 3 4 Example 2:4 Let R = (A, B, P(x,y)) where A is the set of men, B is 4 the set of women and P(x,y) reads “x divides y”.
+Then R4 is not a relation since P(a,b) has no meaning if a is a man and b is a woman.
+Example 2:5 Let R = (N, N, P(x,y)) where N is the natural numbers 5 and P(x,y) reads “x is less than y”.
+Then R is a relation.
+5 Notice that R and R are not the same relation even 1 5 though the same open sentence is used to define each relation Let R = (A, B, P(x,y)) be a relation.
+We then say that the open sentence P(x,y) defines a relation from A to B.
+Furthermore, if A = B, then we say that P(x,y) defines a relation in A, or that R is a relation in A.
+Example 2:6 The open sentence P(x,y), which reads “x is less than y”, defines a relation in the rational numbers Example 2:6 The open sentence “x is the husband of y” defines a relation from the set of men to the set of women.
+3.3 Solution Sets and Graphs of Relations 72MTH 131 ELEMENTARY SET THEORY Let R = (A, B, P(x,y)) be a relation.
+The Solution set R* of the relation R consists of the elements (a,b) in A x B for which P(a,b) is true.
+In other words R* = {(a,b) | a ˛ A, b ˛ B, P(a,b) is true} Notice that R*, the solution set of a relation R from A B, is a subset of A x A.
+Hence R* can be displayed, i.e plotted or sketched, on the coordinate diagram of A x A The graph of a relation R from A to B consists of those points on the coordinate diagram of A x A which belongs to the solution set of r. Example 3:1 Let R = (A, B, P(x,,, y)) where A = {2,3,4}, and B = {3, 4, 5}, and P(x,y) reads “x divides y”.
+Then the solution set of R is: R* = {(2,4), (2,6), (3,3), (3,6), (4,4)} The solution set of R is displayed on the coordinate diagram of A x B as shown in Fig.6.2 below Example 3:2 Let R be the relation in the real numbers defined by y<x + 1 73MTH 131 ELEMENTARY SET THEORY The shaded area in the coordinate diagram of ´ x ´ shown in Fig.
+6.2 above consists of the points which belong to ´ , the solution set of R, that is, the graph of R. Notice that ´ consists of the points below the line y = x + 1.
+The line y = x +1 is dashed in order to show that the points on the line do not belong to ´ .
+3.4 Relations As Sets Of Ordered Pairs Let R* be any subset of A x B.
+We can define a relation R = (A, B P(x,y)) where P(x,y) read “The ordered pair (x,y) belongs to R*” The solution set of this relation R is the original set R*.
+Thus to every relation R = (A, B P(x,y)) there corresponds a unique solution set R* which is a subset of A x B, and to every subset R* of A x B there corresponds a relation R = (A, B P(x,y)) for which R* is “R = (A, B, P(x,y)) and subsets R* of A x B, we rederine a relation by the Definition 6.1: A relation R from A to B is a subset of A x B Although Definition 6.1 of a relation may seem artificial it has the advantage that we do not use in this definition of a relation the undefined concepts “open sentence” and “variable” Example 4.1: Let A = {1, 2,3} and B = {a, b}.
+then R = {(a, a), (1, b), (3,a)} Is a relation from A to B.
+Furthermore 1 R a, 2 R b, 3 R a, 3 R b Example 4.2: Let W = {a, b, c}.
+Then R = {(a, b), (a,c), (c,c), (c,b)} is a relation in W. Moreover.
+a R a, b R a, c R c, a R b 74MTH 131 ELEMENTARY SET THEORY Example 4.3: Let R = {x, y) | x ˛´ , y˛´ , y<x2}.
+Then R is a set of ordered pairs of real numbers, i.e a subset of ´ x ´ .
+Hence R is a relation in the real numbers which could also be defined by R= (´ , ´ , P(x,y)) Where P(x,y) reads “y is less than x2” Remark 6.1 Let set A have m elements and set B have n elements.
+Then there are 2mn different relations from A to B, since A x B, which has mn elements, has 2mn different subsets.
+We now consider a relation between a set X into itself..
+Suppose SCX is a set and let RCSXS then R is said to a relation in S. We have the following properties:- 3.5 Reflexive Relations Suppose R is a relation in a set S then, R is reflexive in S if and only if for all x˛ S, xRx Example (i) Take X = IR+ (the set of positive real numbers).
+Let R be the relation of equality on IR+ Is R reflexive on IR+?
+Yes it is reflexive.
+To see this let a˛ IR+ then a = a.
+(cid:222) i.e.
+aRa R is reflexive.
+(ii) let A be a set and take X = P(A) or 2A i.e.
+the collection of subset of A.
+Let R to be relation “is a proper subset of “ i.e.
+BRD if B is a proper subset of D. Is R reflexive on A?
+75MTH 131 ELEMENTARY SET THEORY Answer The answer is no.
+since a set cannot be a proper subset of itself i.e.
+A ¢A, hence R is anti-reflexive.
+3.6 Symmetric Relation R is symmetric in S if and only if for all x,y˛ s, xRy (cid:222) yRx.
+In example (i) above if a, b˛ IR+ and a = b then b = a i.e.
+aRb (cid:222) bRa, hence R is symmetric.
+In example (ii) above, does ARB imply BRA?
+No.
+For if ACB then B ¢A hence R is not symmetric.
+3.7 Anti-Symmetric Relation R is anti-symmetric in S iff for x,y˛ S, xRy and yRx (cid:222) x = y.
+(cid:222) In example (i) above, aRb and bRa a=b hence R is anti-symmetric.
+3.8 Transitive Relation R is a transitive relation on s iff for all x,y,z˛ S, xRy, yRz (cid:222) xPz.
+Consider example (ii) above, let ARB and BRD does ARD holds?
+Yes, for if ACB and BCD then ACD therefore R is transitive.
+3.9 Equivalence Relation A relation E in a set S is said to be an equivalence relation in S if for all x,y,z˛ s (i) xEx (reflexive property) (cid:222) (ii) xEy yEz yEx (symmetric) ﬁ (iii) xEy yEz xEz (transitive) For example, the relation of equality defined in example (i) is an equivalence relation (check).
+76MTH 131 ELEMENTARY SET THEORY 3.10 Domain and Range of a Relation Let R be a relation between X and Y.
+Then R+ is a relation between Y and X.
+Thus x R-1y iffy Rx.
+We therefore define (i) Range of R = Domain (R-1) (ii) Range of R-1 = Domain (R) (iii) Furthermore (R-1)-1 = R 3.11 Relations and Function The notion of relation is a generalization of the notion of functions.
+ﬁ Let f: X Y be function defined on X and Y. then f is a function if it can satisfy the following single valued property: ˛ ˛ (cid:222) (x,y) f, (x,z) f y = z 4.0 CONCLUSION In this unit, emphasis has been place on the derivation of relations as ordered pairs between two sets based on open sentences; finding the Domain, Range and Inverse of a relation; defining, with examples, the different kinds of relations and stating whether or not a relation defined on a set is a function of the set into itself.
+Here is the summary 5.0 SUMMARY • The expression P(x,y) is called an open sentence in two variables x and y.
+• R = (A, B P(a,b)) is called relation from A to B where (a,b) ˛ A x B • R* = {(a,b) | a˛ A, b˛ B, P(a,b) is true} is the solution set of the relation R. • A relation R from A to B is a subset of A x B 77MTH 131 ELEMENTARY SET THEORY • R1 = {(b,a) | (a,b) ˛ R}is the inverse relation of R • If every element in a set is related to itself, then the relation is said to be reflexive • For a relation R in A, if (a,b) ˛ R implies (b,a) ˛ R, then R is a symmetric relation • For a relation R in A, if (a,b) ˛ R and (b,a) ˛ R implies a = b, then R is an anti-symmetric relation • For a relation R in A, if (a,b) ˛ R and (b,c) ˛ R implies (a,c) ˛ R, then R is a transitive relation • A relation in a set is an equivalence relation if it is reflexive, transitive and symmetric • D = {a | a ˛ A, (a,b) ˛ R}, the set of all first elements of the ordered pairs which belong to the relation from A to B, is the domain of the relation.
+• E = {b|b˛ B, (a,b) ˛ R}, the set of all second elements of the ordered pairs which belongs to the relation from A to B, is the range of the relation 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Consider the relation R = {(1,5), (4,5), (1,4), (4,6), (3,7), 7,6)} Find (1) the domain R, (2) the range of R, (3) the inverse R. 2.
+Le E= {1,2, 3}.
+Consider the following relation in E. 7.0 REFERENCE AND FURTHER READINGS Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964,pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real-valued functions of a real variable, 1998, Vol.
+1) 78MTH 131 ELEMENTARY SET THEORY UNIT 2 FURTHER THEORY OF SETS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Algebra of Sets 3.2 Indexed Sets 3.3 Generalized Operations 3.4 Partitions 3.5 Equivalence Relations and Partitions 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References and Further Readings 1.0 INTRODUCTION In this unit, we lay a basic foundation of a branch of mathematics (Logic) that studies laws associated with the set operations; intersection, union and complement.
+You will do well to follow closely the reasoning presented in the text.
+2.0 OBJECTIVES After going through this unit, you should be able to do the following:  Prove identities using the table of laws of the algebra of sets  Find the dual of any identity  Generalize the operations of union and intersections of sets  Find the possible partitions of a set  State the relationship between Equivalence relations and Partitions 3.0 MAIN BODY 79MTH 131 ELEMENTARY SET THEORY 3.1 Algebra of Sets Set under the operations of union, intersection and complement satisfy various laws, i.e.
+identities.
+Below is a table listing laws of sets, most of which have already been noted and proven in unit 2.
+One branch of mathematics investigate the theory of set by studying those theorems that follow from these laws, i.e.
+those theorems whose proofs require the use of only these laws and no others.
+We will refer to the laws in Table 1 and their consequences as the algebra of sets.
+LAWS OF THE ALGEBRA OF SETS Idempotent Laws 1a.
+A ¨ A = A 1b.
+A ˙ A = A Associative Laws 2a.
+(A ¨ B)¨ C = A¨ (B¨ C) 2b.
+(A˙ B)˙ C= A˙ (B˙ C) Commutative Laws 3a.
+A¨ B = B¨ A 3b.
+A˙ B = B˙ A Distributive Laws 4a.
+A¨ (B˙ C)=(A¨ B)˙ (A¨ C) 4b.
+A˙ (B¨ C)=(A˙ B)¨ (A˙ C) Identity Laws 5a.
+A˘¨ = A 5b.
+A˙ U = ˘ 6a.
+A¨ U = U 6b.
+A˘˙ = ˘ Complement Laws 7a.
+A¨ A’ = U 7b.
+A˙ A’ = ˘ 8a.
+(A’)’ = A 8b.
+U’ = ˘ , ˘ ’ = U De Morgan’s Laws 9a.
+(A¨ B)’ = A’˙ B’ 9b.
+(A˙ B)’ = A’¨ B’ Table 1 80MTH 131 ELEMENTARY SET THEORY Notice that the concept of “element” and the relation “ a belongs to A” do not appear anywhere in table 1.
+Although, these concepts where essential to our original development of the theory of sets, they do not appear in investigating the algebra of sets.
+The relation “A is a subset of B” is defined in our algebra of sets by.
+A (cid:204) B means A ˙ B = A As examples, we now prove two theorems in our algebra, of sets, that is, we prove two theorems, which follow directly from the laws in Table 1.
+Other theorems and proofs are given in the problem section.
+Example 1.1 Prove: (A ¨ B) ˙ (A ¨ B’) = A Statement Reason 1.
+(A¨ B) ˙ (A¨ B’) = A¨ (B˙ B’) 1.Distributive Law 2.
+B ˙ B’ = ˘ 2.
+Substitution 3.
+\ (A¨ B)˙ (A¨ B’) = A˘¨ 3.
+Associative Law 4.
+A ˘¨ = A 4.
+Substitution 5.
+\ (A¨ B)˙ (A¨ B’) = A 5.
+Definition of subset Example 1.2: Prove A (cid:204) B and B (cid:204) C implies A (cid:204) C. Statement Reason 1.
+A = A ˙ B and B = B ˙ C 1.
+Definition of subset 2.
+\ A = A ˙ (B ˙ C) 2.
+Substitution 3.
+A = (A ˙ B) ˙ C 3.
+Associative Law 4.
+\ A = A ˙ C 4.
+Substitution 5.
+\ A (cid:204) C 5.
+Definition of subset Principle of Duality If we interchange ˙ and ¨ and ˘ in any statement about sets, then the new statement is called the dual of the original one.
+Example 2.1: The dual of (U ¨ B) ˙ (A ¨ ˘ ) = A 81MTH 131 ELEMENTARY SET THEORY is (˘ ˙ B)¨ (A ˙ U) = A Notice that the dual of every law in Table 1 is also a law in Table 1.
+This fact is extremely important in view of the following principle: Principle of Duality: If certain axioms imply their own duals, then the dual of any theorem that is a consequence of the axioms is also a consequence of the axiom.
+For, given any theorem and its proof, the dual of the theorem can be proven in the same way by using the dual of each step in the original proof.
+Thus, the principle of duality applies to the algebra of sets Example 2.2: Prove: (A ˙ B) ¨ (A ˙ B’) = A The dual of this theorem is proven in Example 1.1; hence this theorem is true by the Principle of Duality.
+3.2 Indexed Sets Consider the sets A = {1, 10}, A = {2, 4, 6, 10}, A = (3, 6, 9}, A = {4, 8}, A = {5, 6, 1 2 3 4 5 10} And the set I = {1, 2, 3, 4, 5} Notice that to each element i˛ I there corresponds a set A.
+In such a i situation I is called the index set, the sets (A ,….., A ) are called the 1 5 indexed sets, and the subscript i of A, i.e.
+each i ˛ I, is called an index.
+i Furthermore, such an indexed family of sets is denoted by (A) i i˛ I We can look at an indexed family of sets from another point of view.
+Since to each element i ˛ I there is assigned a set A, we state i 82MTH 131 ELEMENTARY SET THEORY Definition 7.1: An indexed family of sets (A) i ˛ I is a function i f: I ﬁ A Where the domain of f is the index set I and the range of f is a family of sets.
+Example 3.1: Define Bn = {x(cid:247) 0 £ x £ (1/n)}, where n ˛ N, the natural numbers.
+Then B = [0,1], B = [0,1/2], .
+.
+.
+1 2 Example 3.2: Let/ be the set of words in the English Language, and let i ˛ I .
+Define W = {x(cid:247) x is a letter in the word i ˛ I }.
+1 If i is the word “follow” , then W = {f, 1, o, w }.
+i Example 3.3: Define D = {x(cid:247) x is a multiple of n}, where n ˛ N, n the natural numbers.
+Then D = {1, 2, 3, 4, .
+.
+.
+, D = {2, 4, 6, 8, .
+.
+.
+}, D = 1 2 3 {3, 6, 9, 12, .
+.
+. }
+Notice that the index set N is also D and also the 1 universal set fro the indexed sets.
+Remark 7.1: Any family of B of sets can be indexed by itself.
+Specifically, the identify function i: B ﬁ B is an indexed family of sets {A } i 1 ˛ B Where A and where i = A.
+In other i ˛ B i words, the indexed of any set in B is the set itself 83MTH 131 ELEMENTARY SET THEORY 3.3 Generalized Operations The operation of union and intersection were defined for two sets.
+These definitions can easily be extended, by induction, to a finite number of sets.
+Specifically, for sets A , .
+.
+.
+A 1 n, Yu A ” A ¨ A ¨ K ¨ A i = I 1 1 2 n In A ” A ˙ A ˙ K ˙ A i = I i 1 2 n In view of the associative law, the union (intersection) of the sets may be taken in any order; thus parentheses need not be used in the above.
+These concepts are generalised in the following way.
+Consider the indexed family of sets {A} i i ˛ I And let J (cid:204) I.
+Then ¨ A i ˛ J i Consists of those elements which belong to at least one A where i ˛ J. i Specifically, ¨ A = { x (cid:247) there exists an .
+such that x ˛ A} i ˛ J i i ˛ J i In an analogous way ¨ A i ˛ J i consist of those elements which belong to every A for .
+In i i ˛ J other words, ˙ A = {x(cid:247) x ˛ A for every i ˛ J } i ˛ J i i Example 4.1: Let A = {1, 10}, A = {2, 4, 6, 10}, A = {3, 6, 9 }, 1 2 3 A = {4, 8}, A = {5, 6, 10}; and let J = {2, 3, 5, }.
+4 5 Then ˙ A = { 6} and ¨ A = {2, 4, 6, 10, 3, 9, 5} i ˛ J i i ˛ J i Example 4.2: Let B = [0, i/n], where n ˛ N, the natural numbers.
+n Then ˙ B = {0} and ¨ B = [0, 1] i ˛ N i i ˛ N i Example 4.3: Let D = {x (cid:247) x is a multiple of n}, where n ˛ N, n the natural numbers.
+Then ˙ D = ˘ i˛ N 1 84MTH 131 ELEMENTARY SET THEORY There are also generalised distributive laws for a set B and an indexed family of sets {A} be an indexed family of sets.
+Then for any set B, i i ˛ I B ˙ ( ¨ A) = ¨ (B ˙ A) i˛ I i i˛ I i B ¨ (˙ A) = ˙ (B ¨ A) i˛ I i i˛ I i 3.4 Partitions Consider the set A = { 1, 2, .
+.
+.
+9, 10} and its subsets B = {1, 3}, B = {7, 8, 10}, B = {2, 5, 6}.B = 4, 9} 1 2 3 4 The family of sets B = {B , B , B , B ,} has two important properties.
+1 2 3 4 1.
+A is the union of the sets in B, i.e., A = B ¨ B ¨ B ¨ B 1 2 3 4 2.
+For any sets B and B, i j Either B = B or B ˙ B= ˘ i j i j Such a family of sets is called partition of A.
+Specifically, we say Definition 7.2: Let {B} be a family of non-empty subsets of A.
+Then {B} is called i i˛ I i i˛ I a partition of A if P : ¨ B = A 1 i˛ I i P : For any B, B, either B or B ˙ B = ˘ 2 i j j i j Furthermore, each B is then called an equivalence class of A. i Example 5.1: Let N = {1, 2, 3, .
+.
+.
+}, E = {2, 4, 6, .
+.
+.}
+and F = {1, 3, 5}.
+Then {e, F} is a partition of N. Example 5.2: Let T = {1, 2, 3,. .
+., 9, 10} and let A = {1, 3, 5}, B = {2, 6, 10} and C = {4, 8, 9}.
+Then {A, B, C} is not a partition of T since T „ A ¨ B ¨ C i.e.
+since 7 ˛ T but 7 „ ( A ¨ B ¨ C).
+85MTH 131 ELEMENTARY SET THEORY Example 5.3: Let T = {1, 2, …, 9, 10}, and F = {1, 3, 5, 7, 9}, and G = {2, 4, 10} and H = {3, 5, 6, 8}.
+Then {f, G, H} is not a partition of T since F ˙ H „ ˘ , F „ H Example 5.4: let y , y , y and y be respectively the words 1 2 3 4 “follow”, “thumb”, “flow” and “again”, and let A = {w, g, u, o, I, m, a, t, f, n, h, b} Furthermore, define W = {x(cid:247) x is the letter in the word y} i i Then {W W W W } is the partition of A. notice i 2 3 4 that W and W are not disjoint, but there is no 1 3 contradictions since the sets are equal.
+3.5 Equivalence Relations and Partition Recall the following Definition: A relation in a set A is an equivalent relation if: 1.
+R is reflexive, i.e.
+for every a ˛ A, a is related to itself; 2.
+R is symmetric, i.e.
+if a is related to b then b is related to a; 3.
+R is transitive, i.e.
+if a is related to be and b is related to c then a is related to c. The reason that partition and equivalence relations appear together is because of the Theorem 7.2: Fundamental Theorem of Equivalence Relations: Let R be an equivalence relation in a set A and for, every a ˛ A, let B = {x(cid:247) (x, a ) ˛ R) ¥ 86MTH 131 ELEMENTARY SET THEORY i.e.
+the set of elements related to a .
+Then the family of sets# {B } a a ˛ A is a partition of A.
+In order words, an equivalence relation R in a set A partition the set A by putting those elements which are related to each in the same equivalence class.
+Moreover, the set B is called equivalence class determined by a , and a the set of equivalence classes {B } is denoted by a a˛ A A R And called quotient set.
+The converse of the previous theorem is also true.
+Specifically, Theorem 7.3: Let {B} be a partition of A and let R be the i i˛ I relation in A defined by the open sentence “x is in the same set (of the family {B} as y”.
+Then R is i i˛ I an equivalence relation in A.
+Thus there is a one to one correspondence between all partitions of a set A and all equivalence relations in A.
+Example 6.1: In the Euclidean plane, similarities of triangles is an equivalence relation.
+Thus all triangles in the plane are portioned into disjoint sets in which similar triangles are elements of the same set.
+Example 6.2: Let R be the relation in the integers defined by 5 x ” y (mod 5) which reads “x is congruent to y modulo 5” and which means “x– y is divisible equivalence classes in Z/ R : E , E , E , E and 5 0 1 2 3 E .
+Since each integer x is uniquely expressible in the form x = 4 5p + r where 0 £ r < 5, then x is a member of the equivalence class E where r is the remainder.
+r 87MTH 131 ELEMENTARY SET THEORY Thus E = {.
+.
+., -10, -5, 0, 5, 10, .
+.
+.}
+0 E = {.
+.
+.
+, -9, -4, 1, 6, 11, .
+.
+.}
+1 E = {.
+.
+.
+, -8, -3, 2, 7, 12, .
+.
+. }
+2 E = {.
+.
+.
+, -7, -2, 3, 8, 13, .
+. }
+3 E = {.
+.
+.
+, -6, 1- , 4, 9, 14, .
+.
+.}
+3 Add the quotient set Z/R = {E , E , E , E , E } 5 0 1 2 3 4 4.0 CONCLUSION You are gradually being introduced to using set notation rather than statements.
+Theorems in the algebra of sets are most useful in proving identities related to logic and reasoning, in most cases using the principle of duality.
+5.0 SUMMARY In investigating the algebra of sets you need to take note of the dual of the statements in table 1.
+An indexed family of sets, {A} is such that for each index i = 1, 2, 3, i i˛ I 4, .
+.
+.
+we have sets A , A , A , .
+.
+.
+1 2 3 Let {B} be a family of non- empty subsets of A. then {B} is called i i˛ I i i˛ I partition of A if ¨ B = A and for any B B, either B = B, or B, ˙ B i˛ I i i j i j i j = ˘ Furthermore, each B, is then called an equivalence class of A. i 6.0 TUTOR MARKED ASSIGNMENTS 1.
+Write the dual of each of the following: 1.
+(B ¨ C) ˙ A= (B ˙ A) ¨ (C ˙ A) 2.
+A ¨ (A’ ˙ B)= A ¨ B 88MTH 131 ELEMENTARY SET THEORY 3.
+(A ˙ U) ˙ ( ˘ ¨ A’) = ˘ 2 Prove: (A ˙ B) ¨ (A ˙ B’) = A.
+3.
+Let B = [i, i + 1], where I e Z, the integer.
+find i 1.
+B ¨ B 1 2 2.
+B ¨ B 3 4 3.
+¨ 18 B i = 7 i 4.
+¨ B i e Z i 4.
+Let A = {a, b, c, d, e, f, g}.
+State whether or not each of the following families of sets is a partition of A.
+1.
+{B = {a, c, e}, B = {b}, B = {d, g}} 1 2 3 2.
+{C = {a, e, g}, C = {c, d}, C = {b, e, f}} 1 2 3 3.
+{D = {a, b, e, g}, D = {c}, D = {d, f}} 1 2 3 4.
+{E = {a, b, c, d, e, f, g}} 1 7.0 REFERENCES AND FURTHER READINGS Seymour Lipschutz; Schaum’s Outline Series: Theory and Problems of Set Theory and related topics, 1964. pp.
+1 – 133.
+Sunday O. Iyahen; Introduction to Real Analysis (Real-valued functions of a real variable, 1889 Vol.
+1 UNIT 3 FURTHER THEIRY OF FUNCTIONS, OPERATIONS CONTENTS 89MTH 131 ELEMENTARY SET THEORY 1.0Introduction 2.0 Objectives 3.0 Main Body 3.1 Functions and Diagrams 3.2 Restrictions and Extensions of Functions 3.3 Set Functions 3.4 Real-Valued Functions 3.5 Algebra and Real-Valued Functions 3.6 Rule of the Maximum Domain 3.7 Characteristic Functions 3.8.
+Operations 3.8.1 Commutative Operations 3.8.2 Associative Operations 3.8.3 Distributive Operations 3.8.4 Identity Elements 3.8.5 Inverse Elements 3.9 Operations and Subsets 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignments 7.0 References and Further Readings 1.0 INTRODUCTION There are some further concepts you have to become familiar with now which you will come across in mathematical analysis and abstract mathematics.
+This unit introduces you to some of them.
+Pay attention not only to the definitions but also to the examples given.
+2.0 OBJECTIVES At the end of this unit you should be able to: - state whether or not a diagram of functions is cumulative from the arrows connecting the functions.
+- Explain the terms Restriction and Extension of functions 90MTH 131 ELEMENTARY SET THEORY - Describe the following: Set functions, Real-valued functions and its algebra, Characteristic function - Apply the Rule of the Maximum Domain.
+- Explain operations on Cartesian products 3.0 MAIN BODY 3.1 Functions and Diagrams As mentioned previously, the symbol A B Denotes a function of A into B.
+In a similar manner, the diagram h C f g B Consists of letters A, B and C denoting sets, arrows f, g, h denoting functions f: A ﬁ B, g: B ﬁ C and h: A ﬁ C, and the sequence of arrows {f, g} denoting the composite function g o f: A ﬁ C. Each of the functions h: A ﬁ C and g o f: A ﬁ C, that is, each arrow or sequence of arrows connecting A to C is called a path from A to C. Definition 8.
+1: A diagram of functions is said to be cumulative if for any set X and Y in the diagram, any two paths from X to Y are equal.
+Example 1.1: Suppose the following diagram of functions is Cumulative.
+D 91MTH 131 ELEMENTARY SET THEORY i h A C f B g Then i o h = f, g o I = j and g o f = j o h = g o I o h. Example 1.2: The functions f: A B and g: B A are inverses if and only if the following diagrams are cumulative: 1 A 1 A A B R B 1 A f g f g B A Here 1 and 1 are the identity functions.
+A B 3.2 Restrictions And Extensions Of Functions Let f be a function of A into C, i.e.
+let f: Aﬁ C, and let B be a subset of A.
+Then f induces a function f’: B ﬁ C which is defined by F(b) = f(b) For any b˛ B. the function f’ is called the restriction of F to B and is denoted by F B Example 2.1: Let f: ´ ﬁ ´ be defined by f(x) = x2,.
+Then 92MTH 131 ELEMENTARY SET THEORY F N = {(1, 1), (2,4), (3,9), (4, 16), …} Iis the restriction of to N, the natural numbers.
+Example 2.2: The set g = {(2, 5), (5, 1), (3, 7), (8, 3), (9, 5)} is a function from {2, 5, 3, 8, 9} into N. Then {(2, 5), (3, 7), (9, 5)} a subset of g, is the restriction of g to {2, 3, 9}, the set of first elements of the ordered pairs in g. We can look at this situation from another point of view.
+Let f: A ﬁ C and let B be a superset of a.
+Then a function F: B ﬁ C is called an extension of f if, for every a ˛ A, F(a) = f(a) Example 2.3: Let f be the function on the positive real number defined by f(x) = x, that is, let the identity function.
+Then the absolute value function X if x ‡ 0 X = - x if x < 0 Is an extension of f to all real numbers.
+Example 2.4: Consider the function F = {(1, 2), (3, 4), (7,)} Whose domain is {1, 3, 7}.
+Then the function F = {(1, 7), (3, 4), (5, 6), (7, 2)} 93MTH 131 ELEMENTARY SET THEORY Which is a superset of the function f, is an extension of f. 3.3 Set Functions Let f be a function of A into B and let T be a subset of A, that is, A t B and T (cid:204) A.
+Then F(T) Which is read “f of T”, is defined to be the set of image point of elements in T. In other words, F(T) = {x f(a) = x, a ˛ T, x ˛ B} Notice that f(T) is a subset of B.
+Example 3.1: Let A = {a, b, c, d}, T = {b, c} and B = {1, 2, 3}.
+Define f: A B by A B 1 C 2 D 3 Then f (T) = {2, 3}.
+Example 3.2: Let g: ´ ﬁ ´ be defined by g(x) = x2, and let T = [3, 4].
+Then G(T) = [9, 16] = {x 9 £ x £ 16}.
+94MTH 131 ELEMENTARY SET THEORY Now let A be the family of subsets of A, and let B be the family of subsets of B, if f: A ﬁ B, then f assigns to each set T ˛ A a unique set of f(T) ˛ B.
+In other words, the function f: A ﬁ B induces a function f: A ﬁ B.
+Although the same letter denotes each function, they are essentially two different functions.
+Notice that the domain of f: A ﬁ B consists of sets.
+Generally speaking, a function is called a set function if its domain consists of sets.
+3.4 Real-Valued Functions A function f: Aﬁ ´ , which maps a set into the real numbers, i.e.
+which assigns to each a ˛ A a real number f(a) ˛ ´ is a real-valued function.
+Those functions which are usually studied in elementary mathematics, e.g., P(x) = a xn + a n-1x + a o 1x n t(x) = sin x, cos x or tan x f(x) = log x or ex That is, polynomials, trigonometric functions and logarithmic and exponential functions are special examples of real-valued functions.
+3.5 Algerbra And Real-Valued Functions Let F be the family of all real-valued functions with the same domain D D. Then many (algebraic) operations are defined in F Specifically, let D. f: D ´ and g: D ﬁ ´ , and let k ˛ ´ .
+Then each of the following functions is defined as follows: (f + k): D ´ by (f + k)(x) = f(x) + k ( (cid:247) f(cid:247) ): D ´ by ((cid:247) f(cid:247) )(x) = (cid:247) f(x)(cid:247) (f”): D ´ by ( f“)(x) = (f(x))” (f – g): D ´ by (f – g)(x) =f(x) – g(x) (kf): D ´ by (kf)(x) = k(f(x)) 95MTH 131 ELEMENTARY SET THEORY (fg): D ´ by (fg)(x) = f(x)g(x) (f/g): D ´ by (f/g)(x) =f(x)/g(x) where g(x) „ 0 Note that (f/g): D ´ is not the same as the composition function which was discussed previously.
+Example 4.1: Let D = {a, b}, and let f: D ´ and g: D ´ be defined by : F(a) = 1, f(b) = 3 and g(a) = 2, g(b) = -1 In other words, F = {(a, 1), (b, 3) and g = {a, 2), (b, -1)} Then (3f – 2g)(a) = 3f(a) – 2g(a) = 3(1) -2(2) =-1 (3f – 2g)(b) = 3f(b) – 2g(b) 3(3) – g( -1) = 11 that is, 3f – 2g = {(a, 1), (b, 11)} Also since g (x) = g(x) and (g + 3)(x) = g(x) + 3, G ={(a, 2), (b, 1)} AND G + 3 = {{(A, 5), (b, 2)} Example 4.2: Let f: ´ ´ and g: ´ ´ be defined By the formulas F(x) = 2x = - 1 and g(x) =2 The formulas which define the function (3f – 2g): ´ ´ and (fg): ´ ´ are found as follows: 96MTH 131 ELEMENTARY SET THEORY (3f – 2g)(x) = 3(2x – 1) -2(x2) = - 2x2 + 6x – 3 (fg)(x) = (2x – 1)(x2) = 2x2 - x2 3.6 Rule Of The Maximum Domain A formula of the form F(x) = 1/x, g(x) = sin x, h(x) = (cid:214) x Does not in itself, define a function unless there is given, explicitly or implicitly, a domain, i.e.
+a set of numbers, on which the formula then defines a function.
+Hence the following expressions appear: Let f(x) = x2 be define on [ - 2, 4].
+Let g(x) = sin x be defined for 0 £ x £ 2x However, if the domain of a function defined by a formula is the maximum set of real numbers for which the formula yield a real number, e.g., Let f(x) = 1/X for X „ 0 Then the domain is usually not stated explicitly.
+This convention is sometimes called the rule of the maximum domain.
+Example 5.1: Consider the following functions F (x) = x2 for x ‡ 0 1 F (x) 1/(x – 2) for x „ 0 2 F (x) = cos x for 0 £ x £ 2p 3 F (x) = tan x for „ p /2 + np , n˛ N 4 The domains of f and f need not have been explicitly 2 4 Stated since each consists of all those numbers for Which the formula has meaning, that is, the functions Could have been defined by writing F (x) = x2 and f (x) = tan x 1 4 97MTH 131 ELEMENTARY SET THEORY Example 5.2: Consider the function f(x) = (cid:214) 1 – x2 ; its domain, unless otherwise stated, is [ - 1, 1].
+Here we explicitly Assume that the co-domain is ´ .
+3.7 Characteristic Functions Let A be any subset of a universal set U.
+Then the real-valued function.
+X :U {1 , 0} A 1 if x ˛ A defined by x (x) = 0 if x „ A A is called the characteristic function of A.
+Example 6.1: Let U = {a, b, c, d, e} and A = {s, f, e}.
+Then the function of U into {1, 0} defined by the following diagram A B 1 C D 0 E Is the characteristic function x A A of Note further that any function f: U {1, 0} defines a subset A = {x x ˛ U, f(x) = 1} f Of U and that the characteristic function X of A is the original Af f function f. Thus there is a one to-one correspondence between all subsets of U, i.e.
+the power set of U, and the set of all functions of U into {1, 0}.
+3.8 Operations 98MTH 131 ELEMENTARY SET THEORY You are familiar with the operations of addition and multiplication of numbers, union and intersection of sets, and composition of functions.
+These operations are denoted as follows: A + b = c, a, b = c, A ¨ B = C A ˙ B = C, go f = h In each situation, an element (c, C or h) is assigned to an original pair of elements.
+In other words, there is a function that assigns an element to each ordered pair of elements.
+We now introduce Definition 8.1: An operation a on a set A is a function of the Cartesian product A x A into A, i.e., Remark 8.2: The operation a A x A ﬁ A is sometimes referred to as a binary operation and an n-ary operation is defined to be a function a : A … A ﬁ A We shall continue to use the word operation instead of binary operation 3.8.1 Cumulative Operations The operation a : A x A ﬁ A is called cumulative if, for every a, b ˛ A, a (a, b) = a (b, a) Example 7.1: Addition and multiplication of real numbers are cumulative operations since A + b = + a and ab =ba Example 7.2: Let a : ´ x ´ ´ be the operation of subtraction defined by a : (x, y) x – y Then a (5,1) = 4 and a (1, 5) = - 4 99MTH 131 ELEMENTARY SET THEORY Hence subtraction is not a cumulative operations, since A ¨ B = B ¨ A and A ˙ B = B ˙ A 3.8.2 Associative Operations The operation a : A x A ﬁ A is called associative if, for every a, b, c ˛ A. a (a (a, b), c) = a (a, a (b, c)) In other words, if a (a, b) is written a * b, then a is associative if (a * b) * c = a * (b * c) Example 8.1: Addition and multiplication of real numbers are associative operations, since (a + b) + c = a + (b + c) and (ab)c = a(bc) Example 8.2: Let a :´ x ´ ﬁ ´ be the operation of division defined by a : (x, y) x/y Then a (a (12, 6), 2) = a (2, 2) = 1 a (12, a (6, 2)) = a 12, 3) = 4 Hence division is not an associative operation.
+Example 8.3: Union and intersection of sets are associative operations, since (A ¨ B ) ¨ C = A ¨ (B ¨ C) and (A ˙ B) ˙ C = A ˙ (B ˙ C) 3.8.3 Distributive Operations 100MTH 131 ELEMENTARY SET THEORY Consider the following two operations a : A x A ﬁ A b : A x A ﬁ A The operation a is said to be distributive over the operation b if, for every a, b, c ˛ A. a (ab (b, c) = b (z, b), a (a, c)) In other words, if a (a, b) is written a * b. and b (a, b) is written a D b, then a distributes over b if A * (b D c) = (a * b) D (a * c) Example 9.1: The operation of multiplication of real numbers distributes over the operation of addition, since A(b + c) = ab + ac But the operation of addition of real numbers does not distribute over the operation of multiplication, since A + (bc) „ (a + b)(a + c) Example 9.2: The operation of Union and intersection of sets distribute over each other since A ¨ (B ˙ C) = (A ¨ B) ˙ (A ¨ C) A ¨ (B ¨ C) = (A ˙ B) ¨ (A ˙ C) 3.8.4 Identity Elements Let a : A x A A be an operation written a (a, b) = a * b.
+An element c ˛ A is called an identity element for the operation a if, for every a ˛ A.
+C * a = a * c = a 101MTH 131 ELEMENTARY SET THEORY Example 10.1: Let a :´ x ´ ﬁ ´ be the operation of addition.
+Then 0 is an identity element for addition since, for every real number a ´˛ .
+0 * a = a * 0 = a, that is,0 + a = a + 0 = a Example 10;2: Consider the operation of intersection of sets.
+Then U, the universal set is an identity element, since for every set A (which is a subset of U), U * A = A * U = Am that is, U ˙ A = A ˙ U = A Example 10.3: Consider the operation of multiplication of Real numbers.
+Then the number 1 is an identity element since, for every real number a, 1 * a = a * 1 = a, that is, 1 • a = a • 1 = a Theorem 8.
+1: If an operation a : A x A ﬁ A has an identity element.
+Thus we can speak of the identity element for an operation instead of an identity element.
+3.8.5 Inverse Elements Let a : A x A ﬁ A be an operation written a (a, b) = a * b, and let e ˛ A be the identity element for a .
+Then the inverse of an element a ˛ A, denoted by a-1 is an element in A with the following property: -1 * a = a * a -1 = e Example 11.1: Consider the operation of addition of real numbers for which 0 is the identity element.
+Then, for any real number a, its negative (- a) is its additive inverse since 102MTH 131 ELEMENTARY SET THEORY - a * a = a * - a = 0m that is, (- a) + a = a + (- a) = a – a = 0 Example 11.2 Consider the operation of multiplication of rational numbers, for which 1 is the identity element.
+Then for any non-zero rational number p/q, where p and \ q are integers, its reciprocal q/p is its multiplicative inverse, since (q/p)(p/q) = (p/q)(q/p) = 1 Example 11.3 Let a : N x N N be the operation of multiplication for which 1 is the identity element; here N is the set of natural numbers.
+Then 2 has no multiplicative inverse, since there is no element x ˛ N with the property X • 2 = 2 • x = 1 In fact, no element in N has a multiplicative inverse except 1 which has itself as an inverse.
+3.9 Operations And Subsets Consider an operation a : A x A ﬁ A and a subset B of A.
+Then B is said to be closed under the operation of a if, for every b, b’ ˛ B, a (b, b’) ˛ B that is, if a (B x B) (cid:204) B Example12.1 Consider the operation of addition of natural numbers.
+Then the set of even numbers id closed under the operation of addition since the sum of any two even numbers is always even.
+Moreover, the set of odd numbers is not closed under the operation of addition since the sum of two odd numbers is not odd.
+Example 12.2: The four complex numbers 1, - 1, I, - I are closed 103MTH 131 ELEMENTARY SET THEORY under the operation of multiplication.
+4.0 CONCLUSION In mathematical analysis and abstract mathematics, the unit is a prerequisite knowledge.
+Functions and diagrams go han in hand.
+Set functions, real-valued functions, characteristic functions are basic functions in analysis 5.0 SUMMARY See if you recall the following: - The function f’ is called a restriction of f to B (f B) of f: A ﬁ C, if, given B a subset of A, f induces a function a function f’: B ﬁ C which is defined by F’(b) = f(b) For any b˛ B.
+- Let f: A ﬁ C and let B be a superset of A.
+Then a function F: B ﬁ C is called an extension of f if, for every a ˛ A. f(a) = f(a) - A function is called a set function if its domain consists of sets - A function on a a set that maps the elements of that set into the real numbers is called a real-valued function.
+- The rule of Maximum domain is used to define domains which need not be stated explicitly since it is the maximum set of real numbers for which a function yields a real number.
+6.0 TUTOR MARKED ASSIGNMENTS 1 Let W = {a, b, c, d}; v = {1, 2, 3}, and let f: W ﬁ V be defined by the adjoining diagram.
+Find: (1) f({a, b, d}), (2) f({a, c}).
+104MTH 131 ELEMENTARY SET THEORY a b 1 c 2 d 3 2.
+Find the domain of each of the following real-valued functions: 1. f (x) = 1/x where x > 0 1 2 f (x) = (cid:214) 3 – x 2 3. f (x) = log(x – 1) 3 4 f (x) = x2 where 0 £ x £ 4 4 5.
+Consider the real-valued function f = {(1, 2), (2, -3), (3, -1)} (with domain {1, 2, 3}).
+Find (1) f + 4, (2) f , (3) f2, 7.0 REFERENCES AND FURTHER READINGS Seymour Lipschutz: Schaum’s Outline Series: Theory And Problems of set theory and related topics, 1964, Pp 1 -133.
+Sunday O. Iyahen: Introduction to real Analysis (real- Valued functions of a real variable, 1998, Vol.1 105

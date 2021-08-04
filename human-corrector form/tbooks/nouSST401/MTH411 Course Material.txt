@@ -1,0 +1,869 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 411 COURSE TITLE: MEASURE OF THEORY AND INTEGRATION  COURSE GUIDE MTH 411 MEASURE THEORY AND INTEGRATION Course Developer Dr O.T.
+Mewomo Department of Mathematics University of Agriculture, Abeokuta Course Co-ordinator Dr. Abiola National Open University of Nigeria Lagos.
+NATIONAL OPEN UNIVERSITY OF NIGERIA National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos 1Abuja Annex 245 Samuel Adesujo Ademulegun Street Central Business District Opposite Arewa Suites Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng National Open University of Nigeria 2011 First Printed ISBN All Rights Reserved Printed by …………….. For National Open University of Nigeria 2TABLE OF CONTENTS PAGE Introduction............................................................... 2-3 What you will learn in this Course............................ 3 Course Aims.............................................................. 3 Course Objectives………………………………….. 4 Working through this Course..................................... 4 Course Materials......................................................... 5 Study Units ................................................................ 5-6 Textbooks and References ......................................... 6 Presentation Schedule................................................. 6 Assessment.................................................................. 6-7 Tutor Marked Assignments (TMAs) .......................... 7 Examination and Grading............................................ 7-8 Course Marking Scheme............................................. 8 Course Overview…………………………………… 8-9 How to Get the Best from This Course ...................... 9-11 Tutors and Tutorials ................................................... 11-12 Summary……………………………………............. 12 3Introduction MTH 411 – Measure Theory and Integration is a three [3] credit unit course of thirteen units.
+This course is an introduction to measure theory and integration.
+Measure theory is the axiomatized study of areas and volumes.
+It is the basis of integration theory and provides the conceptual framework for probability.
+Towards the end of the nineteenth century it became clear to many mathematicians that the Riemann integral (about which one learns in calculus courses) should be replaced by some other type of integral, more general and more flexible, better suited for dealing with limit processes.
+Among the attempts made in this direction, the most notable ones were due to Borel and Lebesgue.
+It was Lebesgue’s construction which turned out to be the most successful.
+The Riemann integral of a function f over an interval [a, b] can be approximated by sums of the form (cid:9) (cid:1) (cid:2)(cid:3)(cid:4) (cid:6)(cid:7)(cid:3)(cid:8) (cid:6) (cid:5) (cid:5) (cid:5)(cid:10)(cid:11) where are disjoint intervals whose union is [a, b], denotes the (cid:8) ,(cid:8) ,…,(cid:8) (cid:7)(cid:3)(cid:8) (cid:6) (cid:11) (cid:13) (cid:9) (cid:5) length of for i = 1, 2, …, n. (cid:8) ,(cid:15)(cid:16)(cid:17) (cid:4) (cid:19) (cid:8) (cid:5) (cid:5) (cid:5) Lebesgue discovered that a completely satisfactory theory of integration results if the sets in the above sum are allowed to belong to a larger class of subsets of (cid:8) (cid:5) the line, the so called measurable sets and if the class of functions under consideration is enlarged to the class of measurable functions.
+The crucial set – theoretical properties involved is the following: The union and the intersection of any countable family of measurable sets are measurable; so is the complement of every measurable set; and most important, notion of length is now replace with measure.
+4 In this note, we shall present an abstract (axiomatic) version of the Lebesgue integral, relative to any countably additive measure on any set.
+This shows that a large part of integration theory is independent of any geometry (or topology) of the underlying space, and it gives us a tool of much wider application.
+We shall also consider the special case of the real line.
+The course is divided into five modules.
+The first module deals with the measure of bounded open and closed sets, the outer and inner measures of bounded sets.
+The second module deals with general measure space, algebra and sigma-algebra, measures and measurable functions.
+The third module deals with the theory of integration, and Lebesgue integration of real – valued functions defined on the real line.
+The fourth module deals with the sets of measure zero and the -spaces.
+(cid:21) (cid:20) The fifth module deals with the product space, product measure, the evaluation of integrals over product measures and the Fubini’s theorem.
+This Course Guide gives you a brief overview of the course content, course duration, and course materials.
+What you will learn in this course 5 The main purpose of this course is to introduce the concepts of measure theory and integration which provide the conceptual framework for probability and other areas of analysis.
+Thus, we intend to achieve this through the following: Course Aims I.
+Introduce the concepts associated with measurable space, measure space and measurable functions; II.
+Provide some of the properties of measures, and measurable functions necessary for the theory of integration; III.
+Introduce the concept of Lebesgue integration for the general measure space and for the real line; IV.
+Provide some of the properties and theory of Lebesgue integrals; and V. Provide you with the necessary foundation on the Lebesgue integration on the real line with examples.
+Course Objectives Certain objectives have been set out to ensure that the course achieves its aims.
+Apart from the course objectives, every unit of this course has set objectives.
+In the course of the study, you will need to confirm, at the end of each unit, if you have met the objectives set at the beginning of each unit.
+By the end of this course you should be able to: (i) Explain the term measure of bounded open and closed sets and also know their basic properties.
+6 (ii) Know the meaning of outer and inner measures with their basic properties.
+(iii) Know the meaning with examples of algebras, sigma-algebras, measurable sets, measurable space and measure space.
+(iv) Understand the concept of measurable functions, with examples and some basic theorems on measurable functions.
+(v) Understand the concept of Lebesgue integration both on the general measure space and the real line.
+(vi) Understand the basic theory of integration and convergence, with the application in evaluating integrals.
+(vii) Know the space of integrable functions as a Banach space with the norm defined on it.
+(viii) Know the product measures and product spaces and how integrals are evaluated on them with Fubini’s theorem.
+Working Through This Course In order to have a thorough understanding of the course units, you will need to read and understand the contents, practise the exercise provided and be committed to learning and group discussion of the note.
+This course is designed to cover approximately sixteen weeks, and it will require your devoted attention.
+You should do the exercises in the Tutor-Marked Assignments and submit to your tutors.
+Course Materials These include: 7 1.
+Course Guide 2.
+Study Units 3.
+Recommended Texts 4.
+Tutor Marked Assignments.
+5.
+Presentation Schedule Study Units There are thirteen study units in this course: MODULE ONE: Lebesgue Measure of Subset of (cid:22) UNIT 1: Measure of a Bounded Open Set UNIT 2: Measure of a Bounded Closed Set UNIT 3: The Outer and Inner Measures of Bounded Sets MODULE TWO: General Measure Space (X, , (cid:23) (cid:24)(cid:6) UNIT 1: Algebras and Sigma-Algebras UNIT 2: Measures UNIT 3: Measurable Functions 8 MODULE THREE: Theory of Integration UNIT 1: Integration of Positive Functions UNIT 2: Integration of Complex Functions UNIT 3: Lebesgue Integration of Real – Valued Functions Defined on (cid:9) (cid:22) MODULE FOUR: Classical Banach Spaces UNIT 1: Sets of Measure Zero UNIT 2: (cid:21) – Spaces (cid:20) MODULE FIVE: Product Measures and Fubini’s Theorem UNIT 1: Product Measures and Product Spaces UNIT2: Fubini’s Theorem Make use of the course materials, do the exercises to enhance your learning.
+Textbooks and References D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+9 S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+Presentation Schedule The Presentation Schedule included in your course materials gives you the important dates for the completion of tutor marked assignments and attending tutorials.
+Remember, you are required to submit all your assignments by the due date.
+You should guard against lagging behind in your work.
+Assessment There are two aspects to the assessment of the course.
+First are the tutor marked assignments; second, is a written examination.
+In tackling the assignments, you are expected to apply information and knowledge acquired during this course.
+The assignments must be submitted to your tutor for formal assessment in accordance with the deadlines stated by your tutor.
+The work you submit to your tutor for assessment will count for 30% of your total course mark.
+At the end of the course, you will need to sit for a final three-hour examination.
+This will also count for 70% of your total course mark.
+Tutor Marked Assignments (TMAS) 10 There are some tutor marked assignments in this course.
+You need to submit all the assignments.
+The total marks for the assignments will be 30% of your total course mark.
+You should be able to complete your assignments from the information and materials contained in your set textbooks, reading and study units.
+However, you may wish to use other references to broaden your viewpoint and provide a deeper understanding of the subject.
+When you have completed each assignment, send it to your tutor.
+Make sure that each assignment reaches your tutor on or before the deadline given.
+If, however, you cannot complete your work on time, contact your tutor before the assignment is done to discuss the possibility of an extension.
+Examination and Grading The final examination for the course will carry 70% percentage of the total marks available for this course.
+The examination will cover every aspect of the course, so you are advised to revise all your corrected assignments before the examination.
+This course endows you with the status of a teacher and that of a learner.
+This means that you teach yourself and that you learn, as your learning capabilities would allow.
+The course units are similarly designed with the introduction following the table of contents, then a set of objectives and then the dialogue and so on.
+11 The objectives guide you as you go through the units to ascertain your knowledge of the required terms and expressions.
+Course Marking Scheme This table shows how the actual course marking is broken down.
+Assessment Marks Assignments Several assignments, best three marks of the assignments count at 10% each -30% of course marks Final Examination 70% of overall course marks Total 100% of course marks Table 1: Course Marking Scheme Course Overview Unit Title of Work Weeks Assessment Activity (End of Unit) Course Guide Week 1 Module 1 1 Measure of a Bounded Open Set Week 1 Assignment 1 2 Measure of a Bounded Closed Set Week 2 3 The Outer and Inner Measure of Bounded Week 3 Assignment 2 Sets Module 2 1 Algebras and sigma-algebras Week 4-5 12 2 Measures Week 6 Assignment 3 3 Measurable Functions Week 7 Assignment 4 Module 3 1 Integration of Positive Functions Week 8-9 Assignment 5 2 Integration of Complex Functions Week 10 3 Lebesgue Integration of Real – Valued Week 11 Assignment 6 Function defined Module 4 1 Sets of Measure Zero Week 12 Assignment 7 2 (cid:21) – Spaces Week 13 Assignment 8 (cid:20) Module 5 1 Product Measures and Product Spaces Week 14 2 Fubini’s Theorem Week 15 Revision Week 16 Examination Week 17 How to get the best from this course In distance learning the study units replace the university lecturer.
+This is one of the great advantages of distance learning; you can read and work through specially designed study materials at your own pace, and at a time and place that suit you best.
+Think of it as reading the lecture instead of listening to a lecturer.
+In the same way that a lecturer might set you some reading to do, the study units tell you when to read your set books or other material.
+Just as a lecturer might 13 give you an in-class exercise, your study units provide exercises for you to do at appropriate points.
+Each of the study units follows a common format.
+The first item is an introduction to the subject matter of the unit and how a particular unit is integrated with the other units and the course as a whole.
+Next is a set of learning objectives.
+These objectives enable you know what you should be able to do by the time you have completed the unit.
+You should use these objectives to guide your study.
+When you have finished the units you must go back and check whether you have achieved the objectives.
+If you make a habit of doing this you will significantly improve your chances of passing the course.
+Remember that your tutor’s job is to assist you.
+When you need help, don’t hesitate to call and ask your tutor to provide it.
+1.
+Read this Course Guide thoroughly.
+2.
+Organize a study schedule.
+Refer to the ‘Course Overview’ for more details.
+Note the time you are expected to spend on each unit and how the assignments relate to the units.
+Whatever method you chose to use, you should decide on it and write in your own dates for working on each unit.
+3.
+Once you have created your own study schedule, do everything you can to stick to it.
+The major reason that students fail is that they lag behind in their course work.
+4.
+Turn to Unit 1 and read the introduction and the objectives for the unit.
+5.
+Assemble the study materials.
+Information about what you need for a unit is given in the ‘Overview’ at the beginning of each unit.
+You will almost 14 always need both the study unit you are working on and one of your set of books on your desk at the same time.
+6.
+Work through the unit.
+The content of the unit itself has been arranged to provide a sequence for you to follow.
+7. Review the objectives for each study unit to confirm that you have achieved them.
+If you feel unsure about any of the objectives, review the study material or consult your tutor.
+8.
+When you are confident that you have achieved a unit’s objectives, you can then start on the next unit.
+Proceed unit by unit through the course and try to pace your study so that you keep yourself on schedule.
+9.
+When you have submitted an assignment to your tutor for marking, do not wait for its return before starting on the next unit.
+Keep to your schedule.
+When the assignment is returned, pay particular attention to your tutor’s comments, both on the tutor-marked assignment form and also written on the assignment.
+Consult your tutor as soon as possible if you have any questions or problems.
+10.
+After completing the last unit, review the course and prepare yourself for the final examination.
+Check that you have achieved the unit objectives (listed at the beginning of each unit) and the course objectives (listed in this Course Guide).
+Tutors and Tutorials There are 15 hours of tutorials provided in support of this course.
+You will be notified of the dates, times and location of these tutorials, together with the name and phone number of your tutor, as soon as you are allocated a tutorial group.
+15 Your tutor will mark and comment on your assignments, keep a close watch on your progress and on any difficulties you might encounter and provide assistance to you during the course.
+You must mail or submit your tutor-marked assignments to your tutor well before the due date (at least two working days are required).
+They will be marked by your tutor and returned to you as soon as possible.
+Do not hesitate to contact your tutor by telephone, or e-mail if you need help.
+The following might be circumstances in which you would find help necessary.
+Contact your tutor if: • you do not understand any part of the study units or the assigned readings, • you have difficulty with the self-tests or exercises, • you have a question or problem with an assignment, with your tutor’s comments on an assignment or with the grading of an assignment.
+You should try your best to attend the tutorials.
+This is the only chance to have face to face contact with your tutor and to ask questions which are answered instantly.
+You can raise any problem encountered in the course of your study.
+To gain the maximum benefit from course tutorials, prepare a question list before attending them.
+You will learn a lot from participating in discussions actively.
+Summary Measure theory introduces you to the axiomatized study of areas and volumes which is the basis of integration theory and provides you the conceptual framework for probability and modern analysis.
+16 We hope that by the end of this course you would have acquired the required knowledge to view Integration in a new way.
+I wish you success with the course and hope that you will find it both interesting and useful.
+17 MODULE 1: LEBESGUE MEASURE OF SUBSET OF (UNEDITED) (cid:22) Unit 1: Measure of a Bounded Open Set Page 1.0 Introduction 1 - 2 2.0 Objectives 2 3.0 Measure of a Bounded Open Set 2 - 5 4.0 Conclusion 6 5.0 Summary 6 6.0 Tutor Marked Assignment 6 7.0 Further Reading and Other Resources 6 1.0 Introduction The concept of measure m(E) of a set E is a generalization of such concept as (i) The length L(∆) of a line segment ∆.
+(ii) The area A(f) of a plane figure f. (iii) The volume V(G) of a space figure G. (iv) The increment f(b) – f(a) of a non-decreasing function f(t) over the close and bounded interval [a, b].
+(v) The integral of non negative functions over a set on the real line.
+We shall extend the notion of set to more complicated set rather than an interval.
+Thus, we want a function m define on a subset E of , if possible to have the following properties: (cid:22) 18 (i) m( for = (cid:8) (cid:25)(cid:8) (cid:6) (cid:26) (cid:7)(cid:3)(cid:8) (cid:6)(cid:27) (cid:7)(cid:3)(cid:8) (cid:6) (cid:8) (cid:28)(cid:8) (cid:29) (cid:11) (cid:13) (cid:11) (cid:11) (cid:11) (cid:13) (ii) m( ) = 0 (cid:29) (iii) m(E + x) = m(E), where E + x means the translation of E distance x (iv) if , then (cid:8) (cid:30) (cid:8) (cid:7)(cid:3)(cid:8) (cid:6) (cid:31) (cid:7)(cid:3)(cid:8) (cid:6) (cid:11) (cid:13) (cid:11) (cid:11) (v) m !
+!
+, = for i ≠ j (cid:3)(cid:25) (cid:8) (cid:6) (cid:26) ∑ (cid:7)(cid:3)(cid:8) (cid:6) (cid:8) (cid:28)(cid:8) (cid:29) (cid:9)(cid:10)(cid:11) (cid:9) (cid:9)(cid:10)(cid:11) (cid:9) (cid:5) " If we have such an m, then we will be able to integrate more functions.
+2.0 Objectives By the end of this unit, you should be able to: (i) define what the measure of a bounded open set is; (ii) understand some basic properties of measure of bounded open sets; (iii) prove some basic results on measures of bounded open sets.
+3.0 Measure of a Bounded Open Set We recall that a set is bounded if it is contained within a ball.
+Since open sets possesses a very simple structure, it is customary to begin the study of measure with open sets.
+Definition 3.1.1: The measure m(G) of a non empty bounded open set G is the sum of the lengths of all its component intervals.
+i.e.
+m(G) = , where are component intervals in ∑ (cid:7)(cid:3)# (cid:6) # $ $ $ G. Clearly m(G) < .
+∞ 19 Lemma 3.1.2: If a finite number of pairwise disjoint open intervals are contained in # ,# ,# ,…# (cid:11) (cid:13) & (cid:9) an open interval G, then m(G) ≥ (cid:9) ∑ (cid:7)(cid:3)# (cid:6).
+$(cid:10)(cid:11) $ Proof: Let G = (A, B) and let = ( , ), k = 1, 2,…, n, with < < … < .
+Then < , # (cid:15) ( (cid:15) (cid:15) (cid:15) ( ( $ $ $ (cid:11) (cid:13) (cid:9) $ $)(cid:11) k = 1, 2,…, n-1 (since otherwise, and will have some common points).
+Hence the # # $ $)(cid:11) representation Q = (B - ) ( ) ( ) - A) ( (cid:25) (cid:15) * ( (cid:25) (cid:15) * ( (cid:25) …(cid:25) (cid:3)(cid:15) * ( (cid:6) (cid:25) (cid:3)(cid:15) (cid:9) (cid:9) (cid:9)+(cid:11) (cid:9)+(cid:11) (cid:9)+(cid:13) (cid:13) (cid:11) (cid:11) is non empty.
+It follows that B – A = m(G) = (cid:9) ∑ (cid:7)(cid:3)# (cid:6) (cid:27) (cid:7)(cid:3),(cid:6) $(cid:10)(cid:11) $ And since Q ≠ , then m(Q) is non - zero and so m(G) ≥ (cid:9) (cid:29) ∑ (cid:7)(cid:3)# (cid:6).
+$(cid:10)(cid:11) $ Corollary 3.1.3: If a denumerable (countable) family of disjoint open intervals # , $ - (cid:26) 1,2,3,… are contained in an open interval G, then m(G) ≥ ∑!
+(cid:7)(cid:3)# (cid:6).
+$(cid:10)(cid:11) $ Proof: This follows from Lemma 3.1.2 as n tends to infinity.
+Theorem 3.1.4: Let be open sets such that , then .
+1 ,1 1 (cid:30) 1 (cid:7)(cid:3)1 (cid:6) (cid:31) (cid:7)(cid:3)1 (cid:6) (cid:11) (cid:13) (cid:11) (cid:13) (cid:11) (cid:13) Proof: Let , i = 1, 2, 3,… and # 2 ,- (cid:26) 1,2,3,… (cid:5) $ be the components intervals of respectively.
+Then we know that each of the interval 1 (cid:15)(cid:16)(cid:17) 1 (cid:11) (cid:13) is contained in one and only one of the interval , hence the family of can be divided into # 2 # (cid:5) $ (cid:5) 20 pairwise disjoint sub – families , where we put in if .
+Then by Definition 3.1.1, 3 # 3 3 (cid:30) 2 $ (cid:5) $ (cid:5) $ we have m( 1 (cid:6) (cid:26) ∑ (cid:7)(cid:3)# (cid:6) (cid:26) ∑ ∑ (cid:7)(cid:3)# (cid:6) (cid:11) (cid:5) (cid:5) $ (cid:5)4 56 (cid:30) 78 (cid:5) ≤ = m( .
+∑ (cid:7)(cid:3)2 (cid:6) 1 (cid:6) $ $ (cid:11) Corollary 3.1.5: The measure of a bounded open set G is the greatest lower bound of the measures of all bounded open sets containing G. That is m(G) = inf .
+9(cid:7)(cid:3)(cid:8)(cid:6):1 (cid:30) (cid:8),(cid:8) ;< =>?
+(cid:16) (cid:15)(cid:16)(cid:17) (=@(cid:16)(cid:17)?
+(cid:17)A Proof: Exercise Theorem 3.1.6: If the bounded open set G is the union of finite or denumerable family of pairwise disjoint open sets (that is, G = = for i ≠ j), then m(G) = .
+B$1$, 1(cid:5) (cid:28) 1" (cid:29) ∑$(cid:7)(cid:3)1$(cid:6) (This is called the countable additive property of m).
+Proof: Exercise Lemma 3.1.7: Let the open interval J be the union of finite or denumerable family of open sets (that is, J = ).
+Then B$1$ m(J) ≤ .
+∑ (cid:7)(cid:3)1 (cid:6) $ $ 21 Proof: Exercise Theorem 3.1.8: Let the bounded open set G be the union of finite or denumerable number of open sets (that is, G = ).
+Then 1$ B$1$ m(G) ≤ .
+∑ (cid:7)(cid:3)1 (cid:6) $ $ Proof: Let , i = 1, 2, 3, ... be the component intervals of the open set G. Then # (cid:5) m( However = ∩ ( ) = ).
+Hence by Lemma3.1.7, we have 1(cid:6) (cid:26) ∑(cid:5)(cid:7)(cid:3)#(cid:5)(cid:6).
+#(cid:5) #(cid:5) B$1$ B$(cid:3)#(cid:5) (cid:28) 1$ m( ≤ ), and so, we have # (cid:6) ∑ (cid:7)(cid:3)# (cid:28) 1 (cid:5) $ (cid:5) $ m(G) ≤ (3.1.1).
+∑ C ∑ (cid:7)(cid:3)# (cid:28) 1 (cid:6) D (cid:5) $ (cid:5) $ On the other hand, = ∩ ( ) = ).
+Each terms of the right hand side of the last 1$ 1$ B(cid:5)#(cid:5) B(cid:5)(cid:3)#(cid:5) (cid:28) 1$ equality are pairwise disjoint (since = for i ≠ j).
+Hence, by applying Theorem 3.1.6, we # (cid:28) # (cid:29) (cid:5) " have m( = (3.1.2).
+1 (cid:6) ∑ (cid:7)(cid:3)# (cid:28) 1 (cid:6) $ (cid:5) (cid:5) $ From (3.1.1) and (3.1.2), we have m(G) ≤ ∑ C ∑ (cid:7)(cid:3)# (cid:28) 1 (cid:6) D (cid:5) $ (cid:5) $ = = .
+∑ C∑ (cid:7)(cid:3)# (cid:28) 1 (cid:6)D ∑ (cid:7)(cid:3)1 (cid:6) $ (cid:5) (cid:5) $ $ $ 22 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of measure of a bounded open set; (ii) the basic properties of measure of bounded open sets; (iii) how to prove some basic results on measures of bounded open sets.
+6.0 Tutor Marked Assignment (1) Find the length (measure) of the set !
+(cid:11) (cid:11)} B 9E 4 (cid:31) E F $(cid:10)(cid:11) $)(cid:11) $ (2) Find the length of the set (cid:11) } !
+B 9E 4 0 (cid:31) E F $(cid:10)(cid:11) &8 7.0 Further Reading and Other Resource H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+23 MODULE 1: LEBESGUE MEASURE OF SUBSET OF (cid:22) Unit 2: Measure of a Bounded Closed Set Page 1.0 Introduction 7 2.0 Objectives 7 3.0 Measure of a Bounded Closed Set 7 - 10 4.0 Conclusion 10 5.0 Summary 10 6.0 Tutor Marked Assignment 10 7.0 Further Reading and Other Resources 10 - 11 1.0 Introduction In this unit, we discuss the measure of a bounded close set and some of its basic properties.
+2.0 Objectives By the end of this unit, you should be able to: (i) define what the measure of a bounded closed set is; (ii) understand some basic properties of measure of bounded closed sets; (iii) prove some basic results on measures of bounded closed sets.
+3.0 Measure of a Bounded Closed Set 24 Let F be a non – empty closed set and let S be the smallest closed interval containing the set F. The set F = [a, b] – F is open and hence has a definite measure m( F).
+S = [a, b], F is the H H H I I I complement of F with respect to S, and so is open since F is closed.
+This leads to the following definition.
+Definition 3.2.1: The measure of a non – empty bounded closed set F is the number m(F) = b – a – m( F), where S = [a, b] is the smallest closed interval containing the set F. H I Example 3.2.1: (i) If F = [a, b], then S = [a, b] and F = .
+Hence H (cid:29) I m(F) = b – a – m( F) = b – a – 0 = b – a. H I Thus, the measure of a closed interval is equal to its length.
+(ii) If F is the union of a finite number of pairwise disjoint closed interval.
+F = [ , ] [ , ] [ , ].
+We may consider the closed intervals as being (cid:15) ( (cid:25) (cid:15) ( (cid:25)… (cid:25) (cid:15) ( (cid:11) (cid:11) (cid:13) (cid:13) (cid:9) (cid:9) enumerated in the order of increasing left end points, then < , k = 1,2, …, n-1.
+( (cid:15) $ $)(cid:11) It follows that S = [ , ] and F = ( , ( , ) , ).
+Hence (cid:15) ( H ( (cid:15) (cid:6)(cid:25) ( (cid:15) (cid:25)… (cid:25)(cid:3)( (cid:15) (cid:11) (cid:9) I (cid:11) (cid:13) (cid:13) & (cid:9)+(cid:11) (cid:9) m(F) = - – ) = .
+(cid:9)+(cid:11) (cid:9) ( (cid:15) ∑ (cid:3)(cid:15) * ( ∑ (cid:3)( * (cid:15) (cid:6) (cid:9) (cid:11) $(cid:10)(cid:11) $)(cid:11) $ $(cid:10)(cid:11) $ $ That is, the measure of a union of a finite number of pairwise disjoint closed intervals equals the sum of the length of these intervals.
+Theorem 3.2.3: The measure of a bounded closed set F is non – negative.
+Proof: Clearly F (a, b) and so m( F) ≤ m(a, b) = b – a. H (cid:30) H I I 25 But m(F) = b – a – m( F).
+Hence m(F) ≥ b – a – (b – a) = 0.
+H I Theorem 3.2.4: The measure of a bounded closed set F is the least upper bound of the measures of the closed sets contained in F. Proof: Exercise.
+Lemma 3.2.5: Let F be a bounded closed set contained in the open interval I.
+Then m(F) = m(I) - m(I – F).
+Proof: Exercise Theorem 3.2.6: Let F be a closed set and let G be a bounded open set.
+If F G, then (cid:30) m(F) ≤ m(G).
+Proof: Let I be an interval containing G. Then I = G (I – F) and applying Theorem 3.1.8, we (cid:25) have m(F) = m(I) – m(I – F) ≤ m(G) + m(I – F) – m(I – F) = m(G).
+Theorem 3.2.7: The measure of a bounded open set G is the least upper bound of the measures of all closed sets contained in G. Proof: Exercise Theorem 3.2.8: The measure of a bounded closed set F is the greatest lower bound of the measures of all possible bounded open sets containing F. 26 Proof: Exercise Theorem 3.2.9: Let the bounded closed set F be the union of a finite number of pairwise disjoint closed sets, F = (cid:9) = for i ≠ j.
+Then B(cid:5)(cid:10)(cid:11)J(cid:5) , J(cid:5) (cid:28) J" (cid:29) m(F) = (cid:9) ∑ (cid:7)(cid:3)J (cid:6).
+(cid:5)(cid:10)(cid:11) (cid:5) Proof: Exercise 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of measure of a bounded closed set; (ii) the basic properties of measure of bounded closed sets; (iii) how to prove some basic results on measures of bounded closed sets.
+6.0 Tutor Marked Assignment Prove Theorem 3.2.4, Theorem 3.2.7, Theorem 3.2.8 and Theorem 3.2.9 7.0 Further Reading and Other Resource H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+27 Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+MODULE 1: LEBESGUE MEASURE OF SUBSET OF (cid:22) Unit 3: The Outer and Inner Measures of Bounded Sets Pages 1.0 Introduction 11 2.0 Objectives 11 3.0 The Outer and Inner Measures of Bounded Sets 12 - 15 4.0 Conclusion 15 5.0 Summary 15 6.0 Tutor Marked Assignment 15 7.0 Further Reading and Other Resources 16 1.0 Introduction In this unit, we shall study the outer and inner measures of bounded sets and also establish some basic results on outer and inner measures.
+2.0 Objectives By the end of this unit, you should be able to: (i) define what the outer and inner measures of bounded sets are; (ii) know what a measurable set is; (iii) understand some basic properties of outer and inner measures of bounded sets; (iv) prove some basic results on outer and inner measures of bounded sets.
+28 3.0 The Outer and Inner measures of Bounded Sets Definition 3.3.1: The outer measure K of a bounded set E is the greatest lower bound of (cid:7) (cid:3)(cid:8)(cid:6) the measures of all bounded open sets containing the set E. That is, = inf{m(G) : E G, G is open and bounded}.
+K (cid:7) (cid:3)(cid:8)(cid:6) (cid:30) Clearly for any bounded set E, K is well defined and 0 ≤ K < + .
+(cid:7) (cid:3)(cid:8)(cid:6) (cid:7) (cid:3)(cid:8)(cid:6) ∞ Definition 3.3.2: The inner measure (E) of a bounded set E is the least upper bound of the (cid:7) K measures of all closed sets contained in the set E. That is, (E) = sup{m(F) : F E and F is closed}.
+(cid:7) (cid:30) K Also, for any bounded set E, (E) is well defined and 0 ≤ (E) < + .
+(cid:7) (cid:7) ∞ K K Theorem 3.3.3: Let G be a bounded open set.
+Then K = (G) = m(G).
+(cid:7) (cid:3)1(cid:6) (cid:7) K Proof: This follows from Corollary 3.1.5 and Theorem 3.2.7.
+Theorem 3.3.4: Let F be a bounded closed set.
+Then K = (F) = m(F).
+(cid:7) (cid:3)J(cid:6) (cid:7) K Proof: This follows from Theorem 3.2.4 and Theorem 3.2.8.
+We recall that a set is measurable if its outer measure equals its inner measure.
+Theorem 3.3.5: For any bounded set E, (cid:7) (cid:3)(cid:8)(cid:6) ≤ (cid:7)K(cid:3)(cid:8)(cid:6).
+K 29 Proof: Let G be a bounded open set containing the set E, for any closed subset F of the set E, we have F G, and so, m(F) ≤ m(G).
+Hence ≤ m(G).
+Since this is true for every bounded (cid:30) (cid:7) (cid:3)J(cid:6) K open set G containing E, we have that (cid:7) (cid:3)(cid:8)(cid:6) ≤ (cid:7)K(cid:3)(cid:8)(cid:6).
+K Theorem 3.3.6: Let A and B be bounded sets such that A B.
+Then (cid:30) ≤ and K K (cid:7) (cid:3)3(cid:6) (cid:7) (cid:3)L(cid:6) (cid:7) (cid:3)3(cid:6) (cid:31) (cid:7) (cid:3)L(cid:6).
+K K Proof: We prove the first part and leave the second part as assignment.
+Let S be the set of numbers consisting of the measures of all closed subsets of the set A and let T be the analogous set for the set B.
+Then = sup S and = sup T. If F is a closed subset of A, then F is (cid:7) (cid:3)3(cid:6) (cid:7) (cid:3)L(cid:6) K K necessarily a subset of B since A B.
+It follows thus that S T and so ≤ .
+(cid:30) (cid:30) (cid:7) (cid:3)3(cid:6) (cid:7) (cid:3)L(cid:6) K K Theorem 3.3.7: If a bounded set E is the union of a finite or denumerable number of sets , (cid:8) $ E = Then B$(cid:8)$.
+≤ K K (cid:7) (cid:3)(cid:8)(cid:6) ∑ (cid:7) (cid:3)(cid:8) (cid:6).
+$ $ Proof: If the series ∑ (cid:7)K(cid:3)(cid:8) (cid:6) diverges the result is trivial.
+Suppose the series ∑ (cid:7)K(cid:3)(cid:8) (cid:6) $ $ $ $ converges.
+Pick an arbitrary > 0, we can find bounded open set such that M 1 (cid:8) (cid:30) 1, $ $ < ( + N , k =1, 2, … .
+K (cid:7)(cid:3)1 (cid:6) (cid:7) (cid:8) (cid:6) $ $ (cid:13)8 Denote by I an open interval containing the set E. Then E I ( , and so, we have (cid:30) (cid:28) B$1$(cid:6) 30  ≤ m(I ( ) = m( ) K (cid:7) (cid:3)(cid:8)(cid:6) (cid:28) B 1 (cid:6) B (cid:3)1 (cid:28) I(cid:6) $ $ $ $ ≤ ≤ + K ∑ (cid:7)(cid:3)1 (cid:28) I(cid:6) ∑ (cid:7)(cid:3)1 (cid:6) (cid:31) ∑ (cid:7) (cid:3)(cid:8) (cid:6) M. $ $ $ $ $ $ The result follows since is arbitrary.
+M Theorem 3.3.8: If a bounded set E is the union of a finite or denumerable number of pairwise disjoint sets , (that is E = = for i ≠ j).
+Then (cid:8)$ B$(cid:8)$, (cid:8)(cid:5) (cid:28) (cid:8)" (cid:29) (cid:7) (cid:3)(cid:8)(cid:6) P ∑ (cid:7) (cid:3)(cid:8) (cid:6).
+K $ K $ Proof: Consider the first n sets , , …, .
+For an arbitrary > 0, there exist closed sets (cid:8) (cid:8) (cid:8) M J (cid:11) (cid:13) (cid:9) $ such that , m( > N, k = 1,2,…n.
+The sets are pairwise disjoint and J (cid:30) (cid:8) J (cid:6) (cid:7) (cid:3)(cid:8) (cid:6)* J $ $ $ K $ $ (cid:9) their union is closed.
+Hence, by applying Theorem 3.2.9, we have B$J$ (cid:9) (cid:9) (cid:7) (cid:3)(cid:8)(cid:6) P (cid:7)(cid:3)B J (cid:6) (cid:26) ∑ (cid:7)(cid:3)J (cid:6) K $(cid:10)(cid:11) $ $(cid:10)(cid:11) $ > (cid:9) ∑ (cid:7) (cid:3)(cid:8) (cid:6) * M. $(cid:10)(cid:11) K $ Since is arbitrary, it follows that M ≤ (cid:9) ∑ (cid:7) (cid:3)(cid:8) (cid:6) (cid:7) (cid:3)(cid:8)(cid:6).
+$(cid:10)(cid:11) K $ K This proves the theorem for finite case.
+For the denumerable case, by noting that the number n is arbitrary, we can establish the convergence of the series and the inequality ∑ (cid:7) (cid:3)(cid:8) (cid:6) $ K $ 31 !
+(cid:1) (cid:7) (cid:3)(cid:8) (cid:6) (cid:31) (cid:7) (cid:3)(cid:8)(cid:6).
+K $ K $(cid:10)(cid:11) Remark: The above theorem is not generally true if we omit the condition that the sets (cid:8) $ have no common points (It may be false if have some points in common).
+(cid:8) $ For example, if and E = .
+(cid:8) (cid:26) C0,1D,(cid:8) (cid:26) C0,1D (cid:8) (cid:25)(cid:8) (cid:11) (cid:13) (cid:11) (cid:13) Then = 1, while = 2.
+(cid:7) (cid:3)(cid:8) (cid:6) (cid:7) (cid:3)(cid:8) (cid:25) (cid:8) (cid:6) (cid:26) 1(cid:27)1 K (cid:11) K (cid:11) (cid:13) 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of outer and innner measures of a bounded sets; (ii) the definition of measurable sets; (iii) the basic properties of outer and innner measures of bounded sets; (iv) how to prove some basic results on outer and inner measues of bounded sets.
+6.0 Tutor marked Assignment (1) Let A and B be bounded sets such that A B.
+Show that (cid:30) K K (cid:7) (cid:3)3(cid:6) (cid:31) (cid:7) (cid:3)L(cid:6).
+(2) Show that the outer measure of an interval is its length.
+(3) Show that outer measure is translation invariant.
+32 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+MODULE2: GENERAL MEASURE SPACE (X, , (cid:23) (cid:24)(cid:6) Unit 1: Algebras and Sigma – Algebras Pages 1.0 Introduction 17 2.0 Objectives 17 3.0 Algebras and Sigma – Algebras 17 - 22 4.0 Conclusion 22 5.0 Summary 22 6.0 Tutor Marked Assignment 23 7.0 Further Reading and Other Resources 23 - 24 33 1.0 Introduction 8.0 In this unit, we shall discuss Algebras and Sigma – Algebras with examples and some basic results on them.
+2.0 Objectives By the end of this unit, you should be able to: (i) define what the algebra and sigma - algebras are; (ii) know what measurable space and measurable set are; (iii) understand the concept of Borel sigma – algebra on the real line; (iv) prove some basic results on measurable space.
+3.0 Algebras and Sigma – Algebras Definition 3.1.1: Let X be an arbitrary set.
+A collection Ω of subsets of X is called an algebra if (i) X (cid:19)Q (ii) for any set A , the set R (cid:19)Q 3 (cid:19)Q (iii) for each finite sequence , , …, of sets that belong to , the set 3 3 3 Q (cid:11) (cid:13) (cid:9) (cid:9) B(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19) Q (iv) for each finite sequence , , …, of sets that belong to , the set 3 3 3 Q (cid:11) (cid:13) (cid:9) (cid:9) S(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19)Q Of course, in conditions (ii), (iii) and (iv), we have required be closed under Q complementation, under the formation of finite unions and under the formation of finite intersections.
+34 Remark 3.1.2: (i) It is easy to check that closure under complementation and closure under the formation of finite unions together imply closure under the formation of finite intersection (using the fact that (cid:9) = (cid:9) R R ).
+Thus, we could have defined S(cid:5)(cid:10)(cid:11)3(cid:5) (cid:3)B(cid:5)(cid:10)(cid:11)3(cid:5)(cid:6) an algebra (Definition 3.1.1) using only conditions (i), (ii) and (iii).
+(ii) , since R and X (cid:29)(cid:19)Q (cid:29) (cid:26) T (cid:19)Q Definition 3.1.3: Let X be an arbitrary set.
+A collection of subsets of X is called a algebra Q U* if (i) X (cid:19)Q (ii) for any set A , the set R (cid:19)Q 3 (cid:19)Q (iii) for each infinite sequence , , … of sets that belong to , the set !
+3(cid:11) 3(cid:13) Q B(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19)Q (iv) for each infinite sequence , , … of sets that belong to , the set !
+3 3 Q S 3 (cid:19)Q (cid:11) (cid:13) (cid:5)(cid:10)(cid:11) (cid:5) Thus a algebra on X is a family of subsets of X that contains and is closed under U* complementation, under the formation of countable unions and under the formation of countable intersections.
+Remark 3.1.4: (i) As in the case of algebra (Definition 3.1.1), we could have used only conditions (i), (ii) and (iii) or only conditions (i), (ii) and (iv) in our Definition 3.1.3, since !
+= !
+R R. S(cid:5)(cid:10)(cid:11)3(cid:5) (cid:3)B(cid:5)(cid:10)(cid:11)3(cid:5)(cid:6) (ii) , since R and X .
+(cid:29)(cid:19)Q (cid:29) (cid:26) T (cid:19)Q 35 (iii) Let , , …, be sets that belong to , the set (cid:9) .
+3(cid:11) 3(cid:13) 3(cid:9) Q B(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19)Q We take … = in (ii) of Definition2.1.3.
+3 (cid:26) 3 (cid:26)3 (cid:26) (cid:29) (cid:9))(cid:11) (cid:9))(cid:13) (cid:9))& (iv) Let A, B then A ∩ R since A ∩ R = R R. (cid:19)Q L (cid:19)Q L (cid:3)3 (cid:25)L(cid:6) (v) Each algebra on X is an algebra on X. U* Example 3.1.5: (i) Let X be any set and let = P(X), the power set of X.
+Then is a algebra on X. Q Q U* (ii) Let X be any set, then = { , X} is a algebra on X. Q (cid:29) U* (iii) Let X = N = [1, 2, 3, 4,…}.
+Then = { , X, {1, 3, 5, 7,…}, {2, 4, 6, 8,…}} is a Q (cid:29) algebra on X. U* (iv) Let X be an infinite set, and let be the collection of all subsets A of X such that Q either A or R is finite.
+Then is analgebra on X, but it is not a algebra on X, 3 Q U * since it is not closed under the formation of countable unions.
+(v) Let X be any set, and let be the collection of all subsets A of X such that either A Q or R is countable.
+Then is a algebra on X.
+3 Q U* (vi) Let X = {a, b, c, d, e, f} and = { , X, {a, b, c}, {f}}.
+Then is not a algebra on X. Q (cid:29) Q U * (vii) Let X be an infinite set, and let be the collection of all finite subsets of X.
+Then Q does not contain X and is not closed under complementation, and so is not an Q algebra (or a algebra) on X. U* (viii) Let be the collection of all subsets of that are unions of finitely many intervals Q (cid:22) of the form (a, b], (a, + or (- b].
+It is easy to check that each set that belongs to ∞(cid:6) ∞ , is the union of a finite disjoint collection of intervals of the type listed above, and Q 36 then to check that is an algebra on .
+is not a algebra on , for example, Q (cid:22) Q U* (cid:22) the bounded open subintervals of are unions of sequence of sets in , but do not (cid:22) Q themselves belong to Q.
+Definition 3.1.6: Let X be any non – empty set and let be a algebra on X.
+The pair Q U* (X, ) is called a measurable space.
+The members of are called measurable sets Q Q Proposition 3.1.7: Let (X, ) be a measurable space.
+Then Q (i) (cid:29)(cid:19)Q (ii) is an algebra of sets Q (iii) If !
+, then (cid:9) 93(cid:5)A(cid:5)(cid:10)(cid:11) (cid:19)Q S(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19)Q (iv) If A, B , then A ∩ R (cid:19)Q L (cid:19)Q Proof: See Remarks 3.1.2 and 3.1.4 Proposition 3.1.8: Let X be any non – empty set.
+Then the intersection of an arbitrary non – empty collection of algebras on X is a algebra on X. U* U* Proof: Denote the non – empty collection of algebra on X.
+We show that 9Q A U* V V (cid:19) W is a algebra on X.
+It is enough to check that contains X, is closed SV (cid:19) WQV U* SV (cid:19) WQV under complementation, and is closed under the formation of countable unions.
+X , since X .
+Now suppose A , then R (cid:19) SV (cid:19) WQV (cid:19)QV X Y (cid:19) Ω (cid:19) SV (cid:19) WQV 3 (cid:19)QV and so R .
+Finally, suppose { is a sequence of sets that belong to X Y (cid:19) Ω 3 (cid:19) S Q 3 A V (cid:19) W V (cid:5) , then { , and so !
+.
+SV (cid:19) WQV 3(cid:5)A(cid:19) QV X Y (cid:19) Ω B(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19) QV X Y (cid:19) Ω 37 Thus, !
+.
+B(cid:5)(cid:10)(cid:11)3(cid:5) (cid:19)SV (cid:19) WQV Corollary 3.1.9: Let X be any non – empty set, and let Ω be a family of subsets of X.
+Then there is a smallest algebra on X that includes Ω. U* Proof: Let be the collection of all algebras on X that includes Ω.
+Then 9Q A U* 9Q A V V (cid:19) W V V (cid:19) W is non – empty since P(X) .
+Then the intersection of all algebras on X that (cid:19)9Q A U* V V (cid:19) W belong to is a algebra on X by Proposition2.1.6, that is is a 9Q A U* S Q V V (cid:19) W V (cid:19) W V algebra on X and includes Ω and is included in every algebra on X that U* SV (cid:19) WQV U* included Ω.
+Remark 3.1.10: To say that is the smallest algebra on X that includes Ω is to say that Q U* Q is a algebra on X that includes Ω, and that every algebra on X that includes Ω also U* U * includes .
+This smallest algebra on X that includes Ω is clearly unique, it is called the Q U* algebra generated by Ω, and it is often denoted by U* U(cid:3)Ω(cid:6).
+We now use the preceding corollary to define an important family of algebras.
+U* Definition 3.1.11: The Borel algebra on (cid:9) is the algebra on (cid:9) generated by the U* (cid:22) U* (cid:22) collection of open subsets of (cid:9) and it is denoted by B( (cid:9) .
+The Borel subsets of (cid:9) are those (cid:22) , (cid:22) (cid:6) (cid:22) that belong to B( (cid:9) .
+In the case n = 1, we generally writes B( ).
+(cid:22) (cid:6) (cid:22) Proposition 3.1.12: The algebra B( ) of Borel subsets of is generated by each of the U* (cid:22) (cid:22) following collections of sets; (i) the collection of all closed subsets of (cid:22) 38 (ii) the collection of all subintervals of of the form (- , b] (cid:22) ∞ (iii) the collection of all subintervals of of the form (a, b] (cid:22) Proof: Exercise For general Borel sets, we have the following.
+Definition 3.1.13: Let (X, ) be a topological space.
+(By Corollary3.1.9), there exists a smallest [ algebra B on X which contain the family of open subsets of X.
+This is called the Borel U* algebra on X.
+We shall denote this by B(X).
+For any U B(X), U is called a Borelian or a U* (cid:19) Borel set.
+In particular; (i) All the closed subsets are Borelian (Since U B(X) imply R B(X) and R is closed.
+(cid:19) \ (cid:19) \ (ii) (X, B(X)) is a measurable space.
+4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of algebra and sigma algebra with examples; (ii) the concept of measurable space and measurable sets; (iii) some results on Borel sigma algebra; (iv) how to prove some results on measurable space.
+39 6.0 Tutor marked Assignment (1) Show by example that the union of a collection of algebras on a set X can fail to be a U* algebra.
+(Hint: There are examples in which X is a small finite set.)
+U* (2) Find an infinite collection of subsets of that contains is closed under the formation (cid:22) (cid:22), of countable unions, and is closed under the formation of countable intersections, but is not a algebra.
+U* (3) Find the algebra on that is generated by the collection of all one – point subsets U* (cid:22) of (cid:22).
+(4) Show that B( is generated by the collection of all compact subsets of (cid:22)(cid:6) (cid:22).
+(5) Let (X, be a measurable space and let Y be a topological space.
+Let f: X .
+If Q(cid:6) ] ^ Ω = {E }, +(cid:11) (cid:30) ^: (cid:2) (cid:3)(cid:8)(cid:6) (cid:19) Q show that Ω is a -algebra on Y. U (6) Let (X, , ) be a measure space and Q _ = {E X: A, B , with A K Q (cid:30) ` (cid:19) Q (cid:30) E (cid:30) B and _(cid:3)L * 3(cid:6) (cid:26) 0A.
+Show that K is a -algebra on X. Q U 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+40 Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+MODULE2: GENERAL MEASURE SPACE (X, , (cid:23) (cid:24)(cid:6) Unit 2: Measures Page 1.0 Introduction 24 2.0 Objectives 24 - 25 3.0 Measures 25 - 32 4.0 Conclusion 33 5.0 Summary 33 6.0 Tutor Marked Assignment 33 - 34 7.0 Further Reading and Other Resources 34 1.0 Introduction In this unit, we shall discuss measures and some of their basic properties.
+We start by discussing set functions, additive and countable additive set functions with some examples.
+2.0 Objectives By the end of this unit, you should be able to: 41 (i) define what the additive and countably additive set functions are; (ii) know what a measure is and also give some examples of measures; (iii) know some basic results on measures; (iv) prove some basic results on measures.
+3.0 Measures Definition 3.2.1: A set function is a function whose domain is a collection of sets.
+_ Definition 3.2.2: Let (X, ) be a measurable space.
+A set function whose domain is the Q _ algebra is called U* Q (i) Additive if whenever A, B and A B = , then (cid:19)Q (cid:28) (cid:29) _(cid:3)3 (cid:25)L(cid:6) (cid:26) _(cid:3)3(cid:6)(cid:27) _(cid:3)L(cid:6).
+(ii) Count ably additive if for and { which are members of and = 3 A Q 3 (cid:28)3 (cid:29) (cid:9) (cid:5) " whenever i f j, then _(cid:3)B!
+(cid:9)(cid:10)(cid:11)3(cid:9)(cid:6) (cid:26) ∑!(cid:9)(cid:10)(cid:11)_(cid:3)3(cid:9)(cid:6).
+In the case (ii), we take the values of to belong to the extended half – line [0, + .
+_ ∞D Remark: Since _(cid:3)3 (cid:6) is non – negative for each n, the sum ∑!
+_(cid:3)3 (cid:6) always exists, either as (cid:9) (cid:9)(cid:10)(cid:11) (cid:9) a real number as + .
+∞ Definition 3.2.3: Let (X, ) be a measurable space.
+A measure (or a countable additive Q measure) on is a function : [0 , + ] that satisfy ( ) = 0 and is countable additive.
+Q Q ] ∞ _ (cid:29) Definition 3.2.4: Let be an algebra (not necessarily a algebra) on the set X.
+A function Q U* _ whose domain is Q is called finitely additive if _(cid:3)B$(cid:9)(cid:10)(cid:11)3$(cid:6) (cid:26) ∑$(cid:9)(cid:10)(cid:11)_(cid:3)3$(cid:6) for each finite sequence …, of disjoint sets that belong to .
+3 ,3 , 3 Q (cid:11) (cid:13) (cid:9) 42 A finitely additive measure on the algebra is a function : [0 , + ] that satisfy ( ) = 0 Q Q ] ∞ _ (cid:29) and is finitely additive.
+It is easy to check that every countably additive measure is finitely additive.
+Remark: Countably additive measures seem to be sufficient for almost all applications, and support a much powerful theory of integration than do finitely additive measures.
+Thus we shall devote all our attention to countably additive measures.
+We shall emphasize that a measure will always be a countably additive measure.
+If (X, ) be a measurable space and is a measure on , then the triple (X, , ) is called a Q _ Q Q _ measure space.
+Thus, a measure space is a measurable space in which a measure is defined.
+We shall assume that there exists at least one A , such that (A) < .
+(cid:19)Q _ ∞ Examples 3.2.5: (i) Let (X, ) be a measurable space.
+Define a function : [0 , + ] by letting Q Q ] ∞ _(cid:3)3(cid:6) be n if A is a finite set with n elements, and letting if A is an infinite set.
+_(cid:3)3(cid:6) (cid:26) (cid:27)∞ Then is a measure, it is often called counting measure on (X, ).
+_ Q (ii) Let (X, ) be a measurable space.
+Let x X. Q (cid:19) Define 1 ;(cid:2) E ;< (cid:15)(cid:16) ?j?(cid:7)?
+(cid:16)(cid:4) =(cid:2) 3 k g (cid:3)3(cid:6) (cid:26) i h 0 ;(cid:2) E ;< (cid:16)=(cid:4) (cid:15)(cid:16) ?j?(cid:7)?
+(cid:16)(cid:4) =(cid:2) 3 Then is a measure, it is called a point mass concentrated at x. g h 43 (iii) Let X = and = B( ) be the Borel algebra on .
+Let : [0 , + ] be (cid:22) Q (cid:22) U* (cid:22) l(cid:3)(cid:22)(cid:6) ] ∞ defined by length of A , where A is a subinterval of .
+Then is a measure, it _(cid:3)3(cid:6) (cid:26) (cid:22) _ is known as the Labesgue measure.
+(iv) Let X = the set of natural numbers and let be the collection of all subsets A of X m Q such that either A or R is finite.
+Then is an algebra, but not a algebra.
+3 Q U* Define : [0 , + ] as _ Q ] ∞ 1 ;(cid:2) 3 ;< ;(cid:16)(cid:2);(cid:16);(cid:4)?
+k _(cid:3)3(cid:6) (cid:26) i 0 ;(cid:2) 3 ;< (cid:2);(cid:16);(cid:4)?
+T hen is a finitely additive measure.
+_ (v) Let (X, ) be a measurable space.
+Define : [0 , + ] by Q _ Q ] ∞ 1 ;(cid:2) 3 f (cid:29) k _(cid:3)3(cid:6) (cid:26) i 0 ;(cid:2) 3 (cid:26) (cid:29) Then is not a measure, nor even a finitely additive measure, for if A, B and _ (cid:19)Q A B = , then while (cid:28) (cid:29) _(cid:3)3 (cid:25)L(cid:6) (cid:26) 1, _(cid:3)3(cid:6)(cid:27) _(cid:3)L(cid:6) (cid:26) 1(cid:27)1 (cid:26) 2.
+Proposition 3.2.6: Let (X, , ) be a measure space, and let A and B be subsets of X that Q _ belong to and satisfy A .
+Then If in addition A satisfies then Q (cid:30) L _(cid:3)3(cid:6) (cid:31) _(cid:3)L(cid:6).
+_(cid:3)3(cid:6) F (cid:27)∞, _(cid:3)L * 3(cid:6) (cid:26) _(cid:3)L(cid:6) * _(cid:3)3(cid:6).
+Proof: Since A (B – A) = and B = A (B – A), then by additivity of , we have (cid:28) (cid:29) (cid:25) _ _(cid:3)L(cid:6) (cid:26) _(cid:3)3(cid:6) (cid:27) _(cid:3)L * 3(cid:6) (cid:3)3.2.1(cid:6) And since then _(cid:3)L *3(cid:6) P 0, 44  _(cid:3)3(cid:6) (cid:31) _(cid:3)L(cid:6).
+In the case then we have _(cid:3)3(cid:6) F (cid:27)∞, , _(cid:3)L(cid:6) * _(cid:3)3(cid:6) (cid:26) _(cid:3)L * 3(cid:6) from equation (3.2.1).
+Definition 3.2.7: Let be a measure on a measurable space (X, .
+_ Q(cid:6) (i) is a finite measure if .
+_ _(cid:3)T(cid:6) F (cid:27)∞ (ii) is a -finite measure if X is the union of a sequence … of sets that belong to _ U 3 ,3 , (cid:11) (cid:13) and satisfy for each i. Q _(cid:3)3 (cid:6) F (cid:27)∞ (cid:5) (iii) A set in is -finite under if it is the union of a sequence of sets that belong to Q U _ and have finite measure under Q _.
+(iv) The measure space (X, , ) is called finite if is finite.
+Q _ _ (v) The measure space (X, , ) is called -finite if is -finite.
+Q _ U _ U We note that the measure defined in Example 3.2.5 (i) above is finite if and only if the set X is finite.
+The measure defined in Example 3.2.5 (ii) is finite.
+The Lesbesgue measure defined in Example2.2.5 (iii) is -finite, since is the union of sequence of bounded intervals.
+U (cid:22) The following propositions give some elementary but useful properties of measures.
+Proposition 3.2.8: Let (X, , ) be a measure space.
+If { is an arbitrary sequence of sets Q _ 3 A $ that belong to , then Q 45 !
+!
+_(cid:3)n 3 (cid:6) (cid:31) (cid:1) _(cid:3)3 (cid:6) $ $ $(cid:10)(cid:11) $(cid:10)(cid:11) Proof: Define a sequence { } of subsets of X by letting , and $+(cid:11) L$ L(cid:11) (cid:26) 3(cid:11) L$ (cid:26) 3$ * (cid:3)B(cid:5)(cid:10)(cid:11) 3(cid:5)(cid:6) for k > 1.
+Then each and and so .
+L (cid:19)Q L (cid:30) 3 _(cid:3)L (cid:6) (cid:31) _(cid:3)3 (cid:6) $ $ $ $ $ Since in addition the sets are disjoint and satisfy = , it follows that L$ B$L$ B$3$ _(cid:3)n 3 (cid:6) (cid:26) _(cid:3)n L (cid:6) (cid:26) (cid:1) _(cid:3)L (cid:6) $ $ $ $ $ $ (cid:31) (cid:1) _(cid:3)3 (cid:6) $ $ Thus, !
+!
+_(cid:3)n 3 (cid:6) (cid:31) (cid:1) _(cid:3)3 (cid:6) $ $ $(cid:10)(cid:11) $(cid:10)(cid:11) Remark: The above proposition shows that the countable additivity of implies the countable _ subadditivity of .
+_ Proposition 3.2.9: Let (X, , ) be a measure space.
+Q _ (i) If { is an increasing sequence of sets that belong to .
+Then 3 A Q $ _(cid:3)n 3 (cid:6) (cid:26) lim_(cid:3)3 (cid:6).
+$ $ $ $ 46 (ii) If { is a decreasing sequence of sets that belong to , and if holds 3 A Q _(cid:3)3 (cid:6) F (cid:27)∞ $ (cid:9) for some n, then _(cid:3)r 3 (cid:6) (cid:26) lim_(cid:3)3 (cid:6).
+$ $ $ $ Proof: (i) Suppose that { is an increasing sequence of sets that belong to and define a 3 A Q $ sequence { of sets by letting , and for j > 1.
+The sets L A L (cid:26) 3 L (cid:26) 3 *3 L $ (cid:11) (cid:11) " " "+(cid:11) " are disjoint and belong to , and satisfy $ .
+It follows that Q 3$ (cid:26) B"(cid:10)(cid:11)L" = and hence that B$3$ B"L" ) = ( _(cid:3)B 3 _ B L (cid:6) (cid:26) ∑ _(cid:3)L (cid:6) $ $ " " " " $ $ (cid:26) lim ∑ _sL t (cid:26) lim _(cid:3)B L (cid:6) $ "(cid:10)(cid:11) " $ "(cid:10)(cid:11) " = lim _(cid:3)3 (cid:6).
+$ $ (ii) Now suppose that { is a decreasing sequence of sets that belong to , and let 3 A Q $ holds for some n. We can assume n = 1.
+For each k, let _(cid:3)3 (cid:6) F (cid:27)∞ (cid:9) .
+Then { is an increasing sequence of sets that belong to , and H (cid:26) 3 *3 H A Q $ (cid:11) $ $ - ( ).
+It follows from (i) that B$H$ (cid:26) 3(cid:11) S$3$ _(cid:3)n H (cid:6) (cid:26) lim_(cid:3)H (cid:6) $ $ $ $ and so 47 ( - ( )) = .
+_ 3 S 3 lim _(cid:3)3 * 3 (cid:6) (cid:3) 3.2.2(cid:6) (cid:11) $ $ $ (cid:11) $ By using Proposition 3.2.6 and the assumption that , equation (3.2.2) _(cid:3)3 (cid:6) F (cid:27)∞ (cid:11) gives ( - ( )) = .
+_ 3 S 3 _(cid:3)3 (cid:6) * lim _(cid:3)3 (cid:6) (cid:11) $ $ (cid:11) $ $ Thus, _(cid:3)r 3 (cid:6) (cid:26) lim_(cid:3)3 (cid:6).
+$ $ $ $ The preceding proposition has the following partial converse, which is sometimes useful for checking when a finitely additive measure is in fact countably additive.
+Proposition 3.2.10: Let (X, be a measurable space, and let be a finitely additive measure Q(cid:6) _ on (X, .
+Then is a measure if either Q(cid:6) _ (i) holds for each increasing sequence { of sets that belong lim$_(cid:3)3$(cid:6) (cid:26) _(cid:3)B$3$(cid:6) 3$A to .
+Or Q (ii) holds for each decreasing sequence { of sets that belong to lim _(cid:3)3 (cid:6) (cid:26) 0 3 A Q $ $ $ and satisfy .
+S 3 (cid:26) (cid:29) $ $ Proof: We need to verify the countable additivity of .
+Let { be a disjoint sequence of sets that _ L A " belong to , we shall prove that .
+Q _(cid:3)B"L"(cid:6) (cid:26) ∑"_(cid:3)L"(cid:6) 48 First assume that condition (i) holds, and for each k, let $ .
+Then the finite 3$ (cid:26) B"(cid:10)(cid:11)L" additivity of implies that _ ) = $ _(cid:3)3 ∑ _(cid:3)L (cid:6) $ "(cid:10)(cid:11) " While condition (i) implies that ) = , !
+_(cid:3)B 3 lim _(cid:3)3 (cid:6) $(cid:10)(cid:11) $ $ $ since !
+!
+, it follows that B"(cid:10)(cid:11)L" (cid:26) B$(cid:10)(cid:11)3$ !
+!
+_(cid:3)n L (cid:6) (cid:26) (cid:1) _sL t. " u "(cid:10)(cid:11) "(cid:10)(cid:11) Now assume that condition (ii) holds, and for each k, let !
+.
+Then the finite 3$ (cid:26) B"(cid:10)$L" additivity of implies that _ + .
+!
+$ _(cid:3)B L (cid:6) (cid:26) ∑ _(cid:3)L (cid:6) _(cid:3)3 (cid:6) (cid:3)3.2.3(cid:6) "(cid:10)(cid:11) " "(cid:10)(cid:11) " $)(cid:11) While (ii) implies that hence lim _(cid:3)(cid:3)3 (cid:6) (cid:26) 0, $ $)(cid:11) !
+!
+_(cid:3)n L (cid:6) (cid:26) (cid:1) _sL t " u "(cid:10)(cid:11) "(cid:10)(cid:11) by taking limit over k in equation (3.2.3).
+49 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of additive and countably additive set functions; (ii) the definition of measure with examples; (iii) some basic results on measures; (iv) how to prove some basic results on measures.
+6.0 Tutor marked Assignment (1) Suppose that is a finite measure on (X, .
+_ Q(cid:6) (i) Show that if A, B , then (cid:19)Q _(cid:3)3 (cid:25) L(cid:6) (cid:26) _(cid:3)3(cid:6) (cid:27) _(cid:3)L(cid:6)* _(cid:3)3 (cid:28) L(cid:6) (ii) Show that if A, B, C , then (cid:19)Q _(cid:3)3 (cid:25) L (cid:25) H(cid:6) (cid:26) _(cid:3)3(cid:6) (cid:27) _(cid:3)L(cid:6) (cid:27) _(cid:3)H(cid:6) * _(cid:3)3 (cid:28) L(cid:6) + * _(cid:3)3 (cid:28) H(cid:6) * _(cid:3)L (cid:28) H(cid:6) _(cid:3)3 (cid:28) L (cid:28) H(cid:6) (iii) Find and prove a corresponding formula for the measure of the union of n sets (2) Let (X, be a measurable space.
+Suppose is a non – negative countably additive Q(cid:6) _ function on .
+Show that if is finite for some A , then .
+Q _(cid:3)3(cid:6) (cid:19)Q _(cid:3)(cid:29)(cid:6) (cid:26) 0 (Thus is a measure).
+_ (3) Let (X, be a measurable space, and let x, y X.
+Show that the point masses and Q(cid:6) (cid:19) g h are equal if and only if x and y belong to exactly the same sets in .
+g Q v (4) Let (X, be a measure space, and define K [0, + by Q,_(cid:6) _ : Q ] ∞D 50  , B and K _ (cid:3)3(cid:6) (cid:26) sup 9 _(cid:3)L(cid:6):L (cid:30) 3 (cid:19) Q _(cid:3)L(cid:6) F (cid:27) ∞A.
+(i) Show that K is a measure on (X, .
+_ Q(cid:6) (ii) Show that if is - finite, then K = _ U _ _.
+(iii) Find K if X is non – empty and is a measure defined by _ _ (cid:27)∞ ;(cid:2) 3 (cid:19) Q (cid:15)(cid:16)(cid:17) 3 f (cid:29) k _(cid:3)3(cid:6)i 0 ;(cid:2) 3 (cid:26) (cid:29) 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+51 MODULE2: GENERAL MEASURE SPACE (X, , (cid:23) (cid:24)(cid:6) Unit 3: Measurable Functions Pages 1.0 Introduction 35 2.0 Objectives 35 3.0 Measurable Functions 35 - 42 4.0 Conclusion 42 5.0 Summary 42 6.0 Tutor Marked Assignment 42 - 43 7.0 Further Reading and Other Resources 43 1.0 Introduction In this section we introduce measurable functions and study some of their basic properties.
+2.0 Objectives By the end of this unit, you should be able to: (i) define what a measurable function is with examples; (ii) know some basic results on measurable functions; (iii) prove some basic results on measurable functions.
+3.0 Measurable Functions We begin with the following result.
+52 Proposition 3.3.1: Let (X, be a measurable space, and let A be a subset of X that belongs to Q(cid:6) For a function f [- , + the following conditions are equivalent: Q. : Q ] ∞ ∞D (i) for each real number t the set {x t} belongs to (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) (cid:31) Q (ii) for each real number t the set {x t} belongs to (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) F Q (iii) for each real number t the set {x t} belongs to (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) P Q (iv) for each real number t the set {x t} belongs to (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) z Q Proof: (i) (ii).
+This follows from the identity { {x t} = (cid:11) (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) F B 9x (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) (cid:31) t * A (cid:9) ~ and the fact that arbitrary union of members of is in .
+Q Q (ii) (iii).
+This follows from the identity { {x t} = {x t}.
+(cid:19) 3 4 (cid:2)(cid:3)E(cid:6) P 3 * (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) F (iii) (iv).
+This follows from the identity { {x t} = (cid:11) (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) z S 9x (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) P t (cid:27) A (cid:9) ~ and the fact that arbitrary intersection of members of is in .
+Q Q (iv) (i).
+This follows from the identity { {x t} = {x t}.
+(cid:19) 3 4 (cid:2)(cid:3)E(cid:6) (cid:31) 3 * (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) z 53 Definition 3.3.2: Let (X, be a measurable space and let A be a subset of X that belongs Q(cid:6) to .
+A function f: [- , + is said to be measurable with respect to if it satisfies one, Q 3 ] ∞ ∞D Q and hence all of the conditions of Proposition 3.3.1.
+In case X = (cid:9), a function that is measurable with respect to B( (cid:9) is called Borel measurable (cid:22) (cid:22) (cid:6) or a Borel function.
+Examples 3.3.3: (i) Let f: (cid:9) be continuous.
+Then for each real number t, the set (cid:22) ] (cid:22) {x (cid:19) (cid:22)(cid:9) 4 (cid:2)(cid:3)E(cid:6) F t} is open, and so is a Borel set.
+Thus f is Borel measurable.
+(ii) Let I be subinterval of and let f: I be non – decreasing.
+Then for each real (cid:22) ] (cid:22) number t the set {x (cid:19) (cid:22)(cid:9) 4 (cid:2)(cid:3)E(cid:6) F t} is a Borel set (it is either an interval, a set consisting of only one point, or the empty set).
+Thus f is Borel measurable.
+(iii) Let (X, be a measurable space, and let B be a subset of X.
+Then , the Q(cid:6) (cid:127) € characteristic function of B is measurable if and only if B .
+(cid:19)Q (iv) Let (X, be a measurable space, let f : X be simple and let Q(cid:6) ] C*∞,(cid:27)∞D …, be the values of f. Then f is measurable if and only if Y ,Y , Y (cid:11) (cid:13) (cid:9) {x } holds of i = 1, 2, …, n. (cid:19) T 4 (cid:2)(cid:3)E(cid:6) (cid:26) Y (cid:19)Q (cid:5) We recall the following definition Definition 3.3.4: (i) A real value function S: X is called a simple function if it has a finite number of ](cid:22) values.
+54 (ii) Let X be any set and let A be a subset of X. Denote by by setting (cid:127) 7 1 ;(cid:2) x ;< ;(cid:16) 3 k (cid:127) (cid:3)E(cid:6) (cid:26) i 7 0 ;(cid:2) E ;< (cid:16)=(cid:4) ;(cid:16) 3 Then the function is called the characteristic function of the set A.
+(cid:127) 7 Let X be a measurable space and let S: X [0, ] be a simple function.
+Let …, be the ] ∞ < ,< , < (cid:11) (cid:13) (cid:9) distinct values of S and let X: S(x) = }, i = 1, 2, …, n. Then S can be written as a finite 3 (cid:26) 9E(cid:19) < (cid:5) (cid:5) linear combination of characteristic functions of the set .
+That is 3 (cid:5) S(x) = (cid:9) ∑ < (cid:127) (cid:3)E(cid:6).
+(cid:5)(cid:10)(cid:11) (cid:5) 76 Let f and g be [- - valued functions having a common domain A.
+The maximum and ∞,(cid:27)∞D minimum of f and, written as f g and f ∩ g defined by (f g)(x) = max(f(x), g(x)) and (f ∩ g)(x) = min(f(x), g(x)) If { is a sequence of [- - valued functions on A, then , , (cid:2) A ∞,(cid:27)∞D <@> (cid:2) ,;(cid:16)(cid:2) (cid:2) j;(cid:7)<@> (cid:2) (cid:9) (cid:9) (cid:9) (cid:9) (cid:9) (cid:9) (cid:9) and are defined in a similar way.
+j;(cid:7);(cid:16)(cid:2) (cid:2) j;(cid:7) (cid:2) (cid:9) (cid:9) (cid:9) (cid:9) For example <@> (cid:2) (cid:3)E(cid:6) (cid:26) <@> s(cid:2) (cid:3)E(cid:6)t. (cid:9) (cid:9) (cid:9) (cid:9) 55 The domain of consists of those points in A at which and agree; j;(cid:7) (cid:2) j;(cid:7)<@> (cid:2) j;(cid:7);(cid:16)(cid:2)(cid:2) (cid:9) (cid:9) (cid:9) (cid:9) (cid:9) the domain of each of the other four functions is A.
+Each of these functions can have infinite values, in particular, can be + or - .
+j;(cid:7);(cid:16)(cid:2) (cid:2) ∞ ∞ (cid:9) (cid:9) We also recall the following ) (cid:2) (cid:26) max(cid:3)(cid:2),0(cid:6) + (cid:2) (cid:26) max(cid:3)*(cid:2),0(cid:6) (cid:26) * min(cid:3)(cid:2),0(cid:6) + ) + |(cid:2)| (cid:26) (cid:2) (cid:2) max(f, g) = |‚+ƒ|) ‚)ƒ (cid:13) min(f, g) = +|‚+ƒ|) ‚)ƒ (cid:13) Proposition 3.3.5: Let (X, be a measurable space, let A be a subset of X that belongs to , Q(cid:6) Q and let f and g be [- + - valued measurable functions on A.
+Then f g and f ∩ g are ∞, ∞D measurable.
+Proof: The measurability of f g follows from the identity {x t} = {x t} ∩ {x t} (cid:19) 3 4 (cid:3)f g(cid:6)(cid:3)x(cid:6) (cid:31) (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) (cid:31) (cid:19) 3 4 †(cid:3)E(cid:6) (cid:31) and the measurability of f ∩ g follows from the identity {x t} = {x t} {x t}.
+(cid:19) 3 4 (cid:3)f g(cid:6)(cid:3)x(cid:6) (cid:31) (cid:19) 3 4 (cid:2)(cid:3)E(cid:6) (cid:31) (cid:25) (cid:19) 3 4 †(cid:3)E(cid:6) (cid:31) 56 Proposition 3.3.6: Let (X, be a measurable space, let A be a subset of X that belongs to , Q(cid:6) Q and let { } be a sequence of [- , + - valued measurable functions on A.
+Then (cid:2)(cid:9) ∞ ∞D (i) the functions and are measurable <@>(cid:9)(cid:2)(cid:9) ;(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) (ii) the functions and are measurable j;(cid:7)<@>(cid:9)(cid:2)(cid:9) j;(cid:7);(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) (iii) the function is measurable.
+j;(cid:7)(cid:9)(cid:2)(cid:9) Proof: (i) The measurability of follows from the identity <@>(cid:9)(cid:2)(cid:9) {x t} = .
+(cid:19) 3 4 (cid:3)<@>(cid:9)(cid:2)(cid:9)(cid:6)(cid:3)x(cid:6) (cid:31) S(cid:9)9x (cid:19) 3 4 (cid:2)(cid:9)(cid:3)E(cid:6) (cid:31) tA The measurability of follows from the identity ;(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) {x t} = .
+(cid:19) 3 4 (cid:3)<@>(cid:9)(cid:2)(cid:9)(cid:6)(cid:3)x(cid:6) (cid:31) B(cid:9)9x (cid:19) 3 4 (cid:2)(cid:9)(cid:3)E(cid:6) (cid:31) tA (ii) For each positive integer k, define the functions and by †$ ‡$ and †$ (cid:26) <@>(cid:9)ˆ$(cid:2)(cid:9) ‡$ (cid:26) ;(cid:16)(cid:2)(cid:9)ˆ$(cid:2)(cid:9) From (i), we have that each is measurable and each is measurable, and that †$ ‡$ and are measurable.
+Since and are equal to ;(cid:16)(cid:2)$†$ <@>$‡(cid:9) j;(cid:7)<@>(cid:9)(cid:2)(cid:9) j;(cid:7);(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) and , then they are measurable.
+;(cid:16)(cid:2)$†$ <@>$‡(cid:9) (iii) Let be the domain of .
+Then 3‰ j;(cid:7)(cid:9)(cid:2)(cid:9) {x = }, 3‰ (cid:26) (cid:19) 3 4 (cid:3)j;(cid:7)<@>(cid:9)(cid:2)(cid:9)(cid:6)(cid:3)x(cid:6) (cid:3)j;(cid:7);(cid:16)(cid:2)(cid:9)(cid:2)(cid:9)(cid:6)(cid:3)x(cid:6) and so by Proposition 3.3.1, belongs to .
+Since 3‰ Q {x t} = {x t}, (cid:19) 3‰:j;(cid:7)(cid:9)(cid:2)(cid:9)(cid:3)x(cid:6) (cid:31) 3‰ (cid:28) (cid:19) 3 4 j;(cid:7)<@>(cid:9)(cid:2)(cid:9)(cid:3)x(cid:6) (cid:31) 57 The measurability of follows.
+j;(cid:7)(cid:9)(cid:2)(cid:9) Proposition 3.3.7: Let (X, be a measurable space, let A be a subset of X that belongs to , Q(cid:6) Q let f and g be measurable real – valued functions on A, and let be a real number.
+Then f, Y Y f + g, f – g, fg, f/g , , are measurable. )
++ |(cid:2)|,(cid:2) (cid:2) Proof: Exercise.
+Proposition 3.3.8: Let (X, be a measurable space, let A be a subset of X that belongs to .
+Q(cid:6) Q For a function f: A , the following are equivalent: ](cid:22) (i) f is measurable (ii) for each open subset U of , the set +(cid:11) (cid:22) (cid:2) (cid:3)\(cid:6)(cid:19)Q (iii) for each closed subset C of , the set +(cid:11) (cid:22) (cid:2) (cid:3)H(cid:6)(cid:19)Q (iv) for each Borel subset B of the set .
++(cid:11) (cid:22), (cid:2) (cid:3)L(cid:6)(cid:19)Q Proof: Exercise Lastly in this section, we give a general definition of measurable functions.
+Definition 3.3.9: Let (X, and (Y, be measurable spaces.
+A function f: X is said to QŠ(cid:6) Q‹(cid:6) ] ^ measurable with respect to and if for each B , the set .
++(cid:11) QŠ Q‹ (cid:19) Q‹ (cid:2) (cid:3)L(cid:6)(cid:19) QŠ Instead of saying that f is measurable with respect to and , we shall sometimes say that QŠ Q‹ f is measurable from to or simply f: (X, (Y, is measurable.
+QŠ Q‹ QŠ(cid:6)] Q‹(cid:6) Likewise if A belongs to , a function f: A is measurable if holds whenever +(cid:11) QŠ ] ^ (cid:2) (cid:3)L(cid:6)(cid:19) QŠ B .
+(cid:19) Q‹ 58 Proposition 3.3.10: Let (X, , (Y, and (Z, be measurable spaces and let QŠ(cid:6) Q‹(cid:6) QŒ(cid:6) f: (Y, (Z, and g: (X, (Y, be measurable.
+Then the composition Q‹(cid:6)] QŒ(cid:6) QŠ(cid:6)] Q‹(cid:6) f o g : (X, (Z, is measurable.
+QŠ(cid:6)] QŒ(cid:6) Proof: Exercise 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of a measurable function with examples; (ii) the basic properties of measure functions; (iii) how to prove some basic results on measure functions.
+6.0 Tutor Marked Assignment (1) Let (X, be a measurable space and let A be a measurable subset of X, show that QŠ(cid:6) (cid:127)7 the characteristics function of A is a measurable function on A.
+(2) Show that the supremum of an uncountable family of [- - valued Borel ∞,(cid:27)∞D measurable functions on can fail to be Borel measurable.
+(cid:22) (3) Show that if f: is differentiable everywhere on , then its derivative f’ is Borel (cid:22) ] (cid:22) (cid:22) measurable.
+(4) (X, ) be a measurable space, and let { be a sequence of [- – valued Q (cid:2)(cid:9)A ∞,(cid:27)∞D measurable functions on X.
+Show that {x X: exists and is finite} belongs to (cid:19) lim(cid:9)(cid:2)(cid:9)(cid:3)E(cid:6) Q.
+59 (5) If is a measurable function, is it true to claim that f is measurable?
+If not give a |(cid:2)| counter example.
+7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+MODULE3: Theory of Integration Unit 1: Integration of Positive Functions Pages 1.0 Introduction 44 2.0 Objectives 44 3.0 Integration of Positive Functions 44 - 51 4.0 Conclusion 51 5.0 Summary 51 6.0 Tutor marked Assignment 51 - 52 7.0 Further Reading and Other Resource 52 60 1.0 Introduction In this unit, we shall discuss the Lebesgue integrals of positive functions over the general measure space and their basic properties.
+The monotone convergence and Beppo Levi’s theorems with Fatou’s lemma will also be discussed.
+2.0 Objectives By the end of this unit, you should be able to: (i) define the Lebesgue integral of positive function over a general measure space; (ii) know some basic properties of Lebesgue integrals; (iii) prove some basic results on Lebesgue integrals; (iv) know and prove monotone convergence theorem, Beppo Levi’s theorem and Fatou’s lemma.
+3.0 Integration of Positive Functions Definition 3.1.1: Let (X, , ) be a measure space and let S be a simple measurable, non – Q _ negative function on X with representation S(x) = where X: S(x) = }.
+(cid:9) ∑(cid:5)(cid:10)(cid:11)<(cid:5)(cid:127)76(cid:3)E(cid:6) 3(cid:5) (cid:26) 9E(cid:19) <(cid:5) Let E , we define (cid:19)Q = ∩ E), (cid:9) (cid:141)(cid:143) Ž (cid:17) _ ∑(cid:5)(cid:10)(cid:11)<(cid:5) _(cid:3)3(cid:5) 3(cid:5) (cid:30) T. Let X be measurable function, is defined by ] C0,∞D (cid:141) (cid:2) (cid:17)_ (cid:143) = sup (cid:141) (cid:2) (cid:17) _ (cid:26) <@>‰ (cid:144)I (cid:144)‚ (cid:141) Ž (cid:17) _ (cid:141) Ž (cid:17) _ (cid:143) (cid:143) (cid:143) 61 Where S is a simple measurable function on S such that 0 (cid:31) Ž (cid:31) (cid:2).
+is called the Lebesgue integral on f defined on E with respect to .
+(cid:141) (cid:2) (cid:17)_ _ (cid:143) We note that 0 (cid:31) (cid:141) (cid:2) (cid:17)_ (cid:31) ∞.
+(cid:143) Theorem 3.1.2: (i) If 0 then .
+(cid:31) (cid:2) (cid:31) †, (cid:141) (cid:2) (cid:17)_ (cid:31) (cid:141) † (cid:17)_ (cid:143) (cid:143) (ii) If A B and f .
+(cid:30) P 0,(cid:141) (cid:2) (cid:17)_ (cid:31) (cid:141) † (cid:17)_ 7 € (iii) If f(x) = 0 for every x in E, then even if (cid:141) (cid:2) (cid:17)_ (cid:26) 0, _(cid:3)(cid:8)(cid:6) (cid:26) (cid:27)∞.
+(cid:143) (iv) If f and 0 = c .
+P 0, (cid:31) ‘ F ∞, (cid:141) ‘(cid:2) (cid:17)_ (cid:141) (cid:2) (cid:17)_ (cid:143) (cid:143) (v) If then even if f(x) = for every x in E. _(cid:3)(cid:8)(cid:6) (cid:26) 0, (cid:141) (cid:2) (cid:17)_ (cid:26) 0 ∞ (cid:143) (vi) If f then .
+P 0, (cid:141)(cid:143) (cid:2) (cid:17)_ (cid:26) (cid:141)Š (cid:127)(cid:143)(cid:2) (cid:17)_ Proof: (i) – (v) as exercise.
+For the prove of (vi): + (cid:141) (cid:127)(cid:143)(cid:2) (cid:17) _ (cid:26) (cid:141) (cid:127)(cid:143)(cid:2) (cid:17) _ (cid:141) (cid:127)(cid:143)(cid:2) (cid:17) _ Š (cid:143) Š\(cid:143) = + 0 = (cid:141) (cid:2) (cid:17)_ (cid:141) (cid:2) (cid:17) _ (cid:143) (cid:143) Theorem 3.1.3: Let s and t be two simple measurable functions defined on X.
+For every E in , Q let .
+Then is a measure on and “(cid:3)(cid:8)(cid:6) (cid:26) (cid:141) < (cid:17)_ “ Q (cid:143) = + .
+(cid:141) (cid:3)< (cid:27) (cid:4)(cid:6) (cid:17) _ (cid:141) < (cid:17) _ (cid:141) (cid:4) (cid:17)_ Š Š Š 62 Proof: Clearly is a set function.
+We shall show that is a measure on by showing that “ “ Q and for … such that = for i j, ) = ).
+“(cid:3)(cid:8)(cid:6) P 0, (cid:8)(cid:11),(cid:8)(cid:13),(cid:8)&, (cid:19)Q (cid:8)(cid:5) (cid:28)(cid:8)" (cid:29) f “(cid:3)B(cid:5)ˆ(cid:11)(cid:8)(cid:5) ∑(cid:5)ˆ(cid:11)“(cid:3)(cid:8)(cid:5) ∩ E) .
+(cid:9) “(cid:3)(cid:8)(cid:6) (cid:26) (cid:141)(cid:143) < (cid:17)_ (cid:26) ∑(cid:5)(cid:10)(cid:11)<(cid:5) _(cid:3)3(cid:5) P 0 Also, ) = = ∩ ( ).
+(cid:9) “(cid:3)B"ˆ(cid:11)(cid:8)" (cid:141)B”•–(cid:143)” < (cid:17) _ ∑(cid:5)(cid:10)(cid:11)<(cid:5) _(cid:3)3(cid:5) B"ˆ(cid:11)(cid:8)" (cid:6) But ∩ ( = ∩ , 3(cid:5) B"ˆ(cid:11)(cid:8)" (cid:6) B"ˆ(cid:11)(cid:3)3(cid:5) (cid:8)" (cid:6) (cid:26) B"ˆ(cid:11)(cid:3)(cid:8)(cid:5)" (cid:6) where ∩ and ∩ = , for j .
+(cid:8)(cid:5)" (cid:26) 3(cid:5) (cid:8)" (cid:8)(cid:5)" (cid:8)(cid:5)(cid:21) (cid:29) f > Thus, ) = (cid:9) (cid:9) “(cid:3)B"ˆ(cid:11)(cid:8)" ∑(cid:5)(cid:10)(cid:11)<(cid:5) _sB"ˆ(cid:11)(cid:3)(cid:8)(cid:5)" t (cid:26) ∑(cid:5)(cid:10)(cid:11)<(cid:5) ∑"ˆ(cid:11)_(cid:3)(cid:8)(cid:5)" (cid:6) (cid:9) (cid:9) ∑"ˆ(cid:11)∑(cid:5)(cid:10)(cid:11)<(cid:5) _s(cid:8)(cid:5)" t (cid:26) ∑"ˆ(cid:11)∑(cid:5)(cid:10)(cid:11)<(cid:5) _s3(cid:5) (cid:28) (cid:8)" t = ).
+∑(cid:5)ˆ(cid:11)“ (cid:3)(cid:8)(cid:5) Hence is countably additive and so, it is a measure on “ Q.
+Let s = and t and let E Then (cid:9) (cid:9) ∑(cid:5)(cid:10)(cid:11)Y(cid:5)(cid:127)76 ∑"(cid:10)(cid:11)—"(cid:127)€” (cid:19)Q.
+63  = ∩ E) + ∩ E) (cid:9) (cid:9) (cid:141)(cid:143) < (cid:17) _ (cid:27) (cid:141)(cid:143) (cid:4) (cid:17)_ ∑(cid:5)(cid:10)(cid:11)Y(cid:5) _(cid:3)3(cid:5) ∑"(cid:10)(cid:11)—" _(cid:3)L" = + ] + (cid:9) ∑(cid:5)(cid:10)(cid:11)Y(cid:5) C(cid:141)(cid:143)(cid:28)76 (cid:127)76 (cid:17)_ (cid:141)(cid:143)(cid:28)˜™š (cid:127)76 (cid:17)_ + ] (cid:9) ∑"(cid:10)(cid:11)—" C(cid:141)(cid:143)(cid:28)€” (cid:127)€” (cid:17)_ (cid:141)(cid:143)(cid:28)›œš (cid:127)€” (cid:17) _ = + (cid:9) (cid:9) ∑(cid:5)(cid:10)(cid:11)Y(cid:5) (cid:141)(cid:143)(cid:28)76 (cid:127)76 (cid:17)_ ∑"(cid:10)(cid:11)—" (cid:141)(cid:143)(cid:28)€” (cid:127)€” (cid:17) _ = + (cid:9) (cid:9) (cid:141)(cid:143) ∑(cid:5)(cid:10)(cid:11)Y(cid:5) (cid:127)76 (cid:17)_ (cid:141)(cid:143) ∑"(cid:10)(cid:11)—" (cid:127)€” (cid:17)_ = (cid:9) (cid:9) (cid:141)(cid:143) (cid:3)∑(cid:5)(cid:10)(cid:11)Y(cid:5) (cid:127)76 (cid:27) ∑"(cid:10)(cid:11)—" (cid:127)€”(cid:6)(cid:17) _ = .
+(cid:141) (cid:3)< (cid:27) (cid:4)(cid:6)(cid:17)_ (cid:143) Theorem 3.1.4: (Lebesgue Monotone Convergence) Let { be a sequence of extended real valued measurable functions defined on X such that (cid:2)(cid:9)A (i) 0 … for every x in X (cid:31)(cid:2)(cid:11)(cid:3)E(cid:6) (cid:31) (cid:2)(cid:13)(cid:3)E(cid:6) (cid:31) (cid:31) ∞ (ii) For any x in X, as n .
+(cid:2)(cid:9)(cid:3)E(cid:6) ](cid:2)(cid:3)E(cid:6) ] ∞ Then f is measurable and as n .
+That is (cid:141)Š (cid:2)(cid:9) (cid:17)_ ] (cid:141)Š (cid:2) (cid:17)_ ] ∞ = = .
+lim~ ] !
+(cid:141) (cid:2)(cid:9) (cid:17)_ (cid:141) (cid:3) lim (cid:2)(cid:9) (cid:6)(cid:17) _ (cid:141) (cid:2) (cid:17) _ Š Š Š ~ ] !
+64 P roof: By hypothesis { is an increasing sequence, and so .
+(cid:2)(cid:9)A (cid:2)(cid:9) (cid:31) (cid:2)(cid:9)) (cid:11) Thus by Theorem3.1.2 (i), we have and there exist such (cid:141)Š (cid:2)(cid:9) (cid:17)_ (cid:31) (cid:141)Š (cid:2)(cid:9))(cid:11) (cid:17)_ Y (cid:19) C0,∞D that as n .
+(cid:141)Š (cid:2)(cid:9) (cid:17)_ ] Y ] ∞ By Theorem 3.3.6, f is measurable since f = .
+<@>(cid:9)(cid:2)(cid:9) We prove that = , Y lim~ ] !
+(cid:141) (cid:2)(cid:9) (cid:17) _ (cid:141) (cid:3) lim (cid:2)(cid:9) (cid:6)(cid:17) _ (cid:3)3.1.1(cid:6) Š Š ~ ] !
+since if equation (3.1.1) holds, then the result follows.
+As then (cid:2)(cid:9) (cid:31) (cid:2), = , (cid:141) (cid:2)(cid:9) (cid:17)_ (cid:31) (cid:141) (cid:2) (cid:17) _ (cid:141) (cid:3) lim (cid:2)(cid:9) (cid:6)(cid:17) _ Š Š Š ~ ] !
+and this implies, = .
+(cid:141) (cid:3) lim (cid:2)(cid:9) (cid:6)(cid:17) _ (cid:31) (cid:141) (cid:2) (cid:17) _ (cid:141) (cid:3) lim (cid:2)(cid:9) (cid:6)(cid:17) _ (cid:3)3.1.2(cid:6) Š ~ ] !
+Š Š ~ ] !
+Let us now take a simple measurable function s such that 0 Also let C be a constant (cid:31) < (cid:31) (cid:2).
+such that 0 < C < 1.
+Define X: , n = 1, 2… Then are measurable sets (cid:8)(cid:9) (cid:26) 9E (cid:19) (cid:2)(cid:9)(cid:3)E(cid:6) P H<(cid:3)E(cid:6)A (cid:8)(cid:9) since X: and … .
+(cid:8)(cid:9) (cid:26) 9E(cid:19) (cid:2)(cid:9)(cid:3)E(cid:6)* H<(cid:3)E(cid:6) P 0A (cid:8)(cid:11) (cid:30) (cid:8)(cid:13) (cid:30) Moreover X = and so, we have !
+B(cid:9)(cid:10)(cid:11)(cid:8)(cid:9) 65  for n = 1, 2, … .
+(cid:141) (cid:2)(cid:9) (cid:17) _ P (cid:141) (cid:2)(cid:9) (cid:17) _ P (cid:141) H< (cid:17)_ Š (cid:143)(cid:157) (cid:143)(cid:157) By taking limit as n , we have ] ∞ lim (cid:141) (cid:2)(cid:9) (cid:17) _ P lim H (cid:141) < (cid:17) _ ~ ] !
+Š ~ ] !
+(cid:143)(cid:157) Y (cid:26) lim (cid:141) (cid:2)(cid:9) (cid:17) _ P H (cid:141) < (cid:17)_ ~ ] !
+Š (cid:143)(cid:157) As C we have ] 1, Y (cid:26) lim (cid:141) (cid:2)(cid:9) (cid:17) _ P (cid:141) < (cid:17) _ ~ ] !
+Š Š Thus, = .
+Y P <@>‰ (cid:144)ž (cid:144)‚ (cid:141) < (cid:17) _ (cid:141) (cid:2) (cid:17) _ (cid:3)3.1.3(cid:6) Š Š From (3.1.2) and (3.1.3), the result follows.
+Theorem 3.1.5: (Beppo Levi’s Theorem) Let { be a sequence of measurable functions, : X and assume that (cid:2)(cid:9)A (cid:2)(cid:9) ] C0,∞D for every x in X, then .
+!
+!
+(cid:2)(cid:3)E(cid:6) (cid:26) ∑(cid:9)(cid:10)(cid:11)(cid:2)(cid:9)(cid:3)E(cid:6) (cid:141)Š (cid:2) (cid:17)_ (cid:26) ∑(cid:9)(cid:10)(cid:11)(cid:141)Š (cid:2)(cid:9) (cid:17)_ That is, the integral of sum of functions is the sum of the integral of the functions.
+Proof: At first, there exist simple functions ( and ( such that and .
+Ÿ ŸŸ Ÿ ŸŸ <(cid:5) (cid:6) <(cid:5) (cid:6) <(cid:5) ] (cid:2)(cid:11) <(cid:5) ] (cid:2)(cid:13) 66 Let = , we have and by Theorem31.3 and Theorem3.14, we have Ÿ ŸŸ <(cid:5) <(cid:5) (cid:27) <(cid:5) <(cid:5) ] (cid:2)(cid:11) (cid:27) (cid:2)(cid:13) .
+(cid:141) (cid:3)(cid:2)(cid:11) (cid:27) (cid:2)(cid:13) (cid:6)(cid:17) _ (cid:26) (cid:141) (cid:2)(cid:11) (cid:17) _ (cid:27) (cid:141) (cid:2)(cid:13) (cid:17) _ Š Š Š The result for n > 2, can be prove by induction.
+Theorem 3.1.6: (Fatou’s Lemma) Let : X be measurable functions for every n = 1, 2, …, then (cid:2)(cid:9) ] C0,∞D .
+(cid:141) (cid:3) lim ;(cid:16)(cid:2)(cid:2)(cid:9) (cid:6)(cid:17) _ (cid:31) lim~ ] !
+;(cid:16)(cid:2) (cid:141) (cid:2)(cid:9) (cid:17)_ Š Š ~ ] !
+Proof: Let = , k = 1, 2, … .
+That is , , …}.
+†$ ;(cid:16)(cid:2)(cid:5) ˆ$(cid:2)(cid:5) †$ (cid:26) inf 9(cid:2)$, (cid:2)$)(cid:11) (cid:2)$)(cid:13) Then for k .
+Therefore for k .
+†$ (cid:31) (cid:2)(cid:9) (cid:31) (cid:16) (cid:141)Š †$ (cid:17)_(cid:31) (cid:141)Š (cid:2)(cid:9) (cid:17)_ (cid:31) (cid:16) By keeping k fixed, we have .
+(cid:141) †$ (cid:17) _ (cid:31) lim ;(cid:16)(cid:2) (cid:141) (cid:2)(cid:9) (cid:17) _ (cid:3)3.1.4(cid:6) Š Š ~ ] !
+Now the sequence { is monotone increasing, and has to converge to = .
+†$A <@>$†$ lim ;(cid:16)(cid:2)(cid:2)(cid:9) ~ ] !
+Hence, by Theorem3.1.4, we have ¡ (cid:3) lim ;(cid:16)(cid:2)(cid:2)(cid:9) (cid:6)(cid:17) _ (cid:26) lim ¡ (cid:2)(cid:9) (cid:17) _ ~ ] !
+$ ] !
+Š Š 67  (cid:31) lim ;(cid:16)(cid:2) ¡ (cid:17) _ ~ ] !
+Š by (3.1.4) and the proof is complete.
+4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of Lebesgue integral of a positive function over the general measure space; (ii) the basic properties of Lebesgue integrals ; (iii) how to prove some basic results on Lebesgue integrals; (iv) how to prove monotone convergence theorem.
+Beppo Levi’s theorem and Fatou’s lemma .
+6.0 Tutor marked Assignment (1) Prove or disprove: A real valued function f defined on X is Lebesgue integrable if and only if it is Riemann integrable.
+(2) Let ¢ dx.
+(cid:9) h (cid:9) £ #(cid:9) (cid:26) (cid:141) (cid:3) 1 * (cid:6) (cid:6)?
+‰ (cid:9) Show that exists.
+lim~ ] !#(cid:9) (3) Let 68 (cid:127)(cid:143) (cid:5)‚ ¤ (cid:5)ž ¥¦¥(cid:9) k (cid:2)¤ (cid:26) i 1 * (cid:127)(cid:143) ;(cid:2) (cid:7) ;< =(cid:17)(cid:17) where E X and X is a measurable space.
+Examine Fatou’s lemma.
+(cid:30) 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+69 MODULE3: Theory of Integration Unit 2: Integration of Complex Functions Pages 1.0 Introduction 53 2.0 Objectives 53 3.0 Integration of Complex Functions 53 - 56 4.0 Conclusion 57 5.0 Summary 57 6.0 Tutor Marked Assignment 57 7.0 Further Reading and Other Resources 57 1.0 Introduction In this unit, we discuss the Lebesgue integral of complex function over the general measure space and also prove the dominated convergence theorem.
+2.0 Objectives By the end of this unit, you should be able to: (i) define the Lebesgue integral of complex function over a general measure space; (ii) know some basic properties of Lebesgue integrals of complex functions; (iii) know and prove the dominated convergence theorem.
+3.0 Integration of Complex Functions We recall that if f is measure, then is measurable.
+|(cid:2)| 70 Definition 3.2.1: A measurable function f on X is said to be Lebesgue measurable (or summable) if (cid:141) |(cid:2)| (cid:17)_ F ∞.
+Š We write ) to denote the set of all Lebesgue integrable functions.
+(cid:11) (cid:20) (cid:3)_ Definition 3.2.2: , where is a positive measure on X (cid:11) (cid:20) (cid:3)_(cid:6) (cid:26) 9(cid:2):T] H / (cid:141) |(cid:2)| (cid:17)_ F ∞A _ Š and X is an arbitrary measurable space.
+More generally, if p is non – negative real number, we put for the set of all measurable (cid:21) (cid:20) (cid:3)_(cid:6) functions f such that That is (cid:21) (cid:141) |(cid:2)| (cid:17)_ F ∞.
+Š .
+(cid:21) (cid:21) (cid:20) (cid:3)_(cid:6) (cid:26) 9(cid:2):T ] H / (cid:141) |(cid:2)| (cid:17) _ F ∞A Š A function f in is said to be power summable (integrable).
+(cid:21) ¨© (cid:20) (cid:3)_(cid:6) > Definition 3.2.3: Let f be an element in such that f = u + iv, where u and v are real (cid:11) (cid:20) (cid:3)_(cid:6) measurable functions on X, for any measurable set E, we define - i . )
++ ) + (cid:141) (cid:2) (cid:17) _ (cid:26) (cid:141) @ (cid:17)_ * (cid:141) @ (cid:17)_ (cid:27) ; (cid:141) ª (cid:17) _ (cid:141) ª (cid:17)_ (cid:143) (cid:143) (cid:143) (cid:143) (cid:143) Theorem 3.2.3: is a vector space over the real field.
+Moreover, (cid:11) (cid:20) (cid:3)_(cid:6) .
+«(cid:141) (cid:2) (cid:17) _« (cid:31) (cid:141) |(cid:2)| (cid:17)_ (cid:143) (cid:143) Proof: Exercise Theorem 3.2.4: ( Dominated Convergence Theorem) 71 Let { be a sequence of measurable functions on X. such that for any x in X, (cid:2)(cid:9)A (cid:2)(cid:9):T] H f(x) = .
+If there exists a function g such that n = 1, 2, … .
+(cid:11) lim(cid:9)]!
+(cid:2)(cid:9)(cid:3)E(cid:6) (cid:19) (cid:20) (cid:3)_(cid:6) |(cid:2)(cid:9)(cid:3)E(cid:6)|(cid:31) †(cid:3)E(cid:6), Then f and (cid:11) (cid:19) (cid:20) (cid:3)_(cid:6) lim(cid:9) ] !
+(cid:141)Š |(cid:2)(cid:9) * (cid:2)| (cid:17)_ (cid:26) 0.
+That is .
+lim(cid:9) ] !
+(cid:141) (cid:2)(cid:9) (cid:17) _ (cid:26) (cid:141) (cid:2) (cid:17) _ Š Š Proof: Since f is measurable and (since ), the fact that f (cid:11) |(cid:2)| (cid:31) † |(cid:2)(cid:9)(cid:3)E(cid:6)|(cid:31) †(cid:3)E(cid:6) (cid:19) (cid:20) (cid:3)_(cid:6) follows from the fact that g (cid:11) (cid:19) (cid:20) (cid:3)_(cid:6).
+Since and , we have .
+From this, we (cid:2)(cid:9) ] (cid:2) |(cid:2)(cid:9)(cid:3)E(cid:6)|(cid:31) †(cid:3)E(cid:6) |(cid:2)| (cid:26) lim(cid:9)]!|(cid:2)(cid:9)(cid:3)E(cid:6)| (cid:31) †(cid:3)E(cid:6) obtain + Consider the sequence By Fatou’s |(cid:2)(cid:9) * (cid:2)|(cid:31)|(cid:2)(cid:9)| |(cid:2)|(cid:31) 2†.
+‡(cid:9) (cid:26) 2†* |(cid:2)(cid:9) * (cid:2)|.
+Lemma, we have (cid:141) (cid:3) lim ;(cid:16)(cid:2)‡(cid:9) (cid:6)(cid:17) _ (cid:31) lim~ ] !
+;(cid:16)(cid:2) (cid:141) ‡(cid:9) (cid:17) _ Š Š ~ ] !
+which gives .
+(cid:141) 2† (cid:17)_ (cid:31) (cid:141) 2† (cid:17) _ (cid:27) lim~ ] !
+;(cid:16)(cid:2) (cid:3)*(cid:141) |(cid:2)(cid:9) * (cid:2)|(cid:17) _(cid:6) Š Š Š And since g , we have (cid:11) (cid:19) (cid:20) (cid:3)_(cid:6) 0 , (cid:31) lim~ ] !
+;(cid:16)(cid:2) (cid:3)*(cid:141) |(cid:2)(cid:9) * (cid:2)|(cid:17) _(cid:6) Š And so, 72 0 .
+(cid:31) * lim~ ] !
+<@> (cid:3)(cid:141) |(cid:2)(cid:9) * (cid:2)|(cid:17) _(cid:6) Š This implies .
+lim~ ] !
+<@> (cid:3)(cid:141) |(cid:2)(cid:9) * (cid:2)|(cid:17)_(cid:6) (cid:31) 0 (cid:3)3.2.1(cid:6) Š The left hand side of (3.2.1) must be zero.
+Hence .
+lim(cid:9) ] !
+(cid:141)Š |(cid:2)(cid:9) * (cid:2)| (cid:17)_ (cid:26) lim~ ] !<@> (cid:3)(cid:141)Š |(cid:2)(cid:9) * (cid:2)|(cid:17)_ (cid:26) 0 (cid:3)3.2.2(cid:6) But by Theorem 3.2.3, we have .
+«(cid:141) (cid:3)(cid:2)(cid:9) * (cid:2)(cid:6) (cid:17) _« (cid:31) (cid:141) |(cid:2)(cid:9) * (cid:2)| (cid:17) _ Š (cid:143) In view of (3.3.2), we have ¬ lim ¡ (cid:3)(cid:2)(cid:9) * (cid:2)(cid:6) (cid:17) _¬ (cid:26) 0 ~ ] !
+Š and so, .
+lim (cid:141) (cid:3)(cid:2)(cid:9) * (cid:2)(cid:6) (cid:17) _ (cid:26) 0 Š ~ ] !
+73 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of Lebesgue integral of a complex function over the general measure space; (ii) the basic properties of Lebesgue integrals of complex functions; (iii) how to prove the dominated convergence theorem.
+6.0 Tutor Marker Assignment 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+74 MODULE3: Theory of Integration Unit 3: Lebesgue Integration of Real – Valued Functions Defined on (cid:9) (cid:22) Pages 1.0 Introduction 58 2.0 Objectives 58 - 59 3.0 Lebesgue Integration of Real – Valued Functions Defined on 59 - 62 (cid:9) (cid:22) 4.0 Conclusion 62 5.0 Summary 62 6.0 Tutor Marked Assignment 63 7.0 Further Reading and Other Resources 64 1.0 Introduction Here, we discuss Lebesgue integration of real – valued functions defined on subsets of we (cid:9) (cid:22) , restrict ourselves to n = 1, that (cid:22).
+We first give a brief description of the way in which the Lebesgue integral is defined on subsets of (cid:22).
+2.0 Objectives By the end of this unit, you should be able to: (i) define the Lebesgue integral of a real – valued function defined on the real line; 75 (ii) know the equivalent form of monotone convergence theorem and dominated convergence theorem with respect to the real line instead of the general measure space; (iii) know how to use these theorems to evaluate some complicated or complex integrals.
+3.0 Lebesgue Integration of Real – Valued Functions Defined on (cid:9) (cid:22) Definition 3.3.1: A step function f = is a (finite) linear combination of the (cid:9) ∑ (cid:10)(cid:11)— (cid:127)(cid:143)® characteristic functions where each For such is a bounded interval.
+For such f we define (cid:8) = m( (cid:9) (cid:141)(cid:2) ∑ (cid:10)(cid:11)— (cid:8) (cid:6) Where m( is the length of .
+(cid:8) (cid:6) (cid:8) A function f: is in if there is an increasing sequence { } of step functions such that ¯ (cid:22)] (cid:22) (cid:20) (cid:2)(cid:9) { } is bounded above and almost everywhere (a.e.).
+For such an f we define (cid:2)(cid:9) (cid:2)(cid:9) ] (cid:2) .
+(cid:141)(cid:2) (cid:26) lim(cid:9)]!
+(cid:141)(cid:2)(cid:9) A function f: is in A function f: is in if f = p – q, where p, q .
+For such (cid:11) ¯ (cid:22) ] (cid:22) (cid:22)] (cid:22) (cid:20) (cid:3)(cid:22)(cid:6) (cid:19) (cid:20) an f, we define - .
+(cid:141)(cid:2) (cid:26) (cid:141)> (cid:141)° 76 Theorem 3.3.2: (Monotone Convergence Theorem) Let { } be a sequence in such that { } is bounded above (below) and { } is increasing (cid:11) (cid:2)(cid:9) (cid:20) (cid:3)(cid:22)(cid:6) (cid:2)(cid:9) (cid:2)(cid:9) (decreasing) a.e.
+Then there exists f such that .
+(cid:11) (cid:19)(cid:20) (cid:3)(cid:22)(cid:6) (cid:141)(cid:2) (cid:26) lim(cid:9)]!
+(cid:141)(cid:2)(cid:9) Proof: Exercise Theorem 3.3.3 (Dominated Convergence Theorem) Let { } be a sequence in and g .
+Let f be a real function defined on such that (cid:11) (cid:11) (cid:2)(cid:9) (cid:20) (cid:3)(cid:22)(cid:6) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6) (cid:22) for almost all x and for all n and all x , Then f and (cid:11) (cid:2)(cid:9)(cid:3)E(cid:6) ] (cid:2)(cid:3)E(cid:6) (cid:19) (cid:22) |(cid:2)(cid:9)(cid:3)E(cid:6)|(cid:31) †(cid:3)E(cid:6).
+(cid:19) (cid:20) (cid:3)(cid:22)(cid:6) .
+(cid:141)(cid:2) (cid:26) lim(cid:9)]!
+(cid:141)(cid:2)(cid:9) Proof: Exercise Example 3.3.4: Define f: and g: by (cid:22)] (cid:22) (cid:22)] (cid:22) f(x) = +(cid:13)h (cid:5)‚ h ˆ‰ E?
+k i 0 ;(cid:2) E F 0 Use the monotone convergence theorem to evaluate (cid:141)(cid:2).
+Solution: For any natural number n, define by (cid:2)(cid:9) 4 (cid:22)] (cid:22) +(cid:13)h (cid:5)‚ ‰ (cid:144)h (cid:144)(cid:9) E?
+k (cid:2)(cid:9)(cid:3)E(cid:6) (cid:26) i 0 =(cid:4)‡?±²;<?
+Then { is a sequence in and { } is bounded above since (cid:11) (cid:2)(cid:9)A (cid:20) (cid:3)(cid:22)(cid:6) (cid:141)(cid:2)(cid:9) 77 dx = ³£(cid:157) - ³£(cid:157) + < .
+(cid:9) +(cid:9)¥ ¥ (cid:11) (cid:11) +(cid:13)h (cid:141)(cid:2)(cid:9) (cid:26) (cid:141) E?
+‰ (cid:13) ´ ´ ´ Since for all x , , it follows from the monotone convergence theorem that (cid:19) (cid:22) (cid:2)(cid:9)(cid:3)E(cid:6) ] (cid:2)(cid:3)E(cid:6) f and = (cid:11) (cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6) (cid:141)(cid:2) (cid:26) lim(cid:9)]!
+(cid:141)(cid:2)(cid:9) .
+´ Example 3.3.5: Let the function f: be such that, for all natural number n, f restricted to (cid:22)] (cid:22) [-n, n] is Riemann integrable and dx exists.
+Prove that f (cid:9) (cid:11) lim(cid:9)]!
+(cid:141)+(cid:9)|(cid:2)(cid:3)E(cid:6)| (cid:19) (cid:20) (cid:3)(cid:22)(cid:6).
+Define g: by (cid:22)] (cid:22) R¶ž&h g(x) = ;(cid:2) E P 0 (cid:11)) h£ k µ 0 ;(cid:2) E F 0 Show that g (cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6).
+Proof: For a natural number n, define (cid:2)(cid:3)E(cid:6) ;(cid:2) –(cid:16) (cid:31) E (cid:31) (cid:16)k (cid:2)(cid:9)(cid:3)E(cid:6) (cid:26) i 0 =(cid:4)‡?±²;<?
+Then { and { } are sequences in The sequence { } is bounded above, since (cid:11) (cid:2)(cid:9)A |(cid:2)(cid:9)| (cid:20) (cid:3)(cid:22)(cid:6).
+(cid:141)|(cid:2)(cid:9)| = converges, and for all x { } is increasing and converges to (cid:9) (cid:141)|(cid:2)(cid:9)| (cid:141)+(cid:9) |(cid:2)(cid:3)E(cid:6)| (cid:17)E (cid:19) (cid:22), |(cid:2)(cid:9)(cid:3)E(cid:6)| .
+Hence, by the monotone convergence theorem, .
+Also, since (cid:11) |(cid:2)(cid:3)E(cid:6)| |(cid:2)|(cid:19) (cid:20) (cid:3)(cid:22)(cid:6) (cid:2)(cid:9)(cid:3)E(cid:6) ] (cid:2)(cid:3)E(cid:6) (x and for all n and for all x , the dominated convergence theorem (cid:19) (cid:22)(cid:6) |(cid:2)(cid:9)(cid:3)E(cid:6)|(cid:31) |(cid:2)|(cid:3)E(cid:6) (cid:19) (cid:22) applies to give f (cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6).
+78 For each natural number n, g restricted to [-n, n] is Riemann integrable and dx (cid:9) (cid:9) R¶ž&h (cid:141)+(cid:9)|†(cid:3)E(cid:6)| (cid:17)E (cid:26) (cid:141)‰ «(cid:11)) h£« = n < .
+(cid:9) (cid:11) ¸ +(cid:11) (cid:31) (cid:141)‰ «(cid:11)) h£« (cid:17)E (cid:4)(cid:15)(cid:16) (cid:13) Since these integrals are increasing, (cid:9) lim ¡ |†(cid:3)E(cid:6)| (cid:17)E (cid:9)]!
++(cid:9) Exists and hence g (cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6).
+4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of Lebesgue integral of a real-valued function over the real line; (ii) the equivalent version of monotone convergence theorem and dominated convergence theorem with respect to the real line instead of the general measure space; (iii) how to use the monotone convergence theorem and the dominated convergence theorem to evaluate some complicated or complex integrals .
+79 6.0 Tutor Marker Assignment (1) Let k be a positive constant.
+Define f: and g: by (cid:22)] (cid:22) (cid:22)] (cid:22) f(x) = +$h (cid:5)‚ h ˆ‰ E?
+k i 0 ;(cid:2) E F 0 and h g(x) = * 1 ;(cid:2) E z 0 ¢ ¥ k µ 0 ;(cid:2) E (cid:31) 0 (i) Use the monotone convergence theorem to show that f (cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6).
+(ii) Evaluate (cid:141)(cid:2) (iii) Show that for x > 0, g(x) = x( + + + …).
++h +(cid:13)h +&h ?
+?
+?
+(iv) Deduce that g .
+(cid:11) (cid:19) (cid:20) (cid:3)(cid:22)(cid:6) (2) By considering the sequence of partial sums, show that the real function f defined by the series f(x) = (0 h !
+∑(cid:9)(cid:10)(cid:11) £ £ £ (cid:31) E (cid:31) 1(cid:6) (cid:3)(cid:11)) (cid:9) h (cid:6) is in and that (cid:11) (cid:20) (cid:3)C0,1D(cid:6) (cid:11) !
+1 1 ¡ (cid:2)(cid:3)E(cid:6)(cid:17)E (cid:26) (cid:1) (cid:13) ‰ 2 (cid:9)(cid:10)(cid:11)1 (cid:27) (cid:16) 80 7.0 Further Reading and Other Resource H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+MODULE4: Classical Banach Space Unit 1: Sets of Measure zero Pages 1.0 Introduction 65 2.0 Objectives 65 3.0 Sets of Measure Zero 65 - 68 4.0 Conclusion 68 5.0 Summary 68 6.0 Tutor Marked Assignment 68 - 69 7.0 Further Reading and Other Resources 69 81 1.0 Introduction In this unit, we discuss the property that holds almost everywhere of the general measure space with some example.
+2.0 Objectives By the end of this unit, you should be able to: (i) know what it means to say that a property named P occurs almost everywhere on X; (ii) know some examples of properties that occurs almost everywhere on X; (iii) know how to prove basic results on properties that occurs almost everywhere on X.
+3.0 Properties that Hold Almost Everywhere Definition 3.1.1: let (X, be a measure space.
+A property named P on X is said to hold Q,_(cid:6) almost everywhere (a.e) if the set of points in X at which it fails to hold is a set of measure zero.
+That is if there is a set N that belongs to , such that , and N contains every point at Q _(cid:3)¹(cid:6) (cid:26) 0 which the property fails to hold.
+More generally, if E is a subset of X, then a property is said to hold almost everywhere on E if the set of points in E at which it fails to hold is a set of measure zero.
+Consider a property that holds almost everywhere, and let F be the set of points in X at which it fails to hold.
+Then it is not necessary that F belong to it is only necessary that there exist a Q, set N that belongs to includes F, and satisfies .
+Q, _(cid:3)¹(cid:6) (cid:26) 0 We give some examples.
+82 Example 3.1.2: Suppose f and g are functions on X.
+Then f = g almost everywhere if the set of points x at which f(x) g(x) is a set of measure zero.
+Also, f on X almost everywhere means f (cid:31) † the set of points or elements of X for which f > g have measure zero and f g almost P everywhere if the set of points x at which f(x) < g(x) is a set of measure zero.
+If { is a (cid:2)(cid:9)A sequence of functions on X and f is a function on X, then { converges to f almost everywhere (cid:2)(cid:9)A if the set of points x at which f(x) = fails to hold is a set of measure zero.
+lim(cid:9)(cid:2)(cid:9)(cid:3)E(cid:6) Proposition 3.1.3: Let (X, be a measure space, and let f and g be extended real-valued Q,_(cid:6) functions on X that are equal almost everywhere.
+If is complete and if f is measurable, then g _ is measurable.
+Proof: Let t be a real number and let N be a set that belongs to , satisfies , and is Q _(cid:3)¹(cid:6) (cid:26) 0 such that f and g agree everywhere outside N. Then {x X: g(x) t} = (cid:19) (cid:31) ( {x X: f(x) t} ({x X: g(x) t} N) (3.1.1) R (cid:19) (cid:31) (cid:28) ¹ (cid:6) (cid:25) (cid:19) (cid:31) (cid:28) The completion of implies {x X: g(x) t} N belongs to and so equation (3.1.1) implies _ (cid:19) (cid:31) (cid:28) Q {x X: g(x) t} belongs to .
+Since t is arbitrary, the measurability of g follows.
+(cid:19) (cid:31) Q Corollary 3.1.4: Let (X, be a measure space, let { be a sequence of extended real- Q,_(cid:6) (cid:2)(cid:9)A valued functions on X, and let f be an extended real-valued function on X such that { (cid:2)(cid:9)A converges to f almost everywhere.
+If is complete and if each is measurable, then f is _ (cid:2)(cid:9) measurable.
+83 Proof: By Proposition 3.3.6 of module2, unit3, the function is measurable.
+Since f j;(cid:7);(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) and agree almost everywhere, Proposition 3.1.3 above implies that f is measurable.
+j;(cid:7);(cid:16)(cid:2)(cid:9)(cid:2)(cid:9) Definition 3.1.5: We say that f and g are equivalent if f and g differ on a set of measure zero.
+We write f ~ g to denote that f and g are equivalent.
+If f ~ g, we say that f = g almost everywhere on X.
+Consider , an identify two functions if they are equivalent.
+Write [f] for the class of (cid:11) (cid:20) (cid:3)_(cid:6) functions equivalent to f. That [f] = {g: f ~ g}.
+Since ~ is a proper equivalent relation on ), it splits ) into collection of mutually disjoint equivalent classes [f], [g].
+We do this (cid:11) (cid:11) (cid:20) (cid:3)_ (cid:20) (cid:3)_ because it is possible for a function f which is not zero everywhere but which has (cid:141) (cid:2) (cid:17)_ (cid:26) 0.
+Š The equation does not imply that f = 0.
+But if f = 0, then (cid:141) |(cid:2)| (cid:17)_ (cid:26) 0 (cid:141) (cid:2) (cid:17)_ (cid:26) 0.
+Š Š Theorem 3.1.6: Let { } be a sequence of measurable functions.
+: X a.e.
+Suppose that (cid:2)(cid:9) (cid:2)(cid:9) ] H < .
+Then converges to f(x) a.e on X. !
+!
+∑(cid:9)(cid:10)(cid:11)(cid:141)Š |(cid:2)(cid:9)| (cid:17)_ ∞ ∑(cid:9)(cid:10)(cid:11)(cid:2)(cid:9)(cid:3)E(cid:6) That is , f(x) = a.e on X and .
+!
+!
+∑(cid:9)(cid:10)(cid:11)(cid:2)(cid:9)(cid:3)E(cid:6) (cid:141) (cid:2) (cid:17) _ (cid:26) ∑(cid:9)(cid:10)(cid:11)(cid:141) (cid:2)(cid:9) (cid:17) _ Š Š Proof: The be the set on which is defined such that .
+Let us define R Ž(cid:9) (cid:2)(cid:9) _(cid:3)Ž(cid:9) (cid:6) (cid:26) 0 for all x in S = , we have .
+R “(cid:3)E(cid:6) (cid:26) ∑(cid:9)|(cid:2)(cid:9)(cid:3)E(cid:6)| S(cid:9)Ž(cid:9) _(cid:3)Ž (cid:6) (cid:26) 0 84 By Theorem 3.1.5 If E = {x : , converges R (cid:141)I “ (cid:17)_ F ∞.
+(cid:19) Ž “(cid:3)E(cid:6) F ∞A,_(cid:3)(cid:8) (cid:6) (cid:26) 0 ∑(cid:9)|(cid:2)(cid:9)(cid:3)E(cid:6)| for any x and if f(x) = x , then we obtain !
+(cid:19) (cid:8) ∑(cid:9)(cid:10)(cid:11)(cid:2)(cid:9)(cid:3)E(cid:6)X (cid:19) (cid:8) x This implies f .
+(cid:11) |(cid:2)(cid:3)E(cid:6)|(cid:31) “(cid:3)E(cid:6) X (cid:19) (cid:8).
+(cid:19) (cid:20) (cid:3)_(cid:6) If = … + , then we have , †(cid:9) (cid:2)(cid:11) (cid:27) (cid:2)(cid:13) (cid:27) (cid:2)(cid:9) |†(cid:9)(cid:3)E(cid:6)|(cid:31) “(cid:3)E(cid:6) †(cid:9)(cid:3)E(cid:6)] (cid:2)(cid:3)E(cid:6).
+By Theorem3.2.4, we obtain .
+!
+(cid:141)(cid:143) (cid:2) (cid:17) _ (cid:26) ∑(cid:9)(cid:10)(cid:11)(cid:141)(cid:143) (cid:2)(cid:9) (cid:17) _ This is equivalent to !
+¡ (cid:2) (cid:17) _ (cid:26) (cid:1) ¡ (cid:2)(cid:9) (cid:17) _ Š (cid:9)(cid:10)(cid:11) Š because R _(cid:3)(cid:8) (cid:6) (cid:26) 0.
+4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the definition of a property that occurs almost everywhere with examples; (ii) how to prove some results on some properties that occur almost everywhere.
+6.0 Tutor marked Assignment (1) Show that ~ is an equivalent relation.
+85 (2) Let f and g be continuous real-valued functions on the real line.
+Show that if f = g holds almost everywhere with respect to the Lebesgue measure on the real line, then f = g everywhere.
+7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+86 MODULE4: Classical Banach Space Unit 1: – Spaces » º Page 1.0 Introduction 70 2.0 Objectives 70 3.0 – Spaces 71 - 73 (cid:21) (cid:20) 4.0 Conclusion 73 5.0 Summary 73 6.0 Tutor Marked Assignment 73 7.0 Further Reading and Other Resources 74 1.0 Introduction In this unit we study some spaces of functions – the – Spaces and the norm defined on them.
+(cid:21) (cid:20) We also study the inequalities involving the norm defined on the – Spaces.
+The Holder’s and (cid:21) (cid:20) Minkowski.
+The Minkowski inequality gives the sub-additivity of the norm.
+2.0 Objectives By the end of this unit, you should be able to: (i) Know what the – Spaces are; (cid:21) (cid:20) (ii) know that the – Spaces with the norm defined on them are Banach spaces; (cid:21) (cid:20) (iii) know the Minkonski and Holder’s inequalities for function spaces 87 3.0 – Spaces » º Definition 3.2.1: Let p and q be two positive numbers such that + = 1.
+Then p and q are said (cid:11) (cid:11) (cid:21) ¼ to be conjugate exponents Definition 3.2.2: Let (X, ) be a measure space, for 0 < p < , let f: X be a measurable Q,Q ∞ ] H function, we set –.
+(cid:21) ¾ ½(cid:2)½(cid:21) (cid:26) (cid:3)(cid:141) |(cid:2)| (cid:17)_(cid:6) Š f:X }.
+(cid:21) (cid:21) (cid:20) (cid:3)_(cid:6) (cid:26) 9 ] H,(cid:7)?(cid:15)<@±(cid:15)(j?
+(cid:2)@(cid:16)‘(cid:4);=(cid:16)< <@‘‡ (cid:4)‡(cid:15)(cid:4) (cid:141) |(cid:2)| (cid:17)_ F ∞ Š The norm on is defined as (cid:21) (cid:20) (cid:3)_(cid:6) – for f .
+(cid:21) ¾ (cid:21) ½(cid:2)½(cid:21) (cid:26) (cid:3)(cid:141) |(cid:2)| (cid:17)_(cid:6) (cid:19) (cid:20) (cid:3)_(cid:6) Š If (Lebesgue measure on ), then .
+(cid:9) (cid:21) (cid:21) (cid:9) _ (cid:26) (cid:7) (cid:22) (cid:20) (cid:3)_(cid:6) (cid:26) (cid:20) (cid:3)(cid:22) (cid:6) is also denoted by and ( ) is a Banach space, it is reflexive and separable (cid:21) (cid:21) (cid:21) (cid:20) (cid:3)_(cid:6) (cid:20) (cid:3)T(cid:6) (cid:20) (cid:3)T(cid:6),½.½(cid:21) for 1 < p < ∞.
+Two functions f and g in are said to be equal if Thus is a set of (cid:21) (cid:21) (cid:20) (cid:3)T(cid:6) (cid:141) |(cid:2)*†|(cid:17)_ (cid:26) 0.
+(cid:20) (cid:3)T(cid:6) Š equivalent classes with norm .
+½.½(cid:21) Theorem 3.2.3: (Holder’s Inequality) Let p and q be conjugate exponents where 1 .
+If f and g , then (cid:21) ¼ (cid:31) > (cid:31) ∞ (cid:19) (cid:20) (cid:3)T(cid:6) (cid:19) (cid:20) (cid:3)T(cid:6) 88 fg and .
+.
+(cid:11) (cid:19) (cid:20) (cid:3)T(cid:6) ½(cid:2)†½(cid:11) (cid:31) ½(cid:2)½(cid:21) ½†½¼ That is, – –.
+(cid:21) ¾ ¼ ¿ (cid:141) |(cid:2)†|(cid:17) _ (cid:31) (cid:3)(cid:141) |(cid:2)| (cid:17)_(cid:6) .
+(cid:3)(cid:141) |†| (cid:17)_(cid:6) Š Š Š Proof: Exercise Remark: The case of Theorem4.2.3, for p = q = 2 is called Cauchy Schwarz inequality.
+Theorem 3.2.4: (Minkonski Inequality) Suppose 1 and f, g , then (f + g) and (cid:21) (cid:21) (cid:31) > (cid:31) ∞ (cid:19) (cid:20) (cid:3)T(cid:6) (cid:19) (cid:20) (cid:3)T(cid:6) .
+½(cid:2) (cid:27) †½(cid:21) (cid:31) ½(cid:2)½(cid:21) (cid:27) ½†½(cid:21) That is, – – –.
+(cid:21) ¾ (cid:21) ¾ (cid:21) ¾ (cid:3)(cid:141) |(cid:2) (cid:27) †| (cid:17)_(cid:6) (cid:31) (cid:3)(cid:141) |(cid:2)| (cid:17) _(cid:6) (cid:27) (cid:3)(cid:141) |†| (cid:17)_(cid:6) Š Š Š Proof: Exercise (1) Let , be positive real numbers such that = + and , be functions such that (cid:11) (cid:11) (cid:11) >(cid:11) >(cid:13) (cid:2)(cid:11) (cid:2)(cid:13) (cid:21) (cid:21)– (cid:21)£ and , prove that the function f = is in , and (cid:21)– (cid:21)£ (cid:21) (cid:2)(cid:11) (cid:19) (cid:20) (cid:3)T(cid:6) (cid:2)(cid:13) (cid:19) (cid:20) (cid:3)T(cid:6) (cid:2)(cid:11) (cid:2)(cid:13) (cid:20) (cid:3)T(cid:6) .
+.
+½(cid:2)½(cid:21) (cid:31) ½(cid:2)(cid:11)½(cid:21)– ½(cid:2)(cid:13)½(cid:21)£ 89 (2) Prove that if f with 1 , then for any p , we have (cid:21) ¼ (cid:19) (cid:20) (cid:3)T(cid:6) (cid:28)(cid:20) (cid:3)T(cid:6) (cid:31) > (cid:31) ° (cid:31) ± (cid:31) ° with = + .
+V (cid:11)+ V (cid:11) V (cid:11)+ V ½(cid:2)½ (cid:31) ½(cid:2)½(cid:21) ½(cid:2)½¼ (cid:21) ¼ 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) definition of – Spaces (cid:21) (cid:20) (ii) that – Spaces with the norm defined on them are Banach spaces (cid:21) (cid:20) (iii) the Minkonski and Holder’s inequalities 6.0 Tutor Marked Assignment (1) Let , be positive real numbers such that = + and , be functions such that (cid:11) (cid:11) (cid:11) >(cid:11) >(cid:13) (cid:2)(cid:11) (cid:2)(cid:13) (cid:21) (cid:21)– (cid:21)£ and , prove that the function f = is in , and (cid:21)– (cid:21)£ (cid:21) (cid:2)(cid:11) (cid:19) (cid:20) (cid:3)T(cid:6) (cid:2)(cid:13) (cid:19) (cid:20) (cid:3)T(cid:6) (cid:2)(cid:11) (cid:2)(cid:13) (cid:20) (cid:3)T(cid:6) .
+.
+½(cid:2)½(cid:21) (cid:31) ½(cid:2)(cid:11)½(cid:21)– ½(cid:2)(cid:13)½(cid:21)£ (2) Prove that if f with 1 , then for any p , we have (cid:21) ¼ (cid:19) (cid:20) (cid:3)T(cid:6) (cid:28)(cid:20) (cid:3)T(cid:6) (cid:31) > (cid:31) ° (cid:31) ± (cid:31) ° with = + .
+V (cid:11)+ V (cid:11) V (cid:11)+ V ½(cid:2)½ (cid:31) ½(cid:2)½(cid:21) ½(cid:2)½¼ (cid:21) ¼ 90 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+MODULE5: Product Measures and Fubini’s Theorem Unit 1: Product Spaces Pages 1.0 Introduction 75 2.0 Objectives 75 3.0 Product Measures and Product Spaces 75 - 77 4.0 Conclusion 77 5.0 Summary 77 - 78 6.0 Tutor Marked Assignment 78 7.0 Further Reading and Other Resources 78 91 1.0 Introduction: This unit is devoted to measures and integrals on product spaces.
+We shall study the basic facts about product measures and about the evaluation of integrals on product spaces.
+2.0 Objectives By the end of this unit, you should be able to: (i) Know what the product Spaces are; (ii) Some basic facts about product spaces; (iii) know what the product measures are; (iv) know how to evaluate integrals on product spaces.
+3.0 Product Measures and Product Spaces Definition 3.1.1: Let (X, ) and (Y, ) be measurable spaces and let X Y be the Cartesian Qh Q‹ À product of the sets X and Y.
+A subset of X Y is called a rectangle with measurable sides if it has À the form A B for some A in and B in ; the algebra on X Y generated by the collection of À Qh Q‹ U* À all rectangles with measurable sides is called the product of the algebras and , and U* Qh Q‹ is denoted by .
+Qh ÀQ‹ Example 3.1.2: Consider the space = .
+We show that the product algebra (cid:13) (cid:22) (cid:22) À(cid:22) U * B( ) B( ) is equal to the algebra B( of Borel subsets of We recall that B( is (cid:13) (cid:13) (cid:13) (cid:22) À (cid:22) U * (cid:22) (cid:6) (cid:22) .
+(cid:22) (cid:6) generated by the collection of all sets of the form (a,b] (c,d].
+Thus B( is generated by a (cid:13) À (cid:22) (cid:6) 92 subfamily of the algebra B( ) B( ), and so is included in B( ) B( ).
+For the reverse U* (cid:22) À (cid:22) (cid:22) À (cid:22) inclusion, let and be projections of onto , defined by (x,y) = x and (x,y) = y.
+(cid:13) Á(cid:11) Á(cid:13) (cid:22) (cid:22) Á(cid:11) Á(cid:13) and are continuous, and hence Borel measurable.
+It follows from this and the identity Á(cid:11) Á(cid:13) A B = (A ) ( B) = +(cid:11) +(cid:11) À À (cid:22) (cid:28) (cid:22) À Á(cid:11) (cid:3)3(cid:6) (cid:28) Á(cid:13) (cid:3)L(cid:6) that if A and B belongs to B( ), then A B belongs to B( .
+Since B( ) B( ) is the (cid:13) (cid:22) À (cid:22) (cid:6) (cid:22) À (cid:22) algebra generated by the collection of all such rectangles A B, it must be included in U* À B( .
+Thus B( ) B( ) = B( .
+(cid:13) (cid:13) (cid:22) (cid:6) (cid:22) À (cid:22) (cid:22) (cid:6) We next introduce some terminology and notation.
+Suppose X and Y are sets and E is a subset of X Y.
+Then for each x in X and each y in Y, the sections and are the subsets of Y and X v À (cid:8)h (cid:8) given by = {y Y: (x,y) E} (cid:8)h (cid:19) (cid:19) and = {x X: (x,y) E}.
+v (cid:8) (cid:19) (cid:19) If f is a function on X Y, then the sections and are the functions on Y and X given by v À (cid:2)h (cid:2) (cid:2)h(cid:3)Â(cid:6) (cid:26) (cid:2)(cid:3)E,Â(cid:6) and v (cid:2) (cid:3)E(cid:6) (cid:26) (cid:2)(cid:3)E,Â(cid:6).
+Proposition 3.1.3: Let (X, ) and (Y, ) be measurable spaces.
+Qh Q‹ (i) If E is a subset of X Y that belongs to then each section belongs to À Qh ÀQ‹ (cid:8)h and each section belongs to v Q‹ (cid:8) Qh.
+93 (ii) If f is an extended real-valued (or a complex-valued) - measurable Qh ÀQ‹ function on X Y, then each section is -measurable and is - v À (cid:2)h Q‹ (cid:2) Qh measurable.
+Proof: Exercise Proposition 3.1.4: (X, ) and (Y, ) be finite measure spaces.
+If E belongs to Qh,_ Q‹,ª U* the algebra , then the function x is - measurable and the function U * Qh ÀQ‹ ] ª(cid:3)(cid:8)h(cid:6) Qh y is - measurable.
+v ] _(cid:3)(cid:8) (cid:6) Q‹ Proof: Exercise Theorem 3.1.5: (X, ) and (Y, ) be finite measure spaces.
+Then there is a Qh,_ Q‹,ª U* unique measure on the -algebra such that _ Àª U Qh ÀQ‹ ( A B) = _ À ª(cid:6)(cid:3) À _(cid:3)3(cid:6)ª(cid:3)L(cid:6) holds for each A in and B in .
+Furthermore, the measure under of an arbitrary Qh Q‹ _ Àª set E in is given by Qh ÀQ‹ ( v _ À ª(cid:6)(cid:3)(cid:8)(cid:6) (cid:26) (cid:141) ª(cid:3)(cid:8)h(cid:6) _(cid:3)(cid:17)E(cid:6) (cid:26) (cid:141) _(cid:3)(cid:8) (cid:6)ª(cid:3)(cid:17)Â(cid:6).
+Š ‹ The measure is called the product of _ Àª _ (cid:15)(cid:16)(cid:17) ª.
+Proof: Exercise 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) definition of product spaces and product measure with example; (ii) some basic results on product spaces and product measures; 94 (iii) the evaluation of integrals on product spaces 6.0 Tutored marked Assignment 7.0 Further Reading and Other Resources H.L.
+Royden, Real Analysis, third edition, Macmillan Publishing Company New York, 1988.
+D. L. Cohn, Measure Theory, Birkhauser, 1985.
+P.R.
+Halmos, Measure Theorey, Springer Verlag, 1974.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+S. Saks, Theory of the Integrals, Second Edition, Dover, New York, 1964.
+95 MODULE5: Product Measures and Fubini’s Theorem Unit 2: Fubini’s Theorem Page 1.0 Introduction 79 2.0 Objectives 79 3.0 Fubini’s Theorem 80 - 81 4.0 Conclusion 81 5.0 Summary 81 6.0 Tutored marked Assignment 81 - 82 7.0 Further Reading and Other Resources 82 1.0 Introduction In this unit, we discuss a proposition and the Fubini’s theorem.
+These results enable us to evaluate integrals with respect to product measures in terms of iterated integrals.
+2.0 Objectives By the end of this unit, you should be able to: (i) know the Funini’s theorem; (ii) how to evaluate integrals with respect to product measures in terms of the iterated integrals.
+96 3.0 Fubini’s Theorem Proposition 3.2.1: (X, ) and (Y, ) be finite measure spaces, and let Qh,_ Q‹,ª U* f: X Y be - measurable.
+Then À ] C0,(cid:27)∞D Qh ÀQ‹ is (i) The function x - measurable and the function y Â ] (cid:141) (cid:2) (cid:17)ª Qh ] (cid:141) (cid:2) (cid:17) _ ^ E T is - measurable, and Q‹ (ii) f satisfies v (cid:141) (cid:2) (cid:17)(cid:3) _ À ª(cid:6) (cid:26) (cid:141) (cid:3)(cid:141) (cid:2) (cid:17)_(cid:6) ª(cid:3)(cid:17)Â(cid:6) Ã À Ä ‹ Š = .
+(cid:141) (cid:3)(cid:141) (cid:2)h(cid:17)ª(cid:6) _(cid:3)(cid:17)E(cid:6) Š ‹ Remark: We note that the functions and are non-negative and measurable (see v (cid:2)h (cid:2) Proposition 3.1.3, Module 5, unit 1); thus the expression is defined for each x in X (cid:141)‹ (cid:2)h(cid:17)ª and the expression is defined for each y in Y. v (cid:141) (cid:2) (cid:17)_ Š Proof: First suppose that E belongs to and that f is the characteristic function on Qh ÀQ‹ E. Then the sections and are the characteristic functions of the sections and , v v (cid:2)h (cid:2) (cid:8)h (cid:8) and so the relations and hold for each x and y.
+Thus v v (cid:141)(cid:2)h(cid:17)ª (cid:26) ª(cid:3)(cid:8)h(cid:6) (cid:141)(cid:2) d_ (cid:26) _(cid:3)(cid:8) (cid:6) Proposition 3.1.4 and Theorem 3.1.5 of Module 5, unit 1, imply that conditions (i) and (ii) hold if f is a characteristic function.
+The additivity and homogeneity of the integral now imply that they hold for non-negative simple - measurable functions, and so, they Qh ÀQ‹ hold for arbitrary non-negative – measurable functions.
+Qh ÀQ‹ Theorem 3.2.2 (Fubini’s Theorem) (X, ) and (Y, ) be finite measure spaces, and let f: X Y be Qh,_ Q‹,ª U* À ] C*∞,(cid:27)∞D – measurable and - integrable.
+Then Qh ÀQ‹ _ Àª 97 (i) for -almost every x in X the section is -integrable and for -almost every y in Y _ (cid:2)h ª ª the section is -integrable, v (cid:2) _ (ii) the relation v (cid:141) (cid:2) (cid:17)(cid:3) _ À ª(cid:6) (cid:26) (cid:141) (cid:3)(cid:141) (cid:2) (cid:17)_(cid:6) (cid:17)ª Ã À Ä ‹ Š = (cid:141) (cid:3)(cid:141) (cid:2)h(cid:17)ª(cid:6) (cid:17)_ Š ‹ holds.
+Proof: Exercise 4.0 Conclusion 5.0 Summary In this unit we have learnt: (i) the Fubini’s theorem; (ii) how to evaluate integrals with respect to product measures in terms of the iterated integrals.
+6.0 Tutor Marked Assignment (1) Let be Lebesgue measure on ( , B( let be counting measure on ( , B( , and Å (cid:22) (cid:22)(cid:6)(cid:6), _ (cid:22) (cid:22)(cid:6)(cid:6) let f: be the characteristic function on the line {(x,y) : y = x}.
+Show that (cid:13) (cid:13) (cid:22) ] (cid:22) (cid:19) (cid:22) .
+Æ(cid:2)(cid:3)E,Â(cid:6)_(cid:3)(cid:17)Â(cid:6) Å(cid:3)(cid:17)E(cid:6) f Æ(cid:2)(cid:3)E,Â(cid:6)Å(cid:3)(cid:17)E(cid:6)_Å(cid:3)(cid:17)Â(cid:6) (2) Suppose that f: is defined by (cid:13) (cid:22) ] (cid:22) 98 f(x,y) = 1 ;(cid:2) E P 0 (cid:15)(cid:16)(cid:17) E (cid:31) Â F E (cid:27) 1 k Ç*1 ;(cid:2) E P 0 (cid:15)(cid:16)(cid:17) E (cid:27) 1 (cid:31) Â F E (cid:27) 2 0 =(cid:4)‡?±²;<?
+Show that .
+Why does this not contradict Æ(cid:2)(cid:3)E,Â(cid:6)Å(cid:3)(cid:17)Â(cid:6) Å(cid:3)(cid:17)E(cid:6) f Æ(cid:2)(cid:3)E,Â(cid:6)Å(cid:3)(cid:17)E(cid:6) Å(cid:3)(cid:17)Â(cid:6) the Fubini’s theorem.
+7.0.
+Further Reading and Other Resources D. L. Cohn, Measure Theory, Birkhauser, 1985.
+Walter Rudin, Principle of Mathematical Analysis, Second Edition, McGraw Hill, New York, 1976.
+Walter Rudin, Real and Complex Analysis, Third Edition, McGraw – Hill, New York, 1987.
+99  100

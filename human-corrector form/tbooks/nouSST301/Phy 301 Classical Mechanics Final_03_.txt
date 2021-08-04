@@ -1,0 +1,1285 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY 301 COURSE TITLE: CLASSICAL MECHANICS 1CONTENTS Module 1 Generalized Coordinates and Constraints Unit 1 Constraints Unit 2 Generalized Coordinates Unit 3 Virtual work, Virtual Displacement and Generalized Forces Module 2 Lagrange’s and Hamilton’s Formulation of Mechanics Unit 1 D’Alembert’s Principle of Virtual Work Unit 2 Lagrangian Mechanics Unit 3 Hamiltonian Mechanics Module 3 Central force and Scattering Unit 1 The Generic Central Force Problem Unit 2 Kepler’s Problem Unit 3 Scattering Cross Section Module 4 Motion in Non-Inertial Reference Frame Unit 1 Time Derivative in Fixed and Rotating Frames Unit 2 Motion Relative to Earth 2 MODULE 1 GENERALIZED COORDINATES AND CONSTRAINTS Unit 1 Constraints Unit 2 Generalized Coordinates Unit 3 Virtual work, Virtual Displacement and Generalized Forces UNIT 1 CONSTRAINTS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Degrees Of Freedom 3.2 Constraints 3.2.2 Non-holonomic Constraints 3.2.1 Holonomic Constraints 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Reading 1.0 Introduction A rigid body is defined as a system of n particles for which all the interparticle distances are r r constrained to fixed constants, r - r =c and the interparticle potentials are functions only of i j ij these interparticle distances.
+As these distances do not vary, neither does the internal potential energy.
+These interparticle forces cannot do work, and the internal potential energy may be ignored.
+The rigid body is an example of a constrained system, in which the general 3n degrees of freedom are restricted by some forces of constraint which place conditions on the coordinates r r perhaps in conjunction with their momenta.
+In such descriptions we do not wish to consider or i specify the forces themselves, but only their (approximate) effect.
+It is generally assumed, as in the case with the rigid body, that the constraint forces do no work under displacements allowed by the constraints 2.0 Objectives After studying this unit, you will be able to: • Define degree of freedom and constraint.
+• Distinguish between holonomic and non-holonomic constraints.
+• Give examples of holonomic and non-holonomic constraints.
+• Identify and Explain the three kinds of non-holonomic constraints.
+• Identify and Explain the two kinds of holonomic constraints 3.0 Main Contents 3.1 Degrees of Freedom The number of degrees of freedom is defined as the number of independent coordinates that is needed to identify uniquely the configuration of the system.
+3Suppose we have a system of N particles each moving in 3-space and interacting through arbitrary (finite) forces, The number n=3N is called the number of degree of freedom.
+There is freedom, of course, in how we specify the degrees of freedom; e.g.
+: • choice of origin • coordinate system: cartesian, cylindrical, spherical, etc.
+{r} {r r r r } • center-of-mass vs. individual particles: r or R,s = r = r - R k k k k But, the number of degrees of freedom is always the same; e.g., in the center-of-mass system, the constraint ∑ sr = 0 applies, ensuring that {rr} and Rr,sr have same number of degrees of k k k k freedom.
+The motion of such a system is completely specified by knowing the dependence of the available degrees of freedom on time.
+Simple illustration are: “The beads of a abacus are constrained to one-dimensional motion by the supporting wires” so also “Gas molecules within a container are constrained by the walls of the vessel to move only inside the container”.
+Throughout this section, we will work two examples alongside the theory.
+The first consists of an Atwood’s machine, and we may allow the rope length to be a function of time, l = l(t) The second consists of point particle sliding on an elliptical wire in the presence of gravity.
+The Cartesian coordinates of the particle satisfy  x 2  z 2   +  =1 (1.0)     a(t) b(t) We will at various points consider a and b to be time dependent or constant.
+The origin of the coordinate system is the stationary centre of the ellipse.
+Figure 1.1 (a) Atwood machine (b) Point particle sliding on elliptical wire Example 1.1: In the Atwood’s machine of figure 1.1(a), there are a priori 2 degrees of freedom; the z coordinates of the two blocks.
+(We ignore the x and y degrees of freedom because the problem is inherently 1-dimensional.)
+The inextensible rope connecting the two masses reduces this to one degree of freedom because, when one mass moves by a certain amount, the other one must move by the opposite amount.
+Example 1.2: In the elliptical wire of figure 1.1(b), there are a priori 3 degrees of freedom, the 3 spatial coordinates of the point particle.
+The constraints reduce this to one degree of freedom, as no motion in y is allowed and the motions in z and x are related.
+The loss of the y degree of freedom is easily accounted for in our Cartesian coordinate system; effectively, a 2D Cartesian system in x and z will suffice.
+But the relation between x and z is a constraint that cannot be trivially accommodated by dropping another Cartesian coordinate.
+4Self Assessment Exercise A 1.
+Now define Degree of freedom 2.
+State the number of degrees of freedom in an Atwood’s machine and elliptical wire 3.2 Constraints Constraints mean a restriction on the degree of freedom of motion of a system of particles in the form of a condition.
+Constraints may reduce the number of degrees of freedom; e.g., particle moving on a table, rigid body, etc.
+It is divided into Holonomic and Non-Holonomic constraint.
+3.2.1 Holonomic Constraints r r Holonomic constraints are those that can be expressed in the form f(r ,r ,Kt) =0.
+For example, 1 2 restricting a point particle to move on the surface of a table is the holonomic constraint z- z = 0, where z is a constant.
+A rigid body satisfies the holonomic set of constraints 0 0 r r r - r - c = 0, where c is a set of constants satisfying c = c > 0 for all particle pairs i j ij ij ij ji A system is called “holonomic” if, in a certain sense, one can recover global information from local information, so the meaning “entire-law” is quite appropriate.
+Holonomic constraints may be divided into rheonomic (“running law”) and scleronomic (“rigid law”) depending on whether time appears explicitly in the constraints: ({r} ) rheonomic: f r ,t = 0, (1.1a) ({rk}) Scleronomic: f r = 0.
+(1.1b) k ¶ f At a technical level, the difference is whether = 0 or not: the presence of this partial ¶ t derivative affects some of the relations we will derive later.
+3.2.2 Non-holonomic Constraints The rolling of a ball on a table is non-holonomic, because one rolling along different paths to the same point can put it into different orientations.
+Non-holonomic constraints are, obviously, constraints that are not holonomic.
+There are three kinds of non-holonomic constraints: i Non-integrable or history-dependent constraints.
+These are constraints that are not fully defined until the full solution of the equations of motion is known.
+Equivalently, they are certain types of constraints involving velocities.
+The classic case of this type is a vertical disk rolling on a horizontal plane.
+If x and y define the position of the point of contact between the disk and the plane, defines the angle of rotation of the disk about its axis, and q defines the angle between the rotation axis of the disk and the x-axis, then one can find the constraints x& = - rf&cosq , (1.2a) y&= - rf&sinq .
+The differential version of these constraints is dx = - rdf cosq , (1.2b) dy= - rdf&sinq .
+These differential equations are not integrable; one cannot generate from the relations two ( ) ( ) equations f x,q ,f =0 and f y,q ,f =0.
+The reason is that, if one assumes the functions f 1 2 1 and f exist, the above differential equations imply that their second derivatives would have to 2 satisfy 5¶ 2f ¶ 2f „ i.e.
+for f = f or f (1.3) ¶ q¶ f ¶ f¶ q 1 2 which is very unpleasant mathematical condition.
+Explicitly, suppose f existed.
+Then we would 1 be able to write f (x,q ,f ) = 0 1 Let us obtain the differential version of the constraint by differentiation: ¶ f ¶ f ¶ f 1dx+ 1 dq + 1df = 0.
+(1.4) ¶ x ¶ q ¶ f This differential constraint should match the original differential constraintdx = - rdf cosq .
+Identifying the coefficients of the differential yields ¶ f ¶ f ¶ f 1 =1 1 = 0 1 = rcosf .
+(1.5) ¶ x ¶ q ¶ f Taking the mixed second partial derivatives gives ¶ 2f ¶ 2f 1 = 0 1 = - rsinf (1.6) ¶ f¶ q ¶ q¶ f which, clearly, do not match.
+Such constraints are also called non-integrable because one cannot integrate the differential equation to find a constraint on the coordinates.
+A differential relation such as the one above is a local one; if the differential relation is integrable, you can obtain the constraint at all points in space, i.e., you can find the “entire law”.
+Clearly, non-integrability is also related to the fact that the constraint is velocity-dependent: a velocity-dependent constraint is a local constraint, and it may not always be possible to determine a global constraint from it.
+ii.
+inequality constraints; e.g., particles required to stay inside a box, particle sitting on a sphere but allowed to roll off, iii.
+problems involving frictional forces.
+Example 1.3: For the elliptical wire example in figure 1.1(b), the constraint equation is the one we specified initially:  x 2  z 2   +  =1     a(t) b(t) If a and/or b do indeed have time dependence, then the constraint is rheonomic.
+Otherwise, it is scleronomic.
+Example 1.4: For the Atwood’s machine in figure 1.1(a), the constraint equation is z + z +l(t) = 0 1 2 Where l(t) is the length of the rope (we assume the pulley has zero radius).
+The signs on z and z 1 2 are due to the choice of direction for positive z in the example.
+The constraint is again rheonomic if l is indeed time dependent, scleronomic if not Self Assessment Exercise B 1.
+Define constraints.
+2.
+Mention two categories of Constraints and Give three examples each.
+3.
+Mention three kinds of non-holonomic constraints.
+4.
+Show that velocity dependent constraints are non-integrable constraints.
+4.0 Conclusion Holonomic constraints are constraints that can be written in the form (r r r ) f r,r Kr ,t = 0, 1 2 M i.e., there is some sort of condition on the coordinates and possibly time.
+The condition may not 6involve the coordinate velocities.
+Holonomic constraints are also termed integrable because a differential version of the constraint can be integrated to yield the full constraint.
+The constraint is rheonomic if time appears explicitly, scleronomic if not.
+5.0 Summary • The number of degrees of freedom is defined as the number of independent coordinates that is needed to identify uniquely the configuration of the system.
+• Constraints means a restriction on the degree of freedom of motion of a system of particles in the form of a condition • Constraints may reduce the number of degrees of freedom; e.g., particle moving on a table, rigid body, etc.
+• Constraints are divided into holonomic and non-holonomic constraint r r • Holonomic constraints are those that can be expressed in the form f(r ,r ,Kt) =0 1 2 • Holonomic constraints may be divided into rheonomic (“running law”) and scleronomic • Non-holonomic constraints are, obviously, constraints that are not holonomic.
+• There are three kinds of non-holonomic constraints: Non-integrable or history-dependent constraints, inequality constraints and problems involving frictional forces 6.0 Tutor Marked Assignment 1.
+Explain briefly what is meant by degrees of freedom.
+2.
+How many degrees of freedom does a rigid body in the following three dimensional motion has and explain what is meant by the motion: i) heaving, ii) surging, iii)swaying, iv) rolling, v) pitching, vi) yawing.
+3.
+How many degrees of freedom are in atwood machine of figure 1.1(a) and elliptical wire of figure 1.1(b).
+4.
+State the constraint equation of the elliptical wire example in figure 1.1(b), and state if it is scleronomic or rheonomic.
+5.
+In the Atwood’s machine in figure 1.1(a), State the constraint equation and what condition could make the constraint equation rheonomic.
+6.
+Show that velocity dependent constraints are non-integrable constraints.
+7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+7UNIT 2 GENERALIZED COORDINATES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Generalized Coordinates 3.2 “Dot Cancellation” 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Reading 1.0 Introduction In general, if one has j independent constraint equations for a system of M particles with 3M degrees of freedom, then the true number of degrees of freedom is There is dynamical behaviour of the system in only these remaining degrees of freedom.
+One immediately asks the question that since there are fewer degrees of freedom than position coordinates, is there any way to eliminate those unnecessary degrees of freedom and thereby simplify analysis of the mechanical system?
+In our example, why keeping both x and z if one of them would suffice?
+This question leads us to the idea of generalized coordinates, which are a set of 3M − j coordinates that have already taken into account the constraints and are independent, thereby reducing the complexity of the system.
+2.0 Objectives After studying this unit, you will be able to: • Write Physical quantities in terms of generalized coordinates.
+• Use constraints equation to define different generalized scheme.
+• Calculate azimuthal angle.
+• Solve Related Problems.
+3.0 Main contents 3.1 Generalized Coordinates For holonomic constraints, the constraint equations ensure that it will always be possible to define a new set of generalized coordinates {q } that fully specify the motion of the k system subject to the constraints and that are independent of each other.
+The independence arises because the number of degrees of freedom must be conserved.
+The constraint equations yield (possibly implicit) functions r r r = r(q ,q ,Kq ,t) (2.1) 1 1 1 2 3M- j that transform between the generalized coordinates and the original coordinates.
+It may not always be possible to write these functions analytically.
+Some of these coordinates may be the same as the original coordinates, some may not; it simply depends on the structure of the constraints.
+We will refer to the original coordinates as position coordinates to distinguish them from the reduced set of independent generalized coordinates.
+Generalized coordinates are more than just a notational convenience.
+By incorporating the constraints into the definition of the generalized coordinates, we obtain two important simplifications: 1) the constraint forces are eliminated from the problem; and 82) the generalized coordinates are fully independent of each other.
+We shall see the application of these simplifications when we discuss virtual work and generalized forces.
+Just as the velocity corresponding to a coordinate rr is rr& = d rr, it is possible to define a j j dt j d generalized velocity q& as q& = q .
+Note that in all cases, velocities are defined as total time k k dt k ({ } ) derivatives of the particular coordinate.
+Remember that if you have a function g = g q ,t then k d the total time derivative g is evaluated by the chain rule: dt d g({q },t)= ∑ ¶ g dqk + ¶ g .
+(2.2) dt k ¶ q dt ¶ t k It is very important to realize that, until a specific solution to the equation of motion is found, a generalized coordinate and its corresponding generalized velocity are independent variables.
+This can be seen by simply remembering that two initial conditions which are q (t = 0) and k q& (t = 0) are required to specify a solution of Newton’s second law, because it is a second-order k differential equation.
+Higher-order derivatives are not independent variables because Newton’s { } { } { } second law relates the higher-order derivatives to q and q& .
+The independence of q and k k k { } q& is a reflection of the structure of Newton’s second law, not just a mathematical theorem.
+k Unless otherwise indicated, from here on we will assume all constraints are holonomic.
+Example 2.1: For the elliptical wire, the constraint equation  x 2  z 2   +  =1     a(t) b(t) can be used to define different generalized coordinate schemes.
+Two obvious ones are x and z; i.e., let x be the generalized coordinate and drop the z degree of freedom, or vice versa.
+Another obvious one would be the azimuthal angle α  z a(t) a = tan- 1 .
+(2.3) b(t) x  r({ } ) The formal definitions r q ,t are then i k x = a(t)cosa z = b(t)sina .
+(2.4) Here, we see the possibility of explicit time dependence in the relationship between the positions x and z and the generalized coordinate α.
+Example 2.2: For the Atwood’s machine, either z or z could suffice as the generalized coordinate.
+Let’s pick 1 2 z , calling it Z to distinguish the generalized coordinate, we have 1 z = Z z = - l(t)- Z 1 2 This case is pretty trivial.
+Self Assessment Exercise A 1.
+Write Velocity of any system with cartesian coordinates x and y in generalized coordinates 2.
+Express Kinetic energy of a particle with Cartesians coordinates x and y in a generalized coordinates 3.2 “Dot Cancellation” For holonomic constraints, there is a very important statement that we will make much use of later 9r r ¶ r ¶ r& = .
+(2.5) ¶ q ¶ q& k k Conceptually, what this says is the differential relationship between a given degree of freedom and a generalized coordinate is the same as the differential relationship between the corresponding velocities.
+This statement relies on having holonomic constraints.
+Heuristically, one can understand the rule as simply arising from the fact that holonomic constraints use only the positions and time to define the generalized coordinates; as a result, any relationships between positional velocities and generalized velocities must be determined only by relationships between positions and generalized coordinates.
+The above relationship is then the simplest possible one.
+r & We derive the result rigorously by starting with the total time derivativer : r r i rr& = d rr({q },t)= ∑ ¶ ri dqk + ¶ ri .
+(2.6) dt i k ¶ q dt ¶ t k k The last term does not exist if the constraints are scleronomic, but that is not really important here.
+Now, take the partial derivative with respect toq& ; this selects out the term in the sum with 1 k = l, and drops the t term: r r r ¶ r& ¶ r ¶ r = ∑ i d = i .
+(2.7) ¶ q& ¶ q kl ¶ q l k k l So the dot cancellation relation is proven.
+Self Assessment Exercise B 1.
+What is Dot cancellation.
+r r ¶ r ¶ r& 2.
+Prove that = .
+¶ q ¶ q& k k 4.0 Conclusion From the Physicist point of view the are generalized coordinates in the sense that they need not have dimensions of length.
+By deriving equations of motion in terms of a general set of generalized coordinates, the results found will be valid for any coordinate system that is ultimately specified.
+5.0 Summary • Given a set of holonomic constraints, one can use the constraints to implicitly define a set of independent generalized coordinates.
+The transformation relations between the generalized coordinates and the original physical coordinates are of the form r r( ) r = r q ,q Kq ,t i j 1 2 3M- j where we assume there are j constraint equations.
+It is assumed that all the constraints are used so that the generalized coordinates truly form an independent set.
+• Dot Cancellation r r ¶ r ¶ r& For holonomic constraints, it holds that i = i .
+¶ q ¶ q& k k 6.0 Tutor Marked Assignment 1.
+Two particles are connected by a rigid rod so they are constrained to move a fixed distance r r apart.
+Write down a constraint equation of the form f(r ,r ,Kt) =0 and find suitable 1 2 generalized coordinates for the system incorporating this holonomic constraint.
+10Answer Let the position of particle 1 with respect to a stationary Cartesian frame be and that of particle 2 be .
+The rigid rod constraint equation is ( ) ( ) ( ) ( ) x - x 2 + y - y 2 + z - z 2 + z - z 2 = l2.
+1 2 1 2 1 2 1 2 This reduces the number of degrees of freedom from 6 to 5, which we could take to be position of particle 1, However, the three position coordinates would be the coordinates of the centre of mass whose position vector is m r +mr r = 2 1 1 2 .
+cm m +m 1 2 7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+11UNIT 3 VIRTUAL DISPLACEMENT, VIRTUAL WORK AND GENERALIZED FORCES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Virtual Displacement 3.2 Virtual Work 3.3 Generalized Force 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Reading 1.0 Introduction Our discussion of generalized coordinates essentially was an effort to make use of the constraints to eliminate the degrees of freedom in our system that have no dynamics.
+Similarly, the constraint forces, once they have been taken account of by transforming to the generalized coordinates, would seem to be irrelevant.
+We will show how they can be eliminated in favour of generalized forces that contain only the non-constraint forces.
+To define generalized forces, we combine the equation relating virtual displacements of position coordinates and generalized coordinates, with the equation relating virtual work and non- constraint forces as it will be shown later in this unit.
+2.0 Objectives After studying this unit, you will be able to: • Explain virtual displacement, virtual work and generalized forces.
+r • Express total differential of any set of system position vectors, r that are functions of i { } other variables, q ,q ,K,q and time t in terms of virtual displacement.
+1 2 m • Solve related Problems.
+3.0 Main Contents 3.1 Virtual Displacement { r} We define a virtual displacement dr as an infinitesimal displacement of the system {r} i coordinates r that satisfies the following criteria.
+i 1.
+The displacement satisfies the constraint equations, but may make use of any remaining unconstrained degrees of freedom.
+2.
+The time is held fixed during the displacement.
+{ } 3.
+The generalized velocities q& are held fixed during the displacement.
+k A virtual displacement can be represented in terms of position coordinates or generalized coordinates.
+The advantage of generalized coordinates, of course, is that they automatically respect the constraints.
+An arbitrary set of displacements dq can qualify as a virtual k displacement if conditions (2) and (3) are additionally applied, but an arbitrary set of { r} displacements dr may or may not qualify as a virtual displacement depending on whether the i displacements obey the constraints.
+All three conditions will become clearer in the examples.
+12Explicitly, the relationship between infinitesimal displacements of generalized coordinates and virtual displacements of the position coordinates is r r ¶ r dr =∑ i dq .
+(3.1) i ¶ q k k k { } {r} r This expression has content: there are fewer q than r , so the fact that dr can be expressed k i i { } only in terms of the q reflects the fact that the virtual displacement respects the constraints.
+k One can put in any values of the dq and obtain a virtual displacement, but not every possible set { r} k of dr can be written in the above way.
+i Example 3.1: For the elliptical wire, it is easy to see what kinds of displacements satisfy the first two requirements.
+Changes in x and z are related by the constraint equation; we obtain the relation by applying the displacements to the constraint equation.
+We do this by writing the constraint equation with and without the displacements and differentiating the two: x+dx2 z+dz2 With displacements   +  =1, (3.2)  a(t)   b(t)   x 2  z 2 without displacement   +  =1 , (3.3) a(t) b(t) x+dx2  x 2 z+dz2  z 2 difference   -   +  -   =0, (3.4)  a(t)  a(t)  b(t)  b(t) xdx zdz dx a(t)z + =0⇒ = - .
+(3.5) [ ] [ ] a(t) 2 b(t) 2 dz b(t)x All terms of second order in dx or dz are dropped because the displacements are infinitesimal.
+The result is that dx and dz cannot be arbitrary with respect to each other and are related by where the particle is in x and z and the current values of a and b; this clearly satisfies the first requirement.
+We have satisfied the second requirement, keeping time fixed, by treating a and b as constant: there has been no dt applied, which would have added derivatives of a and b to the expressions.
+If a and b were truly constant, then the second requirement would be irrelevant.
+The third requirement is not really relevant here because the generalized velocities do not enter the constraints in this holonomic case except if kinetic energy enters the constraints .
+The relationship between the virtual displacements in the positions and in the generalized coordinate is easy to calculate: x = acosa ⇒dx = - asinaad , (3.6a) z =bsina ⇒dz =bcosaad , (3.6b) dx a ⇒ = - tana .
+(3.7) dz b We see that there is a one-to-one correspondence between all infinitesimal displacements ad of ( ) the generalized coordinate and virtual displacements of the positional coordinates dx,dz , as stated above.
+The displacements of the positional coordinates that cannot be generated from ad by the above expressions are those that do not satisfy the constraints and are disallowed.
+Example 3.2: For our Atwood’s machine example, the constraint equation z + z +l(t) =0 is easily 1 2 converted to differential form, giving dz +dz =0 1 2 Again, remember that we do not let time vary, so l(t) contributes nothing to the differential.
+The equation is what we would have arrived at if we had started with an infinitesimal displacement dz of the generalized coordinate Z 13dz =dZ dz = - dZ ⇒dz +dz =0.
+1 2 1 2 Fixing time prevents appearance of derivatives of l(t).
+Again, also see the one-to-one correspondence between infinitesimal displacements of the generalized coordinates and virtual displacements of the position coordinates.
+Self Assessment Exercise A 1.
+Read and understand the two examples given above properly 3.2 Virtual Work Using the virtual displacement, we define virtual work as the work that would be done on the { r} system by the forces acting on the system as the system undergoes the virtual displacement dr r r i dW ” ∑F (cid:215) dr , (3.8) ij i r ij r where F is the jth force acting on the coordinate of the ith particle r .
+ij i Example 3.3: r In our elliptical wire example, F would be the gravitational force acting on the point mass and r 11 F would be the force exerted by the wire to keep the point mass on the wire (i = 1 only 12 because there is only one object involved).
+The virtual work is 1 (r r ) r dW ” ∑ F + F (cid:215) dr .
+(3.9) i1 i2 i i=1 Example 3.4: r In our Atwood’s machine example, the two masses feel gravitational forces F = - m gzˆ r 11 1 andF = - m gzˆ.
+The tension in the rope is the force that enforces the constraint that the length 21 2 r r of rope between the two blocks is fixed, F =Tzˆ and F =Tzˆ.
+T may be a function of time if l 21 22 varies with time, but it is certainly the same at the two ends of the rope at any instant.
+Because of the possibility that there exist situations of the third type, we use the most generic assumption to proceed with our derivation, which is the third one.
+We write r r ∑F(c) (cid:215) dr =0, (3.10) ij ij ij where the (c) superscript restricts the sum to constraint forces but the sum is over all constraint forces and all particles.
+Mathematically, the assumption lets us drop the part of the virtual work sum containing constraint forces, leaving r r dW =∑F(nc) (cid:215) dr , (3.11) ij i ij where the (nc) superscript indicates that the sum is only over non-constraint forces.
+Example 3.5: r In our elliptical wire example, the force exerted by the wire,F , acts to keep the point mass i on 12 r the wire; the force is therefore always normal to the wire.
+The virtual displacement dr must r r 1 always be tangential to the wire to satisfy the constraint.
+So,∑1 F (cid:215) dr =0, the only non- r i=1 i2 i constraint force is gravity, F , so we are left with 11 1 1 r r 1 r r r r dW =∑∑F(nc) (cid:215) dr =∑F (cid:215) dr = F (cid:215) dr = - mgdz.
+(3.12) ij i i1 i 11 1 j=1 i=1 i=1 dW will in general not vanish; it gives rise to the dynamics of the problem.
+14 Example 3.6: r r In the Atwood’s machine example the constraint forces F and F act along the rope.
+The r 2r1 22 r r virtual displacements are also along the rope.
+Clearly, F (cid:215) dr = f dz and F (cid:215) dr = f dz do 21 1 21 1 22 2 22 21 not vanish but the sum does ∑2 Fr (cid:215) drr = f dz + f dz =T(dz +dz )= 0.
+(3.13) i2 i 21 1 22 2 1 2 i=1 Notice that, in this case all the terms pertaining to the particular constraint force have to be summed in order for the result to hold.
+The virtual work and non constraint force sum is 2 1 r r 2 r r dW =∑∑F(nc) (cid:215) dr =∑F (cid:215) dr = - g(mdz +m dz ) (3.14) ij i i1 i 1 1 2 2 i=1 j=1 i=1 Self Assessment Exercise B r 1.
+Express total differential of any set of system position vectors, r that are functions of other i { } variables, q ,q ,K,q and time t in terms of virtual differential displacement 1 2 m ¶ r m ¶ r dr = i dt +∑ i dq i ¶ t ¶ q j j=1 j 3.3 Generalized Force To define generalized forces, we combine Equation 3.1, the relationship between virtual displacements of position coordinates and generalized coordinates, with Equation 3.11, the relationship between virtual work and non-constraint forces: r r dW = ∑F(nc) (cid:215) dr ij i ij r r  ¶ r  = ∑F(nc) (cid:215) ∑ i dq  ij  ¶ q k ij k k (3.15) r  r ¶ r  = ∑∑F(nc) (cid:215) i dq  ij ¶ q  k k ij k ” ∑ f dq , k k k where r r ¶ r dW f ” ∑F(nc) (cid:215) i = , k ij ¶ q dq ij k k is the generalized force along the kth generalized coordinate.
+The last expression, f =dW says that the force is simple the ratio of the work done to the displacement when a k dq k virtual displacement of only the kth generalized coordinate is performed; it is of course possible to displace only the kth generalized coordinate because the generalized coordinates are mutually independent.
+It is important to remember that the generalized force is found by summing only over the non-constraint forces: the constraint forces have already been taken into account in defining generalized coordinates.
+r r r r Infinitesimally, a force F causing a displacement dr does work dW = F(cid:215) dr.
+The generalized force is the exact analogue: if work dW is done when the ensemble of forces act to produce a generalized coordinate displacement dq , then the generalized force f doing that work k k is f =dW .
+But the generalized force is a simplification because it is only composed of the k dq k non-constraint forces.
+15 Example 3.7: In the elliptical wire example, the generalized force for the α coordinate (k=1) is r ¶ r  ¶ x ¶ z  ( ) f = F (cid:215) 1= - mgzˆ(cid:215) xˆ + zˆ = - mgz(cid:215)ˆ - xˆasina + zˆbcosa a 11 ¶ a  ¶ a ¶ a  (3.16) = - mgbcosa .
+The constraints force, which acts in both the x and z direction and is α-dependent, does not appear in the generalized force.
+Example 3.8: In the Atwood’s machine example, the generalized force for the Z coordinate (k=1 again) is r r r ¶ r r ¶ r ¶ z ¶ z f = F (cid:215) 1 + F (cid:215) 2 = - m g 1 - m g 2 (3.17) z 11 ¶ Z 21 ¶ Z 1 ¶ Z 2 ¶ Z ( ) = - m - m g 2 1 Again, the constraint force (the rope tension) is eliminated.
+Because Z is just z in this case, the 1 generalized force in Z is just the net force on m acting in the z direction.
+1 1 Self Assessment Exercise C 1.
+Make sure you understand the above examples very well.
+2.
+Derive generalized force from the expressions of virtual work and virtual displacement.
+4.0 Conclusion Generalized forces are defined via coordinate transformation of applied forces, F on a system i of n particles, i.
+The concept finds its use in Lagrangian mechanics, where it plays a conjugate role to generalized coordinates.
+A convenient equation from which to derive the expression for generalized forces is that of the virtual work, dW caused by applied forces, as seen in D'Alembert's principle in accelerating systems and the principle of virtual work for applied forces in static systems.
+n dW = ∑F (cid:215) dr (3.18) i i i=1 dr is the virtual displacement of the system.
+Substituting the definition for the virtual i displacement (differential), we have m ¶ r dr = ∑ i dq , (3.19) i ¶ q j j=1 j n m ¶ r then we have dW = ∑F (cid:215) ∑ i dq , (3.20) i ¶ q j i=1 j=1 j m n ¶ r therefore dW = ∑∑F (cid:215) i dq .
+(3.21) i ¶ q j j=1 i=1 j From this form, we can see that the generalized applied forces are then defined by dW n ¶ r f = = ∑F (cid:215) i , j dq i ¶ q j i=1 j thus, the virtual work due to the applied forces is n dW =∑ f dq .
+j j j=1 165.0 Summary Virtual Displacement and Work { v} • A virtual displacement is a set of coordinate displacements dr that obey the following i conditions: 1.
+The displacement satisfies the constraint equations 2.
+Time is held fixed during the displacement.
+{ } 3.
+The generalized velocities q& are held fixed during the displacement.
+k { } • Any displacement of a truly independent set of generalized coordinates q satisfies (1) k automatically.
+• Virtual work is the work done during a virtual displacement.
+It is defined as r r dW = ∑F (cid:215) dr .
+ij i ij Because the displacement is virtual, we make the assumption that the contribution of constraint forces to the virtual work vanishes, leaving r r dW =∑F(nc) (cid:215) dr ij i ij where (nc) refers to non constraint forces only.
+• The generalized force along the generalized coordinate q is defined to be r k r ¶ r f = ∑F(nc) (cid:215) i , k i ¶ q r k where F(nc) is the sum of all non-constraint forces acting on particle i. i 6.0 Tutor Marked Assignment (TMAs) 1.
+Derive generalized force from the expressions of virtual work and virtual displacement 7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+17Module 2 Lagranges and Hamilton’s Formulation of Mechanics Unit 1 D’Alembert’s Principle Of Virtual Work Unit 2 Lagrangian Mechanics Unit 3 Hamiltonian Mechanics Unit 1 D’Alembert’s Principle of Virtual Work CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main contents 3.1 d’Alembert’s Principle 3.2 Generalized Equations of Motion 3.3 The Lagrangian and the Lagrange’s Equations 3.3.1 Generalized Conservative Forces 3.3.2 The Euler-Lagrange Equations 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment (TMAs) 7.0 Further Reading and Other Resources 1.0 Introduction D'Alembert's principle is a statement of the fundamental classical laws of motion.
+It is named after its discoverer, the French physicist and mathematician Jean le Rond D’Alembert.
+The principle states that the sum of the differences between the forces acting on a system and the time derivatives of the momenta of the system itself along a virtual displacement consistent with the constraints of the system, is zero and it is the basis of Lagrangian Mechanics.
+It is the dynamic analogue to the principle of virtual work for applied forces in a static system and in fact is more general than Hamilton's principle, avoiding restriction to holonomic systems.
+2.0 Objectives After studying this unit, you will be able: • Derive D’Alembert’s Principle from Newton’s Second Law Of Motion.
+• To reformulate Newton’s equations system as a system of equations for the generalized coordinates .
+• Use D’Alembert’s principle to relate generalized forces to the rate of change of the momenta: • Solve Related Problems.
+3.0 Main Contents 3.1 D’Alembert’s Principle r r D’Alembert’s Principle: Our definition of virtual work wasdW = ∑F (cid:215) dr where the sum ij i includes all (constraint and non-constraint) forces.
+Assuming our position coordinates are in an inertial frame (but not necessarily our generalized coordinates), Newton’s second law tells us r ∑ F = p the sum of all the forces acting on a particle give the rate of change of its ij ij i momentum.
+We may then rewritedW : 18r r r r dW =∑∑F (cid:215) dr =∑ p& (cid:215) dr .
+ij i i i i j i But, we found earlier that we could write the virtual work as a sum over only non-constraint r r forces,dW = ∑F(nc)(cid:215) dr .
+ij i Thus, we may derive the relation  r r r ∑∑F(nc) - p&(cid:215) dr =0, (1.1) ij i   i j the above equation 1.1 is referred to as D’Alembert’s principle.
+The expression shows that the rate of change of momentum is determined only by the non-constraint forces.
+In this form, it is not much use, but the conclusion that the rate of change of momentum is determined only by non-constraint forces is an important physical statement.
+We may use D’Alembert’s principle to relate generalized forces to the rate of change of the momenta: r ∑Fdq =dW = ∑pr& (cid:215) drr = ∑pr& (cid:215) ¶ ri dq .
+(1.2) k k i ¶ q k { r} k { } k i,k k Now unlike the dr , the dq are mutually independent.
+Therefore, we may conclude that i k equality holds for each of the sum separately providing a different version of D’Alembert’s principle r r ∑Fr(nc) (cid:215) ¶ ri = f =∑ pr& (cid:215) ¶ ri .
+(1.3) ij ¶ q k ¶ q ij k i k This is now a very important statement: the generalized force for the kth generalized coordinate, which can be calculated from the non-constraint forces only, is related to a particular weighted sum of momentum time derivatives (the weights being the partial derivatives of the position coordinates with respect to the generalized coordinates).
+Effectively, we have an analogue of Newton’s second law, but including only the non-constraint forces.
+This can be a major simplification in cases where the constraint forces are complicated or simply not known.
+D’Alembert’s principle is not yet useful in the current form because the left side contains generalized forces depending on the generalized coordinates but the right side has derivatives of the momenta associated with the position coordinates.
+We need time derivatives with respect to the generalized coordinates on the right hand side so that all the dynamics can be calculated in the generalized coordinates.
+Self Assessment Exercise A 1.
+State and Derive the D’Alembert’s Principle of virtual work 3.2 Generalized Equations of Motion Here we perform the manipulation needed to make D’Alembert’s principle useful.
+We know from Newtonian mechanics that work is related to kinetic energy, so it is natural to expect T ” ∑1m rr& (cid:215) rr& =T({q },{q& },t).
+(1.4) 2 i i i k k i {r} & T should be obtained by first writing T in terms of position velocities r and then using the i definition of the position coordinates in terms of generalized coordinates to re-write T as a function of the generalized coordinates and velocities.
+T may depend on all the generalized {r} coordinates and velocities and on time because the r depend on the generalized coordinates i and time and a time derivative is being taken, which may introduce dependence on the generalized velocities.
+The partial derivatives of T are: 19r r ¶ T = ∑mrr& (cid:215) ¶ r&i = ∑pr (cid:215) ¶ r&i , (1.5) ¶ q i i ¶ q i ¶ q k i rk i rk ¶ T = ∑mrr& (cid:215) ¶ r&i = ∑pr (cid:215) ¶ ri , (1.6) ¶ q& i i ¶ q& i ¶ q k i k i k where in the last step we have made use of dot cancellation because the constraints are assumed r r & to be holonomic.
+Now, we have p floating around but we need p .
+The natural thing is then to i i take a time derivative.
+We do this to ¶ T ¶ q& (instead of¶ T ¶ q ) because we want to avoid k k second order time derivatives if we are to obtain any expression algebraically similar to the right hand side of D’Alembert’s principle.
+We find r r d  ¶ T  = ∑pr& (cid:215) ¶ ri +∑pr (cid:215) d ¶ ri .
+(1.7)   dt¶ q&  i ¶ q i dt ¶ q k i k i k Referring back to the second form of D’Alembert’s principle (equation 1.1), we see that the first term in the expression is the generalized force F for the kth coordinate.
+Continuing onward, we k need to evaluate the second term.
+We have r r r r d ¶ r  ¶ 2r ¶ 2r  ¶ 2r i = ∑ i q& + i q&&+ i .
+(1.8) dt ¶ q ¶ q¶ q l ¶ q&¶ q l ¶ t¶ q k l l k l k k When we exchange the order of the derivatives in the second term, we see that the second term vanishes because our holonomic constraint assumption that the generalized velocities do not enter the constraints, and thus do not enter the relationship between position and generalized r coordinates implies ¶ r ¶ q& = 0.
+In the last term, we can trivially exchange the order of the i k partial derivatives.
+We can bring ¶ ¶ q outside the sum in the first term because¶ q& ¶ q = 0. k l k Thus, we have r r r r d ¶ r ¶  ¶ r  ¶ r  ¶ r& i = ∑ i q& + i = i , (1.9) dt ¶ q ¶ q  ¶ q l ¶ t  ¶ q k k l l k r r where the last step simply used the chain rule for evaluation of r& = dr dt.
+Essentially, we have i i demonstrated that the total time derivative and the partial derivative ¶ ¶ q commute when r k acting on r for holonomic constraints, which is a nontrivial statement because is time- i dependent.
+We emphasize that it was the assumption of holonomic constraints that allow us discard the second term above.
+Had that term remained, the dependence on q&& would have made 1 it impossible to bring ¶ ¶ q outside the sum because q&& in general may depend on q (via k l l Newton’s second law).
+So we now have r r d  ¶ T  =∑ pr& (cid:215) ¶ ri +∑ pr (cid:215) ¶ r&i ,   dt ¶ q&  i ¶ q i ¶ q k i rk i k (1.10) = ∑pr& (cid:215) ¶ ri + ¶ T , i ¶ q ¶ q i k k or r ∑pr& (cid:215) ¶ ri = d  ¶ T - ¶ T .
+(1.11)   i ¶ q dt¶ q&  ¶ q i k k k Recalling the D’Alembert’s principle (equation 1.1), we may re-write the above: r r ¶ r d  ¶ T  ¶ T ∑F(nc) (cid:215) i = f =  - .
+(1.12)   i ¶ q k dt¶ q&  ¶ q i k k k This is the generalized equation of motion.
+The left hand side is completely determined by the non-constraint forces and the constraint equations.
+The right hand side is just derivatives of the 20kinetic energy with respect to the generalized coordinates and velocities.
+Thus, we obtain a differential equation for the motion in the generalized coordinates.
+Example 1.1: For the elliptical wire example, the kinetic energy in terms of position coordinate velocities is m( ) T = x&2 + z&2 .
+(1.13) 2 We have previously obtained formulae for x& and z& in terms of a& : x& = a&cosa - asina a& z& =b&sina +bcoas a& (1.14) Let us specialize to the case a& = 0 and b& = 0; so that x& = - asina a& z& =bcosa a& (1.15) We use these to rewrite the kinetic energy in terms of a& : m[ ] T = a2a&2sin2a +b2a&2cos2a (1.16) 2 This is an important example of how to convert T from a function of the position velocities to a function of the generalized coordinates and velocities.
+Now take the prescribed derivatives: d ¶ T  ¶ T d [ ( )] ( )  - = ma& a2sin2a +b2cos2a - 2ma&2 a2 - b2 sina cosa dt¶ a&  ¶ a dt (1.17) ( ) = ma&& a2sin2a +b2cos2a In taking the total derivative in the first term, we obtain two terms: the one displayed in the last line above, and one that exactly cancels the last term in the first line.
+We have the generalized force f from equation 3.16, so the generalized equation of motion is α d ¶ T  ¶ T f =  - (1.18) a dt¶ a&  ¶ a Substituting equation 1.17 into equation 1.18, we have ( ) - mgbcosa = ma&& a2sin2a +b2cos2a .
+(1.19) bcosa Solving for a&&, we get a&&= - g .
+(1.20) a2sin2a +b2 cos2a Specializing to a = b = r (circular wire), this simplifies to cosa a&& = - g .
+(1.21) r Example 1.1: For the Atwood’s machine example, things are significantly simpler.
+The kinetic energy is 1( ) T = m z&2 +m z2 .
+(1.22) 2 1 1 2 2 Re-writing using the generalized coordinate Z gives T = 1(m +m )Z&2.
+(1.23) 2 1 2 The kinetic energy derivatives term is d ¶ T - ¶ T = (m +m )Z&&.
+(1.24) dt¶ Z&  ¶ Z 1 2 Using f = (m – m )g from equation 3.17 above, the generalized equation of motion is z 2 1 d ¶ T  ¶ T f =  - z dt¶ Z&  ¶ Z (m - m )g =(m +m )Z&& (1.25) 2 1 1 2 Z&&= - m1 - m2 g. m +m 1 2 21Self Assessment Exercise B 1.
+Make sure you study and understand the examples given above properly.
+2.
+Given that kinetic energy T ” ∑1m rr& (cid:215) rr& =T({q },{q& },t) derive the generalized equation 2 i i i k k i of motion.
+3.3 The Lagrangian and the Lagrange’s Equations For conservative non-constraint forces, we can obtain a slightly more compact form of the generalized equation of motion, known as the Euler-Lagrange equations.
+3.3.1 Generalized Conservative Forces r r ({r}) Now let us specialize to non-constraint forces that are conservative; i.e.
+F(nc) =- (cid:209) U r r i i j r where (cid:209) indicates the gradient with respect to r .
+Whether the constraint forces are i i conservative is irrelevant; we will only explicitly need the potential for the non-constraint forces.
+U is assumed to be a function of the coordinate positions only; there is no explicit dependence on r time or on velocities, ¶ U ¶ t = 0 and ¶ U ¶ r& = 0.
+Let us use this expression in writing out the i generalized force: r r f =∑Fr(nc) (cid:215) ¶ ri = - ∑(cid:209)r U({rr })(cid:215) ¶ ri = - ¶ U({q },t).
+(1.26) k i ¶ q i j ¶ q ¶ q l i k i k k We made use of the holonomic constraints to re-write U as a function of the {q} and possibly t, l and realize that the previous line is just the partial derivative of U with respect to .
+Thus, rather than determining the equation of motion by calculating the generalized force from the non- constraint forces and the coordinate transformation relations, we can re-write the potential energy as a function of the generalized coordinates and calculate the generalized force by gradients thereof.
+Example 1.2: For the elliptical wire the potential energy is due to gravity, U(z) = mgz.
+(1.27) Re-writing in terms of α, gives U(a ,t) = mgb(t)sina .
+(1.28) The generalized force is then ¶ U(a ;t) f = = - mgb(t)cosa .
+(1.29) a ¶ a as obtained in equation 3.16.
+Note that we may allow b to be a function of time without ruining the conservative nature of the potential energy U becomes a function of t through the definition of the generalized coordinate but, obviously, if it is initially a conservative potential, a transformation of coordinates cannot change that.
+Example 1.3: For the atwood’s machine, the potential energy function is ( ) U(z ,z ) = g mz +m z (1.30) 1 2 1 1 2 2 Re-writing in terms of Z gives ( ) [( ) ] U Z,t = g m - m Z - m l(t) (1.31) 1 2 2 The generalized force is ( ) ¶ U Z;t ( ) f= - = g m - m (1.32) z ¶ Z 2 1 22as found earlier.
+Again, l is allowed to be function of time without ruining the conservative nature of the potential energy.
+3.3.2 The Euler-Lagrange Equations An even simpler method exists, we may re-write the generalized equation of motion using the above relationship between generalized force and gradient of the potential energy as ¶ U d  ¶ T  ¶ T =  - .
+(1.33)   ¶ q dt¶ q&  ¶ q k k k Define the Lagrangian as L ” T - U sincewe have assumed holonomic constraints, we have¶ U ¶ q& = 0.
+This allows the replacement k d  ¶ T  d  ¶ L  of   with   giving     dt¶ q&  dt¶ q&  k k d  ¶ L  ¶ L  - = 0 (1.34)   dt¶ q&  ¶ q k k This is the Euler-Lagrange equation, there is one for each generalized coordinate .
+Self Assessment Exercise C 1.
+Given U(z) = mgz where z =bsina calculate the generalized force.
+2.
+From the generalized equation of motion prove the Euler-Lagrangian equation.
+4.0 Conclusion At the end we have been able to use D’Alembert’s principle to obtain a closed set of equations for only the generalized coordinates; they are known as the Euler-Lagrange equations.
+Writing these equations explicitly only requires the knowledge of a scalar valued function: the Lagrangian in terms of the generalized coordinates and the generalized velocities.
+5.0 Summary • D’Alembert’s Principle D’Alembert’s Principle is [r r ] r ∑ F(nc) - p& (cid:215) dr = 0 i i i r where dr is a virtual displacement that is differential and satisfies the constraints.
+i D’Alembert’s principle may be re-written in terms of generalized coordinates and forces r f = ∑pr& (cid:215) ¶ ri k ¶ q k • Generalized equation of motion D’Alembert.s principle can be used to prove the generalized equation of motion d  ¶ T  ¶ T f =  - ,   k dt¶ q&  ¶ q k k ({ }{ } ) where T =T q , q& ,t is the kinetic energy written as a function of the generalized k k coordinates.
+• Euler-Lagrange’s Equation 23When the non-constraint forces are conservative, they can be written as gradients of a r r ({r}) time independent potential, F =- (cid:209) U r .
+From this, we can prove that the generalized i j forces can also be written as gradients ¶ ( ) f = - U (q ).t .
+k ¶ q l k If we then define the Lagrangian as L = T – U, then, we can prove the Euler-Lagrangian equation d  ¶ L  ¶ L  - = 0.
+  dt¶ q&  ¶ q k k In some cases, it is possible to write non conservative forces using a potential function.
+If ({ }{ }) the non conservative force can be written in terms of function U q , q& in the k k following manner; ¶ U d ¶ U  f = - +   j ¶ q dt¶ q&    j j then one may include this function U as a potential energy in the lagrangian and apply the Euler-Lagrangian equation.
+If one has non-conservative forces that cannot be written in the above form, one can still write down a generalized Euler-Lagrangian equation d  ¶ L  ¶ L  - = f no- L, dt¶ q&  ¶ q k   j j where f no- L encompasses all forces that cannot be included in the Lagrangian.
+k 6.0 Tutor Marked Assignment (TMAs) 1.
+A pendulum of mass m hung on a rigid rod of length l whose (upper) end is fixed.
+The mass is free to move on a circle of radius l on the xz-plane.
+The angle that the rod makes with the ( ) vertical axis is q and the relation between r and q is r = f(q ) = lsinq ,0,- lcosq hence calculate (i) the Lagrangian and, (ii) the equation of motion.
+2.
+Suppose now that this pendulum is free to move on the sphere defined by the distance l from the anchor point (i.e., a two-dimensional manifold) in which r is function of q and f , and are related byr = f(q ,f ) =l(sinq cosf ,sinq sinf ,- cosq ) .
+Calculate the Lagrangian and the corresponding equation of motion.
+7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+24UNIT 2 Langrange’s Mechanics CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main contents 3.1 Newton’s Second Law 3.1.1 Conservative Systems 3.1.2 Notation 3.2 Lagrange’s Equations 3.2.1 Generalized Coordinates 3.2.1 Lagrange’s Equations in Generalized Coordinates 3.3 Generalized Momenta 3.4 Lagrangian For Some Physical Systems 3.4.1 Example 1: 1-D motion—the pendulum 3.4.2 Example 2: 2-D motion in a central potential 3.4.3 Example 3: 2-D motion with time-varying constraint 3.4.4 Example 4: Atwood Machine 3.4.5 Example 5: Elliptical wire 3.4.6 Example 6: Particle in e.m. field 3.5 Transformations of the Lagrangian 3.5.1 Point transformations 3.4.7 Gauge transformations 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment (TMAs) 7.0 Further Reading and Other Resources 1.0 Introduction It is not possible to develop the classical mechanical approach to statistical mechanics without having some understanding of the principles of classical mechanics.
+We will review the basic principles of Newton’s Laws of Motion.
+We will also recast Newton’s second law into the forms developed by Lagrange and Hamilton.
+These notes provide some of the details about the Lagrangian and Hamiltonian formulations of classical mechanics.
+2.0 Objectives After studying this unit, you will be able to: • express the Lagrangian L in Cartesian coordinates; • transform L to generalized coordinates; • give Lagrange’s equations in generalized coordinates.
+• Illustrate how to use Lagrange’s equations in generalized coordinates.
+• Apply the approach to the free motion of a particle confined to move on the perimeter of a ring.
+• Solve related Problems.
+3.0 Main Contents 3.1 Newton’s Second Law We consider N particles moving in three-dimensional space, and we describe the location of each particle using Cartesian coordinates.
+We let be the mass of particle i, and we let , and be respectively the x, y and z-coordinates of particle i.
+For time derivatives of the 25coordinates (and all other physical observables), we use the “dot” notation first introduced by Isaac Newton dx& d2x x& = i and &x& = i .
+(2.1) i dt i dt2 We let F be the x-component of the force on particle i.
+Then, Newton’s Second Law takes the x i form F = m&x&.
+x i i For example, if we study the motion of a single particle of mass m moving in one dimension in a harmonic potential with associated force Newton’s second law takes the form- kx = m&x&.
+Solution of this differential equation for the coordinate x as a function of the time t gives a complete description of the motion of the particle; i.e.
+at any time t one knows the location and velocity of the particle.
+3.1.1 Conservative Systems In quantum mechanics, we often restrict our attention to a class of physical systems that are called conservative.
+In a qualitative sense conservative systems are those for which the total energy E is the sum of the kinetic and potential energies.
+For any isolated system E is conserved (i.e.
+dE/dt = 0), and for conservative systems, the sum of the potential energy and kinetic energy is conserved.
+Explicitly, we have the following definition: Definition: A classical mechanical system is conservative if there exists a function U(x ,y ,z ,x ,...z ) called the potential energy such that for any coordinate x (or y orz ), we 1 1 1 2 N i i i can write ¶ U  ¶ U ¶ U  F = - or F = - or F = -  (2.2) xi ¶ x  yi ¶ zi ¶ z  i y i i where F (or F or F )is the x (or y or z) component of the force on particle i. x y z i i i As an example, we can consider the one dimensional particle moving in the harmonic well with forceF = - kx.
+For such a system, a potential energy exists and is given byU(x) = 1 kx2.
+By 2 differentiating the potential energy with respect to x, the force is obtained.
+We can then be sure that for a harmonic oscillator the total energy is conserved 1 1 E = mx&2 + kx2.
+(2.3) 2 2 3.1.2 Notation The notation used for derivatives, we need to distinguish the explicit and implicit dependence of a function on a variable.
+As an example, the expression for the kinetic energy T of a system of N particles in Cartesian coordinates is given by 1 N [ ] T = ∑m x&2 + y&2 + z&2 (2.4) 2 i i i i i=1 Equation 2.4 above for the kinetic energy is an explicit function of the velocities of each particle; ( ) i.e.
+the x& ,y& ,z& , but no other variables.
+We can write i i i ¶ T = m x& .
+(2.5) ¶ x& j j j However, in the expression for T, there is no explicit dependence on the time t or the { } coordinates x ,y ,z , consequently, we write i i i ¶ T ¶ T = 0 and = 0 (2.6) ¶ t ¶ z j Equations 2.6 do not imply that the kinetic energy is independent of the time or the z-component of the coordinate for particle j.
+Equation 2.6 only state that in the expression for T as written, 26there is no explicit dependence of T on t or z.
+If we want the actual (i.e.
+implicit) dependence of j the kinetic energy on time, we write dT which is not zero in the general case ( dT does equal zero for a free particle).
+We dt dt understand the notation ¶ to represent a derivative of the explicit dependence of a function as written on a variable and the notation d to represent a derivative for the actual (i.e.
+implicit) dependence of a function on a variable.
+It is important that the differences between ¶ and d are clear for the developments that follow.
+3.2 Lagrange’s Equations We now derive Lagrange’s equations for the special case of a conservative system in Cartesian coordinates.
+However, using Lagrange’s equations in a more general coordinate systems will be discussed after the derivation in Cartesian coordinates.
+We begin with equation 1.4 for the kinetic energy.
+We first differentiate the expression with respect to one of the velocities.
+¶ T = m x& .
+¶ x& j j j We next take the implicit derivative of equation 1.4 above with respect to time d ¶ T = m &x& .
+(2.7) dt ¶ x& j j j The right hand side of equation 2.7 is the mass of the particle multiplied by the acceleration of the particle, which by Newton’s law must be the force on the particle.
+For a conservative system, We can express this force by- ¶ U ¶ x , so that j d ¶ T ¶ U = - .
+(2.8) dt ¶ x& ¶ x j j We now give a defining relation for the classical lagrangian: Definition: The Classical Lagrangian is given by L = T – U.
+(2.9) The classical Lagrangian is the difference between the kinetic and potential energies of the system.
+Using this definition in equation 1.7 we obtain d ¶ L ¶ L - = 0.
+(2.10) dt ¶ x& ¶ x j j Equations 2.10 above are Lagrange’s equations in Cartesian coordinates.
+We use the plural (equations), because Lagrange’s equations are a set of equations.
+We have a separate equation for each coordinate x.
+A completely analogous set of equations is obtained for the other j Cartesian directions y and z.
+We emphasize that Lagrange’s equations are just a new notation for Newton’s second law.
+Example 2.1: Consider a one-dimensional harmonic oscillator.
+The Lagrangian for the system is 1 1 L =T - U = mx&2 - kx2 (2.11) 2 2 d ¶ L ¶ L d and Lagrange’s equation is - = mx&+kx = 0, (2.12) dt ¶ x& ¶ x dt or m&x&= - kx which is just Newton’s Second law.
+To understand the utility of the new notation, we need to introduce the notion of generalized coordinates.
+Self Assessment Exercise A Derive Lagrange’s equation of motion in Cartesian coordinates.
+273.2.1 Generalized Coordinates Much of Lagrange’s work was concerned with methods useful for systems subject to external constraints.
+R figure 2.1 A simple example of the kind of problem that interested Lagrange is the motion of a free particle of mass m confined to move on the perimeter of a ring of radius R depicted in the figure above.
+Constraints on a particle’s motion arise from some set of unspecified forces.
+For the particle on a ring, it is possible to imagine some force of infinite strength that limits the motion of the particle.
+The exact nature of the force is not important to us.
+We only need to consider the confined space.
+For a particle on a ring, the Cartesian coordinates x and y are not the most convenient to describe the motion of the particle.
+As a result of the constraint, a single coordinate f is sufficient to locate the particle.
+The coordinate f is defined to be the angle that a line connecting the current location of the particle with the origin of coordinates makes with the x-axis.
+The connections between f and the Cartesian coordinates are given by x = Rcosf and y = Rsinf .
+(2.13) The angle f is an example of a generalized coordinate.
+Generalized coordinates are any set of coordinates that are used to describe the motion of a physical system.
+Cartesian coordinates and spherical polar coordinates are other examples of generalized coordinates.
+We may choose any convenient set of generalized coordinates for a particular problem.
+For the particle in a ring example, the convenient coordinate is f .
+For systems with spherically symmetric potentials (the motion of the earth about the sun, the hydrogen atom), we can choose spherical polar coordinates.
+We label the i’th generalized coordinates with the symbol q, and we i let q& represent the time derivative of q. i i Self Assessment Exercise B 1.
+Derive Lagrange’s equations of motions for a conservative system in Cartesian coordinates.
+2.
+Choose any convenient set of generalized coordinates for the following systems: (i) free particle of mass m confined to move on the perimeter of a ring of radius R depicted in the figure 2.1 above.
+(ii) the motion of a particle on a ring, (iii) for systems with spherically symmetric potentials (the motion of the earth about the sun, the hydrogen atom).
+3.2.1 Lagrange’s Equations in Generalized Coordinates Lagrange has shown that the form of Lagrange’s equations is invariant to the particular set of generalized coordinates chosen.
+For any set of generalized coordinates, Lagrange’s equations take the form 28d ¶ L ¶ L - = 0, (2.14) dt ¶ q& ¶ q i i exactly the same form that we derived in Cartesian coordinates.
+We now illustrate how to use Lagrange’s equations in generalized coordinates by applying the approach to the free motion of a particle confined to move on the perimeter of a ring as discussed previously.
+The meaning of the expression of “free particle” is the absence of any external forces.
+We can arbitrarily set the potential energy U to zero.
+Then, in Cartesian coordinates, the Lagrangian for any free particle in the xy-plane can be expressed as 1 L = m(x&2 + y&2).
+(2.15) 2 We now transform L to generalized coordinates using equation 2.13.
+We need the time derivatives of x and y expressed in terms of the generalized coordinate system.
+x& = - Rsinf f&+ R&cosf and y& = Rcofs f&+R&sinf .
+(2.16) Owing to the constraint, R is a constant and R& = 0, then x& = - Rsinf f& and y& = Rcofs f& (2.17) so that L becomes L = 1mR2f&2[cos2f +sin2f ]= 1mR2f&2.
+(2.18) 2 2 Because of the constraint, the Lagrangian is a function of a single coordinate f .
+We finally give Lagrange’s equations ¶ L = mR2f&, and d ¶ L = mR2f&& and ¶ L = 0.
+(2.19) ¶ f& dt ¶ f& ¶ f So therefore, d ¶ L = d mR2f& = mR2f&&= 0 (2.20) dt ¶ f& dt Equation 2.20 above implies the acceleration of the coordinates f is zero so that the particle moves with a constant generalized velocity f& Self Assessment Exercise C 1.
+Express Lagrange’s equation in generalized coordinates.
+2.
+Derive the Lagrange’s equation for a free motion of a particle confined to move on the perimeter of a ring in generalized coordinates.
+3.3 Generalized Momenta Equation 2.20 can be interpreted to mean that the quantity ¶ L ¶ f& = mR2f& is conserved.
+To fully explore the meaning of the conservation of a quantity like ¶ L ¶ f&, consider the Lagrangian in Cartesian coordinates for a particle of mass in one dimension 1 L = mx&2 - U(x).
+(2.21) 2 By differentiating L with respect to the velocity x&, we obtain the linear momentum ¶ L = mx&, (2.22) ¶ x& which is conserved in the case of no external forces; i.e.
+the linear momentum is conserved if U(x) is a constant.
+Using this simple equation, we are lead to the following definition: Definition: The generalized momentum p conjugate to the coordinate q is defined by i i ¶ L p = (2.23) i ¶ q& i for example in the particle in a ring, the generalized momentum conjugate f , ¶ L ¶ f& = p can f be shown to be angular momentum of the particle.
+29 Self Assessment Exercise D 1.
+Define the generalized momentum in Cartesian and generalized coordinates 3.4 Lagrangian for Some Physical Systems 3.4.1 Example 1: 1-D motion—the pendulum One of the simplest nonlinear systems is the one-dimensional physical pendulum (so called to distinguish it from the linearized harmonic oscillator approximation).
+As depicted in Figure 2.2 below, the pendulum consists of a light rigid rod of length l, making an angle q with the vertical, swinging from a fixed pivot at one end and with a bob of mass m attached at the other end.
+The constraint l = const and the assumption of plane motion reduces the system to one degree of freedom, described by the generalized coordinateq .
+(This system is also called the simple pendulum to distinguish it from the spherical pendulum and compound pendula, which have more than one degree of freedom.)
+Figure 2.2 Physical Pendulums The potential energy with respect to the equilibrium position q = 0 is U(q ) = mgl(1- cosq ), where g is the acceleration due to gravity, and the velocity of the bob is v = lq&, So that the q kinetic energy T = 1mv 2 = 1ml2q&2.
+q 2 2 The lagrangian, L= T – U, is thus L(q ,q&) = 1ml2q&2 - mgl(1- cosq ).
+(2.24) 2 This is also essentially the Lagrangian for a particle moving in a sinusoidal spatial potential, so the physical pendulum provides a paradigm for problems such as the motion of an electron in a crystal lattice or of an ion or electron in a plasma wave.
+Lagrangian equation of motion is d ¶ L = ¶ L where ¶ L = ml2q& and ¶ L = - mglsinq .
+(2.25) dt ¶ q& ¶ q ¶ q& ¶ q So therefore the Lagrangian equation of motion is ml2q&&= - mglsinq .
+(2.26) 3.4.2 Example 2: 2-D motion in a central potential 30{ } Using plane polar coordinates, q = r,q such that x = rcosq , y = rsinq , (2.27) so that x& = r&cosq - rq&sinq y& = r&sinq - rq&cosq (2.28) hence the kinetic energy T = 1(x&2 + y&2) is found to be T = 1m(r&2 +r2q&2).
+(2.29) 2 2 The lagrangian is L = 1m(r&2 +r2q&2)- U(r) (2.30) 2 Since L is independent of q then ¶ L ¶ q = 0 while ¶ L ¶ q& = mr2q& Therefore the q -component of the Lagrangian equation of motion is mr2q&&= 0 while the r-component of the Lagrangian equation of motion will be ¶ L ¶ r& = mr& while ¶ L ¶ r = mrq&2 - U(r) so the radial Lagrange’s equation of motion is d (mr&)= mrq&2 - U(r) which gives dt m&r&- mrq&2 = - U(r) .
+(2.31) 3.4.3 Example 3: 2-D motion with time-varying constraint Consider a weight rotating about the origin on a frictionless horizontal surface as depicted in the figure 2.3 below and constrained by a thread, initially of length a, that is being pulled steadily downward at speed u through a hole at the origin so that the radius r = a – ut.
+figure 2.3 Then, on substituting for r in equation 2.29, the Lagrangian becomes, [ ] L =T = 1mu2 +(a- ut)2q&2 .
+(2.32) 2 So we again have the conservation of angular momentum m(a- ut)2q& = l = constant which can be integrated to give q as a function of t, q =q +(l/mu)[1/(a- ut)- 1/a]=q +lt/[ma(a- ut)].
+(2.33) 0 0 3.4.4 Example 4: Atwood Machine 31 Figure 2.4 Consider two weights of mass m and m suspended from a frictionless, inertialess pulley of 1 2 radius a by a rope of fixed length, as depicted in Figure 2.4 above.
+The height of weight 1 is x with respect to the chosen origin and the holonomic constraint provided by the rope allows us to express the height of weight 2 as -x, so that there is only one degree of freedom for this system.
+1( ) The kinetic and potential energy are T = m +m x&2 and U = mgx- m gx.
+(2.34) 2 1 2 1 2 Thus, L =T - U 1( ) ( ) L = m +m x&2 - m - m gx (2.35) 2 1 2 1 2 and its derivatives are ¶ L ( ) ¶ L ( ) = - m - m g = - m +m x&.
+(2.36) ¶ x 1 2 ¶ x& 1 2 The Lagrange’s equation of motion now becomes ( ) ( ) m +m &x&= - m - m g 1 2 1 2 m - m ⇒ &x&= 1 2 g. (2.37) m +m 1 2 3.4.5 Example 5: Elliptical wire For the elliptical wire of figure (1.1b), taking a and b to be constant, the Lagragian is m[ ] L =T - U = a2a&2sin2a +b2a&2cos2a - mgbsina .
+(2.38) 2 The Lagrange equations of motion is d  ¶ L  d ¶ T    =   dt¶ a&  dt¶ a&  d [ ( )] = ma& a2sin2a +b2cos2a (2.39) dt ( ) ( ) = ma&& a2sin2a +b2cos2a +2ma&2 a2 - b2 sina cosa 32¶ L ¶ T ¶ U = - ¶ a ¶ a ¶ a (2.40) ( ) = 2ma&2 a2 - b2 sina cosa - mgbcosa .
+Thus d  ¶ L  ¶ L ( )  - = 0⇒ ma&& a2sin2a +b2cos2a +mgbcosa = 0.
+(2.41) dt¶ a&  ¶ a 3.4.6 Example 6: Particle in e.m. field The fact that Lagrange’s equations are the Euler–Lagrange equations for the extraordinarily simple and general Hamilton’s principle suggests that Lagrange’s equations of motion may have a wider range of validity than simply problems where the force is derivable from a scalar potential.
+In particular, it is obviously of great physical importance to find a Lagrangian for which Lagrange’s equations of motion equation 2.14 reproduce the equation of motion of a charged particle in an electromagnetic field, under the influence of the Lorentz force, m&r&= eE(r,t)+er&· B(r,t), (2.42) where e is the charge on the particle of mass m. We assume the electric and magnetic fields E and B, respectively, to be given in terms of the scalar potential Ф and vector potential A by the standard relations E= (cid:209)- F - ¶ A, t (2.43) B=(cid:209) · A.
+1 The electrostatic potential energy is eФ, so we expect part of the Lagrangian to be mr&2 - eF , 2 but how do we include the vector potential?
+Clearly, we need to form a scalar since L is a scalar, so we need to dot A with one of the naturally occurring vectors in the problem to create a scalar.
+The three vectors available are A itself, r and r&.
+However we do not wish to use A, since A·A in the Lagrangian would give an equation of motion that is nonlinear in the electromagnetic field, contrary to equation 2.42.
+Thus, we can only use r and r&.
+Comparing equations 2.42 and 2.43 we see that r&(cid:215) A has the same dimensions as Ф, so let us try adding that to form the total Lagrangian 1 L = mx&2 - eF +er&(cid:215) A.
+(2.44) 2 { } { } Taking q ” q ,q ,q = x,y,z , we have 1 2 3 ¶ L ¶ F 3 ¶ A = - e +∑q& j ¶ q ¶ q j ¶ q i i j=1 i d ¶ L dA ¶ A 3 ¶ A  and = mq&& +e = mq&& +e +∑q& i .
+dt ¶ q& i dt i  ¶ t j=1 j ¶ qj  The lagrange’s equation of motion then becomes ¶ F ¶ A  e ¶ A ¶ A  mq&&= e- - i +e∑q&  j - i .
+(2.45)  ¶ qi ¶ t  j=1 j ¶ qi ¶ qj  This is simply equation 2.42 in Cartesian component form, so our guessed Lagrangian is indeed correct.
+Self Assessment Exercise E 1.
+Make sure you study and understand the above examples very well.
+333.5 Transformations of the Lagrangian 3.5.1 Point transformations { } Given an arbitrary Lagrangian L(q,q&,t)in one generalized coordinate system, q ” q i =1,n (e.g.
+i ( ) ¢ & a Cartesian frame), we often want to know the Lagrangian L Q,Q,t in another coordinate { } { } system, Q ” Q i =1,n (e.g.
+polar coordinates).
+Thus, suppose there exists a set g ” g i =1,n i i ( ) of twice differentiable functions g such that q = g Q,t , i = 1,…, n. i i i We require the inverse function of g also to be twice differentiable, in which case g :Q ﬁ qis said to be C2 diffeomorphism.
+Note that we have allowed the transformation to be time dependent, so transformations to a moving frame are allowed.
+The transformation g maps a path in Q-space to a path in q-space.
+However, it is physically the same path; all we have changed is its representation.
+What we need in order to discuss how the Lagrangian transforms is a coordinate-free formulation of Lagrangian dynamics.
+This is another virtue of Hamilton’s principle i.e.
+¶ S = 0 on a physical path for all variations with fixed endpoints and also since the t 2 ( ) action integral S given by S ” ∫dt L q&,q,t is an integral over time only.
+Thus, if we can define t 1 L¢ so that ( ) L¢ Q(t),Q&(t),t = L(q(t),q&(t),t) (2.46) for any path, then S is automatically invariant under the coordinate change and will be stationary for the same physical paths, irrespective of what coordinates they are represented in.
+We can guarantee this trivially, simply by choosing the new Lagrangian to be the old one in the new coordinates: ( ) ( ( ) ) L¢ Q,Q&,t = L g(Q,t),g& Q,Q&,t ,t , (2.47) where g& ” ¶ gi +∑n Q& ¶ gi , i = 1, …., n. i ¶ t j ¶ Q i=1 j One can prove that eq.
+(2.47) gives the correct dynamics by calculating the transformation of the Euler–Lagrange equations explicitly and showing that eq.
+2.14 implies d  ¶ L¢  ¶ L¢  - = 0, (2.48) dt¶ Q&  ¶ Q i i but clearly Hamilton’s principle provides a much simpler and more elegant way of arriving at the same result, since equation 2.48 are simply the Euler–Lagrange equations for S to be stationary in the new variables.
+3.4.7 Gauge transformations It must be noted that we cannot always expect that the Lagrangian is of the form T − V, but nevertheless the lagrangian gives a function for which Lagrange’s equations represent the correct dynamical equations of motion.
+Thus it is the requirement that the equations of motion be in the form of Lagrange’s equations (or, equivalently, that Hamilton’s principle apply) that is fundamental, rather than the specific form of L. This naturally raises the question: for a given system, is there only one Lagrangian giving the correct equations of motion, or are there many?
+Clearly there is a trivial way to generate multiple physically equivalent Lagrangians, and that is to multiply L by a constant factor.
+However, we usually normalize L in a natural way, e.g.
+by requiring that the part linear in the mass be equal to the kinetic energy, so this freedom is not encountered much in practice.
+However, there is a more important source of non-uniqueness, known as a gauge transformation ¢ of the Lagrangian in which L is replaced by L , defined by ¶ M ¶ M L¢(q,q&,t) = L(q,q&,t)+ +q&(cid:215) .
+(2.49) ¶ t ¶ q 34Example 2.2: Harmonic oscillator Consider the harmonic oscillator Lagrangian, for a particle of unit mass 1( ) L = x&2 - w 2x2 (2.50) 2 0 ¶ L ¶ L where we take w to be constant.
+Since = x& and = - w 2x, we immediately verify that 0 ¶ x& ¶ x 0 Lagrange’s equation, equation 2.14 gives the harmonic oscillator equation &x&= - w 2x (2.51) 0 1 Now add a gauge term, takingM = w 2x.
+Then, from equation 2.49, the new Lagrangian is 2 0 1( ) L¢ = x&2 +2w xx&- w 2x2 .
+(2.52) 2 0 ¶ L¢ ¶ L¢ Calculating = x&+w x, and = - w 2x+w x&, and substituting into the Lagragian equation ¶ x& 0 ¶ x 0 0 of motion, we do indeed recover the harmonic oscillator, equation, equation 2.51 and the new Lagrangian is a perfectly valid one despite the fact that it is no longer in the natural form,T – U Example 2.3: Electromagnetic gauge transformation It is well known that the scalar and vector potentials in equation 2.43 are not unique, since the electric and magnetic fields are left unchanged by the gauge transformation A(r,t)ﬁ (r,t) ” A¢(r,t)+(cid:209) c (r,t) (2.53) F (r,t)ﬁ F ¢(r,t) ” F (r,t)- ¶ c (r,t), t where c is an arbitrary scalar function (a gauge potential).
+Using the gauge-transformed potentials F ¢ and A¢ to define new Lagrangian L¢ in the same way as L was defined by equation 2.44 we have 1 L¢ = mx&2 - eF ¢ +er&(cid:215) A¢ .
+(2.54) 2 Substituting equation 2.53 in equation 2.54 we find ¶ (ec ) L¢ = L+ +(cid:215)r& (cid:209) (ec ) (2.55) ¶ t which is exactly of the form equation 2.49 with M = ec .
+Thus electromagnetic and Lagrangian gauge transformations are closely related.
+Self Assessment Exercise F 1.
+State what is meant by point and gauge transformation.
+2.
+Find the gauge transformation of Lagrangian of harmonic oscillator and electromagnetic fields.
+4.0 Conclusion The Classical Lagrangian is given by L = T – U.
+(2.9) The classical Lagrangian is the difference between the kinetic and potential energies of the system.
+Lagrange has shown that the form of Lagrange’s equations is invariant to the particular set of generalized coordinates chosen.
+For any set of generalized coordinates, Lagrange’s equations take the form d ¶ L ¶ L - =0.
+dt ¶ q& ¶ q i i 355.0 Summary • Using the “dot” notation introduced by Isaac Newton dx& d2x x& = i and &x& = i i dt i dt2 • For motion of a single particle of mass m moving in one dimension in a harmonic potential with associated force F =−kx, Newton’s second law takes the form - kx = m&x& x • A classical mechanical system is conservative if there exists a function U(x ,y ,z ,x ,...z ) called the potential energy such that for any coordinate 1 1 1 2 N we can write ¶ U  ¶ U ¶ U  F = - or F = - or F = -  where F (or F or F ) is xi ¶ x  yi ¶ zi ¶ z  xi yi zi i y i i the x ( or y or z) component of the force on particle i.
+• The Classical Lagrangian is given by L = T – U • The classical Lagrangian is the difference between the kinetic and potential energies of the system.
+Using equation 1.7 we obtain d ¶ L ¶ L - = 0. dt ¶ x& ¶ x j j • For any set of generalized coordinates, Lagrange’s equations take the form d ¶ L ¶ L - = 0,. dt ¶ q& ¶ q i i • The generalized momentum p conjugate to the coordinate q is defined by i i ¶ L p = .
+i ¶ q& i • Given an arbitrary Lagrangian L(q,q&,t)in one generalized coordinate system, { } ( ) q ” q i =1,n (e.g.
+a Cartesian frame), we often want to know the Lagrangian L¢ Q,Q&,t i { } in another coordinate system, Q ” Q i =1,n (e.g.
+polar coordinates).
+i However, there is a more important source of non-uniqueness, known as a gauge ¢ transformation of the Lagrangian in which L is replaced by L , defined by ¶ M ¶ M L¢(q,q&,t) = L(q,q&,t)+ +q&(cid:215) .
+¶ t ¶ q 6.0 Tutor Marked Assignments (TMAs) 1.
+As a model of the motion of a fluid element or dust particle in a planetary (e.g.
+Earth’s) atmosphere, consider the motion of particle of unit mass constrained to move on the surface of a perfectly smooth sphere of radius R rotating with angular velocity ω about the z-axis.
+Suppose the force on the particle is given by an effective potential U(q ,f ),), where q and f are the latitude and longitude respectively.
+(a) Write down the Lagrangian in a frame rotating with the planet, taking the generalized coordinates to be the latitude and longitude so that z = Rsinq , x = Rcosq cos(f +w t), y = Rcosq sin(f +w t), where x, y, z is a non-rotating Cartesian frame.
+(b) Write down the equations of motion, and find a first integral (i.e.
+constant of the motion) in the case where U is independent of longitude.
+Among this class of potentials find the special case U =U(q ) required to make equilibrium possible (i.e.
+so that the equations of motion admit the solution q& =f& = 0 at each latitude).
+36Answers ( ) x&= - Rq&sinq cos(f +w t)- Rw +f& cosq sin(f +w t) ( ) y= - Rq&sinq sin(f +w t)+ Rw +f& cosq cos(f +w t) z& = Rq&cosq Thus the kinetic energy is given by 1( ) T = x&2 + y&2 + z&2 2 [ ] = 1R2q&2sin2q (cos2(f +w t)+sin2(f +w t))+(w +f&)2cos2q (sin2(f +w t)+cos2(f +w t))+q&2cos2q 2 [ ] = 1R2q&2 +(w +f&)2cos2q 2 and the Lagrangian, L = T – U, by [ ] L = 1R2q&2 +(w +f&)2cos2q - U(q ,f ).
+2 ¶ L = - R2(w +f&)2sinq cosq - ¶ U , and ¶ L= - ¶ U ¶ q ¶ q ¶ f ¶ f Thus ¶ L = R2q& and ¶ L = R2(w +f&)cos2q ¶ q& ¶ f& d ¶ L ¶ L d ¶ L ¶ L and thus the lagrange equations of motion = and = become dt ¶ q& ¶ q dt ¶ f& ¶ f R2q&=& - R2(w +f&)2sinq cosq - ¶ U and ¶ q R2f&&cos2q - 2R2q&(w +f&)sinq cosq = - ¶ U .
+¶ f ¶ L In the case where U =U(q ) , f is an ignorable coordinate and thus given by ¶ f& ¶ L = R2(w +f&)cos2q is an integral of the motion.
+¶ f& If U be such that q& =f& = 0 for all q and f , and use the identity sin2q ” 2sinq cosq , 0 ¶ U 1 then, 0 = R2w 2sin2q ¶ q 2 Or integrating, we have 1 1 U (q ) = R2w 2cos2q +cos2q +const = R2w 2cos2q 0 4 2 where the second equality follows fom the identity cos2q ” 2cos2q - 1 and the choice 1 const = R2.
+4 2.
+Consider a charged particle constrained to move on a non-rotating smooth insulating sphere, immersed in a uniform magnetic field B = Be , on which the electrostatic potential is a z function of latitude and longitude.
+Write down the Lagrangian in the same generalized coordinates as above and show that it is the same as for the particle on the rotating planet with appropriate identifications of ω and U.
+37The Lagrangian is L =T +er&(cid:215) A- eF , with ω set o zero.
+We have now need a vector potential 1 1 A such that B” ¶ A- ¶ A =B.
+A suitable choice is A = - By, A = - Bx, A =0.
+z x y y x x 2 y 2 z 1 ( ) Thus, er&(cid:215) = e xy& - yx& 2 er&(cid:215) A= 1eBR2 cosq [cosf (- q&sinq sinf +f&cosq cosf )+sinf (q&sinq cosf +f&cosq sinf )] 2 = 1eBR2f&cos2q 2 Thus, the Lagrangian is L = 1mR2(q&2 +f&2 cos2q )+ 1eBR2f&cos2q - eF (q ,f ).
+2 2 Completing the square we can write the Lagrangian in the form L = 1mR2q&2 +f&+ eB2cos2q - e2B2R2 cos2q - eF (q ,f ).
+2   2m  8m This is the same as the Lagrangian for particle on the rotating planet where eB e2B2R2 ( ) w = and U(q ,f ) = cos2q +ef q ,f Note that the equation above can also be 2m 8m 1 eB written as w = w , where w = is the cyclotron frequency.
+2 0 0 m 3.
+Write down a Lagrangian for the problem of two particles of mass m and m connected by 1 2 a light rigid rod of length l in a gravitational field g. Take the generalized coordintes of the { } system to be q = x,y,z,q ,f , with the coordinates of two particles being given by x = x- a lsinq cosf, 1 1 y = y- a lsinq sinf, 1 1 z = z- a lcosq , 1 1 x = x+a lsinq cosf , 2 2 y = y- a lsinq sinf , 2 2 z = z+a lcosq , 2 2 m m where a ” 2 and a ” 1 (so that (x, y, z) is the centre of mass).
+1 m +m 2 m +m 1 2 1 2 Answer x& = x&+a lf&sinq sinf - a lq&cosq cosf 1 1 1 x& = x&+a lf&sinq sinf - a lq&cosq cosf.
+2 2 2 Because ma = ma the cross terms cancel when we expand the x-contribution to the 1 1 2 2 kinetic energy.
+1m x&2 + 1m x&2 = m1+m2 x&2 + m1m2l2 (f&sinq sinf - q&cosq cosf )2 2 1 1 2 2 2 2 2(m +m ) 1 2 Similarly 1m y&2 + 1m y&2 = m1+m2 y&2 + m1m2l2 (f&sinq cosf - q&cosq sinf )2 2 1 1 2 2 2 2 2(m +m ) 1 2 1m z&2 + 1m z&2 = m1+m2 z&2 + m1m2l2 q&2sin2q .
+2 1 1 2 2 2 2 2(m +m ) 1 2 Thus, adding the kinetic energy, we have 38T = m1 +m2 (x&2 + y&2 + z&2)+ m1m2 (q&2 +sinq2 f&2) 2 2(m +m ) 1 2 The potential energy is given by ( ) ( ) U = mz +m z g = m +m zg 1 1 2 2 1 2 and the Lagrangian is L = T – U L = m1 +m2 (x&2 + y&2 + z&2)+ m1m2 (q&2 +sinq2 f&2)- (m +m )zg.
+2 2(m +m ) 1 2 1 2 7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+39UNIT 3 HAMILTONIAN MECHANICS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Legendre Transform 3.2 The Classical Hamiltonian and Hamilton’s Equations 3.2.1 Derivation of Hamiltonian and Hamilton’s equation of motion if the Lagrangian is a function of two variables q and z (and possibly time).
+3.2.2 Example 1: Scalar potential 3.2.3 Example 2: Physical pendulum 3.3 Construction of the Hamiltonian in Spherical Polar Coordinates - Central Force Motion 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 Further Reading and Other Resources 1.0 Introduction Hamiltonian mechanics is a reformulation of classical mechanics that was introduced in 1833 by Irish mathematician William Rowan Hamilton.
+It arose from Lagrangian Mehanics, a previous reformulation of classical mechanics introduced by Joseph Louis Lagrange in 1788, but can be formulated without recourse to Lagrangian mechanics using symplectic spaces.
+[The Hamiltonian method differs from the Lagrangian method, in that, instead of expressing second- order differential constraints on an n-dimensional coordinate space (where n is the number of degrees of freedom of the system)], it expresses first-order constraints on a 2n-dimensional phase space.
+As with Lagrangian mechanics, Hamilton's equations provide a new and equivalent way of looking at classical mechanics.
+Generally, these equations do not provide a more convenient way of solving a particular problem.
+Rather, they provide deeper insights into both the general structure of classical mechanics and its connection to quantum mechanics as understood through Hamiltonian mechanics, as well as its connection to other areas of science.
+2.0 Objectives After studying this unit, you will be able to: • Explain Legendre transform.
+• Understand the application of legendre transform in thermodynamics.
+• Find the Legendre transform of any function.
+• Derive the Hamiltonian from Legendre transform and the corresponding Hamilton’s equation of motion.
+• Derive the Hamiltonian and Hamilton’s equation of motion in spherical polar coordinates.
+• Solve related Problems.
+3.0 Main Contents 3.1 Legendre Transform The Legendre transform is a method of changing the dependence of a function of one set of variables to another set of variables.
+40In mathematics, it is often desirable to express a functional relationship f(x) as a different df function, whose argument is the derivative of f , rather than x .
+If we let p = be the argument dx of this new function, then this new function is written f *(p) and is called the Legendre transform of the original function, named after Adrien-Marie Legendre.
+The Legendre transform f *of a function f is defined as follows: f *(p) = max (px- f(x)) x The notation max indicates the maximization of the expression with respect to the variable x x while p is held constant.
+The Legendre transform is its own inverse.
+Like the familiar Fourier transform, the Legendre transform takes a function f(x) and produces a function of a different variable p. However, while the Fourier transform consists of an integration with a kernel, the Legendre transform uses maximization as the transformation procedure.
+The transform is well behaved only if is a convex function.
+The Legendre transformation is an application of the duality relationship between points and lines.
+The functional relationship specified by f(x) can be represented equally well as a set of (x, y) points, or as a set of tangent lines specified by their slope and intercept values.
+The Legendre transformation can be generalized to the Legendre-Fenchel transformation.
+It is commonly used in thermodynamics and in the Hamiltonian formulation of classical mechanics.
+figure 1.1 The Legendre transformation: the cuve graph is f(x).
+Its tangent with slope P intersects the y-axis at the point –f*(p).
+The Legendre transform is most often used in the study of thermodynamics.
+Recall from thermodynamics, there are two free energy functions called the Gibbs free energy and the Helmholtz free energy.
+The total differential of the Helmholtz free energy is given by dA = -SdT - PdV, (3.1) where S is the entropy, T is the temperature, V is the volume and p is the pressure.
+From the total differential, it is evident that the Helmholtz free energy is expressed as a function of the temperature and the volume; i.e.
+A = A(T, V ).
+Now suppose we prefer to express the state of our system in terms of temperature and pressure rather than temperature and volume.
+We can define a new function G by G = A + PV (3.2) where we have added to A the product of the variable we want (p) and the variable we want to eliminate (V ).
+The algebraic sign of the included PV product is chosen to be the opposite of the algebraic sign of the PdV term in Equation 3.1.
+Taking the differential of the expression for G we obtain dG = dA + PdV + V dP = -SdT - PdV + PdV + V dP = -SdT + V dP.
+(3.3) It is evident that G is a function of T and P as desired.
+Of course, G is the Gibbs free energy, and G is said to be the Legendre transform of A.
+As previously mentioned, in Equation 3.2 the 41product PV is included with an algebraic sign opposite to the sign of PdV in Equation 3.1, so that the cancellation of the two PdV terms is assured.
+Self Assessment Exercise A Find the Legendre transform of the function ex.
+Show that the Legendre transform satisfies the following algebraic properties.
+1.f(x) = ag(x)⇒ f *(p) = ag*(p/a) 2.f(x) = g(ax)⇒ f *(p) = g*(p/a) 3.f(x) = g(x+b)⇒ f *(p) = g*(p)- b 4.f(x) = g- 1(x)⇒ f *(p) = - pg*(1/ p).
+where f*(p) is the Legendre transform 3.2 The Classical Hamiltonian and Hamilton’s Equations We now apply the notion of the Legendre transform to the classical Lagrangian.
+In our previous developments, we have taken L to be a function of all the generalized coordinates and their ({ }{ } ) respective time derivatives; i.e.
+L = L q , q& ,t .
+For generality, we have also included the i i possibility that the Lagrangian has explicit time dependence.
+Such explicit time dependence can occur when the external forces acting on a system are time-dependent.
+The resulting time-dependent potentials can be important in systems, as for example, the study of the interaction of radiation with matter.
+Light is composed of electric and magnetic fields that oscillate in time, and when light interacts with matter, the electrons are subjected to time- dependent potentials.
+The quantum treatment of spectroscopy includes time dependent potentials, and we generalize the Lagrangian to admit such time dependences.
+We now use the Legendre transform to define a new function where we replace the velocity (the q& ) dependence by a dependence on the generalized momenta.
+The transformed function is as i follows: Definition: For a system of particles each having masses m described by a set of generalized i coordinates q, the classical Hamiltonian is defined by i H = ∑ p q& - L({q },{q& },t).
+(3.4) i i i i i As we now show, the particular choice of the relative signs of the first and second terms in Equation 3.4 above makes the classical Hamiltonian a natural function of the generalized coordinates and momenta rather than the generalized coordinates and the velocities.
+The reason that the sum is included with a positive sign and the Lagrangian is included with a negative sign (rather than the opposite) is made clear shortly when we identify the meaning of the classical Hamiltonian.
+We now take the total differential of equation 3.4  ¶ L ¶ L  ¶ L dH = ∑pdq& +q&dp - dq - dq& - dt (3.5)    i i i i ¶ q i ¶ q& i ¶ t i i i The derivative ¶ L ¶ q& is the definition of the generalized momenta p From Lagrange’s equation, i i. we can write d ¶ L ¶ L p - = 0 or p& = .
+(3.6) dt i ¶ q i ¶ q i i Then the total differential of the classical Hamiltonian becomes ¶ L dH = ∑(pdq& +q&dp - p& dq - pdq&)- dt i i i i i i i ¶ t i (3.7) = ∑(q&dp - p& dq )- ¶ Ldt.
+i i i i ¶ t 42The classical Hamiltonian is manifestly a function of the generalized coordinates and momenta rather than the generalized coordinates and velocities from equation 3.7, we have ¶ H ¶ H ¶ H ¶ L = q& , = - p& and = - .
+(3.8) ¶ p i ¶ q i ¶ t ¶ t i i Equations 3.8 are called Hamilton’s equation of motion.
+Consider the motion of a particle of mass in one dimension with the Lagrangian given in equation 2.21.
+The generalized momentum is given as p= ¶ L ¶ x& = mx&, and from the definition x of the Hamiltonian, we have 1  1 H = p x&- L = mx&x&-  mx&2 - U(x) = mx&+U(x) , (3.9) x 2  2 the Hamiltonian is seen to be the sum of the kinetic and potential energies of the system.
+For conservative system, H is the total energy.
+But the equation above is not acceptable because H is not written explicitly as a function of the generalized momentum.
+We must substitute x& = p m then equation 3.9 above becomes x p2 H = x +U(x).
+(3.10) 2m The Hamiltonian is then seen to be an expression for the total energy of a conservative system in terms of the generalized coordinates and momenta.
+With the Hamiltonian expressed in terms of the proper variables, we can give Hamilton’s equations of the system as ¶ H p ¶ H ¶ U = x = x& and = = - p& .
+(3.11) ¶ p m ¶ x ¶ x x x 3.2.1 Derivation of Hamiltonian and Hamilton’s equation of motion if the Lagrangian is a function of two variables q and z (and possibly time).
+Consider the Legendre transformation of the Lagragian with respect to the variables z. L*(q, p,t) = pz(q, p,t)- L(q,z(q, p,t),t), ¶ L where z(q, p,t) is the inverse relation to p = (q,z,t), i.e.
+it is our definition of the conjugate ¶ z momentum.
+The Legendre transformation of the Lagrangian is called the Hamiltonian, and it is commonly denoted by the letter H, H(q, p,t) = pz(q, p,t)- L(q,z(q, p,t),t).
+We now examine the derivatives of H with respect to its arguments.
+Firstly ¶ H ¶ z ¶ L ¶ L ¶ z (q, p,t) = p (q, p,t)- (q,z(q, p,t),t)- (q,z(q, p,t),t) (q, p,t).
+¶ q ¶ q ¶ q ¶ z ¶ q ¶ L However, the first and third term cancel, since p = (q,z,t), so that ¶ z ¶ H ¶ L (q, p,t) = - (q,z(q, p,t),t) ¶ q ¶ q Secondly ¶ H ¶ L ¶ z (q, p,t) = z(q, p,t)+ p (q,z(q, p,t),t) (q, p,t).
+¶ p ¶ p ¶ p Also, the second and the third term cancel to become ¶ H (q, p,t) = z(q, p,t) ¶ p The Hamilton’s equations are dq ¶ H dp ¶ H = (q, p,t), = - (q, p,t), dt ¶ p dt ¶ p 43this procedure can be extended to vector-valued q.
+Given the LagrangianL(q,z,t), we define the Hamiltonian as n H(q, p,t) = ∑ p z (q, p,t)- L(q,z(q, p,t),t).
+i i i=1 Where the transformation between (q,z,t) and (q,p,t) is ¶ L p = (q,z,t).
+i ¶ z i Hamilton’s equations are system of 2n first-order equations dq ¶ H dp ¶ H i = (q,p,t), = - (q, p,t) dt ¶ p dt ¶ q i i 3.2.2 Example 1: Scalar potential Consider the Lagrangian for a particle in Cartesian coordinates, so q ={x, y, z} may be replaced by r = xe +ye +ze .
+Also assume that it moves under the influence of a scalar potential U (r, t) x y z so that the natural form of the Lagrangian is 1 L =T - U = mr&2 - U(r,t) (3.12) 2 ¶ L General momentum p ” = mr&, (3.13) ¶ r& so that in this case the canonical momentum is the same as the ordinary kinematics’ momentum.
+p Equation.3.8 is solved trivially to give q& = u(p) where u(p) = .
+Thus, from equation 3.9 we m have 2  2  2 p p p H = -  - U(r,t) = +U(r,t),   m 2m 2m (3.14)   =T +U.
+That is, the Hamiltonian is equal to the total energy of the system, kinetic plus potential.
+The fact that the Hamiltonian is an important physical quantity, whereas the physical meaning of the Lagrangian is more obscure, is one of the appealing features of the Hamiltonian approach.
+Both the Lagrangian and Hamiltonian have the dimensions of energy and both approaches can be called energy methods.
+They are characterized by the use of scalar quantities rather than the vectors encountered in the direct use of Newton’s second law.
+An example is the harmonic oscillator, Hamiltonian corresponding to the Lagrangian equation 3.9 is p2 mw x2 H = + 0 .
+(3.15) 2m 2 From equation 3.9 the Hamiltonian equations of motion are p x& = , p& = - mw x.
+(3.16) m 0 Gauge-transformed Harmonic Oscillator.
+Now consider the gauge-transformed harmonic oscillator Lagrangian 1 ( ) L¢ = m x&2 +2w xx&- w 2x2 (3.17) 2 0 0 The canonical momentum is thus ¶ L¢ p = = m(x&+w x) (3.18) ¶ x& 0 and we see that the gauge transformation has affected a transformation of the canonical momentum.
+Even though the generalized coordinate x remains the same.
+44(p- mw x Solving equation 3.9 forx&, we findu(p) = 0 .
+Hence m ( ) p- mw x 2 1 H = p 0 + mw 2x2 =T +U (3.19) m 2 0 Thus, even though L was not of the natural form T – U in this case, the Hamiltonian remains equal to the total energy, thus confirming that it is a quantity with a more direct physical significance than the Lagrangian.
+(The functional form of the Hamiltonian changes under the gauge transformation because the meaning of p changes).
+3.2.3 Example 2: Physical pendulum A nonlinear one-dimensional case is provided by the physical pendulum was introduced in module 2 The Hamiltonian is H = p q - L (3.20) q becomes p2 H(q ,p ) = q +mgl(1- cosq ) (3.21) q 2ml2 which again is of the form T + U Thus the Hamiltons equations are p = ml2q&, and q& = pq .
+(3.22) q ml2 Self Assessment Exercise B 1.
+Give the expression for the Hamiltonian of a system in generalized coordinates.
+2.
+Write the Hamiltonian equation of motion.
+3.
+Derive the Hamiltonian of Scalar potential and physical pendulum and their corresponding Hamilton’s equation of motion.
+3.3 Construction of the Hamiltonian in Spherical Polar Coordinates - Central Force Motion figure 3.1: systems with spherical symmetry (spherical polar coordinates) For systems with spherical symmetry (e.g.
+the rigid rotator), spherical polar coordinates are the most convenient set of generalized coordinates.
+As depicted above, the spherical polar coordinates are r, q and f .
+The coordinate r is the distance from the origin of coordinates to the particle, q is the angle the line connecting the origin of the coordinates to the particle position makes with the z-axis and f is the angle the projection of the line defining q onto the xy-plane makes with the x-axis.
+The connections between Cartesian coordinates and spherical polar coordinates can be derived readily using trigonometry.
+The result is 45x = rsinq cosf y = rsinq sinf z = rcosq .
+(3.23) Another important relation is the direct result of the Pythagoras theorem r = x2 + y2 + z2 .
+(3.24) Consider a particle of mass m moving in three-dimensional space to a conservative central force with associated potential energy U(r).
+The meaning of a central force is the potential energy is a function only of the coordinate and independent of q and f .
+In Cartesian coordinates, the Lagrangian for the system is 1 [ ] L = m x&2 + y&2 + z&2 - U .
+(3.25) 2 To transform L from Cartesian to spherical polar coordinates, we need expression for the time derivatives of each Cartesian coordinates in terms of spherical polar coordinates.
+Using equation 3.23 we have x& = r&sinq cosf +rq&cosq cosf - rf&sinq sinf (3.26) y& = r&sinq sinf +rq&cosq sinf +rf&sinq cosf (3.27) and z& = r&cosq - rq&sinq (3.28) We then substitute equations 3.26-3.28 into equation 3.25.
+After some algebra, the result is [ ] L = 1mr&2 +r2q&2 +r2sinq2 f&2 + - U(r).
+(3.29) 2 The lagrange equation is d mr&- mrq&2 - mrsinq2 f&2 + dU = 0, (3.30) dt dr for the q - coordinate, we have d (mr2q&)- mr2sinq coqs f&2 = 0 (3.31) dt and for the f -coordinate we have d ( ) mr2sin2qf = 0.
+(3.32) dt The equation for the f -coordinate is an expression of the conservative of the momentum conjugate to the coordinate f (the angular momentum).
+To construct the classical Hamiltonian, we need expressions for the generalized momenta conjugate to each of the spherical polar coordinates.
+These expressions have already been obtained when constructing Lagrange’s equations.
+In particular, p = ¶ L = mr&, p = ¶ L = mr2q&, and p = ¶ L = mr2sinq2 f&.
+(3.33) r ¶ r& q ¶ q& f ¶ f& Then using the definition of the classical Hamiltonian H = p r&+ p q&+ p f&- L r q f [ ] (3.34) = 1mr&2 +r2q&2 +r2sinq2 f&2 +U(r).
+2 Finally equation 3.34 above must be transformed to replace the velocities with generalized momenta.
+We finally obtain p2 p2 p2 H = r + q + f +U(r).
+(3.35) 2m 2mr2 2mr2sin2q If needed the equations of motion can be obtained by applying Hamilton’s equations to the constructed Hamiltonian.
+Self Assessment Exercise C 1.
+Derive the Hamiltonian in spherical polar coordinates.
+2.
+Derive the corresponding equation of motion in spherical polar coordinates.
+464.0 Conclusion The Legendre transform is a method of changing the dependence of a function of one set of variables to another set of variables.
+It is commonly used in thermodynamics and in the Hamiltonian formulation of classical mechanics.
+Using Legendre transform to classical mechanics then, for a system of particles each having masses m described by a set of generalized coordinate’s q, the classical Hamiltonian is defined i i by H = ∑ p q& - L({q },{q& },t).
+i i i i i The classical Hamiltonian is manifestly a function of the generalized coordinates and momenta rather than the generalized coordinates and velocities.
+Hamilton’s equation of motion are.
+¶ H ¶ H ¶ H ¶ L = q& , = - p& and = - .
+¶ p i ¶ q i ¶ t ¶ t i i The Hamiltonian is then seen to be an expression for the total energy of a conservative system in terms of the generalized coordinates and momenta.
+With the Hamiltonian expressed in terms of the proper variables, we can give Hamilton’s equations of the system ¶ H p ¶ H ¶ U = x = x& and = = - p& ¶ p m ¶ x ¶ x x x 5.0 Summary • The Hamiltonian and Hamilton’s equations, the Hamiltonian function is derived from the Lagrangian function via the lengendre transformation H = ∑p q& - L, k k k ({ }{ } ) H = H q , p ,t .
+k k • The Hamiltons equation of motion are ¶ H ¶ H dH ¶ H ¶ L q& = , - p& = , = = - .
+k ¶ p k ¶ q dt ¶ t ¶ t k k 6.0 Tutor Marked Assignments (TMAs) 1.
+Use the Lagrangian to construct the Hamiltonian for the system.
+Answer mm Let M ” m +m be the total mass and m ” 1 2 that is, the reduced mass.
+Then, 1 2 m +m 1 2 p2 p2 p2 p2 p2 H = x + Y + z + q + f +Mgz .
+2M 2M 2M 2ml2 2ml2sin2q 2.
+Find the Hamiltonian corresponding to the Coriolis Lagrangian [ ] L = 1R2q&+cos2q (w +f&)2 - U(q ,f ).
+2 Answer From the above, p ” ¶ L = R2q&, so that q& = pq .
+q ¶ q& R2 47Also p ” ¶ L = R2cos2q (w +f&) so f& = pf - w f ¶ f& R2cos2q H ” p q&+ p f&- L q f p2 p2 p2 p2 = q + f - w p - q - f +U(q ,f ) R2 R2cos2q f 2R2 2R2 cos2q p2 p2 = q + f - w p +U(q ,f ) 2R2 2R2cos2q f 3.
+Find the Hamiltonian corresponding to the Lagrangian of an harmonic oscillator of problem Answer 1 p The Lagragian L = mx&2 +U(x), which is the standard form treated.
+Thus, x& = and the 2 m Hamiltonian is p2 mw 2  x4  H = + 0 x2 - .
+  2m 2  l2  0 4.
+Consider the motion of a particle of charge e and mass m in a straight infinitely long magnetic confinement system with vector potentialA=y (x,y)e .
+z If the Hamiltonian is [ ( )] p2 p2 p - ey x,y 2 H = x + y + x , 2m 2m 2m write down the Hamiltonian equation of motion Answer The Hamiltonian equation of motion are ¶ H p x& = = z , ¶ p m x ¶ H p y& = = y , ¶ p m y ( ) ¶ H p - ey z& = = z , ¶ p m z and ( ) ¶ H e p - ey ¶ y p& = - = z .
+x ¶ x m ¶ x ( ) ¶ H e p - ey ¶ y p& = - = z .
+y ¶ y m ¶ y ¶ H p& = - = 0. z ¶ z 5.
+Suppose a system has a Lagrangian ( ) q&2 L q ,q ,q& ,q& = q&2 + 2 +k q2 +k q& q& .
+1 2 1 2 1 a+bq2 1 1 2 1 2 1 Find the equations of motion using the Hamiltonian formulation.
+487.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+49Module 3 Central force and Scattering Unit 1 The Generic Central Force Problem Unit 2 Kepler’s Problem Unit 3 Scattering Cross Section UNIT 1 THE GENERIC CENTRAL FORCE PROBLEM CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 The Generic Central Force Problem 3.1.1 The Equation of Motion 3.1.2 Reduction to a one body problem 3.2 Dynamics of an Isolated Two-Body Central-Force System 3.2.1 Reduction to one dimension 3.3 The formal Solution To The Equation Of Motion 3.3.1 Integration of Equation of motion 3.3.2 A Differential Relation between r and q 3.3.3 Qualitative Dynamics 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading and Other Resources 1.0 Introduction The problem of the motion of two bodies interacting via a central force is an important application of Lagrangian dynamics, and the conservation theorems we have learned about.
+Central forces describe a large variety of classical systems, ranging from gravitationally interacting celestial bodies to electrostatic and nuclear interactions of fundamental particles.
+The central force problem provides one of the few exactly solvable problems in mechanics.
+And central forces underlying most scattering phenomena, again ranging from gravitational to electrostatics to nuclear.
+2.0 Objectives After studying this unit, you will be able to: • Define central force and know the properties of an isolated two body central force system.
+• Discuss the reduction of the two body problem to a mathematically equivalent problem of a single particle moving in one direction.
+• Discuss the reduction of a two-body three-dimensional problem to one with single degree of freedom.
+• Explain different shape of the effective potential energy function and its implications for the motion of the system.
+• Give the differential relation between r and q .
+• Solve related Problems.
+503.0 Main Contents 3.1 The Generic Central Force Problem We first discuss the central force problem in general terms, considering arbitrary radially dependent potential energy functions.
+3.1.1 The Equation of Motion Review of Central Forces.
+Central force is defined as one that satisfies the strong form of Newton’s third law.
+That is, given two particles a and b, the force exerted by particle a on b is equal and opposite to that exerted by particle b on particle a, and, moreover, the force depends only on the separation of the two particles and points along the vector between the two particles.
+Mathematically, this means, r r r f = - f , f = f (r )rˆ ab ba ab ab ab ab r r r r r r (1.1) where r = r - r , r = r , rˆ = ab .
+ab a b ab ab ab r ab Properties of an Isolated Two-Body Central-Force System Let us now consider an isolated two-body system interacting via a conservative central force.
+There are no other forces acting on the bodies.
+From the concepts of force, momentum, and energy for systems of particles.
+One can abstract the following facts about isolated two-body system: • Since no external forces act on the system, Newton’s second law for systems of particles tells us that the total linear momentum is conserved.
+0 = d pr = d (m rr& +m rr& ).
+(1.2) dt dt a a b b r r r Since P is constant, the velocity of the center-of-mass R = P/M is fixed and thus the center- r r of-mass system is inertial.
+We may therefore assume, without loss of generality, that r and r r a b are coordinates in the center of mass system, where P vanishes and the center of mass is at the origin: r r r 0 = R = m r +m r .
+r ara brb (1.3) & & 0 = P = m r +m r .
+a a b b r This eliminates three of the six degrees of freedom in the problem.
+The difference coordinate r ab is now r r r r  m  r  m  r = r - r = r 1+ a  = - r 1+ b .
+(1.4)     ab a b a m  b m  b a Defining the reduced mass m m m = a b (1.5) m +m a b gives us r m r r m r r = r r = r .
+(1.6) a m ab b m ab a b We shall see that the dynamics of the two-particle system will be reduced to that of a single particle with mass µ moving in the potential U(r ).
+We may consider two simple limits ab immediately: r r r • In the limit when m is far greater than m we have m ﬁ m , r ﬁ o,and r ﬁ r .
+That b a a b ab a is, the center of mass is fixed on the heavier mass and the motion is entirely of the smaller mass.
+51r r m r r r r • In the limit m = m = m, we have m = , r = ab and r = ab , [in this case the motion a b 2 a 2 b 2 Since there are no external forces, there is no external torques either].
+This angular momentum of the system is conserved.
+Since the system’s center-of-mass has been taken to be at rest at the origin, the angular momentum consists only of the internal angular momentum due to motion of the two particles about the center of mass.
+This angular momentum is r r r r r L = m r · r& +m r · r& , (1.7) r a a a b b b let’s re-write this in terms of r arb r r r r r r r L = mr · r& - mr · r& = r · mr& = r · r (1.8) ab a ab b ab ab ab ab r The two-body system begins to look like a single particle of mass µ and coordinater .
+ab The kinetic and potential energies of the system are T = 1m rr&2 + 1m rr&2 = 1m 2rr&  1 + 1  = 1mrr& 2   2 a a 2 b b 2 abm m  2 ab , (1.9) a b U =U(r ) ab The Lagrangian is L = 1mrr& 2 +U(r ).
+(1.10) 2 ab ab r The Lagrangian is identical to that of a single particle system with mass µ and coordinate r .
+r r r ab Since L is conserved, we know the motion is restricted to the plane defined by r and r .
+Let ab ab this plane define a spherical polar coordinate system (r ,q ,f ), where f , is the azimuthal ab ab ab r ab angle of the plane and q is the polar angle of the position vector r relative to the z-axis in the ab ab plane.
+Rewriting L in this system gives ( ) 1 L = m r& 2 +r 2q 2 +r 2sin2q f - U(r ).
+(1.11) 2 ab ab ab ab ab ab ab We may choose f = 0without loss of generality.
+The angular momentum vector points out of ab this plane (in the y direction) and the motion remains in this plane at all time by conservation of angular momentum.
+3.1.2 Reduction to a one body problem For simplicity and better understanding of the above equation of motion we discuss the reduction of the two body problem to a mathematically equivalent problem of a single particle moving in one direction.
+First we reduce it to a one-body problem, and then we reduce the dimensionality.
+Our original problem has six degrees of freedom, but because of the symmetries in the problem, many of these can be simply separated and solved for.
+As there are no external forces, we expect the center of mass coordinate to be in uniform motion, and it allows us to use r r r r ∑ m r mr +m r R = a a a = 11 2 2 (1.12) ∑ m m +m a a 1 2 as three of our generalized coordinates.
+For the other three, we first use the Cartesian components of the relative coordinate r r r r = r +r (1.13) 1 2 r r although, we will soon change to spherical coordinates for this vector.
+In terms of Rand r the particle positions are: r r m r r r m r r = R- 2 r r = R- 2 r (1.14) 1 M 2 M where M=m +m 1 2.
+The kinetic energy is 52T = 1m rr&2 + 1m rr& 2, 2 1 1 2 2 2 T = 1m Rr& - m2 rr&2 + 1m Rr& + m1 rr&2 = 1(m +m )Rr&2 + 1 m1m2 rr&2, (1.15) 2 1 M  2 2 M  2 1 2 2 M T = 1MRr&2 + 1mrr&2 , 2 2 mm wherem = 1 2 is called the reduced mass.
+Thus the kinetic energy is transformed to the m +m 1 2 form for two effective particles of mass M and µ which is neither simpler nor more complicated than it was in the original variables.
+(r r ) (r) For the potential energy, however, the new variables are to be preferred, U r +r =U r is r 1 2 independent of R, whose three components are therefore ignorable coordinates, and their conjugate momenta.
+(Pr ) = ¶ (T - U) = MR& (1.16) cm i ¶ R i i are conserved.
+This reduces half of the motion to triviality, leaving an effective one-body problem with T = 1mrr&2 and the given potential to U(rr).
+We have not yet made use of the fact 2 r that U only depends on the magnitude of r .
+In fact, the above reduction applies to any two-body system without external forces, as long as Newton's third Law holds.
+Self Assessment Exercise A 1.
+Use momentum conservation to reduce the two-body problem to the problem of one body motion in a central force field.
+3.2 Dynamics of an Isolated Two-Body Central-Force System r Now, let’s explore the dynamics using the Lagrangian.
+Conservation of L already leads us to expect that one of the Euler-Lagrange equations will be trivial.
+Explicitly, we have (dropping the subscripts now): ab dU m&r&= - +mrq 2 +mrsin2qf 2 (1.17) dr d [ ] mr2q = mr2sinq cosqf 2 dt (1.18) [ ] d mr2sin2qf = 0 dt We make the general point that, when writing the Euler-Lagrange equations for a multidimensional system, it is a good idea to start with the time derivatives on the left side unexpanded until the rest has been simplified because they are just the time derivatives of the canonical momenta and some of them may end up being conserved if the right side of the corresponding equation vanishes, either explicitly or by appropriate choice of initial conditions.
+We see in the above case that the f equation of motion tells us l = constant , which would f have become very unobvious if the derivative had been expanded into its three terms.
+r r r For initial conditions, we take r and p to be in the plane f = 0.
+That p is in the plane f = 0 also implies f = 0 initially.
+With these initial conditions, the f equation of motion implies that f = 0 for all time.
+Thus, l = mr2sin2qf = 0, for all time.
+The f equation then tells us we q r have l = mr2q = constant .
+The angular momentum vector has length L = l and points q q 53r perpendicular to the plane f = 0 in which the motion occurs: L is along the y-axis.
+The r equation of motion simplifies to r dU l 2 mr = + q .
+(1.19) dr mr3 The equation of motion is now that of a single particle in one dimension with the effective potential function l 2 U (r) =U(r)+ q .
+(1.20) eff 2mr2 We acquire a new “centrifugal potential” that arises due to conservation of angular momentum.
+It is a repulsive potential, reflecting the fact that, with l constant, the kinetic energy must f increase as r−2 if r decreases then more energy is needed to go to small radii.
+We may use the effective potential to write an effective one-dimensional Lagrangian: 1 l L = mr&2 - q - U(r).
+(1.21) 1D 2 2mr2 Note that the 1D Lagrangian is not obtained simply by rewriting the 3D Lagrangian using f = 0, f 2 = 0 and mr2q =l one would have gotten the wrong sign for the centrifugal term.
+q This difficulty occurs because the Lagrangian formalism assumes independent variations of the different coordinates.
+Instead, we must simply start with the effective potential.
+The effective total energy is 1 l 2 E = mr&2 + q +U(r) (1.22) 2 2mr2 which is conserved because the effective potential is conservative.
+This effective total energy turns out to be equal to the true total energy because the q kinetic energy is included via the l q term.
+3.2.1 Reduction to one dimension In the problem under discussion, however, there is the additional restriction that the potential r depends only on the magnitude of r , that is, on the distance between the two particles, and not r ( ) on the direction of r .
+Thus we now convert from cartesian to spherical coordinates r;q ;f , r forr .
+In terms of the cartesian coordinates (x; y; z) r = (x2 + y2 + z2)12; x = rsinq cosf, ( ) q = cos- 1 z ; y = rsinq sinf , (1.23) r f = tan- 1y ; z = rcosq ,  z  Plugging into the kinetic energy is messy but eventually reduces to a rather simple form [ ] 1 T = m x& 2 + y&2 + z&2 2 1 = 1[(r&sinq cosf +q&rcosq cosf - frsinq sinf )2 2 = +(r&sinq sinf +qrcosq sinf +frsinq cosf )2 +(r&cosq - qrsinq )2] (1.24) [ ] = 1m r&2 +r2q&2 +r2sin2fq 2 2 Notice that in spherical coordinates T is a function of r and q as well as r&,q& and f&, but it is not a function of f , which is therefore an ignorable coordinate and 54¶ L ¶ l P = = q = mr2sin2qf = constant.
+(1.25) f ¶ f ¶ f Note that rsinq is the distance of the particle from the z-axis, so P is just the z-component of f r r r the angular momentum, l Of course all component of the angular momentum L =l = r· p is z q conserved, because in our effective one body problem there is no torque about the origin.
+Thus l is a constant and the motion must remain in a plane perpendicular to l and passing through q q r the origin as a consequence of the fact that r is perpendular to l .
+It simplifies things if we q r choose our coordinates so that L is in the z-direction.
+Then q =p , q& = 0, l = mr2f .
+The r 2 q equation of motion is then l 2 m&r&= mrf 2 +dU = 0 = mr2 - q +dU .
+(1.26) dr mr3 dr This is the one-dimensional motion of body in an effective potential l 2 U (r) =U(r)+ q .
+(1.27) eff 2mr2 Thus we have reduced a two-body three-dimensional problem to one with single degree of l 2 freedom, without any addition of a centrifugal barrier term q to the potential.
+2mr2 Self Assessment Exercise B 1.
+Use total angular momentum conservation to show that one body in a central force field moves in a plane.
+Write corresponding Lagrangian in polar coordinates.
+2.
+Use angular momentum conservation to reduce the problem to an analysis of a one- dimensional motion.
+3.
+Give the expression for the centrifugal potential energy.
+3.3 The formal Solution to the Equation of Motion We have obtained two equations of motion d ( ) m&r&= U r,l , dr eff q (1.28) [ ] d mr2q& = 0. dt Let’s attempt to integrate these two equations.
+Integrating the r equation most obviously yields as equation for r&.
+But we already know what equation will be, by energy conservation.
+3.3.1 Integration of Equation of motion We can simplify the problem even more by using the conservation law, that of energy.
+Because the energy of the effective motion is a constant, 1 E = mr2 +U = constant, (1.29) 2 eff we can immediately solve for dr 2 12 r& = = –  (E - U (r)) .
+(1.30) dt m eff  This can be inverted and integrated over r, to give dr t = t – ∫ (1.31) 0 2(E - U (r))/m eff which is the inverse function of the solution to the radial motion problem r(t).
+We can also find the orbit since 55df f l dt = = q (1.32) dr dr/dt mr2 dr r dr f =f – l ∫ .
+(1.33) 0 q r2 2m (E - U (r) r eff 0 The sign ambiguity from the square root is only because r may be increasing or decreasing, but f time, and usually are always increasing.
+Qualitative features of the motion are largely L determined by the range over which the argument of the square root is positive, as for other values of r we would have imaginary velocities.
+Thus the motion is restricted to this allowed region.
+Unless L = 0 or the potential U(r) is very strongly attractive for small r, the centrifugal barrier will dominate, so U ﬁ +¥ and there must be a smallest radius rp > 0 for eff whichE ‡ U .
+eff 3.3.2 A Differential Relation between r and q While we have formally eliminated t and obtained an integral relationship between q and r, the fact that the integral is not in general analytic limits its usefulness.
+It may be more useful to have a differential, rather than integral, relation between r and q .
+We need to eliminate d from dq our original differential equations.
+The q equation tells us that mr2 d l d dt = dq , = q .
+(1.34) l dt mr2 dq q Our equation of motion for r can then be re-written: l d  l dr  l 2 m q  q - q = F(r) mr2 dq mr2 dq  mr2 d  1 dr  1 mr2 - = F(r)   dq r2 dq  r l2 q (1.35) d  d 1 1 mr2 - - = F(r)   dq dq r r l2 q d2 1 1 mr2  + = - F(r).
+dq 2 r r l2 q We now have a differential equation with q as the independent variable and r as the dependent variable.
+The equation may be useful for obtaining the shapes of the orbits, and frequently written via a change of variables to u=1/r in the form d2u m 1 +u = - F .
+(1.36) dq 2 l 2u2 u q The constant of the motion, the energy, can be rewritten in terms of u and q alone (i.e, eliminating explicit time derivatives): 1 l 2 E = mr&2 + q +U(r) 2 2mr2 l 2  1 dr 2 l 2 = q   + q +U(r) (1.37) 2m r2 dq  2mr2 l 2  du 2  1 E = q   +u2+U .
+2m dq   u Self Assessment Exercise C 1.
+Use energy conservation to find formally an orbit of a body moving in central field in coordinates r,q .
+Also Derive the relationship between r and q 563.3.3 Qualitative Dynamics It is instructive to consider the shape of the effective potential energy function and its implications for the motion of the system.
+The effective potential consists of two terms.
+The first is the true central force potential.
+The second is a “centrifugal” term: it is a repulsive potential arising from angular momentum conservation, which requires the kinetic energy to increase as r is reduced.
+The relative sizes of the two terms determine if or whether the effective potential is attractive or repulsive.
+The shape of the effective potential and the total energy of the system determine whether the orbits are unbounded, bounded, or bounded and circular, and whether bounded orbits are periodic (closed).
+To be clear: bounded and unbounded refers to whether there is an upper limit on r or not; open and closed refer to whether the orbit repeats itself after some period.
+All unbounded orbits are open, but not all bounded orbits are closed.
+The effective potential is: l U (r) =U(r)+ q .
+(1.38) eff 2mr2 Consider different cases for the shape of U(r).
+Some of these are illustrated in the Figure 1.0.
+• Repulsive Potentials: If U(r) has no attractive regions (no regions with positive slope), then both terms are repulsive at all r and all orbits are unbounded and open.
+This occurs, for example, for the Coulomb force between particles of like charge.
+• Small r Behaviour: The small r behaviour of the effective potential determines whether r is bounded below or whether there are “small r” bounded orbits with r bounded above.
+Figure 1.0: Effective potential for various true potentials.
+The potentials are U(r) = rn or U(r) =logr with unity coefficient except for the r−2 case.
+l 2 For all cases except r−2, the behaviour is qualitatively independent of the factor q , so it 2m l 2 has been set to 1.
+For the r−2 potential, we show the three cases q = 0.5, 1, 1.5.
+The 2m locus of r values filled by example bound orbits are indicated by dotted lines, by example 57orbits bounded below but unbounded above by dashed lines, and by completely unbounded example orbits by dash-dot lines, respectively.
+• Large r Behavior: The large r behavior of the effective potential determines whether r is bounded above at large r, which is a necessary condition for bounded orbits.
+• Circular orbits are obtained when there is a point in the effective potential where the gradient (effective force) vanishes.
+For potentials steeper than r−2, there is one unstable circular orbit.
+For potentials shallower than r−2 and for log or positive power law potentials, there is one stable circular orbit.
+• Of course, if the true potential is a more complicated function of r than simple power law or log functions, there may be additional bound orbits and circular orbits.
+• Whether an orbit is periodic (that is, “closed” the orbit repeats on itself after some time) is a nontrivial problem.
+Clearly, all bound orbits show periodic motion in r as a function of time.
+But periodicity in space that is, the periodicity of r(q ) is a more complicated problem.
+All circular orbits are periodic in space because r is constant.
+More generally, periodicity of r(q )requires that the time periods for radial motion and angular motion be commensurate that is, their ratio must be a rational fraction.
+It is not obvious what the relation is between the form of the potential and whether this condition is satisfied.
+Bertrand’s theorem tells us that bound orbits are closed only if the potential in the vicinity of the bound orbits follows r−1 or r2.
+Details on Bertrand’s theorem can be found in Goldstein.
+When orbits are bounded, the two turning points are called the apsides or apsidal distances.
+( ) When orbits are not closed, the apsides precess in r,q space.
+The angle between two consecutive apsides is called the apsidal angle.
+Precession of the apsides occurs whenever the conditions of Bertrand’s theorem are not satisfied, including small perturbations of Bertrand’s theorem potentials by non-Bertrand’s theorem terms.
+Self Assessment Exercise D 1.
+Discuss briefly the shape of the effective potential energy function and its implications for the motion of the system 4.0 Conclusion Central force is defined as one that satisfies the strong form of Newton’s third law.
+That is, given two particles a and b, the force exerted by particle a on b is equal and opposite to that exerted by particle b on particle a, and, moreover, the force depends only on the separation of the two particles and points along the vector between the two particles.
+Considering an isolated two-body system interacting via a conservative central force.
+The dynamics of the two-particle system is equivalent to that of a single particle with mass µ moving in the potential U(r ) and likewise a two-body three-dimensional problem is equivalent to one ab l 2 with single degree of freedom, without any addition of a centrifugal barrier term q to the 2mr2 potential.
+The shape of the effective potential energy function and its implications for the motion of the system was also considered for various true potential and it’s depicted in figure 1.0 above 5.0 Summary • Generic Central Forces.
+The problem of two particles interacting via a strong-form third law central force can be reduced to translational motion of the center-of-mass system combined with one particle in a central force.
+58r r If the two particles have masses m and m and position r andr , then the relative a b a b coordinate and reduced mass are r r r m m r = r - r m ” a b .
+ab a b m +m a b • The original coordinates can be rewritten as r m r r m r r = r r = r .
+a m ab b m ab a b • The lagrangian can be rewritten in the following ways L = 1mrr&2 - U(r )= 1m (rr&2 +r2q&2 +r2 sin2q f 2 )- U(r ).
+2 ab ab 2 ab ab ab ab ab ab ab • We obtain equations of motion (after eliminating the constant f coordinate) dU l2 mr&&= - + q mr2q& = l = constant .
+dr mr3 q • We define the effective potential l2 U (r) =U(r)+ q .
+eff 2mr2 • The Lagrangian and energy can be rewritten in one dimensional form 1 l2 1 L = mr&2 - q - U(r) = mr&2 - U (r), 1D 2 2mr2 2 eff 1 l2 1 E = mr&2 + q +U(r) = mr&2 +U (r), 2 2mr2 2 eff l2 where q is the repulsive “centrifugal potential” The quantitative behaviour of the 2mr2 system can be obtained by examining the shape of the effective potential: where it is repulsive, attractive, where its slope vanishes e.t.c The constancy of l gives us kepler’s q second law dA 1 l = q = constant .
+dt 2 m • The generic quadrature solution to the central force problem is given by -12 r 2 ( ) l2  t = – ∫ dr¢  E- U(r) - q  m m 2r¢ 2 r(0) ¢ q - q (0) = – lq ∫t dt .
+[ ] m 0 r(t¢) 2 Elimination of t from the original differential relations also allows us to obtain the quadrature solution for q in terms of r. r dr¢  ( ) l2 - 12 q (r)- q (0) = – lq ∫ [r(t)]2 2m E- U(r) - rq¢ 2 .
+r(0) • We may obtain a generic differential equation relating r and q d2 1 1 mr2  + = - F(r).
+dq 2 r r l2 q 1 Defining u = , this may be re-written r 59d2u m 1 +u = - F .
+dq 2 l2u2 u q • The total energy of the system is constant and can be written as l2  1 dr  l2 l2  du 2  1 E = q  + q +U(r) = q   +u2+u .
+2m r2 dq  2mr2 2m dq   u 6.0 Tutor Marked Assignments (TMAs) 1.
+Consider a particle constrained to move on the surface described in cylindrical coordinates r by z =a r3, subject to a constant gravitational force F= - mgeˆ .
+Find the Lagrangian, two z conserved quantities, and reduce the problem to a one dimensional problem.
+What is the condition for circular motion at constant r?
+2.
+From the general expression for f as an integral over r, applied to a three dimensional r symmetrical harmonic oscillator V(r) = 1kr2, integrate the equation, and show that the 2 motion is an ellipse, with the center of force at the center of the ellipse.
+Consider the three complex quantities Q = p - i kmr and show that each has a very simple equation of i i i motion, as a consequence of which the nine quantities Q*Q are conserved.
+Identify as i k many as possible of these with previously known conserved quantities.
+3.
+Show that if a particle under the influence of a central force has an orbit which is a circle passing through the point of attraction, then the force is a power law with Fa r- 5 .
+( ) Assuming the potential is defined so that U ¥ =0, show that for this particular orbit E = 0, find the period, and by expressing x&, y& and the speed as a function of the angle measured from the center of the circle, and its derivative, show that x&, y& and the speed all go to infinity as the particle passes through the center of force.
+7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+60 UNIT 2 KEPLER”S PROBLEM CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Kepler’s Law 3.2 The Kepler Problem: The Special Case of Gravity 3.2.1 The Shape Of Solution Of The Kepler’s Problem 3.2.2 Detailed Study of the Different Solutions 3.2.3 Summary of Quantities 3.2.4 Time Dependence of the Kepler Problem Solutions 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading and Other Resources 1.0 Introduction The Kepler problem is named after Johannes Kepler, who proposed Kepler's laws of planetary motion (which are part of classical mechanics and solved the problem for the orbits of the planets) and investigated the types of forces that would result in orbits obeying those laws (called Kepler's inverse problem) In classical mechanics, Kepler’s problem is a special case of the two-body problem, in which the two bodies interact by a central force F that varies in strength as the inverse square of the distance r between them.
+The force may be either attractive or repulsive.
+The "problem" to be solved is to find the position or speed of the two bodies over time given their masses and initial positions and velocities.
+Using classical mechanics, the solution can be expressed as a Kepler orbit using six orbital elements.
+2.0 Objectives After studying this unit, you will be able to: • State the three Kepler’s Laws.
+• Prove the three Keplers laws.
+• Define an orbit.
+• Derive and explain the conic equation of an orbit.
+• Explain Keplerian orbit.
+• Solve related problems.
+3.0 Main Contents 3.1 Kepler’s Law r dr Practical integration of equation f =f – l ∫ is in general a formidable task.
+0 q r2 2m (E - U (r) r eff 0 k The problem can be solved explicitly, however, for the potential of the form U(r) = - r corresponding for example to the gravitation field.
+Consider motion of a planet of mass m p 61around the sun of mass m .
+It was shown that this problem is equivalent to an analysis of a s motion of one body of reduced mass 1 1 1 m r +m r = + in central field U(r) around the center of mass R = p p s s , m m m m +m p s p s where r and r are the position of the planet and of the sun and r = r - r .
+The corresponding p s p s effective Lagrangian, L = 1m (r&2 +r2q&2)- U(r) 2 Lagrange’s equations in polar coordinates are: d ¶ L ¶ L d ¶ L ¶ L  - = 0. and  - = 0, dt ¶ r& ¶ r dt¶ q& ¶ q Using the second equation above to prove kepler’s second law, note that L does not depend on q , therefore d ¶ L = ¶ L = 0,⇒ p = ¶ L = mr2q& = l (2.1) dt¶ q& ¶ q q ¶ q& q 1 where l is a constant.
+The radius vector r sweeps out an area dA= r2q in time dt.
+The rate at q 2 which the radius vector sweeps out area isdA = 1r2q& Comparing this rate with the momentum dt 2 p we proved that dA = 1r2q& = 1 = constant (2.2) q dt 2 2m which is Kepler’s second law which state that the radius vector drawn from the sun to a planet describes equal areas in equal times.
+Using first Lagrange’s equation we can prove Kepler’s first law which states that each planet moves in elliptical orbit with the sun at one focus d ¶ L- ¶ L = 0⇒ m (&r&- rq&2)= - ¶ U(r) = - k .
+(2.3) dt¶ r& ¶ r ¶ r r2 Proof: mr2q& =l ⇒q& = lqu2 ⇒ dt = dq m , (2.4) q m lu2 1 since u = .
+r d l u2 d The equation above can rewritten as follows: = q , also, r& can be re-written as dt m dq dr 1 du m du = - = - dt u2 dt l dq q therefore d dr = lqu2 d - 1 du  on substituting for r&& and q& in the equation, we have dt dt  m dq  m dq  m (&r&- rq&2)= - k ⇒ - lq 2u2 d2u - lq 2u3 = - ku2 ⇒ d2u +u = km .
+(2.5) r2 m dq 2 m dq 2 l 2 q Thus, equation for the planet motion for linear oscillator in a constant field.
+Its solution is a sum km of a general solution bcos(q - q ) and a particular solution .
+i.e 0 l q km u = +bcos(q - q ).
+(2.6) l 2 0 q Or, in polar coordinates, we have 62a r = (2.7) 1+ pcos(q - q ) 0 l 2 qEl 2 where a = q and p = 1+ q .
+(2.8) km k2m This is an equation for conic sections which describes p >1 hyperbola  p = 0 parabola (2.9)  p <1 ellipse.
+Motion of the planet is bounded to the sun and therefore corresponds to the case p<1.
+Futhermore, since m is far less than m (m =333,500 x m and m =5,977x1024kg), we have s p s earth earth 1 1 1 1 = + » m m m m p s p m r +m r m m and R = p p s s » p r + s r » r m +m m +m p m +m s s p s p s p s i.e.
+centre of mass approximately coincides with the position of the sun and r is approximately distance from the sun to the planet.
+Therefore, we have proved Kepler’s first law which states that each planet moves in elliptical orbit with the sun at one focus.
+dA 1 Using the second Kepler,s law = r2q , and the expression for the angular momentum dt 2 p = mr2q& to write dA = 1 dt Integrating this expression over the whole area of the ellipse, we q 2m 1 obtained A =pab = T , where T is the period of planetary motion and πab is the area of the 2m ellipse.
+Using the following relation a =a - 1b2 to obtain ap 12a32 = 1 T ⇒ a3 = l2a - 1 T2.
+2m (2mp )2 l2 k Using the definition a = to finally get a3 = T2 which is the Kepler’s third law which km 4p 2m states that the square of the period of revolution about the sun is proportional to the cube of the major axis of the orbit.
+Self Assessment Exercise A 1.
+Use q -component of Lagrangian equation to prove Kepler’s second law.
+2.
+Use r-component of Lagrange’s equation to prove Kepler’s first law.
+3.
+Use the second Kepler’s law and the expression for the angular momentum to prove Kepler’s third Law 4.
+Derive the equation of a conic section and describe the shape for p > 0, p = 0 and p < 0 3.2 The Kepler Problem: The Special Case of Gravity We now specialize to gravity, which allows us to fix the form of the central-force potential energy function.
+We solve the equation of motion and study the various solutions with k=GµM.
+3.2.1 The Shape of Solution of The Kepler’s Problem The General Solution In our generic study of central forces, we obtained the differential relation in equation 1.36 63d2 1 1 mr2  + = - F(r).
+dq 2 r r l q m m For the gravitational force, we have, F(r) = - G a b , (2.10) r2 so the above reduces to d2 1 1 Gm 2(m +m )  + = - a b .
+(2.11) dq 2 r r l 2 q 1 Re-writing using u = , we have r d2u Gm 2M +u = - , (2.12) dq 2 l 2 q m m where M = m +m = a b m .
+a b This is now a simple harmonic oscillator equation with a constant driving force.
+The solution is the sum of the generic solution to the homogeneous equation and a particular solution to the inhomogeneous equation: Gm 2M u(q ) = Acos(q - q )+ .
+(2.13) 0 l 2 q We can relate the coefficient A in the solution to the constants of the motion, the energy and angular momentum by using equation 1.37 l 2 du 2  1 E = q   +u2+U , 2m dq   u l 2  Gm 2M Gm 2M 2 = q A2sin2(q - q )+ A2 cos2(q - q )+2Acos(q - q ) +   2m  0 0 0 l 2  l 2    q q   Gm 2M  - GmMAcos(q - q )+ ,  0 l 2  q (2.14) l 2A2 G2m 2M2 G2m 2M2 = q + AGmM cos(q - q )+ - GmMAcos(q - q )- , 2m 0 2l 2 0 l 2 q q l 2A2 G2m 2M2 = q - , 2m 2l 2 q l 2  Gm 2M 2 = q A2 -   .
+2m   l 2    q  Let’s us write the orbit in terms of r instead of u and also drop the offset phase q , 0 p =1+e cosq ⇒ p = r +ercosq (2.15) r l 2 where p = q and e = pA. Gm 2M If we write in Cartesian coordinates, with x = rcosq and y = rsinq , we have ( ) p = x2 + y2 +ex ⇒ p- ex 2 = x2 + y2 (2.16) ( ) 1- e 2 x2 +2epx+ y2 - p2 = 0.
+(2.17) e In terms of p and , the total energy is 64l 2 e 2 1  E = q  - , (2.18) 2m p2 p2 G2m 3M2 ( ) E = e 2 - 1 2l 2 q (2.19) GmM ( ) = e 2 - 1.
+2p Let’s re-write in a more obvious form: complete the square on x to obtain ( ) ep  p2 1- e 2 x+ + y2 =  1- e 2  1- e 2 ( ) x- x 2 y2 c – =1 , (2.20) a2 b2 which is the equation for a conic section with ep p p x = , a = , b = ( ) f = x – ea = 0 and 2x c 1- e 2 1- e 2 – 1- e 2 c c where f denotes the x coordinates of the foci of the conic section.
+Recall that the center of mass of the system is at the origin, so one of the foci coincides with the center of mass.
+The – sign is picked depending on the sign of 1- e 2 to ensure that b is real.
+The turning points of the motion are given by the maximum and minimum values of r. Our polar form for the orbit, equation 2.15 provides the easiest means to obtain these: they are cosq = – 1 they are therefore p p r = r = (2.21) 1 1+e 2 1+e p p x = x = (2.22) 1 1+e 2 1+e y = 0 y = 0 1 2 Where x = r cosq so x pick up a sign and y = r sinq , so y vanishes in both cases.
+The 1,2 1,2 1,2 1,2 energy is now GmM GmM E = (e 2 - 1) = - .
+(2.23) 2p 2a The sign and magnitude of the energy thus scales inversely as the semi major axis a.
+So what we have is the equation of a conic section.
+Being a circle, ellipse, or hyperbola depending on the sign of 1- e 2.
+From the qualitative discussion of central force orbits, E=0 is the dividing line between bound and unbound orbits.
+The implication then is that bound orbits with E<0 have positive a and ε2< 1 while unbound orbits with E>0 have negative a and ε2>1.
+The dividing case is E=0, a = ¥ , ε =1.
+The conic section formula is undefined there, but if we go back before we completed the square, we see that ε2=1 causes x2 term to vanish leaving us with the equation n of a parabola (x a quadratic function of y).
+Self Assessment Exercise B 1.
+Derive the equation for a conic section of an orbit and discuss he nature of the curve for every possible value of e. 3.2.2 Detailed Study of the Different Solutions Let’s study these various solutions in some details.
+First, let’s obtain a dimensionless parameterization of the solutions.
+The shape of the effective potential is set by l and µ.
+The q effective potential is minimized when the effective force vanishes, equation 1.19 we have 65GmM l 2 l 2 = q ⇒ r = q = p .
+(2.24) r2 mr3 Gm 2M The value of the effective potential at this point, which gives the minimum physically allowed value of the total energy is l 2 GmM l 2 E =U (r = p) = q - = - q , min eff 2mp2 p 2mp2 (2.25) 1 GmM = ” - E , 2 p scale where we have defined a scale energy that is the absolute value of the minimum energy.
+Referring back to our equation for E in terms of ε and p. Equation 2.19, we see that E = E (e 2 - 1) (2.26) Scale With E and E in hand, let’s consider the various cases.
+Examples are illustrated in figure min scale 2.1 below • E/E < - 1:not physically allowed.
+scale • E/E = - 1:Equation 2.26 tells us that E=-E corresponds to ε2 = 0.
+Since the scale scale eccentricity vanishes.
+The solution from Equation 2.15 is p = r for all θ; i.e.
+the orbit is a circle.
+This is as one would expect from the effective potential that if the solution is at minimum of the effective potential then, there is no radial force.
+The conic section solution is elliptical (because ε2 < 1) and the semimajor axes are equal a=b=p as one would expect for a circle.
+• −1 < E/E < 0: Because the energy remains negative, Equation 2.26 implies that scale 0 < ε2 < 1 and the conic section solution is an ellipse.
+As the energy increases, the eccentricity of the ellipse increases.
+Remember that the center of mass coincides with one of the foci of the ellipse.
+The center of the ellipse x and the second focus 2x move off to c c - ¥ as e ﬁ 1.
+• E/E = 0: For this solution, equation 2.26 tells us that ε2=1.
+Our derivation of the conic scale section form fails here because the coefficient of the x2 term vanishes, but we can return to the Cartesian form of the solution to find 2px+ y2 - p2 = 0 p y2 (2.27) x = - 2 2p This is a parabola whose vertex is at p/2, whose focus is at the origin, and whose directrix is at p. Recall that the directrix is the line perpendicular to the axis of the parabola such that the parabola consists of the set of points equidistant from the focus and the directrix.
+The system is just barely not bound, with the radial kinetic energy and velocity approaching zero as r ﬁ ¥ , because the total energy vanishes and the effective potential energy approaches zero as r ﬁ ¥ .
+• E/E > 0: For this solution, equation 2.26 gives ε2 > 1.
+The conic section is a scale hyperbola.
+A hyperbola has two branches.
+Because the polar form of the solution, Equation 2.15 implies a one-to-one relationship between r and q , only one branch of the hyperbola can be a valid solution.
+Intuitively, based on continuously transforming the eccentricity, we expect this to be the left branch.
+We can see this explicitly as follows.
+The left and right branches are distinguished by the fact that the former has regions with x < 0, while the latter does not.
+In order to have negative values of x, q must be allowed to go outside the range (-π/2, +π/2).
+A restriction on θ is placed by the requirement that r 1 be positive, which translates to the requirementcosq ‡ - .
+Since ε2 > 1 (and ε is taken e to be positive always), this defines a maximum value of q that is between π/2 and π.
+66Hence, x is allowed to be negative, and so the left branch solution is the appropriate one.
+For the hyperbolic solution, there is only one turning point, which is the x turning point.
+1 Let’s consider the evolution of the solution with ε.
+One focus of the hyperbola always remains at the origin.
+The “center” of the hyperbola, x , starts out at +1 and moves in c toward the origin as ε gets larger, with x ﬁ 0 in the limit e ﬁ ¥ .Thus, the hyperbola c continuously transforms from a parabolic-like orbit to a straight vertical line, with the turning point x moving closer to the origin as ε increases.
+These solutions are definitely 1 not bound.
+They in fact have excess kinetic energy so that, as r ﬁ ¥ , the radial kinetic energy (and hence radial velocity) remains non zero.
+A Note on Repulsive Potentials.
+While we have so far considered only attractive potentials, it is straightforward to translate the above solution to the case of repulsive potentials.
+We will see that, for a given energy E, we obtain the same hyperbola as for the attractive potential, but we must choose the right branch, not the left branch.
+Figure 2.1: Example Keplerian orbits.
+The left and right figures have identical orbits; only the l 2 axis range is different.
+All these orbits have q and p = 1, so they have the same angular 2m momentum (same centrifugal barrier) but different total energies.
+The scale factor for the energy l 2 q is therefore also 1, so E = 1 and the various orbits have energy E = ε2 − 1.
+The legend 2mp scale is, in order of increasing eccentricity: ε = 0 (red), ε = 0.25 (green), ε = 0.5 (blue), ε = 1 (cyan), ε = 2 (magenta), ε = 4 (yellow).
+The center of each orbit (x ) is shown by the diamond of the c same color, and the second focus by the squares.
+The first focus of all orbits is at the origin.
+The second branch of the hyperbolic orbits is not shown.
+The repulsive potential solution can be obtained from the attractive potential solution by simply taking GµM < 0 and making use of the physical fact that only E > 0 is allowed for a repulsive potential.
+Let’s go through the derivation with these changes.
+First, the solution for u becomes Gm 2M ( ) u q = Acosq - .
+(2.28) l 2 q Since u ‡ 0is required, the solution must have A > 0 and is only valid for some range of q .
+Keeping our original definition of p (which now implies p < 0), our polar form of the solution is p =1+e cosq .
+(2.29) r 67Since p < 0 and A > 0, we have ε= pA < 0 also.
+Since p < 0, the solution is valid only when the right side is less than zero.
+(Originally, our requirement was that the right side be greater than 1 1 zero because both p and r were positive.)
+The region of validity is given bycosq ‡ - = .
+For e e there to be any region of validity, we must have |ε| > 1, which implies that only hyperbolic solutions will be allowed.
+Furthermore, the region of validity has cosq >0, so we must use the right branch of the hyperbolic solution we obtained.
+The conversion from polar to Cartesian coordinates goes as before, as does the completion of the square.
+So the hyperbolic solution is still valid, as are the formulae for x , a, b, and f. x has the same sign as in the attractive c c hyperbolic case (since the sign flips in ε and p cancel each other), a and b change sign (a > 0, b < 0 for all repulsive solutions).
+Because x does not change sign, the foci are in the same place as c the attractive hyperbolic case.
+The sign flips in a and b do not affect the shape of the hyperbola since only a2 and b2 enter in the conic section formula.
+Thus, we have the exact same hyperbola as in the attractive case, except that the restriction on q implies that we must now take the right branch, not the left branch.
+This also means that the turning point is now x , not x .
+2 1 The energy expressions, equations 2.19 and 2.23, hold without change.
+The starting point for the energy equation, equation 2.18 is insensitive to the sign of ε and p. Equation 2.19 does not change meaning that because the sign flips in GµM and p cancel each other, so |ε| > 1 still gives E > 0 for all repulsive potential solutions.
+Equation 2.23 also keeps its same sign because both GµM and a change sign.
+Intuitively, the change from the left branch to the right branch reflects the fact that an attractive potential turns the trajectory inward toward the center of force while a repulsive potential turns it outward.
+3.2.3 Summary of Quantities The various quantities involved in Keplerian orbits are summarized in Table below.
+Quantity Symbol Formula(e) Sign Significance & Angular Lϴ m r 2q ≥ 0 Centrifugal potential momentum = 0 gives trivial orbit (brings in effect of q motion) Scale E 1 GmM > 0 Scale energy scale energy 2 p = E for attractive potential min Scale radius P l2 > 0 for attractive pot Sets scale of orbit q < 0 for repulsive pot Gm 2M eccentricity Ε E ≥ 0 attractive pot Sets shape of conic section, 1+ E related to ratio of energy to scale E < -1 repulsive pot.
+scale energy - 1 + E scale Orbit center x ep = 0 circular c - 1- e 2 < 0 elliptical =ea > 0 hyperbolic Semimajor A p > 0 circle/ elliptical Distance from x to vertices c axis 1- e 2 < 0 hyperbolic along major axis attractive Semimajor B p > 0 attractive pot.
+Distance from x to vertices c axis < 0 repulsive Pot along major axis – 1- e 2 Turning X p > 0 Turning points of motion 1 points 1+e 2 relative to CM = focus 1 < 0 circle/elliptical apsides for circ./ellip.
+orbits p x - 2 1- e 2 > 0 hyperbolic For hyperbolic orbits, x is the turning point for attractive potentials, x the turning point for 1 2 repulsive potentials 68 Table 2.1: Parameters for Keplerian orbits.
+3.2.4 Time Dependence of the Kepler Problem Solutions So far we have only found the orbit solutions as functions r(q ).
+This of course describes much of the dynamics of the problem.
+But one does indeed frequently want the orbit as a function of time, so we obtain that result here.
+Period of Elliptical Orbits We can quickly obtain the period of elliptical orbits by using Kepler’s second law, Kepler’s second law tells us that dA l = q .
+(2.30) dt 2m The area of the ellipse is A=pab, so the period is the time required to sweep out the area of the ellipse, A pab T = = .
+(2.31) dA l q dt 2m Let’s write this in terms of the parameters of the orbit p and ε to obtain Kepler’s third law: p2 1 T = 2mp ( ) 1- e 2 32 m GMp (2.32) a3 = 2p GM The period depends only on a.
+Of course, a encodes information about the total energy E and the angular momentum l .
+The implication of Kepler’s third law for the solar system is that all q orbits should lie on a single T2a a3curve because M, dominated by the sun, is almost the same for all planets.
+Self Assessment Exercise C 1.
+Prove that the scale energy is absolute value of minimum energy and that E = E (e 2 - 1) Scale 2.
+Prove that the Kepler’s law asserts that the period T of the motion and the main radius a of the ellipse satisfy a relation T = Ca3/2, where C is a constant independent of the initial data.
+4.0 Conclusion Kepler tells us not only that the orbit is an ellipse, but also that the sun is at one focus.
+To verify that, note the other focus of an ellipse is symmetrically located, at (−2εa, 0), and work out the sum of the distances of any point on the ellipse from the two foci.
+This will verify that d+r = 2a is a constant, showing that the orbit is indeed an ellipse with the sun at one focus.
+5.0 Summary • The Kepler’s problem 691 When we specialize to U(r)a  , we may obtain more specific results.
+The differential r equation relating r and q or u and q is d2 1 1 Gm 2M d2u Gm 2M  + = +u = .
+dq 2 r r l2 dq 2 l2 q q • The generic solution may be written ( ) Gm 2M l2 u(q ) = Acosq - q + p = r +ercosq p = q e = pA. 0 l2 Gm 2M q We specify two initial conditions (neglecting q ): and the total energy E. The constant A 0 and ε are related to the total energy by l2  Gm 2M  GmM ( ) ( ) E = q A2 -  = e 2 - 1 ” E e 2 - 1 .
+2m  l2  2p scale q • The energy may also be written as GmM E = - 2a • The assorted orbital parameters are summarized in table 2.1 • Kepler’s third law, which tells us that the period of elliptical orbits, is obtained from Kepler’s second law and the area of an elliptical orbit, giving as a3 T = 2p .
+GM • The full time dependence of elliptical orbits can be obtained through use of the eccentric anomaly, ε, which is defined implicitly in terms of the true anomaly, q .
+One begins with r(q )cosq = x = x +acose c and one obtains ( ) r(e) = a(1- e cose) t(e) = GMa3 e - e sine x(e) = a(cose - e) y(e) = a 1- e 2 sine .
+• An analogous parametization can be done for parabolic orbits, though the geometrical interpretation of the eccentric anomaly is no longer valid.
+Beginning with ( ) r(e) = a(e coshe m1) t(e) = GMa3 e sine me x(e) = a(e mcoshe) y(e) = a 1- e 2 sine where the upper signs are for an attractive orbit and the lower signs for a repulsive one.
+6.0 Tutor Marked Assignments (TMAs) 1.
+Use q -component of Lagrangian equation to prove Kepler’s second law.
+2.
+Use r-component of Lagrange’s equation to prove Kepler’s first law.
+3.
+Use the second Kepler’s law and the expression for the angular momentum to prove Kepler’s third Law.
+4.
+Derive the equation of a conic section and describe the shape for p > 0, p = 0 and p < 0.
+5.
+Derive the equation for a conic section of an orbit and discuss the nature of the curve for every possible value of e. 6.
+Prove that the scale energy is absolute value of minimum energy and that E = E (e 2 - 1).
+Scale 7.
+Prove that the Kepler’s law asserts that the period T of the motion and the main radius a of the ellipse satisfy a relation T =Ca3/2 where C is a constant independent of the initial data.
+707.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+71UNIT 3 SCATTERING CROSS SECTIONS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Setting up the Problem 3.1.1 Initial Conditions 3.1.2 Scattering Angle 3.2 The Generic Cross Section 3.2.1 Incident Beam 3.2.2 Differential Cross Section 3.2.3 Total Cross Section 3.2.4 Calculating b(q ) s 1 3.3 Potential r 3.3.1 Finding b(q ) s 3.3.2 Calculating the Differential Cross Section 3.3.3 The Total Cross Section 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading and Other Resources 1.0 Introduction Now that we have studied central force motion, obtaining qualitative results for arbitrary potentials and specific results for 1 potentials, we have information about the dynamics of r collisional interactions.
+We can use this to develop the concept of scattering cross section, which intimately uses the kinematics of collisions and the orbit information from central force motion.
+The archetypal scattering problem, we will consider is one involving a particle incident on a force center that scatters the incident particle via a conservative central force with potential U(r).
+We have demonstrated that, a two-particle system interacting via a conservative central force is equivalent to such a system when considered in its center-of-mass frame.
+2.0 Objectives After studying this unit, you will be able to: • State the expression for energy of a system of particle incident on a force center subject to a scattering potential.
+• Calculate the differential cross section.
+• Calculate the total cross section.
+3.0 Main Contents 3.1 Setting up the Problem 3.1.1 Initial Conditions 72As noted, we consider a particle incident on a force center subject to a scattering potential.
+It is assumed that the particle is asymptotically free, having enough energy to be in an unbound orbit.
+In order to have unbound orbits, the potential energy must go to zero at large r. The energy of the system is therefore 1 E = m v 2 , (3.1) ¥ 2 where v is the asymptotic particle speed asr ﬁ ¥ .
+We will use v to parametize the initial ¥ ¥ energy of the system, v only specifies an energy.
+We must also specify the geometry.
+The only ¥ free parameter left is l , which we can see specifies the geometry as follows.
+Since the system is θ unbound, the trajectory must become straight lines at large radii, reflecting the incoming and outgoing velocity vectors.
+For example, for a 1 potential, we know that the ingoing and r outgoing velocity vectors define the asymptotes of the hyperbolic orbit.
+We can calculate the distance between the scattering center and these straight lines where they come closest to the scattering center.
+This distance is defined to be the impact parameter, usually associated with the symbol b.
+This is displayed in Figure 3.1 below.
+The small line from the center to the dotted line r r is the impact parameter.
+The impact parameter is related to l .
+We know that l = r· mr&.
+At θ q r r r = ¥ , we know that r& points in the direction along the asymptote and r points to the origin, so r r r the angle between r and r& which we call g is subtended by the impact parameter b. r& is shown approximately in Figure 3.1 by the line that extend from the center to the -10 point.
+So, l = rm v sing = mv b (3.2) q ¥ ¥ l specifies the geometry through b, which fixes the position of the asymptote (v ) relative to θ ¥ the scattering center.
+3.1.2 Scattering Angle In Figure 3.1, the scattering angle, q , is the angle between the incoming and outgoing velocity s vectors.
+q is determined by E and l or equivalently v and b, and the form of the potential s θ ¥ function.
+Figure 3.1: Scattering impact parameter illustration (where q is the Scattering angle herein represented as q ) * s 73Self Assessment Exercise A 1.
+Derive the expression of the angular momentum of the particle incident on a force center subject to a scattering potential in terms of µ, E and b 3.2 The Generic Cross Section 3.2.1 Incident Beam Now that we have made our definitions, let us bring in the concept of differential cross r section.
+Suppose we have a beam of incoming particles, all with same velocityv .
+Let the flux ¥ .
+of particles F be the number of particles passing through a unit area in a unit time.
+If the beam has particle number density n, then the flux is F = nv (3.3) ¥ Assume that the beam has a circular cross section and the axis of the beam points directly at the scattering center.
+The incoming particles will thus have a range of impact parameter values, ranging from b = 0 (along the beam axis) to b = b (at the outer edge of the beam).
+The beam max radius is b and its cross-sectional area isA =pb2 .
+max max 3.2.2 Differential Cross Section The incident particles in the beam will be scattered into a range of angles depending on their input impact parameters (and the beam velocity).
+We define the differential scattering cross ds section, (q ,f ), via the probability of an incident particle being scattered into the solid dW s s angle dΩ in the direction (q ,f ) where q is the polar angle measured from the beam axis and s s s f is the azimuthal angle around the beam axis.
+If dN(q ,f ) is the number of particles per unit s s s time scattered into the solid angle dW at (q ,f ), we define the differential cross section via the s s relation 1 ds dN(q ,f ) (q ,f )dW = s s .
+(3.4) A dW s s FA Let us explain the above.
+On the right hand side of the first line, the denominator is the number of particles per unit time incident on the target from a beam of flux F and cross-sectional area A.
+Since the numerator is the number of particles per unit time that scatter into dW at (q ,f ), the s s right hand side is thus the fraction of particles that scatter into dW at (q ,f ); it is a probability.
+s s ds We include additional factors so that is defined only by the scattering force, not by dW parameters of the experiment.
+We have 1/F on the right hand side but none on the left side because including the 1/F makes the ratio dN/F independent of F: if F goes up, dN goes up proportionally.
+However, we include 1/A on the left hand side to cancel the 1/A on the right side because dN(q ,f )may not scale with A: if one adds cross-sectional area at a radius from which s s particles do not scatter into the particular solid angle dW at (q ,f ), dN(q ,f )will not increase s s s s when A increases.
+Hence the different treatment of F and A.
+Solving for the differential cross section gives ds 1 dN(q ,f ) (q ,f ) = s s .
+(3.5) dW s s F dW ds The beam area A has dropped out, has units of area per steradian; hence the name cross dW section.
+If we assume central force scattering, the problem is azimuthally symmetric about the beam axis and we may integrate over f so that dΩ = 2πsin θ dθ .
+Furthermore, we know for s s s central force scattering that there is a one-to-one correspondence between b and θ for a givenv .
+s ¥ Therefore, the particles scattering into the interval dq in polar angle come from some range db s 74in impact parameter.
+Azimuthal symmetry of the problem allows us to integrate over azimuthal angle in the beam also.
+We may relate db and dq by requiring conservation of particle number: s ds F2pbdb = - F 2p sinq dq .
+(3.6) dW s s A negative sign has been inserted under the assumption that the potential decreases in strength monotonically with radius: if you increase the impact parameter a little bit, the scattering angle should decrease, so a positive db implies a negative dq .
+Re-writing, we have s ds b db = .
+(3.7) dW sinq dq s s That is, if we know the function b(q ,v ), then, we can determine the distribution of particles in s ¥ scattering angle given a uniform incoming beam.
+3.2.3 Total Cross Section ds Once one has calculated , it is formally a straightforward thing to calculate the total cross dW section: ds p ds ¥ s = ∫dW = 2p ∫dq sinq = 2p ∫dbb .
+(3.8) dW s s dW 0 0 As one would expect, the total cross section is related to the probability that an incoming particle will be scattered to any angle.
+It can be viewed as a total “effective area” of the scattering center; the number of particles in the incoming beam that will be scattered is the same as if every particle within the central σ of the beam were scattered and all others left untouched.
+3.2.4 Calculating b(q ) s For a generic central potential, we can obtain a formula relating b and q by returning to the s integral relations that define the orbit.
+Recall equation 1.34: r dr¢  l 2- 12 q (r)- q (0) = – l ∫ 2m (E - U(r)- q  (3.9) q r 2  r¢ 2 r(0) q is not q , but it is related to it.
+Referring back to our scattering picture above, the scattering s angle q is the complement of the angle between the incoming and outgoing asymptotes.
+The s angle between the asymptotes is related to the orbit angle as r ﬁ ¥ .
+For repulsive scattering, the angle between the asymptotes is justq - q , where these are the asymptotic orbit angles for out in the incoming and outgoing particles.
+For attractive scattering, since q is measured from the +x- axis, the angle between the asymptotes is 2p - q - q .
+So the scattering angle is out in ( ) q = m 2p - q - q (3.10) s out in where – (negative) goes with the attractive potential.
+Next, q - q is twice the angle between out in q or q and q = 0. q = 0 is obtained when r = r , the turning point.
+So we have out in min  ¥ dr¢  l 2 - 12  q s = mp - 2lq ∫ [r¢(t)]2 2m (E - U(r)- rq¢ 2   r  min (3.11)  ¥ bdr¢  U(r) b2 - 12  = m p - 2 ∫ 1- -  .
+ r¢ 2  E r¢ 2   r  min 75Self Assessment Exercise B ds b db 1.
+Given the differential cross section = Calculate the total cross section and dW sinq dq s s the b(q ).
+s 1 3.3 Potential r 1 For the potential, we can find the differential cross section explicitly because we have r explicit relationships between q and r 3.3.1 Finding b(q ) s We demonstrated earlier that the azimuthal angle q of the orbit relative to the center of 1 mass is limited to be cosq > this gives us q and q e out in  1 q = – arccos-  (3.12) out,in  e  where q = - q and the choice of sign for q depends on initial conditions.
+So we have out in in  1 q - q = 2arccos-  out in  e  (3.13)   1 = 2arccosm   e    where the – (negative) is for an attractive potential.
+So we have   1  1 1 q q = mp - 2arccosm  =p - 2arccos = sin s (3.14) s   e  e e 2 where the two different potentials have yielded the same result.
+With some works, we can write b in terms of ε.
+Starting with equation 2.19, we have l 2 this can be re-written E = q (e 2 - 1) 2mp2 mp m = (e 2 - 1) l 2E .
+(3.15) q l m Then, q = e 2 - 1 GmM 2E GmM We have mv b = e 2 - 1.
+(3.16) ¥ 2E/m GmM that is b = e 2 - 1.
+(3.17) 2E So we may now find b(q ): s GmM q GmM q b = csc2 s - 1 = cot s , (3.18) 2E 2 2E 2 q p where we take positive square root because 0< s < .
+2 2 763.3.2 Calculating the Differential Cross Section db We will need to calculate the differential cross section, so, taking the derivative: dq s db 1GmM q b q q = csc2 s = csc s sec s .
+(3.19) dq 2 2E 2 2 2 2 s Finally, using our formula for the differential cross section: ds b db b2 q q GmM 2 1 = = csc2 s sec2 s =  .
+(3.20) dW sinq dq 4 2 2  4E  q s s sin4 s 2 Note that the result is independent of whether the scattering is attractive or repulsive.
+This result is the well known Rutherford scattering formula, first observed in the scattering of α particles (4He nuclei) from gold nuclei in a foil.
+The observation that the scattering obeyed the simple 1 expectation of a potential was an important piece of evidence that the atom consists of a r charged nucleus surrounded mostly by empty space, as opposed to a “plum pudding” type model with electrons and protons intermixed uniformly in the atom.
+3.3.3 The Total Cross Section If one tries to calculate the total cross section from the Rutherford formula, one will end 1 up with an infinite result.
+This is because, for a potential, the probability of scattering does not r decrease sufficiently quickly with increasing b because the effective area of the scattering center is infinite.
+If the potential is made to converge more quickly (e.g., by multiplying be an exponential decay), then a finite total cross section is obtained.
+Self Assessment Exercise C 1 1.
+Derive the b(q ), the differential cross section and total cross section for the potential s r 4.0 Conclusion We have discussed the 1/r potential in terms of Newtonian gravity but of course it is equally applicable to Coulomb’s law of electrostatic forces.
+5.0 at infinity SUMMARY • For central-force scattering problems, we generally considered unbound central-force orbits, rather than parametizing in terms of energy E and angular momentum l , we use q the velocity v and the impact parameter b (distance of closest approach to scattering ¥ center).
+These parameter are related by 1 E = mv2 l = mv b, ¥ q ¥ 2 • We usually phrase scattering in terms of an incoming beam of particles of number flux F = nv .
+¥ • The differential scattering cross section gives us the area of the beam that will be scattered into a solid angle dW : ds 1 dN = .
+dW F dW • The differential cross section can be found if the relationship between the input impact parameter and the scattering angle q (the angle between the incoming and outgoing s trajectories) is known 77ds b db = .
+dW sinq dq s s • The total scattering cross section, which gives us the effective area of the scattering center, is ds p ds ¥ s = ∫dW = 2p ∫dq sinq = 2p ∫dbb.
+dW s s dW 0 0 • The scattering angle is calculated from the potential function via  bdr¢  U(r) b2 - 12  q = m p - 2∫ 1- -  s  r¢ 2  E r¢ 2    k • For a potential U(r) = – , the relationship between impact parameter and scattering r angle and the differential cross section are given by k q ds  k 2 1 b = cot s =   .
+2E 2 dW 4E sin4qs 2 The relative sign between b and q is chosen based on whether the potential is attractive s or repulsive (E > 0 always for unbound orbits) 6.0 Tutor Marked Assignments (TMAs) 1.
+Consider a spherical droplet of water in the sunlight.
+A ray of light with impact parameter b is refracted, so by Snell's Law n sin β = sinα.
+It is then internally reflected once and refracted again on the way out.
+a) Express the scattering angle q in terms of a and b .
+b) Find the scattering cross section dσ = dΩ as a function of q , a and b (which is implicitly a function of q from (a) and Snell's Law).
+c) The smallest value of q is called the rainbow scattering angle.
+Why?
+Find it numerically to first order in d if the index of refraction is n = 1:333 + d .
+d) The visual spectrum runs from violet, where n = 1:343, to red, where n = 1:331.
+Find the angular radius of the rainbow's circle, and the angular width of the rainbow, and explain whether the red or blue is on the outside.
+2.
+Consider the case of a projectile particle of mass µ being deflected by a repulsive central force potential U(r) > 0.
+As the projectile particle approaches from the right (at r = ¥ , ϴ = 0) moving with speed u, it is progressively deflected until it reaches a minimum radius r at q = c after which the projectile particle moves away from the repulsion center until it reaches r = ¥ at a deflection angle q and again moving with speed u.
+From the Figure 78shown below, we can see that the scattering process is symmetric about the line of closest approach.
+Define the angle c in terms of impact parameter b, m and E (total energy).
+7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+79Module 4 Motion in Non-Inertial Reference Frame Unit 1 Time Derivative in Fixed and Rotating Frames Unit 2 Motion Relative to Earth UNIT 1 TIME DERIVATIVES IN FIXED AND ROTATING FRAMES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Time Derivatives in Fixed and Rotating Frames 3.2 Accelerations in Rotating Frames 3.3 Lagrangian Formulation Of Non-Inertia Motion 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading and Other Resources 1.0 Introduction A non-inertial reference frame is a reference frame that is not tied to the state of motion of an observer, with the property that each physical law portrays itself in the same form in every inertial frame.
+As such, the laws of physics in such a frame do not take on their most simple form, as required by the special principle of relativity.
+To explain the motion of bodies entirely within the viewpoint of non-inertial reference frames, fictitious forces (also called inertial forces, pseudo-forces and d'Alembert forces) must be introduced to account for the observed motion, such as the Coriolis force or the centrifugal force, as derived from the acceleration of the non- inertial frame 2.0 Objectives After studying this unit, you will be able to: • Derive the time derivatives of vector A in fixed and rotating reference frame.
+• State the expressions for translational velocity and acceleration, V and A respectively.
+• Determine the relationship between the velocities of fixed and rotating reference frame.
+• Show the relationship between the acceleration of fixed and rotating reference frame.
+3.0 Main Contents 3.1 Time Derivatives in Fixed and Rotating Frames Let us consider the time derivative of an arbitrary vector A in two reference frames.
+The first reference frame is called the fixed frame and is expressed in terms of the Cartesian coordinates r¢ = (x¢;y¢;z¢) .
+The second reference frame is called the rotating frame and is expressed in terms of the Cartesian coordinates r = (x; y; z).
+In the Figure below, the rotating frame shares the same origin as the fixed frame and the rotation angular velocity ω of the rotating frame (with respect to the fixed frame) has components (ω , ω , ω ).
+x y z 80 figure 1.1 Since observations are often made in a rotating frame of reference, we decompose the vector A in terms of components A in the rotating frame (with unit vectorsxˆi).
+Thus, A=Axˆi (using i i the summation rule) and the time derivative of A as observed in the fixed frame is dA dA dxˆi = i xˆi +A .
+(1.1) dt dt i dt The interpretation of the first term is that of the time derivative of A as observed in the rotating frame (where the unit vectorxˆi are constant) while the second term involves the time dependence of the relation between the fixed and rotating frames.
+We now express dxˆi /dt as a vector in rotating frame as dxˆi = Rijxˆ =e ijkw xˆ , (1.2) dt j k j where R represents the rotation matrix associated with the rotating frame of reference; this rotation matrix associated is anti-symmetric (Rij =-Rji) and can be written in terms of the anti- symmetric tensor εijk (defined in terms of the vector product A· B=ABe ijkxˆ for two i j k arbitrary vectors A and B) as Rij =e ijkw (see appendix) where ω denotes the components of the k k angular velocity ω in the rotating frame.
+Hence, the second term in equation 1.1 above becomes dxˆi A =Ae ijkw xˆ =w · A.
+(1.3) i dt i k j This time derivative of an arbitrary rotating frame vector A in a fixed frame is, therefore expressed as dA dA   =  +w · A, (1.4)  dt   dt  ( ) f r ( ) d d where denotes the time derivative as observed in the fixed (f) frame while denotes dt dt f r the time derivative as observed in the rotating (R) frame.
+An application of this formular relates to the time derivative of the rotation angular velocity ω itself.
+One can easily see that dw  dw    =w& =   .
+(1.5)  dt   dt  f r Since the second term of equation 1.4 above vanishes for A = ω; the time derivative of ω is, therefore, the same in both frames of reference and is denoted w& in what follows.
+Self Assessment Exercise A 1.
+Show that the time derivative of ω is the same in both fixed and rotating frame of reference 813.2 Accelerations in Rotating Frames We now consider the general case of a rotating frame and fixed frame being related by translation and rotation.
+figure 1.2 In the figure 1.2 above, the position of a point P according to the fixed frame of reference is labeled r¢ , while the position of the same point according to the rotating frame of reference is labeled r, and r¢ = R+r, where R denotes the position of the origin of the rotating frame according to the fixed frame.
+Since the velocity of the point P involves the rate of change of ( ) ( ) d d position, we must now be careful in defining which time-derivatives operator, or dt dt f r that is to be used.
+The velocities of point P as observed in the fixed and rotating frames are defined as dr¢  dr v =   and v =  (1.6) f  dt  r dt  f r respectively.
+Using equation 1.4 the relationship between the fixed frame and rotating frame velocity is expressed as dR dr v =   +  =V +v +w · r, (1.7) f  dt   dt  r f f dR where V =   denotes the translation velocity of the rotating-frame origin (as observed in  dt  f the fixed frame).
+Using equation 1.7 above, we are now in a position to evaluate expressions for the acceleration of point P as observed in the fixed and rotating frames of reference dv  dv  a =  f  and a = r  (1.8)   f  dt  r  dt  f r respectively.
+Hence, using equation 1.7 we find dV  dv  dw  dr a =   + r  +  · r +w ·   f  dt   dt   dt   dt  (1.9) f f f f = A+(a +w · v )+w&· r +w · (v +w · r), r r r or a = A+a +2w · v +w&· r +w · (w · r), (1.10) f r r 82dV  where A =   denotes the translational acceleration of the rotating frame origin (as  dt  f observed in the fixed frame of reference).
+We can now write an expression for the acceleration of point P as observed in the rotating frame as a = a - A- w · (w · r)- 2w · v - w&· r, (1.11) r f r which represent the sum of the net inertial acceleration (a –A), the centrifugal acceleration f ( ) - w · w · r (see figure below) figure 1.3 the coriolis acceleration - 2w · v r figure 1.4 and an angular acceleration term - w&· rw which depends explicitly on the time dependence of the rotation angular velocity ω.
+The centrifugal acceleration (which is directed outwardly from the rotation axis) represents a familiar non-inertial effect in Physics.
+A less familiar non-inertial effect is the Coriolis acceleration.
+The Figure 1.4 above shows that an object falling inwardly also experiences an eastward acceleration.
+Self Assessment Exercise B 1.
+Given the figure 2.1 above determine the relationship between acceleration between fixed and rotating reference frame.
+2.
+Make sure you have a good understanding of differentiation and integration 3.3 Lagrangian Formulation Of Non-Inertia Motion The Lagrangian for a particle of mass m moving in a non-inertial rotating frame (with its origin coinciding with the fixed-frame origin) in the presence of the potential U(r) is expressed as m L(r,r&) = r&+w · r 2 - U(r), (1.12) 2 where ω is the angular velocity vector and we use the formula [ ] r&+w · r 2 = r&2 +2w (cid:215) (r· r&)+ w 2r2 - (w (cid:215) r)2 .
+(1.13) 83Using the Lagrangian (equation 2.1), we now derive the general Euler-Lagrange equation for r. First, we derive an expression for the canonical momentum ¶ L P = = m(r&+w · r), (1.14) dr& d ¶ L and   = m(r&&+w&· r +w · r&).
+(1.15) dt¶ r& Next we derive the partial derivative ¶ L [ ] = (cid:209)- U(r)- mw · r&+w · (w · r), (1.16) ¶ r so that the Euler-lagrange equation are [ ] mr&&= -(cid:209) U(r)- mw&· r+2w · r&+w · (w · r) .
+(1.17) Here, the potential energy term generates the fixed-frame acceleration, - (cid:209) U = ma and the f Euler-Lagrange equation 2.7 yields equation 1.11 Self Assessment Exercise C 1.
+State the Lagrangian for a particle moving in a non-inertia rotating frame and the corresponding Lagrange’s equation of motion 4.0 Conclusion This time derivative of an arbitrary rotating frame vector A in a fixed frame is, therefore expressed as ( ) dA dA   =   +w · A, where d denotes the time derivative as observed in the dt  dt   dt  f f r( ) d fixed (f) frame, while denotes the time derivative as observed in the rotating (R) frame.
+dt r An application of this formular relates to the time derivative of the rotation angular velocity ω itself.
+One can easily see that dw  dw    =w& =   .
+Since the second term of equation  dt   dt  f r above vanishes for A = ω; the time derivative of ω is, therefore, the same in both frames of reference and is denoted as w& .
+5.0 Summary • A non-inertial reference frame is a reference frame that is not tied to the state of motion of an observer, with the property that each physical law portrays itself in the same form in every inertial frame.
+• The first reference frame is called the fixed frame and is expressed in terms of the Cartesian coordinatesr¢ = (x¢;y¢;z¢).
+• The second reference frame is called the rotating frame and is expressed in terms of the Cartesian coordinates r = (x; y; z).
+• This time derivative of an arbitrary rotating frame vector A in a fixed frame is, therefore expressed as dA dA   =   +w · A  dt   dt  ( ) f r d where denotes the time derivative as observed in the fixed (f) frame while dt ( ) f d denotes the time derivative as observed in the rotating (R) frame.
+dt r 84• The velocities of point P as observed in the fixed and rotating frames are defined as dr¢  dr v =   and v =  .
+f  dt  r dt  f r • Expressions for the acceleration of point P as observed in the fixed and rotating frames of reference is dV  a = A+a +2w · v +w&· r +w · (w · r), where A =   denotes the f r r  dt  f translational acceleration of the rotating frame origin.
+• The Lagrangian for a particle of mass m moving in a non-inertial rotating frame (with its origin coinciding with the fixed-frame origin) in the presence of the potential U(r) is expressed as m L(r,r&) = r&+w · r 2 - U(r).
+2 • The Euler-Lagrange’s equation are [ ] mr&&= -(cid:209) U(r)- mw&· r+2w · r&+w · (w · r) .
+6.0 Tutor Marked Assignments (TMAs) 1.
+Given the following parameter of a rotating reference frame, r=10t+3, ω=6t2+4t+5.
+Determine the following: i) Centrifugal acceleration, ii) Coriolis acceleration, iii) Centripetal acceleration.
+2.
+For a fixed and rotating reference frame associated with translation and rotation as depicted in fig 1.2 if R=5t3+2 Determine the velocity and acceleration of the fixed reference frame?
+3.
+Find the Lagrangian and the corresponding Lagrange’s equation of motion for a particle of mass m moving in non-inertia reference frame.
+7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+85UNIT 2 MOTION RELATIVE TO EARTH CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Contents 3.1 Motion relative to earth 3.2 Free-Fall Problem 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading and Other Resources 1.0 Introduction We can now apply the expressions developed in unit 1 of this module above to the important ¢ case of the fixed frame of reference having its origin at the center of Earth (point O in the figure 2.1 below) and the rotating frame of reference having its origin at latitude λ and the longitude ψ (point O in the figure below).
+We notes that the rotation of the Earth is now represented as ψ = ω and that w& = 0.
+2.0 Objectives After studying this unit you will be able to: • Represent the rotation of the earth in terms of fixed frame of latitude angle λ and the azimuthal angle ψ.
+• State the expression for acceleration of a point as observed in the rotating frame O.
+• State the expression for pure gravitational acceleration in the rotating frame of the Earth.
+• Solve related problems.
+3.0 Main Contents 3.1 Motion relative to earth figure 2.1 86We arrange the (x, y, z) axis of the rotating frame so that the z-axis is a continuation of the r position vector R of the rotating-frame origin, i.e.
+R = Rzˆ in the rotating frame (where R=6378km is the Earth radius assuming a spherical Earth).
+When expressed in terms of the fixed-frame latitude angle λ and the azimuthal angle ψ, the unit vector zˆ is zˆ = cosl (cosy xˆ¢ +siny yˆ¢)+sinlzˆ¢ .
+(2.1) Likewise, we choose the axis to be tangent to a great circle passing through the North and South poles, So that xˆ = sinl (cosy xˆ¢ +siny yˆ¢)+coslzˆ¢ .
+(2.2) Lastly, the y axis is chosen such that yˆ = zˆ· xˆ = - siny xˆ¢ +cosy yˆ¢ .
+(2.3) We now consider the acceleration of a point as observed in the rotating frame O by writing equation 1.11 as d2r = g - R&& - w · (w · r)- 2w · dr .
+(2.4) dt2 0f f dt The first term g represent the pure gravitational acceleration due to the gravitational pull of 0f the Earth on point P (as observed in the fixed located at Earth’s center) and is given as GM g = - r¢ (2.5) 0f ¢ 3 r where r¢ = R+r is the position of point P in the fixed frame and r is the location of P in the rotating frame.
+When expressed in terms of rotating-frame spherical coordinates (t,q ,f ): [ ( ) ] r =t sinq cosfxˆ+sinfyˆ +cosqzˆ , (2.6) the vector r¢ is written as ( ) r¢ = R+t cosq zˆ+t sinq (cosfxˆ+sinfyˆ), (2.7) ( ) and thus, r¢ 3 = R2 +2Rt cosq +t 2 32.
+(2.8) The pure gravitational acceleration is, therefore, expressed in the rotating frame of the Earth as (1+e cosq )zˆ+e sinq (cosfxˆ+sinfyˆ) g = -g  ( )  (2.9) 0f 0r 1+2e cosq +e 2 32  where g acceleration due to gravitational pull on the earth as observed in the rotating frame of or the earth g = GM = 9.789 m /s2 and ε = r/R which is much lesser than 1.
+0r R2 The angular velocity in the fixed frame is w =w zˆ where 2prad w = = 7.27· 10- 5rad/s (2.10) 24· 3600sec is the rotation speed of Earth about its axis.
+In the rotating frame, we find w =w (sinlzˆ- coslxˆ).
+(2.11) Because the position vector R rotates with the origin of the rotating frame, its time derivative yield R& =w · R =(w Rcosl )yˆ (2.12) f R&& =w · R& =w · (w · R) = - w 2Rcosl (coslzˆ+sinlxˆ) (2.13) f f and thus the centrifugal acceleration due to R is R&&= - w · (w · R)=a g cosl (coslzˆ+sinlxˆ), (2.14) 0r where ω2R=0.0337m/s2 can be expressed in terms of pure gravitational acceleration g as 0r w 2R =a g , where a =3.4 x 10-3.
+We now define the physical gravitational acceleration as 0r [ ( )] g = g - w · w · R+r 0f [ ( ) ] (2.15) ( ) =g - 1- a cos2 l zˆ+ a cosl sinl xˆ, 0r 87where terms of order ε have been neglected.
+A plumb line experiences a small angular deviation d (l ) from the true vertical given as g a sin2l tand (l ) = rx = .
+(2.16) g (2- a )+a cos2l rz The function exhibits a maximum at a latitude l defined as cos2l = - a /(2- a ),so that a sin2l a tand = = » 1.7· 10- 3 (2.17) (2- a )+a cos2l 2 1- a p a  or d » 5.86arcmin at l »  + rad = 45.050, we now return to equation 2.4, which is  4 4 written to lowest order in ε and α as d2r dr = - g zˆ- 2w · (2.19) dt2 r dt dr [ ] where w · =w (x&sinl + z&cosl )yˆ - y&(sinlxˆ+coslzˆ) .
+(2.20) dt Thus, we find three component of equation 2.19 written explicitly as &x&= 2w sinly&   &y&= - 2w (sinlx&+coslz&) (2.21)  &z&= - g +2w cosly&  r A first integration of equation 2.21 yields x& = 2w sinly+C  x  y&= - 2w (sinlx+coslz)+C  (2.22) y  z&= - g t +2w cosly+C  r z where (C , C , C ) are constants defined from initial conditions (x , y , z ) and (x& ,y& ,z& ) x y z 0 0 0 0 0 0 C = x&- 2w sinly  x ( 0 ) C = y& +2w sinlx +coslz  (2.23) y 0 0 0  C = z& - 2w cosly  z 0 0 A second integration of equation 2.22 yields t x(t) = x +C t +2w sinl ∫ydt, 0 x 0 t t y(t) = y +C t - 2w sinl ∫xdt- 2w cosl ∫zdt (2.24) 0 y 0 0 1 t z(t) = z +C t - gt2 +2w cosl ∫ydt 0 z 2 0 Which can also be re-written as  x(t) = x +C t +dx(t)  0 x  y(t) = y +C t +dy(t)  (2.25) 0 y  1 z(t) = z +C t - g t2 +dz(t) 0 z 2 r  Where the coriolis drift are  1 t  dx(t) = 2w sinl y t + C t2 +∫dydt,  0 2 y  0 88 1 t   1 1 t  dy(t) = - 2w sinl x t + C t2 +∫dxdt- 2w cosl z t + C t2 - g t3 +∫dzdt, (2.26)  0 2 x   0 2 z 6 r  0 0  1 t  dz(t) = 2w cosl y t + C t2 +∫dydt.
+ 0 2 y  0 Note that each Coriolis drift can be expressed as an infinite series in power of ω and that all Coriolis effects vanish when ω = 0.
+Self Assessment Exercise A 1.
+Derive the constant C , C and C and the coriolis drift.
+x y z 3.2 Free-Fall Problem As an example of the importance of Coriolis effects, we consider the simple free fall problem, where (x ,y ,z ) = (0,0,h) and (x& ,y& ,z& ) = (0,0,0) 0 0 0 0 0 0 So that the constants (equation 2.23) are C = 0 = C and C = 2ωhcosλ x z y Substituting these constants into equation 2.25 and keeping only terms up to the first order in ω, we find x(t) = 0, (2.27) 1 y(t) = g t3w cosl , (2.28) 3 r 1 z(t) = h- g t2.
+(2.29) 2 r Hence, a free falling object starting from rest touches the ground z(T) = 0 after a time T = 2h after which the object has drifted eastward by a distance of g r 1 w cosl 8h3 y(T) = g T3w cosl = .
+(2.30) 3 r 3 g r Self Assessment Exercise B 1.
+State one of the importance of the coriolis effects 2.
+Find the eastward drift of an object falling freely from a height of 100m with a latitude of 450 4.0 Conclusion Expressing x,y,z of a rotating frame of reference having its origin at latitude λ and the longitude ψ (point O in the figure 2.1 above).
+in terms of the fixed-frame latitude angle λ and the azimuthal angle ψ, we derive the x,y,z which are function of t as follows:  x(t) = x +C t +dx(t)  0 z  y(t) = y +C t +dy(t)  where dx(t) , dy(t) and dz(t) are referred to as Coriolis drift 0 y  1 z(t) = z +C t - g t2 +dz(t) 0 z 2 r  and this can be applied to get the drift of an object falling freely from a height.
+5.0 Summary • According to figure 2.1 arrange the (x, y, z) axis of the rotating frame so that the z-axis is r a continuation of the position vector R of the rotating-frame origin, i.e.
+R = Rzˆ in the rotating frame (where R=6378km is the Earth radius assuming a spherical Earth).
+• When expressed in terms of the fixed-frame latitude angle λ and the azimuthal angle ψ, the unit vector zˆ iszˆ = cosl (cosy xˆ¢ +siny yˆ¢)+sinlzˆ¢ while that of x and y-axes are 89xˆ = sinl (cosy xˆ¢ +siny yˆ¢)+coslzˆ¢ , yˆ = zˆ· xˆ = - siny xˆ¢ +cosy yˆ¢ .
+• When expressed in terms of rotating-frame spherical coordinates (t,q ,f ): [ ( ) ] r =t sinq cosfxˆ+sinfyˆ +cosqzˆ.
+• In the rotating frame, we find w =w (sinlzˆ- coslxˆ).
+• The angular velocity in the fixed frame is w =w zˆ where 2prad w = = 7.27· 10- 5rad/s 24· 3600sec • The pure gravitational acceleration is, therefore, expressed in the rotating frame of the Earth as (1+e cosq )zˆ+e sinq (cosfxˆ+sinfyˆ) g = - g  ( )  0f 0r 1+2e cosq +e 2 32  where g = GM/R2 =9.789m/s2 and ε = r/R which is much lesser than 1.
+0r • Because the position vector R rotates with the origin of the rotating frame, its time derivative yield R& =w · R =(w Rcosl )yˆ.
+f • The centrifugal acceleration due to R is R&&= - w · (w · R)=a g cosl (coslzˆ+sinlxˆ) 0r • The physical gravitational acceleration as [ ( )] g = g - w · w · R+r 0f [ ( ) ] ( ) =g - 1- a cos2 l zˆ+ a cosl sinl xˆ.
+0r • The coriolis drift are  1 t  dx(t) = 2w sinl y t + C t2 +∫dydt.
+ 0 2 y  0  1 t   1 1 t  dy(t) = - 2w sinl x t + C t2 +∫dxdt- 2w cosl z t+ C t2 - gt3 +∫dzdt  0 2 x   0 2 z 6  0 0  1 t  dz(t) = 2w cosl y t + C t2 +∫dydt  0 2 y  0 • As an example of the importance of Coriolis effects, we consider the simple free fall problem, where (x ,y ,z ) = (0,0,h).
+0 0 0 6.0 Tutor Marked Assignments (TMAs) 1.
+Find the eastward drift of an object falling freely from a height of 100m with a latitude of 450 7.0 Further Reading and Other Resources Classical Mechanics by H.Goldstein, Narosa Publishing Home, New Delhi.
+Classical Dynamics of Particles and Systems by Marion and Thomtron, Third Edition, Horoloma Book Jovanovich College Publisher.
+Introduction to Classical Mechanics by R.G.Takawale and P.S.Puranik, Tata Mc-Graw Hill Publishing Company Limited, New Delhi.
+90 Appendix Category Typerface Example Scalar Lower case, normal weight, italic s r r Vector Lower case or upper case, normal a or A weight, italic, with arrow r Vector coordinate Lower case, with arrow a i Representation component Unit vector Normal weight, italic, with hat aˆ Tensor coordinate Upper case, A representation Tensor coordinate Upper case, roman, with subscripts A iKi representation component 1 n The following special symbols are defined: d kronecker delta =1 when i=j.
+ij =0 otherwise.
+e Levi-Civita symbol or tensor ijk =1 if i,j,k is an even permutation of 1,2,3 =0 otherwise (two or more of i,j,k are equal) =-1 if i,j,k is an odd permutation of 1,2,3 a. even permutation of 1,2,3 are: 123, 231, 312. b. odd permutation of 1,2,3 are: 321, 213,132. c. repeated indices: 112, 122 and so on Coordinate system Cylindrical The three coordinate are  y r = x2 + y2 f = tan- 1  z = z  x The inverse relations are x = r cosf y = r sinf z = z The area elements are rdrdf drdz rdfdz The volume element is rdrdfdz The line element is ds2 = dr 2 + r 2df 2 +dz2 The unit vectors are rˆ = xˆcosf + yˆsinf fˆ = - xˆsinf + yˆcosf zˆ = zˆ Spherical The three coordinates are:  y z r = x2 + y2 + y2 f = tan- 1  q =cos- 1   x r The inverse relations are x = rsinq cosf y = rsinq sinf z = rcosq The area elements are rsinqdrdf rdrdq r2sinqdqdf 91The volume element is r2sinqdrdqdf The line element is ds2 = dr2 +r2dq 2 +r2sin2qdf 2 The unit vectors are rˆ = xˆsinq cosf + yˆsinq sinf + zˆcosq fˆ = - xˆsinf + yˆcosf qˆ = xˆcosq cosf + yˆcosq sinf - zˆsinq .
+Vector and Tensor Definitions and Algebraic Identities Dot and Cross Products r r r r a(cid:215) b = abcos(a,b) =d a b = AB r r r r ijr i j i j a· b = nˆAB(a,b) =e e A B = AB , r r ijkri j rk i j r where (a,b) is the angle from a to b and nˆ is the unit vector normal to the plane defined by a, r b , and the right-hand rule, and the secondary expression using vector components hold in rectangular coordinates.
+Algebraic Identities r (r r) r (r r) r (r r) rrr a(cid:215) b· c =b(cid:215) c· a =c(cid:215) a· b ” abc r (r r) (r r)r (r r)r a· b· c = a(cid:215) c b - a(cid:215) b c (r r) (r r) r [r (r r)] r [(r r)r (r r)r] (r r)( r) (r r)(r r) a· b (cid:215) c· d = a(cid:215) b· c· d = a(cid:215) b(cid:215) d c - b(cid:215) c d = a(cid:215) c b(cid:215) d - a(cid:215) d b(cid:215) c (r r) (r r) [(r r) r]r [(r r) r]r (rrr)r (rrr)r (rrr)r (rrr)r a· b · c· d = a· b (cid:215) d c - a· b (cid:215) c d = abd c - abc d = acd b - bcd a. r Note that, if any of the vectors are the gradient vector (cid:209) , care must be taken in how the above r expressions are written out to ensure (cid:209) acts on the appropriate vectors.
+Any two quantities that r commute in the above should be commuted as necessary to get reasonable behavior of (cid:209) .
+But in some cases, even that may not be sufficient and you will have to keep track of which vector r r r should be acted on by (cid:209) .
+A good example is the second line when b =(cid:209) .
+In the simple case of r r a being constant, one simply needs to move the b in the first term: r (r r) r(r r) (r r)r a· (cid:209) · c =(cid:209) a(cid:215) c - (cid:215)a (cid:209) c r r But if a depends on position and does not give zero when acted on by (cid:209) , then the above must r r be read with care.
+One has to somehow remember that (cid:209) should not be allowed to act on a r since it does not act on a in the original expression.
+Since the above expression does not correctly convey that meaning, it is better to abandon the vector notation.
+The completely unambiguous way to write it, using index notation, is [r (r r)] a· (cid:209) · c =∑a (cid:209) c - ∑a (cid:209) c .
+i j i j j j i r j j r r The key point is that in the first term, a is in a dot product with c, but (cid:209) must be allowed to act r r r on c first, and not as (cid:209) (cid:215) c. 92

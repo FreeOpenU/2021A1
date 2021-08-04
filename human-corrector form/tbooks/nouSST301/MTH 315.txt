@@ -1,0 +1,1130 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH315 COURSE TITLE: ANALYTICAL DYNAMICS MTH315 COURSE GUIDE COURSE GUIDE MTH315 ANALYTICAL DYNAMICS Course Team Dr. S.O.
+Ajibola (Developer/Writer) - NOUN Dr. B. Abiola (Coordinator) - NOUN Dr. S.O.
+Ajibola (Co-coordinator) - NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA ii MTH315 COURSE GUIDE National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria First Printed 2011 ISBN: 978-058-405-6 All Rights Reserved CONTENTS PAGE iii MTH315 COURSE GUIDE Introduction …………………………………………………..…….
+1 What you will Learn in this course………………………………… 1 Course Aims …………………………………………………..…… 1 Course Objectives ………………………………………………….
+1 Working through this Course……………………………………….
+2 Course Materials …………………………………………….……... 2 Study Units ……………………………………………….………… 2 Textbooks and References …..…………………………………….. 3 Assignment File…………………………………………………….
+3 Presentation Schedule……………………………………………… 3 Assessment ………………………………………………………… 3 Tutor-Marked Assignment………………………………………….
+4 Final Examination and Grading…………………………………….
+4 Course Marking Scheme…………………………………………… 4 How to Get the Best from this Course……………………………… 4 Facilitators/Tutors and Tutorials…………………………………... 6 Summary…………………………………………………………… 6 iv Introduction MTH315 - Analytical Dynamics is designed to teach you how mathematics could be used in solving problems in the contemporary Science/Technology and Engineering world.
+Therefore, the course is structured to expose you to the skills required to attain a level of proficiency in Analytical Dynamics.
+What you will Learn in this course You will be taught the basics of Analytical Dynamics; an aspect of Applied Mathematics.
+Course Aims There are thirteen study units in the course and each unit has its objectives.
+You should read the objectives of each unit and bear them in mind as you go through the unit.
+In addition to the objectives of each unit, the overall aims of this course include to: (i) introduce you to the words and concepts in Applied Mathematics (ii) familiarise you with the peculiar characteristics in Analytical Dynamics (iii) expose you to the need for and demands of mathematics in the Science/ Technology and Engineering world (iv) prepare you for the contemporary Science/Technology and Engineering world.
+Course Objectives By the end of the course, you should be able to: • define the term “constraint” • mention the types of constraint • differentiate between the various types of constraint • state D’Alambert’s Principle and relevant theorems • apply the Lagrange’s equations to find the differential equations • state the Lagrange function of particle(s) moving in a conservation force field • derive Lagrange’s equations for holonomic and non-holonomic constraint respectively • define and explain simple harmonic motion • state the forces causing simple harmonic motion • explain the suspension by an elastic string • define conical pendulum  MTH315 ANALYTICAL DYNAMICS • relate discreet and continuous system to degree of freedom • define conical pendulum • identify the forces causing simple harmonic motion • discuss the suspension by an elastic string Working through this Course You have to work through all the study units in the course.
+There are seven modules and thirteen study units in all.
+Course Materials Major components of the course are: 1.
+Course Guide 2.
+Study Units 3.
+Textbooks 4.
+CDs 5.
+Assignments File 6.
+Presentation Schedule Study Units The breakdown of the seven modules and thirteen study units are as follows: Module 1 Unit 1 Degree of Freedom Unit 2 Constraints Module 2 Unit 1 Lagrange’s Equation Module 3 Unit 1 Impulsive Motion Module 4 Unit 1 Simple Harmonic Motion Unit 2 Collation of Smooth Spheres ii MTH315 ANALYTICAL DYNAMICS Module 5 Unit 1 Newton’s Law of Motion Unit 2 Work, Power and Energy Unit 3 Rectilinear Motion Module 6 Unit 1 Reduction of Coplanar Forces Acting on a Rigid Body to a Force and a Couple Unit 2 Moment of a Force Module 7 Unit 1 The Hamiltonian Unit 2 The Calculus of Variation Textbooks and References Every unit contains a list of references and further reading.
+Try to get as many as possible, of those textbooks and materials listed.
+The textbooks and materials are meant to deepen your knowledge of the course.
+Assignment File In this file, you will find all the details of the work you must submit to your tutor for marking.
+The marks you obtain from these assignments will count towards the final mark you obtain for this course.
+Further information on assignments will be found in the Assignment File itself and in the section on assessment of this Course Guide.
+Presentation Schedule The Presentation Schedule included in your course materials gives you the important dates for the completion of tutor-marked assignments and attending tutorials.
+Remember, you are required to submit all your assignments by the due date.
+You should guard against falling behind in your work.
+Assessment Your assessment will be based on Tutor-Marked Assignments (TMAs) and a final examination which you will write at the end of the course.
+iii MTH315 ANALYTICAL DYNAMICS Tutor-Marked Assignments (TMAs) Every unit contains at least one or two assignments.
+You are advised to work through all the assignments and submit them for assessment.
+Your tutor will assess the assignments and select four which will constitute the 30% of your final grade.
+The tutor-marked assignments may be presented to you in a separate file.
+Just know that for every unit there are some tutor-marked assignments for you.
+It is important you do them and submit for assessment.
+Final Examination and Grading At the end of the course, you will write a final examination which will constitute 70% of your final grade.
+In the examination which shall last for two hours, you will be requested to answer three questions out of at least five questions.
+Course Marking Scheme This table shows how the actual course marking is broken down.
+Assessment Marks Assignments Four assignments, best three marks of the four count at 30% of course marks Final Examination 70% of overall course marks Total 100% of course marks How to Get the Best from this Course In distance learning, the study units replace the university lecture.
+This is one of the great advantages of distance learning; you can read and work through specially designed study materials at your own pace, and at a time and place that suits you best.
+Think of it as reading the lecture instead of listening to the lecturer.
+In the same way a lecturer might give you some reading to do, the study units tell you when to read, and which are your text materials or set books.
+You are provided exercises to do at appropriate points, just as a lecturer might give you an in-class exercise.
+Each of the study units follows a common format.
+The first item is an introduction to the subject matter of the unit, and how a particular unit is integrated with the other units and the course as a whole.
+Next to this is a set of learning objectives.
+These objectives let you know what you should be able to do by the time you have completed the unit.
+These learning objectives are meant to guide your study.
+The moment a unit is finished, you must go back and check whether you have achieved the objectives.
+If this is made a habit, then you will significantly improve your chances of passing the course.
+The main body of the unit guides iv MTH315 ANALYTICAL DYNAMICS you through the required reading from other sources.
+This will usually be either from your set books or from a Reading section.
+The following is a practical strategy for working through the course.
+If you run into any trouble, telephone your tutor.
+Remember that your tutor’s job is to help you.
+When you need assistance, do not hesitate to call and ask your tutor to provide it.
+In addition, do the following: 1) Read this Course Guide thoroughly, it is your first assignment.
+2) Organise a Study Schedule.
+Design a ‘Course Overview’ to guide you through the Course.
+Note the time you are expected to spend on each unit and how the assignments relate to the units.
+Important information, e.g.
+details of your tutorials, and the date of the first day of the semester is available from the study centre.
+You need to gather all the information in one place, such as your diary or a wall calendar.
+Whatever method you choose to use, you should decide on and write in your own dates and schedule of work for each unit.
+3) Once you have created your own study schedule, do everything to stay faithful to it.
+The major reason that students fail is that they get behind with their course work.
+If you get into difficulties with your schedule, please, let your tutor know before it is too late for help.
+4) Turn to unit 1, and read the introduction and the objectives for the unit.
+5) Assemble the study materials.
+You will need your set books and the unit you are studying at any point in time.
+6) Work through the unit.
+As you work through the unit, you will know what sources to consult for further information.
+7) Keep in touch with your study centre.
+Up-to-date course information will be continuously available there.
+8) Well before the relevant due dates (about 4 weeks before due dates), keep in mind that you will learn a lot by doing the assignment carefully.
+They have been designed to help you meet the objectives of the course and, therefore, will help you pass the examination.
+Submit all assignments not later than the due date.
+v MTH315 ANALYTICAL DYNAMICS 9) Review the objectives for each study unit to confirm that you have achieved them.
+If you feel unsure about any of the objectives, review the study materials or consult your tutor.
+10) When you are confident that you have achieved a unit’s objectives, you can start on the next unit.
+Proceed unit by unit through the course and try to pace your study so that you keep yourself on schedule.
+11) When you have submitted an assignment to your tutor for marking, do not wait for its return before starting on the next unit.
+Keep to your schedule.
+When the assignment is returned, pay particular attention to your tutor’s comments, both on the tutor- marked assignment form and also the written comments on the ordinary assignments.
+12) After completing the last unit, review the course and prepare yourself for the final examination.
+Check that you have achieved the unit objectives (listed at the beginning of each unit) and the course objectives (listed in the Course Guide).
+Facilitators/Tutors and Tutorials The dates, times and locations of these tutorials will be made available to you, together with the name, telephone number and the address of your tutor.
+Each assignment will be marked by your tutor.
+Pay close attention to the comments your tutor might make on your assignments as these will help in your progress.
+Make sure that your assignments reach your tutor on or before the due date.
+Your tutorials are important.
+Therefore, try not to skip any.
+It is an opportunity to meet your tutor and your fellow students.
+It is also an opportunity to get the help of your tutor and discuss any difficulties encountered on your reading.
+Summary Analytical Dynamics is designed to teach you how mathematics could be used in solving problems in contemporary Science/Technology and Engineering world.
+Therefore, MTH315 is duly structured to expose you to the skills required to attain a level of proficiency in Analytical Dynamics.
+Wishing you the best of luck as you read through this course.
+vi MTH315 ANALYTICAL DYNAMICS Course Code MTH315 Course Title Analytical Dynamics Course Team Dr. S.O.
+Ajibola (Developer/Writer) - NOUN Dr. B. Abiola (Coordinator) - NOUN Dr. S.O.
+Ajibola (Co-coordinator) - NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA vii MTH315 ANALYTICAL DYNAMICS National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria First Printed 2011 ISBN: 978-058-405-6 All Rights Reserved viii MTH315 ANALYTICAL DYNAMICS CONTENTS PAGE Module 1 ………………………………………………………….
+1 Unit 1 Degree of Freedom…………………………………….
+1 Unit 2 Constraints…………………………………………….. 13 Module 2 ………………………………………………………….
+22 Unit 1 Lagrange’s Equation………………………………….. 22 Module 3 ………………………………………………………….
+37 Unit 1 Impulsive Motion………………………………….….. 37 Module 2 ………………………………………………………….
+46 Unit 1 Simple Harmonic Motion…………………………….
+46 Unit 2 Collation of Smooth Spheres………………………… 56 Module 5 Newton’s Law of Motion and Applications to Simple Problems……………………………………………… 70 Unit 1 Newton’s Law of Motion.............................................. 70 Unit 2 Work, Power and Energy.............................................. 76 Unit 3 Rectilinear Motion......................................................... 85 Module 6 ………………………………………………………….
+91 Unit 1 Reduction of Coplanar Forces Acting on a Rigid Body to a Force and a Couple...................................... 91 Unit 2 Moment of a Force....................................................... 97 Module 7 Hamiltonian Theory………………………………… 109 Unit 1 The Hamiltonian……………………………………….109 Unit 2 The Calculus of Variation…………………………….
+114 Unit 3 The Hamilton-Jacobi Equation………………………..127 ixNoneMTH315 ANALYTICAL DYNAMICS MODULE 1 Unit 1 Degree of Freedom Unit 2 Constraints UNIT 1 DEGREE OF FREEDOM CONTENTS 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Degree of Freedom 3.2 Total Kinetic Energy 3.3 Total Angular Momentum 3.4 Conservation Theory of Total Angular Momentum 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Elementary classical dynamics evolved as a result of the dynamics of an object which may be seen as a point-mass or a particle.
+Practical situations often involve studying the dynamics of collections or systems of particles.
+If the particles of such a system are separated from each other, the system is said to be discrete; otherwise, called a continuous system.
+However, a discrete system having a large but finite number of particles can be said to be continuous as well.
+Conversely, in practical cases a discrete system having a very large but finite number of particles can be called a continuous system.
+2.0 OBJECTIVE By the end of this unit, you should be able to: • relate discreet and continuous system to degree of freedom.
+1 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Degree of Freedom The number of coordinates required to specify the position of a system of particle is called the number of degrees of freedom of the system.
+For instance, a system of N particles, moving freely in space has 3N independent coordinates or degrees of freedom.
+Consider the system represented below: M 2 2 M 1 ~r 1 2 ~r2 2 Cm~r MN R N y x Where C denotes the centre of mass m ~ ~ ~ Let r ,r ,..........r denote the positive vectors of System of N particles of 1 2 N constants masses m , m … m .
+If the centre of the system of the 1 2 N particle (i.e.
+centre of mass) is defined as the point C where its position m ~ ~ vector R, then R is given as: N ∑ M r ~ i i 1 N R = i=1 = ∑M r …………………………………...……….
+(1) ∑N M M i=1 i i i i=1 N Where M = ∑M .
+This is the total mass of the system.
+i i=1 2 MTH315 ANALYTICAL DYNAMICS Then the total momentum Pof the system is given as: ~ N N P = ∑M r = ∑M V i i i i ~ i=1 i=1 Where Vi = dr = ~r ~ dt ~ N d N But P= ∑M V = ∑M r ~ i i dt i i i=1 i=1 d ~ = MR dt ~ dR = M = MV …………………………………….
+(3) dt ~ dR Where = is the velocity of the centroid.
+dt Consequently, P = MV ……………………………………………………….
+(4) ~ ~ 3.2 Total Kinetic Energy The total kinetic energy T of a system of N particles is given by: 1 N 1 d N 2 T = ∑M V 2 = ∑M r ……………………………………… (5) 2 i=1 i i 2 dt i=1 i ~ Motion of the Centre of Mass In considering the motion of the centre of mass of a system of N particles, we must distinguish between external forces acting on the particles due to the influence outside the system and internal forces.
+Then, by Newton’s second law of motion, the equation of motion for the ith particles is obtained as: o N P = ∑Fji+F (e)…………………………….……………………… (6) i i ~ j=i ~ j+i 3 MTH315 ANALYTICAL DYNAMICS Where F(e)is the resultant external force on the ith particles due to the i ~ jth particle but F = 0 …………………………………………….. (7) ii ~ Assuming that the system obeys Newton’s third Law of Motion which states that “If particle I acts on particle J with a for F in a direction ij along the line joining the ith and jth particles, while particle j acts on particle i with a force F , conversely, then action and reaction are equal ji and opposite.
+Mathematically, it can be shown that: F = - F ……………………………………………….……………………(8) 12 21 ~ ~ ~ ~ But F +F =0⇒ F +F =0 ……………………...……………….
+(9) 12 21 12 21 Consequently, N ∑Fji = 0………………………….………………………………... (10) i=j ~ i+j In view of equation (10), equation (6) can.
+Substituting equation (1) into equation (6), we obtained: ∑N P& = d2 ∑N M r =∑N F(e) ……………………………………….
+(11) i dt2 i i i i=1 ~ i=1 i=1 Consequently, equation (1) can be written as d2 N M R = ∑F (e) ” F(e)…………………………..……………….. (12) dt2 i ~ i=1 ~ Remarks Equation (12) above states that the centroid (centre of mass) moves as if the total external force Fewere acting on the centre of mass.
+Thus, ~ purely internal forces therefore have no effects on the motion of the centre of mass.
+It is clear that if F(e) =0.
+~ Then: ( ) d dR d M  = MV = 0……………………………………………..(13) dt  dt  dt ~ 4 MTH315 ANALYTICAL DYNAMICS Equation (12) implies that the total linear momentum is conservative.
+This is called the Conservative Theorem for linear momentum of a system of particle.
+3.3 Total Angular Momentum The angular momentum L of the ith particle is given by: i ~ L = r xP ……………………………………..…….
+(14) i i i ~ ~ ~ Hence, the total angular momentum L of the system is given by: i ~ N N L = ∑L = ∑r xP ……………………………………………… (15) i i i i ~ i=1 ~ i=1 ~ ~ Thus, L& = ∑N d (r xP )= ∑N (r x P& )…………………………….….
+(16) ~ i=1 dt ~i ~i i=1 i i Using equation (6) equation (10) becomes: L& = ∑N rxF(e)+∑N rxF …………………………………….…….
+(17) i i i ji ~ i=1 ~ ~ i=1 ~ ~ But, the last term on the right hand side of (17) may be considered as a sum of pairs of the form   r xF +r xF =r - r xF ……………………………………….
+(18) i i i j ji ~ ~ ji ~ ~ ij  ~ ~  ~ Going by the equality of action and reaction, since r - r = r is the i j i ~ ~ ~ vector form j to i, the law of action and reaction yields r x F = 0 ………………………………..………………… (19) ij ji ~ ~ Since F is along the line between the two particles, ji ~ N ∑rxF =0…………………………..…………………….. (20) i ji i=1 ~ ~ Substituting (20) into (17) we can now write: L& = dL =∑N rxF(e) ” N(e)………………………………….…….
+(21) ~ dt i=1 ~i ~i ~ 5 MTH315 ANALYTICAL DYNAMICS Where N(e)is the applied (i.e.
+external) torque of the system?
+~ 3.4 Conservation Theory of Total Angular Momentum L is said to be conserved if the applied (external) torque is zero.
+In i ~ other words, the total angular momentum remains constant if the resultant external torque acting on a system of particles is zero.
+Remarks Note that the conservation of angular momentum of a system in the absence of applied torques holds, only if the law of action and reaction is valid.
+In a system involving moving charges, where the law is isolated, it is not the total mechanical angular momentum which is conserved but the sum of the mechanical and the electromagnetic “angular momentum” of the field.
+Considering the diagram below: M Z i C m r i ~ B y 0 x Let r be the radius vector from the centre of mass to the ith particles.
+i ~ Then: r = r¢ + R…………………………………………….. (22) i i ~ ~ ~ and V = V¢ + V ,…………………………………………….. (23) i i ~ ~ ~ 6 MTH315 ANALYTICAL DYNAMICS dr d R i where V¢ = ~ , and V = ~ ,………………………….. (24) ~i dt ~ dt In view of (22), we have that M r M r N i i N i i R = ∑ ~ = ∑ ~ +R.
+………………….…………………… (25) ~ i=1 ∑N M i=1 ∑N M i i i=1 i=1 N Hence, ∑M r = 0………………………………………………….
+(26) i i i=1 ~ This in turn implies N ∑M V¢ =0…………………………………………...…………….. (27) i i i=1 ~ N Next, with L =∑rP , i i ~ i=1 from equation (22) we obtain ( ) N   L = ∑ r¢ R xM V¢+V ~ i=1 i ~ i ~i ~  N N  N ¢  d N ¢ = ∑RxM V +∑r¢xM V¢+∑M r xV+Rx ∑M r ………….. (28) i=1 ~ i ~ i=1 i i ~i  i=1 i ~i  ~ ~ dt i=1 i ~i Hence, using equation (22) and (26) we obtain N L = RxMV+∑r xP¢ …………………………….……….
+(29) i i ~ ~ ~ i=1 ~ ~ Thus, the total angular momentum about a point O is the angular momentum of the system concentrated at the centre of mass plus the angular momentum of motion about the centre of mass.
+Equation (29) shows that in general, Ldepends on the region O through vector R only ~ ~ if the centre of mass is at rest with respect to O will L be independent of ~ the point of reference.
+In the latter case, RxMV =0and L reduces to the angular momentum ~ ~ about the centre of mass.
+7 MTH315 ANALYTICAL DYNAMICS 4.0 CONCLUSION We have been able to show that if the net external torque acting on a particle is zero, the angular momentum will remain unchanged.
+This is often called the principle of conservation of angular momentum.
+5.0 SUMMARY This unit has briefly discussed elementary classical dynamics of an object viewed as a particle (point mass).
+Discrete and continuous systems, degree of freedom were focused mathematically.
+These terms are briefly defined below: • Discrete and Continuous System A discrete system having a very large but finite number of particles can be considered as a continuous system.
+On the other hand, a continuous system can be considered as a discrete system consisting of a large but finite number of particles.
+• Degree of Freedom This is the number of coordinates required to specify the position of a system of one or more particles.
+For instance, a particle moving freely = space requires 3 coordinates e.g.
+(x, y, z) to specify its position.
+Thus, the number of degrees of freedom is 3.
+We also discussed the centroid (centre of mass) of the system of particle.
+• Centre of Mass (Centroid) Let r ,r ,.........r be the position vectors of a system of N particles of 1 2 N masses m ,m ,......m respectively.
+1 2 N 8 MTH315 ANALYTICAL DYNAMICS x m1 2 3 m m N m r 1 r 2 C r N r3r y z Hence, the center of mass or centroid of the system of particles is defined as that point C having position vector.
+~ m r +m r +.........+m r r = i i 2 2 N N m +m +..........m i 2 N 1 N = ∑m r M i i i=1 N Where M = ∑m is the total mass of the system.
+i i=1 • The kinetic energy of a system of particles can be defined as: 1 N 2 T = ∑m r& 2 i i i=1 • We further discussed extensively the total angular momentum of the system of particles about origin O as N ∑m (rxV ) i i i i=1 • The total external torque acting on a system.
+The total external torque about the origin is N ∑rxF .
+Where F is the external force acting on the particle i. i i i i=1 9 MTH315 ANALYTICAL DYNAMICS • Conservation of Angular Momentum If the resultant external torque acting on a system of particles is zero, then the total angular momentum remains constant i.e.
+conserved that is: N ∑m (r xV ) =constant.
+i i i i=1 SELF ASSESSMENT EXERCISE 1 Describe the motion of a particle in free space.
+Solution Here, no constraints are involved and hence, we may use the Cartesian coordinates x, y, z as the components of the position vector of the particle, i.e.
+r = x + y + z i i k ~ Let F be the force applied on the particle.
+The compounds of ~ generalised force are then: dr  Q = F. = F.i = F  x ~ dx ~ ~ x  dr  .Q = F. = F. j = F ……………………………………..….…….
+(1) y ~ dy ~ ~ y  dr Q = F. = F..k = F  z ~ dz ~ z Thus, they coincide with the components ofF , the applied or motive ~ force.
+The kinetic energy T of the particle is 1 T = m(x2 + y2 + z2).………………………………………...……….
+(2) 2 Using equation (1) and (2) we obtain d dT  dT  - = F ……………………………………………….…… (3) dt  dx  dx x .. i.e.
+m&x& = F m&y& = F and mz = F .
+x, z, z These equations may be combined to obtain 10 MTH315 ANALYTICAL DYNAMICS F i+F j+ kF = m&x&+m&y&+ m&z& x y z = m(i&x&+ j&y&+k&z&) F =ma……………………………………………….
+(4) Where = a =i&x&+ j&y&+k&z& and ~ F =iF + jF +kF .
+x y z ~ Equation (4) is Newton’s second law of motion.
+SELF ASSESSMENT EXERCISE 2 1.
+Describe the motion of a particle in space using Polar Coordinates (r, θ).
+2.
+Describe the motion of a system of two particles connected by a string over a fixed, frictionless pulley.
+3.
+Determine the number of degree of freedom in fine particles moving freely in a plane.
+4.
+Prove that the total momentum of a system of particles can be found by multiplying the total mass M of the system by the velocity vof the centroid.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Define the following terms with examples: a. Centre of mass b.
+Degree of freedom.
+2.
+Determine the number of degrees of freedom in a particle moving on a given space curve.
+3.
+A system of a particles consists of a 2 gram mass located at (0, 0, 1), a 1 gram mass at (-1, 0, 1) and 3 gram mass at (2, 1, -1).
+Find the coordinates of the centre of mass.
+4.
+Prove that if the total momentum of a system is constant i.e.
+is conserved, then the centre of mass i.e.
+either at rest or in motion with constant velocity.
+5.
+State and prove the conservation theorem for Total Angular Momentum.
+11 MTH315 ANALYTICAL DYNAMICS 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T.W.B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+12 MTH315 ANALYTICAL DYNAMICS UNIT 2 HOLONOMIC AND NON-HOLONOMIC CONSTRAINTS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Holonomic and Non-Holonomic Constraints 3.2 Generalised Coordinate 3.3 D’Alambert’s Principle 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION The motion of a particle or system of articles is restricted in some ways.
+For example, gas molecules in a container are constrained by the wall of the vessel to move only inside the container, while a particle placed on surface of a solid sphere is restricted by the constraint so that it can move on the surface or in the region exterior to the sphere.
+Consequently, a constraint can be defined as the limitations on the motion of a particle.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • define the term constraint • state the types of constraint • distinguish the different types of constraint • define D’Alambert’s principle and relevant theorems.
+3.0 MAIN CONTENT 3.1 Holonomic and Non-Holonomic Constraints In practice, equation (6) in Module 1 Unit1, may not completely describe the motion of the ith particles of a system of N particles; for it may be necessary to take into account the constraints which limit the motion of system.
+For example, in rigid bodies the motion must be such that the distance between any two particular particles of the rigid body is always the same.
+Such limitations on the motion of a particle are 13 MTH315 ANALYTICAL DYNAMICS referred to as constraints.
+The constraint condition can be expressed mathematically as Ø(r ,r ,............r ,t) =0……………………………………… (30) 1 2 N If the position vectors of the particle are considered along with the time taken, then the nature of constraint condition involved could be regarded as holonomic otherwise and non-holonomic constraints shall be discussed in detail next.
+Furthermore, if the constraints are independent of time, we say they are Scleronomous; but if they depend explicitly on time.
+It can be said that the constraint condition is rheonomous.
+Remarks In the presence of constraints, the coordinates r = r are no longer all i i independent, hence the equations given by equation (6) in Module 1 Unit 1 above are not all independent; the forces of constraints are no longer known.
+They are among the unknown of problem and must be obtained from the solution we seek.
+In fact, the presence of constraints is an acknowledgement of the fact that there are forces acting on the system which cannot be specified directly but are known only in terms of their effect on the motion of the system.
+3.2 Generalised Coordinate Remarks If the constraints imposed on a system of N particle are holonomic and are expressed by means of k equations of the form as in equation (30), then the equations may be used to eliminate k of the 3N coordinates which describe the system.
+There are then left only 3N–k independent coordinates and the system thus possesses 3N–k degrees of freedom.
+The elimination of k dependent coordinates may be regarded as an exercise in transformation theory involving the introduction of 3N–k new independent variables q , q , ……….q connected to the 1 2 3N-k coordinates r ,r ,........r .
+Thus, 1 2 N ~ ~ ~ 14 MTH315 ANALYTICAL DYNAMICS r =r (q ,q...........,q ,t)  1 1 1 3N- K ~ ~  r =r (q ,q...........,q ,t)  2 2 1 3N- K  ~ ~ r =r (q ,q...........,q ,t)  3 3 1 3N- K  ~ ~  : : : ……………………………………….. (31)  : : :  : : :   r =r (q ,q...........,q ,t) N N 1 3N- K  ~ ~   These equations contain the constraints explicitly.
+The new variable q , 1 q , ………..q are called generalised coordinates.
+We shall employ 2 3N-k them a great deal in the sequel.
+3.3 D’Alambert’s Principle Virtual Displacement (Assumed Infinitesimal) A virtual displacement of a system of N particle with position   vectorsr ,r ,........r , is a change in the configuration of the system  1 2 N  ~ ~ ~ arising from an arbitrary infinitesimal changes dr of the coordinates i r the changes dr being assumed consistent with the forces and i i ~ constraints imposed on the system at the given time t. The symbol has the usual properties of the differentiald .
+For instance, d (sinq ) = cos θ δ θ. Consequently, the displacement described in equation (30) above is called virtual displacement to distinguish it from an actual displacement of the system occurring in a time interval [t, t + dt] during which the forces and constraints may be changing.
+Principle of Virtual Work For a system of N particles, with position vectors r to be in equilibrium, i ~ the resultant force acting on each particle must be zero.
+Then F =0, for i i =1,2,......,N. 15 MTH315 ANALYTICAL DYNAMICS However, it is obvious that the virtual work F.dr =0, for i =1,2,......,N. i i But if the total virtual work is considered, we obtained N ∑F.dr = 0………………………………………….
+(31) i i i=1 Remarks If constraint are present, the motion, then we obtain the total force involved in the displacement is sum of the actual force and the constraint force acting on the ith particle.
+Then F = F (actual) + F(virtual)………………………………….
+(32) i i i In view of equation (30) and (31) we obtain N N ∑r (actual).
+dr + ∑F (virtual) d .r = 0……………………..…….
+(32) i i i i i=1 i=1 Theorem Suppose in the following that we are considering only systems of particles for which the virtual work of the forces of constraint kanish.
+This theorem is valid, for example for all rigid bodies.
+On the strength of the mentioned theorem, we obtain from equation (32) that N ∑F (actual).
+dr =0………………………………………..……….
+(33) i i i=1 ~ This equation is generally referred to as the Principle of Virtual work.
+Note that since the coordinates r for i = 1, 2 …….N are connected by i ~ the equations of constraints, the infinitesimal changesdr are not i independent, and hence F (actual).
+„ 0, in general ……………………….……………..….
+(33) i ~ In order to obtain an equation of the form (34) in which the coefficient of dr may be set to zero, we must recast (34) by using the independent i coordinates q.
+To achieve this, we may write the equations of motion i & F - P = 0, (for i = 1, 2 …….N)…………………………...…………(34) i i ~ ~ 16 MTH315 ANALYTICAL DYNAMICS Consequently, equation (32) may be re-written in the form   ∑N F- P& .d r =0……………………………………….………….. (35)   i- 1 ~ ~i ~i This becomes:     ∑N F (actual) - P& .d r +∑N F (virtual) - P& .d r =0…………...….. (36)      i i i  i i i i- 1 ~ ~  ~ i- 1 ~ ~  ~ From the remark that led to equation (32) we can deduce another theorem thus.
+A system of particles with position vector r.for i = 1, 2 i …….N moves in such a way that the total virtual work   ∑N  F(actual) - P& .d r =0…………………………………...…….. (37)    i i i i- 1 ~  ~ With the theorem, equation (36) is referred to as the D’Alambert’s Principle; hence we can consider dynamics as a special case of statics.
+4.0 CONCLUSION From the remark that led to equation (32), one obtains that a system of particles moves in such a way that defines the total virtual work as in equation (36).
+5.0 SUMMARY This unit has briefly discussed the motion of particles, the constraint of motion, types of constraints, which are defined as follows: • The limitation to the motion of a particle is called a constraint.
+The components are usually expressed in the form Ø(r ,r ,............r ,t)=0 where r,r ,............r are position vector 1 2 N 1 2 N of the particles.
+• Holonomic Constraint is a typical constraint condition that is involved if the position vector of the particle is considered along the time-taken.
+• But for non-holonomic it means that the position vector of the particle is not considered along the time taken.
+17 MTH315 ANALYTICAL DYNAMICS • Scleronomous constraint condition occurs when the constraint is independent of time.
+• While rheonomous constraint is a constraint condition which is explicitly dependent on time.
+We further discussed the transformation theory involving the introduction of new independent variables q , q ……..q that are 3N-k 1 2 3N-k connected to the coordinates r,r ,......r .
+where k are dependent i 2 N ~ ~ ~ coordinates.
+Thus,  r =r (q ,q...........,q ,t) 1 1 1 3N- K  ~ ~  r =r (q ,q...........,q ,t) 2 2 1 3N- K ~ ~  r =r (q ,q...........,q ,t) 3 3 1 3N- K  ~ ~ As in equation (31) in Module 1, Unit 1 Consequently, the generalised coordinates are referred to as the new variables q , q ……..q – the above.
+1 2 3N-k We discussed the equation of the Principle of Virtual work as: N ∑F (actual).
+dr =0 also, for total virtual work equation is i i i=1 ~   ∑N  F(actual) - P& .d r =0    i i i i- 1 ~  ~ This is called D’Alambert’s Principle.
+SELF ASSESSMENT EXERCISE 1 Two particles having masses m and m are located on a frictionless 1 2 double inclined curves and connected by an inextensible mass less string passing over a smooth pulley.
+Use the principle of virtual work to show Sin (cid:181) m that for equilibrium we must have 1 = 1 , where(cid:181) and(cid:181) are Sin (cid:181) m 1 2 2 2 the angles of the incline.
+18 MTH315 ANALYTICAL DYNAMICS Solution Let r and r the respective position vectors of masses m and m relative 1 2 1 2 to O.
+The actual forces (due to gravity) acting on m and m are respectively: 1 2 F(a) = m g, F (a) = m g.…………………………………….…….
+(1) 1 1 2 2 According to the principle of virtual work, ∑Fa.dr =0.
+v v Alternative solution F (a).dr + F (a).dr =0…………………………………………… (2) 1 1 2 2 Where dr and dr are virtual displacement of m and m down the 1 2 1 2 incline.
+Using equation (1) in (2) We obtain, O A B m1 m2 mg 2 (cid:181) (cid:181) 1 2 m g m g m g 1 m g.dr +m g.dr =0.………………………………………………….
+(3) 1 1 2 2 Or m g.dr Sin (cid:181) +m g.dr Sin (cid:181) =0.…………………………….
+(4) 1 1 1 2 2 2 Then, since the string is inextensible, i.e.
+dr +dr 1 2 19 MTH315 ANALYTICAL DYNAMICS Consequently, equation (4) becomes ( ) m g.dr Sin (cid:181) - m g.dr Sin (cid:181) dr =0.
+1 1 1 2 2 2 1 But since dr is arbitrary we must have m g.dr Sin (cid:181) +m g.dr Sin (cid:181) =0.
+1 1 1 1 2 2 2 Sin (cid:181) m i.e.
+1 = 1 ………………………………………….………….. (5) Sin (cid:181) m 2 2 SELF ASSESSMENT EXERCISE 2 Use D’Alambert’s principle to describe the motion of the masses in example 1.
+Solution && && We introduce the reversed effective forces m r andm r in the equation 1 1 2 2 (3) of example 1 to obtain: ( ) ( ) m g - m&r& .
+d r + m g - m &r& .
+d r =0.……………………….
+(1) 1 1 1 1 2 2 2 2 This can be written as: ( ) ( ) m g Sin (cid:181) - m&r& .
+d r + m g Sin (cid:181) - m &r& .
+d r = 0.…...…….
+(2) 1 1 1 1 1 2 2 2 2 2 Now since the string is inextensible so that r + r = constant, we have 1 2 d r +d r =0, &r& +&r& =0.…………………..……… (3) 1 2 1 2 Consequently, in view of (3), equation (2) becomes m g Sin (cid:181) - m&r& - m g Sin (cid:181) - m &r& =0.
+1 1 1 1 2 2 2 2 m g Sin (cid:181) - m g Sin (cid:181) &r& = 1 1 2 2 1 m + m 1 2 In conclusion, particle 1 goes down or up the incline with constant acceleration according asm g Sin (cid:181) >m g Sin (cid:181) .While particle 2 goes 1 1 2 2 up or down respectively with the same constant acceleration.
+20 MTH315 ANALYTICAL DYNAMICS 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Two particles having masses m and m move so that their 1 2 relative velocity is V and the velocity of their centre of mass is m m V .
+If M = m + m is the total mass and M = 1 2 is the 1 2 (m +m ) 1 2 reduced mass of the system, prove that the total kinetic energy is 1MV&2 - 1MV2.
+2 2 2.
+Find the centroid of a uniform semi circular wire of radius(cid:181) .
+3.
+A uniform chain has its ends suspended from two fixed points at the same horizontal level.
+Find an equation for the curve in which it hangs.
+y A B T + ∆T θ + ∆θ θ T x 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U. S. Generalised Function Mathematical Physics.
+21 MTH315 ANALYTICAL DYNAMICS MODULE 2 Unit 1 Lagrange’s Equation UNIT 1 LAGRANGE’S EQUATION CONTENTS 1.0 Introduction 2.0 Objectives 4.0 Main Content 3.1 Lagrange’s Equations 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Scientists (applied mathematicians) have dealt primarily with the formulation of problems in mechanics by Newton’s Laws of Motion.
+However, it is possible to give treatments of mechanics from rather general view points, in particular those due to Language and Hamilton.
+Although such treatments reduce to Newton’s laws, they are characterised not only by the relative ease with which many problems can be formulated and solved but by their relationship in both theory and application to such advanced fields as quantum mechanics, statistical mechanics, celestial mechanics and electrodynamics.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • apply Lagrange’s equations in solving dynamical problems • trace find the Lagrange function of particle(s) moving in a conservation force field • derive Lagrange’s equations for holonomic and non-holonomic constraint respectively.
+22 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Lagrange’s Equations Definition Consider a system of N particles, with position vectors r and constant i ~ masses m .
+suppose that k holonomic constraints are imposed on the i system such that there are only n independent coordinates.
+Then n + k = 3N and we may introduce n new independent coordinates qi for i = 1, 2…, n, by means of equation r = r (q ,q ,.............,q ,t) 1 1 1 2 n ~ r = r (q ,q ,.............,q ,t) 2 2 1 2 n ~ r = r (q ,q ,.............,q ,t) 3 3 1 2 n ~ : : : : r = r (q ,q ,.............,q ,t) n n 1 2 n ~ We shall assume that there are sufficient differentiable transformations.
+From the general equation: r = r (q ,q ,.............,q ,t)……………………………………….
+(37) i i 1 2 n ~ ~ We have d r d r n i i v = r& = ∑ ~ q& + ~ …………………………………………… (38) i i d q j d y ~ j=1 j Also, we have the virtual displacement N d r d r = ∑ i d q ……………..……………………….……… (39) i d q j ~ j=1 i No time variation d tis involved in equation (39) above since only a virtual displacement is involved in the displacements of coordinates.
+∑N (F(actual)- P& ).d r and set the result to zero.
+i i i i=1 ~ ~ ~ 23 MTH315 ANALYTICAL DYNAMICS Now, ∑N (F(actual)- P& ).d r i i i i=1 ~ ~ ~ N N d dr = ∑ ∑F(actual).
+i .d q .
+i d q j i=1 j=1 ~ j N = ∑F Q d q .……………………………………………... (40) i j j j=1 ~ N d r Where Q =∑F(actual).
+i .……………………………….….
+(41) j i d q i=1 j The scalars Q are called components of the generalised force.
+j Similarly, ∑N P& .d r = ∑N m &r&.d r .
+i i i i i i=1 ~ ~ i=1 ~ ~ N N d dr = ∑ ∑m &r&.
+i .d q .
+i i d q j i=1 j=1 ~ ~ j N N  d  d dr  d  d r  = ∑ ∑d q  m r& .
+i - m r& .
+ i ………….….
+(42) i=1 j=1 jdt i ~i d qj  i ~i dtd qj  From equation (39), we obtain dr  d 2 r d 2 r d  i  N i i ~ = ∑ ~ q& + ~ ………………...…...….
+(43) dt d q  d q .d q k d q .d t  j  k=1 j k j d V i = ~ by (38) d q j Also from equation (38), we obtain d V d r i i ~ = ~ ……………………………………..……………....….
+(44) d q d q j j 24 MTH315 ANALYTICAL DYNAMICS This may be viewed as “cancellation of dots”, since d V i d r& d r ~ = i = i .
+d q d q& d q j j j Hence, using equation (43) and (44) in (42) we have: ∑N P& .d r = ∑N ∑N d q  d m V .d Vi - m V .d Vi  d ri d q i=1 ~i ~i i=1 j=1 jdt i ~i d q&j  i ~i dt d qj  N N  d 1 d V  d 1  = ∑ ∑d q   m V .
+i -  m V2 d q i=1 j=1 jdt2 i ~i d q&j  d qj 2 i ~ i j N  d  N 1  d 1  = ∑d q  ∑ m V2 -  m V2 d q j=1 jd q&j  i=1 2 i ~ i d qj 2 i ~ i j N  d  d T  d T  = ∑   - d q j=1 dtd q&j  d qj j Where we have set N 1 T = ∑ m V2 ……………………………………………..(44a) i=1 2 i ~ i which is referred to as total kinetic energy of the system.
+From the preceding; D’Alambert’s Principle now yields N  d  d T  d T  ∑ Q -   - d q =0…………………………….… (45) j=1  j dtd qj  d qj j Since the constraints have been assumed holonomic, the coordinates qi for i = 1, 2, 3, ……N, have that: d  d d  d T  - =Q …………………………………….………….
+(46) dtd q&  d q j   j j for j = 1, 2…, n. 25 MTH315 ANALYTICAL DYNAMICS Equation (44a) are often referred to as the Lagrange’s equation.
+Remarks Suppose that the system considered above is in fact conservative.
+With this assumption, there is a scalar potential function ø called the potential energy of the system such that F (actual) = - (cid:209) ø ………………………………….…..………….. (47) i i Then the components Q of generalised force become: j N d r N d r Q =∑F(actual).
+i = - ∑F(cid:209) ø. i j i d q i d q i=1 j i=1 j dø = ………………………………..……………………..…….. (48) dq j Using equation (48) in (47), we now have: d  d T  d (T- ø)  - =0………………………………….………….
+(49) dtd q&  d q   j j If ø depends only on q ,q ,q .........q i.e.
+ø is independent of z, then 1 2 3 N equation (49) may be written thus: d d (T- ø) d (T- ø)  - =0………………………..……………….
+(50) dt d q&  d q   j j for j = 1, 2…, N. Consequently, setting T- ø = L…………………………………………………………….
+(51) Equation (50) may now be written thus: d  d L  d L  - =0,……………………………………………….... (52) dtd q&  d q   j j for j = 1, 2…, n. 26 MTH315 ANALYTICAL DYNAMICS The equation given by (52) rather than equations given by (46) are what are often referred to as LAGRANGE’S EQUATIONS.
+The function L = T - ø in equation (51) is referred to as the Lagrangian function or simply the Lagrangian.
+Remarks The equations given by (52) are Lagrange’s equations for a conservative system.
+Now, suppose that the system is non-conservative, but that the components Q of generalised force are given by a velocity – dependent j function.
+( ) ( ) q q& ﬁ u q q& as followsQ = j j j j j d u d  d u    x …………………………………..………………….
+(53) d q dtd q&    j j Then equation (52) remains valid with L = T – u.
+……………………………………………….………….
+(54) The function U is called a generalised potential or a velocity – dependent potential, and it is a dissipation function.
+Remarks d L i) The function P = , where L is the Lagrangian and is called j d q& j the generalised momentum associated with the generalised coordinatesq .
+j ii) The kinetic energy T is given by N 1 2 T = ∑ m V ……………………………………………….
+(55) i=1 2 i ~ But from equation (3) d r d r N i i V =r& =∑ ~ q& + ~ i i dq d t ~ ~ j=1 i i 27 MTH315 ANALYTICAL DYNAMICS Substituting this in the expression For T, we have N 1 2 T = ∑ m V i=1 2 i ~  d r 2 N 1  N d r i  = ∑ m ∑ i q& + ~ 2  d q j d t  i=1  j=1 j  = N N l +∑l q& + ∑l q& q& …………………………….…….
+(56) j j jk j k j=1 j,k=1 N 1 d r d r Where l = ∑ m i .
+i 2 i d t d q j=1 j N 1 d r d r l j =∑ m i .
+i k 2 i d q d q j=1 t k If the transformation equations (37) do not involve t, i.e.
+in the presence of Scleronomous constraints then l =0 = l = j, for j = 1, 2, …, n and T is reduced to the following homogenous quadratic expression in the generalised velocities.
+N T = ∑l jk d q& d q& …………………………………………..……….
+(57) j k j,k=1 Examples on Lagrange’s Equation SELF ASSESSMENT EXERCISE 1 Find the motion of a system of two particles connected by a string over a fixed, frictionless pulley.
+Solution Let L be the length of the string connecting the masses and let D denote the diameter of the pulley.
+Setting L – D =l.
+28 MTH315 ANALYTICAL DYNAMICS Then, it is clear that there is only one independent variable, x, say since from the diagram we must always have distances indicated.
+Now the potential energy V of the system is: V = - m gx- m g(L- x) 1 2 And the kinetic energy T of the system is 1 T = (m +m )x&2 2 1 2 Hence, the Lagrangian L of the system is 1 L =T- V = (m +m )x&2 +m gx+mg(L- x) 2 1 2 1 By equation (52), we now obtain ( ) d d L d L .
+- =(m +m )&x&2 - (m +m )g =0 dt d x d x 1 2 1 2 Thus: (m +m )&x&- (m +m )g 1 2 1 2 This is the equation of motion of the system.
+Remarks i) The above problem is an example of a conservative system with holonomic, Scleronomous constraints.
+The holonomic constraint is given by: x+ y = l Where x, y are the distances of the masses m and m respectively from 1 2 the horizontal plane through the centre of the pulley.
+This problem also shows that the forces of constraint i.e.
+the tension in the string do not appear in the Lagrangian formulation.
+Hence, the tension in the string cannot be found directly by the Lagrangian method.
+29 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 2 Investigate the motion of a bead of mass m sliding freely on a smooth circular wire of radius ‘a’ which rotates in a horizontal plane about one of its point ‘O’ with constant angular velocity, ‘w’.
+Solution y Bo (x,y) m …… …..x A a q a a l = wt 0 x The plane of rotation is that of the paper and rotation is anti-clockwise, with ‘O’ as the centre of revolution.
+At time t the wire rotates through an angle u = wt as shown.
+The angle made by the bead with OAC (where C is the centre of wire) is also shown.
+The coordinates (x, y) of the bead B are given by.
+a. x = a Coswt + a Cos( q + wt) y = a Sinwt + a Sin( q + wt) Hence, we see that there is only one generalised coordinate, namelyq .
+Consequently, from (a) and (b) alone, we have that the kinetic energy T of the bead is given by 1  & & &  c. T = ma2w2 +(q +w)2 +2w(q +w)Cos(q +wt). 2   The potential energy of the system is clearly zero here.
+This implies that the generalised force is zero since the system is conservative.
+30 MTH315 ANALYTICAL DYNAMICS From (c), we have: d T & = ma2(q = w+wCosq ) & d q d d T && &   = + ma2q( - w +wq Sinq ) & dtd q  d T [ & ] =- ma2 w(q +w)Sinq dq Hence, we have: && & & ma2q( - wq Sinq )+ma2w(q = w)Sinq =0 (d) Implies && q +w2Sinq = 0 SELF ASSESSMENT EXERCISE 3 && Compare q +w2Sinq = 0with the equation of motion of a simple && g pendulum of lengthl given by: q + Sinq =0 L Here, we see that the bead b oscillates about the line OA as if it were a g simple pendulum of lengthl = .
+w2 SELF ASSESSMENT EXERCISE 4 A x B l q m x1 y1 In the diagram, M is a mass constraint to slide on the smooth track AB.
+31 MTH315 ANALYTICAL DYNAMICS A particle of mass M is connected to M by a mass less inextensible string of lengthl.
+Find the equation of motion leading to small oscillations of the system.
+Solution Let x denote the position of m at time t and let (x , y ) be the position of 1 1 m also at time t. Notice that here, y, is measured from the equilibrium q position of m. Let be the angular displacement of the string connecting q m to m. is assumed increasing the counter clockwise direction.
+It is clear at t = 0.
+Next, we seek T and ø, the kinetic energy and potential energy of this system of two particles, we have 1 1 3a.
+T = mx&2 + m(x& + y& ) 2 2 i i and 3b.
+ø = mgy 1 q Next, x and y may be expressed in terms of x and .
+1 1 Thus, 3c.
+x = x+lSinq 1 3d.
+y = x+l(1- Cosq ) 1 Using (3c.)
+and (3d.)
+in (3b.
+), we have: [ ] T = 1mx&2 + 1m(x& +lq&Cosq )2 +l2q&2Sin2q 2 2 ø = mgl(1- Cosq ).
+From the expressions for T and b which involves only two coordinates x, and q the generalised coordinates for this problem, we conclude that the system under consideration has two degrees of freedom.
+Next, we have: 1 1  & & .
+ L = T- q = mx&2 + m +(x&2lq Cosq )2 +l2 q 2Sin2 q - mgl(1- Cosq )   2 2   32 MTH315 ANALYTICAL DYNAMICS ¶ L =m(x& +lq&Cosq ) lcosq +m l2q&Sin2q .
+¶ q d ¶ L = m(&x&+l&q&Coqs - lq&2Sin q ) l Siqn - m(x& +lq&Cosq ) +lq&Sinq dt¶ q.
+ & && +2m l2q 2Sinq Cosq +ml2q Sin2q ¶ L & & 1 & =- m(x&lq Cosq ) lq Sinq + mx2l2q 2Sinq Cosq + -lmg Sin q ¶ q 2 Hence, the first Lagrangian equation of motion is d ¶ L ¶ L  - =0.
+dt¶ q.
+ ¶ q SELF ASSESSMENT EXERCISE 5 && & & m(x& +lq Coqs - lq 2Sinq )(Coqs - m(x+lq Cosq ) & 1 & && lq Sinq + 2ml2q 2Sinq Cosq + ml2q Sinq2 - mgl Sinq .
+2 Since we are only interested in small oscillations of the system, we have the approximations.
+Sinq » q and Cosq » 1.
+&& \ &x&+lq +gq =0 Neglecting terms involving & & q 2, q 2and q and higher other terms Terms ¶ L = mx& + m(x& +lq&Cosq ) ¶ x& ¶ L =0 ¶ x& 33 MTH315 ANALYTICAL DYNAMICS d & (mx& +mx& +mlq Cosq )=0 dt && & (m+m)&x&+mlq Coqs - mlq 2Sinq =0 & Neglecting terms involved q 2, q 2, we get m&x&+m&x&+ml&q&=0 && (m+m)&x&+mlq =0 4.0 CONCLUSION We have discussed the Lagrange’s equation in general and for Holonomic and Non-holonomic constraints with related examples as shown above.
+5.0 SUMMARY In summary, we have assumed that from the general equation: • r = r (q ,q ,.......,q ,t) i i 1 2 n ~ d r d r N i i • V = r& = ∑.
+~ .q& + ~ i i d q j d q j=1 j i d r N i • d r = ∑.
+~ .q& being the virtual displacement.
+i d q j ~ j=1 j By using equation of D’ Alembert Principle we compute that N d r • Q = ∑F(actual).
+i j i d q i=j j This is called the component of the generalised force.
+Similarly    .
+ Q = ∑N P& d r = ∑N ∑N d q d m r. d r&i - m r. d . d ri  j i i jdt i i d q  i i dt d q  i=1 ~ j=1 j=1   j   j    34 MTH315 ANALYTICAL DYNAMICS d V d  d r  i • Also, . i = ~ , and dt d q  d q   j j d V d r i i • ~ = ~ d q. d qj j Consequently, from (5) and (6) can conclude thus,     • ∑iN=1 P. id r~i = ∑jN=1 ddtdd qT.
+- ddt.d qj j Where N 1 • T = ∑ m V2 which is the total kinetic energy of the system.
+i=1 2 i ~ i From D’Alambert’s Principle, we have that N  d  d T  d T  • ∑ Q -   - d q =0 j=1  j dtd q&j  d qj j Hence, d  d T  d T • Q =  - for j = 1, 2…, n. are called at Lagrangian j dtd q&  d q&   j j equation.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+A double pendulum vibrates in a vertical plane, write the Lagrangian of the system and hence obtain the equation of motion.
+35 MTH315 ANALYTICAL DYNAMICS O y q 1 l 1 x 1 l 2 y 1 q 2 x2 m2 x x 2 2.
+Use Lagrange’s equations to describe the motion of a particle of mass m down a frictionless inclined plane of angle(cid:181) .
+3(a) Set up the Lagrangian for a one dimension harmonic oscillator; and (b) Write out the Lagrange’s equation.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+36 MTH315 ANALYTICAL DYNAMICS MODULE 3 Unit 1 Impulsive Motion UNIT 1 IMPULSIVE MOTION CONTENTS 1.0 Introduction 2.0 Objectives 5.0 Main Content 3.1 Impulsive Motion of Particles 3.2 Conservative Force Fields 3.3 Conservative Forces 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Phenomena of an impulsive nature, such as the action of very large forces (or voltages) over very short internal of time, are of great practical interest, since, they arise in various applications.
+This situation occurs, for instance, when a tennis ball is hit, a system is hit by a hammer, an air plane makes a “hard” landing, a ship is hit by a high simple wave, and so on.
+In this unit, we shall be interested in the change of momentum produced by variable force lacting from time t such thatt <t <t .
+1 2 2.0 OBJECTIVES By the end of this unit, you should be able to: • define impulsive motion • identify equations of motion for impulsive forces • define conservative force fields.
+37 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Impulsive Motion of Particles Definition The state of rest or motion of a body sometimes undergoes an apparently instantaneous change owing to the sudden application of a force which acts for a very short time only.
+For example, a ball stuck by a bat or a collision of two billiard balls.
+In such cases it is not possible to measure the rate of change of momentum because a finite change of momentum takes place in an infinitesimal interval of time.
+We know that the change in momentum produced by a variable force lacting from time t = t, and t = t ~ is 2 t ∫ 2 Ldt t 1 Of course, it is possible for the force to increase and at the same time the interval t – t to decrease in such a way that the integral tends to a finite 2 1 limit although, we gave no means of measuring the exact value of L at any instant during the interval.
+Thus, this sort of force is measured by the change of momentum it produces.
+Any motion resulting from this impulsive force is called an impulsive motion.
+The equations of motion for a system of particles acted upon by finite forces are known to be given as: ∑m&x&=∑X ∑m&y&=∑Y ∑m&z&=∑Z d and ∑m(xy&- yx&)=∑(xy- yx) dt By integrating these equations w.r.t.
+t through an interval from 0 to t, we get 38 MTH315 ANALYTICAL DYNAMICS ∑mx&- ∑mx& =∑∫t X dt 0 t 0 ∑my&- ∑my& =∑∫t Y dt 0 t 0 ∑mz&- ∑mz& =∑∫t Zdt 0 t 0 In particular if t – to is so small that changes in x, y, are neglected.
+Then: ∑m(xy&- yx&)- ∑m(xy& - yx& ) 0 0 { } =∑ x∫t ydt- y∫t xdt t t 0 0 Where x& ,yˆ denote the values of x& ,yˆ at time to.
+0 0 By concerning ourselves with the above definition of impulsive forces then, ∫t xdt,∫t ydtand ∫t ydt and ∫t zdtare t t t t 0 0 0 0 The measures of the components of the impulse which maybe denoted by F, Q, R, respectively which may be rewritten as ∑mx& - ∑mx& =∑ F 0 ∑my& - ∑my& =∑ Q 0 ∑mz&- ∑mz& =∑ R 0 and ∑m(xy&- yx&)- ∑m(xyˆ - yx& )=∑(XQ- YF).
+0 0 Thus, these equations revealed the fact that the instantaneous increase in the linear momentum in any direction is equal to the sum of the externally applied impulsive forces in that direction.
+Note, that if M is the total mass of the system of particles and x, y, z are the coordinates of the centre of gravity, then 39 MTH315 ANALYTICAL DYNAMICS m(x& - x& ) = ∑F 0 m(y& - y& ) = ∑Q 0 m(z& - z& ) =∑ R 0 Also, the equations confirm the principle of conservation of linear and angular momentum, in that if there be a direction in which the external impulsive forces have zero components, there is no change of momentum in that direction.
+The Problem Involving Impact of Two Forces Definition The coefficient of restitution (e) is the ratio of the relative velocity of the bodies, along their line of centres, after impact to the relative velocity before impact.
+For example, for a hard substance like steel, (e) is nearly unit, but for a soft substance, it is small.
+When a substance is perfectly elastic e = 1 and when, t is inelastic e = o.
+Let m , m be the masses of the two spheres, U , U their velocities 1 2 1 2 before impact and u , v their velocities after impact and let the motion 1 2 be along the line of centres.
+The momentum in the line of motion is unaltered by the impact so that m v + m v = m u + m u 1 1 2 2 1 1 2 2.
+By Newton’s rule, v – v = - e (u – u ) 1 2 1 2 These equations determine the velocities after impact namely, v = m u + m u – e m (v – v ) 1 1 1 2 2 2 1 2 m + m 1 2 v = m u + m u – e m (v – v ) 1 1 1 2 2 2 1 2 m + m 1 2 the impulse of the spheres which reduces the velocity of the first from u 1 to v is m (u – v ), which is equal to 1 1 1 1 (l + e) m m (u – u ) 1 2 1 2 m + m 1 2 40 MTH315 ANALYTICAL DYNAMICS It is easy to show that the loss in 1 m m (1- e)(u - u )2 K. E. = 1 2 1 2 2 m +m 1 2 3.2 Conservative Force Fields Definition Let V be a scalar function and F the force (extended) acting on a particle of mass M, such that F = - (cid:209) V Theorem 1 The total work done in moving the particle along the curve C from P to 1 P is 2 W =∫p2 F (cid:215) dx=V(P)- V(P ) 1 2 p1 ~ X P 1 dr ~ r ~ P 2 r +dr ~ ~ Y Z In such case the work done is independent of the path C ` joining the points P and P .
+If the work-done by a force field in moving a particle 1 2 from one point to another point is independent of the path joining the points, then the force field is said to be conservative.
+The following theorems are valid: 41 MTH315 ANALYTICAL DYNAMICS Theorem 2 A force field F is conservative if there exists a continuously differentiable scalar field V such that F = - (cid:209) V or Equivalently, if (cid:209) ^ F = O identically.
+Theorem 3 A continuously differentiable force field F is conservative for any closed non-intersecting curve C (simply closed curve).
+∫F(cid:215) d r=O ~ ~ i.e.
+the total work-done in moving a particle around any closed path is zero.
+Remarks The scalar V such that F = - (cid:209) V is called the potential energy or scalar potential of the particle in the conservative force field F. In this case, the total work-done from P to P along C = potential energy at P minus 1 2 1 potential energy at P .
+2 i.e.
+W = V – V , V = V (P ), V = V (P ) 1 2 1 1 2 2 3.3 Conservative Forces Definition If there is no scalar function V such that F = - (cid:209) V i.e.
+(cid:209) ^ F / O, Then F is said to be a non–conservative force field.
+SELF ASSESSMENT EXERCISE 1 Show that F = x2y zi – xyx2k is non – conservative.
+42 MTH315 ANALYTICAL DYNAMICS Solution i j k ¶ ¶ ¶ (cid:209) (cid:217) F= ~ ¶ x ¶ y ¶ z x2yz o - xyz2 = - xz2 i + (x2y + yz2) j - x2zk ~ ~ ~ But (cid:209) ^ F „ O Therefore, the field is non-conservative.
+4.0 CONCLUSION The instantaneous increase in the linear momentum in any direction is equal to the sum of the externally applied impulsive forces in that direction.
+5.0 SUMMARY The change in momentum produced by a variable force L acting from time t to t is defined as 1 2 ∫t2 L dt t l This is called an impulsive force.
+Any motion resulting from this impulsive force is called an impulsive motion.
+The measure of the components of the impulsive force denoted by F, Q and R are: ∑mxˆ - ∑mxˆ = ∑F 0  ∑my& - ∑my& = ∑Q (2) 0  ∑mz& - ∑mz& = ∑R  0 and∑m(xy&- yxˆ ) - ∑m(x&y- yx& ) = ∑(XQ- YF) (3) 0 43 MTH315 ANALYTICAL DYNAMICS From the above equation, it can be summarised that the instantaneous increase in the linear momentum in any direction is equal to the sum of the externally applied impulsive forces – that direction.
+Consequently, if m is the total mass of the system of particles and x,yand z are the coordinate of the centre of gravity, then, m(x&- x )=∑F 0 m(y&- y )=∑Q 0 m(z- z )=∑R 0 We further showed the loss: 1 (1- e) (u - u )2 K. E. = m m 1 2 2 1 2 m +m 1 2 Theorem 1 The total work-done: moving the particle along the curve C from p to 1 p is given as 2 w=∫P2F(cid:215) dx= V (P)- V (P ) 1 2 P1 ~ Theorem 2 A force field F is conservative if there exists a continuously differentiable scalar field V such that F = - (cid:209) V consequently, (cid:209) ^ F = O Theorem 3 A continuously differentiable force field F is conservative if for any closed non-intersecting curve C ∫F (cid:215) dr =O.
+~ ~ That is, the total work-done in moving a particle around any closed path is zero.
+44 MTH315 ANALYTICAL DYNAMICS 7.0 TUTOR-MARKED ASSIGNMENT 1a.
+When is a force field said to be conservative?
+b.
+Define the following: i. impulse ii.
+impulsive force and iii.
+impulsive motion.
+2.
+Show that the force field F defined by F = (y2z2 – 6xz ) i + 2 x y 2 z3 + (3xy2z2 6x2z) k is a conservative force field.
+j 3.
+Prove (Theorem 1) that if the force acting on a particle is given by F = (cid:209) V. Then the total work-done in moving the particle along a curve C from P to P is 1 2 w=∫P2 F(cid:215) dr=V (P)- V (P )= 1mV2 - 1mV2 where P 1 2 2 B 2 A 1 V andV velocities at points p andp respectively.
+A B 1 2 4.
+A mass of 5000kg moves on a straight line from a speed of 540km/hr to 720km/hr in 2 minutes.
+What is the impulse developed at this time?
+5.
+Show that the force field given by: F = x2yzi – xyz2k is non-conservative 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+45 MTH315 ANALYTICAL DYNAMICS MODULE 4 Unit 1 Simple Harmonic Motion Unit 2 Collation of Smooth Spheres UNIT 1 SIMPLE HARMONIC MOTION CONTENTS 1.0 Introduction 2.0 Objectives 6.0 Main Content 3.1 Simple Harmonic Motion 3.2 Forces Causing Simple Harmonic Motion 3.3 Suspensions by an Elastic String 3.4 Conical Pendulums 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION If a small body or a particle vibrates or moves to and fro along a straight line under the influence of a force that its acceleration towards a fixed point (or its equilibrium position) is proportional to its distance or displacement from that point, the body is said to have a simple harmonic motion.
+The term simple harmonic motion is not limited to motion in a straight line, and can be applied to the variation of any variable quantity which satisfies a differential relation of the type considered.
+Examples include simple pendulum, loaded test-tube in a liquid, mass on a spring.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define simple harmonic motion • identify the forces causing simple harmonic motion • define conical pendulum.
+46 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Simple Harmonic Motion If a particle moved in a straight line in such a way that its acceleration is always directed toward a fixed point of the line and it is proportional to its distance from that point, the particle is said to move with simple harmonic motion.
+Let O be the fixed point on the line (straight) POQ, and let x be the distance of the particle from O at time t, x is +ve to right and –ve to left.
+The acceleration of the particle can be taken along OQ as –w2x, where w2 is a constant which is +ve.
+If x is +ve, this acceleration is directed towards O, and if –ve, it is directed towards O B1 O B a P1 Q x We obtain the differential relation dv V = -w2x dx d 1  i.e.
+ v2 = -w2x dx 2  1 1 \ v2 = - w2x2 + c 2 2 dv Where v = velocity, t = time, acceleration = V and c is constant.
+dx So if t = 0, x = a and v = 0 (where a = distance) 1 Then, 0 = w2a2 + c, 2 ( ) V2 =w2 a2 - x2 ( ) V = – w a2 - x2 If the initial stage of the motion V is –ve as the particle is moving towards O.
+47 MTH315 ANALYTICAL DYNAMICS dx Therefore, = -w (a2 - x2) dt dt 1 = - dx w (a2 - x2) x wt = cos-1 +d (where d is a constant) a When t = 0, x = a, and cos-11 = 0, and d = 0 and we get x Wt = cos-1 a X = acos (wt) V = (-aw) sinwt Definition If a small body or a particle vibrates or moves to and fro along a straight line under the influence of a force that its acceleration towards a fixed point (or its equilibrium position) is proportional to its distance or displacement from that point, the body is said to have a simple harmonic motion.
+The term simple harmonic motion is not limited to motion in a straight line, and can be applied to the variation of any variable quantity which satisfies a differential relation of the type considered.
+Examples include simple pendulum, loaded test-tube in a liquid, mass on a spring.
+Note: When wt = p /2w with velocity –aw.
+It continues along the straight line, and its velocity is zero when wt = p and x = -a.
+It then 3p returns towards 0, arriving at 0 when wt = with zero velocity.
+The w motion is then repeated, and continues indefinitely unless it is destroyed by a frictional force of some kind.
+Below is the graph of distance against time.
+48 MTH315 ANALYTICAL DYNAMICS 2π x w a 0 E w a a = length is called amplitude of the motion and is the distance of the extreme points from the centre of the oscillation.
+2p Time is called the period of the oscillation and is the time of a w complete oscillation from one extreme point to the other and back again.
+w The frequency n = .
+2π SELF ASSESSMENT EXERCISE 1 A particle is moving with simple harmonic motion of period 4p about a centre O, it passes through a point distance 4m from O with the velocity 4m/sec away from O.
+Find the time which elapses before it next passes through this point.
+Solution 2p 1 Since period = \ w= w 2 From v2 = w2 (a2 – x2), 42 = ¼ (a2 – 42), A = 4 5m Therefore we have that x = a cos wt t x = 4 5cos 2 49 MTH315 ANALYTICAL DYNAMICS t 1 and when x = 4, cos = 2 5 1 = 2np ± cos-1 ( ) 5 When n = 0, 1, 2… etc.
+So the shortest distance between instants when the particles is in this t 1 1 position is given by = 2cos-1 , t = 4 cos-1 .
+2 5 5 3.2 Forces Causing Simple Harmonic Motion The force acting on a particle earlier discussed is given as mw2x which is proportional to the distance from O.
+Thus, SHM is caused by forces whose magnitude varies with distance.
+Examples are forces in a spring, which is proportional to the increase or decrease of its length from its natural length and the force of tension in an elastic string.
+A particle with mass m, length l, modulus l on a smooth horizontal table λx displayed a distance x from equilibrium position O will have a force l towards O.
+Then d2x - λx  λ  m = = -  x dt2 l ml 2π λ Its period = where w2 = .
+w ml λ Its extension c is given as mg = c l 3.3 Suspension by an Elastic String A particle suspended by an elastic string also experiences SHM provided.
+The string does not return to its natural length during the motion; if this happens, the string will become slack and the particle begin to move freely under gravity.
+λ Thus, we have mg = a where a is the distance l λ mg = l a 50 MTH315 ANALYTICAL DYNAMICS If the particle of mass M hangs freely at the end of the string and given a small vertical displacement x then d2x mg M = x, dt2 M a d2x - mg = x, dt2 ma Ma Then, the period is 2p    ma  SELF ASSESSMENT EXERCISE 2 One end of an elastic string of length 24 cm is fixed ended and to the other suspended end, a mass of 5 kg is attached, which when in equilibrium stretches the string 4 cm.
+The mass is pulled down at a distance of 3cm below its equilibrium position and then released.
+Find the period of oscillation and the maximum kinetic energy of the mass.
+Solution λ Let l be the modulus of elasticity then from mg = a l λx4 5g = 24 l = 30g N. For a displacement xm from the equilibrium position, we have d2x 30g 5 = N dt2 0.24 d2x = -25g N dt2 Hence, w2 = 25g, w = 15.66, and the period is 0.45.
+The amplitude is 3cm and force the epoch is zero, x = 0.03 cos 15.66t dx = v = -0.47 sin 15.66t dt 51 MTH315 ANALYTICAL DYNAMICS So the max velocity is therefore 0.47m/sec and the corresponding kinetic energy is 1 x 5 x 0.472 2 = 0.552J.
+SELF ASSESSMENT EXERCISE 3 A spiral spring supports a carrier weighing 2 kg, and when a 10 kg weight is placed in the carrier the spring extends 5cm.
+The carrier with its load is then pulled down another 7.5 cm and let go.
+How high does it rise and what is the period of its oscillation?
+3.4 Conical Pendulum An arrangement by which a particle tied by a string to a fixed point O, and move in a horizontal circle, so that the string describe a cone whose axis is vertical through O is called conical pendulum.
+Let the mass be m, height of the cone be h and its semi-circle angle be a .
+Therefore, the speed of resolution and the tension in the string may be found in terms of h and a .
+a O a T h T mhw2tana P N mg mg If w = angular velocity, T = tension in the string, the radius of the circle is h tan a and the reversed effective force is mhw2 tan a .
+The particle may be considered as in equilibrium under the forces T, mg and mhw2 tan (cid:181) .
+So T sin a = mhw2 tan a , T sin a = mh sin a w2, \ T = mhw2 = 4p 2n2mh 52 MTH315 ANALYTICAL DYNAMICS T cos a = mg \ w2 = g/h, T = mg sec a 2p If w is m rad/sec, the time of a complete resolution is sec, and the w 30w 30 number of r.p.m.
+is = g/h p p SELF ASSESSMENT EXERCISE 4 A mass of 10g rests on a rough horizontal table with coefficient of function ½.
+It is attached to one end of a light inextensible string which passes through a smooth hole in a mass of 4 kg at its free end.
+If the mass 4 g describes a horizontal circle with a velocity of 8 m/sec and the mass on the table is on the point of shipping, find the radius of the circle and the length of string below the table.
+Solution Since the 10 kg mass is on the point of slipping the tension in the string must be 5 gN.
+Let a m be the radius on the circle and q the angle made by the string with the horizontal.
+T T 256 q a q 4g mv2 4x82 The reversed effective force (T) is given as = r a 4 kg mass may be considered as in equilibrium under the forces 5 g, 4 g 256 and N .
+a 256 Then, 5g cos q = a 53 MTH315 ANALYTICAL DYNAMICS 5g sin q = 4h 4 sin q = 5 3 256 cos q = = 5 5x9.81xa' 256 a = = 8.7 29.43 the length of string below the table is 5 a sec q = a = 14.5m 3 4.0 CONCLUSION If a small body or a particle vibrates or moves to and fro along a straight line under the influence of a force that its acceleration towards a fixed point (or its equilibrium position) is proportional to its distance or displacement from that point, the body is said to have a simple harmonic motion.
+Simple harmonic motion is not limited to motion in a straight line, and can be applied to the variation of any variable quantity which satisfies a differential relation of the type considered.
+5.0 SUMMARY In summary, we explained the term SHM which is concluded as not being limited to motion in a straight line.it was also discussed in this unit that SHM is caused by forces whose magnitude varies with distance.
+It was also noted that a particle suspended by an elastic string also experiences SHM, provided the string does not return to its natural length during the motion.
+Lastly, conical pendulum was also discussed and some examples are solved in all these.
+8.0 TUTOR-MARKED ASSIGNMENT 1.
+A particle is moving with simple harmonic motion of period 4p about a centre O, it passes through a point distance 8 m from O with the velocity 4.5m/sec away from O.
+Find the time which elapses before it next passes through this point.
+54 MTH315 ANALYTICAL DYNAMICS 2.
+A mass of 12 g rests on a rough horizontal table with coefficient of function 0.3.
+It is attached to one end of a light inextensible string which passes through a smooth hole in a mass of 6.5 kg at its free end.
+If the mass 6.5 g describes a horizontal circle with a confirm velocity of 3 m/sec and the mass on the table is on the point of slipping, find the radius of the circle and the length of string below the table.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+55 MTH315 ANALYTICAL DYNAMICS UNIT 2 COLLISION OF SMOOTH SPHERES CONTENTS 1.0 Introduction 2.0 Objectives 7.0 Main Content 3.1 Collision of Smooth Spheres 3.2 Law for the Impact of Spheres 3.2.1 Direct Impact 3.2.2 Indirect Impact 3.3 Resultant of any Number of Forces Acting on a Particle 3.31 Method of Finding the Resultant of any Number of Forces in one Plane Acting on a Particle 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION An object remains in a state of rest until an external force impacts on it.
+The ratio of the momentum after impact to the momentum before impact is called the coefficient of restitution (or elasticity).
+This momentum is denoted by the symbol e. If the net external force acting on a particle is zero, its momentum will remain unchanged.
+That is mv = constant.
+The relative velocity of the spheres along the line of centres immediately after impact is – e times the relative velocity before impact.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define and explain, collision of smooth spheres • identify the forces causing collision of smooth spheres.
+3.0 MAIN CONTENT 3.1 Collision of Smooth Spheres When a body strikes a fixed surface, the impact produced causes the momentum of the body to be destroyed where it undergoes compression thereby altered, its shape.
+This is followed by a period known as restitution in which the body regains its shape and momentum.
+The 56 MTH315 ANALYTICAL DYNAMICS ratio of the momentum after impact to the momentum before impact is called coefficient of restitution (or elasticity) denoted by e. i.e.
+e = momentum after impact momentum before impact --- --- --- (i) ⇒ -e = velocity after impact velocity before impact --- --- --- (ii) If velocity is measured in (ii) NOTE: In the above, when e = 0 we have inelastic body and when e = 1, we have perfectly elastic body.
+This important theory is mostly applicable to the impact of spheres on smooth surfaces or on each other, so that the impulse during compression and restitution is normal to the surface.
+3.2 Law for the Impact of Spheres “The relative velocity of the spheres along the line of centres immediately after impact is –e times the relative velocity before impact.” 3.2.1 Direct Impact The impact is direct when it is normal to the surface and we have that V = -eu Where v = velocity after impact, u = velocity before impact and e = coefficient or restitution.
+So, if h is, the height when a sphere falls to a smooth plane, the velocity before impact is ( ) U = 2gh The velocity after impact is (upward) ( ) eu = 2ghe2 57 MTH315 ANALYTICAL DYNAMICS The velocity is destroyed by gravity when the sphere has risen to a height.
+( ) \ 2gh1 = 2ghe2 h1 = e2 h h1 e = h 3.2.2 Indirect Impact If the surface diagram of the impact is of the form u v a b The velocity before impact parallel to the surface is u cos a and velocity after impact is v. \ u cos a = v cos b ⇒ v sin b = eu sin a Hence, v2cos2b + v2sin2b = u2 (cos2a + e2sin2a ) ( ) v = u cos2a +e2sin2a tan b = e tan a ⇒ u2 – v2 = u2 (1-e2)sin2a and loss of kinetic energy due to impact is 1 1 1 mu2- mv2 = mu2(1- e2)sm2 (cid:181) 2 2 2 \ the proportional loss of kinetic energy is (1-e2)sin2(cid:181) 58 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 1 Three smooth spheres, A, B, C of masses m, 2m and 4m respectively rest on a smooth plane (horizontal) with their centres collinear, and B lies between A and C. The coefficients of restitution between any two pairs are equal.
+If A is projected towards B with velocity U and C u moves with velocity after it has been struck by B, find the common 4 coefficient of restitution and subsequent velocities of A and B.
+Solution m 2m 4m A U B C Let V , V be velocities of A and B respectively after 1st collision and let 1 2 e be the common coefficient of restitution between any two spheres.
+Then momentum conservation and Newton’s Law give mV + 2Mv = mu -------------------- (1) 1 2 V – v = -e(u-0) = -eu ---------------- (2) 1 2 (1) and (2) ⇒ 3v = u(1+e) 2 (1+e) \ v = u 2 3 (1+e) (1- 2e) Thus, V = u -eu = u 1 3 3 B then moves faster ahead of A to strike C at rest causing second collision.
+Let V , V be velocities of B and C respectively after the second 3 4 collision, Then, (1+e) 2mv + 4mv = 2m u ---------- (3) 3 4 3 59 MTH315 ANALYTICAL DYNAMICS (1+e) V – V = -eu -------------------- (4) 3 4 3 (1+e) (1+e) (2) and (4) ⇒ 3v = u + eu 4 3 3 u u Therefore, V = (1 + e + e + e2) = (1+e)2 4 9 9 u But, V = , 4 4 u u 3 Thus, (1+e)2 = or 1+ e = 9 4 2 1 ⇒ e = 2 Velocity of A after 1st collision is 1 (1- 2x ) 2 V = u = 0 1 3 Velocity of B after 2nd collision is 1 (1+ ) (1+e) u 2 V = V – eu = - u 3 4 3 4 6 u u = - = 0 4 4 Therefore, subsequently, A and B are put to rest after first and second collision respectively.
+SELF ASSESSMENT EXERCISE 2 A particle falls from a height h upon a fixed horizontal plane; if e be the coefficients of restitution on, show that the whole distance described (1_e2)h before the particle has finished rebounding is and that the (1- e2) 1+e 2h whole tune taken is x 1- e g 60 MTH315 ANALYTICAL DYNAMICS Solution (a) Let u be the velocity on first hitting the plane so that U2 = 2gh Then the particle rebounds with velocity eu.
+The velocity when it hits the plane the second time is eu and the velocity after the second rebound is e2u.
+Similarly, the velocity after the third, fourth etc.
+; rebounds are e3u, e4u etc.
+(b) The height to which the particle rises after the first rebound is (eu)2 2g (e2u)2 And after the second and so on.
+2g (c) Since u2 = 2gh \ the distances are e2h, e4h, etc.
+Hence, the whole distance described is H + 2(e2h + e4 + …..to infinity)  e2  1+e2  = h + 2h  = h      1- e2  1- e2  (d) The time of flight after the first impact is 2eu/g, after the second 2e2u/g, and so on, and the time of falling originally is 2h  .
+   g  2h 2u Hence, the whole time of motion =   + (e + e2 + e3 + …..to    g  g infinity) 2h 2h =   + 2  .
+(e + e2+ …..)      g   g  2h e =  (1+2 )    g  1- e 2h 1+e =   x      g  1- e 61 MTH315 ANALYTICAL DYNAMICS 3.3 Resultant of any Number of Forces Acting on a Particle The resultant force is that single force which acting alone will have the same effect in magnitude and direction as two or more forces acting together.
+Also, the equilibrant of two or more forces is that single fore which will balance all the other forces taken together.
+Note that the equilibrant force is equal in magnitude but opposite in direction to the resultant force.
+If we have a number of forces acting on a particle at O, and we draw a polygon with its sides proportional and parallel to these forces and close the polygon then we know that the system is in equilibrium or if not close, the resultant of the forces is represented by the straight lines.
+i.e.
+E D R Q F C O P S A B T (a) (b) In vector notation, the resultant of the false forces ABCDEF is a force acting at O.
+It is represented in magnitude and direction by AF.
+Thus, AF = AB + BC + CD + EF 3.3.1 Method of Finding the Resultant of any Number of Forces in One Plane Acting on a Particle Consider the figure below, Y R Q P y b a X O Let the forces P, Q, R etc.
+act upon a particle at O.
+Let the forces P, Q, R …… makes angle a , b , y ….. with OX.
+The components of P in the directions OX and OY are: 62 MTH315 ANALYTICAL DYNAMICS Pcosa and P sin a respectively.
+Similarly, the components of Q are: Qcosb and Qsinb and so on.
+Hence, the forces are equivalent to a component Pcosa + Qcosb + RcosY……along OX and a component Psina + Qsinb + RsinY…….
+Along OY If the components be X and Y respectively and F be their resultant and q its inclination to OX, Then, Fcosq = X Fsinq = Y F2 = X2 + Y2 X and tanq = Y SELF ASSESSMENT EXERCISE 3 Three forces of magnitude 15Q, 10Q, 5Q act on a particle in directions which make 1200 with one another.
+Find their resultant.
+Solution 10Q 1200 15Q 1200 5Q Since forces 5Q, 10Q, 15Q in the directions indicated are in equilibrium, they can be represented in magnitude and direction by the sides of an equilateral triangle.
+63 MTH315 ANALYTICAL DYNAMICS Hence, the three given forces are equivalent to forces 10Q and 5Q inclined at an angle 1200, of which the resultant R is given by R2 = (10Q)2 + (5Q)2 + 2 x 10Q x 5Q x cos120 = 100Q2 + 25Q2 – 50Q2 = 75Q2 R = 5 3Q The angle q the resultant makes with the direction of the force 15P is given by 5sin600 5 3 tanq = = 10- 5cos600 15 1 tanq = 3 \ q = 300 SELF ASSESSMENT EXERCISE 4 A particle is acted on by forces of 1N, 2N, 3N, and 4N, the angles between them being 600, 300, 600 respectively, find the magnitude and direction of the resultant.
+4.0 CONCLUSION Conclusively, having gone through this unit you should be able to define the following terms: coefficient of restitution, direct and indirect impacts.
+Also, you should be able to solve simple problems on resultants of forces acting on a particle.
+5.0 SUMMARY In this unit, we studied that the ratio of the momentum after impact to the momentum before impact is called coefficient of restitution (or elasticity) denoted by e. i.e.
+e = momentum after impact momentum before impact and 64 MTH315 ANALYTICAL DYNAMICS ⇒ -e = velocity after impact velocity before impact We remark here that when e = 0 we have inelastic body and when e = 1, we have perfectly elastic body.
+It was also discussed that the relative velocity of the spheres along the line of centres immediately after impact is –e times the relative velocity before impact.
+Direct impact and indirect impact were treated as well in this unit.
+However, the impact is direct when it is normal to the surface and we have that V = -eu Where v = velocity after impact u = velocity before impact and e = coefficient or restitution.
+So, if h is, the height when a sphere falls to a smooth plane, the velocity before impact is ( ) u = 2gh The velocity after impact is (upward) ( ) eu = 2ghe2 The velocity is destroyed by gravity when the sphere has risen to a height.
+( ) \ 2gh1 = 2ghe2 h1 = e2 h h1 e = h while in indirect impact the velocity before impact parallel to the surface is u cos a and velocity after impact is u.
+\ u cos a = v cos b ⇒ v sin b = eu sin a 65 MTH315 ANALYTICAL DYNAMICS and from above it was shown that the loss of kinetic energy due to impact is expressed mathematically as 1 1 1 mu2- mv2 = mu2(1- e2)sm2 (cid:181) 2 2 2 where ((1-e2)sin2(cid:181) )is the proportional loss of kinetic energy of the system of particle.
+Remarks 1.
+Suppose two bodies of masses m and m moving with velocity 1 2 u and u respectively collide directly.
+If v and v are the 1 2 1 2 velocities after impact the principle of momentum gives us the equation m v + m v = m u + m u 1 1 2 2 1 1 2 2 v - v 2.
+1 2 = -e u - u 1 2 then, v – v = -e(u -u ) 1 2 1 2 3.
+From (1) & (2) above, (m + m ) v = (m – em ) u + m (1+e)u 1 2 1 1 2 1 2 2 and ((m + m ) v = m (1+e) u + (m – em ) u .
+1 2 2 1 1 2 1 2 SELF ASSESSMENT EXERCISE 5 1.
+A ball of mass 10kg, moving at 5m/s, overtakes another of mass 1 4kg, moving at 2m/s in the same direction.
+If Є = , find the 2 velocities after impact.
+Solution 70 4 2 the direction v v 1 2 Let v , v m/s be the velocities of 10kg and 4kg spheres respectively 1 2 after impact.
+By the principle of momentum 10v + 4v = 10 x 5 + 4 x 2 = 58 1 2 66 MTH315 ANALYTICAL DYNAMICS and by Newton’s law 1 - 3 v – v = - (5 – 2) = 1 2 2 2 5 \ 14v = 52 or v = 3 1 1 7 3 and 14v = 73 or v = 5 .
+2 2 14 SELF ASSESSMENT EXERCISE 6 Two masses m and m travelling in the same straight line collide 1 2 Find (a) velocities of the particles after collision in terms of the velocities before collision (b) Briefly discuss: (i) a perfectly inelastic collision and (ii) a perfectly elastic collision for the two masses m and m .
+1 2 (c) Show that for a perfectly elastic collision of the particle m and 1 m , the total kinetic energy before collision equals the total 2 kinetic energy after collision.
+Solution (a) m1 v1 m2 v2 x Assume that the straight line is taken to be the x axis and that the velocities of the particles before and after collisions are v , v and v , v 1 2 1 2 respectively, By Newton’s collision rule, v – v = Є(u – u ) ----------------- 1 1 2 2 1 By principle of consideration of momentum, total momentum after collision = total momentum before collision.
+m v + m v = m u + m u --------------- 2 1 1 2 2 1 1 2 2 67 MTH315 ANALYTICAL DYNAMICS m v + m v = mu + mu 1 1 2 2 1 2 10v + 4v = 10 x 5 + 4 x 2 = 58 ---------------- (i) 1 2 By Newton’s law, v – v = -Є(u – u ) ----------------…..- (ii) 1 2 2 1 10v + 4v = 58 1 2 - 3 and from (ii) v – v = 1 2 2 3 v = + v 2 1 2 Put in (i) 3 10v + 4( +v ) = 58 1 1 2 10v + 6 + 4v = 58 1 1 14v = 52 1 5 v = 3 1 7 also 5 10(3 ) + 4 (v ) 58 2 7 3 v =5 .
+2 14 Solving equations (1) and (2) simultaneously, (m - εm )u +m (1+ε)u v = 1 2 1 2 2 ---------------------- 3 1 m +m 1 2 m (1+ε)u +(m -εm )u v = 1 1 2 1 2 ---------------------- 4 2 m +m 1 2 (b) (i) Here we put ε = 0 in (3) and (4) above to obtain m u +m u m u +m u v = 1 1 2 2, v = 1 1 2 2, 1 m +m 2 m +m 1 2 1 2 68 MTH315 ANALYTICAL DYNAMICS Thus, after collision the two particles move with the same velocity i.e.
+they move as if they were stuck together as a single particle.
+(ii) Here we put ε = 1 in (3) and (4) above to obtain (m - m )u +2m u 2m v +(m - m )u v = 1 2 1 2 2 , v = 1 1 2 1 2 1 m +m 2 m +m 1 2 1 2 Then velocities are not the same 1 2m u +(m - m )u 2 (c) Total kinetic energy after collision = m  1 1 2 1 2 2 2 m +m  1 2 1 1 = m u2+ m2u2 2 1 1 2 2 = total kinetic energy before collision 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Three forces of magnitude 20Q, 15Q, 10Q act on a particle in directions which make 1500 with one another.
+Find their resultant.
+2.
+A particle is acted on by forces of 5N, 2N, 1.5N, and 8N, the angles between them being 600, 450, 900 respectively, find the magnitude and direction of the resultant.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+69 MTH315 ANALYTICAL DYNAMICS MODULE 5 NEWTON’S LAW OF MOTION AND APPLICATIONS TO SIMPLE PROBLEMS Unit 1 Newton’s Law of Motion Unit 2 Work, Power and Energy Unit 3 Rectilinear Motion UNIT 1 NEWTON’S LAW OF MOTION CONTENTS 1.0 Introduction 2.0 Objectives 8.0 Main Content 3.1 Newton’s Law of Motion 3.2 Force 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Isaac Newton, the great scientist considered the following: (i) how a body A will move when left to itself (ii) how the motion is affected by the action of an external force (iii) if this external force is due to another body B , how the action of 1 B on A is related to the reaction of A on B.
+He then gave three laws which we perfectly call Newton’s laws of motion in mechanics.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • state Newton’s laws of motion • define impulsive forces and make some simple applications.
+70 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Newton’s Law of Motion Isaac Newton considered the following: (i) how a body A will move when left to itself (ii) how the motion is affected by the action of an external force (iii) if this external force is due to another body B , how the action of 1 B on A is related to the reaction of A on B.
+He then gave three laws which we considered as the axioms of mechanics which shall form the bases of the unit: (1) Every object (particle) continues in a state of rest or of uniform motion in a straight line (i.e.
+with constant velocity) unless acted upon by a force.
+(2) If F is the force acting on a particle of mass m which as a consequence is moving with velocity v, then d F = (mv)……………….
+(i) dt d P …………………….
+(ii) dt where P = mv is called the momentum.
+If m is independent of time t this becomes dv F = m …………………….
+(iii) dt = ma ………………………… (iv) where a is the acceleration of the particle (3) If particle A acts on particle B with a force F in a direction AB along the line joining the particles, while particle B acts on particle A with a force F , then F = F .
+In other words, to BA BA AB every action there is an equal and opposite reaction.
+3.2 Force Force is defined as a measure of the “push or pull on an object”.
+The unit of force is Newton (N).
+71 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 1 Due to a field, a particle of mass 3 units moves along a space curve whose position vector is given as a function of time t by r = (4t2 + 2t)i + (t3 – t2 + 10) j - 6t3k Find (a) the velocity, (b) the momentum (c) the acceleration and (d) the force field at any time t. Solution dr (a) Velocity = V = = (8t + 2)i + (3t2 – 2t) j - 18t2k dt (b) Momentum = P = mv = (24t + 6) j + (9t2 – 6t) j - 54t2k dv d2r (c) Acceleration = a = = = 8i + (6t – 2) j - 36tk dt dt2 dp (d) Force = F = = m = 24i + (18t – 6) j - 48tk dt SELF ASSESSMENT EXERCISE 2 A particle of mass 4 moves in a force field depending on time t given by 2 F = 12ti + (16t – 8) j - 20tk Assuming that at t = 0 the particle is located at r = 2i – j + 6k and has 0 velocity V = 3i + 7 j - 4k, find (a) the velocity and (b) the position at o any time t. Solution (a) By Newton’s second law, apply equation (iii) above dv 2 4 = 12ti + (16t – 8) j - 20tk dt dv 2 = 3ti 0 + (4t – 2) j - 50tk dt Integrating with respect to t and calling c, the constant of integration, dv 2 we have ∫ = ∫ 3ti + (44 – 2) - 5k dt 72 MTH315 ANALYTICAL DYNAMICS 3 5t2 V = ti + (t2 – 2t) j - tk + G 2 Since v = v = 3i + 7 j - 4k at t = 0, we have c, = 3i + 7 j - 4k o - 2t 5t2 and so v = (t3 + 3)i + (t 2+7) j - ( - 4)k (cid:217) 2 dr (b) Since v = , we have by part (a) dt dr 5t2 = (t3 + 3)i + (t2 – 2t + 7) j - ( - 4)k dt 2 Integrating with respect to t we have t4  t2  5  r =  +3ti+ - t2+7tj -  t3- 4tk +c      4   2  4  2 where c is the constant of integration.
+Since 2 r = r = 2i – j + 6k at t = 0, o we have c = 2i- j+6k 2 and so t4  t2  5  r =  +3t+2i+ - t2+7t- 1j -  t3- 4t+6k      4   2  4  SELF ASSESSMENT EXERCISE 3 A particle of mass m moves in the xy plane so that its position vector is r = acoswti + bsinwt j where a, b and w are positive constants and a>b (a) Show that the particle moves in an ellipse (b) Show that the force acting on the particle is always directed toward the origin.
+73 MTH315 ANALYTICAL DYNAMICS Solution The position vector is r = xi + yi = a coswt i + bsinwtj and so x = acoswt, y = bsinwt which are the parametric equations of an ellipse having semi-major and semi-minor axes of lengths a and b respectively.
+y B m b r wt A x a x2 y2 Since   +   = cos2wt + sin2wt = 1 b b x2 y2 the ellipse is also given by + = 1 a2 b2 (b) Assuming the particle has constant mass m, the force acting on it is mdv d2r md2 F = = m = ((acoswt)i + (bsinwt) j) dt dt2 dt2 = m[-w2acoswt i – w2bsinwt)j)] = -mw2[acoswt i + bsinwt j] which shows that the force is always directed toward the origin.
+74 MTH315 ANALYTICAL DYNAMICS 4.0 CONCLUSION Having concluded this unit, you should be able to state promptly the three (Newton’s law of motion) that is, every object (particle) continues in a state of rest or of uniform motion in a straight line (i.e.
+with constant velocity) unless acted upon by a force.
+Secondly, rate of change of momentum is proportional to the applied force and takes place in the direction of the applied force.
+Mathematically, F = ma.
+Lastly, the third law states that to every action there is an equal and opposite reaction.
+5.0 SUMMARY In summary, the first, second and third laws of Isaac Newton were defined and extensively explained coupled with some simple problems on forces that were attended to.
+9.0 TUTOR-MARKED ASSIGNMENT 1.
+State Newton’s law of motion.
+2.
+In a force field, a particle of mass 10 units moves along a space curve whose position vector is given as a function of time t by r = (5t2 + t)i + (t3 – t2 + 3) j - 7t3k Find (a) the velocity, (b) the momentum (c) the acceleration and (d) the force field at any time t. 3.
+A particle of mass 7kg moves in a force field depending on time t 2 given by F = 15ti + (10t +3) j - 12tk Assuming that at t = 0 the particle is located at r = i – j + 3k and has 0 velocity V = 2i + j +4k, find (a) the velocity and (b) the position at o any time t. 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+75 MTH315 ANALYTICAL DYNAMICS UNIT 2 WORK, POWER AND ENERGY CONTENTS 1.0 Introduction 2.0 Objectives 9.0 Main Content 3.1 Work, Power and Energy 3.2 Principle of Linear Momentum 3.3 Principle of Angular Momentum 3.4 Principles of Conservation of Energy 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION According to Oxford English dictionary, work is said to be the use of bodily or mental power in other to do or make something.
+While power is said to be the ability to do something/perform work.
+Consequently, energy is said to be the strength and vitality needed for vigorous activities.
+In other word, energy is the ability to do work.
+Energy can be expressed in two forms namely: kinetic and potential energies respectively.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define work, power and energy • state the principles of linear momentum and some simple applications • state the principles of angular momentum and some simple applications • state the principles of conservation of energy and some simple applications.
+76 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Work, Power and Energy 3.1.1 Work If a force F acting on a particle gives it a displacement dr, then the work done by the force on the particle is defined as dw = F.dr.
+Since only the component of F in the direction of dr is effective in producing the motion.
+The total work done by a force field (vector field) F in moving the particle from point P to point P along the curve C of the figure below 1 2 is given by the line integral.
+z P 1 C r P 2 r+dr y x Where r and r are the position vectors of p and p respectively.
+1 2 1 2 3.1.2 Power If the particle in work above has constant mass that at times t and t it is 1 2 dr dr located at p and p and moving with velocities V = 1 and V = 2 1 2 1 2 dt dt respectively.
+Theorems on Power Theorem 1 The total work done in moving the particle along C from p to p is 1 2 given by: 1 W = ∫ Fdr= m(v2- v2) c 2 2 1 77 MTH315 ANALYTICAL DYNAMICS 3.1.3 Kinetic Energy 1 If we call the quantity T = mv2, the kinetic energy of the particle, then 2 the theorem 1 above is equivalent to the statement.
+Total work done from p to p along C. 1 2 = Kinetic energy at p – Kinetic energy at P 2 1 W = T – T 2 1 1 1 where T = mv2 and T = mv2 1 2 1 2 2 2 SELF ASSESSMENT EXERCISE 1 A particle of constant mass m moves in space under the influence of a force field F. Assuming that at times t and t the velocity is v and v 1 2 1 2 respectively, prove that the work done is the change in kinetic energy, i.e.
+∫t2F.dr = 1mv2 - 1mv2 t 2 2 2 1 1 Solution Work done = ∫t2F.dr dt = ∫t2F.vdt t t 1 1 = ∫t2mdv.vdt t dt 1 = m∫t2v.dv t 1 = 1m ∫t2d(v.v) 2 t 1 1 = mv2 t2 2 t1 1 1 = mv2 - mv2 2 2 2 1 SELF ASSESSMENT EXERCISE 2 Prove that if F is the force acting on a particle and v is the velocity of the particle, then the power applied to the particle is given by P = F-V 78 MTH315 ANALYTICAL DYNAMICS Solution By definition the work done by a force F in giving a particle a displacement dr is dw = F.dr then the power is given by dw P = dt dr = F. dt P = F.v SELF ASSESSMENT EXERCISE 3 Find the work done in moving an object along a vector r = 6i + 4j – 10k if the applied force is F = 4i – 2j – 2k Solution F q r work done = magnitude of force in direction of motion x distance moved = Fcosq x r = F.r = (6i + 4j – 10k).
+(4i -2j – 2k) = 24 – 8 + 20 = 36.
+3.2 Principle of Linear Momentum If r is the position vector of the centre of mass of a rigid body relative to an origin O, then d • •• mr = mr = F dt where m is the total mass, and F is the net external force acting on the body.
+79 MTH315 ANALYTICAL DYNAMICS 3.3 Principle of Angular Momentum If ∫c is the moment of inertia of the rigid body about the centre of mass, w is the angular velocity and (cid:217) is the torque or total moment of the C external forces about the centre of mass, then d (cid:217) = (∫cw) C dt • = ∫c w 3.4 Principle of Conservation of Energy If the net external forces are conservative so that the potential energy of the rigid body is V, then 1 •2 1 T + V = mr + ∫cw2 + v 2 2 = E = constant 1 1 Note: mr2 is the kinetic energy of translation and ∫ V cw2 is the 2 2 kinetic energy of rotation of the rigid body about the centre of mass.
+SELF ASSESSMENT EXERCISE 4 Show that the total momentum of a system of particles can be found by multiplying the total mass m of the system by the external force acting on the system.
+Proof The centre of mass is by definition, Σ r r = r r m The total momentum is P = S mv r r • • dr = Σm r = m r r at = mv Q.E.D.
+80 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 5 Explain why the ejection of gases at high velocity from the rear of a rocket will move the rocket forward.
+Solution Since the gas particles move backward with high velocity and since the centre of mass does not move, the rocket must move forward.
+SELF ASSESSMENT EXERCISE 6 A solid cylinder of radius a and mass m rolls without slipping down on an inclined plane of anglea .
+Show that the acceleration is constant and 2 equal to sina .
+3g Solution The potential energy is composed of the P.E due to the external forces i.e.
+gravity the P.E due to internal forces which can be neglected.
+Taking the reference level as the base plane and assuming that the height of the centre of mass above this plane initially is H and the height at anytime t is h, we have 1 •2 1 mr + ∫cw2 + mgh = MgH .............................................. (1) 2 2 or using H – h = xsina ............................................................................ (2) • and r = x2 + y2 = x2 ........................................................................................... (3) i.e.
+y2 = 0 Substituting (2) and (3) into (1) we have 1 •2 1 mx + ∫cw2 = mg xsina .............................................................. (4) 2 2 x But w = q = .................................................................................... (5) a 1 and ∫ = ma2 ................................................................................. (6) C 2 81 MTH315 ANALYTICAL DYNAMICS Substituting (5) and (6) into (4) we obtain •2 4 • x = gxsinα 3 Differentiating w.r.t, we have • •• 4 • 2xx = gxsinα 3 •• 2 x = gsinα 3 3.4.1 Angular Momentum ( ) d In r x F = [m(r x v)] dt then the quantity = m(r x v) r x p is called the angular momentum or moment of momentum about O 3.4.2 Conservation of Momentum If we let F = 0 in Newton’s second law, we find d (mv) = 0 dt Or mv = constant Remark If the net external force acting on a particle is zero, its momentum will remain unchanged.
+Torque If a particle with position vector r moves in a force field F z F r y O we define (cid:217) = r x F. As the torque or moment of the force F about O.
+82 MTH315 ANALYTICAL DYNAMICS Impulse Suppose that the particle in the figure below z P 1 C r P 2 r+dr y x is located at p andp at times t andt where it has velocities V andV 1 2 1 2 1 2 respectively.
+The time integral of the force F given by ∫ t2 Fdt t 1 is called the impulse of the force F. SELF ASSESSMENT EXERCISE 7 Determine the torque and the angular momentum about the origin for the particle of mass 4 moves in a force field depending on time t given by F = 12t2 i+ (16t – 8)j – 20tk.
+Assuming that at t = 0, the particle is located at r = 2i – j + 6k and has velocity V = 7j – 4k.
+0 0 Solution Hint: Torque (cid:217) = r x F 4.0 CONCLUSION If a force F acting on a particle gives it a displacement dr, then the work done by the force on the particle is defined as dw = F.dr.
+If the net external force acting on a particle is zero, its momentum will remain unchanged.
+83 MTH315 ANALYTICAL DYNAMICS 5.0 SUMMARY Work is defined as work done by the force on the particle thus dw = F.dr.
+Power is defined as the total work done in moving the particle along the path C from p to p above is given by 1 2 1 W = ∫ F- dr= m(v2- v2).
+The kinetic energy of the particle is given as c 2 2 1 1 T = mv2.
+We further discussed the principle of conservation of 2 1 •2 1 energy as E = constant = T + V = mr + ∫cw2 + v. 2 2 Furthermore, the angular momentum or moment of momentum about O is given as = m(r x v).
+It is remarked here that if the net external force acting on a particle is zero, its momentum will remain unchanged.
+That is mv = constant.
+Each sub section is followed by an example for better understanding of the unit.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Explain the following terms and express their mathematical formulae: (a) Work (b) Power (c) Energy 2.
+Determine the torque and the angular momentum about the origin for the particle of mass 4kg moves in a force field depending on time t given by F = 32t i+ (32t – 8)j – 5tk.
+Assuming that at t = 0, the particle is located at r = i –3 j + 6k and has velocity V = 3i – 0 0 4k.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+84 MTH315 ANALYTICAL DYNAMICS UNIT 3 RECTILINEAR MOTION CONTENTS 1.0 Introduction 2.0 Objectives 10.0 Main Content 3.1 Rectilinear Motion 3.1.1 Uniform Force Fields 3.1.2 Uniformly Accelerated Motion 3.2 Weight and Acceleration due to Gravity 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION A force field which has constant magnitude and direction is called a uniform constant force field.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define rectilinear motion • define weight and acceleration due to gravity.
+3.0 MAIN CONTENT 3.1 Rectilinear Motion 3.1.1 Uniform Force Fields Definition A force field which has constant magnitude and direction is called a uniform constant force field.
+Consider the diagram below, if the direction of the field is taken as the negative z direction as indicated below and the magnitude is the constant F > 0, 0 85 MTH315 ANALYTICAL DYNAMICS z k F = -F k 0 O y j i x then the force field is given by F = -F k ------------- (a) 0 3.1.2 Uniformly Accelerated Motion If a particle of constant mass m moves in a uniform force field, then its acceleration is uniform or constant.
+The motion is then described as uniformly accelerated motion.
+Using our known F = main (a) above, the acceleration of a particle of mass m moving in a uniform force field (a) is given by F k a = 0 m 3.2 Weight and Acceleration due to Gravity By experiment, objects fall near the earth’s surface with a vertical acceleration which is constant unless air resistance is negligible.
+This acceleration is denoted by g and is called the acceleration due to gravity or the gravitational acceleration.
+The approximate magnitude of g is 9.8m/sec2.
+z m -mgk r y O x 86 MTH315 ANALYTICAL DYNAMICS Assuming the surface of the earth is represented by the xy plane in the figure above, the force acting on a particle of mass m is given by w = -mgk.
+This force, which is called the weight of the particle, has magnitude w = mg. SELF ASSESSMENT EXERCISE 1 A particle of mass m moves along a straight line under the influence of a constant force of magnitude F. If its initial speed is V , find (i) the 0 speed, (ii) the velocity and (iii) the distance travelled after time t. Solution F i x m x O i P (i) Let’s assume that the straight line along which the particle P moves is the x-axis and suppose that at time t, the particle is at a distance x from origin O.
+If I is a unit vector in the direction OP and V is the speed at time t, then velocity is V. i By Newton’s second law we have d dv (mvi) = Fi or m = F ...................................................... (1) dt dt F F Thus, dv = dt or ∫dv= dt m m F i.e.
+V = t + C ...................................................................... (2) 1 m where C is a constant of integration.
+To find C we note the 1 1 initial condition that V = V at t = 0 so that from (2) , C = V and 0 1 0 F F V = t + V or V = V + t ............................................... (3) 0 0 m m 87 MTH315 ANALYTICAL DYNAMICS (ii) From (3) the velocity at time t is F F Vi = V + ti or V = V + t 0i 0 m m where V = Vi, V = V and F = Fi.
+0 0i dx (iii) Since V = we have from (3), dt dx F F = V + t or dx = (V + t) dt 0 0 dt m m then on integrating, assuming C to be the constant of integration, 2 we have  F  x = V t +  t2+C 0 2m 2 Since x = 0 at t = 0, we find C = 0 2 Thus,  F  x = V t +  t2-------------------------- (4) 0 2m SELF ASSESSMENT EXERCISE 2 From example (1), show that the speed of the particle at any position x is 2F given by V = V 2+ x 0  m  Solution From example 1, dv m = F dt dv F dv dx F = , i.e.
+.
+= dt m dx dt m dx or since V = , dt dv F F V = , i.e.
+Vdv = dx dx m m 88 MTH315 ANALYTICAL DYNAMICS v2 F Integrating, = x + C 3 2 m V 2 Since V = V when x = 0, we find C = 0 and hence 0 3 2 2F V = V 2+ x 0  m  4.0 CONCLUSION This unit is concluded thus, going by example 1 in section 3.2 above, you will observed that use is made of Newton’s second law which has been discussed earlier in unit 1 of this module.
+This is to advise the reader that the units are interrelated.
+5.0 SUMMARY Uniform force fields which have constant magnitude and direction are defined as uniform constant force field.
+Also uniformly accelerated motion is defined as motion of a constant mass m in which its acceleration is uniform or constant.
+Using Newton’s second law we have, F k a = 0 .
+m Lastly, we show that the approximate magnitude of acceleration due to gravitational force as 9.8m/sec2.
+Objects fall near the earth’s surface with a vertical acceleration which is constant unless air resistance is negligible.
+This acceleration is denoted by g and is called the acceleration due to gravity or the gravitational acceleration.
+The approximate magnitude of g is 9.8m/sec2.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+State Newton’s laws and give their mathematical formulae where they are applicable.
+2.
+An object of mass m is thrown vertically upward from the earth’s surface with speed V .
+0 3.
+Find (i) the position at anytime t (ii) the time taken to reach the highest point and (iii) the maximum height reached.
+89 MTH315 ANALYTICAL DYNAMICS 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T.W.B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+90 MTH315 ANALYTICAL DYNAMICS MODULE 6 Unit 1 Reduction of Coplanar Forces Acting on a Rigid Body to a Force and a Couple Unit 2 Moment of a Force UNIT 1 REDUCTION OF COPLANAR FORCES ACTING ON A RIGID BODY TO A FORCE AND A COUPLE CONTENTS 1.0 Introduction 2.0 Objectives 11.0 Main Content 3.1 Reduction of Coplanar Forces Acting on a Rigid Body to a Force 3.2 Analytical Representation 3.2.1 Theorem 3.3 Centre of Mass of Simple Bodies 3.4 Motion of the Centre of Mass 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Coplanar forces are forces that lie in the same plane.
+A rigid body is a body that is made up of many particles which are at fixed distances from each other.
+Examples include, metre rule, turning fork, writing desks, towers supporting a suspended bridge, landing gear of an aircraft etc.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • prove that any system of coplanar forces acting on a rigid body can be reduced to single force on a single couple • state that the sum of the moment of the forces of the system about any point on the line of action of the resultant will be zero.
+91 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Reduction of Coplanar Forces Acting on a Rigid Body to a Force Theorem 1 Any system of coplanar forces acting on a rigid body can be reduced to single force on a single couple.
+Proof By the parallelogram of forces, or theorems on resultant parallel forces, the resultant of any two forces P.Q may be found, this continues with a third force R will determine the resultant of the first (P).
+Or We can reduce any three forces P, Q and R to two.We cannot compound P with either Q or R, unless P forms a couple with each of them.
+In this case, Q and R are equal, parallel, and like forces (for each is in the opposite direction to P), and therefore Q and R can be compounded.
+By taking another force of the system with the two forces obtained and by repeating this process we shall obviously reduce the system to two forces which, if not in equilibrium must either form a couple or have a single resultant.
+3.2 Analytical Representation With reference to rectangular axes through a given point O, let the forces of the system in figure below be P , P , P ….. 1 2 3 Let the forces act at the points (x , y ), (x , y ), x , y ) etc.
+respectively.
+1 1 2 2 3 3 Let P , P , P ……parallel to the axes be x and y , x and y , x and y ….
+1 2 3 1 1 2 2 3 3 Then, introducing at O the equal and opposite forces x parallel to OX 1 and two equal and opposite forces parallel to OY.
+Then we have forces x and y acting at O and two couples whose moments are x y and -y 1 1 1 1 1 x .
+1 Y y 1 p x y 1 1 x1 1 x1 x1 y1 X O y 1 92 MTH315 ANALYTICAL DYNAMICS If the resultant of all forces acting at O has components X and Y parallel to the axes, then X = x + x + x + ………..=S x , 1 2 3 1 Y = y + y + y +…………=S y .
+1 2 3 1 Also, compounding the couple into a single couple G whose moment is the sum of the moment of all the couples, that is, G = [x y -y x ] + [x y –y x ] + [x y –y x ] + ……… 1 1 1 1 2 2 2 2 3 3 3 3 = S (x y -y x ].
+1 1 1 1 The forces X and Y are equivalent to a single force parting at O, where P = (x2+y2).
+Hence, the system reduces to a single force Pat O and a couple G. 3.2.1 Theorem If the system of forces reduces to a single force its line of action may be found.
+The sum of the moment of the forces of the system about any point on the line of action of the resultant will be zero.
+The moment of P at (x y ) about the point (h,k) is 1 1 1 Y y 1 (x ,y ) x 1 1 1 (h,k) X O (x -h) - (y -k)x 1 1 1 = (x y -y x ) – hy + kx 1 1 1 1 1 1 Hence, the sum of the moments of all the forces about the point (h,k) is S (x y -y x ) - hS y + kS x 1 1 1 1 1 1 = G – hy + kx 93 MTH315 ANALYTICAL DYNAMICS If the point (h,k) lies on the resultant, we have G – hy + kx = 0 and finally, G – xY - yX = 0 This equation determines a definite straight line unless the coefficient of x and y are both zero, and this is the case where the system reduces to a couple.
+3.3 Centre of Mass of Simple Bodies Definition Let r , r ……..R be the position vectors of a system of N particles of 1 2 N masses.
+m , m ….m respectively.
+The centre of mass of the system of particles 1 2 N is defined as that point C having position vector m r+m r +......+m r r = 11 2 2 N N m +m +......+m 1 2 N 1 N r = Σmr i i M i=1 N where M = Σ m is the total mass of the system.
+i i=1 Definition The continuous systems of particles occupying a region R of space in which the volume density is s , the centre of mass can be written ∫ σrdr r R --------------- (1) ∫ σdr R where the integral is taken over the entire region R. If we write that r = xi+yi+zk,rv = xvi + yvi + zvk then (1) above can equivalently be written as 94 MTH315 ANALYTICAL DYNAMICS Σmvxv Σmvyr Σmvzr x = , y = , z = ------- (2) m m m ∫ σxdr ∫ σydr ∫ σzdr and x = R , y= R , z = R ,------- (3) m m m where total mass is given by m = S mv or m = ∫ σdr------ (4) R Remarks (a) The integrals in (1), (3) or (4) can be single, double or triple integrals.
+(b) If a system of particles is in a uniform gravitational field, the centre of mass is sometimes called the Centre of Gravity.
+3.4 Motion of the Centre of Mass Suppose that the internal forces between any two particles of the system obey Newton’s third law.
+Then, if F is the resultant external force acting on the system, we have d d2r dv F = P = m = m dt dt2 dt where P is the linear momentum.
+Remarks (a) The acceleration of the centre of mass of a system of particles is the same as that of a single particle having a mass equal to the total mass of the system and acted upon by the sum of the external forces.
+(b) If we consider as an example, a swarm of particles moving in a uniform gravitational field.
+Then ∑ ∑ F = m g i i = M g 4.0 CONCLUSION This unit deals with the Reduction of Coplanar Forces Acting on a Rigid Body to a Force.
+95 MTH315 ANALYTICAL DYNAMICS 5.0 SUMMARY In the prove of the first theorem above, we remark that by taking another force of the system with the two forces obtained and by repeating this process we shall obviously reduce the system to two forces which, if not in equilibrium must either form a couple or have a single resultant.
+Also, this remark is made in respect of the theorem 3.2.1.
+Thus, the sum of the moment of the forces of the system about any point on the line of action of the resultant will be zero.
+More so, the centre of mass of the system of particles is defined as that point C having position vector m r+m r +......+m r r = 11 2 2 N N m +m +......+m 1 2 N 1 N r = Σmr i i M i=1 N where M = Σ m is the total mass of the system.
+i i=1 10.0 TUTOR-MARKED ASSIGNMENT Differentiate between centre of mass and centre of gravity.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+96 MTH315 ANALYTICAL DYNAMICS UNIT 2 MOMENT OF A FORCE CONTENTS 1.0 Introduction 2.0 Objectives 12.0 Main Content 3.1 Moment of a Force 3.2 Couples 3.3 Moment of a Couple 3.4 Equilibrium of a Particle 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION The moment of a force about a given point is the product of the force and the perpendicular drawn from the given point to the line of action of the force.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define Moment of a Force • define the term, “Couples” • state the Moment of a Couple • prove the Equilibrium of a Particle.
+3.0 MAIN CONTENT 3.1 Moment of a Force When a number of forces are acting on a body, the algebraic sum of their moments is obtained by giving the value of the moment of each force its proper sign and adding them together.
+Moment of a force is a vector quantity as it has both magnitude and direction.
+Its unit is NM.
+The Principle of Moments can be verified experimentally by applying known forces to a rigid body, such as bar, and making appropriate measurements.
+Therefore, principle of moments can be used as the basis of static.
+97 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 1 A uniform beam is 24m long and has a mass 100kg and masses of 60kg and 80 kg are suspended from its ends; at what point must the beam be supported so that it may rest horizontally?
+Solution Let AB be the beam, O its centre of gravity O X A B x (12-x) 12 60g 100g R 80g We need a point about which the moments of the three weights balances and let that point be X.
+Let R be the supporting force R acting on the beam at X.
+⇒ R = (60 + 100 + 80)g = 240gN Let BX = xm, then if we take moment about X, 80x = 100 (12-x) + 60 (24-x) 80x = 1200 – 100x + 1440 – 60x 80x = 2640 – 160x 240x = 2640 X = 11 Alternatively, the position of X can be obtained by taking moments of all the forces about one end of the rod.
+Hence, taking moments about B, RX = 100g x 12 + 60g x 24 = (1200 + 1440)g 240X = 2640 X= 11 98 MTH315 ANALYTICAL DYNAMICS SELF ASSESSMENT EXERCISE 2 A uniform rod AB, of length 12m, and of mass 60kg, rests or two supports, one at A and the other 2m from B.
+Masses of 8, 10 and 20kg are attached at points 2m, 4,, and 8m respectively from A.
+Find the thrust on the supports.
+Solution A a b O c d B 2m 2m 2m 2m 2m 2m R 8g 10g 60g 20g S Let c = the position of the other support Let o = the centre of gravity of the rod Let d, e, f = the points where the masses are attached Then R and S are the reactions at A and B in Newton’s respectively.
+Taking moments about A, 20s = 8g x 2 + 10g x 4 + 60g x 6 + 20g x 8 = (16 + 40 + 360 + 160)g 20S = 576 S = 28.8 \ taking moments about C, 20R = 20g x 2 + 60g x 4 + 10g x 6 + 8g x 8 = (40 + 240 + 60 + 64) 20R = 404 R = 20.2 3.2 Couples Couple is a term used to denote two equal unlike paralleled forces whose line of action are not the same.
+99 MTH315 ANALYTICAL DYNAMICS Consider the figure below, F P OR r A O B -F P 0.
+Couple consists two unlike equal lines 1.
+Different sense 2.
+Different directions 3.
+The same magnitude Let P, P be the forces acting as shown above Let O be any point interior plane Draw OAB perpendicular to the forces to meet their lines of action in A and B the sum of the moment about O is B A C AB = AC = BA AB = CB P x OB – P x OA (i.e.
+clockwise and anticlockwise) = P(OB – OA) clockwise anticlockwise P x AB and it is independent of the position of O.
+3.3 Moment of a Couple The moment of a couple about any point in the plane of the forces is equal to the product of one of the forces and the perpendicular distance between the lines of action of the forces.
+In above, the product PXAP, whose P is the magnitude of either of the forces of the couple, and AB is the perpendicular distance between the forces, is called the moment of the couple.
+This may be positive or negative, depending on the sense of rotation of the couple.
+100 MTH315 ANALYTICAL DYNAMICS Remarks A couple has turning point effect.
+Theorem A force acting at a point of a rigid body can be equivalently replaced by a single force acting at some specified point together with a suitable couple.
+Proof Let the force be F acting at Point P as in the figure below: 1 1 P f1 1 F1 r 1 Q -f 1 If Q is any specified point, it is seen that the effect of f alone is the 1 same if we apply two forces f and –f at Q.
+1 1 In particular if we choose f = -f and if F has the same magnitude as F 1 1 1 1 but is opposite in direction, we see that the effect of F1 alone is the same as effect of the couple formed by F and f = -f (which has moment r x 1 1 1 1 F ) together with the force –f = f .
+1 1 1 3.4 Equilibrium of a Particle Conditions of Equilibrium of any Number of Forces Acting on a Particle If we resolve the forces in any two directions at right angles and the sums of the components in these directions be X and Y, the resultant F is given by F2 = X2 + Y2 But if the forces are in equilibrium (see backed) F must be zero.
+Now, it must be noted that the sum of the squares of two real quantities cannot be zero, unless each quantity is separately zero, 101 MTH315 ANALYTICAL DYNAMICS Therefore, X = 0 and Y = 0 Then we conclude that if any numbers of forces acting on a particle are in equilibrium the algebraic sums of their components in any two directions at right angles must separately vanish.
+Conversely, if the sums of their components in two directions at right angles are both zero the forces are in equilibrium then for both X and Y zero, therefore F is zero.
+SELF ASSESSMENT EXERCISE 3 ABCD is a parallelogram and P is any point.
+Prove that the system of forces represented by PA, BP, PC, DP is in equilibrium.
+Solution A P B D C In above diagram, the resultant (a single force which replaces 2 or more forces) of the forces represented by BP, PA is represented in magnitude and direction by BA.
+This resultant acts at P. Again, the resultant of the forces represented by DP, PC is represented in magnitude and direction by DC and act at P. Now, AB is equal and parallel to DC, so that the resultants are equal in magnitude, and as they act at the same point P, they are in the same straight line.
+Since their directions are opposite, they will balance and the system is in equilibrium.
+Vectorially, we can write that the vector sum of the forces = (BP + PA) + (DP +PC) = BA + DC = O 102 MTH315 ANALYTICAL DYNAMICS (This is because AB and DC are equal and parallel and the two vectors are oppositely directed).
+\ Since the forces act at a point and their vector-sum is zero, they are in equilibrium.
+Q.E.D.
+SELF ASSESSMENT EXERCISE 4 A string is tied to two points at the same level, and a smooth ring of weight W which can slide freely along the string is pulled by a horizontal force P. If in the position of equilibrium, the portions of the string are inclined at angles 600 and 300 to the vertical, find the value of P and the tension in the string.
+Solution D A B T T 600 300 P C W AB are the 2 points, C is the position of the ring CD perpendicular to AB Tension T is smooth.
+Resolving vertically, T cos 300 + T cos 600 = W  3 1  +  T = W    2 2 2W T = 3 +1 Rationalize to give T = W ( 3- 1).
+103 MTH315 ANALYTICAL DYNAMICS Resolving horizontally, P + T sin 300 = T sin 600 3 1 T P = T - T = ( 3- 1) 2 2 2 P = W(2- 3) SELF ASSESSMENT EXERCISE 5 E is the mid-point of the side CD of a square ABCD.
+Forces 16, 20, P, QN act along AB, AD, EA, CA in the directions indicated by the order of the letters.
+Find P and Q, if the forces are in equilibrium.
+Solution [ ] 12 5, 4 2..
+Remarks An important special case of motion of a particle occurs when the particle is, or appears to be, at rest or in equilibrium with respect to an initial co-ordinate system or frame of reference.
+A necessary and sufficient condition for this is, from Newton’s second Law, that F = 0 i.e.
+the net (external) force acting on the particle is zero.
+Also (cid:217) = 0 i.e.
+external torque on the particle is zero.
+SELF ASSESSMENT EXERCISE 6 A particle moves along the x axis in a force field having potential 1 V = kx2, k > 0.
+Determine the point of equilibrium.
+2 Solution Equilibrium points occur where (cid:209) V = 0 or in this case dv = kx = 0 dx or x = 0 Thus there is only one equilibrium point, at x = 0 104 MTH315 ANALYTICAL DYNAMICS 3.5 Linear Motion In addition to our earlier study, we consider a particle moving in a straight line so that its distance from a fixed point 0 in the straight line is dx x after time t, we than have velocity V at time t as along that straight dt line away from 0. dv Again its acceleration at time t in the same direction is , thus dt dx dv d. dx d2x dv V = , a = = = = v .
+dt dt dt dt dt2 dx Therefore, it is possible to find the acceleration in terms of x or t by differentiation if the distance x is given as a function of the time, or the velocity V as a function of the distance or time.
+3.6 Motion in a Straight Line Let S be the distance moved in time t, then if the acceleration has a constant value a, we obtain dv d2 s dv = = V = a dt dt2 ds Integrate, with respect to t, we have ds V = = a t + constant dt If u be the value of the velocity at time t = 0, we have V = u + at ........................................................................................ (1) ds Writing for V and integrating again w.r.t.
+t, dt S = ut + ½ at2 + constant ...................................................................... (2) dv Also if we write V = a, we integrate w.r.t.s to obtain ½V2 + a s t ds constant If u is initial velocity when s = 0, then our constant = ½ u2 Then V2 = u2 + 2a S ............................................................................ (3) 105 MTH315 ANALYTICAL DYNAMICS Equation (1) to (3) above determines the motion of particle moving in straight line with CONSTANT acceleration.
+But if the acceleration is VARIABLE, the equation does not hold.
+Therefore when the acceleration is given as a function of the time, velocity expressions for the acceleration and finds the velocity and the distance by integration.
+SELF ASSESSMENT EXERCISE 7 A train moving with constant acceleration passes three posts, A, B, C on a straight road.
+The distance from A to B is 15m, and from B to C 20m.
+The train takes 6 sec to go from A to B and 5 sec to go from B to C. Find the acceleration of the train and its distance from A when its speed is 5.5 m/sec.
+Solution Assume Vm/sec be initial velocity of the train and (cid:181) m/sec2 its acceleration.
+We have for the two stages A to B and A to C: A to B A to C u = Vm/sec u = Vm/sec v = ?
+v = ?
+a = (cid:181) m/s2 a = (cid:181) m/s2 s = 15m s = 35m t = 16sec t = 11sec Applying our formula s = ut- ½ at2 to each of the stages A to B and B to C we have 15 = 6v + 18(cid:181) 35 = 11v + 60.5(cid:181) Solving simultaneously, we have that (cid:181) = 3/11 m/s2 and V = 115/ m/s.
+22 If the speed be 5.5m/sec at a point X, we have for the stage A to X, u = 37/22m/s, v = 5.5m/s, a = 3/11m/sec2 s = ?
+and t = ?
+Applying formula V2 = u2 + 2as, we have 2 X 3/11 x s = (5.5)2 – (1.682)2 Hence, the speed is 5.5m/sec at 50.27m from A.
+106 MTH315 ANALYTICAL DYNAMICS 4.0 CONCLUSION Moment of a force is a vector quantity as it has both magnitude and direction.
+Its unit is NM.
+The Principle of Moments can be verified experimentally by applying known forces to a rigid body, such as bar, and making appropriate measurements.
+5.0 SUMMARY In summary, the Principle of Moments can be verified experimentally by applying known forces to a rigid body, such as bar, and making appropriate measurements.
+Therefore, principle of moments can be used as the basis of static.
+Couple is a term used to denote two equal unlike paralleled forces whose line of action are not the same.
+The moment of a couple about any point in the plane of the forces is equal to the product of one of the forces and the perpendicular distance between the lines of action of the forces.
+it is remarked further that A couple has turning point effect as it is proved in the foregoing unit.
+THEOREM: Force acting at a point of a rigid body can be equivalently replaced by single force acting at some specified point together with a suitable couple.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+An electric train starts from rest at a station and come to rest at the next station, one kilometre away, in 3 min.
+It has first a uniform acceleration for 40 sec, then a constant speed and it is brought to rest by a constant retardation for 20 sec.
+Find the maximum speed of the train and retardation when coming to rest.
+2.
+A train moving with constant acceleration passes three posts, A, B, and C on a straight road.
+The distance from A to B is 35m, and from B to C 30m.
+The train takes 8 sec to go from A to B and 5 sec to go from B to C. Find the acceleration of the train and its distance from A when its speed is 10 m/sec.
+107 MTH315 ANALYTICAL DYNAMICS 7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+108 MTH315 ANALYTICAL DYNAMICS MODULE 7 HAMILTONIAN THEORY Unit 1 The Hamiltonian Unit 2 The Calculus of Variation Unit 3 The Hamilton-Jacobi Equation UNIT 1 THE HAMILTONIAN CONTENTS 1.0 Introduction 2.0 Objectives 13.0 Main Content 3.1 The Hamiltonian 3.1.1 The Hamilton’s Equations 3.1.2 Ignorable or Cyclic Coordinates 3.1.3 Phase Space 3.1.4 Liouville’s Theorem 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION We investigated a formulation of mechanics due to Lagrange.
+In this unit, we shall investigate a formulation due to Hamilton known collectively as Hamiltonian methods or Hamiltonian theory.
+Although such theory can be used to solve specific problems in mechanics, it develops that it is more useful in supplying fundamental postulates in such fields as quantum mechanics, statistical mechanics and celestial mechanics.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define the Hamiltonian • state the Hamiltonian for Conservation Systems • define Ignorable or Cyclic Coordinates • define phase space • state Liouville’s theorem.
+109 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 The Hamiltonian Just as the Lagrangian function, or briefly the Lagrangian, is fundamental to the previous module so the Hamiltonian function, or briefly the Hamiltonian, is fundamental to this unit.
+The Hamiltonian, symbolised by H, is defined in terms of the Lagrangian L as (1) It must be expressed as a function of the generalised coordinate’s q and α generalised moment p .
+To accomplish this the generalised velocities α Must be eliminated from (1) by using Lagrange’s equations.
+In such case the function H can be written H (p ,…….., p , q , ……., q , t) (2) 1 n 1 n Or briefly, H (p , q t), and is also called the Hamiltonian of the system.
+α α 3.1.1 The Hamilton’s Equations In terms of the Hamiltonian, the equations of motion of the system can be written in the symmetrical form (3) These are called Hamilton’s canonical equations, or briefly Hamilton’s equations.
+The equations serve to indicate that the p and q play similar α α roles in a general formulation of mechanical principles.
+The Hamiltonian for Conservation Systems If a system is conservative, the Hamiltonian H can be interpreted as the total energy (kinetic and potential) of the system i.e., H = T + V (4) 110 MTH315 ANALYTICAL DYNAMICS Often this provides an easy way for setting up the Hamiltonian of a system.
+3.1.2 Ignorable or Cyclic Coordinates A coordinate q which does not appear explicitly in the Lagrangian is α called an ignorable or cyclic coordinate.
+In such case (5) So that pα is a constant, often called a constant of the motion.
+In such case we also have 3.1.3 Phase Space The Hamiltonian formulation provides an obvious symmetry between the p and q which we call momentum and position coordinates α α respectively.
+It is often useful to imagine a space of 2n dimensions in which a representative point is indicated by the 2n coordinates H (p ,…….., p , q , ……., q ,) = constant = E (6) 1 n 1 n Such a space is called a 2n dimensional phase space or a pq phase space.
+Whenever we know the state of a mechanical system at time t, i.e.
+we know all position and momentum coordinates, then this corresponds to a particular point in phase space.
+Conversely, a point in phase specifies the state of the mechanical system.
+While the mechanical system moves in the physical 3 dimensional space, the representative point describes some path in the phase space in accordance with equations (3).
+3.1.4 Liouville’s Theorem Let us consider a very large collection of conservative mechanical systems having the same Hamiltonian.
+In such case the Hamiltonian is the total energy and is constant, i.e., H(p , ….., p , q , ….q ) = constant = E (7) 1 n 1 n Which can be represented by a surface in phase space.
+Let us suppose that the total energies of all these systems lie between E 1 and E .
+Then the paths of all these systems in phase space will lie 2 111 MTH315 ANALYTICAL DYNAMICS between the two surfaces H = E and H = E as indicated schematically 1 2 in the figure below.
+Since the systems have different initial conditions, they will move along different paths in the phase space.
+Let us imagine that the initial points are contained in region of Fig.
+12 – 1 and that after time t these points occupy region .
+For example, the representative point corresponding to one particular system moves from point A to point B.
+From the choice and it is clear that the number of representative points in them is the same.
+What is not so obvious is the following theorem called Liouville’s theorem.
+Liouville’s Theorem The 2n dimensional volumes of and are the same, or if we define the number of points per unit volume as the density then the density is constant.
+We can think of the points of as particles of an incompressible fluid which move from to in time t. 4.0 CONCLUSION The Hamiltonian formulation provides an obvious symmetry between the p and q which we call momentum and position coordinates α α respectively.
+It is often useful to imagine a space of 2n dimensions in which a representative point is indicated by the 2n coordinates H (p ,…….., p , q , ……., q ,) = constant = E 1 n 1 n Such a space is called a 2n dimensional phase space or a pq phase space.
+112 MTH315 ANALYTICAL DYNAMICS 5.0 SUMMARY The Hamiltonian, symbolised by H, is defined in terms of the Lagrangian L as (1) And must be expressed as a function of the generalised coordinate’s q α and generalised moment p .
+To accomplish this the generalised α velocities Must be eliminated from (1) by using Lagrange’s equations.
+In such case the function H can be written H (p ,…….., p , q , ……., q , t) (2) 1 n 1 n (3) These equations above are called Hamilton’s canonical equations, or briefly Hamilton’s equations.
+Liouville’s Theorem The 2n dimensional volumes of and are the same, or if we define the number of points per unit volume as the density then the density is constant.
+11.0 TUTOR-MARKED ASSIGNMENT 1.
+Using surface in phase space represent Liouville’s Theorem.
+2.
+Can Hamilton be interpreted as a total energy?
+Give reasons for your answer.
+3.
+Define 2n dimensional phase space or a pq phase space.
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+113 MTH315 ANALYTICAL DYNAMICS UNIT 2 THE CALCULUS OF VARIATION CONTENTS 1.0 Introduction 2.0 Objectives 14.0 Main Content 3.1 Calculus of Variation 3.2 Hamilton’s Principle 3.3 Canonical or Contact Transformations 3.5 Condition that a Transformation be Canonical 3.6 Generating Functions 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION A problem which often arises in mathematics is that of finding a curve y = Y (x) joining the points where x = a and x = b such that the integral.
+(i) Where y’ = dy/dx, is a maximum or minimum, also called an extremum or extreme value.
+The curve itself is often called an external.
+It can be shown that a necessary condition for (i) to have an extremum is (ii) which is often called Euler’s equation.
+This and similar problems are considered in a branch of mathematics called the calculus of variations.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • define the calculus of variation • state the Hamilton’s principle • define canonical or contact transformations • prove that a transformation can be canonical.
+114 MTH315 ANALYTICAL DYNAMICS 3.0 MAIN CONTENT 3.1 Calculus of Variation An important class of problems involves the determination of one of more function subject to certain conditions, so as to maximise or minimise certain definite integral, whose integrand depends upon the unknown function(s) and /or certain of their derivatives.
+For example, to find the equation y = u(x) of the curve along which the distance from (0,0) to (1,1) in the xy plane at least, we would seek u(x) such that 1 ( ) I = ∫ 1+(u¢)2 dx = min 0 With u(0)=0, u(1)=1.
+This section presents a brief treatment of some of the simpler aspects of such problems.
+We consider first the case when we attempt to minimise or maximise an integral of the form 1 ( ) I = ∫F x,u,u¢ dx 1 0 Subject to the conditions u(o)=A and u(1)= B 2 where a, b, A and B are given constants to be determined.
+We suppose that F has continuous second-order derivatives with respect to its three arguments and require that the unknown function u(x) possesses two derivatives everywhere in (a,b).
+To fix ideas, we suppose that I is to be maximised.
+We thus visualise a competition, to which only functions which have two derivatives in (a,b) and which take on the prescribed end values are admissible.
+The problem is that of selecting from all admissible competing functions, the function(s) for which I is largest.
+Under the assumption that there is indeed a function u(x) having this property, we next consider a one-parameter family of admissible 115 MTH315 ANALYTICAL DYNAMICS functions which includes u(x), namely, the set of all functions of the ( ) ( ) form u(x)+˛ h x , where h x is any arbitrary chosen twice differentiable function which vanishes at the end points of the interval (a,b) ( ) ( ) h a =h b = 0 3 and where ˛ is a parameter which is constant for any one function in the set but which varies from one function to another.
+( ) The increment˛ h x , representing the difference between the varied function and the actual solution function, is often called a variation of u(x).
+( ) If the result of replacing u(x)+˛ h x in I is denoted by b ( ) ( ) I ˛ = ∫F x,u+˛ h ,u¢ +˛ h ¢dx 4 a ( ) It then follows that I ˛ takes on its maximum value when ˛ =0, that is, when the variation of u is zero.
+Hence, it must follow that ( ) dI ˛ = 0 , when ˛ =0 5 d ˛ The assumed continuity of the partial derivatives of F with respect to its dF three arguments implies the continuity of , so that we may d˛ ( ) differentiate I ˛ under the integral sign to obtain ( ) b¶ F ( ) ¶ F ( ) I¢ 0 = ∫ h x + h ¢ x dx = 0 6 ¶ u ¶ u¢  a ( ) Here we write, F ” F x,u,u¢ , noticing that the partial derivatives ¶ F ¶ F and have been formed with x, u and u¢ treated as independent ¶ u ¶ u¢ variables.
+The next step consists of transforming the integral of the second product (6) by integration by parts, to give b ¶ F ( ) ¶ F ( )b b ¶ ¶ F  ( ) ∫ h ¢ x dx = h x - ∫  h x dx ¶ u¢ ¶ u¢  ¶ x¶ u¢  a a a 116 MTH315 ANALYTICAL DYNAMICS b ¶ ¶ F  ( ) =- ∫  h x dx=0 ¶ x¶ u¢  a in consequence of (3).
+Hence, equation (6) becomes b ¶ ¶ F  ¶ F ( ) ∫  - h x dx = 0 7 ¶ x¶ u¢  ¶ u a It is possible to prove rigorously that since (7) is true for any function ( ) h x which is twice differentiable in (a,b) and zero at the ends of that ( ) interval; consequently, the coefficient of h x .
+In the integrand must be zero everywhere in (a,b), so that the condition ¶ ¶ F  ¶ F  - =0 8 ¶ x¶ u¢  ¶ u must be satisfied.
+This is called Euler’s equation.
+SELF ASSESSMENT EXERCISE 1 We seek to minimise the integral p 2dy2  I = ∫  - y2 +2tydt 9  dt   0 With y(0)=0 and y(p /2) =0.
+¶ ¶ F  ¶ F The Euler’s equation  - =0 10 ¶ x¶ u¢  ¶ u with u and x replaced by y and t, respectively, becomes d  dy ( ) 2 - - 2y+2t =0 11 dt dt  Or d2y + y =t, 12 dt2 from which there follows y =c cost +c sint +t 13 1 2 117 MTH315 ANALYTICAL DYNAMICS The end conditions then gives ( ) y =t - p /2 sint.
+in correspondence with which 14 p  p 2  I = - 1- .
+15   min 2 12  Generalisations in which more dependent and/or independent variables are involved or which involves other modifications, as well as formulations of sufficiency conditions, may be found in the literature.
+Two such generalisations, which are particularly straightforward, may be described here: (a) If the equation b ( ) I = ∫F x,u,u¢ dx is replaced by the integral 16 a b ( ) I = ∫F x,u ,u ,u ,...........u ;u¢ ,u¢ ,u¢ .......u¢ dx 17 1 2 3 n 1 2 3 n a Where values of the n independent unknown functions ( ) ( ) ( ) ( ) u x ,u x ,u x ,...........u x are each given at the end points x=a and 1 2 3 n x=b, we obtain an Euler’s equation similar to ¶ ¶ F  ¶ F  - =0.
+In correspondence with each u 18 ¶ x¶ u¢  ¶ u r ¶  ¶ F  ¶ F  - =0, where r = 1, 2,…..n. ¶ x¶ u¢  ¶ u r r 19 SELF ASSESSMENT EXERCISE 2 The Euler’s equation associated with b the integral b( ) ∫ u¢ 2,u¢ 2 - 2u u +2xu dx 20 1 2 1 2 1 a are obtained by use of equation(19) in the form.
+118 MTH315 ANALYTICAL DYNAMICS d ( ) ( ) 2u¢ - - 2u +2x = 0 21 dx 1 2 and d ( ) ( ) 2u¢ - - 2u =0 22 dx 1 1 Or u¢¢ +u = x,and.u¢¢ +u =0.
+23 1 2 2 1 (b) suppose that we are to maximise or minimise b ( ) I =∫F x,u,u¢ dx, 24 a b ( ) I = ∫F x,u,u¢ dx= maximise or minimise.
+25 a Where u(x) is to satisfy the prescribed end conditions u(a)=A and u(b)=B as before, but that also a constraint condition is imposed in the form b ( ) ∫G x,u,u¢ dx = k .
+26 a where k is a prescribed constant.
+In this case, the appropriate Euler’s equation is found to be the result of neglecting F in equation (19) by auxiliary function H = F +lG.
+27 Where, l is an unknown constant.
+This constant, which is of the nature of Lagrange multiplier, this generally will appear in the Euler’s equation and in its solution and is to be determined together with the two constants of integration such a way that the three conditions of u(a)=A, b ( ) u(b)=B and ∫G x,u,u¢ dx=k are satisfied.
+a SELF ASSESSMENT EXERCISE 3 1 To minimise the integral ∫ y2dx 0 subject to the end conditions y(0)=0, y(1)=0 28 119 MTH315 ANALYTICAL DYNAMICS 1 And also to the constant∫ ydx =1.
+29 0 We write H = y¢ 2 + y, in correspondence with which the Euler’s equation is 2y¢¢ - l =0 30 Hence, y must be of the form 1 y = lx2 +c x+c 31 4 1 2 The end conditions and the constraints condition yields c = 6,c =0.and.l = 2x, 1 2 and hence there follows y=6x(1-x).
+32 3.2 Hamilton’s Principle The obvious similarity of (9) of Lagrange’s equations leads one to consider the problem of determining the externals of 1 or briefly 2 Where L = T – V is the Lagrangian of a system.
+We can show that a necessary condition for an external is 3 which are precisely Lagrange’s equations.
+The result led Hamilton to formulate a general variational principle known as Hamilton’s Principle.
+A conservative mechanical system moves from time t to 1 time t in such a way that 2 4 sometimes called the action integral, has an extreme value.
+120 MTH315 ANALYTICAL DYNAMICS Because the extreme value of (4) is often a minimum, the principle is sometimes referred to as Hamilton’s principle of least action.
+The fact that the integral (4) is an extremum is often symbolised by stating that 5 Where is the variation symbol.
+3.3 Canonical or Contact Transformations The ease in solution of many problems in mechanics often hinges on the particular generalised coordinates used.
+Consequently, it is desirable to examine transformations from one set of position and momentum coordinates to another.
+For example, if we call qα and pα the old position and momentum coordinates while Q and P are the new α α position and momentum coordinates, the transformation is P = P (p , …., p , q , ….., q , t), Q = Q (p , ……., p , q , ……, q , t) α α 1 n 1 n α α 1 n 1 n 6 denoted briefly by P = P )p , q , t), Q = Q (p , q , t) 7 α α α α α α α α We restrict ourselves to transformations called canonical or contact transformations for which there exists a function called the Hamiltonian in the new coordinates such that 8 In such case we often refer to Q and P as canonical coordinates.
+α α The Lagrangian’s in the old and new coordinates are L (p , q , t) and α α ) respectively.
+They are related to the Hamiltonians H (p , q , α α t) and by the equations 9 Where the summations extend from α = 1 to n. 121 MTH315 ANALYTICAL DYNAMICS 3.4 Condition that a Transformation be Canonical The following theorem is of interest.
+Theorem 12.2.
+The transformation 10 is canonical if 11 in an exact differential.
+3.5 Generating Functions By Hamilton’s principle the canonical transformation (5) or (6) must satisfy the conditions that and are both extrema, i.e.
+we must simultaneously have and 12 These will be satisfied if there is a function such that 13 We call a generating function.
+By assuming that is a function, which we shall denote by , of the old position co-ordinates q and the new momentum coordinates P as well α α as the time t, i.e.
+14 We can prove 15 Where 16 Similar results hold if the generating function is a function of other coordinates.
+122 MTH315 ANALYTICAL DYNAMICS Examples of Hamilton’s Principle 1.
+Prove that a necessary condition for to be an extremum [maximum or minimum] is Suppose that the curve which makes an extremum is given by 17 Then (18) Where is independent of , is a neighbouring curve through and if we choose 19 The value of for the neighbouring curve is 20 This is an extremum for .
+A necessary condition that this be so is that .
+But by differentiation under the integral sign, assuming this is valid, we find Which can be written on integrating by parts as Where we have used (19), since is arbitrary, we must have 123 MTH315 ANALYTICAL DYNAMICS This is called Euler’s or Lagrange’s equation.
+The result is easily extended to the integral and leads to the Euler’s or Lagrange’s equations.
+By using a Taylor’s series expansion we find from (20) that + Higher order terms in etc.
+21 The coefficient of in (20) is often called the variation of the integral and is denoted by The fact that is an extremum is thus indicated by 4.0 CONCLUSION The ease in solution of many problems in mechanics often hinges on the particular generalised coordinates used.
+Consequently, it is desirable to examine transformations from one set of position and momentum coordinates to another.
+For example, if we call qα and pα the old position and momentum coordinates while Q and P are the new α α position and momentum coordinates, the transformation is P = P (p , …., p , q , ….., q , t), Q = Q (p , ……., p , q , ……, q , t) α α 1 n 1 n α α 1 n 1 n denoted briefly by P = P )p , q , t), Q = Q (p , q , t) α α α α α α α α 124 MTH315 ANALYTICAL DYNAMICS 5.0 SUMMARY Obviously, similarity of equation (9) above of Lagrange’s equations leads one to consider the problem of determining the extremes of or briefly Where L = T – V is the Lagrangian of a system.
+We can show that a necessary condition for an external is Which are precisely Lagrange’s equations.
+The result led Hamilton to formulate a general variation principle known as Hamilton’s Principle.
+A conservative mechanical system moves from time t to time t in such 1 2 a way that Sometimes called the action integral, has an extreme value.
+Because the extreme value of (12) is often a minimum, the principle is sometimes referred to as Hamilton’s principle of least action.
+The fact that the integral (12) is an extremum is often symbolised by stating that Where is the variation symbol?
+Canonical or Contact Transformations was also discussed as the ease in solution of many problems in mechanics often hinges on the particular generalised coordinates used.
+Consequently, it is desirable to examine transformations from one set of position and momentum coordinates to another.
+For example, if we call qα and pα the old position and momentum coordinates while Q and P are the new position and α α momentum coordinates, the transformation is 125 MTH315 ANALYTICAL DYNAMICS P = P (p , …., p , q , ….., q , t), Q = Q (p , ……., p , q , ……, q , t) α α 1 n 1 n α α 1 n 1 n denoted briefly by P = P )p , q , t), Q = Q (p , q , t) α α α α α α α α We restrict ourselves to transformations called canonical or contact transformations for which there exists a function called the Hamiltonian in the new coordinates such that In such case we often refer to Q and P as canonical coordinates.
+α α The Lagrangians in the old and new coordinates are L (p , q , t) and α α ) respectively.
+They are related to the Hamiltonians H (p , q , α α t) and by the equations Where the summations extend from α = 1 to n. 6.0 TUTOR-MARKED ASSIGNMENT 1.
+State the Hamilton’s principle.
+2.
+Under what condition can a transformation be canonical?
+3.
+What do you understand by the term ‘generating function’?
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+126 MTH315 ANALYTICAL DYNAMICS UNIT 3 THE HAMILTON-JACOBI EQUATION CONTENTS 1.0 Introduction 2.0 Objectives 15.0 Main Content 3.1 The Hamilton-Jacobi Equation 3.1.1 Solution of the Hamilton-Jacobi Equation 3.2 Case Where Hamiltonian is Independent of Time 3.3 Phase Integrals, Action and Angle Variables 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION If we can find a canonical transformation leading to then we see from (24) that P and Q will be constants [i.e., P and Q will be α α α α ignorable coordinates].
+Thus, by means of the transformation we are able to find p and q and thereby determine the motion of the system.
+α α 2.0 OBJECTIVES By the end of this unit, you should be able to: • state the Hamilton-Jacobi equation • state a case where Hamiltonian is independent of time • define phase integrals, action and angle variables.
+3.0 MAIN CONTENT 3.1 The Hamilton-Jacobi Equation The procedure hinges on findings the right generating function.
+From the third equation of (23) we see by putting that this generating function must satisfy the partial differential equation (1) Or (2) This is called the Hamilton-Jacobi equation.
+127 MTH315 ANALYTICAL DYNAMICS 3.1.1 Solution of the Hamilton-Jacobi Equation To accomplish our aims we need to find a suitable solution of the Hamilton-Jacobi equation.
+Now since this equation contains a total of n + 1 independent variables, i.e.
+q , q , …, q and t, one such solution 1 2 n called the complete solution, will involve n + 1 constants.
+Omitting an arbitrary additive constant and denoting the remaining n constant by [none of which is additive] this solution can be written (3) When this solution is obtained we can then determine the old momentum coordinates by (4) Also, if we identify the new momentum coordinates P with the α constants β , then α (5) Where are constants.
+Using these we can then find as functions of and t, which gives the motion of the system.
+3.2 Case Where Hamiltonian is Independent of Time In obtaining the complete solution of the Hamilton-Jacobi equation, it is often useful to consider the equation (6) where each function on the tight depends on only one variable.
+This method, often called the method of separation of variables, is especially useful when the Hamiltonian does not depend explicitly on time.
+We then find that F(t) = - Et, and if the time independent part of is denoted by (7) 128 MTH315 ANALYTICAL DYNAMICS The Hamilton-Jacobi equation (26) reduces to (8) where E is a constant representing the total energy of the system.
+The equation (8) can also be obtained directly by assuming a generating function S which is independent of time.
+In such case equations (8) and (1) are replaced by (9) where (10) 3.3 Phase Integrals, Action and Angle Variables Hamiltonian methods are useful in the investigation of mechanical systems which are periodic.
+In such case, the projections of the motion of the representative point in phase space on any plane will be closed curves C .
+The line integral α (11) is called a phase integral or action variable.
+We can show that (12) where (13) It is customary to denote the new coordinates Q by so that equations α (13) are replaced by (14) Thus, Hamilton’s equations become [see equations (13) and (14)] (15) 129 MTH315 ANALYTICAL DYNAMICS Where in this case depends only on the .
+Then from the second equation in (15), (16) Where and c are constants.
+We call w angle variables.
+The α α frequencies are given by (17) 4.0 CONCLUSION The Hamilton-Jacobi equation (26) reduces to where E is a constant representing the total energy of the system.
+5.0 SUMMARY The Hamilton-Jacobi equation is: Or It was also found that Hamiltonian methods are useful in the investigation of mechanical systems which are periodic.
+In such cases the projections of the motion of the representative point in phase space on any plane will be closed curves C .
+Hence, the line integral α is called a phase integral or action variable.
+Lastly, the issues of phase integrals, action and angle variables were discussed extensively.
+130 MTH315 ANALYTICAL DYNAMICS 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Define phase integrals.
+2.
+What happens when Hamiltonian is independent of time?
+3.
+How would you express angle variables with respect to Hamilton-Jacobi equation?
+7.0 REFERENCES/FURTHER READING Ajibola, S.T.
+(2006).
+Vector Analysis and Mathematical Method.
+Avner, Friedman.
+Differential Games.
+Kibble, T. W. B.
+Classical Mechanics.
+KREYSZIC.
+Advanced Engineering Mathematics.
+Murray, R. Spiegel.
+Theoretical Mechanics.
+Vladinirou, U.S. Generalised Function Mathematical Physics.
+131

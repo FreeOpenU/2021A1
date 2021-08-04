@@ -1,0 +1,585 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: CIT101 COURSE TITLE: COMPUTERS IN SOCIETY  COURSE GUIDE CIT101 COMPUTERS IN SOCIETY Course Team Prof. R.O.
+Ayeni (Developer/Writer) - LAUTECH Dr. S.I.
+Ogunrinde (Programme Leader) - NOUN Mr. A. Balogun (Coordinator) - NOUN Mrs. C. Okonkwo (Co-Coordinator) - NOUN UNEDITED VERSION NATIONAL OPEN UNIVERSITY OF NIGERIA  National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island, Lagos Abuja Office 5, Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria First Printed 2006 Revised 2013 ISBN: 978-058-204-5 All Rights Reserved Printed by: CONTENTS PAGE Introduction…………………………………………….………… iv What you will Learn in this Course................................................ iv Working through the Course........................................................... iv Assessment ..................................................................................... iv How to Get the Most from this Course ............................................ iv Summary ......................................................................................... v INTRODUCTION The aim and objective of Computers in Society as a course is computer literacy.
+Information Technology is the frontier hero of the new century, driven by ambition and full of courage, replicating itself like a virus and sweeping all before it.
+So in order not to be marginalized one needs to get involved as Information Technology influences virtually all the areas of human endeavour.
+WHAT YOU WILL LEARN IN THIS COURSE This course will give you in brief what you need to know in Computer Science and Technology.
+At the end of the course you will be an expert of some sort in Computer Science and Technology.
+WORKING THROUGH THIS COURSE Each module, each unit, in the course contains notes as well as set exercises.
+The set exercises are listed in form of a table.
+The table has two volumes.
+The last column contains the heading “what you do” while the right column is headed “comments/prompts”.
+The left column contains the steps that you must follow.
+The right column serves as additional information.
+Computers will be provided at study centres and will be equipped with the required programs.
+If you have the means, buy your PC and the stipulated software.
+Each unit contains a Tutor-Marked Assignment, which must be done as stipulated and handed to the tutor on schedule.
+ASSESSMENT The final grade in the course will have two components; continuous assessment and final examination.
+Basically, the tutor-marked assignment will form the continuous assessments while NOUN will inform you about the final examination.
+HOW TO GET MOST FROM THIS COURSE In distance learning, the study units replace the University lecturer.
+This is one of the great advantages of distance learning, you can read and work through specially designed study materials at your own pace, and at a time and place that suits you best.
+Think of it as reading the lecture instead of listening to a lecturer.
+Just as a lecturer might give you an in-class exercise, your study units provide exercises for you to do at appropriate points.
+Working through the assignments and exercises will help you to achieve the objectives of the unit and prepare you for the final examination.
+If you run into trouble, arrange to meet your training tutor.
+Note the following:  1.
+Read this course guide thoroughly 2.
+Organise a study schedule.
+Whatever method you choose to use, you should decide on it and write in your own dates for working on each.
+3.
+Once you have created your own study schedule, do everything you can to stick to it.
+The major reason that students fail is that they get behind with their course work.
+4.
+For each unit, read the introduction and the objectives.
+5.
+Read through the materials.
+Work through the unit.
+6.
+At the end of the unit, review the objective and see how many of them you have achieved.
+7.
+Do the tutor-marked assignment and submit as required.
+8.
+Proceed unit by unit throughout the course.
+SUMMARY Computers in Society intend to make you computer literate.
+At the end of the course you will achieve the objective if you follow the instructions and do what you are expected to do.
+We wish you a huge success.
+MAIN COURSE CONTENTS PAGE Module 1 …………..………………………………………….…… 2 Unit 1 What is Computer?........................................................
+2 Unit 2 Element of a Computer: Hardware………………….. 6 Unit 3 Elements of a Computer: Software…………………... 12 Unit 4 How to Work with a Computer: Switching On and Off the PC………………………….……….……….
+17 Unit 5 Using a Mouse……………………………………….. 24 Module 2 ……………………………………………………….
+35 Unit 1 Operating System………………………………...….
+35 Unit 2 Window 98……………………………………..…… 40 Unit 3 Files…………………………………………............ 49 Unit 4 Word Processing………………………………..….. 53 Unit 5 Further Word Processing Program Facilities……… 59 Module 3 ………………………………………………………… 65 Unit 1 Word Processing Continued……………………..….. 65 Unit 2 Copying a Text, Saving Changes to a Document and Formatting……………………..………………….….
+72 Unit 3 Paragraph Formatting: The Spelling Checker and Introduction to Printing a Document…………..…….. 78 Unit 4 Spreadsheet………………………………..………… 86 Unit 5 Entering and Correcting Data……………..………… 93 Module 4 …………………………………………………………100 Unit 1 Using Formulas…………………………………….
+100 Unit 2 Spreadsheet: Numeric Formats…………………….. 104 Unit 3 Creating Charts…………………………………….. 108 Unit 4 Charts from Non-adjacent Data, Embedded Charts and Charts Links………………………………….... 122 Unit 5 Chart Types………………………………………... 130 Module 5 ……………………………………………………… 138 Unit 1 PowerPoint and Presentations……………………... 138 Unit 2 Powerpoint Presentation Screen…………………… 144 Unit 3 Creating New Presentations………………….......... 151 Unit 4 Naming Presentation, Saving Presentation and Formatting Slides…………….…………………… 157 Unit 5 Using Autoshapes……………………….………… 165 Module 6 ……………………………………………………….
+172 Unit 1 Networking, Internet and E-mail………………… 172 Unit 2 Internet…………………………………………….
+179 Unit 3 Further Practical Works on the Internet………….. 187 Unit 4 Electronic Mail…………………………………… 193 Unit 5 Reading and Responding to an E-mail Message….. 202 Questionnaire …………………………………………………… 209 MODULE 6 Unit 1 Networking, Internet and E-mail Unit 2 Internet Unit 3 Further Practical Work on the Internet Unit 4 Electronic Mail Unit 5 Reading and Responding to an E-Mail Message UNIT 1 NETWORKING, INTERNET AND E-MAIL CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Terminology 3.1.1 Networks 3.2 Local Area Network (LAN’s) 3.2.1 Network Components 3.3 Wide Area Networks (WAN’s) 3.4 Overview of the Internet and the World Wide Web 3.4.1 What is the Internet?
+3.4.2 What is the World Wide Web?
+3.5 Browser 3.6 Hyperlinks 3.7 Home Pages 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION An interconnected set of two or more computers with data communication devices may be called a computer network.
+The wired arrangement consists of a communication software (Network Operating System), computer systems (Nodes), Network interface cards (connectors) and network cable (medium).
+2.0 OBJECTIVES At the end of this unit, you should be able to: • state the principles of Networking • explain Local Area Network • explain Wide Area Network • explain what internet is • explain what is World Wide Web.
+The objective of this section of Module 6 is to give you a brief overview of the principles of Networking.
+3.0 MAIN CONTENT 3.1 Terminology You will hear talk of LAN, MAN, WAN and WWW.
+This is often confusing, but let’s attempt to define the terms: LAN Stands for Local Area Network and refers to a network set up in one building.
+MAN is a Metropolitan Area Network and refers to two LANs linked between two buildings in the same metropolis.
+WAN is a Wide Area Network and refers to LANs or MANs that are connected between cities.
+WWW is a World Wide Web and refers to the linking up the world’s LANs, MANs and WANs to form a web of networks that cover the earth.
+3.1.1 Networks When two or more computers are interconnected this is generally referred to as a network.
+Networks have become increasingly popular over the last decade.
+There are a various reasons for this phenomenon.
+The two main reasons are firstly convenience, and secondly cost savings.
+Networks can be used to transfer information between computers, even if they use different operating systems.
+A network can also be used to send data to remote storage devices and printers, without having to send all of the signals through an expensive mainframe computer.
+Generally networks provide an inexpensive way to interconnect any number of systems and make communication and sharing of data quick and easy.
+There are two main categories of networks used in the industry, which are LAN’s (Local Area Network) and WAN’s (Wide Area Network).
+3.2 Local Area Network (LAN’s) A LAN is a network in which all signals run on a single set of cables, which is fully administered by the owner.
+There are three typical network topologies (layouts).
+These are star, ring and bus shapes.
+The star shape is the most common.
+Here outlying stations communicate through a central hub device.
+In a ring network, messages circulate the loop, passing from station to station like an old fashioned bucket brigade of fire fighters.
+Stations on a bus network send data to a transmitter at one end of the bus.
+This transmitter rebroadcasts the information back along the bus so that other stations can receive it.
+Star network Token-ring network Printer To outside communication link Server Workstation Server Workstation Personal computer Personal Workstation computer Printer Workstation Figure 1.1 Source: Microsoft Encarta 98 Encyclopedia Deluxe Edition.
+3.2.1 Network Components Besides the cables linking the computers there are three components that are present in most networks.
+These are: The File server This is usually a high performance computer with a very large hard disk.
+The file server is a mass storage device that all users can share.
+It is used to store all shared programs and data on the network.
+Workstations These are the computers on a network that users work on.
+Each computer has a network card installed in it, which allows the machine to receive and transmit messages on the network cable.
+Shared equipment All users attached to a network can also make use of certain shared equipment.
+It doesn’t just end with a single LAN of course.
+Some companies prefer to keep separate workgroups (departments), which is accomplished by giving each workgroup their own LAN.
+3.3 Wide Area Networks (WAN’s) LANs or MANs that are connected between cities are known as WAN’s.
+Why do we need WAN’s?
+A LAN only has a range of approximately one-kilometre.
+Even if it could reach further, the cost of laying several hundred kilometres of coaxial cable from one city to another is prohibitively expensive.
+A better way to link remote computers together is to use a cable network that is already in place and has been carrying long distance messages for years – the telephone system.
+To use the telephone system you first need to convert your electronic signal into something more suitable for the phone lines.
+Telephone transmits sounds, not the radio frequency signals that pulse around a LAN.
+To do the conversion a device called a Modem is used.
+The name is a contraction of Modulator-Demodulator.
+All that means is that the device takes a series of electronic signals and converts them into pulses of sound, which can be sent along the telephone lines.
+A prime example of WAN is the Internet.
+The Internet could be regarded as the largest of all WAN’s.
+It’s a global network of LAN’s all connected together using the international telephone system.
+So you can now send messages and data to people in Finland, China or any other country that you can phone.
+3.4 Overview of the Internet and the World Wide Web 3.4.1 What is the Internet?
+The Internet is a global network of computers that are able to communicate with one another, using a common language called HTML (Hypertext Mark-up Language).
+These computers are connected worldwide and can be accessed from anywhere in the world.
+All you need is a modem and the software to be able to get onto the internet.
+The internet is similar to the international telephone system – no one owns or controls the whole system, but it is connected in a way that makes it function as a single big network.
+3.4.2 What is the World Wide Web?
+Millions of people have Internet access today.
+The World Wide Web (the web or www) gives you a graphical, easy-to-navigate interface for looking at documents on the Internet.
+These documents, as well as the links between them, comprise a “web” of information.
+The web lets you jump or “hyperlink” from one web page to other pages on the web.
+You can think of the web as a big library.
+Web sites are like the books, and web “pages” are like specific pages in the books.
+Pages can contain news, images, movies, sounds, and 3D worlds – just about anything.
+Figure 1.2: Hyperlinks These pages can be located on computers anywhere in the world.
+When you are connected to the web, you have equal access to information worldwide; there are no additional long-distance charges or restrictions.
+Over the last few years, the web has grown to include a vast array of information – everything from stock quotes to job opportunities, bulletin boards to news, previews of movies, literary reviews, and games.
+People often talk about “surfing” the web and visiting new sites.
+“Surfing” means following hyperlinks to pages and subjects you may never have heard about, meeting new people, visiting new places, and learning about things from all over the world.
+Remember that the Internet is not just about corporate information.
+Because it is very easy to publish on the web, many individuals have set up personal “home pages,” pages about themselves and their interests, pictures of themselves and more.
+Some even have pointers to what they are wearing in the office that day, or their pet.
+As mentioned earlier you can think of the World Wide Web as a big library on the Internet.
+Web “sites” are like the books in the library and web “pages” are like specific pages in the books.
+A collection of web pages is known as a web site.
+You start your journey through the web from a particular web site.
+3.5 Browser A “browser” is a software tool that you use to look at web pages.
+As you learned, pages on the web are interconnected.
+You connect to other pages by clicking text or graphics that are called hyperlinks.
+3.6 Hyperlinks Hyperlinks are underlined or bordered words and graphics that have web addresses (also know as URL – Universal Resource Locator) embedded in them.
+By clicking a hyperlink, you jump to a particular page in a particular web site.
+You can easily identify a hyperlink.
+Hyperlink text is a different colour from the rest of the text in a web site.
+Surfing the web means following hyperlinks to different web pages.
+As you surf around the web, you may find pages you have read about or seen mentioned on television.
+Have fun surfing the web to learn about subjects you are interested in and visiting new sites all over the world.
+3.7 Home Pages A “home page” is the starting point for a web site.
+It is something like the cover page or the Table of Contents of a book.
+Fig.
+1.3: Examples of Home Pages 4.0 CONCLUSION Computer Network can be categorised into two: wired network and wireless network.
+The wireless network makes use of radio waves to transmit data or information from one node to another.
+5.0 SUMMARY Here you learned important terms like LAN, MAN and WWW.
+You will learn more about them in this module.
+6.0 TUTOR-MARKED ASSIGNMENT Briefly discuss the benefits of LAN and WAN.
+7.0 REFERENCE/FURTHER READING Ayo, C. K. (2001).
+Information Technology: Trends and Applications in Science and Business.
+Concept Publications.
+UNIT 2 INTERNET CONTENTS 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Internet Addresses 3.2 Internet Service Providers (ISP) 3.3 Internet Terminology 3.4 Exercise 1: Examining the Start Page of Academy of Learning 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION There are local, national and international networks and most major networks are interconnected.
+The Internet is a global network of interconnected computer networks.
+2.0 OBJECTIVE At the end of this unit, you should be able to: • work on the internet.
+3.0 MAIN CONTENT 3.1 Internet Addresses All home pages have what is called an Internet Address.
+It looks like this: http://www.ananzi.com.
+You can go to this page directly if you use this address in the address box.
+The address box shows the address, or technically speaking, the URL of the page that you are currently viewing in your browser.
+URL stands for Universal Resource Locator, which is simply another word for address.
+In our example home page, the address used is: Address: Fig.
+2.1 URL Address 3.2 Internet Service Providers (ISP) These are the people who control the access to the web.
+A person has to sign on with an ISP before you can get onto the Internet.
+Normally a monthly fee is payable but there are also contracts which reduce the monthly costs.
+There are many ISP available to you, you need to investigate them and decide with which one you wish to subscribe.
+Once you have subscribed they help you set up your Internet.
+They give you a POP address from which you can receive e-mail and get connected to the web.
+Once you are set up you can then get onto the Internet.
+3.3 Internet Terminology When working with the Internet, certain terms and terminologies are used to describe processes and concepts.
+A vast list of such terminology is available.
+Table 1 below describes a few of the more commonly used of these terms and terminologies.
+Table 1 Terminology Definition Access Privileges The privilege to access and make changes to folders.
+Address The unique code assigned to the location of a file in storage, a device in a system or network, or any other data source on a network.
+Attachments Multimedia files that are ‘attached’ to an E-mail; can be text, graphics, sound, video, spreadsheet, database or even an entire application.
+Baud The number of signalling elements that can be transmitted per second on a circuit.
+Older term being replaced by bps-bits per second Bit The smallest amount of information that can be transmitted.
+A combination of bits can indicate an alphabetic character, a numeric digit, or perform signalling, switching or other functions.
+Browser Application software that gives you a graphical interactive interface for searching, finding, viewing and managing information over a network.
+BBS (Bulleting An electronic bulleting board where users can board system) leave messages.
+Many BBS’s are on a membership basis.
+Terminology Definition Chat “Chat” is a term used to describe real-time conferencing.
+For example, IRC, “WebChat”, prodigy and aol chat rooms are all examples of “chat”.
+Client A computer that uses the services of another computer (a server or host).
+If you have a PC on your desk and you retrieve information from the World Wide Web, your PC is a client of the Web server to which it is connected.
+Cybercafe A café or bar allowing customers to explore the World Wide Web whilst having a drink or snack, usually charged per half-hour of usage.
+Cyberspace Originally used in “Neuromancer,” William Gibson’s novel of direct brain-computer networking referring to the collective realms of computer-aided communication.
+Database A multi-user collection of information.
+Often supports random access selectivity and multiple “views” or levels of abstraction of the underlying data.
+Dedicated Line A private line leased from a telecommunications carrier.
+Download To transfer programs or data from a computer to a connected device, usually from a server to a personal computer.
+e-mail (Electronic Messages sent on the Internet to a particular Mail) individual.
+File Server A computer that provides access to files for remote users (clients).
+Firewall A firewall sits at the gateway of a private network and only lets certain types of information in from and out to the network.
+Freeware Software allowed to be distributed free by the author, but often with certain conditions applying (i.e.
+the software cannot be modified etc).
+Home Page On the World Wide Web, this is the main navigation page owned by a company, organisation, university, individual etc, from which hyperlinks are made to other pages on the site (or other sites).
+Terminology Definition HTML (Hyper Text A “tag” language in which web pages are Markup Language) formatted and web information is distributed.
+HTTP (Hypertext The method by which documents are Transfer Protocol) transferred from the host computer or server to browsers and individual users.
+Hyperlink In World Wide Web pages, hyperlinks are highlighted text or images which, when selected (usually by clicking the mouse button), follow a link to another page.
+Hyperlinks can also be used to automatically download other files as well as sounds and video clips.
+MoDem (MODulator- End of user computer interface that enables DEModulator) digital data to be transmitted over analog  transmission facilities like phone lines.
+Multimedia Computer systems that integrate audio, video and data.
+Network A system of inter-related elements that are interconnected in a dedicated or switched linkage to provide local or remote communication (of voice, video, data, etc.)
+and to facilitate the exchange of information between users with common interests.
+Newsgroup A distributed bulletin board system about a particular topic.
+Usenet news is a system that distributes thousands of newsgroups to all parts of the Internet.
+Page A hypermedia document on the web.
+PKZIP PKZIP is a shareware compression utility for PCs.
+A program called PKUNZIP is used to decompress.
+“POP” (point of A “pop” is an Internet service provider’s presence) dial-up connection for modem users, used particularly to describe local connections so modem users don’t have to dial long distance.
+For example, a particular ISP might be based in Johannesburg, but have “POP’s” in Cape Town and Durban.
+Server In a network, a host data station that provides facilities to other stations.
+Site Address location of a server on the Internet.
+Terminology Definition UNZIP To unzip a file means to decompress, or expand a file that has been made smaller using a compression utility.
+URL (Uniform The form of the site address that reveals the Resource Locator) name of the server where the site’s files are stored, the file’s directory path, and its file name.
+WWW (World Internet system for world-wide hypertext Wide Web) linking of multimedia documents, making the relationship of information that is common between documents easily accessible and completely independent of physical location.
+ZIP When one “compresses” (i.e.
+makes a smaller but equal copy) a file using “pkzip”, the resulting file is called a “zip” file.
+It usually ends with the file extension “zip”.
+3.4 Exercise 1: Examining the Start Page of Academy of Learning Objective: To open the Explorer, examine and change the start page Before you begin: Ensure that you have the Windows desktop displayed on your screen.
+What you do Comments/Prompts 1.
+Locate and double-click on The Internet Explorer is launched your browser icon, which is and the start page is displayed as found on the desktop shown below.
+2.
+You will now examine the URL Address of the current page The address should be: You will now change the current start page.
+C:\AOL\AOLHOME.HTM 3.
+Click on the Tools, Internet The Internet Options dialog box Options commands is opened.
+4.
+Ensure that the General panel is Note the Address of the Home selected Page: File://C:/AOL/AOLHOME.HTM 5.
+Delete the current address and (Do not attempt to underline the  type the following into the address) The new start page is Address box: entered into the Address box.
+File://C:/AOL/AOLHOME.HTM 6.
+Click on the Apply button and The new start page has been set.
+then click on the OK button (It will only be displayed once you restart the browser).
+7.
+Exit from the browser You are returned to the Windows desktop.
+8.
+Launch the browser The new start page will be displayed on your screen.
+(Maximize if necessary).
+Your screen should now appear similar to the example shown on the next page.
+9.
+Click on the Tools, Internet The Internet Options dialog is Options command.
+opened 10.
+Ensure that the General Note the Address of the Home panel is selected page: file:///C:/AOL/AOLHOME1.HTM Next you will change the start page back to the original home page.
+11.
+Delete the current address and The new start page is entered into type the following into the the Ad dress box Address box: file://C:\AOLHOME.HTM 12.
+Click on the Apply button and The new st art pa ge has been set.
+13.
+Exit from the browser You are returned to the Windows desktop.
+14.
+Launch the browser The new start page will be displayed on your screen.
+Your screen should now appear similar to the example shown on the next page.
+15.
+Exit from the browser You are returned to the Windows desktop.
+4.0 CONCLUSION The Internet is used for • Information browsing • electronic mail (e-mail) • Newsgroups • File transfer • Access to and use of other computers.
+5.0 SUMMARY The advantages and terminology of global network (Internet) were outlined.
+6.0 TUTOR-MARKED ASSIGNMENT Discuss briefly what benefits Internet offers the Nigerian society.
+7.0 REFERENCE/FURTHER READING French, C. S. (2000).
+Computer Science (5th ed.).
+Gosport, Hants: Ashford Colour Press.
+UNIT 3 FURTHER PRACTICAL WORK ON THE INTERNET CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Exercise 2: Navigating the Start Page 3.2 Exercise 3: Links 3.3 Exercise 4: Using the Address Box 3.4 Newsgroups 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION In this unit you open the Explorer and navigate around the start page.
+You will also use some of the links that are located in the start page before you conclude the unit you will navigate using the address box.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • open the Explorer and navigate around the start page • use some of the links located in the start page • navigate using the address box.
+3.0 MAIN CONTENT 3.1 Exercise 2: Navigating the Start Page Objective: To open the Explorer and navigate around the start page Before you begin: Ensure that you have the Windows desktop displayed on your screen.
+What you do Comments/Prompts 1.
+Locate and double-click on your browser icon, which is found on the desktop 2.
+Press the down arrow↓ key on The down arrow key scrolls you your keyboard down the current documents, one line at a time.
+You can use the up Using the up arrow scroll to the and down arrow keys to scroll the top of the document.
+current page within your browser window.
+3.
+Press the <Page Down> key on The current document moves down your keyboard.
+one screen (page) at a time.
+The <Page Up> key moves you up one screen at a time.
+4.
+Press the <Page Up> key on The current document moves up to your keyboard.
+the top or start of the current page.
+5.
+Press the <Ctrl> + <End> The current document moves down keys on your keyboard.
+to the bottom or end of the current page.
+6.
+Press the <Ctrl> + <Home> The current document moves up to keys on your keyboard.
+the top or start the current page.
+Now you will use your mouse to navigate in the current page.
+7.
+Click on the scroll bar down The current document moves down arrow at the bottom of the towards the bottom or end of the vertical scroll bar.
+current page.
+8.
+Click on the scroll bar up arrow The current document moves up at the top of the vertical scroll towards the top or start of the bar.
+current page.
+9.
+Click on the grey area of the The current document moves down scroll bar.
+(Between the scroll one screen (page) at a time.
+bar down arrow and the grey scroll box) Repeat the process to move back to the top of the current page.
+(Click between the scroll bar up arrow and the grey scroll box).
+10.
+Exit your browser.
+You are returned to the desktop.
+3.2 Exercise 3: Links Objective: To open the Explorer and use some of the links located in the Start Page.
+Before you begin: Ensure that you have the Windows desktop displayed on your screen.
+What you do Comments/Prompts 1.
+Locate and double-click on The Internet Explorer is launched your browser icon, which is found and the on the desktop.
+start page is displayed as shown below.
+2.
+Scroll down the Start Page The following buttons on the Start until the following buttons are Page are displayed.
+visible.
+3.
+Slide your cursor over the As your cursor passes over a buttons.
+hotspot the cursor changes shape: 4.
+When on a hotspot the status The URL (similar to the following bar displays the URL of the target example) is displayed in the status document.
+bar: 5.
+Scroll to the bottom of the The following text links are Start Page.
+visible: What you do Comments/Prompts 6.
+Slide your cursor over the As your cursor passes over a text buttons.
+hotspot the cursor changes shape as shown above.
+To activate a link, simply position your cursor on the desired hotspot and click your primary mouse button.
+We will activate the Company Profile link.
+7.
+Position your cursor over the The following page will be Company Profile button and displayed in your browser.
+You click your mouse once.
+have just followed a link to another web page.
+Note the new URL address displayed in the Address box.
+3.3 Exercise 4: Using the Address Box Objective: To navigate using the address box Before you begin: Ensure that your Internet Browser is open and that the Start Page is displayed on the screen.
+What you do Comments/Prompts 1.
+Click on the text entry in the The entry is selected.
+URL address box 2.
+Type: file://c:\aol\cartoon.htm The following age is loaded Press: <Enter> 3.
+Click on the text entry in the The entry is selected URL address box 4.
+Type: file://c:\aol\aolhome.htm The Home Page is loaded Press: <Enter> 5.
+Close Internet Explorer  3.4 Newsgroups The next area of the Internet that we will look at in this course, is that of Newsgroups.
+The area on the Internet that comprises thousands of newsgroups is known as the Usenet.
+A Newsgroup is basically an electronic bulletin board where messages are left (similar to e-mail – about which you will learn more in the second part of this course) for others to see and respond to if necessary.
+It is here that we have two-way communication.
+For example, you may have a question regarding your PC that nobody (that you know) can help you resolve.
+By using a newsgroup you can post the question and receive replies from anywhere in the world.
+Newsgroup messages are stored on Internet servers, called News Servers, which are located throughout the world.
+Each Internet Service Provider (ISP) supplies a news server for use by all of its subscribers.
+The news server is divided into categories with each category being a newsgroup and each newsgroup having links to other servers on the Internet that contains the same category or newsgroup.
+When you post a message to a newsgroup, it is posed onto your ISP’s news server.
+When you view the messages in a newsgroup, the server automatically activates the links and scans the other servers for messages in the requested category.
+When you look at a list of articles in a newsgroup you can see each message header, when the relevant header is activated (double-clicked on) a connection with the appropriate server is made and the message is displayed in your browser window.
+The newsgroups can be accessed either from links in the Web pages or from an integrated news browser which forms part of your Web browser.
+4.0 CONCLUSION Here you opened the Explorer and carried out stipulated exercises.
+5.0 SUMMARY An important area of internet is the Newsgroups.
+6.0 TUTOR-MARKED ASSIGNMENT You wish to send an e-Mail message to a fellow teacher in the same school where you teach.
+Attached to this e-mail is a draft copy of an exam paper that you have set.
+Explain how you would go about creating the e-mail, attaching the document containing the exam paper and finally sending the e-Mail.
+7.0 REFERENCE/FURTHER READING French, C. S. (1998).
+Data Processing and Information Technology.
+Gosport, Hants: Ashford Colour Press.
+UNIT 4 ELECTRONIC MAIL CONTENTS 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Electronic Mail 3.1.1 Microsoft Outlook – Inbox 3.2 Creating an E-Mail Message 3.3 Exercise 5: Creating and Sending E-mail 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION Each main user has a “mailbox” which is accessed via a computer terminal within the system by entering a password.
+Messages are drawn to user’s attention when they enter the system.
+2.0 OBJECTIVE  At the end of this unit, you should be able to: • use the electronic mail (e-mail).
+3.0 MAIN CONTENT 3.1 Electronic Mail Electronic mail is a network feature that has no equivalent in standalone computing.
+It is one of the most useful features of networking.
+Electronic mail (or e-mail) allows users to send messages and files to selected users or groups of users, while preserving the privacy of sensitive information.
+Another advantage of e-mail is that the person to whom a message is addressed does not have to be attached to the network, when a message is sent, to receive it.
+If a person, who is not attached to the network, is sent a message, that message will be stored in the e-mail database until that person attaches to the network.
+Electronic mail can also be sent to remote locations via the telephone system, provided the network software supports this feature.
+This makes it easy to communicate with people anywhere in the world quickly and cheaply.
+An e-mail message from South Africa to the UK costs about half of what a fax containing the same message would cost.
+On this course you will use the program Microsoft Outlook to learn how to send mail.
+3.1.1 Microsoft Outlook – Inbox Microsoft Outlook provides an electronic mail tool called the Outlook Inbox.
+As you work through this section you will be exposed to the two basic Outlook operations, that of sending and receiving e-mail from others in your workgroup.
+By default, when Outlook is launched it will display your Inbox, listing all received electronic mail.
+Should the Inbox not be the current folder, simply click on the Inbox shortcut, located in the Outlook Shortcuts group.
+The following Inbox folder will be displayed.
+Figure 4.1: The Inbox Folder Fig.
+4.2: Standard Toolbar options available for the Inbox Folder Table 1 below: summarises the functions of the available tools.
+Tool Function Activates the New Message dialog box; used to create a new mail message.
+New Mail Message Prints the active folder or selected items.
+Please note that this method of activating print does Print not call up the print dialog box.
+To set print options, you would need to select File, Print… Enables you to move the selected item or items to a specific folder.
+Move to Folder Used to delete items in a folder or the entire folder Delete Click on this button if you wish to reply to the sender only.
+The Message Reply window will Reply be displayed.
+Click on this button if you wish to reply to the sender and all recipients of the message.
+The Reply to All Message Reply window will be displayed.
+This button may be used to check for mail waiting in your postbox or to send outgoing Send/Receive mail.
+This feature allows you to organise the Inbox.
+You can create rules through which future Organize information will automatically be organised, change view and manage junk e-mail messages.
+this is a new feature in Outlook 2000.
+Used to look up e-mail and fax information when you address messages.
+Address Book Used to find information about a contact stored in the Contacts folder.
+Find a Contact Activates Microsoft Outlook Help.
+Microsoft Outlook Help 3.2 Creating an E-Mail Message The procedure to create an electronic e-mail is as follows: • The first step is to click on the New Mail Message button located on the standard toolbar (click on the picture, not the drop-down arrow).
+New Mail Message button • Outlook will display the following Message window with a label of “Untitled”.
+To…button To Cc… Subject box Message Fig.
+4.3: The New Message Window Study Figure 4.3 carefully.
+The cursor automatically goes to the To… box.
+This is where the e-mail address/addresses of the recipient/recipients is/are typed.
+The Cc… box is used if you want to send the same message to another person.
+The Subject: box is for you to give your message a subject heading.
+The box underneath subject is the Message detail box and is used to write the contents of your message.
+• The next step is to address the message.
+To do this we will select the name of a recipient from the Post Office list.
+Click your primary mouse button on the To button to display the following Select Names dialog box: Postoffice Address List Subject box Admin Student1 Student2 Student3 Fig.
+4.4: Select Names dialog box • Change the Address list to display the Post Office Address List as shown above.
+When the Address List is changed, all available recipients will be displayed in the Recipient List window.
+• Select the name(s) of the individual(s) to receive your message by double clicking on the name(s) displayed in the list of recipients.
+(In Exercise 5 later in this module, you will send the first message to Student2.)
+• The name(s) of the chosen recipient(s) will display in the Message Recipients window.
+Next click on the OK button.
+This will close the Select Names dialog box and place the recipient name(s) in the window of the new message.
+• Type a subject heading in the Subject window.
+you will notice that the Subject is used as the message title in the title bar.
+• Enter the message details into the message window.
+The message window will appear similar to Figure 4.5 below: Fig.
+4.5: Completed message • To send the message, click on the Send button located in the message window Send button 3.3 Exercise 5: Creating and Sending E-mail Objective: To create and send an e-mail message Before you begin: Launch Outlook 2000.
+(In the first few steps of the exercise you will be guided to select the user profile, Student1 and to Logon as Student1) What you do Comments/Prompts 1.
+When prompted select the Profile Name: Student1 Click on OK 2.
+In the Microsoft Mail logon dialog box The Inbox folder for Student1 will be logon as: displayed.
+(If it is not, click on the Inbox shortcut.
+Mailbox: Student Password: Password Click on the OK button.
+3.
+Click on the New Message button.
+The following message window will appear.
+4.
+Click on the To… button The following Select Names dialog box will be displayed.
+5.
+Click on Show Names from the: The Post Office Address List is selected drop-down arrow and click and all available recipients should appear on the Post Office Address List in the Recipient List window.
+Option if Necessary.
+6.
+Double click on Student.
+Student2 is selected and the name appears in the Message Recipients window.
+7.
+Click on the OK button.
+You are returned to the message window.
+You will notice that the name Student2 appears in the To… box 8.
+Click in the Subject box.
+Type: Holiday Specials 9.
+Press: <TAB> The subject of the message is entered, and the insertion point moves to the Message box.
+10.
+Type: Hi there, 11.
+Press: <Enter> <Enter> 12.
+Type: The following message details The text of the message is entered.
+some of the outstanding holiday specials You are now ready to send it.
+on offer from Sunshine Tours cc!
+13.
+Click on the Send button The message is sent, and the Message window is closed.
+14.
+In the Outlook Bar, click on the My Shortcuts group button.
+15.
+Click on the Sent Items The contents of the Send Items folder are shortcut.
+displayed.
+Notice that the message you have just sent appears in the list.
+16.
+Create and Send the The message is sent.
+following message: Recipient: Student 3 Subject: Overseas Travel Message: The cost details due today but have not as yet been received.
+Please advise me as to the status of your proposal.
+17.
+Create and Send the The messages are sent.
+following message: Recipients: Student2 & 3 Subject: Golf Date Message: This month’s golf name will be held next Friday at the Riverside Country Club, Tee-off 07:30 a.m. See  you there!
+18.
+Select the My Shortcuts group in the Outlook bar.
+19.
+Select the Sent Items The content of the Sent Items folder is shortcut displayed.
+20.
+Select File, Exit and Log You are returned to the Windows desktop.
+Off 4.0 CONCLUSION The mailing system provides computerized ways of preparing, entering and editing text.
+5.0 SUMMARY The mailing system provides means of filing and retrieving messages.
+6.0 TUTOR-MARKED ASSIGNMENT Create an e-mail and send it to the Co-ordinator of National Open University.
+7.0 REFERENCE/FURTHER READING French, C. S. (1998).
+Data Processing and Information Technology.
+Gosport, Hants: Ashford Colour Press.
+UNIT 5 READING AND RESPONDING TO AN E-MAIL MESSAGE CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Reading and Responding to an E-Mail Message 3.2 Placing an Attachment to an E-Mail Message 3.3 Reading a Message Attachment 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION Here you will send more e-mail messages 2.0 OBJECTIVES At the end of this unit, you should be able to: • reply to an e-mail message • place an attachment to an e-mail message • read a message attachment.
+3.0 MAIN CONTENT  3.1 Reading and Responding to an E-Mail Message As mentioned earlier, all incoming mail messages are stored in the Inbox.
+The procedure to display an electronic mail message is detailed as follows: • Double click on the relevant message in the Inbox listing.
+The message will open and be displayed in a message window.
+• Whilst working in the message window, if you wish to view either the next or the previous message, simply click on the up or the down arrow.
+Previous Item button Next Item button The procedure to respond to an electronic e-mail message is detailed as follows: • In the message window, if you wish to reply only to the sender, click on the Reply button.
+Reply button • If you wish to reply to the sender and all of the recipients of the message, click on the Reply to All button.
+Reply to All button When clicking on either of the above buttons the Message Reply window will be displayed.
+By default the recipient name is automatically entered together with the original message.
+Scroll to the end of the original message and type your reply before clicking on the send button.
+SELF ASSESSMENT EXERCISE 1 Replying to a Message Objective: To reply to an e-mail message.
+Before you begin: Launch Outlook 2000.
+(NB: In the first step of the Exercise you will be prompted to logon as Student2.
+What you do Comments/Prompts 1.
+When prompted select the Profile Name: Student2 Click on OK x 2.
+In the Microsoft Mail logon dialog box logon as: Mailbox: Student2 3.
+Password: Password The Inbox folder for Student2 will be Click on OK displayed.
+Next you will check the mailbox for new mail.
+4.
+Press your <F5> key to check The Delivering Messages dialog box for new mail.
+is displayed.
+5.
+The Inbox will be refreshed The messages will be displayed in the and any new messages will be message list as follows: displayed.
+6.
+Double click on the Golf The message will be opened, and Date message displayed in the message window.
+7.
+Read the message.
+Then The Message window is closed.
+You click on the Close button will now resp ond to a me ssa g e. Message window.
+8.
+Double-click on the The message is re-displayed.
+Holiday Specials message 9.
+Click on the Reply button The Message Reply window is displayed.
+10.
+Make sure that the insertion The reply is entered.
+point is located in the message area (immediately above the original message).
+Type:  Thank you for your message.
+I will submit a detailed reply by noon today.
+11.
+Click on the Send button.
+The reply is sent, and the original message is redisplayed.
+12.
+Click on the Close button on The Message window is closed.
+the Title bar of the Message window.
+13.
+Update the Inbox listing if necessary by pressing <F5>.
+14.
+Select: File, Exit and Log You are returned to the Windows off desktop.
+15.
+Launch Outlook again.
+Select The message is displayed.
+the Student1 profile name and logon as Student1.
+Press <F5>.
+Read your Messages 16.
+Exit and Log off the Outlook You are returned to the Windows program desktop.
+3.2 Placing an Attachment to an E-Mail Message So far, we have looked at sending and receiving standard e-mail messages using Outlook.
+If you wish, include items such as graphics, sounds, text and other information by attaching the relevant file to your e-mail message.
+The procedure to attach a file to an electronic e-mail message is detailed as follows: • Ensure that you are in the Message window, the click on the Insert File button.
+Insert File Button • In the Insert File dialog box that is displayed, select the relevant the name and click on the OK button.
+the message window will now display a file icon in the message as per the following example:  Fig.
+7.10: Message with a File Attachments Click on the Send button.
+5.3 Reading a Message Attachment It is possible to read an attachment without saving it first.
+Remember that you must have the application that the attachment is written in, in order to read it.
+To identify whether a message has an attachment, you will see a paperclip next to the message.
+To read the attachment the mouse must be placed on the message.
+Click the right hand button on the mouse.
+Select view and the attachment will open.
+SELF ASSESSMENT EXERCISE 2 Objective: To send a new e-mail message which contains an attachment.
+Before you begin: Launch Outlook 2000.
+(NB: In the first step of the Exercise you will be prompted to logon as Student2.)
+What you do Comments/Prompts 1.
+When logging onto Outlook, The Inbox, folder for Student2 will use be displayed.
+Profile Name: Student2 In the Microsoft Mail logon dialog box, logon as: Mailbox: Student2 Password: Password 2.
+Click on OK Next you will check the mailbox for new mail using <F5>.
+3.
+In the Inbox folder click on the The Message window is displayed.
+New Mail Message button 4.
+Click on the To…button.
+The select Names dialog box is displayed.
+5.
+In the list of users, double click The recipient is selected, and the on the name Student 1, then Message windows is redisplayed.
+click on the Ok button 6.
+Click in the Subject box.
+The subject of the message is Type: Family Crest entered, and the insertion point Press: <TAB> moves to the Message box.
+7.
+Type: Attached please find a copy of the family crest.
+Any comments?
+8.
+Press: <Enter> twice The text of the message is entered.
+You will now attach an external graphic file.
+9.
+Click on the Insert File button.
+The Insert File dialog box is displayed.
+10.
+Switch to folder A:\ T h e f i l e s f r o m y o u r d a t a f o l d e r a r e displayed 11.
+In the list of filenames, click on The filename is selected.
+Blue.bmp.
+12.
+Click on the Insert button The dialog box is closed, and the file is attached to the message.
+Notice that an icon representing the attached file appears below the message.
+13.
+Click on the Send button The message is sent, and the Message window is closed.
+14.
+File, Exit and Log off Outlook 15.
+Launch Outlook using Profile Name: Student 1 16.
+Logon as:  Mailbox: Student 1 Password: Password 17.
+Open your Inbox The Inbox is displayed.
+18.
+Update the Inbox listing if The inbox listing is refreshed and necessary <F5> displays any new mail received.
+Students2 Family Crest Students2 RE: Holiday Specials Students1 Golf Date Students1 Holiday Specials 19.
+Notice that the new message The message is opened.
+Next you has a paper clip icon next to the will view the attachment.
+sender’s name, indicating that this message has an attachment.
+Double click on the Family Crest message.
+20.
+In the newly displayed message The attached file is opened and there is an icon labeled Blue.BMP displayed in Paint.
+Double click on this icon.
+21.
+Exit Paint and Exit and Logoff You are returned to the Windows Outlook.
+desktops.
+4.0 CONCLUSION You are now in a position to read and respond to e-mail messages.
+5.0 SUMMARY E-mail addresses have standard format.
+6.0 TUTOR-MARKED ASSIGNMENT Send another E-Mail message to the co-ordinator, National Open University.
+7.0 REFERENCE/FURTHER READING French, C. S. (1998).
+Data Processing and Information Technology.
+Gosport, Hants: Ashford Colour Press.

@@ -1,0 +1,386 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY 407 COURSE TITLE: SOLID STATE PHYSICS II 1 Course Code PHY 407 Course Title SOLID STATE PHYSICS II Course Developer M. A. OLOPADE PHYSICS DEPARTMENT UNIVERSITY OF LAGOS Programme Leader Dr. Ajibola S. O.
+National Open University of Nigeria Lagos 2 PHYPHY407: SOLID STATE PHYSICS II UNIT 1 DIELECTRIC PROPERTIES OF SOLIDS CONTENT 1.0 INTRODUCTION 2.0 OBJECTIVES 3.0 MAIN CONTENT 3.1 DIELECTRIC PROPERTIES 3.2 LOCAL ELECTRIC FIELD 3.3 DIELECTRIC CONSTANT AND POLARIZABILITY 3.4 DIPOLE RELAXATION AND DIELECTRIC LOSSES 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR MARKED ASSIGNMENTS References/Further Reading 1.0 INTRODUCTION In the previous courses on Solid State Physics, you have learnt the crystal structure of solids, thermal and elastic properties of the crystal lattice.
+You will recall that a solid has been defined as a rigid substance in which the average positions of the constituent atoms form a lattice structure.
+In this class, our discussion is on crystalline solid.
+What distinguishes copper from glass?
+Glass flow like liquids at high temperatures and copper exhibits a characteristic crystal structure.
+What is Solid-State Physics?
+Solid-state physics is the study of crystalline solids, through methods such as quantum mechanics, crystallography, electromagnetism, and metallurgy.
+It is the largest branch of condensed matter physics.
+Solid-state physics studies how the large-scale properties of solid materials result from their atomic-scale properties.
+Thus, solid-state physics forms the theoretical basis of material science.
+It has direct applications, for example in the technology of transistors and semiconductors.
+Solid materials can be divided into two distinct groups on the basis of their behavior under the influence of an external electric field.
+3 i. Conductors – those in which there are electrons which are free to move in the presence of a field.
+Examples of these are metals, carbon etc.
+ii.
+Insulators or dielectrics – those in which the electrons are strongly bound to the atoms or molecules composing the material and cannot be detached by the application of an electric field to these materials.
+Examples of these are sulphur, porcelain, mica, etc.
+2.0 OBJECTIVES After going through this unit, you will be able to: • explain the dielectric properties of solid, • explain local electric field, • define dielectric constant, polarizability and susceptibility.
+3.0 MAIN CONTENT 3.1 DIELECTRIC PROPERTIES You will also recall that a dielectric is a non-conducting material, such as glass, rubber, or waxed paper.
+The following are some of the properties of a dielectric that you must have learnt.
+i.
+When a dielectric material is inserted between the plates of a capacitor, the capacitance increases by a factor K, called the dielectric constant of the dielectric C = KC (1) o where C is the capacitance in the absence of the dielectric o ii.
+The dielectric constant K has no unit and it is characteristic of a given material.
+iii.
+If ε is the permittivity of free space and ε is the permittivity of the dielectric material, o thus e K = (2) e o iv.
+With the introduction of the dielectric materials, the energy density becomes 1 u = e E2 (3) 2 v. The potential difference V between the plates when a dielectric material is inserted, provided that the charge remains unchanged, is given as V V = o (4) K 4 where V is the potential difference when the dielectric is not inserted.
+Equation (4) states o that the potential difference V between the plates decreases by a factor of K. vi.
+If the potential difference is kept unchanged when the dielectric material is inserted, then we have, Q = KQ (5) o Thus, the charge on a capacitor with a fixed potential difference between its plates is increased by factor K. vii.
+If the electric field between the parallel plate capacitor is E and it is E after the material o with dielectric constant K is inserted into the space between the plates, then E E = o (6) K From Equation (6), we see that the electric field within the dielectric is reduced by a factor equal to the dielectric constant.
+viii.
+Net field E within the dielectric is given as E = E - E (7) o ind where E is the original field and E is the electric field induced o ind If you use Equation (6), (7) becomes, E o = E - E K o ind  1  E = E 1-  (8) ind o K  ix.
+The induced electric field in the dielectric is related to the induced charge density σ ind through the relationship E = σ /ε .
+ind ind o x.
+From Equation (9), you have,  1  s =s 1-  (9) ind  K  and  1  Q =Q1-  (10) ind  K  Since K is always greater than 1, these expressions [Equations (8), (9), and (10)] show that E > E , σ > σ and Q > Q. ind o ind ind 5 3.2 LOCAL ELECTRIC FIELD You must be aware that: • every material is made up of a very large number of atoms/molecules, • an atom consists of a positively charged nucleus and negatively charged electrons, • a system consisting of two equal and opposite charges q, separated by a certain distance d, is an electric dipole, • when an atom or a molecule of a dielectric is placed in an electric field, the positive and negative charges feel opposite forces and are displaced slightly forming a dipole.
+Suppose the charges -q and +q are placed, respectively, at d/2 and –d/2 from the origin, as shown in Fig.1.
+The magnitude of the potential due to this system at a point X is given by ( ) q  1 1  F r =  -  11   4ep r r  o 1 2 where r , r are the distances of X from + q and – q respectively.
+1 2 X r 2 r r 1 θ - q +q d Fig.
+1: Dipole If θ is the angle between the axis of the charges and the position vector of X, we can write 1 1 dcosq » + r r 2r2 1 and 1 1 dcosq » - r r 2r2 2 Substituting in (11) ( ) q dcosq F r = 12 4ep r2 o 6 The dipole moment, p, is the vector along the axis of the dipole pointing in the direction – q to + q and having magnitude qd.
+In terms of the dipole moment, you can see that Eq.
+12 becomes ( ) pcosq p.r F r = = 13 4ep r2 4ep r 3 o o 1 r Using (cid:209)   = - ,the Eq.
+(13) can be written as r r 3 ( ) p 1 F r = - (cid:215) (cid:209)   = - p(cid:215) (cid:209) F .
+14 4ep r2 r o o where F is the potential of a unit charge.
+o The field of an electric dipole may also be expressed in the following way, E = -(cid:209) F = - 1 (cid:209)  p(cid:215) r 4ep o  r 3  ( ) 1 3 p(cid:215) r r - r2 p =   15a 4ep  r5  o In CGS, Eq.
+(15a) becomes ( ) 3 p(cid:215) r r - r2 p E = 15b r5 Let us now consider a cubic crystal dielectric (Fig.
+2).
+Assume an electric field of magnitude E o is applied parallel to one of the axes of the crystal.
+The field will push the positively charged nucleus of the atoms of the dielectric slightly in the direction of the field and negatively charged electrons in the opposite direction, as shown in Fig.
+2.
+We say that the atom is polarized under the influence of the applied external field and the charges are called polarization charges.
+The polarization P is defined as the dipole moment p per unit volume, averaged over the volume of a cell.
+The total dipole moment is defined as P = ∑q r 16 n n Let us imagine that a small sphere is cut out of the specimen around the reference point; then E 1 is field of the polarization charges on the inside of the cavity left by the sphere, and E is the 2 field of the atoms within the cavity.
+The polarization charges on the outer surface of the specimen produce the depolarization field, E .
+The depolarization field is opposite to P, that is, 3 7 the field E is called depolarization field, because within the body it tends to oppose the applied 3 field E as in Fig.
+2.
+The dielectric acquires a polarization due to the applied electric field E .
+o o This polarization is the consequence of redistribution of charges inside the dielectric.
+The local electric field E at any atom of the dielectric may be written as loc E = E + E + E + E 17 loc o 1 2 3 The contribution E + E + E is the total effect at one atom of the dipole moments of all the 1 2 3 other atoms in the system (in CGS units): ( ) 3 p(cid:215) r r - r2p E + E + E = 18a 1 2 3 r5 and in SI unit ( ) 1 3 p(cid:215) r r - r2p E + E + E =   18b 1 2 3 4ep  r5  o 3 Fig.
+2: The depolarization field is opposite to P Lorentz showed that the field E due to the polarization charges on the surface formed a 1 continuous distribution.
+The density of the surface charge is equal to Pcosθ, where θ is the polar angle along the direction of polarization (Fig.
+3).
+8 p ( )( )( )( )( ) 4p P E = ∫ R- 2 2pRsinq Pcosq cosq Rdq = 19 1 3 0 θ a Fig.
+3: Calculation of E 1 The field E due to the dipoles within the spherical cavity is the only term that depends on the 2 crystal structure.
+It can be shown that for a reference site with cubic surroundings in a sphere that E = 0 if all the atoms may be replaced by point dipoles parallel to each other.
+2 For specimens in the shape of ellipsoids oriented with one of the principal axes parallel to the applied field, it can be shown that the depolarization field will be parallel to the applied field and NP E = - 20a e o The constant N is known as the depolarization factor.
+If P , P , P are the components of the polarization P referred to the principal axes of an x y z ellipsoid, then the components of the depolarization field are written N P - N P - N P E = - x x ; E = y y ; E = z z ; 20b 3x e 3y e 3z e o o o SELF ASSESSMENT EXERCISE 1 Explain polarization and depolarization fields.
+3.3 DIELECTRIC CONSTANT AND POLARIZABILITY Let us now consider the dielectric behavior of molecules which have a permanent dipole moment.
+The dielectric constant ε has been defined for an isotropic or cubic medium relative to vacuum as: 9 D P e = =1+ =1+c 21a E e E o where χ is the electric susceptibility.
+The susceptibility (in SI unit) is related to the dielectric constant by P c = =e - 1 21b e E o If the field is not too large, the strength of the induced dipole moment in an atom i is proportional to the local electric field acting on the dielectric.
+That is p a E i loc p =a Ei 22 i i loc where α is the polarizability and p is the dipole moment of atom i. i i Polarizability has the SI units of C·m2·V−1 = A2·s4·kg−1·m−1 but is more often expressed as polarizability volume with units of cm3 or in Å3 = 10−24 cm3.
+The polarization of a crystal may be expressed approximately as the product of the polarizabilities of the atoms times the local electric field: P = ∑N p = ∑Ei N a 23 i i loc i i i i where N is the number per unit volume of atom i. i Electric susceptibility can now be defined as ∑Ei N a loc i i P c = = E 4p E - P loc 3 Using Eqs.
+(23) and the Lorentz relation, you will have: ∑Ei N a ∑N a P loc i i i i e - 1 = i = i = 24 E Ei - 4p ∑Ei N a 1- 4p ∑N a 4p loc 3 loc i i 3 i i i i Hence (in CGS) 3 e - 1 ∑N a =   25 i i 4p e +2 i 10 Eq.
+(25), known as Clausius-Mossotti equation, expresses the relation between the dielectric constant and the atomic polarizabilities.
+You can calculate the dielectric constant of various materials from the polarizability by use of the Clausius-Mossotti equation.
+This equation holds fairly accurately for non-polar substances but it fails completely in pure polar liquids or solids.
+The total polarizability of an atom can be separated into three parts: electronic, ionic, and orientational.
+The electronic contribution arises from the deformation of the electron shell about a nucleus.
+The ionic or atomic contribution comes from the displacement and deformation of a charged ion with respect to other ions.
+The orientational or dipolar polarizability arises when the substance is built up of molecules possessing a permanent electric dipole moment which may be more or less free to change orientation in an applied electric field.
+In general, the total polarizability is given by a =a +a +a 26 dipolar ionic electronic which is the sum of the dipolar, ionic, and electronic polarizabilities, respectively.
+The electronic contribution is present in any type of substance, but the presence of the other two terms depends on the material under consideration.
+SELF ASSESSMENT EXERCISE 2 Define electric susceptibility and polarizability.
+3.4 DIPOLE RELAXATION AND DIELECTRIC LOSSES Now let us explain dipole relaxation.
+Dipole relaxation time is the time interval characterizing the restoration of a disturbed system to its equilibrium configuration; the relaxation frequency is defined as the reciprocal of the relaxation time.
+The orientational contribution to the dielectric constant is a major cause to the difference between the low frequency dielectric constant and the high frequency dielectric constant.
+The orientational relaxation frequencies are strongly dependent on the temperature and frequency as: a a = o 27 1+itw where τ is known as Debye relaxation time, α is the static orientational polarizability and ω is o the angular frequency.
+In liquids the relaxation time, for a molecule of radius a can be expressed as: 11 4hp a3 t = 28 kT 4.0 CONCLUSION In this unit we have reviewed the dielectric properties of a solid in a capacitor.
+You have also seen the generation of local electric field, polarization and depolarization fields.
+We also defined dielectric constant, polarizability and susceptibility.
+5.0 SUMMARY • Solid materials can be divided into two distinct groups on the basis of their behavior under the influence of an external electric field: Conductors and Insulators or dielectrics.
+• The dipole moment, p, is the vector along the axis of the dipole pointing in the direction – q to + q and having magnitude qd.
+• The polarization P is defined as the dipole moment p per unit volume, averaged over the volume of a cell.
+The total dipole moment is defined as P =∑q r n n • The polarization charges on the outer surface of a specimen produce the depolarization field.
+The depolarization field is opposite to P. • The local electric field E at any atom of the dielectric may be written as loc ( ) 3 p(cid:215) r r- r2p E = E + loc o r5 and in SI unit ( ) 1 3 p(cid:215) r r- r2p Eloc = Eo +4ep  r5  o • For specimens in the shape of ellipsoids oriented with one of the principal axes parallel to the applied field, it can be shown that the depolarization field will be parallel to the NP applied field and E =- .
+The constant N is known as the depolarization factor.
+e o • The dielectric constant ε has been defined for an isotropic or cubic medium relative to D P vacuum as: e = =1+ =1+c where χ is the electric susceptibility.
+E e E o • The susceptibility (in SI unit) is related to the dielectric constant by P c = =e - 1 e E o 12 • If the field is not too large, the strength of the induced dipole moment in an atom i is proportional to the local electric field acting on the dielectric.
+That is p =a Ei where α is the polarizability and p is the dipole moment of atom i. i i loc i i • The polarization of a crystal may be expressed approximately as the product of the polarizabilities of the atoms times the local electric field: P =∑N p =∑Ei N a where N is the number per unit volume of atom i. i i loc i i i i i 3  e - 1 • In CGS, ∑Na =  known as Clausius-Mossotti equation, expresses the i i 4p e +2 i relation between the dielectric constant and the atomic polarizabilities.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Two parallel plates have equal and opposite charges.
+When the space between the plates is evacuated, the electric field is 1.2 x 105 V/m, the electric field within the dielectric is 2 x 105 V/m.
+Calculate the induced charge density on the surface of the dielectric.
+2.
+A parallel plate air capacitor is made of 0.2 m square tin plates and 1 cm apart.
+It is connected to a 50 V battery.
+What is the charge on each plate?
+3.
+The plates of a parallel-plate capacitor are 2 mm apart and 5 m2 in area.
+The plates are in vacuum.
+A potential difference of 2000 volts is applied across the capacitor.
+Calculate the magnitude of the electric field between the plates.
+4.
+Find the frequency dependence of the electronic polarizability of an electron having the resonance frequency ω , treating the system as a simple harmonic oscillator.
+o 5.
+Calculate the individual dipole moment p of a molecule of carbon tetrachloride given the following data.
+Relative permittivity ε = 2.24 r Density = 1.60 g/cm3 Molecular weight = 156 Field = 107 volts/metre Find also the average electron displacement.
+References/Further Reading Charles Kittel (2005).
+Introduction to solid state Physics.
+John Wiley and Sons, Inc, USA.
+13 PHS 404: SOLID STATE PHYSICS II UNIT 2 MAGNETISM CONTENT 1.0 INTRODUCTION 2.0 OBJECTIVES 3.0 MAIN CONTENT 3.1 MAGNETIZATION 3.2 DIAMAGNETISM 3.3 PARAMAGNETISM 3.4 FERROMAGNETISM 3.4.1 CURIE-WEISS LAW 3.4.2 SPONTANEOUS MAGNETIZATION 3.4.3 DOMAIN THEORY OF FERROMAGNETISM 3.4.4 THE BLOCH WALL 3.5 DOMAIN DIMENSIONS 3.6 ANTIFERROMAGNETISM 3.7 FERRITES 3.8 MAGNETIC RESONANCE 3.8.1 NUCLEAR MAGNETIC RESONANCE 3.8.2 FERROMAGNETIC RESONANCE 3.8.3 ANTIFERROMAGNETIC RESONANCE 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR MARKED ASSIGNMENTS References/Further Reading 1.0 INTRODUCTION You must be aware that: • A bar magnet has its magnetism concentrated mainly at the ends or poles.
+• These poles are called north (N) and south (S).
+14 • Two bar magnets will either attract each other or repel each other when their poles are placed close to each other.
+• The pole-force law or law of poles states that like magnetic poles repel each other, and unlike magnetic poles attract each other.
+• Magnetic poles always occur in pairs, never singly.
+• Two opposite poles form a magnetic dipole.
+If a magnet is broken in an attempt to separate the poles, one finds two new magnets each having a north and a south pole.
+• The direction of a magnetic field B at any point is the direction that the north pole of a compass at that location would point.
+2.0 OBJECTIVES The objectives of this present unit are to: • explain magnetization of materials • differentiate between diamagnetism and paramagnetism • differentiate between ferromagnetism and antiferromagnetism • explain magnetic resonance 3.0 MAIN CONTENT 3.1 MAGNETIZATION In this section we explain the magnetization of materials and how it relates to magnetic field intensity.
+A material substance acquires a magnetic polarization when placed in a magnetic field just as a dielectric medium acquires an electric polarization in an electric field.
+The response of the materials to an applied magnetic field depends on the properties of the individual atoms and molecules, and on their interactions.
+The orbital motion of the electrons in atoms and molecules provide currents which give rise to the magnetic dipoles.
+In many materials the small electric currents associated with the orbital motion and spin of the electrons average to zero.
+When such atoms are placed in a magnetic field, minute electron currents are generated by induction in the clouds of electrons, the direction of which is such that the magnetic field associated with them opposes the inducing field B.
+These are known as diamagnetic substances.
+There are other materials in which the atoms do have an intrinsic magnetic moment on account of the fact that the currents from the orbital motions and spins of the electrons do not average to zero.
+Although electron spins tend to pair and cancel one another, there are atoms in which pairing is incomplete.
+When such materials are placed in a magnetic field, the magnetic moments 15 of the atoms and the induced magnetism enhances the external field.
+This effect is more pronounced at low temperatures.
+Such substances are called paramagnetic substances.
+Every atom or molecule may be regarded as a tiny magnetic dipole with the magnetic moment ^ Q l =e IdS 1 m n where Q is the magnetic pole strength, l is the pole separation, I is the current and dS is the area m of the loop.
+The effect of atomic magnets is described by a quantity called magnetization M which is defined as the magnetic dipole moment per unit volume.
+In many materials it is found that the magnetization M is linearly proportional to magnetic field intensity H, that is M = c H 2 m where χ is a dimensionless constant called the magnetic susceptibility of the material.
+The m susceptibility is a function of temperature.
+3.2 DIAMAGNETISM Let us now discuss diamagnetism.
+Substances with a negative magnetic susceptibility are called diamagnetic.
+Diamagnetism explains the tendency of electrical charges to partially shield the interior of a body from applied magnetic field.
+For an atom in a magnetic field the motion of the electrons is the same as a possible motion in the absence of H except for the superposition of a common precession of angular frequency eH w = - 3 L 2mc The precession of the electron distribution is equivalent to diamagnetic current ( )( ) Ze eH 2mc I = 4 2p c As the magnetic moment µ of a current loop is given by the product of the current by the area of the loop, we have m  Ze2  = -  r 2 5   H 4mc2  for Z electrons, where r 2 = x2 + y2 is the average of the square of the perpendicular distance of the electron from the field axis.
+In terms of the mean square distance r2 = x2 + y2 + z2 from the nucleus, we have 16 3 r2 = r 2 6 2 for a distribution of charge which on the average is spherically symmetrical, so that x2 = y2 = z2 .
+Then the diamagnetic susceptibility per unit volume is, if N is the number of atoms per unit volume, Ze2N c = - r2 7 6mc2 Equation (7) is the Langevin expression that be used to calculate diamagnetic susceptibility.
+SELF ASSESSMENT EXERCISE 1 Explain all the symbols in Langevin expression and state their SI units.
+3.3 PARAMAGNETISM We have discussed diamagnetism in the previous section.
+Now we discuss paramagnetism.
+Substances with a positive susceptibility are called paramagnetic.
+Positive susceptibility can be found in • All atoms and molecules that has odd number of electrons.
+Examples of such atoms and molecules include: sodium atoms; nitrogen II oxide (NO).
+• All free atoms and ions with a partly filled inner shell: transition elements; ions isoelectronic with transition elements; rare earth and actinide elements.
+Examples include Mn2+, Gd3+, U4+.
+• Metals Consider a paramagnetic material containing N atoms per unit volume, each having a magnetic moment µ.
+If a magnetic field H is applied to the material magnetization occurs from the orientation of the magnetic moments and thermal disorder resists the tendency of the applied field to orient the moments.
+The energy of interaction with the applied magnetic field is V = - m (cid:215) H 8 For thermal equilibrium, the magnetization can be derived as ( ) M = NmL a 9 where a = mH /kT , and the Langevin function L(a) is ( ) 1 L a =ctnh a- a For a << 1, L(a) = a/3, and 17  M @ Nm 2H /3kT.
+10 In the limit mH /kT <<1, the magnetic susceptibility is c = M H = Nm 2 /3kT =C T, 11 where C = Nm 2 /3k is known as Curie constant.
+The 1/T temperature dependence is known as the Curie law.
+Equation (11) is known as Langevin equation.
+SELF ASSESSMENT TEST 2 Differentiate between diamagnetism and paramagnetism.
+3.4 FERROMAGNETISM In the previous sections we differentiated between diamagnetism and paramagnetism.
+Now, we will explain ferromagnetism and antiferromagnetism.
+First, we derive the Curie-Weiss law.
+We discuss the physical origin and properties of the saturation magnetization in ferromagnetic.
+The properties of ferromagnetic materials of interest in technical applications are closely related to the domain structure.
+Iron, nickel and cobalt are known as transition elements; they and their alloys react very strongly in a magnetic field.
+They are ferromagnetic and have very high values of magnetic susceptibility.
+In ferromagnetic materials, the mutual coupling forces between neighboring molecular dipole moments are sufficiently stronger than the randomizing effect of thermal agitation and the dipoles are all aligned parallel within a small region known as domain.
+3.4.1 CURIE-WEISS LAW Ferromagnetic materials are substance that possesses a magnetic moment even in the absence of an applied magnetic field.
+The saturation magnetization M is defined as the spontaneous s magnetic moment per unit volume.
+The Curie point T is the temperature above which the c magnetic moment vanishes.
+If the ionic and atomic magnetic moments of a paramagnetic substance can be made to line up the same way by the addition of an interaction then a ferromagnetic substance will be formed.
+This interaction is called Weiss field or the molecular field or the exchange field.
+Weiss was the first to imagine such a field.
+The motion of thermal agitation of the elementary particles opposes the orienting effect of the Weiss field.
+Pierre Weiss assumes that the Weiss field B is proportional to the magnetization: E B =lM 12 E 18 where λ is the Weiss field constant, independent of temperature.
+The susceptibility above the Curie point can be deduced from the Curie law (Eq.
+11).
+That is: M C = 13 B +lM T E Note that we have taken the magnetic field as the sum of the applied field B and the Weiss field B .
+E You can easily see that Eq.
+(13) can be rewritten as M C c = = 14 H T - Cl This gives a non-zero magnetization for zero applied field at the Curies point expressed by T =Cl , 15 c Therefore, C c = .
+16 T - T c Eq.
+(16) is known as the Curie-Weiss law.
+This law describes the observed susceptibility variation in the paramagnetic region above the Curie point.
+Let us now determine the value of the mean field constant λ.
+An atom with angular momentum quantum number J has 2J + 1 equally spaced energy levels in a magnetic field and the magnetization is given by ( ) M = NgJm B x , 17 B J where x = gJm H kT , and the Brillouin function B is given by B J ( ) 2J +1  2J +1 x 1  x  B = ctnh - ctnh  18 J 2J  2J  2J 2J  For x <<1, the susceptibility is ( ) c = NJ J +1 g2m 2 /3kT = Np2m 2 /3kT, 19 B B where the effective number of Bohr magnetons is defined as p = g[J(J +1)]12.
+20 The value of Weiss field constant can be determined as follows: C ( ) l- 1 = = NS S +1 g2m 2 /3kT , 21 T B c c 19 where S is spin angular momentum quantum number.
+3.4.2 SPONTANEOUS MAGNETIZATION In this section you will see how we can determine the spontaneous magnetization of a ferromagnetic substance.
+A ferromagnetic substance is said to have a spontaneous magnetic moment if it possesses a magnetic moment even in the absence of an applied magnetic field.
+In order to calculate the spontaneous magnetization as a function of temperature we must use Eq.
+(17).
+We have ( ) M = NSgm B x , 22 s B s In the absence of an applied magnetic field x = Sgm lM kT 23 B s Please note that at a temperature T < T we obtain M by plotting M vs. x as given by both (22) c s s and (23) and the intercept of the two curves gives M .
+s 3.4.3 DOMAIN THEORY OF FERROMAGNETISM Every piece of a ferromagnetic material does not have a strong magnetic field, despite the fact that all the spins are aligned.
+Iron and other ferromagnets are often found in an "unmagnetized" state.
+At temperatures well below the Curie point the electronic magnetic moments of a ferromagnetic specimen are essentially all lined up.
+Fig.
+4: Weiss domains microstructure Weiss explained this phenomenon by assuming that actual specimens are divided into tiny magnetic domains (also known as Weiss domains).
+Within each domain, the spins are aligned, but (if the bulk material is in its lowest energy configuration, i.e.
+unmagnetized), the spins of separate domains point in different directions and their magnetic fields cancel out, so the object 20 has no net large scale magnetic field.
+This implies that within each domain the local magnetization is saturated and the directions of magnetization of different domains need not necessarily be parallel.
+Ferromagnetic materials spontaneously divide into magnetic domains because the exchange interaction keeps nearby spins aligned with each other.
+This is a short-range force, so rotations can occur over hundreds of times the distance between atoms.
+To keep the magnetostatic energy low, this rotation is concentrated in the boundary between domains, or domain wall.
+The direction that the magnetization rotates within a domain wall varies.
+In a Bloch wall, the magnetization direction stays in the plane of the wall; in a Néel wall, it rotates perpendicular to the plane.
+Thus, an ordinary piece of iron generally has little or no net magnetic moment.
+However, if it is placed in a strong enough external magnetic field, the domains will re-orient in parallel with that field, and will remain re-oriented when the field is turned off, thus creating a "permanent" magnet.
+The domains do not go back to their original minimum energy configuration when the field is turned off because the domain walls tend to become 'pinned' or 'snagged' on defects in the crystal lattice, preserving their parallel orientation.
+This is shown by the Barkhausen effect: as the magnetizing field is changed, the magnetization changes in thousands of tiny discontinuous jumps as the domain walls suddenly "snap" past defects.
+This magnetization as a function of the external field is described by a hysteresis curve.
+Although this state of aligned domains is not a minimal-energy configuration, it is extremely stable and has been observed to persist for millions of years in seafloor magnetite aligned by the Earth's magnetic field (whose poles can thereby be seen to flip at long intervals).
+Alloys used for the strongest permanent magnets are "hard" alloys made with many defects in their crystal structure where the domain walls "catch" and stabilize.
+The net magnetization can be destroyed by heating and then cooling (annealing) the material without an external field, however.
+The thermal motion allows the domain boundaries to move, releasing them from any defects, to return to their low-energy unaligned state.
+3.4.4 THE BLOCH WALL The term Bloch wall denotes the transition layer which separates adjacent domains magnetized in different directions.
+The essential idea of the Bloch wall is that the entire change in spin 21 direction between domains magnetized in different directions occurs in a gradual way over many atomic planes as shown in Fig.
+4.
+This gradual change in direction is due to the fact that for a given total change of spin direction the exchange energy is lower when the change is distributed over many spins than when the change occurs suddenly.
+Let us attempt to explain this behavior.
+The exchange energy between two spins making a small angle φ with each other is given as: w = JS2f 2 24 ex here J is the exchange integral and S is the spin quantum number.
+Let the total desired change of angle be φ ; if the change occurs in N equal steps, the angle o change between neighboring spins is φ /N, and the exchange energy between each pair of o neighboring atoms is ( ) w = JS2 f N 2.
+25 ex o Fig.
+4: The structure of the Bloch wall separating domains.
+22  The total exchange energy of the line of N + 1 atoms is thus E = JS2f 2 N 26 ex o Since the exchange energy of a wall is inversely proportional to the thickness, the wall might spread out until it filled a sizable proportion of the crystal, were it not for the restraining effect of the anisotropy energy, which acts to limit the width of the transition layer.
+We now consider a wall parallel to the cube face of a simple cubic lattice and separating domains magnetized in opposite directions.
+The energy per unit surface area, σ may be represented to a w good approximation as the sum of contributions from exchange and anisotropy energies: σ = σ + σ 27 w ex anis The exchange energy is given approximately by Eq.
+(26) for each line of atoms through the wall and normal to the plane of the wall.
+There are 1/a2 such lines per unit area, where a is the lattice constant; therefore s =p 2J S2 Na2.
+28 ex The anisotropy energy is of the order of the anisotropy constant times the volume, or s » KNa 29 anis therefore ( ) s = p 2J S2 Na2 +KNa 30 w which is a minimum with respect to N when ( ) N = p 2J S2 Ka3 12.
+31 The total wall energy per unit area is ( ) s = 2p J KS2 a 12 32 w 3.5 DOMAIN DIMENSIONS Let us now calculate the domain width for a flux-closure arrangement of domains (Fig.
+5) in a uniaxial crystal.
+L D 23  Fig.
+5: Domain width The wall energy per unit area of the crystal surface is approximately w =s L D 33 wall w The volume contained within the domains of closure is oriented in a direction of hard magnetization and involves an energy K per unit volume, where K is the anisotropy constant.
+Per unit area of crystal surface on one side, the volume in the domains of closure on both sides is D/2, and so the anisotropy energy per unit area is w = KD 2.
+34 anis Hence the total energy per unit area is w=s L D+ KD 2 35 w The condition for the minimum of w with respect to the domain width D is ( ) D = 2s L K 12, 36 w and the corresponding energy per unit area is ( ) w= 2s LK 12.
+37 w The energy per unit volume is ( ) f = 2s K L 12 38 domain w 3.6 ANTIFERROMAGNETISM The physical origin of the Weiss field is in the quantum-mechanical exchange integral.
+It can be shown that the energy of interaction of atoms i, j bearing spins S, S contains a term i j E = - 2JS (cid:215) S 39 ex i j where J is the exchange integral and is related to the overlap of the charge distributions i, j.
+When the exchange integral J in Eq.
+(39) is positive, we have ferromagnetism; when J is negative, we have antiferromagnetism.
+In materials that exhibit antiferromagnetism, the magnetic moments of atoms or molecules, usually related to the spins of electrons, align in a regular pattern with neighboring spins pointing in opposite directions (Fig.
+6).
+24  Fig.
+6: Antiferromagnetic ordering SELF ASSESSMENT EXERCISE 4 Differentiate between ferromagnetism and antiferromagnetism.
+3.7 FERRITES Ferrites of magnetic interest belong to the group of compounds represented by the chemical formula MOFe O , where M is a divelent metal ion such as Mn, Co, Ni, Cu, Mg, Zn, Cd, Fe2+, or 2 3 a mixture of these ions.
+3.8 MAGNETIC RESONANCE In this section we discuss dynamical magnetic effects associated with the spin angular momentum of nuclei and of electrons.
+The information that can be obtained about solids by resonance studies may be categorized: • Electronic structure of single defects, as revealed by the fine structure of the absorption.
+• Motion of the spin or of the surroundings, as revealed by changes in the line width.
+• Internal magnetic fields sampled by the spin, as revealed by the position of the resonance line.
+• Collective spin excitations.
+3.8.1 NUCLEAR MAGNETIC RESONANCE Let us consider a nucleus that possesses a magnetic moment µ and an angular momentum ћI.
+The magnetic moment is related to angular momentum as: µ = γћI 40 where γ is a constant known as magnetogyric ratio.
+By convention I denotes the nuclear angular momentum measures in units of ћ.
+The energy of interaction with the applied magnetic field is U = - m (cid:215) B 41 a 25 ^ if B = B z,then a o U = - m B = - ghB I 42 z o o z The allowed values of I are m = I, I – 1, and U = - m ghB .
+z I I o In a magnetic field a nucleus with I = ½ has two energy levels corresponding to m = ±½.
+If ћω I o denotes the energy difference between the two levels, then ћω = γћB or o o ω = γB 43 o o This is the fundamental condition for the magnetic resonance absorption.
+3.8.2 FERROMAGNETIC RESONANCE Let us summarize the unusual characteristics of ferromagnetic resonance: • The transverse susceptibility components χ׳ and χ״ are very large because the magnetization of a ferromagnet in a given static field is very much larger than the magnetization of electronic or nuclear paramagnets in the same field.
+• The shape of the specimen plays an important role.
+Because the magnetization is large, the demagnetization field is large.
+• The strong exchange coupling between the ferromagnetic electrons tends to suppress the dipolar contribution to the line width, so that the ferromagnetic resonance lines can be quite sharp (<1 G) under favorable conditions.
+• Saturation effects occur at low rf power levels.
+Consider a specimen of a cubic ferromagnetic insulator in the form of an ellipsoid with principal axes parallel to x, y, z axes of a Cartesian coordinate system.
+The components of the internal magnetic field B, in the ellipsoid are related to the applied field by i Bi = Bo - N M ; Bi = Bo - N M ; Bi = Bo - N M .
+x x x x y y y y z z z z The Lorentz field and the exchange field do not contribute to the torque.
+The components of the ^ spin equation of motion M = γ(M x Bi) for an applied static field B z, o dM ( ) [ ( ) ] x =g M Bi - M Bi =g B + N - N M M dt y z z y o y z y dM [ ( ) ( )] [ ( ) ] y =g M - N M - M B - N M = - g B + N - N M M .
+44 dt x x x o z o x z x To first order we may set dM /dt = 0 and M = M. z z Solving (44) with time dependence exp(-iωt) and assuming 26 [ ( ) ] iw g B + N - N M [ ( ) ] o y z =0, - g B + N - N M iw o x z we have that the ferromagnetic resonance frequency in applied field B is o [ ( ) ][ ( ) ] w 2 =g 2 B + N - N m M B + N - N m M 45 o o y z o o x z o The frequency ω is called the frequency of the uniform mode.
+o For a sphere N = N = N so that ω = γB .
+For a flat plate with B perpendicular to the plate N = x y z o o o x N = 0; N = 4π, whence the ferromagnetic resonance frequency is y z ( ) w =g B - m M 46 o o o If B is parallel to the plane of the plate, the xz plane, then N = N = 0; N = 4π, and o x z y w =g[B (B +m M)]12 47 o o o o The explanation above showed the effects of specimen shape on the resonance frequency.
+3.8.3 ANTIFERROMAGNETIC RESONANCE Let us consider a uniaxial antiferromagnet with spins on two sublattices, 1 and 2.
+Assume that the magnetization M on sublattice 1 is directed along the +z direction by an anisotropy field 1 ^ B z. Anisotropy energy is the energy in a ferromagnetic crystal which directs the magnetization A along certain crystallographic axes called directions of easy magnetization.
+The anisotropy field is a consequence of anisotropy energy density.
+The magnetization M is directed along the –z 2 ^ direction by an anisotropy field - B z.If one sublattice is directed along +z, the other will be A directed along –z.
+The exchange fields of M and M are 1 2 B (ex) = -λM ; B (ex) = - λM 48 1 2 2 1 where λ is positive; B is the field that acts on the spins of sublattice 1, and B acts on sublattice 1 2 ^ 2.
+As shown in Fig.
+7, the total field acting on M is B = - l M +B z; the total field acting on 1 1 2 A ^ M is B = - l M - B z.
+Note that we have assumed that no external field is acting on the 2 2 1 A antiferromagnet.
+27 +z B A B (ex) = -λM 1 2 M 1 M B (ex) ≤ -λM 2 2 1 -B A Fig.
+7: Effective fields in Antiferromagnetic resonance.
+The linearized equations of motion are dM x [ ( ) ( )] 1 =g M y lM +B - M - lM y ; dt 1 A 2 dM y [ ( ) ( )] 1 =g M - lM x - M x lM +B ; 49 dt 2 1 A dM x [ ( ) ( )( )] 2 =g M y - lM - B - - M - lM y ; dt 2 A 1 dM y [( )( ) ( )] 2 =g - M - lM x - M x - lM - B ; 50 dt 1 2 A We have set M z = M;M z = - M .
+1 2 If we can define M+ = M x +iM y;M+ = M x +iM y, then (49) and (50) become 1 1 1 2 2 2 [ ] ( ) ( ) - iw M+ = - ig M+ B +lM +M+ lM ; 1 1 A 2 [ ] ( ) ( ) - iw M+ =ig M+ B +lM +M+ lM .
+2 2 A 1 for time dependence exp(-iωt).
+These equations have a solution if, with exchange field B ≡ λM, E ( ) g B +B - w gB A E (E ) =0.
+gB g B +B +w E A E 28 Thus the Antiferromagnetic resonance frequency is given by ( ) w 2 =g 2B B +2B .
+51 o A A E SELF ASSESSMENT EXERCISE 5 Differentiate between ferromagnetic and Antiferromagnetic resonances.
+4.0 CONCLUSION You have seen the basic idea of magnetization of materials in this unit.
+The differences between diamagnetism and paramagnetism have been highlighted to you and you should be able to differentiate between ferromagnetism and antiferromagnetism.
+We concluded this unit with explanation on magnetic resonance.
+5.0 SUMMARY • A material substance acquires a magnetic polarization when placed in a magnetic field just as a dielectric medium acquires an electric polarization in an electric field.
+The response of the materials to an applied magnetic field depends on the properties of the individual atoms and molecules, and on their interactions.
+The orbital motion of the electrons in atoms and molecules provide currents which give rise to the magnetic dipoles.
+In many materials the small electric currents associated with the orbital motion and spin of the electrons average to zero.
+When such atoms are placed in a magnetic field, minute electron currents are generated by induction in the clouds of electrons, the direction of which is such that the magnetic field associated with them opposes the inducing field B.
+These are known as diamagnetic substances.
+• There are other materials in which the atoms do have an intrinsic magnetic moment on account of the fact that the currents from the orbital motions and spins of the electrons do not average to zero.
+Although electron spins tend to pair and cancel one another, there are atoms in which pairing is incomplete.
+When such materials are placed in a magnetic field, the magnetic moments of the atoms and the induced magnetism enhances the external field.
+This effect is more pronounced at low temperatures.
+Such substances are called paramagnetic substances.
+C • c = is known as the Curie-Weiss law.
+This law describes the observed T - T c susceptibility variation in the paramagnetic region above the Curie point.
+• The value of Weiss field constant can be determined as follows: 29 C ( ) l- 1 = = NS S +1 g2m 2 /3kT ,where S is spin angular momentum quantum number.
+T B c c • The physical origin of the Weiss field is in the quantum-mechanical exchange integral.
+It can be shown that the energy of interaction of atoms i, j bearing spins S, S contains a i j term E =- 2JS (cid:215) S , where J is the exchange integral and is related to the overlap of ex i j the charge distributions i, j.
+When the exchange integral J is positive, we have ferromagnetism; when J is negative, we have antiferromagnetism.
+• For a sphere N = N = N so that ω = γB .
+For a flat plate with B perpendicular to the x y z o o o plate N = N = 0; N = 4π, whence the ferromagnetic resonance frequency is x y z ( ) w =g B - m M .
+If B is parallel to the plane of the plate, the xz plane, then N = N = o o o o x z 0; N = 4π, and w =g[B (B +m M)]12.
+The explanation above showed the effects of y o o o o specimen shape on the resonance frequency.
+• Antiferromagnetic resonance frequency is given by ( ) w 2 =g 2B B +2B o A A E 6.0 TUTOR MARKED ASSIGNMENTS 1.
+Describe different methods of measurement of susceptibilities.
+2.
+Explain Landau theory of the phase transition.
+3.
+The molecular weight of a compound is 400, its density is 2 x 103kg/m3 and its magnetic susceptibility at 293 K is 2.56 x 10-4.
+Calculate the permanent magnetic dipole moment associated with each molecule.
+References/Further Reading Charles Kittel (2005).
+Introduction to solid state Physics.
+John Wiley and Sons, Inc, USA.
+http://fog.ccsf.cc.ca.us 30 PHS 404: SOLID STATE PHYSICS II UNIT 3 IMPERFECTION IN SOLIDS CONTENT 1.0 INTRODUCTION 2.0 OBJECTIVES 3.0 MAIN CONTENT 3.1 CRYSTALLINE DEFECTS 3.1.1 Point Defects 3.1.2 Linear Defects (Dislocations) 3.1.3 Planar (Interfacial) Defects 3.1.4 Volume (Bulk) Defects 4.0 CONCLUSION 5.0 SUMMARY 6.0 TUTOR MARKED ASSIGNMENTS References/Further Reading 1.0 INTRODUCTION You will agree with me that nothing is perfect.
+All solids have imperfections.
+The crystalline structures that we have looked at all have imperfections.
+We will quantify these imperfections here.
+The common point imperfections in crystals are chemical impurities, vacant lattice sites, and extra atoms not in regular lattice positions.
+Linear imperfections are treated under dislocations.
+The crystal surface is a planar imperfection, with electron, phonon, and magnon surface states.
+2.0 OBJECTIVES In this unit we are concerned with the explanation of the various imperfections in solids.
+3.0 MAIN CONTENT 3.1 CRYSTALLINE DEFECTS A crystalline defect is a lattice irregularity having one or more of its dimensions on the order of an atomic dimension.
+There are 5 major categories of crystalline defects: ¤ Zero dimensional: Point defects ¤ One dimensional: Linear defects (dislocations) 31 ¤ Two dimensional: Planar (surface) defects ¤ Three dimensional: Volume (bulk) defects ¤ Vibrations ¤ SELF ASSESSMENT EXERCISE 2 ¤ Define electric susceptibility and polarizability.
+3..1.1 Point Defects Point defects allow for diffusion to occur in the solid state.
+There are different categories of point defects: ¤ vacancy These are produced by thermal vibrations of the crystal lattice and/or from need to maintain charge neutrality.
+¤ self-interstitial or interstitialcy A position on the crystal lattice that is not normally occupied is called an interstitial site.
+If it is occupied by the same atomic species it is a self-interstitial or self- interstitialcy.
+It creates large distortions in the crystal lattice and so the concentrations are small.
+¤ impurities o solid solutions – homogeneous single phase materials that are completely analogous to a liquid solution (alcohol and water) o solute /solvent /solubility – miscibility o random solid solution vs. ordered solid solution o substitutional solid solution (Cu/Ni) vs. interstitial solid solution (Fe/C - a Iron has 0.025% C and g iron has 2.08% C) o nonstoichiometric compounds (Fe O) 1-x o second phases – completely analogous to a liquid mixture (oil and water) o Hume-Rothery Rules – used to predict solubility (miscibility): 1. less than 15% difference in atomic radii 2. same crystal structure 3. similar electronegativities 4. same valence 32 ¤ Schottky defect - a pair of oppositely charged ion vacancies ¤ Frenkel defect - a vacancy-interstitialcy combination 3.1.2 Linear Defects (Dislocations) A line defect is a lattice distortion created about a line formed by the solidification process, plastic deformation, vacancy condensation or atomic mismatch in solid solutions.
+Dislocations explain the observation of plastic deformation at lower stress than would be required in a perfect lattice.
+They also explain the phenomenon of work hardening.
+There are different categories of point defects: ¤ Edge dislocation o b is perpendicular to dislocation line o there will be tensile & compressive strain fields in the crystal lattice in their vicinity ¤ Screw dislocation o b is parallel to dislocation line o there will be shear strain fields in the crystal lattice in their vicinity ¤ Mixed dislocation o b is at an oblique angle to dislocation line o strain fields will be T, C and S The Burgers Vector, b, quantifies the magnitude and direction of the structural defect.
+It is the displacement vector necessary to close a step-wise loop around the defect.
+For common metals this is the repeat distance along the highest atomic density direction.
+Equivalently, the Burgers vector denotes the direction and magnitude of the atomic displacement that occurs when a dislocation moves.
+33  3.1.3 Planar (Interfacial) Defects ¤ External surfaces Atoms at any surface are not in their perfect crystal positions because they will have different CN than the atoms inside the volume of the material.
+Hence these atoms will be at higher energies.
+During solidification materials try to minimize this.
+¤ Grain boundaries Grains are formed during the solidification process.
+A grain boundary is the area of mismatch between volumes of material that have a common orientation of the crystallographic axes.
+The atoms at grain boundaries are not in their perfect crystal positions and hence the grain boundary is less dense.
+These atoms are at higher energies than the atoms inside the volume of a grain.
+The thickness in on the order of 2-5 atoms wide.
+34  There are different categories of grain boundaries: o low angle tilt boundary – a few isolated edge dislocations o high angle tilt boundary – more complex • coincident site lattice (CSL) – there is registry between the two adjacent crystal lattices in the vicinity of the boundary region.
+• Σn boundary means 1 in n atoms are coincident with an adjacent grain’s lattice.
+Σ5 is a common boundary of 36.9o • These boundaries will tend to consist of regions of good correspondence (where n in Σn is low) separated by grain boundary dislocations (GBD) • GBDs are linear defects within the boundary plane.
+They might be secondary in that they have Burgers vectors different from those found in the bulk material (primary dislocations) At ambient temperatures, grain boundaries give strength to a material.
+So in general, fine grained materials are stronger than coarse grained ones because they have more grain boundaries per unit volume.
+However, at higher temperatures, grain boundaries act to weaken a material due to corrosion and other factors.
+Grain size can be quantified by • ASTM grain size number • Average grain diameter • Grain density The size and shape of grains are determined by a number of factors during solidification: • Lots of nucleation sites ⇒ fine grains • Fewer nucleation sites ⇒ coarse grains • Equal growth in all directions ⇒ equiaxed grains • Thermal gradients ⇒ elongated or columnar grains • Slow growth ⇒ coarse grains 35 • Rapid growth ⇒ fine grains Most materials are polycrystalline (or polygranular).
+There are some applications where the expense and time to produce single crystal materials (and hence no grain boundaries) is justified: • Turbine blades • Silicon wafer chips ¤ Twin boundaries – a special type of grain boundary across which there exists a mirror image of the crystal lattice.
+It is produced by mechanical shear stresses and/or annealing some materials ¤ Stacking faults – the interruption of the stacking sequence of close packed planes.
+¤ Phase boundaries - The surface area between the grains in multiphase materials ¤ Ferromagnetic domain walls – The boundary between regions that have a different orientation of magnetic dipoles.
+3.1.4 Volume (Bulk) Defects These are introduced during processing and fabrication.
+¤ Pores ¤ Cracks Foreign inclusions 4.0 CONCLUSION In this unit, we have examined the properties of dielectric materials.
+In addition, we have differentiated between paramagnetism and diamagnetism; ferromagnetism and anti- ferromagnetism.
+We have also explained magnetic resonance.
+We ended the unit with a brief explanation on various imperfections in solids.
+5.0 SUMMARY • A crystalline defect is a lattice irregularity having one or more of its dimensions on the order of an atomic dimension.
+There are 5 major categories of crystalline defects: ¤ Zero dimensional: Point defects ¤ One dimensional: Linear defects (dislocations) ¤ Two dimensional: Planar (surface) defects ¤ Three dimensional: Volume (bulk) defects ¤ Vibrations 36 6.0 TUTOR MARKED ASSIGNMENTS 4.
+(a) Using relevant examples, clearly distinguish between point defects and Dislocations.
+(b) Explain the possible effects of planar defects.
+5.
+Explain the meaning of the followings: electronic, orientational and ionic polarization 6.
+Describe how point defects may be formed and explain their effects on the properties of crystals.
+References/Further Reading Charles Kittel (2005).
+Introduction to solid state Physics.
+John Wiley and Sons, Inc, USA.
+http://fog.ccsf.cc.ca.us TUTOR MARKED ASSIGNMENTS UNIT 1 1.
+The electric field due to the bound charges is s E = ind ind e o ( ) s =e E =e E- E ind o ind o( o ) =8.85· 10- 12 2· 105 - 1.2· 105 =7.08· 10- 7C/m2 2.
+Area, A = (0.2m)2 = 0.04m2 e A C = o d 8.85· 10- 12 · 0.04 C = 1· 10- 2 =3.54· 10- 11F Q = CV = 3.54 x 10-11 x 50 C = 1.77 x 10-9 C = 1.77 nC 3.
+The capacitance of a parallel plate capacitor is given as e A 8.85· 10- 12 · 5 C = o = d 2· 10- 3 =2.2125· 10- 8F 37 Q=CV =2.2125· 10- 8 · 2000 =4.425· 10- 5C The electric intensity is Q 4.425· 10- 5 E = = N /C Ae 5· 8.85· 10- 12 o =1.0· 106N /C Or, since the electric intensity equals the potential gradient, V 2000 E = = =1.0· 106V /m d 2· 10- 3 4.
+The equation of motion in the local electric field E sinωt is loc d2x m +mw 2x = - eE sinw t, dt2 o loc so that, for x = x sinωt, ( o ) m - w 2 +w 2 x = - eE .
+o loc The dipole moment has the amplitude e2E p = - ex = ( loc ).
+o o mw 2 - w 2 o The static electronic polarizability is ( ) p e2 a electronic = = ( ).
+E mw 2 - w 2 loc o 5.
+Molecular density, Avogadro's number N = · Density Molecular weight 6.02· 1023 N = · 1.60 =6.17· 1021molecules/cm2 156 N = 6.17· 1023molecules/m3 The dipole moment of a single molecule p is ( ) P e cE e e - 1 E p = = o = o r N N N 8.85· 10- 12 · 1.24· 107 = 6.17· 1027 =1.77· 10- 32coulomb metres Let the average electron displacement be d. Since there are 74 electrons in each CCl 4 molecule, p = 74 de and 38 p 1.77· 10- 32 d = = =1.5· 10- 15m 74e 74· 1.6· 10- 19 UNIT 2 3.
+2.87 x 10-23 Am2 39

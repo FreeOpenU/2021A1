@@ -1,0 +1,517 @@
+MTH 305 COMPLEX ANALYSIS II NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE : MTH 305 COURSE TITLE: Complex Analysis II 33 MTH 305 COMPLEX ANALYSIS II Course Code MTH 305 Course Title Complex Analysis II Course Writer Dr. O.J.
+Adeniran Dept.
+of Mathematics University of Agriculture Abeokuta, Ogun State Course Editor Dr. B. Abiola School of Science and Tech.
+National Open University of Nigeria 34 MTH 305 COMPLEX ANALYSIS II MODULE 1 Unit 1 Function of Complex Variables Unit 2 Limits and Continuity of Function of Complex Variables Unit 3 Convergence of Sequence and Series of Complex Variables Unit 4 Some Important Theorems UNIT 1 FUNCTION OF COMPLEX VARIABLES CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Variables and functions 3.2 Transformation 3.3 The Elementary Functions 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION The set of real number is not adequate to handle some of the numbers we come across in mathematics.
+We need another set – the complex numbers.
+In this course we will do analysis on complex variables and establish those results which are analogue to the real number systems.
+2.0 OBJECTIVES At the end of this unit, you will learn about: • variables and functions of complex number • functions and transformation or complex variables.
+3.0 MAIN CONTENT A symbol, such as z, which can stand for any complex number is called a complex variable.
+If to each value a complex variable z can assume there correspondence one or more values of a complex variable w, we say that W is a ( ) ( ) function of z and write w= f z or w= g z etc.
+The variable z is sometimes called an independent variable while w is called a dependent variable.
+The value ( ) of a function at z = a is often written as f a .
+35 MTH 305 COMPLEX ANALYSIS II ( ) e.g.
+f z = zz, for z =3i, f(z) = f(3i) = - 9.
+If one value of w corresponds to each value of z, we sat that w is a single-valued function of z or that f(z)each value of z, we say w is a multiple- valued or many-valued function of z.
+Example: ifw= z3, then to each value of z there is only one value of w. w= f(z)= z3 is a single-valued function of z.
+Example If w= z12 3.2 Transformations If w=u+iv (where u and v are real) is a single-valued function of z =u =iy (where x and y are real), we can writeu+iv = f(x+iy).
+By equating real and imaginary parts this is equivalent to u =u(x,y), v = v(x,y).………………………………………..… ……….
+(1) ( ) Hence, given a point x,y in the z –plane, there corresponds a ( ) point u,v in the w plane.
+The set of equations (1) [or the ( ) equivalent, w= f z ] is called a transformation.
+Example 1 Ifw= z2, then f(z2) =(x+iy)2 = x2 - y2 +2xy Hence,u(x,y) = x2 - y2 and v(x,y) = 2xy Example 2 ( ) 1 Let w= f z = for z z (.)
+( ) 1 1 x- iy x- iy f z = = = ( )( ) = z x+iy x+iy x- iy x2 + y3 36 MTH 305 COMPLEX ANALYSIS II Hence, x - y u(x,y) = and v(x,y) = x2 + y2 x2 + y2 3.3 The Elementary Functions 1.
+Polynomial Functions: Polynomial functions P(z) are defined as P(z) = a zh +a zh- 1 +.................+a z+a where 0 1 h- 1 h a „ 0, a ,.........,a are complex constants and h is a positive 0 1 n integer called the degree of the polynomialP(z).
+P(z) 2.
+Rational Algebraic Function are defined by F(z) = ( ) where J z ( ) P(z) and J z are polynomials.
+3.
+Exponential Functions are defined by w= f(z) =lx+iy =lx (Cos y - i Sin y) where e is the natural base of logarithms.
+(e=2.71828).
+complex exponential functions have properties similar to those of real exponential functions.
+For example lz1•lz2 =lzi+z2,lz1/lz2 =lz1- z2 lz1 •lz2 =lx1(Cos y1+ i siny1)•lx2(Cos y2+i Sin y2) ( ) =lx1 +lx2( Cos y +iSiny ) Cis y +iSiny 1 1 2 2 ( )( ) = ex1 - ex2 Cos yi+1Sinyi Cos y +1Sin y 2 2 [ ] =ex1 +n Cos y Cos y + i Cos y Sin y +1Siny Cosy - Sin y Siny 2 1 2 i 2 1 2 1 2 = ex1+x2 [(Cos y Cos y - Siny Siny )+i(Cos y Siny +Siny Cos y )] 1 2 1 2 1 2 1 2 ( ) ( ) = ex1+x2Cos y + y + i Sin y + y 1 2 1 2 = ez1+z2 Note that when w=ez, the number w can be written as w= reif where r =exand f = y If we think of w=ez as a transformation from z to the w plane, we thus find that any non zero point w= reif is the z- Log r +if Therefore the range of the exponential function w=ezid the entire nonzero point w= peif is actually the image of an infinite number of points in the z plane under the transformationw=ez.
+For in general, f may have any one of the values 37 MTH 305 COMPLEX ANALYSIS II •( ) f =F +2n- n =0,– 1,– 2... where F denotes the principal value of argw.
+It (cid:217) then follows that w is the image of all the points.
+( ) z =log r +iF +ip 1n = 0, m1, – 2,....
+Example: find all values of z such that ez= - 1 Solution ez =exeiy,and - 1=1eip so that exeiy =1eip By equality of two complex numbers in exponential form, this means that ex - 1and y =p +2np where n is an integral.
+n =log1=0, then ( ) ( ) z = 2n+1p n =0,– 1, – 2.....
+Example: Find the values of zfor which e4z =1 Solution: e4z =i e4x.e4yi =e1.i So that, by equality, w have eyx =e0 ⇒ 4x=0⇒ n =0 and p 4y = 2np + 2 1np 0 1p 0 ( ) y = + for h =0, – 1, – 2,... 2 8 1 1 The solution is then np ic– pc 2 8 38 MTH 305 COMPLEX ANALYSIS II SELF ASSESSMENT EXERCISE 1 .
+Show that (i) ez =ex (ii) ez+2kpi 2.
+Find the value of z for which e3z =1 4.
+Trigonometric Function: are defined in terms of exponential functions as follows: eiz - e- 1z eiz +e- iz Sinz = , Cosz = 2i 2 1 2 1 2i Secz = = , CSCZ = = Cosz eiz +e- iz Sinz eiz - e- iz Sinz eiz - e- iz Cosz tanz = = ( ), Cotz = Cosz i eiz +e- iz Sinz ( ) i eiz +e- iz = eiz - e- iz Many properties satisfied by real trigonometric functions are also satisfied by complex trigonometric function.
+e.g.
+Sin2z+Cos2z =1, 1+1tan2 z =Sec2z, 1+wt2z =csc2 z.
+( ) ( ) ( ) Sin - z= - Sinz Cos - z =Cosz tan - z= - tanz ( ) Sin z – z = Sinz Cosz – Cosz Sinz 1 2 1 2 1 2 ( ) Cos z – z = Cos z Cosz – Sinz Sinz 1 2 1 2 1 2 ( ) tanz – tanz tan z – z = 1 2 .
+1 2 1- tanz tanz 1 2 Exercise Prove that Sin2z +Cos2z =1 0 0 Proof eiz - e- 1z eiz +e- iz By definition, Sinz , Cos z = 2i 2 eiz - e- iz 2 eiz +e- iz  Then Sin2z+Cos2z =  +       2i   2  39 MTH 305 COMPLEX ANALYSIS II e2iz - 2+e- 2iz  e2iz +2+e- 2iz  =   +        4   4  = 1.
+6.
+Hyperbolic Function: Are defined as follows: ez - e- z ez +e- z ez - e- z Sinhz = , Coshz = , tanhz = 2 2 ez +e- z 1 1 Coshz Sechz = , Cosechz = , Coth = Coshz Sinhz Sinhz The following properties hold: Cosh2z- Sinh2z =1, 1- tanh2 z = sech2z, Coth2z- 1=csch2z ( ) ( ) ( ) ( ) Sinh - z= - Sinhz, Cosh - z = Coshz, tanh - z= - tanh z ( ) Sinh z – z = Sinhz Coshz – Coshz Sinhz 1 2 1 2 1 2 ( ) Cosh z – z = Coshz Coshz – Sinhz Sinhz 1 2 1 2 1 2 ( ) tanhz – tanhz tanh z – z = 1 2 .
+1 2 1– tanhz tanhz 1 2 These properties can easily be proved from the definitions.
+For example, to show that: Cosh2z- Sinh2z =1, we observed that, ez +e- z 2 ez - e- z 2 Cosh2z- Sinh2z =  -        2   2  ( ) ( ) = 1 e2z +2e2e- z +e- 2z - 1 e2z - 2eze- z +e2 2 4 ( 4 ) = 1 e2z +2+e- 2z - e2z +2- e- 2z 4 = 4 =1.
+4 Exercise: The proofs of others are left as exercise Trigonometric and hyperbolic functions are related For instance: Siniz =iSinhz, Cosiz =Coshz, taniz =itanhz.
+Sinhiz =iSinz, Coshiz=Cosz, tanhiz=itanz 40 MTH 305 COMPLEX ANALYSIS II SELF ASSESSMENT EXERCISE 1.
+IfCosz=2, Find (a) Cos2z (b) Cos3z ( ) 2.
+Find U x,y and V(x,y)such that (a) Sinh2z =m +iv (b) zCoshz =m +iv 3.
+Evaluate the following p (a) Sinh( )i 8 2n+1) (b) cosh p 2 pi (3)Tancosh 2 p (1+i) 4.
+Show that Tanh =1 4 5.
+If tanz =u+iv show that Sin2u Sinh2y m = , v = Cos2u+Cosh2y Cos2u+Cosh2y 6.
+Logarithmic Functions The natural logarithm function is the reverse of the exponential function and can be defined as: ( ) w=1nz =1nr+1 f +2kp , k =0, – 1, – 2.
+( ) Where z = reiQ = rei Q+2kp 1„ zis a multiple valued function with the principled value.
+In i+if where 0£ f £ 2p or its equivalent.
+For z = awwhere ais real, w=log, z where a >0,anda „ 0,1, in this case, 1nz z =ewIna and sow= .
+Ina Exercises Evaluate (1) In (-40 41 MTH 305 COMPLEX ANALYSIS II ( ) (2) In 3- i Solution (i) In (-4) z= - 4+0i, r = z = - 47 +02= – 4.
+0 argz =tan- 1 = tan- 1 0= 0 = p = p +2k [ 4 ] ( ) In (-4) = In 4ei(p+2kp) = In 4+ p +2kp i for k =0, – 1, – 2....... ( ) (ii) In 3- i ( ) z = 3+ - u, r = z = 32 + - 1 2 = 2.
+- 1 26 334p 11p argz =tan- 1 = - p = +2pk„ +2kp 3 180 180 6 ( )  11  11p  In 3- i = In 2e +2kp = In 2 + +2kp i  6   6  SELF ASSESSMENT EXERCISE 1.
+Evaluate  1 3  (a) In - - i    2 2  1 3  (b) In  - i   2 2  ( ) (c) In 3- 2i 7.
+Inverse Trigonometric Functions To define the inverse sin functionSin- 1z, we write w= Sin- 1z whenz = Sinw .
+That is eiw - e- iw w= Sin- 1z , when z = 21 Which is equivalent to: ( ) ( ) eiw 2 - 2iz eiw - 1=0.
+This is quadratic inwiw.
+Solving for eiw one have ( ) eiw =1z+ 1- z2 12 Taking logarithms of both sides and recalling thatw= Sin- 1 , we have z 42 MTH 305 COMPLEX ANALYSIS II [ ] Sin- 1z= - i In iz- 1- z2 Which is a multiple-valued function with infinitely many values at each z .
+Similarly, [ ] Cos- 1z= - i In z+i 1- z2 i 1+ z tan- 1 z = In  2 1- z Which are also multiple valued functions?
+Exercise Find the values of Sin- 12 Solution [ ) Sin- 12= - i In 2i+ 1- 22 ( ) ( ) = - i In 2i+ 3i= - 2 In 2+ 3 i = - i In(2+ j3)e((cid:217) 2+2k(cid:217) )i ( ) p  = - i In 2+ j3 + +2kp  i  2  p ( ) - i In 2+ j3 + +2kp 2 SELF ASSESSMENT EXERCISE 1.
+Evaluate (a) Cos- 12 (b) Cos- 12 8.
+Inverse Hyperbolic Functions If z = Sinhw then w= Sinh- 1z is called the inverse hyperbolic sine of Z.
+Other inverse hyperbolic functions are similarly defined.
+{ } Sinh- 1z = In z+ z2 +1 43 MTH 305 COMPLEX ANALYSIS II { } Cosh- 1z = In z+ z2 - 1 1 1+ z tanh- 1z = In  2 1- z In each case, the constant2kp i, k = 0, – 1,– 2... has been omitted.
+They are all multiple valued functions.
+{ { } Cosh- 1i = In i+ - 1- 1 = In i = 2i ( ) ( ) p  = In 1+ j2 i = In 1+ 2 exp +2np i 2  ( ) p = In 1= 2 + i +2np 2 SELF ASSESSMENT EXERCISE 1.
+Find all the values of (a) Sinh- 1 i [ ( )] (b) Sinh- 1 In - 1 4.0 CONCLUSION In this unit we considered in general, functions of complex variables and considered various functions in these categories.
+Practice all exercises in this unit to gain mastery of the topic.
+5.0 SUMMARY What we have learnt in this unit can be summarized as follows: (a) Definition of Complex Variables (b) Some Elementary functions of Complex Variables © Transformation of Complex variables.
+6.0 TUTOR-MARKED ASSIGNMENT [ ] 1.
+Show that Cos- 1z = - i In z+ i 1- z2 { } ( ) 1 ( ) y 2.
+Show that: In 2- 1 = In u- 1 2 + y2 +itan- 1 2 x- 1 3.
+Evaluate the following p (a) Sinh( )i 8 44 MTH 305 COMPLEX ANALYSIS II 2n+1) (b) cosh p 2 pi (3)Tancosh 2 p (1+i) 4.
+Show that Tanh =1 4 5.
+If tanz =u+iv show that Sin2u Sinh2y m = , v = Cos2u+Cosh2y Cos2u+Cosh2y 7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976) Advanced Calculus For Application 2nd Edition 45 MTH 305 COMPLEX ANALYSIS II UNIT 2 LIMITS AND CONTINUITY OF FUNCTION OF COMPLEX VARIABLES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Limits 3.2 Theorems on Limits 3.3 Continuity 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit, we will learnt about limits, and continuity in complex variables, We shall establish some relevant theorems on limits and continuity.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • limit and continuity of functions of complex variables • theorems related to limits and continuity of complex variables • Answer all related questions on limits and continuity.
+3.0 MAIN CONTENT 3.1 Limits Definition: Let a function f be defined at all point Z in some neighborhoodZ , except possibly for the point Z itself.
+A complex 0 0 ( ) number Lis said to be the limit of f z as Z approaches Z if for 0 each positive number e there is a positive number d such that ( ) f z - L < e whenever 0< Z - Z <d 0 We write lim ( ) f z =L z ﬁ z Example: Show that 46 MTH 305 COMPLEX ANALYSIS II lim ( ) 2x+iy2 = Atl z = x+iy z ﬁ 2i Solution For each positive numbere .
+We must find a positive number e such that 2x + iy2 - 4i <e whenever 0< z- 2i <d To do this, we must write 2x+iy2 - 4i £ 2x + y2 - 4 = 2x + y- 2 y+2 and thus note that the first of inequalities will be satisfied if e 2x < and y- 2 y+2 < e 2 2 The first of these inequalities is, of course, satisfied if x <e .
+To establish 2 conditions on ysuch that the second holds, we restrict yso that y- 2<e and then observe that ( ) y+2 = y- 2 +4 £ y- 2 + 4 < 5 { }  e  Hence if y- 2 < min e ,1 , if follows that y- 2 y+2 <  5 = e 10 2 10 An appropriate value of d is now easily seen from the conditions that x be less than e 4 and that y- 2 { } be less then min e ,1 10 { } d = min e ,1 10 ( ) Note that the limit of a function f z 47 MTH 305 COMPLEX ANALYSIS II at a point z 0 if it exists is unique.
+For suppose that lim ( ) lim ( ) f z = L and f z = L z ﬁ z 0 z ﬁ z 1 0 0 Then for an arbitrary positive number d 0 and d 1 © such that ( ) f z - L < e whenever 0< z- L d 0 0 0 ( ) and f z - L < e whenever 0 < z- L < d 1 1 1 So if 0 < z- z < d where d denotes the smaller of the two numbers 0 d and d , then 0 1 ( ( ) ) ( ( ) ) ( ) ( ) f z - Lo - f z - L £ f z - Lo + f z - L < 2e 1 1 That is L - Lo < 2 e 1 But L - L is a constant, and e can be chosen arbitrarily small.
+Hence, 1 0 L - L =0 or L =L 1 0 i 0 Definition: The statement lim ( ) f z = L z ﬁ ¥ 0 Means that for each positive number e there is a positive number d such that ( ) 1 f z - L < e whenever z < 0 d ( ) That is, the point L = f z lies in the e nbd l - L < e of L whenever the 0 0 point zlies in the nbd z > 1 of the point at infinity.
+d Example: Observe that 48 MTH 305 COMPLEX ANALYSIS II lim 1 =0 z ﬁ ¥ z2 Since 1 1 - 0 < e whenever z < z2 e Hence d = e When L is the point at infinity and z lies in the finite plane, we write 0 0 lim ( ) f z =¥ z ﬁ z 0 ( ) 1 If for each e there is a corresponding d such that f z > whenever e 0 < z- z < d 0 Example: As expected lim 1 =¥ z ﬁ 0 z2 1 1 for > whenever 0 < z- e < e z2 e 3.2 Theorems on Limits Theorem 1: Suppose that ( ) ( ) f z =U x,y +V x,y , z = x +iy and L =u +iv Then 0 0 0 0 0 0 lim ( ) f z = Lo…………………………………………………..(1 z ﬁ z 0 ) If and only if lim ( ) ( ) ( )u x,y =u and x,y ﬁ x ,y 0 0 0 lim ( ) ( ) ( )v x,y =v …….
+(2) x,y ﬁ x ,y 0 0 0 Proof 49 MTH 305 COMPLEX ANALYSIS II Assume (1) is true, by the definition of limit, there is for each positive numbere , ( ) ( ) a positive number d such that u- u +i v- v < e whenever 0 0 ( ) ( ) 0< n- n +i y- y <d 0 0 ( ) ( ) Since u- u £ u- u +i v- v and 0 0 0 ( ) ( ) u- u + i v- v 0 0 ( ) ( ) v- v £ v- v + i v- v 0 0 0 , It follows that u- u < e and v- v < d 0 0 whenever ( ) ( ) 0< n+iy - n =iy <d 0 which is statement (1), hence the proof Theorem 2: Suppose that lim ( ) lim ( ) f z = L and f z = L z ﬁ z 0 z ﬁ z 0 0 0 then lim [ ( ) ( )] f z + f z =l +L z ﬁ z 0 0 0 lim [ ( ) ( )] f z f z =l L z ﬁ z 0 0 0 if L – 0, 0 ( ) lim f z l = 0 ( ) z ﬁ z f z L 0 0 Proof: (Left as exercise) SELF ASSESSMENT EXERCISE 1.
+Evaluate the following using theorems on limits lim ( ) (a) z2 +10z- 15 z ﬁ z+i ( )( ) lim 4z+3 z- 1 (b) z ﬁ z2i z2 - 2z+4 50 MTH 305 COMPLEX ANALYSIS II lim z3 +8 (c) (cid:217) c z ﬁ 2e 3 z4 +4z2 +16 lim ( ) (d) iz4 + z2 - 10i z ﬁ zi lim z2 (e) z ﬁ e(cid:217) 4 z4 + z+1 Show that lim z3 +d 3 3 = - i z ﬁ 2e(cid:217) 3 z4 +4z2 +16 8 8 3.3 Continuity Definition: A function f is continuous at a point z if all the following 0 conditions are satisfied.
+lim ( ) (1) f z exists z ﬁ z 0 ( ) (2) f z exists 0 lim ( ) ( ) (3) f z = f z z ﬁ z 0 0 Note that statement (3) contains (1) and (2) and it say that for each positive number e there exist a positive number d such that ( ) ( ) f z - f z < e whenever z- z < d 0 0 a function of complex variable is said to be contours in a region Rif it is continuous at each point Example: The function f(z) = xy2 +i(2x- y) is its everywhere in the complex plane because the component functions are ( ) polynomials on x and y and are therefore continuous at each point n,y Example: If 51 MTH 305 COMPLEX ANALYSIS II z2 z „ l ( )   f z =     u z- 1   lim ( ) ( ) lim ( ) ( ) f z= - 1 But f i =0.
+Hence, f z „ f i z ﬁ i z ﬁ i Therefore the function is not continuous at z =1 Example: The function ( ) ( ) f z =exy +i Sin n2 - 2ny3 is continuous for all zbecause of the continuity of the polynomials on n and y as well as the continuity of the exponential and sine functions.
+Theorem on Continuity ( ) ( ) 1. if f z and g z are its at z- z .
+So also are the 0 ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) functions f z * g z , f z - g z , f z g z , f z /g z , the last ( ) onlyg z – 0.
+0 [ ( )] ( ) 2.
+A function of a continuous function is its w= g f z is its f z is its ( ) 3.
+If f z is continuous in a region, then the real and imaginary parts ( ) of f z and also it’s in the region.
+( ) 4.
+If a function f z is its in a closed region, it is bounded in the ( ) region, i.e.
+there exists a constant M such that f z < M for all points zin the region.
+SELF ASSESSMENT EXERCISE ( ) z2 +4 ( ) 1.
+Let f z = if z– 2iwhile f 2i =3+4i z- 2i lim ( ) (a) Prove that f z exists and determine its value z ﬁ i ( ) (b) Is f z its at z = 2i?
+Explain?
+( ) (c) Is f z its at point z „ 2i?.
+Explain 52 MTH 305 COMPLEX ANALYSIS II 2.
+Find all possible points of discontinuity of the following function ( ) 2z- 3 (a) f z = z2 +2z+2 ( ) 3z2 +4 (b) f z = z2 - 16 ( ) (c) f z = Cot z Answer (a ) - 1– i (b) – 2, – 2i (c) kp , k „ v, – , – 2.
+3.
+For what values of zare each of the following function continuous z (a) f(z) = z2 +1 ( ) 1 (b) f z = Sinz 4.0 CONCLUSION In this unit we have studied limits of functions, continuity of functions of complex variables in a manner similar to that of real variables.
+You are required to master them properly so that you can be able to apply them when necessary.
+5.0 SUMMARY Recall the following points; - Continuity in Complex variables can be treated analogously as in the real variables • If f(z) is a continuous complex variable so also its real and imaginary parts.
+• A complex function f(z)• is bounded if there exist a constant M>0 such that f(z) < M 53 MTH 305 COMPLEX ANALYSIS II 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Prove that lim 3z4 - 2z3 +8z2 - 2z+5 = 4+4i z ﬁ i z- 1 Is the function its at z- i?
+2.
+Factorized (i) z3 +8 (ii) z4 +4z2 +16 (b) (i) Show that lim z3 +8 3 3 = - i z ﬁ 2e(cid:217) 3 z4 +4z2 +16 8 8 (ii) Discuss the continuity of ( ) z3 +8 f z = at z = 2e(cid:217) i z4 +4z2 +16 3 7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976) Advanced Calculus For Application 2nd Edition 54 MTH 305 COMPLEX ANALYSIS II UNIT 3 CONVERGENCE OF SEQUENCE AND SERIES OF COMPLEX VARIABLES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Definition 3.2 Taylor Series 3.3 Laurent Series 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit, you will learn about sequences and series of complex variables.
+You will also learn about the convergence of these series and sequences.
+All related theorems in real variables will be established for complex variables.
+We shall consider Taylor and Laurent series.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • to define convergence of sequences and series on complex variables • solve related problems on series and sequence.
+3.0 MAIN CONTENT 3.1 Definition An infinite sequence of complex numbers, z ,z ,.........z ,......has a limit 1 2 n zif for each positive number e there exists a positive integral number such that z - z <e whenevern > n .
+n 0 If the limit exists, it is unique.
+When the limit z exists, the sequence is said to converge to z; and we write 55 MTH 305 COMPLEX ANALYSIS II lim z = z nﬁ ¥ n If the sequence has no limit, it diverges.
+( ) Theorem: Suppose that Z = x +iy n =1,2,....... and z = x+iy.
+n n n Then lim z = z…………………………………………………….
+( nﬁ ¥ n i) If and only if lim x = xand nﬁ ¥ n lim y = y…………………………………..(ii) nﬁ ¥ n Proof: Assume (i) is true, for each positive number e there exists a positive integer number such that ( ) ( ) x - x +i y - y <e Whenever n > n n n 0 But ( ) ( ) x - x £ x - x +i y - y n n n And ( ) ( ) y - y £ x - x +i y - y n n n Consequently, x - x <e and y - y <e whenever n > n and (3) are satisfied.
+n n 0i Conversely, form (3), for each positive numbere ©, there is positive numbers n and n such that 1 2 e x - x < whenever n > n n 2 1 And e y - y < whenever n > n n 2 2 56 MTH 305 COMPLEX ANALYSIS II Hence if number is the larger of the two integers n and n , 1 2 Then e e x - x < and y - y < whenever n > n n 2 n 2 0 But ( ) ( ) x - x +i y - y £ x - x + y - y , n n n n And so z - z < e whenever n > n n 0 Which is condition (2) Definition: An infinite series of complex numbers ¥ ∑z = z + z +......+ z +....Converges to a sum S, called the sum of n 1 2 n n=1 the series, if the sequence S =∑N z = z + z +............+ z (N =1, 2,........) of partial sums N n 1 2 n n=1 ¥ converges to S, we then write ∑z = S n n=1 Note that since a sequence can have at most one limit, a series can have at must one sum, when a series does not converge, we say that it diverge, Theorem: Suppose that z = x +iy (n =1,2,.....)and S = X +iY.then n n n ¥ ∑z = S n n=1 If and only if ¥ ¥ ∑Xn= X and ∑Yn=Y n=1 n=1 Definition: An infinite sequence of single valued functions of complex variable ( ) ( ) ( ) ( ) U z ,U z , U z ,..............,U z ,......... 1 2 3 n { ( )} ( ) Denoted by U z , has a limit U z as nﬁ ¥ , if given any positive n number e we can find a number N (depending in general on both e and ( ) ( ) Z ) such that U z - U z < e for all n > N .
+n 57 MTH 305 COMPLEX ANALYSIS II lim ( ) ( ) We write U z =U z .
+In such case, we say that the nﬁ ¥ n ( ) sequence converges or is convergent to U z .
+If a sequence converges for all values of Z (points) in a region R, we call R the region of convergence of the sequence.
+A sequence which is not convergent at some value (point) Z is called divergent at Z.
+( ) { ( )} Definition: The sum of {U z }, denoted by S z is symbolized by n n ¥ U (z)+U (z)+ „ ∑U (z) is called an infinite series 1 2 n n=1 lim ( ) ( ) If Sn z = S z , the series is said to be convergent and S(z) is its nﬁ ¥ sum, otherwise the series is said to be divergent.
+If a series converges for all values of Z (points) in a region R, we call R the region of convergence of the series.
+¥ ∑ ( ) Definition (absolute convergence): A series U z is called n n=1 absolutely convergent of the series of absolute values.
+¥ ∑ ( ) i.e.
+U z , converges n n=1 ¥ ¥ ∑ ( ) ∑ ( ) If U z converges but U z does not converge, we call n n n=1 n=1 ¥ ∑ ( ) U z conditionally convergent.
+n n=1 Definition: In the definition, if a number N depends only in e and not ( ) in Z, the sequence U z is said to be uniformly convergent.
+N 3.2 Taylor Series Theorem (Taylor’s Theorem): Let f be analytic everywhere inside a circle C with center at Z and radius R. Then at each point Z inside C. 0 ( ) ( ) ( )( ) ( ) ( ) f1 z ( ) f " z ( ) f n z ( ) f z = f z + 0 z- z + 0 z- z 2 +..........+ 0 z- z n +......... 0 1 0 2!
+0 n!
+0 ( ) That is, the power series have converge to f z when z- z < R. 0 58 MTH 305 COMPLEX ANALYSIS II Proof Let Z be any point inside C. Construct a circle C, with centre at z and 0 0 enclosing Z.
+Then by Cauchy’s integral formula ( ) ( ) 1 f w f z = ∫ dw lni aw- z For any point w on C 1 (1) C 1 z .w .z c 0 0 We have     1 1 1  1  w- z = (w- z0)- (z- z0) = (w- z0)1- (z- z0)  w- z  0 1   z- z   z- z 2 (z- z )n- 1  z- z n = 1+ 0 + 0  +..........+ 0  + 0   w- z  w- z  w- z   w- z  w- z   0  0 0 0 0  1 1 z- z (z- z)2 (z- z )n- 1  z- z  1 Or w- z = w- z + (w- z0 )+ (w- z)3 +........+ (w- z0 )2 +w- z0 w= z 0 0 0 0 Proof We first prove the theorem when z =0and then extends to any z .
+0 0 Let zbe any fixed point inside the circle C, centred now at the origin.
+Then let z = rand note that r < Rwhere R is the radius of C. Let S denote points lying on a positively oriented circle C about the origin with radius R where 1 1 r < R < R;then S = R .
+Since Z is interior to C , and f is analytic within and 1 1 1 on the circle, the Cauchy integral formula gives ( ) ( ) 1 f s ds f z = ∫ ……………………………………………………(2) lp i c s- z 1 Now, we can write 1 1 1  =  ( ) and using the first that s- z s 1- z  s 59 MTH 305 COMPLEX ANALYSIS II 1 cn ( ) =1+c+c2 +.....+cn- 1 + n =1, 2,......... where C is any complex 1- c 1- c number other than unity.
+Hence ( ) 1 = 11+ z +(z )2 +......+(z )n- 1 + zs(n ) s- z s  s s s 1- z  s and consequently 1 1 1Z 1 1 ZN- 1 ZN = + + Z2+,........+ + ( ) s- z S S2 S3 SN s- z SN ………………………(2) ( ) f s Multiply this equation through by iand integrate wrt S, we have 2(cid:217) ( ) ( ) ( ) ( ) ( ) 1 f s ds 1 f s z f s ds z2 f s zn- 1 f s ∫ = ∫ ds+ ∫ + ∫ ds+ ∫ + 2p i c s- z lp i c s lp i c s2 lpi c s3 lp i c sn 1 1 1 1 ( ) zn f s ds ∫ ( ) lp i c s- z SN 1 In view of expression (2) and applying the this that ( ) ( ) 1 f s ds 1 f s ds f (n)(0) ∫ = ∫ = lpi C Sn+1 lpi C (S - i)N+1 n1 1 1 We can write the result as ( ) ( ) f'(0) f'(0) f (n- 1)(0) ( ) f z = f 0 + z+ z2 +........+ ( ) ZN- 1 + f z 1!
+¶ !
+n- 1!
+Where ( ) ( ) zn f s ds f z = ∫ ………………………………………………..(4) ( ) lp i c s- z sN 1 60 MTH 305 COMPLEX ANALYSIS II • Recalling that z = r andd = R 1 , wherer < R , we note that s- z ‡ s - z = R - r 1 1 ( ) • It follows from (4) that when M denotes the maximum of f s on C , 1 1 • r n(z) £ lrpn (R -Mr1)RN lp R1 RM1-Rr1 Rr N ………………………..(  1 1 1 1  5)  r  But  <1 , and therefore   R  1 lim ( ) r z =0 nﬁ ¥ N So that ( ) ( ) ( ) ( ) f' 0 f' 0 f (n)(0) f z = f 0 + z+ z2 +.......+ zn + 1!
+l!
+n!
+…………………(6) In the open disk z < R .
+This is a special case, of (1) and it is called the maclurin series.
+( ) Suppose now that f is as in the statement of the theorem, since f z is ( ) analytic when z- z < R , the composite function f z+ z is analytic 0 0 ( ) when z+ z - z < R .
+But the last inequality is simply z < R;and if we 0 0 ( ) ( ) writeg z = f z+ z , the analyticity of g inside the circle z = Rimplies 0 the existence of a Mcdanrim series representation.
+g(z)= ∑¥ g(n)(0)zn n!
+n=0 ( ) z < R That is ( ) f(z+ z )=∑¥ f n z0zn 0 n!
+n=0 61 MTH 305 COMPLEX ANALYSIS II Using z by z- z 0 ( ) in this equation, we arrive at the desired Taylor series representation for f z about the pointz .
+0 ( )( ) f(z)=∑¥ f n z0 (z- z )n n!
+0 ( n=0 ) z- z < R 0 .
+Example: If f(z)= Sinz, then f (2n)(0)=0 (n =0,1, 2.........) and f (2n+1)(0)=(- 1)n (n =0,1, 2,..........) hence Sin z =∑¥ (- 1)n (z2n+1 ), (z <¥ ) 2n+1 n=0 The condition z <¥ follows from the fact that the function is entire.
+Differentiating each side of the above equation with respect to and interchanging the symbols for differentiation and summation on the right-hand side, we have the expression Cos z=∑¥ (- 1)n (z2n) 2p n=0 !
+( ) BecauseSinhz= - isin iz , replacing z by iz in each side of (¥ )and multiply through the result by –c, we have ¥ z2n+1 Sinhz =∑( ) 2n+1!
+n=0 Differentiating each side of this equation gives ¥ Z2n Coshz = ∑( ) 2n!
+n=0 62 MTH 305 COMPLEX ANALYSIS II 3.3 Laurent Series Theorem: Let C and C denote two positively oriented circles centred at a point 0 1 Z , where C is smaller than C .
+if a function f is analytic on C and C, and 0 0 1 0 throughout the annular domain between them, then at each point Z is the domain ( ) f z is represented by the equation.
+¥ ¥ f(z)=∑C (z- z )n +∑ in 0 n=0 n=1 Where ( ) 1 f z dz ( ) a = ∫ n =0,1, 2,........ n lp i C (z- z )n+1 1 0 And ( ) 1 f z dz b ∫ (n =1,2,.............) n lp i C (z- z )n+1 0 0 The series here is called a Laurent series We let R and R denote the radius of C and C respectively.
+Thus R 0 1 0 1 0 and R and if f is analytic at every point inside and on 1 C except at the point Z itself, the radius R may be taken 1 0 0 arbitrarily small, expansion (1) then valid when 0< z- z <R If f 0 1 Is analytic at all points inside and on C , we need only write the integral in 1 expansion (3) as f(z)(z- z )n- 1 to see that it is analytic inside and on C .
+0 0 For n- 1‡ 0when nis a positive integer.
+So all the coefficient bn are zero, and because ( ) ( )( ) 1 f z dz f n z ∫ = (n =0,1,2,......) lp i C (z- z )n+1 n!
+1 0 Expansion (1) includes to a Taylor series about Z 0 4.0 CONCLUSION 63 MTH 305 COMPLEX ANALYSIS II In this unit we have established condition for convergence of series in complex variables.
+You are required to study this unit properly to be able to understand subsequent units.
+5.0 SUMMARY The following definition is hereby recalled, to stress the importance of convergence of series in complex variables (1) An infinite sequence of complex numbers, z ,z ,.........z ,......has a limit zif 1 2 n for each positive number e there exists a positive integral number such that z - z <e whenevern > n .
+n 0 If the limit exists, it is unique.
+When the limit z exists, the sequence is said to converge to z; and we write lim z = z nﬁ ¥ n If the sequence has no limit, it diverges.
+2.
+We have also stated theorems that can help us in proofing convergence of series.
+3.
+The Taylor and Laurent series have been applied in treating convergence of series.
+6.0 TUTOR-MARKED ASSIGNMENT p 1.
+Expand the following complex variable using Taylor series about z= 2 (a) Tanz (b) Cosz 2 State the Laurent series for the above.
+7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976) Advanced Calculus For Application 2nd Edition 64 MTH 305 COMPLEX ANALYSIS II 65 MTH 305 COMPLEX ANALYSIS II UNIT 4 SOME IMPORTANT THEOREMS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1Special Tests for Convergence 3.2 Theorem on Power Series 3.3 Laurent Theorem 3.4 Classification of Singularities 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit, we shall consider some related theorems on complex variables.
+We shall consider theorems on test of convergence of complex variables We shall also learn about singularities and classifications or singularities.
+OBJECTIVES At the end of this unit, you should be able to: • state the important theorems on convergences of sequences and series of complex variables • be able to classify singularities on complex variables • work problems on complex variables.
+3.0 MAIN CONTENT Theorem 1: The limit of a sequence, if it exists, is unique.
+{ } Theorem 2: Let a be a real sequence with the property that n 66 MTH 305 COMPLEX ANALYSIS II (i) a ‡ a or a £ a nti n nt1 n ( ) (ii) a <M a n nt1 { } Then a converges.
+n That is, every bounded monotonic (increasing or decreasing) sequence has a limit.
+{ } Theorem 3: A necessary and sufficient conditions that U converges is that n given e >0,we can find a number N such that U - U <e for all n q r > N, q > N.This is called Cauchy’s convergence criterion.
+3.1 Special Tests for Convergence Theorem 1: (comparison tests) (a) If ∑V converges and U £ V , then ∑U converges absolutely n n n n (b) If ∑V diverges and U ‡ V , then ∑U diverges but ∑U may or n n n n n may not converge.
+Theorem 2: (Ratio Test) lim U (a) If nt1 = L, then ∑U converges (absolutely) nﬁ ¥ U n n (b) If L<1and diverges if L >1.
+If L – 1, the test fails.
+Theorem 3: (nth Root Test) lim (a) If n U = L, then ∑U converges (absolutely) nﬁ ¥ n n (b) if L < 1 and diverges if L > 1.
+If L = 1, the test fails Theorem 4: (Integral Test) (a) If f(x)‡ 0for x ‡ a,then ∑ f(x)converges or diverges if lim mﬁ ¥ ∫M f(x)dx converge diverges.
+a Theorem 5: (Raabe’s Test) lim  U  (a) If n1- nt1 = L,then ∑U converges (absolutely) nﬁ ¥  U  n n (b) If L > 1 and diverges or converges conditionally if L < 1.
+(c) If L = 1, the test fails.
+67 MTH 305 COMPLEX ANALYSIS II Theorem 6: (Gauss’ Test) U L C (a) If nt1 =1- + n where C < M for all n > N,then ∑U converges U n n2 n n n (absolutely) if L > 1 and diverges or converges conditionally if L £ 1.
+3.2 Theorems on Power Series Note that a series of the form ¥ a +a (z- z )+a (z- z )+...........= ∑a (z- z )n is called a power series 0 1 0 2 0 n 0 n=0 in z- z 0 Theorem 1: A power series converges uniformly and absolutely in any region which lies entirely inside its circle of convergence.
+Theorem 2: (Abel’s Theorem) Let ∑a zn have radius of convergence ´ and suppose that z is a point on the n 0 circle of convergence such that ∑a zn converges.
+n 0 lim Then ∑a zn =∑a znwhere z ﬁ z from within the circle of z- z n n 0 0 0 convergence.
+Theorem 3: If ∑a zn converges to zero for all Z such that z < Rwhere n R >0, then a =0.
+Equivalently.
+If ∑a zn =∑b znfor all Z such that n n n z < R,then a =b .
+n n 3.3 Laurent Series If a function f fails to be analytic at a point z , we cannot apply Taylor’s 0 theorem at that point.
+If is often possible, however, to find a series ( ) representation for f z involving both positive and negative powers of z- z .
+0 Theorem (Laurent Theorem): Let C and C denote two positively 0 1 oriented circles centred at a pointz , where C is smaller thanC .
+If a 0 0 1 function f is analytic at C andC , and throughout the annular 0 1 68 MTH 305 COMPLEX ANALYSIS II ( ) domain between them, then at each point zin that domain f z is represented by the expansion.
+f(z)=∑¥ a (z- z )n +∑¥ bn ……………………………………….
+(1) n 0 (z- z )n n=0 n=1 0 Where ( ) 1 f z dz ( ) a = ∫ n- 0,1,2,............ …………………………..(2) n 2pi C (z- z )nt1 1 0 And ( ) 1 f z dz b = ∫ (n =1,2,..........)…………………………..(3) n 2pi C (z- z )- nt1 0 0 The series here is called a Laurent series.
+Since the ( ) ( ) f z f z two integrands and in expressions (2) and (3) are (z- z )nt1 (z- z )- nt1 0 0 analytic throughout the annular domain R z- z < R , and in its boundary, 0 0 1 any simple closed contour C around the domain in the positive direction can be used as a path of integration instead of the circular paths C and C .
+Thus the Laurent series (1) can be written as 0 1 f(z)= ∑¥ C (z- z )n (R < z- z < R ) n 0 0 0 1 n= - 0 Where ( ) 1 f z dz C = ∫ n 2(cid:217) i C(z- z )nt1 0 ( ) n =0, – 1, – 2,..............
+Particular cases, of course, some of the coefficient may be zero.
+69 MTH 305 COMPLEX ANALYSIS II •Z 0 C 0 C 1 Example: The expansion ez 1 1 1 z z2 = + + + + +........... 0< z <¥ zz z2 z 2!
+3!
+4!
+Follows from the Maclurin series representation ¥ zn z z2 z3 z4 ez =∑ =1+ + + + +......... n!
+1!
+2!
+3!
+4!
+n=0 ( ) z <¥ 3.4 Classification of Singularities ( ) 1.
+Poles: If f z has the form ( ) ( ) ( ) a- 1 a- 2 f z = a +a z- z +a z- z 2 +.......+ + In which the 0 1 0 2 0 z- z (z- z )2z 0 0 principal part has only a finite number of terms given by a a a +1 + - 2 +.........+ - n Wherea „ 0, then z = z is called a z- z (z- z )2 (z- z )n - n 0 0 0 0 pole of order n. If n = 1, it is called a simple pole.
+( ) lim ( ) If f z has a pole at z = z , then f z =¥ .
+0 z ﬁ z 0 ( ) 2.
+Removable Singularities: If a single valued function f z is not lim ( ) defined at z = z but f z exist, then z = z is a removable 0 z ﬁ z 0 0 ( ) singularities.
+In such case, we define f z at z = z as equal to 0 lim ( ) f z .
+z ﬁ z 0 70 MTH 305 COMPLEX ANALYSIS II ( ) Sinz Example: If f z = , then z =0is a removable singularities z ( ) lim Sinz since f 0 is not defined but =1 z ﬁ 0 z Sinz 1 z2 z5 z7 z2 z4 z6 Note that = z- - + =1- + - + z z  3!
+5!
+7! 3!
+5!
+7!
+( ) 3.
+Essential Singularities: If f z is single valued, then any singularity which is not a pole or removable singularity is called an essential ( ) singularity.
+If z = a uan essential singularity of f z , the principal part of the Laurent expansion has infinitely many terms 1 1 1 Example: Since e1z =1+ + + z3 z 2!z2 3!
+z =0is an essential singularity.
+4.
+Branch Points: A point z = z is called a branch point of the 0 ( ) ( ) multiple-valued function f z if the branches of f z are interchanged when Z describes a closed path aboutz .
+Since each of the branches of a 0 multiple-valued function is analytic, all the theorems for analytic functions, in particular Taylor’s theorem apply.
+( ) Example: The branch of f z = z12which has the value 1 forz =1, has a Taylor series of the form ( ) ( ) a +a 2- 1 +a z- 1 2 +......With radius of convergence R =1[the 0 1 2 distance from Z=1 to the nearest singularity, namely the branch point z=0].
+( ) 5.
+Singularities at Infinity: By letting z = 1 in f z we obtain the w ( ) ( ) function f 1 = f w .
+Then the nature of the singularity at z =¥ [the point w ( ) at infinity] is defined to be the same as that of f w atw=0.
+( ) Example: If f z = z3has a pole of order 3 atz =¥ , since ( ) ( ) f w = f 1 = 1 has a pole of order 3 atw= 0. w w3 ( ) Similarly, f z =ezhas an essential singularity atz =¥ , since ( ) ( ) f w = f 1 =e1whas an essential singularity atw= 0. w 4.0 CONCLUSION This unit is a very important unit which must be studied properly and understood before proceeding to other units.
+5.0 SUMMARY 71 MTH 305 COMPLEX ANALYSIS II Recall that in this unit we discussed very important theorems in the solution of complex variables.
+We also discussed singularities, Laurent series and application, we discussed branch.
+These are to aid in tackling any exercises on complex variables.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+State all the Convergent Tests listed in this unit Sinz 2.
+If f(z) = determine the removable singularity and carry out the z expansion.
+3.
+Define the essential singularity and determine the essential singularity for 1 f(z) =ez 7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976) Advanced Calculus For Application 2nd Edition 72 MTH 305 COMPLEX ANALYSIS II MODULE 2 Unit 1 Some Examples on Taylor and Laurent Series Unit 2 Analytic Functions Unit 3 Principles of Analytic Continuation Unit 4 Complex Integration UNIT 1 SOME EXAMPLES ON TAYLOR AND LAURENT SERIES CONTENTS 8.0 Introduction 9.0 Objectives 10.0 Main Content 3.1 Some examples on Taylor and Laurent Series 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION This unit considers examples on Taylor and Laurent series of complex variables.
+The aim is to expose the students to more workable examples on complex variables.
+2.0 OBJECTIVES The students will be able to: • Solve problems successfully on complex variables using Taylor’s Series and Laurent Series.
+73 MTH 305 COMPLEX ANALYSIS II 3.0 MAIN CONTENT 3.1 Examples on Taylor and Laurent Series p ( ) Example: Expand f z =Cos zin Taylor series about z = and 4 determine its region of convergence Solution: By Taylor series.
+( ) ( ) ( ) ( )( ) ( ) z- z 2 f z = f z + f' z z- z + f" z 0 +.......... 0 0 0 0 2!
+( ) ( ) ( ) ( ) f z =Cos z, f' z= - Sinz, f" z= - Cosz, f"' a = Sinz p  p  p  p  f  = 2 , f" = - 2 , f" = - 2 , f"' = 2 ,…….
+2 2 2 2  4  4  4  4  p 2  p 3  p 4 2 z-  z-  z-  ( )  p  2 4  4  4 f z = 2 - 2 z- - + 2 + 2 - ...... 2 2 2 2  4 2 3!
+4!
+  p 2  p 3  p 4   z-  z-  z-   ( )   p   4  4  4  f z = 2 1- z- - + + -  2  4 2 3!
+4!
+        p 2  p    p 3  p 5  2-  z-   z-  z-   f(z)= 22 1-  4 +  4 - .....- z- p -  4 +  4  2 4!
+ 4 3!
+5!
+        z- p 2n- 2 (- 1)n- 1z- p 2n- 1 ………..(- 1)n- 1  ( 4 ) ....... ( )4 2 - z !
+2n- 1!
+n  (- 1)n- 1z- p 2n- 2 (- 1)n- 1z- p 2n- 1 f(z)= 2 ∑¥ (  4)  - ∑¥ (  )4  2  2n- 2!
+2n- 1!
+ n=1 n=1    For the region of convergence, using ratio test 74 MTH 305 COMPLEX ANALYSIS II (- 1)n- 1z- p 2n- 1 (- 1)2z- p 2n  4  4 Let U = ( ) , U +1= n 2n- 2!
+n 2n!
+Also (- 1)n- 1z- p 2n- 1 (- 1)nz- p 2n+1  4  4 Let (2n- 1)!
+=Vn, Vn+1 = (2n+1)!
+( )  p  - 1 nz-  ( ) lim U lim  4 2n- 2!
+n+1 = + nﬁ ¥ Un nﬁ ¥ 2n (- 1)n- 1z- p 2n- 2  4 p (z- )2n lim = - 4 nﬁ ¥ ( ) p 2n- 2 2n 2n- 1z-   4 lim 1 p 2 = - ( ) z- nﬁ ¥ 2n 2n- 1 4 p 2 z- lim 4 = ( ( )) =0 nﬁ ¥ - 2n 2n- 1 ( )  p 2n+1 - 1 nz-  ( ) lim V lim  4 2n- 1!
+Similarly n+1 = + ( ) nﬁ ¥ Vn nﬁ ¥ 2n+1!
+(- 1)n- 1z- p 2n- 1  4 p 2 z- lim 4 = - ( ) =0 nﬁ ¥ 2n 2n+1 p This shows that the singularity of Cosznearest to is at infinity.
+Hence the 4 series converges for all values of zi.e.
+z <¥ ( ) 1 Example: Expand f z = is a Laurent series valid for z- 3 75 MTH 305 COMPLEX ANALYSIS II (a) a <3 (b) z >3 Solution: For z <3 ( 1 ) = 1 = (1 ) = 1 (1- z )- 1 z- 3 - 3+ z - 31- z - 3 3 3 1 z z2 z3  1 z z2 z3 = - 1+ + + .......= - - - - 3 3 9 27  3 9 27 81 For z >3 1 1 1 3- 1 1 3 9 27  = = 1-  = 1+ + + +.......   z- 3  3 z z z  z z2 z3  z1-   z 1 3 9 27 = + + + +........ z z2 z3 z4 ( ) z Example: Expand f z = ( )( ) in Laurent series valid for z < z- 1 z- 2 Solution z 1 2 = + ( )( ) z- 1 z- 2 z- 1 2- z [ ] 1 1 For z<, = ( )= - 1+ z+ z2 + z3 + z4 +.... z- 1 11- z = - 1- z- z2 - z3 - z4 - and 2 = ( 2 ) =1(1- z )- 1 2- z 21- z 2 2 = 1+ z +z2 + z3 +z4 +......... 2 4 8 16 76 MTH 305 COMPLEX ANALYSIS II Adding, we have z 1 3 ( )( )= - z- z2 - 7 z3 - 15 z4 - ........... z- 1 2- z 2 4 8 16 ( ) ( ) 1 Example: Find the Laurent series for the function f z = z- 3 Sin z+2 aboutz = - 2.
+Also state that type of singularity and the region of convergence for the series.
+Solution: ( ) 1 z- 3 Sin ; z= - 2.
+Let z+2=u or z =u- 2. z+2 Then ( ) 1 ( ) 1 ( )1 1 1  z- 3 Sin = u- 5 Sin = u- 5  - + +........ z+2 u u 3!u3 5!u5  5 1 5 1 = 1- - + + u 3!u2 3!u3 5!u4- 5 1 5 1 =1- - + + ......... z+2 6(z+12)2 6(z+12)3 120(z+2)4 z = - 2is an essential singularity.
+The series converges for all values of z+- 2.
+4.0 CONCLUSION In this unit we discussed Laurent series and Taylor series.
+We applied them to solve some problems .You are to learn this unit very well .
+You may wish to attempt the Tutor- Marked Assignment.
+77 MTH 305 COMPLEX ANALYSIS II 5.0 SUMMARY Recall in this unit that while Taylor series can be useful to analyze functions , Laurent Series gives clearer and simple ways of handling functions of complex variables.
+These were clearly demonstrated in the examples we considered in this unit.
+Answer the Tutor Marked Assignment at the end of this unit, for more understanding of the concept.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Expand the function in each of the following series: (a) a Taylor series of powers of z for z <1 (b) a Laurent series of powers of z for z >1 (c) a Taylor series of power of z+1 for z <1 7.0 REFERENCES/FURTHER READINGS Francis B Hildebrand (1976): Advanced Calculus for Application 2nd Edition.
+78 MTH 305 COMPLEX ANALYSIS II UNIT 2 ANALYTIC FUNCTIONS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Derivatives 3.2 Differentiation Formula 3.3 Cauchy-Riemann Equations 3.4 Sufficient Conditions 3.5 Polar Form 3.6 Summarizing Analytic Function 3.7 Harmonic Function 3.8 Solved Problems 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit we shall study analytic functions of complex variables.
+We shall establish the condition for functions to be analytic.
+All related theorems on analytic function will be considered.
+2.0 OBJECTIVES At the end of this unit, you should be to have learnt about: • derivatives of complex variables • Cauchy – Riemann equations • polar form of complex variables • harmonic functions.
+79 MTH 305 COMPLEX ANALYSIS II 3.0 MAIN CONTENT 3.1 Derivatives Definition: Let F be a …..whose domain of definition contains a nbd of a ( ) point Z .
+The derivative of f at Z , written as f1 Z , is defined as 0 0 0 ( ) ( ) ( ) lim f z - f z f1 z = 0 ..(3.1.1) 0 z ﬁ z z- z 0 0 Provided this limit exists.
+The function f is said to be differentiable at z 0 when its derivative at z exists.
+0 Note that (3.1.1) is equivalent to ( ) ( ) ( ) lim f z+ D z - f z f1 z = 0 0 … (3.1.2) 0 D z ﬁ 0 D z Where D z = z- z 0 Which is also the same as dw lim D w = dz D z ﬁ 0 D z ( ) dw ( ) ( ) Where f1 z = , D w= f z+ D z - f z write z- z dz 0 0 0 Example: Suppose that ( ) f z = z2 At any point z ( ) lim D w lim z+ D z 2 - z2 lim ( ) = = 2z+ D z = 2z D z ﬁ 0 D z D z ﬁ 0 D z D z ﬁ 0 dw ( ) Hence, = 2z or f1 z = 2z dz ( ) Example: For the function f z = z 2 ( ) D w z+ D z 2 - z 2 (z+ D z)z+ D z - zz = = D z D z D z D z = + D z+ z D z 80 MTH 305 COMPLEX ANALYSIS II D w dw lim When z =0, this reduces to = D z.
+Hence = = 0. at the origin D z dz D z ﬁ 0 dw =0 dz If the limit of D w exists whenz „ 0, this limit may be found by letting the D z variable D z = D x+1D yapproach 0 in any manner.
+In particular, when D zapproaches 0through the real valuesD z = D z+i0, we may writeD Z = D Z .
+Hence if the limit of D w exists, its value must bez+ z.
+D z However, when D Z approaches 0 through the pure imaginary Value, so thatD Z = - D Z , the limit if found to beZ - Z.
+Since a limit is unique, it follows thatZ +Z = Z - Z, orZ =0, if dw exists.
+But Z „ 0,and we may dz conclude from this contradiction that dw/dzexists only at the origin.
+From example above, it follows that: (1) A function can be differentiable at a certain point but nowhere else in any nbd of that point.
+( ) ( ) (2) Since the real and imaging parts of f z = z 2 are m n,y = n2 + y2 ( ) andv n,y =0.
+Respectively, it also shows that the real and imaginary components of a function of a complex variable can have continuous partial derivatives of all orders at a point and yet the function many not even be differentiable there.
+( ) (3) The function f z = z 2is its at each point in the plane since its components functions are continuous at each point.
+So the continuity of a function at a point does not imply the existence of a derivative there.
+It is, however, true that the existence of the derivative of a function at a point implies the continuity of the function at that point.
+3.2 Differentiation Formulae Definition: Let F be a …..whose domain of definition contains a nbd of a ( ) point Z .
+The derivative of f at Z , written as f1 Z , is defined as 0 0 0 ( ) ( ) ( ) lim f z - f z f1 z = 0 ………………………………………..(3.1.1) 0 z ﬁ z z- z 0 0 81 MTH 305 COMPLEX ANALYSIS II Provided this limit exists.
+The function f is said to be differentiable at z 0 when its derivative at z exists.
+0 Note that (3.1.1) is equivalent to ( ) ( ) ( ) lim f z+ D z - f z f1 z = 0 0 ……………………………………(3.1.2) 0 D z ﬁ 0 D z Where D z = z- z 0 Which is also the same as dw lim D w = dz D z ﬁ 0 D z ( ) dw ( ) ( ) Where f1 z = , D w= f z+ D z - f z write z- z dz 0 0 0 Example: Suppose that ( ) f z = z2 At any point z, ( ) lim D w lim z+ D z 2 - z2 lim ( ) = = 2z+ D z = 2z D z ﬁ 0 D z D z ﬁ 0 D z D z ﬁ 0 dw ( ) Hence, = 2z or f1 z = 2z dz ( ) Example: For the function f z = z 2 ( ) D w z+ D z 2 - z 2 (z+ D 2)z+ D z - Zz = = D z D z D Z D Z = Z+ D Z +Z D Z D w dw lim When z=0, this reduces to = D Z .
+Hence = = 0. at the origin D z dz D z ﬁ 0 dw =0 dz If the limit of D w exists whenz „ 0, this limit may be found by letting the D z variable D z = D x+1D yapproach 0 in any manner.
+In particular, when D Z approaches 0 through the real valuesD Z = D n+i0, we may writeD Z = D Z .
+Hence if the limit of D w exists, its value must beZ +Z .
+D z However, when D Z approaches 0 through the pure imaginary value D Z =0+iD y, so that D Z = - D Z , the limit if found to be Z - Z.
+Since a limit 82 MTH 305 COMPLEX ANALYSIS II is unique, it follows thatZ +Z = Z - Z , or Z =0, if dw exists.
+But dz Z „ 0,and we may conclude from this contradiction that dw/dzexists only at the origin.
+From example above, it follows that: (1) A function can be differentiable at a certain point but nowhere else in any nbd of that point.
+( ) ( ) (2) Since the real and imaging parts of f z = z 2 are u x,y = x2 + y2 ( ) and v x,y =0.
+Respectively, it also shows that the real and imaginary components of a function of a complex variable can have continuous partial derivatives of all orders at a point and yet the function many not even be differentiable there.
+( ) (3) The function f z = z 2is its at each point in the plane since its components functions are continuous at each point.
+So the continuity of a function at a point does not imply the existence of a derivative there.
+It is, however, true that the existence of the derivative of a function at a point implies the continuity of the function at that point.
+3.3 Cauchy-Riemann Equations Suppose that ( ) ( ) ( ) ( ) f z =u x.y +iv x,y and that f1 z exists at a point z = x +iy .
+Then 0 0 0 0 the first order partial derivatives of u and v wrt n and y must exist at (u ,y ), and they must satisfy.
+0 0 ( ) ( ) ( ) ( ) U x y =Vy x ,y and Uy x ,y = - V x ,y at that point.
+… (1) x 0 0 0 0 0 0 x 0 0 ( ) Also f i z is given in terms of the partial derivatives by either 0 ( ) ( ) ( ) f1 z =U x ,y +iv x y 0 x 0 0 0 0 ( ) ( ) ( ) or f1 z =Vy x ,y - Uy x ,y 0 0 0 0 0 Equation (1)… is referred to as Cauchy Riemann equation.
+( ) Example: the derivative of the function f z = z2exists everywhere.
+83 MTH 305 COMPLEX ANALYSIS II To verify that the Cauchy-Riemann equations are satisfied everywhere, we note that ( ) f z = z2 = x2 - y2 +i2xy so that ( ) ( ) U x,y = x2 - y2 and V xiy = 2x x ( ) ( ) U x,y = 2x, V xiy = 2y x x ( ) ( ) Uy x,y = 2y Vy x,y = 2x So that ( ) ( ) U n,y =Vy n,y = 2x n ( ) ( ) Uy x,y= - V x,y= - 2y n Also ( ) ( ) ( ) f1 z =U x ,y +iV x,y = 2x+i2y = 2z 0 0 3.4 Sufficient Conditions ( ) Satisfaction of the Cauchy – Riemann equations at a point z = x ,y is 0 0 0 ( ) not sufficient to ensure the existence of the derivative of a function f z at that point.
+The following theorem gives sufficient conditions.
+Theorem: (Sufficiency Theorem) : ( ) ( ) ( ) Let the function f z =u x,y +iv x,y be defined throughout some e - nbd of a point z = x - iy suppose that the first-order partial derivatives of the 0 0 0 functions U and V with respect to n and y exist everywhere in that nbd they ( ) are continuous at x ,y .
+Then if these partial derivatives satisfy the 0 0 Cauchy-Riemann equations.
+U =V ,and,U = - Vx x y y ( ) At(x ,y ), the derivative f1 z exists.
+0 0 0 Proof: We shall leave the proof as exercise.
+Example: suppose that ( ) f z =ex 9Cos y + i Sin y) Where y is to be taken in radius when Cos y and Sin y are evaluated then U(x,y) =exCosy and V(x,y)=exSiny 84 MTH 305 COMPLEX ANALYSIS II Since U =V and Uy = - Vx everywhere and since those derivatives are x y everywhere continuous, the conditions in the theorem are satisfied at all ( ) points in the complex plane.
+Thus, f1 z exists everywhere and f ¢(z)=U (x,y) =iV (x,y) =ex(cosx+isin y) x x ( ) ( ) Note that f1 z = f z Example: for the function ( ) f z = z 2=U(x,y) = x2 + y2 and V(x,y) =0 So that U (x,y) = 2x and x ( ) V (x,y) =0while U x,y = xy andV (x,y) =0.
+Since U (x,y) „ V (x,y) y y x x y unless x = y =0Cauchy-Riemann equations are not satisfied unless x = y =0the derivative f¢(z) cannot exist if z „ 0and besides, the existence of f ¢(0) is not guaranteed unless conditions of theorem (3-4-1) are satisfied.
+If follows from the theorem (3.4.1) that the further ( ) f(z) = z 2 =(x2 + y2)+10 has derivative at z =0; in fact, f' 0 =0+0=0.
+3.5 Polar Form Cauchy-Riemann equations can be written in polar form.
+For z = n+iy or z = r(Cosq +iSinq ), we have n = rcosq , y = rsinq , r = n2 + y2.
+q = tan- 1 y n Then, Ur =Ur ¶ r +Uq ¶ q =Ur x +Uq  - y  ¶ r ¶ x  x2 + y2  x2 + y2  So that 1 Uy =Ur Sinq + Uq Cosq ……………………………………………..(2) r ¶ r rq 1 Vx =Vr +Vq =Vr Cosq - Vq Sinq ¶ x rx r So that 1 Vn =Vr Cosq = Vq Sinq ………………………………………………(3) r ¶ r ¶ q 1 y =Vr +Vq =Vr Sinq Vq Cosq ¶ y ¶ y r So that 85 MTH 305 COMPLEX ANALYSIS II 1 Vy =Vr Sinq + Vq Cosq ……………………………………………..(4) r From the Cauchy-Riemann equation, Un=Vy, equating (1) and (4), we have  1   1  Ur - V  Cosq - Vr+ U  Sinq =0………………………………..(5) q q  r   r  From the Cauchy-Riemann equation, Uy = - Vn, equating (2) and (3), we have  1   1  Ur- V  Sinq +Vr + U  Cos =0………………………………….
+(6) q q  r   r  Multiplying (5) by cos q , (6) by Sinq and adding given 1 (Ur= - U ) …………………………………………………………..(7) q r Also, multiplying (5) by - sinq , (6) by Cosq and adding given 1 Vr= - Uq ……………………………………………………………..(8) r Equations (7) and (8) are the Cauchy-Riemann equations in polar form.
+Theorem: Let the function ( ) ( ) ( ) f z =U r,q +i v r,q Be defined throughout some e neighborhood of a no zero point ( ) ( ) f z = r Cosq +iSinq .
+0 0 0 Suppose that the first order partial derivatives of the functions U and V wrt r and q exist everywhere on that neighborhood and that they are continuous ( ) at r ,q .
+Then if those partial derivatives satisfy polar forms (7) and (8) of 0 0 ( ) ( ) the Cauchy-Riemann equations at r ,q , the derivatives f1 z exists.
+0 0 0 ( ) The derivative f1 z is given as 0 ( ) [ ( ) ( )] f1 z =e- 1q Ur r ,q +iVr z ,q 0 0 0 0 0 Example: Consider the function ( ) 1 1 f z = = , r req 86 MTH 305 COMPLEX ANALYSIS II ( ) Cosq ( ) - Sinq U r,q = and V r,q = and the condition of the theorem are r r satisfied at any nonzero point z = reiq in the plane.
+Hence the derivative of f exists there: and according to (9) ( )  Cosq Sinq  1 1 f1 z =e- 1q - +i = - ( )= -  r2 r2  reiq 2 z2 3.6 Analytic Functions Definition: A function f of the complex variables zis analytic at a point z if its derivative exists not only at z but also at each point zin some 0 0 neighborhood ofz .
+A function f is said to be analytic in a region Rif it is 0 analytic at each point in´ .
+The term halomorphic is also used in literature to denote analyticity.
+( ) ( ) If f z = z2, then f is analytic everywhere.
+But the function f z = z is not analytic at any point since its derivative exists why at z =0 and not throughout any nbd.
+An entire function is a function that is analytic at each point in the entire plane.
+E.g.
+polynomial functions.
+If a function f fails to be analytic at a pointz , buy is analytic at some 0 point in every nbd ofz , then z is called a singular point or singularity of 0 0 ( ) ( ) f .
+For example, the function f z = 1 , where derivative is f z= - 1 is z z2 analytic at every point except z =0hence it is not even defined.
+Therefore the point z =0is a singular point.
+If two functions are analytic in domain D, their sum and their product are both analytic in D. similarly, their quotient is analytic in D provided the function in the denominator does not vanish at any point in D. 3.7 Harmonic Functions A real-valued function hof two real variables xand yis said to be harmonic in a given domain in the xy plane if throughout that domain it has continuous partial derivatives of first and second order and satisfies the partial differential equation.
+87 MTH 305 COMPLEX ANALYSIS II ( ) ( ) h x,y +h x,y =0………………………………………………(3.7.1) xx yy Known as Laplace’s equation If a function ( ) ( ) ( ) f z =u x,y +iv x,y ……………………………………………...(3.7.2) Is analytic in a domain D, then its component functions U and V are harmonic in D. to show this, Since f is analytic in D, the first order partial derivatives of its component functions satisfy the Cauchy-Riemann equations throughout D. Ux =Vy, Uy = - Vx…………………………………………….……..(3.7.3) Differentiating both sides of these equating with respect to x, we have Uxy =Vyy Uyy = - Vxy…………………………………………… (3.7.4) The continuity of the partial derivatives ensures that Uyx =Uxy and Vyx =Vxy.
+It then follows from (3.7.4) and (3.7.5) that ( ) ( ) ( ) ( ) Uxx n,y +Uyy x,y =0 and Vxx x,y +Vyy x,y =0.
+( ) ( ) ( ) Thus, if a function f z =U x,y +iV x,y is analytic in a domain D, its component functions U and V are harmonic in D. 3.8 Solved Problems 1.
+Verify that the real and imaginary parts of the function ( ) f z = z2 +5iz+3=i satisfy Cauchy-Riemann equation and deduce the analyticity of the function.
+Solution ( ) f z = z2 +5iz+3- 1 ( ) ( ) = x+iy 2 +5i x+iy +3=1 ( ) = x2 - y2 - 5y+3+i 2xy+5x- 1 So that ( ) ( ) U x,y = x2 - y2 - 5y+3, V x,y = 2xy+5x- 1 ( ) ( ) ( ) Ux x,y = 2x, Uy x,y= - 2y- 5= - 2y+5 ( ) ( ) Vx x,y = 2y+5 Vy x,y = 2x ( ) ( ) And since Ux x,y =Vy x,y = 2x ( ) ( ) And Uy x,y= - Vx= - 2y+5 88 MTH 305 COMPLEX ANALYSIS II The function satisfies Cauchy Riemann equation.
+Also, since the partial derivatives are polynomial functions which are continuous, then the function is analytic.
+( ) 2.
+(a) Prove that the function U = 2x1- y is harmonic ( ) ( ) (b) Find a function V such that f z =u+ivand express f z in terms ofz.
+Solutions ( ) (a) U = 2x1- y .
+The function is harmonic if Uxx+Uyy =0 ( ) Ux = 21- y , Uxx =0 Uy = - 2x Uyy =0 Uxx+Uyy =0+0=0.
+Hence the function is harmonic (b) By Cauchy-Riemann equation ( ) Example 2: show that the function U x,y = y3 - 3x2y is harmonic and find its harmonic conjugate.
+Solution ( ) U x,y = y3 - 3x2y Ux = - 6xy, Uxx = - 6y Uy =3y2 - 3x2 Uyy =6y And since Uxx+Uyy = - 6y+6y =0 The function ( ) U x,y = y33x2y is harmonic To find the harmonic conjugate, From ( ) Ux x,y= - 6xy, since Ux =Vy, ( ) Vy x,y= - 6xy Find x, and integrate both sides with respect to y, ( ) ( ) V x,y= - 3xy2 +f x ( ) ( ) And since Uy = - Vx must hold, it follows from x and xr that 89 MTH 305 COMPLEX ANALYSIS II ( ) 3y2 - 3x2 =3y2 +f 1 x So that ( ) ( ) f 1 x =3x2and f x =6x+C ( ) V x,y= - 3xy2 +6x+C.
+Is the harmonic conjugate of x/x,y) The corresponding analytic function u ( ) ( ) ( ) f z = y3 - 3x2y +i x3 - 3xy2 +C Which is equivalent to ( ) ( ) f z =i z3 +1 SELF ASSESSMENT EXERCISES 1.
+Verify that the real and imaginary parts of the following functions satisfy the Cauchy-Riemann equations and thus deduce the analyticity of each function ( ) (a) f z = z2 +5iz+3=1 ( ) (b) f z = ze- z ( ) (c) f z = Sin2z ( ) 2.
+(a) Prove that the function U = 2x1- y is harmonic ( ) (b) Find a function v s.t f z =u+ivis analytic ( ) (c) Express f z in terms of z 3.
+Verify that C – R equation are satisfied for the functions (a) ez2 (b) Cos2z (c) Sinh4z 4.
+Determine which of the following functions are harmonic and find their conjugates.
+(a) 3x2y+2x2 - y3 - 2y2 (b) 2xy+3xy2 - 2y3 (c) xex cosy- yexSiny ( ) (d) e- 2xySin x2 - y2 [( ) ( )] 5.
+(a) Prove that y =In x- 1j2 + y- 2j2 is harmonic in every region which does not include the point (1, 2) (b) Find a function f s. t y +iy .1analytic 90 MTH 305 COMPLEX ANALYSIS II (c) Express y xiy as a function of Z 6.
+If U and V are harmonic in a region R, prove that ( ) ( ) Uy- Vx +i Ux+Vy is analytic in R. 4.0 CONCLUSION This unit had been devoted to treatment of special class of function usually dealt with both in real and complex functions.
+You are required to master these functions so that you can be able to solve problems associated with them.
+5.0 SUMMARY Recall that in this unit we considered derivatives in complex variables, we derived the Cauchy Riemann equations for determining analytic functions in complex variables, we also studied harmonic functions etc.
+Examples were given to illustrate each of these functions.
+6.0 TUTOR-MARKED ASSIGNMENT ( ) 1.
+(a) Prove that the function U = 2x1- y is harmonic ( ) (b) Find a function v s.t f z =u+ivis analytic ( ) (c) Express f z in terms of z 2.
+Verify that C – R equation are satisfied for the functions (a) ez2 (b) Cos2z (c) Sinh4z 3.
+Determine which of the following functions are harmonic and find their conjugates.
+91 MTH 305 COMPLEX ANALYSIS II (a) 3x2y+2x2 - y3 - 2y2 (b) 2xy+3xy2 - 2y3 (c) xex cosy- yexSiny ( ) (d) e- 2xySin x2 - y2 [( ) ( )] 4.
+(a) Prove that y =In x- 1j2 + y- 2j2 is harmonic in every region which does not include the point (1, 2) (b) Find a function f s. t y +iy .1analytic (c) Express y xiy as a function of Z 5.
+If U and V are harmonic in a region R, prove that ( ) ( ) Uy- Vx +i Ux+Vy is analytic in R 7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976), Advanced Calculus for Application 2nd Edition.
+92 MTH 305 COMPLEX ANALYSIS II UNIT 3 PRINCIPLES OF ANALYTIC CONTINUATION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Residues and Residues Theorem 3.2 Calculation of Residues 3.3 Residues Theorem 11.0 Conclusion 12.0 Summary 13.0 Tutor-Marked Assignment 14.0 References/Further Readings 1.0 INTRODUCTION We shall examine in this unit principle of analytic continuation and establish conditions under which functions of complex variables will be analytic in some regions.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • define residues and residues theorem • do calculations of residues • answer questions on residues.
+93 MTH 305 COMPLEX ANALYSIS II 3.0 MAIN CONTENT ( ) Suppose that inside some circle of convergence C with centre at a ,f z is 1 represented by a Taylor series expansion defined by: f(z) = a +a (z- a)+a (z- a)2 +.......(1) 0 1 2 ( ) If the value of f z is not known, choosing a point b insideC , we can find 1 ( ) the value of f z and its derivatives at b. from (1) and thus arrive at a new series ( ) ( ) b +b z- b +b z- b 2 +..........+................................……………………(2) 0 1 2 Having circle of convergenceC .
+If C extends beyondC , then the values 2 2 1 of and its durations can be obtained in this extended portion.
+In this case, ( ) we say that f z has been extended analytically beyond C and the process 1 is called analytic continuation or analytic extension.
+This process can be repeated indefinitely.
+( ) Definition: Let F z be a function of z which is analytic in a regionR .
+1 1 ( ) Suppose that we can find a function F z which is analytic in a region R 2 2 ( ) ( ) and which is such that F z = F z in the region common to R and R .
+1 2 1 2 ( ) ( ) Then we say that F z is an analytic continuation ofF z .
+2 1 3.1 Residues and Residues Theorems Recall that a point z is called a singular point of the function f if f fails 0 to be analytic at z but is analytic at some point in every neighborhood of 0 z .
+A singular point z is said to be isolated if in addition, there is some 0 0 nbd of z throughout which f is analytic except at the point itself.
+0 When z is an isolated singular point of a function f , there is a positive 0 number R, such that f is analytic at each point z for which 0< z- z < R 0 1 consequently the function is represented by a series.
+f(z)=∑an(z- z )h + b1 + b2 +.....+ bh +......... 0 z- z (z- z )2 (z- z)h n=0 0 0 0< z- z < R 0 1 94 MTH 305 COMPLEX ANALYSIS II Where the coefficients ah and bh have certain integral representations.
+In particular ( ) 1 f z dz ( ) b = ∫ h =1, 2..........
+….
+(2) h h hi (z- z )h+1 c 0 When C is any positively oriented simple closed contour around Z and 0 lying in the domain 0< z- z < R h ( ) When h =1, this expression for b can be written ∫ f z dz = 2h ib …(3) h 1 c 1 The complex number b which is the coefficient of ( ) in expansion 1 z- z 0 (1) called the residue of f at the isolated singular point z 0 Equation (3) provides a powerful method for conducting certain integral around simple closed …… Example Consider the integral e- z ∫ dz ( ) c z- 1 2 Is analytic within and on C except at the isolated singular point z =1.
+Thus, according to equation (3), the value of integral (4) is ……times the …..of f at z = 1.
+To determine this residue, we recall the maclaurin series expansion.
+¥ zh ( ) ez =∑ z <¥ n1 n=o From which it follows that e- z e- 1e- (z- 1) ¥ (- 1)h (z- 1)n- 2 ( ) = =∑ 0< z- 1 <¥ (z- 1)2 (z- 1)2 h i e n- 0 95 MTH 305 COMPLEX ANALYSIS II In this Laurent series expansion, which can be written in the form (1), the 1 coefficient of is - 1 .
+that is, the residue of f at z = 1 is- 1 .
+Hence z- 1 e e ei- z )n( ∫ dz = ( ) c z- 1 2 e 3.2 Calculation of Residues If z = z is a pole of order K, there is a formula for b given as 0 n lim 1 dii- i {( ) ( )} b = ( ) z- z n f z ………………..(5) n z ﬁ z n- 1!dzn- 1 0 0 If h =1 (simple pole), the result is given as lim ( ) ( ) b = z- z f z 1 z ﬁ z 0 0 z ﬁ z 0 Which is a special case - f (5) with h =1 if one defines0!=1.
+Example For each of the following functions, determine the poles and the residues at the poles.
+2z+1 z+12 (a) (b)   z2 - z- 2 z- 1 Solution 2z+1 2z+1 (a) = ( )( )……the function has two poles at z = - 1 and z2 - z- 2 z+1 z- 2 z =2 both of under 1.
+Residue at z = - 1, ( )( ) lim ( ) ( ) lim z+1 2z+1 z+1 f z = ( )( ) z ﬁ - 1 z ﬁ - 1 z+1 z- 2 lim 2z+1 1 = = z ﬁ - 1 z- 2 3 Residue at z = 2, 96 MTH 305 COMPLEX ANALYSIS II ( )( ) lim z- 2 2z+1 lim 2z+1 5 = = ( )( ) z = 2 z+1 z- 2 z ﬁ 2 z+1 3 (b) z = 1 is a pole of order 2.
+Residue at z = 1 is { } lim y ( ) ( ) ( ) z- 1 2 z+1 2 / z- 1 2 z ﬁ 1dz lim d ( ) lim ( ) z+1 2 = 2 z+1 = 4. z ﬁ 1dz z ﬁ 1 3.3 Residue Theorem Theorem: Let C be a positively oriented simple closed contour within and on which a function f is analytic except for a finite number of singular points z , z ,… , z interior to C. If B , B ,…,B denote the residues of f at 1 2 n 1 2 n these points respectively, then ( ) ( ) ∫ f z dz = 2pi B +B +.........+B …………………………………….
+(1) 1 2 n c Proof ( ) Let the singular points zj j =1,2,....n be centers of positively oriented circles Cj which are interior to C and are so small that no two of the circles have points in common.
+c 1 c n c c 2 3 The circles Cj together the simple closed contour C form the boundary of a closed region throughout which f is analytic and whose interior is a multiply connected domain.
+Hence, according to the extension of the Cauchy-Goursat theorem to such regions.
+( ) ( ) ( ) ( ) ∫ f z dz = ∫ f z dz - ∫ f z dz- ..........- ∫ f z dz =0 c c c c 1 2 n 97 MTH 305 COMPLEX ANALYSIS II This reduces to equation (1) because ( ) ( ) ∫ f z dz = 2p iBj 1,2,..........n c 1 And the proof is complete.
+Example: Let us use the theorem to evaluate 5z- 2 ∫ ( ) dz cz z- 1 Where Cis the circle z = 2, described counterclockwise.
+The integrated has the two singularities z =0 and z =1, both of which are interior to C. We can find the residues B at z =0 and B at z =1 with the aid of the 1 2 maclurin series.
+1 ( ) =1+z+ z 2............. z <1 1- z 1 We first write the Laurent expansion 5z- 2 5z- 1  - 1   2 ( ) ( ) =    =5-  - 1- z- z2.......... z z- 1  z  1- z  z 2 ( ) = - 3- 3z............................... 0< z <1 z Of the integrand and conclude that B = 2.
+Next, we observe that 1 ( ) 5z- 2 5 z- 1 +3  1  = ( )    ( ) z z- 1  z  1+ z- 1   3  ( ( )) ( ) = 5+  1- z- 1 + z- 1 2........  z- 1 When0< z- 1 <1.
+The coefficient of 1(Z- 1) in the Laurent expansion which is valid for 0< z- 1 <1 is therefore 3 ThusB =3, and 2 5z- 2 ( ) ∫ ( )dz = 2p i B +B =10pi .
+cz z- 1 1 2 An alternative and simple way of solving the problem is to write the integrand as the sum of its partial fractions.
+Then 5z- 2 2 3 ∫ ( )dz = ∫ dz + ∫ dz = 4p i +6p i=10p i cz z- 1 cz cz- 1 98 MTH 305 COMPLEX ANALYSIS II 4.0 CONCLUSION The residue method learnt in this units allows us to handle integration with ease.
+You are required to master this method very well.
+5.0 SUMMARY Recall that we started this unit by defining the residue theorem which is now recalled for your understanding: Let C be a positively oriented simple closed contour within and on which a function f is analytic except for a finite number of singular points z , z ,…, 1 2 z interior to C. If B , B ,…,B denote the residues of f at these points n 1 2 n respectively, then ( ) ( ) ∫ f z dz = 2pi B +B +.........+B .
+1 2 n c This theorem form the basis for solves complex integration.
+You may wish to answer the following tutor-marked assignment question.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Evaluate the integral 7z- 5 ∫ dz c z- 1 2.
+Evaluate z+2 ∫ dz z2 - 5z+6 5z- 2 ∫ dz 3. z2(z- 1) c 99 MTH 305 COMPLEX ANALYSIS II 7.0 REFERENCES/FURTHER READING Francis B. Hildebrand (1976), Advanced Calculus for Application 2nd Edition.
+100 MTH 305 COMPLEX ANALYSIS II UNIT 4 COMPLEX INTEGRATION CONTENTS 8.0 Introduction 9.0 Objectives 10.0 Main Content 3.1 Curves 3.2 Simply and Multiply Connected Regions 3.3 Complex Line Integral 3.4 Cauchy- Goursat Theorem 11.0 Conclusion 12.0 Summary 13.0 Tutor-Marked Assignment 14.0 References/Further Readings 2.0 INTRODUCTION This unit will examine complex integration.
+The theorem on line integral, such as greens theorem will also be examined.
+3.0 OBJECTIVES At the end of this unit, you should be able to: • define integration on complex variables • define the complex form of green’s Theorem • learn about Cauchy-Goursat theorem • learn about Cauchy integral • solve related problems on complex integrations.
+3.0 MAIN CONTENT 3.1 Curves ( ) ( ) If f t and y t are real functions of the real variable t assumed continuous in t £ t£ t , the parametric equations 1 2 ( ) ( ) ( ) Z = x+iy =f t +iy t = Z t t £ t £ t 1 2 101 MTH 305 COMPLEX ANALYSIS II ( ) Define a continuous curve or arc in the Z-plane joining points a = Z t and 1 ( ) b = Z t as shown below 2 y b a O x ( ) ( ) If t mt whileZ t = Z t , i.e.
+a =b, the end point is coincide and the 1 2 1 2 curve is said to be closed.
+A close curve which does not intersect itself anywhere is called a simple closed curve.
+( ) ( ) If f t and y t have its derivations in t £ t £ t , the curve is often called a 1 2 smooth curve or arc.
+A curve which is composed of a finite number of smooth arcs is called a piecewise or sectionally smooth curve or sometimes a contour.
+For example, the boundary of a square of a piecewise smooth curve or contour.
+3.2 Simply and Multiply Connected Regions A region R is called simply connected if any simple closed curve which lies in R can be shrunk to a point without leaving R. A region R which is not simply connected is called multiply-connected e.g.
+z <2.
+< z <2.
+3.3 Complex Line Integrals Suppose that the equation ( ) ( ) z = z t a £ i £ b …………………………………………….. (4.1.1) ( ) Represents a contourC, extending from a point z = z a to a 1 ( ) ( ) ( ) ( ) pointz = z b .
+Let the function f z =m x,y +iv x,y be piecewise 2 ( ) ( ) ( ) continuous onC.
+If z t =m t +iy t the function 102 MTH 305 COMPLEX ANALYSIS II [ ( )] [ ( ) ( )] [ ( ) ( )] f z t = m x t ,y t +iv x t ,y t is piecewise continuous on the interval a £ t £ b.
+We define the line integral or contour integral, of f along Cas follows: ∫ f(z)dz = ∫b[z(t)] z1(t)dt………………………………………….. (4.1.2) c a ( ) Note that since Cis a contour, z t is also piecewise continuous on the integrala £ t£ b, and so the existence of integral (4.1.2) is ensured.
+The integral on the right-hand side in equation (4.1.2) is the product of the complex-valued functions.
+[ ( ) ( )] [ ( ) ( )] ( ) ( ) m x t ,y t + i v n t ,y t , n1 t + y1 t .
+Of the real variable t. Thus ( ) ( ) ∫ f(z)dz = ∫b mx1 - vy1 dt + i ∫b vn1 +uy1 dt………………………….
+(4.1.3) c a a In terms of line integrals of real-valued functions of two real variables, then ( ) ∫ f z dz = ∫mdx- vdy + i ∫vdu + udy……………………………… (4.1.4) c c Example: Find the value of the integral I = ∫z2dz 1 c 1 Where C is the line segment from z =0 to z = 2+i 1 Proof Points of C lie on the line y = x or x = 2y.
+If the coordinate yis used as 1 2 the parameter, a parametric equation for C m 1 ( ) z = 2y + i y 0£ y £ 1 Also, in C the integral z2 becomes 1 ( ) z2 = 2y+iy 2 = 3y2 +i4y2 Therefore, ( ) I = ∫1 3y2 +i4y2 (2+i) dy 1 0 = (3+4i)(2+i) ∫1y2dy = 2 +11 i 0 3 3 103 MTH 305 COMPLEX ANALYSIS II Example: Let C denote the contour 0AB shown below 2 y B2+1 C 0 A m Evaluate I = ∫z2dz 2 c 2 Solution I = ∫z2dz = ∫ z2dz +∫z2dz 2 c 0A AB 2 ( ) The parametric equation for path 0A is z = n+i0 1£ x£ 2 and for the path ( ) AB one can writeZ = 2+iy 0£ y £ 1 .
+Hence I = ∫2x2dx+ ∫1(2+iy)2idy.
+2 0 0 ( ) = ∫2x2dx+2∫1 4- y2 dy+4i∫1ydy   0 0 o 2 11 = + i 3 3 Green’s Theorem in the plane ( ) ( ) Let P x ,y and Q x,y be its and have its partial derivatives in a region R and on its bounding C. Green’s theorem states that ( ) ∫Pdx+Qdy = ∫ ∫ Q - P dndy x y c R The theorem is valid for both simple and multiple connected regions.
+104 MTH 305 COMPLEX ANALYSIS II 3.4 Complex Form of Green’s Theorem ( ) Let F z,z be its and have its derivations in a region Rand on its bounding C, where z = x+iy, z = x- iy are complex conjugate coordinates.
+The Green’s theorem can be written in the complex form as ( ) ¶ F ∫F z,zdz = 2i∫∫ dA where dArepresents the element of area dndy c ¶ z Proof ( ) ( ) ( ) LetF z,z = P x +iQ x,y .
+Then using Green’s theorem, we have ( ) ( ) ∫F z zdz = ∫ P+iQ (x,y)dz = ∫Pdn- ,Qdy+i∫Qdn+Pdy 1 c c c c ¶ Q ¶ P ¶ P ¶ Q = - ∫∫ +  dndy+i∫∫ -  dxdy     ¶ R ¶ y   ¶ x ¶ y  R R ¶ P ¶ Q ¶ P ¶ Q = i∫∫ - +i +  dxdy  ¶ x ¶ y   ¶ y ¶ x  R ¶ F = 2i ∫∫ dndy ¶ Z R Example: Evaluate the integral I = ∫zdz Where (i) The path of integration Cis the upper half of the circle z =1from z = - 1 to z =1.
+(ii) Same points but along the lower semi circleC.
+105 MTH 305 COMPLEX ANALYSIS II Solution (i) The parametric representation z =eiex (0£ˇ£ i) and since ( ) d eiQ /d=ˇ ieiˇ (cid:217) I = ∫zdz= - ∫e- iˇ ieiˇ d0= - p i c 0 y -1 1c (ii) I=∫zdz=∫2(cid:217) e- 1Qi eiˇ df =p i (cid:217) Example: Evaluate ∫zdzfrom z =0to z = 4+2ialong the curve Cgiven by (a) z =t2 +it (b) the line from z =0and z = 2iand then the line from z = 2i to z = 4+2i Solution (a) The given integral equal, ( )( ) ∫ n- iy dn+idy = ∫ndk + ydy+i ∫ndy- ydn c c c The parametric equations of Care n =t2,y =tfrom t =0to t = 2 Then the line integral equal ( ) ( ) ∫2 t2 (2tdt)+(t)(dt)+i∫2 t2 (dt)- (t)(dt- dt) t=0 t=0 = ∫2(2i3 +t)dt+i∫2(- t2)dt =10- 8i 0 0 3 ( )( ) (b) ∫ x- iy dx+idy = ∫xdx+ ydy+i∫ndy- ydx c c c ( ) ( ) The line from Z =0 to Z = 2iis the same as 0,0 to 0,2 for which x =0, dn =0 and the line integral equals.
+∫4 (Q)(0)+ ydy+i∫2 (0)dy- y(0)= ∫2 ydy = 2. y=0 y=0 y=0 106 MTH 305 COMPLEX ANALYSIS II ( ) The line from z = 2i to z = 4+2i is the same as the line from 0,2 ( ) to 4,2 for which y = 2,dy =0 and the line integral equals ∫4xdx+2•0+i∫4 n•0- 2dn = ∫4xdx+i∫4- 2xdx =8- 8i 0 x=0 0 0 8i ( ) Then the requires value = 2+ 8- 8i =10.
+3.4 Cauchy-Goursat Theorem ( ) ( ) Suppose that two real-valued function P n,y and Q n,y together with their partial derivatives of the first order, are continuous throughout a closed region Rconsisting of points interior to and on a simple closed contour C in the nyplane.
+By Green’s theorem, for line integrals, ( ) ∫Pdn+Qdy = ∫∫ f - P dndy.
+x y c R Consider a function ( ) ( ) ( ) f z =u x,y +i v x,y Which is analytic throughout such a region Rin the ny, or Z , plane, the line integral of f along Ccan be written ( ) ∫ f z dz = ∫ndn- vdy+i ∫vdx+udy…………………………………(1) c c c Since f is its inR, the functions uand v are also its theorem i and if the derivative f1 of f is its in R, so are the first order partial derivatives of u and v. By Green’s theorem, (1) could be written as ( ) ( ) ( ) ∫ f z dz = ∫∫ - v - u dndy + i ∫∫ u - v dndy……………………….
+(2) x y x y c R R But in view of the Cauchy-Goursat equations U =V ,U = - V x y y x The integrals of these two double integral are zero throughoutR.
+So ( ) Theorem: If f is analytic in Rand f1 is continuous then, ∫ f z dz =0.
+c This is known as Cauchy theorem.
+Goursat proved that the condition of continuity of f1in the above Cauchy theorem can be omitted.
+Theorem: (Cauchy-Goursat theorem) If a function f is analytic at all points interior to and in a simple closed contour C, then 107 MTH 305 COMPLEX ANALYSIS II ( ) ∫ f z dz =0.
+c Cauchy-Goursat theorem can also be modified for the ……Bof a multiply connected domain.
+Theorem: Let Cbe a simple closed contour and let Cj (j =1,2,....n)be a finite number of simple closed contours inside Csuch that the regions interior to each Cj have no points in common.
+Let Rbe the closed region consisting of all points within and on Cexcept for points interior to each Cj.
+Let Band all the contours oriented boundary of Rconsisting of C and all the contoursCj, described in a direction such that the interior points of Rlie to the left ofB.
+Then, if f is analytic throughoutR .
+1 ( ) ∫ f z dz =0 B y C C 2 C 1 x As a consequence of Cauchy’s theorem, we have the following Theorem: If f(z) is analytic in a simply-connected region R,then ∫b f(z)dz a is independent of the path in Rjoining any two points a and b in R. 108 MTH 305 COMPLEX ANALYSIS II Proof Consider the figure below y C B 1 A D b a E C 2 x By Cauchy’s theorem ( ) ∫ f z dz =0 ADBCA ( ) ( ) Or ∫ f z dz+ ∫ f z dz = 0 ADB BEA Hence ( ) ( ) ( ) ∫ f z dz = - ∫ f z dz = ∫ f z dz ADB BEA AEB Thus ∫ f(z)dz = ∫ f(z)dz = ∫b f(z)dz C C a 1 2 This yields the required result.
+Example: If Cis the curve y=x3 - 3x2 +4x- 1joining the points (1, 1) and (2, 3), show that ( ) ∫ 12z2 - 4izdz is independent of the path joining (1, 1) and (2, 3) c Solution: A (1, 1) ﬁ B (2, 1) ﬁ C (2, 3) Along A (1, 1) to B (2, 1), y = 1, dy = 0.
+So that z = x4i anddz=dx.
+Then 2{ } ( ) ( ) ∫ 12 x4i 2 - 4i x+i dx = 20 + 30i x- 1 109 MTH 305 COMPLEX ANALYSIS II Along B (2, 1) to C (2, 3), x = 2, dx =0 so that z = 2+iy anddz =idy.
+Then 3{ } ( ) ( ) ∫ 12 2+iy 2 - 4i 2+iy idy= - 176+8i y=1 y =1 So that ∫(12z2 - 41z)dz = 20+30i- 176+8i= - 156+38i c The given integral equals ( ) ( ) ∫2+3i 12z2 - 4iz dz = 4z3 - 2iz2 ∫2+3i = - 156+38i 1+i 1+i Morera’s Theorem ( ) Let f z be continuous in a simply connected region Rand suppose that ( ) ∫ f1 z dz =0 c ( ) Around every simple closed curve C in R. Then f z is analytic in R. This theorem is called the converse of Cauchy’s theorem and it can be extended to multiply-connected regions.
+Indefinite Integrals (Anti-derivatives) ( ) Let f z be a function which is continuous throughout a domainD, and ( ) ( ) suppose that there is an analytic function F such that F1 z = f z at each point inD.
+The function F is said to be an anti derivative of f in the domainD.
+Cauchy Integral Formula Theorem: Let f be analytic everywhere within and in a simple closed contour Ctaken in the positive sense.
+If Z is any point interior to C, then 0 ( ) ( ) 1 f z dz f z = ∫ 0 2p i cZ - z 0 This formula is called the Cauchy integral formula.
+It says that that if a function f is to be analytic within and on a simple closed contourC, then the values of f interior to Care completely determined by the values of f in C. 110 MTH 305 COMPLEX ANALYSIS II When the Cauchy integral formula is written as ( ) f a dz ( ) ∫ = 2p i f z ……………………………………………..(4) cZ - z 0 0 It can be used to evaluate certain integrals along.
+Simple closed contours Example: Let C be the positively oriented circle z = since the function ( ) ( ) f z =2 / 9- z2 is analytic within and in Cand the point Z= - iis interior 0 to C, then by Cauchy Integral formula ( ) zdz z/ 9- z2 - i p ∫( )( ) = ∫ ( ) = 2pc = c 9- z2 z+i c z- - i 10 d Proof Since f is its at Z , there corresponds to any positive number e , however 0 small, a positive number d such that ( ) ( ) f z - f z <e whenever z- z = r …………………………………(1) 0 0 ( ) Observe that the function f z is analytic at all points within and in (z- z ) 0 Cexcept at the pointz .
+Hence, by Cauchy-Goursat theorem for multiply 0 connected domain, it’s integral around the oriented boundary of the region between Cand C has value zero.
+0 ( ) ( ) f z dz f z dz ∫ - ∫ =0 cZ - z C Z - z 0 0 0 y e e p c z 0 1 That is ( ) ( ) f z dz f z dz ∫ = ∫ cZ - Z C Z - Z 0 0 0 111 MTH 305 COMPLEX ANALYSIS II This allows us to write ( ) ( ) ( ) f z dz ( ) dz f z - f z ∫ - f z ∫ = ∫ 0 dz…………………………(2) C Z - Z 0 C Z - Z C Z - Z 0 0 0 0 0 dz ∫ = 2pi C Z - Z 0 0 And so equation (Z) becomes ( ) ( ) ( ) f z dz ( ) f z - f z ∫ - 2pi f z = ∫ 0 dz……………………………….
+(3) C Z - Z 0 C Z - Z 0 0 0 By (1) and noting that the length of C is 2(cid:217) r , by properties of integrals 0 ( ) ( ) f z - f z e ∫ 0 dz < p2 r = 2ep C Z - Z r 0 0 In view of (3) then ( ) f z dz ( ) ∫ - 2pi f z < 2p e .
+C Z - Z 0 0 Since the left hand side of this inequality is a non negative constant which is less than an arbitrary small positive number, it must be equal to zero.
+Hence, equation for it valid and the theorem is proved.
+Cauchy’s integral formula can also be extended to a multiply connected ( ) v ( ) region.
+With the understanding that f denotes f z and that 0!
+= 1, we z can use mathematical induction to verify that ( ) f (n)(z )= n!
+∫ f z dz (n =v,1,2.)
+0 2p i C(Z - Z )n+1 0 When n = 0, this is just the Cauchy integral formula stated earlier.
+Sin 6Z Example: Find the value of ∫ ( ) dz C Z - (cid:217) 3 6 Where Cis a circle z =1 112 MTH 305 COMPLEX ANALYSIS II Solution: ( ) Sin6z 2pi f 2 Sin6p ∫ dz = 6 ( ) C Z - p 3 21 6 6x2p i[ ] = 5Sin4p Cos2p - Sin6p 6 6 6 2 = 21pi 16 Other Important Theorems 1.
+Cauchy’s inequality: ( ) If f z is analytic inside and on a circle Cof radius r and centre at z „ a,then f (n)(a) £ M •n!
+n =0,1, 2,........... rn ( ) Where M is a constant such that f z < M on C, i.e.
+M is an upper ( ) bound of f z on C. 2.
+Lowville’s Theorem: ( ) Suppose that for all Z in the entire complex plane, (i) f z is ( ) ( ) analytic and (ii) f z is bounded, i.e.
+f z < M for some constant M, ( ) then f z must be a constant 3.
+Fundamental Theorem of Algebra: ( ) Every polynomial P z = a +a z+a z2 + a Zn =0with degree 0 1 2 n p ‡ 1, and a „ 0 has at least one root.
+n 4.
+Maximum Modulus Theorem: ( ) If f z is analytic inside and on a simple closed curve Cand is not ( ) identically equal to a constant, then the maximum values of f z occurs on C. SELF ASSESSMENT EXERCISES 1.
+Evaluate ∫(2,5)(3x+ y)dx + (xy- x)dy along ( ) 0,1 (a) the curve y = x2 +1 (b) the straight line joining (0, 1) and (2, 5) (c) the straight line from (0, 1) to (0, 5) and then (0, 5) to (2, 5) 113 MTH 305 COMPLEX ANALYSIS II ( ) 2.
+Evaluate ∫ x2 - iy2 dz C (a) along the parabola……y = 4n2 from (1,4) to (2, 16) (b) straight line from (1, 1) to (1, 8) and then from (1, 8) to (2, 8).
+( ) 3.
+Evaluate ∫2- i 3xy+iy2 dz - 2+i (a) along the curve x = 2t- 2 i- y =1+t- t2 (b) along the straight line joining x = - 2+i and z = 2- i 4.
+Evaluate SinpZ2 +CospZ2 (a) ∫ ( )( ) dz, where Cis the circle Z =3.
+C Z - 1 Z - 2 e2z (b) ∫ dz where Cis the circle Z =3 ( ) C Z +1 4 Sin3z 5.
+Evaluate ∫ dz if Cis the circle Z =5 C Z +p 2 4.0 CONCLUSION The materials in this unit must be learnt properly because they will keep on re occurring as progress in the study of mathematics at higher level.
+5.0 SUMMARY We recap what we have learnt in this unit as follows: You learnt about Cauchy-Goursat equations, Moreras Theorem and applied it to indefinite integrals.
+We also consider Cauchy integral Formula We considered some solved examples to illustrate the theory we have learnt in this unit.
+You may which to answer the following tutor-marked assignment 114 MTH 305 COMPLEX ANALYSIS II 6.0 TUTOR-MARKED ASSIGNMENT ( ) 1.
+Evaluate ∫2- i 3xy+iy2 dz - 2+i (a) along the curve (b) along the straight line joining x = - 2+i and z = 2- i 2, Evaluate Sinpz2 +Cospz2 (a) ∫ ( )( ) dz, where Cis the circle z =3.
+C z- 1 z- 2 e2z (b) ∫ dz where Cis the circle z =3 ( ) C z+1 4 Sin3z 3..
+Evaluate ∫ dz if Cis the circle z =5 C z+p 2 7.0 REFERENCES/FURTHER READINGS Francis B. Hildebrand (1976), Advanced Calculus for Application 2nd Edition.
+115

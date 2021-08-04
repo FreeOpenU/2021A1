@@ -1,0 +1,569 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 304 COURSE TITLE: COMPLEX ANALYSIS  MTH 304 COMPLEX ANALYSIS COURSE GUIDE NATIONAL OPEN UNIVERSITY OF NIGERIA  Course Code MTH 304 Course Title Complex Analysis Course Writer ANTNONIO YISA OLUWATOYIN Obafemi Awolowo University O.A.U.
+Ile-Ife Osun State.
+Course Editor Prof. Ajetunmobi M.O Faculty of Science Lagos State University, Ojo.
+Lagos Programme Leader Dr. Ajibola Saheed O.
+School of Science and Technology National Open University of Nigeria Victoria Island, Lagos NATIONAL OPEN UNIVERSITY OF NIGERIA Contents Introduction The Course Course Aims and Objectives Working through the Course Course material Study Units Textbooks Assessment Tutor Marked Assignment End of Course Examination Summary INTRODUCTION Complex number is the study of complex number together with their derivatives, manipulation, and other properties.
+Complex analysis is an extremely powerful tool with large number of practical application to the solution of physical problems – contour integration which provides a means of computing difficult integrals by investigating the singularities of the functions in the region of complex plain near and between the limits of integration.
+Complex analysis is also very useful in Taylor series expansion, Laurent series, Bilinear transformations, hydrodynamics, thermodynamics etc.
+THE COURSE: MTH 304 Complex Analysis This course comprises a total of six Units distributed across three modules as follows: Module 1 comprised of 2Units Module 2 is comprised of 2 Units Module 3 is comprised of 1 Unit and Module 4 is comprised of 1 Unit In Module 1 we shall commence this course with a visit to the Preliminary Concepts complex numbers in unit 1 and in unit2 we focus on complex functions.
+Module 2 has two units, while the first unit discussed Analytic functions in complex form and the second unit deals with the ideal of limits and continuity as it relates to complex analysis.
+Lastly, Module three has only one unit and focused on Taylor and Laurent Series while the last, Module 4 has only one unit which presents the topic Bilinear Transformation.
+COURSE AIMS AND OBJECTIVES The objects of this course is to have your understanding of Complex Analysis whilst acquainting you with the graphical and mathematical significance of Complex numbers and functions and its applications to, “Taylor and Laurent Series and Bilinear Transformation’’ all of the above of which are expected to motivate you towards further enquiry into this very interesting and highly specialized mathematical habitat.
+On your part we expect you in turn to conscientiously and diligently work through this course upon completion of which you should be able to: The objectives of this unit are to: .
+look at Cauchy-Riemann Equation - Appreciate the basic concepts underlying complex numbers.
+- Investigate and explain geometry on complex plane - Treat some polar co-ordinates - Work through a series of examples of transformations and conversions, and their solutions - Study derivatives of a function.
+- Investigate and study functions of a complex variable.
+- Investigate and study Analytic functions - Study Cauchy’s integral formular - Look at solutions on Liouville’s Theorem - To see how |f(z)| must attain its maximum value somewhere in this domain D. - Define the Limit and continuous functions - To study Series - Know the Power Series.
+- Study bilinear transformation - Design of an IIR low-pass filter by the bilinear transformation method - Explain higher order IIR digital filters - Discuss IIR discrete time high-pass band-pass and band-stop filter design - Comparison of IIR and FIR digital filters.
+WORKING THROUGH THE COURSE This course requires you to spend quality time to read.
+The course content is presented in clear mathematical language that you can easily relate to and the presentation style adequate and easy to assimilate.
+You should take full advantage of the tutorial sessions because this is a veritable forum for you to “rub minds” with your peers – which provides you valuable feedback as you have the opportunity of comparing knowledge and “rubbing minds” with your course mates.
+COURSE MATERIAL You will be provided course material prior to commencement of this course, which will comprise your Course Guide as well as your Study Units.
+You will receive a list of recommended textbooks which shall be an invaluable asset for your course material.
+These textbooks are however not compulsory.
+STUDY UNITS You will find listed below the study units which are contained in this course and you will observe that there are four modules.
+The first and second penultimate modules comprise two Units each, while in the third and the last modules; one Unit each.
+Module 1 Unit 1 Complex Numbers Unit 2 Complex Functions Module 2 Unit 1 Analytic Functions Unit 2 Limit and Continuity Module 3 Unit 1 Taylor and Laurent Series Module 4 Unit 2 Bilinear Transformation TEXTBOOKS There are more recent editions of some of the recommended textbooks and you are advised to consult the newer editions for your further reading.
+Advance Calculus by Schum series Engineering Mathematics by K.A.Stroud George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis.
+Cambridge Mathematical Library ASSESSMENT Assessment of your performance is partly trough Tutor Marked Assessment which you can refer to as TMA, and partly through the End of Course Examinations.
+TUTOR MARKED ASSIGNMENT This is basically Continuous Assessment which accounts for 30% of your total score.
+During this course you will be given 4 Tutor Marked Assignments and you must answer three of them to qualify to sit for the end of year examinations.
+Tutor Marked Assignments are provided by your Course Facilitator and you must return the answered Tutor Marked Assignments back to your Course Facilitator within the stipulated period.
+END OF COURSE EXAMINATION You must sit for the End of Course Examination which accounts for 70% of your score upon completion of this course.
+You will be notified in advance of the date, time and the venue for the examinations which may, or may not coincide with National Open University of Nigeria semester examination.
+SUMMARY Each of the four modules of this course has been designed to stimulate your interest in Complex number through associative conceptual building blocks in the study and application of Complex analysis to practical problem solving.
+By the time you complete this course, you should have acquired the skills and confidence to solve many Integral Equations more objectively than you might have thought possible at the commencement of this course.
+This however; is subject to this advise - make sure that you have enough referential and study material available and at your disposal at all times, and – devote sufficient quality time to your study.
+I wish you the best in your academic pursuits – good luck.
+MTH 304 COMPLEX ANALYSIS COURSE MATERIAL NATIONAL OPEN UNIVERSITY OF NIGERIA Course Code MTH 304 Course Title Complex Analysis Course Writer ANTNONIO YISA OLUWATOYIN Obafemi Awolowo University O.A.U.
+Ile-Ife Osun State.
+Course Editor Prof. Ajetunmobi M.O Faculty of Science Lagos State University, Ojo.
+Lagos Programme Leader Dr. Ajibola Saheed O.
+School of Science and Technology National Open University of Nigeria Victoria Island, Lagos  NATIONAL OPEN UNIVERSITY OF NIGERIA Contents Introduction The Course Course Aims and Objectives Working through the Course Course material Study Units Textbooks Assessment Tutor Marked Assignment End of Course Examination Summary  MODULE 1 Unit 1 Complex Numbers Unit 2 Complex Functions Unit 1 Complex Numbers CONTENTS 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Geometry 3.2 Polar Co-ordinates 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Reference/further Reading 1.0 INTRODUCTION It was observed that when the only number(s) you known were the ordinary everyday integers.
+You had no trouble solving problems in which you were, for instance, asked to find a variable x such that 3x = 6.
+You are quick to answer”2”.
+Then, find a number x such that 3x = 8.
+You were stumped—there was no such “number”!
+You perhaps explained that 3(2) = 6 and 3(3) = 9, and since 8 is between 6 and 9, you would somehow need a number between 2 and 3, but there isn’t any such number.
+Thus one is introduced to “fractions.” These fractions, or rational or quotient numbers, were defined to be ordered pairs of integers, for instance, (8,3) is a rational number.
+Two rational numbers (n,m) and (p,q) were defined to be equal whenever nq = pm.
+(More precisely, in other words, a rational number is an equivalence class of ordered pairs, etc.)
+Recall that the arithmetic of these pairs was then introduced: the sum of (n,m) and (p,q) was defined by (n,m) + (p,q) = (nq + pm,mq), and the product by (n,m)(p,q) = (np,mq).
+Subtraction and division were defined, as usual, simply as the inverses of the two operations.
+You probably felt at first like you had thrown away the familiar integers and were starting over.
+But no, you noticed that (n,1) + (p,1) = (n + p,1) and also (n,1)(p,1) = (np,1).
+Thus the set of all rational numbers whose second coordinate is one behave just like the integers.
+If we simply abbreviate the rational number (n,1) by n, there is absolutely no danger of confusion: 2 + 3 = 5 stands for (2,1) + (3,1) = (5,1).
+The equation 3x = 8 that started thisall may the n be interpreted as shorthand for the equation (3,1)(u, v) = (8,1), and one easily verifies that x = (u, v) = (8,3) is a solution.
+Now, if someone runs at you in the night and hands you a note with 5 written on it, you do not know whether this is simply the integer 5 or whether it is shorthand for the rational number (5,1).
+What we see is that it really doesn’t matter.
+What we have “really” done is expanded the collection of integers to the collection of rational numbers.
+In other words, we can think of the set of all rational numbers as including the integers–they are simply the rationals with second Coordinate 1.
+One last observation about rational numbers.
+It is, as everyone must know, traditional to write the ordered pair (n,m) as nm.
+Thus n stands simply for the rational number n1, etc.
+Now why have we spent this time on something everyone learned in the grade ?
+Because this is almost a paradigm for what we do in constructing or defining the so-called complex numbers.
+Euclid showed us there is no rational solution to the equation x2 = 2.
+We were thus led to defining even more new numbers, the so-called real numbers, which, of course, include the rationals.
+This is hard, and you likely did not see it done in elementary school, but we shall assume you know all about it and move along to the equation x2 = -1.
+2.0 OBJECTIVE The objectives of this unit are to .
+investigate complex numbers.
+.
+explain geometry on complex plane.
+.
+study some polar co-ordinates.
+3.0 MAIN CONTENT 3.1 Complex Numbers We define complex numbers.
+These are simply ordered pairs (x, y) of real numbers, just as the rationals are ordered pairs of integers.
+Two complex numbers are equal only when there are actually the same– that is (x, y) = (u, v) precisely when x = u and y = v. We define the sum and product of two complex numbers: (x, y) + (u, v) = (x + u, y + v) and (x, y)(u, v) = (xu - yv, xv + yu) As always, subtraction and division are the inverses of these operations.
+Now let’s consider the arithmetic of the complex numbers with second coordinate 0: (x,0) + (u,0) = (x + u,0), and (x,0)(u,0) = (xu,0).
+Note that what happens is completely analogous to what happens with rationals with second coordinate 1.
+We simply use x as an abbreviation for (x,0) and there is no danger of confusion: x + u is short-hand for (x,0) + (u,0) = (x + u,0) and xu is short-hand for (x,0)(u,0).
+We see that our new complex numbers include a copy of the real numbers, just as the rational numbers include a copy of the integers.
+Notice that x(u, v) = (u, v)x = (x,0)(u, v) = (xu, xv).
+Now then, any complex number z = (x, y) may be written z = (x, y)=( x, 0) + (0,y) z = x +y( x, 0) When, we let α=(0,1), then we have z =(x, y) = x +αy Now, suppose z = (x, y) = x +αy and w= (u, v) = u +αv.
+Then we have z w=( x +αy) (u +αv) = xu+α(xv+yu)+ α2yv We need only see what α2 is: α2=(0, 1)(0, 1)=(-1,0), and we have agreed that we can safely abbreviate (-1, 0) as -1.
+Thus, α2= -1 and so zw=( xu-yv)+α(xv+yu)+ α2yv and we have reduced the fairly complicated definition of complex number arithmetic simply to ordinary real arithmetic together with the fact that α2= -1.
+3.
+2 GEOMETRY We now have this collection of all ordered pairs of real numbers, and so there is an uncontrollable urge to plot them on the usual coordinate axes.
+We see at once then there is a one-to-one correspondence between the complex numbers and the points in the plane.
+In the usual way, we can think of the sum of two complex numbers, the point in the plane corresponding to z + w is the diagonal of the parallelogram having z and w as sides: z+w The geometric interpretation of the product of two complex numbers.
+The modulus of a complex number z = x + iy is defined to be the nonnegative real number √x2+y2, which is, of course, the length of the vector interpretation of z.
+This modulus is traditionally denoted |z|, and is sometimes called the length of z.
+Note that |(x,0)| = √x2 = |x|, and so |•| is an excellent choice of notation for the modulus.
+The conjugate z of a complex number z = x + iy is defined by z = x - iy.
+Thus |z|2 = z z. Geometrically, the conjugate of z is simply the reflection of z in the horizontal axis: z z Observe that if z = x + iy and w = u + iv, then (z+w) = (x+u) - i(y+v) = (x - iy) + (u - iv) = z + w. In other words, the conjugate of the sum is the sum of the conjugates.
+It is also true that zw = zw.
+If z = x + iy, then x is called the real part of z, and y is called the imaginary part of z.
+These are usually denoted Rez and Imz, respectively.
+Observe then that z + z = 2Rez and z- z = 21mz.
+Now, for any two complex numbers z and w consider |z + w|2 = (z+w) (z+w) = (z+w) (z +w) = z z + (w z + wz) + ww = |z|2 + 2Re (w z) + |w|2 ≤ |z|2 + 2|z||w| + |w|2 = (|z| + |w|)2 In other words, |z + w| ≤ |z| + |w| the so-called triangle inequality.
+3.3 POLAR COORDINATES Now let's look at polar coordinates (r, 8) of complex numbers.
+Then we may write z = r( + i ).
+In complex analysis, we do not allow r to be negative; thus r is simply the modulus of z.
+The number 9 is called an argument of z, and there are, of course, many different possibilities for 9.
+Thus a complex numbers has an infinite number of arguments, any two of which differ by an integral multiple of 2 .
+We usually write = argz.
+The principal argument of z is the unique argument that lies on the interval (- , ).
+SELF ASSSIGMENT EXERCISE If 1- i, we have Each of the numbers ,- , and is an argument of 1 - i, but the principal argument is - .
+Suppose z = r(cos + i sin ) and w = s(cos ζ +isin ζ).Th zw = r(cos + i sin )s(cos ζ +isin ζ) = rs[(cos cos ζ - sin sin~) + i(sin cos ζ + sin ζ cos )] = rs(cos( + ζ) + i sin( + ζ)) We have the nice result that the product of two complex numbers is the complex number whose modulus is the product of the moduli of the two factors and an argument is the sum of arguments of the factors.
+A picture: zw + ζ w ζ z We now define exp(i ), or ei by ei = cos + i sin We shall see later as the drama of the term unfolds that this very suggestive notation is an excellent choice.
+Now, we have in polar form z = rei , where r = |z| and is any argument of z.
+Observe we have just shown that ei eiζ = ei( +ζ).
+It follows from this that ei e-i = 1.
+Thus = e-i It is easy to see that = = (cos ( - ζ) + i sin ( - ζ)) 9 4.0 CONCLUSION  In this closing unit, the achievement resulting from this unit are highlighted in the summary.
+5.0 SUMMARY The summary of the work carried out in this unit given most importantly, the achievement resulting from this unit are highlighted below.
+we introduce to fraction or rational or quotient numbers, which was defined to be ordered pairs of integers.
+We showed that there is no rational solution to the equation x2 = 2.
+We were thus led to defining even more new numbers, the so-called real numbers, which, of course, include the rationals.
+Complex numbers were also defined on modulus, length conjugate, triangle inequality, argument and principal argument using examples to illustrate these definitions.
+TUTOR MARKED ASSIGNMENT l. Find the following complex numbers in the form x + iy: 2.
+Find all complex z = (x,y) such that z2 +z+ 1 = 0 3.
+Prove that if wz = 0, then w = 0 or z = 0.
+4. a) Prove that for any two complex numbers, zw = z w. b) Prove that ( ) = .
+c) Prove that ||z| - |w|| ≤ |w|.
+5.
+Prove that |zw| = |z||w| and that | | = .
+6.
+Sketch the set of points satisfying a) |z – 2 + 3i| = 2 b) |z + 2i| ≤ 1 c) Re(z + i) = 4 d) |z - 1 + 2i| = |z + 3 + i| e) |z + 1| + |z – 1| = 4 f) |z + 1| - |z – 1| = 4 7.
+Write in polar form rei : a) i b) 1 + i c) -2 d) -3i e) √3 + 3i 8.
+Write in rectangular form-no decimal approximations, no trig functions: a) 2ei3π b) ei100π c) 10e3π/6 d) √2 ei5π/4 9. a) Find a polar form of (1 + i)(1 + i√3).
+b) Use the result of a) to find cos ( ) and sin ( ).
+10.
+Find the rectangular form of (-1 + i) 100  11.
+Find all z such that z3 = 1.
+(Again, rectangular form, no trig functions.)
+12.
+Find all z such that z4 = 16i.
+(Rectangular form, etc.).
+8.0 REFERENCES/FURTHER READINGS Advance Calculus by Schum series Engineering Mathematics by K.A.Stroud UNIT 2 Complex Functions CONTENTS 8.0 Introduction 9.0 Objective 10.0 Main Content 10.1 Function of a Complex Variable 10.2 Derivatives 11.0 Conclusion 12.0 Summary 13.0 Tutor Marked Assignment 14.0 Reference/further Readings 1.0 INTRODUCTION A function y: I → C from a set I of real’s into the complex numbers C is actually a familiar concept from elementary calculus.
+It is simply a function from a subset of the reals into the plane, what we sometimes call a vector-valued function.
+Assuming the function y is nice, it provides a vector, or parametric, description of a curve.
+Thus, the set of all {y(t) : y(t) = eit = cos t + i sin t = (cos t, sin t), 0 ≤ t ≤ 2 } is the circle of radius one, centered at the origin.
+We also already know about the derivative of such functions.
+If y(t) = x(t) + iy(t), then the derivative of y is simply y1(t) = x'(t) + iy’(t), interpreted as a vector in the plane, it is tangent to the curve described by y at the point y(t) SELF ASSIGNMENT EXERCISE 1 Let y (t) = t + it2,-1 < t < 1.
+One easily sees that this function describes that part of the curve y = x2 between x = -1 SELF ASSIGNMENT EXERCISE 2 Suppose there is a body of mass "fixed" at the origin-perhaps the sun-end there is a body of mass m which is free to move-perhaps a planet.
+Let the location of this second body at time t be given by the complex-valued function z(t).
+We assume the only force on this mass is the gravitational force of the fixed body.
+This force f is thus Where G is the universal gravitational constant.
+Sir Isaac Newton tells us that \ Hence, Next, let’s write this in polar form, z =rei0 Where we have GM = k. now, let’s see what we have Now, (additional evidence that our notation ei0 = cos + is reasonable.)
+Thus, Now, Now the equation becomes This gives us the two equations And, Multiply by r and thus second equation becomes tells us that is a constant.
+(This constant is called the Angular momentum.)
+This result allows us to get rid of "' in the first of the two differential equations above: or, Although this now involves only the one unknown function r, as it stands it is tough to solve.
+Let's change variables and think of r  as a function of o.
+Let's also write things in terms of the function s =1 Then R Hence And so and our differential equation looks like or, This one is easy.
+From high school differential equations class, we remember that where A and (p are constants which depend on the initial conditions.
+At long last, where we have set є = Aa2/k.
+The graph of this equation is, of course, a conic section of eccentricity є.
+2.0 OBJECTIVES The objectives of this unit are to: .
+investigate and study functions of a complex variable.
+.
+study derivatives of a function.
+.
+look at Cauch-Riemann Equation 3.0 MAIN CONTENT 3.1 Functions of a complex variable The real excitement begins when we consider function f : D - C in which the domain D is a subset of the complex numbers.
+In some sense, these too are familiar to us from elementary calculus they are simply functions from a subset of the plane into the plane: f(z) = f(x, y)= u(x, y)+iv(x, y)= ((x,y),v(x, y)) Thus f(z) = z2 looks like f(z) = z2 = (x + iy)2 = z2 – y2 2xyi.
+In other words, u(x, y) = x2 – y2 and v(x,y) = 2xy.
+The complex perspective, as we shall see, generally provides richer and more profitable insights into these functions.
+The definition of the limit of a function f at a point z = z is essentially the same as that which we 0 learned in elementary calculus:  And, Provided, of course, that lim g (z) ≠ 0 z – z0 It now follows at once from these properties that the sum, difference, product, and quotient of two functions continuous at z are also continuous at z .
+(We must, as usual, except the dreaded 0 in the 0 0 denominator.)
+It should not be too difficult to convince yourself that if z =(x,y), z =(x ,y ) 0 0 0 and f (z) = u (x,y) + iv (x,y), then Thus f is continuous at z = (x ,y ) precisely when u and v are.
+0 0 0 Our next step is the definition of the derivative of a complex function f It is the obvious thing.
+Suppose f is a function and z is an interior point of the domain of f the derivative f (z ) off is o o SELF ASSIGNMENT EXERCISE 1 Suppose f (z) = z2.
+Then, letting ∆z = z – z , we have 0 No surprise here-the function f (z) =z2 has a derivative at every z, and it's simply 2z.
+SELF ASSIGNMENT EXERCISE 2 Suppose this limit exists,and choose ∆z = ( ∆x, 0).
+Then, Now, choose ∆z = (0, y).
+Then, Thus, we must have z + z =z – z = 0.
+In other words, there is no chance of this limit's existing, 0 0 0 0 except possibly at z = 0.
+So, this function does not have a derivative at most places.
+0 Now, take another look at the first of these two examples.
+Meditate on this and you will be convinced that all the "usual" results for real-valued functions also hold for these new complex functions: the derivative of a constant is zero, the derivative of the sum of two functions is the sum of the derivatives, the "product" and "quotient" rules for derivatives are valid, the chain rule for the composition of functions holds, etc., etc.
+For proofs, you need only go back to your elementary calculus book and change x's to z's.
+If f has a derivative at z , we say that f is differentiable at z .
+If f is differentiable at every point of a o o neighborhood of z , we say that is analytic at z .
+(A set S is a neighborhood of z if there is a disk D = { : o 0 0 │z—z │ < r, r > 0} so that D S. ( If f is analytic at every point of some set S, we say that f is analytic on 0 S. A function that is analytic on the set of all complex numbers is said to be an entire function.
+3.3.
+DERIVATIVES Suppose the function f given by f (z) = u(x, y) + iv(x, y) has a derivative at z = z = (x ,y).
+0 0 0 We know this means there is a number f (z ) so that 0 Choose ∆z = (∆x, 0) = Ax.
+Then, Next, choose ∆z=(0, ∆y) = i ∆ y.
+Then, We have two different expressions for the derivative f (z ), and so 0 Or These equations are called the Cauchy Riemann Equations.
+We have shown that if f has a derivative at a point z , then its real and imaginary parts satisfy these 0 equations.
+Even more exciting is the fact that if the real and imaginary parts of f satisfy these equations and if in addition, they have continuous first partial derivatives, then the function f has a derivative.
+Specifically, suppose u(x, y) and v(x, y) have partial derivatives in a neighborhood of z = (x ,y), suppose these 0 0 0 derivatives are continuous at z , and suppose 0 We shall see that f is differentiable at z .
+0 Observe that Thus, and, Where Thus Proceeding similarly, we get Where ɛ→ 0 ∆z→ 0.
+Now, unleash the Cauchy-Riemann equation on this quotient and obtain, Here, It's easy to show that and so, In particular we have, as promised, shown that f is differentiable at z .
+0 SELF ASSIGNMENT EXERCISE 3  Let's find all points at which the function f given by f (z) = x3 - i(I -y)3 is differentiable.
+Here we have u = x3 and v = -(1 -y)3.
+The Cauchy-Riemann equations thus look like The partial derivatives of u and v are nice and continuous everywhere, so f will be differentiable everywhere the C-R equations are satisfied That is, everywhere This is simply the set of all points on the cross formed by the two straight lines.
+4.0 CONCLUSION To end the unit we now give the summary of what we have covered in it.
+5.0 SUMMARY The unit can be summarized as follows : We discuss complex number on functions of a real variable as a function f : I → C from a set of real numbers into the complex number C while functions of a complex variable was defined as a function f : D → C in which the domain D is a subset of the complex number.
+We also showed that if f has a derivative at a point z , then its real and imaginary parts satisfied the 0 following equations These equations are called the Cauchy-Riemann equations.
+If the real and imaginary parts of f satisfy these equations and if in addition, they have continuous first partial derivatives, then the function f has a derivative.
+6.0 TUTOR ASSIGNMENT EXERCISES l. a)What curve is described by the function y(t) = (3t + 4) + i(t - 6), 0 ≤ t ≤ 1 ?
+b)Suppose z and w are complex numbers.
+What is the curve described by y(t) =(1- t)w+tz,0 ≤ t ≤ 1 2.
+Find a function y that describes that part of the curve y = 4x3 + 1 between x = 0 and x = 10.
+3.
+Find a function y that describes the circle of radius 2 centered at z = 3 - 2i.
+4.
+Note that in the discussion of the motion of a body in a central gravitational force field, it was assumed that the angular momentum a is nonzero.
+Explain what happens in case α =0 5.
+Suppose f (z = 3xy + i(x-y2).
+Find lim f(z).
+Or explain carefully why it does not exist 0 Z-3+2i 6.
+Prove that if f has a derivative at z, then f is continuous at z 7.
+Find all points at which the valued function f defined by f(z) = z has a derivative.
+8.
+Find all points at which the valued function f defined by f f(z) = (2+i)z3- iz2+ 4z- (1+7i) has a derivative 9.
+Is the function f given by differentiable at z = 0?
+Explain.
+10.
+At what points is the function f given by f (z) = x3 + i(1 -y)3 analytic?
+Explain 11.
+Do the real and imaginary parts of the function f in Exercise 9 satisfy the Cauchy-Riemann equations at z = 0?
+What do you make of your answer?
+12.
+Find all points at which f (z) = 2y - ix is differentiable.
+13.
+Suppose f is analytic on a connected open set D, and f (z) = 0 for all zєD.
+Prove that f is constant.
+14.
+Find all points at which is differentiable.
+At what points is f analytic?
+15.
+Suppose f is analytic on the set D, and supposes Re f is constant on D. Is f necessarily Constant on D?
+Explain.
+16.
+Suppose f is analytic on the set D, and suppose f (z) I is constant on D. Is f necessarily constant on D?
+Explain.
+REFERENCES/FURTHER READINGS Advance calculus by Schum series Engineering Mathematics by K.A.Stroud MODULE 2 Unit: 1 ANALYTIC FUNCTION CONTENTS 15.0 Introduction 16.0 Objective 17.0 Main Content 17.1 Cauchy's Integral Formula 17.2 Functions defined by integrals 17.3 Liouville's Theorem 17.4 Maximum Moduli.
+18.0 Conclusion 19.0 Summary 20.0 Tutor Marked Assignment 21.0 Reference/further Readings 3.0 .
+INTRODUCTION A function f(z) is analytic at a point z if its derivatives f’(z) 0 exist not only at z but atevery point z in a neighborhood of 0 z .
+0 Suppose f is entire and bounded; that is, f is analytic in the entire plane and there is a constant M such that |f (z)| ≤ M for all z.
+They say that the derivative of an analytic function is also analytic.
+Now suppose f is continuous on a domain D in which every point of D is an interior point and suppose that f(z)dz = 0 for every close curve in D. Even more exciting is the fact that if the real and imaginary parts of f satisfy these equations and if in addition, they have continuous first partial derivatives, then the function f has a derivative.
+2.0 OBJECTIVES The objectives of this unit are to: .
+investigate and study Analytic functions .
+study Cauchy’s integral formular .
+look at solutions on Liouville’s Theorem .
+to see how |f(z)| must attain its maximum value somewhere in this domain D. 3.0 MAIN CONTENT 3.1 CAUCHY’S INTEGRAL FORMULAR Suppose f is analytic in a region containing a simple closed contour C with the usual positive orientation and its 'inside, and suppose zo is inside C. Then it turns out that This is the famous Cauchy Integral Formula.
+Let є > 0 be any positive number.
+We know that f is continuous at zo and so there is a number δ such that |f(z) ─ f(zo)| < є whenever |z - zo| < δ.
+Now let p > 0 be a number such that p < δ and the circle Co = {z : |z – zo| = p} is also inside C. Now, the function is analytic in the region between C and C ; thus o We know that dz = 2πi, so we can write For zєC we have 0 Thus, Buts is any positive number, and so Or,  Which is exactly what we set out to show.
+It says that if f is analytic on and inside a simple closed curve and we know the values f(z) for every z on the stipple closed curve, then we know the value for the function at every point inside the curve.
+SELF ASSIGNMENT EXERCISE Let C be the circle |z| = 4 traversed once in the counterclockwise direction.
+Let's evaluate the integral We simply write the integrand as where  Observe that f is analytic on and inside C, and so, 3.2 FUNCTIONS DEFINED BY INTEGRAL Suppose C is a curve (not necessarily a simple closed curve, just a curve) and suppose the function g is continuous on C (not necessarily analytic, just continuous).
+Let the function G be defined by For all z є C. We shall show that G is analytic.
+Here we go.
+C Consider, Now we want to show that  To that end, let M = max{|g(s)| : s є C}, and let d be the shortest distance from z to C. Thus, for s є C, we have |s-z|≥ d > 0 and also |s-z-∆z|≥|s-z|-|∆z|≥d-|∆z|.
+Putting this all together, we can estimate the integrand above: For all s є C. Finally, And it is clear that Just as we set out to show.
+Hence G has a derivative at z, and we see that G` has a derivative and it is just what you think it should be.
+Consider  Next, Hence, Where m = max{|s – z| : s є C}.
+It should be clear then that Or in other words, Suppose f is analytic in a region D and suppose C is a positively oriented simple closed curve in D. Suppose also the inside of C is in D. Then from the Cauchy Integral formula, we know that and so with g = f in the formulas just derived, we have For all z inside the closed curve C. They say that the derivative of an analytic function is also analytic Now suppose f is continuous on a domain D in which every point of D is an interior point and suppose that dz = 0 for every closed curve in D. Then we know that f has an antiderivative in D─in other words f is the derivative of an analytic function.
+We now know this means that f is itself analytic.
+We thus have the celebrated Morera’s Theorem: If f.D → C is continuous and such that f(z)dz = 0 for every closed curve in D, then f is analytic in D. SELF ASSIGNMENT EXERCISE Let's evaluate the integral Where C is any positively oriented closed curve around the origin.
+We simply use the equation s With z = 0 and f(s) = e .
+Thus, 3.3 LIOUVILLE’S THEOREM Suppose f is entire and bounded; that is, f is analytic in the entire plane and there is a constant M such that |f (z)| ≤ M for all z.
+Then it must be true that f (z) = 0 identically.
+To see this, suppose that f (w): ≠ 0 for some w. Choose R large enough to insure that < |f (w)|.
+Now let C be a circle centered at 0 and with radius p > max{R, 1w 1}.
+Then we have:  a contradiction.
+It must therefore be true that there is no w for which, f' (w) * 0; or, in other words, f (z) = 0 for all z.
+This, of course, means that f is a constant function.
+We have shown Liouville's Theorem: The only bounded entire functions are the constant function.
+Let's put this theorem to some good use.
+n n-l Let p(z) = a z + a -iz +….+a z + a be a polynomial.
+Then n n l o Now choose R large enough to insure that for each j = 1, 2,...., n, we have | | < whenever |z| > R. (We are assuming that a ≠ n 0.)
+Hence, for |z| > R, we know that  Hence, for |z| > R, Now suppose-p(z) ≠ 0 for all z.
+Then r is also bounded on the disk IzI <_ R. Thus, is a bounded entire function, and hence, by Liouville's Theorem, constant!
+Hence the polynomial is constant if it has no zeros.
+In other words, if p(z) is of degree at least one, there must be at least one z for o which p(z ) = 0.
+This is, of course, the celebrated o Fundamental Theorem of Algebra.
+3.4 MAXIMUM MODULI Suppose f is analytic on a closed domain D. Then, being continuous, |f(z)| must attain its maximum value somewhere in this domain.
+Suppose this happens at an interior point.
+That is, suppose |f(z)| ≤ M for all z є D and suppose that |f(z )| = M for some z in the o o interior of D. Now z is an interior point of D, so there is a number o R such that the disk Λ centered at z having radius R is included in o D. Let C be a positively oriented circle of radius p ≤ R centered at z .
+From Cauchy's formula, we know o  Hence, and so, it Since |f(z + pe )| ≤ M. This means o Thus, This integrand is continuous and non-negative, and so must be zero.
+In other words, |f(z)| = M for all z є C. There was nothing special about C except its radius p ≤ R, and so we have shown that f must be constant on the disk Λ. I hope it is easy to see that if D is a region (=connected and open), then the only way in which the modulus |f(z)| of the analytic function f can attain a maximum on D is for f to be constant.
+4.0 CONCLUSION In this closing unit, the achievement resulting from this unit are highlighted in the summary.
+5.0 SUMMARY The famous Cauchy integral formula was well defined in the beginning of the unit.
+We have observed that if f is analytic on and inside a simple closed curve and we know the values f(z) for every z on the stipple closed curve, then we know the value for the function at every point inside the curve.
+We also knew that the derivative of an analytic function is also analytic.
+Suppose f is continuous on a domain D in which every point of D is an interior point and suppose that dz = 0 for every closed curve in D. Then we knew that f has an antiderivative in D─in other words f is the derivative of an analytic function.
+We said that f is itself analytic.
+We thus have the celebrated Morera’s Theorem.
+If f is entire and bounded; that is, f is analytic in the entire plane and there is a constant M such that |f (z)| ≤ M for all z.
+Then it must be true that f’(z)=0 identically.
+Suppose f is analytic on a closed domain D. Then, being continuous, |f(z)| must attain its maximum value somewhere in the domain.
+Suppose this happens at an interior point.
+That is,  suppose |f(z)| ≤ M for all z є D and suppose that |f(z )| = M for o some z in the interior of D. Now z is an interior point of D, o o so there is a number R such that the disk Λ centered at z o having radius R is included in D. Let C be a positively oriented circle of radius p ≤ R centered at z .
+o 6.0 TUTOR MARKED ASSIGNMENT l. Suppose f and g are analytic on and inside the simple closed curve C, and suppose moreover that f (z) = g(z) for all z on C. Prove that f (z) = g(z) for all z inside C. 2 2 2.
+Let C be the ellipse 9x + 4y = 36 traversed once in the counterclockwise direction.
+Define the function g by Find a) g(i) b) g(4i) 3.
+Find Where C is the closed curve in the picture: 4.
+Find where Г is the contour in the picture: 5.
+Evaluate Where C is a positively oriented closed curve around the origin.
+6.
+Let C be the circle |z – i| = 2 with the positive orientation.
+Evaluate 7.
+Suppose f is analytic inside and on the simple closed curve C. Show that for every w є C. it 8. a) Let a be a real constant, and let C be the circle y(t) = e , -π ≤ t ≤ π.
+Evaluate  b) Use your answer in part a) to show that 9.
+Suppose f is an entire function, and suppose there is an M such that Ref (z) ≤ M for all z.
+Prove that f is a constant function.
+& 2 10.
+Suppose w is a solution of 5z z - 7z + 14 = 0.
+Prove that (w J < 3.
+11.
+Prove that if p is a polynomial of degree n, and if p(a) = 0, then p(z) = (z - a)q(z), where q is a polynomial of degree n - 1.
+12.
+Prove that if p is a polynomial of degree n > 1, then 13.
+Suppose p is a polynomial with real coefficients.
+Prove that p can be expressed as a product of linear and quadratic factors, each with real coefficients.
+14.
+Suppose f is analytic and not constant on a region D and suppose f (z) ≠ 0 for all z є D. Explain why |f(z)| does not have a minimum in D. 15.
+Suppose f (z) = u(x, y) + iv(x, y) is analytic on a region D. Prove that if u(x, y) attains a maximum value in D, then u must be constant.
+7.0 REFERENCE/FURTHER READINGS Advance Calculus by Schaum’s outline Series Advance Engineering Mathematics by Stroud  MODULE 2 Unit 2 LIMIT AND ONTINUITY CONTENTS 22.0 Introduction 23.0 Objective 24.0 Main Content 24.1 Limit and Continuity 24.2 Series 24.3 Power Series 24.4 Integration of Power Series 24.5 Differentiation of power Series 25.0 Conclusion 26.0 Summary 27.0 Tutor Marked Assignment 28.0 Reference/further Readings UNIT 2 LIMT AND CONTINUITY 1.0 INTRODUCTION The basic definitions for complex sequences and series are essentially the same as for the real case.
+A sequence of complex numbers is a function g: Z → C from the positive + integers into the complex numbers.
+It is traditional to use subscripts to indicate the values of the function.
+Thus we write g(n) = z and an explicit name for the sequence is n seldom used; we write simply (z ) to stand for the sequence g n which is such that g(n) = z .
+n 2.0 OBJECTIVES The objectives of this unit are to : .
+Define the Limit and continuous functions .
+To study Series .
+Know the Power Series.
+3.0 MAIN CONTENT  3.1 LIMIT The number L is a limit of the sequence (z ) if given an є > 0, n there is an integer N such that |z – L| < є for all n ≥ N .
+If L є n є is a limit of (z ), we sometimes say that (z ) converges to L. n n We frequently write lim (z ) = L. It is relatively easy to see n that if the complex sequence (z ) = (u + iv ) converges to L, n n n then the two real sequences (u ) and (v ) each have a limit: (u ) n n n converges to ReL and (v ) converges to ImL.
+Conversely, if the n two real sequences (u ) and (v ) each have a limit, then so also n n does the complex sequence (u + iv ).
+n n All the usual properties of limits of sequences are Lim(z ± w ) = Lim(z ) ± lim(w ); n n n n Lim(z w ) = Lim(z ) lim(w ); and n n n n Provided that lim(z ) and lim(w )exist.
+(And in the last n n equation, we must, of course, insist that lim(w ) ≠ 0.)
+n A necessary and sufficient condition for the convergence of a sequence (a ) is the celebrated n Cauchy criterion: given є > 0, there is an integer N so that є |a - a | < є whenever n, m > Nє.
+n n A sequence (f ) of functions on a domain D is the obvious thing a n function from the positive integers into the set of complex functions on D. Thus, for each zєD, we have an ordinary sequence (f (z)).
+If neach of the sequences (f (z)) converges, then we say the sequence of n functions (f ) converges to the function f defined by f(z) = lim(f (z)).
+n n The sequence (f ) is said to converge to f uniformly on a set S if n given an є > 0, there is an integer N so that |f (z) -f(z)| < є for all n є n ≥ N and all z є S. є Note that it is possible for a sequence of continuous functions to have a limit function that is not continuous.
+This cannot happen if the convergence is uniform.
+To see this, suppose the sequence ( f ) n of continuous functions converges uniformly to f on a domain D, let z єD, and let є > 0.
+We need to show there is a δ so that |f(z )-f(z)| < 0 0 є whenever |z - z)|< δ.
+0 Choose N so that |f (z) ─ f(z)| < .
+We can do this because of N the uniform convergence of the sequence (f ).
+Next, choose δ so n that |f (z )─f (z)| < whenever |z – z| < δ.
+This is possible N 0 N 0 because, f is continuous.
+N Now then, when |z – z| < δ, we have 0 Now suppose we have a sequence (f ) of continuous functions n which converges uniformly on a contour C to the function f. Then the sequence converges to This is easy to see.
+Let є > 0.
+Now let N be so that |f (z)–f(z)| < for n n > N, where A is the length of C. Then, whenever n > N. Now suppose (f ) is a sequence of functions each analytic on some n region D, and suppose the sequence converges uniformly on D to the function f. Then f is analytic.
+This result is in marked contrast to what happens with real functions ─ examples of uniformly convergent sequences of differentiable functions with a non-differentiable limit abound in the real case.
+To see that this uniform limit is analytic, let z єD, and let S = {z: |z ─ z | < r} 0 0 ⊂ D. Now consider any simple closed curve C ⊂ S. Each f , is n analytic, and so = 0 for every n. From the uniform convergence of (f ), we know that is n the limit of the and so f(z)dz = 0.
+Morera’s theorem now tells us that f is analytic on S, and hence at z .
+0 3.2 SERIES A series is simply a sequence (s ) in which s = a + a + …... +a , n n 1 2 n In other words, there is sequence (a ) so that s = s + a .
+The s are n n n n n usually called the partial Sums.
+if the series has a limit, then it must be true that lim(a ) = 0.
+Consider a n n→∞ of functions.
+Chances are this series will converge for some values of z and not converge for others.
+A useful result is the celebrated.
+Weierstrass M-test: Suppose (M ) is a sequence of real numbers such that M ≥ 0 for all j j j > J, where J is some number, and suppose that the series converges.
+If for all zєD, we have |f(z)| ≤ M for all j > J, then,the series j j converges uniformly on D To prove this, begin by letting є > 0 and choosing N > J so that For all n, m > N (We can do this because of the famous Cauchy criterion.)
+Next, we observe that This shows that converges.
+To see the uniform convergence, observe that for all zєD and n > m > N. Thus, for m > N.(The limit of a series is almost always written as  3.3 POWER SERIES We are particularly interested in series of functions in which the partial sums are polynomials of increasing degree: 2 n s (z) = c +c (z-z )+c (z-z ) +...+c (z-z ) .
+n 0 1 0 2 0 n 0 (We start with n = 0 for esthetic reasons.)
+These are the so-called power series.
+Thus, a power series is a series of functions of the form Let's look first at a very special power series, the so-called Geometric series.
+Here 2 n s = 1 + z + z +... +z , and n 2 3 n+l zs = z + z +z +... +z .
+n Subtracting the second of these from the first gives us n+1 (1 – z)s = 1- z n If z = 1, then we can't go any further with this, but I hope it's clear that the series does not have a limit in case z = 1.
+Suppose now z ≠ 1.
+Then we have n+1 Now if |z| < 1, it should be clear that lim(z ) = 0, and so Or, Note that if |z| > 1, then the Geometric series does not have a limit .
+Next, note that if |z| ≤ p < 1, then the Geometric series converges uniformly to .
+To see this, note that has a limit and appeal to the Weierstrass M-test.
+Clearly a power series will have a limit for some values of z and perhaps not for others.
+First, note that any power series has a limit when z = z .
+Let's see 0 what else we can say.
+Consider a power series .
+Let (Recall that lim sup(a ) = lim(sup{a : k ≥ n}. )
+Now let R = .
+(We k k shall say R = 0 if =∞, and R = ∞, if = 0.)
+We are going to show that the series converges uniformly for all (z – z | ≤ p < R and 0 diverges for all |z – z | > R. 0 First, let's show the series does not converge for |z – z | > R. To 0 begin, let k be so that There are an infinite number of c .
+For which > k, otherwise j lim sup < k. For each of these c we have j n 0 n It is thus not possible for lim |c (z – z ) | = 0, and so the series does not converge.
+we show that the series does converge uniformly for |z-z | ≤ p < R. Let k be so that 0 Now, for j large enough, we have < k. Thus for |z – z | ≤ p, we 0 have  The geometric series converges because kp < 1 and the uniform convergence of follows from the M-test.
+SELF ASSIGNMENT EXERCISE Consider the series .
+Let's compute R = 1/lim sup = lim sup .
+Let K be any positive integer and choose an integer m large enough m to insure that 2 > Now consider , where n = 2K + m: Thus > K. Reflect on what we have just shown: given any number K, there is a number n such that is bigger than it.
+In other words, R = lim sup = ∞, and so the series converges for all z.
+Let's summarize what we have.
+For any power series there is a number R = such that the series converges uniformly for |z - z | ≤ 0 p < R and does not converge for |z - z | > R. (Note that we may have R = 0 or R = ∞.)
+0 The number R is called the radius of convergence of the series, and the set |z - z | = R is called the circle of convergence.
+Observe 0 also that the limit of a power series is a function analytic inside the circle of convergence.
+3.4 INTEGRATION OF POWER SERIES Inside the circle of convergence, the limit is an analytic function.
+We shall show that this series may be integrated "term-by-term"─that is, the integral of the limit is the limit of the integrals.
+Specifically, if C is any contour inside the circle of convergence, and the function g is continuous on C, then If є > 0.
+Let M be the maximum of |g(z)| on C and let L be the length of C. Then there is an integer N so that  For all n > N. Thus, Hence, and we have shown what we promised.
+3.5 DIFFERENTIATION OF POWER SERIES Let Now we are ready to show that inside the circle of convergence, Let z be a point inside the circle of convergence and let C be a positive oriented circle centered at z and inside the circle of convergence.
+Define  and apply the result of the previous section to conclude that 4.0 CONCLUSION We now end this unit by giving a summary of what we have covered in it.
+5.0 SUMMARY A sequence (f ) of functions on a domain D is a function from n the positive integers into the set of complex functions on D. Thus, for each zєD, we have an ordinary sequence (f (z)).
+If n each of the sequences (f (z)) converges, then we say the sequence n of functions (f ) converges to the function f defined by f(z) = n lim(f (z)).
+The sequence (f ) is said to converge to f uniformly n n on a set S if given an є > 0, there is an integer N so that |f (z) - є n f(z)| < є for all n ≥ N and all z є S. є Note that it is possible for a sequence of continuous functions to have a limit function that is not continuous.
+If (f ) a sequence of functions, each analytic on some region D, n and suppose the sequence converges uniformly on D to the function f. Then f is analytic.
+The number R is called the radius of convergence of the series, and the set |z - z | = R is called the circle of convergence.
+We 0observed that the limit of a power series is a function analytic inside the circle of convergence.
+We showed that the series may be integrated "term-by-term"─that is, the integral of the limit is the limit of the integrals.
+Specifically, if C is any contour inside the circle of convergence, and the function g is continuous on C, then we showed that inside the circle of convergence, if z be a point inside the circle of convergence and let C be a positive oriented circle centered at z and inside the circle of convergence.
+6.0 TUTOR MARKED ASSIGNMENT 1.
+Prove that a sequence cannot have more than one limit (We thus speak of the limit of a sequence.)
+2.
+Give an example of a sequence that does not have a limit, or explain carefully why there is no such sequence.
+3.
+Give an example of a bounded sequence that does not have a limit, or explain carefully why there is no such sequence.
+4.
+Give a sequence (f ) of functions continuous on a set D with a n limit that is not continuous.
+5.
+Give a sequence of real functions differentiable on an interval which converges uniformly to a non differentiable function 6.
+Find the set D of all z for which the sequence has a limit.
+Find the limit.
+7.
+Prove that the series converges if and only if both the series and converge.
+8.
+Explain how you know that the series converges uniformly on the set |z| ≥ 5.
+9.
+Suppose the sequence of real number (a) has a limit.
+Prone that j lim sup(a) = lim(a).
+j j For each of the following, find the set D of points at which the series converges: 10 .
+11.
+12.
+13.
+14.
+Find the limit of For what values of z does the series converge?
+15.
+Find the limit of For what values of z does the series converge?
+16.
+Find a power series such that 17.
+Find a power series such that 6.0 REFERENCE/FURTHER READINGS Advance Calculus by Schaum’s outline Series Advance Engineering Mathematics by Stroud MODULE 3 UNIT 1 TALOR AND LAURENT SERIES CONTENTS 29.0 Introduction 30.0 Objective 31.0 Main Content 31.1 Taylor Series 31.2 Laurent Series 32.0 Conclusion 33.0 Summary 34.0 Tutor Marked Assignment 35.0 Reference/further Readings 1.0 INTRODUCTION 2.0 OBJECTIVES The objective in this unit are to : .
+study Taylor series .
+explain Laurent Series 3.0 MAIN CONTENT 3.1 Taylor Series Suppose f is analytic on the open disk |z-z | < r. Let z be any point 0 in this disk and choose C to be the positively oriented circle of radius p, Where |z-z | < p < r. Then for sєC we have 0 < 1.
+The convergence is uniform, so we may integrate We have thus produced a power series having the given analytic function as a limit:  where This is the celebrated Taylor Series for f at z = z .
+0 We know we may differentiate the series to get and this one converges uniformly where the series for f does.
+We can thus differentiate again and again to obtain Hence, But we also know that This gives us This is the famous Generalized Cauchy Integral Formula.
+Recall that we previously derived this formula for n = 0 and 1.
+What does all this tell us about the radius of convergence of a power series?
+Suppose we have and the radius of convergence is R. Then we know, of course, that the limit function f is analytic for 1z - z I < R. We showed that if 0 f is analytic in |z - z | < r, then the series converges for |z - z 0 0 | f < r. Thus r ≤ R, and so f cannot be analytic at any point z for which |z - zp | > R. In other words, the circle of convergence is the largest circle centered at z inside of which the limit f' is 0 analytic.
+SELF ASSIGNMENT EXERCISE  z Let f(z) = exp(z) = e .
+Then (n) (n) f(0) = f (0)=…= f (0)=…=1.
+and the Talor series for f at z =0 is 0 and this is valid for all values of z since f is entire.
+(We also showed earlier that this particular series has an infinite radius of convergence.)
+3.2 LAURENT SERIES Suppose f is analytic in the region R < |z-z | (< R , and let C 1 0 2 be a positively oriented simple closed curve around z in this 0 region.
+(Note: we include the possibilities that R can be 0, and R 1 2 = ∞.)
+We shall show that for z є C in this region where and  The sum of the limits of these two series is frequently written where This recipe for f(z) is called a Laurent series, although it is important to keep in mind that it is really two series.
+Let's derive the above formula.
+First, let r and r be so that R < r ≤ |z - z | ≤ r < R and so that i 2 1 1 0 2 2 the point z and the curve C are included in the region r ≤ |z-z | ≤ l 0 r .
+2 Also, let Г be a circle centered at z and such that Г is included in this region.
+Then is an analytic function (of s) on the region bounder by C , 1 C , and Г, where C is the circle |z| = r and C is the circle |z| = r .
+2 1 1 2 2 Thus, (All three circles are positively oriented, of course.)
+But and so we have Look at the first of the two integrals on the right-hand side of this equation.
+For sєC , 2 we have |z - z | < |s - z |, and so 0 0  Hence, For the second of these two integrals, note that for sєC we have |s 1 - z | < |z - z |, and so 0 0 As before,  Putting this altogether, we have the Laurent series: SELF ASSIGNMENT EXERCISE Let f be defined by First, observe that f is analytic in the region 0 < |z| < l. Let's find the Laurent series for f valid in this region.
+From our vast knowledge of the Geometric series, we have Now let's find another Laurent series for f, the one valid for the region 1 < |z| < ∞.
+Now since | | < l, we have  and so 4.0 CONCLUSION We now end this unit by giving a summary of what we have covered in it.
+5.0 SUMMARY We have thus produced a power series having the given analytic function as a limit.
+We have differentiated the series to get and this one converges uniformly where the series for f does.
+We showed that if f is analytic in |z - z | < r, then the series 0 converges for |z - z < r. Thus r ≤ R, and so f cannot be analytic at 0 | any point z for which |z - zp | > R. In other words, the circle of convergence is the largest circle centered at z inside of which the 0 limit f' is analytic.
+We find another Laurent series for f, the one valid for the region 1 < |z| < ∞.
+6.0 TUTOR MARKED ASSIGNMENT l. Show that for all z, 2.
+What is the radius of convergence of the T taylor series for tanhz ?
+3.
+Show that For |z-i| < .
+10n) 4. if f(z) = what is f (i) ?
+5.
+Suppose f is analytic at z = 0 and f(0) = f(0) = f(0) = 0.
+Prove 3 there is a function g analytic at 0 such that f( z) = z g(z) in a neighborhood of 0.
+6.
+Find the Taylor series for f(z) = sin z at z = 0.
+0 7.
+Show that the function f defined by is analytic at z = 0, and find f (0).
+8.
+Find two Laurent series in powers of z for the function f defined by and specify the regions in which the series converge to f(z).
+9.
+Find two Laurent series in powers of z for the function f defined by  and specify the regions in which the series converge to f (z).
+10.
+Find the Laurent series in powers of z - 1 for f(z) = in the region 1 < |z – 1| < ∞.
+8.0 REFERENCE/FURTHER READINGS Advance Calculus by Schaum’s outline Series Advance Engineering Mathematics by Stroud MODULE 4 BILEAR TRANFORMATION CONTENTS 36.0 Introduction 37.0 Objective 38.0 Main Content 38.1 Bilinear transformation.
+38.2 Properties of bilinear transformation.
+38.3 Design of an IIR low-pass filter by the bilinear transformation method.
+38.4 Higher order IIR digital filters.
+38.5 IIR discrete time high-pass band-pass and band-stop filter design.
+38.6 Comparison of IIR and FIR digital filters.
+39.0 Conclusion 40.0 Summary 41.0 Tutor Marked Assignment 42.0 Reference/further Readings 1.0 INTRODUCTION This is the most common method for transforming the system function H (s) of an analogue filter to a the system function H(z) of an IIR discrete time filter.
+It is not the only possible transformation, but a very useful and reliable one.
+Consider derivative approximation technique: D(y[n]) = dy(t) /dt at t=nT  ( y[n] - y[n-1]) / T. D(x[n]) = dx(t) /dt at t=nT  (x[n] - x[n-1]) / T. D'(y[n]) = d2y(t)/dt2 at t=nT  D(D(y[n]) ) = (y[n] - 2y[n-1]+y[n-2])/T2 D''(y[n]) = d3y(t)/dt3 at t=nT  D(D'(y[n]) ) = (y[n]-3y[n-1]+3y[n-2]-y[n-3])/T3 “Backward difference” approximation introduces delay which becomes greater for higher orders.
+Try "forward differences" : D[n]  [y[n+1] - y[n]] / T, etc.
+But this does not make matters any better.
+Bilinear approximation: 0.5( D[n] + D[n-1])  (y[n] - y[n-1]) / T and similarly for dx(t)/dt at t=nT.
+Similar formulae may be derived for d2y(t)/dt2, and so on.
+If D(z) is the z-transform of D[n] : 0.5( D(z) + z-1D(z) ) = ( Y(z) - z-1Y(z) ) / T  D(z) = [2 (1 - z-1)/ [T(1+z-1)] Y(z) = [ (2/T) (z-1)/(z+1)] Y(z).
+Applying y[n] to [(2/T) (z-1)/(z+1)] produces an approximation to dy(t)/dt at t=nT.
+In an analogue circuit, applying y(t) to an LTI circuit with system function H(s) = s produces dy(t)/dt since the Laplace Transform of dy(t)/dt is sY(s) .
+Therefore, replacing s by [ (2/T) (z-1)/(z+1)] is the bilinear approximation.
+2.0 OBJECTIVES The objectives of this unit are to .
+study bilinear transformation .
+design of an IIR low-pass filter by the bilinear transformation method .
+explain higher order IIR digital filters .
+discuss IIR discrete time high-pass band-pass and band-stop filter design .
+comparison of IIR and FIR digital filters.
+3.0 MAIN CONTENT 3.1 Bilinear transformation technique Definition: Given analogue transfer function H (s), replace s by : a 2 z1   T z1 to obtain H(z).
+For convenience we can take T=1.
+SELF ASSIGNMENT EXERCISE 1 If H s then, a 1RCs z1 1 z1 Hz  K 12RCz12RC 1b z1 1 1 12RC where k  and b  12RC 1 12RC  3.2 Properties of Bilinear transformation (i) This transformation produces a function H(z) such that given any complex number z, H(z) = H (s) where s = 2 (z - 1) / (z + 1) a (ii) The order of H(z) is equal to the order of H (s) a (iii) If H (s) is causal and stable, then so is H(z).
+a (iv) H(exp(j)) = H (j) where  = 2 tan(/2) a Proofs of properties (ii) and (ii) are straightforward but are omitted here.
+Proof of property (iv): When z = exp(j), then     j j 2e 2 e 2    ej 1    s  2   2jtan  ej 1 j j  2  e 2 e 2 3.14 e pl m2.355 a s ns/ 1.57 a di Ra0.785 Radians/second 0 -12 -10 -8 -6 -4 -2 0 2 4 6 8 10 12 -0.785 -1.57 -2.355 -3.14 FFiigg 6 6.1.1 F: rFerqeuqeunecyn cWya wrpairnpgi ng Frequency warping: By property (iv) the discrete time filter's frequency response H(exp(j)) at relative frequency  will be equal to the analogue frequency response H (j) with  = 2 tan(/2).
+The graph of  against  a in fig 6.1, shows how  in the range - to  is mapped to  in the range - to .
+The mapping is reasonably linear for  in the range -2 to 2 (giving  in the range -/2 to /2), but as  increases beyond this range, a given increase in  produces smaller and smaller increases in .
+Comparing the analogue gain response shown in fig 6.2(a) with the discrete time one in fig.
+6.2(b) produced by the transformation, the latter becomes more and more compressed as    .
+This "frequency warping" effect must be taken into account when determining a suitable H (s) prior to the bilinear a transformation.
+|Ha(j )| |H(exp(j )|      FigF.
+i6g.
+26(.a2)(:a )A: nAanloaglougeu Ge agiani nR erespspoonnses e FigF.i 6g.
+26(.2b()b: )E: fEffefcetc Ot of fB biillinineeaar rT trraannssffoorrmmaattiioonn 3.3 Design of an IIR low-pass filter by the bilinear transformation method Given the required cut-off frequency  in radians/sample:- c (i) Find H (s) for an analogue low-pass filter with cut-off  = 2 tan( /2) radians/sec.
+a c c ( is said to be the "pre-warped" cut-off frequency).
+c (ii) Replace s by 2(z - 1)/(z + 1) to obtain H(z).
+(iii) Rearrange the expression for H(z) and realise by bi-quadratic sections.
+SELF ASSIGNMENT EXERCISE Design a second order Butterworth-type IIR lowpass filter with  =  / 4. c Solution: Pre-warped frequency  = 2 tan( / 8) = 0.828 c For an analogue Butterworth low-pass filter with cut-off frequency 1 radian/second: H (s) = 1 / (1 + 2 s + s 2 ) a Replace s by s / 0.828, then replace s by 2(z - 1)/(z + 1) to obtain: z2 2Z 1  12z1  z2  Hz 0.093    10.3z2 9.7z3.4 10.94z1 0.33z2  which may be realised by the signal flow graph in fig 6.5.
+Note the extra multiplier scaling the input by 0.097. x[n] y[n] 0.097 2 0.94 -0.33 FigF.i g6.. 36 .3 3.4 Higher order IIR digital filters Recursive filters of order greater than two are highly sensitive to quantisation error and overflow.
+It is normal, therefore, to design higher order IIR filters as cascades of bi-quadratic sections.
+SLEF ASSIGNMENT EXERCISE Design a 4th order Butterworth-type IIR low-pass digital filter is needed with 3dB cut-off at one sixteenth of the sampling frequency f s. Solution: The relative cut-off frequency is  = /8 radians/sample C The prewarped cut-off frequency is therefore  = 2 tan (/16) = 0.4 radians/sec.
+C Formula for 4th order Butterworth 1 radian/sec low-pass system function:  1  1    H s    a 10.77ss2 11.85ss2  Scale the analogue cut-off frequency to  by replacing s by s / 0.4. c Then replace s by 2 (z - 1)/(z +1) to obtain:  12z1 z2   12z1 z2  Hz0.033 0.028      11.6z10.74z2  11.365z1 0.48z2  H(z) may be realised in the form of cascaded bi-quadratic sections as shown in fig 1.1. x[n] y[n] 0.033 0.028 1.6 2 1.36 2 -0.74 -0.48 FFiigg.. 66.4.4: FFoouurrtthh o Ordredre IrIR I IBRu tBteurwttoerrtwh ofirltther F wiiltthe rc uWt-iotfhf Cfsu/1t6-Off fs/16 Fig.
+6.5(a) Analogue 4th order Butterworth gain response Fig.
+6.7(a) shows the gain response for the 4th order Butterworth low-pass filter whose transfer function was used here as a prototype.
+Fig 6.7(b) shows the gain response of the derived digital filter which, like the analogue filter, is 1 at zero frequency and 0.707 at the cut-off frequency.
+Note however that the analogue gain approaches 0 as    whereas the gain of the digital filter becomes exactly zero at  = .
+The shape of the Butterworth gain response is " warped " by the bilinear transformation.
+However, the 3dB point occurs exactly at  for the digital filter, and the cut-off rate becomes sharper c and sharper as    because of the compression as   .
+3.5 IIR discrete time high-pass band-pass and band-stop filter design The bilinear transformation may be applied to analogue system functions which are high-pass, band- pass or band-stop.
+Such system functions may be obtained from an analogue low-pass 'prototype' system function (with cut-off 1 radian/second) by means of the frequency band transformations introduced in Section 2.
+Wide-band band-pass and band-stop filters (f >> 2f ) may be designed by U L cascading low-pass and high-pass sections, thus avoiding the need to apply frequency band transformations, but 'narrow band' band-pass/stop filters (f not >> 2f ) will not be very accurate if a U L cascading approach is used.
+3.6 Comparison of IIR and FIR digital filters IIR type digital filters have the advantage of being economical in their use of delays, multipliers and adders.
+They have the disadvantage of being sensitive to coefficient round-off inaccuracies and the effects of overflow in fixed point arithmetic.
+These effects can lead to instability or serious distortion.
+Also, an IIR filter cannot be exactly linear phase.
+FIR filters may be realised by non-recursive structures which are simpler and more convenient for programming especially on devices specifically designed for digital signal processing.
+These structures are always stable, and because there is no recursion, round-off and overflow errors are easily controlled.
+A FIR filter can be exactly linear phase.
+The main disadvantage of FIR filters is that large orders can be required to perform fairly simple filtering tasks.
+4.0 CONCLUSION In this closing unit, the achievement resulting from this unit are highlighted in the summary.
+5.0 SUMMARY We defined bilinear transformation and its properties.
+We replace s by 2(z - 1)/(z + 1) to obtain H(z) and rearrange the expression for H(z) and realise by bi quadratic sections.
+Therefore, we design higher order IIR filters as cascades of bi-quadratic sections.
+Wide-band band-pass and band-stop filters (f >> 2f ) may be designed by cascading low-pass and U L high-pass sections, thus avoiding the need to apply frequency band transformations, but 'narrow band' band-pass/stop filters (f not >> 2f ) will not be very accurate if a cascading approach U L was used.
+These effects can lead to instability or serious distortion.
+Also, an IIR filter cannot be exactly linear phase.
+TUTUR MARKED ASSIGNMENT 1.
+By referring to the general formula, show that the system function of a third order analogue Butterworth low-pass filter with 3 dB cut-off frequency at 1 radian/second is: 1 H s a s2 s1s1 2.
+Confirm from the general formula that the system function for a 3nd order Butterworth type low-  pass analogue filter with cut-off frequency  radians per second is: C 1 H s a  3 s s2  s  12  2 2      c c c  Give the corresponding differential equation.
+Apply the derivative approximation technique to derive from this differential equation a third order IIR Butterworth-type digital filter with cut-off frequency 500 Hz where the sampling frequency is 10 kHz.
+3.
+A third order low-pass IIR discrete time filter is required with a 3dB cut-off frequency of one quarter of the sampling frequency, f .
+If the filter is to be designed by the bilinear transformation s applied to a Butterworth low-pass transfer function, design the IIR filter and give its signal flow graph in the form of a second order and a first order section in serial cascade.
+4.
+Give a computer program to implement the third order IIR filter designed above on a processor with floating point arithmetic.
+How would it be implemented in fixed point arithmetic?
+5.
+A low-pass IIR discrete time filter is required with a cut-off frequency of one quarter of the sampling frequency, f , and a stop-band attenuation of at least 20 dB for all frequencies s greater than 3f /8 and less than f /2.
+If the filter is to be designed by the bilinear s s transformation applied to a Butterworth low-pass transfer function, show that the minimum order required is three.
+Design the IIR filter and give its signal flow graph.
+Fig.
+6.8(a): Analogue 4th order Butterworth gain response 7.0 REFERENCE/FURTHER READINGS Advance Calculus by Schaum’s outline Series Advance Engineering Mathematics by Stroud

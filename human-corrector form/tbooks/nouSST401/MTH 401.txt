@@ -1,0 +1,2870 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH401 COURSE TITLE: GENERAL TOPOLOGY 1  MTH 401 GENERAL TOPOLOGY 1 Prof. U.
+A. Osisiogu August 14, 2013  Contents 1 Metric Spaces 4 1.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 1.2 Objectives .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 1.3 Main Conten t .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 1.3.1 Definition and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 1.3.2 Minkowski Inequality .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 1.4 Further Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+9 1.5 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 1.6 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 1.7 TMAs .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 2 Topological Notions; Geometric properties 12 2.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 2.2 Objectives .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 2.3 Main Contents .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 2.3.1 Open Balls; Closed Balls; Spheres .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 2.4 Open Sets; Closed Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+17 2.4.1 Open Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+17 2.4.2 Interior Points .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+20 2.4.3 Limit Points .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+21 2.4.4 Closure of a set .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+24 2.5 Bonded Sets; Diameter, Boundary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+25 2.5.1 Bounded Sets; Diameter .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+25 2.5.2 Boundary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+26 2.6 Subspaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+26 2.7 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+30 2.8 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+30 2.9 Tutor Marked Assignments(TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+31 1  3 Sequences 35 3.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+35 3.2 Objectives .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+35 3.3 Main Content .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+35 3.3.1 Definition; Convergent Sequences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+35 3.3.2 Subsequences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+38 3.3.3 Cartesian Product .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+38 3.3.4 Cauchy Sequences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+41 3.3.5 Bounded Sequences.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+43 3.4 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+44 3.5 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+44 3.6 Tutor Marked Assignments(TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+45 4 Continuity 47 4.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+47 4.2 Objectives .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+47 4.3 Main Content .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+47 4.3.1 Defintion and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+47 4.3.2 Basic Theorems .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+51 4.3.3 The Pasting Lemma .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+53 4.4 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+54 4.5 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+54 4.6 Tutor Marked Assignments(TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+55 5 Completeness 58 5.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+58 5.2 Objectives .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+58 5.3 Main Conten t .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+58 5.3.1 Definition and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+58 5.3.2 Banach Contraction Mapping Principle.
+.
+.
+.
+.
+.
+.
+.
+.
+60 5.4 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+62 5.5 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+63 5.6 Tutor Marked Assignments(TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+63 6 Compactness 66 6.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+66 6.2 Objectives: .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+66 6.3 Main Conten t. .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+66 6.4 Compactness and Subsets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+67 6.5 Continuity and Compactness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+68 6.6 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+70 2  6.7 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+70 6.8 Tutor Marked Assignments(TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+70 7 Connectedness 72 7.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+72 7.2 Objective .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+72 7.3 Main Content .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+73 7.3.1 Basic Theorems .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+74 7.3.2 Mapping of Connected Spaces and Sets.
+.
+.
+.
+.
+.
+.
+.
+.
+77 7.3.3 Connected Sets in R .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+78 7.4 Conclusion .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+79 7.5 Summary .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+80 7.6 Tutor Marked Assignments (TMAs) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+80 3  1 Unit Metric Spaces 1.1 Introduction In this unit, you shall begin the study of metric spaces the main topic of this course.
+Metric spaces are fundamental in many branches of mathemat- ics: namely real analysis, complex analysis, functional analysis, and many other subjects.
+Metric spaces can be regarded as a generalization of the set of real numbers R and has been created in order to provide a basis for a unified treatment of important problems from various branches of mathe- matical analysis.
+In metric spaces the set of real numbers R is replaced by an arbitrary nonempty set E, and a distance function is introduced on E, which has only a few of the fundamental properties of the distance function on the real line defined by the absolute value.
+1.2 Objectives At the end of this unit, you should be able to (i) Define a metric space.
+(ii) Verify that a given real valued function is a metric.
+(iii) Identify the Euclidean metric on the space Rn of n-tuples of real num- bers.
+(iv) Verify various examples of metric spaces.
+4  1.3 Main Content 1.3.1 Definition and Examples Definition 1.3.1 Let E be a nonempty set.
+Let d : E × E → R be a real valued function defined on E × E, that satifies the following properties, M1.
+d(x, y) ≥ 0 for all x, y ∈ E M2.
+d(x, y) = 0 if and only if x = y. M3.
+d(x, y) = d(y, x) for all x, y ∈ E. M4.
+d(x, y) ≤ d(x, z) + d(z, y) for all x, y, z ∈ E. Then d is a metric on E. The pair (E, d) is called a metric space.
+Condition M 3 is called the symmetric property of the metric and the condition M 4 is called the triangle inequality.
+A metric consist of two objects, namely, a nonempty set E and a metric d on d. A metric on E is also called a distance on E. Example 1.3.2 The real line: (R, | · |).
+Let R denote the set of real numbers and let d : R × R → R be defined by d(x, y) := |x − y| for all x, y ∈ R. Then d is a metric on R and is often referred to as the usual metric on R. To convince yourself that d is actually a metric on R, you have to verify that condition M1 to M4 of definition 1.1 are satisfied.
+☞Solution.
+Verification M1.
+Since the absolute value of a real number is non negative, you have that for arbitrary x, y ∈ R, d(x, y) = |x − y| ≥ 0, thus verifying M1.
+M2.
+d(x, y) = 0 ⇒ |x − y| = 0 ⇒ x − y = 0 ⇒ x = y.
+Also, suppose x = y, then d(x, y) = d(x, x) = |x − x| = |0| = 0.
+M3.
+d(x, y) = |x − y| = | − (y − x)| = |y − x| = d(y, x).
+M4.
+d(x, y) = |x − y| = |x − z + z − y| ≤ |x − z| + |z − y| = d(x, z) + d(z, y) for arbitrary x, y, z ∈ R. Thus d is a metric on R. ✍ 5  Example 1.3.3 The discrete (or trivial) metric d .
+Let E be an arbitrary 0 nonempty set.
+Define d : E × E → R by 0  1, if x j= y d (x, y) = 0   0 if x = y. for all x, y ∈ E. Then d0 is a metric on E and is called the discrete metric on the set X.
+Example 1.3.4 Euclidean Plane, Rn Let Rn denote the space of n-tuples of real numbers.
+Define for arbitrary x = (x , .
+.
+.
+, x ), y = (y , .
+.
+.
+, y ) ∈ Rn 1 n 1 n d : Rn × Rn →, i = 1, 2, ∞, as follows i n 1. d (x, y) = |x − y |.
+1 i i i=1 n 21 2. d2(x, y) = |xi − yi|2 .
+i=1 3. d∞(x, y) = max {|xi − yi|} 1 ≤ i ≤ n Then each of the d is a metric on Rn.
+d is called the Euclidean metric on i 2 Rn.
+The verification that d is a metric on R n , with n = 2 is done for you ∞ below.
+☞Solution.
+Verification: M1.
+Observe that |x − y | ≥ 0 and |x − y | ≥ 0 so that max{|x − y |, |x 1 1 2 2 1 1 2 − y2|} is nonnegative, i.e., d∞(x, y) ≥ 0 for all x = (x1, x2) and y = (y , y ) in R2.
+1 2 M2.
+d (x, y) = 0 ⇒ max{|x − y |, |x − y |} = 0 Clearly, |x − y | ≥ 0 ∞ 1 1 2 2 1 1 and |x2 − y2| ≥ 0, since the maximum of the two terms is zero, the minimum must also be zero (since it cannot be negative).
+Thus, |x1 − y1| = 0 and |x2 − y2| = 0 so that x1 = y1 and x2 = y2.
+Hence, x = (x1, x2) = (y , y ) = y.
+1 2 Conversely, suppose x = y.
+Then (x , x ) = (y , y ) so that x = y and 1 2 1 2 1 1 x = y .
+Hence 2 2 d (x, y) = max{|x − y |, |x − y − 2|} ∞ 1 1 2 6  = max{|x1 − x1|, |x2 − x − 2|} = max{0, 0} = 0 7  Thus, x = y ⇒ d (x, y) = 0.
+∞ M3.
+d (x, y) = max{|x − y |, |x − y |} ∞ 1 1 2 2 = max{|y1 − x1|, |y2 − x2|} = d (y, x).
+∞ M4.
+d∞(x, y) = max {|xi − yi|} 1≤ i ≤2 = max {|xi − zi + zi − yi|} 1≤ i ≤2 ≤ max {|xi − zi| + |zi − yi|} 1≤ i ≤2 ≤ max |x − z | + max |z − y | i i i i 1≤i≤2 1≤i≤2 = d(x, z) + d(z, y) Hence (R2, d∞ ) is a metric space.
+✍ Normally, you may find it difficult to prove the triangle ineqaulity of the metric d .
+To make it easier, the inequality stated in the following proposition 2 will be useful.
+This inequality is called the Cauchy Schwartz Inequality.
+Proposition 1.3.5 For arbitrary x = (x , .
+.
+.
+, x ) and y = (y , .
+.
+.
+, y ) in 1 n 1 n Rn, you have 1 1 n n 2 n 2 |xk yk | ≤ |xk |2 |yk |2 k=1 k=1 k=1 1.3.2 Minkowski Inequality In this section, you shall study a proof of the Minkowski’s inequality.
+For a proof os this inequality, however, you shall need another very important inequality called the Holder’s Inequality which is stated in the following lemma.
+Lemma 1.3.6 If 1 ≤ p, q < ∞, 1 + 1 = 1, and if x , y , k = 1, 2, .
+.
+.
+, n are p q k k complex numbers, then n ≤ n k=1 |xk |xk |p k=1 y | k 8  1 1 p n q |yk |q k=1 9  Here now is the statement and proof of the Minkowski inequality.
+Theorem 1.3.7 (Minkowski’s Inequality).
+If 1 ≤ p < ∞ and x , y , k = k k 1, .
+.
+.
+, n are complex numbers, then 1 1 1 n p n p n p |xk + yk |p ≤ |xk |p + |yk |p k=1 k=1 k=1 Proof.
+The case p = 1 is immediate from the triangle inequality of n absolute value.
+So let p > 1, and define q = p − p 1 .
+Let γ = (|ak | + |bk |)p. k=1 Observe that (|ak | + |bk |)p = (|ak | + |bk |) · (|ak | + |bk |)p−1 = |a |(|a | + |b |)p−1 + |b |(|a | + |b |)p−1 k k k k k k So that, n γ = (|ak | + |bk |)p k=1 n n = |ak |(|ak | + |bk |)p−1 + |bk |(|ak | + |bk |)p−1 k=1 k=1 1 1 n p n q ≤ |ak |p (|ak | + |bk |)(p−1)q k=1 k=1 1 1 n p n q + |bk |p (|ak | + |bk |)(p−1)q k=1 k=1 (The last inequality follows from applying Holder’s inequality separately to the two pieces of the right hand sides of the last equation).
+Hence, n γ = (|ai| + |bi|)p i=1 1 1 n p n q ≤ |ai|p (|ai| + |bi|)(p−1)q i=1 i=1 1 1 \ n p n q 1 1 + |bi|p (|ai| + |bi|)p , Sincep + q = 1 ⇒ (p − 1)q = p i=1 i=1 n 1p n 1p = |ai|p γ 1q + |bi|p γ 1q , i=1 i=1 10  i.e.,  p n p γ ≤  |ai|p + |bi|p  γ 1q , i=1 i=1 so, n 1p n p1 γ1− 1q ≤ |ai|p + |bi|p .
+i=1 i=1 Hence, since n n |ai + bi|p ≤ (|ai| + |bi|)p = γ, i=1 i=1 1 1 and 1 − = , we obtain q p 1 1 1 n p n p n p |a + b |p ≤ γ1 p = γ1−(1 q ) |a |p + |b |p i i i i i=1 ≤ i=1 i=1 establishing Minkowski’s inequality.
+1.4 Further Examples Example 1.4.1 (Sequence Spaces l , 1 ≤ p < ∞).
+You shall now general- p ize Example 1.9 to infinite dimensional situation.
+Let 1 ≤ p < ∞ be a fixed number.
+Let x , i = 1, 2, .
+.
+.
+, be complex numbers.
+Let i ( ) ∞ lp = (x1, x2, .
+.
+. )
+: |xi|p < ∞ , i=1 i.e., each element x of l is a sequence x = {x }∞ of numbers such that the p i i= 1 series ∞ |xi|p i=1 converges.
+Consider, for example, the space l defined by 1 ( ) ∞ l1 = (x1, x2, .
+.
+. )
+: |xi| < ∞ .
+i=1 11  ∞ Then x = (1, −1, 0, 0, .
+.
+. )
+is in l .
+For |x | = 1 + (−1) + |0| + |0| + · · · = 1 i i=1 \ 1 1 1 2 < ∞.
+On the other hand, u = 1, 2 , 3 , .
+.
+.
+, n , .
+.
+.
+is not in l1.
+For, ∞ 1 1 1 |xi|1 = 1 + 2 + 3 + 4 + · · · i=1 which is certainly not convergent.
+Now, for arbitrary x = {x }∞ and y = i i= 1 {y i} ∞i= 1 in lp, define 1 ∞ 2 dp(x, y) = |xi − yi|p .
+i=1 Then (l , d ) is a metric space.
+p p Remark 1.4.2 If, in the preceding example, we take only real sequences sat- ∞ isfying |xi|p < ∞ then we obtain the real space lp.
+i=1 Example 1.4.3 Sequence Spaces, l .
+Let X = l be the set of all ∞ ∞ bounded sequences of complex numbers, i.e., every element of l is a com- ∞ plex sequence x = {xi}∞i= 1 such that |xi| ≤ kx, i = 1, 2, .
+.
+.
+, where kx is a real number which may depend on x.
+For arbitrary x = {x }∞ and y = {y }∞ i i= 1 i i= 1 in l we define ∞ y | i i≥1 (Since the sequence {xi}∞i= 1 and {yi}∞i= 1 are bounded, sup |xi − yi| exists).
+i≥1 Then (l∞, d∞) is a metric space.
+The verification that d∞ satisfies axioms M to M and you can do it.
+1 4 Example 1.4.4 Function Space, C [a, b] Let X = C [a, b] denote the set of all real-valued functions on [a, b].
+For arbitrary f, g ∈ X, we define ρ∞(f, g) = sup |f (t) − g(t)| t∈[a,b] Observe that since f − g is continuous on the interval [a, b] it is bounded and so sup |f (t) − g(t)| exists ρ defined above is a metric on C [a, b].
+t∈[a,b] ∞ You can easily verify that C [a, b] is a metric space.
+This metric will be considered to be the usual metric on C [a, b].
+12  Example 1.4.5 You can also define on the space C [a, b] the metric b 12 ρ2(f, g) = |f (t) − g(t)|2 dt .
+a Remark 1.4.6 (a) The sequence space lp, 1 ≤ p < ∞, and the function space C [a, b] are very important in several branches of mathematics.
+(b) The Holder’s inequality is a very useful tool.
+It can be extended to integrals.
+In order to establish that the ρ defined in the last example is 2 a metric on C[a,b], this Holder’s inequality for integrals will be needed and is stated as follows; For f, g ∈ C [a, b], \ 1 \ 1 b b 2 b 2 |f g(t)| dt ≤ |f (t)| 2 dt |g (t)| 2 dt a a a 1.5 Conclusion In this unit, you have studied metric space, known the definition of a metric space, and have also seen some examples.
+You have also seen and can use the Cauchy-Schwartz Inequality, the Holder’s and the Minkwoski’s Inequalities.
+1.6 Summary Having made to the end of this unit, you are now able to (i) Define a metric space.
+(ii) Verify that a given real valued function is a metric.
+(iii) Identify the Euclidean metric on the space Rn of n-tuples of real num- bers.
+(iv) Verify various examples of metric spaces.
+1.7 TMAs 13  2 Unit Topological Notions; Geometric properties 2.1 Introduction 2.2 Objectives 2.3 Main Contents 2.3.1 Open Balls; Closed Balls; Spheres In this section, you shall be introduced to some important types of sets in metric spaces; these are called open balls, closed balls and spheres.
+These sets will play crucial roles in the rest of your study of metric spaces.
+Definition 2.3.1 Let (E, d) be a metric space.
+Let x ∈ E. 0 1.
+The open ball centred at x of radius r > 0 is given by the set 0 B(x ; r) = {y ∈ E : d(x , y) < r} 0 0 2.
+The closed ball centred at x of radius r > 0 is given by the set 0 B(x ; r) = {y ∈ E : d(x , y) ≤ r} 0 0 3.
+The sphere centered at x of radius r > 0 is given by the set 0 S(x ; r) = {y ∈ E : d(x , y) = r} 0 0 12  Example 2.3.2 Let E = R (the reals) endowed with the metric d defined 0 by  1, if x j= y d (x, y) = 0   0, if x = y. for arbitrary x, y ∈ R, Compute the following balls.
+(i) B(1; 1 ) 2 (ii) B(1; 1) (iii) B(1; 2) (iv) B(1; 5) A scrutiny of the above example reveals the following facts: (a) Given any x ∈ (E, d ) the open ball centred at x with radius r > 0, 0 0 0 B(x ; r) becomes the singleton set if you chose r ≤ 1 (the 1 which 0 appears in the definition of d ).
+0 (b) For any given x ∈ (E, d ), if r is chosen such that r > 1, then B(x ; r) 0 0 0 becomes the whole space, E. Remark 2.3.3 If you endow a nonempty set E, with the function d by  k, if x j= y d(x, y) =   0, if x = y. for all x, y ∈ E, where k > 0, then d is a metric on E (also called the discrete metric.)
+Example 2.3.4 Let E = R(the reals) and let d be defined by  7, if x j= y d(x, y) =   0, if x = y for all x, y ∈ R. Then d is a metric on R. Further more, given any x0 ∈ R, as soon as you choose any r ≤ 7, then B(x0, r) = {x0}, and if you choose any r > 7, then B(x , r) = R (the whole space).
+(You can verify these by 0 choosing r = 6 and r = 8, and make computations to convice yourself ).
+13  Example 2.3.5 Let E = R2 be endowed with the Euclidean metric 1 2 2 d2(x, y) = (xk − yk )2 k=1 for all x = (x1, x2), y = (y1, y2) ∈ R2.
+Describe the sets; (i) B((0, 0); 1) (ii) B((0, 0); 1) (iii) S((0, 0); 1), where (0, 0) ∈ R2.
+(iv) B (x ) for arbitrary x ∈ R2 and r > 0. r 0 0 ☞Solution.
+(i) B((0, 0); 1) = {(x, y) ∈ R2 : d ((x, y), (0, 0)) < 1} 2 = {(x, y) ∈ R2 : ((x − 0)2 + (y − 0)2)1 2 <} = {(x, y) ∈ R2 : x2 + y2 < 1} This is the interior of the unit circle centred at the origin (Figure.
+2.1) Figure 2.1: (ii) With identical computations as in (i) above but with ’<’ replaced by “≤ ” you obtain B((0, 0); 1) = {(x, y) ∈ R2 : x2 + y2 ≤ 1} which the unit disc centred at the origin, (Figure 2.2) Figure 2.2: (ii) S((0, 0); 1) is computed in (i) above but with “<” replaced by “=”.
+Hence, you can obtain the unit circle centered at the origin (Figure 2.3).
+14  Figure 2.3: (iv) B((x , y ); r) = {(x, y) ∈ R2 : d ((x, y); (x , y )) < r} 0 0 2 0 0 = {(x, y) ∈ R2 : ((x − x0)2 + (y − y0)2)1 2 < r} = {(x, y) ∈ R2 : (x − x0)2 + (y − y0)2 < r2}.
+Hence, B((x , y ), r) is the inside of the circle centred at (x , y ) with 0 0 0 0 radius r > 0.
+✍ Example 2.3.6 Let R2 be the set of all ordered pairs of real numbers en- dowed with the metric 2 d1(x, y) = |xi − yi| i=1 for arbitrary x = (x , x ) and y = (y , y ) in R2.
+Describe the open ball 1 2 1 2 B((0, 0); 1).
+☞Solution.
+B((0, 0); 1) = {(x, y) ∈ R2 : d ((x, y); (0, 0)) < 1} 1 = {(x, y) ∈ R2 : |x − 0| + |y − 0| < 1} = {(x, y) ∈ R2 : |x| + |y| < 1}.
+Plotting the graph of graph of |x| + |y| = 1 using the points A(1.0) B(0, 1), C (−1, 0) and D(0, −1), and joining AB, BC, C D and DA with “broken lines”, you can easily see that B((0, 0); 1) with the metric d defined above 1 is the inside of the shaded figure in Figure 2.4.
+Figure 2.4: ✍ 15  Figure 2.5: Example 2.3.7 A special case of the last example is the case when n = 1.
+In this case, you obtain the usual metric on R. It is easy to visualize the open ball B(x ; r) on the real line with the usual metric i.e., d(x, y) = |x − y| for 0 all x, y ∈ R. Now B(x ; r) = {y ∈ R : d(x , y) < r} 0 0 = {y ∈ R : |y − x0| < r}, using the definition of d = {y ∈ R : x0 − r < y < x0 + r} Thus the ball B(x ; r) is the open interval of radius r > 0 centred at x (see 0 0 Figure 2.5).
+Conversely, it is clear that any bounded open interval of the real line is an open ball (with the usual metric).
+For, given any open bounded interval (a, b), a j= b on the real line, you observe that \ a + b b − a (a, b) = B ; r where r = > 0.
+2 2 so the open balls on the real line with the usual metric are precisely the bounded open intervals.
+Example 2.3.8 Let E = C [0, 1], be the space of all continuous real-valued functions defined on the closed and bounded interval [0, 1] with the metric d(f, g) = sup |f (t) − g(t)| 0≤t≤1 for arbitrary f, g ∈ E. For a fixed f ∈ E, and r > 0, B(f , r) consists of all 0 0 functions f ∈ C [0, 1] whose graphs lie in the shaded ’band’ of vertical width 2r centred on the graph of f (See Figure 2.6).
+0 Figure 2.6: Example 2.3.9 Let E = R2.
+Compute B((0, 0); 1) where the metric is given by 1 2 p dp((x1, x2), (y1, y2)) = |xk − yk |p k=1 for p = 1, 2 and ∞, where d∞((x1, x2), (y1, y2)) = max |xk − yk | = max{|x1 − y1|, |x2 − y2|}.
+1≤k≤2 16  ☞Solution.
+You can verify the open balls for p = 1, p = 2 and p = ∞ are represented in the figure by the rhombus, the circle and the square respectively.
+For any other p ≥ 2, the graph remains outside the circle but inside the square (See Figure 2.7).
+Figure 2.7: ✍ 2.4 Open Sets; Closed Sets 2.4.1 Open Sets The most basic notion of a metric space is that of an open set.
+This shall be discussed in this section.
+Definition 2.4.1 Let (E, d) be a metric space and let O be a subset of E. You shall call O an open set in E (or O is open in X ) if, for each x ∈ E, there exists r > 0 such that B(x; r) ⊂ O.
+In other words, O is said to be open in E if each point x ∈ O is the centre of some open ball contained in O.
+Example 2.4.2 For any metric space (E, d) the empty set set, and the whole set E are both open sets in E. Example 2.4.3 Coonsider E = R(the reals) and A = [0, 1).
+Let R be en- dowed with the usual metric (i.e., d(x, y) = |x − y| for all x, y ∈ R).
+With this metric, A = [0, 1) is not open in R. To establish this, it suffices to produce Just one point x ∈ [0, 1) such 0 that any open ball centered at x does not lie in [0, 1).
+Now, take x = 0 ∈ 0 0 [0, 1).
+Recall that open balls in R (with the usual metric) are precisely the open bounded intervals.
+So, any open ball centred at 0 ∈ [0, 1) must contain points on the negative axis and such points obviously are not in [0, 1).
+Thus with the usual metric on R, the set [0, 1) is not open in R. Example 2.4.4 Let E = R and A = [0, 1).
+Now, endow R with the following metric: for all x, y ∈ R  1, if x j= y, d(x, y) =   0, if x = y.
+17  with the usual metric, A = [0, 1) is open in R. ☞Solution.
+Let x ∈ A be arbitrary.
+to show that A is open, you have 0 to find r > 0 such that B(x ; r) ⊂ A.
+Choose any r such that 0 < r < 1 for 0 instance r = 1 then 2 1 B(x0; r) = x ∈ R : d(x0, x) < 2 = {x0} ⊂ A Since x0 ∈ [0, 1) is arbitrary.
+A = [0, 1) is open in R. ✍ Remark 2.4.5 Example 2.4.4 and 2.4.3 brings us to a very crucial point of openness in a metric space E. In fact, this depends on the type of metric defined on E. For instance the set A = [0, 1) is open in R when it is endowed with the discrete metric, but it is not open in R when it is endowed with the usual metric.
+Thus, the statement A is open in E is vague, the question that accompanies it is “with which metric?” Here you shall prove basic theorems about open sets in metric spaces.
+Theorem 2.4.6 In any metric space (E, d), each open ball is a open set in E. Proof.
+Let x ∈ E and r > 0 such that B(x ; r) is an open ball.
+You 0 0 have to show that B(x ; r) is open in E. It suffices to show that for each 0 point y ∈ B(x0; r), there exist δ > 0 such that B(y; δ) ⊂ B(x0; r).
+So let y ∈ B(x0; r), This implies that d(x , y) < r ⇒ r − d(x , y) > 0 ∀ y 0 0 So choose δ = 1 (r − d(x , y)) > 0.
+Then B(y; δ) ⊂ B(x ; r).
+Because z 0 0 2 ∈ B(y; δ) implies that d(x0, z) ≤ d(y, x0) + d(y, z) < d(x , y) + δ 0 < d(x , y) + r − d(x , y) 0 0 = r.
+i.e., d(x , z) < r, which implies that z ∈ B(x ; r).
+Thus z ∈ B(y, δ) implies 0 0 that z ∈ B(x ; r).
+Thus 0 B(y, δ) ⊂ B(x0; r) Since the point y is abitrarily chosen in B(x ; r), it follows that for any point 0 18  x ∈ B(x0; r) there exists some δ such that B(x, δ) ⊂ B(x0; r).
+Hence B(x0; r) is open in E. 19  Theorem 2.4.7 Let (E, d)be a metric space.
+Then 1.
+An arbitrary union of open sets in E is open in E. 2.
+A finite intersection of open sets in E is open in E. Proof.
+1.
+Let {O } be an arbitrary collection of open sets in E(where I is an i i∈I index set) and let O = O i i∈I You have to show that O is open in E. Let x ∈ O be arbitrary.
+this implies that there exist i ∈ I such that x ∈ O .
+Since O is open, 0 i0 i0 there exists, r > 0 such that B(x; r) ⊂ O O = O i0 i i∈I ⊂ Hence O = is an open set in E. i∈I 2.
+Let {Oi}n be a collection of n open sets in E and let i=1 (n) O = Oi i=1 You have to show that O is open in E. Let x ∈ O.
+You have to find (n) some r > 0 such that x ∈ B(x; r) ⊂ O.
+Now x ∈ O = O implies i i=1 that x ∈ Oi, for each i = 1, .
+.
+.
+, n. Each Oi is open in E implies that there exists ri > 0 such that x ∈ B(x; ri) ⊂ Oi, for each i = 1, .
+.
+.
+, n Choose r = min{r , .
+.
+.
+, r }, then B(x; r) ⊂ O , for each i = 1, .
+.
+.
+, n. 1 n i (n ) (n ) Hence x ∈ B(x; r) ⊂ O := O.
+So, O = O is an open set in E. i i i=1 i=1 Remark 2.4.8 Theorem 2.4.1(ii) does not necessarily hold for an infinite number of sets open in E. To justify this, you have below an example where the intersection of an infinite number of open sets in E. is not open in E 20  Example 2.4.9 Let E = R (the reals) endowed with the usual metric, and let 1 1 un(0) = x : − n < x < n n = 1, 2, .
+.
+.
+Then, clearly each u (0) is an open bounded interval and hence is an open n (∞) set in R (with the usual metric).
+But the intersection, u (0) = {0}, and n n=1 the singleton set {0} in R (with the usual metric) is closed in R (why?).
+(∞) Hence u (0) is not an open set in R. n i=1 Theorem 2.4.10 Let (E, d)be a metric space.
+A subset O of Eis open set in Eif and only if O is a union of open balls.
+Proof.
+(⇒) Let O ba an open set in (E, d).
+You have to show that O is a union of some open balls.
+Let x ∈ O, since O is an open set in E, there exists some real number r > 0 such that B(x; r) ⊂ O.
+In the same manner, it follows that for each y ∈ O you can find r > 0 (r is a real number depending y on y) such that B(y; r ) ⊂ O.
+Then clearly, O = {y} ⊂ B(y; r ) ⊂ O. y y y∈O Because y ∈ B(y; ry ) and each B(y; ry ) ⊂ O.
+So, O B(y; ry ) ⊂ O, and y∈O ⊂ this implies that O = B(y; ry ) y∈O i.e., O is a union of open balls.
+(⇐) Conversely, assume O is expressible as the union of open balls in E, i.e., O = B(x; r ) x x∈O where B(x; r ) denotes an open ball centred at x with radius r > 0. and x x B(x; rx) ⊂ E. You have to show that O is an open set in E. But each B(x; rx) is an open set contained in E(i.e., every open ball is an open set.)
+Hence by Theorem 2.4.1, O = B(x; r ) is an open set in E. x x∈O Let (E, d)be a metric space and let Obe a subset of E. A point x is called an interior point of Oif there exists at least one open ball centred at x which is 20  2.4.2 Interior Points Let (E, d)be a metric space and let Obe a subset of E. A point x is called an interior point of Oif there exists at least one open ball centred at x which is 21  contained in O, i.e., x ∈ O is an interior point of O if there exists some real number r > 0 (depending on x), such that B(x; r ) ⊂ O. x x Definition 2.4.11 The set of all interior points of O is called the interior ˚ of Oand is denoted by O or int(O).
+Consider the four intervals, [0,1], (0,1), (0,1] and [0,1) whose endpoints are 0 and 1.
+Clearly, with the usual metric, the interior (set of interior points) of each is the open interval (0,1).
+This section is concluded with the following thoerem.
+Theorem 2.4.12 A subset O of a metric space (E, d)is open if and only if ˚ it is equal to its interior.
+i.e., if and only if O = O.
+2.4.3 Limit Points Definition 2.4.13 Let (E, d) be a metric space, and let F be a subset of E. A point x ∈ E (not necessarily in F ) is said to be an accumulation point of F (or, a limit point of F, or, a cluster point of F, or, a derived point of F ) if every open ball centred at x contains at least one point of F different from x.
+i.e., if (B(x; r) " {x}) ∩ F j= ∅, for r > 0.
+Remark 2.4.14 From the above definition,limit of a set F and the limit of point of F are the same.
+The two terminologies arose because some mathe- maticians require that a limit point of a set F be the limit of a sequence of distinct points of F. Under this requirement, a finite set would have no limit.
+You woluld not adopt this concept and so, the limit point of the set is the same as the limit of a set.
+This brings you to a very important definitions.
+Definition 2.4.15 The set of limit points of F, denoted by F t, is called the derived set of F. Definition 2.4.16 A subset of metric space (E, d) is a closed set if it con- tains all its limit points (or, equivalently, if it contains all its limits).
+Remark 2.4.17 If F is a subset of a metric space (E, d), in order to prove that F is closed, one needs to show that F contains all its limit points.
+So, one starts by saying; let x ∈ E be a limit point of F. This implies that there is a sequence {xn} in F such that xn → x.
+It suffices to prove that x ∈ F. If 21  one proves that x ∈ F, then, this means that F contains all its limit points and so F is closed.
+Example 2.4.18 The interval [a, b] is closed in R. ☞Solution.
+Let {x } be an arbitrary sequence in [a, b] such that n x → x as n → ∞.
+It suffices to prove that x ∈ [a, b].
+But {x } in [a, b] n implies, a ≤ x ≤ b, for all n ∈ N. Since lim x exists, you have n n lim a ≤ lim x ≤ b, as n → ∞ n This implies, a ≤ x ≤ b and so x ∈ [a, b].
+Hence [a, b] is closed.
+✍ Observe that (0, 1] is not closed in R. For, the sequence { 1 } is in (0, 1] n and 1 → 0 but 0 j∈ (0, 1].
+So, (0, 1] does not contain all its limit points and n so is not closed.
+Here are more examples.
+Example 2.4.19 Let E = R (the reals) and let d be defined by 0  1, if x j= y d (x, y) = 0   0, if x = y. and let F = [0, 1).
+You can make the following assertions (i) F has no limit points.
+(ii) F is closed.
+(iii) F is open Proof.
+(i) You have to prove that F has no limit points.
+Assume, for contradic- tion, that A has a limit point a ∈ E. Then every open ball (open set) centred at a must contain a point of F other than a.
+In particular, the open ball B(a; 1 ) must contain a point of A different from a.
+But 2 B(a; 1 ) = {a} so that B(a; 1 ) contains only the point a, contradicting 2 2 the fact that the open ball B(a; 1 ) must contain a point of F different 2 from a.
+Hence, a is not a limit point of F = [0, 1).
+Since a is arbitrary, [0, 1) has no limit points.
+(ii) F = [0, 1) is closed; To prove this, you have to show that F contains all its limit points.
+But F has no limit points.
+Therefore, there are no limit points of F which are not contained in F. So F contains all its limit point since F has no limit points outside F. Hence F is closed.
+22  (iii) F = [0, 1) is open.
+See Example 2.4.4.
+Theorem 2.4.20 A subset F of a metric space (E, d)is closed in E if and only if its complement is open in E. Proof.
+F is closed ⇔ F contains all its limit points.
+⇔ all points of F c ar not limit points of F ⇔ for each p ∈ F c, there exist some real number r > 0 such that (B(p; r) " {p}) ∩ F = ∅ ⇔ for each p ∈ F c, B(p; r) ⊂ F c ⇔ F c is open.
+Theorem 2.4.21 The empty and the whole space E are closed sets.
+Theorem 2.4.22 Let {F } be a nonempty family of closed sets of a metric i i∈I space (E, d).
+Then () (a) F is closed in E (i.e., an arbitrary intersection of closed set is i i∈I closed).
+k (b) F is a closed set in E (i.e., a finite union of closed set in E is closed i i=1 in E).
+Proof.
+() (a) Let F = f .
+You have to prove that F is a closed set.
+It suffices i i∈I prove that F c is an open set.
+But c () F c = F = F c i i i∈I i∈I (De Morgan’s law).
+Since F , i ∈ I is closed, you have that F c is open.
+i i So F c = F c i i∈I 23  is an arbitrary union of open sets and so is open (by Theorem 2.4.1(i)).
+Since F c is open it follows that from Theorem 2.4.20 that () F = F i i∈I is a closed set in E. k (b) Let F = F .
+You have to show F is closed set.
+Again, it suffices to i i=1 k c n prove that F c is an open set.
+F c = F = k F c, which is a i i=1 i i=1 finite intersection of open sets (F c is open since F is closed).
+Hence by i i Theorem 2.4.1, F c is open set in E, so that F is closed set in E. Remark 2.4.23 Theorem 2.4.22(b) does not necessarily hold for infinite union.
+Find a counter example.
+2.4.4 Closure of a set Let (E, d)be a metric space and A be a subset of E. The set {x ∈ E : x ∈ F or x is a limit point of A} is called the closure of A and will be denoted by A.
+Hence, A = A ∪ At; where At denotes the set of all limit points of A.
+If E = R(the real line) with the usual metric and A = (0, 1), then clearly A = A ∪ At = (0, 1) ∪ [0, 1] = [0, 1] Theorem 2.4.24 A subset F of a metric space E is closed if and only if F = F .
+Theorem 2.4.25 Every singleton subset of any metric space is closed.
+Hence, every finite set is closed.
+Proof.
+Let {x } be a convergent sequence in {x } such that x → x n 0 n as n → ∞.
+It suffices to prove that x ∈ {x }.
+But {x } in {x } implies 0 n 0 x = x = · · · = x = x for all n ∈ N. Hence x → x .
+By uniqueness of 1 2 n 0 n 0 limits, x∗ = x ∈ {x } which completes the prove.
+0 0 Theorem 2.4.26 Let (E, d)be a metric space.
+Let A be a subset of E. Then a point p in E is a limit point of A if and only if for every real number r > 0, B(p; r) contins infinitely many points of A.
+24  To appreciate theorem 2.4.26, you have the following definition.
+Definition 2.4.27 Let A be a subset of a metric space (E, d).
+A point p ∈ E is called a condensing point of A if every ball B(p; E) constains uncount- able many points of A.
+Example 2.4.28 Let A = {1, 1 , 1 , · · · , 1 , · · · }; B = (0, 1).
+Then, 0 ∈ R is a 2 3 n limit point of A and any ball B(0; E) contains infinitely many points of A.
+The point 0 ∈ R is a condensing point of B because any B(0; E) contains uncountable many points of B. Theorem 2.4.29 Let A and B be subses of a metric space (E, d).
+Then (i) A ⊂ B ⇒ A ⊂ B.
+(ii) A is closed.
+(iii) If F is a closed subset of E such that A ⊂ F, then A ⊂ F. (iv) A is the intersection of all closed subsets of E which contains A.
+(v) A ∪ B = A ∪ B 2.5 Bonded Sets; Diameter, Boundary 2.5.1 Bounded Sets; Diameter Let (E, d)be a metric space and let A be a subset of E. The diameter of A, denoted by δ(A) is defined by δ(A) := sup{d(x, y) : x ∈ A and y ∈ A} where the sup exists.
+If the sup does not exist, then δ(A) = ∞.
+A subset A of E is said to be bounded if δ(A) is not infinity.
+In order to prove that a subset A of E is bounded, it is sufficient to prove that the set {d(x, y) : x ∈ A and y ∈ A} has an upper bound.
+The existence of a lower bound is obvious because 0 ≤ d(x, y) for all x, y ∈ E. If a subset B of E is an unbounded subset of E, then for any r > 0, however large, you can find points a and b in B such that d(a, b) > r. 25  Example 2.5.1 Let (R, d) denote the real line with the usual metric and let A = (0, 1), Compute δA.
+☞Solution.
+Observe that if x and y are in (0, 1), then 1 is an upper bound of the set and 0 is a lower bound of the set.
+Similar arguments will show that, with the usual metric on R, δ(a, b) = δ[a, b] = b − a.
+✍ 2.5.2 Boundary Let (E, d)be a metric space and let A be a subset of E. A point p ∈ E is called a boundary point of A if for every E > 0, the following two conditions are satisfied: (i) B(p; E) ∩ A j= ∅ and (ii) B(p; E) ∩ Ac j= ∅ The above definition implies that if p is a boundary point of A, then every open ball with centre p must contain at least one point of A and at least one point of Ac.
+The set of all boundary points of A is called the boundary of A and will be denoted ∂A or Bd(A).
+The boundary of a set is also sometimes called the frontier of the set.
+2.6 Subspaces Let (E, d) be a metric space and Y be a nonempty subset of E. Then, the restriction of d to Y × Y, usually denoted by d| , is a metric on Y.
+This is Y ×Y easy to see because d satisfies all the axioms of a metric for all points of the larger set E, so d satisfies these axioms for all points of the subset Y.
+For the remainder of this section, the restriction of d to Y × Y will be denoted (for ease of restriction) by d and Y will be called a subspace of E when d is Y Y the metric used on Y.
+Example 2.6.1 Let E = R (the reals) with the usual metric, d. The set Q of rational numbers can be taken as a subspace of R. In particular, this means that if x and y are rational numbers, then d (x, y) = |x − y|.
+Q If, however, Q is given the discrete metric, i.e., for x, y ∈ Q,  1, if x j= y d(x, y) = 26    0, if x = y.
+27  then Q is not a subspace of E because the metric d used on Q is different from the metric used on R. Proposition 2.6.2 If Y is a subspace of a metric space (E, d) and if p is a point of Y, then BY (p; r) = BX (p; r) ∩ Y where BY (p; r) = {y ∈ Y : d(p, y) < r} and BX (p; r) = {x ∈ X : d(p, x) < r} You have earlier defined open and close sets of a metric space (E, d).
+Par- allel definitions are also available for subspaces of (E, d).
+A set may be open in a subspace (Y, d ) but not in the full space (E, d) and vice versa.
+Similar y care must be taken for all other concepts of metric spaces, in particular, for sets closed in E, or in Y.
+You have the following results.
+Theorem 2.6.3 Let (E, d) be a metric space and let (Y, d ) be a subspace Y of E. Let A be a subset of Y.
+Then A is open in Y if and only if there exists a set G which is open in E such that A = Y ∩ G. Proof.
+(⇒) Let A be open in Y.
+You have to show that there exist a set G which is open in E such that A = Y ∩ G. Now, A is open in Y implies, for each u ∈ A, there exists a real number r > 0 such that B (u; r ) ⊂ A. u Y u Then clearly: (a) A = {u} ⊂ BY (u; ru).
+But BY (u; ru) ⊂ A for each u ∈ A and so u∈A u∈A (b) BY (u; ru) ⊂ A. u∈A Combining (a) and (b) you obtain, A = {u} ⊂ BY (u; ru) ⊂ A. u∈A u∈A Hence, A = B (u; r ) Y u u∈A = (BX (u; ru) ∩ Y ), using proposition 2.6.2 u∈A = BX (u; ru) ∩ Y = G ∩ Y, u∈A 28  where G = B (u; r ) is clearly open in E. X u u∈A (⇐) Conversely, suppose A = Y ∩ G where G is an open set in E, you have to show that A is an open set in Y.
+So, let u ∈ A be arbitrary.
+Then, u ∈ G and since G is an open set in E, there exists a real number ru > 0 such that BX (u; ru) ⊂ G. But u ∈ A ⇒ u ∈ Y.
+Hence, BY (u; ru) = BX (u; ru) ∩ Y ⊂ G ∩ Y = A.
+Since u ∈ A is arbitrary, and you have found a real number r > 0 such that u BY (u, ru) ⊂ A, then A is open in Y.
+Remark 2.6.4 A set may be open in a subspace (Y, d ) but not in the whole Y space (E,d), and conversely.
+Example 2.6.5 Let E = R (the reals) with the usual metric, and let Y = [1, 2] be a subspace of E. Let A = [1, 3 ).
+A is not open in E = R (with the usual metric).
+2 Otherwise the complement of A, Ac would be closed in R. But Ac = (−∞, 1)∪ [ 3 , ∞) is not a closed set in R since 1 is a limit point of A c which is not in 2 Ac.
+So, A is not open in R. However, A = [1, 3 ) is open in Y = [1, 2] since 2 \ \ 3 3 A = 1, = [1, 2] ∩ 0, = Y ∩ G 2 2 where G = 0, 3 is open in E, and so A is open in Y.
+2 l Similarly, 5 , 2 which is not open in E = R is open in [1, 2] because 3 \ \ 5 5 5 , 2 = [1, 2] ∩ , 3 and , 3 is open in E. 3 3 3 Notation: If A ⊂ Y ⊂ E you shall denote the complement of A in Y by (Ac) , the complement of A in E by (Ac) , etc.
+Y E Theorem 2.6.6 Let (E, d ) be a metric space and let (Y, d ) be a subspace E Y of X.
+Let A be subset of Y.
+Then, A is closed in Y if and only if there exists a set F which is closed in E such that A = Y ∩ F. 29  Proof.
+The proof is based on the following result about complements which is easily proved.
+If A ⊂ Y ⊂ E then (Ac) = (Ac) .
+Now, A is closed in Y if Y E and only if (Ac) is open in Y if and only if (Ac) = Y ∩ G where G is open Y Y in E (taking complements in Y ).
+But, ((Y ∩ G)c) = ((Y ∩ G)c) ∩ Y Y E = [(Y c)E ∪ (Gc)E ] ∩ = ∅ ∪ [(Gc)E ∩ Y ] = (Gc)E ∩ Y = F ∩ Y where F = (Gc) is closed in E. So, A is closed in Y if and only if A = F ∩ Y E where F is closed in E. Example 2.6.7 Let E = R(the reals) with the usual metric, and let Y = (0, 1), A = [ 1 , 1).
+Then A is closed in Y because 2 \ 1 1 A = , 1 = (0, 1) ∩ , 1 = Y ∩ F 2 2 / l where F = 1 , 1 is a closed set in E = R. 2 Theorem 2.6.8 Let (E, d ) be a metric space and (Y, d ) be a subspace of E Y E. Then (i) If every subset A of Y which is open in Y is also open in X, the Y is open in X ; (ii) if Y is open in X then every subset of Y which is open in Y is also open in X. Theorem 2.6.9 Let (E, d ) be a metric space and (Y, d ) be a subspace of E Y E. Then, 1. if every subset A of Y which is closed in Y is also closed in E, then Y is closed in E, 2. if Y is closed in E, then every subset of Y which is closed in Y is also closed in Y.
+30  2.7 Conclusion In this unit, you studied topological notions and geometrical properties of a metric spaces.
+Such concepts as Open balls, closed balls and spheres; Open and Closed sets, interior of a set, limit point of a set and derived set, closure of a set, the diameter of a set, boundary of a set, and bounded sets and finally, you considered some of these concepts on a subspace of a metric space.
+2.8 Summary Having gone through this unit, you now know that given a metric space (E, d) 1.
+The open ball centred at x ∈ E with radius r > 0 is the set 0 B(x0; r) = {y ∈ E : d(x0, y) < r} The close ball centred at x ∈ E with radius r > 0 is the set 0 B(x0; r) = {y ∈ E : d(x0, y) ≤ r} The sphere centred at x ∈ E with radius r > 0 is the set 0 S(x0; r) = {y ∈ E : d(x0, y) = r} 2. x ∈ E is an interior point of A (or is in the interior of A denoted by ˚ A) if there exists r > 0 such that x ∈ B(x; r) ⊂ A.
+3.
+If A ⊂(E,d).
+x ∈ E is a limit point of A if for all r > 0, B((x, r) " {x}) ∩ A j= ∅ 4.
+The closure of A, A = A ∪ At where At is the derived set of A.
+5.
+A ⊂ E is a neighbourhood of x ∈ E if for all r > 0, B(x; r) ∩ A j= ∅.
+6.
+A subset O of a metric space is called open if for each x ∈ O, there ˚ exist r > 0 such that B(x; r) ⊂ O; or if and only if O = O; or if and only if Oc is closed.
+A subset A of (E, d) is called closed if and only if Ac is open; or if and only if it contains all its limit points; or if and only if A = A 7.
+All the above properties depend on the metric defined on E. 8.
+The whole space E and the empty set ∅ are both open and closed.
+9.
+Arbitrary union and finite intersection of open sets are open.
+10.
+Arbitrary intersection and finite union of closed sets are closed.
+31  2.9 Tutor Marked Assignments(TMAs) Exercise 2.9.1 1.
+Let E = R (the reals) with metric d defined for any x and y in R by  5 if x j= y d(x, y) =   0 if x = y describe, without any computations, the following sets.
+(a) B(−2; 1) (b) B(3; 2) (c) B(−5; 6) (d) B(−2; 1 ) 2 (e) B(−3; 5) (f ) B(2; 5.01) (g) S(0; 2) (h) S(0; 6).
+2.
+For any x, y ∈ R (the reals), let d(x, y) be defined by  2, if x j= y d(x, y) =   0, if x = y.
+Prove that d is a metric on R. Determine the set of points x ∈ R such that (a) d(0, x) = 1.
+(b) d(0, x) < 1.
+(c) d(0, x) = 2.
+3.
+Two metrics d and d are defined for arbitrary pair of points x = ∞ 2 (x , x ) and y = (y , y ) in R2 by 1 2 1 2 d (x, y) = max {|x − y } 1 i i 1≤ i ≤2 32  and 2 d2(x, y) = |xi − yi| i=1 Describe with the aid of a sketch the set of points x ∈ R2 satisfying the following (a) d ((x , x ), (0, 0)) = 1.
+1 1 2 (b) d ((x , x ), (0, 0)) < 1.
+2 1 2 4.
+Let R be the real line.
+For x, y ∈ R, let d(x, y) be defined by  3, if x j= y d(x, y) =   0, if x = y Compute the following sets (a) A = {x ∈ R : d(x, 0) < 3} (b) B = {x ∈ R : d(x, 0) = 3} (c) C = {x ∈ R : d(x, 0) = 4} (d) D = {x ∈ R : d(x, 0) < 4} 5.
+Show that given any open bounded interval (a, b) on the real line (with the usual metric), then \ a + b (a, b) = B ; r 2 b − a where r = .
+2 \ a + b Hint: Compute B ; r .
+2 6.
+Let E = R(the reals) with the usual metric, and let Y = [0, 1] as a subspace of E. Which of the following sets are open in Y ?
+Which are open in E?
+Justify your answer.
+(a) A = ( 1 , 3 ) 2 4 (b) B = [0, 1 ) 4 (c) C = ( 1 , 1] 2 33  7.
+Let E = R (the real) with the usual metric, and let Y = [0, 1) ∪ {2} as a subspace of E. Let A = {2}.
+Is A open in Y ?
+Justify you answer.
+8.
+Let E = R (the reals) with the usual metric, and let Y = [−1, 1] as a subspace of E. Which of the follwing sets are open in Y ?
+which are open in R?
+(a) A = {x : 1 < |x| < 1} 2 (b) B = {x : 1 < |x| < 1} 2 (c) C = {x : 1 ≤ |x| < 1}.
+2 (d) D = {x : 1 ≤ |x| ≤ 1}.
+2 9.
+Let E = R(the reals) with the usual metric, and let Y = [0, 1] ∪ (2, 3) as a subspace of E. Determine if each of the following sets is open or closed in Y.
+A = [0, 1], B = (2, 3), C = [0, 1 ).
+2 10.
+Let E = R (the reals) with the usual metric, and let (a) Z = {set of positive intergers.}
++ (b) B = {0} ∪ (1, 2).
+(c) A = { n1 : n ∈ Z+}, where Z+ is the set of positive integers.
+Compute A, B, Q, Z and justify you answers.
++ 11.
+(a) Let (E, d ) be a metric space and let (Y, d ) be a subspace of E. E Y Let A ⊂ Y.
+State and prove a thoerem which relates to the closure of A in Y to closure of A in E. (b) Let E = R(the reals) with the usual metric, and let Y = (0, 1) be a subspace of E. Let A = (0, 1 ).
+Find the closure of A in R and 2 its closure in Y.
+(c) Consider the four intervals [0, 1], (0, 1], [0, 1) and (0, 1).
+Let E = R and let  1, if x j= y d(x, y) =   0, if x = y. for all x, y ∈ R. With this metric, describe the interior of each of these four intervals.
+34  12.
+Let E be the set of real numbers and let Y be the subset defined by Y = {x : 0 < x < 1}.
+Examine whether the subset A of Y defined by 1 A = x : ≤ x ≤ 1 4 is: (a) open in Y, (b) closed in Y, when E is assigned, in turn, each of the metrics d1 and d where 2 i. d is the usual metric on E. 1  2, if x j= y ii.
+d (x, y) = 2   0, if x = y for any pair x, y ∈ E 35  3 Unit Sequences 3.1 Introduction In a first course in classical analysis, you studied sequences and subsequences in R. In this unit you shall extend your study of sequences and subsequences to arbitrary metric spaces, (E, d).
+3.2 Objectives At the end of this unit, you should be able to 1.
+Define a convergent sequence and give examples.
+2.
+Show that a sequence is convergent or not.
+3.
+Define subsequence of a sequences.
+4.
+Define a Cauchy sequence.
+5.
+Define bounded sequences and show that every convergent sequence is bounded.
+3.3 Main Content 3.3.1 Definition; Convergent Sequences Definition 3.3.1 A sequence in (E, d) is a function f : N → E, 35  where N denotes the set of natural numbers.
+The nth term of the sequence is f (n) = an ∈ E. Definition 3.3.2 Let {x }∞ be a sequence of points in a metric space n n= 1 (E,d) .
+A point x ∈ E is called a limit of the sequence if for every E > 0, there exists a positive integer N such that xn ∈ B(x; , E) for all n ∈ N, where B(x; r) = {y ∈ E : d(y, x) < E} If the sequence has a limit x, you say that the sequence {x }∞ con- n n= 1 verges to x and will write x → x as n → ∞, or lim x = x. n n n →∞ A sequence which is not convergent is said to be non-convergent.
+For a fixed x ∈ E, a given sequence {x }∞ in a metric space, there is a n n= 1 corresponding sequence in R, namely {d(xn, x)}∞n= 1 .
+Theorem 3.3.3 {xn} converges to x in E, if and only if {d(xn, x)} converges to 0 in R. Proof.
+Assume that xn → x in (E, d) as n → ∞.
+For E = 1 > 0 Choose n N ∈ N large enough, then for all n ∈ N, 1 0 ≤ d(xn, x) < n → 0 as n → ∞.
+This implies that 0 ≤ lim d(x , x) ≤ 0 n n →∞ Thus by sandwich theorem, you have that lim d(x , x) = 0. n n→∞ Conversely, Assume that d(xn, x) → 0 as n → ∞, and let E > 0 be given, Choose N ∈ N sufficiently large.
+For all n ≥ N, d(x , x) = |d(x , x) − 0| < E n n This implies that {x } converges to x in (E, d).
+n Proposition 3.3.4 Limits are unique (i.e., if {x } converges to both x and n xt then x = xt) Proof.
+x → x ⇒ given any E > 0, there exists N ∈ N such that n 1 E d(x , x) < for all n ≥ N .
+n 2 1 also x → xt ⇒ given any E > 0, there exists N ∈ N such that n 1 E d(x , xt) < for all n ≥ N .
+n 2 1 36  Choose N = max{N1, N2}.
+Then for all n ≥ N, E E 0 ≤ d(x, xt) ≤ d(x, xn) + d(xn, xt) < 2 + 2 = E for all n ≥ N. Since E > 0 is arbitrary, you obtain that x = xt.
+Example 3.3.5 Let R2 be endowed with the Euclidean metric and let a sequence {xn}∞n= 1 in R2 be defined by xn := ( n 12 , n + n1 ) for all n ≥ 1.
+Then xn → (0, 1) as n → ∞.
+☞Solution.
+Compute as follows: \ \ 1 n d(x , (0, 1)) = d , , (0, 1) n n2 n + 1 \ \ 1 2 n 2 = − 0 + − 1 n2 n + 1 1 1 = + n4 (n + 1)2 √ 1 1 2 ≤ + = .
+n2 n2 n √ Now, identify a = 2 for all n so that n n √ 2 0 ≤ d(xn, (0, 1)) = an n ≤ Clearly, a → 0 as n → ∞, and so x → (0, 1) as n → ∞.
+✍ n n Example 3.3.6 Let R2 be endowed with the metric  1, ifx j= y d(x, y) :=   0, if x = y and let a sequence {x }∞ be defined by x = ( 1 , n ) for all n ≥ 1.
+Does n n=1 n n2 n+1 {xn}∞n= 1 converge to (0, 1)?
+☞Solution.
+If x → (0, 1) as n → ∞, denote (0, 1) by p, a point n in R2.
+Then every open ball with (0, 1) as centre must contain all terms 37  of the sequence {x }∞ except posibly a finite number.
+Consider the ball n n= 1 38  B((0, 1); 1 ).
+Clearly B((0, 1); 1 ) = {p}.
+Suppose N ∈ N is such that x ∈ 2 2 0 n B((0, 1); 21 ) for all n ≥ N0.
+This would imply that \ 1 N 0 x = , = (0, 1) = p N0 N 2 N + 1 0 0 \ 1 N + 1 0 x = , = (0, 1) = p N0 +1 (N0 + 1)2 N 0 + 2 and so on.
+This is impossible if {xn} is not eventually a constant sequence.
+Hence {xn}∞n= 1 does not converge to (0, 1) = p with this metric.
+✍ Remark 3.3.7 Recall that the discrete metric space has no limit points.
+3.3.2 Subsequences Definition 3.3.8 Let {x } be a sequence in (E, d), and let n : N → N be a n k strictly increasing sequence of natuaral numbers, satisfying 1. n > n and k+1 k 2. n ≥ k, k k = 1, 2, 3, .
+.
+.
+Then {x } is called a subsequence of {x }.
+nk n Theorem 3.3.9 Every subsequence of a convergent sequence converges, and it converges to the same limit as does the mother sequence.
+Proof.
+Let {x } be a convergent sequence and {x } be an arbitrary n nk subsequence of {x }.
+Let x → x.
+Then given any E > 0, there exists N ∈ N n n such that d(xn, x) < E for all n ≥ N. Let k > N. Then, nk ≥ k > N ⇒ d(xnk , x) < E for all k > N ⇒ xnk → x as k → ∞.
+3.3.3 Cartesian Product In Example 3.3.6, the sequence x = ( 1 , n2 ) is defined in R2 (which is n n n+1 R × R).
+If you think of the sequence {xn} as follows: { 1 } is a sequence in R and converges to 0 in R; 2 { n } is a sequence in R and converges to 1 in R. n+1 39  and now claim that ( 1 , n ) → (0, 1) in R2, you would obtain the same n2 n+1 result as in Example 3.3.5.
+This is no coincidence.
+You shall now establish this, in general.
+To do this, you shall define a metric on the cartesian product of two metric spaces.
+Let (E1, d1) and (E2, d2) be two metric spaces and let E = E1 × E2 denote their cartesian product, where E is endowed with its own metric.
+You will define three commonly used metrics ρ , ρ and ρ on M. 1 2 max Let u, v ∈ E, Then u = (u , u ) with u ∈ E , u ∈ E .
+1 2 1 1 2 2 v = (v , v ) with v ∈ E , v ∈ E .
+1 2 1 1 2 2 Define ρ (u, v) = ρ ((u , u ), (v , v )) := d (u , v ) + d (u , v ) 1 1 1 2 1 2 1 1 1 2 2 2 j ρ2(u, v) = ρ2((u1, u2), (v1, v2)) := (d1(u1, v1))2 + (d2(u2, v2))2 ρ (u, v) = ρ ((u , v ), (u , v )) := max[d (u , v ), d (u , v )] max max 1 1 2 2 1 1 1 1 2 2 ρ is called the Euclidean metric on E × E .
+2 1 2 The following theorem is important.
+Theorem 3.3.10 (Convergence in a Product Metric space) Let {xn} = (1) (2) {xn , xn } be a sequence in E = (E1, d1) × (E2, d2).
+Then, the following are equivalent: 1.
+{x } converges in E with respect to the metric ρ .
+n max 2.
+{x } converges in E with respect to the metric ρ (Euclidean metric); n 2 3.
+{x } converges in E with respect to the metric ρ ; n 1 (1) (2) 4.
+{xn } and {xn } converge in (E1, d1) and (E2, d2), respectively.
+Proof.
+It suffices to prove that ρ ≤ ρ ≤ ρ ≤ 2ρ .
+(3.3.1) max 2 1 max Hence, if ρ (x , x) → 0, Sandwich theorem and Inequality (3.3.1) yield max n (a) ⇒ (b) ⇒ (c) ⇒ (d) ⇒ (a) and you have completed the proof.
+40  (a) ⇒ (b).
+ρmax(u, v) = max{d1(u1, v1), d2(u2, v2)}.
+If max{d1(u1, v1), d2(u2, v2)} = d (u , v ), then 1 1 1 ρmax(u, v) = d1(u1, v1) ≤ (d1(u1, v1))2 + (d2(u2, v2))2 = ρ2(u, v) If max{d1(u1, v1), d2(u2, v2)} = d2(u2, v2), then ρ (u, v) = d (u , v ) ≤ ρ (u, v) max 2 2 2 2 In either case, d (u, v) ≤ d (u, v), max 2 establishing th first inequality on the left of (3.3.1) (b) ⇒ (c) 2 2 2 (ρ2(u, v)) = (d1(u1, v1)) + (d2(u2, v2)) 2 = [d (u , v ) + d (u , v )] − 2d (u , v )d (u , v ) 1 1 1 2 2 2 1 1 1 2 2 2 ≤ [ρ1(u1, v1) + ρ2(u2, v2)]2 = d1(u, v)2.
+Hence, ρ2(u, v) ≤ ρ1(u, v), establishing the second inequality on the left of (3.3.1).
+(c) ⇒ (d).
+Clearly, ρ (u, v) := d (u , v ) + d (u , v ) ≤ 2 max{d (u , v ), d (u , v )}.
+1 1 1 1 2 2 2 1 1 1 2 2 2 Hence d (u, v) ≤ 2ρ (u, v).
+Finally (d) ⇒ (a) is 1 max obvious.
+It is clear that if a sequence converges with respect to ρ , then the se- max quence converges with respect to ρ , i = 1, 2.
+The following are two important i corollaries of theorem 3.3.10.
+Corollary 3.3.11 A sequence in a Cartesian product of m metric spaces converges with respect to ρ if and only if it converges with respect to ρ , 2 max if and only if each component sequence converges.
+Proof.
+0 ≤ ρ ≤ ρ ≤ max 2 mρ .
+max Corollary 3.3.12 (Convergence in Rk ; k ≥ 2) A sequence of vectors {un} ∈ Rk converges in Rk if and only if its component sequences con- verge, 1 ≤( i ≤ k. The limit lo f the vector sequence {un}n∞=1 is given by u = lim = lim u1 , .
+.
+.
+, lim uk .
+n n n→∞ n→∞ n→∞ 41  Example 3.3.13 Find the limit of each of sequence in R2 : 42  1. a = 2 , 3 n 5n+1 ( l 2. bn = ( −21n) n , 3 n3−n 1 .
+☞Solution.
+1.
+2 → 0asn → .
+Hence a = 2 , 3 → (0, 3) as n → ∞.
+5n+1 n 5n+1 2.
+(−2n1 )n → 0 and 3 n3−n 1 → 1 so that bn → (0, 1) as n → ∞.
+✍ 3.3.4 Cauchy Sequences In a first course in classical analysis, you studied the Cauchy criterion for convergence of a sequence in R, i.e., a sequence {x } in R converges if and n only if it is Cauchy.
+This is not true in arbitrary metric spaces.
+You shall see that every convergent sequence is Cauchy, but not all Cauchy sequences in an arbitrary metric space converge.
+However, under some addi- tional condition on the Cauchy sequence, it will converge.
+Definition 3.3.14 A sequence {x }∞ of points in a metric space (E, d) is n n= 1 a Cauchy sequence (or is called Cauchy) if for any E > 0 there exists an interger N > 0 such that for all m, n > N , you have d(x , x ) < E. 0 0 n m Roughly speaking a sequence {xn}∞ is Cauchy if, as you list the elements n=1 x , x , .
+.
+.
+, there exists some integer N > 0 such that all terms after x are 1 2 0 N0 necessarily “close” to each other.
+Numerous examples of Cauchy sequences are embodied in the following theorem.
+Theorem 3.3.15 Every convergent sequence in any metric space is Cauchy.
+Proof.
+Let {x } be a convergent sequence in a metric space (E, d) and let n x → x as n → ∞.
+Given E > 0, you have to find an interger N such that n 0 for all n, m ≥ N , d(x , x ) < E. So let E > 0 be given.
+Since x → x, there 0 n m n exists an integer N > 0 such that E d(x , x) < for all integers n ≥ N. n 2 Then, for any integer m > n, you have n, m > N and E d(x , x) < m 2 43  Take N0 = N. Then m, n ≥ N0 yields, E E d(xn, xm) ≤ d(xn, x) + d(x, xm) < 2 + 2 = E Hence, {x } is a Cauchy sequence.
+n Remark 3.3.16 The converse of theorem 3.3.15 is not true, in general.
+A Cauchy sequence in an arbitrary metric space is not necessarily convergent.
+To see this, let E = (0, 1] with the subspace metric.
+Clearly, E is a metric space and the sequence x = 1 , n = 1, 2, .
+.
+.
+, is a sequence in E which is n n Cauchy.
+However, xn = 1n → 0 j∈ (0, 1].
+Another example to demonstrate that a Cauchy sequence in an arbitrary metric space need not converge is the following: Consider the metric space Q of rational numbers, endowed with the usual metric on R, and consider the sequence r = 1.4, 1.41, 1.414, 1.4142, .
+.
+.
+.
+n The sequence {r } is Cauchy.
+For any, given any E > 0, choose any N > n 0 − log10 E. Then, for all m, n ≥ N0, |r − r | ≤ 10−N0 < E. m n However, {r } does not converge in Q.
+As a sequence in R, {r } converges to n n √ 2.
+Suppose {r } also converges to some r ∈ Q, then by the uniqueness of n √ limit, 2 = r ∈ Q which you know is not true.
+Hence, the Cauchy sequence {rn} is not convergent.
+An additional condition on the Cauchy sequence makes it to always con- verge.
+This is incorporated in the next theorem.
+Theorem 3.3.17 Let (E, d) be an arbitrary metric space and let {x } be an n arbitrary sequence in E. Then, the following are equivalent.
+1.
+{x } is convergent.
+n 2.
+{x } is Cauchy and has a cluster point x ∈ X n Proof.
+(a) ⇒ (b).
+You have already proved that every convergent sequence is Cauchy.
+The limit of the sequence is a cluster point in E. (b) ⇒ (a).
+Let E > 0 be given.
+Since {xn} is Cauchy, there exists an integer N > 0 such that for all n, m > N. E d(x , x ) < n m 2 44  Now, given this E > 0 and given this N, since x is a cluster point of the 2 sequence {xn} there exists an integer m0 > N such that xm0 ∈ B(x, 2E ).
+This implies that d(x , x) < E .
+Then, for n > N, m 0 2 E E d(xn, x) ≤ d(xn, xm0 ) + d(xm0 , x) < 2 + 2 = E This proves that x → x as n → ∞.
+n 3.3.5 Bounded Sequences.
+Definition 3.3.18 Let (E, d)be an arbitrary metric space and let {x } be a n sequence in E. Then {x } is said to be bounded if there exists a real number n R > 0 such that x ∈ B(x ; R) for all n > 1, for some x ∈ E. n 0 0 The following theorm is true about Cauchy sequence.
+Theorem 3.3.19 Let (E, d)be an arbitrary metric space and let {x } be a n Cauchy sequence in E. Then, {xn} is bounded.
+Proof.
+Let {x } be a Cauchy sequence in (E, d).
+Take E = 1.
+Then n there exists an integer N > 0 such that for m, n > N , d(x , x ) < 1.
+In 0 0 n m particular, take m = N + 1.
+Then 0 d(x , x ) < 1 n n+1 This implies, x ∈ B(x ; 1) for all n ≥ N .
+n N0 +1 0 Thus, the only element of the subsequence which is possibly are not in this ball are: x , x , x , .
+.
+.
+, x 1 2 3 N0 Measure the distances of this points from the center of this ball and let S = {d(xi, xN0 +1); i = 1, 2, .
+.
+.
+, N0}, and let k = max1≤i≤N0 d(xi, xN0 +1).
+Then any ball with centre xN0 +1 and radius k is likely to contain all the elements of the sequence.
+To make sure that all the elements are contained, you can choose the real number r := k + 1.
+Then, x ∈ B(x ; r) for all n ≥ 1 n N0 +1 and so {x } is bounded.
+n Corollary 3.3.20 Every convergent sequence in any metric space (E, d)is bounded.
+45  Proof.
+Every convergent sequence is Cauchy.
+The result follows from theorem 3.3.19.
+Recall that x ∈ E is a cluster point (or, accumulation point) of A if there exists a sequence in A that converges to x.
+Definition 3.3.21 x ∈ E is a cluster point of a sequence {x } if there n exist a subsequence {x } of {x } such that x → x as k → ∞.
+nk n nk Theorem 3.3.22 A point x of a metric space (E, d)is a cluster point of a sequence {x } in E if and only if there exists a subsequence {x } of {x } n nk n such that x → x as k → ∞.
+nk Proof.
+(⇒) Suppose x is a cluster point of {x }.
+Then, by definition there n exists a subsequence {x } of {x }, such that x → x as k → ∞.
+nk n nk (⇐) Suppose {x } is a subsequence of {x } such that x → x.
+You nk n nk want to prove that x is a cluster point of {x }.
+Let E > 0 be given and n take an arbitrary integer N > 0.
+Since x → x as k → ∞ and E > 0 is 0 nk given, there exists an integer M > 0 such that for each integer N > M. k you have x ∈ B(x; E).
+Clearly there exists an integer m such that n > nk m max{N , M } such that x j= x, x ∈ B(x; E).
+But then, for the arbitrary 0 nm nm E > 0, (B(x; E) " {x}) ∩ ∅.
+Thus x is a cluster point of {xn}.
+{xn} =j 3.4 Conclusion In this unit you have studied sequences in an arbitrary metric space.
+You saw that, unlike what you have in R the set of real numbers, not all Cauchy sequences converge, even though all convergent sequences are Cauchy.
+Also you saw that every convergent sequence is bounded.
+You also looked at concepts of subseqeunces, and cluster points of a sequence and proved that if x is a cluster point of a sequence then there is a subsequence of that sequence that converges to x.
+3.5 Summary Having gone through this unit, you know (i) A sequence {x } in an arbitrary metric space (E, d) converges to x in n (E, d) if given any E > 0 there exists an integer N > 0 such that for all n ≥ N, xn ∈ B(x; E) i.e., d(xn, x) < E, for all n ≥ N. 46  (ii) {yn} is a subsequence of {xn} if there exist a strictly increasing function nk : N → N given by n(k) := nk for all k ∈ N such that {yn} = {xnk }.
+If {x } is a subsequence of {x } then you must have the following nk n properties, • n > k for all k k • n > n for all k. k+1 k • {x } converges to x if and only if all its subsequences converge to n x.
+(iii) {x } is Cauchy if given any E > 0 there exist N ∈ N such that for all n n, m ≥ N, d(xn, xm) < E. (iv) Every convergent sequence is Cauchy.
+But not all Cauchy sequences are convergent.
+(v) {x } is bounded if there exist R > 0 such that x ∈ B(x ; R), where n n 0 x is some fixed point in E. 0 Every Cauchy sequence is bounded.
+Thus every Convergent sequence is bounded.
+3.6 Tutor Marked Assignments(TMAs) Exercise 3.6.1 1.
+Let a and b be distict point of a metric space (E, d), and let {x } be a n sequence in which  a, if n is odd;  x = n   b, if n is even.
+Prove that {xn} is not convergent.
+2.
+Let (E, d) be the discrete metric space.
+Prove that a sequence {x } n converge in E if and only if it is eventually constant.
+3.
+Let (E, d) be a metric space.
+Prove that a sequence {x } converge to n x in E if and only if the sequence {d(xn, x)} converges to 0 in R (with the usual metric).
+47  4.
+(a) Let (E, d) be a metric space and (A, d ) be a subspace of E. A Suppose a sequence {xn} is convergent in (A, dA), prove that {xn} is convergent in (E, d).
+(b) Let x = 1 , n = 1, 2, .
+.
+.
+.
+Then, x → 0 in R with the usual n n n metric.
+Show that {x } is not a convergent sequence in (A, d ), n A where A = (0, 1] is a subspace of R. 5.
+Let (E, d) be an arbitrary metric space.
+Prove that if a sequence {x } in n E has more than one cluster point, then the sequence is not convergent.
+6.
+Let (E, d) be an arbitrary metric space, and let {x } be a Cauchy n sequence in E. Prove: (a) Every subsequence {x } of {x } is also Cauchy.
+nk n (b) If {x } has a subsequence which converges, then {x } converges.
+n n 48  4 Unit Continuity 4.1 Introduction In this unit, you shall be introduced to the concept of continuity in an arbitrary metric space and prove two important fundamental theorems con- cerning continuity in metric spaces.
+4.2 Objectives At the end of this unit you should be able to; (i) Define continuity at a point.
+(ii) Show that a function is continuous at a given point.
+(iii) Give a sequential characterization of a continuity.
+(iv) Prove some basic theorem on continuity.
+4.3 Main Content 4.3.1 Defintion and Examples Definition 4.3.1 Let (X, d ) and (Y, d ) be metric spaces and let X Y f : D(f ) ⊂ X → Y be a mapping from the domain of f, D(f ), in X to Y.
+Then, f is said to be continuous at x ∈ X if given any E > 0, there exists δ > 0 such that if 0 x ∈ D(f ) and d (x, x ) < δ, then d (f (x), f (x )) < E. X 0 Y 0 47  In R you have that f : R → R is said to be be continuous at x ∈ R if 0 given any E > 0, there exists δ > 0 such that |f (x) − f (x )| < E whenever 0 |x − x | < δ.
+0 Suppose f : (Rn, d2) → (R, | · · · |) where Rn = {x = (x1, .
+.
+.
+, xn) : xi ∈ R, 1 ≤ i ≤ n} is endowed with the Euclidean metric 1 n 2 d2(x, y) = |xi − yi|2 i=1 where y = (y , .
+.
+.
+, y ) and R is endowed with the usual metric | · · · | you 1 n have the following definition.
+Definition 4.3.2 f : Rn → R is continuous at a = (a , .
+.
+.
+, a ) ∈ Rn if 1 n given any E > 0 there exist δ > 0 such that whenever d (x, a) < δ, you have 2 |f (x) − f (a)| < E, where x = (x1, .
+.
+.
+, xn) ∈ Rn.
+Example 4.3.3 Let f : R2 → R be defined by  ( l x2 sin 1 + y2 sin 1 , for x j= 0 and y j= 0  y x f (x, y) =   0, for x = 0 or y = 0 is f continuous at (0, 0)?
+☞Solution.
+Let E > 0 be given.
+You try to find a δ > 0 such that d2((x, y), (0, 0)) < δ ⇒ |f (x, y) − f (0, 0)| < E. Now, d2((x, y), (0, 0)) < δ ⇒ (x − 0)2 + (y − 0)2 < δ2 ⇒ |x|2 + |y|2 > δ2 If x j= 0 and y j= 0,you have, \ \ 1 1 |f (x, y) − f (0, 0)| ≤ |x2| sin + |y2| sin y x < |x|2 + |y|2 < δ2.
+√ You can choose δ2 = E, or, δ = E so that d ((x, y), (0, 0)) < δ ⇒ |f (x, y) − f (0, 0)| < E. 2 This implies that f is continuous at (0, 0).
+✍ 48  Example 4.3.4 Let f : R2 → R be defined by   x 2 x+yy 2 , for x2 + y2 j= 0, f (x, y) =   0, for x = y = 0. is f continuous at (0, 0)?
+☞Solution.
+Suppose f is contiuous at (0, 0).
+Take E = 1 .
+Suppose 4 there exists δ > 0 such that 1 d2((x, y), (0, 0)) < δ ⇒ |f (x, y) − f (0, 0)| < 4 .
+Now, d ((x, y), (0, 0)) < δ ⇒ |x|2 + |y|2 < δ2.
+2 This implies, in particular, |x| < δ and |y| < δ (4.3.1) Now, xy |f (x, y) − f (0, 0)| = − 0 .
+x2 + y2 Take x = √ δ = y.
+Clearly, these choices satisfies (4.3.1).
+But, 2 2 xy δ 2 1 1 |f (x, y) − f (0, 0)| = = 8 = > .
+x2 + y2 δ2 2 4 4 So, f is not continuous at (0, 0).
+✍ Example 4.3.5 Let f : R2 → R be defined by f (x, y) = 3x2 − 4xy + 7y2 − 3x + 2y − 6.
+Prove that f is continuous at (−1, 3).
+☞Solution.
+Let E > 0 be given.
+You want to find a δ > 0 such that d ((x, y), (−1, 3)) < δ ⇒ |f (x, y) − f (−1, 3)| < E. Now, d ((x, y), (−1, 3)) 2 2 < δ ⇒ |x + 1|2 + |y − 3|2 < δ2 and this implies, |x + 1|2 < δ2 and |y − 3|2 < δ2 so that |x + 1| < δ and |y − 3| < δ.
+(4.3.2) 49  Now |f (x, y) − f (−1, 3)| = |3(x2 − 1) − 4(xy + 3) + 7(y2 − 9) − 3(x + 1) + 2(y − 3)| ≤ 3|x − 1||x + 1| + 4|xy + 3| + 7|y − 3||y + 3| + 3|x + 1| + 2|y − 3| < 3|x − 1|δ + 4|xy − 3x + 3x + 3| + 7δ|y + 3| + 3|x + 1| + 2|y − 3| < 3|x − 1|δ + 4|xy − 3x + 3x + 3| + 7δ|y − 3| + 3δ + 2δ.
+< 3δ|x − 1| + 4δ|x| + 12δ + 7δ|y + 3| + 5δ.
+(4.3.3) Now to estimate |x − 1|, |x| and |y + 3|, you will use (4.3.2).
+Without loss of generality, you may assume, δ < 1 (4.3.4) From |x + 1| < δ, you obtain, |x| = |x + 1 − 1| ≤ |x + 1| + 1 < δ + 1 < 2 (using (4.3.4)), so that |x − 1| ≤ |x| + 1 < 2 + 1 = 3.
+Also, from |y − 3| < δ, you obtain |y| ≤ |y − 3| + 3 < δ + 3; |y + 3| ≤ |y| + 3 < 4 + 3 = 7.
+Using, these numbers in (4.3.3), you obtain that |f (x, y) − f (−1, 3)| ≤ 9δ + 12δ + 49δ + 5δ = 83δ.
+Given E > 0, you can choose f l E δ = min 1, .
+83 Then, d ((x, y), (−1, 3)) < δ ⇒ |f (x, y) − f (1, −3)| < E. (convince yourself !
+), 2 and so f is continuous at (−1, 3).
+✍ Example 4.3.6 Let (E, d) be a metric space and let a ∈ E be fixed.
+Let f : E → R be defined by f (x) = d(x, a) ∀ x ∈ E. Then f is uniformly continuous on E ☞Solution.
+Let E > 0 be given and x, y ∈ E be arbitrary.
+You have to find a δ > 0 such that if d(x, y) < δ then, |f (x) − f (y)| < E. But |f (x) − f (y)| < E ⇔ |d(x, a) − d(y, a)| < E ⇔ −E < d(x, a) − d(y, a) < E. 50  This gives a clue on how to proceed.
+Now, d(y, a) ≤ d(y, x) + d(x, a).
+Hence d(y, a) − d(x, a) ≤ d(y, x) (4.3.5) Also, d(x, a) ≤ d(x, y) + d(y, a).
+Hence, d(x, a) − d(y, a) ≤ d(y, x) (4.3.6) From (4.3.5) and (4.3.6) you obtain |d(x, a) − d(y, a)| ≤ d(y, x) (4.3.7) Thus, given, E > 0, choose δ = E. Then (4.3.7) yields the result.
+✍ 4.3.2 Basic Theorems In this section, you will prove some important theorems concerning continu- ous functions.
+Theorem 4.3.7 Let (X, d ) and (Y, d ) be metric spaces and let f : X → X Y Y be a map.
+Let x0 ∈ X be arbitrary but fixed.
+Then, the following are equivalent: (a) f is continuous at x .
+0 (b) If {x } is a convergent sequence in X such that x → x ∈ X then n n 0 f (xn) → f (x0) ∈ Y as n → ∞.
+Proof.
+(a) ⇒ (b).
+Suppose f is conitnuous at x .
+Let {x } be a sequence 0 n of elements of X such that x → x .
+Then clearly {f (x )} is a sequence of n 0 n elements of Y. Continuity of f implies, given E > 0, there exists δ > 0 such that dX (x, x0) < δ ⇒ dY (f (x), f (x0)) < E (4.3.8) Convergence (xn → x) implies, there exists N0 ∈ N such that for all n ≥ N , d (x , x) < δ.
+Then by (4.3.8) you obtain that d (f (x), f (x )) < E. and 0 X n Y 0 this implies, f (x ) → f (x ), establishing (b) n 0 (b) ⇒ (a).
+You will prove this by contrapositive argument.
+i.e., you have to prove that if (a) is not true (b) is not true.
+So, assume that (a) is not true.
+i.e., f is not continuous at x .
+Then, there exists at least one E > 0.
+0 call it E∗, such that no matter how small you take δ > 0, there will always be points x ∈ X with d (x, x ) < δ but d (f (x), f (x )) ≥ E∗.
+Now, take X 0 Y 0 δ = 1 , n = 1, 2 .
+.
+.
+.
+For each δ , there exists x with d (x , x ) < δ (= 1 ) n n n n X n 0 n n and dY (f (xn), f (x0)) ≥ E∗.
+Thus, lim xn = x0 but f (xn) ... f (x0).
+This n→∞ complete the proof.
+51  Theorem 4.3.8 The following are equivalent for continuity of f : (X, dX ) → (Y, d ).
+Y (i) The E − δ condition.
+(ii) For each closed set F in Y, f −1(F ) is closed in X.
+(iii) For each open set G in Y, f −1(G) is open in X.
+Proof.
+(i) ⇒ (ii).
+Assume f is continuous (E − δ condition holds).
+Let F be a closed set in Y.
+You have to prove that f −1(F ) is closed in X.
+So, let {x } be a sequence in f −1(F ) such that x → x ∈ X.
+You have to show that n n x ∈ f −1(F ).
+But continuity of f implies, f (x ) → f (x) n in Y, n → ∞.
+By assumption, {xn} is in f −1(F ) so, {f (xn)} is in F. Since F is closed, you obtain that f (x) ∈ F.
+i.e., x ∈ f −1(F ) as required.
+(ii) ⇒ (iii).
+This follows the fact that / l f −1(G) c = f −1 (Gc) .
+(iii) ⇒ (i).
+Let x ∈ X be arbitrary and let E > 0 be given.
+Then 0 clearly, B(f (x ); E) is open in Y and contains f (x ).
+By condition (iii), 0 0 f −1(B(f (x ); E)) is open in X and contains x .
+Hence there exist δ > 0 0 0 such that B(x0; δ) ⊂ f −1 (B(f (x0); E))) .
+This means, for all x ∈ B(x ; δ), you have f (x) ∈ B(f (x ); E), i.e., 0 0 d (x, x ) < δ ⇒ d (f (x), f (x )) < E. X 0 Y 0 and so f is continuous at x .
+Since x ∈ X is arbitrary, you obtain that f is 0 0 continuous on X.
+Example 4.3.9 Let (X, d ) be a discrete metric space and let (Y, d ) be X Y an arbitrary metric space.
+Then any mapping f : X → Y is always continuous.
+Example 4.3.10 Let f : (X, d ) → (Y, d ) be defined by X Y f (x) = y0 for some y ∈ Y (i.e., f is a constant function).
+Then f is continuous.
+0 52  Example 4.3.11 Let X = R be with the usual metric, and let f : R → R be defined by  −2, if x < 0 f (x) =   2, if x ≥ 0 Then, f is not continuous at x = 0.
+4.3.3 The Pasting Lemma Here is an application of the theorems of thelast section.
+This application will provide you with a quick method of establishing the continuity of several maps which is defined piecewise.
+Theorem 4.3.12 (Pasting lemma on union of closed sets) Let X = A1 ∪ A2, where A1 and A2 are closed sets in a metric space X.
+Suppose there exist maps f , f , such that 1 2 f : A → Y is continuous 1 1 and f : A → Y is continuous 2 2 where Y is an arbitrary metric space.
+If (i) h : A ∪ A → Y is defined by 1 2  f1(x), if x ∈ A1, h(x) =   f (x), if x ∈ A .
+2 2 (ii) f1(x) = f2(x) for all x ∈ A1 ∩ A2, then h is continuous on A ∪ A = X.
+1 2 Example 4.3.13 Let f : R → be defined by  x 2 + 1, if x ≤ 0,  f (x) =  1(x + 2), if x ≥ 0.
+2 Then f is contiuous on R. 53  ☞Solution.
+You can identify: A1 = {x : x ≤ 0} = (−∞, 0], A2 = {x ∈ R : x ≥ 0} = [0, ∞).
+Clearly, A1 and A2 are closed sets in R (with the usual metric).
+Furthermore, R = A1 ∪ A2.
+Also, identify f1(x) = x2 + 1, f (x) = 1 (x + 2) and these are continuous on A and A respectively.
+Finally, 2 2 1 2 A ∩ A = 0, f (0) = f (0) = 1.
+By the pasting lemma, you obtain that f is 1 2 1 2 continuous on R. ✍ Example 4.3.14 Let h → R be defined for each positive integer n by R  0 , if − 1 ≤ t ≤ 0,    hn(t) = nt, if 0 ≤ t ≤ n 1     1, if 1 ≤ t ≤ 1, n for n = 1, 2, .
+.
+.
+.
+Then for each n, h is continuos.
+n ☞Solution.
+Follow the idea of the preceeding example and apply pasting lemma.
+✍ 4.4 Conclusion In this unit you studied continuous functions.
+And proved some basic theo- rem on continuity.
+Finally you studied the pasting lemma and was able to apply in showing that a function defined piecewise is continuous.
+4.5 Summary Having studied this unit, you now know that; (a) A function f :(X, d )→(Y, d )is continuous at x ∈ X if given any E > X Y 0 0 there exist δ > 0 such that d (x, x ) < δ implies that d (f (x), f (x )) < X 0 Y 0 E. (b) f is sequentially continuous at x if for any sequence {x } of elements 0 n of X such that x → x you must have that f (x ) → f (x ) as n → ∞.
+n 0 n 0 (c) The following are equivalent - f is continuous at x0 - For each closed set F in Y, f −1(F ) is closed in X.
+54  - For each open set G in Y, f −1(G) is open in X.
+(d) (Pasting lemma on union of closed sets) Let X = A ∪ A , where 1 2 A and A are closed sets in a metric space X.
+Suppose there exist 1 2 maps f , f , such that 1 2 f : A → Y is continuous 1 1 and f : A → Y is continuous 2 2 where Y is an arbitrary metric space.
+If (i) h : A ∪ A → Y is defined by 1 2  f1(x), if x ∈ A1, h(x) =   f (x), if x ∈ A .
+2 2 (ii) f1(x) = f2(x) for all x ∈ A1 ∩ A2, then h is continuous on A ∪ A = X.
+1 2 4.6 Tutor Marked Assignments(TMAs) Exercise 4.6.1 1.
+  1 for xy j= 0 cos 2xy f (x, y) =   1, for xy = 0. at (0, 0).
+2.
+  x 2 +x 2y 2 for x 2 + y2 j= 0 g(x, y) =   1, for xy = 0. at (0, 0).
+55  3.
+ x sin 1 + y cos 1 + z sin(x + y) for xz j= 0  z z h(x, y) =   1, for xy = 0. at (0, 0).
+4.
+Give an “E − δ” argument for the continuity of f (x, y) = x2 + 2xy + x2y at (−2, 3) 5.
+Give an “E − δ” argument for the continuity of f (x, y, z) = x2 + y2 + z2 + 2xyz at (1, 1, 3).
+6.
+Leta ∈ Rn (i.e., a = (a , .
+.
+.
+, a )).
+Let d denote the Euclidean metric 1 n on Rn.
+(a) Prove that d(x + a, y + a) = d(x, y) for all x, y ∈ Rn.
+(b) Let α ∈ Rn prove that f : Rn → Rn be defined by f (x) = α + x is continuous on Rn.
+(c) Prove that for all α ∈ R.f : Rn → Rn defined by f (x) = αx is continuous on Rn.
+(d) Prove that for all α ∈ R, f : Rn → Rn defined by f (x) = a + αx is continuous on Rn.
+‘ 7.
+(a) Let I :(X, d )→(X, d )be the identity mapping from a metric X X space into itself.
+Prove that I is continuous.
+(b) Let I : (X, d) → (X, ρ) be the identity mapping from a metric space into itself, where the metric ρ is different from the metric d. Is I continuous?
+Justify your answer.
+(c) Is the image of an open set under a continuous map always open?
+Justify your answer.
+√ 8.
+Let f : (0, ∞) → R be defined by f (x) = x.
+If f continuous on (0, ∞)?
+Justify your answer.
+9.
+Let K be a nonempty subset of a metric space (X, d ).
+For x ∈ K, X define the distance for x to K by d (x, K ) = inf {d (x, u) : u ∈ K }.
+X X 56  (a) Prove that dX (x, K ) = 0 if and only if x ∈ K .
+(b) Prove that f : X → R defined by f (x) = d (x, K ) X is a uniformly continuous function on X.
+10.
+Let A and B be nonempty subsets of a metric space (X, d) Define the distance between A and B by d(A, B) = inf {d(a, b) : a ∈ A and b ∈ B}.
+Give an example to show that it is possible for two disjoint closed set A and B to satisfy d(A, B) = 0.
+11.
+Let (X, d ) and (Y, d ) be metric spaces, and let f : X → Y be any X Y map.
+Prove that f is continuous on X if and only if for arbitrary subset A of X, f (A) ⊂ f (A).
+12.
+Let X and Y be metric spaces.
+Suppose f, g : X → Y are continuous on X.
+Let K be a nonempty subset of X and let f (x) = g(x) for all x ∈ K. Prove that f (x) = g(x) for all x ∈ K .
+13.
+Let X, Y and Z be metric spaces.
+Suppose f and g are maps such that f : X → Y and g : Y → Z.
+Suppose further that f is continuous on X and g is continuous on Y.
+Prove that g ◦ f : X → Z is continuous on X.
+14.
+Let X, Y and Z be metric spaces.
+Suppose f and g are maps such that f : X → Y and g : Y → Z.
+Suppose futher that f is uniformly continuous on X and g is uniformly continuous on Y.
+Prove that g ◦ f : X → Z is uniformly continuous on X.
+15.
+Let f be defined for each n by n  0 , if0 ≤ t ≤ 2.
+   fn(t) = n2 (t − 2) if 0 ≤ t ≤ 2 +n 2 ,     1, if2 + 2 ≤ t ≤ 4 n Prove that f is continuous on [0, 4] for each n. n 57  5 Unit Completeness 5.1 Introduction In this unit, you shall be introduced to the notion of completeness in a metric space, and prove two very important theorems concerning complete metric spaces.
+5.2 Objectives At the end of this unit, you should be able to (a) Define a complete metric space and give examples.
+(b) Prove two very important theorems concerning complete metric spaces.
+5.3 Main Content 5.3.1 Definition and Examples Definition 5.3.1 Let (X, d )be a metric space.
+Then (X, d )is said to be X X complete ( or is called a complete metric space) if every Cauchy sequence in X converges to a point in X.
+In other word, the word completeness implies that if {x } is an arbitrary n Cauchy sequence in X such that xn → x, then x must be in X (i.e., x ∈ X ).
+Thus X must contain the limit of every Cauchy sequence in X.
+In what follows you shall assume that Rn, with the usual Euclidean metric is complete.
+58  Example 5.3.2 Let Y = (0, 1] be a subset of R, where Y is endowed with the subspace metric.
+The sequence {x } = { 1 } is clearly a Cauchy sequence n in Y.
+Furthermore, 1 → 0 as n → ∞.
+Howne ver, 0 j∈ (0, 1] so (0, 1] is not n complete.
+Example 5.3.3 The space Q of rational numbers is not complete.
+Theorem 5.3.4 A closed subset of a complete metric space is complete.
+Proof.
+Let (E, d) be a complete metric space and let K be a closed subset of X.
+You have to show that K is complete, i.e., you must show that an arbitrary Cauchy sequence in K converges to a point in K. So, let {xn} be an arbitrary Cauchy sequence in K. Since K is a subset of E, this implies that {x } is also a Cauchy sequence in the complete metric space, E. Hence {x } n n converges to a point x ∈ E. But {x } is a sequence in K and K is closed, so n x ∈ K = K. Therefore, the arbitrary Cauchy sequence in K converges in to a point x ∈ K. So, K is complete.
+Theorem 5.3.5 Let (E, d) Let be an arbitrary metric space, and let K be a complete subset of E. Then K is closed Proof.
+You have to show that K = K .
+Clearly, K ⊂ K .
+So, it suffices to show that K ⊂ K. Let y ∈ K be arbitrary.
+Then, there exists a 0 sequence {x } in K such that x → y .
+This implies {x } is a Cauchy sequence in n n 0 n K. But K is complete, and so {x } converges to a point, x ∈ K. By the n uniqueness of limit in a metric space, you have that x = y ∈ K. Hence 0 K ⊂ K and so (combining with K ⊂ K ), you obtain that K = K .
+Theorem 5.3.6 A metric space (E, d) is complete if ever Cauchy sequence of E has a subsequence which is convergent.
+Example 5.3.7 Let (E, d) be the discrete metric space.
+Then (E, d)is com- plete.
+☞Solution.
+Let {x } be an arbitrary Cauchy sequence in E. Then, n given any E > 0, there exists N ∈ N such that 0 d(x , x ) < E ∀ n, m ≥ N .
+n m 0 Fix m > N .
+Then 0 0 d(x , x ) < E ∀ n ≥ N .
+n m0 0 This implies, x ∈ B(x ; E) ∀ n ≥ N .
+n m0 0 59  Since E > 0 is arbitrary, B(x ; E) = x and so x = x for all n ≥ N .
+m0 m0 n m0 0 Hence, xn → xm0 ∈ E, and so (E, d) is complete.
+✍ Example 5.3.8 Consider C[a,b] with the metric d defined by d(f, g) = sup |f (x) − g(x)| x∈[a,b] for arbitrary f, g ∈ C [a, b].
+Then C [a, b] is complete.
+☞Solution.
+Let {f } be a Cauchy sequence in C [a, b].
+Then, given n arbitrary E > 0, there exists an integer N¿0 such that for all n, m ≥ N, d(f , f ) < E. This implies that n m sup |fn(x) − fm(x)| < E ∀ n, m ≥ N. x∈[a,b] Thus the uniform Cauchy criterion for uniform convergence of sequences of real-valued functions, the sequence {f } converges uniformly to some f ∈ n C [a, b].
+Hence, C [a, b] with this metric is complete.
+✍ Example 5.3.9 The sequence spaces, l (1 ≤ p ≤ ∞) with their usual met- p rics are complete metric spaces.
+5.3.2 Banach Contraction Mapping Principle.
+Definition 5.3.10 Let (X, d )and (Y, d )be arbitrary metric spaces.
+A map- X Y ping f :(X, d )→(Y, d )is called a strict contraction (or, simply a con- X Y traction) if there exist a constant k ∈ [0, 1) such that d (f (x), f (y)) ≤ kd (x, y) Y X for all x, y ∈ X.
+Intuitively, a contraction “shrinks” distances by some factor of k ∈ [0, 1).
+Here are some examples for you.
+Example 5.3.11 Let f : [2, ∞) → R be defined by \ 1 3 f (x) = x + 2 x ∀ x ∈ [2, ∞).
+Then f is a contraction map.
+60  ☞Solution.
+You shall use the Mean value Theorem.
+So, \ 1 3 1 f t(x) = 1 − ≤ ∀ x ∈ [2, ∞).
+2 x2 2 By Mean value theorem, there exists ξ ∈ [2, ∞) such that for all x, y ∈ [2, ∞), 1 1 d(f (x), f (y)) = |f t(ξ)| · |x − y| ≤ |x − y| = d(x, y).
+2 2 Hence f is a contraction map.
+✍ Definition 5.3.12 Let (E, d) be a metric space and let f : X → X be any map.
+A point x ∈ X is called a fixed point of f if f (x) = x.
+Notation: Denote f n = f ◦ f ◦ f ◦ · · · ◦ f, (n times) i.e., the function obtained by taking the composition of f with itself n times.
+So that f n(x ) = 0 f (f n−1(x )), etc.
+0 Theorem 5.3.13 (Banach Contraction Mapping Principle) Let • X be a complete metric space; • f : X → X be a contraction map.
+Then (a) there exists x∗ ∈ X such that f (x∗ ) = x∗ .
+(b) For arbitrary x ∈ X, the sequence {x } defined by 0 n x = f (x ), n ≥ 0, (5.3.1) n+1 n converges to x∗ .
+Proof.
+Let x ∈ X, using (5.3.1) you have 0 x = f (x ) 1 0 x = f (x ) = f (f (x )) = f 2(x ) 2 1 0 0 x = f (x ) = f (f 2(x )) = f 3(x ) 3 2 0 0 .
+x = f (x ) = f (f n−1( x )) = f n(x ) n n−1 0 0 61  So you have a sequence {xn} in X.
+Now you have to show that {xn} is a Cauchy sequence.
+First, compute the following.
+d(x , x ) = d(f (x ), f (x )) n n+1 n−1 n ≤ kd(xn−1, xn) = kd(f (x ), f (x )) n−2 n−1 ≤ k2d(xn− 2, xn −1) .
+≤ knd(xn− n, xn −(n−1)) = k nd(x + 0, x ) 1 Let m > n, d(xn, xm) ≤ d(xn, xn+1) + d(xn+1, xn+2) + · · · + d(xm−1, xm) ≤ knd(x0, x1) + kn+1d(x0, x1) + · · · + km−1d(x0, x1) ≤ knd(x0, x1)[1 + k + k2 + · · · + km + · · · ] 1 = knd(x0, x1) 1 − k, k ∈ [0, 1) As n → ∞, knd(x0, x1) 1 −1 k → 0, therefore d(xn, xm) → 0 as n, m → ∞.
+So, {xn} is a Cauchy sequence in X.
+Hence, x → x∗ ∈ X. n By continuity of f, f (x ) → f (x∗ ), i.e., x = f (x ) → f (x∗ ).
+This n n+1 n implies by that f (x∗ ) = x∗ .
+To prove the uniqueness of x∗ , suppose for contradiction that there exists y∗ ∈ X such that f (y∗ ) = y∗ and x∗ j= y. d(x∗ , y∗ = d(f (x∗ ), f (y∗ )) ≤ kd(x∗ , y∗ ), k ∈ [0, ⇔ 0 ≤ (k − 1)d(x∗ , y∗ ) (k − 1)d(x∗ , y∗ ⇔ 0 ≤ ) d(x∗ , y∗ ) ⇔ k ≥ 1 This is a contradition since k ∈ [0, 1).
+Thus x∗ is unique.
+5.4 Conclusion In this unit, you studied complete metric space.
+you were able to give a definition and characterization of completeness.
+You stated and proved the Banach Contraction Mapping Principle 62  5.5 Summary Having made it to the end of this unit, you are now able to (a) Define a complete metric space and give examples.
+(b) Prove two very important theorems concerning complete metric spaces.
+5.6 Tutor Marked Assignments(TMAs) Exercise 5.6.1 1.
+Let (E, d)be a metric space and let f : E → E satisfy ρ(f (x), f (y)) ≤ kρ(x, y) for all x, y ∈ E. k ∈ (0, 1).
+For x0 ∈ E, define the sequence {xn}n∞= 0 by xn+1 = f (xn), n ≥ 0.
+Prove that \ 1 − kn ρ(x , x ) < ρ(x , x ) n 0 0 1 1 − k (Hint: First compute ρ(x , x )).
+0 n+1 2.
+Suppose b > 0, prove [b, ∞) is a complete metric space and that f : [b, ∞) → R defined by \ 1 b2 f (x) = x + , x ∈ [b, ∞) 2 x is a contraction map.
+3.
+Let (E, ρ) = [0, 1 ], ρ where ρ denotes the usual metric on R. Let 3 T : E → E be defined by T x = x2.
+Prove that T is a contraction map on E. Is T a contraction on [0, 1]?
+Justify.
+4.
+Find an example of a complete metric space (E, d) and a mapping f : E → E such that d(f (x), f (y)) < d(x, y) for all x, y ∈ E and f has no fixed point.
+(Hint: E = [1, ∞).
+f (x) = x + 1x or, E = R, f (x) = ln(1 + ex)) 63  5.
+Let E be a complete metric space and h, g be such that h, g : E → E. Suppose that h is a contraction and g commutes with h (i.e., h(g(x)) = g(h(x)), ∀ x ∈ E).
+Prove that g has a fixed point in E. Is such a fixed point unique?
+6.
+Let E be a complete metric space and f : E → E be a mapping of E into itself.
+Suppose for some positive integer n, f n is a contraction mapping of E into itself.
+Show that f has a unique fixed point in E 7.
+Let (E, d) be a complete metric space, and let f : E → E be a mapping of E into itself.
+Suppose that numbers k exist such that sum ∞k < n n=1 n ∞ and d(f n(x), f n(y)) ≤ knd(x, y), ∀ x, y ∈ E. Prove that there exists a unique x∗ ∈ E such that f (x∗ ) = x∗ .
+Further- more, if x is an arbitrary point of E, then f n(x ) → x∗ as n 0 0 → ∞.
+8.
+Let E = [4, ∞) with the usual metric for R, and let f : [4, ∞) → R be defined by \ 1 16 f (x) = x + ∀x ∈ [4, ∞).
+2 x Prove: (i) E is a complete metric space.
+(ii) f is a contraction map on E. What is the unique fixed point of f ?
+9.
+Let E = [1, ∞) be endowed with the usual metric for R, and let f : E → E be defined by 1 1 f (x) = x + + .
+x x3 Prove: (i) E is a complete metric space.
+(ii) |f (x) − f (y)| ≤ |x − y|, ∀ x, y ∈ E, (iii) f has no fixed point in [1, ∞) Why does (iii) not contradict the contradiction mapping principle?
+64  10.
+Let (E, d ) and (F, d ) be metric spaces.
+A mapping f : E → F is E F called Lipschitz if there exists a constant L ≥ 0 such that d (f (x), f (y)) ≤ Ld (x, y), ∀ x, y ∈ E. F E (Note A contradiction map is a special case of a Lipschitz map in which L ∈ [0, 1)).
+(a) Prove that every Lipschitz map is uniformly continuous.
+(b) Let f : R → R be defined by f (x) = (x2 + 1) 21 ∀ x ∈ R. Prove: i. f satisfies |f (x) − f (y)| ≤ |x − y| ∀ x, y ∈ R, ii.
+f has no fixed point in R. 65  6 Unit Compactness 6.1 Introduction Compactness is perhaps the single most important concept in analysis.
+It is, in some sense, what reduces the infinite to the finite.
+In this unit, you shall study the notion of compactness, and for better understanding, you have to do all the assignments given to you by the tutor in the TMAs.
+6.2 Objectives: At the end of this unit, you should be able to (i) understand the definition of compactness (ii) give some examples of compactness.
+(iii) state and prove some important theorem on compactness (iv) state the characteristics of a continuous function defined on a compact- ness.
+6.3 Main Content.
+Definition 6.3.1 A subset K of a metric space E is called compact (or, sequentially compact) if every sequence {x }∞ in K has a subsequence n n= 1 {x }∞ that converges to a limit in K. nj j= 1 The definition says that for K to be compact, the limit of the subsequence of the sequence taken in K must be in K. 66  Example 6.3.1 The empty set ∅ is a compact set.
+Example 6.3.2 Any finite set is a compact set.
+To see this, let S = {s1, s2, .
+.
+.
+, , sk }.
+Let {sn}∞n= 1 be a sequence in S. Then the sequence {sn}∞n= 1 , after k term infinitely often and the corresponding constant sequence con- verges to the term.
+In what follows, you shall develop more facts about compact sets.
+6.4 Compactness and Subsets Theorem 6.4.1 Every compact subset of a metric space is closed and bounded Proof.
+Let A be a compact subset of a metric space (E, d).
+You first have to show that A is closed.
+So, let a∗ be an arbitrary limit point of A.
+Then, there exists a sequence {an}∞n= 1 in A such that an → a∗ as n → ∞.
+Since A is compact and {an}∞n= 1 is in A, there exists a subs equence {an j} ∞j= 1 of {an}∞n= 1 such that anj → x∗ as j → ∞, for some x ∗ ∈ A.
+But all subsequences of {an}∞n= 1 must converge to a∗ .
+So, a = x∗ ∈ A.
+Hence A is closed (i.e., contains all its limit points.)
+It is now left for you to show that A is bounded.
+Choose and fix an arbitrary point a ∈ A.
+Assume A is not bounded.
+Then, for each n ∈ N, ∃ a ∈ 0 n A such that d(a0, an) ≥ n. Since A is compact and {an}n∞= 1 ⊆ A, ∃ a subsequence { anj }∞j= 1 of {an} such that anj → a∗ as j → ∞, we obtain that d(a0, anj ) → ∞, contradicting the boundedness of {anj }.
+Hence, A is bounded.
+Remark 6.4.1 The converse of theorem 6.4.1 is generally false.
+For exam- ple, let A = Q ∩ [0, 1], i.e., A is the set of rationals in [0, 1].
+Clearly A is bounded.
+A is also closed.
+But A is a subset of Q which is not compact, because we can find a sequence of rationals in A which converges to a point outside A. Theorem 6.4.2 The cartesian product of two compact sets is compact.
+Proof.
+Let A, B be two compact subsets of a metric space, (E, d).
+Let (a , b ) ∈ A × B be given.
+Then, since A is compact, ∃ a subsequence {a } n n nj of {a } such that a → a ∈ A as j → ∞.
+The corresponding subsequence n nj {b } has a subsequence {b } that converges to some b ∈ B as k → ∞.
+Then, nj jk the corresponding subsequence {a } of {a } converges still to a.
+Hence, njk nj (anjk , bnj k ) → (a, b) ∈ A × B as k → ∞.
+67  This implies that A × B is compact.
+Corollary 6.4.2 The Cartesian product of n compact sets A × A × A is 1 2 n compact.
+Proof.
+Observe that A × A × A = A × (A × · · · × A ).
+The proof 1 2 n 1 2 n follows by induction.
+Theorem 6.4.3 A close subset of a compact set is compact.
+Proof.
+Let A be a closed subset of a compact set K. Let {an}∞ be an n=1 arbitrary sequence in A.
+Then clearly {a }∞ is a sequence in K. Since K n n= 1 a subsequence { anj }j∞=1 of {an}∞n=1 such that anj → a ∈ K as j → ∞.
+Since A is closed, a ∈ A, and so A is compact.
+6.5 Continuity and Compactness In a first course in classical analysis, the following theorem is generally proved.
+Theorem 6.5.1 Let f : [a, b] → R be continuous.
+Then, (i) f is bounded, i.e., ∃ M > 0 such that |f (x)| ≤ M, ∀ x ∈ [a, b].
+(ii) There exists a point c ∈ [a, b] such that f (c ) = min f (x).
+1 1 x∈[a,b] (iii) There exists a point c ∈ [a, b] such that f (c ) = max f (x).
+2 2 x∈[a,b] (iv) f ([a, b]) = [f (c ), f (c ).]
+1 2 (v) f is uniformly continuous on [a, b].
+In this section, you shall extend this theorem to metric spaces.
+You may begin with the following theorem.
+Theorem 6.5.2 The image of a compact set under a continuous map is compact.
+Proof.
+Let E and F be metric spaces and let f : E → F be continuous.
+Let K ⊂ E be compact.
+You have to show that f (K ) is a compact set F. To this respect, let {y }∞ be an arbitrary sequence in f (K ).
+Then, there n n= 1 exists a sequence {a} in K such that f (an) = yn, ∀ n ∈ N. By compactness of K, there exists a subsequence {anj }∞j= 1 of {an}∞n= 1 such that anj → a ∈ K. 68  Continuity of f on K implies f (anj ) = ynj → f (a) ∈ f (K ).
+Thus, the arbitrary sequence {y }∞ that converges to an element of f (K ).
+So, f (K ) n j= 1 is compact.
+Remark 6.5.1 Theorem 6.5.2 is the extension of part (iv) of Theorem 6.5.1 to arbitrary metric spaces.
+The next theorem you shall prove will extend parts (i), (ii) and (iii) of Theorem 6.5.1 to metric spaces.
+Theorem 6.5.3 Let K be a compact subset of a metric space E and let f : K → R be continuous.
+Then, (i) f is bounded, i.e., ∃ M > 0 such that |f (x)| ≤ M, ∀ x ∈ K ; (ii) ∃ x ∈ K such that f (x ) = min f (x).
+0 0 x∈K (iii) ∃ x0 ∈ K such that f (x0) = max f (x).
+x∈K Proof.
+1.
+By theorem 6.5.2, f (K ) is a compact subset of R. By theorem 6.4.1, f (K ) is closed and bounded (as a compact subset of the metric space R).
+This establishes (i) 2.
+Since f (K ) is bounded, inf f (x) and sup f (x) belong to f (K ).
+Hence, x∈K x∈K (ii) and (iii) follow.
+Theorem 6.5.4 Every real-valued continuous function defined on a compact set is uniformly continuous.
+Proof.
+Let K be a compact subset of a metric space (E, d)and let f : K → R be continuous.
+You have to show that f is uniformly continuous.
+Suppose this is not the case.
+Then, ∃ E > 0 such that no matter how small δ > 0 is, there exist points x, y ∈ K with d(x, y) < δ but |f (x) − f (y)| ≥ E. Take δ = 1 n and let {xn}∞n= 1 and {yn}∞n= 1 be sequences in K such that d(xn, yn) < 1n while |f (xn)−f (yn)| ≥ E. Compactness of K implies there is a subsequence {xnj }j∞=1 1 of {xn}∞n= 1 such that xnj → x∗ ∈ K as j → ∞.
+Since d(xn, yn) < n → 0, as as j → ∞.
+Again, continuity of f implies j=1 converges to x f (xnj ) → f (x∗ ) and f (ynj ) → f (x∗ ).
+So, for sufficiently large j, |f (x ) − f (y )| ≤ |f (x ) − f (x∗ )| + |f (x∗ ) − f (y )|lesE, nj nj nj nj contradicting the supposition that |f (x ) − f (y )| ≥ E, ∀ n. n n 69  6.6 Conclusion In this unit, you discussed a very important property of metric spaces called compactness.
+You were able to define and give examples of compact metric space.
+And you also stated and proved some important theorem concerning compactness in a metric space.
+6.7 Summary Having made it to the end of this unit, you are now able to (i) understand the definition of compactness (ii) give some examples of compactness.
+(iii) state and prove some important theorem on compactness (iv) state the characteristics of a continuous function defined on a compact- ness.
+6.8 Tutor Marked Assignments(TMAs) Exercise 6.8.1 1.
+Let (R, d) be the real line with the usual metric.
+Prove that R is not compact.
+2.
+(a) Suppose 1 E = x : x = 0 or x = , n = 1, 2, .
+.
+.
+n i.e., 1 1 1 E = 0, 1, , , .
+.
+.
+, , .
+.
+.
+.
+2 3 n Prove that E is compact.
+(b) Let {x }∞ be a convergent sequence in a metric space E and n n= 1 let xn → x∗ as n → ∞.
+Prove that the set K defined by K = {xn} ∪ {x ∗} is compact.
+(c) Prove that Y = (0, 1] with the usual metric on R is not compact.
+70  (d) Let (R, d) denote the real line with the discrete metric.
+Is R complete?
+Justify.
+(e) Prove that every metric space with a finite number of points is compact.
+(f ) Let K be a nonempty subset of a metric space (E, d).
+For x ∈ E, define the distance from x to K by d(x, K ) = inf {d(x, u) : u ∈ K }.
+Prove that if K is compact, then there exists a point u∗ ∈ K such that d(x, K ) = d(x, u∗ ) 71  7 Unit Connectedness 7.1 Introduction You were taught in your elementary classical analysis the intermediate value theorem, which states that if a function f is continuous on an interval I and η is a number between f (a) and f (b) then there exists ξ ∈ I such that f (ξ) = η.
+The intermediate theorem is so important in application, for example in constructing inverse functions.
+This theorem depends not only on the fact that f is continuous but on the special property of the interval I called connectedness, which is the major notion of consideration in this unit and this would help us to recover the intermediate value theorem as a special case.
+7.2 Objective At the end of this unit, you should be able to; (i) define and explain the of connectedness in a metric space.
+(ii) give examples and state some basic properties of connected sets.
+(iii) see a special property of a continuous function defined on a connected space.
+(iv) prove the intermediate value theorem.
+72  7.3 Main Content Definition 7.3.1 A metric space (E, d) is said to connected if it cannot be written as a union of two disjoint, open, nonempty subsets A and B of E. A metric space which is not connected is said to be disconnected.
+(in this case there exist two open, disjoint, nonempty subset, A and B such that E = A ∪ B, A ∩ B = ∅, A, B nonempty and open we call A ∩ B a disconnection of E or a separation of E).
+Remark 7.3.1 You need to know that if a metric space (E, d)cannot be written as a disjoint union of nonempty open subsets, then it cannot also be written as a disjoint union of nonempty closed subsets.
+Thus, in the defini- tion of connectedness you may replace ”open” with ”closed.” The following theorem gives you a characterization of connectedness which is often useful.
+Theorem 7.3.1 A metric space (E, d)is connected if and only if the only subsets of E which are both open and closed are E and ∅.
+Proof.
+(⇒) Let (E, d)be connected.
+You have to prove that the only subsets of E which are both open and closed are E and ∅.
+Assume, for contradiction, that there exists a subset A of E(A j= ∅, A j= E) which is both open and closed.
+Then A is open (by hypothesis) and Ac is open (since A is also closed).
+Clearly A ∩ Ac = ∅ is obviously a separation of E, contradicting the connectedness of E. Hence A cannot be both open and closed.
+(⇐) Let the only subsets of E which are both open and closed be E and ∅.
+You have to prove that E is connected.
+Assume, for contradiction, that E is disconnected.
+Then there exist disjoint, nonempty, open subsets of E, of A and B such that E = A∪B.
+Since A∩B = ∅, it then follows that B = Ac, and this implies Ac is open (since B is open).
+But Ac is open implies A is closed.
+Hence A is both open and closed.
+This contradicts the hypothesis that E, ∅ are the only subsets that are both open and closed.
+So the assumption that E is disconnected is false.
+Hence E is connected.
+Here are some examples.
+Example 7.3.2 In any metric space (E, d), singleton sets are connected.
+This is obvious, since if x ∈ E, then the singleton set {x} cannot be discon- nected into two nonempty subsets of any type.
+Example 7.3.3 Let (E, d)be a metric space with the discrete metric, d. Then (E, d)is disconnected, unless it is a singleton.
+☞Solution.
+Recall that if E is a singleton, then E is connected.
+So, we 73  may assume (E, d)contains more than one point.
+Let x be an arbitrary 0 74  point in E. Then, the singleton set {x } is open (singleton sets are open 0 in the discrete metric space) and {x }c is open (every subset is open in the 0 discrete metric space).
+Moreover, {x }c is nonempty since E contains more 0 than one point.
+Hence E = {x0} ∪ {x0} c, is a disconnection of E. So, a discrete metric space with more than one point is disconnected.
+Definition 7.3.2 Let (E, d)be a metric space.
+A subset K of E is said to be connected if and only if it is connected as a subspace.
+Example 7.3.4 Let K = (0, 2) ∩ [3, 4] be given the subspace metric (of the real line).
+Then, K is disconnected.
+☞Solution.
+Observe that the set A = (0, 2) is open in K. For, (0, 2) = ((0, 2) ∪ [3, 4]) ∩ (0, 2) = K ∩ (0, 2) where (0, 2) is open in R. Clearly, (0, 2) j= ∅.
+Also, B = [3, 4] is open in K. For [3, 4] = ((0, 2) ∪ [3, 4]) ∩ (2.5, 4.5) = K ∩ (2.5, 4.5) and (2.5, 4.5) is open in R. Hence K = (0, 2) ∪ [3, 4] = A ∪ B.
+Here, A, B are nonempty open disjoint subsets of K. So, K is disconnected.
+7.3.1 Basic Theorems In this section, you shall learn and prove some basic theorems about con- nectedness in metric spaces.
+Theorem 7.3.2 If the sets A and B form a separation of E, and if F is a connected subset of E then F lies in A or lies in B.
+Proof.
+A and B form a separation of E implies: E = A ∪ B, A j= ∅, B j= ∅, A ∩ B = ∅ 75  and A, B are open in E. Then, clearly F = (A ∩ F ) ∪ (B ∩ F ) = ∅ ∪ (B ∩ F ) = B ∩ F. so that F ∪ B.
+Similarly, if B ∩ F = ∅ then F ⊂ A.
+In either case you are done.
+So assume that A ∩ F j= ∅ and B ∩ F j= ∅.
+Since A is open in E we have A ∩ F is open in F is open in F. Similarly, B is open in E implies B ∩ F is open in F. Moreover, (A ∩ F ) ∩ (B ∩ F ) = F ∩ (A ∩ B) = F ∩ ∅ = ∅.
+Therefore, F = (A ∩ F ) ∪ (B ∪ F ) is a separation, contradicting the connect- edness of F. Hence, either A ∩ F = ∅ or B ∩ F = ∅, i.e., either F = B ∩ F or F = A ∩ F i.e., either F ⊂ B or F ⊂ A, completing the proof of the theorem Theorem 7.3.3 1.
+The union of a collection of connected sets that have at least one point in common is connected.
+2.
+If each pair x, y of E lies in some connected subset, say F of E, then xy E is connected.
+∞ 3.
+If E = Kn where Kn is a connected subset of E and Kn−1 ∩ Kn j= ∅ n=1 for n ≥ 2, then E is connected.
+Proof.
+() 1.
+Let {K } be a collection of subsets of E and let x be a point of α 0 α K (i.e., x is a point common to all the K t s).
+You have to prove that α 0 α () F = K is connected.
+Assume, for contradiction, that F = is not α α α connected.
+Let F = Kα = A ∪ B be a disconnection of F. The point α x0 ∈ F and so, either x0 ∈ A or x0 ∈ B.
+Without loss of generality, let x0 ∈ A.
+Since Kα is a connected subset of F then Kα lies in A or in B, (Theorem 7.3.2).
+However, K is not contained in B since x ∈ K α 0 α (and x0 ∈ A) and A ∩ B = ∅.
+So, Kα is a connected set in A for every α.
+Hence x0 ∈ Kα ⊂ A contradicting the fact (from Kα = A ∪ B) α α that B is nonempty.
+So, F = K is connected.
+α α 76  2.
+Let a ∈ E be fixed.
+For any x ∈ E, there exists a subset Fax, say, which is connected and contains a and x.
+Note that E = E .
+ax x∈E () But a ∈ E for each x ∈ E. Hence a ∈ E .
+The connectedness of ax ax x∈E E now follows from part (a) above.
+k 3.
+Let F = K .
+Then it is easy to show that f is connected (by k n k n=1 making repeated use of (a) above or by straightforward induction).
+Now, it is clear that f ⊂ f for all k ≥ 2 so that k−1 k (∞) fk = f1 = K1 j= ∅.
+k=1 (∞) So, there exists some x0 ∈ Fk .
+Since k=1 ∞ (∞) e = f and x f , k ∈ k k=1 k=1 it follows that e is a union of connected sets that have a point x in 0 common.
+By part (a) above, E is connected.
+Proposition 7.3.5 Let (E, d)be a metric space and let F be a subset of E. If A and B form a separation of f, then a ∩ B = ∅ and A ∩ B = ∅ (that is, A does not contain a limit point of B and b does not contain a limit point of a) Proof.
+A and B form a separation of F implies that f = A ∪ B.
+A ∩ B = ∅, A, B open in F, A j= ∅, B j= ∅.
+Taking complements of A ∩ B and F = A ∪ B in F we obtain 77  (i) F = AcF ∪ BFc and AcF ∩ BFc = ∅.
+(AFc and BFc denote the complement of A and B in F, respectively).
+(ii) F = A ∪ B with A ∩ B = ∅, A, B in F. It follows from (i) and (ii) that A = Bc and B = Ac .
+But B is open in F F F implies that A = Bc is closed in F. Hence A is both open and closed in F. F The closure of A in F = AE ∩ F where AE denotes the closure of A in E. Since A is closed in F, A must be equal to its closure in F, i.e., A = A ∩ F. E So, A = A ∩ F = A ∩ (A ∪ B) = (A ∩ A) ∪ (A ∩ B) = A ∪ (A ∩ B) E E E E E Hence A ∩ B = ∅ (since A ∩ B = ∅).
+Similarly, by using the fact that B E is closed in F you obtain that A ∩ BE = ∅.
+completing the proof of the proposition.
+Theorem 7.3.4 Let (E, d)be a metric space and let A be a subset of E. Suppose A is connected.
+If A ⊂ B ⊂ A then B is connected.
+Proof.
+Let A be connected and let A ⊂ B ⊂ A.
+Assume, for contradiction, that B is not connected.
+Let B = C ∪ D be a separation of B.
+Since C and D form a separation of B, and A is connected, (A ⊂ B) it follows from Theorem 7.3.2 that either A ⊂ C or A ⊂ D. Without loss of generality, let A ⊂ C. Then A ⊂ C But C ∩ D = ∅ (Proposition 7.3.5) and A ⊂ C so A ∩ D = ∅.
+But A ⊂ B ⊂ A (by hypothesis) so that B ∩ D = ∅, contradicting the fact that D is nonempty subset of B. Corollary 7.3.6 If A is a connected set then A is connected.
+Proof.
+Obvious from Theorem 7.3.4.
+For, the condition A ⊂ B ⊂ A asserts that if A is connected then the set A together with some or all of its limit points is connected.
+7.3.2 Mapping of Connected Spaces and Sets.
+78  Theorem 7.3.5 The image of a connected space under a continuous map is connected.
+79  Proof.
+Let f : (E, dE ) → (F, dF ) be a continuous map of a metric space (E, d ) into a metric space (F, d ) Let E be connected.
+You have to prove E F that f (E) is connected.
+Assume for contradiction that f (E) is not connected.
+Let f (E) = A ∪ B be a separation of f (E) into two disjoint open nonempty subsets of f (E).
+Then E = f −1(A ∪ B) = f −1(A) ∪ f − 1(B).
+The sets f −1(A) and f −1(B) are disjoint, nonempty subsets of E whose union is E. Moreover, by continuity of f each of the sets f −1(A) and f −1(B) is open in E. Hence E = f −1(A) ∪ f −1(B) is a separation, contradicting the fact that E is connected.
+Hence, the assumption that f (E) is not connected is false.
+So f (E) is connected.
+Corollary 7.3.7 If f : (E, d ) → (F, d ) is a continuous mapping of a E F metric space (E, d ) into a metric space (F, d ) and if K is a connected E F subset of E, then f (K ) is a connected subset of F. 7.3.3 Connected Sets in R In this section you shall enlarge the concept of the interval of the real line, and prove some useful theorems.
+Definition 7.3.3 An interval of R is any subset I of R which has the prop- erty that for any two distinct points, α, β ∈ I all points between α and β are in I With this definition, you can then easily show that subsets of the real line of the form: (a, b), [a, b], (a, ∞), [a, ∞), (−∞, a), (−iy, a], [a, b), (a, b], etc, for a, b ∈ R are all intervals.
+Also the real line itself is an interval.
+In what follows you shall state the theorem that concerns connectedness of intervals of R. Theorem 7.3.6 Any connected subset of R containing more than one point is an interval.
+Theorem 7.3.7 Any nonempty interval of R is connected.
+The proofs of these theorems are better handled in a course in point set topology.
+80  Theorem 7.3.6 and 7.3.7 show that a nonempty subset which contains more than one point is connected if and only if it is an interval.
+In particular the real line R is itself connected.
+In fact, using what you have studied thus far, you can now easily prove that the plane R2 = R × R is connected.
+Proposition 7.3.8 R2 is connected.
+Proof.
+R2 can be considered as being made up of an infinite number of lines passing through the origin of coordinates.
+Each line can be regarded as a nonempty open interval and is, therefore, connected (Theorem 7.3.7).
+Thus R2 is a union of connected sets (the lines through the origin) having a point (the origin) in common.
+By Theorem 7.3.3(1), R2 is connected.
+Remark 7.3.9 The method of proof or proposition 7.3.8 can be used to prove that Rn is connected for any positive interger n. You may conclude this unit with a statement and proof of the well-know intermediate value theorem.
+Theorem 7.3.8 Let f : [a, b] → R be a continuous mapping.
+For a < b, assume f (a) j= f (b).
+If r is any real number between f (a) and f (b), then there exists a real number c in [a, b] such that f (c) = r. Proof.
+Let E = [a, b].
+From the hypothesis, since f (a) j= f (b), then either f (a) < r < f (b) or f (b) < r < f (a).
+Without loss of generality, let f (a) < r < f (b) Then consider the sets A = (−∞, r) ∩ f (E) and B = (r, ∞) ∩ f (E) Clearly, A and B are disjoint, open (in f (E)) and nonempty (since f (a) ∈ A and f (b) ∈ B).Assume for contradiction that there is no point c in [a, b] such that f (c) = r. Then f (E) = A ∪ B with A and B defined above, which is a separation of f (E), contradicting the fact that f (E) is connected (as the image of the connected space E under a continuous map).
+Hence there exists a point c in R such that f (c) = r and this complete the proof.
+7.4 Conclusion In this unit, you discussed connectedness in a metrics space.
+You defined, and gave examples and connected spaces.
+and proved some basic theorems on connected space.
+81  7.5 Summary Having studied this unit, you can now (i) define and explain the of connectedness in a metric space.
+(ii) give examples and state some basic properties of connected sets.
+(iii) see a special property of a continuous function defined on a connected space.
+(iv) prove the intermediate value theorem.
+7.6 Tutor Marked Assignments (TMAs) Exercise 7.6.1 1.
+Using the material or unit 7, prove that any continu- ous map of [0, 1] into itself has a fixed point in [0, 1].
+Does the result still hold if you replace [0, 1] either by (0, 1] or (0, 1)?
+Justify.
+2.
+You have seen that the closure of a connected set is connected.
+Suppose now A is a connected subset of a metric space E. What can you say ˚ about the connectedness of A (the interior of A)?
+3.
+(a) Prove that the set Q of rational numbers is connected.
+(b) Prove that the only subspaces of the rationals which are not con- nected are the one point sets.
+82

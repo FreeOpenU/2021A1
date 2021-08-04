@@ -1,0 +1,1264 @@
+NoneMAT 142 VECTORS & GEOMETRY MAT 142: VECTORS AND GEOMETRY COURSE GUIDE NATIONAL OPEN UNIVERSITY OF NIGERIA NOUN 2MAT 142 VECTORS & GEOMETRY TABLE OF CONTENT ● Introduction ● What you will learn in this course Course Objectives ● Working through this course Course materials Study Unit ● References and Other Resources.
+Assignment file Exercises and Solutions Presentation Schedule ● Assessment Tutor-Marked Assignments (TMA's) Final Examination and Grading ● How to get the most from this course Tutors and Tutorials.
+Summary.
+NOUN 3MAT 142 VECTORS & GEOMETRY Introduction MAT 123, Vector Algebra is a one-semester 2-credit foundation level course.
+It is designed for students who are registered for the B.Ed.
+or B.Ed.
+(Hon.)
+in Mathematics Education.
+The course consists of seventeen (17) study units of the basic knowledge of vectors.
+The units are Scalar and vectors Addition of vectors using the triangle and parallelogram laws.
+Rectangular unit vectors i, j and k. Practical application of vectors - co linearity of points and relative vectors.
+Products of Vectors - Scalar or dot product, vector or cross products, Triple products of vectors.
+Reciprocal sets of vectors.
+What You Will Learn in this Course Course Objectives: The main objectives of this course is to give you a good foundation in Vector Analysis, a course you might be taking in depth later on either in mathematics or physics.
+You have come across physical quantities like mass, length, time, area, frequency volume, temperature etc.
+which are scalar quantities (completely specified by a single number with a specified unit) you have also come across physical quantities like displacement, velocity, acceleration, momentum, force etc, which are vector quantities (completely specified by both magnitude as well as direction).
+It is important you study the algebra associated with this vector quantities, and that is what this course sets out to achieve.
+Therefore at the end of this course you should be able to: - - Define and differentiate between scalar and vectors.
+- Represent vectors correctly.
+- Add vectors correctly in any form it is presented.
+- Apply the algebraic laws of vector to practical problems, like proofs of some basic theorems.
+- Calculate products of vectors using scalar multiplication, scalar or dot product, vector or cross products.
+- Calculate scalar (box) triple products and vector triple products, easily.
+NOUN 4MAT 142 VECTORS & GEOMETRY - Find the reciprocal sets of given vectors.
+- Apply the products of vectors in calculating direction cosines, area of triangle and parallelepiped.
+- Calculate the perpendicular to a given plane correctly.
+- Find the equation of a plane given enough data to use.
+- Calculate the moment of a force, about a point, the Angular velocity, and torque, using vectors, and so with relative ease compared to other methods in physics.
+Working through This Course Course Material.
+The course is written in Units.
+Each unit should take you 3 hours to work through.
+The course consists of 17 units of 4 modules: Module 1 -Units 1 - 5 The course consists of: - Module 2 -Units 6 -10 - A course guide - 4 modules of content of an Module 3 -Units 1 1 -15 average of 5 units each - An assignment tile.
+Module 4 -Units 16-17.
+Course Codes In every unit, the following house codes are used.
+1.0 Introduction 2.0 objectives 3.0 Content 4.0 conclusions 5.0 summary 6.0 Tutor - Marked Assignments 3 References and other Resources NOUN 5MAT 142 VECTORS & GEOMETRY The figures are labeled as V , V … to denote vectors.
+1 2 All vectors quantities are bold while scalars are not e.g.
+vector v with magnitude v. Study Units.
+There are 17 units in this course as follows: - Unit 1 Scalar and vectors – representation of vectors.
+Unit 2.
+Definitions of Terms in vector Algebra Unit 3.
+The triangle and parallelogram law of vector addition Unit 4.
+The rectangular Unit Vectors.
+Unit 5.
+Components of a vector.
+Unit 6.
+Collinear vectors Unit 7.
+Non collinear Vectors.
+Unit 8.
+Rectangular Resolution of Vectors.
+Unit 9.
+The scalar or Dot Product.
+Unit 10.
+Properties of Scalar or Dot products Unit 11.
+Direction cosines Unit 12.
+Applications of scalar or dot products Unit 13.
+The vector or cross products Unit 14.
+Applications of vector products in areas Unit 15.
+Applications of vector products in physics Unit 16.
+Triple products Unit 17.
+Applications of triple products and reciprocal sets of vectors Module 1 Units 1 - 5 Module 2 Units 6 - 10 Module 3 Units 1 1 - 15 Module 4 Units 16 - 17.
+References and other Resources.
+You have the references used for each unit as 7.0 of the unit.
+Generally, they are listed together here below: 1 Aderogba K. Kalejaiye, A. O. Ogum G. E. O.
+(1991) Further Mathematics I Lagos: Longman Nig.
+Ltd. 2.
+Egbe E; Odili, G. A., and Ugbebor, O. O.
+(2000) Further Mathematics Onitsha: Africana FEP.
+NOUN 6MAT 142 VECTORS & GEOMETRY 3.
+Murray, R. Spiegel.
+(1974) Theory and Problems of Vector Analysis.
+New York: Shaum’s outline series 4 Indira Ghandi Open University (2000)Mathematical Method in Physics Vector Calculus PHE - 04.
+Assignment File.
+You will find all details of the work you must submit to your tutor, for scoring, in this file.
+The marks you obtained for these assignments will count towards the final mark you obtain for this course.
+Further information on assignment will be found in the Assignment tile.
+There are assignments on each Unit in the Course.
+Exercises and Solutions You are advised to attempt each exercise before turning to the solutions, as these exercises are meant to serve as self-assessment questions.
+Presentation Schedule You are required to submit all materials for your Tutor-Marked Assignments as at when due.
+Assessments Tutor-Marked Assignments.
+There are two aspects to the assessment of the course.
+First is the tutor-marked Assignment.
+Second, there is a written examination.
+You are to use the information and the exercises in the course to solve the Tutor-marked assignment.
+Final Examination.
+The final examination will be of three hours duration and have a value of 50% of the total course.
+All areas of the course will be assessed, so revise the entire course before the examinations.
+How To Get The Most From This Course In distance learning, the study units represent the University lecturer.
+You are free to decide when and where to study.
+You can move therefore at your own pace, provided you meet the given deadline, for submission of your assignments.
+NOUN 7MAT 142 VECTORS & GEOMETRY The exercises and examples have been arranged to help you.
+You must not skip an exercise or examination before moving on.
+You must draw all graphs or figures given, do not assume that they can be done, and take time to them.
+From the introduction of a Unit, (1.0) which you must take time to read, you will have a general idea of what the Unit is about.
+The objective that follows (2.0) will also serve as a guide or checklist to your study.
+You must make a habit of re-checking the objective at the completion of the Unit.
+The Tutor-marked assignments will serve you not only as teaching material but also as an assessment aid, and it is compulsory that you do them.
+You must practice writing your materials, using the following symbols and notations in the content.
+The scalars must be written without a curl (~) while all vectors must have a curl (~) e.g.
+u, v or AB while the (Scalar) magnitude is u, v, AB without any sign.
+(But in this course vectors are typed in bold).
+If a straight line represents a vector, it must have an arrow showing its directions.
+If a scale is used in drawing a graphical representation of a vector, the scale should be stated, and used to convert all measurements to the correct answer to the problem.
+In conclusion, you should take the following practical steps to ensure your success in this course.
+1.
+Read this course guide carefully.
+2.
+Decide when it is convenient for you to study, the time you are expected, to spend on each Unit, and submission dates for assignments.
+3.
+Keep your chosen schedule time to avoid lagging behind in your studies.
+4.
+Work through your units in a hierarchical order, as one Unit will lead to the next, for you to understand the whole concepts in the course.
+5.
+Do and submit all assignments well before the prescribed deadline.
+6 Commence the study of the next Unit as soon as you have finished the one before it.
+Endeavor to keep strictly to your schedule NOUN 8MAT 142 VECTORS & GEOMETRY 7.
+On completing the course Units, review the course; check the objectives of the course guide, to prepare you for the final examinations.
+Tutors and Tutorials There are 30 hours of tutorials (10 x 3 hour session) provided in support of this course.
+You will be notified of the dates, times and location of these tutorials, together with the name and phone number of your tutor, as soon as you are allocated a tutorial group.
+Your tutor will mark and comment on your assignments, keep a close watch on your progress and on any difficulties you might encounter and provide assistance to you during the course.
+You must mail your tutor-marked assignment to your tutor well before the due date (at least two working days).
+They will be marked by your tutor and returned to you as soon as possible.
+Do not hesitate to contact your tutor by telephone, e-mail, or discussion board if you need help.
+The following might be circumstances in which you would find help necessary.
+Contact your tutor if: - You do not understand any part of the study Units or the assigned readings.
+- You have difficulty with the exercises or examples.
+- You have a question or problem with an assignment, with your tutor's comment on an assignment or with the grading of an assignment.
+- You should try as much as possible to attend the tutorials.
+This is the only chance to have a one on one encounter with your tutor and to ask questions which will be answered instantly.
+- You can raise any problem encountered in the course of your study.
+To gain the maximum benefit from course tutorials, prepare a question list before attending them.
+You will learn a lot from actively participating in discussions.
+Summary MAT123 is a course that will prepare you to study Vector Analysis and any other physics, - related courses.
+You are expected to learn that the algebra on any number on the number system is also true (as far as possible) on Vectors quantity.
+NOUN 9MAT 142 VECTORS & GEOMETRY You also learnt the best way to carry out this vector algebra - addition, subtraction, division (reciprocal), the existence of zero vectors as additive inverse.
+- You must attempt all examples and exercises, before turning to the solution.
+Draw all diagrams, with the correct notations on vector quantities to differentiate them from scalar quantity.
+- You should compare the objectives of each unit with the summary to confirm if you understand the concepts in the Units.
+- You should start the next Unit as soon as you have completed the assignment on a Unit, making sure you keep to the prescribed schedule.
+- Prepare for the final examination with the course objectives.
+NOUN 10MAT 142 VECTORS & GEOMETRY MAT 142: VECTORS AND GEOMETRY COURSE DEVELOPMENT Course Developers Peter-Thomas Felicia Abosede (Mrs.) SEDE Mathematics Laboratory Lagos Unit Writers Peter-Thomas Felicia Abosede (Mrs.) SEDE Mathematics Laboratory Lagos Programme Leader Dr. Femi Peters Course Coordinator B. Abiola NATIONAL OPEN UNIVERSITY OF NIGERIA NOUN 11MAT 142 VECTORS & GEOMETRY Unit I/I7 SCALAR AND VECTORS.
+REPRESENTATION OF VECTORS.
+TABLE OF CONTENT 1.0 Introduction 2.0 Objectives 3.0 Scalar and Vector 3.1.1.
+Definition of Scalar 3.1.2.
+Displacement 3.1.3.
+Definition of Vectors 3.2.
+Representation of Vectors 3.2.1.
+Vector Specification 3.2.2.
+Vector Routes from the Origin 4.0.
+Conclusion 5.0.
+Summary 6.0. tutor-marked, Assignments.
+7.0.
+References and Other Resources.
+1.0.
+Introduction You are going to be introduced to a new way of representing quantities.
+In this case they have both magnitude and directions unlike other quantities.
+Having seen the picture of what a vector is, you will then discuss its representation.
+The study of Vectors greatly simplifies the study of mechanics.
+2.0.
+Objectives At the end of this Unit you should be able to: - - State the difference between vectors and scalar.
+- Represent vectors.
+3.0.
+Scalar and Vectors.
+You must be aware of the units of measurements for mass, temperature, density and others.
+You don't need to specify your temperature towards the North or East.
+It is just 98.4°F for a normal body.
+These types of quantities are referred to as Scalar quantity.
+NOUN 12MAT 142 VECTORS & GEOMETRY 3.1.1 Definition of Scalar A Scalar is that quantity which possesses only magnitude Example 1: Apart from mass, temperature and density mentioned above, other examples of Scalar are energy, speed, length and time.
+3.1.2.
+Displacement Example 2: Consider your movement from your house to the study center, all you need to give is the distance.
+But in corning to the center you must have passed through many routes involving turning from one direction to another.
+If you `turn' through two different corners, with the same magnitude of distance, you should be able to differentiate them by the different directions (routes) you have to turn.
+In this situation, you will say your displacement is xkm in the direction 6° which is quite different from displacement of xkm in the direction a° if a≠ Ө because it is a vector quantity.
+Example 3: Also imagine a car travelling at a regular `speed' of 60km/h round a circular track as in figure V1, the direction of PI is different from PZ or P3 or P4, that is, at every turn its `velocity' changes because it is a vector quantity.
+Fig.
+VI 3.1.3.
+Definition of Vectors A vector quantity is that which has both magnitude as well as direction.
+NOUN 13MAT 142 VECTORS & GEOMETRY Example 4: Vector quantities are force, momentum, velocity, acceleration, displacement, and electric field.
+Exercise 1: i.
+Which of these is a vector?
+(a) Speed (b) Distance (c) Length (d) Force (e) Mass.
+ii.
+Which of these is a scalar?
+(a) Force (b) Velocity(c) Distance (d) Displacement (e) Weight.
+Solution (1) (d) force (ii) Distance.
+3.2.
+Representations of Vectors.
+3.2.1 Vector Specification A directed line segment represents vector quantities with an arrowhead showing its direction V2.
+You can use capital letter AB with an arrow to denote the line segment.
+` You refer to A as the initial point or origin and B as its terminal point.
+You denote BA as - AB to differentiate between the two directions; you could also represent vectors by small letters with a curl under them or bold e.g.
+u or v NOUN 14MAT 142 VECTORS & GEOMETRY You could also use angles (Bearing) measured from the North in a clockwise direction to represent the direction and a scale drawing of a line segment to represent the magnitude.
+Example 5: Draw a Vector a of magnitude 3 cm and direction 210°.
+Solution: See figure V3.
+210ْ Fig.
+V3 3.2.2.
+Vector Routes from the Origin.
+Since you have been told that vector must originate from a point, you will now choose a specific origin (0, 0) on the coordinate axis.
+There, a unit movement on the x - axis is denoted i and on the y - axis j.
+A unit vector is a vector whose magnitude is one.
+If the terminal point of your vector is at point (3, 4) while the initial point is on the origin (0, 0) then you can represent your vector u = 3i + 4j as simple as a column vector (34).
+Fig.
+V4.
+Y 4 u = 3i + 4j X 0 3 NOUN 15MAT 142 VECTORS & GEOMETRY Fig.
+V4 Exercise 2 Represent the given velocity by vectors, using a convenient scale.
+(a) 120km/h in the direction 150° Solution Scale: 1 cm represents 30km/h.
+Length of line representing The vector is 120 = 4cm 30 v 4cm Fig.
+V5 In figure V5, v is the required velocity.
+Example 6.
+Represent the following Vectors on the rectangular axis.
+(a) 5i – 4j (b) 4i + 5j (c) (-3, -5) Solution: See figure V6 (on graph sheet), NOUN 16MAT 142 VECTORS & GEOMETRY Fig.
+V6 4.0.
+Conclusion You are now ready to work with vectors in the next unit, since you can now represent it.
+You must remember to put the arrows on the vectors to show the direction.
+You should also put a curl (~) under any letter used to represent a vector.
+Draw vectors on graphs as ordered pair of points on the x - y plane.
+5.0.
+Summary In this unit you have been introduced to vectors and scalar, and you learnt that: - Scalar are quantities with only magnitude like speed or mass.
+NOUN 17MAT 142 VECTORS & GEOMETRY - Vectors are quantities that must be specified with both magnitude as well as directions e.g.
+velocity and weight.
+- You can represent vectors by directed line segment AB or BA, u or ordered pairs of point (x, y) on the coordinate and this is denoted xi + yj i and j are unit vectors in the direction of x and y - axis respectively.
+6.0.
+Tutor-marked Assignment 1.
+State which of the following are scalars or vectors.
+(a) Weight (b) Specific heat (c) Density (d) Momentum (e) Distance (f) Displacement.
+2.
+Represent graphically.
+(i) A force SN in a direction 120° (ii) u = 5i + 2j (iii) v = (3, -4) 7.0 References and other Resources.
+Aderogba K., Kalejaiye A. O., Ogum, G. E. O.
+(1991) Further Mathematics 1 Lagos, Longman Nigeria Ltd. Murray R. Spiegel.
+(1974) Theory and Problems of Vector Analysis.New York: Shaum's Outline Series.
+Egbe, E. Odili G. A., and Ugbebor, O. O.
+(2000) Further Mathematics Onitsha, Africana FEP NOUN 18MAT 142 VECTORS & GEOMETRY Unit 2 Definition of terms in vector algebra Table of Contents 1.0 1ntroduction 2.0 Objectives 3.1.1 Equal vectors 3.1.2 Negative vectors 3.1.3 Difference of vectors 3.2.1 Null vectors 3.2.2 Scalar multiple of vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 INTRODUCTION It is very important to define terms in mathematics.
+As a language of science the major concepts involves using terms correctly.
+This is why you must learn to use the definitions in this unit in other units in this course.
+2.0 OBJECTIVES At the end of this unit you should be able to: - Define equal vectors, Negative vectors, and Null vectors - Recognize how scalar multiples of vectors give the definitions of Null vectors, parallel vectors and negative vectors.
+3.1.1.
+Equal Vectors: You will say two vectors u and v are equal if they have the same magnitude and directions, regardless of the position of the vectors.
+NOUN 19MAT 142 VECTORS & GEOMETRY In figure V 1, AB = CD B D A C Fig.
+VI 3.1.2.
+Negative Vectors: If you have a vector with opposite direction to another vector a, but having the same magnitude, you denote it –a 3.1.3 The difference of vectors The difference of two vectors u and v, you denote as u-v, and it is the sum of u+ (-v).
+That is, the sum of the vector u, and the (additive inverse of vector v) negative vector v. 3.2.1 Null vectors In a particular case of u+ (-v), if u=v then their difference will give you the null vector or zero vector i.e.
+u-u=0.
+Note that the zero vector exists in this case.
+As it could mean a movement from A to B, and back to A from B; then the resultant will be zero.
+Generally, you could then have Null vector or a Proper vector.
+NOUN 20MAT 142 VECTORS & GEOMETRY 3.2.2 Scalar multiples of vectors The Scalar product of u denoted mu where m is a scalar, is a vector having the same direction, but is multiplied by its magnitude.
+You should note that if m is 0, you have a null vector, if m > 0; you have a parallel vector u and if m < 0, and if m = l, then you have a negative vector u, (- u).
+Example 1: Forces f , f , f , f , f ; acted on a body, find the force needed to prevent the 1 2 3 4 5 body from moving.
+Fig.
+V3 Solution: The force needed to prevent the body Q from moving is the negative resultant -R = (F, + F + F + F + F ) which when added R + (-R) gives the 2 3 4 5 zero vector 0.
+So you will have -R = - (F, + F + F + F + F ).
+2 3 4 5 Exercise 1 Two vectors u and v have the following lengths and directions: u with length 2cm and direction 180°, and v with length 3cm and direction 030°.
+Construct accurate diagrams to show: (i) u (ii)-u (iii) v (iv) -2v NOUN 21MAT 142 VECTORS & GEOMETRY Fig V4 (ii) -u = 2cm direction 000° (iv) -2v = cm direction 2 10° 3.0 Conclusion Vectors, although being specified by both magnitude and direction, still posses certain properties like any other number in the number system.
+In order to appreciate these properties you need to be able to define certain terms in vector algebra.
+Each of this special vectors will come in very useful in further studies of vector algebra.
+4.0 Summary You have learnt in this unit, the following definitions: 1.
+Equal vectors - Vectors with same magnitude and directions.
+2.
+Negative vectors - Vectors with the same magnitude, but in opposite directions.
+3.
+Difference of vectors - The sum of a vector and the negative of another vector, u+(-v).
+4.
+Null vectors - The sum of a vector and it's negative, u+(-u)= 0.
+5.
+Scalar multiples, mu, of vector u, where m is scalar - It is a vector with the same direction (except where m<0), but having a scalar multiple of its magnitude.
+NOUN 22MAT 142 VECTORS & GEOMETRY 6.
+In scalar multiple, mu, of u - If m=0, you have a null vector; If m>0, you have parallel vector to u; and if m<0, and I m 1=1, then you have a negative vector -u.
+5.0 Tutor marked – Assignment If u is a vector of length 4cm in the direction 035°, v is a Vector of length 2cm in the direction 120° and w is a vector of length 3cm in the direction of 270°, draw an accurate diagram to show (i) u (ii) v (iii) w (iv) -3v, -5/3w 6.0 References and other Resources Murray R. Spiegel (1974) Theory and Problem of Vector Analysis.
+New York.
+Shaum's Outline Series.
+Aderogba K. Kalejaiye A. O. Ogum, G. E. O.
+(1999) Further Mathematics I Lagos.
+Longman Nig.
+Ltd. NOUN 23MAT 142 VECTORS & GEOMETRY Unit 3 Triangle and parallelogram law of vector addition Table of Contents 1.0 Introduction 2.0 Objectives 3.1.1 The sum or resultant of vectors 3.1.2 The triangle law of vector addition 3.1.3 The parallelogram law of vector addition 3.2.1 Laws of vector algebra 3.2.2 Proof of commutative law 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction.
+The operations of addition, subtraction and multiplication formula in the algebra of numbers of scalars are, with suitable definition, capable of extension to algebra of vectors.
+In this Unit you will be learning about these and the laws of vector Algebra.
+2.0.
+Objectives At the end of this Unit you will: - Draw accurate diagrams to show the laws of vector algebra.
+- Prove given statements using the triangle and parallelogram law of vector addition.
+3.1.1 The Sum of or resultant of a Vector; Consider your movement from a point A to B to C, The total distance of your journey will be AB + BC And on a straight line A B C You could say the distance is AC NOUN 24MAT 142 VECTORS & GEOMETRY 3.1.2 Triangle Law Similarly if a vector AB is followed by a vector BC with the initial point B of BC, the terminal point of vector AB, then the sum AB + BC is, a vector AC which will close the triangle ABC.
+This is the triangle law; it gives the sum or resultant of two vectors.
+Fig.
+V6 3.1.3 The Parallelogram Law of Vector Addition.
+Suppose the two vectors to be added up have the same initial point or origin, then their sum or resultant is the diagonal of the parallelogram formed, based on the two given vectors, where the three have the same initial point.
+B D Fig.
+V7 From figure V7, you can see that the parallelogram law is an extension of the triangle law.
+Since AB + AD = AC for parallelogram law, but AB + BC = AC according to triangle law because BC = AD (opposite sides Of a parallelogram) you can extend these laws to three or more vectors, and the word displacement could be used for resultant.
+Example I An automobile travels 6km in the direction 000, then l0km in the direction 045°.
+Represent these displacements graphically and determine the resultant displacement NOUN 25MAT 142 VECTORS & GEOMETRY (a) Graphically, (b) Analytically.
+N B 45ْ R 6km 0 Fig.
+V8 Graphically- Construct figure V8 and measure Ө with a protractor for the direction of R. Measure the distance OB.
+Multiply it by 2km the chosen scale, to give you the magnitude of the resultant R. From the measurement, the vector R has magnitude 7.4 x 2 = 14.8 km and direction 028°.
+Analytically Using cosine rule, R 2 = 62 + 102 - 2 x 6 x 10 [-cos (180 - 45°)] = 36 + 100 + 12 cos 45ْ R = 220.85 = 14.86km To calculate 0, use Sine Rule.
+Sin Ө = Sin (180 - 45) 10 14.85 .
+Sin Ө= 0.4758 .*.
+Ө = Sin-' 0.4758 = 28° .'.
+You have the same result.
+NOUN 26MAT 142 VECTORS & GEOMETRY Example 2 Add the following Vectors.
+AB - AC + BC - DC + DB Solution.
+AB - AC + BC - DC + DB = CA + BC + CD + DB + DB = AC + CA + CB = 0 + CB = CB Note how you use the triangle law to add AB + BC = AC with B the middle letter canceling out.
+3.2.1 Laws of Vectors Algebra If u, v and w are vectors and m and n are scalar, u + v = v + u (commutative law for addition) u + (v + w) = (u + v) = w (associative law for addition).
+mu = um (commutative law for multiplication) m (nu) = (mu) u (Associative law for multiplication).
+(m + n) u = nu + nu (Distributive law) m(u + v) = mu + mv (Distributive law).
+You are now given the authority to treat vectors like any other number in the real number system.
+You must remember, however, that multiplication, in this case is referring to scalar multiplication only.
+You are going to learn later about products of vectors.
+3.2.2 Proof of commutative law of addition NOUN 27MAT 142 VECTORS & GEOMETRY Exercise 3 Show that addition of vectors is commutative i.e.
+u + v = v + u Solution: Draw Fig.
+V9, A A parallelogram OABC Formed by Vectors OA = u, and OC = v u R=u + v U + v = AO + AB or OC + CB R = v + u O That is u + v = v + u v C Fig.
+V9 Exercise 4 Show that the addition of vectors is associative i.e.
+u (v + w) = (u + v) + w Solution: Let vector OP = u, and PQ= v then OP + PQ = PQ = u + v I.e.
+u + v = OQ See Fig.
+V 10 = v + w= OP + PR = OR NOUN 28MAT 142 VECTORS & GEOMETRY I.e.
+u + (v + w) = 0R Also OQ + QR = OR i.e.
+(u + v) + w = OR Since OR = OR, then u + (v + w) = (u + v) + w 4.0.
+Conclusion You can treat vectors like any other number in the real number system.
+You can add by using triangle or parallelogram law.
+You can subtract by using negative vectors.
+You can multiply by a scalar in this unit, and later by other vectors.
+The vector algebra also obeys the laws of normal algebra since it is commutative, associative, and distributive.
+5.0 Summary You have learnt in this unit the following; l. Triangle law of vector addition which gives the resultant of two AB+BC=AC 2.
+The parallelogram law of vector addition gives the resultants of two vectors with the same initial point.
+3.
+Laws of Vector Algebra.
+u + v= v + u (commutative) (u + v) w = u + (v + w) (associative) mu = (u)m (commutative) m(nu) = (mn) u (associative) (m + n) u = mu + nu (Distributive) m(u + v) = mu + mv (Distributive) m, n, E R and u, v, and w Vectors.
+6.0 Tutor marked – Assignment NOUN 29MAT 142 VECTORS & GEOMETRY 1.
+If u is a vector of length 4 cm in the direction 045°, v is a Vector of length 2cm in the direction 090° and w is a vector of length 3cm in the direction of 270°, Draw an accurate diagram (on graph sheet) to show (a) u, v, w (b) Draw diagrams to represents (i) u + v, (ii) 3(u + w) (iii) 2u + v. 2.
+A plane moves in a direction 315° (NW) at 125 km/h.
+relative to the ground, due to the fact there is a wind in the direction 270° (west) magnitude 50km/h relative to the ground.
+How fast and in what direction would the plane have traveled if there were no wind?
+(i.e.
+resultant).
+7.0 References and other Resource Murray R. Spiegel (1974) Theory and Problem of Vector Analysis.
+New York.
+Shaum's Outline Series.
+Aderogba K. Kalejaiye A. O. Ogum, G. E. O.
+(1999)Further Mathematics I Lagos.
+Longman Nig.
+Ltd. NOUN 30MAT 142 VECTORS & GEOMETRY Unit 4 The rectangle unit vectors Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Unit vectors i, j and k 3.1.2 The right-handed rule 3.1.3 Position vectors or radius vectors 3.2.0 Scalar and vector field 3.2.1 Scalar field 3.2.2 Vector field 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction In the last units you used the graphical methods to determine the resultant (sum) of two or more vectors.
+There is therefore, from the graphs and construction, a need to find an easier way to do this.
+In this unit, you will come across vectors, resolved into its components i, j, and k. The sum therefore is just the sum of the coefficients of the components of the vectors.
+From this a lot of other results will be arrived at, which you must take note of as you will need them in other units.
+2.0.
+Objectives On successful completion of this Unit you should be able to: - Express vectors in terms of its components i, j, k. - Add vectors successfully using the components.
+NOUN 31MAT 142 VECTORS & GEOMETRY - Calculate the magnitude of vectors successfully.
+- Use position vectors to calculate relative vectors of two given points.
+- Calculate correctly, the Unit vector of a given vector in its direction.
+3.1.1 Unit Vectors You refer to a vector with a unit magnitude (1 unit) as a unit vectors.
+Therefore if a is the magnitude of vector u, the a unit vector in the direction of a is .u usually denoted e = u with u ≠ o u U u This implies you can represent a vector as its magnitude multiplied by its unit vector in its direction i.e.
+u = ue u 3.1.2 The rectangular Unit Vector 1, j, k. (1, 1, 1) Consider the initial points of vector u, v and w, fixed at an origin represented by a corner of a cube as in fig.
+V 13.
+You will have an important set of unit vectors, having their initial point at O and in the direction of the x, y, z and of a three dimensional rectangular co- ordinates system.
+Fig.
+V13 These unit vectors, you denote i, j, k in the direction x, y, and z respectively.
+3.1.3 The Right-handed (rule) Rectangular Co-ordinate System NOUN 32MAT 142 VECTORS & GEOMETRY As you must have observed from the cube in fig.
+V 13, any corner of the cube could have been chosen, and any side of the cube could be the x or y or z- axes.
+Z X Y To remove this confusion, you have a rule referred to as the right handed rule.
+This rule is assuming, first of all that you are a right handed person.
+Secondly that you have used the screwdriver before, with your right-hand.
+If you are to loosen a screw, think of the movement of your thumb, as the screw rotates anti-clockwise through 90° from x to y, y to z and z to x.
+Once you agree with this convention, it will be easy to carry out operations on unit vectors.
+3.1.4 Position Vector or Radius Vector.
+u = x ,i + y + z k with x, y, z, the components of a in the x, y, and z 1 1j 1 direction and the magnitude u = √ x2 + y2 + z2 In particular, if you have r = xi + yj + zk, you referred to r as the position vector or radius vector, r, from point O (0, 0, 0) the origin to a point (x, y, z), a corner of the cube as in fig.
+V 14 r= | r | = √x2 + y2 + z2 NOUN 33MAT 142 VECTORS & GEOMETRY Fig V l 4 3.2.0 Scalar and vector field Just as in the 2-dimensional space x - y-axis, you could plot points as you should have done while drawing graphs.
+In other words, you are aware of the ordered pairs of points (x, y) which is possible once you treat x, and y as variable and y as a function of x, y = f(x).
+This will make the next definition easy for you to understand.
+3.2.1 Scalar field If to each point (x, y, z) of a region R in space, there corresponds a number or scalar Φ (x, y, z), then you call Φ (a) Scalar function of position or Scalar point function, and you say that a scalar field Φ has been defined in R Example: Φ (x, y, z) = x3y - z2 defines a scalar field.
+3.2.2 Vector Field.
+If to each point (x, y, z) of a region R in space there corresponds a vector v (x, y, z), then you call v a vector function of position or vector point functions and you say that a vector field v has been defined in R. NOUN 34MAT 142 VECTORS & GEOMETRY Example 7 (a) If the velocity at any point (x, y, z) within a moving fluid is known at a certain time, then a vector field is defined.
+(b) v (x, y, z) = xy2i -2yz3j + x2zk defines a vector field.
+A vector field, which is independent of time, is called a stationary or steady state vector field.
+Simply put the last two examples in section 3.2.1. and 3.2.2. is just an attempt to inform you that just as you can have scalar functions of (x, y, z), you can also have vector function of (x, y, z) in the scalar field (space) and vector field (space) respectively you should note that i, j, k are non-collinear vectors.
+4.0 Conclusion You can now add and subtract vectors easily.
+All you need is what you have learnt in this unit - the components of the vector in the x, y, and z-axes.
+Expressing vectors in terms of its components will help you carry out a lot of functions concerning vectors.
+You now know that there is the `vector field' as well the `scalar field'.
+5.0 Summary In this Unit you have learnt the definition of: (a) e = u the unit vector in the direction of u. u u (b) i, j, k are the unit vectors in the direction of x, y, and z-axes.
+(c) The right-handed rule assumes, and expects movement in an anti clockwise direction from x - y, y - z and z - y and so on i.e.
+x ---> y--- > z~ x--+ y... in choosing an origin and fixing the axes.
+(d) The position vector or radius vector r = xi + yj + zk represents the components of vector v from point, O (0, 0, 0), the origin, to a point (x, y, z), a corner of a cube.
+(e) The magnitude or modulus of r is r = √x2+y2+z2.
+(f) A scalar field or vector field, which is independent of time, is called a stationary or steady state scalar or vector field.
+NOUN 35MAT 142 VECTORS & GEOMETRY 6.0 Tutor-marked assignments 1.
+Find the position vectors r , and r for the points P (3, 4, 5) and Q(2, 1 2 -5, 1) 2.
+Given the scalar field defined by ~(x, y, z)= 3x22-xy3+, find ~ at the points: (a) (0, 0, 0) (b) (2, -1, 2) (c) (-3, -1, -2) 7.0 References and Other Resources.
+Murray R. Spiegel (1974) Theory and Problem of Vector Analysis.
+New York.
+Shaum's Outline Series.
+Aderogba K. Kalejaiye A. O. Ogum, G. E. O.
+(1999)Further Mathematics I Lagos.
+Longman Nig.
+Ltd. NOUN 36MAT 142 VECTORS & GEOMETRY Unit 5 Components of a vector Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Component of vectors in terms of i, j and k 3.1.2 Non-collinear vectors 3.2.1 Relative vectors 3.2.2 Sum or resultant of vectors in component form 3.2.3 Centroids 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction Vector quantities have both magnitude and direction.
+For this reason, the method of addition or resultant needs to be thoroughly explored by you.
+It is for this reason that you are being presented with different ways of achieving this.
+You already learnt the representation graphically of vectors, and its sum through such diagrams.
+In unit 4, you were introduced to the definition of unit vectors especially i, j, and k. You will, therefore, in this unit, deal with components of vectors, which are the smaller, parts whose sum represent the vectors.
+From this concept, a lot of other results will be arrived at, which we must take note of.
+2.0 Objectives At the end of this unit you should be able to: Write vectors in terms of its components i, j, k. NOUN 37MAT 142 VECTORS & GEOMETRY 3.1.1 Components of a Vector in terms of i, j, k You have learnt in the previous section how all vectors can be represented as u = ue .
+i.e.
+the magnitude of the vector multiplied by its unit vector.
+U You will now have e as a unit vector in the direction of the x, y, and z-axes U called i, j, k respectively.
+The implication of an origin like this is that of a vector u=x i + y j + z k with 1 1 1 x , y , z , € R. 1 1 1 x i, y j and z k are referred to as the rectangular component vectors or 1 1 1 simply component vectors of u in the x , y , and z , directions.
+1 1 1 x , y , and z , are referred to as the rectangular components or simply 1 1 1 components of u in the x, y and z directions.
+With these definitions or representation, you are now in a better position to deal with vector algebra.
+The magnitude of u =x i + y j + z k is √x 2 + y 2 + z 2 without drawing the 1 1 1 1 1 1 diagram as in unit 2.
+3.1.2 Non - Collinear Vectors.
+Non-collinear vectors are vectors which are not parallel to the same line, and so when their initial points coincides, (in this case at (0, 0, 0).
+They determine the planes that make then up.
+i.e.
+x - y plane, y - z plane, and z - x plane, using the right - handed (thumb) rule.
+'.
+you say vectors i, j, k are mutually perpendicular.
+Example 2 Show that if x u + y v + z w = x u + y v + z t. 1 1 1 2 2 2 Where u, v, and w are non - coplanar Then x = x , y = y , and z = z .
+1 2 1 2 1 2 Solution: You can write the, equation as (x - x ) u + (y - y ) v + (z - z ) w = 0.
+1 2 1 2 2 1 2 The it follows that since a vector is either null or proper, and these are Non-collinear vectors - u, v, and w, then x - x =0 <=> x, = x 1 2 2 NOUN 38MAT 142 VECTORS & GEOMETRY y - y = 0 <=> y = y and z - z <=> z = z 1 2 1 2 1 2 1 2 3.1.3 Equation of a straight line passing through two given points Find the equation of a straight line which passes through two given points A and B having position vectors a and b with respect to an origin O.
+Solution: Let r be the position vector of any point P on the line through A and B.
+Fig.
+V12.
+From the figure V12.
+OA + AP = OP or a+ AP = r I.e.
+AP = r and you have B Fig.
+V12 OA + AB = OB a + AB = b i.e.
+AB = b -a Since AP and AB are collinear (lie on the same line or parallel to the same line).
+AP = t AB or r - a = t (b - a).
+NOUN 39MAT 142 VECTORS & GEOMETRY Then the required equation is r = a + t (b - a) or r = (1 - t) a + tb which compares to the general equation of a straight line y = mx + c. If the equation is written (1 - t) a + tb - r = 0 the sum of the coefficient of a, b and r is 1 - t + t - 1 =0.
+This implies that P is always on the line joining A and B does not depend on the choice of origin O. Alternatively, you can solve this problem by the method below.
+Since AP and PB are collinear, then they are ratios of each other say A0.
+-00 .
+AP: PB = in: n or nAP = mPB Using the position vector above.
+AP = r- a, PB = b – r .'.
+n (r - a) = m(b - r) which transforms to r = na + mb m +n And you call this the symmetric form.
+3.2.1 Relative Vectors Please note the use of the position vector leads to what you will call relative vectors.
+If a is the position vector of A and b the position vector of B, then the position vector B relative to A is vector AB = b - a.
+(note the order of the letters).
+Example I Write AC, BD, and EF in terms of their relative vectors.
+NOUN 40MAT 142 VECTORS & GEOMETRY Solution: AC = c - a, BD = d - b, EF = f - e. 3.2.2 The Sum of Resultant of Vectors in Component Form: Example 1 (a) Find the position vectors or r, and r for the point (2, 4, 3) and Q (1, l 2 -5, 2) of a rectangular coordinate system in terms of the unit vectors i, j, k. (b) Determine analytically the resultant of r , and 1 r2.
+Solution: (a) P (2, 4, 3) and Q (1, -5, 2) r =2i + j + 3k 1 r = i - 5j + 2k 2 (b) r + r = (2 + 1)i + (4 - 5)j + (3 + 2)k 1 2 = 3i – j + 5k You should try the graphical method to appreciate this simpler way of adding vectors.
+Exercise 2 Given r = 3i - 2j + k 1 r = 2i - 4j - 3k 2 r = -I + 2j+ 2k 3 Find the magnitudes of (a) r (b) r + r + r (c) 2r - 3r -5r 3 1 2 3 1 2 3 Solutions (a) | r | = r = | -i + 2j + 2k| 3 3 = √ (1)2 + (2 )2 +(2 )2 The square root of the sum of the squares of the coefficient of i, j and k respectively.
+.'.
+r = √9 = 3 3 (b) r + r + r = (3 + 2 + 1)i + (-2 + (-4) + 4)j + (1 -3 - 2)j 1 2 3 NOUN 41MAT 142 VECTORS & GEOMETRY = 4i - 4j + Ok = 4i – 4j .'.
+ןr + r + r 42√ = ן 2( 4-) + 1 2 3 = √32 = 4√2 (c) 2r - 3r - 5r = [2x3(-3)x2(-5)x(-1)]I +[2x(-2)+(-3)x(-4)-5(2) ] j+ 1 2 3 (2x1+(-3) (-3) + (-5) x 2)k = (6-6+5)I + (-4+12-10)j + (2+9-10)k = 5i -2j + k The magnitude, I 5i - 2j + k I =√52+ (-2)2+12 =√25 + 4 -1 =√30 .'.
+The magnitude of 2r - 3r - 5r is √30.
+1 2 3 3.2.2 Centroid If r , r ... r are the position vectors of masses m , m ... m respectively 1 2 n 1 2 n relative to an origin O.
+Then the position vector of the Centroid can be proved as r= m r + m r + ... m r 1 1 2 2 n n m + m ... m 1 2 n Simply put, the Centroid represents the weighed average or mean of several vectors.
+3.0.
+Conclusion Congratulations!
+You can now add and subtract vectors easily.
+All you need is their components on the x, y, z-axes.
+Expressing vectors in terms of its components, will help you to calculate: - Their resultant.
+- Their magnitudes - Their relative vectors - The equation of the straight line passing through two given points You will use these points in the next Unit in some calculations.
+5.0 Summary In this unit you have learnt the following NOUN 42MAT 142 VECTORS & GEOMETRY (a) A vector u= xi + yj + zk has three components, xi, yj, zk in the direction of the x, y, and z-axes.
+(b) If x u + y v + z w = x u + y v + z w, where u, v and w are non- 1 1 1 2 2 2 coplanar, then x =x ; y =y ; and z =z .
+1 2 1 2 1 2 (c) The equation of a straight line passing through two given points A and B having position vectors a and b with respect to an origin O is r = a + t (b-a) or r = (1-t) a + t b.
+(d) The symmetric form of the above equation is n (r-a) = m (b-r) and so r= n a + m b , which is a condition for co linearity of points.
+m + n Where a is the position vector of A, b the position vector of B and r is the position vector of point P, which divides AB in the ratio m:n. As an extension, the relative vector r of position vector B relative to A is AB = b - a.
+(e) If u = x i + yj + z k, then 1 l 1 The resultant or sum of u and v is u + v= (x +x )I + (y +y ) j + (z + z )k. 1 2 1 2 I 2 6.0 Tutor - Marked Assignments I.
+If r = 2i – j + k, 1 r = i+ 3j -2k, 2 r = -2i + j - 3k and 3 r = 3i + 2j + 5k 4 Find (a) r + r 1 2 (b) r + r + r 1 2 3 (c) 2r + 3r + r 1 2 3 (d) -2r + r - 3r 1 2 3 What do you notice about (d) and r .
+4 2.
+Find a Unit vector parallel to the resultant of vectors r =2i + 4j - 5k, 1 r = i+2j + 3k 2 3.
+The position vector of points P and Q are given by r = 2i + 3 j - k, r 1 2 = 4i - 3 j + 2k determine PQ in terms of i, j, k and find its magnitude.
+NOUN 43MAT 142 VECTORS & GEOMETRY 7.0 References and Other Resources.
+Murray R. Spiegel (1974) Theory and Problem of Vector Analysis.New York.
+Shaum's Outline Series.
+Aderogba K. Kalejaiye A. O. Ogum, G. E. O.
+(1999)Further Mathematics I Lagos.
+Longman Nig.
+Ltd. NOUN 44MAT 142 VECTORS & GEOMETRY Unit 6 Collinear vectors Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Definitions of collinear vectors 3.1.2 Proof of mid-point theorems 3.1.3 Division of line segments 3.2.1 Centroids 3.2.2 Linearly independent vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction The issue of vectors being collinear on non-collinear, cannot be overemphasized.
+The consequence of this concept is what this unit will bring out to you.
+Problems in plane geometry and co-ordinate geometry are simplified for you, once you consider them under vector algebra.
+You should take note of every diagram- the directions of the arrows showing the vectors, and how a simple statement given to you is eventually used to solve an example.
+2.0.
+Objectives At the end of this Unit, you should be able to: - Use the position vectors of two given points to express the line joining them (Relative Vectors) - Calculate correctly the magnitude of the given vectors.
+- Use the given vectors to show if they are linearly dependent or linearly independent.
+- Prove theorems based on collinearity or non-collinearity of vectors.
+3.1.1.
+Definitions of collinear vectors You will recall that when the triangle law of vector addition was discussed in the previous units, you learnt that if, AB, and BC are not on a Straight line the resultant AC is the vector closing the triangle ABC.
+The NOUN 45MAT 142 VECTORS & GEOMETRY Statement AB + BC = AC the very obvious, if they are on the same line.
+Fig V13 In the first case (a) you have collinear vectors A and B, but in the second case (b) A, B, and C are said to be non-collinear vectors.
+Also, if vectors AP and PB are collinear, P being a point on AB, such that the ratio AP: PB=m: n or nAP=mPB.
+P If r is the position vector of P, and a and b are the position vectors of A and B respectively, then you can say n (r-a) = m (b-r), which transforms into r= n a + m b or na+mb=(m+n)r. m + n 3.1.2 Mid-point theorem Example 4 Prove that the line joining the midpoints of two sides of a triangle is parallel to the third side and have one half of its magnitude.
+Solution: Draw figure V 14.
+Note the directions AB, BC, CA of the vectors c, a, and b respectively for the triangle to be in equilibrium.
+NOUN 46MAT 142 VECTORS & GEOMETRY C b fig V 14 EF = EB + BF ½c - ½a = ½ (c - a) AC = -b = AB + BC = c-a EP = ½ AC which proved that EF is parallel to AR and is ½ of its magnitude This is the midpoint Theorem.
+3.1.4 Division of a line Segment (Collinear Vector) Let the position vector of points P and Q relative to an origin be given by p and q respectively.
+If R is a point which divides line PQ into segments, which are in the ratio m: n, then you will write the position vector of R as r = m p + n q which is a familiar statement in geometry.
+m + n This means (m + n) r = mp + nq, which gives you a rule for collinearity of points.
+3.2.1 Centroid If r .
+r ... r are the position vectors of masses m , m …m respectively 1 2 n 1 2 n relative to an origin O.
+Then the position vector of the Centroid can be proved as r = m r + m r + ... m r 1 1 2 2 n n m + m ... m I 2 n NOUN 47MAT 142 VECTORS & GEOMETRY Simply put, the Centroid represents the weighed average or mean of several vectors.
+Exercise 2 A quadrilateral PQRS has masses l, 2, 3 and 4 units located respectively at its vertices A (-l, -2,.
+2), B (3, 2, -1), and D (3, 1, 2).
+Find the coordinates of the Centroid.
+Solution The position vector of the Centroid is C = p + 2 q + 3 r + 4 s 1 +2 +3 +4 Where, p= -i - 2j + 2k, q = 3i + 2j - k r = i -2j + 4k and s=3i+ j+2k c = (lx-1+2x3+3x1 +4x3)i + (lx-2+2x2+3x-2+4 x 1)j + (1x2 +2x(-1)+3x4 +4 x2) k 10 = 20 i + 0 j + 20 k 10 .'.
+c =2i + 2k which will give the coordinate as (2, 0, 2).
+3.2.2.
+Linearly Dependent and Independent Vectors.
+If you can represent the sum of given vectors r , r and r by a single vector r 1 2 3 4 i. e. r = r + r + r 4 1 2 3.
+Then you can say r is linearly dependent on r , r and r and that r , r , r and 4 1 2 3 1 2 3 r constitute a linearly dependent set of vectors.
+On the other hand r , r and r 4 1 2 3 are linearly independent vectors.
+To understand this concept, think of the graph of y = 2x + 3 where you choose independent values of x to calculate y for a table of values.
+So the values of y depend on your choice of values of x and you can say (rightly so) that y is the dependant variable, or simply put, the subject of the formula is the dependent variable.
+NOUN 48MAT 142 VECTORS & GEOMETRY So in general - the vectors A, B, C,.... are called linearly dependent if you can find a set of scalars a, b, c.... not all zero, so that aA + bB + cC+...=0 Otherwise they are linearly independent.
+Exercise 3 Give vectors u, v and w below, determine whether the vectors are linearly independent or linearly dependent.
+(a) u = 2i + j - 3k, v = i - 4k and w = 4i + 3j – k Solution Let a, b, c, be scalar such that a(2, 1,-3)+b(1 0 -4) +c(4 3 - ])=O.
+If a, b, and c exist, then u, v and w are linearly dependent.
+.'.
+2a + b +4c = 0... (1) a + 3 c = 0 ... (2) -3a - 4b - c=0 ... (3) From (2) a = - 3c.
+Substituting in (1) you will have -6c+b+4c = 0 i.e.
+-2c+b=0.
+.'.
+b = 2c.
+.'.
+a:b:cis-3c :2c :c =-3 :2 : 1 .'.
+a=-3, b=2, and c= 1.
+To check, in (1), (2) and (3) above, 2(-3) + 3 + 4(1) = -6 + 2 + 4 = -6 + 6 =0 -3 + 3 = 0. and +9 – 8 – 1 = 9 – 9 = 9.
+.'.
+- 3 u + 2v + w = 0 and so u, v and w are linearly dependant since 3u = 2v + w NOUN 49MAT 142 VECTORS & GEOMETRY 4.0.
+Conclusion Vectors could be collinear or non-collinear.
+- Collinear vectors can be proved by the equation r=(nr,+mr2)/(in+n), or (m + n)r=nr +mr , where r is the position vector of a point on the line 1 2 joining r and r , dividing it in the ratio m : n l 2 - You can use the knowledge of Collinearity and non-Collinearity of points to prove the mid-point theorems.
+- The vectors A, B, C, ... are called linearly dependent, if you can find a set of scalar a, b, c .... not all zero, such that aA + bB + cC + ... = 0.
+Otherwise they are linearly independent.
+5.0.
+Summary 1.
+The position vectors r of R which divides the line PQ with position vector p and q respectively for point pad Q in the ratio n:m is given by r = m p + n q 2 m + n 2.
+The position vectors of the Centroids of r , r ... r position vectors 1 2 n of masses m , m ... m is = M r , + m r + .
+m r 1 2 n r 1 1 2 2 n n m +m + ... + m 1 2 n 3.
+If aA + bB + cC + ….
+= 0 the A, B, C are linearly dependent, otherwise they are linearly independent.
+6.0 Tutor - Marked Assignments 1.
+The position vectors of points P and Q are given by r, = 2i + 3 j - k, r = 4i - 3 j + 2k (a) determine PQ in terms of i, j, and k. (b) Find its magnitudes.
+2.
+Prove that the vectors u = 3i + j - 2k v = -i + 3j + 4k, and w = 4i - 2j - 6k can form the sides of a triangle.
+3 Determine whether the vectors u, v and w given below are linearly independent or dependent where u, v and w are non collinear vectors such that u = 2a - 3b + c, v = 3a - 5b + 2c, and w = 4a-5b+c NOUN 50MAT 142 VECTORS & GEOMETRY 7.0 References and other Resources Murray R. Spiegel (1974)Theory and Problems of Vector Analysis New York: Shaum's Outline Series.
+NOUN 51MAT 142 VECTORS & GEOMETRY Unit 7 Non-collinear vectors Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Definition of non-collinear vectors 3.1.2 Proof of a condition for non-collinear vectors 3.1.3 To prove that the diagonals of a parallelogram bisect each other 3.1.4 To prove that the lines joining the mid-point of a quadrilateral form a parallelogram 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction Having gone through collinear points in the last unit, you will now have a look at non-collinear vectors.
+Once again the consequence of this concept will be treated.
+You will prove theorems in geometry based on the on the non-collinearity of points.
+You will also learn about linearly dependent vectors.
+2.0 Objectives At the end of this unit, you will be able to - Define non-collinear vectors.
+- Prove the condition for non-collinear vectors.
+- Prove theorems in geometry using the idea of non-collinear vectors.
+- Prove that given vectors are linearly dependent.
+3.1.1 Non-collinear and collinear vectors You will recall that when the triangle law of vector addition was discussed in the previous units, you learnt that if, AB, and BC are not on a straight line the resultant AC is the vector closing the triangle ABC.
+The statement AB + BC = AC is the very obvious, if they are on the same line.
+NOUN 52MAT 142 VECTORS & GEOMETRY Fig V13 In the first case Fig V13 (a) you have collinear vectors A and B, but in the second case Fig V 13 (b) A, B, and C are said to be non-collinear vectors.
+3.1.1 Definition of non-collinear vectors Non-collinear vectors are vectors that are not parallel to the same line.
+Hence when their initial points coincide, they determine a plane.
+A Fig.
+V14 See Figure V 14 3.1.2 Proof of a condition for non-collinear vectors Example 1 Prove that if a and b are non-collinear that Xa + yb=0 implies x = y = 0.
+Solutions: Suppose x ≠ 0, then you will have xa - yb = 0 implying xa = -yb And a = -y b .
+NOUN 53MAT 142 VECTORS & GEOMETRY Which implies that a is a scalar multiple of b and so must be parallel to the same line (collinear).
+You can see this is contrary to the hypothesis a and b are non-collinear.
+.'.
+x = 0, them yb = 0, from which y = 0.
+Example 2 If x a + y b = x a + y b where a and b are non-collinear, 1 1 2 2 then x = x , and y = y .
+1 2 1 2 Solution You can write x a + y b = x a + y b as 1 1 2 2 x a + y b - (x a + y b) = 0 and so, 1 1 2 2 (x - x ) a + (y - Y ) b = 0.
+1 2 1 2 Hence, from example 1, x - x = 0, y - y = 0 1 2 I 2 Or x = x , y = y 1 2 1 2 This you can interpret in words as two vectors are equal if their corresponding (scalar) coefficient are equal or their sum is zero.
+The above result can be extended to the three dimensional situation.
+If a, b and c are non-coplanar (note here you are talking about planes rather than lines) then xa + yb + zc = 0, implies x = y = z = o And further that if x a + y b + z c = x a + y b + z c, 1 1 1 2 2 2 where a, b and c are non-coplanar, then x = x , y = y and z = z 1 2 1 2 1 2 3.1.3 To prove that the diagonals of a parallelogram bisect each other Prove that the diagonals of a parallelogram bisect each other.
+Solution Let ABCD be the given parallelogram with diagonals intersecting at P. From Figure V 15 .'.
+BD= b - a and BP = x (b - a) because BD and BP are collinear You also have AC = a + b, and so AP = y (a + b) From triangle ABP, AB = AP + PB = AP – BP and you NOUN 54MAT 142 VECTORS & GEOMETRY then have a = y (a + b) - x( b – a ) = (x + y)a + (y - x)b Since a and b are non-collinear, from Example 1, x + y = 1 and y - x = 0i.e.
+x = y = ½ and so P is the mid-point of both diagonals.
+In conclusion you say that the diagonals of a parallelogram bisect each other.
+B Fig.
+15 3.1.4 To prove that the lines joining the mid-point of a quadrilateral form a parallelogram If the mid points of the consecutive sides of any quadrilateral are connected by straight lines, prove that the resulting quadrilaterals is a parallelogram.
+Solution: Draw figure V 16 Note that in naming figures you must go A ---> B --> C -+ D without a break, clockwise or anti-clockwise.
+NOUN 55MAT 142 VECTORS & GEOMETRY Fig V16 In the Fig.
+V16, you are having the sides as vectors a, b, c, and d. and the midpoints P, Q, R, S. of its sides.
+Then you will have that, PQ = ½ (a + b), QR = ½(b + c), RS = ½(c + d) and SP = ½(d + a).
+But from the directions of the vectors on the parallelogram, it is in equilibrium, which implies a + b + c + d + = 0 .'.
+PQ = ½(a + b) = -½(c + d) = SR and QR = ½ (b + c) = ½ (d + a) = PS This implies that the opposite sides are equal and parallel (equal vectors) and so PQRS is a parallelogram (definition of a parallelogram).
+3.0 Conclusion Vector could be collinear or non-collinear.
+- For non-collinear vectors a and b, xa + yb = 0 = x = y = 0.
+- You can use the knowledge of Collinearity and non-Col linearity of points to prove the following theorems amongst others: NOUN 56MAT 142 VECTORS & GEOMETRY (i) That the diagonals of a parallelogram bisect each other.
+(ii) If straight lines connect the midpoints of the consecutive sides of any quadrilateral, the resulting quadrilateral is a parallelogram.
+5.0.
+Summary 1.
+Non-collinear vectors are vectors that are not parallel to the same line.
+When their initial points coincides they determine a plane.
+2.
+If x a + y b = x a + y where a and b are non-collinear, then x = x 1 1 2 2 1 2 and y = y 1 2 3.
+If a, b and c are non-coplanar vectors, then xa + yb + 2c = 0 implies x = y = z = 0.
+4.
+If x a + y b + z c = x a + y b + z c 1 1 1 2 2 2 where a, b and c are non-coplanar then x =x , y =y and z =z 1 2 1 2 1 2 6.0 Tutor-marked assignments In u and v are non-collinear vectors and P = (x+4y) u + (2x+y+1) v and Q = (y – 2x +2)u + (2x-3y-1) v. Find x and y such that 3P = 2Q 7.0.
+References and other Resources Murray R. Spiegel (1974)Theory and Problems of Vector Analysis New York: Shaum's Outline Series.
+Unit 8 NOUN 57MAT 142 VECTORS & GEOMETRY Rectangular resolution of vectors Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Components of vectors in the Ox and Oy directions 3.1.2 Resolution of two or more vectors 3.1.3 Magnitudes and directions of resultants of vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction The Rectangular resolution of the vectors is necessary because you have seen that vectors can be easily added if it is written in its components form.
+If all that you are given, therefore is the magnitude and direction, you will be required to resolve (breakdown) the vectors into its components.
+This unit will help you to achieve this aim.
+In other to understand the concepts in this unit easily, you will be restricted to the 2 dimensional (coplanar) vectors using the x - y-axis at first.
+2.0.
+Objectives At the end of this Unit, you should be able to - resolve vectors successfully into its components.
+- Find the component of Vectors in a particular direction.
+- Find components of the sum of several vectors.
+- find the sum or resultant of several vectors.
+3.1.1 Rectangular Resolution of Vectors In the last Unit, you learnt that all vectors of its unit vector and its magnitude.
+You will resolve a given vector into its components.
+Example 1: NOUN 58MAT 142 VECTORS & GEOMETRY Find the components of the following vectors in the direction of Ox and Oy.
+(a) u of length 3cm direction 060°.
+(b) v of length 5cm direction 240° (c) w of length 8cm direction 330°.
+Solution Make a rough sketch of each vectors.
+Fig.
+V17 (a) The component of u in the direction of Ox (x - axis) is x=3 Cos 30° = 3 x √ 3 = √3 3 The component of u in the direction of Oy (y - axis) is 3cos60ْ = 3 x ½ = 3 2 .'.
+u = √3 i + 3 j .
+2 (b) The component of v along the x - axis is negative, -5 cos 30° = -5 x √ 3 2 =5 √ 3 2 The component of v along the y - axis is negative, -5cos60° = -5 x ½ = 5 2 .'.
+v = -5 √ 3 i – 5 j 2 2 NOUN 59MAT 142 VECTORS & GEOMETRY © The component of w along the x - axis is negative; you will have -8cos60' = -8 x ½ = -4 Along the y - axis, the component of w is positive, 8cos30ْ = 8 x √ ْ 3 2 w = -4i + 4√3j You may wish to know that the choice of the angle to use in this case is the angle inclined to the required axis, which is the cosine multiplied by the magnitude.
+If you choose to use the angle inclined to the perpendicular axis then it will be the sine multiplied by the magnitude.
+This is easily done since the two angles are complementary.
+See fig.
+V18.
+P P cos a Or P Sin θ a θ X P Cos θ Or P Sin a Fig.
+V18 Exercise 1 Find the component of the following vectors in the direction i and j.
+(a) length 2cm direction 045° (b) length 6cm direction 135° NOUN 60MAT 142 VECTORS & GEOMETRY (a) 2Cos45°i + 2cos45°j =2x√2 i+ 2x√2j 2 2 √2i + √2 j (b) 6 x √ 2 i – 6 x √ 2 j 2 2 = 3√2i - 3√2j 3.1.2 Resolution of two or more vectors.
+Suppose u and v are vectors which are coplanar with i and j as in figure V20 Let the components of u be u = ui + uj and for v = vi + vj The resultant of this two vectors is u + v = (u + v)i + (u + v)j which gives us the rules you had in the last unit.
+NOUN 61MAT 142 VECTORS & GEOMETRY Fig.
+V20 3.1.3 Magnitudes and directions of resultants of vectors Example 2.
+Find the magnitudes and direction of a simple vector that can represent the two vectors u and v. u = 5 units direction 060° v = 4 units direction 240° u = 5cos30°i + 5cos60°j = 5√ 3 i + 5 j 2 2 v = -4Cos30° - 4Cos60° =-4 x √ 3 i -4 x 1 2 2 = -2√3i - 2j .'.
+u + v = (5√3 - 2√3)i + (5 - 2)j 2 2 NOUN 62MAT 142 VECTORS & GEOMETRY u + v = 0.866i + 0.5j .'.
+The magnitude of the resultant is 0.866i + 0.5j √ (√ 3 ) 2 + (1 ) 2 2 2 √3 + 1 4 4 direction is tan -1 ½ √3/2 = tan- I 1 x 2 4 √3 = tan– 1 1 √3 = 30° Exercise 2 If you have vectors u, v, and w u = 3i + 4j; v = 2i - 3j; w = -I + j Find the direction of the following vectors.
+(a) u + v (b) u - v (c) v + w (d) w - u Solution (a) u + v = (3 + 2)I + (4 - 3)j = 5i + j .'.
+θ= tan -1 I 5 = 11.3ْ You will state,’ the direction of u + v as u is inclined at 11 ° to v. or in the direction 079°.
+NOUN 63MAT 142 VECTORS & GEOMETRY Example 3 Vectors of magnitude 4, 10, and 6 units lie in the direction of 045°, 090° and 135° respectively.
+Find (a) the component of their sum in the direction of the Unit vector i (b) the component of their sum in the direction of the unit vector j.
+© the magnitude and direction of the single vector which is equal to their sum.
+(a) Let the vectors be u, v, w, respectively u = 4 x √ 2 i + 4 x √ 2 j 2 2 = 2√2i + 2√2j v = 10i + Oj = 10i w = 6 x √ 2 i - 6 x√ 2 j 2 2 = +3 √2 i - 3 √2 j .
+'.
+sum of their component in the direction of i is (2√2 + 10 + 3√2)i = 10 +5~2 = 7.07i (b) In the direction of j = (2√2 - 3√2) =-√2j (c) l u + v = √7.072 + (√2)2 =√50 + 2= √52 =7.2 θ = tan-1 - √ 2 10 + 5 √2 4.0 CONCLUSION A vector can be resolved into its components, given its magnitude and directions.
+You only need to know that the adjacent side to the given angle takes the cosine, while the opposite side takes the Sine, to be able to write the vectors in its components.
+If the two or more vectors are given, they are resolved and their resultant gives the vectors in components form.
+NOUN 64MAT 142 VECTORS & GEOMETRY 5.0 SUMMARY If the magnitude and direction of a vector is given, you can resolve it into its components parts e.g.
+In figure V21 P Cos a P Or P sin θ a θ P = P cos a i + P cos θj P cosθ or P sin a Fig.
+V21 6.
+Tutor marked Assignment l. Vectors of magnitude 4, 3, 2 and 1 unit respectively are directed along AB, AC, AD, and AE.
+AB is in the same direction as the Unit Vector j and BAC = 30°, CAD = 30°, DAC = 90°, Find a. the components of AB, AC, AD , AE b. the magnitude and direction of the sum of the vectors.
+7.0 References and Other Resources.
+Aderogba K. Kalejaiye A. O. Ogum, G. E. O.
+(1999)Further Mathematics I Lagos.
+Longman Nig.
+Ltd. NOUN 65MAT 142 VECTORS & GEOMETRY Unit 9 The scalar or dot products Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Product of vectors 3.1.2 Definition of the scalar or dot products 3.2.1 Algebraic laws on dot products 3.2.2 Dot products of perpendicular vectors 3.2.3 Dot products of vectors in component form 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction In this unit you will be introduced to the first product of vectors; the scalar or dot product.
+This product gives a scalar result and so the term `dot' product.
+The algebraic laws on this product will give you an easy way to calculate these products, so pay attention to the laws.
+2.0 Objectives At the end of this unit, you will be able to: - Define scalar or dot product - State the algebraic laws on dot product - Calculate easily, without diagrams, the dot product of two given vectors.
+3.1.1 Product of Vector There are two ways a vector can be multiplied as opposed to the scalar multiplication in the previous unit.
+NOUN 66MAT 142 VECTORS & GEOMETRY These are the Dot or Scalar Product, and the vector or cross product.
+In this unit you are learning about the Dot or Scalar Product.
+3.1.2 The Dot or Scalar Products.
+Definition: The Dot or Scalar Product denoted u.v (u dot v) is defined as the product of the magnitude of a and v and cosine of the angle θ2 between them you write in symbols.
+u.v = uv cos q θ≤≤ q ≤2p This product gives a scalar, Since u, v, and Cosθ are scalar, and so the term scalar product.
+3.2.1 Algebraic Laws on Dot Product 1. u.v = v.u (commutative) 2. u.
+(v + w) = u.v + u.w (distributive) 3. m (u.v) _ (mu)v = u.
+(mv) 4. i.i = j.j = k.k = l x l cos 0 = l x lx l = l but i.j = j.k + k.j = 1 x 1 x cos 90° = 1 x 1 x 0 = 0 From this you once again have a very easy way to find the dot product of the vectors.
+If u = x i + y j + z k and v = x j + y j + z k 1 1 1 2 2 2 Then u.v = (x i + y j + z k) (x i + y j + z k) 1 l 1 1 2 2 =(x , x + y y + z , z ) 1 2 1 2 1 2 Since i.j = j.k = j.i = q and only same unit vectors multiply to give 1 Example 1.
+Prove that u.v = v.u the commutative law.
+Solution: u.v = uv cos q = v. u Since uv = vu are scalar.
+And q is the angle between u and v 3.2.2 The dot product of perpendicular vectors The dot product of perpendicular vectors is zero.
+NOUN 67MAT 142 VECTORS & GEOMETRY Proof u.v = uvcos90° = uv x 0= 0 3.2.3 Dot product of vectors in component form Exercise 1 Given that r = 3i - 2j + k, 1 r =2i - 4j - 3k 2 r = - i+2j+2k 3 Calculate a. r .
+r 1 2 b. r .
+r 2 3 c. r .
+r 2 1 d. r .
+(r + r ) 1 2 3 Solutions (a) r .r = (3 x 2) + (-2 x - 4) + (1 x -3) 1 2 = 6 + 8 - 3 = 14 - 3 = 11 (b) r .
+r = (2 x -1) + (-4 x 2) + (-3 x +2) 2 3 = -2 - 8 - 6 = -16 (c) r .r = (-1 x 3) + (2 x -2) + (2 x 1) 3 1 = –3 – 4 + 2 = -7+2 = -5 (d) r (r +r ) = r (r +r ) 1 2 3 1 2 3 = (3i - 2j + k) (2 - 1)i+ (-y +2) j + (-3 + 2) k Example 2 Find the dot product of the following vectors.
+r = 2i + 3j - 5k 2 r = I - 2j + 4k 2 NOUN 68MAT 142 VECTORS & GEOMETRY Solution r .r = (2i + 3j - 5k) (I - 2j + 4k) 1 2 = (2 x 1) + (3 x - 2) + (-5 x 4) = 2 - 6 -20 = 2 – 26 = - 24 Exercise 2 The position vectors of P and Q are r = 2i + 3 j - k 2 r = 4i - 3j + 2k 2 (a) Determine PQ (b) Find r .r 1 2 Solution (a) PQ = q – p = r – r 2 1 = (4 - 2)i + (-3 - 3)j + (3-(-1 )k = 2i - 6j + 3k (b) r .r = (2 x 4) + (3 x -3) + (-1 x 2) 1 2 = 8 - 9 - 3 = 8- 12 = -4 (3i - 2j + k) (I - 2j - k) = (3 x 1) + (-2 x -2) + (l x -1) = 3 + 4 - 1 = 7 -1 = 6 4.0 Conclusion You have just learnt a very important product of vectors, the Dot Scalar Product.
+The word dot comes from the way you write this product a.b and the result is always an ordinary number or scalar, hence the term scalar product.
+NOUN 69MAT 142 VECTORS & GEOMETRY Despite the definition a.b = ab cos q , you have seen how easy it really is to get the Dot product by simply adding the products of the coefficients of i, j and k. This is due to the Algebraic laws of vector Algebra.
+You are now ready for the next Units, which will use the consequence of the Algebraic laws to derive some results.
+5.0.
+Summary - The Scalar dot product of a and b is a.b = ab cos 0 where 0 is the able between them.
+- The algebraic laws holds in vector algebra - If a=x i + yj + 2k and 1 l b = x i + y j + 2 k 2 2 2 2 then a.b = (x x + yy + z z 1 2 I 2 1 2) 6.0 Tutor marked Assignment 1.
+Determine the value of a so that u = 2i + aj + k and v = 4i - 2j - 2k are perpendicular.
+2.
+If u= I + 3j - 2k and v = 4i - 2j - 4k Find (a) u.v, (b) u (c) v (d) 3u + v I (e) (2u + v) .
+(u - 2v) 7.0 References and other Resources Murray R. Spiegel (1974) Theory and Problems of Vector Analysis New York: Shaum's Outline Series.
+NOUN 70MAT 142 VECTORS & GEOMETRY Unit 10 Properties of scalar or.
+Dot products Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Algebraic laws on scalar or dot products 3.1.2 The angle between two vectors 3.1.3 Projection of a vector along another vector 3.1.4 Proof of cosine rule using dot product 3.2.1 Proof of a right-angled triangle using dot product 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction In this unit, you will be looking at some properties of scalar or dot products.
+These are due to algebraic laws on dot products.
+You will be able to calculate the angle between two vectors.
+You will be able to find thee projection of a vector along another vector, a very useful conception in mechanics.
+The proof of the popular cosine rule in trigonometry will also express the equation of a plane using the dot products.
+You should concentrate on the use of dot product in these calculations, as there are other approaches to them.
+2.0 Objective At the end of this Unit, you should be able to: - Calculate easily the angles between two vectors without diagrams - Express and calculate the projection of a vector along another vector.
+NOUN 71MAT 142 VECTORS & GEOMETRY 3.1.0 The definition of Scalar or Dot Product.
+The Dot Product of vector u and v is u.v = uv cos q where cos q is the angle between them.
+3.1.1.
+The algebraic laws on Scalar or Dot Products are: 1. u.v = v.u (commutative laws.)
+2. u.
+(v + w) = u.v + u.w (Distributive) 3. m (u.v) = (mu).v = (u.v)m where m is scalar 4. i.i = i.i = k.k = i x i cos 0 = l x I x 1=1 but i.i = i.k =i x i cos 90°=1 x l x 0 =0 5.
+The dot product of u = x i + y j + 2 k and x i + y j+ z k 1 2 2 2 is (x x + y y + z z ).
+I 2 1 2 I 2 6.
+If u.v = 0, and u and v are not null vectors, then u and v are perpendicular vectors.
+7.
+1 u 1=√u.u 8. u.u > 0 for any non - zero vector u 9. u.u = 0 only if u = 0.
+3.1.2 Angle between two vectors.
+From the definition of dot product and with the method of calculating the dot product, you can find θ from cos θ = u.v i.e.
+The Dot Product uv the product of their magnitude Example 1 Find the angle between the vectors u= 2i + 2i - k and v = 6 i- 3j + 2k u.v = (2 x 6 + (2x - 3) + (-1 x +2)) =12 - 6 - 2 =12 – 8 = 4 u = u = √22+22+ (1)2 NOUN 72MAT 142 VECTORS & GEOMETRY =√4 + 4+ 1 =√9 = 3 v = v =√62 + (-3)2 + 22 =√36 + 9 + 4 =√49 = 7 .'.
+cos θ = u.v = 4 uv 3 x 7 .'.
+θ = cos-1 4 = 79° 21 Therefore, the angle between v and v is 79° Exercise 1 Find the angle between u = 4i - 2j + 4k and v = 3i – 6i - 2k Solution u.v = (4 x 3) + (-2 x -6) + (4 x -2) = 12+ 12 -8 =24 - 8 =16 u = √42 + (-2)2 + 42 = √16 + 4+ 16 = √36 =6 v = √32 = (-6)2 (-2)2 =√9 + 36 + 4 = √49 = -7 .. θ = Cos -1 16 6 x 7 = Cos-1 8 21 = 67.6° ...The angle between u and v is 67.6° NOUN 73MAT 142 VECTORS & GEOMETRY 3.1.3 Projection of a vector along another vector.
+You can define the projection of a vector (the component) u along any other vector v using the concept of Scalar product.
+Suppose u and v are non-zero vectors and the angle between them is 0 Then the real number p is given from Cos θ = u.v as p = u.v uv v or p = u cos θ= u .v IvI You refer to p as the projection or component of u in the direction of v. If u = 0, then θ is undefined and we set p = 0, Similarly the projection of v on u is the number q = v I cos θ = u.v Iu I Example 2 Find the projection of the vector 2i - 3i + 6k on the vector i + 2j + 2k Solution Let u = 2i - 3i + 6k and v = i + 2j + 2k then the projection u in the direction of v is P = u.v I vI u.v = (2 x 1) =(-3 x 2) = (6 x 2) = 2 – 6 + 12 = 14-6 = 8 |v| = √12 + 22 + 22 = √9 = -3 .'.
+P = 8 =2 (cid:1) 3 NOUN 74MAT 142 VECTORS & GEOMETRY Exercise 2 Find the projection of the vector u = 4i - 3j + k on the line passing through the points P (2, 3, -1) and Q (-2, -4, 3).
+Solution The relative vector of PQ = r = (-2, -4, 3) - (2, 3, -1) = -4i - 7j + 4k.
+.'.
+The projection of u along PQ = u .r r = (4 x -4) + (-3 x-7) +(1 x 4) √(-4)2 + (-7)2 +42 = 25-16 √81 = 9 =1 9 3.2.1 Cosine Rule Example 3 Prove the law of cosine for plane triangle.
+Solution: From the Figure V23 q + r = P r = P - q r.r = (P - q).
+(P - q) r2= p2 + q2 - 2q.p = p + q2 - 2q .
+p cos θ Which is the cosine formula.
+Fig.
+V23 NOUN 75MAT 142 VECTORS & GEOMETRY 3.2.2.
+Equation of a plane.
+Example 4 Determine the equation for the plane perpendicular to the vector P = 2i + 3 j +6k and passing through the terminal point of the vector q = i + 5j + 3 k. Solution: See Fig.
+V24 Let r the position vector and Q the terminal point of q.
+Since PQ = q - r is perpendicular to p, then (q - r).
+p=0 or r.p=q.p is the required equation of the plane in vector form.
+i.e.
+(xi + yj + 2k).
+(2i + 3j + 6k) = (i + 5j + 3k).
+(2i + 3j + 6k) 2x + 3y + 6z = 2 + 15 +18 2x + 3y + 6z = 35 is the required equation of the plane.
+3.2.3 Perpendicular Vectors Exercise 3 Determine the value of y so that u = 2i + yj + k and v = 4i - 2j -2k are perpendicular.
+NOUN 76MAT 142 VECTORS & GEOMETRY Solutions You have read from the algebraic laws on dot product that u and v are perpendicular If u.v = o ... u.v = (2i + yj + k), (4i - 2j - 2k) = (2 x 4) + (y x -2) + (1 x -2) = 8 - 2y - 2 .-.8 - 2y – 2 = 0 2y = 6 y = 3 Exercise 4 Show that the vectors u = 3i - 2j + k, v = i -3j+ 5k, and w= 2i + j - 4k form a right-angled triangle.
+Solution You will show, first, that the vectors from a triangle.
+You will need to apply the triangle law to the sides of the triangle by checking if u + u + w = 0 OR (i) u + v = w or n + w = v or v + w = u that is, will the sum of two of the vectors give the third vector (Fig.
+V25) (ii) The resultant of the three vectors is zero.
+This will remove the doubt of the three positions vectors being collinear.
+Fig.
+V25 NOUN 77MAT 142 VECTORS & GEOMETRY (1) By trial, you will discover that v + w is = (1 + )I + (-3 + 1)j + (5 - 4)k = 3i - 2j + k = u given (iii) v + w – u = 3i – 2 + k -(3i - 2j + k) = 0 Therefore the vector to form a triangle, for the triangle to be right angled, the dot product of the two vectors containing the right angle must be zero.
+Again by trial u.w = 0. from u.v = (3i - 2j + k) .
+(i - 3j + 5k) = 3 + 6 + 5 = 0 v.w = (3i - 2j + k).
+(2i + j - 4k)= 6 – 2 – 4 = 6 – 6 = 0 and so the triangle is right angled.
+4.0 Conclusion The scalar or dot product and the algebraic laws on it has a lot of properties , soiree of which you have studied in this unit.
+You can calculate the angle between two vectors and the projection of a vector along another vector.
+Using dot product you can easily prove the cosine rule.
+5.0 Summary In this Unit you have learnt: 1.
+The angle between two vectors u and v, θ is cos θ = u.v , q = Cos -1 u.v uv uv 2.
+The projection of vector u along v is u.v.
+and of v along u = u.v NOUN 78MAT 142 VECTORS & GEOMETRY I v I |uI 3.
+The equation of a plane passing through a vector v and perpendicular to a vector u is (v - r) .
+u = 0 where r is the position vector of an arbitrary P (x, y, z).v.u - r.u = 0 or v.u = r.u.
+6.0 Tutor - Marked Assignment.
+1.
+Vector u = 3 i -2j + k and v = -2i + 2j + 4 k (i) Find the magnitudes of u, and v. (ii) The angle between u and v. (iii) Find the projection of the vector u +½v along u.
+7.0 References and other Resources Murray R. Spiegel (1974) Vector Analysis, New York: Shaum's Outline Series.
+NOUN 79MAT 142 VECTORS & GEOMETRY Unit ll Direction cosines Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Definition of direction cosines 3.1.2 The inclination of a vector to the co-ordinate axis 3.1.3 Orthogonal unit vectors 3.1.4 Equation of a plane 3.2.1 To prove that the diagonals of a rhombus are perpendicular 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction One of the consequences of dot products is the direction cosine.
+This is a concept involving the use of unit vectors, which you are already familiar with.
+The coefficient of the components of this unit vectors gives the direction cosines.
+From this simple calculation, a lot of other concept will be learnt by you.
+In this you will learn about this consequence of dot product and the direction cosine.
+3.0 Objectives At the end of this unit you will be able to: - Calculate the direction cosines of a given vector - Calculate the angles to which a given vector is inclined to the co- ordinate axis - Find the equation of a plane passing through a point and the perpendicular to the line joining two given vectors NOUN 80MAT 142 VECTORS & GEOMETRY 3.1.1 Direction cosines If you have a vector reduced to its unit vector, then the magnitude is 1.
+You can then find the inclination of the vector to the axis easily as it will be 1 cos a , 1 cos β, and 1 cos ỵ represent the vectors inclination to the x, y, and z axes respectively.
+To make this easy all you need is to reduce the vector into its unit form, then the coefficient of i, j and k represent cos a , cos β and cos y respectively.
+You refer to this coefficient as the direction cosine of the vector, since they express the vector's inclination to the axis.
+Example 1 Find the direction cosines of the line joining the points (3,2, -4) and (1-2,2) Solution Let A (3, 2, -4) and B (l, -1, 2) Then AB = b – a = (1 - 3)I + (-1 - 2)j + (2 - (-4))k = -2i - 3j + 6k The Unit vector e = -2 i -3 j + 6 k r √(2)2 +(-3 )2 +62 = 2 i - 3 j + 6 k √49 = -2 i - 3 i + 6 k 7 The direction cosines are -2, -3, 6 7 7 7 Exercise 3.
+Find the acute angle which the line joining the points (1 -3, 2) and (3, -5, 1) makes with the coordinate axis.
+Solution: a = i- 3j + 2k b = 3i - 5j + k r = b – a NOUN 81MAT 142 VECTORS & GEOMETRY = (3 - 1) i + (-5 -(-3) )j + (i - 2)k = 2i - 2j – k .'.
+e = 2 i - 2 i - k r √4+ 4+ 1 = 2 i - 2 j - k 3 The direction cosines are 2, -2, -1 3 3 3 and the angles are Cos-1 2, Cos-1 -2, and Cos-1 -1 3 3 3 to x, y, and z axis respective.
+You will have 48.2°, 48.2° and 70.5° Example 2 Find the angles which the vector u = 3i - 6j + 2k makes with the coordinate axes.
+Solution From the previous unit, you should know you are to look for the direction cosines of the vector u to start with.
+u = 3i - 6j + 2k e = 3 i - 6 j + 2 k .e.
+u r √9 + 36+4 u = 3 i - 6 j + 2 k 7 The direction cosines are 3, - 6 and 2 7 7 7.
+Let a and β and y represent the required angle.
+.'.
+a , the inclination to the x-axis is a = cos-1 3 = 64.1° 7 NOUN 82MAT 142 VECTORS & GEOMETRY β, the inclination to the y - axis is R = cos-1 - 6 7 =180° - cos-1 6 7 = 180° - 31 ° = 149° and y, the inclination to the z -axis is y =cos-12 = 73.4° 7 Exercise 1 Find the acute angles which the line joining the points (3, -5, 1) and (1 - 3 + 2) makes with the coordinate axes.
+Solution: You should use relative vector for UV = v - u to get the position vectors of The line joining u and v where u =3i - 5j+ k, and u = i - 3j + 2k.
+.'.
+UV = v - u = (1 -3)i + (-3 + 5)j + (2 - 1)k r = -2i + 2j + k.
+.'.
+The direction cosines of r will be the coefficient of the unit + vector e in the direction of r. e = -2 i + 2 j + k v √4+ 4+ 1 = -2 i + 2 j + 1 k 3 3 3 and a = cos-12, β = cos 2, y= cos-1 1 3 3 3 .'.
+a = 48.2°, 48.2°, and 70.5° Note that a should have been cos-1 2/3 which will give 180 - 48.2°, but the question demand for `acute' angle not the obtuse angle, which is only adjacent to the acute angle 48.2°.
+NOUN 83MAT 142 VECTORS & GEOMETRY Exercise 2 For what values of p are the vectors u = 2p - i + pj - 4k and v = pi - 2j + k perpendicular?
+Solution You need to show that the dot product u.v = 0 will imply the solved P. u.v = (2p x p) + (p x -2) + (-4 x 1) = 0 = 2p2 - 2p -4 = 0.
+A quadratic divide through by 2 equation in p p2 – p – 2 = 0 Factorize to get (p - 2)(p + 1) = 0.
+.'.
+p = 2 or -1 3.1.3.
+Orthogonal Unit Vector Example 3.
+Show that u =2i - 2j + k/3, v =i + 2j + 2k/3 and w = 2i + j - 2k/3 are mutually orthogonal unit vectors.
+Solution u.v = (2 x 1) + (-2 x 2) + (1 x 2) = 2 – 4 + 2 =0 3 3 3 3 3 3 9 9 9 v.w = (1 x 2) + (2 x 1) + (-2 x 2) = 2 + 2 – 4 = 0 3 3 3 3 3 3 9 9 9 u.w = (2 x 2) + (-2 x 1) + (I x -2) = 4 – 2 – 2 = 0 3 3 3 3 3 3 9 9 9 This proves that they are perpendicular or to use the word in the question, `orthogonal'.
+That they are unit vectors is easily proved by your writing each vector a mu, mv, mw where m is a scalar in this case 1/3 and that the magnitude of u, v, w are each √9 = √1 = 1.
+9 From the definition of unit vector as a vector whose magnitude is one, you have your proof.
+NOUN 84MAT 142 VECTORS & GEOMETRY .'.
+u, v, w are mutually orthogonal unit vectors.
+3.1.4 To prove that the diagonals of a rhombus are perpendicular.
+Example 4 Prove that the diagonals of a rhombus are perpendicular.
+Solution: Draw a rhombus ABCD as in figure V27 DB = OA + AB = u + v DC + CA = DA .'.
+CA= DA – DC = u - v v Fig.
+V27 DB.
+CA = (u + v).
+(u - v) (Difference of two squares) =u2 -v2 = u2 – u2 = 0.
+Since u = v being a rhombus, all sides are equal.
+You can now conclude that the diagonals DB and CA are perpendicular, because their dot product is zero.
+4.0 Conclusion In the study of mathematics, the language of science, every effort is made to reduce any fear associated with calculations.
+This unit is one of such efforts e.g.
+The existence of direction cosines makes it easy for you calculate a lot of quantities such as: NOUN 85MAT 142 VECTORS & GEOMETRY - The inclination of a vector to the axis.
+- To prove some simple geometrical problems.
+5.0 Summary In this unit you have come across the following: 1.
+The dot product of two perpendicular vectors is zero.
+2.
+The Direction cosine of a vector is the coefficient of the unit vector in the direction of the vectors 3.
+The direction cosines, gives cosine of the indirection of the vector to the x, y, z axes.
+4.
+You can use dot product to prove that the diagonals of a rhombus are perpendicular.
+6.0.
+Tutor - marked Assignment.
+1.
+Show that the angle between the vectors u = 3i + 2j - 6k, and v = 4i - 3j + k is a right angle.
+2.
+For what values of z are the vectors u = 2i - 2j + zk and v = 4i + 2j - 4zk perpendicular.
+2.
+Find the angles which the vector u = 4i - 3j + k makes with the co- ordinate axis.
+7.0 References and other Resources Murray R. Spiegel (1974)Vector Analysis,New York: Shauin's Outline Series.
+Indira Ghandi Open University, (2000) Mathematical Method in Physics Vector Calculus.PH E - 04.
+NOUN 86MAT 142 VECTORS & GEOMETRY Unit 12 Applications of scalar or dot products Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Work done expressed as a scalar product 3.1.2 To prove that the diagonals of a rhombus are perpendicular to each other 3.2.1 Perpendicular to a plane 3.2.2 Equation of a plane 3.2.3 Distance from the origin to a given plane 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction In the last Unit you were introduced to Scalar or Dot product.
+In this Unit, an attempt will be made to pick as many examples as possible where the Dot product is applied in calculations including plane Geometry.
+These calculation have been made easier by the use of dot product even though they are in three dimensions.
+You will appreciate these examples, if you are going on to study physics- related subject or higher Geometry.
+2.0 Objective At the end of this Unit, you should be able to: - calculate work done by a given force on a particle through a given displacement using dot product.
+- determine when the work done on a particle is zero, and maximum.
+- calculate accurately the Direction Cosines of a vector, hence, find the inclination of the vector to the axis.
+NOUN 87MAT 142 VECTORS & GEOMETRY - calculate the perpendicular to a given plane - calculate the distance from the origin to a given plane.
+3.1.1 Work expressed as a scalar Product.
+Work expressed as a Scalar product work is defined as the force applied multiplied by the distance moved in order words, if there is no distance or displacement of the object, then work done is zero, this also occurs when the F is perpendicular to the displacement .
+In terms of Scalar Product, let a force F be applied on an object at an angle 0 to the direction of its displacement d. Then W = (F cos θ) d = F.d Work is maximum when the force F is parallel to the displacement.
+Example 1 Find the work done in moving an object along a vector r = 3i + 2j -5k, if the applied force is F = 2i - s – k Solution: Work done = F.r = (2i - j - k) - (3i + 2j - 5k) = (2 x 3) + (-1 x 2) + (-1 x -5) = 6 - 2 + 5 = 11 - 2 = 9 Exercise 1 Find the work done in moving an object along a straight line from (3, 2, -1) to (2, -l, 4) in a force field given by F = 4i - 3j + 2k Solution: The resultant displacement is d = r – r = (2 - 1 , 4) - (3, 2, -1) 2 1 = -i -3j = 5k .'.
+work done W = F.d = (4i - 3 j + 2k).
+(-i - 3j + 5k) = (4 x -1) +(-3 x -3) + (2 x 5) NOUN 88MAT 142 VECTORS & GEOMETRY = -4 + 9 + 10 = 19 - 4 =15 3.1.2 Perpendicular vectors Example 2 Prove that the diagonals of a rhombus are perpendicular.
+Solution: Draw a rhombus ABCD as in figure V28 DB = OA + AB = u + v DC + CA = DA .'.
+CA = DA – DC = u - v v Fig.
+V28 .'.
+DB.
+CA = (u + v).
+(u - v) (Difference of two squares) =u2 –v1 = u2 - u2 = 0.
+Since u = v being a rhombus, all sides are equal.
+You can now conclude that the diagonals DB and CA are perpendicular, because their dot product is zero.
+3.2.1 Perpendicular to a plane Determine a unit vector perpendicular to the plane of u and v. Where u = 2i - 6j - 3k and v = 4i - 3j - k. Solution: NOUN 89MAT 142 VECTORS & GEOMETRY You chose a vector w = w i + w j + w k to be perpendicular to the plane of u 1 2 3 and v. what you mean here is that w is perpendicular to both u and v and so their dot product will be zero each.
+w.u = 2w - 6w -3w = 0 1 2 3 2w -6W = 3W ---- (1) 1 2 3 w.v = 4w + 3w - w = 0 1 2 3 4w + 3w = w ----- (2) 1 2 3 Solve (1) and (2) simultaneously to express w and w terms of w .
+You will 1 2 3 have W = 1 w , w = -1 w , and 1 3 2 3 2 2 w = w ( I i - 1 j + k and so the unit vector in the direction of w, 3 2 3 ew = w = w (Ii -1 j + k) 3 w2 3 √w2 ( 1) 2 + (-1) 2 + (1) 2 3 2 3 = +( 3 i - 2 j + 6 k ) 7 7 7 Exercise 2 Find a unit vector perpendicular to both u and v where vectors U = 4i – 5 + 3k, and v = -2i + j - 2k Solution: Let w = w i + w j + w k be the required unit vector.
+1 2 3 Then you can say w.u =0 w.v since w is perpendicular to both u and v. w.u = 4w - w + 3w =0 1 2 3 .'.
+4w + 3w = w -------- (1) 1 3 2 w.v = -2w + w - 2w = 0 1 2 3 2w + 2w = w --------- (2) 1 3 2 Now solve (1) and (2) simultaneous to express w and w in terms of w .
+4w l 3 2 1 + 3w = 2w +2w 3 1 3 4w - 2w = 2w - 3w 1 1 3 3 2w = -w or w = -2w 1 3 3 1 NOUN 90MAT 142 VECTORS & GEOMETRY w = -1w 1 3 2 Subs.
+in (1) 4(-l w ) + 3w = w 3 3 2 2 + w = w 3 2 Substituting in (2) 2w + 2 (-2w ) = w 1 1 2 2w - 4w = w 1 1 2 -2w = w .
+1 2 .'.
+w = -1w 1 2 2 w = w 3 2 .'.
+w = w (-½i + j + k) 2 And ew = w (-l i + i + k ) 2 √w 2(½)2 + (1)2 + (-1)2 2 = w ( i – j – k ) = ½ i + j + k 2 w √¼ + 4/4+ 4/4) √9/4 2 = ½ i + j + k) x 2/3 = 1/3i + 2/3j + 2/3k or ± ( i - 2 i - 2 k ) 3 3.
+2.2.
+Equation of a plane.
+Example 3 Find an equation for the plane perpendicular to the vector u = 2i + 3j + 6k, and passing through the terminal point of the vector v = i = 5 j - 3 k. Solution let r be the position vector of P (x, y, z) on the plane, and Q the terminal point of v in figure V29 using relative vectors, PQ = v - r and is perpendicular to u, NOUN 91MAT 142 VECTORS & GEOMETRY then you say (v - r).
+u = 0. v - u = r. u = 0 (Distributive law) v.u = r. u is the required equation of the plane, in vector form since it gives the condition required.
+You can then write this in the rectangular form as (xi + yj + zk) (2i + 3j + 6k) = (i + 5j + 3k).
+(2i + 3j + 6k) 2x + 3y + 6z =(1 x 2)+(5 x3) + (3 x 6) = 35.
+That is the equation for the plane is 2x + 3y + 6z =35 Exercise 3 Given that u = 3i + j + 2k and v = i - 2j - 4k are the position vectors of points p and Q respectively.
+(a) Find an equation for the plane r passing through Q and perpendicular to line PQ.
+Solutions: You must find PQ first.
+Using relative vectors, without diagram, PQ = v - u v – u = (1 - 3)i+ (-2- 1)j + (-4 - 2)k = 2i - 3j - 6k Then you let r = xi + yj +zk be an arbitrary point on the plane whose equation is required, (r - u).
+(u - v)=0.
+r.(u - v ).= (u - v) v ( Distributive law) or (xi + yj + zk).
+(-2i - 3j - 6k) = (-2i - 3j - 6k).
+(i- 2j - 4k) NOUN 92MAT 142 VECTORS & GEOMETRY i.e.
+-2x - 3y - 6z = (-2 x 1) + (-3 x -2) + (-6 x -4) - 2 + 6 + 24 -2x-3y-6z=30-2 =28.
+Or 2x + 3y + 6z = -28 3.2.3 Distance from the origin to a given plane Example 4 Using data in Example 3.
+Find the distance from the origin to the plane.
+Solution: The distance from the origin to the plane represents the projection of v on u, which is v. e u e = u = 2 i + 3 j + 6 k = 2 i + 3 j + 6 k. u u √ 4+ 9 + 36.
+7 7 7 The projection of v on u = v e u = (i+ 5j + 3k).
+( 2 i + 3 j + 6 k ) 7 7 7 =(1 x 2) + (5 x 3 ) + (3 x 6) 7 7 7 = 2 + 15 + 18 7 = 35 7 = 5 4.0 Conclusion You should appreciate the application of direction cosines and dot product in different areas of mathematics.
+This unit has attempted to bring just a few.
+You should study them so you'll get familiar with the concept of dot product.
+5.0 Summary NOUN 93MAT 142 VECTORS & GEOMETRY • Work done, W = (Fcosθ)d = F.d = d where, F is the force applied, d, the displacement, and 0, the angle inclined to the direction of the displacement.
+• The unit vector perpendicular to two vector u and v on a plane is e„, where w.u = w.v = 0, gives the simultaneous equation to be solved, to give w and so e„ • The distance from the origin to the plane represents the projection of v on u which v.e .
+u 6.0 Tutor - Marked Assignment.
+l. find (a) An equation of a plane perpendicular to a given vector u and distant p from the origin.
+(b) Express the equation of (a) in rectangular coordinates.
+2.
+Find a unit vector parallel to the x-y plane and perpendicular to the vector 4i - 3j + k 3 (a) When will the work done on a particle by a force F be (i) zero, (ii) maximum.
+(b) vector u = 3i -2j +k and v = -2i +2j + 4k.
+Find the magnitudes of u, and v and the angle between them.
+7.0 References and other Resources Murray R. Spiegel (1974)Vector Analysis, New York: Shaum's Outline Series.
+Indira Ghandi Open University, (2000) Mathematical Method in Physics Vector Calculus.PHE - 04.
+Unit 13 NOUN 94MAT 142 VECTORS & GEOMETRY The vector or cross product Table of Contents 1.0 Introduction 2.0 Objectives 3.1.1 Definitions of vector or cross products 3.1.2 The algebraic laws of vector products 3.1.3 Cross products of the unit vectors i, j, and k 3.2.1 The use of determinants in cross products 3.2.2 The expansion method 3.2.3 The cross product of three vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction In this unit you will be learning about the second product of vectors the vector or cross product, The vector product has its name from the fact that the product given another vector perpendicular Plane.
+You will learn two approaches to the calculation, and so have a choice of which you find easier.
+2.0 0bjectives At the end of this unit you should be able to calculate correctly the cross product of two or three vectors using the expansion or determinant method 3.1.1 The Cross Product Definition The cross or vector product of u and v is a vector w = u x v. The magnitude of u x v is defined as the product of the magnitude of u and v and the sine of the angle θ between them.
+The direction of the vector w = u x v is perpendicular to the plane of u and v = 2i – j + 5k and such that u. v and w from a right - handed system.
+in symbols, u x v= uv sin θ θ < 0, where e is a unit vector indicating the direction of u x e v, if u = v or if u is parallel to v, then sin θ = 0 and you will define u x v =0 NOUN 95MAT 142 VECTORS & GEOMETRY 3.1.2 Algebraic laws on cross product.
+1 u x v = -v x u commutative law fails u x v ≠ v x u 2 ux (v x w) = u x v + u x w distributive law 3 m(u x v) = (mu) x v = u x mv) = (u x v)m where m is solar.
+4 i x i= i x j =k x k = 0 = I x I x sine 0 = I x I x O = O.i x j = k, j x k = j k x j (i, j, k, i, j, k) 5 If u =x, j xy, j + z, k and v = xj x yj x zk Then u x v = i j k x x x 1 2 3 y y y 1 2 3 i.e.
+the determinant of the matrix formed 6.
+The magnitude of u. v is the same as the area of a parallelogram with side u and v. 7.
+If u x v = 0 and u and v are not null vectors.
+Then u and v are parallel.
+Remember your right-handed rule i - j - k - i - j but if reversed, you get minus.
+Example 1 Show that | u x v 2| + | u.v |2 = | u |2 | v |2 Solution | u x v | 2 + | u.v | 2 | uv sin θ2 | + |uv cos θ| 2 e = u2 v2 sin2θ + u2v2 cos2θ = u2v2 (sin 2θ + cos2θ) = u2 v2 x 1 (sin 2θ + cos2θ = 1) = u2v2 3.1.3 Cross product of the unit vectors Example 2 NOUN 96MAT 142 VECTORS & GEOMETRY Evaluate (a) (2j) x (3k) (b) (3i) x (2k) © 22j x 9i – 3k Solution a.
+(2i) x (3k) = 6j x k = 6i b.
+(3i) x (-2k) = - 6j x k = 6j c. 2j x i - 3k = 2k - 3k = -5k.
+3.2.1 The use of Determinant Example 3 If u = 2i - 3j - k and v = I + 4j - 2k Find (a) (u x v) (b) (v x u) (c) (u + v) x (u - v) Solution (a) u x v = i j k 2 -3 1 1 +4 2 Determinant of the 3 x 3 matrix form from i. j. k and the coefficients of u and v. = i -3 -1 j 2 -1 +k 2 -3 4 -2 1 -2 1 4 = i[6 – (-4)] –j [-4 – (-1)] + [8 – (-3)] = 10i – 3(-j) + 11k = 10i + 3j + 11k 3.2.2 Expansion method note that i x i = j x j = k x k = 0 NOUN 97MAT 142 VECTORS & GEOMETRY i x j = kj x k = i,k x i = j and i x k = -j,k x j = -i,j x i = k (2i - 3j - k) x (i + 4j -2k) = 2i x (i x 4j - 2k) - 3j x (i+ 4j - 2k) – k x (i + 4j - 2k) = 2i x i + 8i x j – 4i x k -3j x i -12j x j + 6i x k. –k x i -4k x j + 2k x k. = 0 x 8k - 4(j) - 3(-k) – 0 + 6i – j - 4(-1) + 0 = 10i + 3j + Ilk.
+Remark.
+Which is not too bad once you remember the ruler.
+Here is a hint you could use:- Let your mind be fixed on the right order of the alphabets i, j, k. Same letters give zero.
+Two different letters that sound right, give the missing letter.
+e.g.
+i x j = k, j x k = i.
+But when the two letters are in the wrong order, the result is still the missing letter, but negative e.g.
+j x i = - k, i x k k x j = -i.
+Of course the determinant removes all these problems from the calculation.
+Now you have an example to complete, so go ahead and do it right this time.
+(b) v x u = i j k 1 4 2 i 4 -2 -j 1 -2 +k 1 4 2 -3 -1 -3 -1 2 -1 2 -3 = i (-4 (+6)) –j (-1 + 4)) + k (-3 – 8) = (-4 – 6)I – j(-1 + 4) + k (-11) = 10i – 3j – 11k Which proves (u x v) = -(v x u) yv = (2 + 10)i + (-3 + 4)j + (-1 -2)k = i – 7j + 3k u – v = (2 – 1)i + (-3 – 4)j + (i – 7j + k) NOUN 98MAT 142 VECTORS & GEOMETRY = i j k 3 1 7 1 -7 +1 = i 1 -3 -j 3 -3 +k -21 -1 -7 1 1 1 1 -7 = i (I – (21) – j (3 – (-) ) + k (-21 – 1) = - 20i – 6j – 22k Exercise I If u = 2i – j + 2k v = 2i + j - k And w = I - 2j + 2k.
+Find (i) u x v (ii) u x w Solution u x v = (3i - j + 2k) x (2i + j - k) = 3i x 2i + 3i x j + 3i x - k – i x 2i – j x i – j x -k + 2k x 2i + 2k x j + 2k - k = 0 + 3k - 3(-j) -2 (-k) x O x i + 4(j) + 2(-i) x O =3k + 3j + 2k + i + 4 - 2i = (1 - 2)i + (3 + 4) + (3 + 2 )k = -i + 7j + 5k (11) u x w = (3i - j2k) x (I – 21 + 2k) = i j k 3 -1 2 1 -2 2 = -i -1 2 - j 3 2 x k 3 -1 2 2 1 2 1 -2 = i(-2 - (-)) - j(6 – 2 + k(-6 - (-1 )) = i (-2 + 4) - j(4) + k(-6 + 1) = 2i - 4j - 5k NOUN 99MAT 142 VECTORS & GEOMETRY 3.2: Cross Product of 3 Vectors Examples Using the data in exercise 1. u = 3i – j + 2k v = 2i + j – k and w =i - 2j + 2k , find (u x v) x w first find u x v =i+ 7j + 5k in Exercise 1.
+... u x (v x w) = (-i + 7j + 5k) x (i - 2k) = i j k -1 7 5 1 -2 -2 = i 7 5 - j -1 5 + k -1 7 -2 -2 1 -2 1 -2 = i (14 – ( -10)) – j (-2 – 5) + k ( 2 – 7) = 24i + 7j – 5k.
+Exercise 2 Find u x ( v x w ), with the same u = 3i - j + 2k,v = 2i + j – k and w = i - 2j + 2k.
+Solution: v x w = i j k 21 - 1 1 -2 2 = i 1 -1 - j 2 -1 + k 2 1 -2 2 1 2 1 -2 = i(2 - (2) - j (4- (- 1 )) + k (4 - 1) = 0i - 5 j -5k = u x (v x w) = (3i – j + 2k) x (0i - 5j - 5k) NOUN 100MAT 142 VECTORS & GEOMETRY = i j k 3 -1 2 0 -5 -5 = i -2 2 - j 3 2 + k 3 -1 -5 -5 0 -5 0 -5 = i(5 – 1 – 10) – j (-15 – 0) + k ( -15) = 15i + 15j – 15k Which proves that cross product is not associative.
+u x ( u x w ) = (u x v ) x w. 4.0 Conclusion So now you have learnt another product of vectors this time, the result of the product is another vector as opposed to scalar in dot product, you can remember the two by their name.
+In the next unit you will take more application of vector product.
+5.0 Summary In this unit you have learnt that 1.
+The product of two vectors called the vector or cross product is a perpendicular vectors their plane.
+in symbols.
+u v = uv sin 0 0< 0< t e where e is the unit vector perpendicular to the plane of u and v , -u x v = 0 If a = v or parallel.
+2.
+Algebraic laws The commutative law does not hold u x v = - v x u Distributive law holds over addition u x (v x w ) = u x v + u + w scalar multiples.
+m(u x v) = (mu) x v = u x (mv) = (u x v)m. Where m is scalar i x j = i x j = k x k = 0 = i + 1 sin 0 = i x i x 0 = 0, i x j = k, i x k = i, k x i =j .
+3.
+If u = xi + yj + zk and v = 2i – j + 5k = xi x uj + zk Then u x v = ij k X y z 1 1 1 X y z 2 2 2 NOUN 101MAT 142 VECTORS & GEOMETRY 4.
+The magnitude of (u x v) is the same as the area of a parallelogram with sides' u and v. 5.
+If u x v =0 and u and v are not null vectors then a and v are parallel 6.0 Tutor - marked Assignments I.
+If v =2i + j - k, and u = i -2j + 2k Find (a) v x u (b) u x v 2.
+Evaluate each of the following.
+(a) 2j x (3i - 4k) (b) (i- 2j) x k (c) (2i - 4k) x (i x 2j) 7.0.
+References and other Resources.
+Murray R Spiegel (1974)Vector AnalysisNew York: Shaum's Outline Series.
+Indira Gandhi Open University (2000)Mathematical Method in Physics Vector Calculus PHE - 04.
+Unit 14 Applications of vector products in areas NOUN 102MAT 142 VECTORS & GEOMETRY Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Definitions of types of quadrilaterals 3.1.2 Area as a vector 3.1.3 Area of a parallelogram, given sides 3.1.4 Area of a triangle 3.2.1 Area of a parallelogram, given the diagonals 3.2.2 Parallel vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0.
+Introduction In this unit, you are presented with different application of Vector or cross product and you will discover why you refer to mathematics as the language of Science.
+You should, take time to study and practice the exercises and examples given.
+2.0 Objectives At the and of this unit, you should be able to • Calculate accurately, the area of triangle, parallelogram, square and rhombus using given data's.
+• Recognize and use the definitions of quadrilaterals with their difference or common properties 3.1.1 Definitions of types of quadrilaterals At this point, you should, revise the definitions of the quadrilaterals and their properties.
+• A quadrilateral is a 4 -sided polygon (quad.)
+• A rectangle is a quadrilateral with each angle as right angle (90°) • A square is a rectangle with all sides equal.
+• A rhombus is a quad with all sides equal in length.
+• A parallelogram is quad.
+with two.
+Pairs of parallel sides.
+NOUN 103MAT 142 VECTORS & GEOMETRY • A trapezium is a quad.
+With one Pair of parallel sides • A kite is a quad, with a diagonal as line of symmetry From these definitions, you can conclude that rectangles, squares, and rhombuses are parallelograms.
+But the diagonals of rectangle do not intersect at right angles, while those of rhombus and square bisect each other at right angle.
+Also, the diagonals of the square are equal but those of rhombus are not equal.
+3.1.1 Area as a Vector.
+Usually you think of Area as a Scalar quantity.
+However, in many applications in physics (e.g.
+in fluid mechanics or in electrostatics) you also want to know the orientation of the area.
+Suppose you want to calculate the rate at which water in a stream flows through a wire loop of a given area.
+This rate will obviously be different if we place the loop parallel or perpendicular to the flow, when the loop is parallel, the flow through it is Zero.
+So you will now see how the vector product can be used, to specify the direction of an area, 3.1.2 Area of parallelogram = h /v/ = /u/ sin θ v = /u x v/ Fig.
+V30.
+i.e.
+the area of a parallelogram with vectors u and v as sides is the modulus of its cross product.
+Fig.V30 3.1.4 Area of Parallelogram, given diagonals.
+Example 2 NOUN 104MAT 142 VECTORS & GEOMETRY The diagonals of a parallelogram are given by a = 3i - 4j -k and b = 2i + 3j-6k.
+(a) Show that the parallelogram is a rhombus (b) Find the Area of the parallelogram.
+Solution:- (a) a. b = (3x2) + (-4x3) + (-1x-6) = 6 -12 + 6 =12 - 12 =0 :.
+The diagonals are perpendicular :.
+The figure could be rhombus or square a = 9+16+1 =26.
+2 b = 4+9+36 =49 =7.
+2 Since the magnitudes of the diagonals are not equal, it follows that the parallelogram is a rhombus.
+(b) The Area of the parallelogram is ½ab sin θ where θ is the angle between the diagonal which in this case is a right angle.
+½ab sin θ = ½a x b = I j k ½ 3 -4 -1 2 3 -6 =½(24 + 3)i - (-18 + 2)j + (9 + 8) k = ½ (27i + 16j +17k) =½√272 + 162 + 172 = ½√729 + 256 + 289 = ½√1247 = ½ (35.31) = 17.7 sq.units.
+NOUN 105MAT 142 VECTORS & GEOMETRY Exercise.l Find the area of the triangle having sides with position vector a = 3i + j -2k, b =i + 3j + 4k, and c = 4i – j - 6k Solution AB = b – a = (-1 - 3) i + (3 - 1)j + (4 + 2)k = -4i + 2j + 6k.
+BC = c - b = (-1 - 4)i + (3 + 2)j + (4 + 6)k = 5i + 5j + lOk.
+Area of triangle ABC =½AB X BC = ½ i j k -4 2 6 -5 5 10 = ½ (20 - 30)i - (-40 + 30)j + (-20 + 10)k = ½ (-l0i + 10j - l0k) = ½ (100 + 100 + 100) = ½√300 =½ x 10√3 = 5√3 = 8.66 sq.
+units.
+3.2.1 Parallel vectors.
+If u x v = 0 and if u and v are not Zero, show that u is parallel to v. Solution If u x v = 0, then you have I uv I sinθ, = 0.
+Then sin θ = 0 and θ is 0° or NOUN 106MAT 142 VECTORS & GEOMETRY 180°.
+Example 1 Show that u x v 2 + u.v 2 = l u l2 lvl2 Solution = u x v 2 + | u.v| 2 = uv sin θ 2 + uv cos θ 2 e = u2 v2sin2θ + u2v2cos2θ = u2v2 (sin2θ + cos2θ) = u2v2 x 1 (sin 2θ + cos2θ = 1) = u2v2 4.0 Conclusion The applications of the definition of vector or cross product, in many fields of learning snake calculation easier and faster.
+It is useful in Area of plane shapes.
+With vector as sides you should take note of the type of information given, and required in a problem for example if you are given two points, and Q, you might need to get the relative vector q - p to express PQ as a vector.
+But you might be given the vector representing PQ already as just u = xi + y j + z k. Just take time to read questions carefully before answering them.
+5.0 Summary You have learnt in this unit, the following 1) Area of parallelogram is /u x v/ where u and v represent vector forming the sides.
+2) Area of triangle = ½ /u x v/ 3) Area of parallelogram given diagonals d d , is ½d d sin Ø = ½/ d x d /.
+1 2 1 2 1 2 NOUN 107MAT 142 VECTORS & GEOMETRY 6.0 Tutor - Marked Assignments 1) Calculate the cross product of the vectors u = 3i + j + 2k and v = 2i + 3j + k. 2) Two sides of triangle are formed, by the vectors u = i + 3j - k and v= 2 i + j + Sk.
+Calculate the area of the triangle.
+3) Determine a unit vector perpendicular to the plane of a=2i + 6j + 3k and v =4i+3j+k 7.0.
+References and other Resources.
+Murray R Spiegel (1974) Vector Analysis New York : Shaum's Outline Series.
+Indira Gandhi Open University (2000) Mathematical Method in Physics Vector Calculus PHE-04.
+Unit 15 NOUN 108MAT 142 VECTORS & GEOMETRY Application of vector products in physics Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Moments of a force F about a point P 3.1.2 Angular velocity (w) 3.1.3 Torque (T) 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction In the last unit, you learnt about the application of cross product in areas.
+In this unit, you will see the application of the cross product, this time in physics or mechanics, to be specific.
+2.0 Objectives At the end of this unit, you should, have leant about the following and so you should be able to • Calculate moments of a force F about a point Q with position vector r given.
+• Calculate relative velocity V given the angular velocity ώ and r the relative vector of point P .
+• Calculate correctly the torque (г), given the force F on a particle at position r. 3.1.1 Moment of a force F about a point P Consider a force F= xi + yj + zk applied a point Q with position vector r fig.
+V3 the moment of F about the point Q is rxF A force given by f = 3i +2j - 4k is applied at the point P(1-1,2).
+Find the moment of f about the point Q (2,-1,3).
+Solution.
+NOUN 109MAT 142 VECTORS & GEOMETRY Let QP = r = p – q = (1 - 2) I + (-1- ( -1))j + (2 - 3) k.
+.'.
+r = -i+ 0j – k The moment of F about the point Q is r x F r x F = (- i - k.) x (3i + 2j - 4k) = I j k -1 0 -1 3 2 -4 = (0 - 2)i - (4 - (-3)) j + (-2 - 0)k. = -2i - 7j - 2k.
+3.2.1 Angular velocity.
+A rigid body rotates about an axis through point O with angular speed ώ The linear velocity v of a point P of the body with position vector r is given by v = ώ x r where ώ is the vector with magnitude 1ώI whose direction is that in which a right handed screw would advance under the given vocation.
+The vector ώ is called the angular velocity.
+Exercise 2.
+The angular velocity of rotating rigid body about an axis of rotation is given by ώ = 4i + j – 2k.
+Find the linear velocity of a point P on the body whose position vector relative to a point on the axis of rotation is 2 i - 3 j+ k. Solution v = ώ x r ώ = 4i + j - 2k r = 2i - 3j + k. NOUN 110MAT 142 VECTORS & GEOMETRY .'.
+v = (4 i + j - 2 k) x (2 I - 3 j + k) .'.
+v= i j k 4 1 -2 2 -3 1 = (I - 6 )i - (4 - (-4) j + (-12 - 2) k v = -5i - 8j - 14k is the linear Velocity required 3.2.4 Torque.
+The torque due to a force F which acts on a particle at position r is defined by г = r x F You may wish to know that torque is a measure of the ability of an applied force to produce a twist, or to rotate a body .
+Note that a large force applied, parallel to r would produce no twist, it would only pull.
+Only F sin θ, i.e.
+the component of F perpendicular to r produces a `torque.
+e The direction of torque is along the axis of rotation.
+This is precisely what the equation i = r x F is telling you.
+For example, since r x r is a zero vector, a force along r yield zero toque.
+The direction of i is given by the right-handed rule (Fig.
+V31.)
+F r θ г = r x F Fig.
+V31.
+Torque r due to a force F NOUN 111MAT 142 VECTORS & GEOMETRY Exercise 3.
+Consider a force F= (-3i + j + 5) Newton, acting at a point P (7i + 3j+ k) m, 2 what is the torque in NM about the origin?
+Solution The displacement of P with respect to origin is r where r = 7 i + 3j+ k m г = r x F = (7 i + 3j+ k) x (-3i + j + 5k) .'.
+г = i j k 7 3 1 -3 1 5 = (15 -1)i - (35 - (-3)) j + (7 - (-9)) k = (14i - 38j +16 k) NM.
+Example 6.
+Find p and q such that the vectors w = pi+ 3 j and v =2 i + qj are each Parallel to u = 5i + 6j Solution If w and u are to be parallel to u, then w x u = 0, and v x u =0.
+w x u = (pi + 3j) x (5i + 6j) = 0.
+2 6P k -15 k= (6P -15) k =0.
+6P - 15 = 0.
+Because k ≠0 P = 15/6 = 2.5 v x u = (2i + q j) x (5i+ 6 j) = 12 k - 5qk=0.
+= 12 k - 5 q = 0, k ≠ 0. q= 12/5 = 2.4 4.0 Conclusion NOUN 112MAT 142 VECTORS & GEOMETRY The applications of the definition of vector or cross product, in many fields of learning make calculation easier and faster.
+It is used in calculating moments.
+It is used in calculating angular velocity.
+It is also useful in calculating (г) torque.
+Once again you are advised to take note of the type of information given and required in a given problems.
+5.0 Summary You have learnt in this unit, the following 4) The moments of force F about a point Q with position vector r x F 2 5) The linear velocity v =ώ x r where ώ is the angular velocity and r the position vector of the point through which the body rotates about an axis.
+6) Torque (г) is r x F where torque is the force to rotate a body with a force F at position vector r .
+2 6.0 Tutor - marked assignment 1.
+A force given by F = 2i + 3j - 3k is applied by at the point P (3, -2, 4).
+Find the moment of F about the point Q (1, -3, 2) 2.
+Consider a force F = (-3i + j + 5k) Newton acting at a point P = (5i + 2j + 3k) meter.
+What is the torque(г)?
+7.0 References and Other Resources.
+Murray R Spiegel (1974) Vector Analysis New York: Shaum's Outline Series.
+NOUN 113MAT 142 VECTORS & GEOMETRY Unit 16 Triple products Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 The dot and cross products of three vectors 3.1.2 Algebraic laws of triple products 3.1.3 Scalar triple products or Box products 3.1.4 Volume of parallelepiped 3.1.5 Box products in component form 3.2.1 Vector triple products 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction Having gone through scalar or dot product, vector on cross product, there is need to ask the question, what if you have more than one vector to multiply.
+This is the purpose of this unit.
+Not only will you have to learn low to get triple products, but you will have to differentiate between the dot and the cross products when it come to triple vectors.
+You should take note of the `order' in which results are given.
+2.0 Objectives At the end of this unit you should be able to - Find the scalar triple products - Calculate correctly the volume of a parallelepiped given the sides as vectors.
+3.1.1 The dot and cross product of three vectors The dot and cross multiplication of three vector u, v and w may produce meaningful products of the form (v .
+v), u.
+(v x w) and u x (v x w).
+From examples and exercise you will learn how to evaluate these products.
+NOUN 114MAT 142 VECTORS & GEOMETRY 3.1.2 Laws of triple products.
+The following laws will guide you in your attempts at calculating triple products.
+1.
+(u .
+v) w = u (v x w).
+This implies read the question carefully to recognize the order of the vectors in the products.
+3.1.3 Scalar triple products or box products 2. u.
+(v x w) = v. (w x u) = w. (u .
+v) you should observe, once again the order or right - hand rule in these product (uvw), (vwu), (wuv) and note that since (u x v) = - v x u, you cannot effort to do things your own way.
+These results u.
+(v x w) = v. (w x u) = w. (u .
+v) you will refer to as the scalar triple products or box product.
+3.1.4 Volume of parallelepiped.
+The scalar triple products or box products u.
+(v x w) = v. (w x u) = w. (u.v) also represents the volume of a parallelepiped having u, v and w as edges, or the negative of this volume, according as u, v and w, do or do not form a right - handed system.
+3.1.5 Box products in components forms Analytically, let u = u, i + uj + uk, v = vj + vj + uk, and w = wj+ wk.
+Then u.
+(v x w) = u u u 1 2 3 v v v 1 2 3 w w w 1 2 3 Determinant of the matrix formed by the coefficient of the 3 vectors u, v and w in component form.
+You can continue the laws now.
+3. u x (v x w) = (v x w) x w, i.e.
+You cannot use the associative law for cross products.
+3.2.1 Vector triple products NOUN 115MAT 142 VECTORS & GEOMETRY u x (u x w) = (v. w) v - (u. v)w and (u x v) x w = (u.w)v - (v.w)u The product u .
+(v x w) you should refer to as the scalar triple products or box product [u, v, w], but the product u x (v x w) should be referred to as the vector triple products.
+You should also note that you could write u .
+(v x w) as u .
+(v x w).
+However you cannot have out the brackets in vector triple product u x (v x w).
+Example 1 Evaluate (2i - 3j) .
+[(i + j - k) x (3i - k)] Solution = i j k 2 -3 0 1 1 -1 3 0 -1 = 2(-l - 0) + 3(-1 - (-3) + 0 (0-3) = -2 + 3 (-1 + 3) + 0 = -2 + 3 (2) = 6 – 2 =4 Note that 2i - 3j = 2i - 3j + 0k and 3i – k = 3i – k = 3i + 0j - k Example 3 Prove that (u x v).
+(v x w) x (w x u) = (u. v x w)2 Solution Let a vector p = v x w Then p x (w x u) = w (p .
+u) - (p. v) Substitute p = v x w to get, = (v x w) x (w x u) = w (v x w .u) – u (u x w .w) NOUN 116MAT 142 VECTORS & GEOMETRY = w (u. v x w) – u (v. w x w) = w (u. v x w) And so you have, (u x v) .
+(v x w) x (w x u) = (u x w).
+w (u. v x w) = ( u x v .w)(u. v x w) = (u. v x w)2.
+Example 4 Given u=i - 2j - 3k, v = 2j - k and w = i + 3j - 2k, find.
+(a) (u x v) x w(b) u x (v x w) Solution.
+(a) (u x v) x w = (u .
+w) v - (v .
+w) u = (1 x l) + (-2 x 3) + (-3 x -2) v- (2 x l) + (1 x 3) + (-1 x -2) u = (1 – 6 + 6)(2i + j - k) - (2 + 3 + 2)( i – 2j – 3k) = (2i + j - k) - (7i - 14j - 21k) = (2 - 7)i + (1 + 14)j + (-1 + 21)k = -5i + 15j + 20k = 5 –I + 3j + 4k = 5 √ (-1)2 - 32 +42 = 5 √26 (b) [u x (v x w] = [(u. w) v - (u. v) w] u = i - 2j - 3k, v = 2i + j - k, w = i + 3j - 2k = {(1 x 1) + (-2 x 3) + (-3 x -2)}v - {(1 x 2) + (-2 x 1) + (3 x -1)}w = (1 – 6 + 6)(2i + j - k) - (2 – 2 + 3)(i + 3j - 2k) = (21 + j - k) - (3i + 9j - 6k) = (2 - 3)i + (1 - 9)j + (-1 + 6k) = (-i - 8j + 5k) = √(-1 )2 + (-8)2 + (5 )2 = √1 + 64 + 25 = √90 = 3√10 4.0 Conclusion NOUN 117MAT 142 VECTORS & GEOMETRY Vector can be multiplied in triples.
+You have the scalar Triple product, which will give you a scalar result.
+You can represent the scalar triple product as the determinant of the matrix formed by the coefficient of the three vectors involved.
+The right-handed system must be taken into consideration when writing out the order of the scalar Triple or box product and the vector Triple product.
+You, using the absolute value of scalar triple product of the vectors representing the adjacent sides can calculate the volume of a parallelepiped.
+5.0 Summary 1.
+u.
+(v x w) = v .
+(w x u) = w. (u x v) is the scalar triple products of vectors u, v, and w and you could write it as a box product (uvw).
+2.
+It represent the determinant of the (3 x 3) matrix formed based on the coefficients of the components of the three vectors.
+3.
+Its absolute value represents the volume of a parallelepiped with the adjacent sides, as the three vectors.
+4.
+The vectors are coplanar when it is zero.
+5.
+The vector triple products are u x (v x w) = (u. w) v - (u. v) w and (u x v) x w = (u. w)v - (v. w) u 6.0 Tutor- Marked Assignments.
+l. If u = i - 2j - 3k, v = 2i + 5 - k and w = i + 3j - 2k Find (a) 2u.
+(v x 3w) (b) (3u x 2v).
+(w) (c) Find the volume of the parallelepiped with adjacent sides as u, v, and w. 7.0 References and other Resources NOUN 118MAT 142 VECTORS & GEOMETRY Murray R. Spiegel (1974)Vector Analysis.New York Shauin's Outline Series.
+Unit 17 NOUN 119MAT 142 VECTORS & GEOMETRY Applications of triple products and reciprocal sets of vectors Table of Contents.
+1.0 Introduction 2.0 Objectives 3.1.1 Coplanar vectors 3.1.2 Another look at the scalar triple products 3.1.3 Properties of scalar triple products 3.1.4 Equal vectors in scalar triple products 3.2.1 Reciprocal sets of vectors 3.2.2 Properties of the reciprocal sets of vectors 4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignments 7.0.
+References and other Resources 1.0 Introduction In this unit, you will be introduced to the second type of triple products, which are the vector triple products.
+It should be quite easy for you to recognise the difference between the two types of triple products.
+You should take advantages of the use of determinants of matrices in calculation, even if it means revising matrices.
+The reciprocal sets of vectors put an end to your study of vector algebra.
+2.0 Objectives At the end of this unit you should be able to - Find with ease the vector triple products - Calculate correctly the set of vectors reciprocal to a given set.
+3.1.1 Coplanar vectors NOUN 120MAT 142 VECTORS & GEOMETRY The necessary and sufficient condition for the vectors u v and w to be coplanar is that u .
+v and w = 0.
+Example 2.
+Find the constant p such that the vectors 2i - j + k, i - 2j - 3k and 3i + pj + 5k are coplanar.
+Solution The product u .
+v x w = 0 for the vectors to be coplanar.
+i j k 2 -1 2 1 2 -3 3 p 5 = 0 .'.
+2 (10 + 3p) + 1 (5 + 9) + 1 (p - 6) = 0 = 20 + 6p + 14 + p – 6 = 0 = 6p + p + 34 – 6 = 0 = 7p + 28 = 0 7p = -28 P = -4 3.2.2 Another look at scalar and vector triple product You should note that the scalar triple products of three vectors u, v x w is a scalar.
+While the vector triple product will yield a vector.
+The scalar triple product of u , v w could be defined as u .
+(v x w ) = /u / v x w/ cos β where β is the angle between u and the vector v x w. Now you can see why it is scalar.
+The scalar triple product u .
+(v x w) can also be interpreted by you as the components of u along v x w.The geometrical meaning of the scalar triple product is that its absolute vale represent the volume of a parallelepiped with u , v and w as adjacent sides.
+(fig.
+Vi) The magnitude of the scalar triple products u , (u x v ) is equal to the volume of the parallelepiped having sides u , v and w .
+3.2.4 Properties of the scalar triple products NOUN 121MAT 142 VECTORS & GEOMETRY If you inter change two rows of matrices the sign is reversed for the determinate.
+And so you have u, (v x w ) = - u .
+(v x w) = - u.
+(w x v) Interchanging the rows twice you get u.
+(v x w) = v. (w x u) = w. (u x v).
+The geometrical significance of this result is that these three products represent the same volume.
+And since dot product is commutative, you can write u, (v x w) = (v x w).
+u = (u x v).
+w and for any constant k, [k u .
+(v x w)] = k [u.
+(v x w)] If u.
+(v x w) = o, then the volume of the parallelepiped is zero and so u.
+(v x w) and coplanar, as already discussed i.e.
+they lie on the same plane.
+3.25 Equal vectors in scalar triple products Since u x v is perpendicular to u from definition of cross product, then u.
+(u x v) = 0.
+In other words, if any two rectors in the scalar triple products are equal it becomes zero.
+Exercise 1 The volume of a tetrahedron is one sixth of the volume of a parallelepiped the three sides of a tetrahedron are given by u = 2i + 3j - 4k, v = i + 2j-k and w = 2i + 3j + 4k Find the volume of the tetrahedron.
+Solution Volume 1/6 i j k 2 3 -4 1 2 -1 2 3 4 = 1/ 2 (8 + 3) - 3(4 + 2) - 4 (2 - 4) 6 = 1/ 2(22-18+4) 6 = 26 - 18 6 = 8 6 NOUN 122MAT 142 VECTORS & GEOMETRY = 1(cid:1) cubic units Example 3 Prove that (u x v).
+(v x w) x (w x u) = (u.
+(v x w)2 Solution Let a vector p = v x w Then p x (w x u) = w (p. u) - (p. w) Substitute p = v x w to get, (u x w) x (w x u) = w (v x w. u) – u (v x w. w) = w (u. v x w) – u (u. w x w) = w (u. v x w) And so you have, (w x v).
+(v x w) x (w x u) = (u x v).
+w ( u. v x w) = (u x v. w) (u. v x w) = (u. v x w).
+Example 4 Given u = i - 2j - 3k, v = i - k and w = i + 3j - 2k, find.
+(a) (u x v) x w(b) u x (v x w) Solution (a) (u x v) x w = (u. w) v - (v. w) u = (1 x l) + (-2 x 3) + (-3 x -2) v - (2 x 1) + (1 x 3) + (-1 x -2)u = (1 – 6 + 6) (2i + j - k) - (2 + 3 + 2) ( i - 2j - 3k) = (2i + j - k) - (7i - 14j - 21k) = [(2 - 7)i + (1 + 14)j + (- I + 21)k] = [-5i + 15j + 20k] = 5 [-i+ 3j + 4k] = 5/ 2 - 32 + 42 (-1) = 5/ 26 (b) [u x (v x w] = [(u. w) v - (u. v)w] U = I - 2j – 3k,v = 2i + j - k, w = I + 3j - 2k = {(1 x 1) + (-2 x 3) + (-3 x -2)}v - 1(1 x 2) + (-2 x 1) + (3 x -1)w NOUN 123MAT 142 VECTORS & GEOMETRY = (1 - 6 + 6) (2i + j - k) - (2 - 2 + 3) (i + 3j - 2k) = (2i + j - k) - (3i + 9j - 6k) = (2 - 3)i + (1 - 9)j + (-1 + 6k) = [-i - 8j + 5k] = √(-1)2 + (-8)2 + (5 )2 = √1 + 64 + 25 = √90 = 3√10 Exercise 2 If u = i - 2j - 3 k, v = 2i + j - k and w = i + 3j - 2k Find (a) u.
+(v. w) (b) (u x v) w Solution (a) u.
+(v x w) = i j k 1 -2 -3 2 1 -1 1 3 -2 = 1 (-2 + 3) – 2 (-4 + 1) - 3 (6 - 1) = 1 (1) + 2 (-3) – 3 (5) = 1 – 6 - 15 = -20 (b) (u x v).
+W = w. (u x v) (dot product is commutative.)
+Therefore w. (u x v) = i j k l 3 -2 1 -2 -3 2 1 -1 = 1 (2 + 3) – 3 (-1 + 6) – 2 (1 + 4) NOUN 124MAT 142 VECTORS & GEOMETRY = 1 (5) – 3 (5) – 2 (5).
+= 5 -15 -10 = 5 - 25 = - 20 Finally, you should note that the necessary and sufficient condition that U x (v x w) = (u x v) x w is when (u x w) x v = 0 3.3.1 Reciprocal sets of vectors.
+You refer to the sets of vectors u, v and w, and u, v and w as reciprocal sets of systems of vectors if u. u = v. v1= w. w1= 1 and u1.
+v = u1.
+w = v1.u = v1.
+w = w1.
+u = w1.
+v = 0 In other words, the dot product of reciprocal sets of vectors is 1.
+You can easily remember this by recalling that the product of a number and its multiplicative inverse e.g.
+(cid:1) x 3/ is 1, the multiplicative identity.
+2 You can also use the cross product to define the reciprocal sets of vectors.
+The sets u v w and u1, v1 and w1 are reciprocal sets of vectors if and only if u' = v x w v' = w x u and w' = u x v u. v x w u. v x w u. v x w Where u. v x w ≠ 0.
+You should take note of the denominators, which are all the same and are the box product of the vectors.
+3.3.1 Properties of the reciprocal sets of vectors Given the vectors u = v x w, v= w x u and u.v x w u.v x w w = u x v u.v x w NOUN 125MAT 142 VECTORS & GEOMETRY With u. v x w ≠ 0 Then (a) u’ u = v. v = w. w = 1 (b) u'.
+v = v. w = 0, v. u = v. w = 0 w. u = w x v = 0.
+(c) If u. v x w = a, then u'.
+v 'x w' = I/ a (d) u', v and w are non-coplanar.
+Or if u.v x w ≠ 0, then u.v x w ≠ 0.
+Exercise 3 Find a set of vector reciprocal to the set 2i + 3j - k, i – j - 2k, -i + 2j + 2k.
+Solution: Let u = 2i + 3j - k, v = i – j - 2k, w = -i + 2j + 2k U, = v x w, v,= u x w, w, = u x y u. v x w u.v x w u. v x w u x v = i j k 2 3 -1 1 -1 -2 = (-6 - 1)i - (-4 + 1)j + (-2 - 3)k = -7i + 3j - 5k v x w = i j k 1 -1 -2 -1 2 2 = (-2 + 4)i - (2 - 2)j + (2 -1 )k = 2i + k u x w = i j k 2 3 -1 -1 2 2 = (6 + 2)i - (4( -1)j + (4 + 3)k NOUN 126MAT 142 VECTORS & GEOMETRY =8i -3j +7k u. v x w = i j k 2 3 -1 1 -1 -2 -1 2 2 = 2 (-2 + 4) – 3 (2 - 2) – 1 (2 +1) = 4 – 0 – 3 = 1 u' = 2i + k, w = -7i + 3j - 5k.
+v = 8i - 3j + 7k Or u' = (cid:1) i + (cid:1) k, v' = 8/ i - 5 + 7/ k w’ = 7/ i + j - 5/ k. 3 3 3 3 4.0 Conclusion Vector can be multiplied in triples.
+You should, however be very careful which product you are involved with, and so what formula to use.
+The necessary and sufficient condition for the vectors u, v and w to be coplanar is that u.v x w = 0.
+The scalar triple products u.v x w can be interpreted by you as the components of u along v x w. To complete the vector algebra, you were given the sets of vectors reciprocal to a given set of vectors, just like the inverse of a number in the Real number system.
+5.0 Summary 6. u (u x v) = 0. i.e.
+the Scalar triple products is zero if any two of the vectors are equal.
+7.
+(u x v).
+(v x w) x (w x v) = (u.v x w)2 NOUN 127MAT 142 VECTORS & GEOMETRY 8.
+The necessary and sufficient condition that (u x v) x w = u x (v x w) is (u x w) x v = 0.
+9.
+The reciprocal Sets of vector u.v, w are u = v x w, v = u x w, w = u x v u.
+(v x w) u.
+(v x w) u.
+(v x w) 6.0 Tutor- Marked Assignments.
+1.
+If u = 3i - j - 2k and v = i - 2j - 4k and w = 2i + j - 3k.
+Find (u x v) x w. 7.0 References and other Resources Murray R. Spiegel (1974) Vector Analysis.New York Shaum's Outline Series.
+NOUN 128

@@ -1,0 +1,510 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 423 COURSE TITLE: INTEGRAL EQUATION  MTH 423 INTEGRAL EQUATION COURSE GUIDE NATIONAL OPEN UNIVERSITY OF NIGERIA  Course Code MTH 423 Course Title Integral Equation Writer Team Prof O. J. Adeniran University of Agriculture UNAB Abeokuta Ogun State, Nigeria Course Editor Dr. Abiola Bankole University of Lagos UNILAG.
+Akoka,Lagos Programm Leader Dr. Ajibola Saheed O.
+School of Science and Technology National Open University of Nigeria Victoria Island, Lagos NATIONAL OPEN UNIVERSITY OF NIGERIA Contents Introduction The Course Course Aims and Objectives Working through the Course Course material Study Units Textbooks Assessment Tutor Marked Assignment End of Course Examination Summary INTRODUCTION Simply stated; an integral equation is an equation in which an unknown function appears under an integral sign.
+Integral equations bear a very close kinship with differential equations and quite often, problems may be formulated either in differential form or in integral form.
+Very often, Integral Equations cannot be solved analytically and a numerical approach has to be adopted; particularly for equations over arbitrarily profiles.
+It is the desire of the author that through this course, you will be encouraged to develop an enquiring attitude towards Integral Equations and relate the lessons learnt in this course to the world around you.
+Furthermore; you are encouraged to build upon the lessons learnt in the prerequisite course, strengthen your understanding of the underlying principles at work in the application of Integral Equations.
+THE COURSE: MTH 423 Integral Equation This course comprises a total of seven Units distributed across four modules as follows: Module 1 is composed of 3 Units Module 2 is composed of 2 Units Module 3 is composed of 3 Units Module 4 is composed of 2 Units In Module 1 we shall commence this course with a visit to the Preliminary Concepts of Linear Integral Equation where we shall take a look at a loaded elastic string and the Shop Stocking Problem.
+Unit 2 shall see you Converting Ordinary Differential Equations into Integral Equations which shall be swiftly followed by your learning the Transformation of Sturm - Liouville Problems to Integral Equation.
+You shall be taught how to classify Linear Integral Equation Integral Equations and find Approximate Solutions to Integral Equations in Unit 3.
+You shall learn that the Volterra Integral Equations are integral equations with an integration limit containing one of the variables of integration in Module 2.
+You will learn to use the Resolvent Kernel to solve this class of Integral Equations in Unit 1.
+Also you shall discover that for many Integral Equations, you must carry out a Laplace Transformation to arrive at a solution; and tat the consequence of this is the inverse transform which implies Convolution.
+This will bring you to the subject of Convolution Type Kernels in Unit 2; where the Fredholm Equations serve as a veritable platform for you.
+Fredholm Equations with Degenerate Kernels and the General Method of Solution shall be studied by you in Unit 1 of Module 3.
+Unit 2 will make you more conversant with Eigenfunctions, Eigenvectors and Symmetric Kernels, and you should have known how to easily Represent a Function by a Series of Orthogonal Functions and Expand Kin Eigenfunctions.
+Of the several definitions and theorems which you will be introduced to shall be those related to Positive Kernels and convergence – a necessary condition for determining a solution for Integral Equations in deriving a numerical solution.
+This Unit ends with the statement of the Hilbert - Schmidt Theorem.
+Our final Module, 4 will take you through the processing of 1st Eigenvalue Integral Transforms via Laplace Transforms, Convolution Theorem and Inverse Laplace Transform in Unit 1 while in Unit 2 the application of the transform and Fourier Integral Equations will be the concluding part of your study your MTH 423 course.
+COURSE AIMS AND OBJECTIVES The object of this course is to hone your understanding of Integral Equations whilst acquainting you with the graphical and mathematical significance of Integral Equations and its relationship with its closest sibling; “partial differential equations”.
+Throughout the course, you shall be “reminded” that for every analytical approach to integral Equation solving, there is a numerical method – and indeed, that some intricately irregular multi-variable profiles can only be resolved numerically – all of the above of which are expected to motivate you towards further enquiry into this very interesting and highly specialised mathematical habitat.
+On your part we expect you in turn to conscientiously and diligently work trough this course upon completion of which you should be able to: - Appreciate the basic concepts underlying linear integral equations - Investigate the equations which describe the displacement of a loaded elastic sting - Treat the shop stocking problem - Convert Ordinary Differential Equations into integral equations - Transform Sturm Liouville problems to integral equations - Work through a series of examples of transformations and conversions, and their solutions - Classify Linear integral equations - Find approximate solutions for integral equations - Recognise Volterra integral equations - Understand that there are the three types of Volterra integral equations - Arrive at the Resolvent Kernel of a Volterra Equation - See that Convolution Type Kernels of the Volterra integral can be solved using Laplace transform - Comfortably solve Fredholm equations - Identify a Neumann series - Solve Fredholm Equations with degenerate kernels - Derive the general method of solution of Fredholm Equations - Work with Eigenfunctions and Eigenvectors - Prove that symmetric and continuous Kernels that are not identically zero possess at least one Eigenvalue - Write the Hilbert – Schmidt theorem - State the Convergence theorem - Prove that functions can be represented by series of orthogonal functions - Expand Kin a series of Eigenfunctions - Define positive kernels - Apply the Convolution Theorem - Calculate the first Eigenvalue of an integral equation - Use the Variational formula - Recognise Integral Laplace Transforms as Transforms - Derive the solution of integral equations using Inverse Laplace Transform - Apply Laplace Transform through worked examples - Understand and solve integral equations by the method of Fourier Integral transforms  WORKING THROUGH THE COURSE This course requires you to spend quality time to read.
+The course content is presented in clear mathematical language that you can easily relate to and the presentation style adequate and easy to assimilate.
+You should take full advantage of the tutorial sessions because this is a veritable forum for you to “rub minds” with your peers – which provides you valuable feedback as you have the opportunity of comparing knowledge and “rubbing minds” with your course mates.
+COURSE MATERIAL You will be provided course material prior to commencement of this course, which will comprise your Course Guide as well as your Study Units.
+You will receive a list of recommended textbooks which shall be an invaluable asset for your course material.
+These textbooks are however not compulsory.
+STUDY UNITS You will find listed below the study units which are contained in this course and you will observe that there are four modules.
+The first and penultimate modules comprise three Units each, while in the second and the last modules; two Units each.
+Module 1 Unit 1 Linear Integral Equation: Preliminary Concepts A Loaded Elastic String The Shop Stocking Problem Unit 2 Conversion of Ordinary Differential Equations Into Integral Equations Transformation Of Sturm - Liouville Problems To Integral Of Equation Unit 3 Classification Of Linear Integral Equation Approximate Solutions Module 2 Unit 1 S2 Volterra Integral Equations Resolvent kernel of Volterra equation Unit 2 Convolution Type Kernels Fredholm Equations Lemma 3.1 Module 3 Unit 1 Fredholm Equations with Degenerate Kernels The General Method Of Solution Unit 2 Eigenfunctions And Eigenvectors Symmetric Kernels Unit 3 Representation Of A Function By A Series Of Orthogonal Functions Lemma 3.4 Expansion of in Eigenfunctions Definitions 3.6 (positive kernels) Theorem 3.7: convergence Theorem 3.8: Hilbert – Schmidt theorem Module 4 Unit 1 Calculation Of 1st Eigenvalue Integral Transforms; Laplace Transforms Convolution Theorem Inverse Laplace Transform Unit 2 The Application Of The Transform Fourier Integral Equations TEXTBOOKS There are more recent editions of some of the recommended textbooks and you are advised to consult the newer editions for your further reading.
+Kendall E. Atkinson: The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis.
+Cambridge Mathematical Library M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations.
+Mir Publishers, Moscow, 1971 Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 ASSESSMENT Assessment of your performance is partly trough Tutor Marked Assessment which you can refer to as TMA, and partly through the End of Course Examinations.
+TUTOR MARKED ASSIGNMENT This is basically Continuous Assessment which accounts for 30% of your total score.
+During this course you will be given 4 Tutor Marked Assignments and you must answer three of them to qualify to sit for the end of year examinations.
+Tutor Marked Assignments are provided by your Course Facilitator and you must return the answered Tutor Marked Assignments back to your Course Facilitator within the stipulated period.
+END OF COURSE EXAMINATION You must sit for the End of Course Examination which accounts for 70% of your score upon completion of this course.
+You will be notified in advance of the date, time and the venue for the examinations which may, or may not coincide with National Open University of Nigeria semester examination.
+SUMMARY Each of the four modules of this course has been designed to stimulate your interest in Integral Equation through associative conceptual building blocks in the study and application of Integral Equations to practical problem solving.
+Module 1 represents a broad introduction to the subject of Integral Equation using illustrative examples of a Loaded Elastic String and the Shop Stocking Problem.
+This progresses through Conversion of Integral Equations into Differential Equations and the transformation and Classification of Integral Equations.
+The search for Approximate Solutions closes Module 1.
+Module 2 treats the Volterra and Fredholm class Integral Equations and the use of the Resolvent Kernel in deriving a solution for Volterra Equation.
+Convolution is explained as the inverse Laplace Transform – which is one of the methods of solving Integral Equations.
+Module 3 is occupied with Fredholm Equations with Degenerate Kernels and the General Method of Solution, Eigenfunctions and Eigenvectors, Symmetric Kernels and the Representation of a Function by a Series of Orthogonal Functions.
+Convergence of solution and the Definition of Positive Kernels precede the Expansion of Kin Eigenfunctions.
+Module 4 Shows how to calculate the 1st Eigenvalue, Transformation of Integrals; which places Laplace Transforms at the fore, Convolution Theorem to complement Laplace Transform in arriving at Inverse Laplace Transform, and explains how to apply Transforms to Integral Equations – a most exemplary candidate being the derivation of Fourier Integral Equations.
+By the time you complete this course, you should have acquired the skills and confidence to solve many Integral Equations more objectively than you might have thought possible at the commencement of this course.
+This however; is subject to this advise - make sure that you have enough referential and study material available and at your disposal at all times, and – devote sufficient quality time to your study.
+I wish you the best in your academic pursuits – good luck.
+MTH 423: INTEGRAL EQUATION NATIONAL OPEN UNIVERSITY OF NIGERIA MTH 423 INTRGRAL EQUATION Course Code MTH 423 Course Title Integral Equation Writer Team Prof O. J. Adeniran University of Agriculture UNAB Abeokuta Ogun State, Nigeria Course Editor Dr. Abiola Bankole University of Lagos UNILAG.
+Akoka,Lagos Programm Leader Dr. Ajibola Saheed O.
+School of Science and Technology National Open University of Nigeria Victoria Island, Lagos NATIONAL OPEN UNIVERSITY OF NIGERIA MTH 423 INTRGRAL EQUATION National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Annex 245 Samuel Adesujo Ademulegun Street Central Business District Opposite Arewa Suites Abuja e-mail: centralinfo@nou.edu.ng URL www.nou.edu.ng National Open University of Nigeria 2011 First Printed 2011 : ISBN: All Rights Reserved Printed and Bound in 1 MTH 423 INTRGRAL EQUATION TABLE OF CONTENT Pages MODULE 1 UNIT 1 Linear Integral Equation: Preliminary Concepts A loaded elastic string The Shop Stocking Problem UNIT 2 Conversions of Ordinary Differential Equations into Integral Equations Transformation of Sturm-Liouville Problems to Integral of Equation UNIT 3 Classification of Linear Integral Equation Approximate Solutions MODULE 2 UNIT 1 S2 Volterra Integral Equations Resolvent Kernel of Volterra Equation UNIT 2 Convolution Type Kernels Fredholm Equations Lemma 3.1 MODULE 3 UNIT 1 Fredholm Equations with Degenerate Kernels The General Method of Solution UNIT 2 Eigenfunctions and Eigenvectors Symmetric Kernels 2 MTH 423 INTRGRAL EQUATION UNIT 3 Representation of a Function by a Series of Orthogonal Functions Lemma 3.4 Expansion of Kin Eigenfunctions Definitions 3.6 (Positive Kernels) Theorem 3.7: Convergence Theorem 3.8: Hilbert – Schmidt Theorem MODULE 4 UNIT 1 Calculation of 1st Eigenvalue Integral Transforms; Laplace Transforms Convolution Theorem Inverse Laplace Transform UNIT 2 The Application of the Transform Fourier Integral Equations 3 MTH 423 INTRGRAL EQUATION MODULE 1 4 MTH 423 INTRGRAL EQUATION UNIT 1 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Linear Integral Equation: Preliminary Concepts 3.1.1 Loaded Elastic String 3.1.2 Shop Stocking Problem 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION In Integral Equations an unknown function which is the subject seeking a solution, always appears under an integral sign.
+These equations bear a close kinship with Differential Equations suggesting that a Differential Equation can be formulated as an Integral Equation and vice-versa.
+The analytical method remains the standard method of solving Integral Equations, however, where the analytical method fails; the equation can be solved numerically.
+Let us commence with two common problems to illustrate the basic concepts of linear Integral Equations; loaded elastic string and the shop stocking problem.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Appreciate the basic concepts underlying linear integral equations (ii) Investigate the equations which describe the displacement of a loaded elastic sting 5 MTH 423 INTRGRAL EQUATION (iii) Treat the shop stocking problem 3 MAIN CONTENT 3.1 LINEAR INTEGRAL EQUATION: PRELIMINARY CONCEPTS Let us take a look at some problems, the types of which we encounter every day and which give rise to integral equation 3.1.1 A LOADED ELASTIC STRING O  Q a A η  β Y W Consider a weightless elastic string as shown in the above figure, stretched between two horizontal points O and A and suppose that a weight W is hung from the elastic string and that in equilibrium the position of the weight is at a distance from O and at a depth Y below OA.
+If W is small compared to the initial tension T in the string, it can be assumed that the tension of the string remains T during the further stretching.
+The vertical resolution of forces gives the equilibrium equation      T   T  a W O Where AO  a (1.1) The drop Y due to a weight W situated a distance  along the string from O is given by   Y  W aTa (1.2) The drop Y in the string at a distance x from O is given by Y  xy , 0x (1.3) 6 MTH 423 INTRGRAL EQUATION     y  ax a, xa (1.4) Eliminating y, these two results can be written in the form   y  W G x, T (1.5) where     G x,  x a a, 0 x    ax a,  xa (1.6)   Suppose now that the string is loaded continuously with a weight distribution W x per unit length.
+Then, the elementary displacement at the point distance x from O, due to the weight distribution over  x is     y  W  G x, T 0 x,a (1.7) On integrating, displacement due to the complete weight distribution is given by yx  T1 aGx,Wd, 0 xa (1.8) 0 Thus, the displacement of the string is given in terms of the weight distribution.
+However, if we are given the displacement of the string, what is the weight distribution?
+In this case, we can sew site to eqn.
+(1.8) the form yx Ta1xxaWaxaWD (1.9)  0 x  Different this twice, we obtain y11x Ta1Wx i.e.
+Wx  Ta y11x (1.10) 7 MTH 423 INTRGRAL EQUATION 3.1.2 THE SHOP STOCKING PROBLEM   A shop starts selling some goods.
+It is found that a proportion K t remains unsold at time t after the shop has purchased the goods.
+It is required to find the stock at which the shop should purchase the goods so that the stock of the goods in the shop remains constant (all processes are deemed to be continuous).
+Suppose that the shop commences business in the goods by purchasing an amount A   of the goods at zero time, and buys at a rate Q t subsequently.
+Over the time interval     K t Q d (1.11) Thus, the amount of goods remaining unsold at time t, and which was bought up to that time, is given by.
+AKt  tKtQd (1.12) 0 This is the total stock of the shop and is to remain constant at its initial value and so AKt  tKtQd (1.13) 0   And the required stocking rate Q t is the solution of this integral eqn.
+4.0 CONCLUSION Having understood the processes involve in the two illustrative problems, it is easy to; by extension; formulate similar solutions for a vast array of problems.
+5.0 SUMMARY The two problems presented demonstrate how to formulate and derive an integral equation for a suitably structured problem.
+It also demonstrates the process of solving the integral equation developed 8 MTH 423 INTRGRAL EQUATION 6.0 TUTOR MARKED ASSIGNMENTS 1.
+Apart from the Loaded Elastic String and the Shop Stocking Problem, can you make a list of 5 different types of problems which can be solved using Integral Equation?
+2.
+A transport company distributed workshops within a metropolis which receives and repair its broken down vehicles.
+The workshop manager discovers that he must always reroute a Y(t)% of his workshop allocation of vehicles to alternative location every day as he cannot accommodate them in his workshop overnight, and he calls you in to tell him the optimum number of requests for repairs he should entertain every day such that the workshop is 100% utilised when all related processes are assumed to be continuous?
+7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific 9 MTH 423 INTRGRAL EQUATION Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521- 88068-8 10 MTH 423 INTRGRAL EQUATION UNIT 2 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Conversion of Ordinary Differential Equations into Integral Equations 3.2 Transformation of Sturm Liouville Problems to Integral Equation 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION There are many ordinary differential equations which can be converted into corresponding integral equations and we shall proceed to study how these transformations can be carried out; particularly in the classical case of the Sturm Liouville problems and a host of others illustrative of this transformation process.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Convert Ordinary Differential Equations into integral equations (ii) Transform Sturm Liouville problems to integral equations (iii) Work through a series of examples of transformations and conversions, and their solutions 11 MTH 423 INTRGRAL EQUATION 3 MAIN CONTENT 3.1 CONVERSION OF ORDINARY DIFFERENTIAL EQUATIONS INTO INTEGRAL EQUATIONS CONSIDER THE DIFFERENTIAL EQUATION y11x a x y1x a x yx  f x (1.14) 1 2 with the initial condition y0  y , y10  y (1.15) 0 1 Let x  y11x (1.16) Then, y1x  xudu  y (1.17) 1 0 yx  xxu udu  y x  y (1.18) 1 0 0 Substituting the relations 1.16 to 1.18 into the differential equation, it follows that x  xa x a xxuudu 1 2 0          f x  y a x  y x a x  y a x (1.19) 1 1 1 2 0 2 Equation (1.19) can be written in the form x  xKx,uudu  gx (1.20) 0   Which is an integral equation for  x Example 1.1 Form the integral equation corresponding to y11 2xy1  y 0, y01, y100 12 MTH 423 INTRGRAL EQUATION Solution Let y 11 x, y1  xudu x 0 y  x xuudu 1 0 Thus, x  2x xudu  x xu udu 10 0 0 i.e.x  x 3xuu 1 0 0 3.2 TRANSFORMATION OF STURM - LIONVILLE PROBLEMS TO INTEGRAL OF EQUATION A problem which is associated with an expression of the form d  dy     Ly  P x q x y, x  x x (1.21) dx  dx 1 2 and boundary condition of the form a yx   b y1x  0 (1.22) 1 1 1 1 a yx  b y1x 0 2 2 2 2 is said to be of Sturm-Liouville type.
+There are two problems which are of interest here, namely   Ly  f x x  x x (1.23) 1 2 and   Ly r x y 0 x  x x (1.24) 1 2 13 MTH 423 INTRGRAL EQUATION Px, qx and rxare continuous in the interval x  x x , and in additionPxhas 1 2 a continuous derivative and does not vanish.
+The differential equation (1.23) corresponds to a displacement ycaused by some forcing function f, and the differential equation (1.24) forms, together with the boundary condition, an Eigenvalue problem.
+Suppose that Q , Q are solutions of the equation Ly 0 1 2     with aQ x b Q x 0 1 1 1 1 1 1 a Q x b Q 1x 0 (1.25) 2 2 2 2 2 2 then, 0  Q LQ Q LQ 2 1 1 2 d  d  d  dd   Q P 1   Q P 2  2 dx  dx  1 dx  dx  d   dQ dQ   PQ 1  Q 2  dx  2 dx 1 dx  Thus,  dQ dd  PQ 1 Q 2   constant (1.26)  2 dx 1 dx  Using the method of variation of parameters, loot for a solution of the form           y x  z x Q x  z x Q x (1.27) 1 1 2 2 where z and z are to be determined.
+1 2 Thus, y1  z1 Q z1 Q z Q1  z Q1 (1.28) 1 1 2 2 1 1 2 2 14 MTH 423 INTRGRAL EQUATION Let z 1Q  z1Q 0, so that 1 1 2 2 Ly  d Pxz xQ1 x z xQ1x dx 1 1 1 2            q x z z x Q x  z x Q x 1 1 2 2    P z1 Q1  z1 Q1 (1.29) 1 1 2 2 Since LQ  LQ 0 1 2 Thus, z and z are given by the solutions of equations 1 2 z1 Q  z1 Q  0 (1.30) 1 1 2 2 Pz1 Q1  z1 Q1 fx (1.31) 1 1 2 2 fQ  fQ Whence, z 1  2 z 1  1 (1.32)     1 P Q Q1 QQ1 2 PQ Q1 QQ1 2 1 1 2 2 1 1 2 The denominator in there two expression is constant by (1.26) and by a suitable scaling of  and  may be taken as 1.
+1 2 Thus, z1  fQ , z1  fQ (1.33) 1 2 2 1 It follows that z x  xQ u fudu (1.34) 1 2 x z x  xQ u fudu (1.35) 2 1 p where the unspecified limits of integration are the equivalent of the arbitrary constants of integration and are determined by the necessity of y satisfying the boundary condition.
+15 MTH 423 INTRGRAL EQUATION Now,   a y b y1 a z Q  z Q b z Q1 z Q1 (1.36) 1 1 1 1 1 2 2 1 1 1 2 2 Since z1 Q z 1 Q  0 1 2 2 Also a Q x  b Q1x 0 (1.37) 1 1 1 1 1 1 Hence,   0 a yx  b y1x  z x  a Q x bQ 1x  (1.38) 1 1 1 1 2 1 1 2 1 1 2 1 First let us assume that neither Q norQ satisfies both boundary condition, hence, if 1 2   follows that z x 0 and so 2 1 z x  xQ u fudu (1.39) 2 1 x 1 Similarly,   a y b y1  a z Q z Q b z1Q z Q1  z1Q  z Q 1 2 2 2 1 1 2 2 2 1 1 1 1 2 2 2 2  a z Q  z Q b z Q1 z Q1 2 1 1 2 2 2 1 1 2 2      z a Q b Q1  z a Q b Q1 2 2 2 2 2 1 2 1 2 1 Since a Q x b Q1x 0,we have 2 2 2 2 2   0  a yx b y1x  z x  a Q x b Q1x  2 2 2 2 1 2 2 1 2 2 1 2   Thus, if follow that z x 0 and so 1 2 z x  xQ u fudu 1 2 x 2  x2Q u fudu (1.39) 2 x Hence 16 MTH 423 INTRGRAL EQUATION           y x  z x Q x  z x Q x 1 1 2 2  Q xx2Q ufudu Q xxQ ufudu 1 2 2 1 x x 1 yx  x2Gx,u fudu (1.40) x 1 where       G x,u  Q u Q x x u x (1.41) 1 2 1   The quantity G x,u is termed the Green’s fin associated with the operate L and the boundary condition specified.
+We would see that the Eigenvalue problem (1.24) defined and the boundary condition (1.25) can be reformulated as the integral equation yx x2Gx,uru yudu  0 (1.42) x 1       by just replacing f x byr x y x .
+let us now consider the case when one of the solutions and Q of Ly 0 do satisfy 1 2 both boundary condition while the other will not satisfy either boundary condition.
+Then, following the provide argument, if follows that yx  Qxxuudu xQufudu (1.43) x x   where x and  are arbitrary and here  x does not satisfy either boundary conditions.
+Since both yand Q satisfy the boundary condition, if follows that 0 a yx  b y1x ax b1x Qufudu (1.44) 1 1 1 1 1 1 1 1 1 1 x 1 0  a yx b y1x a x Qufudu (1.45) 2 2 2 2 2 2 2 x 2 17 MTH 423 INTRGRAL EQUATION    x does not satisfy either boundary condition and so if follows that from (1.44) x, and from (1.45) we have x2Qufudu 0 (1.46) x 1 and the solution is only possible when this relation exists between f and Q.
+Thus, the integral equation formulation becomes y  AQx  x2Gx,u fudu (1.47) x 1 where A  x1u fudu is an arbitrary constant and x       G x,u  Q u x x  u  x 1      Q x  u xu  x (1.48) 2 Example 1.2 Find an integral equation formulation for the problem defined by d2y      4y  f x 0 x , y 0 at x 0, and y 0 at x  dx2 4 4 Solution d2y The solutions of  4y 0 which satisfy the boundary condition at x 0and dx2  x  are Sin2x and Cos2xrespectively.
+4 Neither satisfies both boundary conditions.
+Let, y  wsin2x zcos2x 18 MTH 423 INTRGRAL EQUATION  y1  w1sin2x  z1cos2x  2wcos2x 2zsin2x   2wcosx 2zsin2x if w1sinx  z1cos2x 0  y11  2w1cos2x 2z1sin2x4wsin2x4zcos2x Thus, y114y  f becomes 2w1cos2x 2zsin2x  f whence, 1 1 z1  f sin2x, w1  f cos2x 2 2 Thus, zx   1x fusin2udu and wx  1x fucos2udu 2  2   y  sin2x x fucos2udu  cos2xx fus2udu 2  2  Now y 0 at x 0,so that 0 0 10 fusin2udu.
+2     0  Also, y 0 at x  , so that 4 0  14 fucos2udu 0 2  19 MTH 423 INTRGRAL EQUATION   .
+Thus, 4 y  1sin2x4 fucos2udu  1 cos2xx fusin2udu 2 x 2 0  4Gx,u fudu 0 1 where Gx,u  cos2xsin2u 0u  x 2 1  sin2xcos2u xu  .
+4 2 Example 1.3 Transform the problem defined by d2y y  0 dx2 when y  0 at x 0 and y1 0 at x 1 into integral equation form.
+Solution The solution to this problem in     2 2n1x  2n1 y  sin ,  n1,2,3,    2  2  d2y The two solutions 0 which satisfy the boundary conditions are respectively dx2 y  xand y 1.
+(neither satisfies both b.c) Following through the usual process, if follows that the solution of 20 MTH 423 INTRGRAL EQUATION d2y    f x under the boundary condition specified is dx2 y  x x fudu  0ufudu 1 x and so the integral formulation is yx  1Kx,u yudu 0 where   K x,u  x 0 xu 1u  x   u u  x1 x u 0 Example 1.4 d2y   Transform the problem by  y  f x dx2 and the boundary condition y 0 at x 0 and x  into integral equation form and   indicate what condition must be satisfied by f x .
+Solution d2y Now sinx satisfies the equation  y 0 and both boundary condition dx2 d2y The second solution of the differential equation  y 0 is cosx, and this dx2 satisfies neither boundary conditions Let y  zsinx  wcosx Following through the same process, if follows that 21 MTH 423 INTRGRAL EQUATION y  sinx xcosu fudu cosx sinu fudu x Now yis to vanish at x 0, and so the limit of integration on the second integral in zero.
+y must also vanish x  and if follows therefore, that y cos0sinu fudu 0  Thus, for a solution to be possible sinu fudu 0 0 and yx  Asinx  Gx,u fudu 0 where A is arbitrary and   G x,u sinu cos x 0u u  sinxcosu xu .
+4.0 CONCLUSION A Sturm–Liouville differential equation with boundary conditions may be solved by a variety of numerical methods on most occasions, however, there are situations where it becomes necessary to carry out intermediate calculations.
+5.0 SUMMARY Ordinary differential equations can be transformed into integral equations.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Transform the problem defined by y’’ – Ky = 0 when y=0 at x=2 and y’=0 at x=4 into integral equation?
+22 MTH 423 INTRGRAL EQUATION 2.
+A Sturm-Liouville type problem can be associated with an expression of the form d  dy Ly  Px qxy, x  x x (1.21) dx  dx 1 2 Can you write down the form of the second boundary condition when the first is of this form?
+a yx   b y1x  0?
+1 1 1 1 7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 23 MTH 423 INTRGRAL EQUATION UNIT 3 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Classification of Linear Integral Equation 3.2 Approximate Solutions 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Integral equations are classified according to Limits of integration, Placement of unknown function and Nature of known function.
+These result in Fredholm equation and Volterra equation on the one hand, the first and second kind integral equations on the other hand, and finally the homogeneous and non-homogeneous falling into the last class – making a total of eight distinct classes of integral equations 2 OBJECTIVES At the end of this unit, you should be able to: (i) Classify Linear integral equations (ii) Find approximate solutions for integral equations 3 MAIN CONTENT 3.1 CLASSIFICATION OF LINEAR INTEGRAL EQUATION       Let K x, y be a function of two variables xand y defined and let f x and Q x be two functions of the variable x continuous in the interval a xb, which are connected by the functional equation 24 MTH 423 INTRGRAL EQUATION fx  QxKx, yQydy (1.49) The functional equation (1.49) is called a linear integral equation of the 2nd kind with     the kernel K x,y .
+In this equation, every continuous find Q x is transformed into   another continuous find f x ; the transformation is linear, since to c Q c Q , 1 1 2 2 there corresponds the analogous combination c f c f .
+1 1 2 2   If the find f x vanishes identically, we are dealing with a homogenous integral equation.
+If a homogenous equation possesses a solution other than the trivial solution Q 0, the solution may be multiplied by an arbitrary constant factor and may therefore, be assumed normalized.
+If Q ,Q ,,Q are solutions of the homogenous equation, then, all linear 1 2 n combinationC Q C Q are solutions.
+1 1 n n If can also be proved that linearly independent solutions of the same homogenous internal equation are orthornormal.
+A value  for which the homogenous equation possesses non-vanishing solutions is called an Eigenfunction of the kernel for the Eigenvalue .
+Their number is finite for each Eigenvalue.
+The integral equationbKx, yQydy  f x (1.50) a 1st kind.
+The integral equation Qx bKx, yQydy  fx, a xb (1.51) a Is termed a Fredholm equation of the 2nd kind.
+  If K x, y 0 y  x, (1.52) The kernel is said to be of Volterra type.
+The integral equation xKx, yQydy  f x a x (1.5) a 25 MTH 423 INTRGRAL EQUATION Is termed a Volterra integral equation of the 1st Kind.
+    If K x, y  K yx , the kernel is said to be of convolution form.
+The integral equation Qx   xKx, yQydy  fx a x (1.54) 0 is termed a Volterra integral equation of the 2nd kind.
+In general, a Volterra integral equation of the integral equation of the 2nd kind.
+If we differentiate equation (1.53) w.r.t x, if follows that   Kx, x Qx  xK x, y Qydy  f1x (1.55) a x   If K x, x is non-zero, if is possible to divide through by it, and it is clear that it is an associated Volterra integral equation of the 2nd kind.
+The kernel is said to be symmetric.
+    If K x, y  K y, x The kernel is said to be anti-symmetric     If K x, y  K y, x The kernel is said to be Hermitian     If K x, y  K y, x 3.2 APPROXIMATE SOLUTIONS We split the interval into n equal sub-interval, and suppose that we may write approximately r1 r s1 s   K x, y  K   x ,  y   rs n n n n 26 MTH 423 INTRGRAL EQUATION where Krs are constants.
+Similarly, we write r1 r f x  f   x  r  n n The, equation (1.54) becomes Qx  f n K snQydy (1.56) r rs s1 s1 n r1 r  x n m This shows thatQ also will be a step find taking the values Q , say.
+r Equation (1.56) becomes  n Q  K Q  f (1.57) r n rs s r s1 K Let K be the nnmatrix with elements rs and let Qbe n vectors, then, we have n   I K Q  f (1.58) The system has thus, been reduced approximately to a set of linear algebraic equations.
+For there, the theory is well-known and a computational solution is straight forward.
+In a sense, the solution of (1.54) may be regarded as the limit of (1.57) as n.
+Exercises Solve the equation (i) Qx 21xy Qydy  x2 0 27 MTH 423 INTRGRAL EQUATION (ii) Qx  1extQtdt  x Q00 0 approximately at the parts.
+x0,1 ,1 and y 0, 1 ,1 2 2 Compare your results with the exact solution in case (ii) 4.0 CONCLUSION Linear integral equations can be classified into several groups and sub-groups which include such as Fredholm, Hermitian, Volterra integral equation and those integral equations which are either symmetric or anti-symmetric 5.0 SUMMARY Linear integral equations can be classified according to their common characteristics.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+In how many ways can Integral Equations be classified?
+2.
+What type of Integral Equation has a fixed (constant) limit of integration?
+3.
+Distinguish a Volterra type Integral Equation from a Fredholm Integral Equation?
+4.
+A Homogeneous equation is identically non-zero.
+True or False?
+7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 28 MTH 423 INTRGRAL EQUATION 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 29 MTH 423 INTRGRAL EQUATION MODULE 2 30 MTH 423 INTRGRAL EQUATION UNIT 1 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Volterra Integral Equations 3.2 Resolvent Kernel of Volterra Equation 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Volterra Integral Equations have integration limit which include the variable as opposed to the Fredholm integral in which the integration limits are constants.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Recognise Volterra integral equations (ii) Understand that there are the three types of Volterra integral equations (iii) Arrive at the Resolvent Kernel of a Volterra Equation 3 MAIN CONTENT Volterra integral are characterised by the limit of integration being one variable and of which there are three types.
+A common solution to Volterra integrals is to employ the formalism known as the Resolvent 31 MTH 423 INTRGRAL EQUATION 3.1 VOLTERRA INTEGRAL EQUATIONS     A kernel K x, y is said to be of Volterra type if K x, y 0, y  x (2.1) There are three types of Volterra integral equations.
+They are respectively, (i) The equation of the first type fx  xKx, yQydy (2.2) 0 (ii) The equation of the second type Qx  xKx, y Qydy  fx (2.3) 0 (iii) The homogenous equation of the second type Qx   xKx, yQydy (2.4) 0 The following properties arise   (i) It is necessary for consistency in the equation of the first kind i.e.
+f 0 0 (ii) Any solution to the equation of the second kind cannot be correct unless     Q 0  f 0 (iii) If K is non-singular, there are no Eigenvalue and Eigenfunctions associated with the homogenous equation (2.4) (iv) The equation of the first type can be differentiated to give the equivalent equation   Kx, x Qx  x  K x, y Qy f1x (2.5) 0 x 32 MTH 423 INTRGRAL EQUATION Example 2.1 Solve the integral equation Qx 3xcosx yQydu ex 0 Solution     Here Q 0  f 0  1 Differentiating w.r.t xif follows that Q1x  3Qx 3xsin x yQydyex c Thus, Q10  3Q01 4 Differentiating w.r.t x again, we have Q11x  3 Q1x  3xcosx yQydy ex 0  3Q1x  Qx  2ex This equation can simply, be solved Q11 3 Q1x  Qx  2ex Consider the homogenous equation Q11 3 Q1 Q0 3 5 Let Q  emx m2 3m10, m  2 2 Example 2.2 Solve the integral equation Qx  x 1 x12x ydydy 0 33 MTH 423 INTRGRAL EQUATION Solution       Differentiating once, if follows that Q 0  f 0 1 Q1x Qx 2xQydy 0 Q10  1 Q0 2 Differentiating again, we have Q11x  Q1x  2Qx i.e.
+Q11 Q1 2Q  0 Let Qemx,m2 m2 0 m1m20  m  or 2 Q  Aex  Be2x 3.2 RESOLVENT KERNEL OF VOLTERRA EQUATION Let in consider the equation Qx xKx, yQydy  fx (2.6) 0 We can set about the solution by guessing that at least for smallx the integral term will be small.
+a first approximation is then     Q x  f x (2.7) 0 So that xKx, yQyxKx, yQ ydy 0 0 0 34 MTH 423 INTRGRAL EQUATION  xKx, y f ydy (2.8) 0   The second approximation Q x , say, is then, 1 Q x  fx  xKx, y f ydy 1 0 0  fx   xK x, y f ydy (2.9) 0 0 Repeating the argument, we obtain a sequence of approximations.
+Q x  fx xKx, y Q ydy (2.10) n n1 0 Write equation (2.10) in the form Q  f  K Q (2.11) n n1 So that Q  f  K Q (2.12) n1 n2 Therefore, Q Q  K Q Q  (2.13) n n1 n1 n2 Now set  f  Q and n Q Q (2.14) 0 0 n n n1 then, n  Kn1 n n1 i.e.
+  K n1 (2.15) n n1     Now, Q x  f x 0 x  xKx, y fydy 1 0  x  xKx, y ydy  xKx, z zdz 2 1 1 0 0 35 MTH 423 INTRGRAL EQUATION  xKx, zdz zK z, y fydy 0 0  x f ydy xKx, zK z, ydz 0 0  x fyK x, y (2.16) 2 0 where K  xx, zKz, ydz 2 y By repetition of the argument, we have  x  x K x, y fydy (2.17) n n 0     Where K x, y  K x, y and 1 K x, y  xKx, zK z, ydz (2.18) n1 n y Also, from equation n  Q Q , so that n n n1 n r  Q Q e Q Q Q Q r n n1 n1 n2 1 0 0 r0  Q (2.19) n n  Q r (2.20) n r r0 By considering equation (2.20), (2.17), we have Q  fx  x n r K x,yydy n r 0   r1    Q (2.21) 0 0 Thus, it is plausible to suppose that 36 MTH 423 INTRGRAL EQUATION Qx  lim Q x n n  fx  x  K x,u  fydy (2.22)  r  0   r1  fx xRx, y, fydy (2.23) 0  where Rr, y rK x, y (2.24) r1 r0 The function R is called the Resolvent kernel.
+Let is now determine the conditions under which the power series on the right hand side of equation is convergent.
+  Suppose that over 0 x, y l, K x, y K Then, K x, y  xKx, zKz, ydz 2 y  K2x y  x yK2 x y (2.25)   Also K x, y 0, y  x 2 Similarly, K u, y  xK x, zKz, ydz 3 2 y  K3 x xzdz  1 K3 x y2 x y (2.26) y 2   and K x, y 0, x y 3 Proceeding in this was, if follows that 37 MTH 423 INTRGRAL EQUATION 1 K x, y  1 Kn x yn1 x y (2.27) n n1  0 x y Thus, the series with in term n K x, y is dominated by the series with the nth term n n Kn x yn1 (2.28)   n1!
+now x y 2l, and so the later series is dominated by the series with nth term nK 2lKn1 (2.29)   n1!
+This is the typical term of an exponential series and so if follows that the series 2.23   for R x, y, always converges.
+    The uniqueness of the solution follows easily because, if Q x , Q x are both A B solution, then, Q x Q x,  xKx, yQ yQ ydy (2.30) A A A B 0 Since the resolvent kernel series converges for all values of if the original kernel n bounded.
+    This is equivalent to saying that there is not any Eigenvalue.
+Thus, Q x  Q x n B Example 2.3 Solve the integral equation Qx, y  fx, y  x yexp xu  yvQu,v d d u v 0 0     K x, y;u,v  exp xu yv 1 K x, y;u,v  xuKx, y, x1, y1 K x1, y1,u,vdx1dy1 2 u v 38 MTH 423 INTRGRAL EQUATION  exp xu yv x dx1ydy1 xuyvexp xu yv u v Similarly, K x, y;u,v  xy expxu yvxx1y y1dx1dy1 3 u v  exp xu yvy xx1  x12 x y y1dy1 v 2 u  x2 u2  y2 v2  exp xu yvx2   xu  y2  vy   2 2  2 2  1  xu2 yv2 exp xu yv 22 Hence, xun1yvn1     K x, y;u,v  exp xu yv n u1!2 and so  Rx, y;u,v,   K x, y;u,v n u1  xuu yvx  exp xu yv u!2 u0 he solution is therefore, given as Qx, y  fx, y xyRx, y;u,v fu,vdudv o o 4.0 CONCLUSION Certain properties arise as a consequence of the three types of Volterra integrals.
+39 MTH 423 INTRGRAL EQUATION 5.0 SUMMARY There are three types of Volterra integral equations, and can be solved using the Resolvent kernel 6.0 TUTOR MARKED ASSIGNMENTS 1.
+How many different type of Volterra Integrals are there.
+1, 2, 3 or 4?
+2.
+Which of these three is a Volterra integral equation of the first type fx  xKx, yQydy 0 Qx   xKx, yQydy 0 Qx  xKx, y Qydy  fx 0 3.
+And which is a Volterra integral of the third type?
+7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 40 MTH 423 INTRGRAL EQUATION 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 41 MTH 423 INTRGRAL EQUATION UNIT 2 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Convolution Type Kernels 3.2 Fredholm Equations 3.3 Lemma 3.1 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Laplace transformation serves as a powerful tool in the solving of integral equations.
+Convolution; the inverse of Laplace transformation is necessary to transform the solution back to the originating domain.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) See that Convolution Type Kernels of the Volterra integral can be solved using Laplace transform (ii) Comfortably solve Fredholm equations (iii) Identify a Neumann series 42 MTH 423 INTRGRAL EQUATION 3 MAIN CONTENT 3.1 CONVOLUTION TYPE KERNELS   If the kernel of the Volterra integral is of the form K x y ,the equation is said to be of convolution type and may be solved by use of the Laplace transform.
+The method of solution depends upon the well known result in Laplace transform that  epx x Fx yGydydx o o   epx Fxdx  epx Gxdx (2.36) o o The term x Fx yGydu  x FyGx ydy (2.37) o o     is termed the convolution, (faltung) of the two functions F x and G x .
+Let un denote  epx Gxdx,the Laplace transform of Gx by G .
+o Consider the integral equation of the first kind.
+fx  x Kx ydydy (2.38) 0 On taking the Laplace transform, if follows that, F  K Q (2.39) Thus, Q  f k (2.40) Provided that the transforms exist.
+The solution is found by finding the inverse transform of Q.
+If is also possible to solve the inhomogeneous Volterra equation of the 2nd kind with the convolution kernels in exactly the same way.
+43 MTH 423 INTRGRAL EQUATION The equation Qx  fx  x kx yQydytransforms into o Q  F  K Q  1 where Q  1K f (2.41)   and Q x may be found.
+Example 2.5 Solve the integral equation x sinxx ydydy  1cosx o Note that the equation in self-consistent Taking the Laplace transform, we have  1 p p2 2  p2 Q      p2 2 p p2  p2 p p2 2   2 p2 2  2 2  p Thus, Q          p p2 2 p    p2 2 2 2  Therefore, Q   cosx      Example 2.6 Solve the integral equation x Qx yQy2sinaydy  xcos ax o 44 MTH 423 INTRGRAL EQUATION Solution Taking the transform if follows that  2a  p2 a2 Q Q     p2 a2 p2 a22 NB x2 fx  1u du f f  dpn Thus, Q  sinax  cos ax are the two possible solutions Example 2.7 Solve the integral equation Qx  x3  x e3xy Qydy o Solution If follows that 3!
+1 Q   Q p4 p3 1  1  3!
+ Q  1    p3 p4 p3 3!
+3!
+ 1  Hence, Q    1    p4 p4 p4  p4 3!
+3!
+    p4 p4 p4 45 MTH 423 INTRGRAL EQUATION  Q x3  x e4xy y3 dy 0 Example 2.8 Solve the integer-differential equation Q11x  x e2xy Q1ydy 1 o where Qo  o, Q1o  o Solution Taking the Laplace transforms, if follows that P Q 1  p2  P2Q   Q   P2 P  p2p12  1 1 2 1 2 and Q      p2p12 p12 p1 p2 p Hence, Qx  xex 2ex  x  2 Cossection  p  1 Q p2      p2 p pp12 1 i.e.
+Q    p2 p   p2 3 2 3 1  Q      p2p12 p p2 p1 p12  Qx 32x 3ex  x ex [Reuse partial fraction] 46 MTH 423 INTRGRAL EQUATION p2 A B C D NB:     p2p12 p p2 p1 p12  p2  Ap3 2p2A Ap  Bp2 2Bp  Bcp3 cp2  Dp2 3.2 FREDHOLM EQUATIONS The Volterra equations considered are a special case of the equation.
+Qx   1kx,yQydy  fx o x  (3.1) 0   Evidently, the special case in where k x, y ofor y  x   We shall take the interval 0,1 as standard and for simplicity write the integrals without the limit.
+Put Qx  fx   x2 x (3.2) 1 2 where x  kx, y fydy 1  x   kx, y ydy 2 1  kx, ydy k y, z fzdz  k x, y fydy 2 and K x, y  Kx, z Kz, ydz 2  x  K x, y fydy u u where K x, y  K x, z kz, ydz u uy The series (3.2) is called the Neumann series.
+As before we consider the series for the resolvent kernel 47 MTH 423 INTRGRAL EQUATION       R x, y;  K x, y   k x, y  (3.3) 2 This series may be proved convergent for a certain sample of values of  under a variety of conditions.
+We consider one set of these conditions.
+3.3 LEMMA 3.1   Suppose K x, y is continuous and sup   o x 1K x, y  M o y 1 Then, the series (3.3) is uniformly convergent for   M1.
+It is continuous and     the series may be integrated term by term.
+Also, R x, y; is for each x, y an analytic function of the complex variable  inside   M1.
+Proof We have K x, y  2 Kx, xKz, ydz 2 o      sup K x, z K z, y  sup Kx, z sup Kz, y  M2 By repeating this, we get K x, y  Mn (3.4) n Then, the series (3.3) is dominated by nMn.The result follows as before by Weierstrass M. test in region M 1.The analyticity in obvious since we are considering for each x, y the given series  a  where a  K x, y.
+The n n n n radius of convergence in not less than M1.
+Note that in this case we have only 48 MTH 423 INTRGRAL EQUATION proved convergence for   M1, whereas for the Volterra equations it was true for all finite.
+Example 3.1 Consider the integral equation Qx   1 Qydy  fx o 1 This case Kx, y1 and K x, y1 n n  1 Thus, Rx, y;   r  1 ro 1   Also, sup K x, y  1.since 1 has a pole at 1, the result may not in general be extended to smaller M Put A  1 Qxdx, and integrate over 0,1, the equation o       Q x  Q y dy  f x  A1  1 fxdx  A 1 1 fxdx 0 1 0 Suppose first that 1.Then, Qx  fx  A  fx  1 fxdx 1 o The equation had thus a unique solution Suppose on the other hand that 1.
+Then, form the equation A1  1 fxdx the original equation will only have a o solution if 1 fxdx  0. o 49 MTH 423 INTRGRAL EQUATION If f does satisfy this condition and 1, the equation has an infinite number of     solutions Q x  f x c where cis a constant and 1 is an Eigenvalue with corresponding Eigenfunction Q constant.
+Theorem 3.1 S :o x1 Suppose K is continuous in the square and set sup K  M. o y 1 s The resolvent kernel R is given by  Rx, y;   r K x, y (3.5) r1 r0 Where the series is uniformly convergent for   m1 Ris continuous and the series may be integrated term by term.
+In the domain  where  is analytic.
+The following relation holds Kx, y  Rx, y;  Kx, zRz, y;dz  Rx, z; Kz, ydz Suppose that f is integrable, then, the unique solution for  of (3.1) is Qx fx   1 Rx, y; fydy 0 4.0 CONCLUSION Convolution type integrals may be solved by the use of Laplace transform provided the transform exists.
+50 MTH 423 INTRGRAL EQUATION 5.0 SUMMARY It is possible to determine if a Volterra integral is of the convolution type and then solve it using the method of Laplace where the final solution is found by finding the inverse transform.
+This applies also to the inhomogeneous Volterra equation of the 2nd kind which convolution kernels can be solved in exactly the same way.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+State the name of the Integral Equation in which the integration limits are constants and do not include the variable?
+2.
+What is the relationship between F(x), G(x) and this term?
+x Fx yGydu  x FyGx ydy o o 7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 51 MTH 423 INTRGRAL EQUATION 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 52 MTH 423 INTRGRAL EQUATION MODULE 3 53 MTH 423 INTRGRAL EQUATION UNIT 1 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Fredholm Equations with Degenerate Kernels 3.2 The General Method of Solution 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Fredholm integral equations are integral equations in which the integration limits are constants which do not include the variable; and whose solution gives rise to Fredholm theory, the study of Fredholm kernels and Fredholm operators.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Solve Fredholm Equations with degenerate kernels (ii) Derive the general method of solution of Fredholm Equations 3 MAIN CONTENT 3.1 FREDHOLM EQUATIONS WITH DEGENERATE KERNELS Consider the Kernel of the form n Kx, y   a xb y (3.6) p p p1 54 MTH 423 INTRGRAL EQUATION where x is finite, and the a and b form linearly independent sets.
+A kernel of this r r character is termed a degenerate kernel.
+Also, consider the integral equation of the first kind fx  Kx, yQydy n   a xb yQydy (3.7) p p p1   1.
+We note that no solution exist unless f x can be written in the n form f a x (3.8) p p p1 This is essential for the equation to be self-consistent.
+  2.
+The solution is indefinite by any function  y which is orthogonal to all the b y over the range of integration.
+p Example 3.2 The integral equation exp2x  sinx yydy o x is not self-consistent and so does not  have a solution.
+This is because sinx y ydy  sinx  cosyydy    cosx sin yydy  which is a of form Asinx  Bcosx 3.2 THE GENERAL METHOD OF SOLUTION Look for a solution of the form 55 MTH 423 INTRGRAL EQUATION n y    b y (3.9) q q q1   If it exist, it will be a solution and if is possible to add the  y to it.
+The solution proceeds as follows in the integral equation.
+fx  Kx, yydy (3.10) n n  f a x    a xb yb ydy (3.11) p p p p q q p1 p1 n n   a x   (3.12) p pq 1 p1 q1 Where   b yb ydy (3.13) pq p q and so the  are defined by s n f     1 p n (3.14) p pq q q1 Since the b are linearly independent, the determinant  does not vanish and the p pq    can be found uniquely.
+Also,  y in such that q yKx, ydy  0 (3.15) Example 3.3 Consider the solution of the integral equation 3sinx  2cosx  sin x yydy  x    Now sin x y  sinxcosy sinycosx and so there is consistency 56 MTH 423 INTRGRAL EQUATION  oif m1 Note also that  cosy cosmydy    if m1  o if m1  cosy sinmydy    if m1  0 if m  1  o if m1  sin y cosmydy    sin ysinmydy    if m1  if m1 Hence, the integral equation in indefinite by a quantity of the form  y  C   C cosny  dnsinny o n n2 Since  y sin x ydy  o  Now, look for a solution of the form   y  Acosy  Bsiny   sinx yydy sinx  cosy AcosyBsin ydy    cosx sin y AcosyBsin ydy    A sinx Bcosx  3sinx 2cosx Thus, A  3 and B  2        d y  3cosy  2siny  We note that the process in similar to the idea of finding the particular integral and complementary function in differential equation theory.
+The solution 57 MTH 423 INTRGRAL EQUATION     y  3cosy 2siny    May be termed a particular solution while the y a complementary function.
+4.0 CONCLUSION Fredholm equations can be solved by applying the method of degenerate kernel.
+5.0 SUMMARY Fredholm integral equations have limits which are constants and not the variable as in the Volterra integral equations.
+6.0 TUTOR MARKED ASSIGNMENTS n 1.
+What kind of kernel is of the form Kx, y   a xb y where x is finite, p p p1 and a and b form linearly independent sets?
+r r 2.
+Why does exp2x  sinx yydy o x not have a solution  7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 58 MTH 423 INTRGRAL EQUATION 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 59 MTH 423 INTRGRAL EQUATION UNIT 2 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Eigenfunctions and Eigenvectors 3.2 Symmetric Kernels 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Many homogeneous linear integral equations may be viewed as the continuum limit of Eigenvalue equation.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Work with Eigenfunctions and Eigenvectors (ii) Prove that symmetric and continuous Kernels that are not identically zero possess at least one Eigenvalue 3 MAIN CONTENT 3.1 EIGENFUNCTIONS AND EIGENVECTORS Eigenfunction and Eigenvectors associated with the equation n x   a xb ydydy (3.16) p p p1 can be found as follows 60 MTH 423 INTRGRAL EQUATION Rewrite (3.16) in the form n y   a xb yydy (3.17) p p p1   This equation satisfied by any function y such that b yydy  o (3.18) p and o, but in general, we shall ignore such functions, any Eigenfunction must be of the form n x    a x (3.19) p p p1 n n n Thus   a x   a xb y  a ydy (3.20) p p p p q q p1 p1 q1 Whence n     K (3.21) p q pq q1 K  b ya ydy (3.22) pq p q Example 3.4 Find the Eigenvalue and Eigenfunction of the system defined by x  1 1xttdt o x1 o Solution Let x   x 1 1xt tdt o 1 o 1 o         1   o  1  x  o 2   2 3  61 MTH 423 INTRGRAL EQUATION Whence (equating coefficients)  1  1  o o 2    o   1  o 2 3  1   Thus, 1  1  2 3 4   8 52     and  ,   7 52 : 4 13 1 o Consider now the solution of the integral equation x  Kx, y ydy  fx (3.23) Where in this case K in degenerate.
+Any solution will be of the form n x   a x  fx p p p1 (Substituting, we have) n    a xb yydy  fx p p p1 n  n    a xb ya y fydy  fx p p q q p1  q1  n n  a x b ya y dy p p q q p1 q1 n  a xb y fydy  fx p p p1 62 MTH 423 INTRGRAL EQUATION Set k  b ya ydy pq p q and f  b y fydy p p n Thus, x   a x  fx p p p1 n  n    a x k   f   fx p pq q p p1  q1  n     K   f (3.24) p pq q p q1 n i.e.
+   K   f (3.25) p pq q p q1 The above equations is a finite system of linear algebraic equations with matrix   A  k .
+pq   The solution depends on whether or not det A is zero.
+    Set   det A     Then,  is a polynomial of degree n. If  is not a roof of ,then, (3.23) has a unique solution.
+Write d for the cofactors and so we have pq 1 n    d f (3.26) q  pq p p1 The solution of equation (3.23) is then, n n x  fx  1 a xd  b y fydy p pq q p1 q1  fx  1 x, y; fydy (3.27) 63 MTH 423 INTRGRAL EQUATION Where n n x, y;    d a x b y (3.28) pq p q p1 q1   x, y; and Rx, y;   (3.29)    is the resolvent kernel i.e.
+x  fxRx, y; fydy (3.30) Examples 3.5 Solve the integral equation x  11xttdt  fx o     Let x   x f x o 1  1 1xt t  ftdt  fx o 1 o          1  f   x o  1  f  fx  o 2 o  2 3 1 Where f  1 tr ft dt r o Equating powers of x and solving for  and  if follows that o 1 2 1612  43 f 62 f  o o 1 2 1612  62 f 121 f  1 o 1 The Eigenvalue, are given by the roots of the equation 2 1612  0 64 MTH 423 INTRGRAL EQUATION If is one of the Eigenvalue, say 8 52, a solution is possible only if O  1 fx8 52 7 52xdx o  2    and the solution is indefinite by an arbitrary multiple of 4 13  7 52 x 3.2 SYMMETRIC KERNELS     K x, y  k y, x and K is continuous Theorem 3.2   Let K x, y be symmetric and continuous (and not identically zero).
+Then, K has at least one Eigenvalue.
+Proof   We note that the iterated kernels k x, y are also symmetric and not identically zero.
+u Suppose result in not true.
+  Let us assume that R x, y;, the resolvent kernel is an integral function and the series is also convergent for all .Also, if may be integrated term by term.
+Now set, U  K x, xdx n n Then, U 2  U 4 ....... is absolutely convergent.
+2 4 Now, we have U  K x, z K z, xdxdx nm n m and 65 MTH 423 INTRGRAL EQUATION U  K2 x, zdxdz (3.40) 2n n Now, K x, zK x, z2 dxdz o n1 n1 i.e.
+2 U 2U 2U o (3.41) 2n2 2n 2n2 for all real ,  U2  U U (3.4.2) 2n 2n2 2n2 Form equation (3.40) none of U is zero as K is not identically zero.
+2n n U U  2n2  2n U U 2n 2n2 Now, consider series 2nU assumed convergent.
+2n The ratio of term is U 2n2 U 2n2  2n2 2 U 2 U 2n 2n U This ration is  4 2 from (3.43) U 2 U Thus, for 4 2 1,the forms in the (3.44) series are non-increasing, so as it is a U 2 series of positive terms, the series is divergent.
+A contradiction   Thus, we have seen that poles of R x, y; correspond to Eigenvalue and so K has at least one Eigenvalue.
+66 MTH 423 INTRGRAL EQUATION U From the equation (3.44) 4 2 1, U 2 The smallest Eigenvalue  is such that 1 U   4 (3.45) 1 U 2 Theorem 3.3   If k x, y is symmetric and continuous i. the number of Eigenfunctions corresponding to each Eigenvalue in finite.
+ii.
+the Eigenfunction corresponding to different Eigenvalue are orthogonal iii.
+the Eigenvalue are real.
+4.0 CONCLUSION Eigenvalues and Eigenfunctions can be found for Integral Equations of the form n x   a xb ydydy p p p1 5.0 SUMMARY Many homogeneous equations can be solved by determination of their Eigenvalue.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Under what Sturm-Liouville Problem assumption are Eigenfunction corresponding to different Eigenvalue orthogonal?
+2.
+Solve?
+67 MTH 423 INTRGRAL EQUATION 7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 68 MTH 423 INTRGRAL EQUATION UNIT 3 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Representation of a Function by a Series of Orthogonal Functions 3.1.1 Lemma 3.4 3.2 Expansion of Kin Eigenfunctions 3.2.1 Definitions 3.6 (Positive Kernels) 3.2.2 Theorem 3.7: Convergence 3.2.3 Theorem 3.8: Hilbert – Schmidt Theorem 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION In this Unit, we take a look at orthogonality of systems and show that Fourier coefficients exist for continuous orthogonal systems and that orthogonal system can be represented by a series of orthogonal functions.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Write the Hilbert – Schmidt theorem (ii) State the Convergence theorem (iii) Prove that functions can be represented by series of orthogonal functions (iv) Expand Kin a series of Eigenfunctions (v) Define positive kernels 69 MTH 423 INTRGRAL EQUATION 3 MAIN CONTENT 3.1 REPRESENTATION OF A FUNCTION BY A SERIES OF ORTHOGONAL FUNCTIONS 3.1.1 LEMMA 3.4 Let  be an orthogonal system, and let f be continuous.
+n Set    fxxdx (3.46) n n  Then, 2   f 2xdx (3.4.7) n  and 1s are known as the Fourier’s coefficient.
+n Proof: Take any N. consider 2  N   fx  x dxO (3.48)  n n     1  n n  i.e.
+ f 2x2   fxx  2 dx  o  n n n   1 1 N i.e. f 2xdx  2 (3.49) n  1 On noting that N is arbitrary  fx  x (3.50) n n 1 We now consider what coefficients,  ,give the best fir in the sense that n fx  C x2 dx (3.51) n n 70 MTH 423 INTRGRAL EQUATION is a minimum.
+The answer is that C   , the Fourier coefficients.
+n n To see this, set   fx  C 2 dx (3.52) n n n   fx   2 dx (3.53) n n n Then, we show that    .For we have, n n    f 2xdx  2C  f  dx  C2 n n n n  f 2xdx  2 C  C2 n n n    f 2xdx 22  2 n n n     C2 2  2 C   n n n n n n n  C  2  o (3.54) n n As asserted.
+Definitions 3.5   The set of orthogonal system  is said to be complete if n lim fx 2 dx  o (3.55) n n n    for every continuous function f x .In this case, the Bessel’s inequality becomes an equality i.e.
+ f 2xdx  2 n 71 MTH 423 INTRGRAL EQUATION If  is complete, we can then roughly represent any function as a sum n fx    n n the convergence being in the sense of (3.55) 3.2 EXPANSION OF KIN EIGENFUNCTIONS We examine the possibility of expanding K as a series of Eigenfunctions.
+Consider Kx, y   y n n where Kx, yydy   n n i.e.
+  1x n n n Then, we will have      x  y Kx, y   n n (3.56)  n   This us valid independent of completeness of  n 3.2.1 DEFINITIONS 3.6 (POSITIVE KERNELS) A kernel is said to be positive if T,  Kx, y xydxdy  o (3.57) for all  such that 2xdx o (3.58) It is easily to see that Eigenvalue are strictly positive.
+72 MTH 423 INTRGRAL EQUATION 3.2.2 THEOREM 3.7: CONVERGENCE   If K x, y is positive, then  xy Kx, y   n n  1 n the series being absolutely and uniformly convergent 3.2.3 THEOREM 3.8: HILBERT – SCHMIDT THEOREM   Suppose f x can be written in the form fx  Kx, yydy (3.59) where K is symmetric and continuous Then, f    where the series is absolutely and uniformly convergent and n n   b fx xdx (3.60) p p a A convergence of the above theorem is another formula for the resolvent R. Consider the equation.
+x  Kx, y ydy  fx (3.61) Then,  f  kx, yydy Thus,   f satisfies the condition of theorem 3.8 and we can write x  fx    n n 73 MTH 423 INTRGRAL EQUATION where   x  fxxdx n n       fxxdx n n n Multiply 3.61 by x and integrate and change order of integration.
+This given n xxdx  xdx kx, yydy n n   fxxdx (3.62) n  Thus,   n   n  n n   i.e.
+  n  , Hence,    n   n n   n n n   x  fx    n x   n n  i.e.
+x  fx n x (3.63)   n n   This given the solution of 3.61 in terms of the Eigenfunctions of  x .
+From 3.63, n we have  x  fx    n y fydy  n n  xy  fx  n n fydy      n  fxRx, y; fydy      x  y Where Rx, y;   n n (3.64)  n 74 MTH 423 INTRGRAL EQUATION 4.0 CONCLUSION Fourier’s coefficients exist for orthogonal systems which are continuous.
+5.0 SUMMARY The Hilbert – Schmidt Theorem states that when a kernel is positive, a series can be derived which is absolutely and uniformly convergent, and kernel can be represented by a series of Eigenfunctions.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Derive an expression for the Fourier coefficient of the continuous orthogonal   system  ?
+n 2.
+Show that the orthogonal system  is complete if n lim fx 2 dx  o?
+n n n  that is, Bessel’s inequality becomes an equality.
+3.
+If T,  Kx, y xydxdy  o, can we deduce if the associated kernel is positive or negative?
+Prove it?
+7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 75 MTH 423 INTRGRAL EQUATION 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 76 MTH 423 INTRGRAL EQUATION MODULE 4 77 MTH 423 INTRGRAL EQUATION UNIT 1 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 Calculation of 1st Eigenvalue 3.2 Integral Transforms; Laplace Transforms 3.3 Convolution Theorem 3.4 Inverse Laplace Transform 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Transforms are used to solve equations for which transforms exist while the inverse transform is a convolution.
+Suitable conditions exist for the transform of a convolution to become the point-wise product of transforms which means that convolution in one domain is the point-wise multiplication in another domain 2 OBJECTIVES At the end of this unit, you should be able to: (i) Apply the Convolution Theorem (ii) Calculate the first Eigenvalue of an integral equation (iii) Use the Variational formula (iv) Recognise Integral Laplace Transforms as Transforms (v) Derive the solution of integral equations using Inverse Laplace Transform 78 MTH 423 INTRGRAL EQUATION 3 MAIN CONTENT 3.1 CALCULATION OF 1ST EIGENVALUE The modes of vibration in systems are often of great importance.
+A powerful and simple method for finding them is provided by variational formula.
+ Let ,,... be Eigenfunctions and    ... be the corresponding 1 2 1 2 Eigenvalue.
+Set J ,  Kx, yxydxdy Suppose now that  is arbitrary.
+Then, by the linear formula xy Kx, y  n n  n We have, xy J,   n n xydxdy  n 2 2   n   n   n n 2 1 Then, J ,   n  2   n n 1 1  2xdx (Bessel equation)  1  2xdx    (3.65) 1 J , 79 MTH 423 INTRGRAL EQUATION where  is the smallest Eigenvalue and  is arbitrary.
+Similar results may be 1 obtained for the higher Eigenvalues.
+However, the first is usually, the most important.
+   is chosen to make J ,  a maximum and a normal function.
+This given an estimate of a bound for  which usually is fairly accurate.
+1 Example 3.7 Consider the kernel T in the square o x1, o y 1 where   1x y o y  x1 Tx, y     1 y x o x y 1 By differentiating the equation x  1 x, yydy  0 o If is easy to see that if reduces to       "  x  0, o  1  o The Eigenfunction are 2 sinnx(normalized and Eigenvalue are  n2 n The linear formula given  sinnxsinny x, y  2 n22 n1 We shall now consider the application of 3.65 to the determination of 1st Eigenvalue    2  9.869 1 First guess   1 J,  1 1xx ydy  x 1 1 ydy dx o  o x  80 MTH 423 INTRGRAL EQUATION 1  12 1 We get    12 1 1 12 Second guess R t  i 3 Choose  to be a step function 0except for o x1 where   .
+Choose  normalized.
+Then,   1212 one find that J ,   1 1282 12 1 This has a maximum at   , when 8 J,  3 32 1 32 Then,     10.67 1 3 3 32 The estimate is considerably improved, and the choice of a nose complicated  will lead to a nose accurate estimate.
+3.2 INTEGRAL TRANSFORMS; LAPLACE TRANSFORMS   If f t is throughout piecewise, continuous, bounded variation and of exponential order, i.e.
+ M , so,  o ft  M esot o and if we define Fs   est ftdt (4.1) o 81 MTH 423 INTRGRAL EQUATION   S may be complex, then, F s is known as the Laplace transform of f and is defined when the integral is absolutely convergent for some so, then, it is also for S such that Res > Redo The largest half-plane in which the integral is absolutely convergent is called the half- plane of convergence.
+The following hold in this half-plane       i.
+£ af bg  a£ f  b£ g (4.2) ii.
+£f 2t  Sn Fs Sn1 fo .
+  ...  Fn1 o (4.3) iii.
+£eat ft  Fsa (4.4) iv.
+£tn ft  1n dn Fs (4.5) dsn   F ot denotes limit from right 3.3 CONVOLUTION THEOREM   We define a new function h t by ht  t gu ftudu  f g (4.6) o   h t is called the convolution product of f and g and is written f gso that we have  esthtdt   est f gdt (4.7) o o   est ftdt  esugudu  FsC s 1 o o 82 MTH 423 INTRGRAL EQUATION 3.4 INVERSE LAPLACE TRANSFORM ft  £-1 Fs  1 ci Fsds (4.8) 2 ci i  residues of Fxest at poles of Fs Where C is some real number which is greater than the real part of all the poles of     F s .
+We can however use any other alternative method to obtain f t .
+4.0 CONCLUSION Kernel can be solved by applying Laplace transform if the transform exists.
+5.0 SUMMARY Laplace transform is defined only when an integral is absolutely convergent and the largest half-plane in which the integral is absolutely convergent is called the half- plane of convergence.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Write an expression for the kernel T in the square defined below and find its first Eigenvalue?
+2.
+Do you recognise the transform below?
+Which transform is it?
+Fs   est ftdt o 3.
+What is the relationship between an inverse Laplace transform and a convolution?
+83 MTH 423 INTRGRAL EQUATION 7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 84 MTH 423 INTRGRAL EQUATION UNIT 2 CONTENT 1.0 Introduction 2.0 Objectives 3.0 Main content 3.1 The Application of The Transform 3.2 Fourier Integral Equations 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Readings 1 INTRODUCTION Laplace and Fourier integral transforms are use to solve integral equations for which the transform exists and this is demonstrated in this unit via worked examples.
+2 OBJECTIVES At the end of this unit, you should be able to: (i) Apply Laplace Transform through worked examples (ii) Understand and solve integral equations by the method of Fourier Integral transforms 3 MAIN CONTENT 3.1 THE APPLICATION OF THE TRANSFORM Example 4.1 Solve the equation 11 5 1 6  et t o o  2, 1o  1 85 MTH 423 INTRGRAL EQUATION Now, let £  s so that £11  s2  so1o s2s2s1   1 and £ et  s1   1  s22s1  5 s2  6  s1   1 i.e.
+s2 5s 6   25  11  s1 2s2 13s 12 i.e.
+s      s1 s2 s3 Hence, the poles are not 1,2,3 The residue at s 1 is Res ss1 s s 211312 1 et  et 12 2 that at 2 is 6e2t 9 and that at 3is  e3t 2 Thus, t  1 et 12e2t 9e3t 2 Example 4.2 Consider the Volterra equation fx x kx y fydy  gx o We want to use Laplace transform to get a solution The equation can be written in the form 86 MTH 423 INTRGRAL EQUATION f k f  g Take the Laplace transform of both sides to give f  k f  g   g i.e.
+f 1k  g  f  1k Thus,  g  1 g f £-1     est ds 1k 2 1k i Take kt  etfor example, then  ks  s1 1 k But  1 1k 1k  g   k g  f  £-1    £-1g   1k  1k  g     g  £-1    g £-1 h g s1  Where h  and h  e1t s1 Hence, fx  gxx e1tu gudu o Example 4.3 Solve the partial differential equation 87 MTH 423 INTRGRAL EQUATION 2 2     o o x L, t o x2 t2   x,o  o o x  x,o  o o xl t    o,t  o t o  l,t  a t o x Here we want a solution for t o and for a finite range of re.
+Take Laplace transform w.r.e t (since the tinterval in semi-infinite) Write x, s estx,tdt 0 Take the Laplace transform to give est 2x,tdt  est 2x,tdt 0 0 x2 0 t2 But est 2x,tdt  2 estx,tdt 0 x2 x2 0 2    x, s x2 and est 2x,tdt  s2x,s Sx,0 x,0 0 x2 t  S2x, s from the boundary condition Hence, we get 88 MTH 423 INTRGRAL EQUATION 2 x, s  S2x, s0 x2 This is now an ordinary differential equation for and to solve it, we need two boundary conditions, we have 0, s  0 and , s   est ,tdt x 0 x  a   aestdt  0 s We this have the following system to solve 2 x, s S2x, s 0 x2   d, s a 0, s0 and  dx s The solution is      A s sinh sx  B s cosh sx   From the first boundary condition B s 0and from the second condition, we have a AsS cosh sl  s a As  s2coshsl asinhsx Here, x,s  s2coshsl a sinh sx and x,t   est ds 2i s2cosh sl r1 89 MTH 423 INTRGRAL EQUATION where lies to the sight of the poles.
+The integral has poles at s 0 and at the zeros of coshsl.
+Consider first s 0 1  sx3   sl2  x,sest  sx  1  1 st  s2 6 2     1     sx0 s2 s2 Simple pole at s 0with reside x.
+Now, consider points whose coshls 0   i 2n1 S  2l The poles are simple once.
+We may use the formula   f a Res  sa g1a Thus,    2n1ix i2n1t Sinh e 2l    2l  Res  s2n1i 2nii2 2n1i 2l  Sinh      2l   2  2n1ix i2n1t Sinh e 2l 41n  2l    2 2n12i Evidently, poles are complex conjugates, so we require twice the seal part.
+Hence, 8al  1n 2n1x x,t ax   Sin 2 2n12  2l  n0 90 MTH 423 INTRGRAL EQUATION The Laplace transform is suitable for problems with a semi-infinite domain for the independent variable.
+It is also necessary that the (differential) equation should have constant coefficients.
+3.2 FOURIER INTEGRAL EQUATIONS   If f x is a continuous function, then, fx  1 eiwxFwdw (4.10) 2  where Fw  1 eiwu fudu (4.11) 2    equation 4.11 gives the solution of the integral 4.10 for F and vice versa.
+If f x is seal, using the odd property, of sin sinwreand the even property of coswre, we have, if 1 fx   2 2 coswrewdw, 0 x (4.12)  0 Then, 1 w  2 2 coswx fxdx, 0 w (4.13)  0     w and f x are the cosinetransforms of one another.
+If 1 fx   2 2 sinwxwdw, 0 x (4.14)  0 Then, 1 w 2 2 sinwx fxdx, 0 w (4.15)  0     w and f x are the sine transforms of one another.
+91 MTH 423 INTRGRAL EQUATION Example 4.1 Solve the integral equation a  coswxwdw, a 0 a2 x2 0 w  2 acoswxdx  1  2iaeiwx dx  0 a2 x2 2i a2 x2 because sinwre is odd inx Evaluation of the integral by the methods of the complex integral calculus given w  ewa, w0 Example 4.2 Solve the integral equation x  coswx wdw 0   x is an even function of x Because the inverse of a cosinetransform is another cosinetransformation, we look for a solution of the form       x  U x V x 1 where Vx   2 2 coswxUwdw  0 Thus, 1 x  Ux  2 2 coswxUwdw  0 92 MTH 423 INTRGRAL EQUATION  coswx Uw 212 coswtUtdtdw 0   0  1  coswxUwdw 2Ux 0  2 1 1  2 2  2 2 This is true if     Thus, to    , there corresponds a solution   1  2 UxVx and to   , there corresponds a solution UxVx.
+ 2 This solution will be valid, provided that all the integral exist; U is arbitrary.
+This in 1  2 2 this case, to the two Eigenvalues    , there exist an infinite of  Eigenfunctions.
+Example 4.3 Solve the integral equation 1 x  fx  2 2 cosxyydy  0 If 1, there will not in generally be any solution.
+This follows example 4.2 Take the transform of the equation to give 1 1  2 2 cosxyydy  2 2 cosxy fydy x  0  0 It follows that 1 x  fx   2 2cosxy fydy2x  0 93 MTH 423 INTRGRAL EQUATION i.e.
+1 12x  fx 2 2cosxy fydy  0 and this solution is valid provided that the integral converge.
+Now, if 12 0 and   f x is a function such that 1 fx 2 2 cosxy fydy 0  0   It follows that x can be any function for which the integral converge.
+Exercises (1) Solve the integral equation x  sinwxwdw a 0 x2 a2 0 (2) Find the Eigenvalues and Eigenfunctions of the integral equation x  sinxyydy 0 (3) Find the solution of the integral equation x  eax  sinxyydy, a 0 0 2  2 (4) Find the integral equation P  ept ftdt a 0 P2 a2 0 (5) Solve the integral equation 94 MTH 423 INTRGRAL EQUATION x  fx Kx yydy  (6) Solve the integral equation   1 1  g y dy   xa2   x y 4.0 CONCLUSION Transforms are a useful mathematical tool for solving Integral Equations for which the applicable transforms exist.
+5.0 SUMMARY A Laplace transformation is applicable for problems with a semi-infinite domain for the independent variable.
+6.0 TUTOR MARKED ASSIGNMENTS 1.
+Solve 2.
+Solve 7.0 REFERENCES/FURTHER READINGS 1.
+Kendall E. Atkinson The Numerical Solution of integral Equations of the Second Kind.
+Cambridge Monographs on Applied and Computational Mathematics, 1997 2.
+George Arfken and Hans Weber.
+Mathematical Methods for Physicists.
+Harcourt/Academic Press, 2000 95 MTH 423 INTRGRAL EQUATION 3.
+Andrei D. Polyanin and Alexander V. Manzhirov Handbook of Integral Equations.
+CRC Press, Boca Raton, 1998.
+ISBN 0-8493-2876-4 4.
+E. T. Whittaker and G. N. Watson.
+A Course of Modern Analysis Cambridge Mathematical Library 5.
+M. Krasnov, A. Kiselev, G. Makarenko, Problems and Exercises in Integral Equations, Mir Publishers, Moscow, 1971 6.
+Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007).
+"Chapter 19.
+Integral Equations and Inverse Theory".
+Numerical Recipes: The Art of Scientific Computing (3rd ed.).
+New York: Cambridge University Press.
+ISBN 978-0-521-88068-8 96

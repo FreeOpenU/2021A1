@@ -1,0 +1,2042 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 412 COURSE TITLE: NORMED LINEAR SPACES  UNIT 1: NORMED LINEAR SPACES Contents 1 Introduction 1 2 Objectives 2 3 Normed Linear Spaces 2 3.1 Definition and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.2 Holder’s and Mikwoski’s Inequalities .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.3 Equivalent Norms .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 4 Convex Sets and Convex Functions 10 4.1 Convex Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 4.2 Convex Functions .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+15 5 Conclusion 16 6 Summary 16 7 Tutor Marked Assignments (TMAs) 17 1 Introduction In your course of topology, you know that a topological space is a set with a topology defined on it and this topology is a set of open sets of the set which is closed under arbitrary union and finite intersection of its elements.
+Also in Linear algebra you learnt that a linear space is a space equipped with the operations addition of elements and multiplication of elements by numbers.
+If you combine this ideas, you will arrive to the notion of a topological linear space, equipped with a topology as well as with the algebraic operations characterizing a linear space.
+In this unit, you shall understand the concept of a particularly important type, namely normed linear spaces.
+You will study in general topological linear spaces in subsequent unit.
+1 2 Objectives 2 OBJECTIVES.
+At the end of this unit, you should be able to; (i) correctly define a norm and a normed linear space.
+(ii) show that a given function is a norm.
+(iii) show that every norm defines a metric.
+(iv) identify a metric induced by a norm.
+(v) define a convex set and give examples.
+(vi) state, prove and apply the Holder’s and Minkwoski’s inequality.
+3 Normed Linear Spaces 3.1 Definition and Examples Definition 3.1 Let X be a linear space over a scalar field K = (R or C), a function k · k : X (cid:3450) R is said to be a norm (in X ) if it satisfies the following properties: N1.
+kxk (cid:3640) 0 for all x (cid:3547) X, where kxk = 0 if and only if x = 0; N2.
+kλxk = |λ|kxk for all x (cid:3547) X and all scalar λ; N3.
+kx + yk (cid:3639) kxk + kyk for all x, y (cid:3547) X.
+(Triangle inequalilty) Definition 3.2 A linear space X , equipped with a norm kxk, is called a normed linear space.
+Definition 3.2 tells you that if k · k is a norm defined on a linear space X, then the pair (X, k · k) is a normed linear space.
+In what follows, provided no confusion will arise, you shall call X a normed linear space.
+Example 3.1 The real line R becomes a normed linear space if you set kxk = |x| for every number x (cid:3547) R. Proof.
+It is enough for you to show that k · k is a norm on the set of real numbers R. That is, you have to verify that k · k satisfies the three axioms N1-N3 of a norm defined on a linear space.
+So verify as follows; N1.
+Let x (cid:3547) R be arbitrary.
+Since the absolute value function | · | defined on R is nonnegative, kxk = |x| (cid:3640) 0.
+Thus, kxk (cid:3640) 0 for all x (cid:3547) R. Now, kxk = 0, if and only if |x| = 0 if and only if x = 0.
+N2.
+Let x, λ (cid:3547) R. kλxk = |λx| = |λ||x| = |λ|kxk Therefore, kλxk = |λ|kxk for all λ, x (cid:3547) R.  3.1 Definition and Examples N3.
+Let x, y (cid:3547) R be arbitrary elements of R. kx + yk = |x + y| (cid:3639) |x| + |y| = kxk + kyk Therefore, kx + yk (cid:3639) kxk + kyk for all x, y (cid:3547) R. Thus, kxk = |x|, x (cid:3547) R defines a norm on R. Example 3.2 Let X = R2 .
+For each vector x¯ = (x , x ) (cid:3547) X, define k · k : X (cid:3450) R by 1 2 2 !
+1 X2 2 kx¯k = x2 2 k k=1 Then k · k is a norm on X.
+2 Proof.
+You should verify the conditions N1 to N3 of Definition 1 as follows; 2X N1.
+Let x¯ = (x1, x2) (cid:3547) X be arbitrary.
+For each k = 1, 2, x2 k (cid:3640) 0, so that k (cid:3640) 0, which x2 1 !
+k=1 X2 2 implies that kx¯k = x2 (cid:3640) 0.
+Thus kx¯k (cid:3640) 0, for all x¯ (cid:3547) X.
+2 k 2 k=1 !
+X2 21 X2 Now, kx¯k = 0, if and only if x2 = 0 if and only if x2 = 0 if and only if x2 = 0 2 k k 1 k=1 k=1 and x2 = 0, if and only if x = 0 and x = 0, or, x¯ = (x , x ) = (0, 0) = ¯0.
+Thus, kx¯k = 0, if 2 1 2 1 2 2 and only if x¯ = (0, 0) = N2.
+Let x¯ = (x , x ) (cid:3547) X, λ (cid:3547) K be arbitrary, λx¯ = (λx , λx ).
+So 1 2 1 2 !
+!
+!
+X2 21 X2 21 X2 21 kλx¯k = λx2 = |λ|2 x2 = |λ| x2 = |λ|kx¯k .
+2 k k k 2 k=1 k=1 k=1 N3.
+Let x¯ = (x , x ), y¯ = (y , y ) (cid:3547) X be arbitrary.
+1 2 1 2 X2 X2 2 X kx¯ + y¯k2 = (x + y )2 = x2 + 2x y + y2 (cid:3639) x2 + 2|x y | + y2 2 k k k k k k k k k k k=1 k=1 k=1 X2 X2 X2 = x2 + 2 |x y | + y2 k k k k k=1 k=1 k=1 !
+1 !
+1 X2 2 X2 2 (cid:3639) kx¯2k2 + |xk |2 |yk |2 + ky¯k22 (By C auchy Schwart I nequality) 2 k=1 k =1 2 = kx¯k2 + 2kx¯k ky¯k + ky¯k 2 2 2 2 = (kx¯k2 + ky¯k2)2 i.e., kx¯ + y¯k (cid:3639) kx¯k + ky¯k for all x¯, y¯ (cid:3547) X.
+2 2 2 Thus k · k is a norm on X since it satisfies the conditions of a norm as shown above.
+2 So far, you have seen that to verify the axioms N1 and N2 of a norm are not very difficult, but the major task is in proving N3, i.e., the triangle inequality.
+Before you proceed to see other example, see some important inequality that will be useful to you in verifying the triangle inequality.
+The proof of them will not be given now.
+3 3.2 Holder’s and Mikwoski’s Inequalities 3.2 Holder’s and Mikwoski’s Inequalities The following notions are of paramount importance.
+Definition 3.3 (l (cid:3557) spaces) Let 1 (cid:3639) p < (cid:3569) .
+Let K = (R or C).
+The set p ( ) (cid:3569)X l (K) = x = (x , x , ..., x , ...), x (cid:3547) K, k (cid:3640) 1 : |x |p < (1) p 1 2 k k k (cid:3569) k=1 is called an l (cid:3557) space.
+p For example, if p = 1 and K = R then (1) becomes ( ) (cid:3569)X l (R) = x = (x , x , ..., x , ...), x (cid:3547) R, k (cid:3640) 1 : |x | < (cid:3569) 1 1 2 k k k k=1 X(cid:3569) Which is the set of all sequences {xn }n(cid:3569)=1 of real numbers such that |xk | is finite (i.e., such that k=1 series converges.)
+1 (cid:3569) You can see that x = (cid:3547) l because n2 1 n=1 (cid:3569)X 1 X(cid:3569) 1 k2 = k 2 < (cid:3569) k=1 k=1 By p (cid:3557) series (p = 2).
+But the sequence x = { 1 6(cid:3547) l since 1 }(cid:3569) n n=1 X(cid:3569) 1 X(cid:3569) 1 1 1 1 = = 1 + + + · · · + + · · · k k 2 3 n k=1 k=1 is the harmonic series which diverges.
+For p = 2 and K = R, (1) becomes ( ) (cid:3569)X l (K) = x = (x , x , ..., x , ...), x (cid:3547) R, k (cid:3640) 1 : |x |2 < (cid:3569) 2 1 2 k k k k=1 Observe that x = { 1 }(cid:3569) (cid:3547) l .
+Also is the first example.
+You can see that all elements of l is also n n=1 2 1 an element of l , but not every element of l is an element of l .
+In fact this is a general fact about l 2 2 1 p spaces as stated in the following proposition.
+Proposition 3.1 Let 1 (cid:3639) p, q (cid:3639) +(cid:3569) .
+If p (cid:3639) q, then l (cid:3669) l .
+p q Proof.
+There are two cases you can consider.
+P (i) q = (cid:3569) and p < (cid:3569) .
+If {xn }n(cid:3640) 1 (cid:3547) lp then p < (cid:3569) , this implies that |xn | (cid:3450) 0 as n (cid:3450) (cid:3569) , |x | n so that sup |x | < (cid:3569) .
+This in turn, implies, {x } (cid:3547) l (= l ).
+n n q (cid:3569)n(cid:3640) 1 4 3.2 Holder’s and Mikwoski’s Inequalities P (ii) p < q < (cid:3569) .
+Let {xn } (cid:3547) lp .
+Then n(cid:3569)= 1|xn |p < (cid:3569) .
+As in part (i), M := sup |xn | < (cid:3569) .
+Hence, n(cid:3640) 1 X(cid:3569) X(cid:3569) |x |q (cid:3639) M |x |p < (cid:3569) n n n=1 n=1 q(cid:3557) p and this implies {x } (cid:3547) l .
+Hence l (cid:3669) l .
+n q p q Definition 3.4 (l (cid:3557) space).
+The space of all bounded sequence of real(or complex) i.e., (cid:3569) l = {x = (x , x , ..., x , ...) : x is bounded} (cid:3569) 1 2 k is called the l (cid:3557) space.
+(cid:3569) Definition 3.5 Let 1 (cid:3639) p (cid:3639) +(cid:3569) .
+If for arbitrary x = {x }, y = {y } in l and λ (cid:3547) K, you k k p define vector addition and scalar multiplication respectively as x + y = (x , x , ..., x , ...) + (y , y , ..., y , ...) = (x + y , x + y , ..., x + y , ...) 1 2 k 1 2 k 1 1 2 2 k k and λx = λ(x , x , ..., x , ...) = (λx , λx , ..., λx , ...), 1 2 k 1 2 k (i.e.
+componentwise,) then l is a linear space.
+p The proof of the following inequalites are given at the end of this unit.
+Proposition 3.2 (Holder’s Inequality).
+Let 1 (cid:3639) p, q (cid:3639) (cid:3569) , with 1 = 1.
+If x = {x } (cid:3547) l and k p + 1 p q y = {yk } (cid:3547) lq , then, !
+!
+X(cid:3569) X(cid:3569) p1 X(cid:3569) 1q |xk yk | |xk |p |yk |q (2) k=1 k=1 k=1 (cid:3639) Proposition 3.3 (Cauchy-Schwartz inequality).
+p = 2 gives the Cauchy-Schwartz inequality.
+i.e., for x = {x } and y = {y } in l , k k 2 1 !
+1 !
+X(cid:3569) X(cid:3569) 2 X(cid:3569) 2 |xk yk | |xk |2 |yk |2 (3) k=1 k=1 k=1 (cid:3639) You used this inequality in the proof of triangle inequality of example (3.2), for a finite sum (n=2), and you need the same inequality while proving the general case given in example (3.3).
+Proposition 3.4 (Minkwoski Inequality).
+Let 1 (cid:3639) p < (cid:3569) .
+For arbitrary x = {x }, y = {y } (cid:3547) l k k p 1 , 1  !
+!
+!
+1 X(cid:3569) p X(cid:3569) p X(cid:3569) p |xk + yk |p (cid:3639) |xk |p + |yk |p (4) k=1 k=1 k=1 5 3.2 Holder’s and Mikwoski’s Inequalities Example 3.3 Let X=Rn (the real n-space).
+You can make it a normed linear space, by setting !
+1 Xn 2 kxk2 = |xk |2 (5) k=1 for every element x = (x , x , ..., x ) in Rn .
+1 2 n The verification of the fact that k · k is a norm on Rn is a generality of the proof of example (3.2), 2 where the proof is given for n = 2.
+Example 3.4 You can also equip Rn , the real n-space, with the norm Xn kxk1 = |xk | (6) k=1 or the norm kxk = max |x | (7) (cid:3569) k 1(cid:3639) k (cid:3639) n You can see that the function k · k in (7) is well defined since maximum is taken over a finite set (cid:3569) of points.
+You can verify that k · k and k · k as defined in equations (6) and (7) is a norm on Rn .
+1 (cid:3569) Example 3.5 The function !
+Xn 21 kzk = |zk |2 k=1 introduces a norm in the complex n-space Cn .
+Other possible norms in Cn are given by (6) and (7).
+Example 3.6 The space C [a, b] of all functions continuous on the interval can be equipped with the norm kf k = max |f (t)|.
+(cid:3569) a(cid:3639) t (cid:3639) b Other norms that can be defined on C [a, b] for arbitrary f (cid:3547) C [a, b] are as follows; Z b kf k = |f (t)| dt (8) 1 a and Z b 12 kf k = |f (t)|2 dt (9) 2 a To verify the triangle inequality for (9), you will use the integral version of the Schwartz inequality stated in the following proposition.
+Proposition 3.5 If f, g (cid:3547) C [a, b] are arbitrary, then Z b Z b 12 Z b 12 |f (t)g(t)| dt |f (t)|2 dt |g(t)|2 dt (10) (cid:3639) a a a  6 3.2 Holder’s and Mikwoski’s Inequalities Example 3.7 Let l be the space of all bounded real sequences (cid:3569) x = (x , x , ..., x , ...), 1 2 k and let kxk = sup |x | (11) k k(cid:3640) 1 Then (1.3) obviously has all the properties of a norm.
+Example 3.8 Let 1 (cid:3639) p < +(cid:3569) .
+For arbitrary x = {x (cid:3547) l , the function kk =1 p }(cid:3569) !
+1 X(cid:3569) p kxklp = |xi |p (12) k=1 defines a norm on l .
+So that (l , k · k ) is a normed linear space.
+p p lp Proof.
+You can easily verify that the function defined above satisfies axioms N1 and N2 of a norm.
+Now, to verify N3, you shall be needing the Holder’s Inequality as stated in proposition (3.2).
+Study the following carefully and learn the trick applied in the proof.
+Let x = (x , x , ..., x , ...), y = (y , y , ..., y , ...) (cid:3547) l .
+Consider two cases for p. 1 2 k 1 2 k p Case 1: For p = 1, (12) and the triangle inequality for absolute value gives you that X(cid:3569) X(cid:3569) X(cid:3569) |x + y | |x | + |y | k k k k k=1 k=1 k=1 (cid:3639) i.e.
+kx + yk (cid:3639) kxk + kyk as required l1 l1 l1 Case 2.
+For 1 < p < (cid:3569) , X(cid:3569) X(cid:3569) kx + yklpp = |xk + yk |p = |xk + yk ||xk + yk |p(cid:3557) 1 k=1 k=1 X(cid:3569) X(cid:3569) X(cid:3569) (cid:3639) (|xk | + |yk |)|xk + yk |p(cid:3557) 1 |xk ||xk + yk |p(cid:3557) 1 |yk ||xk + yk |p(cid:3557) 1 k=1 = k=1 + k=1 !
+1 !
+1 !
+1 !
+1 X(cid:3569) p X(cid:3569) q X(cid:3569) p X(cid:3569) q (cid:3639) |xk |p |xk + yk |(p(cid:3557) 1)q + |yk |p |xk + yk |(p(cid:3557) 1)q (*) k=1 k=1 k=1 k=1 (By Holder’s Inequality) !
+!
+1 1 X(cid:3569) p p X(cid:3569) p p = |x |p kx + ykq + |y |p kx + ykq k lp k lp k=1 k=1 (*) is true because if 1 < p, q, < (cid:3569) , satisfies 1 + 1 = 1, then p = (p (cid:3557) 1)q.
+So, the sequence defined p q for each k (cid:3640) 1 by z = |x + y |p(cid:3557) 1 is in l .
+Thus, k k k q (cid:2) (cid:2) !
+!
+1 1 X(cid:3569) p X(cid:3569) p p p p p x ykqk(cid:2)x + yklp (cid:3639) |xk | + |yk | (cid:2) k + lp k=1 k=1 7 3.3 Equivalent Norms or kx + ykp(cid:3557)lp qp X n |xk |p!
+p1 + X n |yk |p!
+p1 = kxklp + kyklp k=1 k=1 (cid:3639) i.e., kx + yk (cid:3639) kxk + kyk , for arbitrary x, y (cid:3547) l .
+lp lp lp p Example 3.9 Let X = l , the space of all bounded sequence.
+The function defined by (cid:3569) kxk = sup |x | (13) (cid:3569) k k(cid:3640) 1 for arbitrary sequence x = {x }(cid:3569) in l is a norm on l .
+Thus (l , k · k) is a normed linear space k k=1 (cid:3569) (cid:3569) (cid:3569) 3.3 EQUIVALENT NORMS Definition 3.6 (Equivalent norms) Let k · k and k · k be two norms defined on a linear space X .
+1 2 You will call k · k and k · k equivalent if there exist constants a, b > 0 such that 1 2 akxk (cid:3639) kxk (cid:3639) bkxk or 1 2 1 akxk (cid:3639) kxk (cid:3639) bkxk (14) 2 1 2 for all x (cid:3547) X Example 3.10 With this definition, you can see that the norms defined on Rn by (6), (7) and (8) are equivalent.
+Theorem 3.1 All norms defined on a finite dimensional space are equivalent.
+Proof.
+Let dim E = n < (cid:3569) and let {e}n be a basis for E. For arbitrary vector x (cid:3547) E, there i i=1 Xn exist unique scalars {αi }i=n1 such that x = αi ei .
+Define kxk0 = max |αi |.
+Clearly, k · k0 is a norm 1(cid:3639) i(cid:3639) n i=1 on E. It suffice now to prove that any norm on E is equivalent to k · k ; i.e., that if k · k is an arbitrary 0 norm on E, there exists constants a > 0, b > 0 such that akxk (cid:3639) kxk (cid:3639) bkxk for all x (cid:3547) 0 0 E. Xn From x = α e we obtain, i i i=1 Xn Xn kxk = α e (cid:3639) max |α ke k. i i i i | 1(cid:3639) i i=1 i=1 (cid:3639) n Xn Since {ei }i=n1 is a basis, it follows that kei k is a number.
+Call it b.
+The last inequality then yields.
+i =1 kxk (cid:3639) bkxk .
+0 It now only remains to prove akxk (cid:3639) kxk.
+Let S = {x (cid:3547) E : kxk = 1}.
+Define the map 0 0 8 3.3 Equivalent Norms ϕ : (E, k · k ) (cid:3450) Rbyϕ(x) = kxk for all x (cid:3547) E. 0 Observe that x = 1.
+Moreover, ϕ is continuous.
+To see this, let be given.
+You have to find a kxk0 0 δ > 0 such that for arbitrary x(cid:3562) (cid:3547) E, if kx (cid:3557) x(cid:3562) k < δ then |ϕ(x) (cid:3557) ϕ(x(cid:3562) )| < .
+Recall that in 0 part (a) we proved that kxk (cid:3639) bkxk for all x (cid:3547) E. Using this we now obtain that 0 |ϕ(x) (cid:3557) ϕ(x(cid:3562) )| = |kxk (cid:3557) kx(cid:3562) k| (cid:3639) kx (cid:3557) x(cid:3562) k (cid:3639) bkx (cid:3557) x(cid:3562) k (cid:3639) bδ < 0 where we have chosen δ = .
+So, ϕ is continuous.
+Since S is compact, ϕ attains its infimum on 1+b S. Let this infimum be denoted by a.
+Then 0 < a < ϕ(x) :=k kx , for all x(cid:3547) S. But x (cid:3547) S. So, kxk0 0 < a (cid:3639) x w iftohr all x (cid:3547) E and this implies akxk0 (cid:3639) kxk for all x (cid:3547) E. Combining this kxk0 kxk (cid:3639) bkxk , we obtain that akxk (cid:3639) kxk (cid:3639) bkxk for all x (cid:3547) E as required.
+0 0 0 Proposition 3.6 Let k · k be a norm defined on a linear space X.
+If ρ : X × X (cid:3450) R is defined for arbitrary x, y (cid:3547) X by ρ(x, y) = kx (cid:3557) yk (15) then, ρ is a metric on X, and so (X, ρ) is a metric space.
+Proof.
+You have to verify that ρ satisfies all the axioms of a metric.
+1.
+Let x, y (cid:3547) X be arbitrary.
+x (cid:3557) y (cid:3547) X since it is linear space.
+So by axiom N1 of a norm, we have ρ(x, y) = kx (cid:3557) yk (cid:3640) 0.
+Which implies that ρ(x, y) (cid:3640) 0 for all x, y (cid:3547) X.
+2. ρ(x, y) = 0 if and only if kx (cid:3557) yk = 0, if and only if x (cid:3557) y = 0 if and only if x = y.
+3.
+Let x, y (cid:3547) X be arbitrary.
+Using axiom N2, ρ(x, y) = kx (cid:3557) yk = k((cid:3557) 1)(y (cid:3557) x)k = | (cid:3557) 1|ky (cid:3557) xk = ky (cid:3557) xk.
+Thus, ρ(x, y) = ρ(y, x) for all x, y (cid:3547) X.
+4.
+Let x, y, z (cid:3547) X be arbitrary.
+Using axiom N3 of a norm, i.e.
+the triangle inequality property, ρ(x, z) = kx (cid:3557) zk = kx (cid:3557) y + y (cid:3557) zk (cid:3639) kx (cid:3557) yk + ky (cid:3557) zk = ρ(x, y) + ρ(y, z) i.e., ρ(x, z) (cid:3639) ρ(x, y) + ρ(y, z), for all x, y, z (cid:3547) X Since ρ satisfies 1, 2, 3 and 4, as shown demonstrated in the proof above, it is a metric on X Hence, (X, ρ) is a metric space.
+You saw that the above proposition is given for an arbitrary norm k · k defined on an arbitrary linear space X.
+Hence, every norm induces a metric but not all metrics are induced by a norm.
+Example 3.11 The formula !
+Xn 2 ρ2(x, y) = kx (cid:3557) yk2 |xk (cid:3557) yk |2 = k=1 9 4 Convex Sets and Convex Functions defines a metric for arbitrary x = (x , ..., x ) and y = (y , ..., y ) in Rn .
+Also k · k and k · k induces 1 n 1 n 1 (cid:3569) the metrics Xn ρ (x, y) = kx (cid:3557) yk = |x (cid:3557) y | 1 1 k k k=1 and ρ (x, y) = kx (cid:3557) yk = max |x | (cid:3569) (cid:3569) 1(cid:3639) k k (cid:3639) n respectively on Rn .
+Example 3.12 The formula !
+1 X(cid:3569) p ρp (x, y) = kx (cid:3557) yklp |xk (cid:3557) yk |p = k=1 defines a metric on l , 1 (cid:3639) p < (cid:3569) p Example 3.13 The formula ρ(cid:3569) (x, y) = kx (cid:3557) yk(cid:3569) = sup |xk (cid:3557) yk | k(cid:3640) 1 induces a metric on the space l of bounded sequences.
+(cid:3569) Example 3.14 The formula Z b 12 ρ (f, g) = kf (cid:3557) gk |f (t) (cid:3557) g(t)|2 dt 2 2 a = induces a metric on the space, C [a, b], of continuous real-valued functions on the closed and bounded interval [a, b].
+4 Convex Sets and Convex Functions The study of convexity is a richly rewarding mathematical experience.
+Theorems dealing with the convexity are invariably clean and easily understood statement.
+The notion of convexity is of paramount importance in functional analysis.
+In this section we shall be dealing with convex sets and convex functions and afterwards, use it to prove the earlier stated Holder’s and Minkwoski’s Inequality.
+10 4.1 Convex Sets 4.1 Convex Sets Here is the basic definition.
+Definition 4.1 Let X be a linear space, and x, y (cid:3547) X.
+The line segment [x, y] joining x and y is defined by [x, y] = {λx + (1 (cid:3557) λ)y : 0 (cid:3639) λ (cid:3639) 1} (16) Definition 4.2 Let X be a linear space.
+A subset C of X is convex if for every x, y (cid:3547) C, and λ (cid:3547) [0, 1], λx + (1 (cid:3557) λ)y (cid:3547) C. (17) Definition 4.2 can be restated as, C (cid:3669) X is convex if for every elements x, y (cid:3547) C, the line segment joining x and y is in C, i.e, [x, y] (cid:3669) C, where [x, y] is as defined in (16).
+Example 4.1 Let x and v be vectors in Rn the line L through x in the direction of v given by L = {x + αv : α (cid:3547) R} is a convex set.
+Proof.
+Let p, q (cid:3547) L. This implies that there exists α , α (cid:3547) [0, 1] such that p = x + α v and 1 2 1 q = x + α v. Now, for arbitrary λ (cid:3547) [0, 1], 2 λp + (1 (cid:3557) λ)q = λ(x + α v) + (1 (cid:3557) λ)(x + α v) 1 2 = x + (λα + (1 (cid:3557) λ)α )v 1 2 Let α = λα + (1 (cid:3557) λ)α (cid:3547) R, then λp + (1 (cid:3557) λ)q = x + α v (cid:3547) L. Since p, q (cid:3547) L and λ (cid:3547) [0, 1] 3 1 2 3 are arbitrary then L is convex.
+Example 4.2 Any linear subspace M of Rn is a convex set since linear subspaces are closed under addition and scalar multiplication.
+This also entails that every linear space is a convex space since a linear space is also a linear subspace of itself.
+Example 4.3 If x(cid:3562) (cid:3547) Rn and if α (cid:3547) R, then the closed half-spaces F + = {y (cid:3547) Rn : hx(cid:3562) , yi (cid:3640) α} F (cid:3557) = {y (cid:3547) Rn : hx(cid:3562) , yi (cid:3639) α} and the open half-spaces  G+ = {y (cid:3547) Rn : hx(cid:3562) , yi G(cid:3557) = {y (cid:3547) Rn : hx(cid:3562) , yi < α} > α} 11 4.1 Convex Sets determined by x(cid:3562) and α are all convex sets.
+For example, if u, w are in F + and if 0 (cid:3639) λ (cid:3639) 1, then hx(cid:3562) , [λu + (1 (cid:3557) λ)w]i = λhx(cid:3562) , ui + (1 (cid:3557) λ)hx(cid:3562) , wi (cid:3640) λα + (1 (cid:3557) λ)α = α so λu + (1 (cid:3557) λ)w (cid:3547) F + Example 4.4 If x(cid:3562) (cid:3547) Rn and if r > 0, then the ball B(x(cid:3562) , r) = {y (cid:3547) Rn : ky (cid:3557) x(cid:3562) k < r} centered at x(cid:3562) of radius r is a convex set.
+In fact, if y, z are in B(x(cid:3562) , r), then ky (cid:3557) x(cid:3562) k < r, kz (cid:3557) x(cid:3562) k < r. For 0 (cid:3639) λ (cid:3639) 1, you can apply the Triangle inequality as follows: kλy + (1 (cid:3557) λ)z (cid:3557) x(cid:3562) k = kλ(y (cid:3557) x(cid:3562) ) + (1 (cid:3557) λ)(z (cid:3557) x(cid:3562) )k (cid:3639) λky (cid:3557) x(cid:3562) k + (1 (cid:3557) λ)kz (cid:3557) x(cid:3562) k < λr + (1 (cid:3557) λ)r = r to conclude that λy + (1 (cid:3557) λ)z (cid:3547) B(x(cid:3562) , r).
+Example 4.5 Let X be a linear space and α (cid:3547) R. Let f : X (cid:3450) R be a real linear functional.
+The following sets 1.
+The Closed half-spaces; H = {x (cid:3547) X : f (x) (cid:3639) α} f,α (cid:3557) H + = {x (cid:3547) X : f (x) (cid:3640) α} f,α 2.
+The open half-spaces Hf(cid:3557)(cid:3562),α = {x (cid:3547) X : f (x) < α} H = {x (cid:3547) X : f (x) > α} f,α +(cid:3562) 3.
+The hyperplane H = {x (cid:3547) X : f (x) = α} are convex subsets of X, when f is not the zero linear functional.
+12 4.1 Convex Sets Example 4.6 If {C } is a collection of convex subsets of a linear space X, then the intersection α α(cid:3547)∆ \ C = C α α(cid:3547)∆ is also convex.
+For if y, z (cid:3547) C and if 0 (cid:3639) λ (cid:3639) 1, then y, z (cid:3547) C for each α (cid:3547) ∆, so λy +(1(cid:3557) λ)z (cid:3547) α C α \ for each α since C is convex.
+But λy + (1 (cid:3557) λ)z (cid:3547) C =: C, so that C is convex.
+α α α(cid:3547)∆ In the definition of convexity above, you used above merely two points.
+You can also deal with the case of more than 2 points.
+This leads to the introduction of the concept of convex combination.
+Definition 4.3 Convex Combination.
+Let x , ..., x be n points of the vector space X.
+Any elements 1 n of the form Xn x = λ x (18) i i i=1 nX with λ (cid:3640) 0 and λ = 1, is called convex combination of the elements x , ..., x .
+i i 1 n i=1 The above definition gives you the following other characterization of convex sets.
+Proposition 4.1 A nonempty subset C of the vector space X is convex if and only if C contains all convex combinations of all its elements.
+Proof.
+((cid:3512) ) : This implication is obvious.
+((cid:3514) ) : Assume that the nonempty set C is convex, you have to show that C contains all its convex combinations.
+You can proceed by induction as follows.
+Define the property P as follows; n Xn nX P : λ x (cid:3547) C for all x , ..., x (cid:3547) C, λ (cid:3640) 0, λ = 1 n i i 1 n i i i=1 i=1 1.
+The property obviously hold for n = 1, i.e., (P ) is fulfilled.
+1 2.
+Assume that properties (P ), ..., (P ) holds.
+Let x , ..., x , x (cid:3547) C, λ (cid:3640) , λ (cid:3640) 0, ..., λ 1 n 1 n n+1 1 2 n (cid:3640) 0, λ (cid:3640) 0with n+1 Xn+1 λ = 1 i i=1 Of course, if λ = 1, then n+1 Xn+1 λ x = x (cid:3547) C, i i n+1 i=1  because λ = · · · = λ = 0 in this case.
+And so 1 n 13 4.1 Convex Sets Xn+1 λ x (cid:3547) C. i i i=1 Assume that λ = 1.
+This allows you to write n+1 Xn+1 Xn λi xi = λi xi + λn+1 xn+1 i=1 i=1 (19) !
+Xn λ = (1 (cid:3557) λn+1 ) 1 (cid:3557) λi x i + λn+1 xn+1 .
+n+1 i=1 You have X i=n1 1 (cid:3557) λ λi n+1 = 1 (cid:3557) 1λ n+1 Xi=n1 λi = 1 (cid:3557) 1λ n+1 (1 (cid:3557) λ n +1 ) since Xni=+11 λi = 1 and λ i (cid:3640) 0 and x1, ..., xn (cid:3547) C, 1 (cid:3557) λ n hence by induction assumption, Xn λ x0 := i x (cid:3547) C 1 (cid:3557) λ i n+1 i=1 Since y0 := x (cid:3547) C by assumption you get that n+1 (1 (cid:3557) λ )x0 + λ y0 (cid:3547) C (20) n+1 n+1 because λ (cid:3547) [0, 1].
+Combining (2) and (3) you can conclued that n+1 Xn+1 λ x (cid:3547) C i i i=1 This completes the proof.
+Definition 4.4 Convex hull.
+Let A be a subset of a vector space X.
+The intersection of the (nonempty) family of all convex sets of X containing A is a convex set containing A and is obviously the smallest convex set of X containing A.
+This is called the convex hull of A, and it is denoted by co A or co (A) or cov A or cov (A) Proposition 4.2 Let A be a nonempty subset of the vector space X.
+Then co A conicides with the set of all convex combinations of elements of A.
+The following result follows from the above proposition.
+Corollary 4.1 A subset C of a vector space X is convex if and only if C = cov C 14 4.2 Convex Functions 4.2 Convex Functions Linear functions are very appealing because they are easy to manipulate and their graphs are especially simple (line in the plane for one independent variable, planes in space for two independent variables, and so on).
+Anyone who has ever used linear programming knows that linear functions are important in applied mathematics.
+In this section, we will begin study of a class of functions, called convex function, which includes the class of linear functions but which has much wider range of applications than the class of linear functions.
+Definition 4.5 Let D be a convex subset of a real vector space X and f : D (cid:3450) R. Then, (i) f is said to be convex (respectively strictly convex) if for each x, y (cid:3547) D and λ (cid:3547) [0, 1], you have f (λx + (1 (cid:3557) λ)y) (cid:3639) λf (x) + (1 (cid:3557) λ)f (y) respectively f (λx + (1 (cid:3557) λ)y) < λf (x) + (1 (cid:3557) λ)f (y) (ii) f is concave (resp.
+strictly concave) if for each x, y (cid:3547) D, and λ (cid:3547) [0, 1], you have f (λx + (1 (cid:3557) λ)y) (cid:3640) λf (x) + (1 (cid:3557) λ)f (y) respectively f (λx + (1 (cid:3557) λ)y) > λf (x) + (1 (cid:3557) λ)f (y) Proposition 4.3 f is convex if and only if ((cid:3557) f ) is concave, and f is concave if and only if ((cid:3557) f ) if convex.
+Example 4.7 If f : X (cid:3450) R be a linear functional defined on a linear space X, then f is a convex function.
+For if 0 (cid:3639) λ (cid:3639) 1 and x, y (cid:3547) X, then λx + (1 (cid:3557) λ)y (cid:3547) X, since X is convex, and linearity of f gives you that, f (λx + (1 (cid:3557) λ)y) = λf (x) + (1 (cid:3557) λ)f (y) (21) Which implies that f (λx + (1 (cid:3557) λ)y) (cid:3639) λf (x) + (1 (cid:3557) λ)f (y).
+Also, all linear functional are concave but neither strictly convex nor strictly concave.
+Example 4.8 Every norm k · k defined on a linear space X is a convex function.
+For If x, y (cid:3547) X and 0 (cid:3639) λ (cid:3639) 1, then by triangle inequality kλx + (1 (cid:3557) λ)yk (cid:3639) |λ|kxk + |(1 (cid:3557) λ)|kyk = λkxk + (1 (cid:3557) λ)kyk  15 5 Conclusion 5 CONCLUSION In this unit, you have defined a norm on a linear space to make it a normed linear space.
+You have seen and verified different kinds of norms defined on given linear spaces.
+You now know how to apply properly the Holder’s, Minkwoski’s and Cauchy Schwartz’s inequalities to verify the third property of a norm (i.e the triangle inequality) for some norms.
+And you have also seen how to make a linear space a metric space.
+6 SUMMARY Having gone through this unit, you now know that (i) a norm k · k defined on a linear space X is a real valued function satisying (a) kxk (cid:3640) 0 for all x (cid:3547) X, and kxk = 0 if and only if x = 0; (b) kλxk = |λ|kxk for all x (cid:3547) X and all scalar λ; (c) kx + yk (cid:3639) kxk + kyk for all x, y (cid:3547) X.
+(ii) the pair (X, k · k) comprising of the linear space X and a norm k · k defined on it is call a normed linear space.
+(iii) if 1 (cid:3639) p < (cid:3569) , and K = (R or C), then the set ( ) X(cid:3569) l (K) = x = (x , x , ..., x , ...), x (cid:3547) K, k (cid:3640) 1 : |x |p < (cid:3569) p 1 2 k k k k=1 is called an l space.
+p (iv) the l space is the space of all bounded sequences of real or complex numbers, given by (cid:3569) l = {x = (x , x , ..., x , ...) : x is bounded} (cid:3569) 1 2 k (v) if 1 (cid:3639) p, q (cid:3639) (cid:3569) with 1 + 1 = 1, and x = {x } (cid:3547) l , y = {y } (cid:3547) l , then, p q k p k q !
+!
+1 1 X(cid:3569) X(cid:3569) p X(cid:3569) q |xk yk | |yk |q k=1 k=1 k=1 (cid:3639) This is the Holder’s Inequality.
+If p = q = 2, then the Holder’s Inequality becomes the Cauchy- Schwartz inequality.
+(vi) if 1 (cid:3639) p < (cid:3569) and x = {x }, y = {y } are elements of l , then k k p !
+1 !
+1 !
+1 X(cid:3569) p X(cid:3569) p X(cid:3569) p |xk + yk |p (cid:3639) |xk |p + |yk |p k=1 k=1 k=1 (vii) two norms k · k and k · k defined on a linear space X are called equivalent if there exist 1 2 constants a, b > 0 such that 16 7 Tutor Marked Assignments (TMAs) akxk1 (cid:3639) kxk2 (cid:3639) bkxk1 or akxk2 (cid:3639) kxk1 (cid:3639) bkxk2 for all x (cid:3547) X.
+(viii) all norms defined on a finite dimensional space are equivalent.
+(ix) every norm defined on a linear space X defines a metric dρ : X × X (cid:3450) R on X by ρ(x, y) = kx (cid:3557) yk for all x, y (cid:3547) X there by making X a metric space.
+(x) a subset C of a linear space X is convex if for every x, y (cid:3547) C and λ (cid:3547) [0, 1], λx + (1 (cid:3557) λ)y (cid:3547) C. (xi) if x , ..., x are n points of a linear space, then the element 1 n Xn x = λ x k k k=1 P with λk (cid:3640) 0 for each k and k=n1 λk = 1, is called convex combination of the elements x , ..., x .
+1 n (xii) a nonempty subset C of a linear space X is convex if and only if it contains the convex combi- nation of all its elements.
+(xiii) if A is nonempty subset of a linear space, then the the intersection of all convex sets containing A gives you the convex hull of A denoted by co A (xiv) a real-valued function f : D (cid:3450) R defined on a convex subset D of a linear space X is (a) convex (resp.
+strictly convex) if for all x, y (cid:3547) D, and 0 (cid:3639) λ (cid:3639) 1 f (λx + (1 (cid:3557) λ)y) (cid:3639) λf (x) + (1 (cid:3557) λ)f (y) respectively f (λx + (1 (cid:3557) λ)y) < λf (x) + (1 (cid:3557) λ)f (y) (b) concave (resp.
+strictly concave) if for all x, y (cid:3547) D, and 0 (cid:3639) λ (cid:3639) 1 f (λx + (1 (cid:3557) λ)y) (cid:3640) λf (x) + (1 (cid:3557) λ)f (y) respectively f (λx + (1 (cid:3557) λ)y) > λf (x) + (1 (cid:3557) λ)f (y) 7 TUTOR MARKED ASSIGNMENTS (TMAs) 1.
+Let Rn := {x = (x , x , ..., x ), x (cid:3547) R}.
+For arbitrary element x = (x , x , ..., x ) (cid:3547) Rn , 1 2 n k 1 2 n show that the following real valued functions; n X kxk = |x |, 1 k k=1 17 7 Tutor Marked Assignments (TMAs) !
+1 Xn 2 kxk2 = |xk |2 k=1 and kxk = max |x | (cid:3569) k 1(cid:3639) k (cid:3639) n are norms on Rn .
+Therefore, (Rn , k · k ), (Rn , k · k ) and (Rn , k · k ) are normed linear spaces.
+(cid:3569) 1 2 (Rn , k · k2 ) is called the Euclidean space.
+2.
+Show that the norms in Question 1 are equivalent.
+3.
+For arbitrary x = (x , x , ..., x ) (cid:3547) Rn , define k · k : Rn (cid:3450) R, p (cid:3640) 1 as follows, 1 2 n p !
+1 Xn p kxkp = |xk |p k=1 Verify that k · k is a norm on Rn .
+The space (Rn , k · k ) is usually denoted by ln .
+p p p 4.
+Let Cn := {z = (z , z , ..., z ), z (cid:3547) C} be the complex n-space, with vector addition and 1 2 n k scalar multiplication are defined componentwise.
+Let k · k : Cn (cid:3450) R be defined as follows 2 !
+Xn kzk2 = |zk |2 .
+k=1 Verify that (Cn , k · k ) is a normed linear space.
+This space is usually referred to as the unitary 2 space.
+5.
+Let X = C 1[a, b] be the space of all continuous real valued functions on [a, b] which also have continous derivatives on [a, b].
+For arbitrary f (cid:3547) C 1[a, b], define df (t) kf k = max |f (t)| + max .
+a(cid:3639) t(cid:3639) b a(cid:3639) t(cid:3639) b dt Verify that (X, k · k) is a normed linear space.
+6.
+Let X = C [a, b] be the space of all continuous real-valued functions on [a, b] Z b kf k = |f (t)| dt 1 a Verify that (X, k · k ) is a normed linear space.
+1 7.
+Let X = C [a, b] be the space of all continuous real-valued functions on [a, b] Z b 12 kf k = |f (t)|2 dt 2 a Verify that (X, k · k ) is a normed linear space.
+2 8.
+Let X be a normed linear space.
+Prove that for arbitrary x, y (cid:3547) X, (a) |kxk (cid:3557) kyk| (cid:3639) kx (cid:3557) yk;  18 7 Tutor Marked Assignments (TMAs) (b) The mapping x (cid:3450) kxk is continuous ( in the sense that if x (cid:3450) x then kxk (cid:3450) kxk); n (c) Addition and scalar multiplication are jointly continous, i.e., if x (cid:3450) x and y (cid:3450) y then n n x + y (cid:3450) x + y; and if x (cid:3450) x and a (cid:3450) a then a x (cid:3450) ax as n (cid:3450) (cid:3569) , where a and n n n n n n n a are real scalars.
+9.
+Consider vectors x = (1, (cid:3557) 3, 4, 1, (cid:3557) 2) and y = (3, 1, (cid:3557) 2, (cid:3557) 3, 1) in R5.
+Find (a) kxk and kyk , (cid:3569) (cid:3569) (b) kxk and kyk , 1 1 (c) kxk and kyk , 2 2 (d) ρ (x, y), ρ (x, y), and ρ (u, v) (cid:3569) 1 2 10.
+Repeat Problem 9 for z = (1 + i, 2 (cid:3557) 4i) and ω = (1 (cid:3557) i, 2 + 3i) in C2.
+11.
+Consider the function f (t) = 5t (cid:3557) t2 and g(t) = 3t (cid:3557) t2 in C [0, 4].
+Find: (a) d (f, g), (cid:3569) (b) d (f, g), 1 (c) d (f, g).
+2  19  UNIT 2: BANACH SPACES Contents 1 Introduction 1 2 Objectives 2 3 Main Content 2 4 Complete normed linear spaces 3 4.1 Completeness of Rn and Cn .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+3 4.2 Completeness of l .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 (cid:3569) 4.3 Completeness of C [a, b] .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 5 Incomplete normed linear spaces 7 6 Conclusion 10 7 Summary 10 8 Tutor Marked Assignments (TMAs) 11 1 Introduction In your course of metric spaces, you learnt that a metric space is a space with a metric (i.e., a function that measures the distance between any two point of a space) defined on it.
+And you also know that a complete metric space is one in which every Cauchy sequence of its element converges in it.
+You also learnt from the last unit that every normed linear space is a metric space.
+In this unit, you will be introduced to normed linear spaces in which every cauchy sequence of its element converges in it.
+It is this kind of normed linear spaces that you shall call complete normed linear space or Banach Spaces.
+1 2 Objectives 2 OBJECTIVES.
+At the end of this unit, you should be able to; (i) identify normed linear spaces that are complete and prove them.
+(ii) identify incomplete normed linear spaces.
+(ii) use the fact that every subspace of a complete space is complete to prove that some normed linear spaces are complete.
+3 MAIN CONTENT The following serves as a reminder of the things you know already, which will be of paramount importance to you in this unit.
+Definition 3.1 Let (X, ρ) be a metric space.
+A sequence {x } of elements of X is said to converge to n a point x (cid:3547) X, if given any > 0, there exists N := N ( ) (cid:3547) N such that n (cid:3640) N implies that ρ(x , x) < n Definition 3.2 Let (X, ρ) be a metric space.
+A sequence {x } of elements of X is called Cauchy if n given any > 0, there exists N := N ( ) (cid:3547) N such that n, m > N implies that ρ(x , x ) < .
+n m Definition 3.3 Let (X, ρ) be a metric space.
+Let E (cid:3669) X. E said to be closed if and only if every sequence {x } of elements of E converges in E. n That is E is closed if and only if given an arbitrary sequence {x } of elements of E such that n x (cid:3450) x in X, then x (cid:3547) E. n Definition 3.4 Let E be a subset of a metric space (X, ρ).
+E is called complete if every Cauchy sequence of elements of E converges in E. Theorem 3.1 Let (X, ρ) be a complete metric space, and let E (cid:3669) X.
+(E, ρ ) is complete if and only E if it is closed.
+Where ρ is the subspace metric induced by ρ. E Proof.
+((cid:3514) ) Assume that E is complete, Let {x } be a sequence of elements of E such that n x (cid:3450) x (cid:3547) X as n (cid:3450) (cid:3569) .
+{x } is a Cauchy sequence in X as well as in E since every convergent n n sequence of a metric space is Cauchy.
+E is complete gives you that x (cid:3547) E. ((cid:3512) ) For this direction, assume that E is closed, you have to show that E is complete.
+Now take any Cauchy sequence {x } of elements of E. You have that {x } is also Cauchy in X, n n thus, x (cid:3450) x (cid:3547) X as n (cid:3450) (cid:3569) .
+But by your assumption that E is closed, you have that x (cid:3547) E. n 2 4 Complete normed linear spaces 4 COMPLETE NORMED LINEAR SPACE.
+You have taken time to go through the preamble, you can now deduce that as a metric space (X, ρ), where ρ is the metric induced by the norm k · k, defined on X, a complete normed linear space is one which contains the limit of any Cauchy sequence of its elements.
+Now, when you are confronted with the problem of verifying that the metric space (X, ρ) is complete, you have to take an arbitrary Cauchy sequence {x } of elements of X and show that it n converges to a point of X.
+The general pattern is the following: (a) Construct an element x(cid:3562) which you will use as the limit of the Cauchy sequence, (b) prove that x(cid:3562) is in the space under consideration, (c) prove that x (cid:3450) x(cid:3562) (in the sense of the metric under consideration).
+n For you to construct x(cid:3562) as mentioned in (a), you will use the fact that given sequence {x } n is Cauchy to generate a Cauchy sequence in a complete space that is associated with the normed linear space under consideration.
+(This complete space is usually the real, R or the complex numbers, C).
+Once you have successfully constructed x(cid:3562) , steps (b) and (c) are generally not too difficult to complete.
+Take a little step further and you will see some examples, they are rigorously simple and interest- ing.
+4.1 COMPLETENESS OF Rn AND Cn Theorem 4.1 The real n-space Rn equipped with the Euclidean norm, !
+Xn 21 kxk2 = |xk |2 k=1 for arbitrary x = (x , x , ..., x ) (cid:3547) Rn , is complete.
+1 2 n The metric induced by k · k is 2 !
+1 Xn 2 ρ( x(r), x(s) ) = kx(r) (cid:3557) x(s) k2 | x ( r) (cid:3557) x (s) |2 (1) = k k k=1 Proof.
+You know that Rn = {x = (x , x , ..., x ), x (cid:3547) Rn } .
+To proceed with this proof, 1 2 n k you have to first of all take an arbitrary Cauchy sequence of elements of Rn .
+So let x(m) = 3 4.1 Completeness of Rn and Cn x(1) , x(2) , ..., x(m), ... be an arbitrary Cauchy sequence in Rn where (cid:2) x(1) = (x(11 ) , x(21 ) , x3( 1 ) , ..., x(n1 ) ) (cid:2) (cid:2) (cid:2) x(2) = (x(21) , x(22 ) , x(32 ) , ..., x(n2) ) (cid:2)(cid:2)(cid:2) (cid:2) (cid:2) .
+.
+.
+.
+.
+(cid:2) (cid:2) (cid:2) x(m) = (x(1m ), x(m2 ) , x3(m ), ..., x(nm ) ) (cid:2)(cid:2) (cid:2) (cid:2) (cid:2) .
+.
+.
+.
+.
+{x(m) } being a Cauchy sequence implies that given > 0, there exists an integer N such that for all r, s (cid:3640) N, we have !
+1 Xn 2 ρ( x(r), x(s)) = kx(r) (cid:3557) x(s)k2 |x ( r) (cid:3557) x (s) |2 < = k k k=1 This implies that Xn (r) (s) 2 xk (cid:3557) xk < k=1 i.e.
+for each k (cid:3547) {1, 2, ..., n} (r) (s) 2 x (cid:3557) x < , f or all r, s (cid:3640) N k k (m) This means that for each k (cid:3547) {1, 2, ..., n}, {x } is a Cauchy sequence in R. and since R is complete, k it follows that x(m) (cid:3450) x(cid:3562) (cid:3547) R as m (cid:3450) (cid:3569) , i.e., k k (cid:2) x(m) = (x(1m ), x(2m ) , x3( m), ..., xn(m ) ) (cid:2) (cid:2) (cid:2) (cid:3451) (cid:3451) (cid:3451) (cid:3451) (x(cid:3562) , x(cid:3562) , x(cid:3562) , ..., x(cid:3562) ) 1 2 3 n Now define x(cid:3562) = (x(cid:3562) , x(cid:3562) , x(cid:3562) , ..., x(cid:3562) ) and you have completed step (a).
+1 2 3 n Observe that you have used the completeness of R to get x ; k = 1, 2, ..., n and this helped you to k define x(cid:3562) .
+Proceed now to step (b).
+Step (b) You have to show that x(cid:3562) is in Rn .
+This is simply obvious because each x(cid:3562) ’s are in R, making, k x(cid:3562) = (x(cid:3562) , x(cid:3562) , ..., x(cid:3562) ) (cid:3547) Rn , and that’s it you have completed step (b).
+You can now proceed to the 1 2 n final step, i.e., step (c).
+4 4.2 Completeness of l (cid:3569) Step (c) Here, you have to show that x(m) (cid:3450) x(cid:3562) as m (cid:3450) (cid:3569) .
+Already, you have that for each k (cid:3547) {1, 2, ..., n} fixed, x(m) (cid:3450) x(cid:3562) as m (cid:3450) (cid:3569) which means that given any > 0, there exists N (cid:3547) N such that for all k k k m (cid:3640) N,1 x(m) (cid:3557) x(cid:3562) < (where n is the one appearing in R n and is fixed).
+k k 1 n 2 Now, you can choose N = max N , then for all m > N, k 1(cid:3639) k(cid:3639) n !
+1 Xn 2 ρ(x(m), x(cid:3562) ) = |x ( m) (cid:3557) x(cid:3562) |2 k k k=1 !
+1 < Xn 2 2 2 21 = = n · n n k=1 i.e., ρ(x(m), x(cid:3562) ) < for all m (cid:3640) N. Hence you have that x(m) (cid:3450) x(cid:3562) as m (cid:3450) (cid:3569) .
+Since x(cid:3562) (cid:3547) Rn (you got this in step (b)) and the Cauchy sequence {x(m)} of elements of Rn is arbitrary, you have that Rn is complete.
+Following this same approach, you can prove that the complex n-space Cn with the norm !
+1 Xn 2 kzk = |zk |2 k=1 is complete 4.2 Completeness of l .
+(cid:3569) Theorem 4.2 The space l is complete.
+(cid:3569) Proof.
+Let {x(m)}m(cid:3569)= 1 be a Cauchy sequence in l(cid:3569) , where (cid:2) x(1) = (x(11 ) , x(21 ) , x3(1 ), ..., xn(1 ) , ...) (cid:2) (cid:2) (cid:2) x(2) = (x(21) , x(22) , x(32 ) , ..., x(2n) , ...) (cid:2)(cid:2)(cid:2) (cid:2) (cid:2) .
+.
+.
+.
+.
+(cid:2) (cid:2) (cid:2) x(m) = (x(m1 ), x(m2 ) , x(3m ), ..., x(nm ) , ...) (cid:2)(cid:2) (cid:2) (cid:2) (cid:2) .
+.
+.
+.
+.
+5 4.3 Completeness of C [a, b] {x(m) is Cauchy implies that given any > 0, there exists N such that for all r, s (cid:3640) m=1 }(cid:3569) N, ρ(x(r), x(s)) = sup |x(r) (cid:3557) x(s)| < .
+k k k(cid:3640) 1 i.e., for each k fixed, |x(r) (cid:3557) x(s) | (cid:3639) sup (r)|x (s(cid:3557)) x | < for all r, s k k k(cid:3640) 1 k k (cid:3640) N This implies that for each k (cid:3640) 1 fixed, {x(n)}(cid:3569) is a Cauchy sequence of elements of R and by k k the completeness of R, x(m) (cid:3450) x(cid:3562) (cid:3547) R as m (cid:3450) (cid:3569) (i.e., {x(m)} converges to the point x(cid:3562) in R.).
+This is k k k k illustrated by the array below (cid:2) x(m) = (x(1m ) , x(m2 ) , x3( m), ..., x(nm ) , ...) (cid:2) (cid:2) (cid:2) (cid:3451) (cid:3451) (cid:3451) (cid:3451) (cid:2) (cid:2) (cid:2) (x(cid:3562) , x(cid:3562) , x(cid:3562) , ..., x(cid:3562) , ...) 1 2 3 n Define x(cid:3562) = (x(cid:3562) , x(cid:3562) , x(cid:3562) , ..., x(cid:3562) , ...).
+1 2 3 n Step (b) For this step, you have to show that x(cid:3562) (cid:3547) l .
+Now (m) }(cid:3569) (cid:3547) l implies that kx (m) k (cid:3639) t (cid:3569) m= 1 (cid:3569) (cid:3569) m (m) {x for each m, which implies that |xk( m)| (cid:3639) tm for each k. Also xk (cid:3450) x(cid:3562)k as m (cid:3450) (cid:3569) , so that |x(cid:3562) | (cid:3639) |x(cid:3562) (cid:3557) x (m) | + |x (m) | < + t k k k k m This inequality holds for every k and the right-hand side is independent of k. Hence {x(cid:3562) is a }(cid:3569) k k=1 bounded sequence of numbers.
+This implies x(cid:3562) (cid:3547) l .
+So you have completed step (b).
+(cid:3569) Step (c) From the convergence of {x(m) } you have that given any > 0, there exist N (cid:3547) N such that k |x(m) (cid:3557) x(cid:3562) | < k k , for all m (cid:3640) N. This implies that ρ(x(m) , x(cid:3562) ) = sup |x(m) (cid:3557) x(cid:3562) | (cid:3639) for all m (cid:3640) N. k k k(cid:3640) 1 This shows that x(m) (cid:3450) x(cid:3562) in l(cid:3569) .
+Since {x(m) }m(cid:3569)= 1 is arbitrary, l(cid:3569) is complete 4.3 Completeness of C [a, b]  Theorem 4.3 The space C [a, b] of continous real valued function defined on [a,b] is complete if endowed with the sup norm kf k = max |f (t)| 0 a(cid:3639) t (cid:3639) b 6 5 Incomplete normed linear spaces Proof.
+Let {f }(cid:3569) be a Cauchy sequence in C [a, b].
+For each t (cid:3547) [a, b], there exists a positive n n=1 integer N such that given > 0, kf (cid:3557) f k = sup |f (t) (cid:3557) f (t)| < , for all n, m (cid:3640) N. n m 0 n m a(cid:3639) t(cid:3639) b Hence, for any fixed t (cid:3547) [a, b], |f (t ) (cid:3557) f (t )| < for all n, m (cid:3640) N. This shows that {f (t 0 n 0 m 0 n 0n =1 )}(cid:3569) is a Cauchy sequence of real numbers.
+Since R is complete, {f (t )}(cid:3569) converges to a real number, n 0 n=1 say f (t ) as n (cid:3450) (cid:3569) , i.e., 0 f (t ) (cid:3450) f (t ) as n (cid:3450) (cid:3569) .
+n 0 0 This is the same as saying that the function f converges pointwise to the function f. You have to n prove next that this pointwise convergence is actually uniform in t (cid:3547) [a, b], i.e., given any > 0, there is an integer N (cid:3562) such that sup |f (t) (cid:3557) f (t)| < for all n (cid:3640) N (cid:3562) .
+So given any > 0, choose N n a(cid:3639) t(cid:3639) b such that kf (cid:3557) f k < for n, m (cid:3640) N. Then for n > N, n m 2 |f (t) (cid:3557) f (t)| (cid:3639) |f (t) (cid:3557) f (t)| + |f (t) (cid:3557) f (t)| n n m m (cid:3639) sup |fn (t) (cid:3557) fm (t)| + |fm (t) (cid:3557) f (t)| a(cid:3639) t(cid:3639) b = kfn (cid:3557) fm k + |fm (t) (cid:3557) f (t)| By choosing m sufficiently large (m may depend on t) each term on the right-hand side can be make less than 2 so that sup |fn (t) (cid:3557) f (t)| < for all n (cid:3640) N. Hence, the convergence is uniform, a(cid:3639) t i.e., (cid:3639) b f (cid:3450) f uniformly on [a, b].
+Hence, C [a, b] is complete.
+n 5 INCOMPLETE NORMED LINEAR SPACES.
+In the last section, you saw that a normed linear space (X, k · k) is complete if every Cauchy sequence of its elements converges in the space.
+This means that you will call (X, k · k) if you can get a Cauchy sequence of elements of X the a does not converge in X.
+Below are examples of some normed linear space that are incomplete.
+Example 5.1 The space C [a, b] of continuous real valued functions defined on [a, b] endowed with any of the integral norms Z b kf k = |f (t)|dt 1 a and Z b 21 kf k = |f (t)|2dt 2 a is incomplete.
+You can illustrate this examples by taken particular cases for [a, b], as in the examples below.
+7 5 Incomplete normed linear spaces Example 5.2 Let X = C [(cid:3557) 1, 1] be the space of all continuous real-valued functions defined on the closed and bounded interval [(cid:3557) 1, 1] with norm k · k given by 1 Z 1 kf k = |f (t)|dt, t (cid:3547) [(cid:3557) 1, 1], f (cid:3547) C [(cid:3557) 1, 1] 1 (cid:3557) 1 Then the space (X, k · k ) is not complete.
+1 Solution.
+Following the comment at the begining of this section, you see that it is enough for you to produce a Cauchy sequence of elements of C [(cid:3557) 1, 1] that does not converge to an element of C [(cid:3557) 1, 1].
+Consider the function f given by n (cid:2) 0, if (cid:3557) 1 (cid:3639) t (cid:3639) 0; (cid:2) (cid:2) f (t) = nt, if 0 (cid:3639) t (cid:3639) 1 ; n n (cid:2) (cid:2) (cid:2) 1, if 1 (cid:3639) t n (cid:3639) 1 for each n (cid:3547) N. The function is sketched in figure 1.
+First of all you have to check f (cid:3547) C [(cid:3557) 1, 1] n for each n (cid:3547) N. That is you must show that {f } is a sequence of continuous real valued function n defined on [(cid:3557) 1, 1] The proof that f is continuous for each n (cid:3547) N is done by a very important lemma n you studied in metric spaces called pasting lemma.
+f (t) n P(1/n,1) (0,1) −1 O 1/n 1 t Figure 1: To see this, you can set A = [(cid:3557) 1, 0], A = [0, 1 ] and A = [ 1 , 1] n (cid:3547) N. Then for all t (cid:3547) A , 1 2 n 3 n 1 f (t) = 0, implies that f is continuous on A as a constant function; also for all t (cid:3547) A , f (t) = nt, n n 1 2 n is continuous; and for all t (cid:3547) [ 1 , 1], f (t) = 1 is also continuous.
+A , A and A are closed sets in R, n n 1 2 3 A (cid:3580) A = {0} and f (0) = 0, A (cid:3580) A = { 1 } and f ( 1 ) = 1, and [(cid:3557) 1, 1] = [(cid:3557) 1, 0] (cid:3581) [0, 1 ] (cid:3581) [ 1 , 1 2 n 2 3 n 1].
+n n n n Therefore by pasting lemma, f is continuous on [(cid:3557) 1, 1] for each n (cid:3547) N. Hence, f (cid:3547) C [(cid:3557) 1, 1] n n for each n (cid:3547) N. Next is to show that {f } is a Cauchy sequence in C [(cid:3557) 1, 1].
+So let m > n so that < 1 You n m n 1 have to show that kf (cid:3557) f k (cid:3450) 0 as n, m (cid:3450) n m 1 (cid:3569) Z 1 |f (t) (cid:3557) f (t)|dt n m 0 (cid:3639) kf (cid:3557) f k (cid:3557) 1 n m 1 = But this integral represents the area between f and f .
+So from figure 2, you have that n m Z 1 1 1 1 kf (cid:3557) f k |f (t) (cid:3557) f (t)|dt = Area of 4OC D = ( (cid:3557) ) (cid:3450) 0 as n, m (cid:3450) (cid:3569) n m 1 n m 2 n m = (cid:3557) 1 8 5 Incomplete normed linear spaces f (t) n C D (0,1) −1 O 1/m 1/n 1 t Figure 2: Z 1 You can also compute |f (t) (cid:3557) f (t)|dt directly as follows n m (cid:3557) 1 Z 1 kf (t) (cid:3557) f (t)k = |f (t) (cid:3557) f n m 1 n m (t)|dt (cid:3557) 1 Z Z 1 1 n Z Z 0 m 1 = |0 (cid:3557) 0|dt + |mt (cid:3557) nt|dt + |1 (cid:3557) nt|dt |1 (cid:3557) 1|dt (cid:3557) 1 0 + 1 n 1 m Z Z 1 1 m n = (m (cid:3557) n)tdt + (1 (cid:3557) nt)dt 0 1 m = (m (cid:3557)2 n)t 2 m 1 +(cid:3557) t n2 t2 m 11 0 n = (m (cid:3557) n) 1 +1 n 1 (cid:3557) 1 + n 1 (cid:3450) 0 as n, m (cid:3450) (cid:3569) (cid:3557) 2 m2 m 2 m2 n 2 n2 Thus {f } is a Cauchy sequence of elements of C [(cid:3557) 1, 1].
+n Next is for you to show that {f } converges to an element that is not in C [(cid:3557) 1, 1].
+If {f }(cid:3569) n nn =1 is convergent, in order to find the candidate for its limit, you should examine f (t) defined above.
+If n n (cid:3450) (cid:3569) , the interval 0 (cid:3639) t (cid:3639) 1 reduces to t = 0 and the (cid:3639) t (cid:3639) 1 becomes 0 < t (cid:3639) 1. interval 1 You n n can there conclude that f : [(cid:3557) 1, 1] (cid:3450) [0, 1] defined by (cid:2) (cid:2) 0, if (cid:3557) 1 (cid:3639) t (cid:3639) 0; f (t) = (cid:2) 1, if 0 < t (cid:3639) 1. is a candidate for the limit.
+Z Clearly, kf (cid:3557) f k = R1 = 1 |f (t) (cid:3557) f (t)|dt = area of 4OAB 1 1 (cid:3450) 0 as n (cid:3450) (cid:3569) .
+n 1 n = (cid:3557)1 2 n (cid:3557) 1 Thus the sequence {f }(cid:3569) defined above is a Cauchy sequence in C [(cid:3557) 1, 1] which converges to f. n n=1 However, f is not in C [(cid:3557) 1, 1] since f is not continuous at 0, you can check this.
+Thus C [(cid:3557) 1, 1] is complete.
+not  Z 3 12 Example 5.3 Let X = C [(cid:3557) 3, 3] with kf k |f (t)|2 .
+Then X is not complete.
+2 = (cid:3557) 3 9 6 Conclusion fn (t) (0,1) A B −1 O 1/n 1 t Figure 3: Ã Solution.
+You can easily verify, using Cauchy Schwartz inequality for integrals, that Z 3 (cid:3565) Z 3 12 |f (t)|dt (cid:3639) 6 |f (t)|2dt (cid:3557) 3 (cid:3557) 3 It follows then from this inequality and the sequence {f } in last example that X = C [(cid:3557) 3, 3] is n not complete.
+This is because the above inequality shows that if {f } does not converge in X with k n · k , then it will not converge with k·k .
+And you have seen in the last example that {f } does not 1 2 n converge with k · k .
+1 6 CONCLUSION In this unit, you have seen some examples of a Banach spaces and some examples of incomplete normed linear spaces.
+You have also seen that a closed subspace of a complete normed linear space is also complete.
+7 SUMMARY Having gone through this unit, you now know that; (i) a normed linear space (X, k · k) is complete if every Cauchy sequence converges in it.
+(ii) the real n(cid:3557) space, Rn equipped with the euclidean norm, !
+1 Xn 2 kxk2 = |xk |2 k=1 is complete.
+(iii) the complex n(cid:3557) space, Cn equipped with the norm !
+1 Xn 2 kzk2 = |zk |2 k=1 is complete.
+10 8 Tutor Marked Assignments (TMAs) (iv) The space l endowed with the sup (cid:3557) norm is complete.
+(cid:3569) (v) The space C [a, b] of continuous real valued function defined on [a, b] is complete when endowed with the sup (cid:3557) norm kf k = sup |f (t)| (cid:3569) a(cid:3639) t(cid:3639) b (vi) The normed linear space X = C [a, b] of all continuous real valued function is not complete when endowed with any of the integral norms Z b kf k = |f (t)| dt 1 a and/or Z b 21 kf k = |f (t)|2 dt 2 a 8 EXERCISES TMAs 1.
+Let X = C [(cid:3557) 2, 2] be the space of real-valued continuous functions on the closed and bounded interval [(cid:3557) 2, 2], and let X be endowed with the norms Z 2 (a) kf k = |f (t)|dt, and 1 (cid:3557) 2 Z 1 2 2 (b) kf k = |f (t)|2dt 2 (cid:3557) 2 for arbitrary f in X.
+Justify the following statements: (a) (X, k · k ) is not complete; 1 (b) (X, k · k ) is not complete.
+2 2.
+Let X = C [0, 4], be the space of real-valued functions defined on a closed and bounded interval [0, 4] and suppose X is endowed with the norm, Z 4 12 kf k = |f (t)|2 dt 2 0 Consider the sequence {g }(cid:3569) defined by the following graph n n=1 (a) Write down the explicit expression for g (t), 0 (cid:3639) t (cid:3639) 4. n (b) Verify that i. g (cid:3547) C [0, 4] for each n; n ii.
+{g }(cid:3569) is a Cauchy sequence; n n=1 iii.
+gn (cid:3450) g as n (cid:3450) (cid:3569) , where (cid:2) (cid:2) 0, 0 (cid:3639) t (cid:3639) 2 g(t) = (cid:2) 1, 2 < t (cid:3639) 4.
+11 8 Tutor Marked Assignments (TMAs) gn (t) (0,1) O 2 2+ 2_n 5 t Figure 4: Conclude that C [0, 4] with the norm is not a complete space.
+Give another proof (similar Z 1 4 2 to Example 1.19) that C [0, 4] with kf k := |f (t)|2 dt is not complete.
+2 0 3.
+Let X = C [0, 5] be the space of real-valued continuous functions on the closed and bounded interval [0, 5].
+Let X be endowed with norms, Z 5 kf k = |f (t)|dt, 1 0 Z 5 12 kf k2 = |f (t)|2 dt 0 for arbitrary f in X.
+Show that (a) (X, k · k ) is not complete.
+1 (b) (X, k · k ) is not complete.
+2 (Hint: You may use Fig.
+5).
+f n (t) (0,1) O 5_ _5 + _5 5 t 2 2 2n Figure 5: 4.
+Let S be the set of real sequences having only a finite number of nonzero terms.
+(a) Show that S (cid:3669) l .
+(cid:3569) (b) Take a sequence {xn } in S, where xn = (1, 1 , 1 , ..., 1 , 0, 0, ...).
+Prove that: 2 3 n 12 8 Tutor Marked Assignments (TMAs) i.
+{xn } is a Cauchy sequence in S; ii.
+xn (cid:3450) x where x := (1, 1 , 1 , ...).
+2 3 Conclude that S is not complete.
+5.
+Prove the following statements; (a) Cn the complex n-space endowed with the norm !
+1 Xn 2 kzk2 = |zk |2 k=1 for arbitrary z = (z , z , ..., z ) (cid:3547) Cn is complete.
+1 2 n (b) l (1 (cid:3639) p < (cid:3569) ) is complete.
+p (c) c is complete, where c is the space of all convergent sequences endowed with the norm kxk = sup |x | k k(cid:3640) 1 for arbitrary sequence x = (x , x , ..., x , ...) (cid:3547) c [Hint, you can show that c is a closed 1 2 n 0 supspace of l and then apply theorem 3.1.]
+(cid:3569) (d) c is complete; where c is the space of all sequences that converges to 0 endowed with 0 0 the norm kxk = sup |xk | k(cid:3640) 1 for arbitrary sequence x = (x , x , ..., x , ...) (cid:3547) c [Hint, you can show that c is a closed 1 2 n 0 0 supspace of c and then apply theorem 3.1.]
+6.
+Let X = R5 .
+X is not complete when endowed with the norm X5 (a) kxk = |x | 1 k k=1 !
+1 X5 2 (b) kxk2 = |xk |2 k=1 (c) kxk = max |x | (cid:3569) k 1(cid:3639) k(cid:3639) 5 (d) None 7.
+Let X = C [0, 1], the space of contiuous functions on [0, 1] Consider the sequence of functions {u } (cid:3669) X, given by n (cid:2) 1 1 (cid:2) 0, 0 (cid:3639) t (cid:3557) 2 n (cid:3639) (cid:2) (cid:2) (cid:2) u (t) = nt n 1 1 1 1 1 n (cid:3557) + , (cid:3557) (cid:3639)t (cid:3639) + (cid:2) 2 4 2 2 n 2 n (cid:2) (cid:2) 1 1 + 1 (cid:3639) t (cid:3639) 1.
+2 n This sequence is converges in X when endowed with the norm 13 8 Tutor Marked Assignments (TMAs) R (a) kf k = b |f (t)| dt.
+1 a Z 1 12 (b) kf k = |f (t)|2 dt 2 0  (c) kf k = max |f (t)| (cid:3569) 0(cid:3639) t (cid:3639) 1 (d) none of the above.
+14  UNIT 3: LINEAR FUNCTIONAL SPACES Contents 1 Introduction 1 2 Objectives 2 3 Linear Maps 2 3.1 Definitions and some examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 4 Bounded Linear Maps 4 5 Linear functionals 8 5.1 Dual or conjugate space .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+9 5.2 Dual Basis .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 5.3 Hahn Banach Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+15 5.4 Convergence and Continuity in B(X, Y ) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+15 5.5 The Uniform Boundedness Principle .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+16 5.6 The Open Mapping Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+16 5.7 Closed Graph Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+17 6 Conclusion 19 7 Summary 19 8 TMAs 21 1 INTRODUCTION Linear maps play a crucial role in Functional Analysis.
+In this unit, you shall be introduced with the concept of linear maps, Bounded linear maps, linear functionals and a special class of Banach spaces called linear functional space.
+You shall also be presented with some of their basic properties.
+1 2 Objectives 2 OBJECTIVES.
+At the end of this unit, you should be able to; 1.
+Identify maps that are linear.
+2.
+Show that a given linear is bounded or not.
+3.
+Identify bounded linear functionals on finite dimensional space 4.
+Identify bounded linear functionals on infinite dimensional space.
+5.
+Compute the norms of bounded linear maps.
+3 LINEAR MAPS 3.1 Definition and some examples.
+Definition 3.1 Let X and Y be linear spaces over the scalar field K. A mapping T : X (cid:3450) Y is said to be a linear map if T (αx + βy) = αT (x) + βT (y).
+(1) for arbitrary x, y (cid:3547) X and arbitrary scalars α, β (cid:3547) K. Linear maps can also be called Linear transformations or linear operators.
+Condition (1) is equivalent to the following two conditions 1.
+T (x + y) = T (x) + T (y) for all x, y (cid:3547) X ; 2.
+T (αx) = αT (x) for all x (cid:3547) X and α (cid:3547) K. Definition 3.2 ( Linear functionals).
+The linear map T : X (cid:3450) K from the vector space X to the scalar field K is called a linear functional.
+In the definition (3.2), if T is called real or complex linear functional according as K is either R or C. Example 3.1 Let X = l .
+For each x¯ = (x , x , ..., x , ...) in l define 2 1 2 k 2 x x T x¯ = (0, x , 2 , 3 , ...).
+1 2 3 Then T is a linear map on l .
+2 Verification.
+Let x¯ = (x , x , ..., x , ..) and y¯ = (y , y , ..., y , ...) be arbitrary elements of 1 2 k 1 2 k l and let α, β be scalars.
+Then 2 αx¯ + βy¯ = (αx , αx , ..., αx , ...) + (βy , βy , ..., βy , ...) 1 2 k 1 2 k = (αx + βy , αx + βy , ..., αx + βy , ...) 1 1 2 2 k k 2 3.1 Definitions and some examples and T (αx¯ + βy¯) = 0, αx1 +βy1 , αx2 +βy2 , ..., αxk +βyk , ... 1 2 k = 0, αx , αx2 , ..., αxk , ... + 0, βy , βy2 , ..., βyk , ... 1 2 k 1 2 k = α 0, x , x2 , ..., xk , ... + β 0, y , y2 , ..., yk , ... 1 2 k 1 2 k αT (x¯) + βT (y¯).
+and so T is a linear map.
+Example 3.2 Differentiation, Integration and limits are examples of linear maps.
+Example 3.3 Let C denote the linear space of complex numbers over C, and define the map T : C (cid:3450) C by T z = z¯, where z¯ denotes the conjugate of z.
+Then T is not a linear map.
+Remark 3.1 Note that since linear functionals are special forms of linear maps, any result proved for linear maps also holds for linear functionals.
+Proposition 3.1 Let X and Y be two linear spaces over scalar field, K, and let T : X (cid:3450) Y be a linear map.
+Then (i) T (0) = 0; (ii) The range of T , R(T ) = {y (cid:3547) Y : T x = y for some x (cid:3547) X } is a linear subspace of Y ; (iii) T is one-to-one if and only if T (x) = 0 implies x = 0; (iv) If T is one-to-one, then T (cid:3557) 1 exists on R(T ) and T (cid:3557) 1 : R(T ) (cid:3450) X is also a linear map.
+Proof.
+(i) Since T is linear, you have T (αx) = αT (x) for each x (cid:3547) X and each scalar α.
+Take α = 0 and (i) follows immediately.
+(ii) You need to show that for y , y (cid:3547) R(T ) and α, β scalars, αy + βy (cid:3547) R(T ).
+Now let 1 2 1 2 y , y (cid:3547) R(T ).
+This implies that there exist x , x (cid:3547) X such that T (x ) = y , T (x ) = y .
+1 2 1 2 1 1 2 2 Moreover, αx + βx (cid:3547) X (since X is a linear space).
+Furthermore, by the linearity of T , 1 2 T (αx + βx ) = αT (x ) + βT (x ) = αy + βy .
+1 2 1 2 1 2 Hence αy + βy (cid:3547) R(T ), and so R(T ) is a linear subspace of Y.
+1 2 (iii) ((cid:3514) ) Assume T is one-to-one.
+Clearly, T x = 0 implies T (x) = T (0) since T is linear (and so T (0) = 0).
+But T is one-to-one.
+So, x = 0.
+((cid:3512) ) Assume that whenever T u = 0, then u must be 0.
+You have to prove that T is one- to-one.
+So, Let T x = T y.
+Then, T x (cid:3557) T y = 0 and by the linearity of T , T (x (cid:3557) y) = 0.
+By hypothesis, x (cid:3557) y = 0 which implies that x = y.
+Hence T is one-to-one.
+3 4 Bounded Linear Maps (iv) Without loss of Generality, assume that X is the domain of T , otherwise we can take the restriction of T on D(T ), the domain of T .
+Suppose T : X (cid:3450) Y is one-to-one, then T : X (cid:3450) R(T ) is both one-to-one and onto.
+Thus, for every y (cid:3547) R(T ), there exists a unique x(cid:3562) (cid:3547) X such that T (x(cid:3562) ) = y.
+Thus if T x = y then x = x(cid:3562) So let S : R(T ) (cid:3450) X be defined by S(y) = x(cid:3562) .
+Now, (a) (T (cid:4311) S)(y) = T (S(y)) = T (x(cid:3562) ) = y for every y (cid:3547) R(T ), hence T (cid:4311) S = 1 .
+R(T ) (b) (S (cid:4311) T )(x) = S(T (x)) = S(y) = x(cid:3562) = x for every x (cid:3547) X, hence S (cid:4311) T = 1 X .
+Accordingly T has an inverse and T (cid:3557) 1 = S. Now to show that T (cid:3557) 1 : R(T ) (cid:3450) X is a linear map, let y , y (cid:3547) R(T ) and α, β (cid:3547) K, 1 2 αy + βy (cid:3547) R(T ) (by (ii)).
+Since T : X (cid:3450) R(T ) is one-to-one and onto, there exists 1 2 unique vectors x , x (cid:3547) X such that y = T x and y = T x .
+Linearity of T gives you 1 2 1 1 2 2 that T (αx + βx ) = αT x + βT x = αy + βy .
+1 2 1 2 1 2 By the definition of inverse mapping, T (cid:3557) 1y = x , T (cid:3557) 1 y = x , so that T (cid:3557) 1(αy + βy ) = αx + βx = αT (cid:3557) 1y + βT (cid:3557) 1 1 1 2 2 1 2 1 2 1 y 2 Thus T (cid:3557) 1 (αy + βy ) = αT (cid:3557) 1y + βT 1 2 1 (cid:3557) 1y 2 Hence T (cid:3557) 1 is linear.
+Example 3.4 Let T : R (cid:3450) R be defined by T x = ax + b; a, b (cid:3547) R, b = 0.
+Then T is not a linear map.
+It suffices to observe that T (0) = b = 0.
+4 BOUNDED LINEAR MAPS Definition 4.1 Let X and Y be normed linear spaces over a scalar field K, and let T : X (cid:3450) Y be a linear map.
+Then T is said to be bounded if there exist some constant, K (cid:3640) 0 such that for each x (cid:3547) X, kT (x)k (cid:3639) K kxk, (2) the constant K is called a bound for T and in this case, T is called a bounded linear map.
+The next thing to discuss is linear maps that are continuous.
+The following theorem is very useful in identifying continuous linear maps.
+Theorem 4.1 Let X and Y be normed linear spaces and let T : X (cid:3450) Y be a linear map.
+Then the following are equivalent: 4 4 Bounded Linear Maps (i) T is continous; (ii) T is continous at the origin 0 ( in the sense that if {x } is a sequence in X such that n x (cid:3450) 0 as n (cid:3450) (cid:3569) , then T x (cid:3450) 0 in Y as n (cid:3450) (cid:3569) ); n n (iii) T is Lipschitz, i.e., there exists a constant K (cid:3640) 0 such that, for each x (cid:3547) X, kT xk (cid:3639) K kxk; (iv) If D := {x (cid:3547) X : kxk (cid:3639) 1} is the closed unit disc in X, then T (D) is bounded (in the sense that there exists a constant M (cid:3640) 0 such that kT xk (cid:3639) M for all x (cid:3547) D).
+Proof.
+(i) (cid:3514) (ii).
+Let T : X (cid:3450) Y be a linear and continuous.
+You have to prove that T is continuous at 0.
+So, let {x } be a sequence in X such that x (cid:3450) 0.
+By continuity of T , we n n have, T x (cid:3450) T (0).
+But T is a linear map so that T (0) = 0.
+Hence, the result follows.
+n (ii) (cid:3514) (iii) You have that if {x } is any sequence in X such that x (cid:3450) 0 as n (cid:3450) (cid:3569) , then n n T (x ) (cid:3450) 0.
+You have to prove that there exists a constant K (cid:3640) 0 such that kT xk (cid:3639) K kxk n for each x (cid:3547) X.
+Suppose for contradiction that there is no such K. Then for any positive integer n, there exists some x = x(n) (cid:3547) X, x(n) different from 0, call it x (since it depends on n) n such that kT x k > nkx k. n n This implies that kT x k n > 1. nkx k n Now define the sequence u n := n kxxn n k .
+Clearly, un (cid:3450) 0.
+For, kun (cid:3557) 0k = xn = 1 kxn k = 1 (cid:3450) 0. nkx k n kx k n n n However, T u 9 0.
+For, n T (x ) kT (x )k kT u (cid:3557) 0k = n = n > 1, n nkxn k nkxn k and so T u 9 0 (even u (cid:3450) 0).
+This contradicts the hypothesis that T is continous at the n n origin.
+Thus our supposition is false and so, (ii) (cid:3514) (iii).
+(iii) (cid:3514) (iv) Given that a linear map T is Lipschitz we want to prove that T (D) is bounded, (i.e., kT (x)k (cid:3639) M for all x (cid:3547) D, and some constant M (cid:3640) 0).
+Take y (cid:3547) D arbitrary.
+Then, kyk (cid:3639) 1.
+By (iii), kT (y)k (cid:3639) K kyk for some constant K (cid:3640) 0.
+But kyk (cid:3639) 1.
+So, kT yk (cid:3639) K kyk (cid:3639) K. Since y was arbitrary chosen in D, it follows that for all y (cid:3547) D, kT yk (cid:3639) K. Now take K = M and the proof is complete.
+(iv) (cid:3514) (i) Let x , x be arbitrary elements of X.
+Assume first that x (cid:3557) x = 0.
+Consider 1 2 1 2 (cid:3547)the vector u := x1 (cid:3557) x2 .
+Clearly, u D, and so, by condition (iv), (i.e., T (D) is bounded), kx1 (cid:3557) x2 k there exists a constant K (cid:3640) such that kT (u)k (cid:3639) K i.e., 5 4 Bounded Linear Maps x1 (cid:3557) x2 T kx (cid:3557) x k K, or kT x1 (cid:3557) T x2k (cid:3639) K kx1 (cid:3557) x2 k. (cid:3639) 1 2 If, on the other hand, x (cid:3557) x = 0, this inequality clearly holds, Thus, the inequality holds for 1 2 all x , x (cid:3547) X.
+Now, given any > 0, choose δ = .
+So, if kx (cid:3557) x k < δ, then 1 2 K +1 1 2 K kT x (cid:3557) T x k (cid:3639) K kx (cid:3557) x k (cid:3639) < , 1 2 1 2 K + 1 K δ = and hence T is (uniformly) continuous on X.
+Property (iii) of the last theorem is a very important one.
+In fact, you have the following definition: Definition 4.2 A linear map T : X (cid:3450) Y is continuous if and only if it is bounded.
+Thus, for linear maps, continuity and boundedness are equivalent.
+Definition 4.3 If T : X (cid:3450) Y is a bounded linear map from a normed linear space X into a normed linear space Y, the norm of T can be defined by kT k := inf {K : kT xk (cid:3639) K kxk} for each x (cid:3547) X.
+The above definition gives you immediately that kT xk (cid:3639) kT kkxk for each x (cid:3547) X and that for every > 0, there exists x (cid:3547) X, x = 0, such that kT x k > (kT k (cid:3557) )kx k Definition 4.4 Let X and Y be normed linear spaces and let B(X, Y) denote the family of all bounded linear maps from X to Y.
+Define (T + L)(x) = T (x) + L(x); (αT )(x) = αT (x), for all T , L (cid:3547) B(X, Y ) and scalar α.
+Then, clearly B(X, Y ) is a vector space.
+Theorem 4.2 Let B(X, Y ) be the family of all bounded linear maps from X to Y.
+Then we have the following: For arbitrary T (cid:3547) B(X, Y ), kT xk kT k = sup kT xk = supkT xk = sup .
+(3) (cid:3639) xk(cid:3639) 1 kxk=1 x=0 kxk Proof.
+Since T is bounded and linear, there exists K (cid:3640) 0 such that for all x (cid:3547) X, kT xk (cid:3639) K kxk.
+If kxk (cid:3639) 1, then kT xk (cid:3639) K kxk (cid:3639) K and so {kT xk : kxk (cid:3639) 1} is a bounded set in R so its “sup” exists and sup kT xk (cid:3639) K for any K such that kT xk (cid:3639) K kxk for kxk(cid:3639) 1 all x (cid:3547) X.
+Taking the infimum over all such K 0s gives  sup (cid:3639) inf {K (cid:3640) 0 : kT xk (cid:3639) K kxk f or all x (cid:3547) K } := kT k. kxk(cid:3639) 1 6 4 Bounded Linear Maps Hence, sup kT xk (cid:3639) kT k. (4) kxk(cid:3639) 1 Conversely, from Definition (4.3), we get that for every > 0, there exists x (cid:3547) X, x = 0, such that kT x k > (kT k (cid:3557) )kx k. (Otherwise kT x k (cid:3639) (kT k (cid:3557) )kx k and kT k would no longer be the infimum).
+Let u = x kx k then ku k = 1 and kT u k > kT k (cid:3557) .
+Consequently, we obtain from inequality (4) that x kT k (cid:3640) kT xk (cid:3640) kT xk (cid:3640) sup T > kT k (cid:3557) .
+sup sup kxk(cid:3639) 1 kxk=1 kx k6=0 kx k Since > 0 is arbitrary, we get that kT xk kT k (cid:3640) sup kT xk (cid:3640) kT xk (cid:3640) (cid:3640) kT k kxk kxk(cid:3639) 1 sup sup kxk=1 kxk6= 0 so that all this quantities are equal.
+The proof is complete.
+It important to remark here that since kT k is the smallest M such that kT xk (cid:3639) M kxk for each x (cid:3547) X, it follows that whatever value M has, we must always have kT k (cid:3639) M. (5) Example 4.1 Let T : l (cid:3450) l be defined by 2 2 x x T (x , x , ..., x , ...) = (0, x , 2 , ..., k , ...) 1 2 k 1 2 k Then kT xk (cid:3639) kxk so that kT k (cid:3639) 1.
+In this example, we actually have kT k = 1 since T (1, 0, 0, ..., 0, ...) = (0, 1, 0, 0, ..., 0, ...).
+Proposition 4.1 Let X and Y be normed linear spaces.
+Then, k · k defined by kT k = sup kT xk kxk(cid:3639) 1 for each T (cid:3547) B(X, Y ) is a norm on B(X, Y ).
+Hence B(X, Y ) is a normed linear space with this norm.
+Proposition 4.2 Let X, Y, Z be normed linear spaces and let P (cid:3547) B(Y, Z ), Q (cid:3547) B(X, Y ).
+Define (P Q)(x) = P (Qx).
+Then (a) P Q (cid:3547) B(X, Z ), and (b) kP Qk (cid:3639) kP kkQk.
+7 5 Linear functionals 5 Linear functionals Definition 5.1 A linear functional on a normed linear space X over K, is a linear transforma- tion f : X (cid:3450) K. In the sequel, the linear functionals of interest would be bounded linear functionals i.e., those functionals that are elements of the dual space X (cid:3562) , but you shall see some examples of unbounded linear functionals now.
+Example 5.1 Let X = l and for any x = (x , x , ..., x , ...) (cid:3547) l consider the linear func- (cid:3569) 1 2 k (cid:3569) tional X(cid:3569) f (x) = x .
+k k=1 For x¯ = (1, 1, 1, ...), x¯ (cid:3547) X because kx¯k , but f (x¯) does not have finite norm, and f is (cid:3569) unbounded on l .
+If instead we take the above linear functional on X = l we have (cid:3569) 1 (cid:3569) X |f (x)| (cid:3639) |x | = k kxk1 k=1 Hence f bounded on l and kf k (cid:3639) 1 in fact kf k = 1.
+1 Example 5.2 Let X = C [a, b] be the space of continuous real valued functions on the closed and bounded interval [a, b].
+Suppose X is endowed with the norm kuk = max |u(t)| X a(cid:3639) t (cid:3639) b for arbitrary u (cid:3547) C [a, b], and consider the linear functional f : X (cid:3450) R defined by Z b f (u) = u(t)dt.
+a Then |f (u)| (cid:3639) max |u(t)|(b (cid:3557) a) = (b (cid:3557) a)kuk and so f is continuous and kf k (cid:3639) (b X (cid:3557) a).
+a(cid:3639) t(cid:3639) b Now for u (t) = 1, t (cid:3547) [a, b], you have 0 |f (u)| = (b (cid:3557) a) Hence kf k = (b (cid:3557) a).
+Remark 5.1 Computation of norm of a bounded linear functional: The general idea in the computation of norms of bounded linear functional f : X (cid:3450) R is that you have to first of all show that f is bounded.
+i.e., there exists M (cid:3640) 0 |f (x)| (cid:3639) K kxkX for all x (cid:3547) X.
+So by (5) you have Now, if you can find x0 (cid:3547) X such that  Then kf k = M. kf k (cid:3639) M |f (x)| = M 8 5.1 Dual or conjugate space 5.1 DUAL OR CONJUGATE SPACE Definition 5.2 Dual (Conjugate) space.
+The topological dual or the conjugate space of a normed linear space is the normed linear space of all bounded linear functionals f : X (cid:3450) K, with norm kf k = sup |f (x)| = sup |f (x)| kxkX =1 kxkX (cid:3639) 1 The dual of a normed linear space is denoted by X (cid:3562) (= B(X, K)) Thus f (cid:3547) X (cid:3562) means that f is mapping of X into K, which is linear and bounded.
+Recall that any map from a linear space into a scalar field is called a functional.
+The members of X (cid:3562) are therefore bounded linear functionals.
+Proposition 5.1 Let X (= Rn or Cn ) (finite dimensional normed linear spaces) and Y be a normed linear space.
+Let T : X (cid:3450) Y be a linear map.
+Then T is continuous.
+In particular, for Y = R or C, the topological and algebraic duals of Rn and Cn are the same.
+Example 5.3 Consider X = ln over C, i.e., p ln(C) = {(x , x , ..., x ), x (cid:3547) C} p 1 2 n k and define fa (x) = a1x1 + · · · + an xn for a fixed a (cid:3547) ln with a = 0 and 1 + 1 = 1, p (cid:3640) 1. q p q Clearly f : X (cid:3450) C and is linear.
+It is also bounded since a |f (x)| = |a x + · · · + a x | a 1 1 n n (cid:3639) (|a1|q + · · · + |an |q1 ) q (|x1|q + · · · + |xn1 | p ) p = kak kxk .
+q p Here you have used Holders inequality, series version.
+For a remainder !
+!
+Xn Xn q1 Xn p1 |ak xk | |ak |q |ak |p k=1 k=1 k=1 (cid:3639) where 1 + 1 = 1, 1 (cid:3639) p < (cid:3569) .
+p q Hence f is bounded and kf k (cid:3639) kak .
+If we set a a X (cid:3562) q (cid:2) (cid:2)(cid:2) |ak |q if a = 0 k xk = ak (cid:2) (cid:2) 0 if a = 0. k then !
+1 Xn p kxkp = |ak |qp(cid:3557) p .
+k=1 9 5.1 Dual or conjugate space But qp (cid:3557) p = p(q (cid:3557) 1) = q and therefore !
+1 Xn p kxkp = |ak |q k=1 But P P |fa (x)| = nk= 1|ak |q = kxkp ( nk =1|ak |q )1(cid:3557)1 p = kxk kak .
+p q Hence kf k = kak .
+a X (cid:3562) q In fact all continuous linear functionals on ln have this form, so that p (ln )(cid:3562) (cid:3599)= ln .
+p q Similarly, it can be shown that (l )(cid:3562) (cid:3599)= l for 1 (cid:3639) p < p q (cid:3569) .
+The detail is in the following proposition.
+Proposition 5.2 For 1 < p < (cid:3569) , l(cid:3562) = l where 1 + 1 = 1, (i.e., the dual of l is l , where p q p q p q 1 + 1 = 1, 1 < p < (cid:3569) ).
+p q Proof.
+The proof is divided into 2 parts.
+Part 1.
+Is to prove that every element y (cid:3547) l defines an element f in l(cid:3562) with kyk = kf k. q y p y Part 2.
+Is to prove that every element h (cid:3547) l(cid:3562) defines an element z in l with khk = kz k. p h q h and l are isometric.
+p q Part 1.
+Let y (cid:3547) {yk }k(cid:3569)=1 (cid:3547) lq .
+For every x = {xk }k(cid:3569)=1 in lp , define fy : lp (cid:3450) R by X(cid:3569) f (x) = x y y k k k=1 Clearly, f is well defined.
+For, y !
+1 !
+1 (cid:3569)X X(cid:3569) p X(cid:3569) q |fy (x)| (cid:3639) |xk yk | |x |p |yk |q = kxkkyk < (cid:3569) .
+k (cid:3639) k=1 k=1 k=1 This inequality also implies f is bounded and y kf k (cid:3639) y kyk.
+Linearity of f is obvious.
+Hence, f is a bounded linear functional on l and so f (cid:3547) l(cid:3562) .
+y y p y p 10 5.1 Dual or conjugate space For Part 2.
+Let h (cid:3547) l(cid:3562) .
+Let {e be the canonical basis in l , i.e., k p }(cid:3569) p k=1 e = (0, 0, ..., 0, 1, 0, ...) k with 1 at the kth position.
+Then for every element x = {x }(cid:3569) in l we have that k k=1 p X(cid:3569) Xn x = x e = lim x e .
+k k k k n(cid:3450)(cid:3569) k=1 k=1 By the linearity and continuity (boundedness) of h, !
+Xn Xn X(cid:3569) h(x) = h lim xk ek = lim xk h(ek ) = xk h(ek ).
+n(cid:3450)(cid:3569) n(cid:3450)(cid:3569) k=1 k=1 k=1 Define zh := {h(ek )}k=(cid:3569)1 = {αk }k(cid:3569)=1 .
+It suffices now to prove that z (cid:3547) l .
+Let x (cid:3547) l be defined as follows: h q n p x : {|α |q(cid:3557) 1 sign α , |α |q(cid:3557) 1 sign α , ..., |α |q(cid:3557) 1 sign α0, 0, ...}.
+n 1 1 2 2 n , Then Pk=1 P |h(xn )| = n |αk |q(cid:3557) 1(sign αk )αk = kn= 1|αk |q (cid:3639) khk · kxn k = khk · Pnk= 1 |αk |( q (cid:3557) 1)p p1 = khk · {Pnk= 1 |αk |q }1 p P X(cid:3569) Hence, { nk =1 |αk |q 1(cid:3557) p1 (cid:3639) khk for all n = 1, 2, 3, .... |αk |q < (cid:3569) , i.e., Hence } k=1 z := {α }(cid:3569) (cid:3547) l and kz k (cid:3639) khk.
+h k k= 1 q h Observe that since h (cid:3547) l(cid:3562) is arbitrary, if you now take h = f (the functional induced by y) then p y z = y and we get that h !
+1 X(cid:3569) q kyk = kzh k = |αk |q (cid:3639) khk = kfy k. k=1 Hence, kyk (cid:3639) kf k. But you already have that kf k (cid:3639) kyk, so that kf k = kyk.
+This y y y proves that l(cid:3562) is isometrically isomorphic to l .
+This proof is complete.
+p q Example 5.4 Consider ln over R, i.e., (cid:3569) ln (R) = {(x , x , ..., x ) : x (cid:3547) R} (cid:3569) 1 2 n k Recall that kxk = max |x | (cid:3569) k 1(cid:3639) k (cid:3639) n for arbitrary x = (x , x , ..., x ) (cid:3547) ln , is a norm on ln .
+1 2 n (cid:3569) (cid:3569)  11 5.2 Dual Basis Xn Let f (x) = a x , then f is a linear functional on ln and a k k a (cid:3569) k=1 nX |fa (x)| (cid:3639) |ak |kxk k (cid:3639) (cid:3569) kak1 .
+kxk For x = sign(a ), where k=1 k k (cid:2) +1 f or a > 0 (cid:2) k (cid:2) (cid:2) sign(a ) = 0 f or a = 0 k k (cid:2) (cid:2) (cid:2) (cid:3557) 1 f or a < 0 k you have that kf k = kak .
+You can show that all f (cid:3547) (ln )(cid:3562) have this form, so that a 1 (cid:3569) (ln )(cid:3562) (cid:3599)= ln .
+(cid:3569) 1 Il(cid:3562)t i s also true that (ln )(cid:3562) (cid:3599)= alnd l(cid:3562) (cid:3599) = ,l (cid:3562)h owever it is not true that (cid:3599)= l1.
+In fact we 1 (cid:3569) 1 (cid:3569) (cid:3569) have c(cid:3562) = l , where c is the normed linear space of infinite sequences (x , x , ..., x , ...) with 0 1 0 1 2 k lim x (cid:3599)= 0 and kxk = sup |x |.
+Similar results hold when ln , ln , l , l are defined over k x0 k=1 k (cid:3569) 1 1 (cid:3569) k=1 C. The above results have a special interpretation when p = q = 2.
+In such case, you find that (ln )(cid:3562) (cid:3599)= ln , and l(cid:3562) = l .
+2 2 2 2 (cid:3599) Such spaces are called self dual.
+5.2 Dual Basis Suppose X is a vector space of dimension n over K. The theorem that follows shows that the dual space X (cid:3562) is also n (since K is of dimension 1 over itself).
+in fact, each basis of X determines a basis of X (cid:3562) as follows.
+Theorem 5.1 Suppose {x , ..., x } is a basis of X over K. Let f , ..., f (cid:3547) X (cid:3562) be the 1 n 1 n linear functionals defined by (cid:2) (cid:2) 1 if i = j f (x ) = i j (cid:2) 0 if i = j then {f , ..., f } is a basis of X 1 k (cid:3562) .
+Proof.
+You can first show that {f , ..., f } spans X (cid:3562) .
+So let f be an arbitrary element 1 k of X (cid:3562) and suppose  f (x ) = k , f (x ) = k , · · · , , f (x ) = k .
+1 1 2 2 n n 12 5.2 Dual Basis Set σ = k f + ... + k f .
+Then 1 1 n n σ(x ) = (k f + · · · k f )(x ) = k f (x ) + k f (x ) + · · · k f (x ) 1 1 1 n n 1 1 1 1 2 2 1 n n 1 = k1 · 1 + k2 · 0 + kn · 0 = k1 Similarly, for i = 1, ..., n, σ(xi ) = (k1f1 + · · · + kn fn )(xi ) = k1f1 (xi ) + · · · + ki fi (xi ) · · · + kn fn (xi ) = ki Thus f (x ) = σ(x ) for i = 1, ..., n. Since f and σ agree on the basis vectors, f = σ = i i k f + · · · + k f .
+Accordingly, {f , ..., f } spans X (cid:3562) .
+1 1 n n 1 n It remains to be shown that {x , ..., x } is linearly independent.
+Suppose 1 n a f + a f + · · · + a f = ¯0 1 1 2 2 n n Applying both sides to x , you obtain 1 0 = 0(x ) = (a f + · · · + a f )(x )a f (x ) + a f (x ) + · · · + a f (x ) 1 1 1 n n 1 1 1 1 2 2 1 n n 1 = a1 · 1 + a2 · 0 + · · · + an · 0 = a1 Similarly, for i = 2, ..., n 0 = 0(x ) = (a f + · · · + a f )(x ) = a f (x ) + · · · + a f (x ) + · · · + a f (x ) = i 1 1 n n i 1 1 i i i i n n i a i That is, a = 0, ..., a = 0.
+Hence {f , ..., f } is linearly independent, and so it is a basis of X 1 n 1 n (cid:3562) .
+Example 5.5 Consider the basis {v = (2, 1), v = (3, 1)} of R2 .
+Find the dual basis {f , f 1 2 1 2 } of (R2)(cid:3562) .
+Solution.
+Your interest is to look for linear functionals f (x, y) = ax + by and f = 1 2 (x, y) = cx + dy such that f (v ) = 1, f (v2) = 0, f (v ) = 0, f (v ) = 1 1 1 1 2 1 2 1 These four conditions lead to the following two systems of linear equations: (cid:2) (cid:2) f1 (v1 ) = f1(2, 1) = 2a + b = 1 (cid:2) f2 (v1) = f2(2, 1) = 2c + d = 0 (cid:2) and (cid:2) (cid:2) f (v ) = f (3, 1) = 3a + b = 0 f (v ) = f (3, 1) = 3c + d = 0 1 2 1 2 2 1 The solutions yeild a = (cid:3557) 1, b = 3 and c = 1, d = (cid:3557) 2.
+Hence f (x, y) = (cid:3557) x + y and 1 f (x, y) = x (cid:3557) 2y form the dual basis.
+2 Example 5.6 Let P = {a + bt : a, b (cid:3547) R}, be the vector space of real polynomials of 1 degree(cid:3639) 1.
+Find the basis {v , v } of P that is dual to the basis {ϕ , ϕ } of (P )(cid:3562) defined by 1 2 1 1 2 1 Z Z 1 2 ϕ (f (t)) = f (t)dt and ϕ (f (t)) = f (t)dt 1 2 0 0 13 5.2 Dual Basis Solution.
+Let v = a + bt and v = c + dt.
+By definition of the dual basis, 1 2 ϕ (v ) = 1, ϕ (v ) = 0 and ϕ (v ) = 0, ϕ (v ) = 1 1 1 1 2 2 1 2 2 Thus R (cid:2) R (cid:2) ϕ1(v1) = 01 (a + bt)dt = a + 12 b = 1 (cid:2) ϕ1 (v2 ) = 10 (c + dt)dt = c + 12 d = 0 (cid:2) and R (cid:2) R (cid:2) 2 2 ϕ2(v1) = 0 (a + bt)dt = 2a + 2b = 0 ϕ2(v1 ) = 0 (c + dt)dt = 2c + 2d = 0 Solving each system yields a = 2, b = (cid:3557) 2 and c = (cid:3557) 1 , d = 1.
+Thus {v = 2 (cid:3557) 2t, v = (cid:3557) 1 + 1 2 t} 2 2 is the basis of P that is dual to {ϕ , ϕ }.
+1 1 2 The next theorem give a relationship between bases and their duals.
+Theorem 5.2 Let {u , ..., u } be a basis of a finite dimensional space X and let {ϕ , ..., ϕ 1 n 1 n } be the dual basis in X (cid:3562) .
+Then: Xn (a) For any vector x (cid:3547) X, x = ϕ (x)u .
+k k i=1 Xn (b) For any linear functional σ (cid:3547) X (cid:3562) , σ = σ(uk )ϕk i=1 Proof.
+Suppose x = a u + a u + · · · + a u (6) 1 1 2 2 n n Then ϕ (x) = a ϕ (u ) + a ϕ (u ) + · · · + a ϕ (u ) = a · 1 + a · 0 + · · · + a · 0 1 1 1 1 2 1 2 n 1 n 1 2 n = a 1 Similarly, for i = 2, ..., n, ϕ (x) = a ϕ (u ) + · · · + a ϕ (v ) + · · · + a ϕ (v ) = i 1 i 1 i i i n i n a i That is, ϕ (x) = a , ϕ (x) = a , ..., ϕ (x) = a .
+Substituting these results into (6), gives you 1 1 2 2 n n (a).
+It is now left for you to prove (b).
+Applying the linear functional to both sides of (a), σ(x) = ϕ(x)σ(u ) + ϕ (x)σ(u ) + · · · + ϕ (x)σ(u 1 2 2 n n ) = σ(u )ϕ (x) + σ(u )ϕ(x) + · · · + σ(u )ϕ (x) 1 1 2 n n = (σ(u )ϕ + σ(u )ϕ + · · · σ(u )ϕ )(x) 1 1 2 2 n n Since the above holds for every x (cid:3547) X, σ = σ(u1 )ϕ1 + σ(u2)ϕ2 + · · · σ(un )ϕn 14 5.3 Hahn Banach Theorem 5.3 Hahn-Banach Theorem Theorem 5.3 The Hahn-Banach Theorem Every continuous linear functional f : M (cid:3450) K defined on a linear subspace M of a normed linear space X can be extended to a continuous linear functional F on all of X with preservation of norm.
+To see that this guarantees the existence of non-trivial continuous linear functionals, con- sider the subspace M = {αx } where x (cid:3547) X, x = 0 and α is any scalar.
+A linear functional 0 0 0 f defined on M is f (y) = αkx k for y = αx .
+0 0 Then |f (y)| = kyk; hence kf k = 1, and so the Hahn-Banach theorem says there is an F defined on X with norm 1.
+A useful corollary of the Hahn-Banach Theorem is Corollary 5.1 Let E be an arbitrary subset of a normed linear space X.
+Then spanE (cid:3674) X if and only if the zero functional is the only bounded linear functional which vanishes on all of E. 5.4 Convergence and Continuity B(X, Y ).
+Definition 5.3 Uniform or norm convergence.
+Let {T } is a sequence of bounded linear operators in B(X, Y ).
+T converges uniformly to n n T (cid:3547) B(X, Y ) as n (cid:3450) (cid:3569) , if kT (cid:3557) T k (cid:3450) 0 as n (cid:3450) (cid:3569) .
+n B(X,Y ) Frequently in applications this kind of convergence is useful.
+Definition 5.4 Strong convergence.
+Let {T } be a sequence of bounded linear operators in B(X, Y ).
+T converges strongly to n n T (cid:3547) B(X, Y ) if kT x (cid:3557) T xk (cid:3450) 0 as n (cid:3450) (cid:3569) for all x (cid:3547) X. n Y If a bounded linear operator depends on a parameter t from some interval of R, you can define strong continuity, and uniform continuity with respect to t in an analogous manner.
+Definition 5.5 Uniform continuity Let T (t) (cid:3547) B(X, Y ) for every t (cid:3547) [a, b], then T (t) is uniformly continuous at t , if 0  15 5.5 The Uniform Boundedness Principle kT (t) (cid:3557) T (t )k (cid:3450) 0 as t (cid:3450) t .
+0 B(X,Y ) 0 Definition 5.6 Strong continuity Let T (t) (cid:3547) B(X, Y ) for every t (cid:3547) [a, b], then T (t) is strongly continuous at t if 0 kT (t)x (cid:3557) T (t )xk (cid:3450) 0 for all x (cid:3547) X as t (cid:3450) t .
+0 Y 0 The following are very important theorems on linear operators which are used in application.
+5.5 The Uniform Boundedness Principle Theorem 5.4 The Uniform Boundedness Theorem Let X, Y be Banach spaces, let {T } (cid:3669) B(X, Y ).
+Suppose that α α(cid:3547)I sup kT (x)k < (cid:3569) for each x (cid:3547) X. α(cid:3547)I α Then sup kT k < (cid:3569) .
+α α(cid:3547)I An immediate consequence of the Uniform Boundedness Principle is the following theorem; Theorem 5.5 Banach-Steinhaus Theorem Let X, Y be a Banach space and {T } be a family of bounded linear operators in B(X, Y ).
+n If the family {T x} converges to a limit defined by T x.
+Then n (a) sup kT k < (cid:3569) n n(cid:3640) 1 (b) T (cid:3547) B(X, Y ).
+(c) kT k (cid:3639) lim inf kT k n n(cid:3450)(cid:3569) 5.6 The Open Mapping Theorem Theorem 5.6 Open Mapping Theorem Let X and Y be Banach spaces and T : X (cid:3450) Y.
+Suppose (i) T (cid:3547) B(X, Y ), (ii) T is surjective (i.e., onto) then T is an open map (i.e., T maps every open set of X onto an open set of Y.)
+The following is a corollary of this theorem.
+16 5.7 Closed Graph Theorem Corollary 5.2 Let X and Y be Banach spaces and T : X (cid:3450) Y.
+Suppose (i) T (cid:3547) B(X, Y ), (ii) T is bijective (i.e., one-to-one and onto) Then T (cid:3557) 1 is also a bounded linear operator.
+5.7 The Closed Graph Theorem Definition 5.7 Graph of a linear operator.
+Let X and Y be normed linear spaces and T : X (cid:3450) Y be any map.
+Then, the graph of T denoted by G(T ), is defined by G(T ) := {(x, T x) : x (cid:3547) X } Observe that G(T ) is a subset of X × Y and that (x, y) (cid:3547) G(T ) if and only if T x = y.
+Example 5.7 Let X = [0, 1], Y = R, and T : [0, 1] (cid:3450) R be defined by T x = x2 , x (cid:3547) [0, 1].
+Then, the graph of T , G(T ), is given by G(T ) = {(x, T x) : x (cid:3547) [0, 1]} = {(x, x2) : x (cid:3547) [0, 1]} Example 5.8 Let X = [(cid:3557) 1, 1], Y = [0, 1] and S : X (cid:3450) Y be defined by (cid:2) 0, (cid:3557) 1 (cid:3639) x (cid:2) (cid:3639) 0; Sx = (cid:2) 1 0 (cid:3639) x (cid:3639) 1.
+Then, S G(S) = {(x, Sx) : x (cid:3547) [0, 1]} = {(x, 0) : x (cid:3547) [(cid:3557) 1, 0]} {(x, 1) : x (cid:3547) (0, 1]}.
+Definition 5.8 Closed operator.
+Let X and Y be normed linear spaces and T : X (cid:3450) Y be linear operator.
+T is said to be closed if its graph G(T ) is a closed subset of X × Y. Alternatively, T is closed if whenever  x (cid:3547) D(T ), n = 1, 2, ... and lim x = x, lim T x = y, n n n n(cid:3450)(cid:3569) n(cid:3450)(cid:3569) it follows that x (cid:3547) D(T ) and T x = y.
+17 5.7 Closed Graph Theorem That is if {x } is a sequence of elements of D(T ) (the domain of T ) such that x (cid:3450) x (cid:3547) X n n and T x (cid:3450) y (cid:3547) Y then x (cid:3547) D(T ) and T x = y. n The essential difference between bounded linear operators and closed linear operators is their domain of definition.
+To apperciate the importance of our next theorem, you will be presented with an example of a map which is (i) linear; (ii) closed; and (iii) not bounded.
+Example 5.9 Let X = C [0, 1] = Y, where C [0, 1] is endowed with the sup norm.
+Let D = {f (cid:3547) C 1[0, 1] : f 0 (cid:3547) C [0, 1]} where the prime denotes differentiation.
+Let T : C [0, 1] (cid:3450) C [0, 1] be a map with domain D defined by T f = f 0, (i.e., T is the differentiation operator).
+Then, (i) T is linear (ii) T is closed; (iii) T is not bounded.
+The proof of (i) is obvious.
+To verify (ii), Let {f } be a sequence in D such that n f (cid:3450) f and T f := f 0 (cid:3450) y. n n n Observe that T f (cid:3450) y, implies that kT f (cid:3557) yk = sup |(T f )(t) (cid:3557) y(t)| = sup |f 0 n n C [0,1] n n t(cid:3547)[0,1] t(cid:3547)[0,1] (cid:3557) y(t)| (cid:3450) 0 as n (cid:3450) (cid:3569) .
+This convergence is uniform and y(t) = lim f 0 (t).
+Since the conver- n n(cid:3450)(cid:3569) gence is uniform, we can interchange limit and integral, so we have: Z Z Z t t t y(s)ds = lim f 0 (s)ds = lim f 0 (s)ds = f (t) (cid:3557) f (0), n n 0 0 n(cid:3450)(cid:3569) n(cid:3450)(cid:3569) 0 so that Z t f (t) = f (0) + y(s)ds.
+0 It is now easy to see that f 0(t) exists and f 0(t) = y(t) for all t (cid:3547) [0, 1].
+Thus, f (cid:3547) D and T f = y so T is closed.
+It now remains to show (iii) that T is not bounded.
+Take f (t) = tn .
+Then n kf k = sup |tn | = 1 and T f = fn 0 (t) = ntn(cid:3557) 1 so that n n t(cid:3547)[0,1] kT f k = sup |ntn(cid:3557) 1| = n , n = 1, 2, .... n t(cid:3547)[0,1]  18 6 Conclusion Thus T is not bounded The next theorem now tells us when a closed linear operator is bounded.
+Theorem 5.7 The Closed Graph Theorem Let X and Y be real Banach spaces.
+Let (i) T : X (cid:3450) Y be a linear map; (ii) The graph of T , G(T ) be closed.
+Then T is continuous.
+6 Conclusion In this unit, you were introduced to a special class of linear maps called Bounded linear maps.
+You were also introduced to the concept of Dual space of a given normed linear space, which is the space of all bounded linear functionals defined on a normed linear space.
+You also learnt how to compute the norms of a bounded linear map of functional.
+You also saw some theorems that you can use to determine when a given linear map or a sequence of linear maps is bounded.
+You also learnt how to extend a linear functional defined on a subspace of a given vector space to the whole space, preserving norm.
+7 Summary Having gone through this unit, you know that; (i) If X and Y are linear spaces then the mapping T : X (cid:3450) Y is called a linear map if T (αx + βy) = αT (x) + βT (y) for arbitrary x, y (cid:3547) X and arbitrary scalars α, β (cid:3547) K. (ii) A linear map T : X (cid:3450) Y is bounded if there exists some constant K (cid:3640) 0 such that for each x (cid:3547) X,4 kT (x)k (cid:3639) K kxk.
+(iii) A linear map is continuous if and only if it is bounded.
+(iv) the family B(X, Y ) of bounded linear maps from normed linear space X into the normed linear space Y is a linear space if vector addition and scalar multiplication is defined by (T + L)(x) = T (x) + L(x) and (αT )(x) = αT (x) respectively for arbitrary T , L (cid:3547) B(X, Y ) and scalar α.
+19 7 Summary (v) The space B(X, Y ) of bounded linear maps between X and Y becomes a normed linear space with the norm kT k = sup kxk(cid:3639) 1 for arbitrary T (cid:3547) B(X, Y ) (vi) a linear map from a vector space to a scalar field is called a linear functional (vii) the space of all bounded linear functionals is called the dual space.
+(viii) the dual space of the n(cid:3557) real space Rn and the n(cid:3557) complex space is the same.
+(ix) if 1 < p < (cid:3569) with 1 + 1 = 1 then the dual of l is l .
+p q p q (x) if f : M (cid:3450) K is a linear functional defined on a linear subspace M of a normed linear space X, then there exists a linear functional F defined on X such that kF k = kf k (Hahn-Banach theorem).
+(xi) (The Uniform Boundedness Theorem) if X, Y be Banach spaces, let {T } (cid:3669) B(X, Y ).
+α α(cid:3547)I Suppose that sup kT (x)k < (cid:3569) for each x (cid:3547) X, α α(cid:3547)I then sup < (cid:3569) .
+α(cid:3547)I (xii) (Banach-Steinhaus) if X, Y be a Banach space and {T } be a family of bounded linear n operators in B(X, Y ) and suppose that the family {T x} converges to a limit defined n by T x.
+Then (a) sup kT k < (cid:3569) n n(cid:3640) 1 (b) T (cid:3547) B(X, Y ) (c) kT k (cid:3639) lim inf kT k n n(cid:3450)(cid:3569) (xiii) a linear map T : X (cid:3450) Y is called an open map if T maps open set of X onto an open set of Y.
+(xiv) Open Mapping theorem if X and Y are Banach spaces and T : X (cid:3450) Y, and suppose that (a) T (cid:3547) B(X, Y ), (b) T is surjective (i.e., onto) Then T is an open map (i.e., T maps open set of X onto an open set of Y.)
+(xv) Closed graph theorem If X and Y are real Banach spaces, and suppose (a) T : X (cid:3450) Y is a linear map and (b) the graph of T , G(T ) is close, Then T is continuous.
+20 8 TMAs 8 TMAs 1.
+Which of the following mappings is not linear?
+(a) f : R2 (cid:3450) R3 defined by f (x, y) = (x + 3, 2y, x + y) (b) f : R3 (cid:3450) R2 defined by f (x, y, z) = (x + y + z, 2x (cid:3557) 3y + 4z) (c) f : R2 (cid:3450) R2 defined by f (x, y) = (x + y, x) (d) None 2.
+The function f : R3 (cid:3450) R2 defined by f (x, y, z) = (|x|, y + z) is linear.
+(True/ False) 3.
+The mapping f : R2 (cid:3450) R2 defined by f (x, y) = (xy, x) is linear.
+(True/ false) P 4.
+Let X be a finite dimensional space and x , x , ..., x be a basis.
+If x = n α x , define 1 2 n i= 1 i i !
+1 Xn 2 kxk = |αi |2 i=1 If f is a bounded linear functional on X, find kf k. What will kf k be if kxk = maxi |αi | 5.
+If X is a finite-dimensional space, then all linear functionals are bounded.
+(True/False).
+6.
+If X is an infinite-dimensional space, are all linear functionals bounded?
+(Yes/No).
+7.
+Let f be a bounded linear functional defined on C [a, b] (with the sup norm) by Z b (f x)(t) = x(t)dt a for all x (cid:3547) C [a, b].
+Find kf k. 8.
+On the space l , for x = (α , α , ...), define 1 1 2 X(cid:3569) f (x) = α n n=1 and introduce a new norm kxk = sup |α |.
+Then with respect to this norm, (cid:3569) n (a) f is linear and continuous.
+(b) f is bounded and continuous.
+(c) f is linear and not continuous.
+(d) f is linear and bounded.
+9.
+Let Rn be the real n-space, and let a be any fixed nonzero vector in Rn .
+Define f : Rn (cid:3450) R by f (x) = hx, ai for all x (cid:3547) Rn (where h, i denotes the inner product, or scalar product).
+Compute kf k.  21 8 TMAs (a) ka k 2 (b) kak (c) kxk (d) kxkkak 10.
+Let g (t) be a fixed function in C [a, b], and let 0 Z b T f = f (t)g (t)dt.
+0 a Then T a linear functional on C [a, b].
+(True/ False) 11.
+If your answer is Yes in problem 7 above, what is kT k?
+(a) kT k = 1 (b) kT k = |g (t)| 0 Z b (c) kT k = |g (t)| dt 0 a (d) kT k = K, Where K is an arbitrary constant.
+12.
+Consider the functions defined on the space C [0, 1], Z Z 1/2 1 (I) f (x) = ax(0) + bx(1) (II) g(x) = x(t)dt x(t)dt 0 (cid:3557) 1/2 which one(s) is/are bounded linear functional(s) on the space C [0, 1]?
+(a) I only (b) II only (c) Both I and II (d) None 13.
+Find (a) ϕ + σ, (b) 3ϕ (c) 2ϕ (cid:3557) 5σ, where ϕ : R3 (cid:3450) R and σ : R3 (cid:3450) R and define by ϕ(x, y, z) = 2x (cid:3557) 3y + z and σ(x, y, z) = 4x (cid:3557) 2y + 3z 14.
+Find the dual basis of each of the following bases of R3 : (a) {(1, 0, 0), (0, 1, 0), (0, 0, 1)} (b) {(1, (cid:3557) 2, 3), (1, (cid:3557) 1, 1), (2, (cid:3557) 4, 7)}  22 8 TMAs 15.
+Let V be the space of polynomials over R of degree (cid:3639) 2.
+Let ϕ , ϕ , ϕ be the 1 2 3 linear functionals on V defined by Z 1 ϕ (f (t)) = f (t)dt ϕ (f (t)) = f 0(1), ϕ (f (t)) = f (0) 1 2 3 0  Here f (t) = a + bt + ct2 and f 0(t) denotes the derivatives of f (t).
+Find the basis {f1 (t), f2(t), f3(t)} of V that is dual to {ϕ1 , ϕ2, ϕ2} 23  UNIT 4: INNER PRODUCT SPACES Contents 1 Introduction 1 2 Objectives 1 3 Inner Product Spaces 2 3.1 Basic Properties .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.2 Examples of Inner Product spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.3 Jordan Von Neumann Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 4 Conclusion 7 5 Summary 7 6 TMAs 8 1 INTRODUCTION In this unit, you shall be introduced with inner product spaces i.e., spaces with a real valued fuction called an inner product or scalar product defined on it and some special properties of such spaces.
+You shall discorver that an inner product space is a normed linear space, where the norm is induced by the inner product defined on the space.
+Therefore, being a normed linear space, it is also a metric space as you have studied in the previous units.
+Hence you see that there is need to talk about completeness.
+This will now lead you to some some special kinds of inner product space called Hilbert spaces which turn out to be complete inner product spaces.
+2 OBJECTIVES At the end of this unit, you should be able to; 1. define an inner product space, 1 3 Inner Product Spaces 2. identify and show that a function is an inner product.
+3. prove that an inner product is complete.
+4. identify Hilbert spaces.
+3 INNER PRODUCT SPACES Definition 3.1 Let E be a linear space over the scalar field K(= R or C).
+A complex-valued function h, i : E × E (cid:3450) K defined for arbitrary pair of elements x, y (cid:3547) E is said to be a scalar product or inner product if it satisfies the following properties: I .
+hx, xi (cid:3640) 0 and hx, xi = 0 if and only if x = 0; 1 I .
+hx, yi = hy, xi; where “bar” is the complex conjugation.
+2 I .
+hλx + µy, zi = λhx, zi + µhy, zi 3 (valid for all x, y, z (cid:3547) E and all complex λ and µ) Definition 3.2 A linear space E with an inner product h, i defined on it is called an inner product space.
+3.1 BASIC PROPERTIES Here are some basic properties of inner product spaces.
+Remark 3.1 The inner product defined on the linear space E is a linear function in the first variable except for the case that E is a linear space over R, the field of real numbers.
+You can observe this as an immediate consequence of I and I that for arbitrary elements x, y, z (cid:3547) E, and λ, µ (cid:3547) C, 1 2 hz, λx + µyi = λ¯hz, xi + µhz, yi.
+Lemma 3.1 (Cauchy Schwartz Inequality) Let (E, h, i) be an inner product space.
+If x, y (cid:3547) E are arbitrary then |hx, yi|2 (cid:3639) hx, xihy, yi (1) |hx, yi|2 = hx, xihy, yi if and only if x and y are linearly independent.
+Proof.
+Let x, y (cid:3547) E be arbitrary.
+Let z (cid:3547) C such that |z| = 1 and zhx, yi = |hx, yi|.
+Then for all t (cid:3547) R, 0 (cid:3639) (cid:2)(t) = htzx + y, tzx + yi = t2zz¯hx, xi + tzhx, yi + tz¯hy, xi + hy, yi = hx, xit2 + 2t|hx, yi| + hy, yi.
+2 3.1 Basic Properties Therefore, |hx, yi|2 (cid:3557) hx, xihy, yi (cid:3639) 0 (2) Otherwise there exist t (cid:3547) R such that ϕ(t ) < 0 and would contradict the fact that ϕ(t) (cid:3640) 0 for all 0 0 t (cid:3547) R. Thus from (2), |hx, yi|2 (cid:3639) hx, xihy, yi as required.
+Theorem 3.1 An inner product space E becomes an normed linear space when equipped with the norm p kxk = hx , xi.
+(3) for all x (cid:3547) E. Proof.
+The proof that k · k satisfies N and N from the definition of k · k and conditions I and 1 2 1 I .
+It is now left for you to verify that k · k satisfy N .
+So take an arbitrary elements x, y (cid:3547) E. 2 3 kx + yk2 = hx + y, x + yi = hx, x + yi + hy, x + yi = hx, xi + hx, yi + hy, xi + hy, yi = kxk2 + hx, yi + hy,¯ x i + kyk 2 = kx k2 + 2Re hx, yi + kyk2 (cid:3639) kxk2 + 2|hx, yi| + kyk2 (cid:3639) kxk2 + 2kxk · kyk + kyk 2 = (kxk + kyk) 2 Which implies that kx + yk (cid:3639) kxk + kyk for all x, y (cid:3547) E. The proof in now complete, hence, (E, k · k) is a normed linear space.
+Remark 3.2 As a consequence of Lemma 3.1, the Cauchy-Schwartz inequality is generally written as follows: |hx, yi| (cid:3639) kxkkyk, for arbitrary x, y (cid:3547) E. Lemma 3.2 The inner product h, i is a continuous function on E × E. Proof.
+The proof follows from the Cauchy-Schwartz inequality.
+Proposition 3.1 (The Parallelogram Law) Let E be an inner product space.
+the for arbitrary x, y (cid:3547) E, kx + yk 2 + kx (cid:3557) yk 2 = 2(kxk 2+ kyk ) 2 (4) Proof.
+Take arbitrary elements x, y (cid:3547) E. Since E is an inner product space, kx + yk2 = hx + y, x + yi = hx, x + yi + hy, x + yi = hx, xi + hx, yi + hy, xi + hy, yi = kxk 2 + hx, yi + hy, xi + ky k2 3 3.2 Examples of Inner Product spaces and kx (cid:3557) yk2 = hx (cid:3557) y, x (cid:3557) yi = hx, x (cid:3557) yi (cid:3557) hy, x (cid:3557) yi = hx, xi (cid:3557) hx, yi (cid:3557) hy, xi + hy, yi = kxk2 (cid:3557) hx, yi (cid:3557) hy, xi + ky k2 From the expansion above, you have kx + yk 2 + kx (cid:3557) yk 2 = 2(kxk 2+ kyk )2 for all x, y (cid:3547) E. Proposition 3.2 (The Polarization Identity) Let E be an inner product space.
+Then for arbitrary x, y (cid:3547) E, hx, yi = 1 {kx + yk2 (cid:3557) kx (cid:3557) yk2 + ikx + iyk2 (cid:3557) ikx (cid:3557) iyk2}, where i2 = (cid:3557) 1 4 Proof.
+You can easily prove this by expanding the right hand side to get the left hand side.
+3.2 Examples of inner product spaces Example 3.1 The linear space Rn , with the function h, i defined, for arbitrary vectors x = (x , x , ..., x ), y 1 2 n = (y , y , ..., y ) in Rn , by 1 2 n Xn hx, yi = x y (5) k k k=1 is an inner product space.
+The norm induced by (5) is given by !
+1 p Xn 2 kxk = h x, xi = x2 k k=1 for arbitrary x = (x , x , ..., x ) i.e., the Euclidean norm.
+1 2 n Verification.
+To verify that (Rn , h, i) is an inner product space, you have to first show that h, i is an inner product on Rn .
+That is to say that h, i must satisfy axioms I , I and I of an inner product.
+So you can verify 1 2 3 as follows.
+Xn I .
+Let x (cid:3547) Rn , hx, xi = x2 (cid:3640) 0 as a finite sum of nonnegative real numbers.
+Which implies 1 k k=1 that hx, xi (cid:3640) 0 for all x (cid:3547) Rn .
+Xn Now, hx, xi = 0 if and only if x2 = 0 if and only if x2 = 0 for each k (cid:3547) {1, 2, ..., k} k k k=1 (since they are nonnegative) if and only if all x0 s = 0, if and only if x = (x , x , ..., x ) = k 1 2 n (0, 0, ..., 0) = 0 in Rn .
+4 3.2 Examples of Inner Product spaces I .
+Let x = (x , x , ..., x ), y = (y , y , ..., y ) in Rn be arbitrary.
+2 1 2 n 1 2 n Xn Xn hx, yi = x y = y x = hy, xi k k k k k=1 k=1 since the complex conjugatation does not have any effect on the set of real numbers.
+I .
+Let x, y, z (cid:3547) Rn , x = (x , x , ..., ), y = (y , y , ..., y ) and z = (z , z , ..., z ) 3 1 2 n 1 2 n 1 2 n and λ, µ (cid:3547) R be arbitrary.
+Xn Xn Xn hλx + µy, zi = (λxk + µyk )zk = λxk zk + µyk zk k=1 k=1 k=1 Xn Xn = λ x z + µ y z k k k k k=1 k=1 = λhx, yi + µhy, zi Therefore, hλx + µy, zi = λhx, zi + µhy, zi for all x, y, z (cid:3547) Rn and λ, µ (cid:3547) R. Thus, since h, i satisfies I , I and I as demonstrated above, then it is an inner product on Rn .
+1 2 3 Hence, (Rn , h, i) is an inner product space.
+Other examples of inner product spaces are as given below.
+Example 3.2 The linear space Cn , i.e.
+the n-complex space, with the function h, i defined for arbi- trary z = (z , z , ..., z ), ω = (ω , ω , ..., ω ) in Cn , by 1 2 n 1 2 n Xn hz, ωi = z ω (6) k k k=1 is an inner product space.
+The norm induced by (6) is given by !
+1 Xn 2 kzk2 = |zk |2 k=1 for arbitrary z = (z , z , ..., z ) (cid:3547) Cn , i.e., the unitary norm.
+1 2 n Example 3.3 The linear space l (C) with the function h, i defined, for arbitrary vectors x = (x , x , ..., x , ...), y 2 1 2 k = (y , y , ..., y , ...) in l , by 1 2 k 2 X(cid:3569) hx, yi = x y (7) k k k=1 is an inner product space.
+The norm induced by (7) is given by !
+1 X(cid:3569) 2 kxkl2 = |xk |2 k=1 for arbitrary sequence x = (x , x , ..., x , ...) 1 2 k 5 3.3 Jordan Von Neumann Theorem Observe that the series in (7) converges follows from the Cauchy-Schwartz inequality applied to partial sums (Lemma 4.1).
+Example 3.4 The linear space C of continuous real valued function define on the closed and [0,1] bounded interval [0, 1], with the function h, i defined for arbitrary f, g (cid:3547) C by [0,1] Z 1 hf, gi = f (t)g(t)dt (8) 0 is an inner product space.
+The induced by (8) is given by Z 1 12 kf k2 = |f (t)|2 (9) 0 for arbitrary f (cid:3547) C .
+[0,1] Example 3.5 The linear space L [0, T ] of all Lebesgue integrable functions on [0, T ], with h, i defined 2 for arbitrary f, g (cid:3547) L [0, T ] by 2 Z T hf, gi = f (t)g(t) dt (10) 0 is an inner product space.
+The norm induced by (10) is similar to that given in (9).
+You can easily verify that the above examples are inner product space by properly applying the properties of complex conjugation.
+3.3 JORDAN VON NEUMANN THEOREM You have seen that in an inner product space E, the inner product induces a norm which is given by (3) in theorem 4.1.
+Thus showing us that every inner product space is also a normed linear space.
+Question.
+The question now is, given a norm on a linear space, how can we know that it is induced by an inner product?
+The answer to the above question is given in the theorem.
+Theorem 3.2 (Jordan Von Neumann) The norm on a normed linear space E is given by an inner product if and only if the norm satisfies the parallelogram law.
+i.e., if and only if for arbitrary x, y (cid:3547) E, kx + yk 2 + kx (cid:3557) yk 2 = 2(kxk 2+ kyk )2 Thus, a normed linear space is an inner product space if and only if the norm on E satisfies the parallelogram law.
+6 4 Conclusion For example, the norm on Rn given by kxk = max |x | 0 k 1(cid:3639) k(cid:3639) n is not given by an inner product.
+Hence, Rn with this norm is not an inner product space.
+You can apply theorem 4.2 to check this.
+That is, it is enough for you to check that k · k does 0 not satisfy the parallelogram law.
+But observe that the parallelogram law states for all elements x and y in an inner product space.
+Hence, if you can find two elements of Rn for which parallelogram law fails for the norm k · k , then you are done.
+0 4 CONCLUSION In this unit you have studied inner product spaces, that is, linear spaces with an inner product defined on it.
+You have seen some examples inner product spaces and how to verify that a given fuction defined on a linear space is an inner product.
+You saw that every inner product induces a norm thereby making the inner product a normed linear space.
+You have also seen that you can actually check, by use of parallelogram law that some norms are not induced by an inner product.
+5 SUMMARY Having gone through this unit, you now know that; (i) If E is a linear space over a scalar field K(= R or C), then an inner product or scalar product on E is a complex valued function h, i : E × E (cid:3450) K defined for arbitrary pairs of elements x, y (cid:3547) E and satisfies I .
+hx, xi (cid:3640) 0 and hx, xi = 0 if and only if x = 0; 1 I .
+hx, yi = hy, xi; where “bar” is the complex conjugation.
+2 I .
+hλx + µy, zi = λhx, zi + µhy, zi.
+3 (valid for all x, y, z (cid:3547) E and all complex λ and µ) (ii) A linear space E with an inner product h, i defined on it is called an inner product space (iii) (Cauchy-Schwartz Inequality) if (E, h, i) is an inner product space, and if x, y (cid:3547) E are arbitrary, then |hx, yi| (cid:3639) hx, xihy, yi.
+Where equality holds if x and y are linearly independent.
+(iv) An inner product defined on an inner product space E induces a norm on E defined by p kxk = h x, xi (v) (Parallelogram Law) If E is an inner product space then for arbitrary x, y (cid:3547) E kx + yk2 + kx (cid:3557) y k 2 = 2(kx k 2 + kyk2) (vi) (The Polarization Identity) If E is an inner product space, then for arbitrary x, y (cid:3547) E, hx, yi = 1 {kx + yk 2 (cid:3557) kx (cid:3557) yk2 + ikx + iyk 2 (cid:3557) ikx (cid:3557) iyk2}, where i2 = 1 4 7 6 TMAs 6 EXERCISE TMAs 1.
+Verify that the spaces defined in Examples 3.2 to 3.6 are inner product spaces.
+2.
+Compute the l inner product of x and y where 2 1 1 1 1 1 1 x = 1, , , , ... and y = , , , ... 2 3 4 3 4 5 3.
+Let E = l .
+Check if kx + yk = kxk + kyk where 2 (a) x = (1, 1 , 1 , 1 , ...), y = (1, 0, 0, ...); 2 4 8 (b) x = (1, 1 , 1 , 1 , ...), y = 3x 3 9 27 4.
+Consider the sequences x = { 1 }(cid:3569) and y = { 1 }(cid:3569) n n=1 n+1 n=1 (a) Verify that x and y are in l .
+2 (b) Compute l inner product of x and y.
+2 5.
+Consider the fucntions, f (t) = sin 2t; g(t) = cos 3t; h(t) = sin4 t; m(t) = sec2 t. (a) Verify that f, g, h and m are elements of L [0, 2π] 2 (b) Compute the L [0, 2π] inner products: 2 i. hf, gi and ii.
+hh, mi.
+6.
+Let P = {p = p(t), polynomial of degree less than or equal to n over the interval [a, b]}.
+n Define the function h, i on P × P by n n Z b hp, qi = p(t)q(t)dt a (a) Prove that h, i is inner product on P .
+n (b) Compute hf, gi where f (t) = 1 (cid:3557) 3 t2 , g(t) = 3t2.
+2 7.
+Let (i) x(t) = t2 , y(t) = (cid:3557) t2 .
+2, 0 (cid:3639) t (cid:3639) 1 0, 0 (cid:3639) t (cid:3639) 1 (ii) x(t) = 4 , y(t) = 4 0, 1 < t (cid:3639) 1 2, 1 < t (cid:3639) 1 4 4 (a) Verify that x and y are in L [0, 1].
+2 (b) Compute hx, yi in each of (i) and (ii).
+(c) Check whether or not kx + yk2 = kxk2 + kyk2.
+8 6 TMAs 8.
+Verify that C with the norm defined for arbitrary f (cid:3547) C by [0,1] [0,1] kf k0 = sup |f (t)| t(cid:3547)[0,1] is not an inner product space.
+9.
+Verify that l , 1 < p < (cid:3569) , p = 2, is not an inner product space.
+p 10.
+Is Rn with norm defined for arbitrary x = (x , x , ..., x ) (cid:3547) Rn by 1 2 n kxk = max |x | (cid:3569) k 1(cid:3639) k(cid:3639) n an inner product space?
+Justify your answer.
+9  UNIT 5: HILBERT SPACES Contents 1 Introduction 1 2 Objectives 1 3 Hilbert Spaces 2 3.1 Examples of Hilbert spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.2 Orthogonality, Orthonormal sets and Orthogonal complements .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+3 3.2.1 Orthogonal Basis and Linear Combination, Fourier Coefficients .
+.
+.
+.
+.
+.
+.
+6 3.3 The Projection Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+9 3.3.1 Direct Sum Decomposition .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 4 The Riesz Representation Theorem 13 5 Conclusion 13 6 Summary 13 7 TMAs 14 1 INTRODUCTION In the preceeding units you have studied Banach spaces and Inner product spaces.
+You were able to prove that an inner product induces a norm on the space, making an inner product space a normed linear space.
+As a result, there is need to discuss completeness in an inner product space which would give you some special class Banach spaces called Hilbert spaces.
+In what follows, you shall be intro- duced with this Hilbert spaces and its properties.
+These spaces are extremely useful in applications.
+2 OBJECTIVES After studying this unit, you should be able to 1 3 Hilbert Spaces (i) identify and show that an inner product space is a Hilbert space.
+(ii) 3 HILBERT SPACES Recall that you defined a norm k · k on an inner product space E, by p kxk = hx, xi for arbitrary x (cid:3547) E. With respect to this norm you can also define a Cauchy sequence in E. Definition 3.1 Let E be an inner product space.
+A sequence {x }(cid:3569) in E is Cauchy if and only if n n=1 1 hxn (cid:3557) xm , xn (cid:3557) xm i 2 := kxn (cid:3557) xm k (cid:3450) 0 as n, m (cid:3450) (cid:3569) .
+Consequently, an inner product space E is called complete if every Cauchy sequence in E converges to a point of E. Definition 3.2 A complete inner product space is called a Hilbert space.
+In what follows you shall call H a Hilbert space.
+Note that a Hilbert space H could be a complex Hilbert space or a real Hilbert space according as the underlying linear space is complex or real respectively.
+3.1 EXAMPLES OF HILBERT SPACES.
+Example 3.1 L [a, b], where the functions are complex valued is a Hilbert spaces with inner product 2 Z b hu, vi = u(t)v(t)dt (1) a and norm Z b 21 kuk = |u(t)|2dt a Example 3.2 The linear space Rn , with inner product h, i defined, for arbitrary vectors x = (x , x , ..., x ), 1 2 n y = (y , y , ..., y ) in Rn , by 1 2 n Xn hx, yi = x y (2) k k k=1 is a Hilbert space.
+The norm is given by !
+1 p Xn 2 kxk = hx, xi = x2 k k=1 for arbitrary x = (x , x , ..., x ) i.e., the Euclidean norm.
+1 2 n 2 3.2 Orthogonality, Orthonormal sets and Orthogonal complements Example 3.3 The linear space Cn , i.e.
+the n-complex space, with the inner product, h, i defined for arbitrary z = (z , z , ..., z ), ω = (ω , ω , ..., ω ) in Cn , by 1 2 n 1 2 n Xn hz, ωi = z ω (3) k k k=1 is a Hilbert space.
+The norm is given by !
+1 Xn 2 kzk2 = |zk |2 k=1 for arbitrary z = (z , z , ..., z ) (cid:3547) Cn , i.e., the unitary norm.
+1 2 n Example 3.4 The linear space l (C) with the function h, i defined, for arbitrary vectors x = (x , x , ..., x , ...), 2 1 2 k y = (y , y , ..., y , ...) in l , by 1 2 k 2 X(cid:3569) hx, yi = x y (4) k k k=1 is a Hilbert space.
+The norm is given by !
+1 X(cid:3569) 2 kxkl2 = |xk |2 k=1 for arbitrary sequence x = (x , x , ..., x , ...) 1 2 k Example 3.5 The space C [a, b] of continuous complex or real valued function defined on [a, b] with inner product Z b hf, gi = f (t)g(t)dt a is not a Hilbert space, because the norm induced by this inner product is Z b 12 kf k = |f (t)|2dt 2 a and you proved in previous units that the space C [a, b] with this norm is not complete.
+Or you can use the fact that C [a, b] is not a closed subspace of L [a, b] the space of Lebegue integrable functions on 2 [a, b] 3.2 Orthogonality, Orthonormal sets and Orthogonal complements Definition 3.3 Orthogonality.
+Two vectors x and y in an inner product space E are orthogonal if hx, yi = 0 in which case we write x(cid:3704) y.
+If M is a subset of E, then we write x(cid:3704) M if x(cid:3704) y for every y (cid:3547) M. 3 3.2 Orthogonality, Orthonormal sets and Orthogonal complements If x(cid:3704) y, then the parallelogram law, reduces to a generalized statement of Pythagoras’ theorem, namely kx + yk2 = kxk2 + kyk2.
+Definition 3.4 Orthogonal and Orthonormal sets.
+A set S in an inner product space E is called an orthogonal set if hx, yi = 0 for all x, y (cid:3547) S, x = y.
+The set S is called orthonormal if it is an orthogonal set and kxk = 1 for each x (cid:3547) S. Definition 3.5 Orthogonal and Orthonormal systems (basis) A set of nonzero vectors {x } in E is said to be an Orthogonal basis if α hx , x i = 0 for α = β. α β and an orthonormal basis if 0 f or α = β, hx , x i = α β 1 f or α = β.
+If {x } is an orthogonal basis, then clearly, α x α kx k α is an orthonormal basis.
+This is called normalizing an orthogonal set.
+Example 3.6 In l , {e }(cid:3569) given by 2 n n=1 e = (1, 0, 0, ...) 1 e = (0, 1, 0, ...) 2 .
+.
+e = (0, 0, ..., 0, 1, 0, ...) n .
+.
+with 1 at the nth position is an orthonormal system.
+1 (cid:3569) Example 3.7 In L2[0, 2π], the set S = (cid:3565) eint is an orthonormal set.
+2 π n=1 Theorem 3.1 The vectors in an orthonormal system {x } are linearly independent.
+α Proof.
+Suppose 4 3.2 Orthogonality, Orthonormal sets and Orthogonal complements c x + c x + · · · + c x = 1 α1 2 α2 n αn 0 Then, taking the scalar product with x , we get αk hx , c x + c x + · · · + c x i = c hx , x i = αk 1 α1 2 α2 n αn k αk αk 0 by the orthogonality of {x }.
+But hx , x i = 0, hence α αk αk c = 0 (k = 1, 2, ..., n).
+k Proposition 3.1 Let S be an orthonormal set in an inner product space E. Let {v , v , ..., v } be a 1 2 n finite subset of S. Then for any x (cid:3547) E, Xn |hx, v i|2 (cid:3639) kxk2.
+(5) k k=1 Proof.
+Let α = hx, v i.
+Then, k k Xn 2 x αk vk (cid:3640) (cid:3557) k=1 0 so that, * + Xn nX x (cid:3557) αk vk , x (cid:3557) αj (cid:3640) 0, v j k=1 k=1 i.e., * + * + * + Xn Xn Xn Xn hx, xi x, αj vj (cid:3557) ak vk , x + αk vk , αj vj (cid:3640) 0 (cid:3557) j=1 k=1 k=1 j=1 or Xn Xn Xn Xn kxk2 (cid:3557) α¯ hx, v i α hv , xi + α α¯ hv , v i (cid:3640) 0, j j k k k j k j j=1 k=1 k=1 j=1 (cid:3557) By definition, α = hx, v i, α = hx, v i.
+Therefore, k k j j Xn nX nX kxk2 (cid:3557) α¯ α (cid:3557) α α¯ + |α |2 (cid:3640) 0, j j k k k j=1 k=1 k=1 using hv , v i = 0, k = j, so that k j Xn nX n X kxk2 (cid:3557) |α |2 + |α |2 (cid:3557) |α |2 (cid:3640) 0 j k k w ch elds hi yij=1 k=1 k=1 Xn Xn |α |2 := |hx, v i|2 (cid:3639) kx2k , as required.
+j j j=1 j=1 5 3.2 Orthogonality, Orthonormal sets and Orthogonal complements The above theorem can be generalize to yeild the following theorem.
+Theorem 3.2 (Bessel’s Inequality) If {v }(cid:3569) is an orthonormal set in an inner product space E, k k=1 then for arbitrary x (cid:3547) E, X(cid:3569) |hx, v i|2 (cid:3639) kxk2.
+k k=1 !
+X(cid:3569) Furthermore, x (cid:3557) hx, vk ivk is orthogonal to vk for each k. k=1 Theorem 3.3 (Pythagoras) Suppose {u , u , ..., u } is an orthogonal set of vectors.
+Then 1 2 r 2 2 2 2 ku + u + · · · + u k = ku k + ku k + · · · + ku k .
+1 2 r 1 2 r Proof.
+Expanding the inner product, gives you ku + u + · · · + u k2 = hu + u + · · · + u , u + u + · · · + u i 1 2 r 1 2 r 1 2 r P = hu , u i + hu , u i + · · · hu , u i + hu , u i 1 1 2 2 r r i=j i j The theorem follows from the fact that hu , u i = ku k2 and hu , u i = 0 for i = j i i i i j 3.2.1 Orthogonal Basis and Linear Combination, Fourier Coefficients Definition 3.6 (Fourier Coefficients) Let {u } be an orthogonal system in an inner product space E k which is not orthonormal.
+Let u v = k k ku k k Then the system {vk } is orthonormal.
+Given f (cid:3547) E, let 1 ck = hf, vk i = hf, uk i, kuk k and consider the series X(cid:3569) X(cid:3569) X(cid:3569) c k c v¯ = u¯ = a u¯ , k k k k k ku k k=1 k=1 k k=1 where c hf, u i a = k = k .
+(6) k kuk k kuk k2 Then the coefficients (6) are called the Fourier coefficients of the elements f (cid:3547) E with respect to the orthogonal (but nor orthonormal) system {u }.
+k Example 3.8 Let S consist of the following three vectors in R3 : u = (1, 2, 1), u = (2, 1, (cid:3557) 4), u = (3, (cid:3557) 2, 1) 1 2 3 6 3.2 Orthogonality, Orthonormal sets and Orthogonal complements You can verify that the vectors are orthogonal; hence they are linearly independent.
+Thus S is an orthogonal basis of R3 .
+Suppose you want to write v = (7, 1, 9) as a linear combination of u , u , u .
+First you have to set 1 2 3 v as a linear combination of u , u , u using unknowns x , x , x as follows: 1 2 3 1 2 3 v = x u + x u + x u or (7, 1, 9) = x (1, 2, 1) + x (2, 1, (cid:3557) 4) + x (3, (cid:3557) 2, 1) (*) 1 1 2 2 3 3 1 2 3 You can proceed in two ways.
+Method 1: Expand (*) to obtain the system x + 2x + 3x = 7, 2x + x (cid:3557) 2x = 1, x (cid:3557) 4x + x = 9 1 2 3 1 2 3 1 2 3 Solving the above system of linear equations give you x = 3, x = (cid:3557) 1 and x = 2.
+Thus 1 2 3 v = 3u (cid:3557) u + 2u .
+1 2 3 Method 2: (This method uses the fact that the basis vectors are orthogonal, and the arithmetic is much simpler.)
+If we take the inner product of each side of (*) with respect to u , we get i h v, ui i hv, u i = hx u + x u + x u , u i or hv, u i = x hu , u i or x = i 1 1 2 2 3 3 i i i i i i hui , ui i Here two therms drop out, since u , u , u are orthogonal.
+Accordingly, 1 2 3 x = h v, u1 i = 7 + 2 + 9 = 18 = 3, x = hv, u2i = 14 + 1 (cid:3557) 36 = (cid:3557) 21 = (cid:3557) 1 1 2 hu1, u1i 1 + 4 + 1 6 hu2, u2i 4 + 1 + 16 21 x = hv , u3i = 21 (cid:3557) 2 + 9 = 28 = 2 3 hu3 , u3 i 9 + 4 + 1 14 Thus, again, you get v = 3u (cid:3557) u + 2u .
+1 2 3 The procedure in method 2 is true in general.
+Namely, we have the following theorem.
+Theorem 3.4 Let {u , u , ..., u } be an orthogonal basis of an inner product E. Then for any v (cid:3547) E, 1 2 n hv, u1i hv, u2i hv, un i v = u + u + · · · un 1 2 hu1 , u1i hu2, u2i hun , un i Proof.
+Suppos v = k1u1 + k2u2 + · · · + kn un .
+Taking the inner product of both sides with u1 yields hv, u1i = hk1u1 + k2u2 + · · · + kn un , u1 = k hu , u i + k hu , u i + · · · k hu , u i 1 1 1 2 2 1 n n 1 = k hu , u i + k · 0 + · · · + k · 0 = k hu , u i 1 1 1 2 n 1 1 1  7 3.2 Orthogonality, Orthonormal sets and Orthogonal complements Thus k = h v, u1i .
+Similarly, for i = 2, ..., n, 1 hu1, u1i hv, ui i = hk1u1 + k2u2 + · · · + kn un , ui = k hu , u i + k hu , u i + · · · k hu , u i 1 1 i 2 2 i n n i = k · 0 + · · · + k hu , u i + · · · + k · 0 = k hu , u i 1 i i i n i i 1 h v, ui i Thus k = .
+Substituting for k in the equation v = k u + · · · + k u , we obtain the desired i i 1 1 n n hui , ui i result.
+Theorem 3.5 (Riesz-Fischer theorem).
+Given an orthonomal system {u } in complete inner prod- k uct space E, let the number the numbers c , c , ..., c , ... be such that 1 2 k X(cid:3569) |c |2 (7) k k=1 converges.
+Then there exists an element f (cid:3547) E with c , c , ..., c , ... as its Fourier coefficients, i.e.m 1 2 k such that X(cid:3569) |ck2 | = kf k2 k=1 where c = hf, u i (k = 1, 2, ...).
+k k Proof.
+Writing Xn f = c u , n k k k=1 we have Xn+p kfn+p (cid:3557) fn k2 = kcn+1 un+1 + · · · + cn+p un+p2 k |ck |2.
+= k=n+1 Hence f converges to some element f (cid:3547) E, by the convergence of (7) and the completeness of E. Moreover, hf, u i = hf , u i + hf (cid:3557) f , u i (8) k n k n k where the first on the right equals c if n (cid:3640) k and the second term approaches zero as n (cid:3450) (cid:3569) , k since |hf (cid:3557) f , u i| (cid:3639) kf (cid:3557) f kku n k n k k. Taking the limit as n (cid:3450) (cid:3569) in (8), we get hf, uk i = ck since the left-hand side is independent of n. Moreover,  kf (cid:3557) f k (cid:3450) 0 n 8 3.3 The Projection Theorem as n (cid:3450) (cid:3569) , and hence * + Xn nX Xn f (cid:3557) c u , f (cid:3557) c = hf, f i (cid:3557) |c |2 (cid:3450) 0 k k k k u k k=1 k=1 k=1 as n (cid:3450) (cid:3569) , i.e., Xn X(cid:3569) lim |c |2 = |c |2 = kf k2.
+k k n(cid:3450)(cid:3569) k=1 k=1 3.3 The Projection Theorem Theorem 3.6 Let E be an inner product space, let U be a subspace of E, and x an arbitrary vector in E. If there exists a vector u(cid:3562) be a vector in U such that kx (cid:3557) u(cid:3562) k = inf kx (cid:3557) uk u(cid:3547)U then u(cid:3562) is unique.
+In fact, u(cid:3562) (cid:3547) U is a unique minimizing vector if and only if (x (cid:3557) u(cid:3562) )(cid:3704) U.
+Proof.
+((cid:3514) ) Let u(cid:3562) be the unique minimizing vector in U.
+Then you have to show that (x(cid:3557) u(cid:3562) )(cid:3704) U.
+Suppose for contradiction that this is not the case.
+Then there exists 0 = u (cid:3547) U 0 which is not orthogonal to (x (cid:3557) u(cid:3562) ).
+Without loss of generality you may assume ku k = 1 0 (otherwise, normalize u by dividing by ku k).
+Since u is not orthogornal to (x (cid:3557) u(cid:3562) ), let hx (cid:3557) 0 0 0 u(cid:3562) , u i = δ = 0.
+Define a vector u (cid:3547) U by u = u(cid:3562) + δu .
+Then 0 δ δ 0 kx (cid:3557) m k2 = kx (cid:3557) u(cid:3562) (cid:3557) δu 2k δ 0 = kx (cid:3557) u(cid:3562) k2 (cid:3557) hx (cid:3557) u(cid:3562) , δu0 i (cid:3557) hδu0 , x (cid:3557) u(cid:3562) i + |δ|2 = kx (cid:3557) u(cid:3562) k2 (cid:3557) |δ|2 < kx (cid:3557) k u(cid:3562) 2 , contradicting the hypothesis that u(cid:3562) is the unique minimizing vector.
+Hence (x (cid:3557) u(cid:3562) )(cid:3704) U.
+((cid:3512) ) Let (x (cid:3557) u(cid:3562) )(cid:3704) U.
+You have to show that u(cid:3562) is the unique minimizing vector.
+For arbitrary u (cid:3547) U, u = u(cid:3562) , we compute: kx (cid:3557) uk2 = k(x (cid:3557) (cid:3562)u ) + (u(cid:3562) (cid:3557) u)2k = kx (cid:3557)(cid:3562) u + (cid:3557) uk2 .
+2 ku(cid:3562) k (by pythagoras theorem).
+Thus kx (cid:3557) uk > kx (cid:3557) u(cid:3562) kf oru = u(cid:3562) .
+which shows that u(cid:3562) is the minimizing vector.
+Uniqueness follows trivially, completing the proof of this theorem.
+Observe that the above theorem does not guarantee existence of the minimizing vector.
+It only asserts that if it exists, then it is unique and (x (cid:3557) u(cid:3562) )(cid:3704) U.
+But if instead of an arbitrary inner product space we consider a Hilbert space H, and a closed subspace U of H, the following theorem guarantees the existence of minimizing vector.
+9 3.3 The Projection Theorem Theorem 3.7 (The Projection Theorem) Let H be a Hilbert space, let U be a closed subspace of H. For arbitrary vector in H, there exists a unique u(cid:3562) (cid:3547) U such that kx (cid:3557) u(cid:3562) k (cid:3639) kx (cid:3557) uk for all u (cid:3547) U.
+Furthermore, u(cid:3562) (cid:3547) U is the unique vector if and only if (x (cid:3557) u(cid:3562) )(cid:3704) U.
+Proof.
+You need only to establish the existence of a minimizing vector u(cid:3562) .
+The uniqueness follows from the preceeding theorem.
+Now let x (cid:3547) H. If x (cid:3547) U, then choose u(cid:3562) = x and you have nothing left to prove.
+So you assume that x 6(cid:3547) U and define δ := {kx (cid:3557) uk : u (cid:3547) U }.
+It is enough now for you to produce a u(cid:3562) (cid:3547) U with kx (cid:3557) u(cid:3562) k = δ.
+So let {u be a sequence of in U jj= 1 }(cid:3569) such that kx (cid:3557) u k (cid:3450) δ as j (cid:3450) (cid:3569) (This follows from the definition of “inf ”).
+By the parallelogram j law, k(uk (cid:3557) x) + (x (cid:3557) uj 2 + k(uk (cid:3557) x) (cid:3557) (x (cid:3557) ukj ) = 2kuk (cid:3557) xk 2 + 2kx (cid:3557) uk k2.
+2 )k Rearrangement yields, kuk (cid:3557) uj 2 = 2kuk (cid:3557) xk2 + 2kx (cid:3557) uj k2 (cid:3557) 4 x uk (cid:3557)2 uj 2 k (cid:3557) For k and j, the vector uk +uj is in U since U is a linear subspace.
+Hence, by the definition of δ, 2 u + u x (cid:3557) k j (cid:3640) δ 2 so that, ku (cid:3557) u k2 (cid:3639) 2ku (cid:3557) xk2 + 2kx (cid:3557) u k2 (cid:3557) 4δ2.
+k j k j Since ku (cid:3557) xk (cid:3450) δ as j (cid:3450) (cid:3569) , you have that ku (cid:3557) u k (cid:3450) 0 as k, j (cid:3450) (cid:3569) .
+Hence {u is a j k j j j=1 }(cid:3569) Cauchy sequence in U and since U is complete (as a closed subset of Hilbert space), it follows that {u }(cid:3569) has a limit u(cid:3562) in U.
+This implies, x (cid:3557) u (cid:3450) x (cid:3557) u(cid:3562) as j (cid:3450) (cid:3569) and so (by the continuity j j=1 j of the norm) kx (cid:3557) u k (cid:3450) kx (cid:3557) u(cid:3562) k as j (cid:3450) (cid:3569) .
+But kx (cid:3557) u k (cid:3450) δ as j (cid:3450) (cid:3569) , so that by the j j uniqueness of limit, you obtain, kx (cid:3557) u(cid:3562) k = δ = inf {kx (cid:3557) uk : u (cid:3547) U }.
+This completes the proof.
+As an immediate application of the Projection Theorem, the next theorem gives you that a Hilbert space H can be represented as a “direct sum” of two of its closed subspaces.
+3.3.1 DIRECT SUM DECOMPOSITION Definition 3.7 Direct sums  Let E be a vector space.
+E is said to be the direct sums of two subspaces U and V of E, written E = U (cid:3688) V if each x (cid:3547) E can be represented uniquely as x = u + v with u (cid:3547) U and v (cid:3547) V. In this case, U is called the algebraic complement of V in E (and vice versa).
+The subspaces U and V are called complementary pair of subspaces in E. Definition 3.8 Orthogonal complement.
+If U is a subspace of a Hilbert space H, then the orthogonal complement U (cid:3704) is defined by 10 3.3 The Projection Theorem U (cid:3704) = {x (cid:3547) H : hx, yi = 0 for all y (cid:3547) U }.
+In particular, for any given vector x (cid:3547) H, we have x(cid:3704) = {y (cid:3547) H : hx, yi = 0} that is, x(cid:3704) consists of all vectors in H that are orthogonal to the given vector y.
+Proposition 3.2 Let U and V be arbitrary subspaces of a Hilbert space H. Then, 1.
+U (cid:3704) is a closed subspace of H; 2.
+U (cid:3669) U (cid:3704) (cid:3704) ; 3.
+If U (cid:3669) V then V (cid:3704) (cid:3669) U (cid:3704) ; 4.
+V (cid:3704)(cid:3704)(cid:3704) = U (cid:3704) .
+Proof.
+1.
+Let {x } be a sequence of elements of U (cid:3704) such that x (cid:3450) x (cid:3547) H. You have to show that n n x (cid:3547) U (cid:3704) .
+Let y (cid:3547) U be fixed, x (cid:3547) U (cid:3704) implies that hx , yi = 0 for all n (cid:3547) N. Now, n n 0 (cid:3639) |hx, yi| = |hx (cid:3557) x + x , n n yi| = |hx (cid:3557) x , yi + hx , yi| n n = |hx (cid:3557) x , yi| (cid:3639) kx (cid:3557) x kkyk (cid:3450) 0 as n (cid:3450) (cid:3569) n n This implies that hx, yi = 0, so that x (cid:3547) U (cid:3704) .
+Hence U (cid:3704) is a closed subset of H. 2.
+If x (cid:3547) U, then x(cid:3704) y for all y (cid:3547) U (cid:3704) .
+Therefore, x (cid:3547) (U (cid:3704) )(cid:3704) = U (cid:3704) (cid:3704) .
+3. y (cid:3547) V (cid:3704) implies that y(cid:3704) x for each x (cid:3547) U.
+Therefore, y (cid:3547) U (cid:3704) .
+4.
+Using (2), U (cid:3704) (cid:3669) U (cid:3704) (cid:3704) (cid:3704) and U (cid:3669) U (cid:3704) (cid:3704) .
+From (3), (U (cid:3704) (cid:3704) )(cid:3704) (cid:3669) U (cid:3704) (cid:3669) U (cid:3704) (cid:3704) (cid:3704) and so U (cid:3704)(cid:3704)(cid:3704) = U (cid:3704) .
+Theorem 3.8 (Direct Sum Decomposition) Let U be a closed subspace of a Hilbert space H. Then H = U (cid:3688) U (cid:3704) Proof.
+The proof is an application of the Projection Theorem.
+Let x (cid:3547) H be arbitrary.
+By the projection Theorem, there exists a unique vector u(cid:3562) (cid:3547) U such that kx (cid:3557) u(cid:3562) k (cid:3639) kx (cid:3557) uk for all u (cid:3547) U and v(cid:3562) := x (cid:3557) u(cid:3562) (cid:3547) U (cid:3704) .
+Consequently, we can write x = u(cid:3562) + (x (cid:3557) u(cid:3562) ) = u(cid:3562) + v(cid:3562) , where v(cid:3562) := x (cid:3557) u(cid:3562) , 11 3.3 The Projection Theorem with u(cid:3562) (cid:3547) U and v(cid:3562) (cid:3547) U (cid:3704) .
+It remains now to show that this representation is Unique.
+Suppose that x = u + v with u (cid:3547) U and v (cid:3547) U (cid:3704) is another representation of x.
+Then, 1 1 1 1 u(cid:3562) + v(cid:3562) = u + v so that u (cid:3557) u(cid:3562) + (v (cid:3557) v(cid:3562) ) 1 1 1 1 = 0.
+But (u (cid:3557) u(cid:3562) ) and (v (cid:3557) v ) are orthogonal.
+Therefore by Pythagoras 1 1 (cid:3562) Theorem, 0 = k(u (cid:3557) u(cid:3562) ) + (u (cid:3557) u(cid:3562) )k2 = ku (cid:3557) u(cid:3562) k2 + kv k(cid:3557) 1 1 1 1 v(cid:3562) 2 .
+This implies, ku (cid:3557) u(cid:3562) k = 0 and ku (cid:3557) u(cid:3562) k2 = 0, i.e., u = u(cid:3562) and v = v(cid:3562) , establishing 1 1 1 1 the uniqueness of the representation.
+Thus H = U (cid:3688) U (cid:3704) Proposition 3.3 Let H be a Hilbert space.
+Then H(cid:3562) = H, where H(cid:3562) denotes the dual of H. Proof.
+The proof of this proposition is divided into 2 parts.
+Part 1.
+You have to prove that every element y (cid:3547) H defines an element f (cid:3547) H(cid:3562) with the y same norm (i.e., kf k = kyk) y Part 2.
+Prove that every f (cid:3547) H(cid:3562) defines a unique vector y (cid:3547) H with the same norm (kf k = kyk).
+Hence H and H(cid:3562) are isometric.
+Begining with Part 1.
+Let y (cid:3547) H be given.
+For arbitrary x (cid:3547) H, define f : H (cid:3450) K by y f (x) = hx, yi.
+Clearly, f is linear.
+Moreover, |f (x)| = hx, yi| (cid:3639) kxk · kyk so that f is y y y y bounded.
+Hence f (cid:3547) H(cid:3562) .
+Furthermore, the last inequality also yields that y kf k (cid:3639) kyk (9) y If y = 0, then from (9) we have kf k (cid:3639) kyk = 0.
+In this case, f = 0 and you are done.
+So you y y may suppose that y = 0.
+Take x = y , then we have kxk = 1, and f (x) = kyk.
+This shows that kyk y |f (x)| = kyk (cid:3639) kf k · kxk = kf k, i.e., kyk (cid:3639) kf k. (10) y y y y From (9) and (10), we have that kf k = kyk.
+y Part 2.
+Let f (cid:3547) H(cid:3562) .
+Consider the kernel of f, ker f defined by ker f = {u (cid:3547) H : f (u) = 0}.
+Set K : ker f. K is closed subspace of H. By theorem 3.6, every element x (cid:3547) H can be written uniquely as x = w + z where w (cid:3547) K and z(cid:3704) K. Let x (cid:3547) K, then x = w(cid:3562) + z where z = 0 and f (z) = δ = 0.
+Let x = ( x ).
+Then, f (x ) = 1.
+Hence for arbitrary u (cid:3547) H, u 6(cid:3547) K, therefore 1 δ 1 f (u) = α implies that f (u) = αf (x ) i.e., f (u (cid:3557) αx ) = 0.
+Let u (cid:3557) αx = w0.
+Hence, u = w0 + αx , 1 1 1 1 w0 + αx , w0 (cid:3547) K and αx (cid:3704) K so that 1 1 hu, x i = hw0 + αx , x i = hw0, x i + αhx , x i = αkx k2.
+1 1 1 1 1 1 1 Hence f (u) = α = hu, x i so that f (u) = hu, y i for all u (cid:3547) H \ K where y = x1 .
+But this kx1 k2 0 0 kx1 k2 also holds if u (cid:3547) K. Hence it holds for all u (cid:3547) H. Moreover by part 1, you have that kf k = ky k. 0 Finally, it only remains to show that y is unique.
+But, if f (x) = hx, y(cid:3562) i for all x (cid:3547) H then 0 hx, y i = hx, y(cid:3562) i for all x (cid:3547) H so hx, y (cid:3557) y(cid:3562) i = 0 for all x (cid:3547) 0 0 H. Take x = y (cid:3557) y(cid:3562) .
+Then hy (cid:3557) y(cid:3562) , y (cid:3557) y(cid:3562) i = ky k(cid:3557) = 0 implies that y = .
+The proof is 0 0 0 0 0 y(cid:3562) 2 y(cid:3562) complete.
+12 4 The Riesz Representation Theorem 4 The Riesz Representation Theorem Here is an important theorem in Hilbert spaces.
+It states that any bounded linear functional on a Hilbert space can be represented as an inner product with a unique vector in H. Theorem 4.1 (The Riesz Representation Theorem.)
+Let H be a Hilbert space and let f be a bounded linear functional on H. Then 1.
+There exists a unique vector y (cid:3547) H such that 0 f (x) = hx, y i for each x (cid:3547) H; 0 2.
+Moreover, kf k = ky k. 0 5 CONCLUSION In this unit, you have learned Hilbert space and have seen some examples.
+You were also introduced to some important notions such as orthogonality, orthonormal systems and orthorgonal complement of a set.
+You learnt the projection theorem which guarantees you the existence of a unique vector of minimum norm in a closed subspace of a Hilbert space.
+You also learnt that a Hilbert space can be decomposed into the direct sums of its closed subspace and the orthogonal complement of the subspace.
+Finally, the Rieze representation theorem gives you that every bounded linear functional in a Hilbert space can be represented as an inner product with a unique vector in the Hilbert space.
+6 SUMMARY Having studied this unit, you now know that; (i) A complete inner product space is called a Hilbert space.
+(ii) Two vectors x and y in an inner product space E are orthogonal (denoted x(cid:3704) y) if hx, yi = 0 (iii) x(cid:3704) M if and only if x(cid:3704) y for every y (cid:3547) M (cid:3669) E. (iv) A set S in an inner product space E is called an orthogonal set if hx, yi = 0 for all x, y (cid:3547) X, x = y.
+And is called an orthonormal set if it is an orthogonal set and kxk = 1 for each x (cid:3547) X.
+(v) A set of nonzero vectors {x } in E is said to be an orthogonal system if α hx , x i = 0 for α = β. α β (vi) {x } is called an orthonormal system if α (cid:2) (cid:2) 0 f or α = β hx , x i = α β (cid:2) 1 f or α = β.
+13 7 TMAs x α (vii) If {x } is an orthogonal system, then clearly is an orthonormal system.
+α kx k α (viii) (The Projection Theorem) If H is a Hilbert space, and U is a closed subspace of H, then for arbitrary vector x (cid:3547) H, there exists a unique vector u(cid:3562) (cid:3547) U such that kx (cid:3557) u(cid:3562) k (cid:3639) kx (cid:3557) uk for all u (cid:3547) U.
+Furthermore, u(cid:3562) (cid:3547) U is the unique vector if and only if (x (cid:3557) u(cid:3562) )(cid:3704) U.
+(ix) If E is a vector space, then E is said to be the direct sum of two subspace U and V of E, written E = U (cid:3688) V if each x (cid:3547) E can be represented uniquely as x = u + v with u (cid:3547) U and v (cid:3547) V. (x) If U is a subspace of a Hilbert space H, then the orthogonal complement U (cid:3704) is defined by U (cid:3704) = {x (cid:3547) H : hx, yi = 0 for all y (cid:3547) U }.
+(xi) If U is a closed subspace of a Hilbert space H. Then H = U (cid:3688) U (cid:3704) .
+(xii) H(cid:3562) = H (i.e., the dual of a Hilbert space is itself).
+7 TMAs 1.
+T : l (cid:3450) R by i 2 T (x , ..., x ) = x (cid:3539) (x , x , ...) (cid:3547) l .
+i 1 n i 1 2 2 (a) Prove that T is a bounded linear functional for each i. i (b) Compute the unique vector y guaranteed by the Riesz representation theorem.
+0 2.
+Define T : L [0, 2π] (cid:3450) R by 2 Z 2π (T f )(t) = f (t)dt (cid:3539) f (cid:3547) L [0, 2π] 2 0 (a) Prove that T is a bounded linear map.
+(b) Compute the unique vector of minimum norm guaranteed by the Riesz representation theorem.
+3.
+Let u = (1, 1, 1) be a vector in R3 .
+Which of the following vectors in R3 is not orthogonal to u?
+(a) v = (1, 2, (cid:3557) 3) (b) w = (1, (cid:3557) 4, 3) (c) x = (2, 3, 1) (d) y = ((cid:3557) 5, 2, 3) 4.
+Find k so that u = (1, 2, k, 3) and v = (3, k, 7, (cid:3557) 5) in R4 are orthogonal.
+(a) k = 4 3 14 7 TMAs (b) k = 3 4 (c) k = 5 3 (d) k = 3 5 5.
+Let W be the substance of R5 spanned by u = (1, 2, 3, (cid:3557) 1, 2) and v = (2, 3, 7, 2, (cid:3557) 1).
+Find a basis S of the orthogonal complement W (cid:3704) of W. (a) S = {w = (2, (cid:3557) 1, 0, 0, 0), w = (13, 0, (cid:3557) 4, 1, 0), w = ((cid:3557) 17, 0, 5, 0, 1 2 3 1)} (b) S = {w = (2, (cid:3557) 1, 0, 0, 0), w = (13, 0, (cid:3557) 4, 1, 0), w = ((cid:3557) 17, 0, 1 2 3 0, 0, 5)} (c) S = {w = (2, (cid:3557) 1, 0, 8, 0), w = (13, 0, 0, 1, 0), w = ((cid:3557) 17, 1 2 3 0, 0, 0, 5)} (d) S = {w = (2, (cid:3557) 1, 0, 0, 9), w = (13, 0, (cid:3557) 4, 7, 0), w = 1 2 3 ((cid:3557) 17, 0, 0, 0, 5)} 6.
+Let w = (1, 2, 3, 1) be a vector in R4.
+Find an orthogonal basis S for w(cid:3704) .
+(a) S = {v = (0, 0, 1, (cid:3557) 3), v = ((cid:3557) 21, (cid:3557) 5, 3, 1), v = (0, (cid:3557) 5, 3, 1)} 1 2 3 (b) S = {v = (0, 0, 1, (cid:3557) 3), v = (0, (cid:3557) 5, 3, 1), v = (0, 14, 3, 2)} 1 2 3 (c) S = {v = (0, 0, 1, (cid:3557) 3), v = ((cid:3557) 14, 2, 3, 1), v = (0, (cid:3557) 5, 3, 1 2 3 1)} (d) S = {v = (1, 4, 1, (cid:3557) 3), v = ((cid:3557) 21, (cid:3557) 5, 3, 1), v = (0, 1 2 3 (cid:3557) 5, 3, 1)} 7.
+Let V be the vector space of polynomials over R of degree (cid:3639) 2 with inner product defined by Z 1 hf, gi = f (t)g(t)dt.
+0 Find the basis of the subspace W orthogonal to h(t) = 2t + 1.
+(a) {7t2 (cid:3557) 5t, 12t2 (cid:3557) 5t} (b) {7t2 (cid:3557) 5t, 12t2 (cid:3557) 5} (c) {7t2 (cid:3557) 5, 12t2 (cid:3557) 5t} (d) {7t2 (cid:3557) 5, 12t2 (cid:3557) 5} 8.
+Find a basis of the subspace W of R4 orthogonal to u = (1, (cid:3557) 2, 3, 4) and u = (3, (cid:3557) 5, 7, 8) 1 2 (a) {(1, 2, 1, 0), (4, 4, 1, 0)} (b) {(1, 2, 1, 0), (4, 4, 0, 1)} (c) {(1, 0, 2, 1), (4, 4, 0, 1)} (d) {(1, 0, 2, 1), (4, 4, 1, 0)}  9.
+Find a basis for the subspace W of R5 to the vector u = (1, 1, 3, 4, 1) and u = (1, 2, 1, 2, 1) 1 2 (a) {((cid:3557) 5, 2, 3, 5, 6), ((cid:3557) 6, 2, 0, 1, 0), ((cid:3557) 5, 2, 1, 0, 0)} (b) {((cid:3557) 1, 0, 0, 0, 1), ((cid:3557) 6, 2, 0, 1, 0), ((cid:3557) 5, 2, 1, 0, 0)} (c) {((cid:3557) 1, 0, 0, 0, 1), ((cid:3557) 6, 2, 0, 1, 0), ((cid:3557) 5, 2, 3, 5, 6)} (d) {((cid:3557) 1, 0, 0, 0, 1), ((cid:3557) 5, 2, 3, 5, 6), ((cid:3557) 5, 2, 1, 0, 0)} Use the following to solve 10 and 11 Let w = (1, (cid:3557) 2, (cid:3557) 1, 3) be a vector in R4 .
+Find 15 7 TMAs 10. an orthogonal basis for w(cid:3704) , (a) {(0, 0, 3, 1), (0, 3, (cid:3557) 3, 1), (2, 10, (cid:3557) 9, 3)} (b) {(0, 0, 3, 1), (0, 3, (cid:3557) 3, 1), (1, 5, (cid:3557) 6, 7)} (c) {(0, 0, 3, 1), (1, 5, (cid:3557) 6, 7), (2, 10, (cid:3557) 9, 3)} (d) {(1, 5, (cid:3557) 6, 7), (0, 3, (cid:3557) 3, 1), (2, 10, (cid:3557) 9, 3)} 11. an orthonormal basis for w(cid:3704) .
+(1a ) { 1 (0, 0, 3, 1), 1 (0, 3, (cid:3557) 3, 1), (cid:3565) (1, 5, (cid:3557) 6, 7)} (cid:3565) (cid:3565) 10 19 194 (1b ) { 1 (0, 0, 3, 1), 1 (0, 3, (cid:3557) 3, 1), (cid:3565) (2, 10, (cid:3557) 9, 3)} (cid:3565) (cid:3565) 10 19 194 (1c ) { 1 (0, 0, 3, 1), 1 (1, 5, (cid:3557) 6, 7), (cid:3565) (2, 10, (cid:3557) 9, 3)} (cid:3565) (cid:3565) 10 19 194 (d) { 1 (1, 5, (cid:3557) 6, 7), 1 (0, 3, (cid:3557) 3, 1), (2, 10, (cid:3557) 9, 3)} 1 (cid:3565) (cid:3565) (cid:3565) 19 10 194  16  UNIT 6: LINEAR OPERATORS ON HILBERT SPACES Contents 1 Introduction 1 2 Objectives 1 3 Adjoint Operators 2 3.1 Self-adjoint, Normal and Unitary Operators .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 3.1.1 Self-adjoint operators .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 3.1.2 Normal Operators .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.1.3 Unitary Operators .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 4 Conclusion 8 5 Summary 8 6 TMAs 8 1 INTRODUCTION In this unit, you shall be introduced with some important linear operators defined on Hilbert Spaces.
+2 OBJECTIVES.
+At the end of this unit, you should be able to 1.
+Define an adjoint operator on a Hilbert space.
+2.
+Define unitary, self adjoint, normal and hermittian operators and give their properties.
+1 3 Adjoint Operators 3 Adjoint Operators Definition 3.1 Let A : H (cid:3450) H be a bounded linear operator defined on a Hilbert space H. The Adjoint A(cid:3562) of A is defined by hAx, yi = hx, A(cid:3562) yi for all x, y (cid:3547) H. That A(cid:3562) always exists can be seen by considering hAx, yi = f (x) as a linear functional on H. y Clearly |fy (x)| (cid:3639) kAxkkyk (cid:3639) kAkkxkkyk (cid:3639) K kxk for fixed y (cid:3547) H. Hence f is a bounded linear functional, and so by the Riesz representation theorem, y there exists a y(cid:3562) (cid:3547) H such that hAx, yi = hx, y(cid:3562) i for all x (cid:3547) H. Thus A induces a linear map A(cid:3562) : H (cid:3450) H, and we write this y(cid:3562) = A(cid:3562) y where A(cid:3562) is a bounded linear operator on H. The following example shows that the adjoint operator has a simple description within the context of matrix mappings.
+Example 3.1 (a) Let A be a real n(cid:3557) square matrix viewed as a linear operator on Rn .
+Then, for every u, v (cid:3547) Rn , hAu, vi = (Au)T v = uT AT v = hu, AT vi Thus the transpose AT of A is the adjoint of A.
+(b) Let B be a complex n-spare matrix viewed as a linear operator on Cn .
+Then, for every u, v (cid:3547) Cn , hBu, vi = (Bu)T v¯ = uT BT v¯ = uT B(cid:3562) v¯ = hu, B(cid:3562) vi Remark 3.1 B(cid:3562) may mean either the adjoint of B as a linear operator or the conjugate transpose of B as a matrix.
+Example 3.2 1.
+Find the adjoint of F : R3 (cid:3450) R3 defined by F (x, y, z) = (3x + 4y (cid:3557) 5z, 2x (cid:3557) 6y + 7z, 5x (cid:3557) 9y + z) Solution.
+First find the matrix A that represents F in the usual basis of R3 , that is, the matrix A whose rows are the coefficients of x, y, z, and then form the transpose AT of A.
+This yields 2 3 Adjoint Operators (cid:2) (cid:2) (cid:2) (cid:2) 3 4 (cid:3557) 5 3 2 5 A = (cid:2) 2 (cid:3557) 6 (cid:3557) 9 (cid:2) and then AT = 4 (cid:3557) 6 (cid:3557) 9 (cid:2) (cid:2) (cid:3557) 5 7 1 5 (cid:3557) 9 1 The adjoint F (cid:3562) is represented by the transpose of A; hence F (cid:3562) (x, y, z) = (3x + 2y + 5z, 4x (cid:3557) 6y (cid:3557) 9z, (cid:3557) 5x + 7y + z) 2.
+Find the adjoint of G : C3 (cid:3450) C3 defined by G(x, y, z) = [2x + (1 (cid:3557) i)y, (3 + 2i)x (cid:3557) 4iz, 2ix + (4 (cid:3557) 3i)y (cid:3557) 3z] Solution.
+Find the matrix B that represent G in the usual basis of C3, and then form the conjugate transpose B(cid:3562) of B.
+This yields (cid:2) (cid:2) (cid:2) (cid:2) 2 1 (cid:3557) i 0 2 3 (cid:3557) 2i (cid:3557) 2i B = (cid:2) 3 + 2i 0 (cid:3557) 4i (cid:2) and then B(cid:3562) = (cid:2) 1 + i 0 4 + 3i (cid:2) 2i 4 (cid:3557) 3i (cid:3557) 3 0 4i (cid:3557) 3 Then G(cid:3562) (x, y, z) = [2x + (3 (cid:3557) 2i)y (cid:3557) 2iz, (1 + i)x + (4 + 3i)z, 4iy (cid:3557) 3z] Theorem 3.1 Let A, B : H (cid:3450) H be bounded linear operators on the Hilbert space H. Then (a) I (cid:3562) = I (b) (A + B)(cid:3562) = A(cid:3562) + B(cid:3562) .
+(c) (αA)(cid:3562) = α¯A(cid:3562) .
+(d) (AB)(cid:3562) = B(cid:3562) A(cid:3562) .
+(e) kA(cid:3562) k = kAk.
+(f) kA(cid:3562) Ak = kAk2.
+(g) (A(cid:3562) )(cid:3562) = A Proof.
+(a) For every x, y (cid:3547) H, hI (x), yi = hx, yi = hx, I (y)i; hence I (cid:3562) = I (b) For any x, y (cid:3547) H, h(A + B)(x), yi = hA(x) + B(x), yi = hA(x), yi + hB(x), yi = hx, A(cid:3562) yi + hx, B(cid:3562) yi = hx, A(cid:3562) (y) + B(cid:3562) (y)i = hx, (A(cid:3562) + B(cid:3562) )(y)i The uniqueness of the adjoint implies (A + B)(cid:3562) = A(cid:3562) + B(cid:3562) 3 3 Adjoint Operators (c) For any x, y (cid:3547) H, h(αA)(x), yi = hαA(x), yi = αhA(x), yi = αhx, A(cid:3562) (y)i = hx, α¯A(cid:3562) (y)i = hx, (α¯A)(y)i The uniqueness of the adjoint implies (αA)(cid:3562) = α¯A(cid:3562) (d) For any x, y (cid:3547) H, h(AB)(x), yi = hA(B(x)), yi = hB(x), A(cid:3562) (y)i = hx, B(cid:3562) (A(cid:3562) (y))i = hx, (B(cid:3562) A(cid:3562) )(y)i The uniqueness of the adjoint implies (AB)(cid:3562) = B(cid:3562) A(cid:3562) (e) From the relation hx, A(cid:3562) yi = hAx, yi, by setting x = A(cid:3562) y, you have kA(cid:3562) (y)k2 = hAA(cid:3562) y , yi (cid:3639) kAA(cid:3562) ykkyk and using the boundedness of A, this yields for all y (cid:3547) D(A(cid:3562) ), kA(cid:3562) yk2 (cid:3639) kAk · kA(cid:3562) k · kyk so that kA(cid:3562) yk (cid:3639) kAkkyk (1) Observe that if A(cid:3562) y = 0 for all y, then A(cid:3562) = 0 and (e) follows.
+Inequality (1) yields that A(cid:3562) is bounded and so kA(cid:3562) k (cid:3639) kAk (2) Applying (2) to A(cid:3562) gives you k(A(cid:3562) )(cid:3562) k (cid:3639) kA(cid:3562) k. Using (d), we now have kAk (cid:3639) kA(cid:3562) k (3) Inequalities (2) and (3) yield (e).
+(f) Using (e), gives you that kA (cid:3562)A k (cid:3639) kA (cid:3562)kk Ak = kAk 2 (4) Moreover, for each x (cid:3547) D(A), kAxk2 = hAx, Axi = hA (cid:3562) A x, xi (cid:3639) kA (cid:3562)A k · kxk 2 so that kAxk (cid:3639) (kA(cid:3562) Ak)1 2 kxk which yields kAk2 (cid:3639) kAA(cid:3562) k. (5) (4) and (5) yield the desired result (g) For any x, y (cid:3547) H, hA(cid:3562) (x), yi = hy, A(cid:3562) (x)i = hA(y), xi = hx, T (y)i The uniqueness of the adjoint implies (A(cid:3562) )(cid:3562) = A  4 3.1 Self-adjoint, Normal and Unitary Operators 3.1 Self-adjoint, Normal and Unitary Operators 3.1.1 Self-adjoint operators Definition 3.2 (Self adjoint operators) A bounded linear operator A : H (cid:3450) H is said to be self adjoint if A(cid:3562) = A.
+Let B(H) denote the space of all bounded linear operators on H. The following theorem for self-adjoint operators.
+Theorem 3.2 The collection of self-adjoint operators on H forms a closed, real linear subspace of B(H ) Proof.
+The set of self-adjoint operators in B(H ) is closed under addition and scalar multiplication by real numbers, this is easy to show.
+Thus they form a subspace.
+So it is left for you to prove that this subspace is closed.
+Let {T } be a sequence of self-adjoint operators on H such that T (cid:3450) T .
+It n n suffices to prove that T = T (cid:3562) .
+But kT (cid:3557) T (cid:3562) k (cid:3639) kT (cid:3557) T k + kT (cid:3557) T (cid:3562) k + kT (cid:3562) (cid:3557) T (cid:3562) k n n n n = kT (cid:3557) T k + kT (cid:3562) (cid:3557) T (cid:3562) k, (since T (cid:3562) = T ) n n n n = kT (cid:3557) T k + k(T (cid:3557) T )(cid:3562) k = kT (cid:3557) T k + kT (cid:3557) T k = 2kT (cid:3557) T k (cid:3450) 0 n n n n n as n (cid:3450) (cid:3569) and so T = T (cid:3562) .
+For the next theorem, you shall need the following lemma.
+Lemma 3.1 If T is a bounded linear operator on H, then hT x, xi = 0 for all x (cid:3547) H if and only if T = 0.
+Proof.
+If T = 0, the result is trivial.
+Conversely, suppose hT x, xi = 0 for all x (cid:3547) H. Then, for arbitrary scalars α, β; and arbitary vectors x, y (cid:3547) H, 0 = hT (αx + βy), αx + βyi (cid:3557) |α|2hT x, xi (cid:3557) |β|2hT y, yi = αβ¯ T hx , yi + βα¯hT y, xi.
+(6) Set α = β = 1 in (6) to obtain, 0 = hT x, yi (cid:3557) hT y, xi.
+Thus 2hT x, yi = 0 i.e., hT x, yi = 0 for all y.
+Now set y = T x to get kT xk = 0 for all x which implies T x = 0 for all x, i.e., T = 0 as required.
+For self-adjoint operators, you also have the following theorem.
+Theorem 3.3 Let T : H (cid:3450) H be a bounded linear operator on a complex Hilbert space, H. Then T is self-adjoint if and only if hT x, xi is real.
+Proof.
+Let T be self-adjoint.
+It suffices to prove that hT x, xi = hT x, xi where the bar indicates complex conjugation.
+Now, since T is self-adjoint, you have hT x, xi = hx, T (cid:3562) xi = hT x, xi and the result follows.
+Conversely, let hT x, xi = hT x, xi = hT (cid:3562) x, xi so that  5 3.1 Self-adjoint, Normal and Unitary Operators hT x (cid:3557) T (cid:3562) x, xi = 0 or h(T (cid:3557) T (cid:3562) )x, xi = 0 for all x (cid:3547) H. By the last lemma, T (cid:3557) T (cid:3562) = 0, i.e., T = T (cid:3562) .
+Remark 3.2 If T : H (cid:3450) H is an arbitary bounded linear operator on H, you can always obtain a self-adjoint operator from T in the following way 1 1 T = (T + T (cid:3562) ) + i[ (T (cid:3557) T (cid:3562) )] = A + iB 2 2i where A = 1 (T + T (cid:3562) ) and B = 1 (T (cid:3557) T (cid:3562) ) are self-adjoint operators.
+2 2i Remark 3.3 Let T : H (cid:3450) H be a bounded linear map.
+You have already proved that kT k = kT (cid:3562) k. This, however, does not imply, in general, that kT xk = kT (cid:3562) xk for every x (cid:3547) H. To see this, consider the following example: Example 3.3 Let T : l (cid:3450) l be defined by 2 2 T (x , x , x , ...) = (0, x , x , x , ...) 1 2 3 1 2 3 Then, kT (cid:3562) k = kT k, (already proved for all bounded linear operators on H).
+Take x = (1, 0, 0, ...) (cid:3547) l .
+Observe that kT xk = 0 whereas kT (cid:3562) xk = 0.
+2 Definition 3.3 (Positive operators.)
+A positive operator is a self adjoint bounded linear operator on H such that hAx, xi (cid:3640) 0 for all x (cid:3547) H. It is called strictly positive if hAx, xi = 0 if and only if x = 0.
+Example 3.4 If A = N (cid:3562) N, then clearly A is self adjoint and hAx, xi = hN (cid:3562) N x, xi = hN x, N xi = kN xk2.
+Hence A is a positive operator.
+If further N (cid:3562) = N N (cid:3562) , then hN (cid:3562) N x, xi = kN xk 2 = kN xk2 = hN N (cid:3562) x, xi = kN (cid:3562) xk 2. so that kN xk = kN (cid:3562) xk.
+3.1.2 Normal Operators Definition 3.4 Normal operators A bounded linear operator N on a Hilbert space is normal if N N (cid:3562) = N (cid:3562) N. Proposition 3.1 Let T : H (cid:3450) H be a bounded linear map.
+If T is normal, then  6 3.1 Self-adjoint, Normal and Unitary Operators kT xk = kT (cid:3562) xk, for each x (cid:3547) H Proof.
+Let T be normal.
+Then kT xk2 = hT x, T xi = hx, T (cid:3562) T xi = hx, T T (cid:3562) i = hT (cid:3562) x, T (cid:3562) xi = kT (cid:3562) x2k and the result follows.
+For normal operators, you also have the following fundamental result.
+Theorem 3.4 The set of all normal operators on H is a closed subset of B(H ) which contains the set of all self-adjoint operators, and is closed under scalar multiplication.
+Proof.
+It is obvious that every self-adjoint operator is normal and that if α is a scalar, then αT is normal whenever T is.
+You can now show that the limit of any convergent sequence {T } of n normal operators is normal.
+Indeed, if T (cid:3450) T , then, T (cid:3562) (cid:3450) T (cid:3562) .
+Since {T } is a sequence of normal n n n operators, you have for each n, T T (cid:3557) T(cid:3562)T = 0.
+Hence, n n n n (cid:3562) kT T (cid:3562) (cid:3557) T (cid:3562) T k (cid:3639) kT T (cid:3562) (cid:3557) T T (cid:3562) k + kT T (cid:3562) (cid:3557) T (cid:3562) T kkT (cid:3562) T (cid:3557) T (cid:3562) T k nn nn n nn n = kT T (cid:3562) (cid:3557) T T (cid:3562) k + kT (cid:3562) T (cid:3557) T (cid:3562) T k (cid:3450) 0 n n n n and so T T (cid:3562) = T (cid:3562) T , completing the proof.
+3.1.3 Unitary Operators Definition 3.5 Unitary operators.
+A bounded linear operator U on a Hilbert space is unitary if U U (cid:3562) = U (cid:3562) U = I where I is the identity operator.
+In this case you have that kU (cid:3562) xk = kU xk = kxk for all x (cid:3547) H and so U is an isometry map from H to H. Furthermore, unitary operators have inverses and their adjoints are their inverses.
+Theorem 3.5 Let T be an operator on a Hilbert space H. Then, the following are equivalent (i) T (cid:3562) T = I (ii) hT x, T yi = hx, yi; (iii) kT xk = kxk for all x (cid:3547) H. Proof.
+(i) (cid:3514) (ii) For all x, y (cid:3547) H, hx, yi = hx, I , yi = hx, T (cid:3562) T yi = hT x, T yi.
+(ii) (cid:3514) (iii) kT xk2 = hT x, T xi = hx, xi = kxk2 as required (iii) (cid:3514) (i) For all x (cid:3547) H, kxk2 = kT xk 2 (cid:3514) hx, xi = hT x, T xi (cid:3514) hx, xi = hT (cid:3562) T x, xi (cid:3514) h(I (cid:3557) T (cid:3562) T )x, xi = 0 This implies by lemma 3.1 that (I (cid:3557) T (cid:3562) T ) = 0 i.e., T (cid:3562) T = I as required.
+7 4 Conclusion 4 Conclusion In this unit, you studied different kinds of Bounded linear operators on a Hilbert space.
+You also studied adjoint operators, self adjoint maps, unitary operators, and normal operators and Hermittian operators.
+5 Summary Having studied this unit, you know that 1.
+The adjoint A(cid:3562) of a bounded linear operator A : H (cid:3450) H is defined by hAx, yi = hx, A(cid:3562) yif orallx, yinH 2.
+A bounded linear operator is self adjoint if A(cid:3562) = A 3.
+A self adjoint bounded linear operator is positive on H if hAx, xi (cid:3640) 0 for all x (cid:3547) H 4.
+A bounded linear operator N on a Hilbert space is normal if N N (cid:3562) = N (cid:3562) N 5.
+A bounded linear operator U on a Hilbert space is unitary if U U (cid:3562) = U (cid:3562) U = I where I is the identity operator 6 TMAs 1.
+Find the adjoint of 5 (cid:3557) 2i 3 + 7i (a) A = 4 (cid:3557) 6i 8 + 3i 3 5i (b) B = i (cid:3557) 2i 1 1 (c) A = 2 3 2.
+Let T : R3 (cid:3450) R3 be defined by T (x, y, z) = (x + 2y, 3x (cid:3557) 4z, y).
+Find T (cid:3562) (a) T (cid:3562) (x, y, z) = (x + 3y, 2x + z, (cid:3557) 4y) (b) T (cid:3562) (x, y, z) = (x (cid:3557) 4z, 2y + z, y) (c) T (cid:3562) (x, y, z) = (x + z, 3y + 2x, (cid:3557) 4y) (d) T (cid:3562) (x, y, z) = (x + 3y, (cid:3557) 4y + z, 2x) 3.
+Let T : C3 (cid:3450) C3 be defined by T (x, y, z) = [ix + (2 + 3i)y, 3x + (3 (cid:3557) i)z, (2 (cid:3557) 5i)y + iz].
+Find T (cid:3562) (x, y, z).
+(a) T (cid:3562) (x, y, z) = [(cid:3557) ix + 3y, (2 + 3i)x + (2 (cid:3557) 5i)z, (3 + i)y (cid:3557) iz] (b) T (cid:3562) (x, y, z) = [(cid:3557) ix + 3y, (2 (cid:3557) 3i)x + (2 + 5i)z, (3 + i)y (cid:3557) iz] 8 6 TMAs (c) T (cid:3562) (x, y, z) = [(cid:3557) ix + 3y, (2 (cid:3557) 3i)x + (2 + 5i)z, (3 (cid:3557) i)y (cid:3557) iz] (d) T (cid:3562) (x, y, z) = [(cid:3557) ix + 3y, (2 + 3i)x + (2 + 5i)z, (3 + i)y (cid:3557) iz] 4.
+If T is an arbitrary bounded linear operator on H and if α and β are scalars such that |α| = |β|, then αT + βT (cid:3562) is normal (True or False).
+5.
+The set of unitary operators on H is an abelian group.
+(True or False).
+6.
+If T is a normal operator on a Hilbert space, H, then (λI (cid:3557) T ) is also a normal operator, where λ is a scalar and I is the identity operator on H (True or False) 9

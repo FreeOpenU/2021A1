@@ -1,0 +1,1004 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 281 COURSE TITLE: MATHEMATICAL METHODS 1  COURSE GUIDE MTH 281 MATHEMATICAL METHODS 1 Course Team Bankole Abiola (Developer/Writer) – NOUN Dr. Sunday Reju (Leader) – NOUN Bankole Abiola (Co-ordinator) – NOUN Ajibola S. O.
+(Co-ordinator) – NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA MTH 281 COURSE GUIDE National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria Printed 2006 Reprinted 2009 ISBN: 978-058-915-5 All Rights Reserved Printed by: Garewa Investment Ltd.
+CONTENTS PAGE Introduction……………………………..………………………….
+1 Course Aims………………………………..……………………… 1 Course Objectives………………………………….……………… 1 Study Units……………………………………….………………... 2 Assessment…………………………………………..…………….. 2 MTH 281 MODULE 1 Introduction The course is purposely for students of mathematics, physical sciences at undergraduate level.
+It is assumed that the students have got enough mathematical background at 100 level and therefore fairly familiar with such topics as simple differentiation and integration, the use of trigometry identities, exponential and logarithmic functions.
+The problems and worked examples in this course are purely mathematical to avoid the course being useful only to a section of scientists.
+The course is a must for all students who will like to make career in mathematics and engineering.
+Course Aims The course aims at giving you a good understanding of various methods in advanced mathematics.
+This could be achieved through the following measures: - - Introducing you into limiting processes and continuity and differentiability.
+- Introducing you to partial differentiation.
+- Explaining the convergence of infinite series.
+- Applying the knowledge in some special type of series such as Taylor and Maclaurin series.
+- Cumulate the knowledge acquired in solving numerical some integration problems that cannot be solved analytically.
+Course Objectives By the time you have successfully completed this course, you should be able to: - Find limit define continuity and find derived functions of given mathematical functions.
+- Be able to define convergence of infinite series and apply to some special series such as Taylor and Maclaurin series.
+- Solve integration using material procedure and apply solve problems on mathematical methods correctly.
+MTH 281 MATHEMATICAL M ETHODS 1 Study Units Module 1 Unit 1 Limits, Continuity and Differentiability Unit 2 Partial Differentiation Unit 3 Convergence of Infinite Series Unit 4 Taylor and Maclaurin Series Unit 5 Numerical Integrations While the first four units concentrate on mathematical methods and procedures the last units is on application of the method learn so far.
+Assessment There are graded exercises which are meant to aid understanding as you progress in this course while the Tutor Marked Assignments are meant to be part of your final assessment.
+The final assessment is at the end of the course.
+It constitutes 70% of the total grade for the course.
+You are to read and master each unit carefully before progressing to other units.
+MTH 281 MODULE 1 Course Code MTH 281 Course Title Mathematical methods 1 Course Team Bankole Abiola (Developer/Writer) – NOUN Dr. Sunday Reju (Leader) – NOUN Bankole Abiola (Co-ordinator) – NOUN Ajibola S. O.
+(Co-ordinator) – NOUN N ATIONAL OPEN UNIVERSITY OF NIGERIA MTH 281 MATHEMATICAL M ETHODS 1 National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria Printed 2006 Reprinted 2009 ISBN: 978-058-915-5 All Rights Reserved Printed by: Garewa Investment Ltd. MTH 281 MODULE 1 CONTENTS PAGE Module 1 ….................................................................................. 1 Unit 1 Limits, Continuity and Differentiability …………….. 1 Unit 2 Partial Differentiation………………………………… 24 Unit 3 Convergence of Infinite Series ……………………….
+56 Unit 4 Taylor and Maclaurin Series………………………….
+78 Unit 5 Numerical Integrations………………………….…… 91 MTH 281 MATHEMATICAL M ETHODS 1 MODULE 1 Unit 1 Limits, Continuity and Differentiability Unit 2 Partial Differentiation Unit 3 Convergence of Infinite Series Unit 4 Taylor and Maclaurin Series Unit 5 Numerical Integrations UNIT 1 LIMITS, CONTINUITY AND DIFFERENTIABILITY CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Limits 3.2 Continuous and Discontinuous Functions 3.3 Differentiability 3.4 Continuity and Differentiability 3.5 Rolle’s Theorem and the Mean-Value Theorem 3.6 Higher Derivatives and Leibnitz’s Formula 3.7 Maxima and Minima 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Recall that in MTH 112, the idea of a limit was introduced.
+For example, it was shown that as q becomes small s i n q q approaches unity.
+We will consider in this unit a more detailed and rigorous definition of the limit of a function.
+We will also study the concept of continuity and state sit of conditions when a function will be discontinuous.
+The two ideas of limit and continuity would be applied to establish a more rigorous definition of differentiability.
+MTH 281 MODULE 1 2.0 OBJECTIVES At the end of this unit, you should be able to: • establish the limit of functions • determine the continuity or otherwise of a function • carry out the differentiation of a function • apply the rolles and mean-value theorem to solutions of some problems • be able to obtain nth differentials coefficients of some simple functions by application of Leibnitz’s formula.
+3.0 MAIN CONTENT 3.1 Limits Suppose f(x) is a given function of x. then, if we can make f(x) as near as we please to a given number l by choosing x sufficiently near to a number a, l is said to be the limit of f(x) as x ® a, and is written as lim f(x) = l (1) x® a It is important to emphasise the following points: (a) the independent variable x may approach the point a either from left to right (that is, from - ¥ to a) or from right to left (from a to ¥ ).
+In many cases the limits of the function obtained in these two ways are different, and when this is the case we write them as lim f(x) = l1, lim f(x) = l2, x® a - x® a + respectively.
+For example, the function y 1 p when x x tends to 2 = tan-1 ( ) p when x approaches zero from the positive side, and to - 2 approaches zero from the negative side.
+Consequently, we write tan-1 ( ) 1 p , p .
+lim lim tan-1 = - 2 x = 2 x® 0 + x® 0 - MTH 281 MATHEMATICAL M ETHODS 1 Sometimes we are faced with a function, which becomes arbitrarily large when x is chosen sufficiently close to a number a. when this happens we write lim f(x) = ¥ (2) x a Fig.1.1 1 tends to ¥ when x ® 0 from For example, the function y = x the positive side, and to - ¥ when x ® from the negative side (see fig 1.1).
+Accordingly 1 1 l®im + ( ) li®m - ( ) x = ¥ , x = - ¥ .
+x 0 x 0 In all cases when the limits as x ® a from both directions are equal (say l) we simply write lim f(x) = l (3) x® a (b) in proceeding to the limit of f(x) as x ® a we have to exclude x from becoming equal to a for two reasons.
+Firstly, the value of sin x the function may not be defined at x = a, as, for example.
+x at x = 0.
+Secondly, if f(x) is defined at x = a its value may not be equal to lim f(x).
+For example, if f(x) is defined by x® a ìï £1 for x 1, ïï f(x) = 1í (4) ïï > for x 1, ï 2 î (see Fig.
+1.2) then 1 .
+lim f(x) = 2 x® 1 + MTH 281 MODULE 1 1 y 1 y = 2 0 1 x Fig.
+1.2 This is not equal to the value of the function at x = 1, which by (4) is equal to unity.
+The function y = cos (1/x) (see Fig.
+1.3) is not only undefined Fig 1.3 At x = 0, but possesses no limit there either, since as x ® 0 the graph oscillates infinitely many times between +1 and -1. the function therefore does not approach any particular value as x ® 1 (Fig.
+1.4) 0.
+However, y = cos x Fig 1.4 Although again oscillating infinitely many times as x ® 0 nevertheless does posses a limit in virtue of the factor x in front of the cosine term which decreases to zero in the limit.
+The limit of this function as x ® 0 is therefore zero.
+MTH 281 MATHEMATICAL M ETHODS 1 A more rigorous definition of the limit of a function is as follows: if f(x) tends to a limit l as x ® a, then for any number e (however small) it must be possible to find a number e such that: In general the value of e depends on the value of e .
+Consider f(x) = 1 - 1 2 lim f(x) = 3 x +2 .
+According to (5) we are permitted to say that x® 1 provided a value of e exists such that, for any e , ( ) 1 2 1 -x - 2< 3e + , when | x - 1| < h (6) Suppose we take e = 10-3.
+Then 0.334> 1 x +2 >0.332 (to 3 decimals), which gives 0.994 < x < 1.010.
+For (6) to be satisfied we need therefore only take (1.010 – 1) < h (7) or h > 0.010.
+Hence, since the conditions (5) can be satisfied, the limit 2 .
+of f(x) as x ® 1 exists and is equal to 3 We now state without proof three important theorems on limits.
+If f(x) and g(x) are two functions of x such th aft( x ) and g(x) exists, lim lim x® a x® a then Theorem 1: {f(x) + g(x)} = f(x) + g(x), lim lim lim lim x® a x® a x® a x® a Theorem 2: {f(x)g(x)} = f(x).
+g(x), lim lim lim x® a x® a x® a Theorem 3: lim f ( x ) lim ìïïí üïïý f ( x ) = ®x a ïïî ïïþg ( x ) lim f ( x ) x® a x a® provided lim g(x) ¹ 0. x® a MTH 281 MODULE 1 These theorems maybe readily extended to any finite number of functions.
+The following example illustrates the use of these theorems.
+Example 1: Suppose we wish to evaluate æ ö x m 1 - ÷ lim ççx ÷÷1 çè -ø , ÷ x® 1 where m is a positive integer.
+Dividing the denominator into the numerator, the limit maybe written as lim (1 + x + x2 + …… + xm – 1), (8) x® a which by Theorem 1 is the same as lim 1 +l im x +l im x2 + … + l im xm – 1.
+(9) x® 1 x® 1 x® 1 x® 1 The value of each of these limits is unity and since there are m of them, the sum is m. Similarly, if m is a negative integer, say –k, where k is a positive integer, then xl®i 1m æçççè x ÷÷-ømöx = 1 1 - ÷ ÷ lxi®m 1 æçççè x ÷÷-øö- x 1 = 1 k - ÷ ÷ lx®im 1 æçççè1 ÷÷-ø ö /= x x 1 k1 - ÷ ÷ lxi®m 1 (æçççççè ) -÷÷÷-ø xö 1 ÷ 1 x x k k ÷ = - ìïï æïïç x ÷ö k1 ü -1 ÷ .
+(10) lim í ýç ÷ x® 1 ïïî çïèïþ øx -1 x ÷ k By Theorem 2, (10) may be written as 1 = -k = m, (11) æç x ÷ö 1 - ÷ æç x ÷ö 1k - ÷ lim ç ÷m lim ç ÷ lim çè -øx =1 - ÷ çè -øx 1 ÷ x x® 1 x® 1 x® 1k (making use of the result for a positive integer).
+Likewise, if m is fractional, say p/q, where p and q are integers, then æç x ÷ö 1 - ÷ æç x ÷ö 1p / q - ÷ lim ç ÷m lim ç ÷ çè -øx =1 ÷ çè -ø x 1 ÷ (12) x® 1 x® 1 Now putting x1/q = y so that x = yq we have MTH 281 MATHEMATICAL M ETHODS 1 xli® 1m æçççè x ÷÷-ømöx = 1 1 - ÷ ÷ ly®im 1 æççççè yy ÷÷÷øö q p11 -- ÷ ÷ = l y®i m 1 ìïïïïïïíïïï ççççèæççæïïïïïïýïïï yy ø÷yöö q 11p ü-1 -- ÷ ÷÷÷÷÷÷ .
+(13) ïïïî ççèïïïþ ÷øy -1 ÷ By Theorem 3, therefore çæ ÷y öp 1 - ÷ lim çy ÷1 ç ÷ æ ö çè ø - ÷ p = m (14) lim çç x÷÷m 1 - ÷ y ®1 = q çè -øx =1 ÷ æ ö x® 1 ç y÷ q1 - ÷ lim çy ÷1 ç ÷ çè ø - ÷ y ®1 as before.
+Hence for all rational values of m æ ö x 1 - ÷ lim çç ÷÷m çè -øx =1 m ÷ (15) x® 1 SELF ASSESSMENT EXERCISE 1 Evaluate the following limits: x+ 1 a) lim x +2 x® ¥ x 33 + b) lim 2x3 4 x+ 1+ x® ¥ c) 1 -c o s x lim x x® 0 2 sec x- c o s x d) lim sin x x® 0 1 +c po s x e) 2 tan x p 3.2 Continuous and Discontinuous Functions A single-valued function of x is said to be continuous at x – a if (a) lim f(x) exists, x® a MTH 281 MODULE 1 (b) the function is defined for the value x = a, and (c) if lim f(x) = f(a).
+x® a When a function does not satisfy these conditions it is said to be discontinuous and x = a is called a point of discontinuity.
+In general, if the graph of a function has a break in it at a particular value of x it is discontinuous at that point.
+For example, the function y =1/x represented in Fig.
+1.1 is discontinuous at x = 0, whilst the function defined by 1.1 (3) and represented in Fig.
+1.2 is discontinuous at x = 1.
+There is, however, a slight difference between these two examples.
+The first function (y = 1/x) becomes infinite at the point of discontinuity and is said to have an infinite discontinuity at x = 0; the second function remains finite at the discontinuity and is therefore said to have a finite discontinuity at x = 1. sin x a nd txa n x are discontinuous at x = 0 since they Functions like x are not defined there (see condition (b) above).
+It is an important result (and one that we shall need later on) that every polynomial of any degree is continuous for all x.
+To prove this consider a polynomial of degree n Pn(x) = a0xn + a1xn-1 + … + an-1x + an (16) and take as a function f(x) any typical term xm(m= n) in the polynomial.
+Then for nay arbitrary value of x, say x = a, f(a) = am.
+Now by theorem 2, (3.1) lim f(x) = li m xm =lim ( x) m = am = f(a).
+(17) x® a x® a x® a Hence the function xm is continuous at x = a, and since a is arbitrary, it must be continuous for all x.
+This result applies to every term of the polynomial, and hence every polynomial is continuous for all x.
+An immediate consequence of this result is that every rational function (see Chapter 1, 1.3 (e)) is continuous everywhere except at the points where the denominator vanishes.
+For example, y = ( )5(x ) 23 + x -1 -x 2 (18) MTH 281 MATHEMATICAL M ETHODS 1 is continuous everywhere except at x = 1 and x = 2.
+The discontinuities are shown graphically by the existence of asymptotes at these values of x.
+In general, the sums, differences, products and quotients of continuous functions (except, of course, at the zeros of the denominator in the case of a quotients).
+SELF ASSESSMENT EXERCISE 2 Find the points of discontinuity of the following functions.
+x 4+ x + 6 i) 3 x2 6 - x + 8 ii) sec x sin x iii) x 3.3 Differentiability Consider a function y = f(x) whose graph is represented in fig.
+3.5, and let P be a typical point on the curve with coordinates (x,y).
+The coordinates of a neighbouring point Q can be written as (x + d x, y + d y), where the small change d x in x produces the small change d y in y.
+The expression f ( x +x d) f- ( x ) dx = tan QPS (19) is then the slope of the straight line joining the points P and Q, and may be thought of as the mean value of the gradient of the curve y = f(x) in the range (x, x + d x).
+As the point Q approaches P, (19) may approach a limiting value given by æ f ö( x+ xd )- f÷ ( x ) lim xçç ÷÷ çè ø d = i (say) (20) d x® 0 If this limit exists then geometrically this implies the existence of a tangent such that l = tan q , where q is the angle between the tangent at P and the x-axis.
+We refer to (20) as the differential coefficient of y with d y .
+Sometimes, however, it is respect to x and denote it by the symbol dx MTH 281 MODULE 1 dy by f’(x), ddxf , or by Dy or Df, where D is the convenient to denote d x d .
+operator dx A function y = f(x) is said to be differentiable if it possesses a dy (or differential coefficient, and to be differentiable at a point x = a if dx f’(x)) exists at that point.
+From the definition of the differential coefficient as a limit, we may obtain the differential coefficient of nay function of one variable.
+In the same way, we may also derive the well-known rules for differentiating the product and quotient of two functions.
+It is assumed here that the reader is familiar with these ideas, and that the following examples will be sufficient to illustrate the technique of differentiating from first principles.
+Example 2: The differential coefficient of y = sin x is obtained by evaluating d ( s=in x ) æ s iön ( x+ x d ) - s ÷in x lim xç ÷ ç ÷ dx çè ø d (21) d ®x 0 ( ) ìï dx d x üï ï 2 sin cos x + ï = lim ïïí 2 2 ïïý (22) ï dx ï d ®x 0 ï ï ï ï ïî ïþ æ ö d ÷x ççs ÷÷in 2 { } = lim çç ÷÷ .
+dl im ®c o(s x) 2 + d x (23) ç ÷ ç ÷dx / 2 d ®x 0 ç ÷ x 0 çè ø ÷ (by Theorem 2, 3.1) As d x ® 0, the first limit becomes equal to unity, and the second to cos x.
+Hence d (sin x) = cos x.
+(24) dx MTH 281 MATHEMATICAL M ETHODS 1 Example 3: If f and g are two functions of x, then d (fg) = f ddxg + g ddfx , (25) dx df dg d f g f - and dx æç ÷ö÷ dx dx .
+(26) ç ÷ ç è gø = 2 g Both of these well-known formulae can be proved from first principles, and we illustrate this statement by deriving (26).
+ìï üï f ( x+ xd ) f ( x ) ï ï - d f æ ö ïï ïïg ( x+ x d ) g ( x ) çç ÷÷÷ lim ïí ïý (27) dx çè gø = ï ï dx d ®x 0 ï ï ï ï ï ï ïî ïþ = ìïï + d - + d üïï (28) lim í f ( x xg ( x ) f ( x ) g ( x x ý d ®x 0 ) ïïî g ( x ) g ( +x xd )d x ïïþ = lim d ®x 0 ìïï é 1 x g(x).
+f (x) f (x+ xd) -f +(x d) -g (x x) g(x) ùïï ü í ê - úý (29) ïïî gë (x)g(x x+) dx d ê dx úûïï þ which by using the theorems on limits stated in 3.1, and the definition of the differential coefficient, reduces to df dg g f - d f æç ÷ö÷ dx dx (30) ç ÷ dx çè gø = 2 g as required.
+Example 4: The differential coefficients of the inverse circular functions sin-1x, cos-1x, (sometimes written as arc sin x, arc cos x) maybe obtained as follows: If y = sin-1x, then x = sin y. dx = cos y (31) Hence dy MTH 281 MODULE 1 dy = y1 = 1 1 and dx = (32) cos (1- s i n y2) (1 -x ) 2 It is usual to take the positive sign of the square root in (32) to define the differential coefficient of the principal value of sin-1x, the principal value being such that - p /2 £ sin-1x £ p /2.
+When principal values of many-valued functions are implied it is usual to write the functions with capital letters.
+For example, d (Sin-1x) = 1 d (Cos-1x) = - 1 and dx , dx (1 -x ) 2 (1- x ) 2 where the principal value of cos-1x is such that 0 £ cos-1x £ p .
+In the next chapter, we shall consider the operation of indefinite integration.
+This is the inverse operation to differentiation in that the differential coefficient of the indefinite integral of a function is the function itself.
+SELF ASSESSMENT EXERCISE 3 1.
+Differentiate from the first principles.
+æx - 1 a) ) ç ç ç + ) è x 1 b) 2 2 a x - 2.
+Differentiate a) logecos ( ) 1 x e b) 2 3 x c) sin-1 x x +1 d) esin2x e) xcosx MTH 281 MATHEMATICAL M ETHODS 1 3.4 Continuity and Differentiability Continuity and differentiability are closely related in the sense that, if df exists at x = a, then f(x) is continuous at x f(x) is a function of x and d x = a.
+This follows since, if f(x) were not continuous at x = a, f(a + d x ® 0, and consequently lim x ïïí ìïïý üf ( a+ xd )- f ( a ) (33) d x® 0 ïïî ïïþ d (which is the differential coefficient at x = a) could not exist.
+Hence, differentiability at a point implies continuity, whilst discontinuity implies non-differentiability.
+The converse, however, is not true; continuity does not imply differentiability.
+This maybe easily y P(a,b) seen by considering the function represented graphically in Fig.
+1.6.
+At the point P (a,b) the curve is continuous despite the ‘kink’ since the function is defined and the limit of the function as x ® a from either direction is equal to 0 x f(a).
+The differential coefficient, Fig.
+1.5 however, is not uniquely defined at P (a,b) since a definite tangent to the curve at this point does not exist.
+The function is not differentiable therefore at this point, although (as shown) it is differentiable 1 , everywhere else.
+As an example, we mention the function f(x) = sin x f(0) = 0, which is continuous at x = 0 but not differentiable there.
+Certain functions, moreover, are known to be continuous for all x and yet differentiable at none.
+Such functions are usually termed ‘pathological’ (i.e.
+ill) and are not often of any great interest in physical applications.
+3.5 Rolle’s Theorem and the Mean-Value Theorem i) Rolle’s Theorem if f(x) is continuous in the interval a £ x £ b and differentiable in a < x < b, and if f(a) = f(b) = 0, then, provided f(x) is not identically zero for a < x < b, there exists at least on value of x (say x = c) such that f’(c) = 0, where a < c < b.
+In words, there must exist at least one maximum or minimum in the interval (a,b).
+MTH 281 MODULE 1 The validity of this theorem may be easily illustrated geometrically (see Fig.
+1.7).
+y max 0 a c b x Fig.
+1.6 ii) First Mean-Value Theorem If f(x) is a continuous function of x in the interval a £ x £ b and is differentiable in a < x < b then there exists at least one value of x (say x = c) lying in the interval (a,b) such that - f’(c) = f ( b ) f ( a ) b -a (34) In other words, considered graphically (see Fig.
+3.8), there exists a value x = c such that the tangent to the curve at this point is parallel to the chord AB.
+y B E D A 0 a c b x Fig.
+1.7 We may prove this theorem geometrically in the following way: the equation of the line AB is - Y = f(a) + (x + a0 f ( b ) f ( a ) b -a , (35) since BD = f(b) – f(a) and AD = b – a.
+Hence the difference CE of the ordinates of the curve AB and the straight line AB is MTH 281 MATHEMATICAL M ETHODS 1 - F(x) = f(x) – y = f(x) – f(a) – (x – a) f ( b ) f ( a ) b -a (36) Differentiating we have - F(x) = f(x) – f ( b ) f ( a ) b -a (37) which is a defined quantity in a < x < b.
+Also F(a) = F(b) = 0 since the curve AB and the straight line AB intersect at these points.
+Hence the function F(x) satisfies Rolle’s Theorem and consequently there exists a value of x (say x = c) such that F’(c) = 0.
+This implies (from (37)) that there exists a value (x = c) such that - f’(c) = f ( b ) f ( a ) b -a (38) which proves (34).
+Example 5: If f(x) = sin 3x, and a = 0, b = p /6, c can be found from the equation (see (34) or (38)) p - 3 cos 3c = sin( / 2 ) sin 0 ( p/ 6- .)
+0 (39) 1 cos-1 (2/ p ).
+This gives directly c = 3 The first Mean-Value Theorem is useful in many ways; in particular in establishing inequalities between functions.
+For example, a typical problem would be to show that in the interval 0 < x < p /2 sin x> 2 1 > x p .
+(40) This is an extension of the inequality relation already obtained graphically in Chapter 2.
+Problems like this maybe conveniently dealt with by using the following result: If f(x) is continuous in the range a £ x £ b, and differentiable in a < x < b, and if f’(x) > 0 in a < x < b, then for a < x1 < x2 < b f(a) < f(x1) < f(x2) < f(b).
+Similarly if f’(x) < 0 in a < x < b, then f(a) > f(x1) > f(x2) > f(b).
+for a < x1 < x2 < b. MTH 281 MODULE 1 These statements are obvious when represented graphically (see Figs.
+1.9 and 1.10), but we indicate an analytical proof here.
+y f(b) f(x2) f(x1) f(a) 0 a x1 x2 b x y = f(x), f’(x) > 0 y f(a) Fig.
+1.8 f(x1) f(x2) f(b) 0 a x1 x2 b x y = f(x), f’(x) < 0 Fig.
+1.9 Consider the case when f’(x) > 0.
+The first Mean-Value Theorem gives f(x1) – f(a) = (x1 – a) f’(c), (41) Where a < c < x1.
+But if f’(x) > 0, then f’(c) > 0.
+Also, by assumption, x1 > a.
+Hence f(x1) > f(a) (42) Similarly f(x2) > f(x1) and f(b) > f(x2), and hence the statement is proved.
+A similar proof exists when f’(x) < 0.
+Example 6: Consider now the inequality relation (40).
+Here sin ,x a nd f(x) ® 1 as x ® 0. f(x) = x Differentiating we have x cos x -s ,i n x (43) f’(x) = 2 x which is negative in the range 0 < x < p /2.
+Hence according to the results obtained above we have MTH 281 MATHEMATICAL M ETHODS 1 f(0) > f(x) > f( p /2), (44) sin x> 2 whih gives 1 > x p .
+(45) 3.6 Higher Derivatives and Leibnitz’s Formula When a function y = f(x) is differentiated more than once with respect to x, the higher differential coefficients are written as dd2 x y 2= dxd dèyæççç dø ÷÷,öx 3÷ dd3 x y = dxd 2 æççççè dd ÷÷÷øö x y 2 ÷÷, …, n ddn x y = dxd n 1æççççè dd ÷÷÷øö x y- n 1- ÷÷ , d y is the nth differential coefficient of y with respect to x. n where n dx (These are sometimes abbreviated to either f’’(x), f’’’(x) … f(n)(x) or D2y, D3y ….
+Dny, where D º d/dx.)
+We now give a few examples showing how the nth differential coefficients of some simple functions maybe obtained.
+Example 7: If y = sin x, then dy = cos x = sin ( ) Dy º dx p + , x 2 æ ö ç d÷ y ÷ D2y º ç2 ÷ = -sin x = sin ( p + x), ç ÷ ç ÷ è døx 2 d = -cos x = sin ( ) y 3 3 px + , D3y º 3 dx 2 and in general d = sin ( ) y n p + .
+(46) x Dny º n dx 2 MTH 281 MODULE 1 Example 8: If y = loge x, then Dy = 1/x, D2y = 1/x2, D3y = 2/x3, ( n- 1 .)
+!
+(47) and Dny = (-1)n-1 n x (Equation (47) is valid for all n, including n = 1, if by 0!
+We mean unity.)
+In these two examples, the functions have been simple enough to enable the nth differential coefficient to be written down in a few lines.
+When, however, the nth differential coefficient of a product of two functions u(x) and v(x) is required it is better to proceed as follows: We have shown earlier from first principles that D(uv) = u Dv + v Du (48) Differentiating (48) now gives D2(uv) = u D2v + 2Du .
+Dv + v D2u.
+(49) Similarly we obtain D3(uv) = u D3v + 3Du .
+D2v + 3D2u .
+Dv + v D3u, (50) D4(uv) = u D4v+4Du .
+D3v+6D2u .D2v+4D3u .Dv+Dv + v D4u (51) and so on.
+By inspection of these results the following formula (due to Leibnitz) may be written down for the nth differential coefficient of uv: Dn(uv) = u Dnv + nC1Du .
+Dn-1v + nC2D2u .
+Dn-2v + … + nCn-1Dn-1u.Dv + v Dnu, (52) where nCr = n !
+( n -r .)
+!
+r !
+MTH 281 MATHEMATICAL M ETHODS 1 This maybe written more concisely as Dn(uv) = n å nCrDn-rv .
+Dnu.
+(53) r =0 Leibnitz’s formula (52) may be proved by induction as follows.
+Suppose (52) is true for one value of n, say m; then by differentiating we find Dm+1(uv) = (u Dm+1v + Du .
+Dmv) + mC1(Du .
+Dmv + D2u .
+Dm-1v) + mC2(D2u .
+Dm-1v + D3u .
+Dm-2v)+ … + (Dv .
+Dmu + vDm+1u), (54) = uDm+1v+(1+mC1)Du .
+Dmv+(mC1+mC2)D2u .
+Dm-1v+…+vDm+1u.
+(55) Now mCr-1 + mCr = m+1Cr (56) and hence (55) becomes Dm+1(uv)= uDm+1v+m+1C1Du .
+Dmv+ m+1C2D2u .
+Dm-1v+…+ vDm+1u.
+(57) This again is the Leibnitz’s formula (52) with m + 1 in place of m. Hence if the formula is true for n = m, it is certainly true for n = m + 1.
+However, we know (from first principles) that it is true for n = 1, and therefore it is true for n =2, 3, …, and consequently for all positive integral values of n. Example 9: To obtain the nth differential coefficient of y = (x2 + 1)e2x we put x2 + 1 = u and e2x = v. Then by (52) (x2 + 1)2ne2x + 2nx .
+2n-1e2x + n(n – 1)2n-2e2x (58) = 2n-2 e2x (4x2 + 4nx + n2 – n + 4).
+(59) Example 10: The nth differential coefficient of y = x logex may be obtained by putting x = u and logex.
+Equation (52) then gives ( n- 1 )!
+( n- 2 ) !
++ n(-1)n-1 n 1 (60) Dny = Dn(uv) = x(-1)n-1 n x x - ( n- 2 ) !
+, (n ³ 2).
+(61) = (-1)n-2 n 1 x - Example 11: Leibnitz’s formula may also be applied to a differential equation to obtain a relation between successive differential coefficients.
+MTH 281 MODULE 1 As this forms a step towards finding power series solutions of certain types of differential equations now consider the following problem.
+Suppose y satisfies the equation d y+ x2y = sin x.
+(62) 2 dx 2 Then differentiating each term n times (using Leibnitz’s formula for the product term x2y), we obtain (using (46)) Dn+2y + (x2Dny + 2nx Dn-1y + n(n – 1)Dn-2y) n px + , (63) 2 = sin ( ) which is a relation between the (n – 2)th, (n – 1)th, nth and (n + 2)th differential coefficients of y for all x.
+If we now put x = 0 in (63) we find ìï Dn+2y + n(n – 1)Dn-2y = ïí 0 if n is even , (64) ïï ± 1 if n is odd .
+î Remark: Relations of the type of the expression in (63) and (64) at x = 0, are useful in developing power series solutions of differential equations.
+SELF ASSESSMENT EXERCISE 4 dy = p, that 2 d =x 1) If y is a function of x, show by putting dx 2 dy d 2y - dx 2 .
+æd öy 3 ç ÷ ÷ ç ÷ çè døx d y+ 2 dxd y + 2 y 2) If y = sin ( ) ( x 1 ) 2 p = 0. p + prove that 4(x + 1) 2 dx 3.7 Maxima and Minima A particular important application of differentiation is to the problem of finding the maxima and minima values of a given function f(x) in same interval a £ x £ b. Purely on geometrical grounds we can see (Fig.
+3.11) that provided f(x) is differentiable in the range (a,b) then at a maximum or minimum the tangent to the curve must be parallel to the x- MTH 281 MATHEMATICAL M ETHODS 1 axis.
+According a necessary condition for a point x0 (say) to be a maximum or a minimum is that æ df ( x ) ö f’(x0) = 0 çççi = .e = .
+÷0 at x x ÷ ÷ è dx 0 ø.
+(65) Such points are called critical points.
+y y = f(X) Q P 0 x = a x = b x Fig.
+1.10 Although at the end points x = a and x=b it would seem that the function possesses larger and smaller values respectively than at the maximum point Q and the minimum point P, we do not count these as true maxima and minima but note that they are just the greatest and least values of the function in the range a £ x £ b.
+Now suppose f’(x) > 0.
+Then the function y = f(x) increases with increasing x. if f’’(x) > 0 then f’(x) is also increasing and hence the curve is concave is upwards (as near the maximum point Q).
+Hence if f’(x0) = 0 and f’’(x0) > 0 the point x0 is a minimum point, whilst if f’(x0) = 0 and f’’(x0) < 0 the point x0 is a maximum point.
+It may happen that both f’(x0) and f’’(x0) vanish (for example, f(x) = x3 has a critical point at x = x0 = 0, and f’’(0) = 0).
+Such points are called points of inflection.
+A more detailed theory based on Taylor series (see Unit4) enables the nature of a critical point to be determined when the first n (say) derivatives vanish at the critical point.
+However, we shall not deal with this situation here.
+Finally, we note that we have so far assumed that the function is continuous and has a continuous first derivative.
+If the function is not differentiable then it may still possess maxima and minima but they cannot be found by differentiation.
+For example, the function y = |x| is shown in Fig.
+3.12.
+This is not a differentiable function for the range –a £ x £ a (say).
+However, a true minimum does exist at x = 0.
+MTH 281 MODULE 1 y y =|x| x 0 Fig.
+1.11 SELF ASSESSMENT EXERCISE 5 1.
+Determine the maxima and minima value (if any) of a) sin-1 (x2 + 2) b) 1 + x2/3 2.
+Find the critical point of y = x2e-x and determine whether they are maxima or minima.
+4.0 CONCLUSION In this unit, we have dealt with limit, continuity and have established some theorems, such as Rolle’s Theorem and Mean-Valued theorem.
+We have also established relationship between continuity and differentiability.
+The concept of differentiability allows us to determine, the minimum and maximum point of a given function.
+5.0 SUMMARY Here you have learnt about limits, continuity and differentiability.
+You have also learnt that differentiability at a point implies continuity at that point.
+Some relevant theorems such as Rolles and Mean-valued theorem were also studied.
+You are to master these areas in order to be able to follow the presentation in the next unit.
+MTH 281 MATHEMATICAL M ETHODS 1 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Find the derivatives of a) 1 ( ax+ b ) b) x4logex 2.
+Find the points of discontinuity of the following functions 4x+ 6 a) 2 x 6-x + 8 b) sec x sin x c) x d y+ 2 dxdy + 2 3.
+If y = sin( ) 2 p y = 0.
+( x 1) p + prove that 4(x + 1) 2 dx d y - x ddxy is 2 4.
+If y = sin-1x = (sin-1x)2, prove that (1 – x2) 2 dx independent of x.
+7.0 REFERENCES/FURTHER READING G. S. Stephenson (1977).
+Mathematical Methods for Science Students.
+London and New York: Longman.
+P. D. S. Verma (1995).
+Engineering Mathematics.
+New Delhi: Vikas Publishing House, PVT Ltd. MTH 281 MODULE 1 UNIT 2 PARTIAL DIFFERENTIATION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Functions of Several Independent Variables 3.2 First Partial Derivatives 3.3 Function of a Function 3.3.1 Commutative Property of Partial Differentiation 3.4 Higher Partial Derivatives 3.5 Total Derivatives 3.6 Implicit Differentiation 3.6 Higher Total Derivatives 3.7 Homogeneous Functions 3.8 Euler’s Theorem 3.9 Change of Variables 3.10 Taylor’s Theorem for Function of Two Independent Variables 3.11 Maxima and Minima of function of two Variables 3.12 Lagrange Multipliers 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In Unit 1, we discussed the concepts of continuity and differentiability of one real independent variable.
+In this unit, we shall consider and extend the idea developed in Unit 1 to function of more than one variable.
+This is very important because, in scientific analysis of a problem, one often find that a factor depends upon several other factors.
+For example, volume of a solid depends upon its length, breath and height.
+Strength of a material depends upon temperature, density, isotropy, softness etc.
+It is therefore necessary to define function of several variables.
+If a variable z depends for its value upon those of x and y, we say z is a function of x and y, and write z = f(x,y).
+All types of concepts for functions of one variable are extend to functions of several variables.
+For example the value of a function f(x,y) MTH 281 MATHEMATICAL M ETHODS 1 at (x0, y0) is given by f(x0, y0).
+The domain and range of the function are defined as before.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • relate the concepts of limit and continuity studied in unit 1 to function of several variables • carry out partial differentiation of function of several variables • apply the concept of Lagrange multiplier techniques to finding the minima and maxima of functions of several variables • find higher derivatives of functions of several variables • carry out Taylor series expansion of functions of several variables.
+3.0 MAIN CONTENT 3.1 Functions of Several Independent Variables The concepts of continuity and differentiability of functions of one real independent variable have already been discussed in Unit 1 and in this section we extend these ideas to functions of two or more real independent variables x, y, u, v … (or x1, x2, x3 …).
+We first discuss, however, some general properties of functions of this type.
+Consider, for example, a function of two variables x and y defined by f(x,y) = x2- 2y2.
+(1) Then the value of f(x,y) s determined by (1) for every number pair (x,y).
+For instance, if (x, y) = (0, 0) we have f(0,0) = 0 and if (x ,y) = (1, 0), f(1, 0) = 1.
+In general we may represent every pair of numbers (x,y) by a point P in the (x,y) z plane of a rectangular Cartesian coordinate system and denote the P corresponding value of f(x,y) by the length of the line PP’ drawn parallel to 0 the z=axis (see Fig 2.1).
+The locus of all y points such as P’ is then a surface in the P(x,y) (x, y, z) space which represents the function f(x,y).
+However, this simple x Fig.
+2.1 geometrical picture is impossible to MTH 281 MODULE 1 visualise when dealing with functions of three or more independent variables.
+Returning now for simplicity to functions of two independent variables, we notice that many functions are only defined within a certain region of the (x,y) plane.
+(This is analogous to the one-variable case where f(x) is defined in a certain interval of x).
+For example, the real function.
+a x- y - (2) f(x,y) = 2 2 2 is only defined within and on the boundary of the circle x2 + y2 = a2; outside this region it takes on imaginary values.
+Similarly the function y f(x,y) = tan x (3) is undefined along the line x = 0.
+The function given in (1), however, is defined for all values of x and y. it is usual to denote the region of definition of a function of several independent variables by the letter.
+If a function f(x,y) has just one real value for every (x,y) value within its region of definition R, we say that it is a single-valued function are obtained for a given (x,y) value we call the function two-valued or many-valued.
+For instance, the function defined by (1) is single-valued over the region R given by - ¥ < x < ¥ , - ¥ < y < ¥ , whereas the function defined by (2) is two-valued over the region R given by x2 + y2 < a2 (since both signs of the square root may be taken) and single- valued (equal to zero) on the boundary of the circle x2 + y2 = a2.
+Another important concept already defined in Unit 1, 3.2 for functions of one independent variable is that of continuity.
+When discussing the continuity of functions of two or more independent variables similar considerations apply.
+Suppose f(x,y) is a real single-valued function of x and y.
+Then if f(x,y) approaches a value l as x approaches a and y approaches b, l is said to be a limit of f(x,y) as the point (x,y) approaches the point (a,b) and is written as lim f(x,y) = l. (4) ( x ,y ®) ( a ,b ) However, as we have already seen in one-variable case, x may approach a specified point x = a from either the negative side (- ¥ ® a) or from MTH 281 MATHEMATICAL M ETHODS 1 the positive side (- ¥ ® a), and the values of the y two limits so obtained may be different.
+The same is true of (4); the way in which (x,y) ® P(a,b) (a,b) may determine the value of l. However, there is now much more freedom than in the c Q(x,y) one-variable case since (see Fig.
+9.2) the point 0 x Q(x,y) may approach the point P(a,b) along any of the infinity of curves, say c, which lie in the Fig.
+2.2 (x,y) plane and which pass through P. If, however, the limit exists independently of the way in which Q approaches P and is such that lim f(x,y) = f(a,b), (5) ( x ,y ®) ( a ,b ) (assuming that f(a,b) exists), then f(x,y) is said to be a continuous function of x and y at the point (a,b).
+Likewise, if a function f(x,y) is continuous at every point of a region R of the (x,y) plane it is said to be continuous over that region.
+3.2 First Partial Derivatives Suppose f(x,y) is a real single-valued function of two independent variables x and y.
+Then the partial derivatives of f(x,y) with respect to x is defined as ( )y ¶ f ìïï f ( x+ xd ,- y ) f ( x , y ) üïï (6) lim í ý ¶ x = d ®x 0 ïïî dx ïïþ Similarly the partial derivative of f(x,y) with respect to y is defined as ( )x ¶ f lim ìïïí f ( x , +y dy -) f ( x , y ) üïïý (7) ¶ x = d ®x 0 ïïî dy ïïþ In other words the partial derivative of f(x,y) with respect to x may be thought of a s the ordinary derivative of f(x,y) with respect to x obtained by treating y as a constant.
+Similarly, the partial derivative of f(x,y) with respect to y may be found by treating x a s constant and evaluating the ordinary derivative of f(x,y) with respect to y.
+The variable, which is to be held constant in the differentiation, is denoted by a subscript as shown in (6) and (7).
+Alternative notations, however, exist for partial derivatives and one of the more useful and compact of these is to denote ¶ f æç ¶ ÷ö f÷ ( )y ç ÷ ¶ x by fx, and çè¶ ø y by fy.
+x MTH 281 MODULE 1 The subscripts appearing in the f now denote the variables with respect to which f(x,y) is to be differentiated.
+The following examples illustrate the evaluation of first partial derivatives.
+Example 1: If f(x,y) = x2 – 2y2 (8) (see (1)), then fx = ¶( f) y lim ìïïí [( x +x d) 2- -y 2- ] 2 (2 x2 2 y ) üïïý (9) ¶ x = ï dx ï d x® 0 ïî ïþ = æç 2 ÷ö x d x + ( dx ÷) 2 = 2x (10) lim ç ÷ ç ÷ çè ø dx ÷ d ®x 0 Similarly fx = æçççè ¶¶ ÷÷øö fy÷ = x dl ix®m 0 ìïïïíïïïî [ x 22-( 2 +y 2 dy 2 -) -] (x d2y y ) üïïïýïïïþ (11) = æç- ÷ öd 4 - y d y ÷ 2 ( y ) 2 = -4y (12) lim ç ÷ ç ÷ çè ø dy ÷ d ®x 0 Example 2: The last example illustrated the technique of partial differentiation from first principles (i.e.
+by the evaluation of a limit).
+We now differentiate partially by keeping certain variables constant as required.
+For example, if x , (13) f(x,y) = sin2 x cos y + 2 y then keeping y constant we find 1 .
+(14) ¶ f fx = ( )y ¶ x = 2 sin x cos x cos y + 2 y Similarly, keeping x constant, 2 x.
+(15) ¶ f fy = ( )x ¶ x = 2 sin2 x sin y - 3 y Example 3: To obtain the partial derivatives of a function of n independent variables any n -1 of these variables must be held constant and the differentiation carried out with respect to the remaining variable.
+MTH 281 MATHEMATICAL M ETHODS 1 There are therefore n first partial derivatives of such a function.
+For Example, if f(x, y, z) = e2z cos xy (16) SELF ASSESSMENT EXERCISE 1 Given that f(x,y) = x2y + sin-1x find i) fx ii) fy then ¶ f fx = ( )y ¶ x= -ye2z sin xy, (17) æ ö ¶ f÷ ç ÷ fy = ç ÷ çè øy ¶ = xe2z sin xy, (18) x. z and fz = ( ) ¶ f ¶ z= 2e2z cos xy (19) x ,y 3.3 Function of a Function It is a well-known property of functions of one independent variable that if f is a function of a variable u, and u is a function of a variable x, then df = d df u .
+d ud x.
+(20) dx This result may be immediately extended to the case when f is a function of two or more independent variables.
+Suppose f = f(u) and u = u(x,y).
+Then, by the definition of a partial derivative, df ( )y ¶ f ¶ u fx = ( )y ¶x = du ¶ x, (21) æç ¶ ÷ö f÷ df æç ¶ ÷ö u÷ fy = ç ÷ ç ÷ (22) çè ¶ø y = du çè ¶ø y. x x MTH 281 MODULE 1 Example 4: If y f(x,y) = tan-1 x (23) then putting u = y/x we have fx = ¶( f) y d (tan-1u)¶ (u )y y (24) ¶x = du ¶ x= 2 2 x y + and æ ö æ ö fy = çççè ¶¶÷÷ø fy÷ = x dud (tan-1u) çççè¶ ¶÷÷ø uy ÷ = x2 2 x y+ x (25) ( x y+ ) then Example 5: If f(u) = sin u and u = 2 2 ¶ f x x cos ( x y )+ fx = ( )y , (26) = 2 2 ¶ x = (cos u) ( x 2y +2 ) ( x2 y2+ ) and fy = æçç ¶ ÷÷ö f÷ y = y 2 c 2o s ( x y )+ , (27) çè ¶ø y= (cos u) x ( x 2y +2 ) ( x2 y2 + ) 3.4 Higher Partial Derivatives Provided the first partial derivatives of a function are differentiable, we may differentiate them partially to obtain the second partial derivatives.
+The four second partial derivatives of f(x,y) are therefore ¶ f ¶ ¶ ¶ f fxy = 2 = x ¶ ( ) ¶ x 2 ¶ fx = x ¶ x, (28) y ¶ f æ¶ ö f÷ ¶ ¶ ç ÷ fyy = ¶2 y 2 = ¶ fyy = y¶ x ççè¶ ÷ø y, (29) ¶ f ¶ ¶ æç ¶ ÷ö f÷ fxy = 2 = x ç ÷ ¶ x¶ y 2 ¶ fy = x¶ x çè¶ ø y, (30) and ¶ f ¶ ¶ ¶ f fyx = 2 = y ¶ ( ) ¶ y¶ x 2 ¶ fx = y ¶ x, (31) y MTH 281 MATHEMATICAL M ETHODS 1 Higher partial derivatives than the second maybe obtained in a similar way.
+Example 6: We have already seen in Example 4 that if y (32) f(x,y) = tan-1 x then y æ¶ ö f÷ x (¶ )f y ,çç ÷÷ .
+(33) ¶ x = - ( x 2y + 2) çè¶ ø y = x ( x 2y +2 ) Hence, differentiating these first derivatives partially, we obtain æ ö fxy = ¶2 f = ¶ x ççç - ÷÷ ÷ y ÷ = 2 2 2 2 xy (34) ¶ x 2 ¶ 2 2 çè ø x y + ÷ ( x y+ ) and ¶ f ¶ æç ÷ö x ÷ 2 xy (35) fyy = ¶2 y 2 =¶ 2y 2 çççè x÷÷ø y + ÷ = - 2( 2x 2 y +) Also fxy = 2¶ f ¶ æçç ÷÷ö x ÷ = 2 y2 x + (36) ¶ ¶x y = x ¶ 2 2 ççè x÷ø y + ÷ ( x2 y2+ 2) and ¶ ¶ æç ÷ö y ÷ y x - fyx = 2 f ç- ÷ = 2 2 (37) ¶ ¶y x = y ¶ 2 2 ççè ÷ø x y + ÷ ( x2 y2+ )2 Since (36) and (37) are equal we have ¶ 2 f ¶ x y ¶ y¶ x, (38) ¶ ¶ = 2 f ¶ ¶ which shows that the operators x ¶ and y¶ are commutative.
+We shall return to this point in the next section.
+Finally we note that if (34) and (35) are added then f(x,y) satisfies the partial differential equation (Laplace’s equation in two variables) ¶ f ¶ 2f = 0.
+(39) + 2 ¶ x2 ¶ y2 MTH 281 MODULE 1 In general, any function satisfying this equation is called a harmonic function.
+3.3.1 Commutative Property of Partial Differentiation In Example 6 we have shown that the second partial derivatives fxy and y are equal.
+This is in fact the case for fyx of the function f(x,y) = tan-1 x most functions as can be verified by choosing a few functions at random.
+It can be proved that a sufficient (but not necessary) condition that fxy = fyx at some point (a,b) is that both fxy and fyx are continuous at (a,b) and in all that follows it will be assumed that this condition is satisfied.
+SELF ASSESSMENT EXERCISE 2 Show that fxy = fyx for the following functions 1. f(x,y) = x2 – xy + y2 2. f(x,y) = x sin (y – x) 3. f(x,y) = eyloge (x + y) xy 4. f(x,y) = 2 2 x y + 3.4 Total Derivatives Suppose f(x,y) is a continuous function defined in a region R of the xy- ¶ f ¶ f plane, and that both ( )y ¶x and ( ¶) xy a re continuous in this region.
+We now consider the change in the value of the function brought about by following small changes in x and y.
+If df is the change in due to change d x and d y in x and y then d f = f(x + d x, y + d y) – f(x,y) (40) = f(x + d x, y + d y) – f(x, y + d y) + f(x, y + d y) – f(x,y).
+(41) Now by definition (see (6) and (7)) ¶ lim ìïïí f ( x+ xd ,+ y dy -) +f (d x , y y ) üïïý (42) ¶ f(xx , y + d y) = ïïî dx ïïþ d ®x 0 MTH 281 MATHEMATICAL M ETHODS 1 and ¶ lim ìïïí f ( x , +y dy -) f ( x , y ) üïïý (43) ¶ f (yx ,y) = d ®x 0 ïîï dy ïþï Consequently é ¶ù + d + a d f ( x +x d, y+ yd )- f+ ( dx , =y y f) ( x , y y ) x ê ú ë¶ ûx , (44) and é ù f(x, y + d y) – f(x,y) = f ê( ¶xú , y ) y + b d , (45) êë¶ úû y where a and b satisfy the conditions lim a = 0 and lim b = 0.
+(46) d x® 0 d ®x 0 Using (44) and (45) in (41) we d f = éêf ¶ ùú( +x d, y+ ya )d x éê ¶ùú + b d .
+(47) ë¶ û x + f ( x , y ) y êë¶ ú ûy Furthermore, since all first derivatives are continuous by assumption, the first term of (47) may be written as ¶ ¶ ¶ f (xx , y + d y) = f ( x , y¶ x ) + y, (48) where g satisfies the condition lim g = 0 (49) dx ® 0 Hence, using (48), (47) now becomes ¶ ¶ d f = f ( x , y ) ¶x d x + f ( x , y¶y ) d y + ( a + g ) d x + b d y.
+(50) The expression ¶ ¶ d f @ f ( x , y ) ¶x d x + f ( x , y¶ y) d y (51) MTH 281 MODULE 1 obtained by neglecting the small terms ( a + d )d x and b d y in (50) represents, to the first order in d x and d y, the change in f(x,y) due to changes d x and d y in x and y respectively.
+It is easily seen that the first term of (51) represents the change in f(x,y) due to a change d x in x keeping y constant; similarly the second term is the change in f(x,y) due to a change d y in y keeping x constant.
+The total differential is nothing more than the sum of these two effects.
+In the case of a function of n independent variables f(x1, x2, … xn) we have ¶ f ¶ f ¶ f ¶ f d f @ å ¶ xd x1 + ¶ xd x2 + … + ¶ dx xn = n ¶ xd xr.
+(52) 1 2 n r =1 r The following examples illustrate the use of these results.
+Example 7: To find the change in f(x,y) = xexy (53) when the values of x and y are slightly changed from 1 and 0 to 1 + d x and d y respectively.
+We first use (51) to obtain d f @ (xyexy + exy) d x + x2exy d y.
+(54) Hence putting x =1, y = 0 in (54) we have d f @ d x + d y.
+(55) For example, if d x = 0.10 and d y = 0.05, then d f @ 0.15.
+We now return to the exact expression for d f given in (50).
+Suppose u = f(x,y) and that both x and y are differentiable functions of a variable t so that x = x(t), y = y(t) (56) and u = u(t) (57) Hence dividing (50) by d t and proceeding to the limit d t ® 0 (which implies d x® 0, d y ® 0 and consequently a , b , d ® 0) we have du = ¶f dx + ¶f dy .
+(58) dt ¶ x. dt ¶ y. dt MTH 281 MATHEMATICAL M ETHODS 1 This expression is called the total derivative of u(t) with respect to t. It is easily seen that if u = f(x1, x2, x3 … xn), (59) Where x1, x2, x3 … xn are all differentiable functions of a variable t, then u = u(t) and du = ¶ f dx1 + ¶ f dx 2 +…+ ¶ f dx n = n ¶ f dx r .
+(60) å dt ¶ x. dt ¶ x. dt ¶ x. dt ¶ x. dt 1 2 n r =1 r Example 8: Suppose u = f(x,y) = x2 + y2 (61) and x = sinh t, y = t2.
+(62) Then by direct substitution we have u(t) = sinh2t + t4 (63) and consequently du = 2 sinh2 t cosh t + t4 (64) dt We now obtain this result using the expression for the total derivative.
+Since ¶ f ¶ ¶ x = 2x, f ¶ y = 2y, (65) dx = cosh t, ddyt = 2t, (66) dt (58) gives du = 2x cosh t + 4yt (67) dt = 2 sinh t cosh t + 4t3, (68) as before.
+MTH 281 MODULE 1 3.5 Implicit Differentiation A special case of the total derivative (580 arises when y is itself a function of x (i.e.
+t = x).
+Consequently u is a function of x only and du = f dy .
+(69) ¶ ¶ ¶ .
+d x dx ¶ x + f y Example 9: Suppose x (70) u = f(x,y) = tan-1 y and y = sin x.
+(71) Then by (69) we have du = 2 2 y x cos x (72) - 2 2 dx x y + x y+ sin x -x cos x = 2 2 x si+n x (73) This result could have been obtained by the slightly more laborious method of substituting (71) into (70) and then differentiating with respect to x in the usual way.
+When y is defined as a function of x by the equation u = f(x,y) = 0 (74) y is called an implicit function of x. since u is identically zero its total derivative must vanish, and consequently from (69) dy = -¶( f )y æç ¶ ÷ö f÷ ç ÷ dx ¶ x çè¶ ø y.
+(75) x Example 10: The gradient of the tangent at any point (x,y) of the conic f(x,y) = ax2 + 2hxy + by2 + 2gx + 2fy + c = 0, (76) (where a, h, b, g, f and c are constants) is, by (75), MTH 281 MATHEMATICAL M ETHODS 1 dy = - 2 ax +2 +h y 2 g dx 2 by +2 +h x.
+2 f (77) Example 11: The pair of equations F(x, y, z) = 0, G(x, y, z) = 0, (78) Where F and G are differentiable functions of x, y and z define, for example, y and z as functions of x.
+Hence, since the total derivatives of F(x, y, z) and G(x, y, z) are identically zero, we have dy ¶ ¶F ¶F F dz + + .
+.
+¶ x¶ y¶ d x= z0 d x (79) and ¶ ¶G ¶ G G dz dy + + .
+.
+¶ x¶ y¶ d x= z0 ,d x (80) whence dy = -( ) ¶ F¶ .G¶ .¶ F G- æçç ¶ -÷ö F ¶ ÷ .G ¶ .
+¶F ÷ G - 1 dx ¶ x¶ z¶ z¶ x çè ¶ø y¶ z¶ z¶ y (81) and dz = æçF¶ - ö ¶G÷ .¶ F .¶ G ÷ æçç¶ -÷ öF ¶ ÷ .G¶ .
+¶F ÷ G - 1 dx ççè ¶÷ø x ¶ y¶ y¶ x çè ¶ø y¶ z¶ z¶ y (82) For example, if F(x, y, z) = x2 + y2 + z2, G(x, y, z) = x2 - y2 + 2z2, (83) then ¶ F ¶ ¶ ¶ x = 2x, F¶ y = 2y, F¶ z = 2z, (84) ¶ G ¶ ¶ ¶ x = 2x, G¶ y = -2y, G¶ z = 4z, (85) and hence, by (81) and (82), dy = xy , ddzx = -2 z x (86) dx 3 3 MTH 281 MODULE 1 3.6 Higher Total Derivatives We have already seen that if u = f(x,y) and x and y are differentiable functions of t then du = ¶f dx + ¶f dy .
+dt ¶ x. dt ¶ y. d(t8 7) d uw e note from (87) that the operator dd t can be written as 2 To find 2 d t d º dt dx .
+x¶ dy .
+y ¶ dt ¶ + dt ¶ (88) Hence d ( ) dd2 t u= dt ddut = æçççèd d çççdøyöx tè æ .xfø ¶.
+öd ¶ d .
+x t¶.
+y+ f÷ x +÷ d t y ¶d t÷÷ ÷÷¶ ¶ ¶ dy ¶ 2 (89) = 2¶¶ x ( f 2 ) 2dd xt +2 2 f ¶¶x y¶ (ddx t ) æçççè dø ÷÷döt + y ÷ 2 ¶¶ y2 f èæççç ddø ÷÷öy t + ÷ f2 ¶¶ .x 2 dd 2+t x f ¶¶ 2 y dd 2t y (90) where we have assumed that fxy = fyx.
+Higher total derivative may be obtained in similar way.
+A special case of (90) which will be needed later is when dx = h, d yd t = k, (91) dt where h and k are constants.
+We then have d 2 =u h 2 2 ¶ f ¶ ¶ f + 2hk 2 f dt 2 ¶ x 2 ¶ ¶x y+ k2 2 ¶ y2 , (92) which, if we define the differential operator *D by ¶ ¶ *D = h x ¶ + k y¶ , (93) may be written symbolically as d u= æ ö¶ ¶ ÷ 2 2 çh + k ÷ ççè ÷ø x y dt ¶ ¶ f= *D2f.
+(94) 2 MTH 281 MATHEMATICAL M ETHODS 1 Similarly we find d 3 u= 3 3h 3 3 2¶h ¶kf + 3hk2 k 3 ¶ ¶f f + dt 3 ¶ ¶x 3¶ x 2 +y 3 3 ¶ x¶ ¶y 2 y 3 (95) æ ö 3 = çççèh +÷ø k ¶÷x ¶ y ÷ ¶ ¶ f = *D3f, (96) assuming the commutative property of partial differentiation.
+In general, d u= æ ö¶ ¶ ÷ n n ççh +÷ k ÷ dt çè ø¶ ¶x yf = *Dnf, (97) n æ ö¶ ¶ ÷ where the operator n çççè h+÷ø ¶ k ÷ x ¶ yis to be expanded by means of the binomial theorem.
+3.7 Homogeneous Functions A function f(x,y) is said to be homogeneous of degree m if f(kx, ky) = kmf(x,y), (98) where k is a constant.
+A similar definition applies to a function of any number of independent variables.
+For example, f(x,y) = x3 + 4xy2 – 3y3 (99) is homogeneous of degree 3 since (kx)3 + 4(kx)(ky)2 – 3 (ky)3 = k3 [x3 + 4xy2 – 3y3].
+(100) Similarly 2 + x x 2 y y sin æx ö f(x,y) = xy ç ÷÷ ç ÷ 4 çè yø (101) is homogeneous of degree 0 since ( kx 4) 2 (k + 22 k x yy ) + kx ky sin èççæç k øk ÷÷ xö=y k÷0 2 2 íïìïïîï ýïüïïþïx y4 + yx yx x +y sin .
+(102) MTH 281 MODULE 1 3.8 Euler’s Theorem Theorem 1: If u = f(x1, x2, … xn) is a homogeneous differentiable function of degree m in the independent variables x1, x2, … xn, then ¶ f ¶ f where k is a constant.
+Then since u is homogeneous x1 ¶ x + x2 ¶ x + 1 2 ¶ f … + xn ¶ x = mf.
+(103) n To prove this theorem we define a new set of variables y1, y2, … yn by the relations.
+x1, = y1k, x2, = y2k … xn = yn of degree m (104) (105) u = f(y1k, y2k … ynk) = kmf(y1, y2, … yn).
+Differentiating (105) with respect to k e find du = ¶ f dx1 + ¶ f dx 2 +...+ ¶ f dx n =mkm-1f(y1, y2, … yn) (106) dk ¶ xd k ¶ xd k ¶ xd k 1 2 n or du = y1 ¶ f ¶ f ¶ f dk ¶ x + y2 ¶ x + … + yn ¶ x = mkm-1f.
+(107) 1 2 n Hence multiplying the last two expression of (107) by k we have ¶ f ¶ f ¶ f x1 ¶ x + x2 ¶ x + … + xn ¶ x = mf, (108) 1 2 n which proves the theorem.
+Example 12: The function f(x,y) = x3 + 4xy2 – 3y3 (109) is homogeneous of degree 3 and hence, by Euler’s Theorem, ¶ ¶ x f ¶ x + y f ¶ y 3f.
+(110) MTH 281 MATHEMATICAL M ETHODS 1 This is easily verified since ¶ f ¶ ¶ x = 3x2 + 4y2, f ¶ y = 8xy – 9y2.
+(111) Hence ¶ ¶ x f ¶ x + y f ¶ y = x(3x2 + 4y2) + y(8xy – 9y2) = 3(x3 + 4xy2 – 3y3) = 3f.
+(112) 3.9 Change of Variables We have seen earlier on in this chapter that if u = f(x,y) is a continuous and differentiable function of the independent variables x, y and if x and y are differentiable functions of a variable then du = f dx + ¶f dy .
+(113) ¶ dt ¶ x. dt ¶ y. dt Suppose now that x and y are functions not just of one variable but of two, say s and t, such that x = x(s, t), y = y(s, t).
+(114) Clearly since u is a function of x and y it is also a function of s and t and ¶ u ¶ u necessarily has the two partial derivatives ( )t ¶s and (¶ ) t.s Hence keeping t a constant and differentiating with respect to s, we have (following (113)) ( ) ¶ æ¶ ö y÷ ¶ u ¶ ¶ x ç ÷ ¶ ( ) ç ÷ ¶ s = f x ¶ s + f ¶ ty çè ¶ø s. (115) t t Similarly, keeping s a constant and differentiating with respect to t ( ) ¶ u ¶ ¶ x ¶ æç ¶ ÷ö y÷ ¶ ( ) çç ÷ ¶ t = f x ¶ t + f ¶ sy è ¶ø t .
+(116) s s Example 13: Given that u = f(x,y) and x = s2 – t2, y = 2st, (117) prove that MTH 281 MODULE 1 ¶ ¶ ¶ s u ¶ s - t u ¶ t = 2(s2 + t2) f¶ x.
+(118) From (115), (116) and (117) we have ¶ u ¶ ¶ x ¶ ¶ y ¶ ¶ ¶ s = f¶ x ¶ s + f¶ y ¶ s = 2s f ¶ x = 2 f ¶ y, (119) ¶ u ¶ ¶ x ¶ ¶ y ¶ ¶ ¶ t = f¶ x ¶ t + f¶ y ¶ t = -2t f ¶ x + 2s f ¶ y.
+(120) Hence multiplying (119) by s and (120) by t and subtracting we obtain (118) as required.
+Example 14: Given u = f(x,y) and x = r cos q , y = r sin q , (121) prove that ¶ ¶ ¶ r u ¶ y (122) ¶ r = x f ¶ x = y f and ¶ u ¶ ¶ ¶ q = x ¶f y - y f ¶ x.
+(123) These results are easily obtained since from (115) we have ¶ u ¶ ¶ y ¶ r = f¶ x cos q + ¶f sin q , (124) which, on multiplying through by r, gives (122).
+Similarly from (116) ¶ ¶ u ¶ ¶ q = ¶ fx (-r sin q ) + f ¶ ry cos q (125) ¶ = x f ¶ ¶ y - y f ¶ x, (126) which is (123).
+Example 15: If x and y are rectangular Cartesian coordinates and if u = f(x,y) satisfies Laplace’s equation MTH 281 MATHEMATICAL M ETHODS 1 ¶ 2 f ¶ f = 0, (127) + 2 ¶ x2 ¶ y2 obtain the form of this equation in polar coordinates (r, q ), where x = r cos q , y = r sin q .
+From (115) and (116) we have ( ) ¶ u ¶ ¶ x ¶ æç ¶ ÷ö ÷ y ¶ ( ) ç ÷ ¶ r q= f x ¶ r q+ f ¶ y çè ¶ø r q (129) ¶ ¶ = cos q f ¶ x + sin q f ¶ y, (130) and ¶ u ¶ ¶ x ¶ æç ¶ ÷ö y÷ ( )r ç ÷ ç ¶ q = f¶ x ( )¶r q + f¶ ry è ¶ø q (131) ¶ ¶ = -r sin q f ¶ y.
+(132) ¶ x + r cos q f ¶ ¶ Solving (130) and (132) for f ¶ y we find ¶ x and f ¶ f ¶ q ¶u ¶ x = cos q u ¶ r - sinr ¶ q (133) ¶ f ¶ q¶ u ¶ y = sin q u ¶ r + cosr ¶ q .
+(134) ¶ ¶ Hence the operators x ¶ and y¶ in polar coordinates are ¶ ¶ q (135) ¶ x= cos q r ¶ - sinr ¶ ¶ q ¶ y ¶ = sin q r ¶ + cors ¶ q (136) Consequently ¶ 2 f ¶ ¶ f ¶ ¶ uq s¶i n u = ¶ x ( ) ¶ (c o)s qr r- ¶ x2 ¶ x cos q r ¶ ¶ q MTH 281 MODULE 1 q ¶ ¶ uq s¶i n u - sin ¶ qco s( qr )r- r ¶ ¶ q (137) ¶ u - 2sinq qc o s2 u ¶ sin q ¶2 u sin q ¶u = cos2 q 2 + 2 ¶ r 2 r ¶ ¶r q = 2 r 2 ¶ q 2 r2 ¶ r + 2sin qc oqs u ¶ r2 ¶ q .
+(138) Similarly ¶ 2f ¶ æ¶ ö ÷ f ¶ ¶ uq c¶o s u q ¶ = y çç ÷÷ ¶ (si n) qr r- ¶ y2 ¶ çè¶ ø y = sin r ¶ ¶ q + cos r ¶ q ( ) ¶ uq c¶o s u sin qr r- ¶ ¶ q (139) ¶ u + 2sinq cqo s 2 u ¶ cos q ¶2 u cos q ¶ u = sin2 q 2 + 2 ¶ r 2 r ¶ ¶r q + 2 r 2 ¶ q2 r ¶ r- 2sin qc oqs u ¶ r2 ¶ q (140) Finally, adding (138) and (140), we have Laplace’s equation in two dimensions ¶ 2f + ¶ 2 f = ¶ 2 u +1 u¶r 1 2¶ u = 0.
+(141) ¶ x2 ¶ y2 ¶ r 2 ¶ r + 2 r ¶ q 2 SELF ASSESSMENT EXERCISES 3 Given that x y z = 2 2 + , x = r cos q .
+¶ ¶ Find z ¶ z and show that z ¶ 0 = 0.
+3.10 Taylor’s Theorem for Functions of Two Independent Variables Theorem 2: (Taylor’s theorem).
+If f(x,y) is defined in a region R of the xy-plane and ll its partial derivatives of orders up to and including the (n + 1)th are continuous in R, then for any point (a,b) in this region MTH 281 MATHEMATICAL M ETHODS 1 1 *D2f(a,b)+…+ !1 *Df(a,b)+En9 (142) f(a+h, b+k)=f(a,b)=*Df(a,b)= !
+2 n Where *D is the differential operator defined by (92) – (97) as ¶ ¶ *D = h x ¶ + k y ¶ , (143) and ¶ ¶ *Drf(a,b) meansh k( )r+ ¶ x¶ k f(x,y) (144) evaluated at the point (a,b).
+the Lagrange error term En is given by En = 1 ( n +1 )* !D n+1f(a + q h, b + q k) (145) Where 0 < q < 1.
+To prove this theorem we let x = a + ht, y = b + kt, (146) where a, b, h k are constant and t is a variable.
+Then putting f(x,y) = f(a + ht, b + kt) = u(t), (147) where u(t) is a continuous function of t, we have by (97) d u= *Dnf.
+(148) n dt n Since by assumption all partial derivatives of f(x,y) up to and including the (n + 1)th order are continuous in R so also are the ordinary derivatives of u with respect to t. Hence u(t) may be expanded by Maclaurin’s series (see Chapter 6, 6.1 (6) and (7)) as t n u(n)(0) + En9 (149) u(t) = u(0) + ty’(0) + !
+n where t + En = n 1 ( n+ 1 ) u!
+( n+1)( q t), 0 < q < 1.
+(150) MTH 281 MODULE 1 Hence using (146) and (147) we have t 2 *Df(a,b) + ….. + !
+t n f(a + ht, b + kt) = f(a,b) + t*Df(a,b) + !
+2 n *Df(a,b) + En9 (151) where now t + En = n 1 ( n 1) !
++ *Dn+1f(a + h q t, b + k q t), 0 < q < 1.
+(152) Putting t = 1 in (151) and (152) we finally obtain Taylor’s expansion (142) with the error term (145).
+Theorem 3: If lim En = 0, (153) n ® ¥ then * 2D f (a,b) + … f(a + ht, b + kt) = f(a,b) + *Df(a,b) + !
+n 1 *Drf(a,b).
+(154) ¥ = å !
+r =r 0 In all that follows we shall assume that (153) is satisfied.
+An alternative form of Taylor’s series (154) may be obtained by putting h = x – a, k = y – b.
+(155) Then f(x,y) = f(a,b) + [(x – a)fx(a,b) + (y – b) fy(a,b)] 1 {(x – a)2 + !
+fxy(a,b) + 2(x – a)(y – b)fxy(a,b) 2 + (y – b)2f yy(a,b)} +…, (156) which is Taylor’s expansion of f(x,y) about the point (a ,b).
+When there is no dependence on y, (156) reduces to Taylor’s series for a function of one variable (6.1 (8)).
+MTH 281 MATHEMATICAL M ETHODS 1 Example 16: Expand the function f(x,y) = sin xy (157) about the point ( ) p neglecting terms of degree three and higher 1, 3 Here f( p) = 23 , 1, 3 fx(x,y) = y cos xy, fx( ) p = p6 , 1, 3 fy(x,y) = x cosp x=y 1,2 , f y( ) 1, 3 fxy(x,y) = -y2 spi n = -x 2p y3 ,, f x y ( (158) 1, 3 18 ) fxy(x,y) = -xy sin xy =p c+o s2 1x ,y , p = - 2 3 1, 3 6 fxy( ) 3 .
+fyy(x,y) = -x2 sinp x= y- ,2 fyxy ( 1, 3 ) Hence substituting these results in (156) we have 3 + ( ) ( Sin xy = 2 {( x -1 +) y- +(p x -p 1- ï)÷ ÷ 1( 1) 3} 2 ìïí æpç ÷ö 2 ç ) 6 3 2 2!
+18 ïï è ø ç ÷ æ ö æ öï î ü + -2 -( -x + 1 +) y-( - ) (p3 )62çççè 2ø 3pè 2ø ï3 1 3 ÷÷÷ ÷÷÷ ý y p ï ççç ï þ (159) + terms of degree 3 and higher 3.11 Maxima and Minima of Function of Two Variables A function f(x,y) is said to have a maximum value at a point (x,y) = (a, b) if f(a + h, b +k) – f(a,b) < 0, (160) where h and k are small arbitrary quantities.
+Similarly f(x,y) is said to have a minimum at (x,y) = (a,b) if f(a + h, b +k) – f(a,b) > 0, (161) MTH 281 MODULE 1 These results may be interpreted geometrically (see Fig.
+9.3) by noticing (in the manner of 9.1) that the surface z = f(x,y) is higher z max z min 0 0 y y (a,b) (a,b) x x (a) Maximum (b) Minimum Fig.
+2.3 at (x,y) = (a,b) than at any neighbouring point when (160) is satisfied (thus corresponding to a maximum), and is lower at a (a,b) than at any neighbouring point when (161) is satisfied (thus corresponding to a minimum).
+Now if a maximum or minimum occurs at (a,b) the curves lying in the two planes x = a and y = b must also have maxima and minima or minima at (a,b) (see Fig.
+9.4).
+Consequently the tangents T1 and T2 to these curves at (a,b) must be parallel to the Ox and Oy axes respectively.
+This requires ¶ f ¶ ¶ x = 0, f ¶ y = 0 (162) at all maxima and minima.
+The solution of these equations gives the coordinates of points of possible maxima and minima, and also of points called saddle points which will be defined later.
+In general we speak of the solution of (162) as giving the stationary or critical z T1 T2 0 y (a,b) x Fig.
+2.4 MTH 281 MATHEMATICAL M ETHODS 1 Points of f(x,y).
+To decide whether a particular stationary point is a maximum, minimum or neither we now use the Taylor expansion of fx, y) in the form given by (142), namely 1 *Df(a,b) + …, (163) f(a + h, b + k) = f(a,b) + *Df(a,b) + !
+2 Where *D = ( ) ¶ ¶ h k + ¶ x¶ k. If (a,b) is a stationary point then (162) gives *Df(a,b) = 0.
+(164) Hence, neglecting terms of order h3, k3 and higher, we have 1 {h2 f(a + h, b + k) - f(a,b) = 2 fxy(a,b) + 2hkfxy(a,b) + k2 fyy(a,b)}, (165) ¶ f ( x,y ) at a stationary point where, for example, fxy(a,b) means 2 ¶x 2 evaluate at (a,b).
+We now see that (165) may be rewritten as either 1 2(a,b) - f(a + h, b + k) - f(a,b) = ) {[hfxy(a,b)]2 - k2[fxy 2 f ( a, b xx fxy(a,b)fyy(a,b)]}, (166) or 1 f(a + h, b + k) - f(a,b) = ) {[hfxy(a,b) + kfyy(a,b)]2 – h2[ f 2 xy (a,b) 2 f ( a , b yy – fxy(a,b)fyy(a,b)]}, (167) Clearly the sign of f(a + h, b + k) - f(a,b), which by (160) and (161) is crucial in deciding whether a particular stationary point is a maximum or minimum, is now, by (166) and (167), dependent on the values of h and k. However, if D º f 2 xy (a,b) – fxy(a,b)fyy(a,b) < 0 (168) then the terms in curly brackets in (166) and (167) are positive for all h and k. Consequently, with D < 0, the sign of f(a + h, b + k) - f(a,b) depends entirely on the signs of fxy(a,b) and fyy(a,b).
+From (160) and (161) we deduce therefore that (a,b) is a maximum if MTH 281 MODULE 1 D < 0, fxy(a,b) < 0, (169) and a minimum if D < 0, fxy(a,b) > 0, (170) We note that D < 0, and fxy(a,b) > < 0 simply fxy(a,b) >< 0.
+When D > 0 the signs of the curly brackets in (166) and (167) depend on the values of h and k. In this case the stationary point (a, b0 is called a saddle point.
+Such a point is neither a maximum nor a minimum, but is such that the point P is a maximum for the curve C1 and a minimum for the curve C2 (see fig.
+9.5).
+When D = 0 a more refined test is required to determine the nature of a given stationary point.
+Example 17: Consider the function f(x,y) = x4 + 4x2y2 – 2x2 + 2y2 – 1.
+(171) ¶ ¶ The conditions f x ¶ x = 0, f ¶ y = 0 give the two equations 4x(x2 + 2y2 – 1) = 0, (172) and 4y(1 + 2x2) = 0, (173) respectively.
+Hence solving (172) and (173) we have x = 0, ± 1, y = 0, (174) giving the stationary points of (171) as (0, 0), (1, 0) and (-1, 0).
+We now test each f these points separately for a maximum, minimum or saddle point.
+To do this we first differentiate (171) twice to get fxy = 12x2 + 8y2 – 4, fyy = 8x2 + 4, fxy = 16xy.
+(175) MTH 281 MATHEMATICAL M ETHODS 1 Point (0, 0).
+Using (175) we now have fxy(0, 0) = -4, fyy(0, 0) = 4, fxy(0, 0) = 0, (176) whence D = f 2 xy (0, 0) – fxy(0, 0)fyy(0, 0) = 16 > 0.
+(177) This point is therefore a saddle point.
+Point (1, 0).
+Here fxy(1, 0) = 8, fyy(1, 0) = 12, fxy(1, 0) = 0 (178) and D = f 2 xy (1, 0) – fxy(1, 0)fyy(1, 0) = -96 < 0.
+(179) By (170) this point is therefore a minimum.
+Point (-1, 0).
+Since the values of fxy(-1, 0), fyy(-1, 0) and fxy(-1, 0) are identical with those given in (178), this point is also a minimum.
+The function f(x,y) defined in (171) therefore has two minima (at (1, 0), (-1, 0)), and one saddle point (at (0, 0)).
+Finally it is easily found that f(x,y) = -2 at both minima, and f(x,y) = -1 at the saddle point.
+The reader should now attempt o sketch the surface z = f(x,y) defined by (171).
+Example 18: To find the maximum value of f(x, y, z) = x2y2z2 (180) subject to the condition x2 + y2 + z2 = c2, (181) where c is a constant.
+Problems of this type where some constraint is applied (which effectively means that not all the variables are independent) are best dealt with by the method of Lagrange multipliers (see next section).
+However, in this particular example we can easily reduce the problem to one in two-independent variables by eliminating z to get f(x,y) = x2y2(c2 – x2 – y2) (182) and proceeding as in Example 17.
+The stationary points are easily found to be (0, 0, c) æ ö and cçç ± c÷ ±c ± ,÷ , ÷ çè ø , 3 w 3h 3e re all possible combinations of sign are MTH 281 MODULE 1 allowed.
+This second point is, in fact, eight symmetrically placed points in the form of a cube centred at the origin of the 0xyz- coordinate system.
+It is at these points that the function (180) takes on its maximum æç= ö ÷ c ÷ value 6ç ÷ çè ø.
+2 7 ÷ 3.12 Lagrange Multipliers In the last example, a problem of maximising a function of three independent variables subject to a constraint was successfully dealt with by eliminating one of the variables.
+However, this approach may not always be possible.
+For example, if instead of the constraint (181), we had the relation e-yzsin2(x + z)+1 = 0, it would not be possible to solve explicitly for z. Lagrange developed an alternative method of dealing with maxima and minima problems which are subject to constraint and which overcomes this difficulty.
+We indicate this method here for the case of functions of two variables only, but the technique maybe extended to any number of variables.
+Suppose f(x,y) is to be examined for stationary points subject to the constraint g(x, y) = 0.
+(183) Now for f(x, y) to be stationary we must have the total differential ¶ ¶ df = f ¶ xd x + f ¶ yd y = 0 (184) This would normally lead to the usual equations ¶ f ¶ ¶ y = 0 (185) ¶ x= 0, f for the stationary points.
+However, dx and dy are not now independent but are related via the total differential of g(x,y) ¶ ¶ dg = g ¶ xd x + g ¶ dy y = 0 (186) (using (183)).
+Hence multiplying (186) by a parameter l and adding to (184), we have æ¶ ö f÷ ¶ æ¶ ö f÷ ¶ d(f + l g = ççg +÷ l ÷ çç +÷ l ÷ çè ¶ø x ¶ xd x + g çè¶ ø y¶ yd y = 0.
+(187) MTH 281 MATHEMATICAL M ETHODS 1 We now choose l such that ¶ f ¶ ¶ x + l g ¶ x = 0, (188) whence if follows from (187) that ¶ f ¶ y ¶ + l g ¶ x = 0.
+(189) Equations (188), (189) and (183) are together sufficient to determine the stationary points and the value of the multiplier l .
+Example 19 To find the maximum distance from the origin (0, 0) to the curve 3x2 + 3y2 + 4xy – 2 = 0.
+(190) Here we have to find the maximum value of the distance l, where l2 = f(x,y) = x2 + y2 (191) subject to the constraint g(x,y) = 3x2 + 3y2 + 4xy – 2 = 0.
+(192) Now the Lagrange equations (1880 and (189) give 2x + l (6x + 4y) = 0, (193) 2y + l (6x + 4y) = 0, (194) which must be solved together with (192).
+From (193) and (194) we find 4 l (y2 – x2) = 0 whence y = ± x.
+With y = x, (192) gives 10x2 – 2 = 0 of 1 ; with y = -x, (192) gives 2x2 – 2 =0 or x = ± 1.
+The stationary x = ± 5 æ ö æ ö points are therefore 1ç 1 ÷ , ÷ ç- - ÷ , ÷ ç ÷ ç ÷ çè ø, 1 1 çè ø, (1, -1), (-1, 1).
+5 5 5 5 2 , whilst for the last From (191) we find that fro the first two points l2 = 5 two l2 = 2.
+Hence the maximum distance from the origin to the curves is l = 2 .
+MTH 281 MODULE 1 SELF ASSESSMENT EXERCISES 4 1.
+Prove that the volume of greatest rectangular parallelepiped that can be inscribed in the ellipsoid x 2 + 2 y 2 + 2 z2 = 1 is 83a .
+b c a 2 b c 3 2.
+Find the stationary points of f(x,y) = x2 + y2 subject to the constraint 3x + 2y = 6.
+4.0 CONCLUSION In this unit, we have considered and discussed into detail important mathematical concepts.
+The Partial Differentiation, we have also considered concepts like Lagrange Multiplier Techniques, which is a useful tool in determining the maxima and minima point in calculus of several variables.
+The concepts developed will be useful in solving problems in more advanced mathematics as we progress in our studies.
+5.0 SUMMARY Here in this unit you have learnt about functions of several independent variables and various methods of performing derivatives on them.
+You have also learnt about different type of functions that can be encountered in the process of performing the task of finding the derivatives of functions of several variables.
+6.0 TUTOR-MARKED ASSIGNMENT ¶ 1.
+Find 3 f ( x , y , z ) ¶x ¶ y ¶ z f = (x,y,z) when a) f(x,y,z) = exyz b) f(x,y,z) = xy 2 x +z and verify in each case that fxyz = fxyz = fxyz.
+2.
+If x = u2 – v2, y = u2 + v2 show that ¶ x ¶ ¶ ¶ ìïï üïï¶ u¶ v¶ u¶ v - 1 í ý .
+.
+- ¶ u. y ¶ v - x¶ v. y ¶ u = 8uv = ïïî ïïþ¶ x¶.
+y ¶ y¶ x MTH 281 MATHEMATICAL M ETHODS 1 3.
+Find the stationary points of the function v = x2 + y2 + z2 subject to the condition x2 - z2 = 1.
+4.
+In determining the specific gravity by the formula S = A A -W , where A is the weight in air, and W is weight in water.
+A can be read within 0.01gm and W can be read within 0.02gm.
+Find approximately the maximum error in S, if the readings are A = 1.1gm and D .
+W = 0.6gm.
+Find the maximum relative error S S 7.0 REFERENCES/FURTHER READING G. Stephenson (1977).
+Mathematical Method for Science Students.
+London and New York: Longman.
+P. D. S. Verma (1995).
+Engineering Mathematic.
+New Delhi: Vikas Publishing House PVT Ltd. MTH 281 MODULE 1 UNIT 3 CONVERGENCE OF INFINITE SERIES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Definition 3.2 Theorem on Series 3.3 Series of Positive Terms 3.4 Alternating Series 3.5 Absolute Convergence and Conditional Convergence 3.6 Absolute Convergence Test 3.7 The Product of Two Series 3.8 Rearrangement of Series 3.9 Power Series 3.10 Operation with Power Series 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit, we shall study convergence of series and sequences which is very useful in the subsequent development of this course.
+2.0 OBJECTIVES At the end of this unit, should be able to: • test for convergence of series • test for conditional convergence of series • provide answers to the exercises at the end of this unit.
+3.0 MAIN CONTENT 3.1 Definition If a1, a2, a3 … is a given sequence of numbers, the sum of the first n numbers is called the nth partial sum and is represented by Sn = a1 + a2 + a3 + … + an = n å ar.
+(1) r= 1 MTH 281 MATHEMATICAL M ETHODS 1 If the partial sums S1, S2, S3, … converge to a finite limit S, where S = lim Sn, n® ¥ (2) Then S is defined as the sum of the infinite series ¥ a1 + a2 + … + = å ar, (3) =r 1 and the series is said to be convergent.
+When the sequence of partial sums tends to an infinite limit, or oscillates either finitely or infinitely, the series is said to be divergent.
+Example 1: The series 1 + 31 + … , (4) ¥ å 1 r ( r+ 1 ) = 3 1 .
+2. r= 1 5 , … which with 1 , S2 = 3 2 , S3, = 4 3 , S4 = 5 4 , S5 = 6 has partial sums S1 = 2 increasing n tend to unity.
+Hence the series is convergent with a sum S = 1.
+This result can also be obtained by using the method of differences to sum the finite series Sn = nå 1 r ( r +1 ) (5) r= 1 and then letting n ® ¥ in the result.
+For writing the rth term as 1 - 1 ar = r r +1 , (6) 1 - 1 we have an = n n +1 , 1 , an-1 = 1 (7) n -1 - n M M M 1 , 1 - 3 a2 = 2 1 , a1 = 1 - 2 which, on adding, give Sn = nå ar = n å 1 r ( r+ 1 ) = 1 - 1 n +1 .
+(8) r= 1 r= 1 MTH 281 MODULE 1 Hence S = lim Sn = 1, as before.
+n® ¥ Example 2: The geometric series ¥ å akr = a(1 + k + k2 + … ) (9) r= 1 (where a is a constant) has an nth partial sum Sn given by 1 -k Sn = a n 1 -k .
+(10) Hence if |k| < 1, S = lim Sn = a 1 -k (11) n® ¥ and series is convergent.
+The series is divergent, however, when |k| ³ 1, since the partial sum Sn either increases without limit as n ® ¥ , or oscillates either finitely (k = -1) of infinitely (k < -1).
+3.2 Theorems on Series Theorem 1: The series¥å ar cannot converge unless lim an = 0.
+This =r 1 n® ¥ may be proved by considering the (n -1)th and nth partial sums given by Sn-1 = a1 + a2 + … + an-1, (12) and Sn = a1 + a2 + … + an, (13) Subtracting (12) from (13) we have Sn - Sn-1 = an.
+(14) Now if the series converges to a sum S then S = Sn = lim Sn-1, (15) n® ¥ MTH 281 MATHEMATICAL M ETHODS 1 and hence, from (14) and (15), lim an = 0.
+(16) n ® ¥ This condition is necessary but not sufficient for convergence in that there are many series satisfying (16) which nevertheless do not converge.
+The harmonic series 1 (17) 1 + .. = ¥ 1 + 21 + 3 å r =r 1 is a good example of this since, although 1 = 0, lim an = l im ® ¥ n n ® ¥ n (18) the sum of the series is infinite (see next section).
+However, the series ¥ p , for example, cannot converge since p ¹ 0. å cos r lim cos n 4 4 r= 1 n® ¥ ¥ ¥ Theorem 2: If å ar = S, then å kar = kS, where k is a constant.
+This r= 1 =r 1 follows from the obvious identity n å kar = k n å ar (19) r= 1 r =1 and proceeding to the limit n ® ¥ .
+Theorem 3: If ¥å ar = S and ¥å br = T, then =r 1 =r 1 ¥ å (ar + br) = S + T. r= 1 Again this theorem is proved by considering the identity n å (ar + br) = n å ar + n å br (20) r= 1 r =1 r =1 and letting n ® ¥ .
+MTH 281 MODULE 1 ¥ ¥ Theorem 4: If å ar = S, then å ar = S + a0, where a0 is nay number.
+=r 1 =r 1 Writing n S = nå ar and Sn n å ar, r =1 r =1 we have n S = Sn + a0.
+(21) Hence, letting n ® ¥ in (21), the theorem is proved.
+This theorem shows that nay new term may be introduced at the beginning of a series without affecting the convergence of the series.
+A simple extension of this result shows that the removal or insertion of a finite number of terms anywhere in the series does not affect its convergence.
+SELF ASSESSMENT EXERCISES 1 Examine the following series for convergence.
+¥ 1. å 1 2 r ( r+ 1 ) =r 1 r!
+2.
+¥ å r 10 =r 1 ¥ + r 1 3.
+2 å r r 1 + r 4. r å r1 1 5.
+Z ( rr +r 3.3 Series of Positive Terms ¥ When a series å ar consists only of positive terms (ar ³ 0 for all r) it =r 1 must either converge, or diverge to + ¥ ; it clearly cannot oscillate.
+Numerous tests of convergence are known for series of this type, and four such tests are given below: MTH 281 MATHEMATICAL M ETHODS 1 a) Comparison Test ¥ ¥ If å ar is a series of positive terms, and if å br is a series of positive =r 1 =r 1 terms that is known to converge, then ¥å ar is convergent if ar £ br for all =r 1 sufficiently large r. Similarly, If ¥å br is known to diverge then ¥å ar is =r 1 =r 1 divergent if ar ³ br for all sufficiently large r. Since, by Theorem 4, the removal or insertion of a finite number of terms does not affect the convergence of a series, it can be assumed in the proof that follows that the condition ar £ br (and ar ³ br) holds for all r. The proof of this test may easily be seen by a graphical argument.
+Suppose each term of a series represents the area of a rectangle of base equal to unity and height equal to the magnitude of the term (see Fig.
+5.1).
+Then the sum of the series is represented by the sum of the b1 b2 b3 Fig.
+3.1 areas of the rectangles.
+If now ¥ å br converges to a sum then the total =r 1 area of the rectangles must be finite, and if ar £ br for all r, the area of ¥ the rectangles representing the series ar must also be finite.
+Hence å ar =r 1 converges if ¥å br converges.
+=r 1 A similar argument applies to the second part of the test.
+An analytic proof of the test may be obtained by considering the partial sums ¥ Sn = å ar, Tr = n å br.
+(22) =r 1 r =1 Then ar £ br implies Sn £ Tn, and hence MTH 281 MODULE 1 lim Sn £ l i m Tn = T, (23) n ® ¥ n® ¥ ¥ where T is the sum of the convergent series å br.
+Now since ar ³ =r 1 0, Sn never decreases and therefore lim Sn = S £ T. (24) n ® ¥ Hence, by (23), the first part of the test is proved.
+A similar argument exists for the second part of the test.
+Example 3: The harmonic series 1 + 13 + 14 + … = 1 (25) 1 + 2 ¥ å r r= 1 may be shown to be divergent by writing it as 1 +( 13 + 14 )+( 15 + 16 + 71 + 18 + … (26) 1 + 2 1 ; by grouping terms The terms in brackets are now greater than 2 together in this way throughout the series so that the value of each group 1 we see, by comparison with the divergent series exceeds 2 1 + 12 + 21 + …, (27) 1 + 2 that (26) is divergent.
+It should be noted, however, that bracketing of terms in series (as in (26)) is in general not possible without altering the character of the series (see 5.8).
+Example 4: The p-series 1 + … = 1 (28) 1 + p 1 + p ¥ 1 + p 2 3 4 å p r r= 1 converges if p > 1, and diverges if p £ 1.
+We can prove these statements by taking the three cases p < 1 separately: > a) if p =1, (28) becomes the harmonic series (25) and i consequently divergent; MTH 281 MATHEMATICAL M ETHODS 1 b) if p < 1, each term of (28) (apart from the first) is greater than the corresponding term of the harmonic series.
+The series is therefore divergent; by comparison c) if p > 1, we write the series as æ ö æ ö ç +1 ÷1 ÷ ç +1 +1 +1 1÷ ÷ 1 + èpçç ø 2p÷ + 3 p p p p÷ ççè 4 5 6 7 ÷÷ø + … (29) and continue grouping the terms throughout the series into brackets such that every brackets is less than the corresponding term of the series 4 + ….
+(30) 2 + p 1 + p 2 4 Now (30) is a geometric series with a common ratio k =21-p which is known to be convergent for |k| < 1.
+Consequently (29) converges for p > 1. b) Ratio Comparison Test If ¥å ar and ¥å br are two series of positive terms and =r 1 =r 1 a b + +r 1£ r 1 a b r r ¥ ¥ for all sufficiently large r, thåe anr converge when å br converges.
+=r 1 =r 1 a b + , Similarly, if r 1 + ³ r 1 a b r r then ¥ ¥ å ar diverges when å br diverges.
+=r 1 r= 1 a b + for all r (see the To prove these results we assume first that r 1 + = r 1 a b r r remarks in (5.3 (a)).
+Then writing a a a a .a1£ r b b b .a1 (31) ar = r .
+r 1 - .
+r 2- … .
+r 1 - .
+a - a a a2 b - b b2 r 1 r -2 r- 3 r 1 r -2 1 1 we have b .a (32) ar £ rb 1 1 MTH 281 MODULE 1 ¥ Since (32) is true for all r, the comparison test shows that å ar =r 1 converges when ¥ å br converges.
+The second part of the test may be =r 1 proved in the same way.
+1 is convergent since, using the Example 5: The serie¥s ¥ å ar º å r 3 =r 1 =r 1 1 , we have convergent series ¥å br º ¥ å r 2 =r 1 =r 1 a + = ( r) 3 b + = ( r) 2 r 1 r 1 r +1 (33) a + < r 1 b r r for all r. c) d’Alembert’s Ratio Test ¥ a + = k < 1, and The series of positive termås a r converges if lim r 1 a =r 1 r® ¥ r a + = k > 1.
+If a + = 1, the series may either diverges if l im r 1 lim r 1 a a ®r ¥ r ®r ¥ r converge or diverge.
+To prove the first part of this test we assume that a + = k < 1 (34) lim r 1 a r® ¥ r and choose a number h such that k < h < l. Then for some sufficiently large value of r, say s, we have a a a + < h, s 2 + + s 1 < h, s 3 < h, … (35) a a a s +1 s +2 s and so on.
+Therefore as+1 < ash, as+2 < as_1h <ash2, as+3 < as_2h <ash3, (36) .
+.
+.
+.
+.
+.
+.
+.
+.
+MTH 281 MATHEMATICAL M ETHODS 1 which give, on adding, as+1 + as+2 + as+3 + … < as(h + h2 + h3 + …).
+(37) The series on the right-hand side of (37) is a convergent geometric series since, by assumption, h < 1.
+Hence, the series on the left-hand side (37) ¥ also converges.
+Finally therefore, if k < 1, å ar is convergent.
+r= 1 The case of k > 1 maybe proved in the same way.
+The ratio test clearly gives no information when k = 1 as can be seen by considering the p- series for which lim a r+ 1 = lim r p =l i m 1 +r 1 = -1 (38) a ( r+ 1 ) p ® ¥ ( ) p r ® ¥ ®r ¥ r r for all p. Example 6: The series 3 = … = r (39) 1 + 22 + 3 ¥ 2 2 2 å r 2 =r 1 converges since lim a r+ 1 = lim ìïïí æïïý r ö+1ü 2 çç ÷÷ ÷ =1 2li® m 1¥ +r (1 = ) 2 1 .
+(40) r ® ¥ a r® ¥ïïî ïïþ( )r r2 +çè ør 1 ÷ r r d) Cauchy’s Integral Test ¥ If å ar is a series of positive decreasing terms and if there exists, for =r 1 x ³ 1, a positive, monotonic decreasing integrable function f(x) such that f(r) = ar for r = 1, 2, 3 … n, then + 0 < n ò dx < ff (( 1x) .)
+(41) å ar - n 1 r= 1 1 It may be further proved that æ ö lim çççèS -÷øn f ÷1 ( xò ) d n+ x 1 ÷ (42) n ® ¥ MTH 281 MODULE 1 ¥ is finite.
+A direct consequence of (42) is that the series å ar converges =r 1 when ò ¥ cfo (n xv e)drgxe s (in the sense of Chapter 4, 4.8), and 1 diverges when ¥ ò d ivf e( rxg e)dsx.
+1 A simple proof of (41) maybe easily obtained using the type of graphical argument given in proving the comparison test.
+Consider first the area ABCD shown in Fig.
+5.2.
+Then, since AB = a1 and AD = 1, we have that area ABCD = a1 B C P F Q T S R a1 a2 an A D Fig.
+5.2 The area under curve f(x) between A and D is 2 ò f ( x )dx 1 Consequently a1 - ò2 = f a(r xe a) dBxC P < area BCPQ.
+(43) 1 Similarly, considering the next rectangle of height a2 a2 - 2ò = f a(r xe a) dPxF R < area PFRS = area QPST.
+(44) 1 After n such expressions we have, on adding, + ò < a rf e(a x A )dBxC D = f(1), 0 < (a1 + a2 + a3 + … + an) - n 1 1 (45) which proves the basic inequality (41) of the integral test.
+1 converges only if p > 1.
+This ¥ Example 7: The series å p r (log r ) =r 2 follows from the integral test since dx du I = lim ò b= lim ò l o g be (46) b® ¥ 2 x (log x ) p b® ¥ log 2 u p e Converges only if p > 1.
+MTH 281 MATHEMATICAL M ETHODS 1 Example 8: Using the divergent harmonic series in the integral test we have (from (41)) 0 < ( ) 1 1 1 +2 +.. .+ + - loge(n + 1) < 1.
+(47) 3 n Furthermore by (42) { } 1 1 1 li®m ¥1 +.(.
+.+ l )o+g + ( -n +1 ) = g , (48) 2 3 n e n where 0 < g < 1.
+The constant g is called Euler’s constant and is approximately equal to 0.5772.
+SELF ASSESSMENT EXERCISE 2 Examine the following series for convergence 1.
+¥å 1 2 r ( r+ 1 ) =r 1 r!
+2.
+¥å r 10 =r 1 ¥ 3. å r2xr(x > 0) =r 1 3.4 Alternating Series ¥ If å ar is a series of term which are alternately positive and negative, =r 1 and if the terms continually decrease in magnitude and lim an = 0, then n® ¥ the series converges.
+Suppose ¥ å ar = a1 - a2 + a3 – a4 + a5 … , (49) r= 1 where a1 a2 a3 … are positive decreasing terms.
+Plotting the values of the first few partial sums S1, S2, S3 … along the line Ox (see Fig.
+5.3) it is clear that these partial sums approach more and more closely to a definite value S. Hence, the series converges.
+0 S2 S4 S5 S3 S1 x S Fig.
+5.3 MTH 281 MODULE 1 Example 9: The series ( -1 ) r +1 1- 1 +1 -1 … .
+= ¥å (50) 2 3 4 r =r 1 satisfies all the conditions stated above and therefore converges.
+The sum of this series is loge 2.
+3.5 Absolute Convergence and Conditional Convergence Suppose ¥ å ar = a1 + a2 + a3 + … (51) r= 1 is a sries of positive and negative terms.
+Then ¥ å |ar| = |a1| + |a2| + |a3| = … (52) r= 1 is a series of positive terms which are just the absolute values of ar.
+If (52) is convergent, (51) is said to be absolutely convergent, and it can be proved that any absolutely convergent series is also convergent.
+If, ¥ ¥ ¥ however, å |ar| diverges, but å ar converges, then å ar is said to be =r 1 =r 1 =r 1 conditionally convergent.
+For example, the series ( -1 ) r + 1 (53) ¥ 1- 1 +1 -1 + .
+= å 2 3 4 r =r 1 discussed in Example 9 is conditionally convergent since the series formed from the absolute values of its terms ¥ ( -1 ) + (54) 1+ 1 +1 +1 +… = å r 1 2 3 4 r =r 1 is the divergent harmonic series.
+On the other hand, the series (- 1 ) r +1 (55) 1 1 1 ¥ + - … = å 1- 22 2 32 4 r2 =r 1 is absolutely convergent since MTH 281 MATHEMATICAL M ETHODS 1 1 1 ¥ ( -1 ) r+ 1 (56) 1+ 2 2 + + … = å 2 3 =r 1 r2 is convergent (p-series with p = 2).
+SELF ASSESSMENT EXERCISE 3 1.
+Examine the following for convergence: ¥ ¶ for ¶ = 0, p 2 and 2 3 p .
+å cos r R =r 1 2.
+Show that if the conditionally convergence series 1- 1 1 1 + - + … is rearranged as the series 2 3 4 æ ö æ ö ç1 + - ÷1 1 ÷ ç + - ÷ ÷ ç ÷ ç ÷ çè ø+ 1 1 1 4 çè ø+ 3 2 5 7 where two positive terms always alternate, with one negative term the series diverges.
+3.6 Absolute Convergence Tests Since ¥å |ar| is series of positive terms its convergence may be discussed =r 1 using any of the tests given in 5.3.
+For example, d’Alambert’s ratio test for absolute convergence now takes the form: the series of positive and ¥ negative terms å ar is absolutely convergent (and hence convergent) if R= 1 a +r 1 = k < 1, (57) lim A r ® ¥ r and is divergent if a +r 1 = k > 1.
+(58) lim A r ® ¥ r As before, the test does not decide between absolute convergence and divergence when k = 1.
+Example 10: If ¥ å ar = 1 + 2x + 3x2 + …, (59) r= 1 MTH 281 MODULE 1 then a +r 1 = ( r +1 ) =x | xr| ® r¥ +1 ( = )|x |.
+(60) lim lim lim A R r ® ¥ r ®r ¥ Rx -r 1 r Hence, when |x| < 1, (59) is absolutely convergent, and when |x| > 1, it is divergent.
+The question of what happens when |x| = 1 may be answered by taking the two possible cases x = +1 and x = -1 separately.
+When x = +1, (59) becomes 1 + 2 + 3 + 4 + …, (61) which is divergent; similarly when x = -1 the series becomes 1 + 2 + 3 – 4 …, (62) which is divergent since lim ar ¹ 0.
+®r ¥ Hence (59) is absolutely convergent for |x| ³ 1.
+Example 11: The series x 2 x sin 3 +x … = sin r x (63) sin + 2 sin + 2 ¥ 1 2 3 å 2 r 2 =r 1 is absolutely convergent for all x, since, using the comparison test, 1 sin rx £ 2 r( 64) r 2 1 is known to converge.
+¥ for all r, and å 2 r =r 1 3.7 The Product of Two Series If ¥ ¥ ¥ å br are two absolutely convergent series, the å cr, where å ar and =r 1 r= 1 =r 1 cr = a1br + a2br-1 + … + arb1 (65) is called the Cauchy product of¥å a r and ¥å br, and is itself absolutely =r 1 r= 1 convergent.
+Furthermore, if ¥ ¥ å ar converges to a sum S, and å br =r 1 =r 1 ¥ converges to a sum T, then å cr converges to a sum ST. A similar result =r 1 MTH 281 MATHEMATICAL M ETHODS 1 has already been given earlier for the sum (and difference) of two convergent series.
+Example 12: The product of e2x and e-x may be written, using (65), as e2xe-x = 2 æççççè31 +2 2 + X + + - (+ 2 -2 x!÷ 3 ) !
+( 22!
+x ) x .. ÷÷÷÷÷ .çç öø ç 1è æ xø ö .
+.. ÷÷÷ (66) x 2 +x 3 !
++ … = ex.
+(67) = 1 + x + !
+2 3 3.8 Rearrangement of Series Any series formed from ¥ å ar by taking its terms in a different order is =r 1 called a rearrangement of ¥å ar.
+For example, =r 1 1 … (68) 1 + 2 1 + 2 1 + 2 1 - 2 1 + 2 3 2 5 7 4 is a rearrangement of the absolutely convergent series 1 - … (69) 1 + 2 1 + 2 1 + 2 1 - 21 + 2 1 - 2 2 3 4 5 6 7 such that two positive terms alternate with one negative term throughout the series.
+Similarly, two possible rearrangements of the conditionally convergent series 1 + 13 + 1 4 … (70) 1 - 2 1 - 1 2 + 1 5 + 1 7 - 1 4 … (71) are 1 + 3 1 + 1 5- 12 - 1 4 + 1 7 … (72) and 1 + 3 In (71) two positive terms alternate with one negative term; both of these are different from the original series (70) in which one positive term alternates with one negative term.
+Since in any rearrangement of an infinite series the pattern of N positive terms alternating with M negative terms can be chosen at will and can be continued throughout the series, MTH 281 MODULE 1 it would be surprising if the sum of a rearranged series were equal to the sum of the original series.
+It can be proved, however, that provided either we restrict ourselves to series of positive terms or to series that are convergent, the term may be rearranged in any way without affecting the sums of the series.
+This result is not true for series that are conditionally convergent, and any rearrangement of terms in a series of this type will usually lead to a series with a different sum.
+For example, (68) will have the same sum as (69), since (69) is convergent (p-series, p = 2).
+The series (70), however, is only conditionally convergent since the series formed from the absolute values of its terms is the divergent harmonic series.
+Hence, we must expect that the sums of the two rearranged series (71) and (72) will be different from each other and different from the sum of (70).
+By way of justifying this we now show how to find the sums of (70) and (71) so verifying that they are different.
+Consider (70) first: then by 5.1 (2) we have the sum S defined by S = lim Sn = l im S2n = li ®m ¥1 -.
+.+.
+( 1 + 1) + 1 (73) 2 3 2 n n® ¥ n® ¥ n { } = ® ¥ (1 1) 1 1( 1 )1 lim 1 +.. .+ 1 + .. .+ - + + + + .
+(74) 2 3 2 n 2 3 n n Now from 5.3, Example 8, we have { } 1 1 1 li®m ¥1 +.(.
+.+ l )o+g + ( -n + 1 ) = , 2 3 n e n where is Euler’s constant.
+Hence ( ) e 1 1 1 e , (75) 1 ... log ( n 1) + + + + - + = n 2 3 n where ne ® as n ® ¥ .
+S = lim [{ n e + loge(n + 1)}] = loge 2, (76) e + loge(2n + 1)} – { n n® ¥ 2 since ne and n e both tend to as n ® ¥ .
+Similar2l y the series (71) may be written as S3n =+1 (1- ) +(1 )1+ 1 - + … + ( 1 1 1 ) 1 3 2 + - 5 7 4 4 n -3 - 4 n 1 2 n 1 ( ) ) = ( 1 1 1 1 1 1 1 +.. .+ + + - - 2 1 +.. .+ + + 3 5 4 n 1 2 3 n MTH 281 MATHEMATICAL M ETHODS 1 1 ( ) =( 1 1 1 1 ) +1 +1 1 + + -( ) 1 1 1 1 +.. .+ + + + - 2 1 ... 1+ .. .+ + + (77) 2 3 4 4 n 2 3 2 n 2 3 n Using (75), (77) becomes { n 1 { n 1 { ne + loge(n + 1)}, e + loge(4n + 1)} - 2 e + loge(2n + 1)} - 2 4 2 e all tend to as which tends to 2 3 loge2 as n® ¥ , since n e , n e and n 4 2 n ® ¥ .
+Hence, the sum of (71) differs from the sum of (70) by a 3 .
+factor 2 3.9 Power Series An important type of series is the power series defined by ¥ å arxr = a0 + a1x + a2x2 …, (78) r= 0 where a0, a1, a2, … are constants.
+The value of x for which (78) converges may be found using d’Alembert’s ratio test given in 5.6.
+Hence for the series to be absolutely convergent we must have (from (57)) a x r +1 a r+ 1 = x r+ 1 = k < 1.
+(79) lim lim a x r a r ® ¥ r ®r ¥ r This condition may be more conveniently expressed as x < R, (80) where R, the radius of convergence, is defined by a R = lim r , ®r ¥ a r+ 1 (81) provided the limit exists.
+Writing (80) in full as -R < x < R, (82) We see that the series converges absolutely provided x lies in the open interval (see Chapter 1, 1.2) –R to R. This interval is called the interval (or range) of convergence.
+When k = 1, the ratio test gives no MTH 281 MODULE 1 information and consequently the series may converge or diverge at x = R (that is, at x = ± R).
+However, as we shall see in the following examples, we may test the convergence of the series for these two particular values of x by direct substitution into the series.
+Finally, by the ratio test, a power series obviously diverges for any value of x, which lies outside the interval of convergence.
+Example 13: The exponential series (see 6.2 (40)) x x xr + … (83) 1 + x + 2 3 + +…+ !
+2!
+3!
+r is a absolutely convergent for all x, since by (79) a x lim +r 1 = x lim r !
+a ( r +1 ) != 0 (84) ®r ¥ r ®r ¥ irrespective of the value of x.
+Similarly, by (81), the radius of convergence is infinite and, by (82), the interval of convergence is therefore - ¥ < < ¥ x .
+(85) Hence the series (83) represents the function ex for all x.
+Example 14: The series x x x + x - 3 5 + -…+ (-1)r 2 r 1 3 5 ( 2 r+ 1 +) … (86) is convergent for x < 1, since by (81) a R = r = 2 r+ 1 (87) lim lim a + 2 r -1 = 1.
+®r ¥ r 1 ®r ¥ The interval of convergence is therefore -1 < x < 1.
+(88) At the end points x = ± 1, the series may converge or diverge.
+Putting x = 1 in (86), the series becomes MTH 281 MATHEMATICAL M ETHODS 1 + - + …, (89) 1 - 1 1 1 3 5 7 which converges by 5.4 since the terms alternate in sign and continually decrease in magnitude.
+At x = -1, the series behaves like the series + + + …, (90) 1 + 1 1 1 3 5 7 which diverges by the integral test.
+Hence (86) converges if, and only if, -1 < x £ 1.
+(91) 3.10 Operation with Power Series a) The sum difference or product of two power series with common intervals of convergence leads to a third series, which converges for the common interval of convergence of the first two series.
+(This result follows from the general properties of series given in 5.2 and 5.7) b) The series obtained by term-by-term differentiation (or integration) of a given convergent power series is a power series with the same interval of convergence.
+Consider the power series S = ¥å arxr = a0 + a1x + a2x2 + … (92) =r 0 which converges if a x < li m r = R. (93) a + ®r ¥ r 1 Then dS = ¥ å rarxr-1 = a1 + 2a2x + 3a3x2 + … (94) dx =r 0 converges if ra a x < li m r lim r lim r = R (95) ( r 1+) a =+ r +1 + a + ®r ¥ r 1 ®r ¥ ®r ¥ r 1 MTH 281 MODULE 1 Similarly, ¥ a x +r 1 a x a x ò S dx = å r 1 1 + + … (96) r 1 2 3 =r 0 + = a0x + 2 3 converges if ( r +2 ) a a x < l im r lim r+ 2 lim r = R. (97) ®r ¥ ( r 1+) a =+ r 1 ®r ¥ r +1 r ® ¥ a r+ 1 Hence, the differentiated and integrated series have the same intervals of convergence as the series from which they are derived.
+However, it does not follow that if the series converges at one (or both) of the end points (x = ± R) of the interval of convergence that the differentiated or integrated series necessarily also converges at these points.
+As before, the convergence of these series at the two ends must be considered separately.
+Furthermore, we may prove that differentiating or integrating a power series term-by-term within its interval of convergence is the same as differentiating or integrating the function it represents.
+c) If two power series converge for a common interval of convergence then one series may be substituted into the other to give a third series which converges in that common interval.
+For example, the series for ee-x may be obtained by writing y = e-x and using the series y 3 ey = 1 + y + 2 2!
++ + … (98) Hence e-x= æ ö æ ö æ ö ç - + ÷ x ÷ 1 xç - + - ÷ 2 ÷ 1 xç - + - ÷ 2 ÷ 1+ 2ç1 ÷ x ... ç1 ÷ x ... ç1 ÷ x ... çè ø+ 2 2!
+÷ 2!
+çè2 ø !
++ 3 ÷ 3!
+çè2 !ø +…(99) ÷ 4.0 CONCLUSION In this unit, we have considered series and convergence of series.
+We have examined the condition under which a given series will converge conditionally.
+We also studied differentiation and integration of series and pointed out that this will always possible for infinite series of arbitrary functions, example of the case in point was considered in the unit.
+MTH 281 MATHEMATICAL M ETHODS 1 5.0 SUMMARY This unit is on the convergence of infinite series.
+It has a lot of application in higher mathematics.
+The unit will be of immense importance in the subsequent course in mathematical analysis.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Prove that the binomial series - x2+ m( m 1)( m- -2 x) 3…+converges if –l <x <1 1+mx+ m ( m 1) 2!
+3!
+2.
+Find the values of x for which the series 1 – 2(x – 1) + 3(x – 1)2 + … + r(-1)r-1(x – 1)r-1 +… converges 3.
+Show by integrating the series S = ¥ å rxr-1 =r 1 term-by-term and summing and then differentiate the sum that S = (1–x)-2 for what value **** is this valued.
+7.0 REFERENCES/FURTHER READING Verma P. D. S. (1995).
+Engineering Mathematics.
+New Delhi: Vikas Publishing House.
+Stephenson G. (1997).
+Mathematical Method for Science Students.
+London and New York: Longman.
+MTH 281 MODULE 1 UNIT 4 TAYLOR AND MACLAURIN SERIES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Taylor’s Theorem 3.2 Standard Expansions 3.3 Evaluation of Limits 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit, we shall consider two special types of series expansion, namely Taylor and Maclaurin series.
+Clearly, both Taylor series and Maclaurin series only represent the function f(x) in their interval of convergence.
+When functions are expanded at x = a (say) we have Taylor’s expansion and when functions are expanded or x = 0 then we have Maclaurin expansion.
+We have devoted a whole unit to these important theorems because of their usefulness in the study of analytic functions, and calculus in general.
+Ready carefully and pay attention to every details.
+2.0 OBJECTIVES After studying this unit, you should be able to: • carry out expansion using Taylor’s and Maclaurin methods • evaluate limit of the function given • apply the theorem to solution of some mathematical problems.
+MTH 281 MATHEMATICAL M ETHODS 1 3.0 MAIN CONTENT 3.1 Taylor’s Theorem We now state an important theorem, which enables functions to be expanded in power series in x in a given interval.
+(Examples of the series representation of a few functions have already been given in Unit 3.
+Theorem 1: (Taylor’s Theorem).
+If f(x) is a continuous, single-valued function of x with continuous derivatives f’(x), f’’(x) … up to and including f(n)(x) in a given interval a £ x £ b, and if f(n+1)-(x) exists in a < x < b, then f(x)=f(a)+ ( x+ a -) ( x a ) ( x a ) 2 - n ( n ) f '( a )+ f +'' (+ a +) +...
+,.(.1.
+)f ( a ) E ( x ) 1!
+2!
+n!
+n where ( x- a ) n+ 1 E ( x ) f= ( ) ( n + 1 ) x n ( n +1 ) !
+(2) and a < < x.
+The term En is a remainder term and represents the error involved in approximating to f(x) by the polynomial ( x- a - ) ( x a ) n ( n ) f ( a)+ f +'( +a ).
+.
+.. f ( a ) (3) 1!
+n!
+An alternative form of (1) may be obtained by changing x to a + x.
+Then x x x 2 2 ( n ) f ( a +x =) f+ ( + a +) f+ '(+ a , ) f( 4'')( a ) ... f ( a) E ( x 1!
+2!
+n n ) Where now, from (2), x+ + E ( x) f= ( +a xq ) n 1 ( n 1) n ( n +1 ) (5) and 0 < < 1.
+A special case of (1) and (2) (or (4) and (5)) is when a = 0.
+Then x2 x n ( n ) f ( x )= f +( +0 +) x+f +'( ,0 ) f ('7'() 0 ) ... f ( 0 ) E ( 2 !
+n !
+n x ) and 0 < < 1.
+MTH 281 MODULE 1 Theorem 2: If nli m E ( x ) = 0, then f(x) may be represented by the n ® ¥ power series (see (1)) ( x -a -) ( x a ) ( x a ) 2 ¥ - r f ( x )= f +( +a )+ f = '( å a , )( 8f )' '( a ) ... f ( a ( r ) 1!
+2 !
+r ! )
+r =0 Or its equivalent form (see (4)) x x x 2 r ( r ) ¥ f ( a +x =) f+ ( +a +) f= ' (å a . )
+f '' ( a ) .
+.
+.
+f ( a ) (9) 1!
+2!
+r !
+r =0 These two series are Taylor’s series for f(x).
+The special case a = 0 gives, with n lim E ( x ) = 0, n ® ¥ x2 x r ( r ) ¥ f ( x )= f +( 0+ )= x åf ,' ( 0 ) f ' '( 0 ) .
+.. f ( 0 (10) 2 !
+r ! )
+r =0 which is known a Maclaurin’s series.
+Clearly, both the Taylor series and the Maclaurin series only represent the function f(x) in their intervals of convergence.
+The Taylor series is often referred to as a series expansion of f(x) about the point x = a, and the Maclaurin series as an expansion about the point x = 0 (later we shall meet functions which have no Maclaurin series but which nevertheless can be expanded about some other point x = a, a 0).
+The form of Taylor’s series maybe verified in the following way: Let f ( x )= A + A + (- x+ a- )+ A - +( x, a ) A ( x a ) (.1..1 ) 2 3 0 1 2 3 where A0, A1, A2 … are constants.
+Then differentiating term-by-term we have f '( x ) =A + 2 - A + (- x+ a ) 3 A ( x a ) .
+.. (12) 2 1 2 3 f ''( x )= 2 +A - 3+.2 - A+ ( x a ) 4 .
+3 A ( x(1 a3 )) .
+.. 2 2 3 4 f '''( x )= 3 !+A - 4+!
+A ( x a ) .
+.
+.
+(14) 3 4 and in general, f (( nx )) n !
+=A + ( +n -1 )+ !
+A ( x a ) .
+.
+.
+(15) n n 1 + MTH 281 MATHEMATICAL M ETHODS 1 Putting x = a in (11)-(15) now gives f ( a) =A =, f ' ( a ) A , 0 1 f ''( a )= 2 != A , f '' '( a ) 3 !
+A , (16) 2 3 f (( n a ) ) n !
+=A n Hence using these values for the constant A0, A1, …in (11) we obtain the Taylor’s series (8).
+3.2 Standard Expansion Before listing the Maclaurin series for some of the simple functions, we illustrate the use of the Taylor’s and Maclaurin series by the following examples.
+Example 1: Suppose we want to expand the function f(x) = e3x about x = 0 using Maclaurin’s series.
+f '(x ) 3e ,f ''(x) 9e ,...f (x ) 3 e Then since 3x 3x (n ) =n 3= x = and f '( 0 ) 3 = , f ''(0) =9, .=.. f, w( 0e( ) nh 3)a nv e from (6) ( 3x )2 ( 3x )3 ( 3x) n e3 1 x 3=x + + + + + + , .. .
+E ( x )( 17) 2!
+3!
+n!
+n where, by (7) ( 3 x n+) 1 E ( x ) e= + , (0 < <3 qx1 .
+(18) n ( n 1) !
+For any given finite value of x, say x = c, it is clear that lim E ( c) 0 = .
+(19) n n ® ¥ Hence by (10), e3x may be represented by the infinite series ( 3 x )2 (3 3r x ) ( 3 x ) ¥ 1 +3 +x + + = å .
+.
+.. (20) 2!
+3!
+r !
+r =0 Using the d’Alembert ratio test we find that (20) converges absolutely for all x. the possible error involved in approximating to e3x (for a given value of x) by a finite number of terms of (20) may be found using (18) as follows.
+MTH 281 MODULE 1 Suppose x = 0.02 and n = 3.
+Then, since (0 < < 1, En must satisfy the inequality relation ( 0.06) 4( 4 0 .06 ) < <E ,e 0 .0 6 (21) 4!
+4!
+n which gives (approximately) 5 × 10-7 < En < 6 × 10-7 (22) In other words, by taking only four terms (n = 3) of (20), the value of the resulting finite series for x = 0.02 differs from the exact value of e3(0.02) by a small number of the order of 5 × 10-7.
+1 , (18) On the other hand, with the same number of terms but with x = 3 gives 1 e < <E (23) 4!
+4 !
+n or 0.042 < En < 0.133.
+(24) Taking four terms of the Maclaurin series therefore is not a good 1 and more terms should be taken if the approximation to e3x for x = 3 error is to be reduced.
+Example 2: As an example of Taylor’s expansion we expand the p .
+Differentiating we have f’(x) function f(x) = cos x about the point x = 3 = -sin x, f’’(x) = -cos x, and in general ( ) ( n+ 1 +) n 1 f ( x ) cos x= 2 + p .
+(25) Hence (p )p 1 f cos = = , 3 3 2 (p )p 3 f ' sin = - = - , 3 3 2 (p )p 1 f '' cos = - = - , (26) 3 3 2 (p )p 3 f ''' sin = = - , 3 3 2 MTH 281 MATHEMATICAL M ETHODS 1 and so on.
+Using these results in (1) we find p p2 3 cos x = ( ) x( -x - ) 1 3 1 3 p 3 3 - - -x + + ... 2 3 2 2!
+2 3!
+2 ( ) ( ) ( ) p n x -3 pn = + p + , c o s E ( x ) (27) n!
+3 2 n w h er(e, f)ro m( ()2) and (25), p n +1 x- n+ 1 3 .
+(28) E ( x ) c=o sx + p n ( n +1 )!
+2 Hence, since ( n +1 cos 2x + p £ 1, (28) may be written as ) p + ( )xn- 3 1 E ( x ) ( <n +1) !
+(29) n Again (as in Example 1) for any given value of x, say x = c, En(c) may be made as small as we please by choosing sufficiently large values of n. Hence, since n lim E = 0, cos x may be represented by the infinite n® ¥ Taylor’s series (8) as: cos x = ( ) ( ) 1 3 1 3 p p p 2 3 - - -x - x + x - 2 3 2 3 2.2 !
+3 2.3!
+( ) ( ) ( ) p x -3 p r + +… , (30) +…+ cos r !
+3 2 which, by the ratio test converges for all x.
+This series is useful in evaluating the cosines of angles without the use 61p radians of tables.
+For example, cos 610 may be evaluated by putting 180 in (30) which then gives ( ) ( ) ( ) 0 61 1 3 1 3 p1 p p p 2 3 cos 61 c=o s= - - + + (31) .
+.... 180 2 2 180 2.2!
+180 2 3!
+180 The error involved by taking a finite number of terms of this series may easily be estimated from (29).
+For example, with two terms (n =1) ( ) 0 1 3 p cos 61 2@ 2 1- 8 0= 0.4849 (32) MTH 281 MODULE 1 correct to four decimal places, with a possible error given by ( ) ( )2 61p 1p E 180 2 !
+1£8 0= 0.0001 (33) 1 to the same number of decimal places.
+The value of cos 610 obtained from tables is found to be 0.4848 (again corrected to four decimal places).
+We now give the first few terms of the Maclaurin series for some elementary functions a a (- )a (a1 ) -1( a )2 - i) (1 +x =) 1+a xa x+ + 2 x 3 .
+.+.
+for x < 1, 2 !
+3!
+where a is any real number, (34) x x x sin x =x .-.
+.+ - + for all x, (35) ii) 3 5 7 3!
+5!
+7!
+x 2 x 6 x cos x =1 - + - + for all x, .
+.
+.
+(36) iii) 2 4 6 2!
+4!
+6 !
+x 2 x 17 x p p tan x =x + + + + for x ... - < < , (37) iv) 3 5 7 3 15 315 2 2 x 2 x 3 x4 v) log (1 x+ ) =x - + - + for -1 < x £ 1, .
+.
+.
+(38) e 2 3 4 1 x x 1+ x= + + + for -1 < x < 1, (39) vi) ( ) 3 5l og x ... 2 1 xe 3 5 - x x x vii) 2 3 e 1 =x +.. .+ + + for all x, (40) 2 !
+3!
+e e -x x- sinh x x= .=.. + + + for all x, (41) viii) x x 3 5 2 3!
+5!
+e e +x x- x cosh x =1 = + + + + for all x.
+(42 ) .. .
+ix) x x 2 4 6 2 2 !
+4 !
+6 !
+The series for functions, which are simple combination of these elementary functions, maybe obtained using the properties of power series treated in Unit 3.
+For example, substituting the series for sin x in the exponential series we have as in Unit 3, equation 10. sin x x 3 x 8 x 2 4 5 e 1 x = + + - - + (4 3..).
+2 !
+4!
+5!
+for all x.
+Similarly (using 5.10 (a)).
+MTH 281 MATHEMATICAL M ETHODS 1 x x3 5 cosh x sin x =x +.. .- (44) 3 30 for all x.
+- , e Finally, it should be noted that functions like x e x log x and cos x have no Maclaurin expansions since they are not defined at x = 0.
+Nevertheless, we may expand such functions about some other point using Taylor’s series.
+For example, expanding e log x about x = 1 we find log x ( =x -1 )- (- x+ 1- )- (- 1 x+ 1 1 1 ) ( x 1 2 ) 3. .
+4.
+(45) e 2 3 4 for 0 < x £ 2.
+In deriving the Maclaurin series for certain functions it is sometimes convenient to use Leibnitz’s formula given in Chapter 3, 3.6, to obtain the higher differential coefficients.
+We illustrate this method by an example.
+Example 3: If y = sin (m sin-1x), where m is a constant, then differentiating twice we find that y satisfies the differential equation d 2y dy (1- x - )+2 x 2= m .
+y 0 (46) dx2 dx Using Leibnitz’s formula, we have (for n > 0) d yn+ 2+d n y 1 dn y (1- x - )+2 ( +2 -n = 1 ,) x ( m n ) 0 (47) 2 2 dxn d+2 x +n d1 xn which gives, with x = 0, d yn+ 2d n y ( n2 m2 ) dxn d +2x =n - (48) Hence (48) is a relation between the values of all the differential coefficients of y evaluated at x = 0; this is exactly what is required in developing the Maclaurin series for y.
+Since y(0) = 0, y(0) = m it can be easily verified using (48) that m (1- m- - ) 2x 3 m 2 2( 15 m )( 9 m ) x y =m +x + + .
+.. .
+(49) 3!
+5!
+MTH 281 MODULE 1 3.3 Evaluation of Limits Suppose we have two functions f(x) and g(x) which are zero when x = f is an undefined ( a ) 0 a.
+Then although the ratio ) gq ( au antity( ) 0 , æ ö nevertheless the limit of f çç( ÷÷x ) ÷ ® may exist.
+An example of this çè gø a( sx )x a type of ratio has already been met in Chapter 2, 2.4 where it was shown by a geometrical argument that sin x lim x = 1.
+(50) ( ) x® 0 We now show how to proceed analytically with limits of this type.
+Consider the ratio of f(x) and g(x) and let both functions be expanded about the point x = a using Taylor’s theorem.
+Then ( x -a ) 2 f ( a )+ ( -x + a +) f '( a) f ''( a ) ... f ( =x ) 2!
+(51) g ( x ) ( x -a ) 2 g ( a )+ ( -x + a +) g '( a ) g ''( a ) ... 2 !
+Now by assumption f(a) = g(a) = 0.
+Hence ( x- a ) f '( a )+ f +''( a ) ... f ( =x ) 2 !
+(52) g ( x) ( x -a ) g '( a )+ g + '' ( a ) ... 2 !
+and consequently f ( =x ) ) f ', ( a ) (53) lim ® ) g ( x g ' ( a x a provided g’(a) is non-zero.
+Equation (53) states that the limit of the ratio of two functions as ® x a where both functions are zero at x = a is given by the ratio of the derivatives of the functions each evaluated at x = a.
+If, however, f’(a) = g’(a) = 0 then the same procedure must be f '.
+( Cx ) o nsequently if f(a) = g(a) = 0 and f’(a) = applied to the ratio ) g ' ( x g’(a) = 0, we have f ( =x )) f ', ' ( a ) (54) lim ® ) g ( x g ' ' ( a x a provided g’’(a) is non-zero.
+Provided the limit exists it is usually possible to find a value of n such that MTH 281 MATHEMATICAL M ETHODS 1 f ( = x )( ) f (n a ) lim .
+(55) x ®a ) g ( x g ((n ) a ) This method of evaluating limits is sometimes more conveniently expressed by writing (53) as f ( =x ) f ', ( x ) (56) lim lim ® ) g ( x ® ) g ' ( x x a x a which is usually known as l’Hospital’s rule.
+We illustrate these results by the following examples.
+Example 4: Using (56) lim ìïïí üïïýl o g xe =l im® 1{ / x} 1 .
+(57) ïïî ïïþx 2 1 - 2 x = 2 x® 1 x 1 Example 5: To evaluate lim (cos x )1/x (58) x® 0 we put y = (cos x )1/x and consider the behaviour of log .
+x (59) e cos loge y = x Then by (56) lim loge y = li m ìïïí üïïýl o g ce os x =l i® m -{ t =a}n 0 x.
+(60) x® 0 x® 0 ïïî ïïþ x x 0 1 Hence, since as x ® 0, loge y ® 0, we have y = (cos x )1/x ® 1.
+(61) Example 6: This example illustrates the repeated use of l’Hospital’s rule.
+For (by (56)) li®m t(an ) x -x lim æççs ÷÷eö c x2 1- ÷ x -s in = x çè 1-ø .c o s x ÷ (62) x 0 x® 0 MTH 281 MODULE 1 sec x 1- 0 when x = 0.
+Hence, we apply But 2 1 -c o s ixs of the form 0 l’Hospital’s rule again which gives lim æççs ÷÷eö c x2 1- ÷ æçç2 ÷÷ö s ec x tan x ÷ lim (2sec3 x) = 2.
+(63) çè ø-1 =c o 2s x ÷ çè ø = s in x ÷ x® 0 x® 0 The second application of L’Hospital’s rule could have been avoided by rewriting the right-hand side of (62) as lim æçççès ÷÷-1øeö c c ox=2s 1 x- ÷ ÷ lim æççççç ÷÷÷÷÷1ö -( c ÷ o)1 s -cs e2o csx xx2 = lim {(1 + cos x ) sec2 x} = x® 0 x® 0 çè ø x® 0 sec x = 2, (64) lim sec2 x + l im x® 0 x® 0 (using Theorem 1, Unit 1).
+Example 7: If f(x) and g(x) both tend to infinity as ® x , aw e may still apply l’Hospital’s rule by writing f ( =x ) ìïï üïï 1 / g ( x ) , (65) lim lim í ý x ®a ) g ( x x® a ïïî 1ïïþ / f ( x ) ìïï üïï 0 at x = a. where the ration 1 í/ ýg ( x ) is of the form 0 ïïî 1ïïþ / f ( x ) f ( x b )e comes either 0 0 or ¥ Similarly if ) g ( x ¥ as x ® ¥ we may write (putting x = 1/y) æ ö ìï æï ö1ü 1 f yççç ÷÷1÷ ïïï ï-ïï ÷ f ' çççèy ø ÷÷ lim f (= x ) lim è ø =l im ïïí ïïý y 2 =l im (66) x ® ¥ ) g ( x y® 0 g æçççèy 1 ÷÷øö ÷ ®y 0 ïïïïïïî ïï-ïïïïþ y12 1g ' æçççèy ÷ø ö÷÷ ®y 0 Hence, l’Hospital’s rule applies when a º ¥ .
+For example, li®m ¥x3 e x-( = ) 2 lim ìïïí üïïý x 3 =l im ìïïí üïïý 3 x2 =3 2 lim ïìïí ïüïý x ï ï ï ï ï ï x x® ¥ 2 ïî ïþe x x® ¥ 2 ïî ïþ2 xex x® ¥ 2 ïî ïþe x = 23 lim ìïïí üïïý 1 =0 (67) ï ï x® ¥ 2 ïî ïþ2 xex MTH 281 MATHEMATICAL M ETHODS 1 Similarly, if n > 0, it follows that n x lim (x 2 e - ) = 0, (68) x® ¥ and (by putting x = 1/y) that é ù lim êe - ú 1/y 2 = 0.
+(69) ê ú y® 0 êë úû yn Example 8: The use of l’Hospital’s rule may often be avoided by using series expansions.
+For example, æ ö çç x-÷ +... -x ÷3x 5 ÷ li®m s(in )x lim ççç ÷÷÷ 3!
+5!
+=l im æçç1 -÷ ö .
++.
+.
+x- 2x÷ 4 ÷ x = çç ÷÷ x çè ø = 31!, 5 !
+(7÷0 ) x 0 x® 0 ç ÷ ÷ x® 0 çè ø as found earlier.
+4.0 CONCLUSION In this unit, you have studied Taylor and Maclaurin series expressions; you have studied the important theorem that enables us to carry out series expansion.
+We have also used the series expansion in the determination of limit of some functions.
+5.0 SUMMARY In this unit, you studied: • Taylor and Maclaurin expansion • Applied the technique to determine the limit of some difficult functions.
+• That with clever application of Taylor’s expansion, the use of l’Hospital’s rules can be avoided in some functions.
+6.0 TUTOR-MARKED ASSIGNMENT sin x d 2 y- x dx dy - y = 0.
+1.
+If y = 1 e - prove that (1 – x2) 2 dx Hence verify the Maclaurin expansion 1 es -in = x 1 + x + 2 x2 + x33 + 5 x4… 2 4 MTH 281 MODULE 1 2.
+Prove that x + x!
++ x!
+(cos x sin x = x + !
+3 5 7 ) 3 5 7 and that 2 e- =x 1 + x2 + 2 x4 + x6 6 2e - x0 2 7.0 REFERENCES/FURTHER READING G. Gstephenson(1977).
+Mathematical Methods for Science Students.
+London and New York: Longman.
+K. A Stroud and Dexter J. Booth (2001).
+Engineering Mathematics 5th Edition.
+Palgrave.
+MTH 281 MATHEMATICAL M ETHODS 1 UNIT 5 NUMERICAL INTEGRATION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Trapezium Rule 3.2 Simpson’s Rule 3.3 Application of Simpson’s Rule 3.4 Series Expansion Method 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION To evaluate an integral in terms of known functions is often impossible.
+p dq For example the elliptic integral of the form I = 2 ò is not 0 2 1- s in1 q 2 easy to evaluate directly without recourse to numerical integration.
+In this unit, we shall apply the technique of trapezoidal rules and Simpson integration methods to solve numerically integral problems, we cannot evaluate quantitatively.
+2.0 OBJECTIVES By the end of this study, you should be able to perform numerical integration using the following techniques.
+• trapezoidal rule • simpson’s rules.
+3.0 MAIN CONTENT 3.1 Trapezium Rule As mentioned in earlier units the evaluation of an integral in terms of known functions is often impossible.
+Furthermore, in some cases the integrand may only be defined by a set of tabulated values.
+To meet the difficulties, some numerical procedure is required, which will give a good approximation to the value of the integral.
+Clearly one of the simplest methods of doing this is to interpret the integral MTH 281 MODULE 1 ò graphically as the area between the curve y =f(x), the x-axis, a f ( x) dx and the lines x = a, x = b, and to estimate this area as accurately as possible.
+Consider, for example, the curve y = f(x) as shown in Fig.
+3.1.
+Then to obtain an approximation y B’ y = f(x) A’ C’ A C B 0 a c b x Fig.
+3.1 to the required area we may draw in the straight lines A’C and C’B and evaluate the sum of the areas of the two trapeziums ACC’A’ and ‘CBB’C’.
+If now the point C is chosen to be the mid-point of the range (a, b) such that AC = CB = h, then { } ( ) area ACC’A’ = h (h AA '+ C =C +') f ( a ) (f1 ) a +b 2 2 2 and { }( ) h h a +b area CBB’C’ = ( CC '+ B =B + ') .f f ( b ()2 ) 2 2 2 Hence by adding (1) and (2) we have { ( ) } ò b f ( x ) dx ~h f ( a ) 2+ f +f ( b )a + b .
+(3) 2 2 a This formula, usually known as the trapezium rule, gives a good approximation to the value of the integral when the curve y = f(x) deviate only slightly from the straight lines A’C, C’B’.
+When deviations occur, however, the accuracy may usually be improved by dividing the area under the curve into a larger (even) number of trapezium of smaller width and applying (3) to each pair.
+As an example of the trapezium rule, we now consider the numerical evaluation of a simple integral whose value is known exactly.
+MTH 281 MATHEMATICAL M ETHODS 1 Example 1: If dx I = b f ( x ) dx ò , (4) ò = 3 a 1 x 2 then dividing the range of integral into two parts each of width h(= 1), we have by (3) 1 1 2 1 I ~ {2f ( 1+) 2 f +( 2 ) f =( 3 ) } ( 1 + + = 0.81.
+(5) 2 4 9 ) This is to be compared with the exact value of 2/3.
+A better approximation may be obtained by dividing the area under the curve into 1 ) and applying (3) to each pair.
+In this four parts each of width h(= 2 way we find I =.
+{+ 1 f+ 1( 1+) +2 +f ( 1 .
+5 ()6 )f ( 2 )} .
+{ f ( 2 )1 21 f ( 2.5) f ( 3=)} 2{ 2 } { } 2 2 1 2 1 1 1 2 1 1+ + + + + , (7) 4 2.25 4 4 4 6.25 9 = 0.70.
+3.2 Simpson’s Rule A better approximation to the area indicated in Fig.
+3.1 maybe obtained in the following way.
+Suppose x = c is the coordinate of the point C such that a = c- h, b = c + h. Then writing x = c + y, expanding by Taylor’s series, and integrating term-by-term we obtain b + f ( x ) dx f ( x ) dx ò f ( c + y( 8) )d y ò = c h ò = h a c- h - h ï ì y 2 y r üï = ò h (1ï) ( 2 ) ( r ) ï (9) í f ( c) +y f+ ( +c +) f+ ( c ) ... f ( c) ... dy ý ï 2 !
+r !
+ï - h ïî ïþ ìï h f ( c) h f ( c) h f ( c) üï 2 h ïíf ( c) + + + + + ... ... ïý , (10) = 2 ( 2ï ) 4 ( 4 ) 2 ( 2 r ) 3!
+5!
+( 2 r 1)!
++ ï ïî ïþ d fa t x = c. r where, in general, f(r)(c) is the value of r dx Now, since by Taylor’s series h f(2)(c)+…+ !h r f(r)(c)+… (11) f(c+h) = f(c)+hf(1)(c)+ !
+2 2 r MTH 281 MODULE 1 h f(2)(c)+…+ r r (- 1f()r h)( c)+… (12) f(c-h) = f(c)-hf(1)(c)+ !
+2 2 r !
+we also have f(c + h) = f(c - h) = 2 ìïïíf (c ) +f (+ hc2 )+h 4 f +h2 (( 2rc+ )) (.
+.4.
+)f (( 2 c r) ) ... üïïý (13) ïîï 2!
+4!
+( 2 r )!
+ïþï Hence neglecting terms involving h4 and higher powers of h in (10) an (13), and eliminating f(2)(c), we finally obtain Simpson’s formula h2 c ò b f ( x ) dx~ )2 h f (c ) + ) f( 2 ( (14) 3!
+a ìïï æ h çf ( c +h +) f- (- c h ) 2 f ( c ) ÷ ö ïïü , (15) ~ 22 híïïî f ( c )+ 3 !
+h ççè 2 ÷ ÷÷ø ýïïþ = h {f ( c h ) 4 f ( c) f ( c h )} 3 - + + + , (16) = { ( } h f ( a ) 4 f f ( ba )+b + + .
+(17) 3 2 ) The error involved here by approximating to the integral in this way is such that if { } ò = ( ) b h f ( a ) 4 f f ( ba )+b f ( x ) dx + + +E, (18) 3 2 a then 4 a h - , (19) E ~ - [ f (3 ) (b ) f ( 3 ( )] 180 ) d 3 fa t x = b and where, as before, f(3)(b) and f(3)(a) mean the values of 3 dx x = a respectively.
+As with the trapezium rule it is usually possible to obtain a more accurate result by first dividing the area under the curve between x = a and x = b into a larger (even) number of strips and then applying (17) to each successive pair.
+In this way, if f0, f1, f2, f3 … fn-1, fn are the values of f(x) at x = a, a + h, a+ 2h, …a +(n + 1)h, a + nh(= b), where n is an even integer, then MTH 281 MATHEMATICAL M ETHODS 1 b h {f0+ fn+4(f1,+ f3+…+fn-1,)+2(f2,+ f4 +…+ fn-2,)}.
+(20) ò ~ 3f ( x ) dx a For example, Simpson’s rule with five ordinates (i.e.
+four strips) is h {f0+ f4 + 4( f1,+ f3) + 2f2} (21) b ò ~ 3f ( x ) dx a (see Fig.
+14.2).
+y y = f(x) f0 f1 f2 f3 f4 h h h h 0 a b x Fig.
+3.2 3.3 Application of Simpson’s Rule Example 2: We now consider the numerical evaluation of the integral ò p q/2 d (22) I = 0 2 (1 -s 1iqn ) 2 using Simpson’s rule with five ordinates.
+This integral is the complete elliptic integral of the first kind K(1/ 2 ) whose tabulated value is 1.854.
+To apply Simpson’s rule we now divide the range of integration (0, p )/ 2 into four parts such that h = 8 p / and evaluate the integrand 1 2 1 f ( q) (=1 -s iqn ) - at the fi2v e points = 0, 8 p ,/ 4 p ,/ 8 3p / and 2 p /.
+2 The values are given below: 0 8 p / 4 p / 8 3p / 2 p / f( ) 1.000 1.0387 1.1547 1.3206 1.4142 Hence using (21) we have ò p /q2 d 0 2 (1 -s qin1 ) 2 MTH 281 MODULE 1 1 .
+8p {1+1.4142+4(1.0387+1.3206) +2 (1.1547)} (23) ~ 3 p × 14.1608, = 24 = 1.854.
+(24) Example 3: Given the following nine pairs of (x, y) values x 1 2 3 4 5 6 7 8 9 y 2.061 2.312 2.819 3.106 3.67 0 4.721 6.10 3 7.950 9 .942 we may easily estimate using (20).
+Since h =1 we have 1 {2.061 + 9.942 + 4(2.312 + 3.106 + 4.721 + 7.950) + 9 ò ~ 3y dx 1 2(2.819 + 3.670 + 6.103)} = 36.514 (25) 3.4 Series Expansion Method When a function f(x) can be expanded as a power series in x, term-by- term integration is permissible (see Chapter 5, 5,10) and the evaluation of òf ( xis ) rdexd uced to the summation of a series.
+This is illustrated by the following examples.
+Example 4: To evaluate = ò 1 s in x (26) I dx x 0 we use the Maclaurin expansion x + x!
++ x!
++ … (27) sin x = x - !
+3 5 7 3 5 7 and write I =1 .-.
+ò.+ d 1 -x æçççè + ÷ 3x !2 x54 !6x 7 !
+÷ ÷ ÷öø (28) 0 = éê x - +x - 3x +5 x 7 .. .
+ùú1 (29) ê 18 600 35280 ú ë û 0 MTH 281 MATHEMATICAL M ETHODS 1 é ù = ê11 -ú .
+1.+ .
+ë û~1 80 .690406 .
+(30) Greater accuracy maybe obtained by summing more terms of the series.
+Example 5: To evaluate 2 3 I =(8 + òx ) d x (31) 0 we expand the integrand by the binomial theorem to give ( )3 2 ìïï üïï x I =2 2+ 1 dxò í ý (32) ï ï 2 ( ) 0( )ïî ïþ ( ) = +2 +2 -1 +ò 2 ìïïí 1 x 13 51 1 x .. .üïïý d x .
+(33) ï 2 2 2 2 2!
+2 ï 0 ïî ïþ Hence integrating term-by-term we have é ù 2 I =2 2+ x- +.. .
+ê ú x4 x 7 (34) êë úû 64 3584 0 é ù 1 1 = +2 -2 + 2 ... ê ú ë û~ 46 .2285 .
+(35) Example 6: The elliptic integral discussed in Example 2 may be also be evaluated by the series expansion method.
+To do this we expand the integrand by the binomial theorem to give p q ò /2 d (36) I = 0 2 (1 -s 1iqn ) 2 = ( ò) 1 p 3/ 2ì 1 ïïïí ï3 1q÷çè 5 + 2ø -2è - 2 ø+ 1 !
+- s2 æççi+ n 3 ö!
+æ 2ö ÷÷÷ ( -) (-2 )- 2 ( -2 ) -2( 2) ( )ççç sin 2 q 2 ÷÷÷÷ 0 ï ï î æ ö ï ü 3 çç- ÷ + s iqn 2.
+..q d ÷÷ï ý ï .
+(37) çè ïø ï 2 ÷ ïþ Hence, integrating term-by-term, and using Wallis’s formula - - - p , (38) 2 n sin dx ò = ( n 1)( n 3)( n 5)...3.1 n ( n- 2 - ).
+( 2 n 4 )...4.2 0 MTH 281 MODULE 1 where n is an even integer, we have { } p 1 9 25 I =1 + + + + .
+..(.3 9) 2 8 256 2048 Taking the first four terms only, we find I ~ 1.843, which is in close agreement with the exact value of 1.845 (to three places of decimals).
+In this example, the term-by-term integration should really be justified since the series in (37) is not a power series in .
+However, as this requires the concept of uniform convergence in Unit 3 we shall accept the validity of it here without proof.
+4.0 CONCLUSION Numerical application to integration has made calculation to be very easy.
+More of these methods will be considered in the course on Numerical analysis.
+5.0 SUMMARY You have studied the application of trapezoid and Simpson’s rule to numerical integration of functions.
+Of particular importance is solution of elliptic equation, which proved to be very difficult to be integrated analytically.
+The method should be learn and demonstrated by anybody who is interested in further research in mathematics.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Evaluate the following integrals p q q a) 2 ò sin ) d 0 p + q q 1 4 sin d b) 2 2 p ò 0 dx c) 3 ò 2 1 +x 4 p + q q d) ò ( 3 cos ) d 0 MTH 281 MATHEMATICAL M ETHODS 1 2.
+Using Simpson’s rule estimate 2 ò ydx 0 from the pair of (x, y) values X 0 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00 Y 1.31 2.41 3.04 2.97 2.76 1.80 .075 0.13 0.01 7.0 REFERENCES/FURTHER READING G. Gstephenson (1977).
+Mathematical Methods for Science Students.
+London and New York: Longman.
+K. A Stroud and Dexter J. Booth (2001).
+Engineering Mathematics 5th Edition.
+Palgrave.

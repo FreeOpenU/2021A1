@@ -1,0 +1,494 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH282: COURSE TITLE: MATHEMATICAL METHODS 11 1  MTH282: MATHEMATICAL METHODS 11 Course Team: Dr. Bankole Abiola (Developer/Writer) – NOUN Dr. S.O.
+Ajibola (Editor) – NOUN Dr. Bankole Abiola (Programme Leader) – NOUN Dr S.O.Ajibola (Course Coordinator) – NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA 2  MTH 282 - MATHEMATICAL METHODS 11 CONTENTS MODULE 1- REVIEW OF VECTOR THEORY UNIT 1- VECTOR ALGEBRA 1.0 Introduction.
+2.0 Objectives 3.0 Main Content 3.1Vector Algebra 3.1.1 Definitions.
+3.1.2 Addition and Subtraction of Vectors 3.1.3 Unit Vectors 3.1.4 Rectangular Unit Vectors 3.1.5 Component of Vectors.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References / Further Reading.
+3  1.0 INTRODUCTION The notion of vector has proved to be of greatest value in physics and mathematics.
+It is one of the most important concepts that would be studied in this course.
+It will be found to recur in a great variety of applications.
+A full appreciation of the value of vectors can come only after considerable experience with them.
+Two aspect of their usefulness worth emphasizing are the following: (1) Vectors enable one to reason about problems in space without use of co- ordinates axes.
+This is particularly true because the fundamental laws of physics do not depend on the particular position of co-ordinates axes in space.
+For example the Newton’s second law, that has the form: F = ma Where F is the force vector and a is the acceleration vector of a moving particle of mass m. does not necessarily depend on co-ordinate axis.
+(2) Vector provides an economical “Short hand” for complicated formulas.
+For example the condition that points P,P ,P ,and,P lie in a plane can be written in the 1 2 3 4 concise form as: a.b · c =0 ﬁ Where a , b and c are vectors represented by the directed segment,PP 1 2 ﬁ ﬁ PP and PP respectively.
+The significant of the dot (.)
+and cross ( · ) will be 1 3 1 4 explained later in this course.
+The conciseness of vector formulae makes vector useful both for manipulation and understanding.
+2.0 OBJECTIVES At the end of this unit you should be able to: (1) define vectors and gives example (2) define unit vectors, rectangular vectors, and resolve vectors into components (3) perform algebraic functions on vectors.
+(4) solve related problems on vectors.
+4  3.0 MAIN CONTENT 3.1 VECTOR ALGEBRA 3.1.1 Definition 1: A vector in space is a combination of a magnitude (positive real number) and a direction.
+ﬁ A vector can be represented by a directed line segment PQ in space.
+It is convenient to represent vectors by bold letters such as a, b, c… Definition 2: Two vectors are said to be equal if their magnitude and directions are the same.
+Definition 3: A zero vector is a vector whose magnitude is zero.
+We can represent ﬁ zero vectors by a degenerated line segment PP 3.1.2.
+Addition and Subtraction of Vectors Given two vectors: a, b, then we can obtain a third vector c=a + b and if we write b = c – a we have defined the operation of subtraction.
+Addition and Subtraction of Vectors obey the following laws: (1) a + b = b + a [Commutative law of addition] (2) a + ( b + c) = (a + b) + c [ Associative law] (3) a + b = c iff b = c – a (4) a + 0 = a (5) a – a =0 Definition 4: If h is a number and a is vector then the expression ha is defined as vector whose magnitude is h .
+Thus ha = h.a Two vectors a, b, are said to collinear ( or linearly dependent) if there are scalars h ,h , not both zero, such that 1 2 h a + h b =0 1 2 5  This is equivalent to asserting that a and b are represented by parallel line segments.
+Definition5: Three vectors a, b, c are said to be coplanar (or linearly dependent) if there are scalar k ,k ,k not all 0 such that: 1 2 3 k a + k b +k c =0 1 2 3 In this case a, b, c can be represented by segments in the same plane.
+Let a and b be no collinear.
+Then every vector c coplanar with a and b can be represented in the form c = k a+k b 1 2 For one and only one, choice of, k ,k .
+1 2 3.1.3 Unit Vector: Unit vectors are vectors having unit length.
+Let a be any vector a with length a > 0 then is a unit vector denoted by aˆ having the same direction a as a Then a=aaˆ 3.1.4 Rectangular Unit Vectors: The rectangular unit vectors i.j,and,k are unit vectors having the direction of the positive x,y,and,z axes of a rectangular co-ordinates system.
+We use right-handed rectangular co-ordinate system unless otherwise specified.
+3.1.5.
+The Component of a Vector Any vector in 3- dimensions can be represented with initial point at the origin 0 of rectangular co-ordinates systems.
+Let (A ,A ,A ) be the rectangular co-ordinates of the terminal point of A with initial 1 2 3 point at 0.
+The vectors Ai, A j and A k are called the rectangular component 1 2 3 vectors.
+The sum of Ai , A j and A k i.e 1 2 3 A=Ai+ A j+ A k is a vector.
+The magnitude of A is 1 2 3 A = A2 + A2 + A2 1 2 3 In particular, if r = xi+ yj+ zk 6 then r = x2 + y2 + z2 .
+SELF ASSESSMENT EXERCISE 1.
+Prove that for every four vectors x,y,z,and,w in space, scalars k ,k ,k ,and,k 1 2 3 4 Not all 0, can be found such that k x+k y+k z+k w= 0 1 2 3 4 ﬁ 2.
+Let O, A, B be points of space.
+Show that the mid-point M of the segment AB is ﬁ 1 ﬁ ﬁ located by the vector OM = (OA+OB) 2 3.
+Prove that the medians of a triangle intersect in a point which is a trisection point of each median.
+4.0 CONCLUSION In this unit you have learnt about vectors, vector addition and subtraction.
+In addition we also consider component of vectors and unit vectors as a special kind of vectors.
+You are to read carefully and master every bit of the material in this unit for you to follow the material in the next unit 5.0 SUMMARY Recall that in this unit we defined a vector as quantities having magnitude and directions.
+Two vectors are said to be equal if the directions and magnitudes are equal.
+Also we defined a unit vector as having magnitude equal to one.
+Finally any vector in 3-dimension can be represented with initial point at the origin 0 of a rectangular co- ordinates systems.
+Thus if (A ,A ,A ) represent the rectangular co-ordinates of the 1 2 3 terminal point of A then: A= Ai+ A j+ A k is a vector.
+1 2 3 Magnitude of this vector A is defined A = A2 + A2 + A2 in particular if 1 2 3 r = xi+ yj+ zk then r = x2 + y2 + z2 7  You may wish to answer the following Tutor -Marked Assignment Questions.
+6.0 TUTOR -MARKED ASSIGNMENT 1.
+Show that addition of vectors is commutative.
+2.
+A car travels 3km due north, then 5 km northeast.
+Represent these displacements graphically and determine the resultant displacement by (1) graphical method (2) Analytical method.
+3.
+If A,B,and,C are non-coplanar vectors andx A+ y B+ z C = x A+ y B+ z C, 1 1 1 2 2 2 prove that it is necessary that x = x ,y = y ,z = z 1 2 1 2 1 2 4.
+Find the unit vector in the direction of the resultant of vectors A= 2i- j+k, B =i+ j+2k C =3i- 2j+4k.
+7.0 REFERENCES /FURTHER READING 1) Wilfred Kaplan (1959).
+: Advanced Calculus.
+Addison –Wesley Publishing Company, Inc, Reading Massachusetts, U.S.A. 2) Murray R. Spiegel (1974) Theory and Problems of Advanced Calculus, Schaum’sOutline Series, McGRAW-HILL BOOK COMPANY New-York.
+3) G.Stephenson (1977): Mathematical Methods for Science Students Longman 8  UNIT 2- VECTOR ALGEBRA-PRODUCT OF VECTORS 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Scalar Product 3.2 Vector Product 3.3 Triple Product 3.4 Axiomatic Approach to Vector Analysis.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References /Further Reading 1.0 INTRODUCTION In this unit you will learn about product of vectors.
+We shall differentiate between scalar product and vector product.
+These two concepts are very useful in vector analysis because many physical phenomena can be explained in terms of either scalar product or vector products.
+For example, work done can be calculated as a scalar product of displacement and the applied force.
+This implies that if we let F represent force and d represent the displacement then work done (W) can be defined as W=F.d Other physical interpretation of vector product will be discussed in this unit.
+You are advised to read this unit very carefully.
+2.0 OBJECTIVES At the end of this unit you should be to: 1. define scalar product of vectors and give examples 2. define vector product and give examples 3. solve accurately all related exercises in this unit.
+3.0 MAIN CONTENT Two types of vector products are recognised, namely: 1) Scalar Product 2) Vector Product In what now follows, we shall define and explain scalar product of vectors.
+9 3.1 Scalar Product Let a and b be vectors then the scalar product of a and b is defined as a.b = a b cosq ……………………………………………………….
+(1) q is the angle between them.
+The quantity b cosq which appears in (1) can be interpreted as the component of b in the direction of a.
+We can write it as compb =bcosq …………………………………………………………(2) a This component is a scalar which measures the length of the projection of b on a line parallel to a.
+The notion of component is basic for application of vectors in mechanics.
+For example, the velocity vector or force vector can be described by giving its component in three mutually perpendicular directions.
+If a constant force F acts on an object ﬁ moving from A to B along the segmentAB, the only component of F along AB does work.
+The work done is precisely the product of this component by the distance moved, thus: Work= (force component in the direction of motion).
+(distance) Hence Work = Fcosq .AB = F.AB.………………………………………(3) Scalar product obeys the following laws: (1) a.b = b.a (commutative) (2) a.
+(b+c) = a.b+a.c (Distributive law) (3) a.
+(kb) = (ka).b = k(a.b) where k is a scalar.
+We make the following inference from the scalar product of vectors.
+(i) If a.b =0 then a is perpendicular to b.
+(ii) It is not permitted to cancel in an equation of the form a.b=a.c and conclude that b=c.
+For equation a.b=a.c it implies only that a,b=a.c=a.
+(b-c)=0 that is a is perpendicular to b-c We note that: 10  i.i =1, j.j =1,and,k.k =1 and i.j = 0, j.k = 0,and,k.i = 0 …(4) Given that: a = a i+a j+a k,and,b =bi+b j+b k ….
+(5) 1 2 3 1 2 3 Then: a.b = (a i+a j+a k).
+(bi+b j+b k) 1 2 3 1 2 3 = a b +a b +a b ….
+(6) 1 1 2 2 3 3 SELF ASSESSMENT EXERCISE 1.
+Show that: (Ai+ A j+ A k).
+(Bi+B j+ B k) = A B + A B + A B 1 2 3 1 2 3 1 1 2 2 3 3 3.1.1 Direction Cosines Recall from unit1 that if a is a vector of length 1 i.e.
+a =1 then a will be termed a unit vector.
+In this case denote: a = a i+a j+a k x y z Then a = a.1=1.1cosa = cosa .
+where a is the angle between a,and,i.
+This is the x angle between a and the positive x direction.
+In a similar manner a =cosb ,a = cosg where b ,and,g are the angles between a and the y,and,z, y z directions respectively.
+From a.b= a b cosq then a b +a b +a b cosq = x x y y z z ….
+(7) a2 +a2 +a2 b2 +b2 +b2 x y z x y z SELF ASSESSMENT EXERCISE 1.
+Given that u =i- j+k,v =i+ j+2k,w=3i- k evaluate (a) u+v+w,(b),2u- v,(c),u.v 11  3.2.
+The Vector Product The vector product of a and b in that order is a vector c = a· b which is 0 if a and b are collinear and otherwise is such that: c = absinq The vector product satisfies the following laws: (1)a· b = - (b· a) (Anti- commutative law) (2) a· (b+c) = a· b+a· c (Distributive law) (3) a· (kb) = k(a· b) (4) a· a =0 (5) i· j = k, j· k =i,k· i = j (6) i· i =0, j· j =0,k· k = 0 a = a i+a j+a k x y z (7) Let b =b i+b j+b k x y z Then, i j k a· b = a a a x y z b b b x y z (a b - a b )i+(a b - a b )j+(a b - a b )k. ..(8) y z z y z x x z x y y x Also you should note that: a· b = area of parallelogram with sides a and b SELF ASSESSMENT EXERCISE 12 Given the vectors a = 2i- j, b =i+ j+k c = - 2i+k Evaluate the following (i) a· b (ii) c· b (iii) (a· b)· c (iv) a.
+(a· b) (v) a· (a· b) 3.3 Triple Product In this section, we shall consider (1) The Scalar Triple Product (2) The Vector Triple Product.
+3.3.1 The Scalar Triple Product The scalar a· b.c is known as the scalar triple product a, b, c, in that order.
+We need to remark here that parentheses are not needed since a· (b.c) would have no meaning.
+The scalar triple product satisfies the following laws: (1) a· b.c = 0 if and only if a,b,c, are coplanar (2) a· b.c = volume of parallelepiped with edges a, b,and c (3) a· b.c = a.b· c. a a a x y z (4) axb.c = b b b x y z c c c x y z (5) a· b.c = - b· a.c = - b.a· c SELF ASSESSMENT EXERCISE Evaluate the following: (1) (i) i.j· k (ii) (i+ j).k + j (2) Given the vectors u =i- 2j+k v =3i+k w= j- k Evaluate, (a) u.v· w (b) w· v.u (c) (u+v).
+(v+w)· w 13  3.4 The Vector Triple Products.
+The expression (a· b)· c and a· (b· c) are known as vector triple products.
+Note that the parentheses are necessary because for example; (i· i)· j = 0 while i· (i· j) =i· k = - j The following identities are to be noted (1) a· (b· c) = (a.c)b- (a.b)c (2) (a· b)· c = (c.a)b- (c.b)a We can prove the identity stated in (1) i.e.
+a· (b· c) = (a.c)b- (a.b)c a = a i+a j+a k x y z Proof: Let b =b i+b j+b k x y z c = c i+c j+c k x y z Taking component i , then 1 0 0 i.a· (b· c) = a a a x y z b b b b b b y z z x x y c c c c c c c z z x x y = a (b c - b c )- a (b c - b c ) y x y y x z z x x z = b (a c +a c +a c )- c (a b +a b +a b ) x x x y y x z x x x y y z z = i.
+[(a.c)b- (a.b)c] …(9) We can similarly prove the above for y and z components.
+3.4 Axiomatic Approach to Vector Analysis: Recall from our previous section (unit 1 section 3.1.5) that we can represent a vector: 14  r = xi+ yj+ zk is determined when its components (x,y,z) relative to some coordinate system are known.
+In adopting an axiomatic approach it is natural for us to make the following: Definition.
+A 3 dimensional vector is an ordered triplet of real numbers (A ,A ,A ).
+1 2 3 With the above definition, we can define equality, vector addition and subtraction, e.t.c.
+Let A= (A ,A ,A ) and B = (B ,B ,B ) then 1 2 3 1 2 3 1.
+A=B if and only if A = B ,A = B ,A = B 1 1 2 2 3 3 2.
+A+B = (A + B ,A +B ,A +B ) 1 1 2 2 3 3 3.
+A-B = (A - B ,A - B ,A - B ) 1 1 2 2 3 3 4.
+0 = (0, 0, 0) 5. mA= m(A ,A ,A ) = (mA ,mA ,mA ) 1 2 3 1 2 3 6.
+A.B = A.B + A .B + A .B 1 1 2 2 3 3 7.
+Length or magnitude of A= A = A.A = A2 + A2 + A3 1 2 3 From these we obtain other properties of vectors, such as A+ B = B+ A, (A+ B)+C = A+(B+C),A.
+(B+C) = A.B+ A.C. By defining the unit vectors: i = (1,0,0) j =(0,1,0) k = (0,0,1) We can show that A= Ai+ A j+ A k 1 2 3 In like manner we can define A· B = (A B - A B ,A B - A B ,A B - A B ) 2 3 3 2 3 1 1 3 1 2 2 1 After this axiomatic approach has been developed we can interpret the result geometrically or physically.
+For example we can show that A.B=ABcosq and A· B = ABsinq 4.0 CONCLUSION: In this unit we have learnt about scalar multiplication and cross multiplications of vectors .We have also considered vector triple products .The application of these concepts will be apparent as we proceed further in this course.
+15  5.0 SUMMARY: In summary we recap the following about vector products, namely: 1) Given that A and B are vectors then the scalar product of A and B is defined as, A.B= A B cosq 2.
+If A=Ai+ A j+ A k , and B= Bi+ B j+B k then 1 2 3 1 2 3 A.B= A B + A B + A B 1 1 2 2 3 3 3.
+If A.B=0 and A and B are not null vector, then A and B are perpendicular.
+i j k 4.
+Also A· B = A A A 1 2 3 B B B 1 2 3 5.
+A· B =the area of parallelogram with sides A and B.
+6.
+If A· B =0 and A and B are not null vectors, then A and B are parallel.
+7.
+A· B = - B· A We also note the following about triple products of vectors.
+Dot and cross multiplication of three vectors A , B and C may produce meaningful products of the form (A.B) C, A.
+(B· C) and A· (B· C).The following laws are valid: (a) (A.B)C„ A(B.C) in general (b) A· (B· C) „ (A· B)· C (c) A· (B· C) = (A.C)B- (A.B)C (d) (A· B)· C = (A.C)B- (B.C)A 6.0 TUTOR- MARKED ASSIGNMENT 1.
+Prove A.
+(B+C) = A.B+ A.C 2.
+Evaluate (A+B).
+(A- B) if A= 2i- 3j+5k and B =3i+ j- 2k 3.
+Find the unit vector perpendicular to the plane of the vectors A=3i-2j+4k and B= i+j-2k 16 4.
+Given that A=2i+j-3k, B=i-2j+k, C=-i+j-4k, then find (i) A.
+(B· C) (ii) C. (A· B) 7.0 REFERENCES/FURTHER READING Stephenson.
+(1977) .Mathematical Methods for Science Students.
+London: Longman Group Limited.
+Murray, R. Spiegel (1974) .Advanced Calculus.
+Schaum’s Outline Series.
+McGraw- Hill Book Company.
+17  UNIT 3: VECTOR FUNCTIONS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Vector Function of One Variable 3.2 Limit and Continuity of Vector Function 3.3 Derivatives of a Vector Function 3.4 Geometric Interpretation of Vector Derivatives 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit you shall learn about vector functions.
+You will also learn limit and continuity of vector functions.
+You will also find derivatives of vectors and this will allows you to determine vector velocity.
+Finally we shall give geometric interpretation of vector derivatives.
+2.0 OBJECTIVES At the end of this unit you should be able to: define limit and continuity of vector functions - find the derivatives of vector functions - give a geometric interpretation to vector derivatives and be able to determine vector velocity.
+- solve correctly all related problems on vector functions.
+3.0 MAIN CONTENT 3.1 Vector Function of One Variable Given an intervalt £ t £ t , suppose we assign a vector u in space, then u is said to 1 2 be given a vector function of t over that interval.
+For example u =t2i+t3j+sintk Where i, j,k form a triple of mutually perpendicular unit vectors.
+If a co-ordinate system is chosen in space then the vector u can always be expressed in the form u =u i+u j+u k x y z Where u ,u ,and u , are the corresponding components.
+These components will x y , z themselves depend on t. 18  Suppose the axes are fixed independent of t, then we can write u = f(t), u = g(t) and u = h(t), t £ t £ t x y z 1 2 Thus a vector functions of t, determines three scalar functions of t. conversely, if f(t),g(t) and h(t) are three scalar function of t defined on the interval, t £ t £ t 1 2 then the vector u = f(t)i+ g(t)j+h(t)k is a vector function of t. 3.2 Limit and Continuity of Vector Function The vector function u =u(t) is said to have a limit v as t approachest .
+This o implies that limu(t) = v if u(t)- v <e whenever t - t <d .
+o tﬁ t o The implication of this is that the difference between u(t) and v can be made arbitrarily small for t sufficiently close to t 0 Continuity: The function u =u(t) is said to be continuous at the value t if one 0 has limu(t) =u(t ) 0 tﬁ t 0 We can establish by prove that u(t) is continuous at a value t , if and only if its o component u ,u ,and,u are all continuous.
+Also given two vectors x y z u (t),and,u (t) such that they are both continuous functions for t £ t £ t then the 1 2 1 2 functions: u (t)+u (t), u (t).u (t) and u (t)· u (t) are continuous functions of t over the 1 2 1 2 1 2 defined interval.
+3.3 Derivative of a Vector Function 1.
+Velocity Vector: The derivative of the vector function u =u(t) is defined as a limit.
+du u(t +D t)- u(t) D u = lim = lim dt D tﬁ 0 D t D tﬁ 0 D t We can define the above in terms of component as follows: u(t +D t)- u(t) =[f(t +D t)- f(t)]i+[g(t +D t)- g(t)]j+[h(t +D t)- h(t)]k 19 Hence on dividing by D t and letting D t ﬁ 0 one finds du = f ¢(t)i+ g¢(t)j+h¢(t)k dt du du du = x i+ y j+ z k dt dt dt Therefore to differentiate a vector function, one differentiates each component separately.
+3.4 Geometric Interpretation Let S be the distance traversed by P from t =t up to time t, then 1 ds = f ¢(t)2 + g¢(t)2 +h¢(t)2 dt dx dy dz = ( )2 +( )2 +( )2 dt dt dt ﬁ Let u =OP the position vector of the moving point P, then the vector ﬁ v = (d /dt)OP is the tangent to the curve traced by P and has at each point a magnitude du v = = f ¢(t)2 + g¢(t)2 +h¢(+)2 dt The conclusion drawn from above is that v is precisely the velocity vector of the moving point P for v is the tangent to the path and has magnitude v = ds/dt (speed) and clearly points in the direction of motion.
+We then have the following rule: d ﬁ OP =velocity of P, where 0 is a fixed reference point.
+dt Finally we consider the following differentials: Given that A(x,y,z) = A (x,y,z)i+ A (x,y,z)j+ A (x,y,z)k 1 2 3 Then ¶ A ¶ A ¶ A dA= dx+ dy+ dz, is the differential of A.
+¶ x ¶ y ¶ z 20  Remarks: Derivatives of products obey rules similar to those for scalar functions.
+However when cross product are involved the order may be important.
+Some examples are: d dA df (a) (fA) =f + A dx dx dx ¶ ¶ B ¶ A (b) (A.B) = A.
++ .B ¶ x ¶ x ¶ x ¶ ¶ B ¶ A (c) (A· B) = A· + · B ¶ z ¶ z ¶ z 3.3.1 Solved Problems: 1.
+Suppose u = rcos(wt)i+rsin(wt)j where r and w are constants.
+Let the point P moves according to the equations x = rcos(wt), y = rsin(wt) which represent the circle x2 + y2 = r2 in the xy-plane.
+The polar angle q of P at time t is q = wt.
+Find the angular velocity, the vector velocity and the speed of the movement.
+Solution: The angular velocity of P dq = = w dt 2.
+Vector velocity: dv dx dy v = = i+ j= - rwsin(wt)i+rwcos(wt)j dt dt dt 3.
+Speed is ds = r2w2sin2(wt)i+r2w2cos2(wt) = rw,w‡ 0 dt dr dr d2r Problem 2: If r = (t3 +2t)i- 3e- 2t j+2sin5tk, Find (a) (b) , (c) dt dt dt2 d2r (d) ,at t=0 and give a possible physical significance.
+dt2 Solution: 21  d d d (a) (t3 +2t)i + (- 3e- 2t)j+ (2sin5t)k dt dt dt = 3t2 +2)i+6e- 2t j+10cos5tk At t=0 dr/dt = 2i+6j+10k (b) From (a) dr/dt = (2)2 +(6)2 +(10)2 = 140 = 2 35 at t=0.
+d2r d dr d (c) = ( ) = {(3t2 +2)i+6e- 2t j+10cos5tk) = 6ti- 12e- et j- 50sin5tk dt2 dt dt dt At t=0 d2r/dt2= - 12j (d) From (c) d2r/dt2 =12 at t=0.
+If t represents time, these represent respectively the velocity, magnitude of the velocity, acceleration and magnitude of the acceleration at t=0 of a particle moving along the space curve x =t3 +2t y = - 3e- 2t, z = 2sin5t 4.0 CONCLUSION: In this unit you have learnt about vector function, limit and continuity of vector functions derivatives of vectors and geometrical interpretations of vector derivatives.
+In the next unit we are going to extend these derivatives into partial derivatives and apply the results in the orthogonal curvilinear co-ordinates.
+5.0 SUMMARY: We now recap what you have learnt in this unit as follows: (1) Given an intervalt £ t £ t , a vector function u can be assigned such that 1 2 u =u(t).For example, u(t) =t2i+sintj+cos2tk is a vector function of t. (2) We can define a limit of the vector function as: limu(t) = v if u(t)- v <e whenever t - t <d .
+This implies that the 0 difference between u(t) and v an be made arbitrarily small for t sufficiently close to t 0 (3) We define continuity of u(t) as: limu(t) =u(t ) 0 tﬁ t 0 If u(t) =u (t)i+u (t)j+u (t)k then we can prove that u(t) is continuous if and x y z only if all the components of u(t) are continuous.
+(4) We define derivatives of vectors as follows: 22 If u(t) =u (t)i+u (t)j+u (t)k then x y z du(t) du (t) du du = x i+ y j+ z k dt dt dt dt We also give a geometric interpretation of the derivatives of vectors.
+6.0 TUTOR -MARKED ASSIGNMENT d dB dA 1.
+Prove that (A.B) = A.
++ ..B where A and B are differentiable functions of du du du u.
+2.
+If A= x2sin yi+ z2cosyj- xy2k, find dA 3.
+A particle moves along a space curve,r = r(t), where t, is the time measured from some initial time.
+If v = dr/dt = ds/dt is the magnitude of the velocity of the particle (s is the arc length along the space curve measured from the initial position) , prove that the acceleration a of the particle is given by: dv v2 a = T + N dt r Where T and N are unit tangent and normal vectors to the space curve and d2r - 1 d2x2 d2y2 d2z2- 1/2 r = =   +  +   ds2  ds2   ds2   ds2     ¢ f (r) 4.
+Prove that grad f(r) = r, where r = x2 + y2 + z2 and f ¢(r) = df /dr is r assumed.
+7.0 REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) Longman London and New York 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+23  MODULE TWO – DIFFERENTIAL OPERATORS Unit 1- THE OPERATOR DEL ((cid:209) ) 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Operator Del ((cid:209) ) 3.2 Gradient of f (x,y,z) 3.3 Interpretation of Gradient of f (x,y,z) 3.4 Illustrative Examples.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References / Further Readings 1.0 INTRODUCTION.
+In this unit you will learn about certain differential operations which can be performed on scalar and vector fields.
+These operations have wide-ranging applications in the physical sciences.
+The most important operations are those of finding the gradient of a scalar field and the divergence and curl of a vector field.
+Central to all these differential operations is the vector operator (cid:209) which is called Del (or sometimes, nabla) which e shall deal with in this unit.
+2.0 OBJECTIVES At the end of this unit you should be able to: -define the Operator Del ((cid:209) ) - apply the Operator in finding gradient of function f (x,y,z) -give physical interpretation to gradient of f (x,y,z) - solve correctly exercises involving the use of gradient of 3.0 MAIN CONTENT 3.1 Operator Del ((cid:209) ) Consider the operator (cid:209) (del) defined by: ¶ ¶ ¶ (cid:209) = i+ j+ k ..(1) ¶ x ¶ y ¶ z Equation (1) is called operator Del.
+It has a lot of physical application in vector analysis as we shall see shortly.
+Now if f (x,y,z) and A(x,y,z) have continuous first partial derivatives in a region we can define the gradient of f (x,y,z) (1) Gradient: The gradient of f (x,y,z) is defined by: 24  ¶ f (x,y,z) ¶ f (x,y,z) ¶ f (x,y,z) gradf =(cid:209) f = i+ j+ k ¶ x ¶ y ¶ z 3.2 Interpretation: One interesting application of gradf can be view as follows: Let f (x,y,z) = c .. (2) Be equation of a surface then, (cid:209) f is normal to this surface.
+To see this let f (x,y,z) b a scalar field.
+Consider the differential defined by: dr = dxi+dyj+dzk … (3) The corresponding differential in f (x,y,z) is ¶ f ¶ f ¶ f df = dx+ dy+ dz … (4) ¶ x ¶ y ¶ z = (cid:209) f.dr ….
+(5) Now if f = c then df = 0 therefore (cid:209) f.dr = 0 … (6) Hence (cid:209) f is normal to the surface given by the equation f (x,y,z) = c Illustrative Examples: (1) Find the gradient of the scalar field f = xy2z3 Solution: (cid:209) f = y2z3i+2xyz3j+3xy2z3k Example 2: Given the function f (x,y,z) = x2y+ yz at the point (1, 2,-1) find it’s rate of change with distance in the direction a =i+2j+3k.
+At this same point, what is the greatest possible rate of change with distance and in which direction does it occur?
+Solution: Gradient of f is given by (cid:209) f =(cid:209) (x2y+ yz) = 2xyi+(x2 + z)j+ yk Now at the point (1, 2,-1), (cid:209) j = 4i+2k 25 1 The unit vector in the direction of a is aˆ= (i+2j+3k),so the rate of change of 14 f with distance s in this direction is df 1 10 =(cid:209) f.aˆ = (4+6) = ds 14 14 From the above discussion, at the point (1, 2,-1) df /ds will be greatest in the direction of (cid:209) f = 4i+2k and has the value (cid:209) f = 20 in this direction.
+The gradient obeys the following laws: grad(f + g) = gradf + gradg grad(fg) = fgradg + ggradf In addition to these, we note that the gradient operation also obey the chain rule as in ordinary differential calculus, i.e.
+if f and j are scalar fields in some region R then ¶ f (cid:209) [f (j )]= (cid:209) j ….
+(7) ¶ j 4.0 CONCLUSION: In this unit you have learnt about gradient of vector and scalar fields.
+In the next unit we are going to learn about divergence of a vector field still relying on the operator Del.
+It is very important for you to learn this operator very well before you make any meaningful progress beyond this point.
+5.0 SUMMARY: Recall that you have learnt in this unit the following: 1) The operation Del ((cid:209) ) is defined as ¶ ¶ ¶ (cid:209) = i+ j+ k ¶ x ¶ y ¶ z 2) If f (x,y,z) is a scalar field then the gradient of f (x,y,z) is defined as ¶ f ¶ f ¶ f gradf = i+ j+ k ¶ x ¶ y ¶ z 3.
+The corresponding differential of f (x,y,z) is given as ¶ f ¶ f ¶ f df = dx+ dy+ dz ¶ x ¶ y ¶ z = (cid:209) f.dr Where 26 dr = dxi+dyj+dzk 5.
+If f (x,y,z) = c then df = 0 this implies that (cid:209) f.dr = 0, hence (cid:209) f is normal to the surface given by f (x,y,z) = c 6.0 TUTOR- MARKED ASSIGNMENT 1.
+If f = x2yz3 and A=xzi- y2 j+2x2yk find (i) (cid:209) f (ii) (cid:209) .A 2.
+Prove that (cid:209) f is a vector perpendicular to the surface f (x,y,z) = c where c is a constant.
+3.
+If f = 2x2y- xz3 find (cid:209) f and(cid:209) 2f 7.0 REFERENCES/ FURTHER READING 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+27 UNIT 2 DIVERGENCE OF A VECTOR FIELD 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 The Divergence of a vector field 3.1.1 The Laplacian 3.2 Illustrative Examples 4.0 Conclusion 5.0 Summary 6.0 Tutor- Marked Assignments 7.0 References /Further Reading 1.0 INTRODUCTION In this unit you will learn about the divergence of vector field.
+Divergence can be considered as a quantitative measure of how much a vector field diverges (spread out) or converges at any given point.
+For example if we consider the vector field v(x,y,z) describing the local velocity at any point in a fluid then the divergence is equal to the net rate of outflow of fluid per unit volume, evaluated at a point.
+We will be exposed to mathematical exposition of this very important concept in this unit.
+The prerequisite to our learning this unit is the thorough understanding of the unit on Differential operators.
+(Module 2- unit 1) 2.0 OBJECTIVES At the end of this you should have understood what is meant by 1) divergence of a vector field 2) the Laplacian 3) be able to solve correctly the exercises at the end of this unit.
+3.0 MAIN CONTENT 3.1 The divergence of a vector field: Suppose we are given a vector field v(x,y,z) in the domain D of space, given three scalar functions v ,v ,v .
+suppose these x y z functions possess partial derivatives in D then the divergence is defined as: ¶ v ¶ v ¶ v divv= x + y + z ….. (1) ¶ x ¶ y ¶ z Formula (1) can be written in the symbolic form: divv=(cid:209) .v which implies 28 ¶ ¶ ¶ ¶ v ¶ v ¶ v (cid:209) .v=( i+ j+ k).
+(v i+v j+v k)= x + y + z ….. (2) ¶ x ¶ y ¶ z x y z ¶ x ¶ y ¶ z The divergence defined above has a physical significance.
+In fluid dynamics it appears as a measure of the rate of decrease of density at a point.
+More precisely Let u =u(x,y,z,t) denote the velocity vector of a fluid motion and letr = r (x,y,z,t) denote the density.
+Then v= ru is a vector whose divergence satisfies the equation.
+¶ r divv= - ….
+(3) ¶ t Equation (3) is called continuity equation of fluid mechanics.
+If fluid is incompressible, this reduce to the simpler equation divu =0 ….
+(4) 2.
+The divergence also plays an important role in the theory of electromagnetic fields.
+To see this we note that the divergence of the electric force vector E satisfies the equation defined by: divE =4rp ….
+(5) Where r is the charge density.
+Thus where there is no charge, equation (5) reduces to divE =0 ….. (6) The divergence has the following basic properties (1) div (u+v) =div u+div v (2) div(fu)= fdivu+gradf.u ….
+(7) 3.1.1.
+The Laplacian Let w= f(x,y,z) then the Laplacian of w is defined as ¶ 2w ¶ 2w ¶ 2w (cid:209) 2w= + + ….. (8) ¶ x2 ¶ y2 ¶ z2 The origin of the (cid:209) 2 lies in the interpretation of (cid:209) as a vector differential operator defined before as 29  ¶ ¶ ¶ (cid:209) = i+ j+ k … (9) ¶ x ¶ y ¶ z Symbolically ¶ 2 ¶ 2 ¶ 2 (cid:209) 2 =(cid:209) .
+(cid:209) = + + … (10) ¶ x2 ¶ y2 ¶ z2 If z = f(x,y) and has second derivatives in the domain D and (cid:209) 2z =0 ….
+(11) In D, then z is said to be harmonic in D. We also used the same term for a function of three variables which has continuous second derivatives in a domain D in space and whose Laplacian is 0 in D. The two equations for harmonic functions: ¶ 2z ¶ 2z ¶ 2w ¶ 2w ¶ 2w + =0, + + =0 … (12) ¶ x2 ¶ y2 ¶ x2 ¶ y2 ¶ z2 are known as the Laplacian equations in two and three dimensions respectively.
+Remark: In the theory of elasticity we have the following equation: ¶ 4z ¶ 4z ¶ 4z +2 + =0 … (13) ¶ x4 ¶ x2¶ y2 ¶ y4 The combination which appears above can be expressed in terms of the Laplacian as follows: ¶ 4z ¶ 4z ¶ 4z (cid:209) 2((cid:209) 2z)= +2 + … (14) ¶ x4 ¶ x2¶ y2 ¶ y4 The expression in (14) is called biharmonic expression whose solutions are termed biharmonic functions.
+Harmonic functions arise in the theory of electromagnetic fields, in fluid dynamics, in the theory of heat conduction, and many other parts of physics.
+3.2 Illustrative Examples: 1) Given that A=xzi- y2 j+2x2yk find the divergence of A.
+Solution: The divergence of A is defined as 30 ¶ ¶ ¶ ( i+ j+ k).
+(xzi- y2 j+2x2yk) ¶ x ¶ y ¶ z (cid:209) .A= ¶ ¶ ¶ = (xz)+ (- y2)+ (2x2y)= z- 2y ¶ x ¶ y ¶ z 2) Prove that (cid:209) .
+(fA)=((cid:209) f ).A+f ((cid:209) .A) Solution: (cid:209) .
+(fA)=(cid:209) .
+(fAi+fA j+fA k) 1 2 3 ¶ ¶ ¶ = (fA )+ (fA )+ (fA ) ¶ x 1 ¶ y 2 ¶ z 3 ¶ f ¶ f ¶ f ¶ A ¶ A ¶ A = A + A + A +f ( 1 + 2 + 3) ¶ x 1 ¶ y 2 ¶ z 3 ¶ x ¶ y ¶ z ¶ f ¶ f ¶ f ¶ ¶ ¶ =( i+ j+ k).
+(Ai+ A j+ A k)+f ( i+ j+ k).
+(Ai+ A j+ A k) ¶ x ¶ y ¶ z 1 2 3 ¶ x ¶ y ¶ z 1 2 3 = ((cid:209) f ).A+f ((cid:209) .A) 3).
+Given that f =2x2y- xz3 find (cid:209) 2f ¶ ¶ ¶ Solution: (cid:209) 2f =Laplacian of f =(cid:209) .
+(cid:209) f = (4xy- x2)+ (2x2)+ (- 3xz2) ¶ x ¶ y ¶ z =4y- 6xz 4.0CONCLUSION: In this unit you have learnt about divergence of vector field, we have also learnt about Laplacian and discussed various applications of these concepts to physical phenomenal.
+You are advised to read this unit properly and carefully, before moving to other unit.
+5.0 SUMMARY: The following should be noted: That divergence is a measure of how much a vector field spread out or converges.
+If v(x,y,z) is a vector field then its divergence is defined as ¶ v ¶ v ¶ v (cid:209) .v(x,y,z)= x + y + z =divv ¶ x ¶ y ¶ z We may derive from the definition of divergence we can also define Laplacian as follows ¶ 2f ¶ 2 f ¶ 2 f (cid:209) .
+(gradf)= + + ¶ x2 ¶ y2 ¶ z2 31 We also considered other physical application such as application of biharmonic functions of the form ¶ 4z ¶ 4z ¶ 4z (cid:209) 2((cid:209) 2z)= +2 + in the theory of elasticity.
+¶ x4 ¶ 2x¶ 2y ¶ y4 6.0 TUTOR -MARKED ASSIGNMENT 1.
+Given that the vector field v=2xi+ yj- 3zk, verify that the divergence of v (div v) is zero.
+2.
+Evaluate [(xi- yj).
+(cid:209) ](x2i- y2 j+z2k) 3.
+Given that f = x2yz3 and A=xzi- y2 j+2x2yk .
+Evaluate div(fA) 7.0 REFERENCES/ FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+32 UNIT 3 THE CURL OF A VECTOR FIELD 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 The Curl of a Vector field 3.2.
+Illustrative examples.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In this unit we will learn about curl of vector field.
+This concept has a wide range of application in physical phenomenal such as electromagnetic theory.
+The concepts we learnt, earlier such as gradient of vector field and divergence theory will be applied later in the theory of orthogonal curvilinear coordinates systems.
+2.0 OBJECTIVES At the end of this unit you should be able to - define Curl of vector field correctly - interpret the physical implication of Curl of vector field - solve correctly all the associated mathematical problems involving the curl of vector fields - 3.0 MAIN CONTENT 3.1 The Curl of a Vector Field We can define the Curl of a vector field as follows: Let v(x,y,z) be a vector field then the curl of vector v(x,y,z) is i j k ¶ ¶ ¶ Curl v= (cid:209) · v= … (1) ¶ x ¶ y ¶ z v v v x y z Expression (1) can be expressed as ¶ v ¶ v ¶ v ¶ v ¶ v ¶ v Curl v= ( z - y)i+( x - z )j+( y - x)k … (2) ¶ y ¶ z ¶ z ¶ x ¶ x ¶ y 33 This vector field has a meaning independent of the choice of axes.
+We shall see this in the treatment of orthogonal curvilinear coordinates to be considered in the next module.
+The curl of vector field is important in the analysis of the velocity field of fluid dynamics and in the analysis of electromagnetic force fields.
+For example, curl can be interpreted as measuring angular motion of a fluid and the condition is: Curl v=0 … (3) For a velocity field v characterizes what are termed irrotational flows.
+The analogous equation is given as: Curl E=0 … (4) For the electric force vector E it holds when only electrostatic forces are present.
+Recall that if (cid:209) · V =0 in a region, we say that the flow is irrotational in that region.
+The implication of this is that the circulation around a closed curve in a simple region where the flow is irrotational is zero.
+If the fluid is incompressible and there is no distribution of sources or sink in the region, we have also (cid:209) .V =0.
+since the condition (cid:209) · V =0 implies the existence of a potential j such that V =(cid:209) j … (5) We see that if also (cid:209) .V =0 then it follows that (cid:209) .
+(cid:209) j =(cid:209) 2j =0.
+That is, in the flow of an incompressible irrotational fluid without distributed sources or sinks the velocity vector is the gradient of a potential j which satisfies the equation ¶ 2j ¶ 2j ¶ 2j (cid:209) 2j =0 or + + =0 … (6) ¶ x2 ¶ y2 ¶ x2 Equation (6) is known as Laplace’s equation already discussed in (unit 2, Module 2) Generally, in any continuously differentiable vector field F with zero divergence and curl in a simple region, the vector F is the gradient of a solution of Laplace’s equation.
+Solutions of this equation are called harmonic functions.
+3.2 Illustrative Examples 1) If A= xz3i- 2x2yzj+2yz4k .
+Find (cid:209) · A (or curl A) at the point (1,-1, 1) Solution: ¶ ¶ ¶ (cid:209) · A=( i+ j+ k)· (xz3i- 2x2yzj+2yz4k) ¶ x ¶ y ¶ z 34 i j k ¶ ¶ ¶ = ¶ x ¶ y ¶ z xz3 - 2x2yz 2yz4 ¶ ¶ ¶ ¶ ¶ ¶ = [ (2yz4)- (- 2x2yz)]i+[ (xz3)- (2yz4)]j+[ (- 2x2yz- (xz3)]k ¶ y ¶ z ¶ z ¶ x ¶ x ¶ y = (2z4 +2x2y)i+3xz2 j- 4xyzk =3j+4k at point (1,-1, 1) 2) If A= x2yi- 2xzj+2yzk find CurlCurlA Solution curlcurlA=(cid:209) · ((cid:209) · A) i j k ¶ ¶ ¶ = (cid:209) · =(cid:209) · [(2x+2z)i- (x2 +2z)k] ¶ x ¶ y ¶ z x2y - 2xz 2yz i j k ¶ ¶ ¶ = =(2x+2)j ¶ x ¶ y ¶ z 2x+2z 0 - x2 - 2z 3) Prove that(cid:209) · ((cid:209) f )=0 ¶ f ¶ f ¶ f Solution (cid:209) · ((cid:209) f )=(cid:209) · ( i + j+ k) ¶ x ¶ y ¶ z i j k ¶ ¶ ¶ = ¶ x ¶ y ¶ z ¶ f ¶ f ¶ f ¶ x ¶ y ¶ z = ¶ ¶ f ¶ ¶ f ¶ ¶ f ¶ ¶ f ¶ ¶ f ¶ ¶ f [( ( )- ( )]i+[ ( )- ( )]j+[ ( )- ( )]k ¶ y ¶ z ¶ z ¶ y ¶ z ¶ x ¶ x ¶ z ¶ x ¶ y ¶ y ¶ x 35 ¶ 2f ¶ 2f ¶ 2f ¶ 2f ¶ 2f ¶ 2f =( - )i+( - )j+( - )k =0 ¶ y¶ z ¶ z¶ y ¶ z¶ x ¶ x¶ z ¶ x¶ y ¶ y¶ x This is only true when f is continuously differentiable hence the order of the differentiation is immaterial.
+Conclusion: In this unit you have learnt about Curl and various applications of Curl to physical situations.
+You need to read this unit carefully before moving to the next unit of this course.
+Summary: We recall that in this unit we defined a Curl of a vector field, as i j k ¶ ¶ ¶ Curl = ¶ x ¶ y ¶ z v v v x y z You are required to master this formula properly because of its physical application as we proceed in studying this course.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Obtain the Curls of the following vectors: (a) xi,(b),r,(c),(xi- yj)/(x+ y),(d),isin y+ jx(1+cosy) 2.
+If curlA=0 where A= (xyz)m(xni+ yn j+znk) show that either m=0 or n=-1 3.
+If v= r (a.r) where a is a constant vector show that Curlv=a(cid:217) r (ii) curl (a(cid:217) r)=2a 7.0 REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+36 MODULE THREE: ORTHOGONAL CURVILINEAR CO-ORDINATES UNIT 1- JACOBIANS 1.0 Introduction 2.0 Objectives 3.0 Main Body 3.1 Jacobian Defined 3.1.2.
+Properties of Jacobian 3.2 Jacobian and Curvilinear Coordinates: Change of Variables in Integrals.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 Further Reading/ References 1.0 Introduction: A useful tool for the operation on orthogonal curvilinear coordinate systems is the Jacobian.
+Since most of the co-ordinate systems are different from the Cartesian co-ordinate some transformations are usually required which will necessitate the need to find the scale factors of these transformation , in doing this we may need to find the Jacobian of the transformation before we can able to find the required scale factors.
+2.0 Objectives: At the end of this unit you should be able to define - Jacobian and use it.
+- Solve correctly, exercises involving the use of Jacobian.
+3.0 MAIN BODY 3.1 Jacobian Defined: The Jacobian of x and y for two independent variables m and n is the determinant ¶ x ¶ x ( ) ( ) ¶ m n ¶ n m ¶ y ¶ y ( ) ( ) ¶ m n ¶ n m Where x= f (m,n) and y = f (m,n).
+The customary notation is 1 2 ¶ x ¶ x ( ) ( ) ¶ (x,y) = ¶ m n ¶ n m … (1) ¶ (m,n) ¶ y ¶ y ( ) ( ) ¶ m n ¶ n m It is obvious from (1) that 37 ¶ (x,y) ¶ x ¶ y ¶ x ¶ y =( ) ( ) - ( ) ( ) … (2) ¶ (m,n) ¶ m n ¶ n m ¶ n m ¶ m n 3.1.2 Properties of Jacobians Jacobians have the following basic properties.
+(a) We note from (1) that ¶ y ¶ y ( ) ( ) ¶ (y,x) = ¶ m n ¶ n m .
+.
+.
+(3) ¶ (m,n) ¶ x ¶ x ( ) ( ) ¶ m n ¶ n m And, therefore ¶ (y,x)  ¶ y  ¶ x ¶ y  ¶ x  =    -     .
+.
+.
+(4) ¶ (m,n) ¶ m ¶ n ¶ n ¶ m n m m n If we compare (2) and (3) we see that ¶ (y,x) ¶ (x,y) = - .
+.
+.
+(5) ¶ (m,n) ¶ (m,n) (b) Similarly according to (1) ¶ y ¶ y     ¶ (y,z) ¶ x ¶ z = z x .
+.
+.
+(6) ¶ (x,z) ¶ z ¶ z     ¶ x ¶ z z x ¶ y ¶ y ¶ (y,z)     = ¶ x ¶ z .
+.
+.
+(7) ¶ (x,z) z x 0 1 We see that ¶ (y,z) ¶ y =  .
+.
+.
+(8) ¶ (x,z) ¶ x z From (8) it is obvious that all partial derivatives can be represented by Jacobians.
+(c) It is easy to see that 38 ¶ (y,x) ¶ (a,b) ¶ (y,x) = .
+.
+.
+(9) ¶ (a,b) ¶ (m,n) ¶ (m,n) (d) From (1) it follows that ¶ (m,n) ¶ (x,x) =1, =0 and if k is constant, then ¶ (m,n) ¶ (m,n) ¶ (k,x) =0 .
+.
+.
+(10) ¶ (m,n) It is possible using equations (8), (9) and (10) to transform partial derivatives.
+To see this , consider the quantity defined by: ¶ T   , which we can express as  ¶ p  ¶ T  ¶ (T,s)  = … (11)  ¶ p  ¶ (p,s) While ¶ (s,T) ¶ (s,T) ¶ (p,s) = / .
+.
+.
+(12) ¶ (p,s) ¶ (p,T) ¶ (p,T) This is in conformity with equation (11) we note that ¶ (s,T) ¶ s  =  .
+.
+.
+(13)   ¶ (p,T) ¶ p T Notationaly we may write Jacobian as follows: To find the Jacobian of the function u(x,y.z),v(x,y,z),w(x,y,z) we express it as ¶ u ¶ u ¶ u     ¶ x ¶ y ¶ z  ¶ (u,v,w) u,v,w  ¶ v ¶ v ¶ v  = J( )=  … (14) ¶ (x,y,z) x,y,z ¶ x ¶ y ¶ z   ¶ w ¶ w ¶ w    ¶ x ¶ y ¶ z  We should also note that in general: 39 ¶ (x ,x ,......x ) ¶ (u ,u ,.......u ) 1 2 n .
+1 2 n =1 (15) ¶ (u , u ,.......u ).
+¶ (x ,x ,.......x ) 1 , 2 n 1 2 n Self Assessment Exercise 1.
+Consider the two functions defined as u =ax+by+c 1 u =dx+ey+ f 2 Investigate weather they are functionally dependent 2.
+If u and v are functions of r and s also r and s are functions of xand y, prove that : ¶ (u,v) ¶ (r,s) ¶ (u,v) .
+= ¶ (r,s) ¶ (x,y) ¶ (x,y) 3.2.
+Jacobian and Curvilinear Coordinates: Change of Variables in Integrals.
+.
+Given the equations: x= x(u ,u ,u ),y = y(u ,u ,u ),z = z(u ,u ,u ) (16) 1 2 3 1 2 3 1 2 3 which defines curvilinear coordinates, u ,u ,and u in space.
+1 2 3 Suppose we write : ¶ x ¶ y ¶ z U =i + j +k (k=1, 2, 3), (17) k ¶ u ¶ u ¶ u k k k Then for u ,u ,u the volume element in the new coordinate is given as 1 2 3 dt =(U ,U ,U )du du du (18) 1 2 3 1 2 3 If the coordinates are so ordered that the right –hand member is positive.
+Now we define ¶ x ¶ y ¶ z ¶ u ¶ u ¶ u 1 1 1 ¶ x ¶ y ¶ z ¶ (x,y,z) U .U · U = = (19) 1 2 3 ¶ u ¶ u ¶ u ¶ (u ,u u ) 2 2 3 1 2 3 ¶ x ¶ y ¶ z ¶ u ¶ u ¶ u 3 3 3 40 Now since the determinant is unchanged if the row and column are interchanged then we may write ¶ (x,y,z) dt = du du du (20) ¶ (u ,u ,u ) 1 2 3 1 2 3 We now present the change of variable formula as ¶ (x,y,z) ∫∫∫ w(x,y,z)dxdydz =∫∫∫ W(u ,u ,u ) du du du (21) R R* 1 2 3 ¶ (u ,u ,u ) 1 2 3 1 2 3 Where W(u ,u ,u )= w[x(u ,u ,u ),y(u ,u ,u ),z(u ,u ,u )], and R* is the u ,u ,u 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 region into which we transform the x,y,z, region R. The Jacobian ¶ (x,y,z)/¶ (u ,u ,u ) is continuous and nonzero in R* 1 2 3 If we are given equations in two dimensions such as x= x(u ,u ), y = y(u ,u ) (22) 1 2 1 2 Note that (22) can be interpreted as defining curvilinear coordinates in the xy- plane The vectors: ¶ x ¶ y ¶ x ¶ y U =i + j , U =i + j (23) 1 ¶ u ¶ u 2 ¶ u ¶ u 1 1 2 2 are the tangent to the coordinate curves, with the lengths ds /du and 1 1 ds /du 2 2 The vector element of plane are is then given by i j k ¶ x ¶ y dA=(U · U )du du = 0du du 1 2 1 2 ¶ u ¶ u 1 2 1 1 ¶ x ¶ y 0 ¶ u ¶ u 2 2 This relation gives the result 41 ¶ (x.y) dA= dA = du du (24) ¶ (u ,u ) 1 2 1 2 Hence ¶ (x,y) ∫∫ w(x,y)dxdy = ∫∫ W(u ,u ) du du (25) D D 1 2 ¶ (u ,u ) 1 2 1 2 4.0 Conclusion: In this unit we have defined Jacobians as a preparatory for us to study curvilinear coordinate systems.
+5.0 Summary : Re call that we studied Jacobian as a useful tool for determining transformation from one space to another .
+You are to read and understand this unit carefully so that you be able to understand the content of the next unit.
+6.0 Tutor Marked Assignment (1).
+The transformation from rectangular to cylindrical coordinates is defined by the transformation; x= r cosf ,y = r sinf,z = z Find the Jacobian of the transformation.
+(2) If u and v are functions of r and s also r and s are functions of xand y, prove that : ¶ (u,v) ¶ (r,s) ¶ (u,v) .
+= ¶ (r,s) ¶ (x,y) ¶ (x,y) 7.0 REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York .
+42 UNIT 2.
+Orthogonal Curvilinear Coordinates 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Transformation of Co-ordinates 3.1.1.
+Orthogonal Curvilinear Co-ordinates 3.1.2.
+The scale factors 3.1.3.
+The elemental volume.
+3.2 Gradient, Divergence, Curl and Laplacian in Orthogonal Curvilinear Coordinates 3.2.1.
+Special Orthogonal Coordinate Systems.
+4.0.
+Conclusion 5.0.
+Summary 6.0.
+Tutor-Marked Assignment 7.0.
+References/Further Readings.
+1.0 INTRODUCTION: In our elementary mathematics, we learnt about co- ordinate system namely(x,y,z), in the rectangular co-ordinates.
+In this unit we will show that it is possible to work in other co-ordinate system apart from the rectangular co-ordinate if we make the appropriate transformation.
+This is what we set to achieve in this unit.
+2.0 OBJECTIVES At the end of this unit you should be able to : - define the orthogonal curvilinear co-ordinates - determine the scale factors of transformation - determine the elemental volume - be able to solve problems in other co-ordinate systems such as circular cylindrical and spherical co-ordinates.
+3.0 MAIN CONTENT 3.1.
+Transformation of Co-ordinates Given the rectangular coordinates x,y,z we can define a new coordinate system by the following equations expressible as x= x(u ,u ,u ), y = y(u ,u ,u ) , z = z(u ,u ,u ) ….
+(1) 1 2 3 1 2 3 1 2 3 Conversely the relations as defined in (1) can be inverted to express u ,u ,u in terms of x,y,z, whenever x,y,z, and are suitably restricted 1 2 3 Thus at least in some region any point with the coordinates (x,y,z) has corresponding co-ordinates(u ,u ,u ).
+We shall assume that the correspondence is 1 2 3 unique 43  Suppose a particle moves from point P in such a way that only u is allowed to 1 vary while u ,u are held constant, then it would generate a curve in space which 2 3 is called u - curve .
+Other curves u ,and,u are similarly generated.
+1 2 3 3.1.1.
+Orthogonal Curvilinear co-ordinates: If one co-ordinate is held constant, we can determine successively three surfaces passing a point of space, these surfaces intersecting in the coordinate curves.
+When we chose a new coordinate in such a way that the coordinate curves are mutually perpendicular at each point in we call such coordinates Orthogonal Curvilinear coordinates.
+3.1.2.
+The Scale Factors Let r = xi+ yj+zk .
+.
+.
+(2) Represent the position vector of a point P in space.
+Then a tangent vector to the u - curve at P is given by 1 ¶ r ¶ r ds U = = 1 ….
+(3) 1 ¶ u ¶ s du 1 1 1 ¶ r Where s arc length along the u curve.
+Since is a unit vector.
+We now 1 1 ¶ s 1 write U =hu .
+.
+.
+(4) 1 1 1 Whereu , is the unit vector tangent to the u curve in the direction of increasing 1 1 arc length and h =ds du is the length ofU .
+If we consider the other 1 1 1 1 coordinate curves similarly, we thus write U =hu U =h u , U =h u (5) 1 1 1, 2 2 2 3 3 3 Where u (k =1,2,3) is the unit vector tangent to the u curve, and k k ds ¶ r ds ¶ r ds ¶ r h = 1 = , h = 2 = , h = 3 = (6) 1 du ¶ u 2 du ¶ u 3 du ¶ u 1 1 2 2 3 3 Putting these equations in the differential forms we have the following expressions: ds =hdu , ds =h du , ds =h du (7) 1 1 1 2 2 2 3 3 3 44 h ,h ,and,h are called the scale factors.
+1 2 3 The coordinates curves are said to be orthogonal if U .U =U .U =U .U =0 (8) 1 2 2 3 3 1 3.1.3 The Elemental Volume The elemental volume is defined as dt =hh h du du du (9) 1 2 3 1 2 3 Example: The transformation from rectangular to cylindrical coordinates is defined by the transformations x= r cosf ,y = r sinf,z = z (a) Prove that the system is orthogonal (b) Find ds2 and the scale factors (c) Find the Jacobian of the transformation and the volume element.
+Solution: Let e=(e ,e ,e ) be a unit vector in the cylindrical coordinates 1 2 3 We have ¶ r ¶ r ¶ r dr = dr + df + dz ¶ r ¶ f ¶ z = hdre +h dfe +h dze 1 1 2 2 3 3 But dr.dr.= ¶ r dr 2 + ¶ r df 2 +¶ r dz2+2 ¶ r .¶ r drdf +2 ¶ r .¶ r drdz + ¶ r  ¶ f  ¶ z   ¶ r ¶ f ¶ r ¶ z   ¶ r dr 2 .
+dfdz ¶ f dz = h2(dr )2 +h 2(df )2 +h2(dz)2 +2hh drdfee +2h h dfdz e .e 1 2 3 1 2 1 2 2 3 2 3 +2h h dfdze .e 1 3 1 3 45 Consider r = r cosfi+r sinfj+zk ¶ r =cosfi+sinfj ¶ r ¶ r = - r sinfi+r cos j ¶ f ¶ r =k ¶ z Now ¶ r ¶ r .
+=- r cosf sinf +r cosf sinf =0 ¶ r ¶ f Also.
+¶ r ¶ r ¶ r ¶ r .
+= .
+=0 ¶ r ¶ z ¶ f ¶ z From (a) part we have , dr.dr =ds2 =h2(dr )2 +h2(df )2 +h2(dz)2 1 2 3 ¶ r ¶ r ¶ r h = ,h = ,h = 1 ¶ r 2 ¶ f 3 ¶ z h =1,h = r , h =1 1 2 3 ds2 =(dr )2 +r 2(df )2 +(dz)2 (c) The Jacobian of the transformation is ¶ x ¶ x ¶ x ¶ r ¶ f ¶ z ¶ (x,y,z) ¶ y ¶ y ¶ y = ¶ (r ,f ,z) ¶ r ¶ f ¶ z ¶ z ¶ z ¶ z ¶ r ¶ f ¶ z 46  = Thus the volume element dV is given as ¶ (x,y,z) dV = drdfdz = rdrdfdz ¶ (r ,f,z) 3.2.
+Gradient, Divergence, Curl and Laplacian in Orthogonal Curvilinear Coordinates If f is a scalar function and A= Ae + A e ++A e 1 1 2 2 3 3 is a vector function of orthogonal curvilinear coordinates u ,u ,u then we have the following results: 1 2 3 1 ¶ f 1 ¶ f 1 ¶ f (1) Gradient: (cid:209) f =gradf = e + e + e h ¶ u 1 h ¶ u 2 h ¶ u 3 1 1 2 2 3 3 (2) Divergence of A: (cid:209) .A=divA = 1  ¶ ¶ ¶   (h h A )+ (hh A )+ (hh A )   hh h ¶ u 2 3 1 ¶ u 1 3 2 ¶ u 1 2 3  1 2 3 1 2 3 he h e h e 1 1 2 2 3 3 1 ¶ ¶ ¶ (3) Curl A= hh h ¶ u ¶ u ¶ u 1 2 3 1 2 3 h A h A h A 1 1 2 2 3 3 (4) (cid:209) 2f =Laplacian of f 1  ¶ h h ¶ f  ¶ hh ¶ f  ¶ hh ¶ f  =   2 3 +  1 3 +  1 2  h h h ¶ u  h ¶ u  ¶ u  h ¶ u  ¶ u  h ¶ u  1 2 3 1 1 1 2 2 2 3 3 3 47 3.2.1.
+Special Orthogonal Coordinate Systems In this section we shall mention some special orthogonal coordinate systems we usually come across in mathematics.
+1.
+Cylindrical Coordinates (r ,f,z).
+Here our transformation is the form x= r cosf y = r sinf ,z = z Where r ‡ 0, 0£ f <2p , - ¥ < z <¥ h =1, h = r , h =1 r f z 2.
+Spherical Coordinates (r,q ,f ) Here the transformation is of the form x=rsinq cosf , y =rsinq sinf z=rcosq , where r ‡ 0, 0£ f <2p , 0£ f £ p h =1,h =r,h =rsinq r q f 3.
+Parabolic Cylindrical Coordinates (u,v,z) 1 x= (u2 - v2),y =uv,z = z, where - ¥ <u <¥ , v‡ 0, 2 - ¥ < z <¥ , h =h = u2 +v2, h =1 In cylindrical coordinates, u v z 4.
+Paraboloidal Coordinates (u,v,f ).
+: Here the transformations are given by 1 x=uvcosf,y =uvsinf,z = (u2 - v2),u ‡ 0,v‡ 0,0£ f <2p 2 h =h = u2 +v2,h =uv u v f Other special coordinates exist which include, Elliptic Cylindrical Coordinates, Prolate Spheroidal Coordinates, Bipolar Coordinates , Ellipsoidal Coordinates e.t.c.
+Consideration of the details of these coordinates will be left as exercise.
+4.0.
+Conclusion: We have studied orthogonal coordinate systems in this unit , we have also identify some special coordinates system that are orthogonal.
+Study this unit carefully before proceeding to the next unit of this course 5.0.
+Summary: Recall that, If one co-ordinate is held constant, we can determine successively three surfaces passing a point of space, these surfaces intersecting in the coordinate curves.
+When we chose a new coordinate in such a way that the coordinate 48 curves are mutually perpendicular at each point in we call such coordinates Orthogonal Curvilinear coordinates.
+We have also considered various types of these Orthogonal systems particularly those for practical applications .You are to study them properly for better understanding.
+6.0.
+Tutor Marked Assignment: (1) Prove that a cylindrical coordinate system is orthogonal (2) Express the velocity v and acceleration of a particle in cylindrical coordinates (3) Find the square of the element of arc length in cylindrical coordinates and determine the corresponding scale factors 7.0.
+REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York 49 MODULE 4- COMPLEX VARIABLES Unit1- Complex Numbers Unit2-Polar Operations with Complex Numbers Unit3- The nth root of Unity Unit 1- COMPLEX NUMBERS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Definition of Complex Number 3.2 Operations with Complex Numbers 3.3 Modulus and argument of Complex Numbers 4.0 Conclusion.
+5.0 Summary 6.0 Tutor-Marked Assignments 7.0 References/Further Readings 1.0 INTRODUCTION The solution to the equation x2 +1=0 has no real roots because there is no real number whose square root is -1.
+In order to solve problem such as this mathematicians evolves a way out of this logjam by assuming that there exist a numberi = - 1.
+With this we can conclude that the roots of the equation x2 +1=0 arex=– i.
+Similarly we find that the roots of the equation x2 - 2x+5=0 are x=1– 2i 2.0 OBJECTIVES: At the end of this unit you should be able to - define complex numbers - perform mathematical operations with complex numbers - find modulus and argument of complex numbers - solve exercises correctly on complex numbers 3.0 MAIN CONTENTS 3.1.
+Definition of Complex Numbers Given that a and b are real numbers then the number c=a+ib is called a complex number.
+a and b are known as the real and imaginary parts of the complex number respectively.
+When a =0 the complex number is purely imaginary and when b=0 then the complex number is real.
+The conjugate of the complex number c is denoted by c =a- ib Self Assessment Exercise 50 Find the conjugate of the following expressions: (a) 3-3i (b) 2i (c) -3+4i (d) 3-4i 3.2 Operations with Complex Numbers In this section we consider some mathematical operations on complex numbers.
+(1) Note that in complex number, (a+ib)+(c+id)=(a+c)+i(b+d) (2) (a+ib)- (c+id)=(a- c)+i(b- d) (3) (a+ib)(a- ib)=a2 +b2 since i2= - 1 (4) If a+ib=c+id then a =c and b=d a+ib (a+ib) (c- id) (a+ib)(c- id) (5) = .
+= c+id (c+id) (c- id) c2 +d2 = (ac+bd)+i(bc- ad) c2 +d2 Self Assessment Exercises (1) Find the real and imaginary parts of (1+i)(2+i) z = (3- i) 2) Let z =3- 6i and 1 z z Find (a) z z (b) 1 ,(c) 2 1 2 z z 2 1 3) Simplify 51  (a) (5- 9i)- (2- 6i)+(3- 4i) (b) (4+7i)(2+5i) (4) Multiply (4- 3i) by an appropriate factor to give a product that is entirely real.
+What is the result?
+Modulus and Argument of a Complex Number Let r be the length of OP , suppose the <XOP==q , then r = x2 + y2 and y tanq = , r is called the modulus of z and written z,q is called the x argument or amplitude of and written as argz or amz .
+Example: Find the modulus and argument of the complex number (1+i)(2+i) z = (3- i) (1+i)(2+i) 2+2i+i- 1 1+3i Solution: z = = = (3- i) 3- i 3- i 1+3i (3+i) (3+9i+i- 3 10i Therefore z = = = 3- i (3+i) 10 10 p Hence z =i therefore z =1 and argz= 2 b(1+it) 2.
+If x+iy =a+ where a and b are real constant and x,y,t, are real (1- it) variables show that the locus of the point (x,y) as t, varies as a circle.
+b(1+it) Solution: Let x+iy =a+ (1- it) b(1+it) (1+it) = a+ .
+(1- it) (1+it) 52 b(1- t2) 2bit = a+ + 1+t2 1+t2 Equating the real parts and the imaginary parts in each side of the equation we have b(1- t2) 2bt x= ,y = 1+t2 1+t2 Thus (x- a)2 + y2 =b2 Hence the locus of the point (x,y) is a circle centre (a,0) and radius b.
+We may represent complex numbers in the polar form as follows: z = x+iy =rcosq +irsinq Compare coefficients then x=rcosq ,y =rsinq We refer to this as the polar representation of the complex numbers.
+4.0 Conclusion: We have shown the way to handle complex numbers in what now follows we shall deal with some problems into detail in complex variables.
+5.0Summary: Recall that with clearly defined notation you can handle complex number as we handle real numbers ordinarily in algebra.
+You should real carefully before moving to the next unit.
+Tutor Marked Assignment: (1) Establish the following results: (a) Re (z +z )=Re(z )+Re(z ),but,Re(z z )„ Re(z )Re(z ) in general 1 2 1 2 1 2 1 2 (b) Im(z +z )=Im(z Im(z ),but,Im(z z )„ Im(z )Im(z )in general 1 2 1 2 1 2 1 2 z z = z z ,but, z +z „ z + z , (c) 1 2 1 2 1 2 1 2 in general (2) Express the following quantities in the form a+ib where a and b are real 1+i p (a) (1+i)3 (b) (c) sin( +2i) 1- i 4 (3) Prove the following (a) z+z =2Re(z) (b) z- z =2iIm(z) (c) Re(z)£ z 53  7.0 REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+54 Unit 2: POLAR OPERATIONS WITH COMPLEX NUMBERS 1.0 Introduction 2.0 Objective 3.0 Main Contents 3.1 Multiplications and Division of Complex Numbers 3.2 Demoivre’s Theorem 3.3 Roots and Fractional Powers of a Complex Number 3.4 The nth Root of Unity 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Readings 1.0 Introduction: In this unit we shall examine complex numbers in polar forms.
+The polar form of complex numbers, present interesting results which will be examined in this unit.
+2.0 Objectives: At the end of this unit you should be able - to express complex numbers in polar form - to carry out multiplication and division of complex numbers -to recall the Demoivre’s Theorem and apply it appropriately -to find roots and work with fractional powers of complex numbers - to solve correctly the exercises that follows after the unit 3.0 MAIN CONTENT 3.1 Multiplication and Division of Complex Numbers Let z =r (cosq +isinq ) z =r (cosq +isinq ) then 1 1 1 1 2 2 2 2 z z =rr (cosq +isinq )(cosq +isinq ) 1 2 1 2 1 1 2 2 = rr (cosq cosq - sinq sinq )+i(sinq cosq +cosq sinq ) 1 2 1 2 1 2 1 2 1 2 = rr [cos(q +q )+isin(q +q )] 1 2 1 2 1 2 From the above we see that z z = z .z 1 2 1 2 We also note that arg(z z )=argz +argz , and that 1 2 1 2 55 z r (Cosq +iSinq ) 1 = 1 1 1 z r (Cosq +iSinq ) 2 2 2 2 = r 1 [(Cosq +iSinq )(Cosq - iSinq )] r 1 1 2 2 2 r = 1 [Cos(q - q )+iSin(q - q )] r 1 2 1 2 2 Therefore z z z 1 = 1 and arg( 1)=argz - argz z z z 1 2 2 2 2 3.2 Demoivre’s Theorem Recall that (Cosq +iSinq )(Cosq +iSinq )=Cos(q +q )+iSin(q +q ) 1 1 2 2 1 2 1 2 Note that (Cosq +iSinq )(Cosq +iSinq )=Cos2q +iSin2q 1 1 1 1 1 1 This is equivalence to saying that (Cosq +iSinq )2 =Cos2q +iSin2q 1 1 1 1 Also (Cosq +iSinq )3 =Cos3q +iSin3q 1 1 1 1 If we continue in this way we find that Cosq +iSinq )n =Cosnq +iSinnq 1 1 1 1 This is known as the Demoivre’s theorem for positive integer index.
+It can be shown that the theorem is true for all rational values of n. Now suppose n is a negative integer and we let n=-m where m is a positive integer then 56 1 (Cosq +iSinq )- m = (Cosq +iSinq )m = Cos(- mq )+iSin(- mq )=Cos(nq )+iSin(nq ) We can also prove for fractions.
+Recall that by Demoivre’s theorem p p (cos q +isin q )q = Cospq +iSinpq =(Cosq +iSinq )p q q p p It follows that Cos q +iSin q is a qth root of (Cosq +iSinq )P q q Demoivre’s theorem has been proved for all rational values of n. p We need to find other values of (Cosq +iSinq )q .
+To do this, suppose that: p (Cosq +iSinq )q = r (Cosf +iSinf ) then (cosq +isinq )p = r q(cosf +isinf )q ⇒cospq +isin pq = r q(cosqf +isinqq ) Equating the real and imaginary parts we have cospq = r qcosqf;sin pq =sinqf Squaring and adding , we obtain r 2q =1 and since r , the modulus of a complex number is +ve r =1 therefore cosfr =cosqf;sinfr =sinqf , and these equation are satisfied by qf = pq +2kp ;k =0 or any integer.
+Therefore pq +2kp f = q 3.3 Roots and Fractional Power of a Complex Number When n is a positive integer the nth roots of a complex number are by definition the value ofw which satisfy the equation w n = z 57 If w = r (cosf +isinf ) and z =r(cosq +isinq ) then r n(cosnf +isinnf )=r(cosq +isinq ) where r n =r and nf =q +2kp k is an integer or zero.
+By definition r ,and,r are +ve, so q +2kp that r =n r also, f = n Taking in succession the values of k=0, 1, 2, 3… n, we find that cosq +2kp sinq +2kp +i has n distinct values,.
+Hence there are n distinct nth n n roots of z given by the formula cosq +2pk sinq +2pk w = n r[ +i ], k=0, 1, 2, 3,…, n-1 k n n p In a situation where n is a rational number say n= ,p,and,q are integers and q is q +ve, the value of zn are the values of w which satisfy the equation w q = zp p Hence if z =r(cosq +isinq ) then there q values of zq given by the formula cosq +2mp sinq +2mp  w = q rp  +i , where m  q q  q rp is the unique positive qth root of rp Example: Find the fifth roots of -1 Solution: Recall that -1=cosp +isinp Now if [ ] z5= - 1= cos(p +2kp )+isin(p +2kp ) , k=0,1,2,3,…, Therefore 58 cos(p +2kp ) sin(p +2kp ) z = +i 5 5 k =0,1,2,3,4, hence the solution are: p p z =cos +isin 5 5 3p 3p z =cos +isin 5 5 5p 5p z =cos +isin 5 5 7p 7p z =cos +isin 5 5 9p 9p z =cos +isin 5 5 3.4.
+The nth Roots of Unity We recall that cos0+isin0=1 this implies that 1=cos2pk +isin2pk, k=0, 1, 2, 3… 2pk 2pk If w denotes the root cos +isin , k=0, 1, 2, 3…, then nth root of unity n n may be written in the form 1,w ,w 2,w 3,...,w n- 1 1- w n We see that they form a geometric progression whose sum is equal to 0 1- w We also note that the nth root of unity are represented in the Argand diagram by points which are vertices of a regular polygon of n sides inscribed in the circle.
+Example: Solve the equation z6 +z5 +z4 +z3 +z2 +z+1=0 and deduce that 2p 4p 6p 1 cos +cos +cos = - 7 7 7 2 59 Solution: We know that z7 - 1 z6 +z5 +z4 +z3 +z2 +z+1= , hence we consider the equation z- 1 z7 - 1=0 We also note that 1=cos0+isin0=cos2pk+isin2pk, hence cos2pk 2pk z = +isin ,k =0,1,2,3,4,5,6 7 7 Equation z7 - 1=0 is satisfied by cos2pk sin2pk z =1,and,by,z = +i , therefore the given equation is satisfied by 7 7 2pk 2pk z =cos– +isin– ,k =1,2,3,4,.5,.... 7 7 The sum of these roots is  2p 4p 6p  2 cos +cos +cos    7 7 7  But from the given equation the sum of the roots is also -1.
+Therefore 2p 4p 6p 1 cos +cos +cos = - 7 7 7 2 4.0.Conclusion: In this unit we have studied some theorems and determine the roots of equation using complex variables.
+You are required to study this unit properly before attempting to answer questions under the tutor marked assignment 5.0 Summary : You recall that you learnt about Demoivre’s theorem, both for integer quantity and fractional quantity, also you learnt about roots of unity among others.
+You are to study them properly in order to be well equipped for the next course in mathematical methods.
+6.0 Tutor Marked Assignment: 1.Obtain the roots of the equation 3z2 - (2+11i)z+3- 5i =0 in the form a+ib where a and b are real.
+2.
+Express cos3q sin4q as a sum of cosines of multiple of q 60 3.
+Prove that cos6q =32cos6q - 48cos4q +18cos2q - 1 By putting x=cos2q or otherwise, show that the roots of the equation  p  5p  7p  64x3 - 96x2 +36x- 3=0 are cos2 ,cos2 ,cos2  and deduce that 18 18  18  p  5p  7p  sec2 +sec2 +sec2 =12 18 18  18  7.0 REFERENCES/FURTHER READINGS 1.
+G Stephenson (1977): Mathematical Methods for Science Students (2nd Edition) 2.
+P D S Verma (1994): Engineering Mathematics, Vikas Publishing House PVT Ltd New Delhi.
+3.
+Wilfred Kaplan (1959) Advanced Calculus Addison-Wesley Publishing Company, Inc U.S.A. 4.
+Murray R. Spiegel (1974) Advanced Calculus, Schaum’s Outline Series, McGRAW-HILL BOOK COMPANY New-York.
+61

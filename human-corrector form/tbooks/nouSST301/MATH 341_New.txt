@@ -1,0 +1,1050 @@
+MTH 341 MODULE 1 NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 341 COURSE TITLE: REAL ANAYSIS 1MTH 341 MODULE 1 Course Code MTH 341 Course Title REAL ANAYSIS Course Writer: Dr Bankole Abiola.
+Course Editor: Dr S.O.
+Ajibola Programme Leader: Dr Bankole Abiola.
+Course Coordinator: Dr S.O.
+Ajibola.
+2MTH 341 MODULE 1 NATIONAL OPEN UNIVERSITY OF NIGERIA 3MTH 341 MODULE 1 National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Abuja Office No.5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria E-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published by: National Open University of Nigeria First Printed 2011 ISBN: Printed by: 4MTH 341 MODULE 1 MODULE 1 DIFFERENTIABILITY Unit 1 Derivatives Unit 2 Mean-Value Theorems Unit 3 Higher Order Derivatives UNIT 1 DERIVATIVES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Derivative of a Function 3.2 Geometrical Interpretation 3.3 Differentiability and Continuity 3.4 Algebra of Derivatives 3.5 Signs of a Derivative 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION You have been introduced to the limiting process in various ways.
+In MTH 241, this process was discussed in terms of the limit point of a set.
+The limit concept as applied to sequences was studied in MTH 241.
+Also, limit concept was formalized for many functions.
+It was used to define the continuity of a function.
+In this unit, we shall consider another important aspect of the limiting process in relation to the development of the derivative of a function.
+You may think for a while that perhaps there is some chronological order in the historical development of the limiting process.
+However, this is, perhaps not the case.
+As a matter of fact, Differential Calculus was created by Newton and Leibnitz long before the structure or real members was put on the firm foundation.
+Moreover, the concept of limit as discussed earlier in MTH 241 was framed much later by Cauchy in 1821.
+How, then, is the limit concept used in the development of the definition of the derivative of a function?
+This is the first and foremost question we have to tackle in this unit.
+5MTH 341 MODULE 1 The limit concept is common to both continuity and differentiability of a function.
+Does it indicate some connection between the notions of continuity and differentiability?
+If so, what is the relationship between the two notions?
+We shall find suitable answers to these questions 2.0 OBJECTIVES By the end of this unit, you should be able to: • define the derivative of a function at a point and give its geometrical meaning • apply the algebraic operations of addition, subtraction, multiplication and division on the derivatives of functions • obtain a relationship between the continuity and differentiability of a function • characterized the monotonic functions with the help of their derivatives.
+3.0 MAIN CONTENT 3.1 Derivative of a Function The well-known British mathematician, Isaac Newton (1642 – 1727) and the eminent German mathematician, G. W. Leibnitz (1646 – 1716) share the credit of initiating Calculus towards the end of seventeenth century.
+To some extent, it was an attempt to answer problems already tackled by ancient Greeks but primarily Calculus was created to treat some major problems viz.
+i) To find the velocity and acceleration at any instant of a moving object, given a function describing the position of the object with respect to time.
+ii) To find the tangent to a curve at a given point.
+iii) To find the maximum or minimum value of a function.
+These were some of the problems among others which led to the development of the derivative of a function at a point.
+We define it in the following ways: 6MTH 341 MODULE 1 Definition 1: Derivative at a Point Let f be a real function defined on an open interval [a, b].
+Let c be a point of this interval so that a < c < b.
+The function f is said to be differentiable at the point x = c if exists and is finite.
+We denote it by f’(c) and say that ‘f is derivable at x = c’ or ‘f has derivative at x = c’ or simply that f’(c) exists.
+Further, f’(c) is called the derivative or the differential co-efficient of the function f at the point c. Note that in the definition of the derivative, to evaluate the limit of the quotient at the point c, the quotient must be defined in a NBD of the point c. In other words, the function f must be defined in a NBD of the point c. It is because of this reason why we define the derivative of a function at a point c in an open interval [a, b].
+However, at the end points a and b of the interval [a, b], we can define one sided derivatives as follows.
+For, let exists and is finite, then we say that f is derivable from the right at c. It is denoted by f’(c+) or Rf(c).
+Also, it is called the right hand derivative of f at c. Similarly, if exists and is finite, then we say that f is derivative from the left at c. It is denoted by f’(c-) or Lf’(c).
+It is also called the left hand derivative of f at c. From the definition of limit, it follows that f’(c) exists if and only if Lf’(c) and Rf’(c) exists and Lf’(c) = R f’(c) i.e., f’(c) exists (cid:219) Lf’(c), Rf’(c) exists and Lf’(c) = R f’(c).
+For example, consider the function f defined on ]a, b[ as 7MTH 341 MODULE 1 f(x) = x2, " x ˛ ]a, b[.
+Let c be an interior point of ]a, b[ i.e., a < c < b.
+Then Lf’(c) = = = Similarly, you can calculate Rf’(c) and obtain Rf’(c) = 2c.
+This shows that Lf’(c) = Rf’(c) = 2c.
+Hence f’(c) exists and is equal to 2c.
+Now, let us consider the question: What happens if f is defined in a closed interval [a, b] and either c = a or c = b or c takes any value in the interval?
+To answer this question, we give the following definition: Definition 2: Derivative in an Interval Let the function f be defined on the closed interval [a, b].
+Then i) f is said to be derivable at the end point a i.e.
+f’(a) exists, if exists.
+In other words, f'(a) = ii) Likewise, we say f is derivable at the end point b, if exists and f’(b) = iii) If the function f is derivable at each point of the open interval ]a, b[, then it is said to be derivable in the interval ], b[.
+8MTH 341 MODULE 1 iv) If f is derivable at each point of the open interval ]a, b[ and also at the end points a and b, then f is said to be derivable in the closed interval [a, b].
+We can similarly define the derivability in [a, b[ or ]a, b] or ] - ¥ , a[ or ]- ¥ , a[ or ]a, ¥ [ or [a, ¥ [ or R = ]- ¥ , ¥ [.
+Note that for finding generally we write x = c + h, so that x → c is equivalent to h → 0.
+Accordingly, then we have and f’(c) = Now let us discuss the following example: Example 1 Let f : R → R be a function defined as (i) f(x) = xn, " x ˛ R, where n is a fixed positive integer, and (ii) f(x) = k, " x ˛ R, where k is any fixed real number.
+Discuss the differentiability of f at any point x ˛ R. Solution (i) Let c be any point of R. Then = lim ( + n-2c + xn-3c2 + … + cn-1) = n cn-1 ⇒ f’(c) = ncn-1 9MTH 341 MODULE 1 Since c is arbitrary point R, therefore, f’(x) exists for all x Î R. It is given by f'(x) = nxn-1, " x ˛ R. Example 2 Let a function f:[0, 5] → R be defined as Is f derivable at x = 3?
+Solution (x + 3) = 6, and so, f’(3-) ≠ f’(3+) ⇒f’(3) does not exists i.e.
+f is not derivable at x = 3.
+Now, try the exercises below: SELF ASSESSMENT EXERCISE 1 Let f: R → R be defined show that f’(0+) ≠ f’(0-).
+SELF ASSESSMENT EXERCISE 2 10MTH 341 MODULE 1 (i) Find the points at which the function f: R → R defined by f(x) = x - 1 + x - 2 , " x ˛ R, is not derivable.
+ii) Prove that f: R → R defined by f(x) = x x , " x ˛ R, is derivable at the origin.
+Example 3 Let f: R → R be defined as f(x) = x2 cos (1/x) if x ≠ 0 and f(0) = 0.
+Find the derivative of f at x = 0, if it exists.
+Solution 1 Also, cos takes values between - 1 and 1 and thus, is bounded i.e.
+x 1 cos ≤ 1.
+Hence .
+x So that f’(0) exists and is equal to 0.
+SELF ASSESSMENT EXERCISE 3 Let f: R → R be defined as 1 f(x) = x sin , if x ≠ 0 x = 0, if x = 0 Is f derivable at x – 0?
+Example 4 11MTH 341 MODULE 1 For the function, f defined by f(x) = logx (x > 0), determine f’(1 +) and f’(1-).
+Solution f'(1+) = = = log(1+ h) = h = log (1 + h)1/h = log e = 1. log(1- h) Also f’(1-) = = -1. h SELF ASSESSMENT EXERCISE 4 e1x - e-1x i) Given: f(x) = x. , if x ¹ 0 and f(0) = 0.
+Determinate e1x + e-1x f’(0+) and f’(0-).
+ii) Let f be a function defined by x f(x) = , " x ˛ R. 1+ x Show that f is differentiable everywhere.
+iii) If the function given by possesses derivative at x = 0, then find a and b. iv) Let f be an even function defined on R. If f,(0) exists, then find its value.
+12MTH 341 MODULE 1 3.2 Geometrical Interpretation of the Derivative One of the important problems of geometry is that of finding or drawing the tangent at any point on a given curve.
+The tangent describes the direction of the curve at the point and to define it, we have to use the notion of limit.
+A convenient measure of the direction of the curve is provided by the gradient or the slope of the tangent.
+This slope varies from point to point on the curve.
+You will see that the problem of finding the tangent and its gradient (slope) at any point on the curve is equivalent to the problem of finding the derivative of the function y = f(x), which represents the curve.
+Thus, the tangent to the curve y = f(x) at the point with abscissa x exists if the function has a derivative at the point x and the tangent slope = f’(x).
+This is what is called the geometrical interpretation of the derivative of a function at a point of the domain of the function.
+We explain it as follows: y=f(x) y-axis Q f(c+h)-f(c) P M h T O c c+h x-axis Fig 1 Fig.
+1: The Geometrical Interpretation of the Derivative of a Function at a Point of the Domain of the Function Let f be a differentiable function on an interval I.
+The graph of f is the set {(x, y)}:y = f(x), x ˛ I}.
+Let c, c + h ˛ I, so that P(c, f(c)) and Q(c + h, f(c + h)) are two points on the graph of f. Therefore, the slope of the line PQ is the number f(c + h) - f(c) f(c + h) - f(c) i.e., = tan — Q.
+(c + h)- h h Also as h → 0, Q → P. By definition, the derivative of f at c is f(c + h) - f(c) f’(c) = h 13MTH 341 MODULE 1 = (slope of PQ) In the limit, when Q → P, the line PQ becomes the tangent at P. Therefore, f’(c) = (slope of PQ) = slope of the tangent line to the curve y = f(x) at p. Thus, when f’(c) exists, it gives the slope of the tangent line to the graph of f at the point (c, f(c)).
+That is f’(c) is the tangent of the angle which this tangent line at (c, f(c)) makes with the positive direction of the axis of x.
+If f’(c) = 0 the tangent line to the graph of f at x = c is parallel to the axis of x and if f’(c) exists and does not have finite value, then the tangent line is parallel to the axis of y.
+3.3 Differentiability and Continuity You have seen that the notion of limit is essential and common for both the continuity and the differentiability of a function at a point.
+Obviously, there should be some relation between the continuity of a function and its derivative.
+This relation is same as the one between curve, the graph of the function and existence of a tangent to the curve.
+A curve may have tangent at all point on it.
+It may have no tangent at some points on it.
+For instance, in the figure 2(a), the curve has tangents at all points on it while the curve in figure 2(b) has a point P, a sharp point P, where no tangent exists.
+In fact, differentiability of function at a point implies smooth turning of the corresponding curve along that point.
+Therefore, a curve can’t have a tangent at sharp points.
+P Fig.
+2(a) Fig.
+2(b) The fact that a curve is continuous does not necessarily imply that a tangent exists at all points on the curve.
+However, intuitively, it follows that if a curve has a tangent at a point, then the curve must be continuous at that point.
+Thus, it follows that the existence of a derivative (tangent to a curve) of a function at a point implies that the function is continuous at that point.
+Hence, differentiability of a function implies the continuity of the function.
+However, a continuous function may not be always 14MTH 341 MODULE 1 differentiable.
+For example, the absolute value function f: R → R defined as f(x) =|x|, " x ˛ R, is continuous at every point of its domain but it is not differentiable at the point x = 0 because, at x = 0, there is a sharp bending in its graph.
+This is evident from the graph of this function .
+Now we prove it in the form of the following theorem.
+Theorem 1 Let a function f be defined on an interval I.
+If f is derivable at a point c Î I, then it is continuous at c. Proof f(x) - f(c) Since f is derivable at x = c, therefore, exists and x - c f(x) - f(c) is equal to f’(c).
+Now, f(x) – f(c) = .
+(x - c), for x ≠ c. x - c f(x) - f(c) So, [f(x) – f(c)] = lim .
+lim (x – c) = f’(c).0 = 0. x - c This implies that limf(x) = f(c).
+x®c That is, f is continuous at x = c. We have given the proof for the case when c is not an end point of the interval I.
+If c is an end point of the interval, then is to be replaced by or according as c is left end point or the right end point of the interval.
+Thus, it follows that continuity is a necessary condition for derivability at a point.
+However, it is not sufficient; many functions are readily available which are continuous at a point but not derivable there at.
+We give example of two such functions below: Example 5 Left f: R → R be the function given by f(x) =|x|, " x ˛ R. Then, f is continuous at x = 0 but it is not derivable there at.
+Solution 15MTH 341 MODULE 1 Recall from Unit 4 that f(x) is of the form We claim that f is continuous at x = 0, for f(x) = f(x) = 0 = f(0).
+Now, f(x) - f(0) x - 0 f'(0+) = = = 1. x - 0 x - x - 0 and, f’(0-) = = 1. x - 0 Thus, f is not derivable at x = 0.
+SELF ASSESSMENT EXERCISE 5 Justify that f: R → R defined as i) f(x) = |x| + |x - 1| is continuous but not derivable at x = 0 and x = 1. ii) f(x) = |x| + |x - 1| + |x - 2| is continuous but not derivable at x = 0, 1, 2.
+Example 6 Let f: R → R be defined as Then f is not derivable at x = 1 but is continuous at x = 1.
+Solution Clearly, f(x) = f(x) = 1 = f(1).
+This shows that f is continuous at x = 1.
+Now f(x) - f(1) f'(1+) = x - 1 16MTH 341 MODULE 1 1- 1 = lim = 0. x®1 x - 1 x - 1 and f’(1-) = = 1i.e., f’(1+) ≠ lim f’(1-).
+x - 1 This shows that f is not derivable at x = 1.
+From the above examples, it is clear that derivability is a more restrictive property than continuity.
+One might visualise that if a function is continuous on an interval, then it might fail to be derivable at finitely many points at the most in the said interval.
+This, however, is not true; there exists functions which are continuous on R but which are not derivable at any point whatsoever.
+In 1872, German Mathematician, K. Weierstrass, first gave an example of such a function.
+Here we mention an example due to Van der Waerden.
+The function is defined as f(x) = , where a = 1/2 or -1/2 according a x ≥ 0 or x < 0.
+This function is known to be continuous everywhere but derivable nowhere.
+Now try the following exercise.
+SELF ASSESSMENT EXERCISE 6 Prove that a function f: R ® R defined as 1 f(x) = x sin , x ≠ 0; and f(0) = 0, is continuous but not derivable at the x origin.
+3.4 Algebra of Derivatives You have seen that whenever we have a new limit-definition a natural question arises.
+How does it behave with respect to the algebraic operations of addition, subtraction, multiplication and division?
+In this section, we shall discuss some theorems regarding the derivability of the sum, product, quotient and composite of a pair of derivable functions.
+I.
+Sum of Two Derivable Functions Let f and g be two functions both defined on an interval I.
+If these are derivable at c Î I then f + g is also derivable at x = c and 17MTH 341 MODULE 1 (f + g)’(c) = f’(c) + g’(c).
+Proof By definition, we have f(x) - f(c) = f`(c), and x - c g(x) - g(c) = g’(c).
+x - c Then, (f + g) - (f + g)(c) f(x) + g(x) - f(c) - g(c) = lim x - c x - c {f(x) - f(c)} + {g(x) - g(c)} = x - c f(x) - f(c) g(x) - g(c) = + x - c x - c = f’(c) + g’(c).
+⇒ (f + g)’(c) = f’(c) + g’(c).
+Thus, f + g is derivable at x = c. In the same way you can also prove that f – g is also derivable at x = c and (f – g)’(c) = f’(c) – g’(c).
+II Product of Two Derivable Functions Let f and g be two functions both defined on an interval I.
+If these are derivable at c Î I, then f.g. is also derivable at x = c and (fg)’(c) = f’(c).g(c) + f(c).g’(c).
+Proof By definition, you have f(x) - f(c) = f’(c) x - c 18MTH 341 MODULE 1 g(x) - g(c) and = g’(c) x - c (fg)(x) - (fg)(c) (fx)g(x) - (fc)g(c) Now = x - c x - c {f(x) - f(c)}g(x) + f(c){g(x) - g(c)} = x - c f(x) - f(c) g(x) - g(c) = g(x) + f(c) .
+x - c x - c By using the above two definitions of f’(c) and g’(c) as well as the algebra of limits we have (fg)(x) - (fg)(c) exists and is equal to x - c f'(c) .
+g(c) + f(c) .
+g’(c) ⇒(fg)’(c) = f’(c) .
+g(c) + f(c) .
+g(c) Hence fg is derivable at x = c. If a function f is derivable at a point c, then for each real number k, the function kf is also derivable at c and (kf)’(c0 = k. f’(c).
+For the proof, take f = k, g = f in result II and use the fact that derivative of a constant function is zero everywhere.
+III Quotient of Two Derivative Functions Let f and g two functions both defined on an interval I.
+If f and g are derivable at a point c ˛ I and g(c) ≠ 0, then the function f/g is also derivable at c and g(c).f'(c)- f(c).g'(c) (f/g)’(c) = {g(c)}2 Proof By definitions we have f(x) - f(c) = f’(c) x - c and 19MTH 341 MODULE 1 g(x) - g(c) = g’(c) x - c Now (f/ g)(x) - (f/ g)(c) f(x)/ g(x)- f(c)/ g(c) = x - c x - c f(x)g(x)- g(x)f(c) = (x - c)g(x)g(c) g(c){f(x) - f(c)}- f(c){g(x)- g(c)} = (x - c)g(x)g(c) {f(x)- f(c)} {g(x)- g(c)} g(c) - f(c) x - c x - c = g(x)g(c) Proceeding to limit as x → c, keeping in mind that f and g are derivable at x = c and g(c) ¹ 0, we get g(c)f'(c)- f(c)g'(c) (f/g)’(c) = , {g(c)}2 which proves the result.
+1 In particular, let f be derivable at c and let f(c) ≠ 0, then is derivable at f c and (1/f)’(c) = -f’(c)/{f(c)}2.
+This is known as the Reciprocal Rule for derivatives.
+For its proof, take f(x) = 1, and g = f in result III and use the fact that derivative of a constant function is zero everywhere.
+IV Chain Rule Let S and T be subsets of R and f: S → T, g: T → R be two functions.
+If f is derivable at c ˛ S and g is derivable at f(c) Î T, then ggf is derivable at c and (gof)’(c) = g’(f(c)).f’(c).
+Proof Let ψ(h) = , h ≠ 0.
+(1) 20MTH 341 MODULE 1 Now, we have to show that ψ(h) exists and is equal to g’(f(c)).f’(c).
+Let us define a new function ø : T→ R as Observe that f(c + h) - f(c) ψ(h) = ø(h).
+, h if h ≠ 0.
+Then ψ(h) = f (h).f’(c), by derivability of the function f at c, provided f (h) exists.
+Thus, the proof of the theorem will be complete if we can show that ø(h) exists and is equal to g’(f(c)).
+Now, to show that ψ(h) = g’(f(c)), observe that, by derivability of g, g(f(c) + k) - g(fc)) , exists at f’(c) and equals g’(f(c)), k which implies that given e > 0, $ d > 0, such that (2) And f is derivable at c ⇒ f is continuous at c ⇒ for d > 0, $d `> 0 such that |h| < d ` ⇒ | f(c + h) – f(c)|<d .
+(3) Let us consider a number h such that |h| < d `.
+We have to consider the two cases: (i) f(c + h) = f(c), and (ii) f(c + h) ≠ f(c).
+In case (i), by definition of ø(h), |ø (h) – g`(f(c))| = 0 < ε.
+(4) In case (ii), if we write f(c + h) – f(c) = k ≠ 0, then, by the definition of ø(h), ø(h) = 21MTH 341 MODULE 1 (5) Now, by (3), |h| < d ` ⇒|f(c + h) – f(c)) | < d ⇒0 < |k| < d , by the definition of k, ⇒ |ø(h) – g`(f(c)) | < ε, (6) by (5).
+By (4) and (6), we get |h| < d ` ⇒|ø(h) – g`(f(c)) | < ε ⇒ ø (h) = g`(f(c)), as was to be shown.
+This completes the proof.
+Alternately, we can say that if y = f(x) and z = g(y), where both exists and given by Recall that this form of chain rule is generally used in problems of Calculus.
+For example, to find the derivative of the function f(x) – (x2 + x2 + 2)25, let y = h(u) = u25, where u = x3 + x2 + 2.
+Then dy dh du Therefore, f’(x) = = .
+dx du dx = 25(x3 + x2 + 2)24.
+(3x2 + 2x) We now show how to differentiate the inverse of a differentiable function.
+Let f be a one-one differentiable function on an open interval I.
+Then f is strictly increasing or decreasing and the range f(I) of f is an interval J, say.
+Then the inverse function g = f-1 has the domain J and f g = i , gof = i, o J I 22MTH 341 MODULE 1 where i and i are the identify function and I and J, respectively.
+Then I J you know that f(x) = y (cid:219) g(y) = x, " x ˛ I, y ˛ J.
+Consider any point c of I.
+We have assumed that f is derivable at c. A natural question arises: Is it possible for g to be derivable at f(c)?
+If it is so, then under what conditions?
+We discuss this question as follows: Now, f is derivable at c. If f is derivable at f(c), then by the chain rule for derivatives, gof is derivable at c and (gof)’(c) = g’f(f(c)) f’(c).
+But (gof)’(x) = g(f(x)) = x, " x ˛ I.
+Therefore, (gof)’(x) = 1, " x ˛ I.
+In particular for x = c, we get (gof)’(c) = 1 ⇒ g(f(c)).
+f’(c) = 1 ⇒ f’(c) ≠0.
+Thus, for g to be derivable it is necessary that f’(c) ≠ 0 i.e., the condition for the inverse of f to be derivable at a point f(c) is that its derivative f’ must not be zero at point c i.e., f’(c) ≠ 0.
+In other words, we can say that, if f’(c) = 0, then the inverse of f is not derivable at c. Thus, we find that a necessary condition for the derivability of the inverse function of f at c is that f’(c) ≠ 0.
+Is this condition sufficient also?
+To answer this question, we state and prove the following important theorem: Theorem 2 Inverse Function Theorem Suppose f is one-one continuous function on an open interval I and let J = f(I).
+If f is differentiable at x ˛ I and if f’(x ) ≠ 0, then f-1 is 0 0 differentiable at y = f(x ) ˛ J and 0 0 1 (f-1)’(y ) = .
+0 f'(x ) 0 Proof Note that J is also an open interval, by Intermediate Value Theorem.
+Since f is differentiable at x Î I, therefore, 0 f(x) - f(x ) 0 = f’(x ) 0 x - x 0 Since f’(x ) ≠ 0 and f being one-one, f(x) ≠ f(x ), for x ≠ x , we have 0 0 0 23MTH 341 MODULE 1 1 1 x - x = i.e., 0 f(x) - f(x ) f'(x ) f(x) - f(x ) 0 0 0 x - x 0 1 = .
+f'(x ) 0 So, given ε > 0, there exists d > 0 such that x - x 1 0 - < ε, for 0 < x - x < d .
+f(x) - f(x ) f'(x ) 0 0 0 Let g =f-1.
+Since f is one-one continuous function on I, therefore, by inverse function theorem for continuous functions, the inverse function g is continuous on J.
+In particular, g is continuous at y .
+Also, g is one- 0 one.
+Hence, there exists h > 0 such that 0 < g(y)- g(y ) < d , for 0 < y - y < h 0 0 i.e., 0 < g(y)- x < d , for 0 < y - y < h .
+0 0 From (7) and (8), we get g(y)- x 1 0 - < ε, for 0 < y - y < h .
+f(g(y))- f(x ) f'(x ) 0 0 0 g(y)- x 1 It follows that 0 = f(g(y)) - f(x ) f'(x ) 0 0 Now, y = f(x ) (cid:219) x = g(y ) and f(g(y)) = y.
+0 0 0 0 g(y) - g)(y ) 1 Therefore, 0 = .
+y - y f'(x ) 0 0 1 Hence, g is differentiable at y and g’(y ) = .
+Replacing g by f-1, 0 0 f'(x ) 0 1 we can say that f-1 is differentiable at y and (f-1)’(y ) = .
+0 0 f'(x ) 0 To illustrate the above theorem, consider the example below: Example 7 Find the derivative at a point y of the domain of the inverse function of 0 the function f, where f(x) = sin x, x ˛ ] - p /2, p /2[.
+24MTH 341 MODULE 1 Solution You know that the inverse function g of f is denoted by sin-1.
+Domain of g is ] - 1, 1[.
+Since f is one-one continuous function on ]-, p /2, p /2 [ and it is differentiable at all points of ]- p /2, p /2 [, using the above theorem, you can see that g is differentiable in ]-1, 1[ and if y = sin x is nay 0 0 point ]-1, 1[, where x ˛ ] -p /2, p /2 [, we have 0 1 1 g’(y ) = = .
+0 f'(x ) cosx 0 0 And, since cos x = 1- sin2 x = 1- y2 .
+0 0 0 1 1 Hence, g’(y ) = i.e., (sin-1)’(y ) = 0 0 1- y2 1- y2 0 0 Try the following self assessment excercise.
+SELF ASSESSMENT EXERCISE 7 Find the derivative at a point y of the domain of the inverse function of 0 the function f, where f(x) = log x, x ˛ ]0, [.
+3.5 Sign of a Derivative In this section, we shall discuss the meaning of the derivative of a function at a point being positive or negative.
+But here we require the concept of increasing or decreasing function at a point of the domain of the function.
+So we give all these concepts in the following definition.
+Definition 3 Monotonic Functions Let f be a function with domain as interval I and let c ˛ I.
+Then, f is said to be an increasing (or a decreasing) function in the interval I if, for x , 1 x , ˛ I, 2 x < x ⇒ f(x ) £ f(x ) (or f(x ) ³ f(x ), respectively).
+1 2 1 2 1 2 Also, f is said to be strictly increasing (or decreasing) in I if, for x , x , 1 2 ˛ I, x < x ⇒ f(x ) £ f(x ) (or f(x ) ³ f(x ), respectively).
+1 2 1 2 1 2 25MTH 341 MODULE 1 Using these concepts, we say that f is an increasing function at a point x = c if, there exists a d > 0 such that f is increasing in the interval ]c - d , c + d [.
+Again, we say that f is a decreasing function at appoint x = c if, there exists a d > 0 such that f is decreasing in the interval ]c - d , c + d [.
+Finally, f is said to be monotone or monotonic in I if either it is increasing in I or it is decreasing in I.
+We can similarly define strictly monotone (or monotonic) functions.
+Obviously the function f defined by f(x) = x2 in [0, 1] is an increasing function.
+And, the function f defined by f(x) = 1/x in [1, 2] is a decreasing function.
+Now we give the significance of the sign of the derivative of a function at a point.
+Meaning of the Sign of the Derivative at a point It is often possible to obtain valuable information about a function from the knowledge of the sign of the derivative of a function.
+We discuss the two according as the derivative is positive or negative i.e., f’(x) > 0 and f’(x) < 0, for some x in the domain of f. Case (i) Let c be any interior point of the domain [a, b] of a function f. Let f’(c) exist.
+Suppose f’(c) > 0. f(x) - f(c) This means = f’(c) > 0. x - c Thus, for a given c(0 < c < f’(c)), there exists a d > 0 such that f(x) - f(c) 0 < |x – c| < d ⇒ - f'(c) < ε x - c f(x) - f(c) i.e., x ˛ ]c - d , c + d [, x ≠ c ⇒ f’(c) - ε < < f’(c) + ε x - c f(x) - f(c) ⇒ > 0, by the choice of e which is less than f’(c).
+x - c 26MTH 341 MODULE 1 Therefore, for all x ˛ ]c, c + d [, f(x) > f(c) and, for all x ˛ ]c - d , c[, f(x) <f(c).
+Thus, f increasing at x = c. Now, let f’(c) < 0.
+Define a function ø as ø (x) = -f(x), " x ˛ [a, b].
+So ø`(c) = -f`(c) > 0.
+Therefore, using the above proved result, there exists d > 0 such that " x ˛ ]c, c + d [, ø(x) > ø(c) ⇒ f(x) < f(c).
+and, x ˛ ]c - d ,c[, ø(x) < ø(c) ⇒ f(x) > f(c).
+Thus, f is decreasing at x = c. We now consider the end points of the interval [a, b].
+Case (ii) Consider the end point ‘a’.
+You can show as in case (1), if f’(a) exists, there exists d > 0 such that f’(a) > 0 ⇒ f(x) > f(a), for x ˛ ]a, a + d [, and f’(a) < 0 ⇒ f(x) < f(a), for x ˛ ]a, a + d [, Case (iii) Consider the end point ‘b’.
+You can show that there exists d > 0 such that f’(a) > 0 ⇒ f(x) < f(b), for x ˛ ]b - d , b[, and f’(b) < 0 ⇒ f(x) > f(b), for x ˛ ]b - d , b[, Consider the following examples to make the idea clear.
+Example 8 Show that the function f, defined on R by f(x) = x3 – 3x2 + 3x – 5, " x ˛ R. is increasing in every interval.
+Solution Now f(x) = x3 – 3x2 + 3x – 5.
+Therefore, f’(x) = 3x2 – 6x + 3 = 3(x – 1)2.
+⇒ f’(x) > 0, when x ≠ 1.
+27MTH 341 MODULE 1 Let c be any real number less than 1.
+Then f is continuous in [c, 1] and f’(x) > 0 in ]c, 1[.
+This implies that f is increasing in [c, 1[.
+Similarly, f is increasing in every interval ]1, d], where d is any real number greater than 1.
+We find that f is increasing in every interval.
+Example 9 Separate the intervals in which the function f defined on R by f(x) = 2x3 – 15x2 + 36x + 5, " x ˛ R, is increasing or decreasing.
+Solution: Here f(x) = 2x3 – 15x2 + 36x + 5, therefore, f(x) = 6x2 – 30x + 36 = 6(x2 – 5x + 6) = 6(x – 2)(x – 3) so that f’(x) > 0, whenever x > 3 or x < 2.
+Thus, f is increasing in the intervals ]- ¥ , 2] and [3, ¥ [.
+Also f’(x) < 0, for 2 < x < 3.
+Therefore, f is decreasing in the interval [2.
+3].
+Now try the following exercises.
+SELF ASSESSMENT EXERCISE 8 Separate the intervals in which the function, f, defined on R by f(x) = x3 – 6x2 + 9x + 4, " x ˛ R, is increasing or decreasing.
+SELF ASSESSMENT EXERCISE 9 Show that the function f, defined on R by f(x) = 9 – 12x + 6x2 - x2, " x ˛ R, is decreasing in every interval.
+Let f be a function with domain as an interval I (cid:204) R. Let I = {x ˛ I: f’(x ) exists}.
+If I ≠ Ø, we get a function f’ with domain 1 0 0 1 I.
+We call f’ the derivative or the first derivative of f. We also denote the first derivative of f by f or Df.
+1 28MTH 341 MODULE 1 If we write y = f(x), x Î I, then the first derivative of f(x) = y is also dy written as or y or Dy.
+1 dx Again let I = {t ˛ I ‰ f’(t) exists}.
+If I ≠ Ø, we get a function (f’)’ with 2 1 2 domain I , which we call second order derivative of f and denote it by f’’ 2 or f .
+We can define higher order derivative of f in the same way..
+In the 2 meantime, let us study the following example.
+Example 10 Let f : R® R be defined as Show that f”(0) exists.
+Find its value.
+Solution For x ≠ 0, clearly 1 1 f'(x) = 4x3 sin ( ) - x2 cos ( ) x x while f(x) - f(0) f’(0) = lim xﬁ 0 x - 0 1 = limx3 sin( ) = 0. xﬁ 0 x Thus, we get 1 1 f'(x) = 4x3 sin ( ) - x2 cos ( ), if x ≠ 0 x x f’(0) = 0. f'(x) - f'(0) Now f’’(0) = lim xﬁ 0 x - 0 4x3 sin(1/ x) - x2 cos(1/ x) = lim xﬁ 0 x 29MTH 341 MODULE 1 =lim 4x2 sin(1/ x) - xcos(1/ x) = 0. xﬁ 0 4.0 CONCLUSION 5.0 SUMMARY In this unit, we have discussed the differentiability of a function.
+f(x) - f(c) domain, an open interval ]a, b[.
+If exists, then x - c the limit is called the derivative of f at ‘c’ and is denoted by f’(c).
+If we f(x) - f(c) consider the right hand limit, and it exists, then x - c it is called the right hand derivative of f at ‘c’ and is denoted by Rf’(c).
+f(x) - f(c) Likewise , if it exists, is called the left hand x - c derivative of f at c and is denoted by Lf’(c).
+Form the definition of limit it follows that f’(c) exists (cid:219) Lf’(c) and Rf’(c) both exists and Lf’(c) = Rf’(c).
+If f is derivable at each point of the open interval ]a, b[, then it is said to be derivable in ]a, b[.
+If the function f is defined in the closed interval [a, b], then f is said to be derivable at the left end point ‘a’ if f(x) - f(a) exists and the limit is called derivative of f at x - a ‘a’ and denoted by f’(a).
+f(x) - f(a) Similarly, if exists, that f is said to e derivable x - a at ‘b’ and the limit is denoted by f’(b) and is called the derivative of f at ‘b’.
+The function f is said to be derivable in [a, b] if it is derivable in the open interval ]a, b[ and also at the end points ‘a’ and ‘b’.
+In the same section, geometrical interpretation of the derivative is discussed and you have seen that the derivative f’(c) of a function f at a point ‘c’ of it domain represents the slope of the tangent at the point (c, f(c)) on the graph of the function f. In section 11.3, the relationship between the differentiability and continuity is discussed.
+We have proved that a function which is derivable at a point is continuous these at and illustrated that the converse is not true always.
+It has been proved that if f and g are derivable at a point c, then f ± g, fg are derivable at ‘c’ and (f ± g)’(c) = f’(c) ± g’(c), (fg)’(c) = f(c) + f’(c) g(c).
+Further, if g(c) ≠ g(c)f'(c)- f(c)g'(c) 0, then f/g is also derivable at c and (f/g’(c) = .
+[g(c)]2 Also in this section, the chain rule for differentiation is proved that is, if f and g are two functions such that the range of f is contained in the domain of g and f, g, are derivable respectively at c, f(c) then gof 30MTH 341 MODULE 1 derivable at c and (gof)’(c) = g’(f(c)).f’(c).
+Result concerning the differentiation of inverse function is discussed in the same section.
+If f is one-one continuous function on an open interval I and f(I) = J and if f is differentiable at x ˛ I, f’(x ) „ 0, then f-1 is differentiable at x ˛ I, f`(x ) 0 0 0 0 1 ≠ 0, then f-1 is differentiable at y = f(x ) ˛ J and (f-1)’(y ) = .
+0 0 0 f'(x ) 0 you have seen that a function f is increasing or decreasing at a point ‘c’ of its domain if its derivative f’(c) at the point is positive or negative.
+6.0 TUTOR-MARKED ASSIGNMENT If f : R → R is defined as f(x) = sin (sin x) " x ˛ R, then show that f”(x) + tan x f’(x) + cos2x f(x) = 0.
+7.0 REFERENCES/FURTHER READING 31MTH 341 MODULE 1 UNIT 2 MEAN-VALUE THEOREMS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Rolle’s Theorem 3.2 Mean Value Theorem 3.3 Language’s Mean Value Theorem 3.4 Cauchy’s Mean Value Theorem 3.5 Generalised Mean Value Theorem 3.6 Intermediate Value Theorem for Derivatives 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In unit 1, you were introduced to the notion of derivable functions.
+Some interesting and very useful properties are associated with the functions that are continuous on a closed interval and derivable in the interval except possibly at the end points.
+These properties are formulated in the form of some theorems, called Mean Value theorems which we propose to discuss in this unit.
+Mean value theorems are very important in analysis because many useful and significant results are deducible from them.
+First, we shall discuss the well-known Rolle’s theorem.
+This theorem is one of the simplest, yet the most fundamental theorem of real analysis.
+It is used to establish the mean-value theorems.
+Finally, we shall illustrate the use of these theorems in solving certain problems of analysis.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • state Rolle’s theorem and its geometrical meaning • deduce the mean value theorems of differentiability by using Rolle’s theorem • give the geometrical interpretation of the mean value theorems • apply Mean Value theorems to various problems of Analysis • apply the Intermediate Value Theorem for derivatives and the related Darboux Theorem.
+32MTH 341 MODULE 1 3.0 MAIN CONTENT 3.1 Rolle’s Theorem The first theorem which you are going to study in this unit is Rolle’s theorem given by Michael Rolle (1652–1719), a French mathematician.
+This theorem is the foundation for all the mean value theorems.
+First we discuss this theorem and give its geometrical interpretation.
+In the subsequent sections you will see its application to various types of problems.
+We state and prove the theorem as follows: Theorem 1: (ROLLE’S THEOREM) If a function f : [a, b] → R is (i) continuous on [a, b], (ii) derivable on (a, b), and (iii) f(a) = f(b), then there exists at least one real number c ˛ (a, b) such that f’(c) = 0.
+Proof: Let sup.
+f = M and inf.
+f = m. Then there are points c, d ˛ [a, b] such that f(c) = M and f(d) = m. Only two possibilities arise: Either M = m or M ≠ m Case (i): When M = m. Then M = m ⇒ f is constant over [a, b] ⇒ f(x) = k " x ˛ [a, b], for some fixed real number k. ⇒ f’(x) = 0 " x ˛ [a, b].
+Case (ii): When M ≠ m. Then we proceed as follows: Since f(a) = f(b), therefore, at least one of the numbers M and m, is different from f(a) (and also different from f(b)).
+33MTH 341 MODULE 1 Suppose that M is different from f(a) i.e., M ≠ f(a).
+Then it follows that f(c) ≠ f(a) which implies that c ≠ a.
+Also M ≠ f(b).
+This implies that f(c) ≠ f(b) which means c ≠ b.
+Since c ≠ a and c ≠ b, therefore, c ˛ ]a, b[.
+Therefore, f(x) ≤ f(c) " x ˛ [a, b] ⇒ f(c – h) ≤ f(c) for any positive real numbers in such that c – h ˛ [a, b].
+Thus, Taking limit as c → 0 and observing that f’(x) exists at each point x of ]a, b[, in particular at x = c, we have f'(c-) ≥ 0 Again, f(x) ≤ f(c) also implies that f(c + h) - f(c) ≤ 0 h for a positive real number h such that c + h ˛ [a, b].
+Again on taking limits as h → 0, we get f’(c+) ≤ 0.
+But f’(c-) = f’(c+) = f’(c).
+Therefore, f’(c-) ≥ 0 and f’(c+) £ 0 imply that f'(c) £ 0 and f’(c) ≥ 0 which gives f’(c) = 0, where c ˛ ]a, b[.
+You can discuss the case, m ≠ f(a) and m ≠ f(b) in a similar manner.
+Note that under the conditions stated, Rolle’s theorem guarantees the existence of at least one c in ]a, b[ such that f’(c) = 0.
+It does not say anything about the existence or otherwise of more than one such 34MTH 341 MODULE 1 number.
+As we shall see in problems, for a given f, there may exist several numbers c such that f’(c) = 0.
+Next, we give the geometrical significance of the theorem.
+Y Y f X X O x = a x = c x = b x = a O x =c1 x =c2 x =c3 x =b Fig2 Fig.
+2 Geometrical Interpretation of Rolle’s Theorem You know that f’(c) is the slope of the tangent to the graph of f at x = c. Thus, the theorem simply states that between two end points with equal ordinates on the graph of f, there exists at least one point where the tangent is parallel to the axis of X, as shown in the figure 1.
+After the geometrical interpretation, we now give you the algebraic interpretation of the theorem.
+Algebraic Interpretation of Rolle’s Theorem You have seen that the third condition of the hypothesis of Rolle’s theorem is that f(a) = f(b).
+If for a function f, both f(a) and f(b) are zero that is a and b are the roots of the equation f(x) = 0, then by the theorem there is a point c of ]a, b[, where f’(c) = 0 which means that c is a root of the equation f’(x) = 0.
+Thus, Rolle’s theorem implies that between two roots a and b of f(x) = 0, there always exists at least one root c of f’(x) = 0 where a < c < b.
+This is the algebraic interpretation of the theorem.
+Before we take up problems to illustrate the use of Rolle’s theorem you may note that the hypothesis of Rolle’s theorem cannot be weakened.
+To see this, we consider the following three cases: Case (i) Rolle’s theorem does not hold if f is not continuous in [a, b].
+35MTH 341 MODULE 1 For example, consider f where Thus, f is continuous everywhere between 0 and 1 except at x = 1.
+So f is not continuous in [0, 1].
+Also it is derivative in ]0, 1[ and f(0) = f(1) = 0.
+But f’(x) = 1 " x ˛ ]0, 1[.
+Case (ii) The theorem no more remains true if f’ does not exist even at one point in ]a, b[.
+Consider f where f(x) = x " x ˛ ]-1, 1[.
+Here f is continuous in [-1, 1], f(-1) = f(1), but f is derivable " x ˛ ]-1, 1[ except at x = 0.
+Hence, there is not point c ˛ ]-1, 1[ such that f’(c) = 0.
+Case (iii) The theorem does not hold if f(a) ≠ f(b).
+For example, if f is the function such that f(x) = x in [1,2], then f(1) = 1 ≠ 1 ≠ 2 = f(2).
+Also f’(x) = 1 " x ˛ ]1, 2[ i.e.
+there is no point c ˛ ]1, 2[ such that f’(c) = 0.
+Now we consider one example which illustrates the theorem: Example 1: Verify Rolle’s theorem for the function f defined by (i) f(x) = x3 – 6x2 + 11x – 6 " x ˛ [1, 3].
+(ii) f(x) = (x – a)m(x – b)n " x ˛ [a, b] where m and n are positive integers.
+Solution: 36MTH 341 MODULE 1 (i) Being a polynomial function, f is continuous on [1, 3] and derivable in ]1, 3[.
+Also f’(1) = f(3) = 0.
+Now f’(x) = 3x3 – 12x + 11 = 0 i 1 ⇒ x = 2 + , 2 - 3 3 Clearly both of them lie in ]1, 3[.
+(ii) f(x) = (x – a)m(x – b)n Obviously f is continuous in [a, b] and derivative in ]a, b[.
+Also f(a) = f(b) = 0.
+Now f’(x) = m(x – a)m-1 (x – b)n + n(x – a)m (x – b)n-1 = 0 implies that (x – a)m-1 (x – b)n-1 [m(x – b) + n(x – a)] = 0 i.e.
+m(x – b) + n(x – a) = 0.
+(As x ≠ a or b : we want those points which are in ]a, b[).
+Thus is point c and it clearly lies in ]a, b[.
+You may note from example 1(i) that point c is not unique.
+SELF ASSESSMENT EXERCISE 1 Verify Rolle’s theorem for the function f where f(x) = sin x, x Î [-2p , 2p ].
+SELF ASSESSMENT EXERCISE 2 Examine the validity of the hypothesis and the conclusion of Rolle’s theorem for the function f defined by (a) f(x) = cos x " x ˛ [-p /2, p /2[ (b) f(x) = 1 + (x – 1)2/3 " x ˛ [0, 2].
+37MTH 341 MODULE 1 Next we give an example which shows application of Rolle’s theorem to the theory of equations.
+Example 2 Show that there is no real number l for which the equation x3 – 27x + l = 0 has two distinct roots in [0, 2].
+Solution: Let f(x) = x3 – 27x + l .
+Suppose for some value of l , f(x) = 0 has two distinct root a and b that is f has two zeros’ a and b , a ≠ b in [0, 2].
+Without any loss of generality, we can suppose, a < b .
+Therefore, [a , b ] (cid:204) [0, 2].
+Now f is clearly continuous on [a , b ], derivable in ] a , b [ and f(a ) = f(b ) = 0.
+Therefore, by Rolle’s theorem, $ c˛ ]a , b ], such that F`(c) = 0 ⇒ 3c2 – 27 = 0 ⇒ c2 – 9 = 0 ⇒ c = – 3.
+Clearly none of 3 0r – 3 lies in ]0, 2[, whence -3 or 3 ˇ ] a , b [.
+Thus, we arrive at a contradiction, hence, the result.
+SELF ASSESSMENT EXERCISE 3 Prove that between any two real roots of ex sin x = 1, there is at least one real root of ex cos x + 1 = 0.
+SELF ASSESSMENT EXERCISE 4 Prove that if a , a , …, a ˛ R be such that 0 1 n a a a 0 + 1 + … + n-1 + a = 0, then there exists at least one real n n + 1 n n number x between 0 and 1 such that 38MTH 341 MODULE 1 a xn + a xn-1 + … + a = 0.
+0 1 n Next examples show how Rolle’s theorem helps in solving some difficult problems.
+Example 3: If f and g are continuous in [a, b] and derivable in ]a, b[ with g`(x) ≠ 0 " x ˛ ]a, b[; prove that there exists c ˛ ]a, b[ such that f'(c) f(c)- f(a) = g'(c) g(b)- g(c) Solution: The result to be proved can be written as f(c) g`(c) + f`(c) g(c) – f(a) g`(c) – g(b) f`(c) = 0 the left hand side of which is the derivative of the function f(x) g(x) – f(a) g(x) – g(b) f(x) at x = c. This suggests that we should apply Rolle’s theorem to the function ø where ø (x) = f(x) g(x) – f(a) g(x) – g(b) f(x), " x ˛ [a, b].
+Since f and g are continuous in [a, b] and derivable in ]a, b[, therefore f is continuous in [a, b] and derivable in ]a, b[.
+Also, ø (a) = -g(b) f(a) = ø (b).
+So ø satisfies all the conditions of Rolle’s theorem.
+Thus, there is a point c in ]a, b[ such that ø`(c) = 0 that is f(c) g’(c) + f’(c) g(c) – f(a) g’(c) – g(b)f’(c) = 0 f(c)- f(a) f'(c) i.e.
+= .
+g(b)- g(c) g'(c) which proves the result.
+Example 4: If a function f is such that its derivative, f’ is continuous and on [a, b] and derivable on ]a, b[, then show that there exists a number c Î ]a, b[ such that 1 f(b) = f(a) + (b – a) f’(a) + (b – a)2 f”(c).
+2 Solution: Clearly the function f and f’ are continuous and derivable on [a, b].
+Consider the function f where 39MTH 341 MODULE 1 ø(x) = f(b) – f(x) – (b – x) f’(x) – (b – x)2 A, " x ˛ [a, b] where A is a constant to be determined such that ø (a) = ø (b).
+\ f(b) – f(a) – (b – a) f’(a) – (b – a)2A = 0 Now ø, being the sum of continuous and derivable functions, is itself continuous on [a, b] and derivable on ]a, b[ and also ø (a) = ø (b), for the value of A given by (1).
+Thus, ø satisfies all the conditions of Rolle’s theorem.
+Therefore, there exists c ˛ ]a, b[ such that ø’(c) = 0.
+Nowf ’(x) = -f’(x) + f’(x) – (b – x) f”(x) + 2(b – x)A This gives 0 = ø’(c) = -(b – c) f’’(c) + 2(b – c)A 1 which means A = f”(c) since b ≠ c. 2 Putting the value of A in (1), you will get 1 f(b) = f(a) + (b – a) f’(a) + (b – a)2 f”(c).
+2 SELF ASSESSMENT EXERCISE 5 Assuming f” to be continuous on [a, b], show that b - c c - a 1 f(c) – f(a) .
+- f(b) .
+= (c – a) (c – b) f”(d) b - a b - a 2 where both c and d lie in [a, b].
+Note that the key to our proof of the above example 3 and 4 and Self Assessment Exercise 5 and many more such situations, is the judicious choice of the function, ø, and many students compare it with the magician’s trick of pulling a rabbit from a hat.
+If one can hit at a proper choice of ø the problems are more than half done.
+3.2 Mean Value Theorem In this section, we discuss some of the most useful in Differential Calculus known as the mean-value theorems given again by the two 40MTH 341 MODULE 1 famous French mathematicians Cauchy and Lagrange.
+Lagrange proved a result only by using the first two conditions of Rolle’s theorem.
+Hence, it is called Lagrange’s Mean-Value theorem.
+Cauchy gave another mean-value theorem in which he used two functions instead of one function as in the case of Rolle’s theorem and Lagrange’s Mean-Value theorem.
+You will see later that Lagrange’s theorem is a particular of Cauchy’s mean value theorem.
+Finally, we discuss the generalised form of these two theorems.
+We begin with Mean-Value theorem given by J. L. Lagrange [1736 – 1813].
+3.3 Lagrange’s Mean-Value Theorem If a function f : [a, b] → R is (i) continuous on [a, b] and (ii) derivable on ]a, b[, then there exists at least on point c ˛ ]a, b[ such that f(b) - f(a) f’(c) = .
+b - a Now the functionf , being the sum of two continuous and derivable functions is itself (i) continuous on [a, b] (ii) derivable on ]a, b[, and (iii) ø(a) = ø(b).
+Therefore, by Rolle’s theorem $ a real number c ˛ ]a, b[ Such that, ø΄(c) = 0.
+But ø΄(x) = f’(x) + A So 0 =ø΄(c) = f΄(c) + A f(b) - f(a) which means that f΄(c) = -A = b - a In the statement of the above theorem, sometimes b is replaced by a + h, so that the number c between a and b can be taken as a + θh where 0 < θ < 1.
+According them, the theorem can be restated as follows: 41MTH 341 MODULE 1 Let f be defined and continuous on [a, a + h] and derivable on ]a, a + h[, then there exists θ 0 < θ < 1 such that f(a + h) = f(a) + hf’(a + θh).
+Certain important and useful results can be deduced from Lagrange Mean-Value theorem.
+We state and prove these results as follows: You already know that derivative of a constant function is zero.
+Conversely, if the derivative of a function is zero, then it is a constant function.
+This can be formalised in the following way: I) If a function f is continuous on [a, b], derivable on ]a, b[ and f’(x) = 0 " x ˛ ]a, b[, then f(x) = k " x ˛ [a, b], where k is some fixed real number.
+To prove it, let l be any point of [a, b].
+Then [a, l ](cid:204) [a, b] Thus, f is i) continuous on [a, l ] ii) derivable on ]a, l [ Therefore, by Lagrange’s mean value theorem, $ c ˛ ]a, l [ such that Now f’(x) = 0 " x ˛ ]a, b[ ⇒ f’(x) = 0 " x ˛ ]a, l [ ⇒ f’(c) = 0 ⇒ f(l ) = f(a) " l ˛ [a, b] But l is nay arbitrary point of [a, b].
+Therefore f(x) = f(a) = k (say) " x ˛ [a, b].
+Note that if the derivatives of two functions are equal, then they differ by a constant.
+We have the following formal result: 42MTH 341 MODULE 1 II) If two functions f and g are (i) continuous in [a, b], (ii) derivable in ]a, b[ and (iii) f΄(x) = g΄(x) " x ˛ ]a, b[, then f – g is a constant function.
+Proof: Define a function ø as ø(x) = f(x) – g(x) " x ˛ [a, b] Therefore, ø΄(x) = 0 " x ˛ ]a, b[ because it is given that f΄(x) = g΄(x) for each x in ]a, b[ Also ø is continuous in [a, b], therefore, ø(x) = k, " x ˛ [a, b], where k is some fixed real number.
+This means that f(x) – g(x) = k " x ˛ [a, b] i.e.
+(f – g) (x) = k " x ˛ [a, b].
+Thus, f – g is a constant function in [a, b] The next two results give us method to test whether the given function is increasing or decreasing.
+III) If a function f is (i) continuous on [a, b] (ii) derivable on ]a, b[ and (iii) f΄(x) > 0 " x ˛ ]a, b[, then f is strictly increasing on [a, b].
+For the proof, let x , x (x < x ) be any two points of [a, b].
+Then f is 1 2 1 2 continuous in [x , x ] and derivable in ] x , x [, so by Lagrange’s mean 1 2 1 2 value theorem, f(x ) - f(x ) 2 1 = f’(c) > 0, for x < c < x 1 2 x - x 2 1 which implies that f(x ) – f(x ) > 0 ⇒ f(x ) > f(x ) for x > x 2 1 2 1 2 1 Thus, f(x ) > f(x ) for x > x 2 1 2 1 43MTH 341 MODULE 1 Therefore, f is strictly increasing on [a, b].
+If the condition (iii) is replaced by f΄(x) ≥ 0 " x ˛ [a, b], then f is increasing in [a, b] since you will get f(x ) ≥ f(x ) for x > x .
+2 1 2 1 IV) If a function f is (i) continuous on [a, b] (ii) derivable on ]a, b[ and (iii) f΄(x) < 0 " x ˛ ]a, b[ then f is strictly decreasing on [a, b].
+Proof is similar to that of III.
+Prove it yourself.
+If condition (iii) in IV is replaced by f΄(x) ≤ 0 " x ˛ ]a, b[, then f is decreasing in [a, b].
+The result III and IV remain true if instead of [a, b] we have the intervals [a, ∞ [, ] - ∞, b], ]- ∞, ∞ [, ]a, ∞ [, -∞, b[, etc.
+Note that the conditions of Lagrange’s mean value theorem cannot be weakened.
+To see this consider the following examples: 1) Let f be the function defined on [1, 2] as follows: Clearly f is continuous on [1, 2[ and derivable on ]1, 2[, it is not continuous only at x = 2 i.e.
+the first condition of Lagrange’s Mean Value theorem is violated.
+f(2) - f(1) Also = 2 – 1 = 1 2- 1 And f’(x) = 2x for 1 < x < 2 If this theorem is to be true then f΄(x) = 1 i.e.
+2x = 1 i.e.
+x = ½ must lie in ]1, 2[, which is clearly false.
+2) Let f be the function defined on [-1, 2] as f(x) = x .
+Here f is continuous on [-1, 2] and derivable at all point of ]-1, 2[ except at x = 0, so that the second condition of Lagrange’s Mean Value theorem is violated.
+44MTH 341 MODULE 1 As f(2)- f(- 1) 2- (+1) 1 Also = = 2- (- 1) 2 3 f(2)- f(- 1) so that ≠ f΄(x) for any x in ]-1, 2[.
+2- (- 1) We may remark that the conditions of Lagrange’s mean value theorem are only sufficient.
+They are not necessary for the conclusion.
+This can be seen y considering the function on [0, 2] defined as: 1 1 For < x < , f΄(x) = 1.
+4 2 In particular, f’(3/8) = 1. f(2) - f(0) 2- 0 Also = = 1 = f’(3/8) 2- 0 2- 0 even though f is neither continuous in the interval [0, 2] nor it is derivable on ]0, 2[, since f is neither continuous nor derivable at ¼ and ½.
+Now you will see the geometrical significance of Lagrange’s Mean Value theorem.
+45MTH 341 MODULE 1 Geometrical Interpretation of Lagrange’s Mean Value Theorem Y B(b, f(b)) (a, f(a)) C(c, f(c)) A X O a b c Fig.
+2 Draw the graph of the function f between the two points A(a, f(a)) and f(b) - f(a) B(b, f(b)).
+The number gives the slope of the chord AB.
+b - a Also f’(c) gives the slope of the tangent to the graph, at the point P(c, f(c)).
+Thus, the geometrical meaning of Lagrange’s Mean Value theorem is stated as above: If the graph of f is continuous between two points A and B and possesses a unique tangent at each point of the curve between A and B, then there is at least one point on the graph lying between A and B, where the tangent is parallel to the chord AB.
+Before considering example, we have another interpretation of the theorem.
+We know that f(b) – f(a) is the change in the function a as x changes from a to b so that {f(b) – f(a)}/(b – a) is the average rate of change of the function over the interval [a, b].
+Also, f΄(c) is the actual rate of change of the function for x = c. Thus, the Lagrange’s mean value theorem states that the average rate of change of a function over an interval is also the actual rate of change of the function at some point of the interval.
+This interpretation of the theorem justifies the name ‘Mean Value’ for the theorem.
+Now we consider an example which verifies Lagrange’s Mean Value theorem.
+46MTH 341 MODULE 1 Example 5: Verify the hypothesis and conclusion of Lagrange’s mean value theorem for the functions defined as: 1 i) f(x) = " x ˛ {1, 4].
+x 1 ii) f(x) = log x " x ˛ [1, 1 + ].
+e Solution: (i) Here f(x) = 1/x; x ˛ [1, 4].
+Clearly f is continuous in [1, 4] and derivable in ]1, 4[.
+So f satisfies the hypothesis of Lagrange’s mean value theorem.
+Hence there exists a point c ˛ ]1, 4[ satisfying f(4) - f(1) f΄(c) = 4 - 1 Putting the values of f and f’, you get 1 (1/ 4) - 1 - = c2 3 which gives c2 = 4 i.e.
+c = – 2.
+Of these two values of c, c = 2 lies in ]1, 4[.
+(ii) Here f(x) = log x; x ˛ [1, 1 + e-1].
+Clearly f is continuous in [1, 1 + e-1] and derivable in ]1, 1 + e-1[.
+Therefore, the hypothesis of Lagrange’s mean value theorem is satisfied by f. Therefore, there exists a point c ˛ ]1, 1 + e-1[ such that f(1+ e-1)- f(1) f΄(c) = (1+ e-1)- 1 Putting the values of f and f’, you get 1 log(1+ e-1)- log1 = c e-1 47MTH 341 MODULE 1 which gives c = [e log(1 + e-1)]-1 You can use the inequality x < log(1 + x) < x (x > 1) to see that c ˛ ]1, 1 + e-1[.
+1+ x SELF ASSESSMENT EXERCISE 6 Verify Lagrange’s mean value theorem for the function f defined in [0, π/2] where f(x) = cos x " x ˛ [0, π/2].
+SELF ASSESSMENT EXERCISE 7 Find ‘c’ of the Lagrange’s mean value theorem for the function f defined as f(x) = x(x – 1) (x – 2) " x ˛ [0, 3].
+Now you will be given examples showing the use of Lagrange’s mean value theorem in solving different types of problems.
+Example 6: Prove that for any quadratic function 1x2 + mx + n, the 1 value of θ in Lagrange’s mean value theorem is always , whatever 1, 2 m, n, a and h may be.
+Solution: Let f(x) = 1x2 + mx + n; x ˛ [a, a + h].
+f being a polynomial function is continuous in [a, a + h] and derivable in ]a, a + h[.
+Thus, f satisfies the conditions of Lagrange’s mean value theorem.
+Therefore, there exists θ (0 < θ <1) such that f(a + h) = f(a) + hf΄(a + θh) Putting the values of f and f’ you will get l(a + h)2 + m(a + h) = n = la2 + ma + n + h [2 1 (a + θ h) + m] i.e.
+⇒ 1h2 = 21 θh2 which gives θ = ½, whatever a, h, l, m, n may be.
+Example 7: If a and b (a < b) are real numbers, then there exists a real number c between a and b such that 48MTH 341 MODULE 1 1 c2 = (a2 + ab + b2).
+3 Solution: Consider the function, f, defined by f(x) = x3 " x ˛ [a, b].
+Clearly f satisfies the hypothesis of Lagrange’s mean value theorem.
+Therefore, there exists c ˛ ]a, b[ such that f(b) - f(a) f΄(c) = b - a which gives b2 - a2 3c2 = = b2 + ba + a2 b - a 1 i.e.
+c2 = (a2 + ab + b2) where a < c < b.
+3 SELF ASSESSMENT EXERCISE 8 Show that on the curve, y = ax2 + bx + c, (a, b, c ˛ R a ≠ 0), the chord joining the points whose abscissae are x = m and x = n, is parallel to the tangent at the point whose abscissa is given by x = (m + n)/2.
+SELF ASSESSMENT EXERCISE 9 Let f be defined and continuous on [a – h, a + h] and derivable on ]a – h, a + h[.
+Prove that there exists a real number q (0 < θ < 1) for which f(a + h) + f(a – h) – 2f(a) = h[f΄(a + θh) – f’(a - θh)].
+With the help of Lagrange’s mean value theorem we can prove some inequality in Analysis.
+We consider the following example.
+Example 8: Prove that sin x < x for 0 < x ≤ π/2.
+Solution: Let f(x) = x – sin x; 0 ≤ x ≤ π/2.
+f is continuous in [0, π/2] and derivable in ]0, π/2[.
+Also, f΄(x) = 1 – cos x > 0, for 0 < x < π/2.
+Therefore, f is strictly increasing in [0, π/2], which means that 49MTH 341 MODULE 1 f(x) > f(0) for 0 < x ≤ π/2.
+(Using corollary III of Lagrange’s mean value theorem) i.e., x – sin x > 0, for 0 < x ≤ π/2.
+We can also start with the function g(x) = sin x – x, for 0 ≤ x ≤ π/2.
+Then we have to use corollary IV of Lagrange’s mean value theorem to arrive at the desired result.
+Example 9: Prove that tan x > x, whenever 0 < x < π/2.
+Solution: Let c be any real number such that 0 < c < π/2.
+Consider the function f, defined by f(x) = tan x – x, " x ˛ [0, c].
+The function f is continuous as well as derivable on [0, c].
+Also, f(x) = sec2x – 1 = tan2x > 0, " x ˛ ]0, c[ Thus, f is strictly increasing in [0, c].
+Consequently, f(0) < f(c) ⇒ 0 < f(c), which shows that 0 < tan x – x, when x = c. This implies, tan x > x, when x = c. Since c is any real number such that 0 < c < π/2, therefore, tan x > x, whenever 0 < x < π/2.
+x Example 10: Show that < log (1 + x) < x, " x > 0.
+1+ x Solution: Let f(x) = x – log (1 + x), x ≥ 0.
+1 x Therefore, f΄(x) = 1 - = .
+1+ x 1+ x Clearly, f΄(x) > 0, for x > 0.
+Therefore, f is strictly increasing in [0, ∞[.
+Therefore, f(x) > f(0) = 0, " x > 0 i.e., x > log (1 + x), " x > 0 i.e., log (1 + x) < x, " x > 0. x Again, let g(x) = log (1 + x) - , x ≥ 0.
+Then 1+ x 50MTH 341 MODULE 1 1 1 x g΄(x) = - = .
+1+ x (1+ x)2 (1+ x)2 Clearly, g(x) > 0, " x > 0 x i.e., log (1 + x) > , " x > 0 1+ x x i.e.
+< log (1 + x), " x > 0.
+1+ x SELF ASSESSMENT EXERCISE 10 Prove that i) x – x3 < tan-1 x, if x > 0; and ii) e-x > 1 – x, if x > 0.
+Cauchy generalized Lagrange’s mean value theorem by using two functions as follows.
+3.4 Cauchy’s Mean Value Theorem Let f and g be two function defined on [a, b] such that i) f and g are continuous on [a, b] ii) f and g are derivable on ]a, b[, and iii) g’(x) ≠ 0 " x ˛ ]a, b[, then there exists at least one real number c ˛ ]a, b[ such that f'(c) f(b)- f(a) g(c) g(b)- g(a) (This is also known as Second Mean Value Theorem of Differential Calculus.)
+Proof: Let us first observe that the hypothesis implies g(a) ≠ g(b) (Since g(a) = g(b), combined with the other two conditions h has, means g satisfies the hypothesis of Rolle’s theorem.
+Thus, there exists c ˛ ]a, b[ such that g΄(c) = 0, which violates condition (iii)).
+51MTH 341 MODULE 1 Let a function f be defined by ø(x) = f(x) + A g(x) " x ˛ [a, b], where A is a constant to be chosen such that ø(a) = ø(b) i.e.
+f(a) + Ag(a) = f(b) + Ag(b) which gives A = -{f(b) – f(a)} / {g(b) – g(a)}.
+A proved above, g(b) – g(a) ≠ 0).
+New (1) f is continuous on [a, b], since f and g are so, (2) f is derived on ]a, b[ since f and g are so, and (3) f (a) = f (b).
+Thus, ø satisfies the conditions of Rolle’s theorem.
+Therefore, there is a point c ˛ ]a, b[ such that ø΄(c) = 0 which means that f’(c) + Ag΄(c) = 0 Alternative Statement of Cauchy’s Mean Value Theorem If in the statement of above theorem, b is replaced by a + h, then the number c ˛ ]a, b[ can be written as a + θh where 0 < θ < 1.
+The above theorem then can be restated as: Let f and g be defined and continuous on [a, a + h], derivable on ]a, a + h[ and g΄(x) ≠ 0 " x ˛ ]a, a + h[, then there exists a real number θ (0 < θ < 1) such that As remarked earlier, Lagrange’s mean value theorem can be deduced from Cauchy’s mean value theorem in the following way.
+52MTH 341 MODULE 1 In Cauchy’s mean value theorem, take g(x) = x.
+Then, g’(x) = 1 and have g΄(c) = 1.
+Also, g(a) = a, g(b) = b.
+Result of Cauchy’ mean value theorem becomes f(b) - f(a) = f΄(c) b - a` This holds if (i) f is continuous in [a, b] and (ii) f is derivable in ]a, b[ which is nothing but Lagrange’s mean value theorem.
+Note that you might be tempted to prove Cauchy’s mean value theorem by applying Lagrange’s mean value theorem to the two functions f and g separately and then dividing.
+The desired result cannot be obtained in this manner.
+In fact, we will obtain where c ˛ ]a, b[ and c ˛ ]a, b[.
+Note that here c is not necessarily 1 2 1 equal to c .
+2 As in the case of Rolle’s theorem and Lagrange’s mean value theorem we give geometrical significance of Cauchy’s mean theorem.
+Geometrical Interpretation of Cauchy’s Mean Value Theorem The conclusion of Cauchy’s mean value theorem may be written as {f(b)- f(a)} {g(b) - g(a)} f'(c) = b - a b - a g'(c) This means slope of the chord joining (a,f(a)) and (b,f(b)) slope of the chord joining (a,g(a)) and (b,g(b)) slope of the tangent to y = f(x) and (c,f(c)) = slope of the tangent to y = g(x) and (c,g(c)) Suppose that two curves y = f(x) and g = f(x) are continually drawn between the two ordinates x = a and x = b a shown in the Figure 3.
+Suppose further that the tangent can be drawn to each of the curves at each point lying between these abscissae and nowhere does the tangent to the curve, y = g(x), between these abscissae become parallel to the X- axis.
+Then there exists a point c between a and b such that the ratio of 53MTH 341 MODULE 1 the slopes of the chords joining the end points of the curves is equal to the ratio of the slopes of the tangents to the curves at the points obtained by the intersection of the curves and the ordinate at c. Y y = f(x) y = g(x) X O x=a x=c x=b Fig.
+3 As in the case of Rolle’s theorem and Lagrange’s mean value theorem, we now give examples concerning the verification and application of Cauchy’s mean value theorem.
+Example 11: Verify Cauchy’s mean value theorem for the functions f and g defined as f(x) = x2, g(x) = x4 " x ˛ [2, 4].
+Solution: The function f and g, being polynomial functions are continuous in [2, 4] and derivable in ]2, 4[.
+Also g’(x) = 4x3 ≠ 0 " x ˛ ]2, 4[.
+All the conditions of Cauchy’s mean value theorem are satisfied.
+Therefore, there exists a point c ˛ ]2, 4[ such that f(4)- f(2) f'(c) = g(4)- g(2) g'(c) 12 2c i.e.
+= 240 4c3 i.e.
+c = ± 10 c = 10 lies in ]2, 4[ So Cauchy’s mean value theorem is verified.
+Example 12: Apply Cauchy’s mean value theorem to the functions f and g defined as f(x) = x2, g(x) = x " x ˛ [a, b], And show that ‘c’ is the arithmetic mean of ‘a’ and ‘b’.
+54MTH 341 MODULE 1 Solution: Clearly the function f and g satisfy the hypothesis of Cauchy’s mean value theorem.
+Therefore: f'(c) f(b)- f(a) $ c ˛ ]a, b[ such that = g'(c) g(b)- g(a) Putting the values of f, g, f’, g’ we get 2c b2 - a2 = = b + a 1 b - a 1 ⇒ c = (a + b) 2 which shows that c is the arithmetic mean of ‘a’ and ‘b’ Example 13: Show that Where 0 < α < θ < β < π/2.
+Solution: Let f(x) = sin x and g(x) = cos x.
+Now f΄(x) = cos x and g’(x) = -sin x Functions f and g are both continuous on [a ,b], derivable on ] a , b[, and g΄(x) ≠ 0 " x ˛ ] a , b[.
+By Cauchy’s mean value theorem, there exists θ ˛ ]α, β[ such that SELF ASSESSMENT EXERCISE 11 Verify the Cauchy’s mean value theorem for the functions, f(x) = sin x, g(x) = cos x in the interval [-π/2, 0].
+SELF ASSESSMENT EXERCISE 12 55MTH 341 MODULE 1 Let the functions and f and g be defined as : f(x) = ex and g(x) = e-x, " x ˛ [a, b].
+Show that ‘c’ obtained from Cauchy’s mean value theorem is the arithmetic mean of a and b. SELF ASSESSMENT EXERCISE 13 Let f(x) = x and g(x) = 1/ x , " x ˛ [a, b] given that 0 < a < b. Verify Cauchy’s mean value theorem and show that c obtained thus is the geometric mean of a and b.
+The following theorem generalises both Lagrange’s and Cauchy’s mean value theorems.
+In this theorem, three functions f, g, h is involved.
+Both Lagrange’s and Cauchy’s mean value theorems are its special cases.
+3.5 Generalised Mean Value Theorem If three functions, f, g and h are continuous in [a, b] and derivable in ]a, b[, then there exists a real number c ˛ ]a. b[ such that f'(c) g'(c) h'(c) f(a) g(a) h(a) = 0. f(b) g(b) h(b) Proof: Define the function, f , as f(x) g(x) h(x) ø(x) = f(a) g(a) h(a) f(b) g(b) h(b) for all x in [a, b].
+Since each of the functions f, g and h is continuous on [a, b] and derivable on ]a, b[, therefore ø is also continuous on [a, b] and derivable on ]a, b[.
+f(a) g(a) h(a) ø(a) f(a) g(a) h(a) = 0, since two rows of the determinant are f(b) g(b) h(b) identical.
+56MTH 341 MODULE 1 Similarly, ø(b) = 0.
+Thus, ø(a) = ø(b0.
+Therefore, ø satisfies all the conditions of Rolle’s theorem.
+So there exists c ˛ ]a, b[ such that ø΄(c) = 0. f'(x) g'(x) h'(x) ø΄(x) = f(a) g(a) h(a) " x ˛ ]a, b[.
+f(b) g(b) h(b) f'(c) g'(c) h'(c) So ø΄(c) = f(a) g(a) h(a) = 0. f(b) g(b) h(b) which proves the theorem.
+Now we show that Lagrange’s and Cauchy’s mean value theorems are deducible from this theorem by choosing the functions f and g specially.
+(i) First we deduce Lagrange’s mean value theorem from the generalized mean value theorem.
+Take g(x) = x and h(x) = l " x ˛ [a, b], so that f(x) x l ø(x) = f(a) a l f(b) b l f'(x) l 0 ⇒ ø΄(x) = f(a) a l = f’(x) (a – b) – [f(a) – f(b)] f(b) b l f(b) - f(a) Now ø΄(c) = 0 gives f’(c) = which is Lagrange’s b - a mean value theorem.
+ii) Next, we deduce Cauchy’s Mean Value Theorem from the Generalised Mean-Value Theorem 57MTH 341 MODULE 1 Take h(x) = l " x ˛ [a, b] f(x) g(x) l So that ø(x) = f(a) g(a) l f(b) g(b) l f'(x) g'(x) 0 ⇒ ø΄(x)= f(a) g(a) l =f’(x)[g(a) – g(b)] – g’(x)[f(a) – f(b)] f(b) g(b) l Now f ’(c) = 0 ⇒ f΄(c) [g(a) – g(b)] – g΄(c) ) [f(a) – f(b)] = 0 f'(c) f(b)- f(a) ⇒ = provided g΄(x) ≠ 0 for x ˛ g'(c) g(b)- g(a) ]a, b[.
+which is the Cauchy’s mean value theorem.
+3.6 Intermediate Value Theorem We end this unit by discussing Intermediate Value Theorem for derivatives.
+There is an Intermediate Value Theorem for derivable functions, which we now state and prove.
+Theorem 5: (Darboux) Intermediate Value Theorem for Derivatives If a function f is derivable on [a, b] and f’(a) ≠ f΄(b), then for k lying between f’(a) and f΄(b), there exists a point c ˛ ]a, b[ such that f΄(c) = k. In case, g΄(a) < 0 and g΄(b) > 0, then -g’(a) > 0 and –g’(b) < 0.
+Therefore, at some point c Î ]a, b[, -g’(c) = 0 or –f’(c) + k = 0 i.e.
+f’(c) = k. Theorem 5 is due to French mathematician, J. G. Darboux [1842 – 1917], which is useful in determining the maximum or minimum values of a function.
+This is popularly known as Darboux Theorem.
+Another important result, which is a particular case of Darboux’s Intermediate Value Theorem, is as given below: Theorem 6 58MTH 341 MODULE 1 Let f be derivable in [a, b].
+If f΄(a) and f΄(b) are of opposite signs, then there exists a point c ˛ ]a, b[ such that f΄(c) = 0.
+Proof: Since f’(a) and f’(b) are of opposite signs, therefore, one of f΄(a) or f’(b) is positive and other is negative.
+Take k = 0 in the Darboux Theorem.
+You get a point c ˛ ]a, b[ such that f’(c) = 0.
+An immediate deduction from above theorem is that if the derivative of a function does not vanish for any point x in ]a, b[, then the derivative has the same sign for all x in ]a, b[.
+This is proved in the following example.
+Example 14 If f is derivative in ]a, b[ and f’(x) ≠ 0, " x ˛ ]a, b[, then f΄(x) retains the same sign, positive or negative, for all x in ]a, b[.
+Solution If possible, suppose x , x ˛ ]a, b[, x < x are such that f΄(x ), f΄(x ) have 1 2 1 2 1 2 opposite signs.
+By Theorem 6, there exists a point c ˛ ] x , x [(cid:204) ]a, b[ 1 2 such that f΄(c) = 0, which is a contradiction.
+Hence f΄(x) retains the same sign, for all x in ]a, b[.
+4.0 CONCLUSION 5.0 SUMMARY In this unit mean value theorems of differentiability have been proved.
+I.
+According to this theorem: if f: [a, b] → R is a function, continuous in [a, b].
+derivable in ]a, b[ and f(a) = f(b), then there is at least one point c ˛ ]a, b[ such that f΄(c) = 0.
+The geometric significance of the theorem is also given.
+Geometrically, on the graph of the function f, there is at least one point between the end points, where the tangent is parallel to the x- axis.
+It states that if a function f: [a, b] → R is continuous [a, b] and derivable in ]a, b[, there is at least one point c in ]a, b[ such that f(b) - f(a) = f΄(c).
+b - a An important consequence of the theorem is that if f is continuous on [a, b] and derivable on ]a, b[ with f΄(x) = 0 on ]a, b[, then f is a constant function on [a, b].
+Another important deduction from the theorem is that if f i continuous in [a, b] and derivable in ]a, b[ then (i) f is increasing or decreasing on [a, b] according a f’(x) ≥ 0, " x ˛ ]a, b[ or f(x) ≤ 0, " x ˛ ]a, b[ (ii) f is strictly increasing or strictly decreasing in [a, b] 59MTH 341 MODULE 1 according as f’(x) > 0, " x ˛ ]a, b[ or f’(x) < 0, " x ˛ ]a, b[.
+Applying these results, some inequalities in real analysis are establishe It states that if f and g be two functions from [a, b] to R such that they are continuous in [a, b], derivable in ]a, b[ and g΄(x) ≠ 0, " x ˛ ]a, b[, then f(b)- f(a) f'(c) there exists at least one point c in ]a, b[ such that = .
+g(b)- g(a) g'(c) Lagrange’s mean value theorem is particular case of Cauchy’s mean value theorem if we choose the function g as g(x) = x " x ˛ [a, b].
+You have seen that it is also established with the help of Rolle’s Theorem.
+According to this theorem, if f, g, h be three functions from [a, b] to R such that they are continuous in [a, b] derivable in ]a, b[, then there exists at least one point c ˛ ]a, b[, such that f'(c) g'(c) h'(c) f(a) g(a) h(a) = 0 f(b) g(b) h(b) Both Lagrange’s mean value theorem are particular cases of this theorem.
+If you take g(x) = x and h(x) = l " x ˛ [a, b], then you get Lagrange’s theorem from it.
+Cauchy’s mean value theorem follows from this general theorem if you take only h(x) = l " x ˛ [a, b].
+Finally, in this section, Intermediate Value Theorem for derivatives is given according to which if f is derivative in [a, b], f’(a) ¹ f(b) and k is any number lying between f’(a) and f’(b), then there exists a point c ˛ ]a, b[ such that f’(c) = k. From this follows Darboux Theorem namely, if f is derivative in [a, b] and f΄(a) f΄(b) < 0, then there is a point c in ]a, b[ such that f’(c) = 0.
+6.0 TUTOR-MARKED ASSIGNMENT Two functions f and g are defined as: f(x) = x-1 and g(x) = x-2, " x ˛ [a, b], given that 0 ˇ [a, b].
+Apply Cauchy’s mean value theorem and show that c thus obtained is the harmonic mean of a and b.
+7.0 REFERENCES/FURTHER READING 60MTH 341 MODULE 1 UNIT 3 HIGHER ORDER DERIVATIVES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Taylor’s Theorem 3.2 Maclaurin’s Expansion 3.3 Indeterminate Forms 3.4 Extreme Values 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In unit 2, you learnt Rolle’s theorem and have seen how to apply this theorem in proving mean value theorems.
+In These theorems only the first derivative of the functions are involved.
+In this unit, you will study the application of Rolle’s theorem in proving theorems involving the higher order derivatives of functions.
+Given a real function f(x), can we find an infinite series of real-numbers say of the form a + a x + a x3 + ………….. 0 1 2 whose sum is precisely the given function?
+To answer this question we have to approximate a function with an infinite series of the above form which is also known as the infinite polynomial or power series.
+This approach of approximating a function was known to Newton around 1676 but is was developed late by the two British mathematicians Brook Taylor [1685 – 1731] and S. C. Maclaurin [1698 – 1746].
+The functions which can be represented as infinite series of the above form are some of the very special functions.
+Such a representation of a function requires a number of derivatives of the functions i.e.
+the derivatives of higher orders particularly at x = 0 which we intend to discuss in this unit.
+Some work done by Taylor in this direction has found recent applications in the mathematical treatment of Photogrammetry – the science of surveying by means of photographs taken from an aeroplane.
+61MTH 341 MODULE 1 Besides, we shall also demonstrate the use of derivatives for finding the limits of indeterminate forms and the maximum and minimum values of functions in this unit.
+2.0 OBJECTIVES By the end of this unit, you should be able to: • state theorems involving higher order derivatives viz.
+Taylor’s theorem • expand functions in a power series viz.
+Maclaurin’s series • evaluate the limits of indeterminate forms • find the maximum and minimum values of functions.
+3.0 MAIN CONTENT 3.1 Taylor’s Theorem In this session, we shall discuss the use of Rolle’s theorem in proving theorems involving higher order derivatives of functions.
+Before proving these theorems, you will be introduced to the idea of higher derivatives through the following definitions: Definition 1: Higher Derivatives Let f be a function with domain D as a subset of R. Let D ≠ ø be the set 1 of points of D at which f is derivable.
+We get another function with domain D such that its value at any point c of D, is f΄(c).
+We call this 1 function the derivative of f or first derivatives of f and denote it by f΄.
+If the derivative of f’ at any point c of its domain D exists, then it is called 1 second derivative of f at c and denoted by f״(c).
+If D ≠ ø be the set of all 2 those points of D at which f’ is derivable, we get a function with 1 domain D such that its value at any point c of D is f״ (c).
+We call this 2 2 function second derivative of f and denote if by f״.
+Similarly we can define 3rd derivative f״ and in general, the nth derivative f״ of the function f. The following example will make the definition clear: Example 1: Find the nth derivative fn of the function f : R ﬁ R defined by f(x) = x " x ˛ R. Solution: You already know that this function f is derivable everywhere in R except at x = 0 62MTH 341 MODULE 1 So the first derivative f’ is a function with domain R ~ {0}.
+Since f΄(x) = 1 for x > 0, f΄ is a constant function on ]0, ∞[.
+Since derivative of a constant function is 0, therefore f’ is derivable at all points in ]0, ∞[ and f״(x) = 0 " x ˛ ]0, ∞[.
+Likewise, f״(x) = 0 " x ˛ ] - ∞, 0[.
+So the second derivative f״ is a function with domain R ~ {0}.
+Continuing like this, you will get f״(x) = 0 and in general for n > 1, fn(x) = 0 " x ˛ R ~ {0}.
+So you find that f and in general for n > 1, fn is a function with domain R ~ {0}.
+SELF ASSESSMENT EXERCISE 1 Find the nth derivative f’’ of the function f : R → [ - 1, 1] defined by f(x) = sin x.
+Now we give a theorem known as Taylor's theorem which involves the higher derivatives of a function.
+Theorem 1: (Taylor’s Theorem with Schlomilch and Roche form of Reminder) If a function f : [a, b] → R is such that i) its (n -1)th derivative, f(n-1) is continuous on [a, b]; ii) its (n -1)the derivative is derivable on ]a, b[, then there exists at least one real number c ˛ ]a, b[ such that (b - a)2 f(b) = f(a) + (b – a) f΄(a) + f״(a) + … 2!
+(b - a)n-1 (b - a)p(b - c)n- p + f(n-1) (a) + f(n) (c), (n - 1)!
+p.(n - 1)!
+p being a positive integer.
+63MTH 341 MODULE 1 Proof: By hypothesis, f, f’, …, f(n+1) are all continuous in [a, b] and derivable in ]a, b[.
+We define a function ø, on [a, b], as follows: (b - x)2 (b - x)n-1 ø(x) = f(b) – f(x) – (b – x)f’(x) - f’’(a) - … - f(n-1) 2!
+(n - 1)!
+(b - x)p (x) – A , (b - a)p where A is a constant to be determined such that ø(a) = ø(b).
+It is obvious from (1) that ø(b) = 0.
+Now (b - a)2 (b - a)n-1fn-1(a) ø(a) = f(b) – f(a) – (b – a)f’(a) f’’(a) - … - -A.
+2!
+(n - 1)!
+Therefore, ø(a) = ø(b) = 0 ⇒ (b - a)2 (b - a)n-1 A = f(b) – f(a) – (b – a)f’(a) - f”(a) - … - f(n-1)(a).
+(2) 2!
+(n - 1)!
+Now, i) ø is continuous in [a, b], since f, f΄, …, f(n-1) and (b – x)p, for all positive integers p, are all continuous in [a, b]; ii) ø is derivable in [a, b[, since f, f΄, …, f(n-1) and (b – x)p, for all positive integers p, are all derivable in ]a, b[; and iii) ø (a) = ø (b).
+Therefore, by Rolle’s Theorem, $ c ˛ ]a, b[ such that ø΄(c) = 0.
+(b - x)n-1 (b - x)p-1 Now, ø΄(x) = - f(n)(x) + Ap (n - 1)!
+(b - a)p (b - c)n-1 (b - c)p-1 ø΄(c) = - f(n)(c) + Ap = 0 (n - 1)!
+(b - a)p (b - c)n- p(b - a)p which gives A = f(n)(c).
+p.(n - 1)!
+Substituting this value of A in (2), we obtain, 64MTH 341 MODULE 1 (b - a)2 (b - a)n-1 f(b) = f(a) + (b – a) f’(a) + f’’(a) + … + 2!
+(n - 1)!
+(b - a)p(b - c)n- p f(n-1)(a) + f(n)(c) (3) p.(n - 1)!
+This completes the proof of the theorem.
+The expression, (b - a)p(b - c)n- p R = f(n)(c) (4) n p.(n - 1)!
+which occurs in (3), after n terms, is called Taylor’s remainder after n terms.
+The form (4) is called Schlomilch and Roche form of remainder.
+From this we deduce two special forms of remainder after n terms.
+i) Take p = n in (4), (b - a)n R = f(n)(c).
+n n!
+This is called Lagrange’s form of remainder.
+ii) Take p = 1 in (4), (b - a)(b - c)n-1 R = f(n)(c).
+n (n - 1)!
+This is called Cauchy’s form of remainder.
+The Taylor's theorem with Lagrange’s form of remainder states: If a function f defined on [a, b] be such that f(n-1) is continuous on [a, b] and derivable on ]a, b[ then $ a real number c ˛ ]a, b[ satisfying (b - a)2 (b - a)n-1 f(b) = f(a) + (b – a) f’(a) + f’’(a) + ….. + ….. + 2!
+(n - 1)!
+(b - a)n f(n-1)(a) + f(n)(c) (5) n!
+Alternative form of Taylor’s theorem with Lagrange’s form of remainder is obtained if instead of interval [a, b], we have the interval [a, a + h].
+If we put b = a + h then we can write c = a + θ h for some θ between 0 and 1 and the theorem can be restated as: If f(n-1) is continuous on [a, a + h] and derivable on ]a, a + h[, then 65MTH 341 MODULE 1 h2 hn-1 f(a + h) = f(a) + hf΄(a) + f”(a) +…+ f(n-1)(a) 2!
+(n - 1)!
+h2 + f”(a + qh), (6) n!
+for some real θ satisfying 0 < θ < 1.
+Now, let x be nay point of [a, b].
+If f satisfies the condition of Taylor’s theorem on [a, b], then it also satisfies the condition of Taylor's theorem on [a, x], where x > a.
+Therefore, from (5), we have (x - a)2 (x - a)n-1 f(x) = f(a) + (x – a)f΄(a) + f’’(a) +…+ f(n-1 2!
+n - 1!
+where c is some real number in ]a, x[.
+Note that (7) also holds when x = a because, then (7) reduces to the identify f(a) = f(a), as the remaining term on the right hand side of (7) vanish.
+You may note that we can have forms similar to (5), (6) and (7) for Taylor’s theorem with Cauchy’s form of remainder.
+If in Taylor’s theorem, we take a = 0, then we get a theorem known as Maclaurin’s theorem.
+We give below, Maclaurin’s theorem with Lagrange’s and Cauchy’s form of remainders.
+You can also write Schlomilch and Roche form of remainders.
+Theorem 2: (Maclaurin’s Theorem with Lagrange’s Form of Remainder) If f be a function defined on [0, b] such that f(n-1) is continuous on [0, b] and derivable on [0, b], then for each x in [0, b], there exists a real number c (0 < c < x) such that x2 xn-1 xn f(x) = f(0) + xf’(0) + f’’(0) + … + f(n-1(0) + f(n)(c).
+2!
+n - 1!
+n!
+You may note that xn xn R (x) = f(n)(c) = fr(qx) (0 < q < 1), n n!
+n!
+in case of Lagrange’s form of remainder and 66MTH 341 MODULE 1 x(x - c)n-1 R (x) = f(n)(c) n (n - 1)!
+xn(1- q)n-1 = f(n)(qx) (0 < q < 1), (n - 1)!
+in case of Cauchy’s form of remainder.
+By applying Taylor’s theorem or Maclaurin’s theorem, also we can prove some inequalities of real analysis.
+Earlier, in the last unit, you were given a method of proving the inequality of examining the sign of derivative of some function.
+Consider the following example now.
+Example 2: Using Maclaurin’s theorem, prove that x2 cos x ≥ 1- , " x ˛ R. 2 Solution: For x = 0, result is obvious.
+Now, let x > 0 and consider f(t) = cos t. Then f has derivatives of all orders, for all t in R. By Maclaurin’s theorem with remainder after two terms applied to f in [0, x], x2 f(x) = f(0) + x f΄(0) + f”(θx) where 0 < θ < 1.
+2!
+Putting the values of f, f΄, f” we have x2 cos x = 1 - cos (θx).
+2 x2 x2 x2 Now cos θx ≤ 1 and so 1 - cos qx ≥ i.e.
+cos x ≥ 1 - 2 2 2 If x < 0, then – x > 0 and therefore, cos (-x) ³ 1 – (1 – x)2 x2 x2 that is cos x ≥ 1 - .
+Hence, cos x ³ 1 - " x ˛ R. 2 2 SELF ASSESSMENT EXERCISE 2 Using Maclaurin’s theorem, show that x3 x3 x5 x - ≤ sin x ≤ x + , for x ≥ 0; and 3!
+3!
+5!
+67MTH 341 MODULE 1 x3 x3 x5 x - ≥ sin x ≥ x + , for x > 0.
+3!
+3!
+5!
+Now you will see how to find the Maclaurin’s expansion of certain elementary functions of the type, ex, sin x, cos x, (1 + x)m and log (1 + x) in terms of an infinite series (power series) as a + a x + a x2 + …, with 0 1 2 the help of Taylor’s and Maclaurin’s theorems.
+We have seen before that (x - a)2 (x - a)n-1 f(x) = f(a) + (x – a)f΄(a) + f”(a) + … + f(n-1(a) + 2!
+(n - 1)!
+R (x), n where R (x) is the Taylor’s remainder after n terms.
+Put n (x - a)2 (x - a)n-1 S (x) = f(a) + (x – a)f’(a) + f’’(a) +…+ f(n-1(a).
+n 2!
+(n - 1)!
+Then, f(x) = S (x) + R (x).
+(8) n n A natural question arises as to whether we can express f(x) in the form of the infinite series (x - a)n-1 f(a) + (x – a) f΄(a) + …+ f(n-1(a) + … (9) (n - 1)!
+and if so under what conditions?
+This question can be split up in the following situations: i) Under what conditions on f is each term of the series defined?
+ii) Under what conditions does the series (9) converge?
+iii) Under what conditions is the sum of the series (9), f(x)?
+We examine these now one by one.
+i) Each term of the series (2) is defined if f fn (a) exists for all positive integers n. ii) Assuming fn(a) exists " n, we have from (8), S = f(x) – R (x) n n (assuming the conditions for Taylor’s theorem are satisfied in some interval [a, a + h]) 68MTH 341 MODULE 1 From this, it follows that < S > converges if f R (x) n n exists and the series (9) converges if f R (x) exists.
+n iii) Assuming series (9) converges, we find from above that its sum f(x) - R (x).
+n Now f(x) - R (x) = f(x) if f R (x) = 0, n n showing that the series (9) converges to f(x) if f R (x) = 0, n showing that the series (9) converges to f(x) if f R (x) = 0. n Summing up the above discussion, we have the following results.
+Theorem 3: If f : [a, a + h] → R be a function such that i) f(n)(x) exists for each positive integer n, for all x ˛ [a, a + h].
+ii) R (x) = 0 " x ˛ [a, a + h], n Then (x - a)2 (x - a)n- 1 f(x) = f(a) \ (x – a) f’(a) + f”(a) +….+ + ….
+2!
+(n - 1)!
+for every x ˛ [a, a + h].
+This is called Taylor's infinite series expansion of f(x).
+We also sometimes call it the expression for f(x) as a power series in (x – a).
+We give an example to illustrate Taylor’s series for a function.
+Example 3: Assuming the validity of expansion, show that tan-1x = tan-1 Solution: Let f(x) = tan-1x = tan-1(π/4 + x - π/4) Here a = π/4), h = x - π/4.
+fn(x) exists " x and " n. 1 2x Now f΄(x) = , f”(x) = - , ….. 1+ x2 (1+ x2)2 69MTH 341 MODULE 1 1 p f’(π/4) = , f”(p /4) = , ….. 1+ p2 / 16 2(1+ p2/ 16)2 By Taylor’s series, h2 f(a + h) = f(a) + h f’(a) + f”(a) + ….
+2!
+Putting the values of f, f’, f”, ….., we obtain p x - p/ 4 p(x - p/ 4)2 tan-1x = tan-1 + - + ….. (x ˛ R) 4 1+ p2/ 16 4(1+ r2/ 16)2 SELF ASSESSMENT EXERCISE 3 Assuming the validity of expansion, expand cos x in powers of (x – π/4).
+If you put a = 0 in the Taylor’s series you will get the following result.
+Theorem 4: Let f : [0, h] → R be a function such that i) f(n)(x) exists for every positive integer n and for each x ˛ [0, h]; ii) R (x) = 0, for each x ˛ [0, h].
+n x2 xn Then f(x) = f(0) + xf’(0) + f”(0) + … + f(n)(0) + ,…., for every x 2!
+n!
+˛ [0, h].
+This series is called the Maclaurin’s infinite series expansion of f(x).
+Note that Taylor’s series remains valid in the interval [a – h, a + h] and Maclaurin’s series remains valid in the interval [-h, h] also provided the requirements of the expansion are satisfied in the intervals.
+You may also note that one may consider any form of remainder R (x) n in the above discussion.
+We shall now consider Maclaurin’s series expansions of the functions ex, cos x and log (1 + x).
+Example 4: Find the Maclaurin series expansion of ex, cos x and log (1 + x).
+70MTH 341 MODULE 1 Solution: Expansion of ex.
+Let f(x) = ex, " x ˛ R. Then f(n)(x) = ex, " x ˛ [-h, h], h > 0 and for all positive integers n. In other words, f(n)(x) exists for each n and for all x in R. Let us now consider the limit of the remainder, R (x).
+Taking n Lagrange’s form of remainder, we have xn xn R (x) = f(n)(qx) = eθk (0 < q , 1).
+n n!
+n!
+xn So, R (x) = eθk.
+n n!
+xn But, = 0 as shown below: n!
+x n Let u = , then n n!
+u x n+1 = = 0, if x ≠ 0. u n + 1 n So, by Ratio test, ∑ u is convergent and, therefore, ∑u is convergent n n and consequently xn u = = 0, if x ≠ 0. n n!
+xn If x = 0, then also = 0.
+Therefore, R (x) = n n!
+0.
+Thus, the conditions of Maclaurin’s infinite expansion are satisfied.
+Also, f(0) = 1 and f(n)(0) = 1, n = 1, 2, ….
+Hence x2 f(x) = f(0) + xf’(0) + f”(0) + .... 2!
+x2 xn ⇒ ex = 1 + x + + … + + ….., " x ˛ R. 2!
+n!
+71MTH 341 MODULE 1 Expansion of cos x.
+Let f(x) = cos x, " x ˛ R. Then f(n)(x) = cos (x + ), for n = 1, 2, … Therefore, f(0) = 1 and f(n)(0) = cos (nπ/2), " n. Clearly f and all its derivatives exist for all real x.
+Taking Lagrange’s form of the remainder, xn R (x) = f(n)(θx) n n!
+xn = cos (θx + ) n!
+xn np Therefore, R (x) = .
+cos(qx + ) n n!
+2 xn ≤ → 0 as n → ∞, " x ˛ R. n!
+Thus, the conditions of Maclaurin’s infinite expansion are satisfied.
+From f(n)(0) = cos , we get f(2m+1)(0) = cos = 0 and f(2m)(0) = cos ((2m)π/2) = cos mπ = (-1)m. Substituting these values in the expansion, we have x2 x4 x6 x2n Cos x = 1 - + + + ….
++ (-1)n - …., " x ˛ R. 2!
+4!
+6!
+(2n)!
+Expansion of log (1 + x)] Let f(x) = log (1 + x) for -1 < x ≤ 1.
+(- 1)n-1(n - 1)!
+Then f(n)(x) = , x > -1.
+(1+ x)n 72MTH 341 MODULE 1 We shall consider the following cases: i) 0 ≤ x ≤ 1.
+Taking Lagrange’s form of remainder after n terms, we have xn R (x) = f(n)(θx) n n!
+Since 0 ≤ x ≤ 1, 0 < θ < 1, therefore 0 ≤ , 1.
+\ → 0 as n → ∞ 1 Also → 0 as n → ∞ n Hence R (x) = 0. n So the conditions of Maclaurin’s infinite expansion are satisfied for 0 ≤ x ≤ 1. ii) -1 < x < 0.
+In this case, x may or may not be numerically less than 1 + θx; so that nothing can be said about the limit of as n → ∞.
+The Lagrange’s form of remainder does not help to draw ant definite conclusion.
+We now take the help of Cauchy’s form of remainder, which is 73MTH 341 MODULE 1 Now 0 < 1 – 0 < 1 + θx (for -1 < x < 0; 0 < θ < 1) .
+Also xn → 0 as n →∞, 1 and < and it is independent of n. 1- x Thus, R (x) = 0 n Hence, the conditions of Maclaurin’s series expansion are satisfied also when -1 < x < 0.
+Thus, substituting f(0) = 0, f(n)(0) = (-1)!
+In the expansion, we get log (1 + x) = x - + ….
+for -1 < x ≤ 1.
+SELF ASSESSMENT EXERCISE 4 x3 x5 (- 1)n-1x2n-1 Prove that sin x = x - + + …… + …. "
+x ˛ R. 3!
+5!
+(2n - 1)!
+SELF ASSESSMENT EXERCISE 5 m(m - 1) Prove that (1 + x)m = 1 + mx + x2 + …… for all integers m 2!
+and when x , 1.
+SELF ASSESSMENT EXERCISE 6 Assuming the validity of expansion, expand log (1 + sin x) in powers of x, up to 4th power of x.
+3.3 Indeterminate Forms We have proved in Unit 8 (Block 3) that 74MTH 341 MODULE 1 provided f(x) and g(x) both exists and g(x) ≠ 0.
+It may sometimes happen that {f(x)/g(x)} exists even though g(x) = 0.
+One can easily see that if g(x) = 0, then a necessary condition f(x) for to exist and be finite is that f(x) = g(x) 0.
+In fact, if {f(x)/g(x)} = k, then f(x) = [f(x)/g(x).
+g(x)] = {f(x)/g(x)} .
+g(x) = k. 0 = 0.
+In this section, we propose to discuss the method of evaluating {f(x)/g(x)} when both f(x) and f(x) g(x) are zero or infinite.
+In these cases are said to g(x) assume indeterminate forms 0/0 or ∞/∞ respectively as x → a.
+0 Definition 2: Indeterminate form 0 f(x) If f(x) = 0, g(x) = 0 then is said to g(x) 0 assume the indeterminate form as x tends to ‘a’.
+0 Definition 3: Indeterminate form f(x) If f(x) = ∞, g(x) = ∞, then is said to g(x) assume the indeterminate form as x tends to ‘a’.
+Other indeterminate forms are 0 x∞, ∞ - ∞, 00, 1∞ and ∞0 which can be similarly defined.
+Ordinary methods of evaluating the limits are of the little help.
+Some special methods are required to evaluate these peculiar limits.
+This special method, generally called, L’Hospital’s rule is due to the French mathematician, L’Hospital (1661 – 1704).
+In fact, this method is due to J. Bernoulli, who happened to be a teacher of L’Hospital and his (Bernoulli’s) lectures were published by the latter in the book form in 1696; but subsequently, Bernoulli’s name almost disappeared.
+Let us 0 consider the indeterminate form and discuss some related theorems.
+0 75MTH 341 MODULE 1 Note the differences in the hypothesis of these theorems and the line of proof should be very carefully noted.
+Theorem 5: Let f and g be two functions such that i) f(x) = 0, g(x) = 0, ii) f’(a) and g’(a) exists, and iii) g’(a) ≠0.
+Then f(x) f'(a) = g(x) g'(a) Proof: By hypothesis, f and g are derivable at x = a ⇒ they are continuous at x = a ⇒ f(x) = f(a), and g(x) = g(a) Therefore, by condition, (i), f(a) = 0 = g(a) f(x) - f(a) f(x) Also, f’(a) = = x - a x - a g(x) - g(a) g(x) and g’(a) = = x - a x - a f'(a) f(x)/(x - a) f(x) \ = = g'(a) g(x)/(x - a) g(x) We may remark that condition (i) in the above theorem can be replaced by f(a) = g(a) = 0.
+0 Theorem 6: (L’Hospital rule for form) 0 If f and g are two functions such that i) f(x) = g(x) = 0, ii) f’(x) and g’(x) exists and g’(x) ≠ 0 for all x in ]a – δ, a + d[, δ > 0, except possibly at a, and 76MTH 341 MODULE 1 f'(x) iii) exists g'(x) f(x) f'(x) then = g(x) g'(x) Proof: Define two functions ø and ψ such that and Since f’(x) and g’(x) exists " x ˛ ]a – δ, a + δ[ except possibly at a, ø and ψ are continuous and derivable on ]a – δ, a + δ[ except possibly at a.
+Also since ø(x) = f(x) = f (a) and ø(x) = g(x) = ѱ(a), therefore, ø and ψ are continuous at x = a, as well.
+Let x be a point of ]a – δ, a + δ[ such that x ≠ a.
+For x > a, ø and ψ satisfy the conditions of Cauchy’s mean value theorem on [a, x] so that for some c ˛ ]a, x[.
+But ø(a) = f(x) = 0 & ψ(a) = g(x) = 0 Proceeding to limits 77MTH 341 MODULE 1 For x < a, we can similarly prove that f'(x) You may note that if the expression represents the g'(x) 0 indeterminate form and the functions f’(x) and g’(x) satisfy the 0 conditions of the above theorem, then f(x) f'(x) f"(x) = = g(x) g'(x) g"(x) In fact, the above rule can be generalised as follows: If f and g are two functions such that i) f(n)(x), g(n)(x) exists and g(r)(x) ≠ 0 (r = 1, 2, ….., n0 for any x in ]a – δ, a + δ[ except possibly at x =a, lim f(x) = lim f'(x) = ..... = lim f(n- 1)(x) = 0 üï ii) ïïýaass x x → ® a a, , lim g(x) = lim g'(x) = ..... = lim g(n- 1)(x) = 0 ïï ïþ f(n)(x) iii) exists, then g(n)(x) f(x) f(n)(x) = .
+g(x) g(n)(x) 0 This is known as Generalised L’Hospital’s Rule for form.
+0 Note that L’Hospital’s Rule is valid even if x → ∞.
+In fact, we have 78MTH 341 MODULE 1 1 f( ) f(x) 1 z = , where x = , g(x) 1 z g( ) z 1 1 f'( )(- ) z z2 = (by L’Hospital’s Rule) 1 1 g'( )(- ) z z2 1 f'( ) z = 1 g'( ) z f'(x) = g'(x) Now we give examples to illustrate the use of L’Hospital’s rule in 0 evaluating the limits of indeterminate form .
+0 Example 5: Evaluate each of the following limits: i) tan x - x ii) x2 sin x x cos x - log (1+ x) iii) x2 Solution: i) Let us write Where f(x) = 2 - 2 cos (π/4 + x) and g(x) = x. f(x) = 2 - 2 cos π/4 =0 and g(x) = 0. f(x)/g(x) is, therefore, of the form 0/0 as x → 0.
+79MTH 341 MODULE 1 Applying L’Hospital’s rule, ii) Writing tan x - x tan x - x x = .
+x2 sin x x3 sin x we find that tan x - x = x2 sin x tan x - x x .
+x3 sin x tan x - x 0 = ( form) x3 0 sec2 x - 1 = (By L’Hospital’s Rule) 3x2 1 (tan x)2 1 = = 3 x 3 x cos x - log (1+ x) 0 iii) ( form) x2 0 1 cos x - x sin x - 1+ x 0 = (again form) 2x 0 - sin x - (sin x + xcosx) +1/(1+ x)2 1 = .
+2 1 1 1 = .1 = .
+2 2 Example 6: Determine the values of a and b for which {x(a – cos x) + b sin x} / x3 exists and equals 1/6.
+80MTH 341 MODULE 1 Solution: The given function is of the form (0/0) for all values of a and b when x 0. x(a - cosx) + bsin x \ x3 (a - cosx) + xsin x + b cos x = 3x2 The denominator tends to 0 as x tends to 0, the fraction will tend to a finite limit only if the numerator also tends to zero as x → 0.
+This requires a – 1 + b = 0 (10) Supposing (10) is satisfied, we have a + (b - 1) cos x + x sin x 3x2 - (b - 1) sin x + x cos x + sin x = 6x x cos x + (2- b) sin x 0 = ( form) 6x 0 - x sin x + cos x + (2- b) cos x = 6 3- 6 1 = = (given) 6 6 ⇒ b = 2 From (10), a = -1.
+SELF ASSESSMENT EXERCISE 7 Evaluate the following limits: sin 3x2 i) log cos(2x2 - x) 81MTH 341 MODULE 1 sin h x - sin x ii) x tan2 x 1 1 (1+ x)x - e + ex 2 iii) x2 SELF ASSESSMENT EXERCISE 8 sin 4x + a sin 2x If the limit as x → 0 is finite, find the value of ‘a’ x3 and the limit.
+SELF ASSESSMENT EXERCISE 9 What is wrong with the following application of L’Hospital’s rule: x3 - 4x + 3 3x2 - 4 = = x2 + x - 2 2x + 1 6x = 3.
+2 Find also the correct limit.
+Next we consider the denominate form , L’Hospital’s rule for form is similar to that for 0/0 form.
+We only state the result for form without proof.
+Theorem 7: (L’Hospital’s rule for form) If f and g be two functions such that i) f(x) = g(x) =∞, ii) f’(x) and g’(x) exists, g’(x) ≠ 0, " x ˛ ]a – δ, a + δ[, δ > 0 except possibly at a, and f'(x) iii) exists; then g'(x) f(x) f'(x) = .
+g(x) g'(x) 82MTH 341 MODULE 1 f(x) The above theorem tells us that , when f(x) and g(x) g(x) (0) both tend to infinity as x → a, cab be dealt with in the same way as 0 (0) form.
+In fact forms and can be interchanged and care should be 0 taken to select the form which enable us to evaluate the limit quickly.
+The above theorem also hold in the case of infinite limits.
+Now we consider examples to illustrate the application of L’Hospital’s rule for finding the limit of indeterminate form .
+Example 7 Evaluate the following limits: logtan2x i) logtan x logx ii) (α > 0) xa Solution: logtan2x f(x) i) Writing = , logtan x g(x) where f(x) = log tan 2x and g(x) = log tan x, we find that the given expression is of the form as x → 0+.
+logtan2x \ = logtan x 2 cot 2x sec2 2x cot x sec2 x 2sin xcosx 1 = = = 1. sin2xcos2x cos2x ii) (α > 0) is form.
+83MTH 341 MODULE 1 Therefore, its value is equal to = = 0.
+SELF ASSESSMENT EXERCISE 10 Evaluate the following limits: i) logsin x ii) cot x Now we consider the indeterminate forms 0.
+∞ and ∞ – ∞.
+These can be converted to 0/0 or ∞/∞ forms as shown below: i) f(x) = 0 and g(x) = ∞, then f(x) .
+g(x) is 0.
+∞ form.
+We can write f(x) g(x) f(x) .
+g(x) = or 1/ g(x) 1/ f(x) 0 which are respectively or forms and hence can be evaluated 0 by L’Hospital’s rule.
+ii) If {f(x) – g(x)} is ∞ – ∞ form.
+0 This can be reduced to form by writing 0 1 1 - g(x) f(x) f(x) – g(x) = 1 f(x)g(x) and then we can apply L’Hospital’s rule.
+84MTH 341 MODULE 1 The following example will clarify the procedure.
+First we consider 0.∞ from Example 8 Evaluate: i) x log x ii) sec log (1/x).
+Solution: i) Take f(x) = x and g(x) = log x.
+Then f(x) = 0 and g(x) = - ∞, so that the given form is 0 X ∞.
+We can write it as logx x log x = ( form) 1/ x 1/ x = = - x = 0.
+1/ x2 ii) Taking f(x) = log(1/x) and g(x) = sec (πx/2), We get that the given form is 0 X ∞ as x → 1.
+\ sec (πx/2) log (1/x) 0 = ( form) 0 85MTH 341 MODULE 1 = = 2/π.
+SELF ASSESSMENT EXERCISE 11 Evaluate the following limits: i) sin x log x2 ii) (1 – x) tan (p x/2).
+Now we consider example for ∞ - ∞ form.
+Example 9: Evaluate { 1 1 } i) - log(x - 3) x - 4 ( 1 ) ii) secx - .
+1- sin x Solution: 1 1 i) Let f(x) = and g(x) = log(x - 3) x - 4 Both these tend to ∞ as x → 4.
+Thus, the given limit is ∞ - ∞ form.
+We can write it as (x - 4)- log(x - 3) 0 ( form) (x - 4)log(x - 3) 0 1 1- x - 3 = x - 4 log(x - 3) + x - 3 x - 4 0 = ( form) (x - 3)log(x - 3) + (x - 4) 0 86MTH 341 MODULE 1 1 1 = = .
+1+ log(x - 3) + 1 2 1 ii) (sec x - )= 1- sin x 1- sin x - cosx (it is ∞ - ∞ form) cosx(1- sin x) - cosx + sin x 1 = = - sin x(1- sin x) - cos2 x - 1- 1 1 = - 2 SELF ASSESSMENT EXERCISE 12 Evaluate the following limits: ( 1 1) i) - ; ex - 1 x ( 1 1 ) ii) - .
+x2 tan2 x Finally, we consider the indeterminate forms 1∞, ∞0, 00.
+For all these forms we have to evaluate [f(x)]g(x), where f(x) = 1, ∞ or 0 and g(x) = ∞ or 0, 0 (respectively).
+We can write y = [f(x)]g(x), Therefore, log y = g(x) log f(x) log y = [g(x) log f(x)].
+(11) In each of these three cases, right hand side is 0.
+∞ from which can be evaluated.
+Let [g(x) log f(x)] = 1.
+87MTH 341 MODULE 1 Therefore, log y = 1 Which implies log [ y] = 1 ⇒ y = e1 ⇒ [f(x)]g(x) = e1.
+The following example discusses these indeterminate forms.
+Example 10: Evaluate i) (tan x)1x2 x ii) (sec x)cot x iii) (1 – x2)2/log (1-x) Solution: i) It is of the form 1∞.
+Let y = (tan x)1x2 x 1 (tan x) Therefore, log y = log x2 x (tan x) log x 0 log y = ( form) x2 0 sec2 x 1 - tan x x = 2x xsec2 x - tan x 0 = ( form) 2x2 tan x 0 88MTH 341 MODULE 1 2xsec2 xtan x = 2[2xtan x + x2 sec2 x] sec2 xtan x = 2tan x + xsec2 x tan x 0 = ( form) sin2x + x 0 sec2 x 1 = = 2cos2x + 1 3 which gives y = e1/3 ii) It is of the form ∞0.
+Let y = (sec x)cot x So log y = cot x log sec x. logsecx Therefore, log y = ( tan x form) 1 .secxtan x secx = sec2 x = (sin x cos x) = 0. which implies log = y = 0 ⇒ y = e0 = 1, iii) It is of the form 00 Let y = (1 – x2)2/log (1-x) 2 So log y = log (1 – x2) log(1- x) log(1- x2) = 2. log(1- x) 89MTH 341 MODULE 1 log(1- x2) log y = 2.
+( form) log(1- x) - 2x/(1- x2) = 2.
+(By L’Hospital’s Rule) - 1/(1- x) x = 22 = 2 1+ x which gives y = e2.
+SELF ASSESSMENT EXERCISE 13 Evaluate the following limits: i) ii) (cot x)sin x iii) (cos x)cos x 3.4 Extreme Values In this section, we shall be concerned with the applications of derivatives and Mean Value theorems to the determination of the values of a function which are greatest or least in their immediate neighbourhoods; generally known as local or relative maximum and minimum values.
+The interest in finding the maximum or the minimum values of a function arose from many diverse directions.
+During the war period, the cannon operators wanted to know if they could somehow maximize (and if so, to what extent) the distance travelled horizontally i.e.
+the range, when a cannon ball is shot from the cannon.
+The position of the angle at which the cannon was inclined to the ground mattered the most in such cases.
+Another direction was the study of motion of planets.
+It involved maxima and minima problems such as finding the greatest and the least distances of the planets from the sun at a particular time and so on.
+90MTH 341 MODULE 1 We shall find below, the necessary and sufficient conditions for the existence of maxima or minima.
+First, we define extreme values of a function.
+Definition 4: Extreme Value of a Function Let f be a function defined on an interval I and let c be any interior point of I.
+1) f is said to have a local or relative maxima value (a local or relative maxima) at x = c if $ a number δ > 0 such that " x ˛ ]c – δ, c + δ[, x ≠ c ⇒ f(x) < f(c) i.e.
+f(c) is the greatest value of the function in the interval ]c – δ, c + δ[ i.e.
+f(c) is a local maximum value of the function f if $ δ > 0 such that f(c) > f(c + h) (cid:219) f(c + h) – f(c) < 0 for 0 < h < δ.
+2) f is said to have a local or relative minimum value (a local or relative minimum) at x = c if $ a number δ > 0 such that " x ˛ ]c – δ, c + δ[, x δ c ⇒ f(x) > f(c) or equivalently f(c + h) – f(c) > 0 for 0 < h < δ. or f(c) is the least value of the function f in the interval ]c – δ, c + δ[.
+3) f is said to have an extreme value (an extremum or a turning value) at x = c, if it has either a local maximum or a local minimum at x = c. The following simple examples will clarify your ideas about maximum and minimum values.
+Example 11: Let f be a function defined on R as f(x) = x2 " x ˛ R, then f has a local minimum at x = 0.
+From the graph (Fig.
+1), the values in the neighbourhood of the values at x = 0 is greater than 0. f(x)=x2 O 91 Fig.
+1 MTH 341 MODULE 1 Example 12: Let f be a function defined on R as f(x) = sin x " x ˛ R; then f has a local minimum at x = - π/2 and a local maximum at x = π/2.
+In fact, f has a minimum at x = 2nπ - π/2 and a maximum at x = 2nπ + π/2; n being any integer as is evident from the following Figure 2: Y X X -2π -3π/2 -π π/2 O π/2 π 3π/2 2π Y Fig.
+2 Example 13: Let f be a function f defined as: f(x) = x3 " x ˛ R; then f has neither a maximum nor minimum at x = 0.
+At x = 0 f(0) = 0.
+If we take any interval ]-d, d[ about the point 0, then it contains points x , x such that x > 0 and x < 0.
+Now f(x ) > f(0) = 0 and f(x ) < f(0) = 1 2 1 2 1 2 0.
+Note that while ascertaining whether a value f(c) is an extreme value of f or not, we compare f(c) with the values of f in any small neighbourhood of c, so that the values of the function outside the neighbourhood do not come in question.
+Y f(x) = x3 92MTH 341 MODULE 1 Y P P5 3 P P 4 2 P 1 X O Fig.
+4 Thus, a local maximum (minimum) value of a function may not be the greatest (least) of all the values of the function in a finite interval.
+In fact, a function can have several local maximum and minimum values and a local minimum value may even be greater than a maximum value.
+A glance at the above Figure 4 shows that the ordinates of the points P , 1 P , P are the local maximum and the ordinates of the points P , P are 3 5 2 4 the local minimum values of the corresponding function and that the ordinate of P which is a local minimum is greater than the ordinate of 4 P , which is a local maximum.
+1 Further you must have noticed that the tangents at the points P , P , P , 1 2 3 P , P in the above figure are parallel to the axis of x, so that if c , c , c , 4 5 1 2 3 93MTH 341 MODULE 1 c , c are the abscissae of these points, then each of f΄(c ), f΄(c ), f΄(c ), 4 5 1 2 3 f΄(c ), f΄(c ) is zero.
+4 5 We proceed to establish the truth of this result below: Theorem 8: A necessary condition for f(c) to be an extreme value of a function f is that f’(c) = 0, in case it exists.
+Proof: Here, we assume f is derivable at c. Let, further, f(c) be a local maximum value of f. Thus, there exists a real number δ > 0 such that " x ˛ ]c - δ, c + δ[, x ≠ c ⇒ f(x) < f(c) i.e. "
+h ˛ ]- δ, δ [, h ≠ 0 ⇒ f(c + h) < f(c) f(c + h) - f(c) Now for h > 0, we have ≤ 0 (12) h f(c + h) - f(c) and for h < 0 we have ≥ 0 (13) h From (12) and (13), we have f(c + h) - f(c) f(c + h) - f(c) £ 0 and ≥ h h 0 , which gives f’(c) ≤ 0 and f’(c) ≥ 0.
+Therefore, f΄(c) = 0.
+It can be similarly shown that f’(c) = 0, if f(c) is a local minimum value of f. The vanishing of f’(c) is only a necessary but not a sufficient condition for f(c) to be an extreme value as we now show with the help of the following example.
+Consider a function, f, defined by f(x) = x3 " x ˛ R Then 94MTH 341 MODULE 1 f'(x) = 3x2, f’(0) = 0.
+Also f(0) = 0.
+Clearly for x > 0, f(x) > 0 = f(0) and for x < 0, f(x) < 0 = f(0) thus, f(0) is not a local extreme value even though f΄(0) = 0.
+Furthermore, you can note that a function may have a local maximum or a minimum value at a point without being derivable at that point.
+For example, if f(x) = | x | " x ˛ R, then f is not derivable at x = 0, but has local minimum at x = 0.
+Y f(x) = x X X O Fig.
+5 We may remark that in view of the above theorem, we find that if a function f has a local extrema value at a point x = c, then either f is not derivable at x = c or f΄(c) = 0.
+Thus, in order to investigate the local maxima and minima of a function f, we have to first find out the values of x for which f’(x) does not exists of if f΄(x) exists, then it vanishes.
+(These values are generally called the critical values of f).
+We then examine for which of these values, does the function actually have a local maximum or a local minimum.
+The points where fist derivative of a function vanish are called stationary points.
+Definition 5: Stationary Value of a Function 95MTH 341 MODULE 1 x = c is called a stationary point for the function f if f΄(c) = 0.
+Also f(c) is then called the stationary value.
+You have seen that if a function f is derivable at an interior point c of its domain and f΄(c) = 0, then f may not have an extreme value at c. To decide whether f has an extreme value or not at such a point, we need some method.
+By knowing the sign of the derivative on the left and right of the point we can decide whether f has a local maximum or local minimum at the point.
+This is the purpose of the next theorem.
+Theorem 9 (First Derivative Test) Let a function f be derivable on an interval ]c - δ, c + δ[, δ> 0, and let f΄(c) = 0.
+If i) f΄(x) > 0 " x ˛ ]c - δ, c[ and f΄(x) < 0 " x ˛ ]c, c + δ[, then f has a local maximum at x = c. ii) f’(x) < 0 " x ˛ ]c - δ, c[ and f΄(x) .> 0 " x ˛ ]c, c + δ[, then f has a local minimum at x = c. Proof i) Let b be an arbitrary point of ]c - δ, c[.
+Then f satisfies the conditions of Lagrange’s mean value theorem in [b, c], so that f(c) – f(b) = (c – b) f(a ) for some α ˛ ]b, c[.
+Since f΄(x) > 0, " x ˛ ]c - δ, c[, therefore, f΄(d) > 0, and so f(c) – f(b) > 0.
+Now b is any point of ]c - δ, c[, \ f΄(c) – f(x) .
+0, " x ˛ ]c - δ, c[.
+Let now d be an arbitrary point of ]c, c + δ[.
+Then f satisfies the conditions of Lagrange’s mean value theorem in [c, d], so that f(d) – f(c) = (d – c) f΄(b) for some b ˛ ]c, d[.
+f΄(x) < 0 " x ˛ ]c, c + δ[ \ f΄(b) < 0.
+(14) 96MTH 341 MODULE 1 So, f(d) – f(c) < 0.
+Now d is any point ]c, c + δ[, therefore, f(x) – f(c) < 0, " x ˛ ]c, c + δ[.
+(15) From (14) and (15), we find that " x ˛ ]c - δ, c + δ[, x ≠ c ⇒ f(x) < f(c) ⇒ f has a local maximum at x = c ii) You can similarly prove it.
+If $ δ > 0 such that x ˛ ]c - δ, c[ ⇒ f΄(x) > 0 and x ˛ ]c, c + δ[ ⇒ f΄(x) < 0, then we say that f’(x) changes sign from positive to negative as x passes through c. Similarly, if $ δ > 0 such that x ˛ ]c - δ, c[ ⇒ f΄(x) > 0 and x ˛ ]c, c + δ[ ⇒ f΄(x) < 0, then we say that f΄(x) changes sign from negative to positive as x passes through c. In view of this terminology, the above theorem can be stated as follows: Let f be derivable on an open interval I and let f΄(c) = 0 at some point c ˛ I.
+If f΄(x) changes sign from positive to negative (negative to positive) as x passes through c, then f has a local maximum (minimum) at x = c. You may note that the conditions of the above theorem are sufficient but not necessary.
+For example, consider the function f, defined by 1 f(x) = x4 (2 + sin ) when x ≠ 0, x and f(0) = 0.
+97MTH 341 MODULE 1 This function f is derivable everywhere, f΄(x) does not change sign from negative to positive as x passes through 0 and yet f has a local minimum at x = 0.
+You may further note that, if f΄(x) does not change sign i.e., it has the same sign throughout the interval ]c - δ, c + d[, for some δ > 0, then f is either strictly increasing or strictly decreasing throughout this neighbourhood and, so, f(c) is not an extreme value of f. Geometrically interpreted, the above theorem states that the tangent to a curve at every point in a certain left handed neighbourhood of the point P whose ordinate is a local maximum (minimum) makes an acute (obtuse) angle and the tangent at any point in a certain right handed neighbourhood of P makes an obtuse (acute) angle with the axis of X.
+In case the tangent on either side of P makes an acute angle (or obtuse angle, the ordinate of P is neither a local maximum nor a local minimum.
+The following example shows the application of the above theorem for finding extreme values of a function.
+Example 14: Examine the function f given by f(x) = (x – 2)4 (x + 1)5; " x ˛ R, for extreme values.
+Solution: Here f(x) = (x – 2)4 (x + 1)5 Thus, f’(x) = 4(x – 2)3 (x + 1)5 + 5 (x – 2)4 (x + 1)4 = (x – 2)3 (x + 1)4 (9x – 6) So f’(x) = 0 for x = -1, 2/3, 2.
+Thus, we expect the function to have extreme values for these values of x.
+Now f’(x) > 0 for x < - 1, And f’(x) > 0 when x is slightly greater than -1.
+98MTH 341 MODULE 1 Therefore, f has neither maximum nor minimum at x = -1.
+Next f’(x) changes sign from positive to negative at x = 2/3, therefore, f has a local maximum at x = 2/3.
+Also f’(x) changes sign from negative to positive at x = 2 and therefore it has a local minimum thereat.
+SELF ASSESSMENT EXERCISE 14: Examine the polynomial function given by 10x6 – 24x5 + 15x4 – 40x3 + 108" x ˛ R for local maximum and minimum values.
+We can also decide about the maximum and minimum values of a function at a point c from the sign of second derivative at c. This you will see, in the next theorem, called the second derivative test.
+Theorem 10 (Second Derivative Test) Let f be derivable on an interval ]c - δ, c + δ [ and f΄(c) = 0 i) If f”(c) < 0, then f has a local maximum at x = c. ii) If f”(c) > 0, then f has a local minimum at x = c. Proof: The existence of f”(c) implies that f and f’ in a certain neighbourhood, ]c - δ c + δ [, 0 < δ < δ.
+1 1 1 i) Let f”(c) < 0.
+This implies that f’ is a strictly decreasing function at x = c. Thus, there exists d (0 < d < d ) such that 2 2 1 f΄(x) < f΄(c) = 0 " x ˛ ]c, c +d [ (16) 2 and f’(x) > f΄(c) 0 " x ˛ ]c - d , c[ (17) 2 99MTH 341 MODULE 1 Now (16) gives f΄(x) < 0 " x ˛ ]c, c +d [ which implies that f is a 2 decreasing function in [c, c + d ] and (2) gives f’(x) > 0 " x ˛ ]c - d , 2 2 d c[ which implies that f is an increasing function in [c - , c], so that at 2 x = c f has a local maximum.
+ii) You may similarly work out the proof.
+We may remark that the above theorem ceases to be helpful if for some c, both f’(c) and f”(c) are zero.
+To provide for this deficiency, we need to consider higher order derivatives.
+We make use of the Higher Mean Value theorem i.e.
+Taylor’s theorem to obtain generalisation of this result after the following remark.
+It is not possible to draw any conclusion regarding extreme values of a function at a point x c if f”(c) = 0. i) Let the function, be defined by f(x) = x3, " x ˛ R Here f’(0) = 0 =f”(0) and the function f has neither a local maximum nor a local minimum at x = 0 ii) Let the function be defined by f(x) = x4, " x ˛ R. Here f’(0) = 0 = f”(0) and f has a local minimum at x = 0.
+Similarly f(x) = -x4, " x ˛ R has a local maximum at x = 0.
+Now we give general criteria for finding extreme values and the second derivative test is also special case of this.
+Theorem 11: (General Criteria) Let f be a function defined on an interval I and let c be an interior point of I.
+Let i) f’(c) = f”(c) = ….
+fn-1(c) = 0 and ii) fn(c) exists and be different from zero, 100MTH 341 MODULE 1 then if n is even, f(c) is a local minimum or a local maximum value of f according as fn(c) > 0 or fn(c) < 0; if n is odd, f(c) is not an extreme value of f. Proof: Since fn(c) exists, we have that f, f’, f”, …., fn-1 all exist and are continuous at x = c. Also, continuity at x = c implies the existence of f, f’, f”, …., fn-1 in a certain neighbourhood ]c - δ , c + δ [ of c (δ > 0).
+1 1 1 As fn(c) ≠ 0, $ a neighbourhood ]c - δ, c + [ (0 < δ < δ ) such that 1 for fn(c) > 0, fn-1(x) < fn-1(c) = 0 " x ˛ ]c -d, c[ and fn-1(x) > fn-1(c) = 0 " x ˛ ]c, c + d[ (18) and for fn(c) < 0, fn-1(x) > fn-1(c) = 0 " x ˛ ]c - δ , c[ (19) and fn-1(x) < fn-1(c) = 0 " x ˛ ]c, c + δ[ Again for any real number h, where | h |, we have by Taylor’s theorem with Lagrange’s form of remainder after (n – 1) terms, h2 hn-1 f(c + h) – f(c) + hf’(c) + f”(c) +….+ f(n-1)(c + θh)(0 < θ < 1).
+2!
+(n - 1)!
+From which we get hn-1 f(c + h) – f(c) = fn-1(c + h) (20) (n - 1)!
+where c + qh ]c -, c + [.
+(Putting f’(c), f”(c), ….. fn-2(c) equal to zero).
+Let n be odd: Clearly hn-1 > 0 for any real number h and further, when fn(c) > 0, we deduce from (18) that for h negative c + θh ˛ ]c - θ, c[ and fn-1(c + θh) < 0 and for h positive, fn-1(c + θh) > 0.
+101MTH 341 MODULE 1 So from (20), f(c + h) < f(c) " c + h ˛ ]c - δ, c[ and f(c + h) > f(c) " c + h ]c, c + δ[ which shows that f(c) is not an extreme value.
+When fn(c) < 0, it may similarly be shown that f(c) is not an extreme value.
+Let n be even In this case, hn-1 is positive or negative according as h is positive or negative, we deduce from (18) and (20) as before that if fn(c) > 0, then for every point c + h ˛ ]c - δ, c + δ [, f(c + h) > f(c) which means that f has a local minimum at x = c. It may similarly be shown from (19) and (20) that f has a local maximum at x = c if fn(c) < 0.
+The second derivative test can be deduced from this general criteria by taking n = 2.
+From this theorem, we see that extreme values exist only if the first non-vanishing derivative is of even order.
+In the following example, you will see the application of these general criteria.
+Example 15: Examine the function (x – 3)5 (x + 1)4 for extreme values.
+Solution: Let f(x) = (x – 3)5 (x + 1)4 Then f’(x) = (x – 3)4 (x + 1)3 (9x – 7), f”(x) = 8(x – 3)3 (x + 1)2 (9x2 – 14x + 1), f”(x) = 24(x – 3)2 (x + 1) (21x3 – 49x2 + 7x + 13), f”(x) = 24(x – 3) (3x – 1) (21x3 – 492 + 7x + 13) + 168(x – 3)2 (x + 1) (9x2 – 14x + 1), and f”(x) = 48(3x – 5) (21x3 – 49x2 + 7x +13) + 336(x – 3) (3x – 1) (9x2 – 14x + 10 + 336(x – 3)2 (x + 1) (9x – 7), 102MTH 341 MODULE 1 7 Now f΄ vanishes for x = -1, , 3.
+9 Let us now test these for extreme values.
+At x = -1, fiv is the first non-vanishing derivative and fiv(-1) = -24.4.4.64 < 0.
+Therefore, x = -1 is a point of local maxima.
+At x =, f” is the first non-vanishing derivative.
+(7) (20)3 16 40 and f” = 8. .
+.
+> 0.
+9 9 9 9 7 So x = is a point of local minima.
+9 At x = 3, the first non-vanishing derivative if fv, and it is of odd order.
+Thus, x = 3is neither a point of local maxima nor a point of local minima for the function.
+Example 16: Show that function sin x (1 + cos x) has a local maxima at a x = ≠/3, (0 ≤ x ≤ 2π).
+Solution: Let f(x) = sin x (1 + cos x) " x ˛ [0, 2π].
+Then f’(x) = cos x (1 + cos x) – sin2 x = cos x + cos 2x and f”(x) = -sin x – 2 sin 2x.
+3 3 At x = π/3, f’(π/3) = 0, f”( π/3) = - < 0 2 Therefore, f has local maxima at x = .
+SELF ASSESSMENT EXERCISE 15 Find the local maximum and minimum values of the function f defined by 103MTH 341 MODULE 1 i) f(x) = 4x-1 – (x – 1)-1, " x ˛ R – {0 , 1}.
+ii) f(x) = sin x + sin 2x + sin 3x " x ˛ [0,] SELF ASSESSMENT EXERCISE 16 Show that the function f defined by f(x) = xm (1 – x)n " x ˛ R, where m and n are positive integers has a local maximum value at some point of its domain, whatever the values of m and n may be.
+SELF ASSESSMENT EXERCISE 17 (1)x e1e Show that the local maximum value of is x We end this section by giving a method of finding greatest and lest values of a function in an interval provided the function is a derivable at all interior point of the interval.
+The greatest and the least values of a function are also its extreme values in case they are attained at points within the interval so that the derivatives must be zero at the corresponding points.
+The greatest value of a function is also called global or absolute maximum.
+Similarly, the least value of a function is also known a global or absolute minimum.
+If c , c , …., c be the roots of the equation, f’(x) = 0 which belong to ]a, 1 2 k b[, then the greatest and the least values of the function f in [a, b] are the greatest and the least members respectively of the finite set {f(a), f(c ), f(c ), ….., f(c ), f(b)].
+1 2 k Consider the following example.
+Example 17: Find the greatest and the least values of the function f defined by f(x) = 3x4 – 2x3 – 6x2 + 6x + 1 in the interval [0, 2].
+Solution: We have 104MTH 341 MODULE 1 f(x) = 3x4 – 2x3 – 6x2 + 6x + 1 Therefore, f’(x) = 12x3 – 6x2 – 12x + 6 = 6(x – 1) (x + 1) (2x – 1) f’(x) = 0 for x = 1, -1, +1/2.
+The number -1 does not belong to the interval [0, 2] and is not to be considered.
+Now (1) 39 f(1) = 2, f = , f(0) = 1 and f(2) = 21.
+2 16 Thus, the greatest value of f in [0, 2] is 21 and the least value is 1.
+4.0 CONCLUSION 5.0 SUMMARY In this unit, some theorems involving higher order derivatives of a function have been proved and also the application of derivatives for finding the limits of indeterminate forms and finding the extreme values of a function has been discussed.
+In module 1, unit 3, Taylor’s Theorem has been proved with the help of Rolle’s Theorem.
+According to this theorem, if f : [a, b] → R is a function such that its (n – 1)th derivative fn-1 is continuous in [a, b] and derivable on ]a, b[, then there is at least one real number c ˛ ]a, b[ such that (b - a)2 (b - a)n-1 f(b) = f(a) +(b – a) f’(a) + f”(a) + ….
++ fn-1(a) 2!
+(n - 1)!
+(b - a)p(b - c)n- p + fn(c) p(n - 1)!
+p being any positive integer.
+105MTH 341 MODULE 1 (b - a)p(b - c)n- p The term fn(c) is called Taylor’s Remainder after a p(n - 1)!
+terms and denoted by R and this form of remainder in due to n Schlomilch and Roche.
+By putting p = n and p = 1, we get respectively Lagrange’s and Cauchy’s form of remainder.
+If we put a = 0 is Taylor’s theorem, we obtain Maclaurin’s theorem.
+In the same section, you have seen how to obtain Maclaurin’s series expansion of a function.
+If f: [a, b] → R is a function such that fn(x) exists for any positive integer n and for each x ˛ [0, h] and R (x) = 0 for each x ˛ [0, h], then for n all x in [0, h].
+f(x) = f(0) = xf’(0) + f”(0) + ….
++ fn(0) + ….
+which is Maclaurin’s series for f(x).
+Using this result, Maclaurin’s series expansions of ex, sin x, cos x, log (1 + x), (1 + x)m have been obtained as: x2 x2 ex = 1 + x + + ….
++ + …. "
+x ˛ R, 2!
+n!
+x3 x5 x2n+1 sin x – x - + ….
++ (-1)n + …. "
+x ˛ R, 3!
+5!
+(2n + 1)!
+x2 x4 x2n cos x = 1 - + + ….
++ (-1)n + …."
+x ˛ R 2!
+4!
+(2n)!
+x2 x3 log (1 + x) = x - + ….
+-1 < x ≤ 1 2!
+3!
+m(m - 1) (1 + x)m = 1 + mx + x2 + …., | x | < 1.
+2!
+0 , , 0, ∞, ∞ - ∞, 1∞, ∞0, 00 have been given.
+All these are based on 0 0 L’Hospital’s Rule for form.
+If f(x) = 0, 0 f(x) g(x) = 0, then is said to assume the indeterminate g(x) 0 0 forms as x tends to ‘a’.
+L’Hospital’s Rule for from states that if 0 0 f(x) = g(x) = 0, f΄(x), g΄(x) exists and g’(x) 106MTH 341 MODULE 1 ≠ 0 for all x in ]a, - δ, a + δ[ (δ > 0) and exists, then L’Hopital’s rule for form is similar.
+In section 3.4, application of derivatives for finding extreme values of a function is given.
+If f is a function defined on an open interval I and c is any interior point of I, then f is said to have a local or relative maximum at c if there exists a number δ > 0 such that x ˛ ]c - δ, c + δ[, x ≠ c ⇒ f(x) < f(c).
+Likewise, f is said to have a local or relative minimum at c if there exists a number δ > 0 such that x ˛ ]c - δ, c + δ[, x ≠ c ⇒ f(x) > f(c).
+f is said to have an extreme value at c if it either a local maximum or a local minimum at c. you have seen that the necessary condition f’(c) = 0 is not sufficient for f to have an extreme value at c is that f’(c) = 0 provided it exists.
+The condition f’(c) = 0 is not sufficient for f to have an extreme value at c. For example, the function f defined by f(x) = | x | " x ˛ R it has a local minimum at x = 0 but f’(0) does not exist.
+For deciding whether a function f has an extreme value at a point c, we have the following general test.
+Suppose that f is a function defined on an interval I and c is an interior point of I such that f'(c) = f”(c) = ….
+fn-1(c) = 0 and fn(c) ≠ 0.
+Then if n is odd, then f does not have an extreme value at c and if n is even, then f has a local maximum or local minimum at c according as fn(c) < 0 or fn(c) > 0.
+6.0 TUTOR-MARKED ASSIGNMENT Find the least and the greatest value of the function f defined by: f(x) = x4 – 4x3 – 2x2 + 12x + 1 in the interval [-2, 5] 107

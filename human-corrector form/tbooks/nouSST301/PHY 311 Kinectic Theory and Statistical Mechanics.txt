@@ -1,0 +1,1105 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY311 COURSE TITLE: KINETIC THEORY AND STATISTICAL MECHANICS  PHY 311 KINECTIC THEORY AND STATISTICAL MECHANICS COURSE GUIDE NATIONAL OPEN UNIVERSITY OF NIGERIA  Course Code PHY 311 Course Title KINECTIC THEORY AND STATISTICAL MECHANICS Writer Mr. A. Adeleke Aderemi Osun State College of Technology Esa Oke Course Editing Team Dr. Ajibola S. O School of Science and Technology National Open University of Nigeria and Arowolo.
+O School of Science and Technology Lagos State Polytechnic.
+Ikorodu.. NATIONAL OPEN UNIVERSITY OF NIGERIA Contents Introduction The Course Course Aims and Objectives Working through the Course Course material Study Units Textbooks Assessment Tutor Marked Assignment End of Course Examination Summary  INTRODUCTION You would have become familiar with concepts of Statistics and Mechanics as the prerequisite to this course as you are encouraged to develop an enquiring attitude towards the Mechanics of Statistics with which you interact every day.
+It is the objective of this course to build upon the lessons learnt in the prerequisite courses Mecanics(PHY211,MTH251 and MTH102).
+THE COURSE: PHY 311 KINECTIC THEORY AND STATISTICAL MECHANICS This course comprises four Units distributed across two modules as follows: Module 1 is composed of 2 Units Module 2 is composed of 2 units In Module 1 Probability Spaces, Measure and Distribution are treated in Unit 1 while Unit 2 explains Distribution Of Random X1 covers expectation of random variables and Unit 2 is devoted to limit theorem.
+COURSE AIMS AND OBJECTIVES The aim of STT311 is to further intimate you with probability stochastic processes; particularly the theorems, the rules and their application.
+The Random, Probability and Distribution functions and their relevance to actual physical observations in the real world.
+You are therefore required to reciprocate by studying and working through this course conscientiously, upon completion of which you should confidently be able to: - Understand the meaning of probability space and its notation.
+- Define Sample space and event, and Event Space.
+- Discuss Probability Measure and State its Theorems - Discuss Probability Distribution for Continuous Random Variables - Understand the meaning of random variables - Classify random variables into discrete and continuous random variable with example - Define and state the properties of distribution function - State the distribution function for discrete and continuous random variables and solve example on each - Show the graphical representation of random variables - State the joint distributions for two random variables which are either both discrete or both continuous - State the independent of random variables for independent and dependent events - State the conditional probability function for discrete and continuous random variables - Solve related problems on the distribution of random variables spaces - Define Expectation of random variable - Express mathematically the Expected Value of Mean for discrete and continuous random variables - State and prove Theorems on Expectation - State Variance and Standard Deviation for Discrete and Continuous Random Variables.
+- Find the Mathematical Expectation of Moments and Moments Generation Function for Discrete and Continuous random variables - Find the characteristic function of a given random variable - Solve related examples on the mathematical expectation of random variables - State and prove Chebyshev’s inequality - Define Convergence of random variables - State and prove some theorems on convergence in measure - State and prove weak law of large numbers - State the strong law large numbers And in addition you will know:  - The meaning of probability space and its notation - Important definition of sample space, Event and event space - Probability measure and its properties - Part of probability distribution of a continuous random variables - Meaning of random variables and its classification - Distribution functions for discrete and continuous random variables - Graphical representation of random variables - Joint distribution for discrete and continuous random variables - Independence and conditional probability of random variables - Worked examples on each concept of random variables - Meaning of Expectation for Discreet and Continuous random variables - Mathematical Expectation for discreet and continuous random variables - Expected Value for Variance and Standard Deviation - Theorems on the Expectation of Random Variables - Moment, Moment Generating Function for Discrete and Continuous Random Variables - Characteristic Functions of Random Variables - Working examples on the Mathematical Expectation of Random Variables - Chebyshev’s Inequality - Convergence of Random Variables - Demovre’s Theorem - Central limit Theorem - Weak law of Large Numbers - Strong law of Large Numbers - Relevant examples on the theorems are treated WORKING THROUGH THE COURSE This course requires you to spend quality time to read.
+Whereas the content of this course is quite comprehensive, it is presented in clear, illustrative language that you can easily relate to.
+The presentation style might appear rather qualitative and descriptive.
+This is deliberate and it is to ensure that your attention in the course content is sustained as a terser approach can easily “frighten” particularly when new concepts are being introduced.
+You should take full advantage of the tutorial sessions because this is a veritable forum for you to “rub minds” with your peers – which provides you valuable feedback as you have the opportunity of comparing knowledge with your course mates.
+COURSE MATERIAL You will be provided course material prior to commencement of this course, which will comprise your Course Guide as well as your Study Units.
+You will receive a list of recommended textbooks which shall be an invaluable asset for your course material.
+These textbooks are however not compulsory.
+STUDY UNITS  TEXTBOOKS There are more recent editions of some of the recommended textbooks and you are advised to consult the newer editions for your further reading.
+DR. R. A. Kasumu (2003) Probability Theory (first edition) Published by Fatol ventures Lagos.
+Alexander M. Mood et al (1974) Introduction to the Theory of Statistics (third edition) Published by Mc Graw Hill.
+Marry R Spiegel etal (2009) Probability and Statistics (third edition) Published by Mc Graw Hill Dr S. A. Okunuga (1998) Probability Distribution 2 lecture Materials Published by Murray R. Spiegel et al  ASSESSMENT Assessment of your performance is partly trough Tutor Marked Assessment which you can refer to as TMA, and partly through the End of Course Examinations.
+TUTOR MARKED ASSIGNMENT This is basically Continuous Assessment which accounts for 30% of your total score.
+During this course you will be given 4 Tutor Marked Assignments and you must answer three of them to qualify to sit for the end of year examinations.
+Tutor Marked Assignments are provided by your Course Facilitator and you must return the answered Tutor Marked Assignments back to your Course Facilitator within the stipulated period.
+END OF COURSE EXAMINATION You must sit for the End of Course Examination which accounts for 70% of your score upon completion of this course.
+You will be notified in advance of the date, time and the venue for the examinations which may, or may not coincide with National Open University of Nigeria semester examination.
+SUMMARY Each of the two modules of this course has been designed to stimulate your interest in probability stochastic processes through the fundamental conceptual building blocks in the study and practical application of Statistical Mechanics.
+PHY 311: KINECTIC THEORY AND STATISTICAL MECHANICS  NATIONAL OPEN UNIVERSITY OF NIGERIA PHY 311 KINECTIC THEORY AND STATISTICAL MECHANICS Course Code PHY 311 Course Title KINECTIC THEORY AND STATISTICAL MECHANICS Course Code PHY 311 Course Title KINECTIC THEORY AND STATISTICAL MECHANICS Writer Mr. A. Adeleke Osun State College of Technology Esa Oke Course Editing Team Dr. Ajibola S. O School of Science and Technology National Open University of Nigeria and Arowolo.
+O School of Science and Technology Lagos State Polytechnic.
+Ikorodu.. PHY 311 KINECTIC THEORY AND STATISTICAL MECHANICS NATIONAL OPEN UNIVERSITY OF NIGERIA 16 National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Annex 245 Samuel Adesujo Ademulegun Street Central Business District Opposite Arewa Suites Abuja e-mail: centralinfo@nou.edu.ng URL www.nou.edu.ng National Open University of Nigeria 2011 First Printed 2011 : ISBN: All Rights Reserved Printed and Bound in 17 Module 1 Unit 1: Basic Concept of Statistical Mechanics.
+1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Elementary Probability Theory 3.2 Entropy and Probability 3.3 Concept of Statistical Mechanics 3.4 Statistical Ensembles 3.5 Distribution Frictions 1.0 Introduction This unit focuses on Statistical mechanics, elementary definition SE probability theory, entropy and probability are highlighted.
+The concept of statistical mechanics and statistical ensembles with the relevant working examples on each concept are treated to make the learning more meaningful.
+2.1 Objective At the end of this unit student should be able to:  Define and Understand the Probability terms.
+ Differentiate Entropy and Probability  State the Basic Concepts of Statistical Mechanics  Discuss the three types of stated Ensemble  Derive the Distribution Function for a System Obeying Classical Statistics.
+3.0 Main Contents 3.1 Elementary Probability Theory Statistical mechanics is a branch of physics that applies probability theory, which contains mathematical tools for dealing with large populations, to the study of the thermodynamic behavior of systems composed of a large number of particles.
+We invariably compute the averages of physical quantities of interest and then establish the connection between these values and the experimentally observed values.
+So it is essential to know the basic concepts of probability theory.
+3.1.1 Basic Terminology Suppose we toss two coins together the possible outcomes can be listed as follows: First Coin H T 2nd Coin H HH HT T TH TT 18 That is, there are four outcomes of this statistical experiment, which may be listed as: Ω = *(H,H), (H,T), (T,H), (T,T)+ The set of all the possible outcomes is called the sample space of the experiment and each of the element or individual outcome like ( HH, HT, TH, TT) that make up a sample space (Ω) is called sample point.
+Thus, we have four sample points in the Ω which is known as cardinality of Ω and is denoted by n (Ω) i.e.
+n (Ω) = 4.
+An event is a possible outcome in a random experiment.
+It is thus the subset of the sample space and is usually associated with a specified rule, for example the event of getting an odd number in a throw of a die is (1,3,5) while the event of obtaining the same faces in a throw of two coins is {HH, TT}.
+We introduce the basic operations of Union and Intersection, which can be used to define new events.
+E UE Either E or E occurs, or both occur (at least one of E or E occurs) 1 2 1 2 1 2 n E E Both E and E occur.
+If there are no sample points common to E 1 2 1 2 1 and E , the E n E = Ø and the events are said to be disjoint or mutually 2 1 2 exclusive.
+It can be shown below.
+Fig a fig b fig c From the fig (a) the shaded portion represent E u E (b) The Shaded portion 1 2 n represents E E and (c) There is no overlap between E and E 1 2 1 2 From the figure (b), we have Ω = E u E and from the first figure 1 2 Ω = In general, if the distinct simple events are , , we have Ω = = ⋃ Having introduced the concept of a sample space, we now define the probability of an event.
+Let us consider the simple case in which Ω has a finite number of points and all the outcomes are equally likely.
+Let A be any subset of Ω.
+Then we define the probability of the event A to be P (A) = n(A) 19 n(Ω) Example I: (a) An unbiased die is rolled write down the sample space for the experiment (ii) n coins are tossed, what is the sample space?
+Solution (i) Ω (Die) = { 1,2,3,4,5,6} n (Ω) = 6 (ii) Ω(Coin) = *H,T+ n(Ω) = n(2)=2n Example 2: Two coins are tossed.
+What is the probability that (a) two head appears (b) at least one tail appears.
+Solution Ω = *HH, HT, TH, TT+ n (Ω) = 4, n(HH) = 1 P (HH) = 1/4 It is easy to verify that: i. O ≤ P(A) ≤ = 1 and (ii) P(Ω) = , P (Ø) = 0 E and E are called independent event.
+If P ( ) = ( ) ( ) 1 2 In other words, if the probability of the simultaneous occurrence of two events is the product of their individual probabilities, then they are independent events.
+3.1.2 Elementary Combinatorial We begin by stating the multiplication rule.
+Multiplication Rule If there are m ways in which an event U can take place, and n ways in which an independent event V can occur, then there are mn ways in which the two events can occur jointly.
+An alternative formulation of this result is that if an operation can be performed in m ways and after it is performed in any one of these ways, a second independent operation can be performed in n ways.
+Then the two operations can be performed in m by n ways.
+Example 3: Four coins are flipped in succession.
+Find the total number of possible outcomes.
+Solution There are two possible outcomes head (H) or Tail (T) fit each case, Hence, the total number of possible outcomes= 2 2 2 2 = 6.
+When we are dealing with a large collection of objects, it is often necessary to complete the number of permutation and combinations of the objects.
+PERMUTATIONS 20 A permutation is any arrangement of a set of objects in a definite order.
+The number of permutation of n elements taken r at a time is ( ) It is denoted by the symbol Combinatorial.
+A combination is a selection of n distinct objects without regard to order.
+The number of combination of n element taken r at a time is it is denoted ( ) ( ) by or simply These are just the binomial coelficients because they appear to newtons binomial expansion ( ) = .
+= ∑.
+/ Where n is a positive integer Example 4: Seven physicists assembled for a meeting shake hands with one another.
+How many handshakes take place?
+Solution This is equal to the number of ways of choosing two physicist from a set of Seven, which is 6 = = = = 2 ( ) 2 2 2 2 3.2 Entropy and Probability (A statistical view) Entropy ~ a measure of the disorder of a system A state of high order = low probability A state of low order = high probability.
+In an irreversible process, the universe moves from a state of low probability to a state of higher probability.
+We will illustrate the concepts by considering the free expansion of a gas from volume to volume .
+The gas always expands to fill the available space.
+It never spontaneously compresses itself back into the original volume.
+First two definitions: Microstate: A description of a system that specified the properties (Position and/or momentum, etc) of each individual particle.
+Macrostate: A more generalized description of the system, it can be in terms of macroscopic quantities, such as P and V, or it can be in terms of the number of 21 particles whose properties fall within a given range.
+In general, each macrostate contains a large number of microstates.
+Examples: Imagine a gas consisting of just 2 molecules.
+We want to consider whether the molecules are in the left or right half of the container.
+1 2 There are 3 macrostates molecules on the left, both on the right, and one on each side.
+22 There are 4 microstates: LL, RR, LR, RL How about 3 molecules?
+Now we have: LLL, (LLR, LRL, RLL), (LRR, RLR, RRL), RRR (all L) (2L, 1R) (2R, 1L) (all R) i.e.
+8 microstates,, 4 macrostates.
+How about 4 molecules?
+Now there are 16 microstates and 5 macrostates.
+(all L) (3L, 1R) (4C, 2R) (1L, 3R) (all R) 1 4 6 4 1 Number of microstates.
+In general N W M 1 1 1 2 2 1 2 1 2 4 3 1 3 3 1 3 8 4 1 4 6 4 1 4 16 5 1 5 10 10 5 1 5 32 6 1 6 15 20 15 6 1 6 64 7 1 7 21 35 35 21 7 1 7 128 8 1 8 28 56 70 56 28 8 1 8 256 9 2N N+1 This table was generated using the formula # of permutations for picking n items from N total: 6 = .
+.
+= = .
+( ) .
+2 4 “Multiplicity” Fundamental Assumption of Statistical Mechanic: All microstates are equally probable.
+Thus, we can calculate the likelihood of finding a given arrangement of molecules in the container.
+Thus, events such as the spontaneous compression of a gas (or spontaneous conduction of heat from a cold body to a hot body are not impossible, but they are so improbable that they never occur.
+We can relate the # of microstates W of a systems to its entropy S by considering the probability of a gas to spontaneously compress itself into a smaller volume.
+If the original volumes is , then the probability of finding N molecules in a smaller volume is 23 = ⁄ = ( ⁄ , ( ⁄ , = ( ⁄ , = ( ⁄ , We have seen for a free expansion that = ( ⁄ , So = ( ⁄ ) ( ⁄ , = ( ⁄ , Or = ( ) ( ) Thus, we arrive at an equation first deduced by Ludwig Boltzmann, relating the entropy of a system to the number of microstates.
+= ( ) He was so pleased with this relation that he asked for it to be engraved on his tombstone.
+3.3 Concept of Statistical Mechanic Statistical mechanics provides a framework for relating the microscopic properties of individual atoms and molecules to the macroscopic bulk properties of materials that can be observed in everyday life, therefore explaining thermodynamics as a result of classical and quantum-mechanical description of statistics and mechanics at the microscopic level.
+Statistical Mechanics provides a molecular level interpretation of macroscopic thermodynamic quantities such as work, heat, free energy, and entropy.
+It enables the thermodynamic properties of bulk materials to be related to the spectroscopic data of individual molecule.
+This ability to make macroscopic predictions based on microscopic properties is the main advantaged of statistical mechanic over classical thermodynamics.
+Both theories are governed by the second law of thermodynamics through the medium of entropy.
+However, entropy in thermodynamics can only be known empirically, whereas in statistical mechanical, it is a function of the distribution of the system on its microstates.
+24 The essential problem in statistical thermodynamic is to calculate the distinction of a given amount of energy E over N identical systems.
+The goal of statistical thermodynamics is to understand and interpret the materials in term of the properties of their constituent particles and the interactions between them.
+This is done by connecting thermodynamic functions to Quantum-Mechanical Equations.
+Two central quantities in statistical thermodynamic are the Boltzmann factor and the partition function.
+Lastly, and most importantly the formal definition of entropy of a thermodynamic system from a statistical perspective is called statistical entropy, and is defined as: = Ω Where = Boltzmann’s constant .
+066 0 Ω is the number of microstates corresponding to the observed thermodynamic macrostate.
+This equation is valid only if each microstate is equally accessible (each microstate has an equal probability of occurring).
+In conclusion the, concepts of statistical mechanics which are critically important and underline all other results in order of dependence are the following.
+1.
+Conservation of energy 2.
+Equilibrium, Temperate and Entropy 3.
+The Boltzmann distribution 4.
+Multiplicity defies energy (or entropy attracts heat) 3.4 Statistical Ensembles The modern formulation of statistical mechanics is based on the description of the physical system by an ensemble that represents all possible configurations of the system and the probability of realizing each configuration.
+Each ensemble is associated with a partition function that, with mathematics manipulation, can be used to extract values of thermodynamic properties of the systems.
+According to the relationship of the system to the rest of the universe, one of the three general types of ensemble may apply in order of increasing complexity.
+- Micro canonical Ensemble: This describes a completely isolated system, having constant energy as it does not exchange energy or mass with the rest of the universe.
+- Canonical Community: This describes a system in thermal equilibrium with its environment.
+It may only exchange energy in the form of heat with the outside.
+- Grand Canonical: Used in open systems which exchange energy and mass with the outside?
+25 Summary of Ensembles Ensembles us in Micro canonical Canonical Grand Canonical statistical mechanics Constant Variable , , , , , , Microscopic Number of Canonical Grand Canonical Features Microstates Partition Partition Function Ω Function = ∑ ( ) = ∑ Macroscopic = = = Function = Micro canonical Ensemble: In this ensemble N, V and E are fixed.
+Since the second law of thermodynamics applies to isolated systems, the first case investigated will correspond to the case of Micro canonical ensemble describes an isolated system.
+The entropy of such a system can only increase, so that the maximum of its entropy corresponds to an equilibrium state for the system.
+Because an isolated system keeps a constant energy, the total energy of the system does not fluctuate.
+Thus, the system can access only those of its micro-states that correspond to a given value E of the energy.
+The internal energy of the system is then strictly equal to its energy.
+Let Ω (E) be the number of microstates corresponding to the value of the system’s energy.
+The macroscopic state of maximal entropy for the system is the one in which all micro-states are equally likely to occur with Probability I/Ω(E), during the system fluctuations.
+( ) = ∑ { } ( ) ( ) = ( ( )) Where, S is the system entropy and is Boltzmann’s constant.
+Canonical Ensemble: Main article in canonical ensemble N,V and T are fixed.
+Invoking the concept of the canonical ensemble, it is possible to derive the probability Pi that a macroscopic system in thermal equilibrium with its environment, will be in a given microstate with energy Ei according to the Boltzmann distribution.
+26 = ∑ Where = The temperature T arises from the fact that the system is in theronal equilibrium with its environment.
+The probabilities of the various microstate must add to one and the normalization factor in the denominator is the canonical partition function = ∑ where Ei are the energy of the ith microstate of the system.
+The partition function is a measure of the number of states accessible to the system at a given temperature.
+The article canonical ensemble contains a derivation of Boltzmann factor and the form of the partition function from first principles.
+To sum up, the probability of finding a system at temperature T is a particular state with energy Ei is = Thus the partition function looks like the weight factor for the ensemble.
+3.5 The distribution function.
+Consider an ideal monoatomic gas made up of N particles enclosed in a volume V and having total internal energy U.
+The state of the system at any time t is represented by a point in a 6N dimensional phase space.
+This means that every particle is associated with six dimensional phase space, also called the space, Stands for the first letter of molecule.
+The particles are moving independently of each other and the contributions of individual particles remain separate.
+To give a microscopic description of the system, we divide the -space into cells of volume .
+Recall that in classical statistics, we can choose h as small as we like.
+Each particle will be found to occupy a cell in this network.
+Suppose the cells are numbered ,2, ..let the energy of a particle in the ith cell be denoted by .
+Then, we have and = ∑ ( .6. )
+= ∑ ( .6.2) The macrostate ( , , ) can be realized in a number of different ways.
+In order to proceed with our argument, we advance the hypothesis that all microstates 27 are equally probable.
+In other words, equal phase elements in phase space are associated with equal probabilities it corresponds to the assumption that the faces of a die are equally probable.
+This hypothesis is known as the postulate of equal a priori probabilities.
+The thermodynamic probability W is simply the number of ways of placing N distinguishable objects in cells such that there are no objects in the first cell, in the second and so on.
+This number is given by = = ( .6. )
+∏ We can easily prove this result by noting that there are .
+/ number of ways of chossing ni objects that are to be placed in the first cell.
+Then we will be left with (N-ni) objects.
+Out of these (N-ni) objects there are .
+/ ways of chossing objects to be placed in the second cell.
+We can continue in this fashion till all objects are placed in given cells.
+Then the total number of ways = ( * ( * ( * ( .6.4) ( ) ( ) = ( ) ( ) ( ) = ( .6. )
+Symbolically, we write this as .
+/ and call it a multinomial coefficient.
+We , know that equilibrium corresponds to maxi maximum of the thermodynamic probability W. since = , it is more appropriate to look at rather than W itself.
+(Since is a monotonically increasing function of W, its extreme point will coincide with those of W) By taking the log ( ) of the least equation, we have e ( = * ( ) = ( .6.6) 28 For most systems of practical interest, N is a very large number.
+By the same reasoning, most of the nis will be sufficiently large so that we can simplify the relation using stirling formular.
+= ( ) ( .6. )
+For small , will be small and hence not of any consequence.
+By inserting the stirling formula in eqn (5.6.7) into eqn (5.6.6) the result is = ∑( ) = ∑ ( .6. )
+Since = You would recall that we set our goal to determine the set (ni) which maximizes .
+The condition for maximum probability is = 0 We now calculate a small change in and equate it to Zero.
+This gives = ∑ ∑( ) = 0 ( .6. )
+This expression has been derived by assuming that N and U are constant = ∑ = 0 ( .
+.0) = ∑∑ = 0 ( .
+. )
+By equating the RHS of Eqn (5.6.9) to zero we have.
+∑ ( ) = ∑ ( ⁄ + = ∑ = 0 Then equation (5.6.9) reduces to ∑ = 0 To accommodate the conditions embodies in eqn (5.70) and (5.7.1) we employ the method of langrage multipliers by Xply (5.70) by and (5.71) by and this will lead to ∑( ) = 0 ( .
+.2) Since the variations are arbitrary, this relation will hold only if the coefficient of each term vanishes.
+Hence, we must have = 0 Or = = ( .
+. )
+29 Where we have put A = -------(5.7.4) equation (5.7.3) constitutes what is called the Maxwell – Boltzmann distribution.
+You will note that we wished to know the set ( ) which characterised the equilibrium state.
+But we find that eqn (5.7.3) contains two unknown langrange multipliers and We must now evaluate them in terms of known quantities.
+Evaluation of langrange multipliers: The partition function.
+The constant A (or ) is determined using the normalization condition.
+The probability that the state with energy is occupied and is given by eqn (5.7.3) with A defined by eqn (5.7.4).
+Since∑ = , We can write.
+∑ = = ∑ Or ∑ = If we now define = ∑ ( .
+. )
+We can write the degeneracy parameter A as = ( .
+.6) The sum∑ ( ), denoted by Z, is called the single partition function.
+It is called the phase integral.
+The name partition function is due to Darwin and Fowler (1922) which arises from the observation that when systems 1 and 2 are in thermal contact, the partitioning of energy between them is determined by the corresponding partition functions Z and Z.
+1 2 Planck (1921) called ∑ Zustandssume (sum over states) and denoted it by Z we shall follows Planck’s rotation here.
+It is important to remark that partition function occupies a pivotal position in statistical mechanics because all thermodynamics functions can be written in terms of Z and also important to remark that the partition function characterizes a sum over discrete spectrum.
+But in classical physics, the energy is taken to be continuous.
+However, if the levels are very closely spaced even the discrete sum becomes a continuum and it is possible to replace the summation, and it is possible to replace the summation by integration as illustrated in the following examples.
+30 Example : Obtain Maxwell’s law of distribution of velocities from the distn given in eqn (5.7.3) with = Solution: = = = By comparism i.e( = ) = exp.
+= / For an ideal monatomic gas = (2 ) ⁄ Hence, using the normalization condition = We get ∑ = If the energy states are very closely spaced, we can replace summation by integration: ∑ = v p p Where we have replaced by the ratio of volume in the cartesian space to the volume of one cell (= ).
+Morever if we asume azimuthal symmetry, we can write = 4 Hence, .
+/4 = On substituting for Z, we get = ( ) ( ) ⁄ Where I = ∫ exp( ) To evaluate this integral, we write p=mv so that dp=mdv.
+Also we know that = ( ⁄ + .Hence 2 31 = ∫ ( ) 2 Inserting this in eqn (1), we get ⁄ 4 ( * ∫ ( ) = 2 2 Hence, the number of molecules having speeds between V and V + dv is given by ⁄ = 4 ( * ( ) (2) 2 2 This is Maxwell’s law for distribution of speeds.
+We now proceed to express thermodynamic variables in terms of partition function.
+To this end, we substitute for from eqn (5.7.3) into eqn (5.6.8).
+This gives = ∑ ( ) = Now use of Boltzmann relation gives = ( .
+. )
+We can use the relation to introduce the concept of temperature by relating entropy and internal energy of a system: = ( * = ( * ( * ( * ( .
+. )
+From eqn (5.7.5), we note that ( * = ∑ exp( ) ( .
+. )
+On combining eqn (5.7.1) and (5.7.3), we get = ∑ = / ∑ exp( ) Using this result in eqn (5.7.9) we get, ( * = ( .
+.0) Combining it with eqn (5.7.8), we get ( * = ( .
+. )
+So that = ( ) ( .
+.2) 32 From eqn (5.8.0), we have .
+/ = .
+/ .
+/ = .
+/ = Hence, = .
+/ = ( ) ( .
+. )
+The Helmholtz free energy, F, defined as = = ( .
+.4) Since = ( .
+. )
+The pressure exerted by a classical gas is related to Helmholtz free energy through the relation = .
+/ So that = ( * ( .
+.6) We have now seen that all the thermodynamic functions can be related to the partition function Z.
+It means that once we evaluate Z, which of course may not always be easy, we can readily determine a thermodynamic function of interest which will be a subject of discussion of the next unit.
+4.0 SUMMARY From this unit the students have learnt the following concepts on statistical mechanics.
+- Basic definition of probability terms.
+- Differentiate between probability and entropy - State the basic concepts of statistical mechanics - Relate Entropy and Thermodynamic Probability by the Relation = - State Maxwell Boltzmann Distribution Formula.
+- Express Thermodynamic Variables in Terms of Partition Function.
+- Evaluate Z from any Thermodynamic Function of Interest.
+5.0 CONCLUSION As in summary Exercise 33 1.
+Draw the phase space for a linear harmonic oscillator.
+What will happen if we consider the same problem from the point of view of quantum theory?
+2.
+Consider two systems having and particles, respectively.
+Let them be brought in thermal contact.
+Show that is the same for the two assemblies.
+3.
+Draw the phase space for a particle having energy , constrained to move in one dimension.
+6.0 Tutor Marked Assignment (TMA) 1.
+Consider a system of N particles and a phase space consisting of only two cells with energies ( ), respectively.
+Calculate the partition function and the internal energy.
+2.
+Consider a chain of N links, hanging vertically with a constant weight F pulling on the bottom.
+Each link in the chain has length L, and can be in one of 3 positions: left, right or down.
+Note that this system is simplified because it has no kinetic energy (which will leads to having a finite maximum energy, even at arbitrarily large temperature).
+Questions: (i) What is the low temperature average vertical length of the chain?
+(ii) What is the high temperature vertical length?
+3.
+What is the average length at temperature T?
+7.0 References/Further Reading 1.
+Funky statistical mechanics concepts (3/8/2011) by Eric L. Michelson.
+2.
+Statistical Mechanics (1966) by Kerson Hung Published by John Wiley & Sons, Inc. New York, London Sydney.
+3.
+Statistical Mechanics Thermodynamics and Kinetics (1967) by Oscar Rice Published by W.H.
+Freeman & Company San Francisco, London.
+34 MODULE 1 Unit 2.0 The Partition Function 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 The Partition Function of an ideal Monatomic Gas.
+3.2 The Sacker-Tetrode Formula 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment (TMA) 7.0 References/Further Reading/Other Resources.
+Unit 2: The Partition Function 1.0 Introduction.
+This unit concerns with the Partition Functions which has been previously explained in the last unit.
+Partition function as a normalization factor, computing average energy, everything about system.
+The partition function about an ideal Monoatomic Gas are also highlighted and the Sackur-Tetrode formaula.
+35 2.0 Objective At the end of this unit stardust should be able to - Define Partition Function and its computation for Thermodynamic system.
+- Compute the Partition Function of an ideal Monatomic Gas and workout all the Thermodynamic functions.
+- Point out the flow in the expression for entropy.
+- calculate the Rotational and Vibrational contributions to heat capacities of diatomic gases.
+3.0 Main Content 3.1 The Partition Function Z The Partition Function is defined for all systems for which the Boltzmann distribution applies from single atoms to macroscopic systems.
+In other words, the partition function can be defined for all systems in thermal equilibrium with a heat bath.
+i.e.
+= ∑ = degenacy of the energy level = ⁄ (Adiabatic Bulk Modulus).
+In quantum mechanics = energy.
+The probability P( ) that a system will be in a state ith energy is given by ( ) = = The mean energy = ∑ = ∑ = ∑ = ( ) ( ) = = ∑ / ( ) ( ) = = / ( )∑ ( ) = ( / ) = / ∑ = ∑ 36 ∑ = 2 The expression gives us the probability that a system when placed in a heat bath the system should be in a particular state .
+Recall that Boltzmann distribution gives the relative probability of a system in thermal equilibrium with a heat bath, to be in a single microstate of given energy Pr( ) = exp( / ) That is PF is the “sum of relative probabilities of all the microstates” and it is applicable as listed below: 1.
+Partition function as a normalization factor.
+2.
+Using PF to compute average energy.
+3.
+Partition function tell us all 4.
+Partition function and free energy.
+The Partition Function as a Normalization Factor: As it is shown on the Boltzmann distribution, Z ( ) is the sum of relative probabilities of all the microstates or equivalently, the sum of the relative probabilities of each energy value.
+It is defined only for a system in thermal equilibrium (which means it can endanger energy with a temperature bath).
+( ) = ∑ exp( ) = ∑ gj exp( ) Where gj =multiplicity of even energy E ( ) = ∑ el Fr( ) Note that for a system held in a heat both, the system energy is a variable (not a constraint).
+The system may have more energy than the average, or less, all the way down to zero.
+That is very unlikely for most systems, but for mathematical expedience it is still counted as a possibility in ( ).
+Since the partition function is a sum of relative probabilities.
+The partition function includes an arbitrary multiplicative constant.
+This arbitrariness also reflects the arbitrary zero of energy.
+Changing the zero energy simply multiplies the PF by a constant with no effect on the physics.
+37 The PF serves as the (inverse of the) normalization factor to convert the relative probability of the system being in some microstate, or having some energy, into an absolute probability: Rel Pr ( ) exp ( ) Pr (State = S) = ( ) ∑ el Pr ( tater) Rel Pr (E) Rel Pr (E) Pr (Energy = E) = ( ) ∑ el Pr ( ) But this is trivial, and simply uses the letter Z for something that is already well known.
+Partition Function For Average energy, and such: another use for Z( ) is to compute average energy (this is also trivial and provides no new physical insight) Recall from basic statistics that for any discrete random variable, say E: (E) = ∑ Pr ( ) ______________ (1) Therefore, for the energy of a system we have: 38 ( E ) = ee ll PP rr (( )) = ∑Pr ( ) = ∑ Z(B) Z( ) ∑ e - But purely as a mathematical trick, with no deep physical meaning, we notice that the factor = ( ) = ∑– 2( ) = ∑ = ( ) ( ) ( ) But this gives us nothing new, since the partition function includes all the terms needed for the fundamental formula for average value.
+From eqn (1) above we could have more easily computed the average energy from the fundamental formular.
+( ) = ( ) ( ) This has the advantage, however that ( ) free energy, so there is some physical significance to this and it leads directly to ( ) = ( ) = ( ) Where A ( ) free energy of the system.
+Example: Average energy ( ) Pr( = ) = = ∑ ( ) ( ) ( ) ( ) = ∑ Pr( = ) = ( ) = ( ) = ( ) ( ) Partition Function Tells All: In the end, given the partition function ( ) for all values of , we can compute every (thermodynamic) thing that is to know about the system.
+That is a system is fully characterized by its partition function and by its energy density of states.
+39 Therefore, knowing the partition function and knowing the density of states are equivalent.
+How are the two related?
+Recall the PF for continuous systems: - ( ) ( )exp( ) Where ( ) Energy density of states.
+But this is the definition of the Laplace transform of ( ), with transform variable .
+Recall the Laplace transform is uniquely related to the original function.
+Therefore the ( )is the Laplace transform of the density of states ( )so knowledge of one is equivalent to knowledge of the other.
+But in practice, you usually need to know ( ) to find the partition function.
+Example: A zipper has links.
+Each link has two states: closed with energy O, and open with energy .
+The zipper can only unzip from the left and the 5th link cannot open unless all of the links to its left ( ,2, ) are already open.
+(a) Find the partition function for the zipper.
+(b) Find the mean number of open links.
+Evaluate your result in both the high and low temperature limit.
+a.
+( ) = ∑ exp( ) = ∑exp( ) = ∑,exp( )- Use (( ) ) ∑ = = ( ) = ( ) ( ) ( ) = = ln( ( )) = , ( exp( ) ) ( exp( ))- ∑ ( )exp( ( ) ) exp( ) = exp( ( ) ) exp( ) Free Energy and the Partition Function: When considering the possible macrostate of a system, what really matters is the most probable macrostate of a system, and to be meaningful, it must be the only macrostate with any significant chance of occurring.
+To compute free energy from the PF, we use the general conclusion that, for macroscopic systems, the partition function is dominated by the one most probable macrostate.
+40 Mathematically, compute the compute sum Z sum of all state relative probabilities.
+Since the most probable state and the complete sum are equivalent, we do whatever easier.
+The equilibrium microstate of a system is simply the most likely macrostate in thermal equilibrium; this in turn is that microstate with the largest number of likely microstates.
+i.e.
+largest product of (Boltzmann factor) x ( microstates).
+= ( ) = Therefore in principle, we can find the equilibrium macrostate by first identifying all the macrostates, their probabilities, and the macrostate for each, and pick that microstate with the largest number of likely microstates.
+This is only meaningful if the most likely microstate has probability near 1, so that all other macrostates are so unlikely they can be ignored.
+For systems with a large number of subsystems, N (e.g.
+large number of particles), this condition is true only one macrostate has any reasonable chance of occurring.
+We can now show that for systems with a large number of component subsystems (system of large N) there is a single approximation to the Helmholtz free energy of the system from the partition function.
+( ) ( ) (Large System) Here’s why: for large N, there will be only a few terms in the partition function which dominate not only all the other terms, but all the other terms combined.
+These few terms all have very nearly the same energy, so they can be lumped together as a single multiplicity for that energy.
+( ) = ∑ ( ) ∑ ( ) Where is the dominant energy in the sum.
+This means that the probability of the system being at is essentially 1: ∑ exp( ) ( ) / Pr( ) = = = ( ) ( ) This is as we expect for systems of large N in thermal equilibrium, there is only 1 realistic macrostate.
+Now if Z( ) has only one significant energy than we can rewrite Z( ) is Z(T) to follow the reasoning of free energy.
+We can 41 replace the sum of the few near with a single geff, since they all have essentially the same energy, .
+42 ( ) ( * .
+= ( ) ( ) / = ( ⁄ ) (= ) / ( ) = Where ( ) S( ) .
+( ) = ( ) where A(T)is the free energy of the macrostate at temprature T. Once again, we are simply quantifying how multiplicity defies energy, as before, and measuring multiplicity, in units of energy.
+Solving for A(T) yields the result above.
+( ) ( ) (large system).
+Note that since Z is defined only up to a multiplicative constant, A(T) is defined only up to an additive constant, which is always true for energy (free or otherwise).
+Note that for small systems, such as atoms, “temperature” is not defined, and therefore, neither is free energy.
+The above approximation only works for large systems, where the thermal equilibrium macrostate is sharply defined.
+The partition function is calculated for a given set of constraints, just like the various kinds of free energies.
+For a system constrained as for Helmholtz free energy (fixed T. no work done) we compute Z(T) within those constraints, and = gives Helmholtz free energy.
+If the system had different constraints such as those of Gibbs free energy (fixed T and P) then Z(T) is different and = gives Gibbs free energy.
+3.2 The Partition Function of an Ideal Monoatomic Gas Consider an ideal monoatomic gas consisting of N particles, each of mass m and occupying a volume V. This means that the energy of the system is wholly translational.
+That is, the potential energy is zero since intermolecular forces are absent.
+43 The energy of a particle in the ith cell is given by = 2 and the single particle partition function is = ∑ = ∑ ( ) (6.2. )
+2 If energy is a continuous variable, we can rewrite it as = ∫∫∫∫∫∫ [ ( )] (6.2.2) 2 Integration over the space variable, gives V so that = ∫ ∫ ∫ { ( )} = (6.2. )
+2 Note that the three integrals are identical and it is sufficient to evaluate any one of them.
+Let us consider I ∫ ( ) 2 = ∫ ( ) ∫ ( ) = (6.2.4).
+2 2 By putting = in the first integral, you can easily show that both integrals are alike and we can write = 2∫ ( ) = (6.2. )
+2 = If we now introduce a charge of variable by writing We find that = Or = √ ⁄ 2 2 44 45 and the integral 2 = √ ∫ ⁄ (6.2.6) is a standard gamma function of order ( ⁄ + if value is √ so that 2 2 / ∫ ( ) = ( * (6.2. )
+2 You will obtain the same expression for hence Eqn (6.2.2) gives / 2 = ( * = (2 ) / (6.2. )
+This is the partition function in space for individual particles.
+Since we are discussing a monoatomic gas consisting of N particles the N-particles partition function = ∑ Where = Thus = ∑ ( ) = ∑( )( ) ( ) Within the framework of classical statistics we assume that these particles are distinguishable and independent.
+So we can rewrite it in a compact form as = (∑ + = Where Z is given by E (6.2.1), Hence 2 ⁄ = = ( * ( 6.2. )
+Having got an expression for the partition function for a N-particle ideal gas, we can now calculate for others.
+46 3.2.1 Thermodynamic Functions.
+You will recall that all thermodynamic functions are related to the P.F via equations (5.8.3) to (5.8.6).
+To proceed with calculation of these functions, we first take natural login both sides of eqn (6.2.9).
+And this gives 2 = ( * (6.
+.0) 2 2 From eqn (5.8.3), we recall that = .
+/ Hence, internal energy of , a N-particle gaseous system is given by = = (6. . )
+2 2 The heat capacity at constant volume is = ( * = (6.
+.2) 2 We can calculate the average pressure exerted by the gas using the relation.
+= ( * , From eqn (6.3.0), we have = ( * 2 = = This is the familiar ideal gas equation.
+You will note that neither thermodynamics nor kinetic theory of gases enables us to establish its exact form.
+It means that natural explanation of molecular chaos lies in statistical arguments, which are more profound.
+The Helmholtz free energy expressed in terms of Z is = ln = { (2 ) ⁄ } (6. . )
+From the previous limit, you would recall that entropy and partition function are connected by the relation = 2 On substituting for in Z and U from eqns (0.2.8) and (6.3.1), we get = [ (2 ) ] 2 2 2 47 ⁄ ( ) = , ⁄ - (6.
+.4) This is the classical expression for the entropy of an ideal monoatomic gas.
+3.2.2 Gibbs Paradox From eqn (6.3.4), we note that entropy of an ideal gas depends on V, T and N. moreover, the functional dependence on volume and temperature is the same as obtained from thermodynamic considerations.
+But we note that as T S , S .
+Thus is not physically meaningful and contradicts the third law of thermodynamic (which states that S as T ).
+However, you should not be unduly concerned but you should have expected this result because classical statistics is a good description only at high temperatures.
+The explanation has genesis in quantum mechanics which you will learn in detail in the next unit.
+A more serious objection against eqn (6.3.4) is its implication that entropy does not behave as an extensive quantity.
+Let us increase both V and N by a factor eqn (6.3.4) contains a term N V. Hence, S will not increase in the same proportion.
+This can be clearly understood by considering intermixing of two ideal gases.
+The entropy of a system of N particles occupying a volume V is given by = [ (2 ) ] 2 2 2 = .
+/ (6. . )
+With = ln(2 ) 2 2 ⁄ 2 = {( * ⁄ } ⁄ = 0(2 ⁄ ) ⁄ 1 Let us now consider two ideal gases contained in two chambers of volumes and and separated by a rigid partition as shown from the figure below suppose that the gases are in equilibrium at temperature T. Then the entropy of each gas is given by 48 = ( * 2 and = ( * 2 (a) (b) Fig.
+(a) The system divided by partition 1 and 2.
+Fig.
+(b) A system of N-particles in a volume V. So, the total initial entropy of these gases is = = [ ] [ ] 2 2 Now we remove the partition and these gases mix by diffusing into one another.
+We can regard it as free expansion of each gas to volume = Then final .
+entropy of the system is = [ ] [ ] 2 2 You would recall that diffusion is an irreversible process which implies that the entropy will increase and to discover that it is actually so, we compute the difference = = ( ) [ ] 2 0 1 0 1 = .
+/ .
+/ (6.
+.6) Obviously, is greater than zero.
+For the special case, = = = = we find that = 2 (6. . )
+This is in conformity with thermodynamic results.
+Let us consider that the same gas is put in the two chambers show is fig.
+(a) and (b).
+We expect that removal or subsequent insertion of partition is a completely reversible process.
+It should not influence the macroscopic behaviour of the gas and distribution of particles over accessible microstates.
+Therefore the entropy of mixing should be zero.
+But this contradicts eqn (6.3.6) since its derivation does not depend on the identity of the gases.
+That is, even for self-mixing eqn (6.3.6) gives the same increase in entropy which is certainly not tenable.
+It implies that S depends on the history of the system and cannot be a function of 49 the thermodynamic state only.
+That is, we can manage to change entropy by factors extraneous to the system.
+This is known as the Gibbs paradox.
+If we carefully re-examine our analysis, we can identify the root cause of this trouble in that we have treated all N particles as distinguishable.
+This amount to tacitly assuming that interchange of two particles leads to a physically distinct state of the gas.
+This of course, is not correct and eqn (6.3.6) over estimates the number of accessible states.
+You would recall that the number of permutations of N particles among themselves is N!
+For identical particles, these permutations lead to the same physical situation.
+3.3 The Sacker - Tetrode The correct way to treat a system of indistinguishable particle is to use quantum statistics.
+However, we can use an ad-hoc procedure suggested by Gibbs.
+This is known as correct Boltzmann counting.
+We begin by looking at eqn (5.6.3) for the thermodynamic probability W. Treating the particles as indistinguishable amounts to dividing W by N!.
+Hence, = ∏ In the P function for an ideal gas made up of N indistinguishable particles, it is reflected in the form.
+2 / ( ) = = ( * (6. . )
+Take cogent of both sides, we get 2 = [ ( ) ( *] 2 2 For large we can use stirlings approximation = to obtain 2 = [ ( * ( ) ( * ] 2 2 Since U and P depend on the derivative of Z, the presence of the factor N!
+leaves their expression unchanged.
+However, for entropy, the expression is modified ⁄ to = * ( ) + (6. . )
+With ⁄ = = ,.
+/ ⁄ - (6.4.0) Hence 50 = {( * ⁄ ⁄ } (6.4.1) Where is Broglie Wavelength associated with the gaseous particles at temperature T. This eqn is known as sacker - Tetrode Equation.
+It has been established experimentally that this is the correct expression for the entropy of an ideal monoatomic gas at high temperature.
+Example 6.3.1 shows that sacker-Tetrode eqn is free from Gibbs paradox.
+Solution The Helmholtz energy is given by = = ,( ) ⁄ ⁄ - 2 = *( ) ⁄ + Example 6.3.2: = Consider a system of N classical linear harmonic oscillators.
+Calculate (i) the partition function (ii) the free energy (iii) entropy (iv) Cv and Cp.
+Solution 1.
+We have = ( * = { (2 ) ⁄ } ( * 2 = [ (2 ) ⁄ ⁄ ] Similarly, = .
+/ = 2.
+= ∑ = ∑ ( ) = ∑ ( ) and from Maxwell Boltzmann’s distribution = ( ) Substitute the value of ni into eqn (i) We have = ∑ , - = Therefore, = = ( ) ( ) in other words ( ) = ( ) 3. we have = 0 .
+/ 1 51 = 0 .
+/ 1 = = .
+/ .
+/ On removing the partition, there will be N particles in space V and the final entropy of the system is = 0 .
+/ 1 Hence, change in entropy is = ( ) ( * ( * ( * The densities of the two samples must be equal if the gases are at the same temperature and pressure.
+= = = Thus, we have = [ ( * ( * ( *] = 0 Thus, in distinguish ability of particles of an ideal monoatomic gas is the key to the resolution of Gibbs paradox.
+3.4 Diatomic Gases Consider a diatomic molecule like HCL.
+It may be treated as a two particle (atom) system hold by inter-atomic forces along the line joining the particles.
+Let the masses of atoms be and (assumed to be point like) and separated by a distance r. This is known as the dumb-bell model of a molecule and is depicted in the figure below: C The figure above shows dumb-bell model of diatomic molecule.
+Let us choose -axis along the line joining the masses.
+The moments of inertia about the two axes at right angles to the line connecting and and passing through the centre of gravity is given by = = = = = Is the reduced mass of the molecule.
+The moment of inertia about the line joining the molecule is taken to be equal to zero.
+The kinetic energy of the molecule is = = ⁄ ( ) (6.4. . )
+2 2 2 52 If the bonding is not perfectly rigid, these atoms can vibrate about their respective equilibrium positions.
+The simplest assumption is that each atom executes simple harmonic motion.
+The motion of these atoms can be reduced to the harmonic vibration of a single point mass about an equilibrium position.
+Thus, for a diatomic molecule, we can have two vibrational degrees of freedom, apart from translational and rotational degrees of freedom.
+The total number of degrees of freedom = (6.4.
+.2) = 2 2 = = (6.4.
+.2) Since each degree of freedom in classical physics is associated with energy ( /2).
+We find that = 2 So that heat capacity for the gas made of particles is = and the ratio of head capacities = = .2 .
+It shows that heat capacity of a gas is constant; independent of temperature and same for all gases.
+And , for a diatomic gas is less than the value for a monatomic gas.
+In the table below, we have listed the values of , obtained by measurements of the velocity of sound at room temperature for some diatomic gases of interest.
+Gas 1.410 1.401 1.404 1.404 NO 1.400 You will note that is close to 1.4 and agreement with theoretical value is not very good.
+However, if we take = , we find that = = .4 This suggests that around room temperature, either relational or vibrational degree of freedom, not both, contribute to mean energy.
+It is as if, some degrees of freedom are ‘frozen’ and hence do not show up in experiments.
+This led Summerfield to remark that ‘Degrees of freedom should be weighted not counted’.
+53 SAQ Calculate for a polyatomic gas having degrees of freedom.
+As the number of atoms increases, also increases and decreases.
+This is well borne out by experiments.
+In fact, is found to satisfy the inequality.
+.6 (6.4. . )
+It may be remarked here that qualitative features of heat capacity of diatomic gases predicted by theory are borne out by experiments.
+However, if we look at its temperature variation, we find that the agreement is very poor.
+In most cases, heat capacity increases as temperature is raised and decreases as temperature is lowered.
+For examples, the heat capacity of hydrogen at 20 is .
+, vibrational degrees of freedom are effectively ‘frozen’.
+A correct explanation is provided by quantum statistics.
+The basic argument is very simple and can be introduced without a detailed discussion of the basic features of quantum statistics.
+In the quantum description of a system, we have a set of allowed discrete energy levels.
+Let the separation of the levels around the mean energy be denoted by .
+If __________ (6.4.1.4) The discrete nature of the spectrum is not and the equi-partition theorem should be a good approximation.
+This is certainly time at sufficiently high temperatures.
+If the discrete nature of the spectrum becomes important then = (6.4. . )
+If we introduce a characteristic temperature, , defined by = (6.4.
+.6) Eqs (6.4.1.4) and (6.4.1.5) respectively take the form = (6.4. . )
+We now turn to a calculation of rotational and vibrational partition functions.
+3.4.1 Rotational and Vibration Partition Functions.
+The rotational energy levels of a diatomic molecule are given by = ( ), = 0, ,2, (6.4. . )
+And each energy level is (2J+1) fold degenerate.
+The partition function for rotational motion of a hetero-nuclear molecule - a molecule consisting of two different kinds of atoms such as HCL is given by 54 ( ) = ∑(2 ) ( ) (6.4. . )
+20 6 = ( * ( * (6.4.2.0) Where = defines the characteristic rotational temperature.
+You will note that is low for heavier molecules.
+For example, =15.2k for HCL, 2.1k for O and 0.3k for C1 .
+On the other hand, = 85.5k for hydrogen.
+When 2 2 , the thermal energy of the system.
+( )is not sufficient to take the molecule to higher rotational levels so it is very likely that the hetero-nuclear diatomic molecule is in its ground state of rotational motion.
+When , the significant number of rotational states are excited and the spacing between consecutive levels is much smaller compared to .
+Then, energy can be treated as continuous and we can replace the summation in eqn (6.4.1.9) by integration.
+= ∫(2 )exp{ ( ) } (6.4.2. )
+To evaluate this integral, we introduce a change of variable by defining = ( ) so that = (2 ) .
+Substituting these in the above expression, we get = ( *∫ = = (6.4.2.2) Hence, = ( * For , the mean energy for rotational motion of a molecule is given by = .
+/ = = (6.4.2.)
+, and ( ) = = (6.4.2. )
+A somewhat more accurate expression for rotational, contribution to heat capacity is obtained by using Euler-Maclaurin formula in evaluating the integral contained in eqn (6.4.2.2) we will just quote the result: ( ) = ( * (6.4.2.4) 4 55 You will note that as , ( ) Since ( ) must approach zero at 0, eqn (6.4.2.3) suggested that ( ) versus T curve should show a maximum.
+Low Temperature Limit For low temperatures, the series in eqn (6.4.2.0) can be used directly to calculate ( ) To do so, we note that .
+2 6 = ( *[6exp( * 0exp( * ] So that = ln 2 2 = [6 ( * 6 ( * 6 2 6 0 ( * ( * ( * ] Hence, mean rotational energy at low temperature is 6 [ ] = ( * = 2 = 6 (6.4.2. )
+Hence, ( ) 2 = 2 ( * (6.4.2.6) Vibrational Partition Function.
+The vibrational partition function can be written as = ∑ = ∑ ( * = / ∑ 2 Since ∑ = = We find that ⁄ = = ( * (6.4.2. )
+56 Where = defines the characteristic vibrational temperature.
+For an HCL molecule.
+= 4 0 , whereas for H , = 6 0 .
+This show that z vibrational states of diatomic molecules are not excited around room temperature.
+4.
+For a system with f degrees of freedom = = 2 2 = ( * = 2 and 2 = = 2 Hence, 2 2 = = = 2 Clearly decreases as increases.
+57 4.0 Summary From this unit you have learned - Definition of partition function - Ways of expressing partition function as a normalization factor, Compute Average energy and free energy - The partition function of an ideal monoatomic gas is given by = (2 ) ⁄ The internal energy = = - The classical expression for the entropy of an ideal monoatomic gas is = [ ( ) ⁄ ⁄ ] - The sacker-tetrode formula accounts for indistingquishability of ⁄ molecules and is given by = * .
+/ ⁄ + - The Rotational Partition Function = = ( * ( * Where = - The Vibrational Partition Function = 2 .
+/ 2 Where = 6.0 Tutor Marked Assignment (TMA) (1) Obtain the entropy and pressure of Helmholtz energy.
+(2) Consider a classical ideal gas consisting of N particles.
+The energy of a particle is given by = .
+where C is a constant and P is the magnitude of the momentum.
+Calculate (i) the partition function of the system (ii) internal energy and (iii) C .
+V (3) Show that the change in entropy of an ideal gas in two chambers doubles its volume without change in temperature (i.e.
+= 2) 7.0 References/ Further Reading/Other Resources.
+(1) Thermodynamics and statistical mechanics by Indira Gandhi National Open University (1999).
+(2) Funky Statistical Mechanics Concept Eric L. Michelson (2002-2009).
+58 MODULE 2 Unit 1: Equi-partition of Energy and Classical Statistics 1.0 Introduction 2.1 Objective 3.0 Main Content 3.1 Equipartition Theorem 3.2 Classical Statistics 3.3 Probability and Distribution Function 3.4 Ideal Gases of Atoms and Electrons 3.5 Maxwell Velocity Distribution 3.6 The Boltzmann Factor 4.0 Summary 5.0 Conclusion 6.0 Tutor Marked Assignment (TMA) 7.0 References.
+1.0 Introduction The equal partition theorem on energy is stated and the theorem is used to derive the Average-Translational Kinetic Energy of a particle in a gas and the use of standard equations from statistical mechanics to derive the internal energy of the system.
+The basic concept of classical mechanics like the fundamental of ideal gases and statistical distributions are highlighted.
+2.0 Objective At the end of this unit student should be able to - State and use Equipartition theorem on energy to prove translational kinetic energy of particle and internal energy of the system.
+- Explain Classical mechanics.
+- State the basic concepts of classical mechanics.
+- State and apply all the formulas on classical mechanics.
+3.0 Main Content 3.1 Equipartition Theorem The equilpartitionl theorem states that energy is shared equally amongst all energetically accessible degrees of freedom of a system.
+This is a system that will generally try to maximize its entropy (i.e.
+how ‘spread out’ the energy is in the system) by distributing the available energy evenly amongst all the accessible modes of motion.
+59 To give a rather contrived example, consider a container in which we have placed a number of ping-pong balls.
+Initially the balls are stationary.
+Imagine we now throw some energy randomly into our box, which will be shared out amongst the ping-pong balls in some way such that they begin to move about.
+While you might not realize it, intuitively you know what this motion will look like.
+For example you would be very surprised if the particle motion looked like this: 60 You would probably predict something more like this: i.e.
+completely random motion of the ping-pong balls.
+This is exactly the same result as predicted by the equipartition theorem - the energy is shared out evenly amongst the X, Y and Z translational degrees of freedom.
+The equipartition theorem can go further than simply predicting that the available energy will be shared evenly amongst the accessible modes of motion, and can make quantitative predictions about how much energy will appear in each degree of freedom.
+Specifically, it states that each quadratic degree of freedom will on average process an energy ½KT.
+A quadratic degree of freedom is one of which the energy depends on the square of some property.
+Consider the kinetic and potential energies associated with translational, rotational and vibrational energy.
+Translational degrees of freedom K = ½Mv2 Rotational degrees of freedom K = ½I 2 Vibrational degrees of freedom K = ½Mr2 V = ½Kx2 These three types of degrees of freedom all have a quadratic dependence on the velocity (or angular velocity in the case of rotation) and therefore all follow the equipartition theorem.
+Note that when considering vibration in a harmonic oscillator potential (V, above) we consider both the kinetic energy and the potential i.e.
+the P.E.
+counts as an additional degree of freedom.
+All the point about vibrations is that vibrational motion in molecules is highly quantized, and at room temperature most molecules are in their vibrational state and higher levels are not thermally accessible.
+As a consequence, equipartition contributions from vibrational degrees of freedom need only usually be considered at very high temperatures.
+Conversely, at room temperature many rotational and translational states are occupied, and they can be treated classically (i.e.
+as if their energy levels were not quantized) to a very good approximation.
+A simple derotation of the equipartition result for translational motion.
+61 We can use the Maxwell Boltzmann distribution of moleculer speeds to determine the average kinetic energy of partition in a gas, and show that it agrees with the equipartition result.
+The Maxwell Boltzmann distribution of molecule speeds is ⁄ ( ) = 4 .
+/ exp.
+/ The average kinetic energy of a particle in the gas is their = = ∫ ( ) 2 2 Substituting for ( ) and taking the constant terms outside the integrals gives ⁄ = 4 .
+/ ∫ exp( ) 2 2 2 We can evaluate the integral by using the general result that (2 ) ⁄ ∫ exp( ) = .
+/ 2 Where n!!
+indicates on double factorial, ( 2)( 4) .
+Identifying X=Vand = ⁄ in our integral above gives 2 2 ⁄ 2 ⁄ ∫ exp( ) = ( * = ( * ( * 2 2 ( ⁄ ) 2 Substituting back into our expression for k gives ⁄ 2 ⁄ = 4 .
+/ ( * ( * = .
+2 2 2 2 The average translational .
+Energy of a particle in a gas is therefore , ⁄ per translational degree of freedom.
+In agreement with the 2 equipartition theorem, a more general derivation of the Equipartition theorem requires statistical machanics which we have learnt in the previous unit.
+The partition function in statistical mechanics tells us the number of quantum state of a system that are thermally accessible at a give temperature.
+It is defined as: = ∑ ( / ) Where are the energies of the quantum states .
+Once we know the partition function, we can calculate many of the macroscopic properties of our system using standard eqns from statistical mechanics.
+We will use the P function to calculate the internal energy u associated with a single degree of freedom of the system and we need to consider the difference between a quantum and a classical system.
+62 If we are treating the particular motions classically, it doesn’t make sense to express the partition function as a sum of discrete terms as we have above but classically, the position and moment of a particle can vary continuously and the energy levels are also continuous.
+As a result, the classical partition function takes the form of an integral rather than a sum.
+( ) = ∫ ( ) Where the energy can be a function of the particle positions and momenta .
+If we assume that we can write the energy as a sum of contributions from each degree of freedom, then the exponential functional dependence on the energy means that we can separate the integral into the product of integrals over each degree of freedom i.e.
+( , ) = ( ) ( ) ( ) ( ) So ( ) ( ).
+( ) ( ).
+( ) ( ) = ( ) ( ) ( ).
+( ) ( ).
+( ) = ( ) ( ) ( ) ( ) = ( ) ( ) ( * ( * And the integral may be written ( ) ( ) = ∫ ( ) ∫ ( ) ( ) ( ) ∫ ( ) ∫ ( ) = ( ) ( ) ( ) ( ) The consequence of this is that we here separated the partition into the product of partition functions for each degree of freedom.
+In general, we may write the .
+for a single degree of freedom in which the energy depends quadratically on the coordinate ( .
+.
+( )) = ) as ( ) ⁄ ( ) = ∫ ( ) = ∫ ( ) = ( * Where we have used the standard integral 63 ⁄ ∫ ( ) = .
+/ Once we know the .
+, we can calculate the internal energy of the system according to the standard result from statistical mechanics ( ) = Substituting in an .
+, the internal energy associated with one degree of freedom is therefore ⁄ = ( * = ( * ( = ) 2 = ( = * = 2 2 The energy appreciated with each quadratic degree of freedom is therefore 1/2KT, and we have proved the equipartition theorem.
+3.2.
+Classical Statistics Classical Maxwell Boltzmann statistics is introduce to calculate the occupancy of states.
+It is derived on the basis of purely classical physics arguments.
+The basic concepts of classical statistics will be derived and the fundamentals of ideal gases and statistical distributions are summarized since they are the basis of semi conductor statistics.
+3.3 Probability of Distribution Function: Consider a large number N of free classical particles such as atoms, molecules or electrons which are kept at a constant temperature T, and which interact only weakly with one another.
+The energy of a single particle consists of kinetic energy due to translatory motion and an internal energy for example due to rotations, vibrations, or orbital motions of the particle.
+In the following, we consider particles with only kinetic energy due to translator motion.
+The particles of the system can assure an energy E, where E can be either a discrete or a continuous variable.
+If particles out of N particles have an energy between , the probability of any particle having any energy within the interval and , is given by ( ) = ( .4. )
+Where ( )the energy distribution function of a particle system in statistics is ( ) is frequently called the probability density function.
+The total number of particles is given by 64 ∑ = ( .4.2) Where the sum is over all possible energy intervals.
+Thus, the integral over the energy distribution function is ∫ ( ) = ∑ = ( .4. )
+In other words, the probability of any particle having an energy between zero and infinity is unity.
+Distribution functions which obey ∫ ( ) = ( .4.4) are called normalized distribution functions The average energy or mean energy of a single particle is obtained by calculating the total energy and dividing by the number of particles, that is = ∑ = ∫ ( ) ( .4. )
+In addition to energy distribution functions velocity distribution functions are valuable.
+Since only the kinetic translatory motion (no rotational motion) is considered, the velocity and energy are related by = ( .4.6) 2 The average velocity and the average energy are related by = ( .4. )
+2 = √ ( .4. )
+And the velocity corresponding to the average energy = ( .4. )
+2 In analogy to the energy distribution we assume that particles have a velocity within the interval and .
+Thus, ( ) = ( .
+.0) Where ( ) does the normalized velocity distribution know ( ), relations allow one to calculate the mean velocity, the mean square velocity, and the root mean square velocity.
+= ∫ ( ) ( .
+. )
+= ∫ ( ) ( .
+.2) 65 ⁄ = √ = *∫ ( ) + ( .
+. )
+Up to now we have considered the velocity as a scalar.
+A more specific description of the velocity distribution is obtained by considering each component of the velocity = ( , , ).
+If particles out of N particles have a velocity in the value element , , and the distribution , function is given by ( , , ) = ( .
+.4) Since ∑ = , the velocity distribution function is normalized, i.e.
+∫ ∫ ∫ ( , , ) = ( .
+. )
+The average of a specific propagation direction, for example is evaluated in analogy to eqn (7.5.1 - 7.5.3).
+One obtains = ∫ ∫ ∫ ( , , ) ( .
+.6) = ∫ ∫ ∫ ( , , ) ( .
+. )
+⁄ = √ = *∫ ∫ ∫ ( , , ) + ( .
+. )
+, In a closed system the mean velocities are zero, that is = = = 0.
+However, the mean square velocities are, just as the energy not equal to zero.
+3.4 Ideal gases of Atom and Electrons The basis of classical semi conductor statistics is ideal gas theory.
+It is therefore necessary to make a small excursion into this theory.
+The individual particles in such ideal gases are assumed to interact weakly, that is collisions between atoms or molecules are a relatively seldom event.
+It is further assumed that there is no interaction between the particles of the gas (such as electrostatics interaction), unless the particles collide.
+The collisions are assumed to be (i) elastic (i.e.
+total energy and momentum of the two particles involved in a collision are preserved) and (ii) of very short duration.
+Ideal gases follow the universal gas equation = ( .
+. )
+66 Where P is the pressure, V the volume of the gas, T its temperature, and R is the universal gas constant.
+This constant is independent of the species of the gas particles and has a value of = .
+4 The figure show the cubic volume confining one mole ( = 6.02 0 / ) of an ideal gas exerted in side of the cube.
+(shaded area) is calculated in the text.
+Next, the pressure P and the kinetic energy of an individual particle of the gas will be calculated.
+For the calculation it is assumed that the gas is confined to a cube of volume as shown in the figure above.
+The quantity of the gas is assumed to be 1 mole, that is the number of atoms or molecules is given by Avogadros number, = 6.02 0 particles per mole.
+Each side of the cube is assured to have an area A = V2/3.
+If a particle of mass in and convention MVx (along the x direction) is elastically reflected from the wall, it provides a convention 2MVx to reverse the particle momentum.
+If the duration of the collision with the wall is dt, then the force acting on the wall during the time dt is given by = ( .6.0) where the momentum charge is = 2 , the pressure P on the wall during the collision with one particle is given by = = ( .6. )
+where A is the area of the cubes walls.
+Next we calculate the total pressure P experienced by the wall if a number of particles are within the volume V. for this purpose we first determine the number of collisions with the wall during the time dt.
+If the particles have a velocity Vx, then the number of particles hitting the wall during dt is ( /V) .
+The fraction of particle having a velocity Vx is obtained from the velocity distribution function and is given by ( , , ) .
+Consequently, the total pressure is obtained by integration over all positive velocities in the – direction.
+67 2 = ∫ ∫ ∫ ( , , ) ( .6.2) Since the velocity distribution is symmetric with respect to positive and negative -direction, the integration can be expanded from = ∫ ∫ ∫ ( ) = , , Since the velocity distribution is isotropic, the mean square velocity is given by = = ( .6) The pressure on the wall is then given by = ( .6. )
+Using the universal gas equation ( = ) one obtains.
+2 = ( .6.6) 2 The average Kinetic Energy of one mole of the ideal gas can then be written as = = ⁄ ( .6. )
+2 The average K.E of one single particle is obtained by division by the number of particles i.e = = ⁄ ( .6. )
+2 Where K = is the Boltzmann constant.
+The preceding calculation has been carried out for a three dimensional space.
+In a one-dimensional space (One degree of freedom), the average velocity is = and the resulting kinetic energy is given by = ( ) ( .6. )
+Thus the kinetic energy of an atom or molecule is given by (1/2) KT.
+Equation (7.6.9) is called the equipartition law, which states that each degree of freedom contributes (1/2) KT to the total kinetic energy.
+68 Let us focus on the energetic distribution of electrons.
+The properties which have been derived in this section for atomic or molecular gases will be applied to free elections of effective mass in a crystal.
+To do so, the interaction between the electrons and the lattice must be negligible and election – election collision must be a relatively seldom event.
+Under these circumstance we can treat the election system as a classical ideal gas.
+3.5 Maxwell velocity Distribution The Maxwell velocity distribution describes the distribution of velocities of the parties of an ideal gas.
+It will be shown that the Maxwell velocity distribution is of the form.
+.
+/ ( ) ( )= ( ) ( .
+.0) Where ( ) is the kinetic energy of the particles, if the energy of the particles is purely kinetic?
+If the energy of the particles is purely kinetic, the Maxwell distribution can be written as ( ) = .
+/ ( .
+. )
+The proof of the Maxwell distribution of equation (7.70) is conveniently done in two steps.
+In the first step, the exponential factor is demonstrated, i.e.
+( ) = ( ).
+In the second step it is show that = /( ) In the theory of ideal gas it is assured that collisions between particles are elastic.
+The total energy of two electrons before and after a collision remains the same, that is = ( .
+.2) Where E and E are the electron energy before the collision and E 1 and E 1 are 1 2 1 2 the energies after the collision.
+The probability of a collision of an election with energy E and of an election with energy E is proportional to the probability 1 2 that there is an election of energy E and a second election with energy E .
+If the 1 2 probability of such a collision is P, then = ( ) ( ) ( .
+. )
+where B is a constant.
+The same consideration is valid for particles with energies E and E .
+Thus, the probability that two electrons with energies E 1 1 2 1 and E 1 collide is given by 2 = ( ) ( ) ( .
+.4) 69 If the change in energy before and after the collision is , then = – = – .
+Furthermore, if the electron gas is in equilibrium, then = and one obtains ( ) ( ) = ( ) ( – ) ( . )
+Only the exponential function satisfies this condition, that is ( ) = ( ) ( .
+6) Where is a positive yet undetermined constant.
+The exponent is chosen negative to assure that the occupation probability decreases with higher energies.
+It will become obvious that is a universal constant and applies to all carrier systems such as electron, heavy or light hole systems.
+Next, the constant will be determined it will be shown that = 1/KT using the results of the ideal gas theory.
+The energy of an election in an ideal gas is given by = = ( ) ( .
+. )
+The exponential energy distribution of (7.7.6) and the normalization condition of eqn (7.5.5) yield the normalized velocity distribution.
+/ ( ) = .
+/ [ ( )] ( .
+. )
+, , 2 2 The average energy of an electron is obtained by (First) calculating the mean spare velocities , , from the distribution and (second) using eqn (7.7.7) to calculate E from the mean square velocities.
+One obtains = ( ⁄ ) ( .
+. )
+2 We now use the result from classic gas theory which states accordingly to eqn (7.6.8) that the kinetic energy equals E = (3/2) KT.
+Comparison with eqn (7.7.9) yields.
+= ( ) ( .
+0) Which concludes the proof of the Maxwell distribution of Eqn(7.70) and (7.7.1).
+Having determined the value of , the explicit form of the normalized Maxwellian velocity distribution in Cartesian co-ordinates is ( ) = .
+/ / * ( )+ ( .
+. )
+, , Due to the spherical symmetry of the Maxwell velocity distribution, it is useful to express the distribution in spherical coordinates.
+For the coordinate 70 transformation we note that ( ) = ( ) , and that a , , , , volume element is given by 4 in spherical coordinate.
+The , , Maxwell velocity distribution in spherical coordinates is then given by ⁄ 2 ( ) = .
+/ (4 ) .
+/ ( .
+.2) 2 The Maxwellain velocity distribution is shown in the figure below.
+The peak of the distribution, that is the most likely velocity is = (2 / ) ⁄ .
+The mean velocity is given by = ( )/( ) ⁄ .
+The root mean square velocity can only be obtained by numerical integration.
+( ) The figure shows the schematic Maxwellian velocity distribution ( ) of an ideal electron gas.
+The velocity with the highest probability, is lower than the mean velocity and the root mean square velocity, 3.5.1 The Boltzmann Factor: The Maxwellain velocity distribution can be changed to an energy distribution can be changed to an energy distribution by using the substitution = ( /2) .
+Noting that the energy internal and the velocity internal are related by = and that the number of electrons in the velocity internal, ( ) , is the same as the number of electrons in the energy internal ( ), then the energy distribution is given by 2 √ ( ) = ⁄ ( .
+. )
+√ ( ) ⁄ which is the Maxwell Boltzmann distribution.
+For large energies, the exponential term in the Maxwell Boltzmann distribution essentially determines the energy dependence.
+Therefore, the high energy approximation of the Maxwell-Boltzmann distribution is ( ) = ⁄ ( .
+.4) which is the Boltzmann distribution.
+The exponential factor of the distribution ( / ) is called the Boltzmann factor or the Boltzmann tail.
+The 71 Boltzmann distribution does not take into account the quantum mechanical properties of an electron gas.
+The applicability of the distribution is therefore limited to the classical regime i.e.
+for E >> KT.
+72 7.7 Summary This unit has covered the following: - Equipartition theorem, kinetic energy = 3/2 KT or ½ KT.
+- Probability of any particle having an energy between 0 and infinity is unity i.e.
+∫ ( ) = - Average energy or mean energy = ∑ = ∫ ( ) - The average kinetic energy of one mole of an ideal gas is given by = = ( ) 2 = ⁄ ( ) 2 - Maxwell velocity distribution ⁄ ( ) 2 ⁄ ( ) = .
+/ , , 2 [ ] ( ) - ( ) = .
+/ ⁄ (4 ) { ⁄ } ( .
+.
+distribution for spherical coordinates) - Boltzmann Factor 2 √ ( ) = ⁄ √ ( ) ⁄ ( ) ( ) = ⁄ ( ).
+7.9.
+Tutor Marked Assignment (TMA) 1.
+Consider a classical linear oscillator with = 2 where b is a constant.
+Assuming that the oscillator is in thermal equilibrium with a heat reservoir at temperature T, calculate (i) The mean kinetic energy (ii) The mean potential energy and (iii) for an assembly of N such oscillators.
+73 2.
+Prove that (i) .
+= /2 (ii) = /2 , Using equipartition theorem.
+7.10.
+References Thermodynamics and Statistical Mechanics by Indira Gandhi National Open University (1999).
+Funky Statistical Mechanics Concepts by Eric Michelson (2002 - 2009) MODULE 3 Unit 1 Quantum Statistics 1.0 Introduction 2.0 Objective 3.0 Main Content 3.1 Towards Quantum Statistics 3.2 Ideal Bose-Einstein Gas 3.3 Ideal Fermi-Dirac Gas 4.0 Summary 5.0 Conclusion 6.0 Tutor mark Assignments 7.0 References and Further Readings 1.0 Introduction Quantum Mechanic Fermi-Dirac statistics are introduced to calculate the occupancy of states.
+Special attention is given to analytic approximations of the Fermi-Dirac integral and to its approximate situations in the non-degenerate and the lightly degenerate regime.
+In addition, some numerical approximation to the Fermi-Dirac integral is summarized.
+Quantum statistics takes into account two results of quantum mechanics, namely (i) The Pauli exclusion principle which limits the number of electrons occupying a state of energy and (ii) The finiteness of the number of states in an energy interval .
+The finiteness of states is a result of the Schrodinger equation.
+Quantum statistics help us to correct all the inadequacies of classical theory like (i) Inability to correctly deal with indistinguishable particles led us to Gibbs paradox and this can be corrected by resorting to a 74 purely ad-hoc device of dividing the thermodynamic probability by (ii) Problem of black body radiation cannot be handled within the domain of classical method but max plank propose a remarkable idea for the resolution of the problem by deriving the Planck’s law of black body radiation.
+75 2.0 Objective After studying this unit the students should be able to - Point out the inadequacies of the classical theory.
+- Derive expressions for the Bose-Einstein and Fermi-Dirac distribution functions.
+- Apply Bose-Einstein statistics to an assembly of photons.
+- Explain the behaviour of liquid Helium at low temperatures - Explain the concept of zero point energy - Explain Temperature dependence of heat capacity of electrons and - Predict Thermodynamic functions of degenerate .
+and .
+gases 3.0 Main Content 3.1 Towards Quantum Statistics In classical physics we postulate that it is possible to determine the position and momentum coordinates of a gaseous molecule/atom simultaneously as precisely as we like.
+All that we have to do is to follow its trajectory as it moves in space.
+This means that these particles are distinguishable and can be labelled, but this is not true.
+You will recall that Heisenberg’s un-certainly principle forbids determination of the position.
+If the uncertainties in the measurements of q and p are , respectively, we have ( .
+. )
+4 Where ( = 6.6 0 ) is Planck’s constant.
+That is, the product cannot be made less than /4 .
+So it does not make much sense to talk about the trajectory of a particle.
+Moreover, the task of labeling particles is just impossible and when we study the behaviour of an assembly of identical particles statistically, we should treat it as a collection of indistinguishable particles.
+Lord Kelvin spoke about two dark clouds on the horizon of classical physics, the heat capacity of solids and the black body radiation and this shook the edifice of classical physics to its very foundations.
+The paragraphs that follow are devoted to these two aspects.
+Heat capacity of solids You would recall that solids behave as a collection of independent harmonic oscillators, and energy associated with them is equal to , where is Avogadros number.
+Hence, heat capacity at constant volume is constant, equal to regardless of the substance.
+= ( * = = 24.
+( .
+.2) 76 The famous Dulang and Petit’s law does not exhibit what experiments reveal about temperature variation of heat capacity.
+The deviations from this law, particularly in the low temperature region are striking, as shown in the figure below.
+As T decreases below room temperature, also decreases and becomes zero at absolute zero.
+T 100 200 300 (Temperature variation of constant volume lent heat capacity of a solid) A qualitative theoretical explanation was provided by Einstein, using Planck’s idea on quantization of energy.
+The key to Einstein’s success was that he discarded the law of equipartition of energy.
+The mean energy of a classical oscillator is given by = .
+In the quantum theory, we have = { } ( .
+. )
+2 .
+/ Where = For a system of oscillators vibrating with Einstein frequency , this gives = [ ] ( .
+.4) 2 .
+/ So that / = ( * * ( / ) + / = ( ) , / - / = ( * ( .
+. )
+, / - 77 Where we have introduced Einstein temperature = / For Copper, a .
+plot of this equation is shown in the figure below.
+You will note that this relation reproduces all the general features of the observed curve at least qualitatively.
+However, there are disagreements in details, particularly near absolute zero.
+6 4 3 2 1 0 0.5 1.0 1.5 2.0 / The figure above shows the plot of eqn (8.1.5) for cooper.
+Debye (1912) subsequently refined Einstein’s theory and obtained an excellent agreement with experiments.
+The heat capacities of metals also pose an interesting puzzle, in fact a challenge, to the classical physicists.
+You know that every metal contains free electrons.
+If we assume that these electrons constitute a monoatomic gas, they should contribute an amount .
+Hence, the heat capacity of a metal should be = /2 .
+However, we experimentally find that metal obey the Dulong-Petit’s law as good as do insulators.
+This raises the question: Why do electrons not contribute to thermal processes?
+The fact is that we should not analyze this problem on classical arguments.
+- Electrons obey Fermi-Dirac Statistics.
+A satisfactory explanation was given by Summerfield in 1928 on the basis of quantum statistics.
+The Problem of Black Body Radiation We now consider the common place phenomenon of black body radiation.
+It deserves a unique place in physics because it gave birth to the quantum theory.
+When a body is heated, it emits electromagnetic waves (from its surface) in all directions over a broad range of frequencies.
+The spectrum of radiated 78 frequencies from to peaks at a frequency which is proportional to the absolute temperature of the body.
+Suppose that such thermal radiation is contained in side a hollow cavity whose walls are opaque to radiation and maintained at a constant temperature.
+The radiation in the interior must, therefore have exactly the same spectral distribution as that of black body radiation.
+In other words, the energy distribution over various wave lengths becomes a function of temperate, independent of the shape and size in one of the walls enables us to study experimentally the emerging radiation.
+Such experiments were carried out by a large number of investigators in the period 1895 - 1900.
+We may make particular mention of Rubens and Kurlbaum.
+The results of these experiments established beyond doubt the inability of classical theories to reproduce experimental curves.
+Let denote the energy density (energy per unit volume) between as shown in (fig b) shows the experimental curves for at two different temperatures.
+Plank Rayleijh Jeens Wien (a) (b) 2 4 6 8 (a) The electromagnetic radiation inside an oven is treated as a photon gas in equilibrium with the oven walls.
+(b) Spectral distribution of energy in black body radiation.
+Lord Rayleigh studied the problem using ideas of classical physics and obtained an expression for , Jeans discovered a numerical error in his formula and subsequently corrected it.
+This so called Rayleigh Jean Law is of the form.
+= ( .
+.6 ) Where is the mean energy of an oscillator, Lord Rayleigh and Sir James Jean used the law of equipartition of energy and used = using this result in the above equation, we obtain 79 = ( .
+.6 ) For small values of , it reproduces the experimental curve very well.
+However, for , eqn (8.1.6b) has a serious flaw: it predicts that the total energy density will be infinite.
+= ∫ = ( .
+. )
+This unphysical situation was termed the ultraviolet catastrophe by P. Ehrenfest.
+Wien carried out thermodynamic analysis of blackbody radiation spectrum and showed that , is of the form = ( * ( .
+. )
+You can easily verify that this result gives a finite which varies as , in accordance with tefan’s law.
+Moreover, the frequency at which , is maximum is directly proportional to T. 3.4 Ideal Bose-Einstein Gas.
+We shall first derive the Bose-Einstein distribution law, and this will pave the way for Bose’s derivation of Planck’s law.
+When Planck was not convinced of the physical basis of his derivation, Bose proposed the correct method for treating a system on the basis of quantum statistics.
+Einstein extended his ideas to the case of materials particles obeying Bose statistics.
+During his investigations, Einstein came to the remarkable conclusion that Bose Einstein Gas can tend to a highly ordered state.
+This phenomenon, known as Bose-Einstein condensation, was invoked by F. London to explain the superfluidity exhibited by liquid 4H .
+e 3.4.1 Bose-Einstein Distribution Function Consider a system of N non-interacting bosons occupying a volume V and sharing a given energy U levels of the system are very closely spaced.
+In the limit of large V, the energy levels of the system are very closely spaced.
+Hence, we can bracket the energy levels into groups, which may be called the energy cells.
+80 This is known schematically in the figure below.
+(Energy level of a system bracketed into cells).
+We assume, without any loss of generality, that the number of levels in the , , is very much greater than one ( ).
+It is still reasonable to talk about the energy of the level in the as , since they are lying very close to each other.
+Let Ω denote the number of ways in which particles can be distributed amongst the levels of the .
+This number is already available to us from eqn {Ω = } .
+We have ( ) Ω = ( * = ( .
+. )
+( ) Denoting by ( , , ) = (, -), the number of ways in which we can put particles in group , particles in group , , particles in group , we have ( ) (* +) = = ∏ ( .2.0) ( ) We maximize subject to the conditions ∑ = ( .2. )
+81 ∑ = ( .2. )
+Then eqn (8.2.0) gives = ∑, ( ) ( ) - Using stirling formula, we have = ∑,( ) ( ) ( ) ( ) ( ) ( ) - = ∑,( ) ( ) ( ) ( ) - = ∑,( ) ( ) - ( .2.2) Since and The condition for maximum probability is = 0 On combining this with eqn (8.2.2), we get = ∑[( ) ( ) ] = 0 ( ) Or ∑, ( ) - = 0 ( .2. )
+Since are fixed, we have from eqn (8.2.1a) and (8.2.1b) = ∑ = 0 ( .2.4 ) and = ∑ = 0 ( .2.4 ) Multiplying eqns (8.2.4a) and (8.2.4b) by , respectively and adding to eqn (8.2.3), we obtain ∑, ( ) - = 0 ( .2. )
+Since the variations are arbitrary, the coefficient of each term in eqn (8.2.5) must vanish.
+Hence we have ( * = 82 Or = ( .2.6) As before, we put equal to A.
+Then eqn (8.2.6) take the form = ( .2. )
+Yet another way of rewriting eqn (8.2.6) is to define a parameter called the fugicity as = = ( .2. )
+Where N is the chemical potential, eqn (8.2.7) becomes = ( .2. )
+( ) If we treat energy as a continuous variable, the number of particles with energy is given by ( ) = = ( .
+.0) ( ) ( ) This is known as the Bose-Einstein distribution.
+3.4.2 Bose Derivation of Planck’ Law.
+S.N Bose and Indian Physicist gave a very elegant derivation of Planck’s law in 1924.
+He communicated his work to Einstein, who immediately recognized its significance.
+He translated its findings into German language, got it published and his paper marks the birth of quantum statistics.
+We consider the equilibrium properties of electromagnetic radiation enclosed in a cavity of volume V at temperature T. You should recall that the distribution of energy among the various frequencies is independent of the nature of the walls of the container; it is a function of T and V only.
+We now wish to determine the form of this function.
+From a quantum mechanical point of view, the radiation in the cavity can be considered as a collection of photons of different frequencies moving with speed of light completely randomly.
+The photons of the same frequency are indistinguishable.
+This is a perfect example of a system of non-interacting, indistinguishable particles.
+83 The energy of a photon of frequency is taken to be .
+We should also remember that photons are particles with zero rest mass and spin .
+Each photon can have two kinds of polarization.
+There are the two transverse modes, which have no longitudinal photons.
+In other words, the propagation vector and the polarization vector (giving the direction of polarization of the electric field associated with the photon) are normal to each other.
+(This is a consequence of the transversality of the electric field, i.e.
+.
+= 0).
+You would also appreciate the fact that atoms can emit or absorb photons and the total number of photons is not constant.
+In other words, we have only one constant, namely = constant.
+This essentially means that in eqn (8.3.0), we need only one langrage multiplier = 0 = .
+Then eqn (8.3.0) reduces to = ( .
+. )
+Let denote the number of quantum states between .
+We can derive an expression for this using the principles of quantum mechanics.
+However, a simple argument can be used to get the result.
+Let us first calculate , the number of quantum states between .
+The volume of phase space occupied by a particle in a box of volume V and with momentum between .
+Since = , integration over gives 4 .
+Since each cell has volume , we have 4 = ( .
+. )
+From the Brag lie’s relation = = and = ( * Inserting this result in eqn (8.3.1) we get 84 4 = Since photons can have two kinds of polarization, we have = So that = ( .
+.2) Let denote the energy lying in the frequency range .
+Combining eqns (8.3.0) and (8.3.2), we obtain = = We prefer to speak of energy density rather than total energy because the total energy of photons depends on the size of the oven but the energy density does not.
+If we let U, represent energy density, we have = = ( .
+. )
+.
+/ It is important to note that Planck had derived the law by combining classical electromagnetic theory and the quantum hypothesis.
+On the other hand, Bose in a manuscript to Einstein in 1924 treated electromagnetic radiation as a system of indistinguishable particles which have the same properties as particles of light that we now call photons.
+Subsequent investigations led Einstein to the concept of stimulated emission, which culminated in the development of masers and lasers devices finding use in medicine, industry, energy production in fusion reactors, and military application.
+Limiting cases Let us now discuss limiting cases of Planck’s radiation law.
+At short frequencies (long wavelengths) we note that if , the exponential term / So that / = Hence, eqn (8.3.3) reduces to = ( * ( .
+.4) 85 This is the Rayleigh Jean law.
+For , we can neglect T in comparison with the exponential term in the denominator.
+Then we find that = / ( .
+. )
+This is Wien’s law, it is straight forward to calculate the total area under the Planck or the Wien curve.
+These are given by 6.4 6 respectively.
+It is obvious that the area under the Rayleigh Jeans curve from eqn(8.3.4), will be infinite!
+Thus, you will recall, is Ehrenfestis ultraviolet catastrophe.
+It is also possible to relate tefan’s constant and Wien’s constant to Planck’s constant.
+To illustrate this we calculate the total energy density, U, in the cavity.
+From eqn (8.3.3), we have = ∫ = ∫ ( .
+.6) / To evaluate this integral, we change the variable of integration by defining = So that = ( * .
+Substituting this result in eqn (8.3.6), we get ( ) = ∫ ( ) Using method of integration ∫ = So that = ( ) = ( .
+. )
+( ) Where = = .
+6 0 86 If we consider the sun as blackbody whose interior consists of photon gas at constant temperature of 0 , we find that energy density = ( .
+6 0 4) ( 0 ) = 6.
+0 The total volume of the sun is nearly .4 0 So that = = (6.
+0 ) ( .4 0 ) = .6 0 If we assume that photons effuse out of a small hole in the blackbody (sun), the net rate of flow of radiation per unit area 2 = = = ( .
+. )
+4 Where 2 = = .6 0 is Stefan Boltzmann constant 3.4.3 Radiation Pressure and Entropy of Photons We can write the partition function for photons as (Eqn 8.3.1) = ( .
+. )
+= ∑ , ( )- We replace the summation by integration.
+This gives = ∑ , ( )- We replace the summation by integration.
+This gives = ( * ∫ , ( )- Hence, Helmholtz free energy is given by = = ( * ∫ , ( )- To simplify this expression, we introduce a change of variable by defining = So that = On substituting it in the above integral, we obtain = ( ) ∫ ( ) On integrating by parts, we get 87 ∫ ( ) = ∫ = ∫ = (4) (4) = /4 Hence, the expression for Helmholtz free energy reduces to = ( ) = 4 The radiation pressure, defined as = ( * Is given by ( ) = = 4 It is interesting to note that for photon gas, = and the pressure exerted by ideal gas, = .
+So can draw a useful analogy that radiation behaves like particles.
+Now, entropy of an assembly of photons is given by = ( * 2 = ( ) ( .4.0) 4 and = ( * = ( .4. )
+This shows that entropy of the system is proportional to .
+If radiation undergoes an adiabatic change (S=constant), we find that = Constant.
+In terms of pressure and volume, the equation for the adiabatic of the system takes the form P / = ( .4.2).
+From this, you may conclude that the ratio of specific heats at constant pressure to that at constant volume for a photon gas is 4/3.
+Actually, this ratio is infinite!
+Bose Statistics finds useful application in explaining the remarkable phenomena exhibited by liquid helium, particularly at low temperature.
+3.4.4 Liquid 4H and Bose-Einstein Condensation e 88 Hydrogen, the first element in the periodic table, has contributed in a large measure to the development of new concepts and theories in physics.
+The second element, Helium is still more remarkable because of its existence from the sum which was discovered during a solar ellipse in India in 1868.
+Helium derives its name from the Greek word Helios, which means the sun.
+Among all the elements, helium has the unique distinction of not solidifying even at the lowest attainable temperatures.
+It is due to very weak forces between helium atoms.
+(Its solid phase can be obtained only under an external pressure of about 25 atmosphere).
+The P-T diagram, shown in the next figure indicates the absence of a triple point.
+At atmospheric pressure, helium condenses into a normal liquid at 4.2k.
+As the temperature is lowered further, liquid helium exhibits another phase transition at 2.18k.
+You may expect helium to solidify.
+Instead it changes into another liquid very surprising, in fact unique properties.
+The new phase is called liquid H II to e distinguish it from the phase above 2.18k, which is termed liquid H I.
+You may e recall that helium transition is a second order phase transition.
+The point at which the phase transition occurs is called the λ point.
+This nomenclature is used because the shape of heat capacity curve resembles the Greek letter ‘Lambda’ 4 00 P C V 30 100 25 20 50 HeI 15 10 C gas HeII 05 (a) 1 2 3 4 5 T(k) (b) 1.4 1.6 1.8 20 2.2 2.4 2.6 2.8 T(k ) 3 From the figure above (a) P-T diagram of 4H (b) te mperature variation of heat e, capacity of helium near λ – point.
+A more dramatic manifestation of the unusual properties of liquid H II is its e ability to flow through very narrow channels with zero viscosity.
+This property is known as super fluidity.
+A series of beautiful experiments have been designed to illustrate the consequences of this property.
+Here, we shall discuss only one of them, viz, the fountain effect.
+89 We take a U – tube and immerse it in a bath of liquid H II as shown in the figure e below.
+The lower portion of the tube is filled with emery powder.
+On shining a beam of light on the powder heat is absorbed and the super fluid tends to flow from the bath to the hotter region.
+The motion is so violent that a jet of helium is forced up through the vertical tube and emerges as a fountain going as high as 30cm.
+Helium F. Loud Fountain Liquid Heater Helium Energy Cotton Plugs Powder The Fountain Effect F. London ( ) suggested that the λ – transition should be identified with Bose Einstein condensation.
+Einstein proposed a simple model that allows us to apply statistics to liquid helium in order to gain insight into its peculiar behaviour.
+Following him, we assume that the distribution of excited states accessible to the atoms of liquid helium is that of a quantum gas and treat the ground state separately.
+If there are N atoms in all, let be in the ground state and in the excited state.
+Then = ( .4. )
+90 Or ⁄ = ∫ ( .4. )
+⁄ and 2 = (2 ) ⁄ To evaluate this integral, we make the substitution ⁄ = .
+Then ⁄ = ( ) ⁄ ⁄ so that for a completely degenerate gas (A = 1), we get = ( ) ⁄ ( ⁄ ) ( ⁄ ) ( .4.4) 2 2 √ .
+⁄ / Where = is gamma function and ( /2) = 2.6 2 is the 2 2 Riemann Zeta function of order (3/2).
+It shows that number density of excited particles is a function of temperature.
+As 0, i.e.
+all particles condense into ground state.
+This phenomenon is referred to as Bose-Einstein condensation.
+However, as T increases also increase, it may become arbitrarily large.
+But N is finite and has to be necessary less than (at best equal to) N. We therefore postulate that eqn (8.4.4) holds only as long as ≤ .
+If is the maximum temperature which satisfies it, then = ( ⁄ ) ( ⁄ ) ( ) ⁄ ≤ = 2 2 ( .4. )
+That is, at low temperature, the number of atoms in excited states increases as ⁄ until all atoms are in the excited state at temperature .
+So we can write = ( /2) ( /2) ( ) / Or / / = = [ ] ( .4.6) 2 2.6 2 ( ⁄ ) ( ⁄ ) 2 2 [ ] is known as the Bose Einstein condensation temperature.
+91 In the framework of this model, we can write in terms of N. To do so, we note that ⁄ = ( * Or ⁄ = ( * ( .4. )
+Hence, / = = ( * = ( * ( .4. )
+It shows that at = , all particles condense into the lowest energy state.
+The figure below shows how and vary with temperature.
+If you use ⁄ = 2.2 0 = 6.6 0 .
+in this expression for , you will get = .
+Which is close to the observed value of 2.18k for the onset of condensation in liquid helium All in excited States for The figure above shows the plot of as a function of temperature according to Einstein model.
+We can now say that helium II consists of two components, a normal fluid component and a superfluid component, which is characterized by remarkable properties like apparently zero viscosity and infinite thermal conductivity.
+This means that irrespective of where you heat the liquid, it will evaporate from the 92 top surface (on the contrary, fluids such as water vaporize from wherever the heat input is).
+The HeI HeII phase transition is visually characterized by the disappearing of bobbles and boiling.
+The 2.18k phase transition from HeI to HeII can be explained, at least qualitatively, using Bose-Einstein statistics.
+It tells us that condensation into the ground state is a necessary condition for the occurrence of super fluid behavior.
+3.4.5 Ideal Fermi-Dirac Gas We have seen that the wave function of a system of indistinguishable particles possesses definite symmetry properties.
+For bosons, the wave function is symmetric whereas for fermions it is asymmetric.
+You may now ask, can it be a combination of symmetric and anti-symmetric wave function?
+It cannot be so.
+To determine the thermodynamic properties of an ideal Fermi-Dirac Gas.
+Let us first obtain the distribution function.
+3.4.5.1 Fermi-Dirac Distribution Function We can subject fermions equation to Pauli’s principle and not more than one particle can occupy a state.
+You would recall that the number of ways in which we can distribute particles into states (cells) of level is given by .
+/.
+The total number of ways whereby we can put N particles into the various levels are ( ) = ∏( * = ∏ ( .4. )
+( ) This distribution is subject to the conditions that total number of particles in the system and the energy of the system remain constant.
+That is = ∑ = 0 ( .
+.0 ) And = ∑ = 0 ( .
+.0 ) As before, we wish to know the most probable distribution by finding the set of numbers which maximize .
+By maximizing the logsithum of , rather than itself, using the method for Maxwell Boltzmann and distributions.
+Thus we set 93 = 0 By taking the logarithm of both sides of eqn (8.4.9), we obtain ∑, ( ) - ( .
+. )
+Using stirlings approximation, we get = ∑, ( ) ( ) ( ) - = ∑, ( ) ( ) Hence, = ∑{( ) ( ) ( ) ( ) } = ∑[ ( *] Equating to zero, we obtain ∑ ( * = 0 ( .
+.2) This expression is subject to the conditions given by eqns (8.5.0a) and (8.5.0b).
+To incorporate these and obtain a general expression we multiply eqn (8.5.0a) by and eqn (8.5.0b) by – and add to eqn (8.5.2).
+This gives ∑[ ( * ] = 0 Since the are arbitrary and can be varied independently, we can set the coefficient of each equal to zero.
+This gives ( * = 0 Or = Using the same notation as in distribution, we can rewrite it as = = ( .
+. )
+( ) This defines the Fermi-Dirac distribution for continuous distribution, the Fermi function ( ) = ( .
+.4) ( ) Let us pause for a moment and compare it with expressions for and distribution functions: = ( ) 94 = ( ) = ( ) A close examination of these expressions reveals that inspite of the great differences in the assumptions used to arrive at these expressions, they have a similar appearance.
+In fact, we can combine them into just one expression: = ( ) Where = 0 manifestations This logically raises the question: what are its in describing the behaviour of a system?
+To discover the enormous consequences of under the comparison of , distributions in diagram, you will note that distribution is skewed towards highly occupied low energy states FD distribution is skewed to high energy states composed with classical ( ) distribution.
+You will note that at = 0 ( = ), the exponent becomes for , whereas for , the exponent becomes infinite so that ( ) = 0 ( .
+. )
+Mathematically speaking, it defines a step function.
+Physically, it implies that at absolute zero, up to certain energy all levels are occupied and higher energy states are empty.
+This energy is known as Fermi energy, .
+You will know about it in the next section.
+The figure (a) and (b) below shows the effect of raising the temperature.
+The curve develops a tail, which is symmetrical about = .
+Moreover, at this energy ( ) = /2 ( ) ( ) ( ) =N 95 (a) The Fermi function at = 0: complete Degeneracy (b) 0 ( ): Strong Degeneracy.
+For , ( ) .
+( ) = ( ) and the distribution behaves like a classical ( ) distribution.
+If the temperature is finite, above absolute zero, the fermions in region I shift to region II, bringing about deviations in the step function.
+It means that as we increase temperature, fermions below the Fermi energy jump to energy states above Fermi energy.
+However, the width of this region is of the order of .
+Normally deviations from the step function ( = 0) are important only for those values of for which [ ( )] is of the order of one.
+For large values, the exponential term will either be zero or one.
+Thus a thermal reshuffling of the particles is confined to around = .
+That is, the number of electrons which contribute to thermal processes is proportional to T. However, the major proportion of distribution is not influenced by the rise in temperature.
+3.4.6 Fermi Energy Consider a system of N fermions enclosed in volume V. We know that because of Pauli’s principle, only one fermions can be accommodated in a given state.
+You have already learnt that the highest energy possessed by a fermions at = 0 is called the Fermi energy, , let us now derive an expression for .
+We know that the number of quantum states of a particle with momentum in the interval .
+We have to multiply this number by (2S+1).
+For electrons, S = ½ so that the required number of states is .
+Denoting the highest momentum by Pv, we have = ∫ = ( .
+.6) This yield an expression for Fermi momentum, Pv: / = ( * ( .
+. )
+and the Fermi energy / = = ( * ( .
+. )
+2 2 96 If we draw a sphere with radius , all the particles will be found inside the sphere.
+This is called the Fermi surface.
+In the case of alkali and the noble atoms, the surface is a sphere.
+In other cases, the shape can be quite complicated.
+We define what is known as Fermi temperature, , through the relation = ( .
+. )
+The values of range from about 2 .
+It is the lowest for ( . )
+and highest for ( 4.
+4 ).
+The corresponding Fermi temperatures are of order 0 0 .
+To get exact ideas about these values, you should solve the following Example II: - Calculate for copper, given density= , atomic weight = 63.5 and valency equal to one.
+The ground states energy is given by = ∫ 2 = 0 = Using eqn (8.5.7), we obtain = The mean energy per fermions for a completely degenerate electron gas is given by = = For conduction electron in copper = ( .0 ) = 4.2 This energy corresponds to several thousand Kelvin of temperature to which an electron, if treated classically, would have to be raised.
+This shows that unlike a classical particle, fermions have appreciable energy even at absolute zero!
+That is, a fermions system is quite alive.
+This is a quantum effect arising out of the 97 Pauli principle and brings out the inadequacy of classical statistics in describing the behaviour of systems at extremely low temperatures.
+Since = .
+/ , eqn (8.5.9) implies that heat capacity of a fermions system drop to zero at absolute zero.
+Similarly, we can show that entropy of a F.D system also vanishes at 0 .
+This is consistence with the third law of thermodynamics.
+Now you may ask: Is it true for pressure also?
+We know that = .
+So we find that pressure exerted by a fermion system at is equal to .
+/ .
+This shows that if electron in a metal were neutral they would exert a pressure of almost 0 Does it make we experience this enormous pressure?
+If not, why?
+Do electrons evaporate spontaneously?
+Actually this pressure is counter balanced by coulomb attraction of electrons by ions.
+The Fermi energy is the kinetic energy of electrons in the highest occupied state.
+We can relate it to the work function of a metal.
+According to the diagram shown below, it shows a potential well in which the electrons reside and the filled states up to .
+If the well is = .
+So once we know , we can get estimate of .
+We have so far considered a FD system at absolute zero.
+To know the behaviour of its heat capacity and entropTyh, ew efi gmurues t sehxotwensd tthhei sr setlautdioy ntsoh itpe mperatures above absolute zero.
+In particbueltawr,e ewne wweillll dceopntfhin Fe eromuris eelnveersg yt,o electrons.
+However, it is important to notea nthda wt foorrk fu n cti on, tfhoer meleecatnr oonccs uinp aat ion number does not differ much from the vmaluetea al.t .
+Such a fermion system is said to be strong by dege nerate.
+WeH okrniozown ttahl at lifnoers coinndduiccatitoen efillelcetdr ons are in extremely degenerate conditione enveerngy u lnedveerls n. ormal conditions.
+Very few of these are free.
+By far most of them are trapped in low lying states with nowhere to go.
+3.4.7 Electronic Heat Capacity You will recall that correct explanation of heat capacity of metals remained a puzzle for a long time.
+Of course, it should be no surprise to you that classical statistics fails to give the right answer because an assembly of electrons (electron gas) obeys F.D.
+statistics.
+We can easily show, using F.D statistics, that electronic heat capacity varies linearly with temperature.
+Moreover, heat capacity of a metal at low temperatures is the sum of an electronic contribution which is proportional to T, and the lattice contribution which is proportional to T3.
+98 Experiments reveal that the contribution of electronic heat capacity is about 1% of the total.
+To show this we assure that only those electrons which occupy energy states up to of Fermi level participate in thermal processes.
+Hence, the fraction of particles thermally excited is proportional to / .
+Since the thermal energy per excited particles is .
+( ) = Hence, ( ) = ( * = ( * ( .6.0) That is, for , the electronic heat capacity of fermions varies linearly with temperature.
+At room temperature, 00 = 0( 0 ) 0 A more exact, but somewhat difficult, calculation gives the following result: ( ) = = ( .6. )
+2 Where = = 2 2 is known as the Summerfield constant.
+The total heat capacity of a metal is made up of two parts.
+The electronic contribution dominates at low temperatures.
+But around room temperature, the electronic contribution is a small fraction of the total ( ) = ( .6.2 ) Or ( ) = ( .6.2 ) A plot of eqn (8.6.2b) is shown below as a function of for potassium, sodium and copper the typical values are 2.08, 1.38 and 0.695, respectively.
+These are a variety of other F.D.
+systems which are of great interest.
+Examples are the protons and neutrons in nuclear matter, electrons in white dwarf stars.
+3H , etc.
+e 99 = 1-0 = 0-8 0-6 0-4 0-2 X 1 2 3 4 5 6 The figure above shows the plot of eqn (8.6.2b) as a function of T2.
+5.0 Summary - The Bose-Einstein distribution function is given by = [ ( )] For continuous distribution, we can write ( ) ( ) = [ ( )] - Planck’s law of blackbody radiation tells us that the spectral energy density is given by = ( * ( * In the limit , we obtain the Rayleigh Jeans law: = ( ) On the other hand, , we obtain Wien’s law: = ( * The total energy density = ( ) ( ) = And tefan’s constant - Radiation Pressure 100 = ( ) = 4 ( ) - Liquid 4H undergoes a phase transition, the so called λ transition, at e = 2. .
+The phase below , H II, exhibits superfluidity.
+Some of its properties can e be explained on the basis of Bose-Einstein condensation.
+- The Fermi-Dirac distribution function is given by = [ ( ) ] For continuous distribution, we can write ( ) = [ ( ) ] / - The Fermi energy = .
+/ - The pressure exerted by a F.D.
+gas at = 0 = .
+/ - The electronic contribution to the heat capacity of a metal is given by ( ) = T Where the Somerfield constant = Exercises 1.
+Rewrite equation (3.4.3) in terms of energy; integrate the resulting expression to compute the average number of photons in an enclosure.
+2.
+Calculate the Fermi temperature for (i) liquid 3H and (ii) electrons in a e white dwarf star using the known experimental data on the two systems.
+3.
+Helium has two isotopes, viz, 3H and 4H Classify these as fermions and e e. bosons.
+Justify your conclusion.
+6.0 Tutor Marked Assignment (TMA) 1.
+Using .
+/ = / , where is a constant, calculate from eqn = ( * 2.
+In classical statistics, the numbers of ways in which particles can be distributed among states is dividing this by and obtain the Maxwell Boltzmann distribution.
+101 (b) Calculate the number of way in which fermions can be accommodated in .
+3.
+Calculate for copper, given density= , atomic weight = 6.3.5 and valiancy equal to one.
+7.0 References/Further Reading 1.
+Thermodynamics and statistical mechanics (September 1999) Indira Gandhi National Open University.
+2.
+Statistical Mechanics Thermodynamics and kinetics (1967) Oscar Rice Published by W.H Freeman & Company San Francisco and London.
+3.
+Thermodynamics & statistical mechanics (1966) A H Wilson Cambridge at University Press.

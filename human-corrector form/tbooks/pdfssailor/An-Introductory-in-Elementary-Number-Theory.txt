@@ -1,0 +1,3452 @@
+An Introductory Course in Elementary Number Theory Wissam Raji2 Preface These notes serve as course notes for an undergraduate course in number the- ory.
+Most if not all universities worldwide offer introductory courses in number theoryformathmajorsandinmanycasesasanelectivecourse.
+Thenotescontainausefulintroductiontoimportanttopicsthatneedtobead- dressed in a course in number theory.
+Proofs of basic theorems are presented in an interesting and comprehensive way that can be read and understood even by non-majors with the exception in the last three chapters where a background in analysis, measure theory and abstract algebra is required.
+The exercises are care- fully chosen to broaden the understanding of the concepts.
+Moreover, these notes shed light on analytic number theory, a subject that is rarely seen or approached by undergraduate students.
+One of the unique characteristics of these notes is the carefulchoiceoftopicsanditsimportanceinthetheoryofnumbers.
+Thefreedom is given in the last two chapters because of the advanced nature of the topics that arepresented.
+ThankstoprofessorPavelGuerzhoyfromUniversityofHawaiiforhiscontri- bution in chapter 6 on continued fraction and to Professor Ramez Maalouf from NotreDameUniversity,Lebanonforhiscontributiontochapter8.Contents 1 Introduction 7 1.1 AlgebraicOperationsWithIntegers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 1.2 TheWellOrderingPrincipleandMathematicalInduction .
+.
+.
+.
+.
+9 1.2.1 TheWellOrderingPrinciple .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 1.2.2 ThePigeonholePrinciple .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 1.2.3 ThePrincipleofMathematicalInduction .
+.
+.
+.
+.
+.
+.
+.
+10 1.3 DivisibilityandtheDivisionAlgorithm .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+13 1.3.1 IntegerDivisibility .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+13 1.3.2 TheDivisionAlgorithm .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+15 1.4 RepresentationsofIntegersinDifferentBases .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+16 1.5 TheGreatestCommonDivisor .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+20 1.6 TheEuclideanAlgorithm .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+24 1.7 Lame’sTheorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+28 2 PrimeNumbers 31 2.1 TheSieveofEratosthenes .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+31 2.2 TheinﬁnitudeofPrimes .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+34 2.3 TheFundamentalTheoremofArithmetic .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+35 2.3.1 TheFundamentalTheoremofArithmetic .
+.
+.
+.
+.
+.
+.
+.
+.
+36 2.3.2 MoreontheInﬁnitudeofPrimes .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+39 2.4 LeastCommonMultiple .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+41 34 CONTENTS 2.5 LinearDiophantineEquations .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+43 2.6 Thefunction[x],thesymbols”O”,”o”and”∼” .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+46 2.6.1 TheFunction[x] .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+46 2.6.2 The”O”and”o”Symbols .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+47 2.7 TheoremsandConjecturesinvolvingprimenumbers .
+.
+.
+.
+.
+.
+.
+49 3 Congruences 51 3.1 Introductiontocongruences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+51 3.2 ResidueSystemsandEuler’sφ-Function .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+57 3.2.1 ResidueSystems .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+57 3.2.2 Euler’sφ-Function .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+59 3.3 LinearCongruences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+59 3.4 TheChineseRemainderTheorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+62 3.5 TheoremsofFermat,Euler,andWilson .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+64 4 MultiplicativeNumberTheoreticFunctions 69 4.1 DeﬁnitionsandProperties .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+70 4.2 MultiplicativeNumberTheoreticFunctions .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+73 4.2.1 TheEulerφ-Function .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+73 4.2.2 TheSum-of-DivisorsFunction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+76 4.2.3 TheNumber-of-DivisorsFunction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+77 4.3 TheMobiusFunctionandtheMobiusInversionFormula .
+.
+.
+.
+.
+79 4.4 Perfect,Mersenne,andFermatNumbers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+82 5 PrimitiveRootsandQuadraticResidues 89 5.1 TheorderofIntegersandPrimitiveRoots .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+89 5.2 PrimitiveRootsforPrimes .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+94 5.3 TheExistenceofPrimitiveRoots .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+98 5.4 IntroductiontoQuadraticResiduesandNonresidues .
+.
+.
+.
+.
+.
+.
+105 5.5 LegendreSymbol .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+106CONTENTS 5 5.6 TheLawofQuadraticReciprocity .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+112 5.7 JacobiSymbol .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+116 6 IntroductiontoContinuedFractions 121 6.1 BasicNotations .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+122 6.2 MainTechnicalTool .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+126 6.3 VeryGoodApproximation .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+130 6.4 AnApplication .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+132 6.5 A Formula of Gauss, a Theorem of Kuzmin and Le´vi and a Prob- lemofArnold .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+133 7 IntroductiontoAnalyticNumberTheory 137 7.1 Introduction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+137 7.2 Chebyshev’sFunctions .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+141 7.3 GettingClosertotheProofofthePrimeNumberTheorem .
+.
+.
+.
+143 8 OtherTopicsinNumberTheory 151 8.1 Cryptography .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+151 8.2 EllipticCurves .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+154 8.3 TheRiemannZetaFunction .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+1616 CONTENTSChapter 1 Introduction Integers are the building blocks of the theory of numbers.
+This chapter contains somewhat very simple and obvious observations starting with properties of inte- gersandyettheproofsbehindthoseobservationsarenotassimple.
+Inthischapter weintroducebasicoperationsonintegersandsomealgebraicdeﬁnitionsthatwill be necessary to understand basic concepts in this book.
+We then introduce the Well ordering principle which states basically that every set of positive integers hasasmallestelement.
+Proofbyinductionisalsopresentedasanefﬁcientmethod for proving several theorems throughout the book.
+We proceed to deﬁne the con- cept of divisibility and the division algorithm.
+We then introduce the elementary but fundamental concept of a greatest common divisor (gcd) of two integers, and the Euclidean algorithm for ﬁnding the gcd of two integers.
+We end this chap- ter with Lame’s Lemma on an estimate of the number of steps in the Euclidean algorithmneededtoﬁndthegcdoftwointegers.
+78 CHAPTER1.
+INTRODUCTION 1.1 Algebraic Operations With Integers The set Z of all integers, which this book is all about, consists of all positive and negativeintegersaswellas0.
+ThusZisthesetgivenby Z = {...,−4,−3,−2,−1,0,1,2,3,4,...}.
+(1.1) Whilethesetofallpositiveintegers,denotedbyN,isdeﬁnedby N = {1,2,3,4,...}.
+(1.2) On Z, there are two basic binary operations, namely addition (denoted by +) and multiplication (denoted by ·), that satisfy some basic properties from which everyotherpropertyforZemerges.
+1.
+TheCommutativitypropertyforadditionandmultiplication a+b = b+a a·b = b·a 2.
+Associativitypropertyforadditionandmultiplication (a+b)+c = a+(b+c) (a·b)·c = a·(b·c) 3.
+Thedistributivitypropertyofmultiplicationoveraddition a·(b+c) = a·b+a·c.1.2.
+THEWELLORDERINGPRINCIPLEANDMATHEMATICALINDUCTION9 InthesetZthereare”identityelements”forthetwooperations+and·,andthese aretheelements0and1respectively,thatsatisfythebasicproperties a+0 = 0+a = a a·1 = 1·a = a foreverya ∈ Z. ThesetZallowsadditiveinversesforitselements,inthesensethatforevery a ∈ ZthereexistsanotherintegerinZ,denotedby−a,suchthat a+(−a) = 0.
+(1.3) While for multiplication, only the integer 1 has a multiplicative inverse in the sensethat1istheonlyintegerasuchthatthereexistsanotherinteger,denotedby a−1 orby1/a,(namely1itselfinthiscase)suchthat a·a−1 = 1.
+(1.4) From the operations of addition and multiplication one can deﬁne two other operations on Z, namely subtraction (denoted by −) and division (denoted by /).
+Subtraction is a binary operation on Z, i.e.
+deﬁned for any two integers in Z, while division is not a binary operation and thus is deﬁned only for some speciﬁc coupleofintegersinZ.
+Subtractionanddivisionaredeﬁnedasfollows: 1. a−bisdeﬁnedbya+(−b),i.e.
+a−b = a+(−b)foreverya,b ∈ Z 2. a/bisdeﬁnedbytheintegercifandonlyifa = b·c.
+1.2 The Well Ordering Principle and Mathematical Induction Inthissection,wepresentthreebasictoolsthatwilloftenbeusedinprovingprop- erties of the integers.
+We start with a very important property of integers called10 CHAPTER1.
+INTRODUCTION the well ordering principle.
+We then state what is known as the pigeonhole prin- ciple, and then we proceed to present an important method called mathematical induction.
+1.2.1 The Well Ordering Principle TheWellOrderingPrinciple: Aleastelementexistinanynonemptysetofpos- itiveintegers.
+This principle can be taken as an axiom on integers and it will be the key to proving many theorems.
+As a result, we see that any set of positive integers is wellorderedwhilethesetofallintegersisnotwellordered.
+1.2.2 The Pigeonhole Principle The Pigeonhole Principle: If s objects are placed in k boxes for s > k, then at leastoneboxcontainsmorethanoneobject.
+Proof.
+Supposethatnoneoftheboxescontainsmorethanoneobject.
+Thenthere are at most k objects.
+This leads to a contradiction with the fact that there are s objectsfors > k. 1.2.3 The Principle of Mathematical Induction Wenowpresentavaluabletoolforprovingresultsaboutintegers.
+Thistoolisthe principleofmathematicalinduction.
+Theorem 1.
+The First Principle of Mathematical Induction: If a set of positive integers has the property that, if it contains the integer k, then it also contains1.2.
+THEWELLORDERINGPRINCIPLEANDMATHEMATICALINDUCTION11 k + 1, and if this set contains 1 then it must be the set of all positive integers.
+Moregenerally,apropertyconcerningthepositiveintegersthatistrueforn = 1, andthatistruefortheintegern+1wheneveritistruefortheintegern,mustbe trueforallpositiveintegers.
+Weusethewellorderingprincipletoprovetheﬁrstprincipleofmathematical induction Proof.
+LetS bethesetofpositiveintegerscontainingtheinteger1,andtheinteger k + 1 whenever it contains k. Assume also that S is not the set of all positive integers.
+As a result, there are some integers that are not contained in S and thus those integers must have a least element α by the well ordering principle.
+Notice that α (cid:54)= 1 since 1 ∈ S. But α−1 ∈ S and thus using the property of S, α ∈ S. ThusS mustcontainallpositiveintegers.
+Wenowpresentsomeexamplesinwhichweusetheprincipleofinduction.
+Example1.
+Usemathematicalinductiontoshowthat∀n ∈ N n (cid:88) n(n+1) j = .
+(1.5) 2 j=1 Firstnotethat 1 (cid:88) 1·2 j = 1 = 2 j=1 and thus the the statement is true for n = 1.
+For the remaining inductive step, supposethattheformulaholdsforn,thatis(cid:80)n j = n(n+1).
+Weshowthat j=1 2 n+1 (cid:88) (n+1)(n+2) j = .
+2 j=1 tocompletetheproofbyinduction.
+Indeed n+1 n (cid:88) (cid:88) n(n+1) (n+1)(n+2) j = j +(n+1) = +(n+1) = , 2 2 j=1 j=1 andtheresultfollows.12 CHAPTER1.
+INTRODUCTION Example 2.
+Use mathematical induction to prove that n!
+≤ nn for all positive integersn.
+Notethat1!
+= 1 ≤ 11 = 1.
+Wenowpresenttheinductivestep.
+Supposethat n!
+≤ nn forsomen,weprovethat(n+1)!
+≤ (n+1)n+1.
+Notethat (n+1)!
+= (n+1)n!
+≤ (n+1).nn < (n+1)(n+1)n = (n+1)n+1.
+Thiscompletestheproof.
+Theorem2.
+TheSecondPrincipleofMathematicalInduction: Asetofpositive integersthathasthepropertythatforeveryintegerk,ifitcontainsalltheintegers 1throughk thenitcontainsk+1andifitcontains1thenitmustbethesetofall positiveintegers.
+Moregenerally,apropertyconcerningthepositiveintegersthat is true for n = 1, and that is true for all integers up to n+1 whenever it is true forallintegersupton,mustbetrueforallpositiveintegers.
+The second principle of induction is also known as the principle of strong induction.
+Also, the ﬁrst principle of induction is known as the principle of weakinduction.
+Toprovethesecondprincipleofinduction,weusetheﬁrstprincipleofinduc- tion.
+Proof.
+Let T be a set of integers containing 1 and such that for every positive integer k, if it contains 1,2,...,k, then it contains k + 1.
+Let S be the set of all positive integers k such that all the positive integers less than or equal to k are in T. Then 1 is in S, and we also see that k +1 is in S. Thus S must be the set of all positive integers.
+Thus T must be the set of all positive integers since S is a subsetofT.1.3.
+DIVISIBILITYANDTHEDIVISIONALGORITHM 13 Exercises 1.
+Proveusingmathematicalinductionthatn < 3n forallpositiveintegersn.
+2.
+Showthat(cid:80)n j2 = n(n+1)(2n+1).
+j=1 6 3.
+Usemathematicalinductiontoprovethat(cid:80)n (−1)j−1j2 = (−1)n−1n(n+ j=1 1)/2.
+4.
+Usemathematicalinductiontoprovethat(cid:80)n j3 = [n(n+1)/2]2forevery j=1 positiveintegern.
+5.
+Usemathematicalinductiontoprovethat(cid:80)n (2j −1) = n2 j=1 6.
+Usemathematicalinductiontoprovethat2n < n!forn ≥ 4.
+7.
+Usemathematicalinductiontoprovethatn2 < n!forn ≥ 4.
+1.3 Divisibility and the Division Algorithm Wenowdiscusstheconceptofdivisibilityanditsproperties.
+1.3.1 Integer Divisibility Deﬁnition 1.
+If a and b are integers such that a (cid:54)= 0, then we say ”a divides b” if thereexistsanintegerk suchthatb = ka.
+If a divides b, we also say ”a is a factor of b” or ”b is a multiple of a” and we write a | b.
+If a doesn’t divide b, we write a (cid:45) b.
+For example 2 | 4 and 7 | 63, while5 (cid:45) 26.
+Example 3. a) Note that any even integer has the form 2k for some integer k, while any odd integer has the form 2k + 1 for some integer k. Thus 2|n if n is even,while2 (cid:45) nifnisodd.14 CHAPTER1.
+INTRODUCTION b)∀a ∈ Zonehasthata | 0. c)Ifb ∈ Zissuchthat|b| < a,andb (cid:54)= 0,thena (cid:45) b. Theorem3.
+Ifa,bandcareintegerssuchthata | bandb | c,thena | c. Proof.
+Since a | b and b | c, then there exist integers k and k such that b = k a 1 2 1 andc = k b. Asaresult,wehavec = k k aandhencea | c. 2 1 2 Example4.
+Since6 | 18and18 | 36,then6 | 36.
+The following theorem states thatif an integer divides two otherintegers then itdividesanylinearcombinationoftheseintegers.
+Theorem 4.
+If a,b,c,m and n are integers, and if c | a and c | b, then c | (ma+nb).
+Proof.
+Since c | a and c | b, then by deﬁnition there exists k and k such that 1 2 a = k candb = k c. Thus 1 2 ma+nb = mk c+nk c = c(mk +nk ), 1 2 1 2 andhencec | (ma+nb).
+Theorem4canbegeneralizedtoanyﬁnitelinearcombinationasfollows.
+If a | b ,a | b ,...,a | b 1 2 n then n (cid:88) a | k b (1.6) j j j=1 for any set of integers k ,··· ,k ∈ Z.
+It would be a nice exercise to prove the 1 n generalizationbyinduction.1.3.
+DIVISIBILITYANDTHEDIVISIONALGORITHM 15 1.3.2 The Division Algorithm Thefollowingtheoremstatessomewhatanelementarybutveryusefulresult.
+Theorem5.
+TheDivisionAlgorithmIfaandbareintegerssuchthatb > 0,then thereexistuniqueintegersq andr suchthata = bq +r where0 ≤ r < b.
+Proof.
+Consider the set A = {a − bk ≥ 0 | k ∈ Z}.
+Note that A is nonempty since for k < a/b, a − bk > 0.
+By the well ordering principle, A has a least element r = a−bq for some q.
+Notice that r ≥ 0 by construction.
+Now if r ≥ b then(sinceb > 0) r > r−b = a−bq −b = a−b(q +1) =≥ 0.
+This leads to a contradiction since r is assumed to be the least positive integer of theformr = a−bq.
+Asaresultwehave0 ≤ r < b.
+We will show that q and r are unique.
+Suppose that a = bq + r and a = 1 1 bq +r with0 ≤ r < band0 ≤ r < b. Thenwehave 2 2 1 2 b(q −q )+(r −r ) = 0.
+1 2 1 2 Asaresultwehave b(q −q ) = r −r .
+1 2 2 1 Thuswegetthat b | (r −r ).
+2 1 And since −max(r ,r ) ≤ |r − r | ≤ max(r ,r ), and b > max(r ,r ), then 1 2 2 1 1 2 1 2 r −r must be 0, i.e.
+r = r .
+And since bq +r = bq +r , we also get that 2 1 2 1 1 1 2 2 q = q .
+Thisprovesuniqueness.
+1 2 Example5.
+Ifa = 71andb = 6,then71 = 6·11+5.
+Hereq = 11andr = 5.
+Exercises 1.
+Showthat5 | 25,19 | 38and2 | 98.16 CHAPTER1.
+INTRODUCTION 2.
+Use the division algorithm to ﬁnd the quotient and the remainder when 76 isdividedby13.
+3.
+Usethedivisionalgorithmtoﬁndthequotientandtheremainderwhen-100 isdividedby13.
+4.
+Show that if a,b,c and d are integers with a and c nonzero, such that a | b andc | d,thenac | bd.
+5.
+Showthatifaandbarepositiveintegersanda | b,thena ≤ b.
+6.
+Provethatthesumoftwoevenintegersiseven,thesumoftwooddintegers isevenandthesumofanevenintegerandanoddintegerisodd.
+7.
+Show that the product of two even integers is even, the product of two odd integersisoddandtheproductofanevenintegerandanoddintegeriseven.
+8.
+Showthatifmisanintegerthen3dividesm3 −m.
+9.
+Showthatthesquareofeveryoddintegerisoftheform8m+1.
+10.
+Show that the square of any integer is of the form 3m or 3m+1 but not of theform3m+2.
+11.
+Showthatifac | bc,thena | b.
+12.
+Showthatifa | bandb | athena = ±b.
+1.4 Representations of Integers in Different Bases In this section, we show how any positive integer can be written in terms of any positive base integer expansion in a unique way.
+Normally we use decimal nota- tion to represent integers, we will show how to convert an integer from decimal notation into any other positive base integer notation and vise versa.
+Using the1.4.
+REPRESENTATIONSOFINTEGERSINDIFFERENTBASES 17 decimal notation in daily life is simply better because we have ten ﬁngers which facilitatesallthemathematicaloperations.
+NotationAnintegerawritteninbasebexpansionisdenotedby(a) .
+b Theorem 6.
+Let b be a positive integer with b > 1.
+Then any positive integer m canbewrittenuniquelyas m = a bl +a bl−1 +...+a b+a , l l−1 1 0 wherel isapositiveinteger,0 ≤ a < bforj = 0,1,...,l anda (cid:54)= 0. j l Proof.
+Westartbydividingmbybandweget m = bq +a , 0 ≤ a < b.
+0 0 0 Ifq (cid:54)= 0thenwecontinuetodivideq bybandweget 0 0 q = bq +a , 0 ≤ a < b.
+0 1 1 1 Wecontinuethisprocessandhenceweget q = bq +a , 0 ≤ a < b, 1 2 2 2 .
+.
+.
+q = bq +a , 0 ≤ a < b, l−2 l−1 l−1 l−1 q = b·0+a , 0 ≤ a < b. l−1 l l Notethatthesequenceq ,q ,...isadecreasingsequenceofpositiveintegerswith 0 1 alasttermq thatmustbe0.
+l Nowsubstitutingtheequationq = bq +a inm = bq +a ,weget 0 1 1 0 0 m = b(bq +a )+a = b2q +a b+a , 1 1 0 1 1 018 CHAPTER1.
+INTRODUCTION Successivelysubstitutingtheequationsinm,weget m = b3q +a b2 +a b+a , 2 2 1 0 .
+.
+.
+= blq +a bl−1 +...+a b+a , l−1 l−1 1 0 = a bl +a bl−1 +...+a b+a .
+l l−1 1 0 Whatremainstoproveisthattherepresentationisunique.
+Supposenowthat m = a bl +a bl−1 +...+a b+a = c bl +c bl−1 +...+c b+c l l−1 1 0 l l−1 1 0 where if the number of terms is different in one expansion, we add zero coefﬁ- cients to make the number of terms agree.
+Subtracting the two expansions, we get (a −c )bl +(a −c )bl−1 +...+(a −c )b+(a −c ) = 0. l l l−1 l−1 1 1 0 0 If the two expansions are different, then there exists 0 ≤ j ≤ l such that c (cid:54)= a .
+j j Asaresult,weget bj((a −c )bl−j +...+(a −c )b+(a −c )) = 0 l l j+1 j+1 j j andsinceb (cid:54)= 0,weget (a −c )bl−j +...+(a −c )b+(a −c ) = 0. l l j+1 j+1 j j Wenowget a −c = (a −c )bl−j +...+(a −c )b, j j l l j+1 j+1 and as a result, b | (a − c ).
+Since 0 ≤ a < b and 0 ≤ c < b, we get that j j j j a = c .
+Thisisacontradictionandhencetheexpansionisunique.
+j j1.4.
+REPRESENTATIONSOFINTEGERSINDIFFERENTBASES 19 Note that base 2 representation of integers is called binary representation.
+Bi- nary representation plays a crucial role in computers.
+Arithmetic operations can becarriedoutonintegerswithanypositiveintegerbasebutitwillnotbeaddressed in this book.
+We now present examples of how to convert from decimal integer representationtoanyotherbaserepresentationandviseversa.
+Example6.
+Toﬁndtheexpansionof214base3: wedothefollowing 214 = 3·71+1 71 = 3·23+2 23 = 3·7+2 7 = 3·2+1 2 = 3·0+2 As a result, to obtain a base 3 expansion of 214, we take the remainders of divi- sionsandwegetthat(214) = (21221) .
+10 3 Example7.
+Toﬁndthebase10expansion,i.e.
+thedecimalexpansion,of(364) : 7 Wedothefollowing: 4·70 +6·71 +3·72 = 4+42+147 = 193.
+Insomecaseswherebaseb > 10expansionisneeded,weaddsomecharacters to represent numbers greater than 9.
+It is known to use the alphabetic letters to denote integers greater than 9 in base b expansion for b > 10.
+For example (46BC29) whereA = 10,B = 11,C = 12.
+13 To convert from one base to the other, the simplest way is to go through base 10andthenconverttotheotherbase.
+Therearemethodsthatsimplifyconversion fromonebasetotheotherbutitwillnotbeaddressedinthisbook.
+Exercises20 CHAPTER1.
+INTRODUCTION 1.
+Convert(7482) tobase6notation.
+10 2.
+Convert(98156) tobase8notation.
+10 3.
+Convert(101011101) todecimalnotation.
+2 4.
+Convert(AB6C7D) todecimalnotation.
+16 5.
+Convert(9A0B) tobinarynotation.
+16 1.5 The Greatest Common Divisor In this section we deﬁne the greatest common divisor (gcd) of two integers and discuss its properties.
+We also prove that the greatest common divisor of two integersisalinearcombinationoftheseintegers.
+Twointegersaandb,notboth0,canhaveonlyﬁnitelymanydivisors,andthus can have only ﬁnitely many common divisors.
+In this section, we are interested in the greatest common divisor of a and b.
+Note that the divisors of a and that of | a |arethesame.
+Deﬁnition 2.
+The greatest common divisor of two integers a and b is the greatest integerthatdividesbothaandb.
+We denote the greatest common divisor of two integers a and b by (a,b).
+We alsodeﬁne(0,0) = 0.
+Example 8.
+Note that the greatest common divisor of 24 and 18 is 6.
+In other words(24,18) = 6.
+There are couples of integers (e.g.
+3 and 4, etc...) whose greatest common divisoris1sowecallsuchintegersrelativelyprimeintegers.
+Deﬁnition3.
+Twointegersaandbarerelativelyprimeif(a,b) = 1.1.5.
+THEGREATESTCOMMONDIVISOR 21 Example9.
+Thegreatestcommondivisorof9and16is1,thustheyarerelatively prime.
+Note that every integer has positive and negative divisors.
+If a is a positive divisor of m, then −a is also a divisor of m. Therefore by our deﬁnition of the greatestcommondivisor,wecanseethat(a,b) = (| a |,| b |).
+Wenowpresentatheoremaboutthegreatestcommondivisoroftwointegers.
+Thetheoremstatesthatifwedividetwointegersbytheirgreatestcommondivisor, thentheoutcomeisacoupleofintegersthatarerelativelyprime.
+Theorem7.
+If(a,b) = dthen(a/d,b/d) = 1.
+Proof.
+We will show that a/d and b/d have no common positive divisors other than1.
+Assume thatk is apositivecommondivisorsuch thatk | a/dandk | b/d.
+Asaresult,therearetwopositiveintegersmandnsuchthat a/d = km and b/d = kn Thuswegetthat a = kmd and b = knd.
+Hence kd is a common divisor of both a and b.
+Also, kd ≥ d. However, d is the greatestcommondivisorofaandb.
+Asaresult,wegetthatk = 1.
+Thenexttheoremshowsthatthegreatestcommondivisoroftwointegersdoes notchangewhenweaddamultipleofoneofthetwointegerstotheother.
+Theorem8.
+Leta,bandcbeintegers.
+Then(a,b) = (a+cb,b).
+Proof.
+We will show that every divisor of a and b is also a divisor of a+cb and b and vise versa.
+Hence they have exactly the same divisors.
+So we get that the greatest common divisor of a and b will also be the greatest common divisor of a+cb and b.
+Let k be a common divisor of a and b.
+By Theorem 4, k | (a+cb)22 CHAPTER1.
+INTRODUCTION andhencekisadivisorofa+cb.
+Nowassumethatlisacommondivisorofa+cb andb.
+AlsobyTheorem4wehave, l | ((a+cb)−cb) = a. Asaresult,l isacommondivisorofaandbandtheresultfollows.
+Example10.
+Noticethat(4,14) = (4,14−3·4) = (4,2) = 2.
+We now present a theorem which proves that the greatest common divisor of twointegerscanbewrittenasalinearcombinationofthetwointegers.
+Theorem 9.
+The greatest common divisor of two integers a and b, not both 0 is theleastpositiveintegersuchthatma+nb = dforsomeintegersmandn.
+Proof.
+Assume without loss of generality that a and b are positive integers.
+Con- sider the set of all positive integer linear combinations of a and b.
+This set is non emptysincea = 1·a+0·bandb = 0·a+1·barebothinthisset.
+Thusthisset hasa leastelementdbythe well-ordering principle.
+Thusd = ma+nbforsome integers m and n. We have to prove that d divides both a and b and that it is the greatestdivisorofaandb.
+Bythedivisionalgorithm,wehave a = dq +r, 0 ≤ r < d. Thuswehave r = a−dq = a−q(ma+nb) = (1−qm)a−qnb.
+We then have that r is a linear combination of a and b.
+Since 0 ≤ r < d and d is the least positive integer which is a linear combination of a and b, then r = 0 and a = dq.
+Hence d | a.
+Similarly d | b.
+Now notice that if there is a divisor c that divides both a and b.
+Then c divides any linear combination of a and b by Theorem 4.
+Hence c | d. This proves that any common divisor of a and b divides d. Hencec ≤ d,anddisthegreatestdivisor.1.5.
+THEGREATESTCOMMONDIVISOR 23 As a result, we conclude that if (a,b) = 1 then there exist integers m and n suchthatma+nb = 1.
+Deﬁnition4.
+Leta ,a ,...,a beintegers,notall0.
+Thegreatestcommondivisor 1 2 n oftheseintegersisthelargestintegerthatdividesalloftheintegersintheset.
+The greatestcommondivisorofa ,a ,...,a isdenotedby(a ,a ,...,a ).
+1 2 n 1 2 n Deﬁnition5.
+Theintegersa ,a ,...,a aresaidtobemutuallyrelativelyprimeif 1 2 n (a ,a ,...,a ) = 1.
+1 2 n Example11.
+Theintegers3,6,7aremutuallyrelativelyprimesince(3,6,7) = 1 although(3,6) = 3.
+Deﬁnition6.
+Theintegersa ,a ,...,a arecalledpairwiseprimeifforeachi (cid:54)= j, 1 2 n wehave(a ,a ) = 1. i j Example12.
+Theintegers3,14,25arepairwiserelativelyprime.
+Noticealsothat theseintegersaremutuallyrelativelyprime.
+Noticethatifa ,a ,...,a arepairwiserelativelyprimethentheyaremutually 1 2 n relativelyprime.
+Exercises 1.
+Findthegreatestcommondivisorof15and35.
+2.
+Findthegreatestcommondivisorof100and104.
+3.
+Findthegreatestcommondivisorof-30and95.
+4.
+Let m be a positive integer.
+Find the greatest common divisor of m and m+1.24 CHAPTER1.
+INTRODUCTION 5.
+Let m be a positive integer, ﬁnd the greatest common divisor of m and m+2.
+6.
+Show that if m and n are integers such that (m,n) = 1, then (m+n,m-n)=1 or2.
+7.
+Show that if m is a positive integer, then 3m+2 and 5m+3 are relatively prime.
+8.
+Showthatifaandbarerelativelyprimeintegers,then(a+2b,2a+b) = 1or 3.
+9.
+Show that if a ,a ,...,a are integers that are not all 0 and c is a positive 1 2 n integer,then(ca ,ca ,...,ca ) = c(a ,a ,...a ).
+1 2 n 1 2 n 1.6 The Euclidean Algorithm Inthissectionwedescribeasystematicmethodthatdeterminesthegreatestcom- mondivisoroftwointegers.
+ThismethodiscalledtheEuclideanalgorithm.
+Lemma 1.
+If a and b are two integers and a = bq + r where also q and r are integers,then(a,b) = (r,b).
+Proof.
+Notethatbytheorem8,wehave(bq +r,b) = (b,r).
+Theabovelemmawillleadtoamoregeneralversionofit.
+Wenowpresentthe Euclideanalgorithminitsgeneralform.
+Itstatesthatthegreatestcommondivisor oftwointegersisthelastnonzeroremainderofthesuccessivedivision.
+Theorem 10.
+Let a = r and b = r be two positive integers where a ≥ b.
+If we 0 1 applythedivisionalgorithmsuccessivelytoobtainthat r = r q +r where 0 ≤ r < r j j+1 j+1 j+2 j+2 j+11.6.
+THEEUCLIDEANALGORITHM 25 forallj = 0,1,...,n−2and r = 0. n+1 Then(a,b) = r .
+n Proof.
+Byapplyingthedivisionalgorithm,weseethat r = r q +r 0 ≤ r < r , 0 1 1 2 2 1 r = r q +r 0 ≤ r < r , 1 2 2 3 3 2 .
+.
+.
+r = r q +r 0 ≤ r < r , n−2 n−1 n−1 n n n−1 r = r q .
+n−1 n n Notice that, we will have a remainder of 0 eventually since all the remainders are integers and every remainder in the next step is less than the remainder in the previousone.
+ByLemma1,weseethat (a,b) = (b,r ) = (r ,r ) = ... = (r ,0) = r .
+2 2 3 n n Example13.
+Wewillﬁndthegreatestcommondivisorof4147and10672:26 CHAPTER1.
+INTRODUCTION Notethat 10672 = 4147·2+2378, 4147 = 2378·1+1769, 2378 = 1769·1+609, 1769 = 609·2+551, 609 = 551·1+58, 551 = 58·9+29, 58 = 29·2, Hence(4147,10672) = 29.
+WenowusethestepsintheEuclideanalgorithmtowritethegreatestcommon divisor of two integers as a linear combination of the two integers.
+The following example will actually determine the variables m and n described in Theorem 9.
+The following algorithm can be described by a general form but for the sake of simplicity of expressions we will present an example that shows the steps for obtaining the greatest common divisor of two integers as a linear combination of thetwointegers.
+Example14.
+Express29asalinearcombinationof4147and10672:1.6.
+THEEUCLIDEANALGORITHM 27 29 = 551−9·58, = 551−9(609−551·1), = 10.551−9.609, = 10·(1769−609·2)−9·609, = 10·1769−29·609, = 10·1769−29(2378−1769·1), = 39·1769−29·2378, = 39(4147−2378·1)−29·2378, = 39·4147−68·2378, = 39·4147−68(10672−4147·2), = 175·4147−68·10672, Asaresult,weseethat29 = 175·4147−68·10672.
+Exercises 1.
+UsetheEuclideanalgorithmtoﬁndthegreatestcommondivisorof412and 32andexpressitintermsofthetwointegers.
+2.
+UsetheEuclideanalgorithmtoﬁndthegreatestcommondivisorof780and 150andexpressitintermsofthetwointegers.
+3.
+Findthegreatestcommondivisorof70,98,108.
+4.
+Letaandbbetwopositiveevenintegers.
+Provethat(a,b) = 2(a/2,b/2).
+5.
+Show that if a and b are positive integers where a is even and b is odd, then (a,b) = (a/2,b).28 CHAPTER1.
+INTRODUCTION 1.7 Lame’s Theorem In this section, we give an estimate to the number of steps needed to ﬁnd the greatestcommondivisoroftwointegersusingtheEuclideanalgorithm.
+Todothis, we have to introduce the Fibonacci numbers for the sake of proving a lemma that gives an estimate on the growth of Fibonacci numbers in the Fibonacci sequence.
+ThelemmathatweprovewillbeusedintheproofofLame’stheorem.
+Deﬁnition 7.
+The Fibonacci sequence is deﬁned recursively by f = 1, f = 1, 1 2 and f = f +f for n ≥ 3. n n−1 n−2 ThetermsinthesequencearecalledFibonaccinumbers.
+In the following lemma, we give a lower bound on the growth of Fibonacci numbers.
+We will show that Fibonacci numbers grow faster than a geometric √ serieswithcommonratioα = (1+ 5)/2.
+√ Lemma2.
+Forn ≥ 3,wehavef > αn−2 whereα = (1+ 5)/2.
+n Proof.
+Weusethesecondprincipleofmathematicalinductiontoproveourresult.
+It is easy to see that this is true for n = 3 and n = 4.
+Assume that αk−2 < f k for all integers k where k ≤ n. Now since α is a solution of the polynomial x2 −x−1 = 0,wehaveα2 = α+1.
+Hence αn−1 = α2.αn−3 = (α+1).αn−3 = αn−2 +αn−3.
+Bytheinductivehypothesis,wehave αn−2 < f , αn−3 < f .
+n n−1 Afteraddingthetwoinequalities,weget αn−1 < f +f = f .
+n n−1 n+11.7.
+LAME’STHEOREM 29 WenowpresentLame’stheorem.
+Theorem 11. using the Euclidean algorithm to ﬁnd the greatest common divisor of two positive integers has number of divisions less than or equal ﬁve times the numberofdecimaldigitsintheminimumofthetwointegers.
+Proof.
+Let a and b be two positive integers where a > b.
+Applying the Euclidean algorithm to ﬁnd the greatest common divisor of two integers with a = r and 0 b = r ,weget 1 r = r q +r 0 ≤ r < r , 0 1 1 2 2 1 r = r q +r 0 ≤ r < r , 1 2 2 3 3 2 .
+.
+.
+r = r q +r 0 ≤ r < r , n−2 n−1 n−1 n n n−1 r = r q .
+n−1 n n Notice that each of the quotients q ,q ,...,q are all greater than 1 and q ≥ 2 1 2 n−1 n andthisisbecauser < r .
+Thuswehave n n−1 r ≥ 1 = f , n 2 r ≥ 2r ≥ 2f = f , n−1 n 2 3 r ≥ r +r ≥ f +f = f , n−2 n−1 n 3 2 4 r ≥ r +r ≥ f +f = f , n−3 n−2 n−1 4 3 5 .
+.
+.
+r ≥ r +r ≥ f +f = f , 2 3 4 n−1 n−2 n b = r ≥ r +r ≥ f +f = f .
+1 2 3 n n−1 n+130 CHAPTER1.
+INTRODUCTION Thus notice that b ≥ f .
+By Lemma 2, we have f > αn−1 for n > 2.
+As a n+1 n+1 result,wehaveb > αn−1.
+Nownoticesince 1 log α > , 10 5 weseethat log b > (n−1)/5.
+10 Thuswehave n−1 < 5log b.
+10 Now letbhask decimaldigits.
+Asa result, wehaveb < 10k and thuslog b < k. 10 Hence we conclude that n − 1 < 5k.
+Since k is an integer, we conclude that n ≤ 5k.
+Exercises 1.
+FindanupperboundforthenumberofstepsintheEuclideanalgorithmthat isusedtoﬁndthegreatestcommondivisorof38472and957748838.
+2.
+FindanupperboundforthenumberofstepsintheEuclideanalgorithmthat isusedtoﬁndthegreatestcommondivisorof15and75.
+Verifyyourresult byusingtheEuclideanalgorithmtoﬁndthegreatestcommondivisorofthe twointegers.Chapter 2 Prime Numbers Prime numbers, the building blocks of integers, have been studied extensively overthecenturies.
+Beingabletopresentanintegeruniquelyasproductofprimes isthemainreasonbehindthewholetheoryofnumbersandbehindtheinteresting results in this theory.
+Many interesting theorems, applications and conjectures havebeenformulatedbasedonthepropertiesofprimenumbers.
+In this chapter, we present methods to determine whether a number is prime or composite using an ancient Greek method invented by Eratosthenes.
+We also showthatthereareinﬁnitelymanyprimenumbers.
+Wethenproceedtoshowthat everyintegercanbewrittenuniquelyasaproductofprimes.
+We introduce as well the concept of diophantine equations where integer so- lutions from given equations are determined using the greatest common divisor.
+We then mention the Prime Number theorem without giving a proof of course in additiontootherconjecturesandmajorresultsrelatedtoprimenumbers.
+2.1 The Sieve of Eratosthenes Deﬁnition 8.
+A prime is an integer greater than 1 that is only divisible by 1 and itself.
+3132 CHAPTER2.
+PRIMENUMBERS Example15.
+Theintegers2,3,5,7,11areprimeintegers.
+Note that any integer greater than 1 that is not prime is said to be a composite number.
+We now present the sieve of Eratosthenes.
+The Sieve of Eratosthenes is an ancient method of ﬁnding prime numbers up to a speciﬁed integer.
+This method wasinventedbytheancientGreekmathematicianEratosthenes.
+Thereareseveral other methods used to determine whether a number is prime or composite.
+We ﬁrstpresentalemmathatwillbeneededintheproofofseveraltheorems.
+Lemma3.
+Everyintegergreaterthanonehasaprimedivisor.
+Proof.
+We present the proof of this Lemma by contradiction.
+Suppose that there is an integer greater than one that has no prime divisors.
+Since the set of integers with elements greater than one with no prime divisors is nonempty, then by the well ordering principle there is a least positive integer n greater than one that has noprimedivisors.
+Thusniscompositesincendividesn.
+Hence n = abwith 1 < a < nand 1 < b < n. Notice that a < n and as a result since n is minimal, a must have a prime divisor whichwillalsobeadivisorofn.
+Theorem 12.
+If n is a composite integer, then n has a prime factor not exceeding √ n. Proof.
+Since n is composite, then n = ab, where a and b are integers with 1 < √ a ≤ b < n. Supposenowthata > n,then √ n < a ≤ b andasaresult √ √ ab > n n = n.2.1.
+THESIEVEOFERATOSTHENES 33 √ Therefore a ≤ n. Also, by Lemma 3, a must have a prime divisor a which is 1 √ alsoaprimedivisorofnandthusthisdivisorislessthana ≤ a ≤ n. 1 We now present the algorithm of the Sieve of Eratosthenes that is used to de- termineprimenumbersuptoagiveninteger.
+TheAlgorithmoftheSieveofEratosthenes 1.
+Write a list of numbers from 2 to the largest number n you want to test.
+Note that every composite integer less than n must have a prime factor less √ than n. Hence you need to strike off the multiples of the primes that are √ lessthan n 2.
+Strikeoffallmultiplesof2greaterthan2fromthelist.
+Theﬁrstremaining numberinthelistisaprimenumber.
+3.
+Strikeoffallmultiplesofthisnumberfromthelist.
+4.
+Repeat the above steps until no more multiples are found of the prime inte- √ gersthatarelessthan n Exercises 1.
+UsetheSieveofEratosthenestoﬁndallprimeslessthan100.
+2.
+UsetheSieveofEratosthenestoﬁndallprimeslessthan200.
+3.
+Showthatnointegeroftheforma3 +1isaprimeexceptfor2 = 13 +1.
+4.
+Showthatif2n −1isprime,thennisprime.
+Hint: Usetheidentity(akl−1) = (ak−1)(ak(l−1)+ak(l−2)+...+ak+1).34 CHAPTER2.
+PRIMENUMBERS 2.2 The inﬁnitude of Primes We now show that there are inﬁnitely many primes.
+There are several ways to prove this result.
+An alternative proof to the one presented here is given as an exercise.
+The proof we will provide was presented by Euclid in his book the Elements.
+Theorem13.
+Thereareinﬁnitelymanyprimes.
+Proof.
+We present the proof by contradiction.
+Suppose there are ﬁnitely many primes p ,p ,...,p , where n is a positive integer.
+Consider the integer Q such 1 2 n that Q = p p ...p +1.
+1 2 n By Lemma 3, Q has at least a prime divisor, say q.
+If we prove that q is not one of the primes listed then we obtain a contradiction.
+Suppose now that q = p for i 1 ≤ i ≤ n. Thus q divides p p ...p and as a result q divides Q − p p ...p .
+1 2 n 1 2 n Thereforeq divides1.
+Butthisisimpossiblesincethereisnoprimethatdivides1 andasaresultq isnotoneoftheprimeslisted.
+The following theorem discusses the large gaps between primes.
+It simply statesthattherearearbitrarylargegapsintheseriesofprimesandthattheprimes arespacedirregularly.
+Theorem 14.
+Given any positive integer n, there exists n consecutive composite integers.
+Proof.
+Considerthesequenceofintegers (n+1)!+2,(n+1)!+3,...,(n+1)!+n,(n+1)!+n+1 Notice that every integer in the above sequence is composite because k divides (n+1)!+k if2 ≤ k ≤ n+1by4.2.3.
+THEFUNDAMENTALTHEOREMOFARITHMETIC 35 Exercises 1.
+Show that the integer Q = n!
++ 1, where n is a positive integer, has a n primedivisorgreaterthann.
+Concludethatthereareinﬁnitelymanyprimes.
+Noticethatthisexerciseisanotherproofoftheinﬁnitudeofprimes.
+2.
+Findthesmallestﬁveconsecutivecompositeintegers.
+3.
+Findonemillionconsecutivecompositeintegers.
+4.
+Showthattherearenoprimetripletsotherthan3,5,7.
+2.3 The Fundamental Theorem of Arithmetic The Fundamental Theorem of Arithmetic is one of the most important results in thischapter.
+Itsimplysaysthateverypositiveintegercanbewrittenuniquelyasa product of primes.
+The unique factorization is needed to establish much of what comes later.
+There are systems where unique factorization fails to hold.
+Many of these examples come from algebraic number theory.
+We can actually list an easy examplewhereuniquefactorizationfails.
+Consider the class C of positive even integers.
+Note that C is closed under multiplication,whichmeansthattheproductofanytwoelementsinC isagainin C. Suppose now that the only number we know are the members of C. Then we have12 = 2.6iscompositewhereas14isprimesinceitisnottheproductoftwo numbersinC.
+Nownoticethat60 = 2.30 = 6.10andthusthefactorizationisnot unique.
+Wenowgiveexamplesoftheuniquefactorizationofintegers.
+Example16.
+99 = 3·3·11 = 32 ·11, 32 = 2·2·2·2·2 = 2536 CHAPTER2.
+PRIMENUMBERS 2.3.1 The Fundamental Theorem of Arithmetic To prove the fundamental theorem of arithmetic, we need to prove some lemmas aboutdivisibility.
+Lemma4.
+Ifa,b,carepositiveintegerssuchthat(a,b) = 1anda | bc,thena | c. Proof.
+Since (a,b) = 1, then there exists integers x,y such that ax+by = 1.
+As a result, cax + cby = c. Notice that since a | bc, then by Theorem 4, a divides cax+cby andhenceadividesc.
+We can generalize the above lemma as such: If (an ) = 1 for every i = , i 1,2,··· ,n and a | n n ···n , then a | n .
+We next prove a case of this 1 2 k+1 k+1 generalizationandusethistoprovethefundamentaltheoremofarithmetic.
+Lemma 5.
+If p divides n n n ...n , where p is a prime and n > 0 for all 1 ≤ 1 2 3 k i i ≤ k,thenthereisanintegerj with1 ≤ j ≤ k suchthatp | n .
+j Proof.
+We present the proof of this result by induction.
+For k = 1, the result is trivial.
+Assume now that the result is true for k. Consider n n ...n that is 1 2 k+1 divisiblebyp.
+Noticethateither (p,n n ...n ) = 1 or (p,n n ...n ) = p. 1 2 k 1 2 k Now if (p,n n ...n ) = 1 then by Lemma 4, p | n .
+Now if p | n n ...n , then 1 2 k k+1 1 2 k bytheinductionhypothesis,thereexistsanintegerisuchthatp | n .
+i We now state the fundamental theorem of arithmetic and present the proof usingLemma5.
+Theorem 15.
+The Fundamental Theorem of Arithmetic Every positive integer differentfrom1canbewrittenuniquelyasaproductofprimes.2.3.
+THEFUNDAMENTALTHEOREMOFARITHMETIC 37 Proof.
+If n is a prime integer, then n itself stands as a product of primes with a single factor.
+If n is composite, we use proof by contradiction.
+Suppose now that there is some positive integer that cannot be written as the product of primes.
+Let n be the smallest such integer.
+Let n = ab, with 1 < a < n and 1 < b < n. As a result a and b are products of primes since both integers are less than n. As a result, n = ab is a product of primes, contradicting that it is not.
+This shows that every integer can be written as product of primes.
+We now prove that the representationofapositiveintegerasaproductofprimesisunique.
+Supposenow thatthereisanintegernwithtwodifferentfactorizationssay n = p p ...p = q q ...q 1 2 s 1 2 r wherep ,p ,...p ,q ,q ,...q areprimes, 1 2 s 1 2 r p ≤ p ≤ p ≤ ... ≤ p and q ≤ q ≤ q ≤ ... ≤ q .
+1 2 3 s 1 2 3 r Canceloutallcommonprimesfromthefactorizationsabovetoget p p ...p = q q ...q j1 j2 ju i1 i2 iv Thusalltheprimesontheleftsidearedifferentfromtheprimesontherightside.
+Since any p (l = 1,··· ,n) divides p p ...p , then p must divide q q ...q , jl j1 j2 ju jl i1 i2 iv and hence by Lemma 5, p must divide q for some 1 ≤ k ≤ v which is impos- j1 jk sible.
+Hencetherepresentationisunique.
+Remark 1.
+The unique representation of a positive integer n as a product of primes can be written in several ways.
+We will present the most common rep- resentations.
+For example, n = p p p ...p where p for 1 ≤ i ≤ k are not 1 2 3 k i necessarilydistinct.
+Anotherexamplewouldbe n = pa1pa2pa3...paj (2.1) 1 2 3 j whereallthep aredistinctfor1 ≤ i ≤ j. Onecanalsowriteaformalproduct i (cid:89) n = pαi, (2.2) i allprimespi38 CHAPTER2.
+PRIMENUMBERS whereallbutﬁnitelymanyoftheα(cid:48)sare0.
+i Example17.
+Theprimefactorizationof120isgivenby120 = 2·2·2·3·5 = 23·3·5.
+Noticethat120iswritteninthetwowaysdescribedin1.
+Weknowdescribeingeneralhowprimefactorizationcanbeusedtodetermine thegreatestcommondivisoroftwointegers.
+Let a = pa1pa2...pan and b = pb1pb2...pbn, 1 2 n 1 2 n where we exclude in these expansions any prime p with power 0 in both a and b (andthussomeofthepowersabovemaybe0inoneexpansionbutnottheother).
+Of course, if one prime p appears in a but not in b, then a (cid:54)= 0 while b = 0, and i i i viseversa.
+Thenthegreatestcommondivisorisgivenby (a,b) = pmin(a1,b2)pmin(a2,b2)...pmin(an,bn) 1 2 n wheremin(n,m)istheminimumofmandn.
+ThefollowinglemmaisaconsequenceoftheFundamentalTheoremofArith- metic.
+Lemma 6.
+Let a and b be relatively prime positive integers.
+Then if d divides ab, there exists d and d such that d = d d where d is a divisor of a and d is a 1 2 1 2 1 2 divisorofb.
+Conversely, ifd andd arepositivedivisorsofaandb,respectively, 1 2 thend = d d isapositivedivisorofab.
+1 2 Proof.
+Let d = (a,d) and d = (b,d).
+Since (a,b) = 1 and writing a and b in 1 2 terms of their prime decomposition, it is clear that d = d d and (d ,d ) = 1.
+1 2 1 2 Note that every prime power in the factorization of d must appear in either d or 1 d .
+Alsotheprimepowersinthefactorizationofdthatareprimepowersdividing 2 a must appear in d and that prime powers in the factorization of d that are prime 1 powersdividingbmustappearind .
+22.3.
+THEFUNDAMENTALTHEOREMOFARITHMETIC 39 Now conversely, let d and d be positive divisors of a and b, respectively.
+1 2 Then d = d d 1 2 isadivisorofab.
+2.3.2 More on the Inﬁnitude of Primes Therearealsoothertheoremsthatdiscusstheinﬁnitudeofprimesinagivenarith- meticprogression.
+Themostfamoustheoremaboutprimesinarithmeticprogres- sionisDirichlet’stheorem Theorem16.
+Dirichlet’sTheoremGivenanarithmeticprogressionoftermsan+ b , for n = 1,2,... ,the series contains an inﬁnite number of primes if a and b are relativelyprime, This result had been conjectured by Gauss but was ﬁrst proved by Dirichlet.
+Dirichlet proved this theorem using complex analysis, but the proof is so chal- lenging.
+As a result, we will present a special case of this theorem and prove that there are inﬁnitely many primes in a given arithmetic progression.
+Before stating the theorem about the special case of Dirichlet’s theorem, we prove a lemma that willbeusedintheproofofthementionedtheorem.
+Lemma 7.
+If a and b are integers both of the form 4n+1, then their product ab isoftheform4n+1 Proof.
+Leta = 4n +1andb = 4n +1,then 1 2 ab = 16n n +4n +4n +1 = 4(4n n +n +n )+1 = 4n +1, 1 2 1 2 1 2 1 2 3 wheren = 4n n +n +n .
+3 1 2 1 2 Theorem 17.
+There are inﬁnitely many primes of the form 4n + 3, where n is a positiveinteger.40 CHAPTER2.
+PRIMENUMBERS Proof.
+Suppose that there are ﬁnitely many primes of the form 4n+3, say p = 0 3,p ,p ,...,p .
+Let 1 2 n N = 4p p ...p +3.
+1 2 n Notice that any odd prime is of the form 4n+1 or 4n+3.
+Then there is at least one prime in the prime factorization of N of the form 4n + 3, as otherwise, by Lemma 7, N will be in the form 4n+1.
+We wish to prove that this prime in the factorizationofN isnoneofp = 3,p ,p ,...,p .
+Noticethatif 0 1 2 n 3 | N, then3 | (N −3)andhence 3 | 4p p ...p 1 2 n whichisimpossiblesincep (cid:54)= 3foreveryi.
+Hence3doesn’tdivideN.
+Also,the i otherprimesp ,p ,...,p don’tdivideN becauseifp | N,then 1 2 n i p | (N −4p p ...p ) = 3. i 1 2 n Hence none of the primes p ,p ,p ,...,p divides N. Thus there are inﬁnitely 0 1 2 n manyprimesoftheform4n+3.
+Exercises 1.
+Findtheprimefactorizationof32,of800andof289.
+2.
+Findtheprimefactorizationof221122andof9!.
+3.
+Show that all the powers of in the prime factorization of an integer a are evenifandonlyifaisaperfectsquare.
+4.
+Showthatthereareinﬁnitelymanyprimesoftheform6n+5.2.4.
+LEASTCOMMONMULTIPLE 41 2.4 Least Common Multiple We can use prime factorization to ﬁnd the smallest common multiple of two pos- itiveintegers.
+Deﬁnition 9.
+The least common multiple (l.c.m.)
+of two positive integers is the smallestpositiveintegerthatisamultipleofboth.
+Wedenotetheleastcommonmultipleoftwopositiveintegersaanbby(cid:104)a,b(cid:105).
+Example18.
+(cid:104)2,8(cid:105) = 8,(cid:104)5,8(cid:105) = 40 We can ﬁgure out (cid:104)a,b(cid:105) once we have the prime factorization of a and b.
+To dothat,let a = pa1pa2...pan and b = pb1pb2...pbn, 1 2 m 1 2 m where (as above) we exclude any prime with 0 power in both a and b.
+Then (cid:104)a,b(cid:105) = pmax(a1,b1)pmax(a2,b2)...pmax(an,bn), where max(a,b) is the maximum of 1 2 m the two integers a and b.
+We now prove a theorem that relates the least common multipleoftwopositiveintegerstotheirgreatestcommondivisor.
+Insomebooks, this theorem is adopted as the deﬁnition of the least common multiple.
+To prove thetheoremwepresentalemma Lemma8.
+Ifaandbaretworealnumbers,then min(a,b)+max(a,b) = a+b Proof.
+Assumewithoutlossofgeneralitythata ≥ b.
+Then max(a,b) = a and min(a,b) = b, andtheresultfollows.
+Theorem18.
+Letaandbbetwopositiveintegers.
+Then 1.
+(cid:104)a,b(cid:105) ≥ 0;42 CHAPTER2.
+PRIMENUMBERS 2.
+(cid:104)a,b(cid:105) = ab/(a,b); 3.
+Ifa | mandb | m,then(cid:104)a,b(cid:105) | m Proof.
+Theproofofpart1followsfromthedeﬁnition.
+Asforpart2,let a = pa1pa2...panand b = pb1pb2...pbn.
+1 2 m 1 2 m Noticethatsince (a,b) = pmin(a1,b2)pmin(a2,b2)...pmin(an,bn) 1 2 n and (cid:104)a,b(cid:105) = pmax(a1,b1)pmax(a2,b2)...pmax(an,bn), 1 2 m then (cid:104)a,b(cid:105)(a,b) = pmax(a1,b1)pmax(a2,b2)...pmax(an,bn)pmin(a1,b2)pmin(a2,b2)...pmin(an,bn) 1 2 m 1 2 n = pmax(a1,b1)+min(a1,b1)pmax(a2,b2)+min(a2,b2)...pmax(an,bn)+min(an,bn) 1 2 m = pa1+b1pa2+b2...p(an+bn) 1 2 n = pa1pa2...panpb1pb2...pbn = ab 1 2 m 1 2 m Note also that we used Lemma 8 in the above equations.
+For part3, itwould be a niceexercisetoshowthatab/(a,b) | m(Exercise6).
+Thus(cid:104)a,b(cid:105) | m. Exercises 1.
+Findtheleastcommonmultipleof14and15.
+2.
+Findtheleastcommonmultipleof240and610.
+3.
+Findtheleastcommonmultipleandthegreatestcommondivisorof25567211 and23587213.
+4.
+Show that every common multiple of two positive integers a and b is divis- iblebytheleastcommonmultipleofaandb.2.5.
+LINEARDIOPHANTINEEQUATIONS 43 5.
+Show that if a and b are positive integers then the greatest common divisor ofaandbdividestheirleastcommonmultiple.
+Whenaretheleastcommon multipleandthegreatestcommondivisorequaltoeachother.
+6.
+Showthatab/(a,b) | mwherem =< a,b >.
+2.5 Linear Diophantine Equations Inthissection,wediscussequationsintwovariablescalleddiophantineequations.
+These kinds of equations require integer solutions.
+The goal of this section is to presentthesetofpointsthatdeterminethesolutiontothiskindofequations.
+Geo- metrically speaking, the diophantine equation represent the equation of a straight line.
+Weneedtoﬁndthepointswhosecoordinatesareintegersandthroughwhich thestraightlinepasses.
+Deﬁnition 10.
+A linear equation of the form ax + by = c where a,b and c are integersisknownasalineardiophantineequation.
+Note that a solution to the linear diophantine equation (x ,y ) requires x 0 0 0 and y to be integers.
+The following theorem describes the case in which the 0 diophantineequationhasasolutionandwhatarethesolutionsofsuchequations.
+Theorem 19.
+The equation ax+by = c has integer solutions if and only if d | c where d = (a,b).
+If the equation has one solution x = x , y = y , then there are 0 0 inﬁnitelymanysolutionsandthesolutionsaregivenby x = x +(b/d)t y = y −(a/d)t 0 0 wheretisanarbitraryinteger.
+Proof.
+Suppose that the equation ax+by = c has integer solution x and y.
+Thus sinced | aandd | b,then d | (ax+by) = c.44 CHAPTER2.
+PRIMENUMBERS Nowwehavetoprovethatifd | c,thentheequationhasintegralsolution.
+Assume thatd | c. Bytheorem9,thereexistintegersmandnsuchthat d = am+bn.
+Andalsothereexistsintegerk suchthat c = dk Nowsincec = ax+by,wehave c = dk = (ma+nb)k = a(km)+b(nk).
+Henceasolutionfortheequationax+by = cis x = km and y = kn.
+0 0 Whatislefttoproveisthatwehaveinﬁnitelymanysolutions.
+Let x = x +(b/d)t and y = y −(a/d)t. 0 0 Wehavetoprovenowthatxandy aresolutionsforallintegerst.
+Noticethat ax+by = a(x +(b/d)t)+b(y −(a/d)t) = ax +by = c. 0 0 0 0 Wenowshowthateverysolutionfortheequationax+by = cisoftheform x = x +(b/d)tand y = y −(a/d)t. 0 0 Noticethatsinceax +by = c,wehave 0 0 a(x−x )+b(y −y ) = 0.
+0 0 Hence a(x−x ) = b(y −y ).
+0 02.5.
+LINEARDIOPHANTINEEQUATIONS 45 Dividingbothsidesbyd,weget a/d(x−x ) = b/d(y −y ).
+0 0 Notice that (a/d,b/d) = 1 and thus we get by Lemma 4 that a/d | y −y .
+As a 0 result,thereexistsanintegertsuchthaty = y −(a/d)t. Nowsubstitutingy−y 0 0 intheequation a(x−x ) = b(y −y ).
+0 0 Weget x = x +(b/d)t. 0 Example19.
+Theequation3x+6y = 7hasnointegersolutionbecause(3,6) = 3 doesnotdivide7.
+Example 20.
+There are inﬁnitely many integer solutions for the equation 4x + 6y = 8 because (4,6) = 2 | 8.
+We use the Euclidean algorithm to determine m andnwhere4m+6n = 2.
+Itturnsoutthat4(−1)+6(1) = 2.
+Andalso8 = 2.4.
+Thus x = 4.
+(−1) = −4 and y = 4.1 = 4 is a particular solution.
+The solutions 0 0 aregivenby x = −4+3t y = 4−2t forallintegerst.
+Exercises 1.
+Eitherﬁndallsolutionsorprovethattherearenosolutionsforthediophan- tineequation21x+7y = 147.
+2.
+Eitherﬁndallsolutionsorprovethattherearenosolutionsforthediophan- tineequation2x+13y = 31.
+3.
+Eitherﬁndallsolutionsorprovethattherearenosolutionsforthediophan- tineequation2x+14y = 17.46 CHAPTER2.
+PRIMENUMBERS 4.
+Agrocerordersapplesandbananasatatotalcostof$8.4.
+Iftheapplescost 25 cents each and the bananas 5 cents each, how many of each type of fruit didheorder.
+2.6 The function [x] , the symbols ”O”, ”o” and ”∼” We start this section by introducing an important number theoretic function.
+We proceedindeﬁningsomeconvenientsymbolsthatwillbeusedinconnectionwith thegrowthandbehaviorofsomefunctionsthatwillbedeﬁnedinlaterchapters.
+2.6.1 The Function [x] .
+Deﬁnition 11.
+The function [x] represents the largest integer not exceeding x.
+In otherwords,forrealx,[x]istheuniqueintegersuchthat x−1 < [x] ≤ x < [x]+1.
+We also deﬁne ((x)) to be the fractional part of x.
+In other words ((x)) = x−[x].
+We now list some properties of [x] that will be used in later or in more advanced coursesinnumbertheory.
+1.
+[x+n] = [x]+n,ifnisaninteger.
+2.
+[x]+[y] ≤ [x+y].
+3.
+[x]+[−x]is0ifxisanintegerand-1otherwise.
+4.
+Thenumberofintegersmforwhichx < m ≤ y is[y]−[x].2.6.
+THEFUNCTION[X],THESYMBOLS”O”,”O”AND”∼” 47 5.
+Thenumberofmultiplesofmwhichdonotexceedxis[x/m].
+Using the deﬁnition of [x], it will be easy to see that the above properties are directconsequencesofthedeﬁnition.
+We now deﬁne some symbols that will be used to estimate the growth of number theoreticfunctions.
+Thesesymbolswillbenotbereallyappreciatedinthecontext ofthisbookbuttheseareoftenusedinmanyanalyticproofs.
+2.6.2 The ”O” and ”o” Symbols Let f(x) be a positive function and let g(x) be any function.
+Then O(f(x)) (pro- nounced ”big-oh” of f(x))denotes the collection of functions g(x) that exhibit a growth that is limited to that of f(x) in some respect.
+The traditional notation for statingthatg(x)belongstothiscollectionis: g(x) = O(f(x)).
+Thismeansthatforsufﬁcientlylargex, | g(x) | < M, (2.3) |f(x)| whereM issomepositivenumber.
+Example21.
+sin(x) = O(x),andalsosin(x) = O(1).
+Now, the relation g(x) = o(f(x)), pronounced ”small-oh” of f(x), is used to indicatethatf(x)growsmuchfasterthang(x).
+Itformallysaysthat g(x) lim = 0.
+(2.4) x→∞ f(x) Moregenerally,g(x) = o(f(x))atapointbif g(x) lim = 0.
+(2.5) x→b f(x)48 CHAPTER2.
+PRIMENUMBERS Example 22. sin(x) = o(x) at ∞, and xk = o(ex) also at ∞ for every constant k. The notation that f(x) is asymptotically equal to g(x) is denoted by ∼.
+For- mallyspeaking,wesaythatf(x) ∼ g(x)if f(x) lim = 1.
+(2.6) x→∞ g(x) Example23.
+[x] ∼ x.
+The purpose of introducing these symbols is to make complicated mathemat- ical expressions simpler.
+Some expressions can be represented as the principal part that you need plus a remainder term.
+The remainder term can be expressed using the above notations.
+So when you need to combine several expressions, the remainder parts involving these symbols can be easily combined.
+We will state now some properties of the above symbols without proof.
+These properties are easytoproveusingthedeﬁnitionsofthesymbols.
+1.
+O(O(f(x))) = O(f(x)), 2. o(o(f(x))) = o(f(x)).
+3.
+O(f(x))±O(f(x)) = O(f(x)), 4. o(f(x)±o(f(x)) = o(f(x)), 5.
+O(f(x))±O(g(x)) = O(max(f(x),g(x))), There are some other properties that we did not mention here, properties that are rarelyusedinnumbertheoreticproofs.
+Exercises 1.
+Provetheﬁvepropertiesofthe[x] 2.
+ProvetheﬁvepropertiesoftheO andonotationsinExample24.2.7.
+THEOREMSANDCONJECTURESINVOLVINGPRIMENUMBERS 49 2.7 Theorems and Conjectures involving prime num- bers We have proved that there are inﬁnitely many primes.
+We have also proved that there are arbitrary large gaps between primes.
+The question that arises naturally hereisthefollowing: Canweestimatehowmanyprimesaretherelessthanagiven number?
+Thetheoremthatanswersthisquestionistheprimenumbertheorem.
+We denote by π(x) the number of primes less than a given positive number x.
+Many mathematicians worked on this theorem and conjectured many estimates before Chebyshev ﬁnally stated that the estimate is x/logx.
+The prime number theorem was ﬁnally proved in 1896 when Hadamard and Poussin produced independent proofs.
+Before stating the prime number theorem, we state and prove a lemma involvingprimesthatwillbeusedinthecomingchapters.
+Lemma9.
+Letpbeaprimeandletm ∈ Z+.
+Thenthehighestpowerofpdividing m!is ∞ (cid:20) (cid:21) (cid:88) m pi i=1 (cid:104) (cid:105) Proof.
+Among all the integers from 1 till m, there are exactly m integers that p (cid:104) (cid:105) (cid:104) (cid:105) are divisible by p. These are p,2p,..., m p. Similarly we see that there are m p pi integersthataredivisiblebypi.
+Asaresult,thehighestpowerofpdividingm!is (cid:26)(cid:20) (cid:21) (cid:20) (cid:21)(cid:27) (cid:20) (cid:21) (cid:88) m m (cid:88) m i − = pi pi+1 pi i≥1 i≥1 Theorem20.
+ThePrimeNumberTheoremLetx > 0then π(x) ∼ x/logx50 CHAPTER2.
+PRIMENUMBERS So this theorem says that you do not need to ﬁnd all the primes less than x to ﬁnd out their number, it will be enough to evaluate x/logx for large x to ﬁnd an estimate for the number of primes.
+Notice that I mentioned that x has to be large enoughtobeabletousethisestimate.
+Several other theorems were proved concerning prime numbers.
+many great mathematicians approached problems that are related to primes.
+There are still manyopenproblemsofwhichwewillmentionsome.
+Conjecture 1.
+Twin Prime Conjecture There are inﬁnitely many pairs primes p andp+2.
+Conjecture2.
+Goldbach’sConjectureEveryevenpositiveintegergreaterthan2 canbewrittenasthesumoftwoprimes.
+Conjecture 3.
+The n2 + 1 Conjecture There are inﬁnitely many primes of the formn2 +1,wherenisapositiveinteger.
+Conjecture4.
+PolignacConjectureForeveryevennumber2narethereinﬁnitely manypairsofconsecutiveprimeswhichdifferby2n.
+Conjecture 5.
+Opperman Conjecture Is there always a prime between n2 and (n+1)2?Chapter 3 Congruences A congruence is nothing more than a statement about divisibility.
+The theory of congruences was introduced by Carl Friedreich Gauss.
+Gauss contributed to the basicideasofcongruencesandprovedseveraltheoremsrelatedtothistheory.
+We start by introducing congruences and their properties.
+We proceed to prove theo- rems about the residue system in connection with the Euler φ-function.
+We then present solutions to linear congruences which will serve as an introduction to the Chinese remainder theorem.
+We present ﬁnally important congruence theorems derivedbyWilson,FermatandEuler.
+3.1 Introduction to congruences Aswementionedintheintroduction,thetheoryofcongruenceswasdevelopedby Gaussatthebeginningofthenineteenthcentury.
+Deﬁnition12.
+Letmbeapositiveinteger.
+Wesaythataiscongruenttobmodulo mifm | (a−b)whereaandbareintegers,i.e.
+ifa = b+kmwherek ∈ Z. Ifaiscongruenttobmodulom,wewritea ≡ b(modm).
+5152 CHAPTER3.
+CONGRUENCES Example 24.
+19 ≡ 5(mod 7).
+Similarly 2k +1 ≡ 1(mod 2) which means every oddnumberiscongruentto1modulo2.
+Therearemanycommonpropertiesbetweenequationsandcongruences.
+Some propertiesarelistedinthefollowingtheorem.
+Theorem21.
+Leta,b,candddenoteintegers.
+Letmbeapositiveintegers.
+Then: 1.
+Ifa ≡ b(modm),thenb ≡ a(modm).
+2.
+Ifa ≡ b(modm)andb ≡ c(modm),thena ≡ c(modm).
+3.
+Ifa ≡ b(modm),thena+c ≡ b+c(modm).
+4.
+Ifa ≡ b(modm),thena−c ≡ b−c(modm).
+5.
+Ifa ≡ b(modm),thenac ≡ bc(modm).
+6.
+Ifa ≡ b(modm),thenac ≡ bc(modmc),forc > 0.
+7.
+Ifa ≡ b(modm)andc ≡ d(modm)thena+c ≡ (b+d)(modm).
+8.
+Ifa ≡ b(modm)andc ≡ d(modm)thena−c ≡ (b−d)(modm).
+9.
+Ifa ≡ b(modm)andc ≡ d(modm)thenac ≡ bd(modm).
+Proof.
+1.
+If a ≡ b(mod m), then m | (a − b).
+Thus there exists integer k such that a−b = mk, this implies b−a = m(−k) and thus m | (b−a).
+Consequentlyb ≡ a(modm).
+2.
+Since a ≡ b(mod m), then m | (a − b).
+Also, b ≡ c(mod m), then m | (b−c).
+Asaresult,thereexittwointegersk andlsuchthata = b+mk andb = c+ml,whichimplythata = c+m(k+l)givingthata = c(modm).3.1.
+INTRODUCTIONTOCONGRUENCES 53 3.
+Sincea ≡ b(modm),thenm | (a−b).
+Soifweaddandsubtractcweget m | ((a+c)−(b+c)) andasaresult a+c ≡ b+c(modm).
+4.
+Sincea ≡ b(modm),thenm | (a−b)sowecansubtractandaddcandwe get m | ((a−c)−(b−c)) andasaresult a−c ≡ b−c(modm).
+5.
+If a ≡ b(mod m), then m | (a − b).
+Thus there exists integer k such that a−b = mk andasaresultac−bc = m(kc).
+Thus m | (ac−bc) andhence ac ≡ bc(modm).
+6.
+If a ≡ b(mod m), then m | (a − b).
+Thus there exists integer k such that a−b = mk andasaresult ac−bc = mc(k).
+Thus mc | (ac−bc) andhence ac ≡ bc(modmc).54 CHAPTER3.
+CONGRUENCES 7.
+Since a ≡ b(mod m), then m | (a − b).
+Also, c ≡ d(mod m), then m | (c−d).
+Asaresult,thereexitstwointegerskandlsuchthata−b = mk andc−d = ml.
+Notethat (a−b)+(c−d) = (a+c)−(b+d) = m(k +l).
+Asaresult, m | ((a+c)−(b+d)), hence a+c ≡ b+d(modm).
+8.
+Ifa = b+mk andc = d+ml wherek andl areintegers,then (a−b)−(c−d) = (a−c)−(b−d) = m(k −l).
+Asaresult, m | ((a−c)−(b−d)), hence a−c ≡ b−d(modm).
+9.
+There exit two integers k and l such that a−b = mk and c−d = ml and thusca−cb = m(ck)andbc−bd = m(bl).
+Notethat (ca−cb)+(bc−bd) = ac−bd = m(kc−lb).
+Asaresult, m | (ac−bd), hence ac ≡ bd(modm).3.1.
+INTRODUCTIONTOCONGRUENCES 55 Examples1.
+1.
+Because14 ≡ 8(mod6)then8 ≡ 14(mod6).
+2.
+Because22 ≡ 10(mod6)and10 ≡ 4(mod6).
+Noticethat22 ≡ 4(mod6).
+3.
+Because50 ≡ 20(mod15),then50+5 = 55 ≡ 20+5 = 25(mod15).
+4.
+Because50 ≡ 20(mod15),then50−5 = 45 ≡ 20−5 = 15(mod15).
+5.
+Because19 ≡ 16(mod3),then2(19) = 38 ≡ 2(16) = 32(mod3).
+6.
+Because19 ≡ 16(mod3),then2(19) = 38 ≡ 2(16) = 32(mod2(3) = 6).
+7.
+Because19 ≡ 3(mod8)and17 ≡ 9(mod8),then19+17 = 36 ≡ 3+9 = 12(mod8).
+8.
+Because 19 ≡ 3(mod 8) and 17 ≡ 9(mod 8), then 19−17 = 2 ≡ 3−9 = −6(mod8).
+9.
+Because 19 ≡ 3(mod 8) and 17 ≡ 9(mod 8), then 19(17) = 323 ≡ 3(9) = 27(mod8).
+We now present a theorem that will show one difference between equations and congruences.
+In equations, if we divide both sides of the equation by a non- zero number, equality holds.
+While in congruences, it is not necessarily true.
+In other words, dividing both sides of the congruence by the same integer doesn’t preservethecongruence.
+Theorem22.
+1.
+Ifa,b,c and m are integers such that m > 0, d = (m,c) and ac ≡ bc(modm),thena ≡ b(modm/d).
+2.
+If(m,c) = 1thena = b(modm)ifac ≡ bc(modm).
+Proof.
+Part 2 follows immediately from Part 1.
+For Part 1, if ac ≡ bc(mod m), then m | (ac−bc) = c(a−b).56 CHAPTER3.
+CONGRUENCES Hence there exists k such that c(a−b) = mk.
+Dividing both sides by d, we get (c/d)(a − b) = k(m/d).
+Since (m/d,c/d) = 1, it follows that m/d | (a − b).
+Hencea ≡ b(modm/d).
+Example25.
+38 ≡ 10(mod7).
+Since(2,7) = 1then19 ≡ 5(mod7).
+The following theorem combines several congruences of two numbers with differentmoduli.
+Theorem23.
+If a ≡ b(modm ),a ≡ b(modm ),...,a ≡ b(modm ) 1 2 t wherea,b,m ,m ,...,m areintegersandm ,m ,...,m arepositive,then 1 2 t 1 2 t a ≡ b(mod(cid:104)m ,m ,...m (cid:105)) 1 2 t Proof.
+Sincea ≡ b(modm )forall1 ≤ i ≤ t. Thusm | (a−b).
+Asaresult, i i (cid:104)m ,m ,...,m (cid:105) | (a−b) 1 2 t (provethisasanexercise).
+Thus a ≡ b(mod(cid:104)m ,m ,...m (cid:105)).
+1 2 t Exercises 1.
+Determinewhether3and99arecongruentmodulo7ornot.
+2.
+Showthatifxisanoddinteger,thenx2 ≡ 1(mod8) 3.
+Showthatifa,b,mandnareintegerssuchthatmandnarepositive,n | m anda ≡ b(modm),thena ≡ b(modn).
+4.
+Showthatifa ≡ b (modm)fori = 1,2,...,n,wheremisapositiveinteger i i anda ,b areintegersforj = 1,2,...,n,then(cid:80)n a ≡ (cid:80)n b (modm) i i i=1 i i=1 i 5.
+Forwhichndoestheexpression1+2+...+(n−1) ≡ 0(modn)holds.3.2.
+RESIDUESYSTEMSANDEULER’Sφ-FUNCTION 57 3.2 Residue Systems and Euler’s φ-Function 3.2.1 Residue Systems Suppose m is a positive integer.
+Given two integers a and b, we see that by the division algorithm that a = bm + r where 0 ≤ r < m. We call r the least non- negative residue of a modulo m. As a result, we see that any integer is congruent tooneoftheintegers0,1,2,...,m−1modulom.
+Deﬁnition 13.
+A complete residue system modulo m is a set of integers such that everyintegeriscongruentmodulomtoexactlyoneintegeroftheset.
+Theeasiestcompleteresiduesystemmodulomisthesetofintegers0,1,2,...,m− 1.
+Everyintegeriscongruenttooneoftheseintegersmodulom.
+Example 26.
+The set of integers {0,1,2,3,4} form a complete residue system modulo5.
+Anothercompleteresiduesystemmodulo5couldbe6,7,8,9,10.
+Deﬁnition14.
+Areducedresiduesystemmodulomisasetofintegersr suchthat i (r ,m) = 1foralliandr (cid:54)= r (modm)ifi (cid:54)= j. i i j Notice that, a reduced residue system modulo m can be obtained by deleting alltheelementsofthecompleteresiduesystemsetthatarenotrelativelyprimeto m. Example27.
+Thesetofintegers{1,5}isareducedresiduesystemmodulo6.
+The following lemma will help determine a complete residue system modulo anypositiveintegerm.
+Lemma 10.
+A set of m incongruent integers modulo m forms a complete residue systemmodulom.58 CHAPTER3.
+CONGRUENCES Proof.
+We will prove this lemma by contradiction.
+Suppose that the set of m integersdoesnotformacompleteresiduesystemmodulom.
+Thenwecanﬁndat least one integer a that is not congruent to any element in this set.
+Hence non of the elements of this set is actually congruent to the remainder when a is divided by m. Thus dividing by m yields to at most m−1 remainders.
+Therefore by the pigeonhole principle, atleast two integers inthe set that have thesame remainder modulom.
+Thisisacontradictionsincethesetofintegersisformedofmintegers thatareincongruentmodulom.
+Theorem 24.
+If a ,a ,...,a is a complete residue system modulo m, and if k is 1 2 m apositiveintegerwith(k,m) = 1,then ka +b,ka +b,...,ka +b 1 2 m isanothercompleteresiduesystemmodulomforanyintegerb.
+Proof.
+Letusproveﬁrstthatnotwoelementsoftheset{ka +b,ka +b,...,ka + 1 2 m b}arecongruentmodulom.
+Supposethereexistsiandj suchthat ka +b ≡ ka +b(modm).
+i j Thuswegetthat ka ≡ ka (modm).
+i j Nowsince(k,m) = 1,weget a ≡ a (modm) i j But for i (cid:54)= j, a is inequivalent to a modulo m. Thus i = j.
+Now notice that i j there are m inequivalent integers modulo m and thus by Lemma 10, the set form acompleteresiduesystemmodulom.3.3.
+LINEARCONGRUENCES 59 3.2.2 Euler’s φ-Function We now present a function that counts the number of positive integers less than a givenintegerthatarerelativelyprimetothatgiveninteger.
+Thisfunctioniscalled Euler φ-function.
+We will discuss the properties of Euler φ-function in details in chapter5.
+Itwillbesufﬁcientforourpurposesinthischaptertothenotation.
+Deﬁnition 15.
+The Euler φ-function of a positive integer n, denoted by φ(n) counts the number of positive integers less than n that are relatively prime to n. Example 28.
+Since 1 and 3 are the only two integers that are relatively prime to 4andlessthan 4,thenφ(4) = 2.
+Also, 1,2,...,6aretheintegersthatarerelatively primeto7thatarelessthan7,thusφ(7) = 6.
+Now we can say that the number of elements in a reduced residue system modulonisφ(n).
+Theorem25.
+Ifa ,a ,...,a isareducedresiduesystemmodulonand(k,n) = 1 2 φ(n) 1,thenka ,ka ,...,ka isareducedresiduesystemmodulon.
+1 2 φ(n) Proof.
+TheproofproceedsexactlyinthesamewayasthatofTheorem24.
+Exercises 1.
+Giveareducedresiduesystemmodulo12.
+2.
+Giveacompleteresiduesystemmodulo13consistingonlyofoddintegers.
+3.
+Findφ(8)andφ(101).
+3.3 Linear Congruences Because congruences are analogous to equations, it is natural to ask about solu- tionsoflinearequations.
+Inthissection,wewillbediscussinglinearcongruences ofonevariableandtheirsolutions.
+Westartbydeﬁninglinearcongruences.60 CHAPTER3.
+CONGRUENCES Deﬁnition16.
+Acongruenceoftheformax ≡ b(modm)wherexisanunknown integeriscalledalinearcongruenceinonevariable.
+It is important to know that if x is a solution for a linear congruence, then 0 all integers x such that x ≡ x (mod m) are solutions of the linear congruence.
+i i 0 Noticealsothatax ≡ b(modm)isequivalenttoalinearDiophantineequationi.e.
+thereexistsy suchthatax−my = b. Wenowprovetheoremsaboutthesolutions oflinearcongruences.
+Theorem 26.
+Let a,b and m be integers such that m > 0 and let c = (a,m).
+If c does not divide b, then the congruence ax ≡ b(mod m) has no solutions.
+If c | b, then ax ≡ b(modm) hasexactlycincongruentsolutionsmodulom.
+Proof.
+As we mentioned earlier, ax ≡ b(mod m) is equivalent to ax−my = b.
+By Theorem 19 on Diophantine equations, we know that if c does not divide b, then the equation, ax − my = b has no solutions.
+Notice also that if c | b, then thereareinﬁnitelymanysolutionswhosevariablexisgivenby x = x +(m/c)t 0 Thustheabovevaluesofxaresolutionsofthecongruenceax ≡ b(modm).
+Now wehavetodeterminethenumberofincongruentsolutionsthatwehave.
+Suppose thattwosolutionsarecongruent,i.e.
+x +(m/c)t ≡ x +(m/c)t (modm).
+0 1 0 2 Thusweget (m/c)t ≡ (m/c)t (modm).
+1 2 Nownoticethat(m,m/c) = m/candthus t ≡ t (modc).
+1 23.3.
+LINEARCONGRUENCES 61 Thus we get a set of incongruent solutions given by x = x +(m/c)t, where t is 0 takenmoduloc.
+Remark 2.
+Notice that if c = (a,m) = 1, then there is a unique solution modulo mfortheequationax ≡ b(modm).
+Example 29.
+Let us ﬁnd all the solutions of the congruence 3x ≡ 12(mod 6).
+Notice that (3,6) = 3 and 3 | 12.
+Thus there are three incongruent solutions modulo 6.
+We use the Euclidean algorithm to ﬁnd the solution of the equation 3x − 6y = 12 as described in chapter 2.
+As a result, we get x = 6.
+Thus the 0 threeincongruentsolutionsaregivenbyx = 6(mod6),x = 6+2 = 2(mod6) 1 1 andx = 6+4 = 4(mod6).
+2 As we mentioned earlier in Remark 2, the congruence ax ≡ b(mod m) has a uniquesolutionif(a,m) = 1.
+Thiswillallowustotalkaboutmodularinverses.
+Deﬁnition 17.
+A solution for the congruence ax ≡ 1(mod m) for (a,m) = 1 is calledthemodularinverseofamodulom.
+Wedenotesuchasolutionbya¯.
+Example 30.
+The modularinverse of 7modulo 48 is 7.
+Notice that a solutionfor 7x ≡ 1(mod48)isx ≡ 7(mod48).
+Exercises 1.
+Findallsolutionsof3x ≡ 6(mod9).
+2.
+Findallsolutionsof3x ≡ 2(mod7).
+3.
+Findaninversemodulo13of2andof11.
+¯ 4.
+Showthatifa¯ istheinverseofamodulomandbistheinverseofbmodulo ¯ m,thena¯bistheinverseofabmodulom.62 CHAPTER3.
+CONGRUENCES 3.4 The Chinese Remainder Theorem Inthissection,wediscussthesolutionofasystemofcongruenceshavingdifferent moduli.
+An example of this kind of systems is the following; ﬁnd a number that leaves a remainder of 1 when divided by 2, a remainder of 2 when divided by three and a remainder of 3 when divided by 5.
+This kind of question can be translatedintothelanguageofcongruences.
+Asaresult,inthischapter,wepresent asystematicwayofsolvingthissystemofcongruences.
+Theorem27.
+Thesystemofcongruences x ≡ b (modn ), 1 1 x ≡ b (modn ), 2 2 .
+.
+.
+x ≡ b (modn ), t t has a unique solution modulo N = n n ...n if n ,n ,...,n are pairwise rela- 1 2 t 1 2 t tivelyprimepositiveintegers.
+Proof.
+Let N = N/n .
+Since (n ,n ) = 1 for all i (cid:54)= j, then (N ,n ) = 1. k k i j k k Hence by Theorem 26 , we can ﬁnd an inverse y of N modulo n such that k k k N y ≡ 1(modn ).
+Considernow k k k t (cid:88) x = b N y i i i i=1 Since N ≡ 0(modn ) forall j (cid:54)= k, j k thusweseethat x ≡ b N y (modn ).
+k k k k3.4.
+THECHINESEREMAINDERTHEOREM 63 Also notice that N y ≡ 1(mod n ).
+Hence x is a solution to the system of t k k k congruences.
+We have to show now that any two solutions are congruent modulo N. Supposenowthatyouhavetwosolutionsx ,x tothesystemofcongruences.
+0 1 Then x ≡ x (modn ) 0 1 k forall1 ≤ k ≤ t. ThusbyTheorem23,weseethat x ≡ x (modN).
+0 1 ThusthesolutionofthesystemisuniquemoduloN.
+We now present an example that will show how the Chinese remainder theo- remisusedtodeterminethesolutionofagivensystemofcongruences.
+Example31.
+Solvethesystem x ≡ 1(mod2) x ≡ 2(mod3) x ≡ 3(mod5).
+WehaveN = 2.3.5 = 30.
+Also N = 30/2 = 15,N = 30/3 = 10and N = 30/5 = 6.
+1 2 3 Sowehavetosolvenow15y ≡ 1(mod2).
+Thus 1 y ≡ 1(mod2).
+1 Inthesameway,weﬁndthat y ≡ 1(mod3)and y ≡ 1(mod5).
+2 3 Asaresult,weget x ≡ 1.15.1+2.10.1+3.6.1 ≡ 53 ≡ 23(mod30).64 CHAPTER3.
+CONGRUENCES Exercises 1.
+Find an integer that leaves a remainder of 2 when divided by either 3 or 5, butthatisdivisibleby4.
+2.
+Find all integers that leave a remainder of 4 when divided by 11 and leaves aremainderof3whendividedby17.
+3.
+Findallintegersthatleavearemainderof1whendividedby2,aremainder of2whendividedby3andaremainderof3whendividedby5.
+3.5 Theorems of Fermat, Euler, and Wilson In this section we present three applications of congruences.
+The ﬁrst theorem is Wilson’s theorem which states that (p−1)!+1 is divisible by p, for p prime.
+Next, we present Fermat’s theorem, also known as Fermat’s little theorem which states that ap and a have the same remainders when divided by p where p (cid:45) a. FinallywepresentEuler’stheoremwhichisageneralizationofFermat’stheorem anditstatesthatforanypositiveintegermthatisrelativelyprimetoanintegera, aφ(m) ≡ 1(mod m) where φ is Euler’s φ-function.
+We start by proving a theorem abouttheinverseofintegersmoduloprimes.
+Theorem 28.
+Let p be a prime.
+A positive integer m is its own inverse modulo p ifandonlyifpdividesm+1orpdividesm−1.
+Proof.
+Supposethatmisitsowninverse.
+Thus m.m ≡ 1(modp).
+Hencep | m2 −1.
+Asaresult, p | (m−1)or p | (m+1).3.5.
+THEOREMSOFFERMAT,EULER,ANDWILSON 65 Wegetthatm ≡ 1(modp)orm ≡ −1(modp).
+Conversely,supposethat m ≡ 1(modp)or m ≡ −1(modp).
+Thus m2 ≡ 1(modp).
+Theorem29.
+Wilson’sTheoremIfpisaprimenumber,thenpdivides(p−1)!+1.
+Proof.
+When p = 2, the congruence holds.
+Now let p > 2.
+Using Theorem 26, we see that for each 1 ≤ m ≤ p, there is an inverse 1 ≤ m¯ ≤ p such that mm¯ ≡ 1(mod p).
+Thus by Theorem 28, we see that the only two integers that have their own inverses are1 and p−1.
+Hence after coupling the integers from 2 top−2eachwithitsinverse,weget 2.3.....(p−2) ≡ 1(modp).
+Thusweget 1.2.3.....(p−2)(p−1) ≡ (p−1)(modp) Asaresult,wehave(p−1)!
+≡ −1(modp).
+NotealsothattheconverseofWilson’stheoremalsoholds.
+Theconversetells uswhetheranintegerisprimeornot.
+Theorem30.
+Ifmisapositiveintegerwithm ≥ 2suchthat (m−1)!+1 ≡ 0(modm) thenmisprime.66 CHAPTER3.
+CONGRUENCES Proof.
+Supposethatmhasaproperdivisorc andthat 1 (m−1)!+1 ≡ 0(modm).
+That is m = c c where 1 < c < m and 1 < c < m. Thus c is a divisor of 1 2 1 2 1 (m−1)!.
+Also,since m | ((m−1)!+1), weget c | ((m−1)!+1).
+1 Asaresult,byTheorem4,wegetthat c | ((m−1)!+1−(m−1)!
+), 1 whichgivesthatc | 1.
+Thisisacontradictionandhencemisprime.
+1 We now present Fermat’s Theorem or what is also known as Fermat’s Little Theorem.
+It states that the remainder of ap−1 when divided by a prime p that doesn’t divide a is 1.
+We then state Euler’s theorem which states that the remain- der of aφ(m) when divided by a positive integer m that is relatively prime to a is 1.
+We prove Euler’s Theorem only because Fermat’s Theorem is nothing but a specialcaseofEuler’sTheorem.
+Thisisduetothefactthatforaprimenumberp, φ(p) = p−1.
+Theorem31.
+Euler’sTheoremIfmisapositiveintegerandaisanintegersuch that(a,m) = 1,then aφ(m) ≡ 1(modm) Example32.
+Notethat34 = 81 ≡ 1(mod5).
+Also,2φ(9) = 26 = 64 ≡ 1(mod9).
+WenowpresenttheproofofEuler’stheorem.3.5.
+THEOREMSOFFERMAT,EULER,ANDWILSON 67 Proof.
+Let k ,k ,...,k be a reduced residue system modulo m. By Theorem 1 2 φ(m) 25,theset {ak ,ak ,...,ak } 1 2 φ(m) alsoformsareducedresiduesystemmodulom.
+Thus ak ak ...ak = aφ(m)k k ...k ≡ k k ...k (modm).
+1 2 φ(m) 1 2 φ(m) 1 2 φ(m) Now since (k ,m) = 1 for all 1 ≤ i ≤ φ(m), we have (k k ...k ,m) = 1. i 1 2 φ(m) HencebyTheorem22wecancanceltheproductofk’sonbothsidesandweget aφ(m) ≡ 1(modm).
+AnimmediateconsequenceofEuler’sTheoremis: Corollary 1.
+Fermat’s Theorem If p is a prime and a is a positive integer with p (cid:45) a,then ap−1 ≡ 1(modp).
+WenowpresentacoupleoftheoremsthataredirectconsequencesofFermat’s theorem.
+The ﬁrst states Fermat’s theorem in a different way.
+It says that the remainderofap whendividedbypisthesameastheremainderofawhendivided by p. The other theorem determines the inverse of an integer a modulo p where p (cid:45) a. Theorem 32.
+If p is a prime number and a is a positive integer, then ap ≡ a(modp).
+Proof.
+Ifp (cid:45) a,byFermat’stheoremweknowthat ap−1 ≡ 1(modp).
+Thus,weget ap ≡ a(modp).68 CHAPTER3.
+CONGRUENCES Nowifp | a,wehave ap ≡ a ≡ 0(modp).
+Theorem33.
+Ifpisaprimenumberandaisanintegersuchthatp (cid:45) a,thenap−2 istheinverseofamodulop.
+Proof.
+Ifp (cid:45) a,thenFermat’stheoremsaysthat ap−1 ≡ 1(modp).
+Hence ap−2a ≡ 1(modp).
+Asaresult,ap−2 istheinverseofamodulop.
+Exercises 1.
+Showthat10!+1isdivisibleby11.
+2.
+Whatistheremainderwhen5!25!
+isdividedby31?
+3.
+Whatistheremainderwhen5100 isdividedby7?
+4.
+Showthatifpisanoddprime,then2(p−3)!
+≡ −1(modp).
+5.
+Findareducedresiduesystemmodulo2m,wheremisapositiveinteger.
+6.
+Show that if a ,a ,...,a is a reduced residue system modulo m, where 1 2 φ(m) misapositiveintegerwithm (cid:54)= 2,thena +a +...+a ≡ 0(modm).
+1 2 φ(m) 7.
+Showthatifaisanintegersuchthataisnotdivisibleby3orsuchthatais divisibleby9,thena7 ≡ a(mod63).Chapter 4 Multiplicative Number Theoretic Functions Inthischapter,westudyfunctions,calledmultiplicativefunctions,thataredeﬁned on integers.
+These functions have the property that their value at the product of tworelativelyprimeintegersisequaltotheproductofthevalueofthefunctionsat theseintegers.
+Westartbyprovingseveraltheoremsaboutmultiplicativefunctions that we will use later.
+We then study special functions and prove that the Euler φ-functionthatwasseenbeforeisactuallymultiplicative.
+Wealsodeﬁnethesum ofdivisorsandthenumberofdivisorsfunctions.
+Later deﬁne the Mobius function which investigate integers in terms of their prime decomposition.
+The summatory function of a given function takes the sum of the values of f at the divisors of a given integer n. We then determine the Mobius inversion of this function which writes the values of f in terms of the valuesofitssummatoryfunction.
+Weendthischapterbypresentingintegerswith interestingpropertiesandprovesomeoftheirproperties.
+6970 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS 4.1 Deﬁnitions and Properties Deﬁnition 18.
+An arithmetic function is a function whose domain of deﬁnition is thesetNofpositiveintegers.
+Deﬁnition19.
+Anarithmeticfunctionf iscalledmultiplicativeiff(ab) = f(a)f(b) foralla,b ∈ Nsuchthat(a,b) = 1.
+Deﬁnition20.
+Anarithmeticfunctionf iscalledcompletelymultiplicativeif f(ab) = f(a)f(b) (4.1) forallpositiveintegersa,b.
+Example 33.
+The function f(a) = 1 where k is a completely multiplicative func- tionsince f(ab) = 1 = f(a)f(b).
+Notice also that a completely multiplicative function is a multiplicative function butnototherwise.
+Wenowproveatheoremaboutmultiplicativefunctions.
+Wewillbeinterested in studying the properties of multiplicative functions rather than the completely multiplicativeones.
+Theorem 34.
+Given a multiplicative function f. Let n = (cid:81)s pak be the prime k=1 k factorizationofn.
+Then s (cid:89) f(n) = f(pak).
+k k=1 Proof.
+Weprovethistheorembyinductiononthenumberofprimesinthefactor- ization of n. Suppose that n = pa1.
+Thus the result follow easily.
+Suppose now 1 thatfor s (cid:89) n = pak, k k=14.1.
+DEFINITIONSANDPROPERTIES 71 wehave s (cid:89) f(n) = f(pak).
+k k=1 Sowehavetoprovethatif s+1 (cid:89) n = pak, k k=1 then s+1 (cid:89) f(n) = f(pak).
+k k=1 Noticethatfor s+1 (cid:89) n = pak, k k=1 wehave((cid:81)s pak,pas+1) = 1.
+Thuswehaveget k=1 k s+1 s+1 s (cid:89) (cid:89) f(n) = f( pak) = f( pak)f(pas+1) k k s+1 k=1 k=1 whichbytheinductivestepgives s+1 s+1 (cid:89) (cid:89) f( pak) = f(n) = f(pak).
+k k k=1 k=1 From the above theorem, we can see that to evaluate a multiplicative function ataninteger,itwillbeenoughtoknowthevalueofthefunctionattheprimesthat areintheprimefactorizationofthenumber.
+We now deﬁne summatory functions which represents the sum of the values ofagivenfunctionatthedivisorsofagivennumber.
+Deﬁnition21.
+Letf beanarithmeticfunction.
+Deﬁne (cid:88) F(n) = f(d) d|n ThenF iscalledthesummatoryfunctionoff.72 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS This function determines the sum of the values of the arithmetic function at thedivisorsofagiveninteger.
+Example34.
+Iff(n)isanarithmeticfunction,then (cid:88) F(18) = f(d) = f(1)+f(2)+f(3)+f(6)+f(9)+f(18).
+d|18 Theorem 35.
+If f is a multiplicative function, then the summatory function of f (cid:80) denotedbyF(n) = f(d)isalsomultiplicative.
+d|n Proof.
+We have to prove that F(mn) = F(m)F(n) whenever (m,n) = 1.
+We have (cid:88) F(mn) = f(d).
+d|mn NoticethatbyLemma6,eachdivisorofmncanbewrittenuniquelyasaproduct ofrelatively prime divisors d ofmandd ofn, moreover the product ofany two 1 2 divisorsofmandnisadivisorofmn.
+Thusweget (cid:88) F(mn) = f(d d ) 1 2 d1|m,d2|n Noticethatsincef ismultiplicative,wehave (cid:88) F(mn) = f(d d ) 1 2 d1|m,d2|n (cid:88) = f(d )f(d ) 1 2 d1|m,d2|n (cid:88) (cid:88) = f(d ) f(d ) = F(m)F(n) 1 2 d1|m d2|n Exercises 1.
+Determine whether the arithmetic functions f(n) = n!
+and g(n) = n/2 are completelymultiplicativeornot.4.2.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS 73 2.
+Deﬁnethearithmeticfunctiong(n)bythefollowing.
+g(n)=1ifn = 1and0 forn > 1.
+Provethatg(n)ismultiplicative.
+4.2 Multiplicative Number Theoretic Functions Wenowpresentseveralmultiplicativenumbertheoreticfunctionswhichwillplay a crucial role in many number theoretic results.
+We start by discussing the Euler phi-function which was deﬁned in an earlier chapter.
+We then deﬁne the sum-of- divisorsfunctionandthenumber-of-divisorsfunctionalongwiththeirproperties.
+4.2.1 The Euler φ-Function As deﬁned earlier, the Euler φ-function counts the number of integers smaller than and relatively prime to a given integer.
+We ﬁrst calculate the value of the phi-functionatprimesandprimepowers.
+Theorem36.
+If p is prime, then φ(p) = p−1.
+Conversely,if p is an integer such thatφ(p) = p−1,thenpisprime.
+Proof.
+Theﬁrstpartisobvioussinceeverypositiveintegerlessthanpisrelatively primetop.
+Conversely,supposethatpisnotprime.
+Thenp = 1orpisacomposite number.
+Ifp = 1,thenφ(p) (cid:54)= p−1.
+Nowifpiscomposite,thenphasapositive divisor.
+Thusφ(p) (cid:54)= p−1.
+Wehaveacontradictionandthuspisprime.
+Wenowﬁndthevalueofφatprimepowers.
+Theorem37.
+Letpbeaprimeandmapositiveinteger,thenφ(pm) = pm−pm−1.
+Proof.
+Note that all integers that are relatively prime to pm and that are less than pm are those that are not multiple of p. Those integers are p,2p,3p,...,pm−1p.
+There are pm−1 of those integers that are not relatively prime to pm and that are lessthanpm.
+Thus φ(pm) = pm −pm−1.74 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS Example35.
+φ(73) = 73−72 = 343−49 = 294.
+Alsoφ(210) = 210−29 = 512.
+Wenowprovethatφisamultiplicativefunction.
+Theorem38.
+Letmandnbetworelativelyprimepositiveintegers.
+Thenφ(mn) = φ(m)φ(n).
+Proof.
+Denoteφ(m)bysandletk ,k ,...,k beareducedresiduesystemmodulo 1 2 s m. Similarly, denote φ(n) by t and let k(cid:48),k(cid:48),...,k(cid:48) be a reduced residue system 1 2 t modulon.
+Noticethatifxbelongstoareducedresiduesystemmodulomn,then (x,m) = (x,n) = 1.
+Thus x ≡ k (modm)and x ≡ k(cid:48)(modn) i j forsomei,j.
+Conversely,if x ≡ k (modm)and x ≡ k(cid:48)(modn) i j somei,j then(x,mn) = 1andthusxbelongstoareducedresiduesystemmodulo mn.
+Thus a reduced residue system modulo mn can be obtained by by determin- ing all x that are congruent to k and k(cid:48) modulo m and n respectively.
+By the i j Chineseremaindertheorem,thesystemofequations x ≡ k (modm)and x ≡ k(cid:48)(modn) i j has a unique solution.
+Thus different i and j will yield different answers.
+Thus φ(mn) = st. Wenowderiveaformulaforφ(n).
+Theorem39.
+Letn = pa1pa2...pas betheprimefactorizationofn.
+Then 1 2 s (cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19) 1 1 1 φ(n) = n 1− 1− ... 1− .
+p p p 1 2 s4.2.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS 75 Proof.
+ByTheorem37,wecanseethatforall1 ≤ i ≤ k (cid:18) (cid:19) 1 φ(pai) = pai −pai−1 = pai 1− .
+i i i i p i ThusbyTheorem38, φ(n) = φ(pa1pa2...pas) 1 2 s = φ(pa1)φ(pa2)...φ(pas) 1 2 s (cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19) 1 1 1 = pa1 1− pa2 1− ...pas 1− 1 p 2 p s p 1 2 s (cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19) 1 1 1 = pa1pa2...pak 1− 1− ... 1− 1 2 k p p p 1 2 s (cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19) 1 1 1 = n 1− 1− ... 1− .
+p p p 1 2 s Example36.
+Notethat (cid:18) (cid:19)(cid:18) (cid:19) 1 1 φ(200) = φ(2352) = 200 1− 1− = 80.
+2 5 Theorem40.
+Letnbeapositiveintegergreaterthan2.
+Thenφ(n)iseven.
+Proof.
+Letn = pa1pa2...pak.
+Sinceφismultiplicative,then 1 2 k k (cid:89) φ(n) = φ(paj).
+j j=1 ThusbyTheorem39,wehave φ(paj) = paj−1−1(p −1).
+j j j We see then φ(paj)is even if p is an odd prime.
+Notice also that if p = 2, then it j j j followsthatφ(paj)iseven.
+Henceφ(n)iseven.
+j76 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS Theorem41.
+Letnbeapositiveinteger.
+Then (cid:88) φ(d) = n. d|n Proof.
+Splittheintegersfrom1tonintoclasses.
+PutanintegermintheclassC d ifthegreatestcommondivisorofmandnisd.
+Thusthenumberofintegersinthe C class is the number of positive integers not exceeding n/d that are relatively d primeton/d.
+Thuswehaveφ(n/d)integersinC .
+Thusweseethat d (cid:88) n = φ(n/d).
+d|n Asdrunsoveralldivisorsofn,sodoesn/d.
+Hence (cid:88) (cid:88) n = φ(n/d) = φ(d).
+d|n d|n 4.2.2 The Sum-of-Divisors Function The sum of divisors function, denoted by σ(n), is the sum of all positive divisors ofn.
+Example37.
+σ(12) = 1+2+3+4+6+12 = 28.
+(cid:80) Notethatwecanexpressσ(n)asσ(n) = d. d|n Wenowprovethatσ(n)isamultiplicativefunction.
+Theorem42.
+Thesumofdivisorsfunctionσ(n)ismultiplicative.
+Proof.
+WehaveprovedinTheorem35thatthesummatoryfunctionismultiplica- tiveoncef ismultiplicative.
+Thusletf(n) = nandnoticethatf(n)ismultiplica- tive.
+Asaresult,σ(n)ismultiplicative.4.2.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS 77 Once we found out that σ(n) is multiplicative, it remains to evaluate σ(n) at powersof primes and hence we can derive aformula for its values atany positive integer.
+Theorem43.
+Letpbeaprimeandletn = pa1pa2...pat beapositiveinteger.
+Then 1 2 t pa+1 −1 σ(pa) = , p−1 andasaresult, (cid:89)t paj+1 −1 σ(n) = j p −1 j j=1 Proof.
+Noticethatthedivisorsofpa are1,p,p2,...,pa.
+Thus pa+1 −1 σ(pa) = 1+p+p2 +...+pa = .
+p−1 wheretheabovesumisthesumofthetermsofageometricprogression.
+Nowsinceσ(n)ismultiplicative,wehave σ(n) = σ(pa1)σ(pa2)...σ(pat) pa1+1 −1 pa2+1 −1 pat+1 −1 = 1 .
+2 ... t p −1 p −1 p −1 1 2 t (cid:89)t paj+1 −1 j = p −1 j j=1 Example38.
+σ(200) = σ(2352) = 24−153−1 = 15.31 = 465.
+2−1 5−1 4.2.3 The Number-of-Divisors Function The number of divisors function, denoted by τ(n), is the sum of all positive divi- sorsofn.
+Example39.
+τ(8) = 4.78 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS (cid:80) Wecanalsoexpressτ(n)asτ(n) = 1. d|n Wecanalsoprovethatτ(n)isamultiplicativefunction.
+Theorem44.
+Thenumberofdivisorsfunctionτ(n)ismultiplicative.
+Proof.
+ByTheorem36,withf(n) = 1,τ(n)ismultiplicative.
+Wealsoﬁndaformulathatevaluatesτ(n)foranyintegern.
+Theorem45.
+Letpbeaprimeandletn = pa1pa2...pat beapositiveinteger.
+Then 1 2 t τ(pa) = a+1, andasaresult, t (cid:89) τ(n) = (a +1).
+j j=1 Proof.
+Thedivisorsofpa asmentionedbeforeare1,p,p2,...,pa.
+Thus τ(pa) = a+1 Nowsinceτ(n)ismultiplicative,wehave τ(n) = τ(pa1)τ(pa2)...τ(pat) = (a +1)(a +1)...(a +1) 1 2 t t (cid:89) = (a +1).
+j j=1 Example40.
+τ(200) = τ(2352) = (3+1)(2+1) = 12.
+Exercises 1.
+Findφ(256)andφ(2.3.5.7.11).
+2.
+Showthatφ(5186) = φ(5187).4.3.
+THEMOBIUSFUNCTIONANDTHEMOBIUSINVERSIONFORMULA79 3.
+Findallpositiveintegersnsuchthatφ(n) = 6.
+4.
+Showthatifnisapositiveinteger,thenφ(2n) = φ(n)ifnisodd.
+5.
+Showthatifnisapositiveinteger,thenφ(2n) = 2φ(n)ifniseven.
+6.
+Showthatifnisanoddinteger,thenφ(4n) = 2φ(n).
+7.
+Find the sum of positive integer divisors and the number of positive integer divisorsof35 8.
+Find the sum of positive integer divisors and the number of positive integer divisorsof2534537313.
+9.
+Whichpositiveintegershaveanoddnumberofpositivedivisors.
+10.
+Whichpositiveintegershaveexactlytwopositivedivisors.
+4.3 The Mobius Function and the Mobius Inversion Formula We start by deﬁning the Mobius function which investigates integers in terms of their prime decomposition.
+We then determine the Mobius inversion formula which determines the values of the a function f at a given integer in terms of its summatoryfunction.
+  1 if n = 1;   Deﬁnition22.
+µ(n) = (−1)t if n = p p ...p wherethe p aredistinctprimes; 1 2 t i    0 otherwise.
+Notethatifnisdivisiblebyapowerofaprimehigherthanonethenµ(n) = 0.
+Inconnectionwiththeabovedeﬁnition,wehavethefollowing80 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS Deﬁnition23.
+Anintegernissaidtobesquare-free,ifnosquaredividesit,i.e.
+iftheredoesnotexistanintegerk suchthatk2 | n. It is immediate (prove as exercise) that the prime-number factorization of a square-freeintegercontainsonlydistinctprimes.
+Example41.
+Noticethatµ(1) = 1,µ(2) = −1,µ(3) = −1andµ(4) = 0.
+Wenowprovethatµ(n)isamultiplicativefunction.
+Theorem46.
+TheMobiusfunctionµ(n)ismultiplicative.
+Proof.
+Letmandnbetworelativelyprimeintegers.
+Wehavetoprovethat µ(mn) = µ(m)µ(n).
+If m = n = 1, then the equality holds.
+Also, without loss of generality, if m = 1, thentheequalityisalsoobvious.
+Nowsupposethatmornisdivisiblebyapower ofprimehigherthan1,then µ(mn) = 0 = µ(m)µ(n).
+What remains to prove that if m and n are square-free integers say m = p p ...p 1 2 s where p ,p ,...,p are distinct primes and n = q q ...q where q ,q ,...,q .
+Since 1 2 s 1 2 t 1 2 t (m,n) = 1, then there are no common primes in the prime decomposition be- tweenmandn.
+Thus µ(m) = (−1)s,µ(n) = (−1)tand µ(mn) = (−1)s+t.
+Inthefollowingtheorem,weprovethatthesummatoryfunctionoftheMobius functiontakesonlythevalues0or1.4.3.
+THEMOBIUSFUNCTIONANDTHEMOBIUSINVERSIONFORMULA81 (cid:80) Theorem47.
+LetF(n) = µ(d),thenF(n)satisﬁes d|n (cid:40) 1 if n = 1; F(n) = 0 if n > 1.
+Proof.
+For n = 1, we have F(1) = µ(1) = 1.
+Let us now ﬁnd µ(pk) for any integerk > 0.
+Noticethat F(pk) = µ(1)+µ(p)+...+µ(pk) = 1+(−1)+0+...+0 = 0 ThusbyTheorem36,foranyintegern = pa1pa2...pat > 1wehave, 1 2 t F(n) = F(pa1)F(pa2)...F(pat) = 0 1 2 t We now deﬁne the Mobius inversion formula.
+The Mobius inversion formula expressesthevaluesoff intermsofitssummatoryfunctionoff.
+Theorem 48.
+Suppose that f is an arithmetic function and suppose that F is its summatoryfunction,thenforallpositiveintegersnwehave (cid:88) f(n) = µ(d)F(n/d).
+d|n Proof.
+Wehave (cid:88) (cid:88) (cid:88) µ(d)F(n/d) = µ(d) f(e) d|n d|n e|(n/d) (cid:88) (cid:88) = µ(d)f(e) d|n e|(n/d) (cid:88) (cid:88) = µ(d)f(e) e|n d|(n/e) (cid:88) (cid:88) = f(e) µ(d) e|n d|(n/d)82 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS (cid:80) Notice that µ(d) = 0 unless n/e = 1 and thus e = n. Consequently we d|(n/e) get (cid:88) (cid:88) f(e) µ(d) = f(n).1 = f(n).
+e|n d|(n/d) Example 42.
+A good example of a Mobius inversion formula would be the in- version of σ(n) and τ(n).
+These two functions are the summatory functions of f(n) = nandf(n) = 1respectively.
+Thusweget (cid:88) n = µ(n/d)σ(d) d|n and (cid:88) 1 = µ(n/d)τ(d).
+d|n Exercises 1.
+Findµ(12),µ(10!)andµ(105).
+2.
+Findthevalueofµ(n)foreachintegernwith100 ≤ n ≤ 110.
+(cid:80) 3.
+Use the Mobius inversion formula and the identity n = φ(n/d) to d|n showthatφ(pt) = pt −pt−1 wherepisaprimeandtisapositiveinteger.
+4.4 Perfect, Mersenne, and Fermat Numbers Integers with certain properties were studied extensively over the centuries.
+We present some examples of such integers and prove theorems related to these inte- gersandtheirproperties.
+Westartbydeﬁningperfectnumbers.
+Deﬁnition24.
+Apositiveintegerniscalledaperfectnumberifσ(n) = 2n.4.4.
+PERFECT,MERSENNE,ANDFERMATNUMBERS 83 In other words, a perfect number is a positive integer which is the sum of its properdivisors.
+Example 43.
+The ﬁrst perfect number is 6, since σ(6) = 12.
+You can also view this as 6 = 1 + 2 + 3.
+The second perfect number is 28, since σ(28) = 56 or 28 = 1+2+4+7+14.
+Thefollowingtheoremtellsuswhichevenpositiveintegersareperfect.
+Theorem49.
+Thepositiveintegernisanevenperfectnumberifandonlyif n = 2l−1(2l −1), wherel isanintegersuchthatl ≥ 2and2l −1isprime.
+Proof.
+We show ﬁrst that if n = 2l−1(2l − 1) where l is an integer such that l ≥ 2 and 2l − 1 is prime then n is perfect.
+Notice that 2l − 1 is odd and thus (2l−1,2l −1) = 1.
+Also,noticethatσ isamultiplicativefunctionandthus σ(n) = σ(2l−1)σ(2l −1).
+Noticethatσ(2l−1) = 2l−1andsince2l−1isprimewegetσ(2l−1) = 2l.
+Thus σ(n) = 2n.
+We now prove the converse.
+Suppose that n is a perfect number.
+Let n = 2rs, wherer andsarepositiveintegersandsisodd.
+Since(2r,s) = 1,weget σ(n) = σ(2r)σ(s) = (2r+1 −1)σ(s).
+Sincenisperfect,weget (2r+1 −1)σ(s) = 2r+1s.
+Notice now that (2r+1 −1,2r+1) = 1 and thus 2r+1 | σ(s).
+Therefore there exists anintegerq suchthatσ(s) = 2r+1q.
+Asaresult,wehave (2r+1 −1)2r+1q = 2r+1s84 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS andthusweget (2r+1 −1)q = s Sowegetthatq | s. Weaddq tobothsidesoftheaboveequationandweget s+q = (2r+1 −1)q +q = 2r+1q = σ(s).
+We have to show now that q = 1.
+Notice that if q (cid:54)= 1, then s will have three divisors and thus σ(s) ≥ 1 + s + q.
+Hence q = 1 and as a result s = 2r+1 − 1.
+Also notice that σ(s) = s+1.
+This shows that s is prime since the only divisors ofsare1ands.
+Asaresult, n = 2r(2r+1 −1), where(2r+1 −1)isprime.
+In theorem 50, we see that to determine even perfect numbers, we need to ﬁnd primes of the form 2l − 1.
+It is still unknown whether there are odd perfect numbersornot.
+Theorem50.
+If2l−1isprimewherel isapositiveinteger,thenl mustbeprime.
+Proof.
+Suppose that l is composite, that is l = rs where 1 < r < m and 1 < s < m. Thusafterfactoring,wegetthat 2m −1 = (2r −1)(2r(s−1) +2r(s−2) +...+2r +1) Noticethatthetwofactorsabovearebothgreaterthan1.
+Thus2m−1isnotprime.
+Thisisacontradiction.
+TheabovetheoremmotivatesthedeﬁnitionofinterestingnumberscalledMersenne numbers.
+Deﬁnition 25.
+Let l be a positive integer.
+An integer of the form M = 2l −1 is l called the lth Mersenne number; if l is prime then M = 2l − 1 is called the lth l Mersenneprime.4.4.
+PERFECT,MERSENNE,ANDFERMATNUMBERS 85 Example44.
+M = 23 −1 = 7isthethirdMersenneprime.
+3 WeproveatheoremthathelpdecidewhetherMersennenumbersareprime.
+Theorem51.
+DivisorsofM = 2p−1forprimepisoftheform2mp+1,where p misapositiveinteger.
+Proof.
+Let p be a prime dividing M = 2p −1.
+By Fermat’s theorem, we know 1 p thatp | (2p1−1 −1).
+Also,itiseasytoseethat 1 (2p −1,2p1−1 −1) = 2(p,p1−1) −1.
+Sincep isacommondivisorof2p−1and2p1−1−1andthusnotrelativelyprime.
+1 Hence (p,p −1) = p. Hence p | (p −1) and thus there exists a positive integer 1 1 k suchthatp −1 = kp.
+Sincep isodd,thenk isevenandthusk = 2m.
+Hence 1 1 p = kp+1 = 2mp+1.
+1 BecauseanydivisorofM isaproductofprimedivisorsofM ,eachprimedivisor p p ofM isoftheform2mp+1andtheresultfollows.
+p Example 45.
+M = 223 −1 is divisible by 47 = 46k +1.
+We know this by trial 23 and error and thus looking at all primes of the form 46k + 1 that are less than √ M .
+23 WenowdeﬁneFermatnumbersandprovesometheoremsabouttheproperties ofthesenumbers.
+Deﬁnition26.
+IntegersoftheformF = 22n +1arecalledFermatnumbers.
+n Fermat conjectured that these integers are primes but it turned out that this is not true.
+Notice that F = 3, F = 5, F = 17, F = 257 and F = 65,537 while 0 1 2 3 4 F iscomposite.
+ItturnedouttheF isdivisibleby641.
+Wenowpresentacouple 5 5 oftheoremsaboutthepropertiesofthesenumbers.86 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONS Theorem52.
+Forallpositiveintegersn,wehave F F F ...F = F −2 0 1 2 n−1 n Proof.
+We will prove this theorem by induction.
+For n = 1, the above identity is true.
+Supposenowthat F F F ...F = F −2 0 1 2 n−1 n holds.
+Weclaimthat F F F ...F = F −2.
+0 1 2 n n+1 Noticethat F F F ...F = (F −2)F = (22n −1)(22n +1) = 22n+1 −1 = F −2.
+0 1 2 n n n n+1 UsingTheorem53,weprovethatFermatnumbersarerelativelyprime.
+Theorem53.
+Lets (cid:54)= tbenonnegativeintegers.
+Then(F ,F ) = 1. s t Proof.
+Assume without loss of generality that s < t. Thus by Theorem 52, we have F F F ...F ...F = F −2 0 1 2 s t−1 t Assume now that there is a common divisor d of F and F .
+thus we see that d s t divides F −F F F ...F ...F = 2. t 0 1 2 s t−1 Thus d = 1 or d = 2.
+But since F is odd for all t. We have d = 1.
+Thus F and t s F arerelativelyprime.
+t Exercises 1.
+Findthesixsmallestevenperfectnumbers.
+2.
+Findtheeighthperfectnumber.4.4.
+PERFECT,MERSENNE,ANDFERMATNUMBERS 87 3.
+Findafactorof21001 −1.
+4.
+We say n is abundant if σ(n) > 2n.
+Prove that if n = 2m−1(2m −1) where misapositiveintegersuchthat2m −1iscomposite,thennisabundant.
+5.
+Showthatthereareinﬁnitelymanyevenabundantnumbers.
+6.
+Showthatthereareinﬁnitelymanyoddabundantnumbers.
+7.
+DeterminewhetherM isprime.
+11 8.
+DeterminewhetherM isprime.
+29 9.
+Findallprimesoftheform22n +5wherenisanonnegativeinteger.88 CHAPTER4.
+MULTIPLICATIVENUMBERTHEORETICFUNCTIONSChapter 5 Primitive Roots and Quadratic Residues In this chapter, we discuss the multiplicative structure of the integers modulo n. We introduce the concept of the order of integer modulo n and then we study its properties.
+We then deﬁne primitive roots modulo n and show how to determine whetheranintegerisprimitivemodulonornot.
+Welaterﬁndallpositiveintegers havingprimitiverootsandproverelatedresults.
+Wedeﬁnetheconceptofaquadraticresidueandestablishitsbasicproperties.
+WethenintroduceLegendresymbolandalsodevelopitsbasicproperties.
+Wealso introducethelawofquadraticreciprocity.
+Afterwards,wegeneralizethenotionof Legendre symbol to the Jacobi symbol and discuss the law of reciprocity related toJacobisymbol.
+5.1 The order of Integers and Primitive Roots Inthissection,westudytheorderofanintegermodulon,wherenispositive.
+We alsodeﬁneprimitiverootsandrelatedresults.
+Euler’stheoreminChapter4states that if a positive integer a is relatively prime to n, then aφ(n) ≡ 1(mod n).
+Thus 8990 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES by the well ordering principle, there is a least positive integer x that satisﬁes this congruenceax ≡ 1(modn).
+Deﬁnition 1.
+Let (a,b) = 1.
+The smallest positive integer x such that ax ≡ 1(mod b) is called the order of a modulo b.
+We denote the order of a modulo b by ord a. b Example 46. ord 2 = 3 since 23 ≡ 1(mod 7) while 21 ≡ 2(mod 7) and 22 ≡ 7 4(mod7).
+Toﬁndallintegersxsuchthatax ≡ 1(modb),weneedthefollowingtheorem.
+Theorem 54.
+If (a,b) = 1 with b > 0, then the positive integer x is a solution of thecongruenceax ≡ 1(modb)ifandonlyiford a | x. b Proof.
+Havingord a | x,thenwehavethatx = k.ord aforsomepositiveinteger b b k. Thus ax = akordba = (aordba)k ≡ 1(modb).
+Nowifax ≡ 1(modb),weusethedivisionalgorithmtowrite x = qord a+r, 0 ≤ r < ord a. b b Thusweseethat ax ≡ aqordba+r ≡ (aordba)qar ≡ ar(modb).
+Now since ax ≡ 1(mod b),we have ar ≡ 1(mod b).
+Since ord a, we get r = 0. b Thusx = q.ord aandhenceord a | x. b b Example 47.
+Since ord 2 = 3, then 215 ≡ 1(mod 7) while 10 is not a solution 7 for2x ≡ 1(mod7).
+Theorem55.
+If(a,b) = 1withb > 0,then ai ≡ aj(modb)5.1.
+THEORDEROFINTEGERSANDPRIMITIVEROOTS 91 whereiandj arenonnegativeintegers,ifandonlyif i ≡ j(modord a) b Proof.
+Supposethat i ≡ j(modord a) and 0 ≤ j ≤ i. b Thenwehavei−j = k.ord a,wherek isapositiveinteger.
+Hence b ai = aj+k.ordba = aj(aordba)k ≡ aj(modb).
+Assumenowthatai ≡ aj(modb)withi ≥ j. Thuswehave ai ≡ ajai−j ≡ aj(modb) Since(a,b) = 1,wehave(aj,b) = 1andthusbyTheorem22,weget ai−j ≡ 1(modb).
+Bytheorem54,wegetthatord a | (i−j)andhencei ≡ j(modb).
+b We introduce now primitive roots and discuss their properties.
+We are inter- ested in integers whose order modulo another integer is φ(b).
+In one of the exer- cises, one is asked to prove that if aand b are relatively prime then ord a | φ(b).
+b Deﬁnition 2.
+If (r,m) = 1 with m > 0 and if ord r = φ(m) then r is called a m primitiverootmodulom.
+Example48.
+Noticethatφ(7) = 6hence2isnotaprimitiverootmodulo7.
+While ord 3 = 6andthus3isaprimitiverootmodulo7.
+7 Theorem56.
+If(r,m) = 1withm > 0andifr isaprimitiverootmodulon,then theintegers{r1,r2,...rφ(m)}formareducedresiduesetmodulom.92 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES Proof.
+To prove that the set {r1,r2,...rφ(m)} form a reduced residue set modulo m we need to show that every two of them are relatively prime and that no two of them are congruent modulo m. Since (r,m) = 1, it follows that (rn,m) = 1 forallpositiveintegersn.
+Henceallthepowersofr arerelativelyprimetom.
+To showthatnotwopowersintheabovesetareequivalentmodulom,assumethat ri ≡ rj(modm).
+ByTheorem55,weseethat i ≡ j(modord φ(m)).
+m Noticethat1 ≤ i,j ≤ φ(m)andhencei = j. Theorem57.
+Iford a = tandifuisapositiveinteger,then m ord (au) = t/(t,u).
+m Proof.
+Let v = ord (au), w = (t,u), t = t wand u = u w. m 1 1 Noticethat(t ,u ) = 1.
+1 1 Because t = t/(t,u), we want to show that ord (au) = t .
+To do this, we 1 m 1 will show that (au)t1 ≡ 1(mod m) and that if (au)v ≡ 1(mod m), then t | v. 1 Firstnotethat (au)t1 = (au1w)(t/w) = (at)u1 ≡ 1(modm).
+HencebyTheorem54,wehavev | t .
+Nowontheotherhand,since 1 (au)v = auv ≡ 1(modm), we know that t | uv.
+Hence t w | u wv and hence t | u v. Because (t ,u ) = 1, 1 1 1 1 1 1 we see that t | v. Since v | t and t | v, we conclude that v = t = t/w = 1 1 1 1 t/(t,u).5.1.
+THEORDEROFINTEGERSANDPRIMITIVEROOTS 93 Example49.
+Weseethatord 34 = 6/(6,4)sinceord 3 = 6.
+7 7 Corollary 2.
+Let r be a primitive root modulo m, where m is a positive integer, m > 1.
+Thenru isaprimitiverootmodulomifandonlyif(u,φ(m)) = 1.
+Proof.
+ByTheorem57,weseethat ord ru = ord r/(u,ord r) = φ(m)/(u,φ(m)).
+m m m Thusord ru = φ(m)andru isaprimitiverootifandonlyif(u,φ(m)) = 1. m Theabovecorollaryleadstothefollowingtheorem Theorem 58.
+If the positive integer m has a primitive root, then it has a total of φ(φ(m))incongruentprimitiveroots.
+Proof.
+Letrbeaprimitiverootmodulom.
+ByTheorem56,weseethat{r1,r2,...,rφ(m)} form a reduced residue system modulo n. By Corollary 1, it is known that ru is a primitive root modulo m if and only if (u,φ(m)) = 1.
+Thus we have exactly φ(φ(m)) such integers u that are relatively prime to φ(m) and hence there are exactlyφ(φ(m))primitiverootsmodulom.
+Exercises 1.
+Determineord 10.
+13 2.
+Determineord 3.
+11 3.
+Showthat5isaprimitiverootof6.
+4.
+Showthatifa¯ isaninverseofamodulon,thenord a = ord a¯.
+n n 5.
+Showthatifnisapositiveinteger,andaandbareintegersrelativelyprime tonsuchthat(ord a,ord b) = 1,thenord (ab) = ord a.ord b. n n n n n 6.
+Show that if a is an integer relatively prime to the positive integer m and ord a = st,thenord at = s. m m 7.
+Showthatifaandnarerelativelyprimewithn > 0,thenord a | φ(n).
+n94 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES 5.2 Primitive Roots for Primes Inthissection,weshowthateveryintegerhasaprimitiveroot.
+Todothisweneed tointroducepolynomialcongruence.
+Letf(x)beapolynomialwithintegercoefﬁcients.
+Wesaythatanintegerais arootoff(x)modulomiff(a) ≡ 0(modm).
+Example 50.
+Notice that x ≡ 3(mod 11) is a root for f(x) = 2x2 +x+1 since f(3) = 22 ≡ 0(mod11).
+We now introduce Lagrange’s theorem for primes.
+This is modulo p, the fun- damentaltheoremofalgebra.
+Thistheoremwillbeanimportanttooltoprovethat everyprimehasaprimitiveroot.
+Theorem59.
+Lagrange’sTheoremLet m(x) = b xn +b xn−1 +...+b x+b n n−1 1 0 beapolynomialofdegreen,n ≥ 1withintegercoefﬁcientsandwithleadingcoef- ﬁcientb notdivisiblebyaprimep.
+Thenm(x)hasatmostndistinctincongruent n rootsmodulop.
+Proof.
+Usinginduction,noticethatifn = 1,thenwehave m(x) = b x+b and p (cid:45) b .
+1 0 1 Arootofm(x)isasolutionforb x+b (modp).
+Sincep (cid:45) b ,thenthiscongruence 1 0 1 hasexactlyonesolutionbyTheorem26.
+Suppose that the theorem is true for polynomials of degree n − 1, and let m(x)beapolynomialofdegreenwithintegercoefﬁcientsandwheretheleading coefﬁcient is not divisible by p. Assume now that m(x) has n + 1 incongruent rootsmodulop,sayx ,x ,...,x .
+Thus 0 1 n m(x ) ≡ 0(modp) k5.2.
+PRIMITIVEROOTSFORPRIMES 95 for0 ≤ k ≤ n. Thuswehave m(x)−m(x ) = b (xn −xn)+b (xn−1 −xn−1)+...+b (x−x ) 0 n 0 n−1 0 1 0 = b (x−x )(xn−1 +xn−2x +...+xxn−2 +xn−1) n 0 0 0 0 + b (x−x )(xn−2 +xn−3x +...+xxn−3 +xn−2)+...+b (x−c ) n−1 0 0 0 0 1 0 = (x−x )f(x) 0 where f(x) is a polynomial of degree n − 1 with leading coefﬁcient b .
+Notice n thatsincem(x ) ≡ m(x )(modp),wehave k 0 m(x )−m(x ) = (x −x )f(x ) ≡ 0(modp).
+k 0 k 0 k Thus f(x ) ≡ 0(mod p) for all 1 ≤ k ≤ n and thus x ,x ,...,x are roots of k 1 2 n f(x).
+This is a contradiction since we a have a polynomial of degree n − 1 that hasndistinctroots.
+WenowuseLagrange’sTheoremtoprovethefollowingresult.
+Theorem 60.
+Consider the prime p and let p−1 = kn for some integer k. Then xn −1hasexactlynincongruentrootsmodulop.
+Proof.
+Sincep−1 = kn,wehave xp−1 −1 = (xn −1)(xn(k−1) +xn(k−2) +...+xn +1) = (xn −1)f(x) By Fermat’s little theorem, we know that xp−1 − 1 has p − 1 incongruent roots modulop.
+Also,rootsofxp−1−1arerootsoff(x)orarootofxn−1.
+Noticethat by Lagrange’s Theorem, we have that f(x) has at most p − n − 1 roots modulo p. Thus xn −1 has at least n roots modulo p. But again by Lagrange’s Theorem, sincewehavethatxn−1hasatmostnroots,thuswegetthatxn−1hasexactly nincongruentrootsmodulop.96 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES Wenowprovealemmathatgivesushowmanyincongruentintegerscanhave agivenordermodulop.
+Lemma11.
+Letpbeaprimeandletmbeapositiveintegersuchthatp−1 = mk forsomeintegerk.
+Then S(m) = |{m : 0 < m < p, m ∈ Z}| ≤ φ(m).
+Proof.
+Foreachpositiveintegermdividingp−1, Notice that if S(m) = 0, then S(m) ≤ φ(m).
+If S(m) > 0, then there is an integeraofordermmodulop.
+Sinceord a = m,thena,a2,...amareincongruent p modulop.
+Alsoeachpowerofaisarootofxm −1modulopbecause (ak)m = (am)k ≡ 1(modp) for all positive integers k. By Theorem 60, we know that xm − 1 has exactly m incongruentrootsmodulop,sothateveryrootiscongruenttooneofthesepowers of a.
+We also know by Theorem 57 that the powers of ak with (k,m) = 1 have order m. There are exactly φ(m) such integers with 1 ≤ k ≤ m and thus if there is one element of order m modulo p, there must be exactly φ(m) such positive integerslessthanp.
+HenceS(m) ≤ φ(m).
+In the following theorem, we determine how many incongruent integers can have a given order modulo p. We actually show the existence of primitive roots forprimenumbers.
+Theorem61.
+Everyprimenumberhasaprimitiveroot.
+Proof.
+Let p be a prime and let m be a positive integer such that p−1 = mk for some integer k. Let F(m) be the number of positive integers of order m modulo p that are less than p. The order modulo p of an integer not divisible by p divides p−1,itfollowsthat (cid:88) p−1 = F(m).
+m|p−15.2.
+PRIMITIVEROOTSFORPRIMES 97 ByTheorem42,weseethat (cid:88) p−1 = φ(m).
+m|p−1 ByLemma1,F(m) ≤ φ(m)whenm | (p−1).
+Togetherwith (cid:88) (cid:88) F(m) = φ(m) m|p−1 m|p−1 weseethatF(m) = φ(m)foreachpositivedivisormofp−1.
+Thusweconclude that F(m) = φ(m).
+As a result, we see that there are p−1 incongruent integers oforderp−1modulop.
+Thusphasφ(p−1)primitiveroots.
+Exercises 1.
+Findtheincongruentrootsmodulo11ofx2 +2.
+2.
+Findtheincongruentrootsmodulo11ofx4 +x2 +1.
+3.
+Findtheincongruentrootsmodulo13ofx3 +12.
+4.
+Findthenumberofprimitiverootsof13andof47.
+5.
+Findacompletesetofincongruentprimitiverootsof13.
+6.
+Findacompletesetofincongruentprimitiverootsof17.
+7.
+Findacompletesetofincongruentprimitiverootsof19.
+8.
+Let r be a primitive root of p with p ≡ 1(mod 4).
+Show that −r is also a primitiveroot.
+9.
+Show that if p is a prime and p ≡ 1(mod 4), then there is an integer x such thatx2 ≡ −1(modp).98 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES 5.3 The Existence of Primitive Roots In this section, we demonstrate which integers have primitive roots.
+We start by showing that every power of an odd prime has a primitive root and to do this we startbyshowingthateverysquareofanoddprimehasaprimitiveroot.
+Theorem 62.
+If p is an odd prime with primitive root r, then one can have either r orr+pasaprimitiverootmodulop2.
+Proof.
+Noticethatsincer isaprimitiverootmodulop,then ord r = φ(p) = p−1.
+p Letm = ord r,then p2 rm ≡ 1(modp2).
+Thus rm ≡ 1(modp).
+ByTheorem54,wehave p−1 | m. ByExercise7ofsection6.1,wealsohavethat m | φ(p2).
+Also,φ(p2) = p(p−1)andthusmeitherdividesporp−1.
+Andsincep−1 | m thenwehave m = p−1 or m = p(p−1).
+If m = p(p−1) and ord r = φ(p2) then r is a primitive root modulo p2.
+Other- p2 wise,wehavem = p−1andthus rp−1 ≡ 1(modp2).5.3.
+THEEXISTENCEOFPRIMITIVEROOTS 99 Let s = r + p. Then s is also a primitive root modulo p. Hence, ord s equals p2 eitherp−1orp(p−1).
+Wewillshowthatord s (cid:54)= p−1sothatord s = p(p−1).
+p2 p2 Notethat sp−1 = (r+p)p−1 = rp−1 +(p−1)rp−2p+...+pp−1 = rp−1 +(p−1)p.rp−2(modp2).
+Hence p2 | sp−1 −(1−prp−2.
+Notealsothatif p2 | (sp−1 −1), then p2 | prp−2.
+Thuswehave p | rp−2 whichisimpossiblebecausep (cid:45) r. Becauseord s (cid:54)= p−1,wecanconcludethat p2 ord s = p(p−1) = φ(p2).
+p2 Thus,s = r+pisaprimitiverootofp2.
+Example 51.
+Notice that 7 has 3 as a primitive root.
+Either ord 3 = 6 or 49 ord 3 = 42.
+But since 36 (cid:54)≡ 1(mod 49).
+Hence ord 3 = 42.
+Hence 3 is a 49 49 primitiverootof49.
+Wenowshowthatanypowerofanoddprimehasaprimitiveroot.
+Theorem 63.
+Let p be an odd prime.
+Then any power of p is a primitive root.
+Moreover, if r is a primitive root modulo p2, then r is a primitive root modulo pm forallpositiveintegersm.100 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES Proof.
+By Theorem 62, we know that any prime p has a primitive root r which is alsoaprimitiverootmodulop2,thus p2 (cid:45) (rp−1 −1).
+(5.1) Wewillprovebyinductionthat pm (cid:45) (rpm−2(p−1) −1) (5.2) for all integers m ≥ 2.
+Once we prove the above congruence, we show that r is also a primitive root modulo pm.
+Let n = ord r. By Theorem 54, we know that pm n | φ(pm).
+Also,weknowthatφ(pm) = pm(p−1).
+Hencen | pm(p−1).
+Onthe otherhand,because pm | (rn −1), wealsoknowthat p | (rn −1).
+Since φ(p) = p − 1, we see that by Theorem 54, we have n = l(p − 1).
+also n | pm−1(p − 1), we have that n = ps(p − 1), where 0 ≤ s ≤ m − 1.
+If n = ps(p−1)withs ≤ m−2,then pk | rpm−2(p−1) −1, whichisacontradiction.
+Hence ord r = φ(pm).
+pm We prove now (7.5) by induction.
+Assume that our assertion is true for all m ≥ 2.
+Then pm (cid:45) (rpm−2(p−1) −1).
+Because (r,p) = 1, we see that (r,pm−1) = 1.
+We also know from Euler’s theoremthat pm−1 | (rpm−2(p−1) −1).5.3.
+THEEXISTENCEOFPRIMITIVEROOTS 101 Thusthereexistsanintegerk suchthat rpm−2(p−1) = 1+kpm−1.
+wherep (cid:45) k becauserpm−2(p−1) (cid:54)≡ 1(modpm).
+Thuswehavenow rpm−1(p−1) = (1+kpm−1)p ≡ 1+kpm(modpm+1) Becausep (cid:45) k,wehave pm+1 (cid:45) (rpm−1(p−1) −1).
+Example 52.
+Since 3 is a primitive root of 7, then 3 is a primitive root for 7k for allpositiveintegersk.
+Inthefollowingtheorem,weprovethatnopowerof2,otherthan2or4,hasa primitive root and that is because when m is an odd integer, ordkm (cid:54)= φ(2k) and 2 thisisbecause2k | (aφ(2k)/2 −1).
+Theorem64.
+Ifmisanoddinteger,andifk ≥ 3isaninteger,then m2k−2 ≡ 1(mod2k).
+Proof.
+Weprovetheresultbyinduction.
+Ifmisanoddinteger,thenm = 2n+1 forsomeintegern.
+Hence, m2 = 4n2 +4n+1 = 4n(n+1)+1.
+Itfollowsthat8 | (m2 −1).
+Assumenowthat 2k | (m2k−2 −1).102 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES Thenthereisanintegerq suchthat m2k−2 = 1+q.2k.
+Thussquaringbothsides,weget m2k−1 = 1+q.2k+1 +q222k.
+Thus 2k+1 | (m2k−1 −1).
+Notenowthat2and4haveprimitiveroots1and3respectively.
+Wenowlistthesetofintegersthatdonothaveprimitiveroots.
+Theorem65.
+Ifmisnotpa or2pa,thenmdoesnothaveaprimitiveroot.
+Proof.
+Letm = ps1ps2...psi.
+Ifmhasaprimitiverootrthenrandmarerelatively 1 2 i prime and ord r = φ(m).
+We also have, we have (r,ps) = 1 where ps is of the m primesinthefactorizationofm.
+ByEuler’stheorem,wehave ps | (rφ(ps) −1).
+Nowlet L = [φ(ps1),φ(ps2),...,φ(psi)].
+1 2 i Weknowthat rL ≡ 1(modpsk) k forall1 ≤ k ≤ m. ThususingtheChineseRemainderTheorem,weget m | (rL −1), whichleadstoord r = φ(m) ≤ L. Nowbecause m φ(m) = φ(ps1)φ(ps2)...φ(psn) ≤ [φ(ps1),φ(ps2),...,φ(psn)].
+1 2 n 1 2 n5.3.
+THEEXISTENCEOFPRIMITIVEROOTS 103 Nowtheinequalityaboveholdsonlyif φ(ps1),φ(ps2),...,φ(psn) 1 2 n arerelativelyprime.
+NoticenowthatbyTheorem41, φ(ps1),φ(ps2),...,φ(psn) 1 2 n are not relatively prime unless m = ps or m = 2ps where p is an odd prime and t isanypositiveinteger.
+Wenowshowthatallintegersoftheformm = 2ps haveprimitiveroots.
+Theorem 66.
+Consider a prime p (cid:54)= 2 and let s is a positive integer, then 2ps has a primitive root.
+In fact, if r is an odd primitive root modulo ps, then it is also a primitiverootmodulo2ps butifr iseven,r+ps isaprimitiverootmodulo2ps.
+Proof.
+Ifr isaprimitiverootmodulops,then ps | (rφ(ps) −1) andnopositiveexponentsmallerthanφ(ps)hasthisproperty.
+Notealsothat φ(2ps) = φ(ps), sothat ps | (rφ(2ps) −1).
+Ifr isodd,then 2 | (rφ(2ps) −1).
+ThusbyTheorem56,weget 2ps | (rφ(2ps) −1).
+It is important to note that no smaller power of r is congruent to 1 modulo 2ps.
+Thispoweraswellwouldalsobecongruentto1modulops contradictingthatr is aprimitiverootofps.
+Itfollowsthatr isaprimitiverootmodulo2ps.104 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES While,ifr iseven,thenr+ps isodd.
+Hence 2 | ((r+ps)φ(2ps) −1).
+Becauseps | (r+ps −r),weseethat ps | ((r+ps)φ(2ps) −1).
+Asaresult,weseethat2ps | ((r+ps)φ(2ps)−1)andsincefornosmallerpowerof r+ps iscongruentto1modulo2ps,weseethatr+ps isaprimitiverootmodulo 2ps.
+Asaresult,byTheorem63,Theorem65andTheorem66,weseethat Theorem67.
+Thepositiveintegermhasaprimitiverootifandonlyifn = 2,4,ps or2ps forprimep (cid:54)= 2andsisapositiveinteger.
+Exercises 1.
+Whichofthefollowingintegers4,12,28,36,125haveaprimitiveroot.
+2.
+Findaprimitiverootof4,25,18.
+3.
+Findallprimitiverootsmodulo22.
+4.
+Showthattherearethesamenumberofprimitiverootsmodulo2ps asthere aremodulops,wherepisanoddprimeandsisapositiveinteger.
+5.
+Findallprimitiverootsmodulo25.
+6.
+Showthattheintegernhasaprimitiverootifandonlyiftheonlysolutions ofthecongruencex2 ≡ 1(modn)arex ≡ ±1(modn).5.4.
+INTRODUCTIONTOQUADRATICRESIDUESANDNONRESIDUES105 5.4 Introduction to Quadratic Residues and Non- residues Thequestionthatweneedtoanswerinthissectionisthefollowing.
+Ifpisanodd primeandaisanintegerrelativelyprimetop.
+Isaaperfectsquaremodulop.
+Deﬁnition3.
+Letmbeapositiveinteger.
+Anintegeraisaquadraticresidueofm if (a,m) = 1 and the congruence x2 ≡ a(mod m) is solvable.
+If the congruence x2 ≡ a(modm)hasnosolution,thenaisaquadraticnonresidueofm.
+Example 53.
+Notice that 12 = 62 ≡ 1(mod 7), 32 = 42 ≡ 2(mod 7) and 22 = 52 ≡ 4(mod 7).
+Thus 1,2,4 are quadratic residues modulo 7 while 3,5,6 arequadraticnonresiduesmodulo7.
+Lemma 12.
+Let p (cid:54)= 2 be a prime number and a is an integer such that p (cid:45) a. Theneitheraisquadraticnonresiduemodulopor x2 ≡ a(modp) hasexactlytwoincongruentsolutionsmodulop.
+Proof.
+Ifx2 ≡ a(modp)hasasolution,sayx = x(cid:48),then−x(cid:48) isasolutionaswell.
+Noticethat−x(cid:48) (cid:54)≡ x(cid:48)(modp)becausethenp | 2x(cid:48) andhencep (cid:45) x .
+0 We now show that there are no more than two incongruent solutions.
+Assume thatx = x(cid:48) andx = x(cid:48)(cid:48) arebothsolutionsofx2 ≡ a(modp).
+Thenwehave (x(cid:48))2 −(x(cid:48)(cid:48))2 = (x(cid:48) +x(cid:48)(cid:48))(x(cid:48) −x(cid:48)(cid:48)) ≡ 0(modp).
+Hence x(cid:48) ≡ x(cid:48)(cid:48)(modp) or x(cid:48) ≡ −x(cid:48)(cid:48)(modp).106 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES The following theorem determines the number of integers that are quadratic residuesmoduloanoddprime.
+Theorem 68.
+If p (cid:54)= 2 is a prime, then there are exactly (p − 1)/2 quadratic residues modulo p and (p − 1)/2 quadratic nonresidues modulo p in the set of integers1,2...,p−1.
+Proof.
+Toﬁndallthequadraticresiduesofpamongalltheintegers1,2,...,p−1, wedeterminetheleastpositiveresiduemodulopof12,22,...,(p−1)2.
+Consider- ing the p−1 congruences and because each congruence has either no solution or two incongruent solutions, there must be exactly (p−1)/2 quadratic residues of p among 1,2,...,p−1.
+Thus the remaining are (p−1)/2 quadratic nonresidues ofp.
+Exercises 1.
+Findallthequadraticresiduesof3.
+2.
+Findallthequadraticresiduesof13.
+3. ﬁndallthequadraticresiduesof18.
+4.
+Show that if p is prime and p ≥ 7, then there are always two consecutive quadratic residues of p. Hint: Show that at least one of 2,5 or 10 is a quadraticresidueofp.
+5.
+Show that if p is prime and p ≥ 7, then there are always two quadratic residuesofpthatdifferby3.
+5.5 Legendre Symbol In this section, we deﬁne Legendre symbol which is a notation associated to quadraticresiduesandproverelatedtheorems.5.5.
+LEGENDRESYMBOL 107 Deﬁnition 4.
+Let p (cid:54)= 2 be a prime and a be an integer such that p (cid:45) a.
+The (cid:16) (cid:17) Legendresymbol a isdeﬁnedby p (cid:40) (cid:18) (cid:19) a 1 ifaisaquadraticresidueofp = p −1 ifaisaquadraticnonresidueofp.
+Example54.
+Noticethatusingthepreviousexample,weseethat (cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19) 1 2 4 = = = 1 7 7 7 (cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19) 3 5 6 = = = −1 7 7 7 In the following theorem, we present a way to determine wether an integer is aquadraticresidueofaprime.
+Theorem 69.
+Euler’s Criterion Let p (cid:54)= 2 be a prime and let a be a positive integersuchthatp (cid:45) a.
+Then (cid:18) (cid:19) a ≡ aφ(p)/2(modp).
+p (cid:16) (cid:17) Proof.
+Assumethat a = 1.
+Thenthecongruencex2 ≡ a(modp)hasasolution p sayx = x(cid:48).
+AccordingtoFermat’stheorem,weseethat aφ(p)/2 = ((x(cid:48))2)φ(p)/2 ≡ 1(modp).
+(cid:16) (cid:17) Now if a = −1, then x2 ≡ a(mod p) is not solvable.
+Thus by Theorem 26, p we have that for each integer k with (k,p) = 1 there is an integer l such that kl ≡ a(mod p).
+Notice that i (cid:54)= j since x2 ≡ a(mod p) has no solutions.
+Thus wecancoupletheintegers1,2,...,p−1into(p−1)/2pairs,eachhasproducta.
+Multiplyingthesepairstogether,weﬁndoutthat (p−1)!
+≡ aφ(p)/2(modp).108 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES UsingWilson’sTheorem,weget (cid:18) (cid:19) a = −1 ≡ a(p−1)/2(modp).
+p (cid:0) (cid:1) Example55.
+Letp = 13anda = 3.
+Then 3 = −1 ≡ 36(mod13).
+13 WenowprovesomepropertiesofLegendresymbol.
+Theorem 70.
+Let p (cid:54)= 2 be a prime.
+Let a and b be integers such that p (cid:45) a, p (cid:45) b andp | (a−b)then (cid:18) (cid:19) (cid:18) (cid:19) a b = .
+p p Proof.
+Since p | (a − b), then x2 ≡ a(mod p) has a solution if and only if x2 ≡ b(modp)hasasolution.
+Hence (cid:18) (cid:19) (cid:18) (cid:19) a b = p p Theorem 71.
+Let p (cid:54)= 2 be a prime.
+Let a and b be integers such that p (cid:45) a, p (cid:45) b then (cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19) a b ab = p p p ByEuler’scriterion,wehave (cid:18) (cid:19) a ≡ aφ(p)/2(modp) p and (cid:18) (cid:19) b ≡ bφ(p)/2(modp).
+p Thusweget (cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19) a b ab ≡ (ab)φ(p)/2 ≡ (modp).
+p p p Wenowshowwhenis−1aquadraticresidueofaprimep.5.5.
+LEGENDRESYMBOL 109 Corollary3.
+Ifp (cid:54)= 2isa,then (cid:40) (cid:18) (cid:19) −1 1 ifp ≡ 1(mod4) = p −1 ifp ≡ −1(mod4).
+Proof.
+ByEuler’scriterion,weknowthat (cid:18) (cid:19) a = (−1)φ(p)/2(modp) p If4 | (p−1),thenp = 4m+1forsomeintegermandthusweget (−1)φ(p)/2 = (−1)2m = 1. andif4 | (p−3),thenp = 4m+3forsomeintegermandwealsoget (−1)φ(p)/2 = (−1)2m+1 = −1.
+Wenowdeterminewhen2isaquadraticresidueofaprimep.
+Theorem72.
+Foreveryoddprimepwehave (cid:40) (cid:18) (cid:19) 2 1 ifp ≡ ±1(mod8) = p −1 ifp ≡ ±3(mod8).
+Proof.
+Considerthefollowing(p−1)/2congruences p−1 ≡ 1(−1)1 (modp) 2 ≡ 2(−1)2 (modp) p−3 ≡ 3(−1)3 (modp) 4 ≡ 4(−1)4 (modp) .
+.
+.
+p−1 r ≡ (−1)(p−1)/2 (modp), 2110 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES where r is either p−(p−1)/2 or (p−1)/2.
+Multiplying all these equations we get, (cid:18) (cid:19) p−1 2.4.6...(p−1) ≡ !
+(−1)1+2+...+(p−1)/2 (modp).
+2 Thisgivesus (cid:18) (cid:19) (cid:18) (cid:19) p−1 p−1 2(p−1)/2 !
+≡ !(−1)(p2−1)/8(modp).
+2 2 Nownoticethat(cid:0)p−1(cid:1)!
+(cid:54)≡ 0(modp)andthusweget 2 2(p−1)/2 ≡ (−1)(p2−1)/8(modp).
+NotealsothatbyEuler’scriterion,weget (cid:18) (cid:19) 2 2φ(p)/2 ≡ (modp), p andsinceeachmemberis1or-1thetwomembersareequal.
+We now present an important lemma that determines whether an integer is a quadraticresidueofaprimeornot.
+Lemma 13.
+Gauss’s Lemma Let p (cid:54)= 2 be a prime and a a relatively prime integer to p. If k counts the number of least positive residues of the integers a,2a,...,((p−1)/2)athataregreaterthanp/2,then (cid:18) (cid:19) a = (−1)k. p Proof.
+Letm ,m ,...,m bethoseintegersgreaterthanp/2inthesetoftheleast 1 2 s positive residues of the integers a,2a,...,((p − 1)/2)a and let n ,n ,...,n be 1 2 t thoselessthanp/2.
+Wenowshowthat p−m ,p−m ,...,p−m ,p−n ,p−n ,...,p−n 1 2 k 1 2 t arepreciselytheintegers 1,2,...,(p−1)/2,5.5.
+LEGENDRESYMBOL 111 inthesameorder.
+So we shall show that no two integers of these are congruent modulo p, be- cause there are exactly (p−1)/2 numbers in the set, and all are positive integers less than or equal to (p−1)/2.
+Notice that m (cid:54)≡ m ( mod p) for all i (cid:54)= j and i j n (cid:54)≡ n ( mod p) for all i (cid:54)= j.
+If any of these congruences fail, then we will i j have that r ≡ s(mod p) assuming that ra ≡ sa(mod p).
+Also any of the integers p − m can be congruent to any of the n ’s.
+Because if such congruence holds, i i thenwehavera ≡ p−sa(modp),sothatra ≡ −sa(modp).
+Becausep (cid:45) a,this impliesthatr ≡ −s(modp),whichisimpossible.
+Weconcludethat k t (cid:18) (cid:19) (cid:89) (cid:89) p−1 (p−m ) n ≡ !
+(modp), i i 2 i=1 i=1 whichimplies (cid:18) (cid:19) p−1 (−1)sm m ...(p−m )n n ...n ≡ !
+(modp), 1 2 k 1 2 t 2 Simplifying,weget m m ...(p−m )n n ...n ≡ a.2a...((p−1)/2) = a(p−1)/2((p−1)/2)!(modp).
+1 2 k 1 2 t Asaresult,wehavethat a(p−1)/2((p−1)/2)!
+≡ ((p−1)/2)!
+(modp) Notethatsince(p,((p−1)/2)!)
+= 1,weget (−1)ka(p−1)/2 ≡ 1(modp).
+Thusweget a(p−1)/2 ≡ (−1)k(modp).
+UsingEuler’scriterion,theresultfollows.112 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES (cid:0) (cid:1) Example56.
+Toﬁnd 5 usingGauss’slemma,wecalculate 13 6 (cid:88) [5i/13] = [5/13]+[10/13]+[15/13]+[20/13]+[25/13]+[30/13] = 5 i=1 (cid:0) (cid:1) Thusweget 5 = (−1)5 = −1.
+13 Exercises 1.
+Findallquadraticresiduesof3 2.
+Findallquadraticresiduesof19.
+3.
+FindthevalueofLegendresymbol(cid:0)j(cid:1)forj = 1,2,3,4,5,6.
+7 (cid:0) (cid:1) 4.
+EvaluatetheLegendresymbol 7 byusingEuler’scriterion.
+11 5.
+Let a and b be integers not divisible by p. Show that either one or all three oftheintegersa,bandabarequadraticresiduesofp.
+6.
+Let p be a prime and a be a quadratic residue of p. Show that if p ≡ 1(mod4),then−aisalsoaquadraticresidueofp,whereasifp ≡ 3(mod4), then−aisaquadraticnonresidueofp.
+7.
+Show that if p is an odd prime and a is an integer not divisible by p then (cid:16) (cid:17) a2 = 1. p 5.6 The Law of Quadratic Reciprocity Given that p and q are odd primes.
+Suppose we know whether q is a quadratic residueofpornot.
+Thequestionthatthissectionwillansweriswhetherpwillbe a quadratic residue of q or not.
+Before we state the law of quadratic reciprocity, we will present a Lemma of Eisenstein which will beused in the proof of the law of reciprocity.
+The following lemma will relate Legendre symbol to the counting latticepointsinthetriangle.5.6.
+THELAWOFQUADRATICRECIPROCITY 113 Lemma14.
+Ifp (cid:54)= 2isaprimeandaisanoddintegersuchthatp (cid:45) a,then (cid:18) (cid:19) a = (−1)(cid:80)(i=p−11)/2[ia/p].
+p Proof.
+Consider the least positive residues of the integers a,2a,...,((p−1)/2)a; let m ,m ,...,m be integers of this set such that m > p/2 for all i and let 1 2 s i n ,n ,...,n be those integers where n < p/2.
+Using the division algorithm, we 1 2 t i seethat ia = p[ia/p]+r wherer isoneofthem orn .
+Byaddingthe(p−1)/2equations,weobtain i i (p−1)/2 (p−1)/2 s t (cid:88) (cid:88) (cid:88) (cid:88) ia = p[ia/p]+ m + n .
+(5.3) i i i=1 i=1 i=1 i=1 AsintheproofofGauss’sLemma,weseethat p−m ,p−m ,...,p−m ,p−n ,p−n ,...,p−n 1 2 s 1 2 t arepreciselytheintegers1,2,...,(p−1)/2,inthesameorder.
+Nowweobtain (p−1)/2 s t s t (cid:88) (cid:88) (cid:88) (cid:88) (cid:88) i = (p−m )+ n = ps− m + n .
+(5.4) i i i i i=1 i=1 i=1 i=1 i=1 Wesubtract(5.4)from(5.3)toget (p−1)/2 (p−1)/2 (p−1)/2 s (cid:88) (cid:88) (cid:88) (cid:88) ia− i = p[ia/p]−ps+2 m .
+i i=1 i=1 i=1 i=1 Now since we are taking the following as exponents for −1, it sufﬁce to look at themmodulo2.
+Thus (p−1)/2 (cid:88) 0 ≡ [ia/p]−s(mod2).
+i=1114 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES (p−1)/2 (cid:88) [ia/p] ≡ s(mod2) i=1 UsingGauss’slemma,weget (cid:18) (cid:19) a = (−1)s = (−1)(cid:80)(i=p−11)/2[ia/p].
+p Theorem 73.
+The Law of Quadratic Reciprocity Let p and q be distinct odd primes.
+Then (cid:18) (cid:19)(cid:18) (cid:19) p q = (−1)p−1.q−1 2 2 q p Proof.
+We consider now the pairs of integers also known as lattice points (x,y) with 1 ≤ x ≤ (p−1)/2and 1 ≤ y ≤ (q −1)/2.
+The number of such pairs is p−1.q−1.
+We divide these pairs into two groups de- 2 2 pending on the sizes of qx and py.
+Note that qx (cid:54)= py for all pairs because p and q aredistinctprimes.
+Wenowcountthepairsofintegers(x,y)with 1 ≤ x ≤ (p−1)/2, 1 ≤ y ≤ (q −1)/2and qx > py.
+Notethatthesepairsarepreciselythosewhere 1 ≤ x ≤ (p−1)/2and 1 ≤ y ≤ qx/p.
+For each ﬁxed value of x with 1 ≤ x ≤ (p − 1)/2, there are [qx/p] integers satisfying1 ≤ y ≤ qx/p.
+Consequently,thetotalnumberofpairswithare 1 ≤ x ≤ (p−1)/2, 1 ≤ y ≤ qx/p,and qx > py is (p−1)/2 (cid:88) [qi/p].
+i=15.6.
+THELAWOFQUADRATICRECIPROCITY 115 Considernowthepairofintegers(x,y)with 1 ≤ x ≤ (p−1)/2, 1 ≤ y ≤ (q −1)/2,and qx < py.
+Similarly,weﬁndthatthetotalnumberofsuchpairsofintegersis (q−1)/2 (cid:88) [pi/q].
+i=1 Addingthenumbersofpairsintheseclasses,weseethat (p−1)/2 (q−1)/2 (cid:88) (cid:88) p−1 q −1 [qi/p]+ [pi/q] = .
+, 2 2 i=1 i=1 andhenceusingLemma14,wegetthat (cid:18) (cid:19)(cid:18) (cid:19) p p = (−1)p−1.q−1 2 2 q q Exercises (cid:0) (cid:1) 1.
+Evaluate 3 .
+53 (cid:0) (cid:1) 2.
+Evaluate 31 .
+641 3.
+Usingthelawofquadraticreciprocity,showthatifpisanoddprime,then (cid:40) (cid:18) (cid:19) 3 1 ifp ≡ ±1(mod12) = p −1 ifp ≡ ±5(mod12).
+4.
+Showthatifpisanoddprime,then (cid:40) (cid:18) (cid:19) −3 1 ifp ≡ 1(mod6) = p −1 ifp ≡ −1(mod6).
+5.
+Findacongruencedescribingallprimesforwhich5isaquadraticresidue.116 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES 5.7 Jacobi Symbol In this section, we deﬁne the Jacobi symbol which is a generalization of the Leg- endresymbol.
+TheLegendresymbolwasdeﬁnedintermsofprimes,whileJacobi symbol will be generalized for any odd integers and it will be given in terms of Legendresymbol.
+Deﬁnition 27.
+Let n be an odd positive integer with prime factorization n = pa1pa2...pam andletabeanintegerrelativelyprimeton,then 1 2 m (cid:16)a(cid:17) (cid:89)m (cid:18)a(cid:19)ci = .
+n p i i=1 Example57.
+Noticethatfromtheprimefactorizationof45,wegetthat (cid:18) (cid:19) (cid:18) (cid:19)(cid:18) (cid:19) 2 2 2 = = (−1)(−1) = 1 55 5 11 We now prove some properties for Jacobi symbol that are similar to the prop- ertiesofLegendresymbol.
+Theorem 74.
+Let n be an odd positive integer and let a and b be integers such that(a,n) = 1and(b,n) = 1.
+Then 1. ifn | (a−b),then (cid:18) (cid:19) (cid:16)a(cid:17) b = .
+n n 2.
+(cid:18) (cid:19) (cid:18) (cid:19) ab (cid:16)a(cid:17) b = .
+n n n Proof.
+Proof of 1: Note that if p is in the prime factorization of n, then we have thatp | (a−b).
+HencebyTheorem70,wegetthat (cid:18) (cid:19) (cid:18) (cid:19) a b = .
+p p5.7.
+JACOBISYMBOL 117 Asaresult,wehave (cid:16)a(cid:17) (cid:89)m (cid:18)a(cid:19)ci (cid:89)m (cid:18) b (cid:19)ci = = n p p i i i=1 i=1 (cid:16) (cid:17) (cid:16) (cid:17)(cid:16) (cid:17) Proof of 2: Note that by Theorem 71, we have ab = a b for any prime p p p p appearingintheprimefactorizationofn.
+Asaresult,wehave (cid:18)ab(cid:19) (cid:89)m (cid:18)ab(cid:19)ci = n p i i=1 (cid:89)m (cid:18)a(cid:19)ci(cid:89)m (cid:18) b (cid:19)ci = p p i i i=1 i=1 (cid:18) (cid:19) (cid:16)a(cid:17) b = .
+n n (cid:0) (cid:1) (cid:0) (cid:1) Inthefollowingtheorem,wedetermine −1 and 2 .
+n n Theorem75.
+Letnbeanoddpositiveinteger.
+Then 1.
+(cid:18) (cid:19) −1 = (−1)(n−1)/2.
+n 2.
+(cid:18) (cid:19) 2 = (−1)(n2−1)/8.
+n Proof.
+Proof of 1: If p is in the prime factorization of n, then by Corollary 3, we (cid:16) (cid:17) seethat −1 = (−1)(p−1)/2.
+Thus p (cid:18)−1(cid:19) (cid:89)m (cid:18)−1(cid:19)ci = n p i i=1 = (−1)(cid:80)mi=1ci(pi−1)/2.118 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUES Noticethatsincep −1iseven,wehave i pai = (1+(p −1))ci ≡ 1+c (p −1)(mod4) i i i i andhenceweget m m (cid:89) (cid:88) n = pci ≡ 1+ c (p −1)(mod4).
+i i i i=1 i=1 Asaresult,wehave m (cid:88) (n−1)/2 ≡ c (p −1)/2(mod2).
+i i i=1 Proofof2: Ifpisaprime,thenbyTheorem72wehave (cid:18) (cid:19) 2 = (−1)(p2−1)/8.
+p Hence (cid:18) (cid:19) 2 = (−1)(cid:80)mi=1ci(p2i−1)/8.
+n Because8 | p2 −1,weseesimilarlythat i (1+(p2 −1))ci ≡ 1+c (p2 −1)(mod64) i i i andthus m (cid:88) n2 ≡ 1+ c (p2 −1)(mod64), i i i=1 whichimpliesthat m (cid:88) (n2 −1)/8 ≡ c (p2 −1)/8(mod8).
+i i i=1 WenowshowthatthereciprocitylawholdsforJacobisymbol.5.7.
+JACOBISYMBOL 119 Theorem76.
+Let(a,b) = 1beoddpositiveintegers.
+Then (cid:18) (cid:19) b (cid:16)a(cid:17) = (−1)a−1.b−1.
+2 2 a b Proof.
+Noticethatsincea = (cid:81)m pci andb = (cid:81)n qdi weget j=1 i i=1 i (cid:18)b(cid:19)(cid:16)a(cid:17) (cid:89)n (cid:89)m (cid:20)(cid:18)p (cid:19)(cid:18)q (cid:19)(cid:21)cjdi j i = a b q p i j i=1 j=1 Bythelawofquadraticreciprocity,weget (cid:18) (cid:19) b (cid:16)a(cid:17) = (−1)(cid:80)ni=1(cid:80)mj=1cj(cid:16)pj2−1(cid:17)di(qi2−1) a b Asintheproofofpart1ofTheorem75,weseethat m (cid:18) (cid:19) (cid:88) p −1 a−1 j c ≡ (mod2) j 2 2 j=1 and n (cid:18) (cid:19) (cid:88) q −1 b−1 i d ≡ (mod2).
+i 2 2 i=1 Thusweconcludethat m (cid:18) (cid:19) n (cid:18) (cid:19) (cid:88) p −1 (cid:88) q −1 a−1 b−1 j i c d ≡ .
+(mod2).
+j i 2 2 2 2 j=1 i=1 Exercises (cid:0) (cid:1) 1.
+Evaluate 258 .
+4520 (cid:0) (cid:1) 2.
+Evaluate 1008 .
+2307 3.
+Forwhichpositiveintegersnthatarerelativelyprimeto15doestheJacobi (cid:0) (cid:1) symbol 15 equal1?
+n 4.
+Let n be an odd square free positive integer.
+Show that there is an integer a (cid:0) (cid:1) suchthat(a,n) = 1and a = −1.
+n120 CHAPTER5.
+PRIMITIVEROOTSANDQUADRATICRESIDUESChapter 6 Introduction to Continued Fractions In this chapter, we introduce continued fractions, prove their basic properties and apply these properties to solve some problems.
+Being a very natural object, con- tinued fractions appear in many areas of Mathematics, sometimes in an unex- pectedway.
+TheDutchmathematicianandastronomer,ChristianHuygens(1629- 1695),madetheﬁrstpracticalapplicationofthetheoryof”anthyphaeireticratios” (the old name of continued fractions) in 1687.
+He wrote a paper explaining how to use convergents to ﬁnd the best rational approximations for gear ratios.
+These approximationsenabledhimtopickthegearswiththebestnumbersofteeth.
+His work was motivated by his desire to build a mechanical planetarium.
+Further continued fractions attracted attention of most prominent mathematicians.
+Euler, Jacobi,Cauchy,Gaussandmanyothersworkedwiththesubject.
+Continuedfrac- tions ﬁnd their applications in some areas of contemporary Mathematics.
+There are mathematicians who continue to develop the theory of continued fractions nowadays, The Australian mathematician A.J.
+van der Poorten is, probably, the mostprominentamongthem.
+121122 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS 6.1 Basic Notations Ingeneral,a(simple)continuedfractionisanexpressionoftheform 1 a + , 0 1 a + 1 a +... 2 where the letters a , a , a , ... denote independent variables, and may be inter- 0 1 2 preted as one wants (e.g.
+real or complex numbers, functions, etc.).
+This expres- sion has precise sense if the number of terms is ﬁnite, and may have no meaning for an inﬁnite number of terms.
+In this section we only discuss the simplest clas- sicalsetting.
+Theletters a , a ,...denotepositiveintegers.
+Thelettera denotesaninteger.
+1 2 0 Thefollowingstandardnotationisveryconvenient.
+Notation1.
+Wewrite 1 [a ;a ,a ,...,a ] = a + 0 1 2 n 0 1 a + 1 a +... 2 1 + a n ifthenumberoftermsisﬁnite,and 1 [a ;a ,a ,...] = a + 0 1 2 0 1 a + 1 a +... 2 foraninﬁnitenumberofterms.
+Still,inthecaseofinﬁnitenumberoftermsacertainamountofworkmustbe carried out in order to make the above formula meaningful.
+At the same time, for theﬁnitenumberoftermstheformulamakessense.
+Example58.
+[−2;1,3,5] = −2+1/(1+1/(3+1/5)) = −2+1/(1+5/16) = −2+1/(21/16) = −2+16/21 = −26/216.1.
+BASICNOTATIONS 123 Notation2.
+Foraﬁnitecontinuedfraction[a ;a ,a ,...,a ]andapositiveinte- 0 1 2 n gerk ≤ n,thek-thremainderisdeﬁnedasthecontinuedfraction r = [a ;a ,a ,...,a ].
+k k k+1 k+2 n Similarly,foraninﬁnitecontinuedfraction[a ;a ,a ,...]andapositiveinte- 0 1 2 gerk,thek-thremainderisdeﬁnedasthecontinuedfraction r = [a ;a ,a ,...].
+k k k+1 k+2 Thus,atleastinthecaseofaﬁnitecontinuedfraction, α = [a ;a ,a ,...,a ] = a +1/(a +1/(a +...+1/a )) 0 1 2 n 0 1 2 n wehave α = a +1/(a +1/(a +...+1/(a +1/r ))) = ”[a ;a ,a ,...,a ,r ]” 0 1 2 k−1 k 0 1 2 k−1 k (6.1) for any positive k ≤ n. Quotation signs appear because we consider the expres- sionsofthiskindonlywithintegerentriesbutthequantityr maybeanon-integer.
+k It is not difﬁcult to expand any rational number α into a continued fraction.
+Indeed, let a = [α] be the greatest integer not exceeding α.
+Thus the difference 0 δ = α − a < 1 and, of course, δ ≥ 0.
+If δ = 0 then we are done.
+Otherwise 0 put r = 1/δ, ﬁnd a = [r ] and non-negative δ = α − a < 1.
+Continue the 1 1 1 1 1 procedureuntilyouobtainδ = 0.
+Example 59.
+Consider the continued fraction expansion for 42/31.
+We obtain a = [42/31] = 1, δ = 42/31 − 1 = 11/31.
+Now r = 1/δ = 31/11 and 0 1 a = [α ] = [31/11] = 2.
+Thenewδ = 31/11−2 = 9/11.
+Nowr = 1/δ = 11/9 1 1 2 and a = [α ] = [11/9] = 1.
+It follows that δ = 11/9 − 1 = 2/9.
+Now 2 2 r = 1/δ = 9/2 and a = [α ] = [9/2] = 4.
+It follows that δ = 9/2−4 = 1/2.
+3 3 3 Nowr = 1/δ = 2anda = [α ] = [2] = 2.
+Itfollowsthatδ = 2−2 = 0andwe 4 4 4 aredone.124 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS Thuswehavecalculated 42/31 = [a ;a ,a ,a ,a ] = [1;2,1,4,2].
+0 1 2 3 4 The above example shows that the algorithm stops after ﬁnitely many steps.
+Thisisinfactquiteageneralphenomenon.
+Inordertopracticewiththeintroduced notationsletusproveasimplebutimportantproposition.
+Proposition1.
+Anyrationalnumbercanberepresentedasaﬁnitecontinuedfrac- tion.
+Proof.
+By construction, all remainders are positive rationals.
+For a positive integerk putr = A/B andleta = [r ].
+Then k k k A−Ba C k r −a = := .
+(6.2) k k B B with C < B because r −a < 1 by construction.
+If C = 0, then the algorithm k k stopsatthispointandwearedone.
+AssumenowthatC (cid:54)= 0.
+Itfollowsfrom(6.1) that 1 r = a + .
+(6.3) k k r k+1 Comparenow(6.2)with(6.3)toﬁndthat B r = .
+k+1 C Since C < B, the rational number r has a denominator which is smaller than k+1 the the denominator of the previous remainder r .
+It follows that after a ﬁnite k number of steps we obtain an integer (a rational with 1 in the denominator) r = n a andtheprocedurestopsatthispoint.
+n ThereappearseveralnaturalquestionsintheconnectionwithProposition1.
+Is such a continued fraction representation unique?
+The immediate answer is ”no”.
+Herearetwo”different”continuedfractionrepresentationsfor1/2: 1 = [0;2] = [0;1,1].
+26.1.
+BASICNOTATIONS 125 However,werequirethata > 1,wherea isthelastelementofaﬁnitecontinued n n fraction.
+Thentheansweris”yes”.
+Hint.
+Makeuseoftheformulas(6.5)below.
+Fromnowonweassumethata > 1. n Another natural question is about inﬁnite continued fractions and (as one can easilyguess)realnumbers.
+Theproofofthecorrespondingresultisslightlymore involved, and we do not give it here.
+In this brief introduction we just formulate the result and refer to the literature ([12, Theorem 14]) for a complete proof.
+We, however, provide some remarks concerning this result below.
+In particular, we willexplainatsomepoint,whattheconvergencemeans.
+Theorem77.
+Aninﬁnitecontinuedfractionconvergesanddeﬁnesarealnumber.
+Thereisaone-to-onecorrespondencebetween • all (ﬁnite and inﬁnite) continued fractions [a ;a ,a ,...] with an integer a 0 1 2 0 and positive integers a for k > 0 (and the last term a > 1 in the case of ﬁnite k n continuedfractions) and •realnumbers.
+Notethatthealgorithmwedevelopedabovecanbeappliedtoanyrealnumber andprovidesthecorrespondingcontinuedfraction.
+Theorem 77 has certain theoretical signiﬁcance.
+L.Kronecker (1823-1891) said,”Godcreatedtheintegers;therestisworkofman”.
+Severalwaystorepresent real numbers out of integers are well-known.
+Theorem 77 provides yet another waytofulﬁllthistask.
+Thiswayisconstructiveandatthesametimeisnottiedto anyparticularbase(saytodecimalorbinarydecomposition).
+Wewilldiscusssomeexampleslater.
+Exercises 1.
+Prove that under the assumption a > 1 the continued fraction representa- n tion given in Proposition 1 is unique.
+In other words, the correspondence126 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS between • ﬁnite continued fractions [a ;a ,a ,...a ] with an integer a , positive 0 1 2 n 0 integersa fork > 0anda > 1 k n and •rationalnumbers isone-to-one.
+6.2 Main Technical Tool Truncate ﬁnite (or inﬁnite) continued fraction α = [a ;a ,a ,...,a ] at the k-th 0 1 2 n place(withk < nintheﬁnitecase).
+Therationalnumbers = [a ;a ,a ,...,a ] k 0 1 2 k iscalledthek-thconvergentofα.
+Deﬁnetheintegersp andq by k k p k s = (6.4) k q k writteninthereducedformwithq > 0. k Thefollowingrecursivetransformationlawtakesplace.
+Theorem78.
+Fork ≥ 2 p = a p +p k k k−1 k−2 (6.5) q = a q +q .
+k k k−1 k−2 Remark.
+It does not matter here whether we deal with ﬁnite or inﬁnite con- tinued fractions: the convergents are ﬁnite anyway.
+Proof.
+We use the induction argumentonk.
+Fork = 2thestatementistrue.
+Now,assume(6.5)for2 ≤ k < l. Let p l α = [a ;a ,a ,...a ] = 0 1 2 l q l6.2.
+MAINTECHNICALTOOL 127 be an arbitrary continued fraction of length l + 1.
+We denote by p /q the r-th r r convergentα.
+Consideralsothecontinuedfraction β = [a ;a ,...,a ] 1 2 l and denote by p(cid:48)/q(cid:48) its r-th convergent.
+We have α = a +1/β which translates r r 0 as p = a p(cid:48) +q(cid:48) l 0 l−1 l−1 (6.6) q = p(cid:48) .
+l l−1 Also,bytheinductionassumption, p(cid:48) = a p(cid:48) +p(cid:48) l−1 l l−2 l−3 (6.7) q(cid:48) = a q(cid:48) +q(cid:48) l−1 l l−2 l−3 Combining(6.6)and(6.7)weobtaintheformulas p = a (a p(cid:48) +p(cid:48) )+a q(cid:48) +q(cid:48) = a (a p(cid:48) +q(cid:48) )+(a p(cid:48) +q(cid:48) ) = a p +p l 0 l l−2 l−3 l l−2 l−3 l 0 l−2 l−2 0 l−3 l−3 l l−1 l−2 and q = a p(cid:48) +p(cid:48) = a q +q , l l l−2 l−3 l l−1 l−2 whichcompletetheinductionstep.
+Wehavethusprovedthat p k s = , k q k wherep andq aredeﬁnedbytherecursiveformulas(6.5).
+Westillhavetocheck k k that these are the quantities deﬁned by (6.4), namely that q > 0 and that q and k k p are relatively prime.
+The former assertion follows from (6.5) since a > 0 for k k k > 0.
+Toprovethelatterassertion,multiplytheequations(6.5)byq andp k−1 k−1 respectivelyandsubtractthem.
+Weobtain p q −q p = −(p q −q p ).
+(6.8) k k−1 k k−1 k−1 k−2 k−1 k−2 This concludes the proof of Theorem 6.5.
+As an immediate consequence of (6.5)weﬁndthat128 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS p p (−1)k k−1 k − = (6.9) q q q q k−1 k k k−1 and p p (−1)ka k−2 k k − = .
+q q q q k−2 k k k−2 Sinceallthenumbersq anda arepositive,theaboveformulasimplythefollow- k k ing.
+Proposition 2.
+The subsequence of convergents p /q for even indices k is in- k k creasing.
+Thesubsequenceofconvergentsp /q foroddindicesk isdecreasing.
+k k Every convergent with an odd index is bigger than every convergent with an even index.
+Remark.
+Proposition 2 implies that both subsequences of convergents (those with odd indices and those with even indices) have limits.
+This is a step towards making sense out of an inﬁnite continued fraction: this should be common limit of these two subsequences.
+It is somehow more technically involved (although stillfairlyelementary!)
+toprovethatthesetwolimitscoincide.
+Theorem79.
+Letα = [a ;a ,a ,...,a ].
+Fork < nwehave 0 1 2 n (cid:12) (cid:12) 1 (cid:12) pk(cid:12) 1 ≤ (cid:12)α− (cid:12) ≤ q (q +q ) (cid:12) q (cid:12) q q k k+1 k k k k+1 Proof.
+Another inequality, which provides the lower bound for the distance between the number α and k-th convergent is slightly more involved.
+To prove it we ﬁrst considerthefollowingwaytoaddfractionswhichstudentssometimesprefer.
+Deﬁnition1.
+Thenumber a+c b+d is called the mediant of the two fractions a/b and c/d.
+(The quantities a,b,c and dareintegers.)6.2.
+MAINTECHNICALTOOL 129 Lemma15.
+If a c ≤ b d then a a+c c ≤ ≤ .
+b b+d d Considernowthesequenceoffractions p p +p p +2p p +a p p k k k+1 k k+1 k k k+1 k+2 , , ,..., = , (6.10) q q +q q +2q q +a q q k k k+1 k k+1 k k k+1 k+2 wherethelastequalityfollowsfrom(6.5).
+It follows that the sequence (6.10) is increasing if k is even and is decreasing ifk isodd.
+Thus,inparticular,thefraction p +p k k+1 (6.11) q +q k k+1 is between the quantities p /q and α.
+Therefore the distance between p /q and k k k k thefraction(6.11)issmallerthanthedistancebetweenp /q andα: k k (cid:12) (cid:12) (cid:12) pk(cid:12) pk +pk+1 1 (cid:12)α− (cid:12) ≥ = .
+(cid:12) q (cid:12) q +q q (q +q ) k k k+1 k k k+1 The second (right) inequality in Theorem 79 is now proved.
+This ﬁnishes the proofofTheorem79.
+Exercises 1.
+ChecktheassertionofTheorem78fork = 2.
+2.
+Checkthatfork = 2 p q −q p = −1.
+2 1 2 1 Hint.
+Introduce formally p = 1 and q = 0, check that then formulas −1 −1 6.5aretruealsofork = 1.
+3.
+Combinethepreviousexerciseswith(6.8)toobtain q p −p q = (−1)k k k−1 k k−1 fork ≥ 1.
+Derivefromthisthatq andp arerelativelyprime.
+k k130 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS 4.
+ProveProposition2 5.
+Combine(6.9)withProposition2toprovetheinequality (cid:12) (cid:12) (cid:12) pk(cid:12) 1 (cid:12)α− (cid:12) ≤ .
+(cid:12) q (cid:12) q q k k k+1 6.
+ProveLemma15 7.
+Use (6.5) to show that the sign of the difference between two consecutive fractionsin(6.10)dependsonlyontheparityofk.
+6.3 Very Good Approximation Continued fractions provide a representation of numbers which is, in a sense, genericandcanonical.
+Itdoesnotdependonanarbitrarychoiceofabase.
+Sucha representation shouldbe the bestina sense.
+Inthissection we quantify this naive idea.
+Deﬁnition 2.
+A rational number a/b is referred to as a ”good” approximation to anumberα if c a (cid:54)= and 0 < d ≤ b d b imply |dα−c| > |bα−a|.
+Remarks.
+1.
+Our”goodapproximation”is”thebestapproximationofthesec- ondkind”inamoreusualterminology.
+2.
+Although we use this deﬁnition only for rational α, it may be used for any real α aswell.
+Neithertheresultsofthissectionnortheproofsalter.
+3.
+Naively, this deﬁnition means that a/b approximates α better then any other rational number whose denominator does not exceed b.
+There is another, more6.3.
+VERYGOODAPPROXIMATION 131 common, deﬁnition of ”the best approximation”.
+A rational number x/y is re- ferredtoas”thebestapproximationoftheﬁrstkind”ifc/d (cid:54)= x/y and0 < d ≤ y imply |α − c/d| > |α − x/y|.
+In other words, x/y is closer to α than any ratio- nal number whose denominator does not exceed y.
+In our deﬁnition we consider a slightly different measure of approximation, which takes into the account the denominator, namely b|α − a/b| = |bα − a| instead of taking just the distance |α−a/b|.
+Theorem80.
+Any”good”approximationisaconvergent.
+Proof.
+Let a/b be a ”good” approximation to α = [a ;a ,a ,...,a ].
+We 0 1 2 n havetoprovethata/b = p /q forsomek.
+k k Thus we have a/b > p /q or a/b lies between two consecutive convergents 1 1 p /q andp /q forsomek.
+Assumethelatter.
+Then k−1 k−1 k+1 k+1 (cid:12) (cid:12) (cid:12)a pk−1(cid:12) 1 (cid:12) − (cid:12) ≥ (cid:12)b q (cid:12) bq k−1 k−1 and (cid:12) (cid:12) (cid:12) (cid:12) (cid:12)a pk−1(cid:12) (cid:12)pk pk−1(cid:12) 1 (cid:12) − (cid:12) < (cid:12) − (cid:12) = .
+(cid:12)b q (cid:12) (cid:12)q q (cid:12) q q k−1 k k−1 k k−1 Itfollowsthat b > q .
+(6.12) k Also (cid:12) (cid:12) (cid:12)(cid:12)α− a(cid:12)(cid:12) ≥ (cid:12)(cid:12)pk+1 − a(cid:12)(cid:12) ≥ 1 , (cid:12) b(cid:12) (cid:12)q b(cid:12) bq k+1 k+1 whichimplies 1 |bα−a| ≥ .
+q k+1 AtthesametimeTheorem79(itrightinequalitymultipliedbyq )reads k 1 |q α−p | ≤ .
+k k q k+1 Itfollowsthat |q α−p | ≤ |bα−a|, k k132 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS and the latter inequality together with (6.12) show that a/b is not a ”good” ap- proximationofα inthiscase.
+ThisﬁnishestheproofofTheorem80.
+Exercises 1.
+Provethatifa/bisa”good”approximationthena/b ≥ a .
+0 2.
+Showthatifa/b > p /q thena/bisnota”good”approximationtoα.
+1 1 6.4 An Application Consider the following problem which may be of certain practical interest.
+As- sume that we calculate certain quantity using a computer.
+Also assume that we know in advance that the quantity in question is a rational number.
+The com- puterreturnsadecimalwhichhashighaccuracyandisprettyclosetoourdesired answer.
+Howtoguesstheexactanswer?
+Tobemorespeciﬁcconsideranexample.
+Example60.
+Assumethatthedesiredansweris 123456 121169 andtheresultofcomputercalculationwithamodesterrorof10−15 is α = 123456/121169+10−15 = 1.01887446459077916933374047817511079566555802226642127937013592 5855623137931319066757999158200529838490042832737746453300761745 9911363467553582186862976503891259315501489654944746593600673439576129207 with some two hundred digits of accuracy which, of course come short to help in guessingtheperiodandtheexactdenominatorof121169.6.5.
+AFORMULAOFGAUSS,ATHEOREMOFKUZMINANDLE´VIANDAPROBLEMOFARNOLD133 Solution.
+Since123456/121169isagood(justinanaivesense)approximation to α, it should be among its convergents.
+This is not an exact statement, but it offersahope!
+Wehave α = [1;52,1,53,2,4,1,2,1,68110,4,1,2,106,22,3,1,1,10,2,1,3,1,3,4,2,11].
+We are not going to check all convergents, because we notice the irregularity: oneelement,68110isfarmorethantheothers.
+Inordertoexplainthisweusethe leftinequalityfromTheorem79togetherwiththeformula(6.5).
+Indeed,wehave an approximation of α which is unexpectedly good: |α−p /q | is very small (it k k isaround10−15)andwithamodestq too.
+Wehave k q (q +q ) = q (a q +q ) = q2(a +q /q ) k k+1 k k k+1 k k−1 k k+1 k−1 k and (cid:12) (cid:12) (cid:12) pk(cid:12) 1 (cid:12)α− (cid:12) ≥ .
+(cid:12) q (cid:12) q2(a +q /q ) k k k+1 k−1 k It follows that 1/q2(a +q /q ) is small (smaller than 10−15) and therefore, k k+1 k−1 k a shouldbebig.
+Thisisexactlywhatwesee.
+Ofcourse,ourguessiscorrect: k+1 123456 = [1,52,1,53,2,4,1,2,1].
+121169 In this way we conclude that in general an unexpectedly big element allows to cut the continued fraction (right before this element) and to guess the exact rationalquantity.
+Thereisprobablynoneed(althoughthisis,ofcourse,possible) toquantifythisprocedure.
+Iprefertouseitjustforguessingthecorrectquantities onthespotfromtheﬁrstglance.
+6.5 A Formula of Gauss, a Theorem of Kuzmin and Le´vi and a Problem of Arnold InthisconnectionGaussaskedaboutaprobabilityc foranumberk toappearas k anelementofacontinuedfraction.
+Suchaprobabilityisdeﬁnedinanaturalway:134 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONS asalimitwhenN → ∞ofthenumberofoccurrencesofk amongtheﬁrstN ele- ments of the continued fraction enpension.
+Moreover, Gauss provided an answer, but never published the proof.
+Two different proofs were found independently by R.O.Kuzmin (1928) and P. Le´vy (1929) (see [12] for a detailed exposition of the R.O.Kuzmin’sproof).
+Theorem81.
+Foralmosteveryrealαtheprobabilityforanumberk toappearas anelementinthecontinuedfractionexpansionofα is (cid:18) (cid:19) 1 1 c = ln 1+ .
+(6.13) k ln2 k(k +2) Remarks.
+1.
+Thewords”foralmosteveryα”meanthatthemeasureoftheset ofexceptionsiszero.
+2.
+Eventheexistenceofp (deﬁnedasalimit)ishighlynon-trivial.
+k Theorem81may(andprobablyshould)beconsideredasaresultfromergodic theory rather than number theory.
+This constructs a bridge between these two ar- eas of Mathematics and explains the recent attention to continued fractions of the mathematicians who study dynamical systems.
+In particular, V.I.Arnold formu- latedthefollowingopenproblem.
+Considerthesetofpairsofintegers(a,b)such thatthecorrespondingpointsontheplanearecontainedinaquarterofacircleof radiiN: a2 +b2 ≤ N2.
+Expand the numbers p/q into continued fractions and compute the frequencies s for the appearance of k in these fractions.
+Do these frequencies have limits k as N → ∞?
+If so, do these limits have anything to do with the probabilities, given by (6.13)?
+These questions demand nothing but experimental computer investigation,andsuchanexperimentmaybeundertakenbyastudent.
+Ofcourse, itwouldbeextremelychallengingtoﬁndaphenomenaexperimentallyinthisway andtoproveitafterthattheoretically.
+Of course, one can consider more general kinds of continued fractions.
+In particular, one may ease the assumption that the elements are positive integers6.5.
+AFORMULAOFGAUSS,ATHEOREMOFKUZMINANDLE´VIANDAPROBLEMOFARNOLD135 and consider, allowing arbitrary reals as the elements (the question of conver- gence may usually be solved).
+The following identities were discovered inde- pendently by three prominent mathematicians.
+The English mathematician R.J. Rogers found and proved these identities in 1894, Ramanujan found the iden- tities (without proof) and formulated them in his letter to Hardy from India in 1913.
+Independently, being separated from England by the war, I. J. Schur found the identities and published two different proofs in 1917.
+We refer an interested readerto[2]foradetaileddiscussionandjuststatetheamazingidentitieshere.
+(cid:115) √ √  5+ 5 5+1 [0;e−2π,e−4π,e−6π,e−8π,...] =  − e2π/5 2 2 (cid:115) √ √  5− 5 5−1 [1;e−π,e−2π,e−3π,e−4π,...] =  − eπ/5 2 2 Exercises 1.
+Provethatc reallydeﬁneaprobabilitydistribution,namelythat k ∞ (cid:88) c = 1. k k=1136 CHAPTER6.
+INTRODUCTIONTOCONTINUEDFRACTIONSChapter 7 Introduction to Analytic Number Theory The distribution of prime numbers has been the object of intense study by many modern mathematicians.
+Gauss and Legendre conjectured the prime number the- orem which states that the number of primes less than a positive number x is asymptotic to x/logx as x approaches inﬁnity.
+This conjecture was later proved by Hadamard and Poisson.
+Their proof and many other proofs lead to the what is knownasAnalyticNumbertheory.
+In this chapter we demonstrate elementary theorems on primes and prove el- ementary properties and results that will lead to the proof of the prime number theorem.
+7.1 Introduction It is well known that the harmonic series (cid:80)∞ 1 diverges.
+We therefore deter- n=1 n mine some asymptotic formulas that determines the growth of the (cid:80) 1.
+We n≤x n start by introducing Euler’s summation formula that will help us determine the asymptoticformula.
+137138 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY We might ask the following question.
+What if the sum is taken over all the primes.
+In this section, we show that the sum over the primes diverges as well.
+We also show that an interesting product will also diverge.
+From the following theorem,wecanactuallydeducethatthereareinﬁnitelymanyprimes.
+Euler’s Summation Formula If f has a continuous derivative on an interval [a,b]wherea > 0,then (cid:90) b (cid:90) b (cid:88) f(n) = f(t)dt+ ({t})f(cid:48)(t)dt+f(b)({b})−f(a)({a}).
+a a a<n≤b where{t}denotesthefractionalpartoft.
+FortheproofofEuler’ssummationformulasee[3,Chapter3].
+Proposition3.
+Ifx ≥ 1,wehavethat: (cid:18) (cid:19) (cid:88) 1 1 = logx+γ +O n x n≤x Proof.
+WeuseEuler’ssummationformulabytakingf(t) = 1/t.
+Wethenget (cid:88) 1 (cid:90) x 1 (cid:90) x {t} (cid:18)1(cid:19) = dt− dt+1+O n t t2 x 1 1 n≤x (cid:90) ∞ {t} (cid:90) ∞ {t} (cid:18)1(cid:19) = logx+1− dt+ dt+O t2 t2 x 1 x Noticenowthat{t} ≤ tandhencethetwoimproperintegralsexistsincetheyare dominatedbyintegralsthatconverge.
+Wethereforehave (cid:90) ∞ {t} 1 0 ≤ dt ≤ , t2 x x wealsolet (cid:90) ∞ {t} γ = 1− dt t2 17.1.
+INTRODUCTION 139 andwegettheasymptoticformula.
+Noticethatγ iscalledEuler’sconstant.
+Notice also that similar steps can be followed to ﬁnd an asymptotic formulas for other sumsinvolvingpowersofn.
+Wenowproceedtoshowthatifwesumovertheprimesinstead,westillgeta divergentseries.
+Theorem82.
+Both(cid:80) 1 and(cid:81) (1− 1)diverge.
+p p p p Proof.
+Letx ≥ 2andput (cid:89)(cid:18) 1(cid:19)−1 (cid:88) 1 P(x) = 1− , S(x) = p p p≤x p≤x Let0 < u < 1andm ∈ Z,wehave 1 1−um+1 > = 1+u+...+um.
+1−u 1−u Nowtakingu = 1,weget p 1 1 (cid:18)1(cid:19)m > 1+ +...+ 1− 1 p p p Asaresult,wehavethat (cid:18) (cid:19) (cid:89) 1 1 P(x) > 1+ +...+ p pm p≤x Choosem > 0 ∈ Zsuchthat2m−1 ≤ x ≤ 2m.
+Observealsothat (cid:18) (cid:19) (cid:89) 1 1 (cid:88) 1 1+ +...+ = 1+ p pm pm1pm2... p≤x pi≤x 1 2 where1 ≤ m ≤ m. Asaresult,wegetevery 1,n ∈ Z+ whereeachprimefactor i n ofnislessthanorequaltox(Exercise).
+Thuswehave (cid:18) (cid:19) 2m−1 [x/2] (cid:89) 1 1 (cid:88) 1 (cid:88) 1 1+ +...+ > > p pm n n p≤x n=1 n=1140 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY Takingthelimitasxapproachesinﬁnity,weconcludethatP(x)diverges.
+WeproceednowtoprovethatS(x)diverges.
+Noticethatifu > 0,then 1 log(1/u−1) < u+ (u2 +u3 +...).
+2 Thuswehave u2 log(1/u−1) < u+ (1/1−u), 0 < u < 1.
+2 Wenowletu = 1/pforeachp ≤ x,then (cid:18) (cid:19) 1 1 1 log − < 1−1/p p 2p(p−1) Thus (cid:88) logP(x) = log(1/1−p).
+p≤x Thuswehave ∞ 1 (cid:88) 1 1 (cid:88) 1 logP(x)−S(x) < < 2 p(p−1) 2 n(n−1) p≤x n=1 Thisimpliesthat 1 S(x) > logP(x)− 2 AndthusS(x)divergesasxapproachesinﬁnity.
+Theorem83(Abel’sSummationFormula).
+Foranyarithmeticfunctionf(n),we let (cid:88) A(x) = f(n) n≤x whereA(x) = 0forx < 1.
+Assumealsothatg hasacontinuousderivativeonthe interval[y,x],where0 < y < x. Thenwehave (cid:90) x (cid:88) f(n)g(n) = A(x)g(x)−A(y)g(y)− A(t)g(cid:48)(t)dt.
+y y<n≤x7.2.
+CHEBYSHEV’SFUNCTIONS 141 Theproofofthistheoremcanbefoundin[3,Chapter4].
+Exercises 1.
+Show that one gets every 1,n ∈ Z+ where each prime factor of n is less n thanorequaltoxintheproofofTheorem1.
+2.
+WritedowntheproofofAbel’ssummationformulaindetails.
+7.2 Chebyshev’s Functions We introduce some number theoretic functions which play important role in the distribution of primes.
+We also prove analytic results related to those functions.
+WestartbydeﬁningtheVan-Mangoltfunction Deﬁnition5.
+Ω(n) = logpifn = pm andvanishesotherwise.
+Wedeﬁnealsothefollowingfunctions,thelasttwofunctionsarecalledCheby- shev’sfunctions.
+(cid:80) 1. π(x) = 1. p≤x (cid:80) 2. θ(x) = logp p≤x (cid:80) 3. ψ(x) = Ω(n) n≤x Noticethat ∞ ∞ (cid:88) (cid:88) (cid:88) (cid:88) (cid:88) ψ(x) = Ω(n) = Ω(pm) = logp.
+n≤x m=1,pm≤x p m=1p≤x1/m Example61.
+1. π(10) = 4.
+2. θ(10) = log2+log3+log5+log7.
+3. ψ(10) = log2+log2+log2+log3+log3+log5+log7142 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY Remark3.
+Itiseasytoseethat ψ(x) = θ(x)+θ(x1/2)+θ(x1/3)+...θ(x1/m) wherem ≤ log x. Thisremarkisleftasanexercise.
+2 Noticethattheabovesumwillbeaﬁnitesumsinceforsomem,wehavethat x1/m < 2andthusθ(x1/m) = 0.
+We use Abel’s summation formula now to express the two functions π(x) and θ(x)intermsofintegrals.
+Theorem84.
+Forx ≥ 2,wehave (cid:90) x π(t) θ(x) = π(x)logx− dt t 2 and θ(x) (cid:90) x θ(t) π(x) = + dt.
+logx tlog2t 2 Proof.
+We deﬁne the characteristic function χ(n) to be 1 if n is prime and 0 oth- erwise.
+As a result, we can see from the deﬁnition of π(x) and θ(x) that they can be represented in terms of the characteristic function χ(n).
+This representation will enable use to apply Abel’s summation formula where f(n) = χ(n) for θ(x) andwheref(n) = χ(n)lognforπ(x).
+Sowehave, (cid:88) (cid:88) π(x) = χ(n) and θ(x) = χ(n)logn 1≤n/leqx 1≤n≤x Now let g(x) = logx in Theorem 84 with y = 1 and we get the desired result for theintegralrepresentationofθ(x).
+Similarlyweletg(x) = 1/logxwithy = 3/2 andweobtainthedesiredresultforπ(x)sinceθ(t) = 0fort < 2.
+We now prove a theorem that relates the two Chebyshev’s functions θ(x) and ψ(x).
+The following theorem states that if the limit of one of the two functions θ(x)/xorψ(x)/xexiststhenthelimitoftheotherexistsaswellandthetwolimits areequal.7.3.
+GETTINGCLOSERTOTHEPROOFOFTHEPRIMENUMBERTHEOREM143 Theorem85.
+Forx > 0,wehave ψ(x) θ(x) (logx)2 0 ≤ − ≤ √ .
+x x 2 xlog2 Proof.
+FromRemark4,itiseasytoseethat 0 ≤ ψ(x)−θ(x) = θ(x1/2)+θ(x1/3)+...θ(x1/m) where m ≤ log x.
+Moreover, we have that θ(x) ≤ xlogx.
+The result will follow 2 afterprovingtheinequalityinExercise2.
+Exercises 1.
+Showthat ψ(x) = θ(x)+θ(x1/2)+θ(x1/3)+...θ(x1/m) wherem ≤ log x.
+2 √ √ 2.
+Show that 0 ≤ ψ(x) − θ(x) ≤ (log (x)) xlog x and thus the result of 2 Theorem86follows.
+3.
+Showthatthefollowingtworelationsareequivalent (cid:18) (cid:19) x x π(x) = +O logx log2x (cid:18) (cid:19) x θ(x) = x+O logx 7.3 Getting Closer to the Proof of the Prime Num- ber Theorem We know prove a theorem that is related to the deﬁned functions above.
+Keep in mindthattheprimenumbertheoremisgivenasfollows: π(x)logx lim = 1. x→∞ x Wenowstateequivalentformsoftheprimenumbertheorem.144 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY Theorem86.
+Thefollowingrelationsareequivalent π(x)logx lim = 1 (7.1) x→∞ x θ(x) lim = 1 (7.2) x→∞ x ψ(x) lim = 1.
+(7.3) x→∞ x Proof.
+WehaveprovedinTheorem86that(7.2)and(7.3)areequivalent,soifwe show that (7.1) and (7.2) are equivalent, the proof will follow.
+Notice that using theintegralrepresentationsofthefunctionsinTheorem85,weobtain θ(x) π(x)logx 1 (cid:90) x π(t) = − dt x x x t 2 and π(x)logx θ(x) logx (cid:90) x θ(t) = + dt.
+x x x tlog2t 2 Nowtoprovethat(7.1)implies(7.2),weneedtoprovethat 1 (cid:90) x π(t) lim dt = 0. x→∞ x t 2 (cid:16) (cid:17) Noticealsothat(7.1)impliesthat π(t) = O 1 fort ≥ 2andthuswehave t logt 1 (cid:90) x π(t) (cid:18)1 (cid:90) x dt (cid:19) dt = O x t x logt 2 2 Nowonceyoushowthat(Exercise1) √ √ (cid:90) x dt x x− x ≤ + √ , logt log2 log x 2 then(7.1)implies(7.2)willfollow.
+Westillneedtoshowthat(7.2)implies(7.1) andthuswehavetoshowthat logx (cid:90) x θ(t)dt lim = 0. x→∞ x tlog2t 27.3.
+GETTINGCLOSERTOTHEPROOFOFTHEPRIMENUMBERTHEOREM145 Noticethatθ(x) = O(x)andhence logx (cid:90) x θ(t)dt (cid:18)logx (cid:90) x dt (cid:19) = O .
+x tlog2t x log2t 2 2 Nowonceagainweshowthat(Exercise2) √ √ (cid:90) x dt x x− x ≤ + √ log2t log22 log2 x 2 then(7.2)implies(7.1)willfollow.
+Theorem87.
+Deﬁne π(x) π(x) l = liminf , L = limsup , 1 1 x→∞ x/logx x→∞ x/logx θ(x) θ(x) l = liminf , L = limsup , 2 2 x→∞ x x→∞ x and ψ(x) ψ(x) l = liminf , L = limsup , 3 3 x→∞ x x→∞ x thenl = l = l andL = L = L .
+1 2 3 1 2 3 Proof.
+Noticethat ψ(x) = θ(x)+θ(x1/2)+θ(x1/3)+...θ(x1/m) ≥ θ(x) wherem ≤ log x 2 Also, (cid:20) (cid:21) (cid:88) logx (cid:88) logx ψ(x) = logp ≤ logp = logxπ(x).
+logp logp p≤x p≤x Thuswehave θ(x) ≤ ψ(x) ≤ π(x)logx146 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY Asaresult,wehave θ(x) ψ(x) π(x) ≤ ≤ x x x/logx andwegetthatL ≤ L ≤ L .
+WestillneedtoprovethatL ≤ L .
+2 3 1 1 2 Letα bearealnumberwhere0 < α < 1,wehave (cid:88) (cid:88) θ(x) = logp ≥ logp p≤x xα≤p≤x (cid:88) > αlogx (logp > αlogx) xα≤p≤x = αlogx{π(x)−π(xα)} However,π(xα) ≤ xα.
+Hence θ(x) > αlogx{π(x)−xα} Asaresult, θ(x) απ(x) > −αxα−1logx x x/logx Sincelim αlogx/x1−α = 0,then x→∞ π(x) L ≥ αlimsup 2 x/logx x→∞ Asaresult,wegetthat L ≥ αL 2 1 Asα → 1,wegetL ≥ L .
+2 1 Provingthatl = l = l isleftasanexercise.
+1 2 3 WenowpresentaninequalityduetoChebyshevaboutπ(x).
+Theorem88.
+Thereexistconstantsa < Asuchthat x x a < π(x) < A logx logx forsufﬁcientlylargex.7.3.
+GETTINGCLOSERTOTHEPROOFOFTHEPRIMENUMBERTHEOREM147 Proof.
+Put π(x) π(x) l = liminf , L = limsup , x→∞ x/logx x→∞ x/logx It will be sufﬁcient to prove that L ≤ 4log2 and l ≥ log2.
+Thus by Theorem 2, wehavetoprovethat θ(x) limsup ≤ 4log2 (7.4) x x→∞ and ψ(x) liminf ≥ log2 (7.5) x→∞ x Toprove(7.4),noticethat (n+1)(n+2)...(n+n) N = C(2n,n) = < 22n < (2n+1)N n!
+Supposenowthatpisaprimesuchthatn < p < 2nandhencep | N. Asaresult, (cid:81) wehaveN ≥ p. Weget n<p<2n N ≥ θ(2n)−θ(n).
+Since N < 22n, we get that θ(2n) − θ(n) < 2nlog2.
+Put n = 1,2,22,...,2m−1 wheremisapositiveinteger.
+Wegetthat θ(2m) < 2m−1log2.
+Letx > 1andchoosemsuchthat2m−1 ≤ x ≤ 2m,wegetthat θ(x) ≤ θ(2m) ≤ 2m+1log2 ≤ 4xlog2 andweget(7.4)forallx.
+Wenowprove(7.5).
+NoticethatbyLemma9,wehavethatthehighestpower ofaprimepdividingN = (2n)!
+isgivenby (n!
+)2 (cid:88)µp (cid:26)(cid:20)2n(cid:21) (cid:20)n(cid:21)(cid:27) s = −2 .
+p pi pi i=11148 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORY (cid:104) (cid:105) whereµ = log2n .
+ThuswehaveN = (cid:81) psp.
+Ifxisapositiveintegerthen p logp p≤2n [2x]−2[x] < 2, Itmeansthat[2x]−2[x]is0or1.
+Thuss ≤ µ andweget p p (cid:89) N ≤ pµp.
+p≤e2n Noticeaswellthat (cid:20) (cid:21) (cid:88) log2n (cid:88) ψ(2n) = logp = µ logp.
+p logp p≤2n p≤2n Henceweget logN ≤ ψ(2n).
+Usingthefactthat22n < (2n+1)N,wecanseethat ψ(2n) > 2nlog2−log(2n+1).
+(cid:2) (cid:3) Let x > 2 and put n = x ≥ 1.
+Thus x −1 < n < x and we get 2n ≤ x.
+So we 2 2 2 get ψ(x) ≥ ψ(2n) > 2nlog2−log(2n+1) > (x−2)log2−log(x+1).
+Asaresult,weget ψ(x) liminf ≥ log2.
+x→∞ x Exercises 1.
+Showthatl = l = l inTheorem88.
+1 2 3 2.
+Showthat √ √ (cid:90) x dt x x− x ≤ + √ , logt log2 log x 27.3.
+GETTINGCLOSERTOTHEPROOFOFTHEPRIMENUMBERTHEOREM149 3.
+Showthat √ √ (cid:90) x dt x x− x ≤ + √ log2t log22 log2 x 2 4.
+Showthat (n+1)(n+2)...(n+n) N = C(2n,n) = < 22n < (2n+1)N n!
+5.
+Showthat 2√2n < N = C(2n,n) < √22n .
+2 n 2n Hint: Foronesideoftheinequality,write N (2n)!
+1.3.5....(2n−1) 2.4.6.....(2n) = = .
+, 2n 22n(n!
+)2 2.4.6....(2n) 2.4.6...(2n) thenshowthat N2 N2 1 > (2n+1).
+> 2n.
+.
+24n 24n The other side of the inequality will follow with similar arithmetic tech- niquesastheﬁrstinequality.150 CHAPTER7.
+INTRODUCTIONTOANALYTICNUMBERTHEORYChapter 8 Other Topics in Number Theory This chapter discusses various topics that are of profound interest in number the- ory.
+Section 1 on cryptography is on an application of number theory in the ﬁeld ofmessagedecoding,whiletheothersectionsonellipticcurvesandtheRiemann zeta function are deeply connected with number theory.
+The section on Fermat’s last theorem is related, through Wile’s proof of Fermat’s conjecture on the non- existence of integer solutions to xn + yn = zn for n > 2, to the ﬁeld of elliptic curves(andthustosection2).
+8.1 Cryptography In this section we discuss some elementary aspects of cryptography, which con- cernsthecodinganddecodingofmessages.
+Incryptography,a(word)messageis transformedintoa sequenceaofintegers, byreplacing each letterin the message by a speciﬁc and known set of integers that represent this letter, and thus forming a large integer a by concatenation.
+Then this integer a is transformed (i.e.
+coded) into another integer b by using a congruence of the form b = ak(mod m) for some chosen k and m, as described below, with k unknown except to the sender and receiver.
+b is then sent to the receiver who decodes it into a again by using 151152 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY a congruence of the form a = bk¯(mod m), where k¯ is related to k and is itself only known to the sender and receiver, and then simply transforms the integers in a back to letters and reveals the message again.
+In this procedure, if a third partyinterceptstheintegerb,thechanceoftransformingthisintoa,evenifmand the integers that represent the letters of the alphabet are exactly known, is almost impossible to do (i.e.
+has a fantastically small probability of being achieved) if k isnotknown,thatpracticallythetransformedmessagewillnotberevealedexcept totheintendedreceiver.
+The basic results on congruences to allow for the above procedure are in the followingtwolemmata,whereφinthestatementsisEuler’sφ-function.
+Lemma 16.
+Let a and m be two integers, with m positive and (a,m) = 1.
+If k andk¯ arepositiveintegerswithkk¯ = 1(modφ(m)),thenakk¯ = a(modm).
+Proof.
+kk¯ = 1(mod φ(m)) thus kk¯ = qφ(m) + 1 (q ≥ 0).
+Hence akk¯ = aqφ(m)+1 = aqφ(m)a.
+But by Euler’s Theorem, if (a,m) = 1 then aφ(m) = 1(modm).
+Thisgivesthat (aφ(m))qa = 1(modm)a = a(modm), (8.1) andhencethatakk¯ = a(modm),andtheresultfollows.
+Wealsoneedthefollowing.
+Lemma17.
+Letmbeapositiveinteger,andletr ,r ,··· ,r beareducedresidue 1 2 n system modulo m (i.e.
+with n = φ(m) and (r ,m) = 1 for i = 1,··· ,n).
+If k is i an integer such that (k,φ(m)) = 1, then rk,rk,··· ,rk forms a reduced residue 1 2 n systemmodulom.
+Before giving the proof, one has to note that the above lemma is in fact an if-and-only-if statement, i.e.
+(k,φ(m)) = 1 if and only if rk,rk,··· ,rk forms a 1 2 n reduced residue system modulo m. However we only need the if part, as in the lemma.8.1.
+CRYPTOGRAPHY 153 Proof.
+Assumeﬁrstthat(k,φ(m)) = 1.
+We show thatrk,rk,··· ,rk is a reduced 1 2 n residue system modulo m. Assume otherwise, i.e.
+assume that ∃i,j such that rk = rk(modm),inwhichcaserk andrk wouldbelongtothesameclassandthus i j i j rk,rk,··· ,rk wouldnotformareducedresiduesystem.
+Then,since(k,φ(m)) = 1 2 n ¯ ¯ 1,∃k withkk = 1(modφ(m)),andso rkk¯ = r (modm) and rkk¯ = r (modm) (8.2) i i j j by the previous lemma.
+But if rk = rk(mod m) then (rk)k¯ = (rk)k¯(mod m), and i j i j sincerkk¯ = r (modm)andrkk¯ = r (modm),thenr = r (modm)givingthatr i i j j i j i andr belongtothesameclassmodulom,contradictingthatr ,r ,··· ,r forma j 1 2 n reducedresiduesystem.
+Thusr (cid:54)= r impliesthatrk (cid:54)= rk if(k,φ(m)) = 1. i j i j Now to do cryptography, one proceeds as follows.
+Let S be a sentence given intermsoflettersandspacesbetweenthewordsthatisintendedtobetransformed to a destination with the possibility of being intercepted and revealed by a third party.
+1.
+TransformS intoa(large)integerabyreplacingeachletterandeachspace between words by a certain representative integer (e.g.
+three or four digit integers for each letter).
+a is formed by concatenating the representative integersthatareproduced.
+2.
+Chooseacouplep andp ofverylargeprimenumbers,each(forexample) 1 2 of the order of a hundred digit integer, and these should be strictly kept known only to the sender and receiver.
+Then form the product m = p p , 1 2 whichisitselfaverylargenumbertothepointthatthechancesofsomeone revealingtheprimenumberfactorizationp p ofmisincrediblysmall,even 1 2 if they know this integer m. Now one has, by standard results concerning the φ-function, that φ(p ) = p − 1 and φ(p ) = p − 1, and that, since 1 1 2 2 p and p are relatively prime, φ(m) = φ(p )φ(p ) = (p − 1)(p − 1).
+1 2 1 2 1 2 Thus φ(m) is a very large number, of the order of m itself, and hence m154 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY has a reduced residue system that contains a very large number of integers of the order of m itself.
+Hence almost every integer smaller than m, with a probability of the order 1 − 1/10100 (almost 1), is in a reduced residue system r ,r ,··· ,r of m. Thus almost every positive integer smaller 1 2 φ(m) thanmisrelativelyprimewithm,withprobabilityoftheorder1−1/10100.
+3.
+Now given that almost every positive integer smaller than m is relatively prime with m, the integer a itself is almost certainly relatively prime with m, and hence is in a reduced residue system for m. Hence, by lemma 17 above, if k is a (large) integer such that (k,φ(m)) = 1, then ak belongs to areducedresiduesystemform,andthereexistsauniquepositivebsmaller thanmwithb = ak(modm).
+4.
+Sendbtothedestinationwhereφ(m)andk areknown.
+Thedestinationcan ¯ ¯ determineaksuchthatkk = 1(modφ(m)),andthenﬁndstheuniquecsuch that c = bk¯(mod m).
+Now since, almost certainly, (a,m) = 1, then almost certainly c = a since c = bk¯(mod m) = (ak)k¯(mod m) = akk¯(mod m), and which by lemma 16, is given by a(mod m) almost certainly since (a,m) = 1 almost certainly.
+Now the destination translates a back to letters and spaces to reveal the sentence S. Note that if any third party intercepts b, they almost certainly cannot reveal the integer a since the chance of them knowing φ(m) = p p is almost zero, even if they know 1 2 ¯ m and k. In this case they practically won’t be able to determine a k with ¯ kk = 1(modφ(m)),toretrieveaandtransformittoS.
+8.2 Elliptic Curves Elliptic curves in the xy-plane are the set of points (x,y) ∈ R × R that are the zeros of special types of third order polynomials f(x,y), with real coefﬁcients, in the two variables x and y.
+These curves turn out to be of fundamental interest8.2.
+ELLIPTICCURVES 155 in analytic number theory.
+More generally, one can deﬁne similar curves over arbitrary algebraic ﬁelds as follows.
+Let f(x,y) be a polynomial of any degree in two variables x and y, with coefﬁcients in an algebraic ﬁeld F. We deﬁne the algebraiccurveC (F)overtheﬁeldF by f C (F) = {(x,y) ∈ F ×F : f(x,y) = 0 ∈ F}.
+(8.3) f Of course one can also similarly deﬁne the algebraic curve C (Q) over a ﬁeld Q, f where Q is either a subﬁeld of the ﬁeld F where the coefﬁcients of f exist, or is an extension ﬁeld of F. Thus if f ∈ F[x,y], and if Q is either an extension or a subﬁeldofF,thenonecandeﬁneC (Q) = {(x,y) ∈ Q×Q : f(x,y) = 0}.
+Our f maininterestinthissectionwillbeinthirdorderpolynomials(cubiccurves) f(x,y) = ax3 +bx2y +cxy2 +dy3 +ex2 +fxy +gy2 +hx+iy +j, (8.4) with coefﬁcientsinR, with the associatedcurves C (Q)overtheﬁeldof rational f numbers Q ⊂ R. Thus, basically, we will be interested in points (x,y) ∈ R2 that have rational coordinates x and y, and called rational points, that satisfy f(x,y) = 0.
+Of course one can ﬁrst imagine the curve f(x,y) = 0 in R2, i.e.
+the curve C (R) over R, and then choosing the points on this curve that have ra- f tionalcoordinates.
+ThiscansimplybeexpressedbywritingthatC (Q) ⊂ C (R).
+f f It has to be mentioned that ”rational curves” C (Q) are related to diophantine f equations.
+This is in the sense that rational solutions to equations f(x,y) = 0 produce integer solutions to equations f(cid:48)(x,y) = 0, where the polynomial f(cid:48) is very closely related to the polynomial f, if not the same one in many cases.
+For example every point in C (Q), where f(x,y) = xn +yn, i.e.
+every rational solu- f tiontof(x,y) = xn+yn = 0,producesanintegersolutiontoxn+yn = 0.
+Thus algebraiccurvesC (Q)canbeofgenuineinterestinthissense.
+f InapossibleproceduretoconstructthecurveC (Q)forapolynomialf(x,y) ∈ f R[x,y] with real coefﬁcients, one considers the possibility that, given one ratio- nal point (x,y) ∈ C (Q) ⊂ C (R), a straight line with a rational slope m might f f156 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY intersect the curve C (R) in a point (x(cid:48),y(cid:48)) that is also in C (Q).
+This possibility f f comes from the simple fact that if (x,y),(x(cid:48),y(cid:48)) ∈ C (Q), then the slope of the f straight line that joins (x,y) and (x(cid:48),y(cid:48)) is a rational number.
+This technique, of determiningonepointinC (Q)fromanotherbyusingstraightlinesasmentioned, f worksverywellinsomecasesofpolynomials,especiallythoseofseconddegree, andworksreasonablywellforthirdorderpolynomials.
+Two aspects of this technique of using straight lines to determine points in C (Q), and which will be needed for deﬁning elliptic curves, are the following.
+f Theﬁrstisillustratedbythefollowingexample.
+Consider the polynomial f(x,y) = y2 − x2 + y = (y − x + 1)(y + x).
+The curve C (R) contains the two straight lines y = x − 1 and y = −x.
+The f point (2,1) ∈ C (Q), and if one tries to ﬁnd the intersection of the particular line f y = x−1 that passes through (2,1) with C (R), one ﬁnds that this includes the f whole line y = x − 1 itself, and not just one or two other points (for example).
+This result is due to the fact that f is a reducible polynomial, i.e.
+that can be factoredintheformf = f(cid:48)f(cid:48)(cid:48) withf andf(cid:48)(cid:48) notjustrealnumbers.
+Inthisdirectiononehasthefollowinggeneraltheoremconcerningthenumber ofintersectionpointsbetweenastraightlineLandanalgebraiccurveC (R): f Theorem 89.
+If f ∈ R[x,y] is a polynomial of degree d, and the line L, which is deﬁned by the zeros of g(x,y) = y − mx − b ∈ R[x,y], are such that L ∩ C (R) contains more than d points (counting the multiplicities of intersections) f then in fact L = C (R) ⊂ C (R), and f can be written in the form f(x,y) = g f g(x,y)p(x,y),wherep(x,y)issomepolynomialofdegreed−1.
+Inconnectionwiththeabovetheorem,andindeﬁninganellipticcurveC (R), f where f is a polynomial of degree three, we shall require that this curve be such that any straight line that passes through two points (x ,y ),(x ,y ) ∈ C (R), 1 1 2 2 f wherethetwopointscouldbethesamepointifthecurveatoneofthemisdiffer- entiablewiththetangentatthatpointtothecurvehavingsameslopeasthatofthe8.2.
+ELLIPTICCURVES 157 line, will also pass through a unique third point (x ,y ).
+By the above theorem, 3 3 if a line intersects the curve C (R) associated with the third order polynomial f f in more than three points, then the line itself is a subset of C (R).
+This will be f excluded for the kind of third degree polynomials f whose associated algebraic curvesshallbecalledellipticcurves.
+One other thing to be excluded, to have third order curves characterized as elliptic curves, is the existence of singular points on the curve, where a singular pointisonewherethecurvedoesnotadmitauniquetangent.
+It has to be mentioned that in the previous discussion, the points on the curve C (R) may lie at inﬁnity.
+To deal with this situation we assume that the curve is f in fact a curve in the real projective plane P (R).
+We now can deﬁne an elliptic 2 curve C (R) as being such that f(x,y) is an irreducible third order polynomial f withC (R)havingnosingularpointsinP (R).
+f 2 Themainideabehindtheabovedeﬁnitionforellipticcurvesistohaveacurve wherebyanytwopointsAandB onthecurvecandetermineauniquethirdpoint, to be denoted by AB, using a straight line joining A and B.
+The possibilities are as follows: If the line joining A and B is not tangent to the curve C (R) at f anypoint,thenthelineintersectsthecurveinexactlythreedifferentpointstwoof which are A and B while the third is AB.
+If the line joining A and B is tangent to the curve at some point p then either this line intersects C (R) in exactly two f points,pandsomeotherpointp(cid:48),orintersectsthecurveinonlyonepointp.
+Ifthe lineintersectsC (R)intwopointspandp(cid:48),theneitherp = A = B inwhichcase f AB = p(cid:48), or A (cid:54)= B in which case (irrespective of whether p = A and p(cid:48) = B or vice-versa) one would have p = AB.
+While if the line intersects C (R) in only f onepointpthenp = A = B = AB.
+Theabovediscussionestablishesabinaryoperationonellipticcurvesthatpro- duces,foranytwopointsAandB auniquelydeﬁnedthirdpointAB.
+Thisbinary operation in turn produces, as will be described next, another binary operation, denoted by +, that deﬁnes a group structure on C (R) that is associated with the f158 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY straight-lineconstructiondiscussedsofar.
+A group structure on an elliptic curve C (R) is deﬁned as follows: Consider f an arbitrary point, denoted by 0, on C (R).
+We deﬁne, for any two points A and f B onC (R),thepointA+B by f A+B = 0(AB), (8.5) meaning that we ﬁrst determine the point AB as above, then we determine the point0(AB)correspondingto0andAB.
+Irrespectiveofthechoiceofthepoint0, onehasthefollowingtheoremonagroupstructuredeterminedby+onC (R).
+f Theorem 90.
+Let C (R) be an elliptic curve, and let 0 be any point on C (R).
+f f Thentheabovebinaryoperation+deﬁnesanAbeliangroupstructureonC (R), f with0beingtheidentityelementand−A = A(00)foreverypointA.
+The proof is very lengthy and can be found in [18].
+We ﬁrst note that if 0 and 0(cid:48) are two different points on an elliptic curve with associated binary operations +and+(cid:48),thenonecaneasilyshowthatforanytwopointsAandB A+(cid:48) B = A+B −0(cid:48).
+(8.6) Thisshowsthatthevariousgroupstructuresthatcanbedeﬁnedonanellipticcurve by considering all possible points 0 and associated operations +, are essentially thesame,uptoa”translation”.
+Lemma18.
+ConsiderthegroupstructureonanellipticcurveC (R),correspond- f ing to an operation + with identity element 0.
+If the cubic polynomial f has rational coefﬁcients, then the subset C (Q) ⊂ C (R) of rational solutions to f f f(x,y) = 0 forms a subgroup of C (R) if and only if 0 is itself a rational point f (i.e.
+arationalsolution).
+Proof.
+If C (Q) is a subgroup of C (R), then it must contain the identity 0, and f f thus 0 would be a rational point.
+Conversely, assume that 0 is a rational point.8.2.
+ELLIPTICCURVES 159 First, since f has rational coefﬁcients, then for any two rational points A and B in C (Q) one must have that AB is also rational, and thus (since 0 is assumed f rational) that 0(AB) is rational, making A + B = 0(AB) rational.
+Thus C (Q) f would be closed under +.
+Moreover, since for every A ∈ C (Q) one has that f −A = A(00), then −A is also rational, which makes C (Q) closed under inver- f sion.
+HenceC (Q)isasubgroup.
+f Thus by lemma 18, the set of all rational points on an elliptic curve form a subgroup of the group determined by the curve and a point 0, if and only if the identity element 0 is itself a rational point.
+In other words, one ﬁnds that if the elliptic curve C (R) contains one rational point p, then there exists a group f structure on C (R), with 0 = p and the corresponding binary operation +, such f thatthesetC (Q)ofallrationalpointsonC (R)isagroup.
+f f One thing to note about rational solutions to general polynomial functions f(x,y), is that they correspond to integer solution to a corresponding homoge- neous polynomial h(X,Y,Z) in three variables, and vice-verse, where homoge- neous practically means that this function is a linear sum of terms each of which hasthesamepowerwhenaddingthepowersofthevariablesinvolvedinthisterm.
+ForexampleXY2 −2X3 +XYZ +Z3 ishomogeneous.
+In fact a rational solution x = a/b and y = c/d for f(x,y) = 0, where a,b,c,d are integers, can ﬁrst be written as x = ad/bd and y = cb/bd, and thus one can always have this solution in the form x = X/Z and y = Y/Z, where X = ad,Y = cb and Z = bd.
+If x = X/Z and y = Y/Z are replaced in f(x,y) = 0, one obtains a new version h(X,Y,Z) = 0 of this equation written in terms of the new variables X,Y,Z.
+One can immediately see that this new polynomial function h(X,Y,Z) is homogeneous in X,Y,Z.
+The homogeneous function h(X,Y,Z) in X,Y,Z is the form that f(x,y) takes in projective space, where in this case the transformations x = X/Z and y = Y/Z deﬁne the projec- tivetransformationthattakef(x,y)toh(X,Y,Z).
+If we now go back to cubic equation f(x,y) = 0, one can transform this160 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY functionintoitscubichomogeneousformh(X,Y,Z) = 0,where h(X,Y,Z) = aX3 + bX2Y +cXY2 +dY3 +eX2Z + fXYZ +gY2Z +hXZ2 +iYZ2 +jZ3, (8.7) by using the projective transformation x = X/Z and y = Y/Z.
+Then, by impos- ingsomeconditions,suchasrequiringthatthepoint(1,0,0)(inprojectivespace) satisfy this equation, and that the line tangent to the curve at the point (1,0,0) be the Z-axis that intersects the curve in the point (0,1,0), and that the X-axis is the line tangent to the curve at (0,1,0), then one can immediately show that the homogeneouscubicequationabovebecomesoftheform h(X,Y,Z) = cXY2 +eX2Z +fXYZ +hXZ2 +iYZ2 +jZ3.
+(8.8) Which, by using the projective transformation again, and using new coefﬁcients, givesthatpointsonthecurveC (R)arepreciselythoseonthecurveC (R),where f h h(x,y) = axy2 +bx2 +cxy +dx+ey +f.
+(8.9) And with further simple change of variables (consisting of polynomial functions inxandywithrationalcoefﬁcients)oneobtainsthatthepointsonthecurveC (R) f arepreciselythoseonC (R)where g g(x,y) = y2 −4x3 +g x−g , (8.10) 2 3 i.e.
+that C (R) = C (R).
+The equation g(x,y) = 0, where g is given in (8.10), f g is said to be the Weierstrass normal form of the equation f(x,y) = 0.
+Thus, in particular, any elliptic curve deﬁned by a cubic f, is birationally equivalent to an elliptic curve deﬁned by a polynomial g(x,y) as above.
+Birational equivalence between curves is deﬁned here as being a rational transformation, together with its inverse transformation, that takes the points on one curve to another, and vice- versa.8.3.
+THERIEMANNZETAFUNCTION 161 8.3 The Riemann Zeta Function The Riemann zeta function ζ(z) is an analytic function that is a very important function in analytic number theory.
+It is (initially) deﬁned in some domain in the complexplanebythespecialtypeofDirichletseriesgivenby ∞ (cid:88) 1 ζ(z) = , (8.11) nz n=1 whereRe(z) > 1.
+Itcanbereadilyveriﬁedthatthegivenseriesconvergeslocally uniformly, and thus that ζ(z) is indeed analytic in the domain in the complex plane C deﬁned by Re(z) > 1, and that this function does not have a zero in this domain.
+WeﬁrstprovethefollowingresultwhichiscalledtheEulerProductFormula.
+Theorem91.
+ζ(z),asdeﬁnedbytheseriesabove,canbewrittenintheform ∞ (cid:89) 1 ζ(z) = , (8.12) (cid:16) (cid:17) 1− 1 n=1 pz n where{p }isthesequenceofallprimenumbers.
+n Proof.
+knowingthatif|x| < 1then ∞ 1 (cid:88) = xk, (8.13) 1−x k=0 oneﬁndsthateachterm 1 inζ(z)isgivenby 1−p1zn ∞ 1 (cid:88) 1 = , (8.14) 1− 1 pkz pzn k=0 n162 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORY sinceevery|1/pz| < 1ifRe(z) > 1.
+ThisgivesthatforanyintegerN n N N (cid:18) (cid:19) (cid:89) 1 (cid:89) 1 1 = 1+ + +··· (cid:16) (cid:17) n=1 1− p1z n=1 pzn p2nz n (cid:88) 1 = (8.15) pk1z···pkjz n1 ni (cid:88) 1 = nz where i ranges over 1,··· ,N, and j ranges from 0 to ∞, and thus the integers n in the third line above range over all integers whose prime number factorization consist of a product of powers of the primes p = 2,··· ,p .
+Also note that each 1 N suchintegernappearsonlyonceinthesumabove.
+Now since the series in the deﬁnition of ζ(z) converges absolutely and the order of the terms in the sum does not matter for the limit, and since, eventu- ally, every integer n appears on the right hand side of 8.15 as N −→ ∞, then lim (cid:2)(cid:80) 1 (cid:3) = ζ(z).
+Moreover, lim (cid:81)N 1 exists, and the re- N→∞ nz N N→∞ n=1 (cid:16)1−p1zn(cid:17) sultfollows.
+TheRiemannzetafunctionζ(z)asdeﬁnedthroughthespecialDirichletseries above, can be continued analytically to an analytic function through out the com- plex plane C except to the point z = 1, where the continued function has a pole of order 1.
+Thus the continuation of ζ(z) produces a meromorphic function in C withasimplepoleat1.
+Thefollowingtheoremgivesthisresult.
+Theorem 92. ζ(z), as deﬁned above, can be continued meromorphically in C, andcanbewrittenintheformζ(z) = 1 +f(z),wheref(z)isentire.
+z−1 Given this continuation of ζ(z), and also given the functional equation that is satisﬁedbythiscontinuedfunction,andwhichis (cid:16)πz(cid:17) ζ(z) = 2zπz−1sin Γ(1−z)ζ(1−z), (8.16) 28.3.
+THERIEMANNZETAFUNCTION 163 (seeaproofin[3]),whereΓisthecomplexgammafunction,onecandeducethat the continued ζ(z) has zeros at the points z = −2,−4,−6,··· on the negative real axis.
+This follows as such: The complex gamma function Γ(z) has poles at the points z = −1,−2,−3,··· on the negative real line, and thus Γ(1−z) must have poles at z = 2,3,··· on the positive real axis.
+And since ζ(z) is analytic at (cid:0) (cid:1) these points, then it must be that either sin πz or ζ(1 − z) must have zeros at 2 the points z = 2,3,··· to cancel out the poles of Γ(1 − z), and thus make ζ(z) (cid:0) (cid:1) analytic at these points.
+And since sin πz has zeros at z = 2,4,···, but not at 2 z = 3,5,···, then it must be that ζ(1−z) has zeros at z = 3,5,···.
+This gives thatζ(z)haszerosatz = −2,−4,−6···.
+It also follows from the above functional equation, and from the above men- tionedfactthatζ(z)hasnozerosinthedomainwhereRe(z) > 1,thatthesezeros at z = −2,−4,−6··· of ζ(z) are the only zeros that have real parts either less that 0, or greater than 1.
+It was conjectured by Riemann, The Riemann Hypothe- sis,thateveryotherzeroofζ(z)intheremainingstrip0 ≤ Re(z) ≤ 1,allexiston the vertical line Re(z) = 1/2.
+This hypothesis was checked for zeros in this strip with very large modulus, but remains without a general proof.
+It is thought that the consequence of the Riemann hypothesis on number theory, provided it turns outtobetrue,isimmense.164 CHAPTER8.
+OTHERTOPICSINNUMBERTHEORYBibliography [1] GeorgeE.Andrews,NumberTheory,Dover,NewYork,1994.
+[2] George E. Andrews, The Theory of Partitions.
+Reprint of the 1976 original., Cambridge Mathematical Library.
+Cambridge University Press, Cambridge, 1998 [3] Tom M. Apostol, Introduction to Analytic Number Theory.
+Springer, New York,1976.
+[4] A. Baker, Transcendantal Number Theory, Cambridge University Press (London),1975.
+[5] J.W.S.
+Cassels, An introduction to the Geometry of Numbers, Springer- Verlag(Berlin),1971.
+[6] H. Davenport, Multiplicative Number Theory, 2nd edition, Springer-Verlag (NewYork),1980.
+165166 BIBLIOGRAPHY [7] H. Davenport, The higher Arithmetic: an introduction to the Theory of Numbers,7thedition,CambridgeUniversityPress1999.
+[8] H.M.Edwards,Riemann’sZetaFunction,Dover,NewYork,2001.
+[9] E.Grosswald,TopicsfromtheTheoryofNumbers.NewYork: TheMacmil- lanCo.(1966).
+[10] G.H.
+Hardy and E.M. Wright, An Introduction to the Theory of Numbers, 5thed.OxfordUniversityPress,Oxford,1979.
+[11] K.F.
+Ireland and M. Rosen, A Classical Introduction to Modern Number Theory,Springer-Verlag(NewYork),1982.
+[12] A.
+Ya.
+Khinchin, Continued fractions.
+With a preface by B. V. Gnedenko.
+Translated from the third (1961) Russian edition.
+Reprint of the 1964 translation.DoverPublications,Inc.,Mineola,NY,1997.
+[13] M.I.
+Knopp, Modular Functions in Analytic Number Theory, Markham, Chicago1970.
+[14] E.Landau,ElementaryNumberTheory,Chelsea(NewYork),1958.
+[15] W.J.Leveque,ElementaryTheoryofNumbers,Dover,NewYork,1990.BIBLIOGRAPHY 167 [16] W.J.Leveque,FundamentalsofNumberTheory,Dover,NewYork,1996.
+[17] T.Nagell,IntroductiontoNumberTheory,Chelsea(NewYork),1981.
+[18] I. Niven, H.L.
+Montgomery and H.S.
+Zuckerman, An Introduction to the TheoryofNumbers,5thedition,JohnWileyandSons1991.
+[19] A. J.
+Van der Poorten, Continued fraction expansions of values of the exponential function and related fun with continued fractions, Nieuw Arch.
+Wisk.(4)14(1996),no.2,221–230.
+[20] H.Rademacher,LecturesonElementaryNumberTheory.Krieger,1977.
+[21] Kenneth H. Rosen, Elementary Number Theory and its Applications.
+Fifth Edition.Pearson,AddisonWesley,USA,2005.168 BIBLIOGRAPHYIndex AbelSummationFormula,140 DiophantineEquations,43 AnalyticNumberTheory,137 Dirichlet’sTheorem,39 ArithmeticFunction,70 Distributivity,8 Arnold,134 Divisibility,13 Associativity,8 DivisionAlgorithm,15,24 asymptotic,48 EllipticCurve,157 BaseExpansion,17 EuclideanAlgorithm,24 bestapproximation,130 EulerφFunction,59 BinaryRepresentation,19 EulerConstant,138 EulerCriterion,107 Chebyshev’sFunctions,141 EulerProductFormula,161 ChineseRemainderTheorem,62 EulerSummationFormula,138 Commutativity,8 Euler’sConstant,139 CompleteResidueSystem,57 Euler’sCriterion,107 CompletelyMultiplicative,70 Euler’sTheorem,66 CompositeIntegers,32 Congruence,51 factor,13 ContinuedFractions,123 Factorization,35 Convergents,126 FermatNumbers,85 Cryptography,151 Fermat’sTheorem,67 CubicCurves,155 FibonacciSequence,28 FundamentalTheoremofArithmetic,36 DecimalNotation,17 Decomposition,69 Gauss,133 169170 INDEX Gauss’sLemma,110 OppermanConjecture,50 Goldbach’sConjecture,50 OrderofIntegers,90 GoodApproximation,130 PairwisePrime,23 GreatestCommonDivisor,20 PerfectNumbers,82 IdentityElements,9 PigeonholePrinciple,10 IncongruentIntegers,57 PolignacConjecture,50 Inverse,61 Polynomials,28 PrimeNumberTheorem,49 JacobiSymbol,116 PrimeNumbers,31 Kuzmin,133 PrimitiveRoots,91 Probability,134 Lagrange’sTheorem,94 ProofbyContradiction,10 Lame’sTheorem,28 ProofbyInduction,11 LeastCommonMultiple,40 LegendreSymbol,106 QuadraticReciprocity,114 LinearCongruence,59 QuadraticResidue,105 LinearEquation,43 RationalCurves,155 MathematicalInduction,10 RationalNumber,124 MersenneNumbers,84 ReducedResidueSystem,57 MersennePrimes,84 RelativelyPrime,20 MobiusFunction,80 ResidueSystems,57 MobiusInversionFormula,81 RiemannHypothesis,163 ModularInverse,61 RiemannZetaFunction,161 Modulo,51 SimpleContinuedFraction,122 Multiple,13 small-oh,47 MultiplicativeFunction,70 Square-Free,79 MutuallyRelativelyPrime,23 StrongInduction,12 Nonresidue,105 SummatoryFunction,71INDEX 171 TheFunction[x],46 TheNumberofDivisorFunction,77 TheSieveofEratosthenes,32 TheSumofDivisorsFunction,76 TwinPrimeConjecture,50 Van-MangoltFunction,141 WellOrderingPrinciple,10 Wilson’sTheorem,65

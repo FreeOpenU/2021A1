@@ -1,0 +1,269 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 302- COURSE TITLE: ELEMENTARY DIFFERENTIAL EQUATIONS II MTH 302- ELEMENTARY DIFFERENTIAL EQUATIONS II Course Team: Dr. O.J.
+Adeniran (Writer) – UNI.
+of Agric.
+Abeokuta Dr. Bankole Abiola (Editor) – NOUN Dr. Bankole Abiola (Programme Leader) – NOUN Dr S.O.
+Ajibola (Course Coordinator) – NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA CONTENT Module 1: Series Solution of Ordinary Differential Equation UNIT 1: Series Solution of Differential Equation UNIT2: Euler Equation UNIT3: Indicial Equation with Difference of Roots- Positive Integer and Logarithmic case UNIT 4: Boundary Value Problems UNIT 5: Sturm and Liouville Problem ODULE 1: SERIES SOLUTION OF ORDINARY DIFFERENTIAL EQUATION UNIT 1: SERIES SOLUTION OF DIFFERENTIAL EQUATIONS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Series Solution of Differential Equation 3.2 Method of finding radius of Convergence 3.3 Ordinary points and Singular points of the Differential Equation 3.3.1 Solution near Ordinary Point 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/ Further Readings 1.0.
+Introduction: A large class of ordinary differential equations possesses solution expressible, over a certain interval, in terms of power series.
+In this unit we are going to investigate methods of obtaining such solutions.
+2.0.
+Objectives: At the end of this unit you should be able to - determine radius of convergence of series - apply series solution method to solving differential equation - determine ordinary point, and singular points of the differential equation 3.0 MAIN CONTENT 3.1.
+Series Solution of Ordinary Differential Equation An expression of the form ¥ A + A(x- x )+...A (x- x )n +...= ∑ A (x- x )n +... (1) 0 1 0 n 0 n y n=0 is called the power series.
+To determine for what values of x the series (1) converges we use ratio test A (x- x )n+1 T r = lim n+1 0 =lim n+1 = Lx- x A (x- x )n T 0 ﬁn ¥ n 0 ﬁn ¥ n A Where L =lim n+1 (2) A ﬁn ¥ n The series is convergent whenr <1, divergent when r >1 .
+The test 1 fails if r =1.
+r = is called the radius of convergence L The series converges when 1 x- x < = R (radius of convergence) 0 L diverges when 1 x- x > = R 0 L (i) If L is zero, the series converges for all Values of x (ii) If L is infinite, the series converges only at the point x = x 0 (iii) If L is finite, then the series converges, when 1 x- x < = R (radius of convergence) and diverges if 0 L 1 x- x > 0 L ¥ ¥ If ∑ a (x- x )n and ∑ b (x- x )n n y n y n=0 n=0 Converge to f(x) and g(x) respectively, for x- x < r (radius of 0 1 convergence) r > 0, then the following are true for x- x < r .
+1 0 1 (i)Two series can be added and subtracted term wise, and ¥ f(x)– g(x) = ∑ (a +b )(x- x )n n n y n=0 (ii) The series can be multiplied and ¥ ¥ ¥ f(x)g(x) = ∑ a (x- x )n∑ b (x- x )n = ∑ C (x- x )n n y n 0 n 0 n=0 n=0 n=0 Where C = a b +ab +a b +...+a b n 0 n 1 n- 1 2 n- 2 n 0 If g(x ) „ 0, the series 0 f(x) ¥ = ∑ d (x- x )n g(x) n y n=0 ¥ although formula for d is complicated if f(x) = ∑ a (x- x )n ,then f(x) is n n y n=0 continuous has derivates of all orders for x- x < r .
+and f¢ , f¢¢ , f¢¢¢ … can be computed 0 1 by differentiating the series.
+Thus f n(x ) ¥ f n(x ) a = 0 or f(x) = ∑ 0 (x- x )n …….
+(3) n n!
+n!
+y n=0 (3) is called the Taylor series for function f at x = x 0 A function f that has Taylor series expansion about x = x 0 ¥ f n(x ) f(x) = ∑ 0 (x- x )n Ln y n=0 With a radius of convergence r > 0 is said to be analytic at x = x .
+0 The polynomial is analytic at every point, thus sums, differences, products, quotients (excepts at the zeroes of the denominator) of polynomials are analytic at every point.
+(i) Determine the radius of convergence of the power series ¥ ¥ (2x+1)n 2n 1 (i) ∑ 2nxn (ii) f(x) = ∑ (iii) r =lim = n2 2n+1 2 n=0 n=0 ﬁn ¥ A 1 2n (n+1)2 1 12 1 (iv)r =lim n = (v) r = lim =lim 1+  = A 2 n2 2n+1 2 n 2 ﬁn ¥ n+1 ﬁn ¥ nﬁ 0 3.2.
+Determining the Radius of Convergence If we obtain the Taylor series of a function f(x) about a point x , then the 0 radius of convergence of the series is equal to the distance of the point x 0 from the nearest singularity.
+Remark about a change in the index of summation ¥ ¥ ¥ (a) ∑ a xn = ∑ a xn+2 = ∑ a xk+2 n n+2 k+2 n=2 n=0 k=0 ¥ ¥ (b) ∑ n(n- 1)a xn- 2 = ∑ (n+2)(n+1)a xn n n+2 n=2 n=0 ¥ ¥ ( c) ∑ a xn+2 = ∑ a xn n n- 2 n=0 n=2 ¥ ¥ (d) ∑ a xn+p = ∑ a xn+p+k n+m n+k+m n=k n=0 3.3 Ordinary Points and Singular Points of the Differential Equations We consider the differential equation d2y dy P(x) +Q(x) +R(x)y = 0 (4) dx2 dx (we assume that P(x), Q(x)and R(x) are polynomials) (a) if P(x ) „ 0 , then x is an ordinary point of the equation (1), or 0 0 Q(x) R(x) P = , Q = R(x) P(x) y, P, Q are analytic at the point x = x , then x is the ordinary point of 0 0 the equation.
+(b) If the functions P(x), Q(x)and R(x) are polynomials having no common factors, the singular points of equation (1) are the points for which P(x) = 0 (5) Q(x) (c) If lim(x- x ) is finite 0 P(x) xﬁ x 0 Q(x) and lim(x- x )2 is finite 0 P(x) xﬁ x 0 Then the point x = x is called the REGULAR SINGULAR POINT of 0 equation (3) (d) Any singular point of equation (3) that is not regular singular point is called an irregular singular point.
+3.3.1 Solution Near An Ordinary Point Let us consider the equation P(x)y¢¢ +Q(x)y¢ +R(x)y = 0 (6) Where P(x), Q(x)and R(x) are polynomials.
+x is the ordinary point of the 0 equation (6).
+Assuming that y =f (x) is a solution of (6) and f (x) has a Taylor Series ¥ y =f (x) = ∑ a (x- x )n (7) n y n=0 Now we know that f m(x) a = (8) m m!
+We can write (1) y¢¢ +P(x)y¢ +q(x)y = 0 Q(x) R(x) where P = , q = R(x) P(x) \ y¢¢ = - Py¢ - qy (9) or y¢¢¢ = - p¢y¢¢ - P¢y¢ - q¢y- qy¢ (10) (It is natural to assume that y = y(x), y¢ = y¢(x) at x = x and y(0) = a , 0 1 y¢(0) = a , we can easily calculate the coefficient a a, provided that we could 2 n compute infinitely many derivatives of p and q existing at x .
+Thus p 0 and q must have some condition for line calculation of a It has been n. proved that.
+Q(x) R(x) P = , q = are analytic at x then the general solution of (6) R(x) P(x) 0., ¥ is y = ∑ a (x- x )n = a y (x)+a y (x) n 0 0 1 1 2 n=0 Where a and a are arbitrary y and y are linearly independent series n 1 1 2 solutions which are analytic at x .
+0 We shall illustrate the method by examples.
+Example 1.
+Solve the equation y¢¢ +4y = 0 near the ordinary point x = 0 Solution: we assume the solution as ¥ y = ∑ a xn (1) n n=0 ¥ y¢ ¢ = ∑ n(n- 1)a xn- 2 (2) n n=0 Substituting these values in the equation yields ¥ ¥ ∑ n(n- 1)a xn- 2 +4∑ a xn = 0 (3) n n n=0 n=0 ¥ ¥ or ∑ n(n- 1)a xn- 2 +4∑ a xn- 2 = 0 (4) n n- 2 n=0 n=2 ¥ [ ¥ ] or ∑ n(n- 1)a +4∑ a xn- 2 = 0 (5) n n- 2 n=0 n=2 Because the first two terms of the first sum in (4) are zero.
+We now use the fact that for a power series to vanish identically over any interval, each coefficient in the series must be zero Recurrence relation : - 4a n(n- 1)a +4a = 0 or a = n- 2 , n ‡ 2 n n- 2 n n(n- 1) Now we calculate in coefficients - 4a - 4a - 4a - 4a a = 0 , a = 1 , a = 2 , a = 3 2 2.1 3 3.2 4 4.3 5 5.4 - 4a - 4a a = 2k- 2 , a = 2k- 1 2k 2k(2k - 1) 2k+1 (2k +1)(2k) From above we have (- 1)k4k a .a a = a .a ...a 2 n... 2k 2k!
+0 2 2k- 2 (- 1)k4k (- 1)k4k a = a , a = a 2k 2k!
+0 2k+1 (2k +1)!
+1 Hence we can write in solution ¥ ¥ ¥ y = ∑ a xn = a +∑ a x2k +a x+∑ a x2k+1 n 0 2k 1 2k+1 n=0 k=1 k=1 ¥ (- 1)k4k ¥ (- 1)k4k = a +∑ a x2k +a x+∑ a x2k+1 0 2k!
+0 1 (2k +1)!
+1 k=1 k=0 [ ¥ (- 1)k ] 1 [ ¥ (- 1)k ] = a 1+∑ (2x)2k + a 2k +∑ (2x)2k+1 0 2k!
+2 1 (2k +1)!
+k=1 k=0 1 = a Cos2x+ aSin2x 0 2 1 Example 2: Solve the equation (1- x2)y¢ ¢ - 6xy¢ - 4y = 0 near the ordinary point x = 0 Solution: we assume the solution ¥ y = ∑ a xn (1) n n=0 The only singular points of the equation in the finite plane are x =1 and x = - 1.
+Hence we show that the solution is valid in x <1 with a and a 0 1 arbitrary coefficients ¥ ¥ ¥ ¥ ∑ n(n- 1)a xn- 2 - ∑ n(n- 1)a xn - ∑ 6na xn - ∑ 4a xn = 0 n n n n n=0 n=0 n=0 n=0 ¥ ¥ or ∑ n(n- 1)a xn- 2 - ∑ (n2 +5n+4)a xn n n n=0 n=0 ¥ ¥ or ∑ n(n- 1)a xn- 2 - ∑ (n+1)(n+4))a xn n n n=0 n=0 Let us shift the index the second series.
+¥ ¥ ∑ n(n- 1)a xn- 2 - ∑ (n- 1)(n+2))a xn- 2 = 0 (2) n n- 2 n=0 n=2 In equation (2), the coefficient of each power of x must the zero.
+n+2 a = a , for n ‡ 2 (3) n n n- 2 (3) is called recurrence relation.
+A recurrence relation is a special kind of difference equation.
+n = 2,4,6,... and n = 3,5,7,... 4 5 a = a , a = a 2 2 0 3 3 1 6 7 a = a a = a 4 4 2 5 5 3 .
+.
+.
+.
+2k +1 2k +3 a = a a = a 2k 2k 2k- 2 2k+1 2k +1 2k- 1 k ‡ 1 a = (k +1)a 2k 0 Similarly, k ‡ 1 2k +3 a = a 2k+1 3 1 ¥ Hence the solution y = ∑ a xn n n=0 ¥ ¥ y = a +∑ a x2k +a x+∑ a x2k+1 0 2k 1 2k+1 k=1 k=1 [ ¥ ] [ ¥ 2k +3 ] = a 1+∑ (k +1)x2k +a x+∑ x2k+1 0 1 3 k=1 k=1 a a (3x- x3) = 0 + 1 (1- x2) 3(1- x2)2 Example 3.
+Solve the equation y¢ ¢ +(x- 1)2y¢ - 4(x- 1)y = 0 about the ordinary point x =1 Solution: we assume the solution ¥ y = ∑ a (x- 1)n ( 1) n n=0 We first translate the axes, putting dy du dy x- 1=u , .
+= du dx dx dy dy .1= The equation becomes du dx d2y dy +u2 - 4uy = 0 du2 du Then we assume the solution ¥ y = ∑ a un n n=0 ¥ ¥ ¥ ∑ n(n- 1)a un- 2 +∑ na un+1- ∑ 4a un+1 = 0 n n n n=0 n=0 n=0 Collecting the terms ¥ ¥ ∑ n(n- 1)a un- 2 +∑ (n- 4)a un+1 = 0 n n n=0 n=0 Shifting the index from n to n- 3in the second series ¥ ¥ ∑ n(n- 1)a un- 2 +∑ (n- 7)a un- 21 = 0 n n- 3 n=0 n=3 Therefore a and a are arbitrary and for remainder, we have 0 1 2a = 0 2 n ‡ 3 n- 7 a = a n n(n- 1) n- 3 a arbitrary a arbitrary a = 0 01 11 01 - 4 - 3 - 2 a = a a = a a = a = 0 3 3.2 0 4 4.3 1 5 5.4 2 - 1 0 a = a a = a = 0 a = ()a = 0 6 6.5 3 7 7(6) 4 8 5 - 2 - 3 a = a a = a = 0 a = 0 9 9.8 6 10 10.9 7 1 - - - - - - 3k - 7 a = a a = 0,k ‡ 2 a = 0,k ‡ 1 3k 3k(3k - 1) 3k- 3 3k+1 2k+2 [ ] (- 1)k (- 4)(- 1)...2...(3k - 7) k ‡ 1 : a = [ ][ ]a 3k 3.6.9....(3k) 2.5..8...(3k - 1) 6 [ ] [ ¥ (- 1)k (- 4)(- 1)...2...(3k - 7) 1 y = a 1+∑ [ ][ ]u3k +a (u+ u4) 0 3.6.9....(3k) 2.5..8...(3k - 1) 1 4 k=1 Now substitute u = x- 1 [ ] [ ¥ (- 1)k (- 4)(- 1)...2...(3k - 7) 1 y = a 1+∑ [ ][ ]u3k +a (u+ u4) 0 3.6.9....(3k) 2.5..8...(3k - 1) 1 4 k=1 4.0 Conclusion: In this unit we have attempted the series solution method to Ordinary Differential Equations.
+In the subsequent unit we are going to discuss more about this method in greater details.
+You are supposed to master this unit properly to be well equipped for the next unit.
+5.0 Summary: Recall that in this unit we discuss power series and radius of convergence for the series.
+We also applied the series to solve differential equations.
+We derived the singular and ordinary points for each of the series solutions.
+Study this unit properly before going to the next unit.
+6.0.
+Tutor Marked Assignments 1.
+Determine a lower bound for the radius of convergence of series solution about each given point x for each of the following differential equations.
+0 (i) (x2 - 2x- 3)y¢ ¢ + xy¢ +4y = 0 , x = 4 , x= - 4 and x = 0 0 0 0 (ii) (1+ x3)y¢ ¢ +4xy¢ + y = 0 , x = 0 , and x = 2 0 0 2.
+Determine whether each of the points - 1,0 and 1 is an ordinary point, or regular singular point or irregular singular point for the following differential equation, (i) 2x4(1- x2)y¢ ¢ +2xy¢ +3x2y = 0 (ii) (x+3)y¢ ¢ - 2xy¢ +(1- x2)y = 0 7.0 REFERENCES/FURTHER READINGS EARL.
+A. CODDINGTON: An Introduction to Ordinary Differential Equations.
+Prentice-Hall of India FRANCIS B. HILDEBRAND: Advanced Calculus for Applications, Prentice-Hall, New Jersey EINAR HILLE: Lectures on Ordinary Differential Equations, Addison – Wesley Publishing Company, London.
+UNIT 2: EULER EQUATION.
+1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Euler Equation 3.2 Series solution near a regular point 3.3 Indicial equation with equal roots 3.4 Indicial equation with difference of roots, a positive integer and Non- Logarithmic case.
+4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/ Further Readings 1.0 Introduction: In this unit we deal with a class of differential equation normally refer to as Euler Equation.
+This type of equation usually possesses solutions that are classified as regular singular points of the differential equations.
+Series solution of this class of equation must be attempted with different approach.
+We shall see this in our treatment of this system of equation in this unit.
+2.0 Objective: At the end of this unit you should be able to - differentiate Euler equations from others.
+- use series solution approach to solve these categories of equations - solve problems relating to Euler equation 3.0.
+MAIN CONTENT 3.1.
+Euler Equation d2y dy L(y) = x2 +a x +by = 0 (1) dx2 dx is known as Euler equation.
+It is easy to see that x = 0 is a regular singular point of (1) In any interval not including the origin, (1) has a general solution of the form.
+y = c y (x)+c y (x) , 1 1 2 2 y and y are linear, independent solution.
+1 2 Here we assume that (1) has a solution of the form y = x2 L(x2) = x2(x2)¢ ¢ +a x(x2)¢ +bx2 = x2F(r) Where F(r) = r(r - 1)+a r+b (2) If rr is a root of the equation - (a - 1)+ (a - 1)2 - ub r = (3) 1 2 - (a - 1)- (a - 1)2 - ub r = (4) 2 2 \ F(r) = (r- r)(r- r ) 1 2 Case I (a - 1)2 - 4b > 0, then the roots are real and unequal and W(xr1,xr2) is non-vanishing for r „ r ) and x > 0.
+Thus the general solution is 1 2 y = c xr1 +c xr2 x > 0 1 2 (a - 1) case ll (a - 1)2 - 4b = 0 , then r = r= - 1 2 2 and we have only one solution y (x) = xr1 1 of the differential equation.
+We can obtain the second solution by the method of reduction.
+We consider a different approach to obtain the solution.
+L(xr) = xrF(r) If r = r, then 1 L(xr1) = xr1F(r) = 0 1 Now F(r) = (r- r)2 , if we differentiate 1 F(r) i.e \ F¢(r) = 2(r - r) and then set r = r, if given F¢(r) = 0,it suggest that 1 1 ¶ ¶ L(xr) = [xrF(r)] ¶ r ¶ r L(xrlogx) = xrlogxF(r)+r(r- r)xr 1 We set r = r, thus 1 L(xr1logx) = 0 \ y = xr1logx x > 0 2 is the second solution of (1) Thus the general solution is y =(c +c logx)xr1, x > 0 2 1 2 Case III (a - 1)2 - 4b <0), in this case, the root are complex, say r =l +im , r =l +im 1Thus the general solution is y =(c xl +im +c xl- )xr1im 2 1 2 = xl[c xim +c x- im ] 1 2 = xl[c eim logx +c e- im logx] 1 2 = xl[c cos(m logx)+c sin(m logx] 1 2 It is always possible to obtain a real valued solution of Euler equation (1) in the interval, by making the following changes d d d2 d2 =(- 1) , = dx x dx2 dx 2 in the equation, we have d2u du x 2 =x 2 +bu =0, x 2 x 2 >0 dx 2 dx It is obtained as above.
+Since x x forx >0 - x =x forx >0 It follows that we read one, to replace forx by x in the above solution to obtain real valued solution valid in any interval not containing the origin To solve the Euler equation (1) x2y¢ ¢ + xa y¢ +by =0 in any interval not containing the origin substitute y = xr and compute the root r1and r2of the equation F(r) = r2 +(a - 1)r+b =0 If the roots are real and unequal y = c x r1 +c x r2 1 2 If the roots are real and equal y =(c +c log x x) x r1 1 2 If the roots are complex y = x l (c cos(m log x +c sin(m log x 1 2 For an Euler equation of the form (x- x )2y¢ ¢ +a (x- x )y¢ +by =0 0 0 Change the independent variable by t = x- xo)r or suppose the solution y =(x- xo)r Note: The situation for a general second order differential equation with a regular singular point is similar to that for an Euler equation.
+2.
+Another method of obtaining the solution of Euler Equation x2y¢ ¢ +a xy¢ +by =0 Solution: We make the change of variable x =ez or z =logx and x >0.
+dy dy dz 1 dy = = dx dz dx x dz d2y 1 d2y dz 1 dy = - = dx2 x dz dx x2 dz Substituting there value in the equation d2y dz +(a - 1) +by =0 dx2 dx This is an equation with constants coefficients The auxiliary equation is r2 +(a - 1)r+by =0 (i) If r and r are real and unequal.
+y =c ezr1 +c ezr2 =c xr1 +c xr2 1 2 1 2 1 2 (ii) If the roots are equal i.e \ y =(c +c z)ezr.
+1 2 =(c +c logx)a r1 1 2 (iii) If the roots are complex y =elz(c cosmz+c sinhz) 1 2 = xl (c cos(m +logx)+c sin(m logx) 1 2 3.2 Series solution near a regular singular point Consider the equation P(x)y¢¢ +Q(x)y¢ +R(x)y =0 (1) xQ(x) Assume that x =0is a regular singular point of (1) means that xP(x) = = P(x) x2R(x) and x2q(x)= have finite limits as x ﬁ 0and are analytics at x = x for P(x) 0 some interval about the origin (i) can be written x2y¢ ¢ + x[xp(x)]y¢ +[x2q(x)]y =0 ¥ Butxp(x)= ∑ P xn n n=0 ¥ x2q(x) =∑ q xn n n=0 x2y¢ ¢ + x[p + p x+.....p x+......]y¢ +[q +q x+........+q xn +..........]y =0(2) o 1 n 0 1 x If all the coefficient use zeros, except P0 and q , then (2) reduces to n Euler equation, which was discussed previously.
+If some of the P and q .
+n‡ will not be zero.
+However the essential n n character of the solution remains the same.
+It is natural to seek the solution of the form of “Euler Solution” the power series.
+¥ y = xr∑ a xn (3) n n=0 As part of our problem we have to determine (1) The values of r for which equation (1) has a solution of the form (3) (2) The recurrence relation for the a n ¥ (3) The radius of convergence of the series ∑ a xn n n=0 We shall illustrate the method by example Example I: Find the series solution of the equation 2xy¢¢ +(1+ x)y¢ - 2y =0 (1) Solution: x =0is the regular singular point of the equation.
+We assume line solution ¥ y = ∑ a xn+r (2) n n=0 Direct substitution of y in (2) given ¥ ¥ ¥ ¥ ∑ 2(n+r)(n+r - 1)a xn+r +∑ (n+r)a xn+ r- 1 +∑ (n+r)a xn+z - 2∑ a xn+r =0 n n n n n=0 n=0 n=0 n=0 Now we shift the index of the second series in (3).
+We get ¥ ¥ ∑ (n+r)(2n+2r- 1)a xn+ r- l +∑ (n+r- 2)a xn+r =0 (3) n n n=0 n=0 Once more we reason that the total coefficient of each power of x in the left member of (4) must vanish.
+The second summation does start the contribution, until n =1.
+Hence the equation determinants c and an are given by n =0 r(2r- 1)a =0 , but a „ 0 (5) 0 0 \ r(2r- 1)=0 (6) (6) is called the indicial equation.
+1 \ r = , r =0 n ‡ 1 1 2 2 n+r)(2n+2r- 1)a +(v+r- 3)a =0 n n- 1 Recurrence relation n+r- 3 \ a= - a (7) n (n+r)(2n+2r- 1) n- 1 1 (i) Take r = 2 (- 3)a a = 0 1 2.3 (- 1)a a = 1 2 4.5 (- 1)a a = 2 3 6.7 ………… (2n- 5)a a= - n- 1 n 2.n(2n+1 (- 1)n[(- 3])(- 1)(1)...(2n- 5)]a a = 0 n [2.4.6........(2n)][3.5.7.....(2n+1)]Omitting the constant a , we may write the particular solution as 0 ¥ (- 1)n3xn+12 y xyz +∑ (8) 1 2nn1(2n- 3)(2n- 1)(2n+1) n=1 Next task is to find the solution corresponding to the root c =0.
+2 The recurrence relation becomesn‡ 1. n(2n- 1)b +(n- 3)b =0 n n- 1 (n- 3) 0r b = b =0 n n(2n- 1) n- 1 (- 2)b b = 0 1 1.1 (- 1)b b = 1 2 2.3 (- 1)b b = 2 2 3.5 (0)b b = n- 1 n n(2n- 1) (n- 3)b \ b =0 if b= - n- 1 n n n(2n- 1) \ b =0 if n‡ 3 n 1 1 \ b =b , \ b = b = b 1 0 2 6 1 6 0 The solution is 1 y =b [1+2x+ x2] 2 0 3 The general solution is y = Ay +By 1 2 Note: The roots of indicial equation are unequal and do not differ by integer 3.3Indicial equation with equal roots Example 2.
+Solve the equation x2y¢ ¢ +3xy¢ +(1- 2x)y =0 (1) Solution: x =0is regular singular point of (i) We assume the solution ¥ y = ∑ a xn+r (2) n n=0Substituting this value in (2), we have ¥ ¥ ¥ ¥ ∑ (n+r)(n+r - 1)a xn+r +3∑ (n+r)xn+r +∑ a xn+r - 2∑ a xn+r+1 =0 n n n n=0 n=0 n=0 n=0 Shifting the index ¥ ¥ ∑ [(n+r)2 +2(n+r)+1]a xn+r - 2∑ a xn+r =0 (3) n n- 1 n=0 n=1 The indicial equation r2 +2r +1=0 \ r = - 1 The recurrence relation is 2a a = n- 1 (4) n (n+r+1)2 n‡ 1, In which 2na n‡ 1, a = 0 (5) n [(r+2)(2+3)........(2+n+1)]2 ¥ \ y(x,r)= x2 +∑ a (r)xn+r, (6) n n=1 in which 2n n‡ 1, a (r) = (7) n [(r +2)(2+3)........(r +n+1)]2 Let as write L(y) = x2y¢ ¢ +3xy¢ +(1- 2x)y The y of equation (6) has been so determined that for that y the Eight member of (8) reduced to a single term then =0.
+Thus L(y) = x2y¢ ¢ +3xy¢ +(1- 2x)y (8) A solution of the original differential equation is a function y for which L(y) =0.
+Now taking r = - l makes L[y(x,- 1)]=0 Now differentiate each member of (9) with respect to ¶ ¶ [y(x,r)]= [(r +1)2x2] dr ¶ r ¶ l[ y(x,r)]= 2(r +1)x2 +(r+1)2x2logx (10) dr From (9) and 10, it can be seen early that the two solution of the equation L(y) =0 are y =[y(x,r)] y =[y(x,- 1) (11) 1 ¶ and y =[ y(x,r)] (12) 2 ¶ r =r - 1 ¥ y(x,r) = xr +∑ a (r)xn+r n n=1 ¶ ¥ ¥ y(x,r)]= x2logx+∑ a¢ (r)xn+r +∑ a (2)xn+r logx dr n n n=1 n=1 ¥ = y (x,r)log x + ∑ a¢ (r)xn+r n n=1 ¥ \= y logx+∑ a (- 1)xn- r 1 n n=1 ¥ \= y x- 1 +∑ a¢ (- 1)xn- r 1 n n=1 2n a (r) ( ) n [(r+2) r +3)...(2+n+1)]2 loga (r) =log2n +2[log(r+2)+......log(2+n+r)] n 1 1 1 a¢ ¢(r) = 2a (r)[ + +........ ] n n r+2 r+3 r+n+1 r = - 1, we obtain 2n a (- 1) = n (n1)2 2n 1 1 1 \ a¢ (- 1)= - 2 [1+ + +....... ] n (n1)2 2 3 n We write 1 1 H = 1+....... n 2 n The solutions are ¥ 2nxn- 1 = y x- 1 +∑ 1 (n!
+)2 n=1 ¥ 2n+1H xn- 1 = y x logx- ∑ n 2 1 (n!
+)2 n=1 The general solution, valid for all finite x „ 0is y = Ay +By .
+1 2  3.3: Indicial Equation with difference of Roots a Positive Integer, non Logarithmic case Solve line equation xy¢¢ - (4+ x)y¢ +2y =0 (1) Solution: We assume the solution ¥ y =∑ anxn+r (2) n=0 ¥ ¥ \ L(y) =∑ (n+r)(n+r- 6)a x+n r- 1∑ (n+r - 3)a xn+ r- 1 (3) n n- 1 n=0 n=1 The Indicial equation is c(c- 5) =0 \ c =0, c =5 2 1 \ s =5- 0=5 We reason that we hope for two power series solutions, one starting with an x0and term, one with an x5term.
+If we use the longer root c =5, then the x0 term would never enter.
+Thus we use the smaller roots c =0, then the trial solution of the form.
+¥ y = ∑ anxn (4) n=0 has a chance of picking up both solutions because the n =5 n = sterm does contain x5 ¥ ¥ \ L(y) =∑ n(n- 5)a xn- 1 - ∑ (n- 3)a xn- 1L(y) =0 n n- 1 n=0 n=1 L(y) =0 n(n- 5)a =(n- 3)a (5) n n- 1 1 n =1 - 4a +2a =0 \ a = a 1 0 1 2 o 1 n = 2 - 6a +a =0 a = a 2 1 2 12 o n =3 - 6a +0a =0 a =0 3 1 3 n = 4 - 4a +a =0 a =0 4 3 4 n =5 0.a +2a =0 a =0 5 4 4 n‡ 6 3a a = 6 6 6.1 4a a = 6 7 7.2 --------------- (n- 3)(a ) a = n- 1 n n(n- 5) 3.4.5....(n- 3)a a = 5 n [6.7.8......n](n- 5)1 3.4.5a a = 5 n (n- 2)(n- 1)n(n- 5)1 Therefore, with a and a5 arbitrary, the general solution may be written 0 1 1 y = a (1+ x+ x2) 0 2 12 ¥ 60xn a [x5 +∑ 5 (n- 5)1n(n- 1_(n- 2) n=6 1 a =(1+ x+ x2) 0 2 ¥ 60xn+5 a =[x5 +∑ ] 5 n1(n+5)(n+4)(n+3) n=0 Example 2 Solve the equation xy¢¢ +(4+3x)y¢ +3y =0 (1) Solution x =0is the regular singular point of (1).
+We assume the solution ¥ y = ∑ a xn+r (2) n n=0 ¥ \ L(y) =∑ (n+r)(n+r- 1)a xn+ r- 1 n n=0 ¥ ¥ 4∑ a x+n r- 1 +3∑ (n+r)(a +r- 1)a xn+r n n n n=0 n=0 ¥ +3∑ a xn+r n n=0 ¥ L(y)∑ a (n+r)(a +r+3)xn+ r- 1 n n n=0 ¥ +∑ 3a (n+r+1)xn+r (3) n n=0n =0, we get the indicial equation r(r+3) =0 r =0,- 3 ¥ L(y)∑ a (n+r)(a+r+3)xn+ r- 1 n n=0 ¥ +∑ 3a (n+r)xn+ r- 1 n- 1 n=1 Using the smaller root r= - 3 1 ¥ L(y)∑ a (n- 3)nn- 4 n n=0 Recurrence relation is a (n- 3)n= - 3(n- 3)a n n- 1 n =1 a (- 2)(1) =(- 3)(- 2)a 1 o n = 2 a (- 1)(2)=(- 3)(- 1)a 2 1 n =3 a (0)(3)=(- 3)(0)a 3 2 - 3 n > 4 a = a n n n- 1 - 3 a = a 4 4 3 - 3 a = a 5 5 4 ……………….
+- 3 a = a n n n- 1 (- 3) \ a = 6a n nl 3 y =(a xt- 3a x- 2 +a x- 1 0 1 2 9 ¥ (- 1)n- 3xn- 3 a (x- 3 - 3x2 +a + x- 1)+6a ∑ 0 2 2 3 n1 n=3 This is the required solution 4.0.
+Conclusion We have looked at various problems involving Euler equations in this unit their various form of indicial equations.
+In the next unit we shall consider indicial equation of positive integer and logarithmic case.
+5.0 Summary You will recall in this unit that a general form of Euler equation was given.
+We also consider various form of Euler equations.
+You are required to master this unit very well before proceeding to other units.
+6.0.
+Tutor Marked Assignment: (1).
+Solve the equation x2y¢ ¢ +3xy¢ +(1- 2x)y =0 (2).Solve the equation xy¢¢ - (4+ x)y¢ +2y =0 7.0 REFERENCES/FURTHER READINGS 1.
+EARL.
+A. CODDINGTON: An Introduction to Ordinary Differential Equations.
+Prentice-Hall of India 2.
+FRANCIS B. HILDEBRAND: Advanced Calculus for Applications, Prentice-Hall, New Jersey 3.
+EINAR HILLE: Lectures on Ordinary Differential Equations, Addison – Wesley Publishing Company, London.
+UNIT3: INDICIAL EQUATION WITH DIFFERENCE OF ROOTS A POSITIVE INTEGER, LOGARITHMIC CASE 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Indicial Equation with difference of roots, positive integer and logarithmic case 3.2 Fourier Series 3.3 Orthogonality of a set of series and cosines 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/ Further Readings 1.0.
+Introduction In unit 2 we have considered indicial equations where logarithm case is not considered.
+We shall undertake to consider the positive and logarithm cases in this unit.
+2.0 Objectives At the end of this unit you should be able to - to solve differential equation whose indicial equation has a positive integer - to solve differential equation whose indicial equation has roots with logarithmic case.
+3.0.
+MAIN CONTENT 3.1.
+Indicial Equation with Difference of roots a positive integer, logarithmic case.
+We illustrate this method by an example Solve the equation x2y¢ ¢ + x(1- x)y¢ - (1+3x)y =0 Solution: We assume the solution ¥ ¥ \ L(y)∑ 9n+r+1)(n+r - 1)a xn+r - ∑ (n+r+2)a xn+r n n- 1 n=0 n=1The indicial equation is (r +1)(r - 1) =0 (Putting n =0) (1) r =1,- 1 n‡ 1, the recurrence relation (r+n+2)a \ a = 0 (2) n (r+2)[r(r+1).....(r+n- 1)] ¥ (r+n+2)a xn+r \ y = a xr∑ 0 0 (r+2)[r(r+1).....(2+n- 1)] n=1 It follows that \ L(y)(r+1)(r- 1)a xr o Forr =1, only one solution can be obtained.
+Note: forr = - 1, since there is no power series with skilling x- 1, we suspect the presence r = - 1.
+Choosea = r+1, we have 0 ¥ (r+1(r+n+2)xn+r y(x,r) =(r+1)xr +∑ (r +2)[2(2+1).....(2+n- 1] n=1 We can obtain two solutions with respect to For which \ L[y(x,r) =(r +1)2(r - 1)xc We use the same argument as that of equal roots Putting y = y(x,- 1) 1 ¶ y y =[ (x,r)] 2 ¶ r =r - 1 (r+1)(r +3)xr+1 (r+4) y = y(x,r) =(r+1)+ + xr+2 r(r+2) (r+2) r ¥ (r+n+2)xn+r +∑ (r +2)[(r +2).....(2+n- 1)] n=3 Differentiate with respect to r. ¶ (r +1)(r +3)xr+1 = y(r,x)logx+ xr + ¶ r r(r+2) { 1 1 1 1 } (r+4)x2+2 { 1 1 + - - + - r+1 r+3 r +2 2 r(r +2) r+u r +21 1 1 1 1 1 (2+n+2)xn+r - - - ( + +..... +∑¥ 2+n+2 r +2 r r +2 r +3 r+n- 1 (r +2)[(r +2)(r+3)........(2+n- 1) n=3 Puttinge = - 1, get ¥ (n+1)xn- 1 y =0.x+0.xo - 3x+ ∑ 1 (- 1)[1.2...(n- 2)] n= - 3 1 1 1 (n+1)xn- 1{ - 1+1- (1+ +.....+ } y = y logx+ x1 - 2x0 - 3x{1 - 1+1}+∑¥ n+1 2 n- 2 2 1 3 (- 1)[1.2...(n- 2)] n=3 ¥ (n+1)xn- 1 y= - 3x+∑ 1 (n- 2)!
+n=3 ¥ [1- (n+1)H ]xn- 1 y = y logx+ x- 1 - 2- x- ∑ n- 2 2 1 (n- 2)] n=3 Problem: Find line general series solution of the D.E d2y dy 4x +6 + y =0 dx2 dx and show that it can be expressed in line form ¥ (n+1)xn- 1 y =0.x+0.xo - 3x+ ∑ 1 (- 1)[1.2...(n- 2)] n= - 3 Solution: x =0is a regular singular point of D.E.
+Assuming the solution Substituting in the D.E ¥ y = ∑ a xn+r n n=0 Changing the index ¥ ¥ ∑ 2(n+r)(2n+2r+1)a xn+ r- 1 +∑ a xn+ r- 1 =0.
+n n n=0 n=1 The indicial equation is 1 2r(2r+1) =0, r =0, 2 The recurrence relation is (1) a = a , n‡ 1 n 2(n+2)(2n+2r+1 n- 1 (i) r =0, then (- 1) a = a n (2n(2n+1) n- 1 (- 1) n =1, a = a 1 (2)(3) 0 (- 1) a = a 2 (4)(5) 1 Thus - ( 1) = a a 1 + 0 (2n 1)!
+)(3) Hence the solution is ¥ (- 1)xh y = a ∑ 1 0 (2n+1)!
+n=0 1 (- 1)n(x )2n+1 = a0 ∑¥ 2 = a0 Sin x x (2n+1)!
+x n=0 1 (ii) r= - , then 2 (- 1) a = a n (2n- 1)(2n) n- 1 (- 1)a n =1, a = 0 1 (1)(2) (- 1)a a = 1 2 (3)(4) ------------------------------ (- 1)na a = 0 n 2n!
+a ¥ (- 1)xn a y = 0 ∑ = 0 cos x 2 x (n- 2)] x n=0 Hence the general solution is 1 y = (ACos x +BSin x) x 3.2.
+Fourier series 1.
+Orthogonality: A set of function is{f (x), f(x),....f (x),.....} said to be 0 n an orthogonal set with respect to the weight function w(x)over the interval a £ x £ bif ∫b w(x)f (x)f (x)dx =0 for m„ n n m a „ 0 for m= n Orthogonality is a property widely encountered in certain branches of mathematics.
+Much use is made of the representation of functions in series of the form ¥ ∑ c f (x) n n n=0 In which the c are numerical coefficients and {f (x)} is an n n orthogonal set is 3.3 Orthogonality of a set of series and cosines: We shall consider the set of function npx Sin( ), n =1,2,3........... c npx Cos( ), n =0,1,2,3........... c or px 2px 3px npx Sin( ), Sin( ), Sin( ),……………Sin( )…………….
+c c c c npx 2px 3px npx 1, Cos( ), Cos( ), Cos( ),……………Cos( )…………….. c c c c is orthogonal with respect to the weight function w(x) =1 over the interval - c £ x £ c i.e.
+∫c SinnpxCoskpxdx =0, wherek „ n. - c c c : Before we prove the result, we give some definition to shorten the proof.
+(a) Even function: A function y = g(x) is said to be even y g(- x) = g(x) For all x.
+(b) Odd function: A function y = h(x) is odd if y = h(x) = - h(- x) For all x.
+Example: Sinxis an odd function Cosx is an even function (c) Most function are neither even or odd example x.
+(is in one function f(x) =0 (d) If g(x)is an even function then as well as even) ∫c g(x)dx = 2∫c g(x)dx - c 0 Consider the integral.
+c npx kpx I = ∫Sin Cos dx =0 for all k and n. 1 c c - c Follows at once from the facts that the integrand is an odd function of x.
+It does not dependent upon one fact and k and n are integers npx kpx I = ∫Sin Sin dx, k „ n 2 c c Take px c b = ,dx = db c p c p c p ∫ Cos(n- k)b - Cos(n+k)b ]db ∫ SinnbSinkbdb 2p - lp p - lp = c [ Sin(n- k) Sin(n+k)b ] = b - p 2p n- k n+k - p Since n- k and n+k are +ve integers.
+=0 Finally we consider the integral Wheren = 0, 1,........... n „ 0, c [ Sin(n- k)b Sin(n+k)b ] = - p 2p n- k n+k - p =0 I = ∫c Sin2 npxdx = ∫c Sin2 nxdx 4 - c c - c c let f(x) the continuous and differentiable at every point in an interval - c£ x£ cexcept for a most finite number of points and at more points, let f(x)and f¢(x)have right and left-hand limits Note: The notation f(c+0)is used to denote line right-hand limit of x ﬁ cas f(x)from alone, i.e.
+f(c+0) and =lim f(x) nﬁ c+ Similarly f ( c - 0 ) = =lim f(x) nﬁ c= Denotes, the limit of f(x) as approaches c. Since Fourier series for f(x)may not converge to the value f(x)every where.
+It is customary to replace the equals sign in equation (8) by the symbol ~which may be read “has for its Fourier Series” we write 1 ¥ npx npx f(x) ~ a +∑ (a cos +b sin , 2 0 n c n c n=1 Where a and b are given by (a) and (10) n n Example: Construct the Fourier series, over the interval - 2£ x £ 0,for the function defined by f(x)= 2, - 2£ x £ 0, x = 2 , 0< x < 2 1 ¥ npx npx Solution: Now f(x)~ a +∑ (a cos +b sin ) 2 0 n 2 n 2 n=1 In which a = 1∫2 f(x)cosnpxdx; n =0,1,......2 n 2 - 2 2 and b = 1∫2 f(x)sin npxdx; n =,1,......2 n 2 - 2 2 \ a = 1∫0 cosnpxdx+ 1∫2 xcosnpxdx (a) n 2 - 2 2 2 0 2 If n „ 0 , then 2 npx ] 1 2 npx 2 npx \ a = [sin 0 + [ xsin +( )2cos ]2 n p 2 - 2 2 p 2 p 2 0 - 2(1- cosnp ) = n2p 2 For n =0, from (a), we get a =3 0 1 \ b = n 2 Thus we write 3 ¥ 1- (- 1)n npx 1 npx f(x) ~ - 2∑ [ cos + sin ].
+2 n2p 2 2 np 2 n=1 Example 2 Obtain the Fourier series over the interval - p top for the function x2 Solution: We know 1 ¥ x2 ~ a +∑ [a cosnx+b sinnx] for - p < x<p , where 2 0 n n n=1 1 p a = ∫ x2cosnxdx; n =,1,2,....... n p - p 1 p b = ∫ x2sinnxdx; n =,1,2,....... n p - p x2 is an even function,sinnx is an odd function, thus x2sinnx is an odd function Hence.
+b =0.
+for every n. n 2 p x2sinnx 2xcosx 2sinnx a = [∫ + - ]p for n „ 0 n p - p n n2 n3 0 From which 2 2p cosnp 4(- 1) a = [ ]= , n =1,2,........ n p n2 n2 2 2cosp 4(- 1)p a = [ ]= n =1,2,........ n p n n2 for n =0 2 p 2 p 3 p 2 a = [∫ x2dx = = 2 0 p 0 p 3 3 Therefore, in the interval; - p < x<p p 2 ¥ (- 1)n cosnx x2 ~ +4∑ = 3 n2 n=1 Indeed, because of condition of line function involved, we write p 2 ¥ (- 1)n cosnx x2 ~ +4∑ = ,for - p £ x £ p .
+3 n2 n=1 2.
+Fourier Sine Series: Sometimes it is desirable to expand the function f(x) in a series involving Sine function only.
+In order to get a Sine series for f(x)we introduced a function g(x)defined as follows g(x)= f(x) 0< x <c =- f(- x) - c < x <0 Thus g(x)is an odd function over the interval - c < x <0.
+Hence 1 ¥ npx g(x) ~ a +∑ (a cos dx =0, n =0,1,...... 2 0 n c n=1 It follows that a 1 ∫c g(x)cosnpxdx =0 n =0,1,...... n c - c c 0 (Note integrand is an odd function) and that b = 1∫c g(x)sin npxdx n c - c c = 2∫c f(x)sin npx c - c c Thus ¥ npx f(x) ~ +∑ b sin o< x <c n c n=1 f(x)Where b = 2 ∫c f(x)sin npxdx n =1,2,................. n c - c c 0 Example: Expand f(x) == x2= in a Fourier Sine Series over the interval 0< x <1 Solution: At once we write, for 0< x <10 ¥ x2 ~ ∑ b sinnpx n n=1 In which b = ∫c x2sinnpxdx n - c = 2∫ 1 x2 cosnpx + 2xsinnpx + 2cosnpx 0 np (np )2 (np )3p p p cosn 2cos x 2cosn x = - + + 2[ np n3p 3 n3p 3 Hence the Fourier Sine Series, over 0< x <1 for is x2 cosnp 2(- 1)n 2 = 2[- + ] np n3p 3 n3p 3 3.
+Fourier Cosine Series: In order to expand the function f(x)in a series involving cosine function only, such series is called Fourier Cosine Series.
+We define h(x) = f(x) 0< x <c = f(- x) - c < x <0 It follows that h(x)is an even function of x.
+1 ¥ npx npx +∑ + h(x) ~ a (a cos b sin 2 0 n c n c n=1 a 1∫c h(x)cosnpxdx = 2∫c f(x)cosnpxdx n c - c c c 0 c 0< x <c But b = i ∫c h(x)sin np x dx = 0 n c - c c Thus we have f(x) ~ 1a +∫c (f(x)cosnpxdx 2 0 0 c in which a = 2∫c f(x)cosnpxdx n c - c c Example: Solution: At once we have 1 ¥ npx f(x) ~ a +∑ a cos in which 2 0 n c n=1 in which a 2∫c cosnpxdx n c 0 c 2 c. npx c npx = [ xsin +( )2cos ] c c np c np c 02 c. npx = [( )2cosnp - ] c c np c 0 - 2 = (1- cosnp ), n „ 0 n2p 2 The coefficient a is readily obtained 0 a 2∫c xdx = 2 c2 =c n c - c c 2 Thus the Fourier Cosine Series over the interval 0< x <cthe function f(x)= x is 1 uc ¥ 1- (- 1) npx f(x) ~ c- ∑ cos 2 p 2 n2 c k=1 4.0.
+Conclusion: You have learnt about indicial equations where the roots are positive and logarithmic.
+You have also learnt about Fourier series and odd functions.
+5.0 Summary: You are required to study materials in this unit very well before proceeding to the next units.
+6.0 Tutor Marked Assignments: (1).
+Find the general series solution of the D.E d2y dy 4x +6 + y =0 dx2 dx (2).Construct the Fourier series, over the interval - 2£ x £ 0,for the function defined by f(x)= 2, - 2£ x£ 0, x = 2 , 0< x < 2 7.0 REFERENCES/FURTHER READINGS 1.
+EARL.
+A. CODDINGTON: An Introduction to Ordinary Differential Equations.
+Prentice-Hall of India 2.
+FRANCIS B. HILDEBRAND: Advanced Calculus for Applications, Prentice-Hall, New Jersey 3.
+EINAR HILLE: Lectures on Ordinary Differential Equations, Addison – Wesley Publishing Company, London.
+UNIT 4: BOUNDARY VALUE PROBLEMS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Boundary Value Problems 3.2 Eigen Values and Eigen Functions 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/ Further Readings 1.0 Introduction In this unit, we will discuss some of the properties of boundary valve problems for linear second order equation.
+This class of differential equations is very useful for practical applications.
+We shall devote some time in studying them in this unit.
+2.0 Objectives: At the end of this unit you should be able to - classify second order differential equations into homogeneous and non-homogeneous.
+- differentiate between eigen values and eigen functions - solve related eigen value problems 3.0 MAIN CONTENT 3.1 Boundary Value Problems The linear differential equation P(x)y¢¢ +Q(x)y¢ +R(x)y = g(x) (1) was classified homogeneous if,g(x)=0, and non-homogeneous otherwise.
+Similarly, a linear boundary condition a y(0)+a y¢¢(0)=c (2) 1 2 A boundary value problem is homogeneous if both its differential equation and in boundary conditions are homogeneous.
+If not then it is non- homogeneous.
+A typical linear homogeneous second order boundary value problem is of the form.
+P(x)y¢¢ +Q(x)y¢ +R(x)y =0 (3) 0< x <1, a y(0)+a y¢¢(0)=0 (4) 1 2 b y(I)+b y¢(0)=0 (5) 1 2 Most of the problems, we will discuss are of the form given by (3) to (5).
+3.2.
+Eigen Values and Eigen Functions Consider the differential equation y¢¢ + p(x,l )y¢ +q(x,l )y =0 0< x <1 (1) The boundary conditions a y(0)+a y¢(0) =0 (2) 1 2 b y(I)+b y¢(0)=0 (3) 1 2 Where l is arbitrary parameter.
+Clearly the solution of (1) depends on x and l and can be written as y =c y (x,l )+c (x,l ), (4) 1 1 2 Where y and y are a fundamental solution of (1).
+Substituting for y in the 1 1 1 boundary condition (2) and (3), yield.
+c [a y (o,l )+a y¢(o,l )]+c [a y¢ (x,l )]=0 (5) 1 1 1 2 2 1 2 c [b y (i,l )+b y¢(i,l )]+c [b y¢ (i,l )]=0 (6) 1 1 1 2 2 2 2 A set of two linear homogeneous algebraic equations for the constant.
+Such a set has solutions (other than c =c =0 if and only if the determinant of 1 2 coefficients D(l )vanishes i.e.
+c [a y (o,l )+a y¢(o,l )] a y (o,l )+a y¢ (o,l ) 1 1 1 2 1 2 2 2 D(l ) = b y (i,l )+b y¢(i,l )] b y (i,l )+b y¢ (i,l )]=0 1 1 2 1 2 2 2 Values satisfying this determinant equation are the eigenvalues of the boundary- value problems (1), (2) and (3) Corresponding to each Eigen value is at least one non- trivial solution.
+An Eigen function Note: We will consider problems namely only real eigen value Example I consider the equation y¢¢ +ly =0 (1) y(0), y(1) =0 (2) Solution: y¢¢ +ly =0, the solution is y =c cos x +c sin x , (3) 1 1 By the boundary conditions c =0s 1 c sin l =0 2 c „ 0, otherwise y =0 is the solution 2 sin l =0⇒ l = np , n =1,2,................ or l = np 2,4np 2 (4) (4) gives the eigen values of (1).
+If we consider l =1 \ y =c cosx+c sinx 1 2 0=c by (2) 1 \ y =c sinI =0⇒c =0 2 2 = c 0 1 by ( 2) \ y =0 Hencel =1 is the eigen -function The eigen function are \ y =c sinnpx n 2 …………….
+(5) n =1,2,..........c ……….
+c is an arbitrary constant 2 1 Example 2: Find the real eigen values eigen -function of the boundary value problem y¢¢ +ly =0 y(0)=0 y¢(l) =0 .The solution is y¢¢ +ly =0 \ y =c cos l x (1) 1 y(0)=0, given c =0.
+Also 1 y¢ =c cos l cos lx 2 But y¢ =(l) =0, yields c = l cos ll =0 ⇒ 2 c = l cosl =0 2 (2n- 1)p l l , n =1,2,................. 2l (2) gives eigen value 2n- 1)px y =sin[ ], n =1,2,................. (2) n 2l (3) gives eigen functions Examples y¢¢ +ly =0 y¢ =(0) =0 y¢ =(1) =0 Solution: The solution is y¢ =c cos l x+c csin lx (1) 1 2 y=¢ - c sin l x+c xcos lx (2) 1 2 c +c m =0 1 2 m 1 =0 cosm cosm Thus the eigen value are given by the equation m = tanm .
+(3) y= - c m +m c sinmx 2 n 2 If m is the root of (3), then eigen function is n y =sinm - m cosm x (4) n n n n Ifl =0 , then the solution is y= - c +c 2 2y y¢ =c 1 \ c +c =0 1 2 Hence the solution is y =c (x- 1) 1 thus l = 0 is also an eigen value m = tan m (2n+1)p l ~ 4.49, l ~ 1 N 2 Example 5. y¢¢ +ly =0 y =0, y(1)+ y¢(0) =0 Solution y =c cos l sin l x+c + l cos l x 1 2 c =0, 2 \ l =cot l The eigen values are given by equation (3).
+The eigen function are y = l xWhere the root of is l is the root of the equation n n n l =cot l l = x, y =cotx l =(n- 1)p n‡ 2,3,........... n l =(n- 1)2p 2 for large n n Example 6.
+Consider the problem y¢¢ +ly =0 y =(0), y¢(0) =0 Show that if f ,and f are eigen function corresponding to the eigen value m n l and l Respectively, then m n∫l f (x)f (x)dx =0 m 0 Provided that l „ l .
+m n Solution: f ¢¢ +l f =0 m m m f ¢¢ +l f =0 n m m f ¢¢ +l f =0 n m n f ¢¢f +l f f =0 (1) m n m m n f ¢¢f +l f f =0 (2) n m n n n ∫l f¢ ¢ (x)f¢ ¢ (x)dx+l ∫l f f dx =0 (3) m n m m n 0 0 ∫l ¢f¢ f¢ ¢ dx+l ∫l f f dx =0 (4) n m n n m 0 0 ∫l f ¢ (x)f¢ ¢(x)- ∫l f ¢ (x)f (x)dx+l ∫l f f dx =0 m n m n m m n 0 0 0 f ¢ (l)f¢ ¢(l)- f ¢ (o)f ¢ (0)- f ¢ - [f ¢ (x)f ¢ (x)- ∫l f ¢ (x)f¢ ¢(x)dx]+l ∫l f ¢ (x)f¢ ¢(x)dx m n m n m n m n m m n 0 o or By boundary value conditions ∫l f (x)f¢ ¢(x)dx+l ∫l f (x)f (x)dx =0 (5) m n m m n 0 0 Subtract (4) from (5), we have (l - l ∫l f (x)f (x)dx =0 n m m n 0 If l „ l , then n m ∫l f (x)f¢ ¢(x)dx =0 m n 0 Example 14.
+Hyperbolic function exe- x ex - e- x cosx , sinh 2 2 d (cosh)=sinh(x) dx d (sinx) =coshh(x) dx (a) Solution of the problem is r4 - l =0, Take l = m 4 r4 - m 4 =0 The solution is y =c cosmx+c sinmx+c m 2cosmx+c sinhmx (1) 1 2 3 2 The boundary condition c +c =0 1 3 c - c =0 1 3 ⇒c =0 and c =0 1 3 \ y =c sinm +c sinml =0- c sinml+c sinhml =0 2 4 2 4 \ y =c sinm +c sinml =0- c sinml+c sinhml =0 2 4 2 4 \ y =c sinm +c sinml =0- c sinml+c sinhml =0 2 4 2 4 \ y =c sinm +c sinml =0- c sinml+c sinhml =0 2 4 2 4 \ sinml =0sinhml =0 n =1,2,............. \ sinml = np np \ y =sin x n =1,2,............. n l Is the eigen-function 4.0 Conclusion We have been able to study some eigen-value problems in this unit.
+This unit must be mastered properly before moving to the next unit.
+5.0 Summary Recall that the linear differential equation P(x)y¢¢ +Q(x)y¢ +R(x)y = g(x) (1) was classified homogeneous if,g(x)=0, and non-homogeneous otherwise.
+Similarly, a linear boundary condition a y(0)+a y¢¢(0)=c (2) 1 2 A boundary value problem is homogeneous if both its differential equation and in boundary conditions are homogeneous.
+If not then it is non- homogeneous.
+We also classified some equations into eigen value problem depending upon whether the determinant of the eigen value of the problem is zero or not.
+Read carefully and re work all exercises and problems in this unit for better understanding.
+6.0 Tutor Marked Assignment: 1.
+Consider the problem y¢¢ +ly =0 y =(0), y¢(0) =0 Show that if f ,and f are eigen function corresponding to the eigen value m n l and l Respectively, then m n ∫l f (x)f (x)dx =0 m 0 Provided that l „ l .
+m n 2.
+Find the real eigen- values and eigen -function of the boundary value problem y¢¢ +ly =0 y(0)=0 y¢(l) =0 7.0 REFERENCES/FURTHER READINGS 1.
+EARL.
+A. CODDINGTON: An Introduction to Ordinary Differential Equations.
+Prentice-Hall of India 2.
+FRANCIS B. HILDEBRAND: Advanced Calculus for Applications, Prentice-Hall, New Jersey 3.
+EINAR HILLE: Lectures on Ordinary Differential Equations, Addison – Wesley Publishing Company, London.
+Module 2: Sturm Liouville Boundary Value Problems and Special Functions UNIT1: Sturm and Liouville Problem 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1.
+Sturm and Lioville Problems 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/ Further Readings 1.0.
+Introduction We solved some partial differential equations by the method of separation of variables.
+In the last step we expanded a certain function in a Fourier series, i.e.
+as the sum of an infinite series of sine and cosine functions.
+It is of fundamental importance that the eigen functions of a more general class of boundary values problems can be used as a basis for series expansions, which have properties similar to Fourier Series.
+Such eigen- functions series are useful in extending the method of separation of values to a larger class of problems in partial differential equation.
+The class of boundary value problem we will discuss is associated with the names of Sturm and Liouville.
+2.0 Objectives: After studying this unit you should be able - to solve partial differential equation using Sturm and Liouville methods - solve correctly the associated Tutor Marked Assignments 3.0 MAIN CONTENT 3.1.
+Sturm and Liouville Problem We introduce the operator L[y]= - [p(x)y¢]+q(x)y (1) L[y]=lr(x)y (2) [P(x)y¢]¢ - q(x)y+lr(x)y =0 (3) on the interval 0< x <1, together with the boundary condition a y(0)+a y¢(0) =0 (4) 1 2 b y(I)+b y¢(1) =0 (5) 1 2 We shall assume that p,qand rare continuous functions in the interval [0,1].
+P(x) >0,r(x)>0for all xin 0£ x £ 1.
+(i) Lagrange’s identity: let u and v be functions having continuous second derivatives on the interval 0£ x £ 1.
+Then ∫1 (UL[U]- UL[u])dx 0 = - p(x)[u¢(x)u(x)- u(x)u¢(x)] (6) Solution 1: ∫1 UL[U]dx∫1 {- u[p(x)u¢q(x)u}dx 0 0 = - u(py¢)+u¢p(x)u(x)+∫1 {- u(pu¢)+uqu}dx 0 \ ∫1 (uL[u]- UL[U])dx= - (px)[u¢(x)u(x)- u(x)u¢(x) 0 This is known as Lagrange’s identity if uand usatisfy (5) and (4) R.H.S = - p(1)[u¢(1)u(1)- u(1)u¢(1)] + p(0)[u¢(0)u(0)- u(0)u¢(0)] b b - p(1)[- 1 u(1)u(1)+ 1 u(1)u(1)] b b 2 2 a a + p(0)[- 1 u(0)u(0)+ 1 u(0)u(0)] a a 2 2 =0 Thus we have ∫1 {u[u]- uL[u]dx =0 0 (ii) Show that all the eigen value of the Sturm-Liouville problem L(y)=lr(x)y A With boundary conditions a y(0)+a y¢(0) =0 B 1 2 b y(I)+b y¢(1) =0 1 2 are real.
+Proof: let us suppose there exists a complex eigen valuel = m +iv will v „ 0 and corresponding to this value is the eigen function Q(x) =U(x)+IV(x) Where at least one of them is not identically zero.
+Now Q satisfies the differential equation L[Q)=lrQ L[Q]=pRQ or u =Q and u =Q ∫1 {QL(Q)- QL(Q)]dx = ∫1 (l - l ¢) 0 0 r(x)Q(x)Q(x)dx =0 or2r∫1 r(x)[V2(x)+V2(x)dx =0 ……….
+(1) 0 Since r(x) >0 for all x in 0£ x £ 1(1) ⇒v =0 This contradicts the original hypothesis.
+Hence the eigen value of Sturm- Liouville problem are real.
+(iii) If Q and Q are eigenvalues of the Sturm-Liouville problem (A) 1 2 and (B), corresponding to eigen valves l and l , respectively , 1 2 and l +l , then 1 2 ∫1 r(x)Q (x)Q (x)dx =0 1 2 0 [r(x)is called the weight function and it is an orthogonal property of eigenfunction] Proof: - L[Q ]l rQ 1 1 1 L[Q ]l rQ 2 2 2 If we let = U =Q and U =Q then 1 2 ∫1 {uL[U]- UL[U]}dx 0 l - l ∫1 r(x)Q (x)Q (x)dx =0 1 2 1 2 0 Hence the result (iv) Let us now consider a more general boundary value problem for the differential equation L[y]=lM[y], 0< x <1 Where L and M are linear homogeneous differential operations of orders n and n respectively.
+L[y]= p (x)y(n) + p (x)y(n- 1) +........+ p (x)y¢ + p (x)y 0 1 n- 1 n M[y]= r (x)y(m) +r (x)y(m- 1) +........+2 (x)y¢ +r (x)y 0 1 m- 1 m Where n> m. In addition to the differential equation a set of n linear homogeneous boundary conditions at x =0, x =1is also prescribed.
+If the relations ∫1 (uL[u]- uL[u]dx =0 0 ∫1 (uM[u]- uM[u]dx =0 0 are line for every pair of functions u and u, which are n- lines continuously differentiable on 0,land which satisfy un given boundary conditions, then the given boundary valve problem is said to be self adjoint.
+Problem I.
+Show that the Sturm-Liouville problems L(y)- [P(x)y¢]+q(x)y M(y)=lr(x)y (i) ∫1 [UM[u]- uM[u]dx 0 ∫1 [Ulr(x)u- ulr(x)u]dx 0 =0 For every pair of u, u  ∫1 [UL[u]- uL[u]dx =0 0 as shown previously.
+Hence it is self-adjoint Problem (a) y¢¢ + y¢ +2y =0 y =0, y =(I) =0 Solution L(y) = y¢¢ + y¢ +2y (i) ∫1 [U(u¢ ¢ +u¢ +2u)- u(u¢ ¢ +u¢ +2u)dx 0 = - 2∫1 u¢udx, are true for every pair of function u and u, which are n- 0 times continuously differentiable on [o,l] which satisfy un given boundary value problem is said to be self-adjoint.
+Solution: Sturm-Liouville problems L(y) = - [p(x)y¢]+q(x)y M(y)=lr(x)y (i) ∫1 [UM(u)- uM(u)]dx 0 ∫1 [Ulr(x)- ulr(x)]dx 0 =0 as shown previously.
+Hence it is not self-adjoint.
+Problem y¢¢ + y¢ +2y =0 y =0, y =(I) =0\ Solution L(y) = y¢¢ + y¢ +2y y =0, y =(I) =0 ∫1 [U(u¢ ¢ +u¢ +2u)- u(u¢ ¢ +u¢ +2u)]dx 0 ∫1 [UL(u)- uL(u)]dx =0 0 as shown previous.
+Hence it self-adjoint Problem (a) Problem y¢¢ + y¢ +2y =0 y =0, y =(I) =0\ Solution L(y) = y¢¢ + y¢ +2y y =0, y =(I) =0 ∫1 [U(u¢ ¢ +u¢ +2u)- u(u¢ ¢ +u¢ +2u)]dx 0= - 2∫1 u¢udx =0, u¢ and u¢ are continuous in the interval 0£ x £ 1.
+Hence it is 0 not zero.
+Thus it is not self-adjoint.
+Problem(b) (x+x2)y¢ ¢ +2xy¢ + y =0 y¢ =0, y =(1)+2y¢(1) =0 L(y) =(1+ x2)U¢ ¢ +2xy¢ ¢ + y =0, y¢ =(0) =0 y =(1)+2y¢(1) =0, L(y) =(1+ x2)y¢ ¢ +2xy¢ + y M(y) =0 ∫1 [U[(1+ x2)u¢ (u¢ ¢ +u¢ +2u)]dx =0 0 It is Sturm-Liouville problem.
+(c) y¢¢ + y =ly, (y) =0- y¢(0)- y¢(1) =0 y¢ =0- y¢(0)- y¢(1) =0 Solution L(y) =(1+ x2)y¢ ¢ +2xy¢ + y M(y) = y (i) ∫1 (uM(m )- UM(m )dx 0 ∫1 (uu- uu)dx =0 0 (ii) ∫1 (u¢ ¢u)- U(m¢ ¢)dx] 0 = ∫1 (uu¢ ¢ - u¢ ¢u)dx 0 =uu¢ - uu¢ =[u(1)u¢(1)- u(1)u¢(1) - [u(1)u(0)- u(1)u¢(0)] =[u(1)u(0)- u(I)u(0) The right side is not zero.
+Hence it is not self-adjoint.
+Problem 3 Consider the differential equation y¢¢ +ly+2y =0 \ With boundary conditions  y =(0)- y(I)=0, y¢ =(0)- y¢(1)=0 (a) Show that the problem is self-adjoint even though it is not a Sturm- Liouville problem.
+Find all eigenvalues and eigenfunctions of the given problem (b) Solution: L(y) = y¢¢ M(y)= - y (i) ∫1 [UM(u)- u(- u)dx]=0 0 ∫1 [U(- u)- u(- u)]dx =0 0 (ii) ∫1 [u(uu¢ ¢ - uu¢ ¢]dx 0 =(uu¢)- ∫1 (u¢ u¢dx- u¢u+∫1 u¢ u¢dx 0 0 =[(1)u¢(I)- u¢(I)u(I)] - [(0)u¢(0)- u¢(0)u(0)] - [(0)u¢(0)- u¢(0)u(0)] - [(0)u¢(0)- u¢(0)u(0)]=0 Hence it is self-adjoint The solution of the equation is y =c cos x +c sin l x 1 2 Applying the boundary conditions, we have c l sin l +c sin l (1- cos l =0 1 2 c (cos l - 1+c sin l =0 1 2 Thus l sin l l (1- cos l cos l - 1 sin l =0 Or l (1- cos l =0⇒ l =0 or l =(2n- p )2, n =1,2,........... l =0 j (x) =1 0 0l =(2n- p )2 n \ Q (x) =cos2npx, \ Q (x) =sin2npx, n n y =cos2npx, y =sin2npx, 1 2 y =cos2npx, y = 2npxcos2npx, 1 2 cos2npx sin2npx W(y y = 1 2) - 2np sinnpx 2np cos2npx 2npxcos2 2npx+2np sin2 npx 2np „ 0 0‹ x Between 0£ x £ 1 Thus the eigen functions are lining independent.
+Problem 5: Consider the Sturm-Liouville problems - [p(x)y¢]+q(x)y =lr(x)ya 1 a y(0)+a y¢(0) =0,b,y(1)+b y¢(1) =0 1 2 2 Where p, q and z continuous function in the interval 0£ x £ 1.
+(a) show that if l is an eigen-value and j a corresponding eigen function, then l ∫1 eQ2dx = ∫1 (pf ¢ 2 +qf 2)dx+ b1 p(1)f 2(1)- a1 p(0)f 2(0) 0 0 b a 2 2 Provided that a „ 0 and b „ 0 How this result be modified 2 2 ifa =0 or b =0 2 2 b - a (b) Show that if q(x)‡ 0and if 1 .
+and 2 are non-negative, then the b a 2 1 eigen-value l Is non negative Show that the eigen-value l is strictly 0£ x £ 1 under q(x) = 0 for (c) each x in 0,x,1 Solution lr(x)Q2= - [p(x)Q¢ ]¢Q+q(r)Q2 Thus l ∫1 r(x)Q2dx = ∫1 (qQ2 - p(x)Q¢)Q)dx 0 0 Integrating by parts, we have ∫1 qQ2dx- Q[p(Q¢]+∫1 pQ¢ 2)dx 0 0 From boundary condition, we have obtain the result b Q¢(1) = 1 Q¢(1) b 2 a Q¢(0)= - 1 Q¢(0) a 2 Putting these values on the right side and we obtain the result if or a =0 or b =0, then the first boundary condition reduces to 2 2 y =0 ⇒Q(1) =0 or ⇒ Q (o ) = 0 The result reduces to l ∫1 rQ2dx = ∫1 (qQ2 + pQ¢dxb1 p(1)Q2(I) 0 0 b 2 or l ∫1 rQ2dx = ∫1 (qQ2 + pQ¢ 2dx a1 Q2(0)Q2(I) 0 0 a 2 (b) In a Sturm Lioville problem, we always assume that p(x)>0, r(x) >0, By given condition r(x) >0for all x in 0£ x £ 1Q2 >0for all 0£ x £ 1.
+Now we impose condition, so that right side of the equation in (a) is +ve b - a The second and third term are +ve y 1 and 1 are non-negatives b a 2 2 Now ∫1 qQ2dx is +ve in order that 0 (c) If q(x) =0 for all x 0£ x £ 1then l is strictly.
+4.0 Conclusion We have studied the Sturm Lioville problem in this unit .
+You are to master this unit properly so that you will be able to solve the problems that follow.
+5.0 Summary Recall that Sturm Lioville problems are usually problems associated with eigen values problems of partial differential equations which we have dealt with in this unit.
+In our subsequent course in mathematics in this Programme, we will have cause to deal with it again particularly when will shall study Partial Differential Equation.
+6.0 Tutor Marked Assignment Consider the problem y¢¢ - 2y¢ +(1+l)u=0 Y(0)=0,y(1)=0 1) Show that this problem is not self-adjoint 2) Show that all eigenvalues are real 3) Show that the eigenfunctions are not orthogonal.
+(with respect to the weight function arising from the coefficients of …….. in the differential equation.
+7.0 REFERENCES/FURTHER READINGS 1.
+EARL.
+A. CODDINGTON: An Introduction to Ordinary Differential Equations.
+Prentice-Hall of India 2.
+FRANCIS B. HILDEBRAND: Advanced Calculus for Applications, Prentice-Hall, New Jersey 3.
+EINAR HILLE: Lectures on Ordinary Differential Equations, Addison – Wesley Publishing Company, London.

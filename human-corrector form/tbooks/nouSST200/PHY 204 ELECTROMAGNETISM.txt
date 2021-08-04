@@ -1,0 +1,1542 @@
+PHY204 MODULE 1 NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY 204 COURSE TITLE: ELECTROMAGNETISM 1PHY204 ELECTROMAGNETISM Course code: PHY 204 Course Title: Electromagnetism Course Adapted From: IGNOU Course Writer: Dr. A.
+B. Adeloye Department of Physics University of Lagos Akoka, Lagos Editorial Team: Dr. makanjuola Oki National Open University of Nigeria Lagos Dr. A.
+B. Adeloye Department of Physics University of Lagos Akoka, Lagos Dr. H. M. Olaitan Lagos State University ojo Programme Leader: National Open University of Nigeria Lagos NATIONAL OPEN UNVERSITY OF NIGERIA 14/16 Ahamadu Bello Way Victoria island Lagos.
+2 PHY204 MODULE 1 MODULE 1 Unit 1 Macroscopic Property of Dielectrics Unit 2 Capacitor Unit 3 Microscopic Properties of Dielectrics Unit 4 Magnetism of Materials I Unit 5 Magnetism of Materials II UNIT 1 MACROSCOPIC PROPERTIES OF DIELECTRICS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Simple Model of Dielectric Material 3.2 Behaviour of a Dielectric in an Electric Field 3.2.1 Non-Polar and Polar Molecules 3.2.2 Polarisation Vector P 3.3 Gauss's Law in a Dielectric Medium 3.4 Displacement Vector 3.5 Boundary Conditions on D and E 3.6 Dielectric Strength and Dielectric Breakdown 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In the previous courses in electromagnetism, you have learnt the concepts of electric field, electrostatic energy and the nature of the electrostatic force.
+However, for reasons of simplicity we confined, for most parts, our considerations of these concepts for charges that are placed in vacuum.
+For example, Coulomb's law of electrostatic force is the electric field due to a distribution of charges given in Unit 4; refer to the situation in which the surrounding medium is vacuum.
+Of equal importance is the situation in which the electrical phenomenon occurs in the presence of a material medium.
+Here we must distinguish between two different situations, as the physics of these situations is completely different.
+The first situation is when the medium consists of insulating materials i.e., those materials which do not conduct electricity.
+The second situation corresponds to the case when the medium consists of conducting materials, i.e.
+materials like metals which are conductor of 3PHY204 ELECTROMAGNETISM electricity.
+The conducting materials contain electrons which are free to move within the material.
+These electrons move under the action of an electric field and constitute current.
+We shall study conducting materials and electric fields in conducting materials at a later stage.
+In the present unit, you will study the electric field in the presence of an insulator.
+In these materials there are practically no free electrons or number of such electrons is so small that the conduction is not possible.
+In 1837, Faraday experimentally found that when an insulating material – also called dielectric (such as mica, glass or polystyrene etc.)
+– is introduced between the two plates of a capacitor, it is found that the capacitance is increased by a factor which is greater than one.
+This factor is known as the dielectric constant (K) of the material.
+It was also found that this capacitance is independent of the shape and size of the material but it varies from material to material.
+In the case of glass, the value of the dielectric constant is 6, while for water it is 80.
+All the electrons in these materials are bound to their respective atoms or molecules.
+When a potential difference is applied to the insulators no electric current flows; however, the study of their behaviour in the presence of an electric field gives us very useful information.
+The choice of a proper dielectric in a capacitor, the understanding of double refraction in quartz or calcite crystals is based on such studies.
+Natural materials, such as wood, cotton, natural rubber, mica are some popular examples of electric insulators.
+A large number of varieties of plastics are also good dielectrics.
+Dielectric substances are insulator (or non-conducting) substances as they do not allow conduction of electricity through them.
+In this unit first, of all we will study a simple model of dielectric material and deduce a relationship between applied field E and the dipole moment p of a molecule/atom.
+You will learn about electric polarisation in a dielectric material and define polarisation vector P. You must have studied Gauss's law in vacuum.
+You will now apply it to a dielectric medium.
+Here we will also introduce you to a new vector known as the electric displacement vector D. After that we will discuss the continuity of D and E at the interface between two dielectrics.
+In recent years dielectric materials have become important especially due to their large scale use in electric and electronic devices.
+There is high demand for the improvement of operating reliability of these devices.
+Reliability of these devices is measured to a great extent by the quality of electrical insulation.
+In the last section you will study dielectric strength and break down in dielectrics.
+4 PHY204 MODULE 1 In the next unit you will study the details of capacitors, especially the capacitance of a capacitor, energy stored in a capacitor, capacitor with dielectric, different forms of capacitors, etc.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • explain the behaviour of a dielectric in an electric field • deduce Gauss's law for a dielectric medium • define dielectric polarisation and classify dielectrics as polar and nonpolar • explain Displacement Vector (D) and relate it to the electric field strength (E) • define dielectric constant • state and derive the boundary conditions on E and D • explain dielectric strength and dielectric breakdown.
+3.0 MAIN CONTENT 3.1 Simple Model of the Dielectric Material You must be aware that: • every material is made up of a very large number of atoms/molecules, • an atom consists of a positively charged nucleus and negatively charged particles, with electrons revolving around it, • the total positive charge of the nucleus is balanced by the total negative charge of the electrons in the atom, so that the atom, as a whole, is electrically neutral w.r.t.
+any point present outside the atom, • a molecule may be constituted by atom of the same kind, or of different kinds.
+To understand the polarisation we shall consider a crude model of the atom.
+A simple crude model of an atom is shown in Fig.
+1.1.
+Fig.
+1.1 Model of an Atom 5PHY204 ELECTROMAGNETISM The nucleus is at the centre, and the various electrons revolving around it can be thought of as a spherically symmetric cloud of electrons.
+For points outside the atom this cloud of electrons can be regarded as concentrated at the centre of the atom as a point charge.
+In most of the atoms and molecules, the centres of positive and negative charges coincide with each other, whereas, in some molecules the centres of the two charges are located at different points.
+Such molecules are called polar molecules.
+Further, we note that in dielectrics, all the electrons are firmly bound to their respective atoms and are unable to move about freely.
+In the absence of an electric field, the charges inside the molecules/atoms occupy their equilibrium positions.
+The arrangement of the molecules in a dielectric material is shown in Fig.
+1.2.
+Fig.
+1.2 The arrangement of the atoms in a dielectric material The charge centres are shown coincident at the centre of the sphere.
+Keeping this picture of a dielectric in mind we shall proceed to study its behaviour in an electric field in the next section.
+3.2 Behaviour of a Dielectric in an Electric Field You have seen in Section 1.2 that in a dielectric material, the centres of positive and negative charges of its atoms are found to coincide at the centre of the sphere.
+It is shown in Fig.
+1.3.
+6 PHY204 MODULE 1 Fig.
+1.3 Atoms in which the centres of charges are coincident with the centre of the spheres A charge experiences a force in the presence of an electric field.
+Therefore, when a dielectric material is placed in an electric field, the positive charge of each atom experiences a force along the direction of the field and the negative charge in a direction opposite to it.
+This results in small displacement of charge centres of the atoms or molecules.
+This is also true of molecules whose charge centres do not coincide in the absence of an electric field.
+The separation of the charge centres due to an applied field E is shown in Fig.
+1.4.
+Electric dipole moment per unit volume is known as polarisation Fig.
+1.4 The separation of the charge centres due to an applied field E. This phenomenon is called polarisation.
+Thus when an electrically neutral molecule is placed in an electric field, it gets polarised, with positive charges moving towards one end and negative charges towards the other.
+The otherwise neutral atom thus becomes a dipole with a dipole moment, which is proportional to electric field.
+Now we consider another kind of molecule in which the charge centres do not coincide as shown in Fig.
+1.5.
+7PHY204 ELECTROMAGNETISM Fig.
+1.5 A dielectric material in which charge centres do not coincide Due to this reason the molecule already possesses a dipole moment.
+Such materials are called polar materials.
+For such materials, let the initial orientation of the dipole axis be AOB as shown in Fig.
+1.6.
+Fig.
+1.6 Molecule possessing a dipole moment Now an electric field E is applied.
+This field pulls the charge centres along lines parallel to its direction.
+Thus the electric field exerts a torque on the dipole causing it to reorient in the direction of the field.
+In the absence of an electric field these polar materials do not have any resultant dipole moment, as the dipoles of the different molecules are oriented in random directions due to thermal agitation.
+When an electric field is applied, each of these molecules reorients itself in the direction of the field, and a net polarisation of the material results.
+The reorientation or polarisation of the medium is not perfect again due to thermal agitation.
+Thus polarisation depends both on field (linearly) and temperature.
+SELF ASSESSMENT EXERCISE 1 What are dielectrics?
+In what respects do they differ from conductor?
+8 PHY204 MODULE 1 3.2.1 Non-Polar and Polar Molecules We have considered two types of molecules.
+One in which the centre of positive charges coincide with the centre of negative charges.
+The molecule as a whole has no resultant charge.
+Molecules of this type are called Non-polar.
+Examples of Non-polar molecules are air, hydrogen, benzene, carbon, tetrachloride, etc.
+The second type is the one in which the centre of positive charges and the centre of negative charges do not coincide.
+In this case the molecule possesses a permanent dipole moment.
+This type of molecule is called a Polar Molecule.
+Examples of polar molecules are water, glass, etc.
+Thus we see that, a Non-polar molecule acquires a Dipole Moment only in the presence of an electric field: whereas in a Polar Molecule the already existing dipole moment orients itself in the direction of the external electric field.
+Even in polar molecules, there is some induced dipole moment due to additional separation of charges, however this effect is comparatively much smaller than the reorientation effect and is thus ignored for polar molecules.
+3.2.1 Polarisation Vector P Let us study the effect of an electric field on a dielectric material by keeping a dielectric slab between two parallel plates as shown in Fig.
+1.7.
+The electric field is set up by connecting the plates to a battery.
+We limit our discussion to a homogeneous and isotropic dielectric.
+A homogeneous and isotropic dielectric is one in which the electrical properties are the same at all points in all directions.
+The applied electric field displaces the charge centres of the constituent molecules of the dielectric.
+The separation of the charge centres is shown in Fig.
+1.7.
+We find that the negative charges of one molecule faces the positive charges of its neighbour.
+Thus within the dielectric body, the charges neutralise.
+However, the charges appearing on the surface of the dielectric are not neutralised.
+These charges are known as Polarisation Surface Charges.
+The entire effect of the polarisation can be accounted for by the charges which appear on the ends of the specimen.
+The net surface charge, however, is bound and depends on the relative displacement of the charges.
+It is reasonable to expect that the relative displacement of positive and negative charges is proportional to the average field E inside the specimen.
+9PHY204 ELECTROMAGNETISM Fig.
+1.7: Effect of an Electric field on a dielectric material by keeping a dielectric slab between two parallel plates From Fig.
+1.7, we find that these polarisation charges appear only on those surfaces of the dielectric which are perpendicular to the direction of the field.
+No surface charges appear on faces parallel to the field.
+Such a situation occurs only in the special case of a rectangular block of dielectric kept between the plates of a parallel plate condenser.
+It is shown later in this section that surface density of bound charges depends on the shape of the dielectric material.
+The polarisation of the material is quantitatively discussed in terms of dipole moment induced by the electric field.
+Recall that the moment of a dipole consisting of charges q and -q separated by a displacement d is given by P = - qd.
+It is known from experiments that the induced dipole moment (p) of the molecule increases with the increase in the average field E. We can say that p is proportional to E or p =a E (1.1) where a is the constant of proportionality known as Molecular/Atomic Polarisability.
+Let us now define a new vector quantity which we shall represent by P and shall call it polarisation of the dielectric or just polarisation.
+Polarisation P is defined as the electric dipole moment per unit volume of the dielectric.
+It is important to note that the term polarisation is used in a general sense to describe what happens in a dielectric when the dielectric is subjected to an external electric field.
+It is also used in this specific sense to denote the dipole moment per unit volume.
+Let us first consider a special case of n polarised molecules each with a dipole moment p present per unit volume of a dielectric and let all the dipole moments be parallel to each other.
+Then from the definition of P P =np 10 PHY204 MODULE 1 From the above definition, units of P are Coulombm Coulomb Units of P = = =Cm- 2 m3 m2 In general, P is a point function depending upon the coordinates.
+In such cases, where the ideal situation mentioned above is not satisfied, we would consider an infinitesimal volume V throughout which all the p's can be expected to be parallel and write the equation N P P = lim ∑ i (N is the number of dipoles in volume V) (1.la) D Vﬁ 0 i=1 V Here V is large compared to the molecular volume but small compared to ordinary volumes.
+Thus, although p is a point function, it is a space average of p. The direction of p will, of course, be parallel to the vector sum of the dipole moment of the molecules within V. In such a case where the p's are not parallel, as in a dielectric that has polar molecules, Eq.
+(1.la) still holds as the defining equation for p. SELF ASSESSMENT EXERCISE 2 Show that the dipole moment of a molecule p and the dipole moment per unit volume are related by P = np where n is the number of molecules per unit volume of the dielectric.
+To understand the physical meaning of P, we consider the special case of a rectangular block of a dielectric material of length L and cross- sectional area A.
+Fig.
+1.8 represents such a block.
+Fig.
+1.8 Surface polarisation charges on a rectangular block of dielectric 11PHY204 ELECTROMAGNETISM Fig.
+1.8a Surface polarisation charges.
+Actual displacement of charge on right is dxcosq Let p be the surface density of polarisation charges, viz., the number of charges on a unit area or charge/unit area on the surface.
+The total number of polarisation charges appearing on the surface = As Induced dipole moment = As L (1.2) Volume of the slab = AL By definition dipole moment per unit volume = P Induced dipole moment =PAL (1.3) Now we can compare the magnitudes of Eqs.
+(5.2) and (5.3) to obtain the magnitude P of the polarisation vector to be P =s (1.4) p Thus, the surface density of charges appearing on the faces perpendicular to the field is a measure of P, the polarisation vector.
+Eq.
+(1.4) is true for a special geometry when the dielectric material is a rectangular block.
+For a block shown in Fig.
+1.8a the surface on the right is not perpendicular to P. The normal unit vector (n) to the surface makes an angle q with P. If the charges are displaced by a distance dx the effective displacement is dxcosq for the surface on the right.
+If n is the number of charged particle and q is the charge on each particle, then the surface charge density s is given by s = nqdxcosq = P(cid:215) n = P (1.5) p n where q is the positive charge on each atom/molecule and P is the n component of P normal to the surface on the right.
+This also shows why no charges appear on the surfaces parallel to the applied field (q = 90°) and on the left side of the block the angle between P and n, the unit 12 PHY204 MODULE 1 vector normal to the surface is 180°; the surface charge density is negative.
+For an ideal, homogeneous and isotropic dielectric, the polarisation P is proportional to the average field E, i.e., P = ce E (1.6) 0 Where c = P/e E and is known as electrical susceptibility.
+This 0 relation is related to Eq.
+(1.1); Eq.
+(1.1) refers to one molecule, whereas Eq.
+(1.6) refers to the material.
+Thus the latter is a macroscopic version of Eq.
+(1.1).
+The constant e is included for the purpose of simplifying 0 the later relationships.
+The relation (1.6) requires that P be linearly related to the average (microscopic) field.
+This average field would be the external applied field as modified by the polarisation surface charges.
+The susceptibility is a characteristic of the material and gives the measure of the ease with which it can be polarised, it is simply related to a for the nonpolar materials.
+From SAE 1 P =np using Eq.
+(1, 4), we get s =np p The dipole moment per atom in this case p = q(cid:215) dxcosq 3.3 Gauss' Law in a Dielectric You have studied Gauss law in vacuum.
+Here, we shall modify and generalise it for dielectric material.
+Consider two metallic plates as shown in Fig.
+1.9.
+Let E be the electric field between these two plates.
+0 Now, we introduce a dielectric material between the plates.
+When the dielectric is introduced, there is a reduction in the electric field, which implies a reduction in the charge per unit area.
+Since no charge has leaked off from the plates, such a reduction can be only due to the induced charge appearing on the two surfaces of the dielectric.
+Due to this reason, the dielectric surface adjacent to the positive plate must have an induced negative charge, and the surface adjacent to the negative plate must have an induced positive charge of equal magnitude.
+It is shown in Fig.
+1.9.
+13PHY204 ELECTROMAGNETISM Fig.
+1.9 Induced charges on the faces of a dielectric in an external field For the sake of simplicity, you consider the charge on the surface of dielectric material as shown in Fig.
+1.9a.
+Now we apply Gauss' flux theorem to a region which is wholly within the dielectric such as the Gaussian volume at region 1 of Fig.
+1.9a.
+Fig.1.9a Gaussian volumes at 1 and 2 inside a dielectric.
+The displacement of charges at the surfaces perpendicular to the applied field is shown The net charge inside this volume is zero even though this material is polarised.
+The positive charges and negative charges are equal.
+For this volume the flux of field through the surface is zero.
+We can write ∫E(cid:215) dS = ∫e c P(cid:215) dS =0 (1.7) 0 surface at 1 S 1 This shows that "lines" of P are just like lines of E except for a constant (e ).
+Instead of this Gaussian volume, suppose we take another one at 0 region 2.
+In this Gaussian volume one surface is inside the dielectric and the other is outside it The curved surface is parallel to the lines of field (E or P).
+For the surface of this Gaussian volume outside the material, P is nonexistent.
+However, lines of P must terminate inside the Gaussian volume.
+Hence the net flux of P is finite and negative as shown in Fig.1.9a since the component of P normal to the surface, i.e.
+P and n 14 PHY204 MODULE 1 s the surface charge density are equal to each other in magnitude, the p surface integral P(cid:215) dS = P dS =- s dS (1.8) n p = - q p Where q is the charge inside the Gaussian volume.
+Thus, the flux of P p is equal to the negative of the charge included in the Gaussian volume.
+Notice the difference in the flux of P and the flux of E. Now we can generalise Gauss’ flux theorem.
+Since the effects of polarised matter can be accounted for by the polarisation surface charges, the electric field in any region can be related to the sum of both free and polarisation charges.
+Thus in general 1 ∫E(cid:215) dS = (q +q ) (1.9) e f p closed surface 0 where q represents free charges and q the polarisation charges.
+p p SELF ASSESSMENT EXERCISE 3 Two parallel plates of area of cross section of 100cm2 are given equal and opposite charge of 1.0· 10- 7C.
+The space between the plates is filled with a dielectric material, and the electric field within the dielectric is 3.3 · 105 V/m.
+What is the dielectric constant of the dielectric and the surface charge density on the plate?
+Using Gauss' theorem for vectors this surface integral can be converted into a volume integral.
+Thus the above equation becomes 1 ∫((cid:209) (cid:215) E)dV = ∫(r +r )dV (1.10) e f p V 0 V where r and r are respectively the free and bound charge densities.
+f p As this is true for any volume, the integrands can be equated.
+Thus e (cid:209) (cid:215) E= r +r (1.11) f p The flux of r through the closed surface is given by (See equation 1.8) ∫ P(cid:215) dS = - q = - ∫ r dV p p 15PHY204 ELECTROMAGNETISM which can be written using Gauss' flux theorem e (cid:209) (cid:215) E= r - (cid:209) (cid:215) P 0 f \ e (cid:209) (cid:215) E+(cid:209) (cid:215) P = r 0 f (cid:209) (cid:215) (e E+P) = r 0 f (cid:209) (cid:215) D = r (1.12) f where D=e E+Pis known as the electric displacement vector.
+(Note 0 that 1.12 is already Gauss's Law.)
+SELF ASSESSMNENT EXERCISE 4 Show that Eq.
+(1.12) reduces to Eq.
+(1.11) when P = 0.
+The dimension of D is the same as that of P. The units of D are C(cid:215) m- 2.
+From Eqs.
+(1.12) and (1.10) we observe that the source of D is the free charge density r , whereas the source of E is the total charge density f r + r .
+f p When we write P =e E (see Eq.
+1.5), we have 0 0 D=(1+c )e E (1.13) 0 Where e = (1+c ) is known as the relative permittivity of the medium.
+r Another usual form of electric displacement vector D is given by D=e E (1.14) where e =e e .
+r 0 Eq.
+(1.14) provides the relation between Electric displacement D and electric field E. SELF ASSESSMENT EXERCISE 5 Consider two rectangular plates of area of a cross section of 6.45· 10- 4m2.
+Each is kept parallel to the other.
+The separation between, them is 2· 10- 3m and a voltage of 10V is applied across these plates.
+If a material of dielectric constant 6.0 is introduced within the region between the two plates, calculate: 16 PHY204 MODULE 1 (i) Capacitance (ii) The magnitude of the charge stored on each plate.
+(iii) The dielectric displacement D (iv) The polarisation 3.4 Displacement Vector D It is one of the basic vectors for an electric field that depends only on the magnitude of free charge and its distribution.
+In Section 1.4, we introduced a new vector D and called it Displacement Vector (or) Electric Displacement.
+We found (see Sec.
+1.4) that the electric displacement is defined by D=e E+P; Gauss' law in dielectric is given by D(cid:215) dS= q dV .
+For an 0 f isolated charge q, kept at the centre of a dielectric sphere of radius r, we find that the Gauss' flux theorem gives (being a case of spherical symmetry) (4p r2)(D)=q Which gives D=qr/4p r2 (1.15) \ D=e Ewe get E=qr/4p e r2 (1.16) From (1.16) it follows that the force F, between two charges q and q , 1 2 kept at a distance r in a dielectric medium is given by q q F = 1 2 r (1.17) 4p e r2 and the expression for the potential f at a distance r from q is f = q/4ep r (1.18) When we compare Eq.
+1.16 with the corresponding expression for E in free space, Eq.
+1.17 and 1.18 show similar expressions for Coulomb force and potentials.
+We may find that in all these expressions, e has 0 been replaced by e in a dielectric medium.
+17PHY204 ELECTROMAGNETISM SELF ASSESSMENT EXERCISE 6 Two large metal plates each of area 1 sq.
+metre face each other at a distance one metre apart.
+They carry equal and opposite charges on their surfaces.
+If the electric intensity between the plates is 50 newton per coulomb, calculate the charge on the plates.
+With this background, we may wrongly conclude that D for a dielectric medium is same as E for free space.
+It is therefore important to clearly distinguish between these two vector quantities: • E is defined as the force acting on unit charge, irrespective of whether a dielectric medium is present or not.
+It is to be calculated taking into account the free or external charges as well as the induced charges of the medium.
+On the other hand D is defined as D=e E+P, and it is a vector like electric field, but is 0 determined only by free or external charges.
+Note from Eqs.
+(1.15) and (1.16) that the value of D does not depend upon the dielectric constant while the value of E as well as the force between the charges involve e .
+• The quantity ∫ D(cid:215) dS is usually referred to as the electric flux through the element of area dS.
+For this reason D is also known as electric flux density.
+From the integral form of Gauss' law in dielectrics, we find that the total flux is q, through an area surrounding a charge q, and this flux is unaltered by the presence of a dielectric medium.
+This is not true in the case of total flux of electric intensity, since q ∫E(cid:215) dS = e S • Since D is a vector, we may draw lines of displacement in the same way as we draw the lines of force.
+The number of lines of displacement passing through a unit area is proportional to (D).
+These lines of displacement begin and end only on free charges, since the origin of D is the conduction charges/charge density (see Section 1.4).
+Again by using Gauss' law it can be shown easily that the lines of displacement are continuous in a space containing no free charges.
+In other words, at the boundary of two dielectrics, if there are no free charges the lines of D are continuous, while the lines of E are not continuous because lines of electric force can end on both free and polarisation charges.
+This behaviour of D and E is dealt with in a greater 18 PHY204 MODULE 1 detail in the next section.
+These rules are contained in two Boundary conditions at the interface between two dielectric media.
+3.5 Boundary Conditions on D and E We wish to determine the relationships that E and D must satisfy at the interface between two dielectrics.
+Here, we will assume that there are only polarisation charges at the interface i.e., since the dielectrics are ideal they have no free electrons, and thus there is no conduction charge at the interface.
+Later, these boundary conditions will be useful for proving laws of reflection and refraction of electromagnetic waves.
+Now we will determine the boundary condition for vector D. Boundary conditions give the way in which the basic vectors change when they are incident on the surface of discontinuity in dielectric behaviour.
+Boundary Condition for D We apply the Gauss' law for dielectrics to a small cylinder in the shape of a pill box which intersects the boundary between two dielectric media and whose axis is normal to the boundary.
+Fig.
+1.10 shows the cylinder.
+Let the height of the pill box be very small compared to its cross sectional area.
+The contribution to ∫ D(cid:215) dS comes from the components of D normal to the boundary.
+That is, ∫ D(cid:215) dS = D dS- D dS (1.19) n2 n1 Fig.
+1.10 Boundary condition for D between two dielectric media where D and D are the normal components of D in media 1 and 2 n1 n2 respectively.
+D is opposite to the direction of the normal to dS in the n1 medium(e ).
+Further ∫ D(cid:215) dS = 0 since there are no free charges on the 1 boundary surface.
+\ D = D (1.20) n1 n2 19PHY204 ELECTROMAGNETISM Thus the normal components of electrical displacement vectors are continuous across the boundary (having no free charges).
+D(cid:215) dS = D(cid:215) ndS where n is the unit vector along the outward drawn normal to the area dS.
+This representation gives the boundary condition as n(cid:215) D =n(cid:215) D 1 2 which gives Eq.
+(1.20).
+Otherwise the boundary conditions becomes D cosq = D cosq 1 1 2 2 where q and q are the angles between n and D and n and 1 2 1 D respectively.
+2 Boundary condition for E We shall make use of the conservative nature of the electric field in this case.
+To obtain the boundary condition for E, we calculate the work done in taking a unit charge around a rectangular loop ABCDA, Fig.
+1.11 shows such a loop.
+The sides BC and AC of the loop are very small.
+As the work done in taking a unit charge round a closed path is zero (conservative force) ∫E(cid:215) dl =0 (1.21) ABCDA D C e 1 e 2 A B Fig.
+1.11 Boundary condition for E between two dielectric media Let E and E be the tangential components of E in the media 1 and 2 t1 t2 respectively as shown in Fig.
+1.11.
+Then, ∫E(cid:215) dl = ∫E dl- ∫E dl (1.22) t1 t1 ABCDA AB CD where l = AB = CD.
+Using Eq.
+1.21 in Eq.
+1.22 we get E = E (1.23) t1 t2 20 PHY204 MODULE 1 Eq.
+1.23 states that the tangential component of the electric field is continuous along the boundary.
+Note that to calculate work done, we need force, which is related to the electric field.
+The boundary condition contained in Eq.
+(1.23) may be written in the vector form as n· E = n· E 1 2 where E , E are the corresponding electric fields and n is the unit 1 2 vector normal to the boundary.
+SELF ASSESSMENT EXERCISE 7 Prove Eq.
+1.23a using equation 1.23.
+Using the vector identity.
+∫E(cid:215) dl = ∫ ((cid:209) · E)(cid:215) ndS = - ∫ (cid:209) (n· E)dS Surface Note on Eq.
+1.23a We write Eq.
+(1.23a) as E sinq = E sinq (1.23b) 1 1 2 2 where q and q are the angles between n and E and n and E 1 2 1 2 respectively in the media 1 and 2.
+This is yet another form of the boundary condition.
+We write Eq.
+1.23b as D D 1 sinq = 2 sinq e 1 e 2 1 2 or D sinq e 1 1 = 1 (1.23c) D sinq e 2 2 2 Eq.
+(1.23c) implies that the tangential component of D is not continuous across the boundary.
+SELF ASSESSMENT EXERCISE 8 Show that the normal component of E is discontinuous across a dielectric boundary.
+21PHY204 ELECTROMAGNETISM 3.6 Dielectric Strength and Breakdown We have seen that under the influence of an external electric field, polarisation results due to the displacement of the charge centres.
+In our discussion, we have treated the phenomenon as an elastic process.
+A question that arises in our minds is, "what would happen if the applied field is increased considerably?
+One thing that is certain is that the charge centres will experience a considerable pulling force.
+If the pulling force is less than the binding force between the charge centres, the material will retain the dielectric property and on removing the field the charge centres will return to their equilibrium positions.
+If the pulling force just balances the binding force, the charges will just be able to overcome the strain of the separation and any slight imbalance will loosen the bonds between the electrons and the nucleus.
+A further increase of the applied field will result in the separation of the charges.
+Once this happens the electrons will be accelerated.
+The fast moving electrons will collide with the other atoms and multiply in number.
+This will result in the flow of conduction current.
+The minimum potential that causes the charge separation is known as the breakdown potential and the process is known as the dielectric breakdown.
+Breakdown potential varies from substance to substance.
+It also depends on the thickness of the dielectric (thickness measured along the direction of the field).
+The field strength at which the dielectric is about to break down is known as the Dielectric Strength.
+It is measured in kilovolts per metre.
+Knowledge of the breakdown potential is very important for practical situations, as in the use of capacitors in electrical circuits.
+When a dielectric is subjected to a gradually increasing electric potential, a stage will be reached when the electron of the constituent molecule is torn away from the nucleus.
+Now the dielectric breaks down, viz., loses its dielectric properties, and begins to conduct electricity.
+The breakdown voltage is the applied potential difference per unit thickness of the dielectric when the dielectric just breakdown.
+4.0 CONCLUSION In this unit we have examined the behaviour of dielectrics and the deduction of Gauss’s law.
+In addition, we have explained the terms, dielectric breakdown and dielectric strength as well as defined dielectric constant.
+22 PHY204 MODULE 1 5.0 SUMMARY When an electric field is applied to an insulating material, it gets polarised.
+This means that a dipole moment is created in the material.
+This dipole moment is also exhibited as a surface charge density.
+Electric dipole moment per unit volume is known as polarisation.
+At the atomic level, the polarisation of a medium takes place in two ways, as there are two kinds of molecules: polar and nonpolar.
+In nonpolar molecules the centres of positive and negative charges lie at the same point and their inherent dipole moment is zero.
+In polar molecules the positive and negative charge centres lie at different points and consequently there is an inherent dipole moment associated with the molecules, though the net charge of the molecule is zero.
+For a dielectric medium, it is convenient to introduce another vector related to E and P, This is called the displacement vector D defined as D=e E+P 0 For the analysis of dielectric behaviour, the relation between the polarisation vector P and the total electric field E is important.
+For an ideal, homogeneous and isotropic dielectric, the relation is expressed as P =e c E 0 e The constant c is known as the electric susceptibility of the medium.
+e The constant a , corresponding to the susceptibility c is known as the e atomic (or molecular) polarisability when we consider the polarisation of a single atom (or molecule).
+In a polarised piece of a dielectric, the volume charge density r (= – p div P) and the surface charge density s are given by P(cid:215) n or P .
+p n The presence of dielectric leads to the modification of the Gauss' law.
+It's modification is ∫e D(cid:215) ndS =q 0 where q is the total unit free or external charge or div D = r 23PHY204 ELECTROMAGNETISM where D depends only on the magnitude of free charge and distribution.
+The general relation between the vectors D, E and P can be used to define the dielectric constant K and permittivity e of dielectric r medium.
+Using the permittivitye , the relation between D, P and E can be expressed in the linear form D=e E P =e(k - 1)E=(e - e )E 0 The vectors E and D satisfy certain boundary conditions on the interface between two dielectric media.
+These conditions are: (i) The tangential component of E is the same on each side of the boundary, i.e., E = E and 1t 2t (ii) The normal component of D is same on each side of the boundary, i.e., D = D n1 n2 Dielectric strength is the applied potential difference per unit thickness of the dielectric when the dielectric just breaks down.
+6.0 TUTOR-MARKED ASSIGNMENT (1) Calculate the relative displacement of the nucleus of the molecule modelled in Fig.
+1.12 (spherically symmetric molecule) when it is subjected to an external electric field and hence, its polarisability.
+(2) Suppose two metallic conducting plates are kept as shown in Fig.
+1.13.
+Fig.
+1.12: Model of atom.
+Fig.
+1.12a The area of cross section of each plate is 2.0 m2 and they are 10–2 apart.
+The potential difference between them in vacuum V is 3000 volts, and 0 24 PHY204 MODULE 1 it decreases to 1000 volts when a sheet of dielectric 1 cm thick is inserted between the plates.
+Calculate the following: (a) The relative permittivity K of the dielectric, (b) its permittivity, e , (c) its susceptibility c , (d) the electric intensity between the plates in vacuum (here it is given that Intensity = Voltage across the plate/Area of Cross section, (e) the resultant electric intensity in the dielectric, (f) the electric intensity set up by the bounded charges.
+Fig.
+1.13 Two metallic conducting plates (a) and (b) with dielectric material.
+(3) Consider two isotropic dielectric medium 1 and 2 separated by a charge free boundary as shown in Fig.
+1.14 Fig.
+1.14: Line of force across the boundary between two dielectrics Now, an electric vector E goes from medium 1 and enters into medium 1 2.
+If i is the angle of incidence and r is the angle of reflection, prove that tani e = 1 tanr e 2 (4) Show that the polarisation charge density at the interface between two dielectrics is e - e p'=e 1 2 n(cid:215) E 0 e 1 1 25PHY204 ELECTROMAGNETISM 7.0 REFERENCES/FURTHER READING IGNOU (2005).
+Electricity and Magnetism Physics PHE-07, New Delhi, India.
+26 PHY204 MODULE 1 UNIT 2 CAPACITOR CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Capacitance 3.2 Parallel Plate Capacitor or Condenser 3.2.1 Energy Stored in a Capacitor 3.3 Parallel Plate Capacitor with Dielectrics 3.3.1 Voltage Rating of Capacitor 3.4 Capacitance of Cylindrical Capacitor 3.5 Capacitors in Series and Parallel 3.5.1 Combination of Capacitor in Parallel 3.5.2 Combination of Capacitor in Series 3.6 Energy Stored in a Dielectric Medium 3.7 Practical Capacitors 3.7.1 Fixed Capacitor 3.7.2 Ceramic Capacitor 3.7.3 Electrolytic Capacitor 3.7.4 Variable Air Capacitor/Gang Capacitor 3.7.5 Guard Ring Capacitor 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION You have studied in your earlier classes that the potential of a conductor increases as the charge placed on it is increased.
+Mathematically we write Q(cid:181) f or Q =Cf (2.1) where C is the proportionality constant.
+We call this constant C the capacity or capacitance.
+We also call any device that has capacitance a the capacitor (condenser).
+You are already familiar with this device.
+We change the capacitance in our radio-transistor while operating the 'tuning' knob and get the radio station of our choice.
+Capacitors are used in many electrical or electronic circuits, they provide coupling between amplifier stages, smoothen the output of power supplies.
+They are used 27PHY204 ELECTROMAGNETISM in motors, fans, in combination with inductances to produce oscillations which when transmitted become radio signals/TV signals etc.
+Besides these, capacitors have a variety of applications in electric power transmission.
+In the present unit, we shall learn about capacitance, capacitors of different forms, energy stored in a capacitor, and the working principle of a capacitor.
+We have studied the macroscopic properties of dielectrics in Unit 1.
+Here we will study the effect on the capacitance of a capacitor, when a dielectric is placed between the two plates of a capacitor.
+Then we will introduce some practical capacitors.
+In next unit we will study the microscopic properties of the dielectrics.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • define capacitance of a capacitor • describe capacitors of different geometries and obtain mathematical expression for their capacitance • able to calculate the energy stored in a capacitor • describe the effect of introducing a dielectric material in a capacitor • obtain expressions for the effective capacitance of grouping a number of capacitors in series and in parallel • describe practical capacitors such as a guard condenser and an electrolytic capacitor.
+3.0 MAIN CONTENT 3.1 Capacitance A capacitor or a condenser is an electronic device for storing electrical energy by allowing charges to accumulate on metal plates.
+This electrical energy is recovered when these charges are allowed to move away from these plates into the circuit of which the capacitor forms a part.
+Any device which can store charges is a capacitor.
+For example, an insulated conducting spherical shell of radius R can store charges; hence it can be used as a condenser.
+Let us see how it works as a capacitor.
+If a charge Q is placed on it, the outer surface of the shell becomes an equipotential surface.
+The potential of the outer surface of the shell is given by 28 PHY204 MODULE 1 Q f = (2.2) 4ep R 0 with infinity as zero potential.
+Instead of infinity we can regard the ground (earth) as zero potential.
+Then the capacitance of this shell (w.r.t.
+ground) is Q C = = 4ep R Coulomb/Volt (2.3) f 0 The unit of capacitance C in SI system is the farad.
+Farad = Coulomb/Volt (2.4) If R = 100 cm in the above spherical shell its capacity in farads is (4ep )100=1.1· 10- 10 Farad 0 Thus it is clear from this that if a capacitor is to be made with one unit (farad) capacity it has to have huge dimensions (1010 m in the above case).
+Practical forms of condensers have small dimensions and smaller units such as picofarad (10- 12 Farad) and microfarad (10· 10- 6Farad) are more commonly used.
+The symbolic representation of a capacitor is o—| |—o.
+The above example of a spherical conductor as a capacitor is given only to illustrate the concept.
+However, the most commonly used practical form of condensers always has a system of two metal sheets (circular, cylindrical or rectangular) kept close to each other with an insulator separating the two sheets.
+This system has the ability to have larger capacity without having the corresponding larger dimensions.
+You will learn more about this in detail in the next section.
+3.2 The Parallel Plate Capacitor or Condenser This is the simplest and most commonly used form of a condenser.
+A parallel plate condenser consists of two rectangular or circular sheets (plates) of a metal arranged parallel to each other, separated by a distance d. The value of d is usually very small and an insulating material is normally inserted between the two sheets.
+See Fig.
+2.1.
+A charge Q (positive) placed on the upper plate distributes equally on this plate to make it an equipotential surface.
+The lower plate is shown grounded.
+The lower plate is therefore at ground potential (zero potential).
+Because of electrostatic induction an equal amount of negative charge appears on the upper side of the lower plate.
+This 29PHY204 ELECTROMAGNETISM induced negative charge pulls up almost all the positive charge placed on the upper plate to the lower side of the upper plate.
+Thus the electric field now gets confined to the space between the two plates: the positive charge acting as sources and the negative charge as sink (the lines of force originate on the positive charges and end on negative charges).
+The induced negative charge is equal lo the amount of positive charge because of the zero field requirement inside the material of the conducting sheets.
+Besides, both the metal sheets are equipotential surfaces.
+The lines of force field lines are normal to these sheets except at edges.
+See Fig.
+2.1.
+Since all the field lines originate from the upper plate and end on the lower plate, the value of the electric field, E is uniform in the space between the plates except at the edge.
+The edge effects are negligible if the area of the plates, A, is large compared to d. Since E is uniform the potential difference between the upper and the lower plates is given by Fig.
+2.1 Parallel plate condenser A and B are the metal plates separated at a distance'd'.
+f - f = - E(cid:215) dl = Ed 2 1 where f , f refer to the potentials of upper and lower plates 2 1 respectively.
+As the lower plate is earthed, f = 0; f = Ed (2.5) 1 2 To evaluate E let us use Gauss's theorm.
+Suppose we evaluate the electric flux for a closed cylindrical surface EFGH of base area S with its axis normal to the plate.
+See Fig.
+2.2 30 PHY204 MODULE 1 Fig.
+2.2 Gaussian closed cylinder EFGH One of the horizontal surfaces is inside the metal and the other in the space between the plates; the curved faces are parallel to the field lines.
+There is no flux through EF as the field inside the conducting surface is zero.
+Similarly, there is zero flux through EH and FG as the curved surfaces of the Gaussian cylinder are parallel to the field lines.
+Since the potential is defined as the work done per unit charge, the work done in moving a small charge d q against a charge potential f will be work done = df q.
+But f = q/C.
+The total work done in charging a capacitor to Q coulombs is given by Qqdq q2 Total work done = ∫ = C 2C 0 The flux through the surface HG of area S is equal to ES .
+Since E is along the normal to the area, hence, we can apply Gauss' theorem.
+According to Gauss theorem S s ES = , E = (2.6) e e 0 0 where, s is the charge per unit area on the condenser plate.
+The potential f of the upper plate is Ed from Eq (2.1).
+The total charge Q 2 is s A Q e A C = = 0 (2.7) f d By keeping a small value for d, the capacity C can be increased.
+In the above derivation we have taken the medium between the plates to be vacuum.
+The above arrangement has the advantage of the electric field being unaffected by the presence of other charges or conductors in the 31PHY204 ELECTROMAGNETISM neighbourhood of the capacitor.
+Moreover, if the area A of the plates is much greater than d the correction for the capacitance due to the nonuniform field at the edges is negligible.
+SELF ASSESSMENT EXERCISE 1 Suppose we have the distance of separation between the plates, what happens to the capacitance?
+SELF ASSESSMENT EXERCISE 2 Find the charge on a 1000 pF capacitor when charged to a voltage of 24 V. In the next subsection you will learn about the energy stored in a capacitor.
+3.2.1 Energy Stored in a Capacitor The work done, W in assembling a charge Q by adding infinitesimal increments of charge is given by: 1 W = Qf (2.8) 2 Where f is the final potential of the charged body.
+In the case of a capacitor of capacitance C, this work, done in placing a charge Q on the capacitor must also be given by similar expression, i.e., 1 W = Qf (2.9) 2 This can be written in terms of the capacitance C =Q/f as 1 Q2 W = Cf 2 = Joules.
+2 2C This work is stored up in the electric field as potential energy.
+SELF ASSESSMENT EXERCISE 3 Show that in a parallel plate capacitor of area A and the separation of plates by a distance d in vacuum the energy stored in the (space) volume 1 of the electric field between the plates is given by Qf .
+2 32 PHY204 MODULE 1 3.3 Parallel Plate Capacitor with Dielectrics When a dielectric slab is inserted between the parallel plates of a condenser the capacity increases.
+The polarised dielectric slab ABCD (see Fig.
+2.3) reduces the electric field E inside the dielectric by a factor (1/e ) where e is the relative permittivity as discussed in the last unit: r r This can be proved by computing the electric field by using Gauss' law for electric displacement, D inside the dielectric ABCD.
+Recall the Gaussian cylinder used in evaluating E in Section 2.2.
+The flux of D is now given by (only free charges contribute to the flux) Fig.
+2.3 Dielectric slab between capacitor plates DS =s S (2.11) as the bound surface charges do not contribute to this flux and D =e e E (2.12) 0 r for an isotropic uniformly polarised dielectric.
+Thus the field s E = (2.13) e e 0 r The potential difference between the plates is equal to Ed , where d is now the thickness of the slab filling the entire space between the plates.
+The capacitance now becomes Q s A e e A C = = = 0 r (2.14) f Ed Ed The value of the capacitance C increases by the factor e , which is the r relative permittivity of the dielectric material.
+From Eq.
+(2.14) we note that the capacitance of a parallel plate capacitor increases with the increase in surface area (A) of the plates and also with the decrease of the distance separating the plates.
+33PHY204 ELECTROMAGNETISM The effect of introducing a dielectric in between the plates increases the capacitance (Qe > 1).
+Thus the inclusion of a dielectric enables the r capacitor to hold more charges at a given potential difference between the plates.
+We rewrite Eq.
+(2.14) as C =e A/(d/e ) (2.15) 0 r and compare it with Eq.
+(2.7).
+We find that a dielectric of thickness d has an equivalent free space thickness(d/e ).
+This observation will be r useful later when we deal with the capacitor in which the space in between the plates is only partially filled with a dielectric.
+SELF ASSESSMENT EXERCISE 4 Find the capacitance of the parallel plate capacitor consisting of two parallel plates of area 0.04 m2 each and placed 10- 3m apart in free space.
+A capacitor is shown in Fig.
+2.4 in which a dielectric slab of thickness t is inserted between the plates kept apart at a distance d. We write the capacitance of this capacitor, on the basis of the equivalent free space thickness of the dielectric.
+We find the free space thickness between the plates =(d - t), where t is the thickness of the dielectric material.
+This t is equivalent to t/e in free space.
+The capacitor of Fig.
+2.4 is r equivalent to a capacitor with free space between the plates, with the separation of (d - t+t/e ).
+We write the expression for the capacitance r as e A C = 0 (2.16) d - t+t/e r Fig.
+2.4 34 PHY204 MODULE 1 Fig.
+2.5 The equivalent capacitor Now we will obtain Eq.
+(2.16) with another simple method.
+Let the voltage across the capacitor which is shown in Fig.
+2.4 be V. When a dielectric of thickness 't' is introduced between the two plates of the capacitor, the distance between the positive plate of the capacitor and the upper surface of the dielectric is say d and from lower surface of 1 dielectric to negative plate of the capacitor is d .
+Now assume that the 2 voltage between positive plate and upper surface of the dielectric is V , 1 the voltage between upper and the lower surface of the dielectric is V 2 and the lower plate of the dielectric to the negative plate of the capacitor is V .
+The total voltage V across capacitor is the sum of these three 3 voltages i.e., V =V +V +V 1 2 3 Let E be the field inside the dielectric.
+Then V = d E, V E· t/e and V = d E 1 1 2 r 3 2 V =(d +d )E+E· t/e 1 2 r From the figure d = d +d +t 1 2 d +d =(d - t) 1 2 From the above equation we get V =(d - t)E+E· t/e r Using Eq.
+(2.5), we get that in this case d =[(d - t)+t/e ] r 35PHY204 ELECTROMAGNETISM From Eq.
+(2.15), we get e A C = 0 d e A = 0 [(d - t)+t/e ] 0 We can also find that the ratio of the capacitance with dielectric between the plates to the capacitance with free space between the plates is equal to the relative permittivity, viz., Capacit.
+with dielectric between plates e = r Capacit.
+with free space between plates The relative permittivities (e ) of some of the most common materials r are given in Table 2.1.
+Table 2.1: Relative permittivity (e ) of some common materials r Air 1.0006 Castor Oil 4.7 Mica 5-9 Glass 4.5-7.00 Bakelite 4.5-7.5 Paper 2 -2.3 Porcelain 5.5 Quartz 1.5 Water 81 SELF ASSESSMENT EXERCISE 5 A dielectric of relative permittivity 3 is filled into the space between the plates of a capacitor.
+Find the factor by which the capacitance is increased, if the dielectric is only sufficient to fill up 3/4 of the gap.
+3.3.1 Voltage Rating of a Capacitor Capacitors are designed and manufactured to operate at a certain maximum voltage, which depends on the distance between the plates of the capacitor.
+If the voltage is exceeded, the electrons jump across the space between the plates and this can result in permanent damage to the capacitor.
+The maximum safe voltage is called the working voltage.
+The capacity and the working voltage (WV) is marked on the capacitor in the case of bigger capacitors and indicated by the colour code (similar to 36 PHY204 MODULE 1 that of resistance) in the case of capacitors having low values of capacitance.
+3.4 Capacitance of a Cylindrical Capacitor In Section 2.3, we have calculated the capacitance of a parallel plate capacitor.
+Another important form of capacitor is a cylindrical capacitor.
+This is shown in Fig.
+2.6a.
+A section of this capacitor is shown in Fig.
+2.6b.
+It is made up of two hollow coaxial cylindrical conductors of radii a and b.
+The space between the cylinders is filled with a dielectric of relative permittivitye .
+Practical forms of such capacitors are: r (i) a coaxial cable, in which the inner conductor is a wire and the outer conductor is normally a mesh of conducting wire separated from the inner conductor by an insulator (usually plastic).
+In Fig.
+2.6b, the direction of the field lines is radial, viz., normal to the surface of the cylinder.
+Small lines in between the two cylinders, show the direction of fixed line.
+Fig.
+2.6: (a) Cylindrical capacitor {b) cross section of the cylindrical capacitor (ii) the submarine cable, in which a copper conductor is covered by polystyrene (the outer conductor is sea water).
+Since both the inner and outer cylinders are conductors, they are equipotential surfaces.
+The field is radial (normal to the surface of the cylinder): Because of cylindrical symmetry we conclude that the capacitance is proportional to the length of the cylinder (as the length increases, the area of the plot increases).
+We shall now find the capacitance per unit length of the capacitor.
+A B D C Fig.
+2.7 Gaussian surface ABCD Let the charge per unit length placed on the inner cylinder of the capacitor be l .
+The outer cylinder is grounded.
+An equal and 37PHY204 ELECTROMAGNETISM opposite amount of charge appears on the inner side of the outer cylinder.
+This is because of the zero field in the conductor.
+To evaluate the field let us consider a coaxial closed cylindrical surface ABCD of unit length and of radius r. See Fig.
+2.7.
+The electric field is normal to the inner cylindrical surface and is also confined to the space between the cylinders.
+The flux of electric displacement vector, D, through the bottom and top surfaces of this Gaussian cylinder ABCD is zero as D is parallel to these faces.
+The flux of D is only through the curved surface of ABCD and as D is normal to this at all points; the flux through this closed Gaussian surface is given by D(cid:215) dS =(2p r)D(cid:215) d l (2.17) Now D =e e E for isotropic uniformly polarised dielectrics.
+Using 0 r Gauss' law we get 2p rD =(2p r)e e E =l (2.18) 0 r where l is the free charge enclosed by the Gaussian surface.
+Thus l E = (2.19) 2p re e 0 r To find the capacitance, we require the potential difference between the two cylinders.
+The expression for potential difference is given by a f = - ∫Edr (2.20) b Four our case, Eq.
+(2.20) becomes a f - f = - ∫Edr a b b b l = ∫ dr 2p re e a 0 r l b dr = ∫ 2pre e r 0 r a 38 PHY204 MODULE 1 l = ln(b/a) (2.22) 2pre e 0 r As the outer cylinder is grounded, f = 0. b Now, capacitance per unit length, C is given by 2ep e l /f = 0 r (2.23) a ln(b/a) Note: In the expression for the capacitance per unit length of a cylindrical capacitor, Eq.
+(2.23), we find that the capacitance depends on the ratio of the radii and on their absolute values.
+SELF ASSESSMENT EXERCISE 6 Two cylindrical capacitors are of equal length and have the same dielectric.
+In one of them the radii of the inner and outer cylinders are 8 and 10 cm, respectively and in the other they are 4 and 5 cm.
+Find the ratio of their capacitances.
+3.5 Capacitors in Series and Parallel In Section 2.5, we have seen the method of finding the capacitance per unit length of a cylindrical capacitor.
+We multiply the capacitance per unit length by the length for cylindrical capacitors and get the capacitance.
+Now we can consider a cylindrical capacitor of length 2 units as consisting of two cylindrical capacitors of unit length joined end to end so that the inner cylinders are connected together and the outer cylinders also get connected similarly.
+This is shown in Fig.
+2.8.
+Fig.
+2.7 A long cylindrical capacitor seen as a particular combination of unit cylindrical capacitor We find immediately that in such a combination the charge on the capacitor is doubled and so the capacitance is also doubled since the potential difference remains constant.
+Two capacitors connected in parallel (symbolic representation) are shown in Fig.
+2.8a.
+39PHY204 ELECTROMAGNETISM Fig.
+2.8a Two capacitors connected la parallel In this combination, we find that • the potential difference between the plates remains the same; • the charge on each capacitor adds up (more area is available for storing charges).
+We can find an equivalent capacitor that holds the same charge when kept at the same potential difference as the combinations of the capacitors.
+The capacitance of that capacitor is known as the Effective Capacitance of the combination.
+Before we proceed further, we note that capacitors can be grouped or combined in another way too.
+Here alternate plates of the capacitors are connected to the succeeding capacitor so that they form a series.
+Fig.
+2.9 shows the combination; it is known as combination of capacitors in series.
+Fig.
+2.9 Capacitors in Series If a voltage source is connected across the two end plates of the first and last capacitors of the series, equal charges will be induced in each capacitor whereas the potential difference across each capacitor will depend upon its capacitance.
+We shall find the mathematical formulas for the equivalent capacitance of the combination of capacitances in parallel and in series.
+40 PHY204 MODULE 1 3.5.1 Combination of Capacitors in Parallel Fig.
+2.10 shows the combination of three capacitors in parallel.
+Fig.
+2.10 Capacitors in parallel Here, C , C and C are the capacitances of the individual capacitors, 1 2 3 Q , Q and Q are respectively the charges on them and f is the 1 2 3 potential difference between the plates of each capacitor.
+We take C to be the effective capacitance of the combination.
+The total charge Q of the parallel combination is equal to Q =Q +Q +Q 1 2 3 Since f is same for this equivalent C of the parallel combination, Q Q +Q +Q C = = 1 2 3 f f Q Q Q = 1 + 2 + 3 f f f = C +C +C (2.24) 1 2 3 Thus the effective capacitance of the parallel combination of capacitor is equal to the sum of the individual capacitances.
+3.5.2 Combination of Capacitors in Series Fig.
+2.11 shows the combination of three capacitors in series.
+Fig.
+2.11 Capacitors In series and the equivalent capacitors 41PHY204 ELECTROMAGNETISM Here C , C and C are the capacitances of the individual capacitors.
+1 2 3 The application of a voltage will place a charge +Q on one plate which induces a charge - Q on the other plate.
+The intermediate plates acquire equal and opposite charges, because of electrostatic induction.
+The potential drop across each will be inversely proportional to its capacitance.
+(Since C =Q/f gives f =Q/C, since Q is fixed f (cid:181) 1/C).
+Thus f , f and f , the potential drops across the capacitors are such 1 2 3 that f (cid:181) 1/C , f (cid:181) 1/C and f (cid:181) 1/C .
+Now we replace the capacitors 1 1 2 2 3 3 by a single capacitor of capacitance C that holds the charge Q when subjected to a potential difference f =f +f +f .
+This capacitance C is 1 2 3 known as the effective capacitance of the combination.
+We now write C =Q/f or 1/C =f /Q.
+But f =f +f +f .
+Therefore, 1 2 3 1 f +f +f = 1 2 3 C Q i.e.
+1 1 1 1 = + + (2.25) C C C C 1 2 3 Thus for capacitors connected in series the reciprocals of the capacitances add up to give the reciprocal of the effective capacitance.
+SELF ASSESSMENT EXERCISE 7 Determine the equivalent capacitance of the network shows in Fig.
+2.12 and the voltage drop across each of the capacitor of the series of capacitors.
+Fig.
+2.12 42 PHY204 MODULE 1 SELF ASSESSMENT EXERCISE 8 Calculate the effective capacitance of three capacitors arranged in such a way that two of them C and C are in series and the third, C , is in 1 2 3 parallel with this series combination.
+3.6 Stored Energy in a Dielectric Medium In Section 2.3.1, we have studied that the energy stored in a parallel plate capacitor is given as 1 U = Cf 2 2 We know that e A C = 0 d and f = Ed Putting these values in the above Eq.
+we get 1e A U = 0 E · d2 2 d 2 1 = e (Ad)E2 2 0 or U 1 = e E2 (since v = Ed ) v 2 0 This is the energy per unit volume.
+When a dielectric of relative permittivity e fills the space between the r plate of the capacitor, then the effective capacitance is given by e e A C = 0 r die d 43PHY204 ELECTROMAGNETISM The energy stored in a capacitor with a dielectric material is given by 1 U = Cf 2 2 1e e A = 0 r (d(cid:215) E)2 2 d 1 = e e E2(A(cid:215) d) 2 0 r U 1 = e e E2 (A(cid:215) d =u) u 2 0 r In the case of a parallel plate condenser, the energy stored per unit 1 1 1 volume is e E2, which becomes e e E2 = E(cid:215) D with the dielectric 2 0 2 0 r 2 material.
+Where D is the electric displacement in the dielectric.
+We have considered here the case of a linear dielectric where E and D are in the same direction.
+However, there are dielectrics in which E and D are not in the same direction.
+Thus the energy stored per unit volume in a dielectric medium is given by 1 E(cid:215) D Joules/m2 (2.26) 2 3.7 Practical Capacitors We shall now study some of the capacitors that are commonly in use.
+Capacitors may be broadly classified into two groups i.e., fixed and variable capacitors.
+They may be further classified according to their construction and use.
+The following are the classifications of the capacitor.
+Now, we will discuss each type of the capacitor one by one.
+44 PHY204 MODULE 1 3.7.1 Fixed Capacitors These have fixed capacitance.
+These are essentially parallel plate capacitors, but compact enough to occupy less space.
+In their make they consist of two very thin layers of metal coated on the surface of mica or paper having a uniform coating of paraffin.
+The mica or paper forms the dielectric between the conductors.
+They are shown in Fig.
+2.13.
+Fig.
+2.13 Fixed capacitors This arrangement is rolled up to the compact form.
+Usually they are piled up in parallel to give a large capacitance.
+Though paraffin-waxed paper capacitors are cheaper, they absorb a good amount of power.
+For this reason these capacitors are used in alternating current circuits, radio- sets, etc.
+3.7.2 Ceramic Capacitors These are low loss capacitors at all frequencies.
+Ceramic materials can be made to have very high relative permittivity.
+For example, teflon has e = 8 but by the addition of titanim the value of e becomes 100 and on r r adding barium titanate the value of e may be increased to 5,000.
+Each r piece of such dielectric is coated with silver on the two sides to form a capacitor of large capacitance.
+Yet another advantage with the ceramic dielectrics is that they have negative temperature coefficient.
+Ceramic capacitors are widely used in transistor circuits.
+3.7.3 Electrolytic Capacitors An electrolytic capacitor consists of two electrodes of aluminium, called the positive and the negative plates.
+The positive plate is electrolytically coaled with a thin layer of aluminium oxide.
+This coating serves as the dielectric.
+The two electrodes are in contact through the electrolyte which is a solution of glycerine and sodium (or a paste of borates, for example, ammonium borate).
+There are two types of electrolytic capacitors—the wet type and the dry type.
+45PHY204 ELECTROMAGNETISM In the wet type the positive plate (A) is in the form of a cylinder to present a large surface area.
+This is immersed in the electrolyte (E) contained in a metal can (M).
+This can act as a negative plate.
+It is shown in Fig.
+2.14.
+In the dry type both plates are in the form of long strips of aluminium foils.
+Aluminium oxide is deposited electrically on one (A) of the foils.
+This is kept separated from the other (B) by cotton gauze (C) soaked in the electrolyte.
+It is then rolled up to a cylindrical form.
+The oxide films on aluminium offer a low resistance to current in one direction and a very high resistance in the other direction.
+Hence an electrolytic capacitor must be placed in a DC circuit such that the potential of the oxide plate is always positive relative to the other plate.
+It is shown in Fig.
+2.15 Fig.
+2.14 Wet type capacitor (electrolytic) Fig.
+2.15 Dry type electrolytic capacitor 3.7.4 Variable Air Capacitor/Gang Capacitor A very common capacitor whose capacitance can be varied continuously is used for tuning in a radio station.
+The capacity of this capacitor can be uniformly varied by rotating a knob (different forms of such a type of capacitor are shown in Fig.
+(2.16)).
+46 PHY204 MODULE 1 Fig.
+2.16 Variable air capacitor The capacitor consists of two sets of semicircular aluminium plates.
+One set of plates is fixed and the other set of plates can be rotated with the knob.
+As it is rotated, the moving set of plates gradually gets into (or comes out of) the interspace between the fixed set.
+The area of overlap between the two sets of plates can thus be uniformly varied.
+This changes the capacitance of the capacitor.
+The air between the plates acts as the dielectric.
+Usually it consists of two condensers attached to the same knob (ganged).
+When the knob is rotated the variation of C in both the plates takes place simultaneously.
+This is widely used in wireless sets and electronic circuits.
+See Table 2.1 for a comparative range of voltages for different types of condensers.
+SELF ASSESSMENT EXERCISE 9 What is a variable capacitor?
+Give an example of a variable capacitor with a solid dielectric.
+3.7.5 Guard Ring Capacitor In Section 2.2 we calculated the capacitance of a parallel plate condenser.
+We neglected the nonuniformity of electric field at the edges.
+It is possible to get over the problem of edge effects by using a guard ring capacitor.
+In this capacitor a ring R is used around the upper plates of the parallel plate capacitor.
+The inner diameter of the ring is slightly larger than the diameter of the capacitor plate.
+The diameter of the other capacitor plate is equal to the outer diameter of the ring.
+Now the edge effects are absent as far as the plates and are concerned.
+In estimating the capacitance of the guard ring capacitor, we take the effective area of the plates as equal to the sum of the area of the plate A and half the area of the gap between A and R. In Table 2.2, the capacity range, max.
+Rating voltage and use of different types of capacitors are shown.
+47PHY204 ELECTROMAGNETISM 4.0 CONCLUSION In unit 2, we have defined and described capacitors and expressions for their capacitance have been obtained.
+The effects of adding dielectric materials on their properties have been highlighted while their practical uses have been described.
+5.0 SUMMARY • Any device which can store charge is a capacitor.
+The capacity of capacitor is given by, Q e A C = = 0 f d Where the symbols have their usual meaning.
+Type of Capacitance Range Max.
+Rating Remarks Dielectric Voltage Paper 250 pF-10 m F 150KV Cheap, used in circuits where losses are not important.
+Mica 25 pF-.25 m F 2KV High quality, used in low circuit Ceramic 0.5 pF-0.01 m F 500 KV High quality used in low loss precision circuit where miniaturisation is important.
+Electrolytic 1m F-1000 m F 600 V at small Used where large (Aluminium capacitance capacitance is needed.
+Oxide) • The energy stored in a capacitor is given by 1 Q2 W = Cf 2= Joules 2 2C The symbols have their usual meanings.
+• If you introduce an insulator of thickness t between the two plates of a capacitor, then the resultant capacity is given by C =e A/(d - t+t/e ) 0 0 • The maximum safe voltage is called rating voltage of a capacitor.
+48 PHY204 MODULE 1 • The capacitance of a cylindrical capacitor, per unit length is given 2ep e by 0 r ln(b/a) • If two capacitors C and C are connected in series, then the 1 2 C C resultant capacity is given by C = 1 2 C +C 1 2 • The resultant capacity of two capacitors C and C , when 1 2 connected in parallel is given by C =C +C 1 2 1 • The energy stored in a dielectric medium is given by E(cid:215) D 2 • Practical capacitors are made in different ways, to suit the particular application.
+Layers of conducting foil and paper rolled up give a cheap form of capacitor, mica and metal foil stands high electric field but are more expensive.
+Electrolytic capacitors, in which the dielectric is a very thin oxide film deposited electrolytically, give very large capacitance.
+Ceramic capacitors are useful in transistor circuits where voltages are low but small size and compactness are very desirable.
+6.0 TUTOR-MARKED ASSIGNMENT (1) A capacitor has n similar plates at equal spacing, with the alternate plates connected together.
+Show that its capacitance is equal to (n- 1)e e A/D.
+0 r (2) What potential would be necessary between the parallel plates of a capacitor separated by a distance of 0.5cm in order that the gravitational force on a proton would be balanced by the electric field?
+Mass of proton = 1.67· 10- 27kg.
+(3) A capacitor is made of two hollow concentric metal spheres of radii a and b (b>a).
+The outer sphere is earthed.
+See Fig.
+2.18.
+Find the capacity.
+49PHY204 ELECTROMAGNETISM Fig.
+2.18 (4) In the arrangement shown in Fig.
+2.19, find the values of the capacitances such that when a voltage is applied between the terminals A and B no voltage difference is set up between terminals C and D. Fig.
+2.19 (5) Two capacitors one charged and the other uncharged are joined in parallel.
+Show that the final energy is less than the initial energy and derive the formula for the loss of energy in terms of the initial charges and the capacitances of the two capacitors.
+7.0 REFERENCES/FURTHER READING IGNOU (2005) Electricity and Magnetism.
+Physics PHE-07, New Delhi, India.
+50 PHY204 MODULE 1 UNIT 3 MICROSCOPIC PROPERTIES OF DIELECTRICS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Microscopic Picture of a Dielectric in a Uniform Electric Field Review 3.1.1 Definition of Local Field 3.2 Determination of Local Field: Electric Field in Cavities of a Dielectric 3.3 Clausius-Mossotti Formula 3.3.1 Polarisation in a Gas 3.3.2 Relation between Polarisability and Relative Permittivity 3.4 Relation between the Polarisability and Refractive Index 3.5 Behaviour of Dielectric in Changing or Alternating Fields 3.6 Role of Dielectric in Practical Life 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In Unit 1, we have studied the macroscopic (average) behaviour of a dielectric in an electric field.
+We also found that the field is altered within the body of the dielectric.
+This can be accounted for by the charges appearing on the surface of the dielectric in the case of an isotropic material.
+In Unit 2, the macroscopic study of the dielectric behaviour was used to study the increase of capacitance in a condenser when a dielectric is placed between the plates of the condenser.
+In the present unit, we will describe the microscopic picture of a dielectric in which we will define the local field (E ), and the average loc macroscopic field inside the dielectric (E ).
+Further, we will derive the i relationship between the local field and the macroscopic field.
+We will also study the effects of polarisation in nonpolar and polar molecules and derive the famous Clausius-Mossotti formula for polarisation of these molecules.
+Then we will derive Clausius-Mossotti equation for a gas.
+We will also study the relationship between polarisability and relative permittivity.
+After that, we will derive the relationship between polarisability and refractive index.
+As you know that capacitors are used in alternating fields, so we will also study the effect of an alternating 51PHY204 ELECTROMAGNETISM field on a dielectric.
+In the last section of this unit we will study the role of dielectrics in our daily life.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • define the local field and relate it with polarisation, • find the macroscopic field within the dielectric and relate it to polarisation.
+• relate the macroscopic electric field, the local field and the microscopic field within the dielectric, • write Clausius-Mossotti equation for a liquid and a gas, • establish a relationship between polarisability and Refractive index, • discuss the role of dielectrics in daily life.
+3.0 MAIN CONTENT 3.1 microscopic picture of a dielectric in a uniform electric field-review In Unit 1 you have studied the average (macroscopic) behaviour of dielectrics.
+In this section, we will study the microscopic picture of a dielectric in a uniform electric field.
+Let us consider a dielectric in a uniform electric field as shown in Fig.
+3.1.
+Fig.
+3.1 A molecule in a dielectric medium In an electric field, the electrons and atomic nuclei of the dielectric material experience forces in opposite directions.
+We know that the electrons in a dielectric cannot move freely as in a conductor.
+Hence each atom becomes a tiny dipole with the positive and negative charge centres slightly separated.
+Taking the charge separation as a, the charge as q the dipole moment p in the direction of field associated with the atom or molecule 52 PHY204 MODULE 1 p = qa (3.1) Eq.
+(3.1) gives the dipole moment induced in the atom/molecule by the field.
+Hence we call it the induced dipole moment.
+If there are n such dipoles in an element of volume V of the material, we can define the polarisation vector P as the (dielectric) dipole moment per unit volume as npV p = V Within the dielectric the charges neutralise each other, the negative charge of one atom/molecule is neutralised by the positive charge of its neighbour.
+Thus within the bulk of the material, the electric field produces no charge density but only a dipole moment density.
+However, at the surface this charge cancellation is not complete, and polarisation charge densities of opposite signs appears at the two surfaces perpendicular to the field.
+Now what is the consequence of the appearance of polarisation charges?
+The consequence of this is that the electric field inside the dielectric is less than the electric field causing the polarisation.
+The polarisation charges give rise to an electric field in the opposite direction.
+This field opposes the electric field causing polarisation.
+It is shown in Fig.
+3.2.
+Fig.
+3.2 Field Inside a dielectric Hence we conclude that inside the dielectric, the average electric field is less than the electric field causing polarisation.
+However, the macroscopic or average field is not a satisfactory measure of the local field responsible for the polarisation of each atom.
+Let us denote the field at the site or location of the atom or molecule as the local field.
+In the next section, we will calculate the local field inside a dielectric.
+53PHY204 ELECTROMAGNETISM 3.1.1 Definition of Local Field In this section we will define the local field in a dielectric material.
+This is the field on a unit positive charge kept at a location or site from which an atom or molecule has been removed provided the other charges remain unaffected.
+Fig.3.3 shows a site in a uniformly polarised medium from which a molecule/atom is removed when all other charges are kept intact at their positions.
+Fig.
+3.3 A site in a uniformly polarised medium The extent of the charge separation depends on the magnitude of the local field.
+Hence we conclude that the induced dipole moment, p, is directly proportional to the local field, E .
+Thus we have, loc P =a E (3.3) loc Where a is the constant of proportionality and is known as atomic/molecular polarisability and E the local field.
+loc To use Eq.
+(3.3) we require the value of E .
+loc 3.2 Determination of local field: electric fields in cavities of a Dielectric The polarisation of dense materials such as liquids and many solids changes the electric field inside the material.
+The field experienced by an individual atom/molecule depends on the polarisation of atoms in its immediate vicinity.
+The actual value of the field varies rapidly from point to point.
+Very close to the nucleus it is very high and it is 54 PHY204 MODULE 1 relatively small in between the atoms/molecules.
+By taking the mean of the fields over a space containing a very large number of atoms one gets the average value of the field.
+SELF ASSESSMENT EXERCISE 1 Show that the field at the centre of a spherical cavity (filled with air) is zero.
+The field experienced by an individual atom/molecule may be called the local field, which is different from the average field.
+The local field is the one which causes the polarisation of the atom.
+The average field can be expressed as V /d where V is the potential difference between two points of a dielectric, distant d apart.
+(as one obtains the field between the plates of a parallel plate condenser).
+The estimation of local field is not so easy.
+Let us consider three different cavities to find the local field in a dense dielectric, which has been uniformly polarised.
+See Fig.
+3.4.
+Fig.
+3.4 The field in a slot cut in a dielectric depends on the shape and orientation of the slot E shown Is the average field The directions of electric (average) field E and P are shown in Fig.
+3.4.
+Suppose we cut a rectangular slot ABCDEFGH as in (a) of Fig.
+(3.4).
+The field E and the polarisation P are parallel to the faces ABCD, EFGH.
+The field inside this slot can be found out by evaluating the line integral of E around the curve C shown in Fig.
+3.4(b).
+Since E(cid:215) dlhas to be zero for the closed curve C the field inside this slot has to be the same as the field outside the slot.
+Therefore the field inside a thin slot cut parallel to the field is equal to the average field E. Now consider a thin rectangular slot with faces perpendicular to the average field E cut from the dielectric as shown in (c) A'B'C'D'E'F'G'H' of Fig.
+3.4.
+To find the field inside this slot we use the Gauss' flux theorem on a surface S with one face outside the slot and one face inside 55PHY204 ELECTROMAGNETISM the slot.
+See Fig.
+3.4(d).
+The flux of E through faces parallel to E is zero.
+Instead of the flux of E, let us consider the flux of electric displacement D. Let E be the field inside the slot, then D inside the loc 1 slot is e E .
+The D vector outside the slot is e E+P.
+Now, as the flux 0 loc 0 of D through the closed surface S has to be zero (no free or external charges inside the Gaussian surface), we must have e E =e E+P 0 loc 0 \ E = E+P/e (3.4) loc 0 The field inside the slot in this case is different from the field outside by P/e because of the surface polarisation charges appearing on A'B'C'D' 0 shown in Fig.
+3.4(c).
+Another possible slot is a spherical hole, which is the most likely way an atom finds itself in most liquids and solids.
+We would expect that an atom finds itself, on the average, surrounded by other atoms in what would be a good approximation to a spherical hole.
+What is the local field in a spherical hole?
+Suppose we cut a spherical hole after "freezing" the state of polarisation from a uniformly polarised material.
+If we call E the loc field inside the spherical hole at its centre and E the field produced by p the uniformly polarised dielectric spherical plug at its centre, then by adding E andE , we should get the average field E inside the loc p dielectric.
+See Fig.
+3.5.
+This should be true because of the superposition principle.
+Thus E =E +E (3.5) loc p Fig.
+3.5: The field at any point A in a dielectric can be considered as a sum of the field in a spherical hole plus the field due to the spherical plugand the required field E = E- E (3.6) loc p 56 PHY204 MODULE 1 One can calculate E (the field produced by the uniform polarised p dielectric) as follows: The field E arises from bound charges of density = s (cid:215) n= Pcosq .
+p Hence the field due to the charges over an area dS is given as: 1 (cosq )dS dE = r p 4ep r2 0 where, r is the unit vector from the surface to the centre of the sphere where the field is to be calculated.
+Resolving dE into components parallel and perpendicular to P, it is p clear from the symmetry of the situation that only the components parallel to the direction of P will contribute to the total field E .
+Thus p E = dE (cid:215) cosq p p It should be noted that the direction of E is parallel to that of P. We p then have 1 cos2q E = P dS p 4ep r2 0 Now, dS =r2sinq dq df and the limits of q are from 0 to p and that of f from 0 to 2p .
+Hence P E = dcos2q (cid:215) sinq dq p 4ep 0 P cos2q = d- 4ep 2 0 3 P = (cid:215) 2 4ep 0 P = (3.7) 3e 0 57PHY204 ELECTROMAGNETISM Then the field experienced by an atom in a spherical hole is P E =E- loc 3e 0 To determine the field E at an arbitrary point r inside the dielectric p sphere, we consider the polarised sphere as a superposition of slightly displaced spheres of positive and negative charges.
+See Fig.
+3.6.
+Further note that the field at point r is entirely determined by the charge contained in the sphere of radius r, interior to point r. Fig.
+3.6 Superposition of slightly displaced sphere of positive and negative charges The sphere of positive charge can be regarded as a point charge at its centre and if P is the volume charge density then the positive charged 4p sphere is equivalent to charge at its centre equal to r3.
+Similarly the 3 negative charged sphere is equivalent to a point charge at its centre.
+The 4p magnitude of this point charge is same as r3.
+If 'a' is the separation of 3 the positive and negative charges in an atom, then the uniformly 4p polarised dielectric is equivalent to a dipole of moment r3a.
+If there 3 are n dipoles per unit volume, q is the charge on each dipole then s = qn.
+[The number of positive or negative charges per unit volume is p also equal to n in the spheres considered above].
+Then the dipole moment of the sphere is given by 4p 4p r3nqa = r3P 3 3 58 PHY204 MODULE 1 4p and the polarised sphere is equivalent to a dipole of moment r3Pkept 3 at its centre.
+The potential due to this dipole at the point r on the surface is given by 4p r3Pcosq Prcosqr = 3 4ep r2 3e 0 0 where p, r, q are as shown in the Fig.
+3.7.
+Fig.
+3.7 Field outside a uniformly polarised sphere The polarisation is in the direction of E and if we take this to be the z- direction with the origin at the centre then the potential at T is, PZ f = 3e 0 This shows that the potential at a point depends only on its z coordinate.
+Hence the electric field is along the z direction and is given by: - f P E = = - p Z 3e 0 This shows that the electric field inside the dielectric sphere is uniform and in the direction of the polarisation vector.
+Hence the field experienced by an atom in a spherical hole is, P E =E+ (3.8) loc 3e 0 The field in a spherical hole is greater than the average field by P/3e .
+p 59PHY204 ELECTROMAGNETISM SELF ASSESSMENT EXERCISE 2 Show that the field inside a uniform spherically symmetric charge r distribution with charge density is equal to where r is the position 3e 0 vector of the point with origin at the centre.
+3.3 The Clausius-Massotti Equation In a liquid we would expect an individual atom to be polarised by a field obtained in a spherical cavity rather than by the average (macroscopic) field.
+Thus using Eq.
+3.8 and Eq.
+3.3 we have, P = na E loc P P = na E+ (3.9) 3e 0 This can be rewritten as: na P = E (3.10) na 1- 3e 0 The susceptibility c was defined in Unit 1 by the equation, P =e cE 0 Hence, na /e = 0 (3.11) 1- na /3e 0 Eq.
+3.11 gives the relation between susceptibility and atomic/molecular polarisability.
+This is one form of the Clausius-Mossotti Equation.
+3.3.1 Polarisation in a Gas Unlike the atoms/molecules of a liquid or solid it is possible to consider the atoms/ molecules of a gas as far apart and independent.
+We can neglect the field due to the dipoles on the immediate neighbourhood of an individual molecule.
+Hence the local field causing polarisation is the average or macroscopic field E. Therefore we can write, P =e c E= np 0 60 PHY204 MODULE 1 where, n is the number of molecules per unit volume.
+If we consider only an individual atom/molecule and write the dipole moment p as: P =e a E (3.12) 0 where, a is known as the atomic polarisability.
+Therefore a has the dimensions of volume and roughly equals the volume of an atom.
+We can relate a or c to the natural frequency of oscillation of electrons in the atom/molecule.
+If the atom is placed in an oscillating field E the centre of charge of electrons obeys the equation d2x m +mw 2x = qE dt2 0 where m is the mass of electron of charge q, mw 2x is the restoring force 0 term and qE the force from outside field - this equation is the same as the equation of forced oscillation.
+If the electric field varies with angular frequency w then, qE x = m(w 2 - w 2) 0 For our purposes in the electrostatic case w = 0 which means that qE x = mw 2 0 and the dipole moment P is q2E P = qx = mw 2 0 From Eq.
+(3.12) we can write the atomic polarisability as q2 a = (3.13) e mw 2 0 0 and P =e =ce (e - 1)=e na E 0 0 0 61PHY204 ELECTROMAGNETISM nq2 e - 1=na = r e mw 2 0 0 For hydrogen gas we can get a rough estimate of w .
+The energy needed 0 hw to ionise the hydrogen atom is equal to 13.6 eV.
+Equating this to 0 2p where h is the Planck's constant, we get 13.6· 1.6· 10- 19· 2p » 6.62· 10- 34 w = 20.65· 1015 0 Substituting this in the equation 3.13 (a) we get nq2 e » 1+ » 1.00020 r e m 0 The experimentally observed value is e = 1.00026. r 3.3.2 Relation between Polarisability and Relative Permittivity In Unit 1, you have noted that one can write P as: P =e (e - 1)E 0 r where e is the relative permittivity.
+r Using Eq.
+3.14 in Eq.
+3.8 we get P E =E+ =(e +2)E/3 (3.15) 0 3e r p Using Eqs.
+3.14 and 3.15 one can rewrite Eq.
+3.9 as: (e +2) P = e (e - 1)E= na r E 0 r 3 which yields, 3e (e - 1) a = 0 r (3.16) n (e +2) 2 62 PHY204 MODULE 1 Eq.
+3.16 gives us the relation between atomic/molecular polarisability and the relative permittivity.
+Eq.
+(3.16) is another form of the Clausius- Mossoti equation.
+SELF ASSESSMENT EXERCISE 3 Obtain Eq.
+3.15 from Eq.
+3.14.
+3.4 Relation between the Polarisability and Refractive Index For a dielectric, the refractive index m defined as the ratio of the speed of light in vacuum to the speed in the dielectric medium, can be shown to be equal to e .
+r m 2 =e r Using Eq.
+3.15 in Eq, 3.14 we get 3e (m 2 - 1) a = 0 (3.17) n (m 2 +2) Eq.
+3.17 gives the relation between polarisability and refractive index.
+This relation is known as the Lorentz-Lorenz formula.
+In all the equations discussed above, n represents the number density of atoms or molecules which is equal to N d/W where N is the A A Avogadro number, d the mass density and W the molecular weight.
+For gases, we have the gas equation relating pressure, P, volume, V and absolute temperature T given by P'V = RT = N KT A where q is the mole number and P'=qN KT /V = nKT A Therefore, n = p'/KT Thus if we determine e at different pressures for a gas, we can r calculate the atomic/ molecular polarisability of a gas.
+For this we write Eq.
+3.16 as 3e KT (e - 1) a = 0 r p' (e +2) r 63PHY204 ELECTROMAGNETISM or (e - 1) a r = (p'/T) (3.18) (e +2) 3e k r 0 Eq.
+3.18 represents the linear relation between (e - 1)/(e +2) and r r (p'/T).
+If now a graph is drawn with (e - 1)/(e +2) on the y-axis and r r (p'/T) on the x-axis, we get a straight line, the slope of which gives (a /3e k).
+0 3.6 Behaviour of Dielectric in Changing or Alternating Fields So far we have considered only electrostatic fields in matter.
+Now we would like to look at the effects of electric fields that vary with time, like the field in the dielectric of a capacitor used in an alternating current circuit.
+Will the changes in polarisation keep up with the changes in the field?
+Will the polarisability, the ratio of P to E, at any instant be the same as in a static electric field?
+For very slow changes or small frequencies we do not expect any difference.
+However, for high frequencies or faster process we have to look at the response time for the polarisation.
+We have to separately consider two polarisation processes viz., induced polarisation and the orientation of permanent dipoles.
+We know that the induced polarisation occurs by the distortion of the electronic structure.
+In the distortion mass involved is that of electron and the distortion is very small, which means the structure is very stiff.
+From our knowledge of oscillatory motion (see the course on oscillations and waves), its natural frequencies of vibration are extremely high.
+Alternatively, the motions of electrons in atoms and molecules are characterised by periods of the order of the period of a visible light wave (10- 16 seconds).
+Thus the readjustment of the electronic structure i.e.
+the polarisation response is very rapid, occurring at the time scale of 10- 14sec.
+For this reason we find that nonpolar substances behave the same way from dc up to frequencies close to those of visible light.
+We shall examine the situation in the light of Eq.
+3.15, where we have expressed the Clausius-Mossotti formula in terms of the refractive index.
+We know that the refractive index is dependent on the wavelength or frequency.
+Thus, in a way 3.13 implies the variation of the polarisability with frequency.
+64 PHY204 MODULE 1 Experimentally, d.c. values of e can be found.
+The refractive index of r the same substance can be determined by optical methods, using a spectrometer.
+A fairly good agreement is found between the refractive index and e values for non-polar substances.
+However for polar r substances, e varies with frequency; it decreases with increase in r frequency.
+The drop in the value of e at high frequencies is due to the r fact that the permanent dipoles are not able to follow the rapid alternation of the field.
+In other words the polarisation response of polar molecules is much slower.
+However, in the frequency range of visible light the refractive index and e values show a fairly good agreement as r indicated by nonpolar substances.
+3.7 The Role of Dielectric Capacitor in Our Practical Life Dielectrics have several applications.
+Dielectrics are used very widely in capacitors.
+Although the actual requirements vary depending on the application, there are certain characteristics which are desirable for their use in capacitors.
+A capacitor should be small, have high resistance, be capable of being used at high temperatures and have long life.
+From a commercial point of view it should also be cheap.
+Specially prepared thin kraft paper, free from holes and conducting particles, is used in power capacitors where withstanding high voltage stresses is more important than incurring dielectric losses.
+In addition, the kraft paper is impregnated with a suitable liquid such as chlorinated diphenyl.
+This increases the dielectric constant and thus reduces the size of the capacitor.
+In addition the breakdown strength is increased.
+In addition to paper capacitors for general purpose, other types of capacitors are used.
+In the film capacitors, thin film of teflon, mylar or polythene are used.
+These not only reduce the size of the capacitor but also have high resistivity.
+Teflon is used at high frequencies as it has low loss.
+In electric capacitors, an electrolyte is deposited on the impregnating paper.
+The size of such a capacitor is small as the film is very thin.
+Polarity and the maximum operating voltage are important specifications for these capacitors.
+Some ceramics can be used as temperature compensators in electronic circuits.
+High dielectric constant materials, where small variations in dielectric constant with temperature can be tolerated, help miniaturise capacitors.
+Barium titanate and its modifications are the best examples of such materials.
+65PHY204 ELECTROMAGNETISM 4.0 CONCLUSION In this unit, we have learnt about different types of fields relative to their polarisation.
+The Claussius-Massoti equation for liquids and gases has been derived and the roles of dielectrics in daily life have been highted.
+5.0 SUMMARY Inside a dielectric the average electric field is less than the electric field which causes the polarisation.
+In a dielectric material, the induced dipole moment p, is directly proportional to the local field and mathematically given by: P =a E loc where the symbols have their usual meanings.
+The field inside a spherical hole is given by: E =E+P/3e loc 0 which shows that the field in a spherical hole is greater than the average field.
+The relation between susceptibility and atomic/molecular polarisability is given by: na /e 0 1- na /3e 0 6.0 TUTOR-MARKED ASSIGNMENT (1) A sphere of linear dielectric material is placed in a uniform electric field E (see Fig.
+TQ1).
+Find the field inside the sphere 0 and polarisation in terms of external field (2) The electric field inside a polarised sphere is uniform and equal to - P/3e .
+Prove this by superposing the internal fields of two 0 spheres of charge whose centres are separated.
+66 PHY204 MODULE 1 Fig.
+TQ1 A linear dielectric material placed in a uniform magnetic field (3) Show that e times the force on a unit charge placed in a disc 0 shaped cavity will measure the electric displacement (D) in a solid dielectric.
+(4) A dielectric consists of a cubical array of atoms (or molecules) with spacing d between each atom along the (x, y, z) axis.
+It is influenced by a field E applied along the direction of z-axis.
+loc Evaluate the average field produced by all the dipoles.
+7.0 REFERENCE/FURTHER READING IGNOU (2005).
+Electricity and Magnetism, Physics PHE-07.
+New Delhi, India.
+67PHY204 ELECTROMAGNETISM UNIT 4 MAGNETISM OF MATERIALS - I CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Response of Various Substances to a Magnetic Field 3.2 Magnetic Moment and Angular Momentum of an Atom 3.3 Diamagnetism and Para magnetism 3.3.1 Diagmagnetism – Effect of Magnetic Field on Atomic Orbits 3.3.2 Paramagnetism – Torque on Magnetic Dipoles 3.4 The Interaction of an Atom with Magnetic Field – Lamor Precession 3.5 Magnetisation of Paramagnets 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Reading 1.0 INTRODUCTION In Units 1 and 2, we learn how the magnetic field affects materials and how some materials produce magnetic field.
+You must have learnt in your school Physics Course that in equipment such as generator and motor, iron or iron alloy is used in their structure for the purpose of enhancing the magnetic flux and for confining it to a desired region.
+Therefore, we will study the magnetic properties of iron and a few other materials called ferromagnets, which have similar properties as iron.
+We shall also learn that all the materials are affected by the magnetic field to some extent, though the effect in some cases is weak.
+When we speak of magnetism in everyday conversation, we almost certainly have in mind an image of a bar magnet.
+You may have observed that a magnet can be used to lift nails, tacks, safety pins, and needles (Fig.
+4.1a) while, on the other hand, you cannot use a magnet to pickup a piece of wood or paper (Fig.
+4.1b).
+68 PHY204 MODULE 1 Fig.
+4.1 (a) Materials that are attracted to a magnet are called magnetic materials, (b) Materials that do not react to a magnet are called nonmagnetic materials Materials such as nails, needles etc., which are influenced by a magnet are called magnetic materials whereas other materials, like wood or paper, are called non-magnetic materials.
+However, this does not mean that there is no effect of magnetic field on non-magnetic materials.
+The difference between the behaviour of such materials and iron like magnetic materials is that the effect of magnetic field on non-magnetic material is very weak.
+There are two types of non-magnetic materials: diamagnetic and paramagnetic.
+Unit 4 deals with diamagnetic and paramagnetic effects.
+The ideas, concepts and various terms that you become familiar with in this Unit would help you in the study of ferromagnetism in the next Unit.
+In this unit, we present a simple classical account of magnetism, based on notion of classical physics.
+But you must keep in mind that it is not possible to understand the magnetic effects of materials from the point of view of classical physics.
+The magnetic effects are a completely quantum mechanical phenomena.
+Only modern quantum physics is capable of giving a detailed explanation of the magnetic properties of matter because the study requires the introduction and utilization of quantum mechanical properties of atoms.
+For a complete explanation, one must take recourse to quantum mechanics; however, a lot of, though incomplete, information about matter can be extracted by combining classical and quantum concepts.
+Basically, in this unit, we will try to understand, in a general way, the atomic origin of the various magnetic effects.
+The next unit is an extension of this unit.
+There, we will try to develop a treatment of magnetised matter based on some observed relations between the magnetic field and the parameters which characterise the material.
+Finally, we consider the analysis of the magnetic circuit, which is of particular importance in the design of the electromagnets.
+69PHY204 ELECTROMAGNETISM 2.0 OBJECTIVES After studying this unit you should be able to: • understand and explain: gyro-magnetic ratio, paramagnetism, diamagnetism, Larmor frequency • relate the magnetic dipole moment of an atomic magnet with its angular momentum • explain the phenomenon of diamagnetism in terms of Faraday induction and Lenz's principle • explain paramagnetism in terms of the torque on magnetic dipoles • find the precessional frequency of an atomic dipole in a magnetic field • appreciate that a lot of information about magnetism of matter can be obtained from the classical ideas of atomic magnetism.
+3.0 MAIN CONTENT 3.1 Response of Various Substances to a Magnetic Field To show how the magnetic materials respond to a magnetic field, consider a strong electromagnet, which has one sharply pointed pole piece and one flat pole piece as shown in Fig.
+4.2.
+Fig.
+4.2 A small cylinder of bismuth is weakly repelled by the sharp pole) a piece of aluminium is attracted The magnetic field is much stronger in the region near the pointed pole whereas near the flat pole the field is weaker.
+This is because the lines must concentrate on the pointed pole.
+When the current is passed through the electromagnet (i.e., when the magnet is turned on), the hanging material is slightly displaced due to the small force acting on it.
+Some materials get displaced in the direction of increasing field, i.e., towards the pointed pole.
+Such materials are paramagnetic materials.
+Examples of such material are aluminium and liquid oxygen.
+On the 70 PHY204 MODULE 1 other hand, there are materials like bismuth, which are attracted in the direction of the decreasing field, i.e., it gets repelled from the pointed pole.
+Such materials are called diamagnetic.
+Finally, there is a small class of materials which feel a considerable stronger force (10 3 - 105 times) towards the pointed pole.
+Such substances are called ferromagnetic materials.
+Examples are iron and magnetite.
+How does a substance experience a force in a magnetic field?
+And why does the force act in a particular direction for some substance while in opposite direction for other substance?
+If we can answer these questions, we will understand the mechanisms of paramagnetism, diamagnetism and ferromagnetism.
+Magnetic fields are due to electric charges in motion.
+In fact, if you could examine a piece of material on an atomic scale, you would visualize tiny current loops due to (i) electrons orbiting around nuclei and (ii) electrons spinning on their axes.
+For macroscopic purposes, these current loops are so small that they are regarded as the magnetic dipoles having magnetic moment.
+It is this magnetic moment, via which the atoms at a substance interact with the external field, and give rise to diamagnetic and paramagnetic effects.
+In this unit, you will understand the origin of paramagnetism and diamagnetism.
+Ferromagnetism has been left to be explained in the next unit.
+Let us first find out the value of the magnetic moment and see how it is related to the angular momentum of the atom.
+3.2 Magnetic Moment and Angular Momentum of an Atom Electrons in an atom are in constant motion around the nucleus.
+To describe their motion, one needs quantum mechanics, however, in this unit we shall use only classical arguments to obtain our results, though we repeat here that our description of the physical world is incomplete as we shall be leaving out quantum mechanics.
+We consider an electron in the atom to be moving, for simplicity, in a circular orbit around the nucleus under the influence of a central force, known as the electrostatic force, as shown in Fig.
+4.3(a).
+As a result of this motion, the electron will have an angular momentum L about the nucleus.
+71PHY204 ELECTROMAGNETISM Fig.4.3 (a) Classical model of an atom in which an electron moves at speed v in a circular orbit (b) The average electric current is the same as if the charge - e were divided into small bits, forming a rotating ring of charge, (c) The orbital angular momentum vector and the magnetic moment vector both point in opposite directions.
+The magnitude of this angular momentum is given by the product of the mass m of the electron, its speed v and the radius r of the circular path (see Fig.
+4.3), i.e., L = mvr (4.l) Its direction is perpendicular to the plane of the orbit.
+The fact that orbital motion of the electron constitutes an electric current will immediately strike your mind.
+The average electric current is the same as if the charge on the electron were distributed in small bits, forming a rotating ring of charge, as shown in Fig.
+4.3(b).
+The magnitude of this current is the charge times the frequency as this would equal to the charge per unit time passing through any point on its orbit.
+The frequency of rotation is the reciprocal of the period of rotation,2p r/v, hence the frequency of rotation has the value,v/2pr.
+The current is then ev I =- (4.2) 2p r The magnetic moment due to this current is the product of the current and the area of which the electron path is the boundary, that is, m = Ip r2.
+Hence we have evr m =- (4.3) 2 It is also directed perpendicular to the plane of the orbit.
+Using Eq.
+(4.1) in Eq.
+(4.3) we get as follows: e m = - L (4-4) 2m 72 PHY204 MODULE 1 The negative sign above indicates that m and L are in opposite directions, as shown in Fig.
+4.3(c).
+Note that L is the orbital angular momentum of the electron.
+The ratio of the magnetic moment and the angular momentum is called the gyro-magnetic ratio.
+It is independent of the velocity and the radius of the orbit.
+According to quantum mechanics, L =h l(l+1) where l is a positive h integer and h = , h being Planck's constant.
+However, in some 2p physical cases the applicability of classical models is close to reality, therefore, we will go ahead with the classical ideas.
+Further, the early work on the nature of magnetic materials was based on classical ideas, which gave intelligent guesses at the behaviour of these materials.
+SELF ASSESSMENT EXERCISE 1 (1) Show that the magnetic dipole moment can be expressed in units of JT- 1 (Joule per Tesla).
+(2) In the Bohr hydrogen atom, the orbital angular momentum of the electron is quantized in units of h, where h = 6.626· 10- 34Js is Planck's constant.
+Calculate the smallest allowed magnitude of the atomic dipole moment in JT- 1.
+(This quantity is known as Bohr magneton.)
+The mass of the electron is 9.109· 10- 31kg.
+In addition to its orbital motion, you know that, the electron in an atom behaves as if it were rotating around an axis of its own as shown in Fig.
+4.4.
+Fig.
+4.4 The spin and the associated magnetic moment of the electron This property is called spin.
+Though strictly it is not possible to visualise the spin of a point particle like electron, for many purposes it helps to regard the electron as a ball of negative charge spinning around its axis.
+Then you can say that it is a current loop.
+Spin is entirely a quantum mechanical idea.
+Nevertheless, the spin of the electron has 73PHY204 ELECTROMAGNETISM associated with it an angular momentum and a magnetic moment.
+For purely quantum mechanical reasons with no classical explanation, we have e µ= - S (4.5) m where S is the spin angular momentum and µ is the spin magnetic moment.
+The gyromagnetic ratio in this case is twice that in the orbital case.
+In general, an atom has several electrons.
+The orbital and spin angular momenta of these electrons can be combined in a certain way, the rules of which are given by quantum mechanics, to give the total angular momentum J and a resulting total magnetic moment.
+It so happens that the direction of the magnetic moment is opposite to that of the angular momentum in this case as well, so that we have e µ = - g J (4.6) 2m where g is a numerical factor known as Lande g-factor which is a characteristic of the state of the atom.
+The rules of quantum mechanics enable us to calculate the g-factor for any particular atomic state, g = 1 for the pure orbital case and g = 2 for the pure spin case.
+The atom or molecules interacts with the external magnetic field due to its magnetic moment.
+But there is another way in which atomic currents and hence moments are affected by the field.
+In this case the magnetic moment is induced by the field.
+This effect leads to diamagnetism which we study in the next section.
+But before moving to the next section, try the following SAQ.
+SELF ASSESSMENT EXERCISE 2 (1) Compare Eq.
+(4.6) with (4.4) and (4.5), to find the value of g for (i) pure orbital case and for (ii) pure spin case.
+(2) The experimentally measured electron spin magnetic moment is 9.27· 10- 24Am2.
+Show that this value is consistent with the formula given by Eq.
+4.5. h h (Hint: According to Bohr's theoryS = .
+Here h = , h being Planck's 2 2p constant.)
+74 PHY204 MODULE 1 3.3 Diamagnetism and Paramagnetism In many substances, atoms have no permanent magnetic dipole moments because the magnetic moments of various electrons in the atoms of these substances tend to cancel out, leaving no net magnetic moment in the atom.
+The orbital and spin magnetic moments exactly balance out.
+These materials exhibit diamagnetism.
+If a material of this type is placed in a magnetic field, little extra currents are induced in their atoms, according to the laws of electromagnetic induction, in such a direction as to oppose the magnetic field already present.
+Hence, in such a substance, the magnetic moments (on account of induced currents) are induced in a direction opposite to that of the external magnetic field.
+This effect is diamagnetism.
+It is a weaker effect.
+However, this effect is universal.
+There are other substances of which the atoms have permanent magnetic dipole moments.
+This is due to the fact that the magnetic moments due to orbital motion and spins of their electrons do not cancel out, but have a net value.
+When such a substance is placed in a magnetic field, besides possessing diamagnetism, which is always present, the dipoles of such a material tend to line up along the direction of the magnetic field.
+This is paramagnetism and the material is called paramagnetic.
+In a paramagnetic substance, the paramagnetism usually masks the ever present property of diamagnetism in every substance.
+Diamagnetism involves a change in the magnitude of the magnetic moment of an atom whereas paramagnetism involves change in the orientation of the magnetic moment of an atom.
+Let us see how.
+3.3.1 Diamagnetism – Effect of Magnetic Field on Atomic Orbits We consider an atom, which has no intrinsic magnetic dipole moment, and imagine that a magnetic field is slowly turned on in the space occupied by the atom.
+The act of switching the magnetic field introduces change in the magnetic field which, in turn, generates an electric field given by Faraday's law of induction.
+It states that the line integral of E around any closed path equals the rate of change of the magnetic flux F through the surface enclosed by the path.
+For simplicity, we choose a circular path along which the electron in the atom is moving (see Fig.
+4.5).
+The electric field around this path is given by Faraday's law as: dF ∫ E(cid:215) dl = - dt 75PHY204 ELECTROMAGNETISM or d E· 2p r = - (B(cid:215) p r2) (4.7) ^ ^ dt Fig.
+4.5 An electron moving in circular orbit m a uniform magnetic Held that is normal to the Orbit where, r is the radius of the circular path perpendicular to B.
+The ^ above equation gives the circulating electric field whose strength is, r dB E = - ^ (4.8) 2 dt This electric field exerts a torque t = - eEr on the orbiting electron ^ dL which must be equal to the rate of change of its angular momentum , dt that is, dL = - eEr ^ dt dL  r dB or =- e- ^ r ^ dt  2 dt  dL r2 dB or =e ^ (4.9) dt 2 dt The change in angular momentum, D L, due to turning on the field is obtained by integrating Eq.
+(4.9) with respect to time from zero field as follows: er2 D L = ^ D B (4.10) 2 76 PHY204 MODULE 1 Thus Eq.
+(4.10) shows that a build up of a magnetic field B causes a change in the angular momentum of the electron, D L, and hence a change in the magnetic moment governed by Eq.
+(4.4) as follows: e D m =- D L 2m er2 D m =- ^ B (4.11) 4m The direction of the induced magnetic moment is opposite to that of B, which produces it as can be seen from the negative sign in the Eq.
+(4.11).
+In this equation, we have the term r2 which is the square of the ^ radius of the particular electron orbit whose axis is along B.
+If B is along the z-axis, we put r2= x 2 + y 2.
+Thus, the average <r2 > would be ^ ^ 2< x2 >, since < x2 >=< y2 >=< z2 >, due to spherical symmetry.
+1 1 Further < x2 >=< y2 >=< z2 >= < x2 + y2 + z2 >= < r2 > gives 3 3 2 < r2 >.
+3 Hence the Eq.
+(4.11), which we shall write as e2 < r2 > D m =- ^ B 4m becomes, e2 D m =- <r2 >B (4.12) 6m We find that the induced magnetic moment in a diamagnetic atom is proportional to B and opposes it.
+This is diamagnetism of matter.
+If each molecule has n electrons, each with an orbit of radius r, then the change in the magnetic moment of the atom is e2 D m = - ∑< r2 >B 6m all electrons There is an alternative way of understanding the origin of diamagnetism which is based on the fact that an electron either speeds up or slows down depending on the orientation of the magnetic field.
+Let us see how.
+As shown in Fig.
+4.6, in the absence of the magnetic field, the mv2 centripetal force is balanced by the electrical force as follows: r 77PHY204 ELECTROMAGNETISM 1 e2 mv2 = (4.13) 4ep r2 r 0 Let us find out what happens to one of the orbits when an external magnetic field is applied as shown in Fig.
+4.7.
+Fig.
+4.6 There is no external magnetic field.
+Centripetal force is balanced by the electrical force Fig.
+4.7 Magnetic field is perpendicular to the plane of the orbit In the presence of the magnetic field there is an additional term e(v· B)and under these conditions speed of the electron changes.
+Suppose the new speed is v , then 1 1 e2 mv2 ev B+ = 1 1 4p e r2 r 0 or m m ev B = (v2 - v2)= (v +v)(v - v) 1 r 1 r 1 1 If we assume that the change D v =v - v is small, we get 1 m ev B = (2v )D v 1 r 1 or erB D v = (4.14) 2m 78 PHY204 MODULE 1 A change in orbital speed means a change in the dipole moment given by Eq.
+(4.3) as follows: 1 e2r2 D m =- e(D v)r = - B (4.15) 2 4m This shows that change in m is opposite to the direction of B.
+In the absence of an external magnetic field, the electron orbits are randomly oriented and the orbital dipole moments cancel out.
+But in the presence of a magnetic field, the dipole moment of each atom changes and all get aligned antiparallel to the external field.
+This is the mechanism responsible for diamagnetism.
+This property of magnetic material is observed in all atoms.
+But as it is much weaker than paramagnetism it is observed only in those materials where paramagentism is absent.
+3.3.2 Paramagnetism – Torque on Magnetic Dipoles Paramagnetism is exhibited by those atoms which do not have magnetic dipole moment.
+The magnetic moment of an atom is due to the moment produced by the orbital currents of electrons and their "unpaired spins".
+A current loop having m as its magnetic dipole moment when placed in a uniform field experiences a torque T which is given by τ = µ · B The torque tends to align the dipoles so that the magnetic moment is lined up parallel to the field (in the way the permanent dipoles of dielectric are lined up with electric field).
+It is this torque which accounts for paramagnetism.
+You might expect every material to be paramagnetic since every spinning electron constitutes a magnetic dipole.
+But it is not so, as various electrons of the atom are found in pairs with opposing spins.
+The magnetic moment of such a pair of electrons is cancelled out.
+Thus paramagnetism is exhibited by those atoms or molecules in which the spin magnetic moment is not cancelled.
+That is why the word "unpaired spins" is written above.
+Paramagnetism is generally weak because the linings up forces are relatively small compared with the forces from the thermal motion which try to destroy the order.
+At low temperatures, there is more lining up and hence stronger the effect of paramagnetism.
+SELF ASSESSMENT EXERCISE 3 A.
+Of the following materials, which would you expect to be paramagnetic and which diamagnetic?
+Copper, Bismuth, Aluminium, Sodium, Silver.
+79PHY204 ELECTROMAGNETISM B.
+Would it be possible to prepare an alloy of, say, a diamagnetic material like copper and a paramagnetic material like aluminium so that the alloy will neither be paramagnetic nor diamagnetic?
+3.4 The Interaction of an Atom with Magnetic Field-Larmor Precession In the last subsection, while explaining paramagnetism we, considered an atom as a magnet with the magnetic moment µ.
+When placed in a uniform magnetic field B, it is acted upon by a torque τ = µ · B, which tends to line it up along the direction of the magnetic field.
+But it is not so for the atomic magnet, because it has an angular momentum J like a spinning top.
+We already know that a rapidly spinning top or a gyroscope in the gravitational field is acted upon by a torque, the result of which is that it precesses about the direction of the field.
+Similarly, instead of lining up with the direction of the magnetic field, the atomic magnet precesses about the field direction.
+The angular momentum and with it the magnetic moment precess about the magnetic field, as shown in Fig.
+4.8a.
+Due to the presence of the magnetic field, the atom will feel a torque T whose magnitude is given by: t = m Bsinq (4.16) where q is the angle whichm mmm makes with B.
+The direction of the torque is perpendicular to the direction of magnetic field and also ofm mmm , as shown in Fig.
+4.8b.
+Fig.
+4.8 (a) The angular momentum associated with atomic magnet processes about magnetic field (b) The presence of magnetic field results in the torque T. It is at right angles to the angular momentum; (c) The torque changes the direction of the angular momentum vector, causing precession 80 PHY204 MODULE 1 Notice that the torque is perpendicular to the vector J.
+Now according to Newton's second law dJ τ = (4.17) dt For small changes, we can write it as D J= τ D t (4.18) In other words, the torque will produce a change in the angular momentum with time.
+Suppose that D J is the change in the angular momentum in an interval of time D t. This D Jwill be in the direction of τ.
+This will result in the tip of J moving in a circle about B as the axis.
+This is, in fact, a precession of J (so also ofm mmm ) about the direction of B.
+The magnitude of D Jcan be written by using Eq.
+(4.16) in Eq.
+(4.18) as follows: D J =t D t =(m Bsinq )D t (4.19) Although the torque τ, being at right angles to J, cannot change the magnitude of J, it can change its direction.
+Fig.
+4.8c shows how the vector D J adds vectorially onto the vector J to bring this about.
+If w is p the angular velocity of the precession and D f is angle of precession in time D t, then D f w = (4.20) p D t From Fig.
+4.8c we see that D J (m Bsinq )D t D f = = Jsinq Jsinq Dividing above by D t, approaching the differential limit and putting df w = , we get p dt m B w = (4.21) p J Substituting for m /J from the Eq.
+(4.6), we get e w = g B (4.22) p 2m 81PHY204 ELECTROMAGNETISM as the angular speed of precession of an atomic magnet about the direction of B.
+If in Eq.
+(4.22) g = 1, then w is called the Larmor p frequency, and is proportional to B.
+It should be borne in mind that this is the classical picture.
+Now you may wonder if the atomic magnets (dipoles) precess about magnetic field, how many of these dipoles get aligned along the direction of magnetic field.
+We know that the potential energy of a dipole in the applied field is given by m–mmm (cid:215) B =- m Bcosq .
+Therefore, an unaligned dipole has a greater potential energy than an aligned one.
+If the energy of the dipole is conserved then it cannot change its direction with respect to the field, i.e.
+the value of angle q remains constant.
+So it keeps precessing about the field.
+However, by losing energy the atomic dipole gets aligned with the field.
+In a solid, the dipole can lose energy in various ways as its energy is transferred to other degrees of freedom and so it gets aligned with the field depending upon the temperature of the solid.
+To change the orientation of the dipole, the maximum energy required is 2mB.
+If m is about 10- 23Am–23 and a large field, say, 5T is applied then the potential energy will be of the order of 10- 22joules.
+This is comparable to the thermal energy kT at room temperature.
+Thus only a small fraction of the dipoles will be aligned parallel to B.
+In the next section it will be shown, using statistical mechanics, what fraction of dipoles is aligned along B.
+In the presence of the magnetic field, when the tiny magnetic dipoles present in the material get aligned along a particular direction we say that material becomes magnetized or magnetically polarized.
+The state of magnetic polarization of a material is described by the vector quantity called magnetisation, denoted by M. It is defined as the magnetic dipole moment per unit volume.
+It plays a role analogous to the polarization P in electrostatics.
+In the next section we will also find the expression of magnetisation for paramagnets.
+But before proceeding do the following SAE.
+SELF ASSESSMENT EXERCISE 4 Water has all the electron spins exactly balanced so that their net magnetic moment is zero, but the water molecules still have a tiny magnetic moment of the hydrogen nuclei.
+In the magnetic field of 1.0 Wb m –2 protons (in the form of H- nuclei of water) have the precession frequency of 42 MHz.
+Calculate the g - factor of the proton.
+82 PHY204 MODULE 1 According to Boltzmann's law the probability of finding molecules in a given state varies exponentially with the negative of the potential energy of that state divided bykT .
+In this case the energy E depends upon the angle q that the moment makes with the magnetic field.
+So probability is proportional to exp(- U(q )/kT).
+3.6 Magnetisation of Paramagnets In the presence of an external magnetic field, the magnetic moment tends to align along the direction of the magnetic field.
+But the thermal energy of the molecules in a macroscopic piece of magnetic material tends to randomise the direction of molecular dipole moments.
+Therefore, the degree of alignment depends both on the strength of the field and on the temperature.
+Let us derive the degree of alignment of the molecular dipoles, quantitatively, using statistical methods.
+Suppose there are N magnetic molecules per unit volume, each of magnetic moment m , at a temperature T. Classically, the magnetic dipole can make any arbitrary angle with the field direction (Fig.
+4.9).
+In the absence of an external field, the probability that the dipoles will be between angles q and q +dq is proportional to 2p sinq dq , which is the solid angle dW subtended by this range of angle.
+This probability leads to a zero average of the dipoles.
+When a magnetic field B is applied in the z- direction, the probability becomes also proportional to the Boltzmann distribution,e- U/kT.
+Here U =-m mmm (cid:215) B= - m Bcosq is the magnetic energy of the dipole when it is making an angle q with the magnetic field, k is the Boltzmann constant and T is the absolute temperature.
+Fig.
+4.9 Calculation of the paramagnetic properties of materials in an external magnetic field 83PHY204 ELECTROMAGNETISM Hence, the number of atoms (or molecules) dN per unit volume for whichm mmm makes angles between q and q +dq with B, is given by dN =2pKe+m Bcosq /kT sinq dq (4.23) where K is a constant.
+Calling m B/kT as a, the total number of dipoles per unit volume of the specimen is p N = ∫ dN = ∫2pKe+acosq sinq dq 0 Puttingcosq = x, we have +1 N =2pK∫e+axdx - 1 2p K = (ea - e- a) (4.24) a The magnetic dipole, making an angle q with B, makes a contribution m cosq to the intensity of magnetization M of the specimen.
+Hence, the magnetization of the specimen obtained by summing the contributions of all the dipoles in the unit volume is given by: M = ∫ dNm cosq = 2pKe+m Bcosq /kTm cosq sinq dq +1 = 2pK∫e+axxdx - 1 where, again, we have put cosq = x andm B/kT = a.
+Evaluating the above integral, we obtain 1 1  M = 2p Km (ea +e- a)+ (ea +e- a)   a a2  Substituting for 2p K from the Eq.
+(4.24), we get 84 PHY204 MODULE 1 (ea +e- a) 1 M = m N -    (ea - e- a) a  1 \ M = M cotha-  (4.25) s a where M = m N is the saturation magnetization of the specimen when s 1 all the dipoles align with the magnetic field.
+The expression cotha- is a called the Langevin function which is denoted by L(a).
+m B We now consider two cases: (i) when is very large.
+This would kT happen if the temperature were very low and/or B very large.
+For this case, 1 ea +e- a 1 1+e- 2a 1 L(a)=cotha- = - = - » 1 a ea - e- a a 1- e- 2a a Hence, M = M .
+These would be saturation.
+s m B (ii) When is small which means that T is large and / or B is kT 1 a small.
+In this case cotha- = and M = M (m B/3kT)= m 2NB/3kT .
+a 3 s The complete dependence of M on B is shown in Fig.
+4.10.
+For your comparison, the dependence of M on B based on quantum mechanical calculation is also shown.
+Fig 4.10 The Magnetisation of paramagnetic material placed in a m B magnetic field B as a function of a = (i) is based on classical kT calculation with no restriction on the direction of dipole (ii) is based 85PHY204 ELECTROMAGNETISM on quantum mechanical calculation with restriction on the direction of dipole SELF ASSESSMENT EXERCISE 5 +1 Evaluate the integral ∫eaxxdx - 1 SELF ASSESSMENT EXERCISE 6  1 M a Show that when a = m B/kT is small, M = M cotha- = s s a 3 Let us now sum up what we have learnt in this unit.
+4.0 CONCLUSION In unit 4, we have explained gyromagnetic ratio, paramagnet-ism, diamagnetism and Larmor frequency.
+In addition, we have explained how to obtain information about magnetism of matter from the classical ideas of atomic magnetism.
+5.0 SUMMARY • All materials are, in some sense, magnetic and respond to the presence of a magnetic field.
+Materials can be classified into mainly three groups: diamagnetic, paramagnetic and ferromagnetic.
+Diamagnetism is displayed by those materials in which the atoms have no permanent magnetic dipole moments.
+Paramagnetism and ferromagnetism occurs in those materials in which the atoms have permanent magnetic dipoles.
+• The orbital motion of the electron is associated with a magnetic moment n, which is proportional to its orbital angular momentum J.
+We write this as  e  µ = - g J 2m • where e is the charge on electron, m the mass of electron and g is Lande g - factor which has a value » 1 for orbital case and 2 for spin case.
+• The ratio of the magnetic dipole moment to the angular momentum is called the gyromagnetic ratio.
+• The magnetic dipoles in the magnetic materials are due to atomic currents of electrons in their orbits and due to their intrinsic spins.
+86 PHY204 MODULE 1 • Change in the magnitude of the magnetic moment of atoms is responsible for diamagnetism whereas change in the orientation of the magnetic moment accounts for paramagnet ism.
+• Because the magnetic moment is associated with angular momentum, in the presence of a magnetic field, the atom does not simply turn along the magnetic field but precesses around it with a frequency w = g(e/2m)B.
+This is called the Larmor p precession.
+• When a diamagnetic atom is placed in an external magnetic field normal to its orbit, the field induces a magnetic moment opposing the field itself (Lenz's law) as er2 D m = B 4m where r and m are the radius of the orbit and mass of the electron.
+• When atoms of magnetic moment m are placed in a magnetic field B, then the Magnetisation M is given by M = M (cotha- 1/a) s m B where, a = and M = m N is the saturation magnetisation kT s when all the dipoles are aligned in the direction of field.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+A uniformly charged disc having the charge q and radius r is rotating with constant angular velocity of magnitude w .
+Show 1 that the magnetic dipole moment has the magnitude, (qw r2).
+4 (Hint: Divide the sphere into narrow rings of rotating charge; find the current to which each ring is equivalent, its dipole moment and then integrate over all rings.)
+2.
+Compare the precession frequency and the cyclotron frequency of the proton for the same value of the magnetic field B.
+7.0 REFERENCES/FURTHER READING IGNOU (2005).
+Electricity and Magnetism, Physics PHE-07, New Delhi, India.
+87PHY204 ELECTROMAGNETISM UNIT 5 MAGNETISM OF MATERIALS - II CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Ferromagnetism 3.2 Magnetic Field Due to a Magnetised Material 3.3 The Auxiliary Field H (Magnetic Intensity) 3.4 Relationship between B and H for Magnetic Material 3.5 Magnetic Circuits 4.0 Conclusions 5.0 Summary 6.0 Tutor Marked Assignments 7.0 References/Further Reading 1.0 INTRODUCTION Earlier in this course you have studied the behaviour of dielectric materials in response to the external electric fields.
+This was done by investigating their properties in terms of electric dipoles, both natural and induced, present in these materials and their lining up in the electric field.
+The macroscopic properties of these materials were studied using the so-called polarization vector P, the electric dipole moment per unit volume.
+The magnetic properties of materials have a similar kind of explanation, albeit in a more complicated form, due to the absence of free magnetic monopoles.
+The magnetic dipoles in these materials are understood in terms of the so-called Amperian current loops, first introduced by Ampere.
+All materials are, in some sense, magnetic and exhibit magnetic properties of different kinds and of varying intensities.
+As you know, all materials, can be divided into three main categories: (i) Diamagnetic; (ii) Paramagnetic and (3) Ferromagnetic materials.
+In this unit, we shall study the macroscopic behaviour of these materials.
+We understood the macroscopic properties of the dielectric materials using the fact that the atoms and molecules of these substances contain electrons, which are mobile and are responsible for the electric dipoles, natural and induced, in these substances.
+The polarisation of these substances is the gross effect of the alignment of these dipoles.
+Similarly we describe the magnetic properties of various materials in terms of the magnetic dipoles in these materials.
+88 PHY204 MODULE 1 In Unit 4, we have already explained diamagnetism and paramagnetism in terms of magnetic dipoles.
+In this unit, first, we will mention the origin of ferromagnetism.
+Later, we will develop a description of the macroscopic properties of magnetic materials 2.0 OBJECTIVES After studying this unit you should be able to: • understand and explain the terms: ferromagnetism, amperian current, magnetisation, magnetic intensity H, magnetic susceptibility, magnetic permeability, relative permeability • relate magnetisation M (which is experimentally measurable) and the atomic currents (which is not measurable) within the material • derive and understand the differential and integral equations for M and H and apply these to calculate fields for simple situations • interrelate B, H, M, no, H and y_< • relate B & H for various magnetic and non-magnetic materials • derive an equation in analogy with Ohm's law for a magnetic circuit.
+Fig.
+5.1: Domain Consider two electrons on atoms that are close to each other.
+If the electron spins are parallel, they stay away from each other due to Pauli’s principle, thereby reducing their coulomb energy of repulsion.
+On the other hand, if these spins are anti-parallel, the electrons can come close to each other and their coulomb energy is higher.
+Thus, by making their spins parallel, the electrons can reduce their energy.
+3.0 MAIN CONTENT 3.1 Ferromagnetism Ferromagnetic materials are those materials, which respond very strongly to the presence of magnetic fields.
+In such materials, the magnetic dipole moment of the atoms arises due to the spins of unpaired 89PHY204 ELECTROMAGNETISM electrons.
+These tend to line up parallel to each other.
+Such a line-up does not occur over the whole material, but it occurs over a small volume, known as 'domain\ as shown in Fig.
+12.1.
+However, these volumes are large compared to the atomic or molecular dimensions.
+Such line-ups take place even in the absence of an external magnetic field.
+You must be wondering about the nature of forces that cause the spin magnetic moments of different atoms to line up parallel to each other.
+This can be explained only by using quantum mechanical idea of "exchange forces".
+We will not go into the details of exchange forces.
+About this, you will study in other courses of physics, but we are giving you some idea of exchange forces in the margin remark.
+Fig.
+5.2 The domains in an unmagnetised bar of iron.
+The arrows show the alignment direction of the magnetic moment in each domain In an unmagnetized ferromagnetic material, the magnetic moments of different domains are randomly oriented, and the resulting magnetic moment of the material, as a whole is zero, as shown in Fig.
+5.2.
+However, in the presence of an external magnetic field, the magnetic moments of the domains line-up in such a manner as to give a net magnetic moment to the material in the direction of the field.
+The mechanism by which this happens is that the domains with the magnetic moments in the favoured directions increase in size at the expense of the other domains, as shown in Fig.
+5.3a.
+Fig.
+5.3 In a ferromagnetic material domain changes, resulting in a net magnetic moment, occur through (a) domain growth and (b) domain realignment 90 PHY204 MODULE 1 In addition, the magnetic moments of the entire domains can rotate, as shown in Fig.
+5.3b.
+The material is thus magnetised.
+If, after this, the external magnetic field is reduced to zero, there still remains a considerable amount of magnetization in the material.
+The material gets permanently magnetized.
+The behaviour of ferromagnetic materials, under the action of changing magnetic fields, is quite complicated and exhibits the phenomenon of hysteresis which literally means 'lagging behind'.
+You will study more about this in Sec.
+5.5.
+Above a certain temperature, called the 'Curie Temperature', because the forces of thermal agitation dominate 'exchange' forces, the domains lose their dipole moments.
+The ferromagnetic material begins to behave like a paramagnetic material.
+When cooled, it recovers its ferromagnetic properties.
+Finally, we briefly mention two other types of magnetism, which are closely related to ferromagnetism.
+These are anti-ferromagnetism and ferrimagnetism (also called ferrites).
+In this course, we will not study the physics of antiferro- and ferrimagnetism.
+The main reason for mentioning these materials are that they are of technological importance, being used in magnetic recording tapes, antenna and in computer memory.
+In antiferromagnetic substances, the 'exchange' forces, as we mentioned earlier, play the role of setting the adjacent atoms into antiparallel alignment of their equal magnetic moments, that is, adjacent magnetic moments are set in opposite directions, as shown in Fig.
+5.4 a.
+Such substances exhibit little or no evidence of magnetism present in the body.
+However, if these substances are heated above the temperature known as Neel temperature, the exchange force ceases to act and the substance behaves like any other paramagnetic material.
+In ferrimagnetic substances, known generally as ferrites, the exchange coupling locks the magnetic moments of the atoms in the material into a pattern, as shown in Fig.
+5.4b.
+The external effects of such an alignment is intermediate between ferromagnetism and antiferromagnetism.
+Again, here the exchange coupling disappears above a certain temperature.
+Fig.
+5.4 Relative orientation of electron spins in (a) antiferromagnetic material and (b) ferrite.
+91PHY204 ELECTROMAGNETISM Thus, we find that the magnetization of the materials is due to permanent (and induced) magnetic dipoles in these materials.
+The magnetic dipole moments in these materials are due to the circulating electric currents, known as amperian currents at the atomic and molecular levels.
+You are expected to understand the correct relationship between magnetization in a material and the amperian currents, together with the basic difference (and sometimes similarities) between the behaviour of the magnetic materials in magnetic fields, and dielectrics (and conductors) in electric fields.
+Though the physics of paramagnetic and ferromagnetic materials have analogues in the electric case, diamagnetism is peculiar to magnetism.
+The student is advised to read the matter in this unit and find the analogies and appreciate the differences, if any, by referring back to the units on dielectrics.
+In the next section, we will find out the relationship between the macroscropic quantity M, which is experimentally measurable and the atomic currents (a microscopic quantity) within the material which is not measurable.
+With the help of this relationship, we can find out the magnetic field that magnetised matter itself produces.
+3.2 Magnetic Field Due to a Magnetised Material In Unit 1, we have described the macroscopic properties of dielectric materials in terms of the polarization vector P, the origin of which is in the dipole moments of its natural or induced electric dipoles.
+We shall adopt a similar procedure in the study of magnetic materials.
+You would be tempted to say that we should carry over all the equations in the study of dielectrics to magnetic materials.
+One way of doing this would be to replace the electric field vector E by B, then replace P by an analogous quantity which we shall call magnetization vector M which is the magnetic dipole moment per unit volume.
+Further, we replace the polarization charge density r by magnetic 'charge' density r p m whatever that means, by writing (cid:209) (cid:215) M =- r just as we had (cid:209) (cid:215) P = r .
+m p In fact, people did something like this, and they believed that magnetic charges or monopoles exist.
+They have built a whole theory of electromagnetism on this assumption.
+However, we know that magnetic 'charges' or monopoles have not yet been detected in any experiment so far, despite a long search for them.
+Now, we know that the magnetization of matter is due to circulating currents within the atoms of the materials.
+This was originally suggested by Ampere, and we call these circulating currents as 'amperian' current loops.
+These currents arise due to either the orbital motion of electrons in the atoms or their spins.
+These currents, obviously, do not involve large scale charge transport in the magnetic materials as in the case of conduction currents.
+92 PHY204 MODULE 1 These currents are also known as magnetization currents, and we shall relate these currents to the magnetization vector M. Let us consider a slab of uniformly magnetised material, as shown in Fig.
+5.5a.
+It contains a large number of atomic magnetic dipoles (evenly distributed throughout its volume) all pointing in the same direction.
+If m is the magnetic moment of each dipole, then the magnetisation M will be the product of m and the number of oriented dipoles per unit volume.
+You know that the dipoles can be indicated by tiny current loops.
+Suppose the slab consists of many tiny loops, as shown in Fig.
+5.5b.
+Let us consider any tiny loop of area a, as shown in Fig.
+5.5c.
+In terms of magnetisation M, the magnitude of dipole moment m is written as follows: m = Madz (5.1) where dzis the thickness of the slab.
+Fig.
+5.5: (a) A thin slab of uniformly magnetized material, with the dipoles indicated by (b) and (c) tiny current loops is equivalent to (d) a ribbon of current/ flowing around the boundary 93PHY204 ELECTROMAGNETISM If the tiny loop has a circulating current I , then the dipole moment of the tiny loop is given by m = Ia (5.2) Equating (5.1) and (5.2) we get I M = or I = Mdz (5.3) dz Here we have assumed that the current loops corresponding to magnetic dipoles are large enough so that magnetisation does not vary appreciably from one loop to the next, so Eq.
+5.3 shows that the current is the same in all current loops of Fig.
+5.5b.
+Notice that within the slab, currents flowing in the various loops cancel, because every time if there is one going in one particular direction, then a continuous one is going in the exactly opposite direction.
+At the boundary of the slab, there is no adjacent loop to do the cancelling.
+Hence the whole thing is equivalent to the single loop of current I flowing around the boundary, as shown in Fig.
+5.5d.
+Therefore, the thin slab of magnetised material is equivalent to a single loop carrying the current Mdz, Hence, the magnetic field at any point external to the slab, is the same as that of the current Mdz.
+In case there is non-uniform magnetization in the material, the atomic currents in the (amperian) circulating current loops do not have the same magnitude at all points inside the material and, obviously, they do not cancel each other out inside such a material.
+Still we will find that magnetised matter is equivalent to a current distribution J = curl M. Let us see how we have arrived at this relation.
+In the non-uniformly magnetised material consider two little blocks of the volume D xD yD z, cubical in shape adjacent to each other along the y- axis (see Fig.
+5.6a).
+Let us call these blocks ' 1' and '21 respectively.
+Let the z-component of M in these blocks be Mz(y) and M (y+D y) z respectively.
+Let the amperian currents circulating round the block ' 1' be I ( 1 ) and round the block '2' be I (2).Using Eq.
+(5.3) and referring to Fig.
+5.6a we write, I (1)= M (y)D z x z and I (2)= M (y+D y)D z x z 94 PHY204 MODULE 1 Fig.
+5.6: Two adjacent chunks of magnetised material, with a larger arrow on the one to the right in (a) and above in (b), suggesting greater magnetisation at that point.
+On the surface where they join there is a net current in the x-direction.
+At the interface of the two blocks, there will be two contributions to the total current: I (1) flowing in the negative x-direction, produced due to block 1, and I (2) flowing in the positive x-direction produced due to Block 2.
+The total current in the positive x-direction is the sum: I (2)- I (1)=[M (y+D y)- M (y)]D z x x z z or ¶ M D I =+ z D yD z (5.4) x ¶ y Eq.
+(5.4) gives the net magnetization current in the material at a point in the x-direction in terms of the z-component of M. The current per unit area, i.e., current density J flowing in the x-direction is given as m follows: D I (J ) = x m x D yD z where D yD z is the area of cross-section of one such block for the current D I .
+Hence x ¶ M (J ) =+ z (5.5) m x ¶ y In these equations, we have put suffixes x to the currents to indicate that, at the interface of the blocks, the current is along the x-axis.
+95PHY204 ELECTROMAGNETISM If the magnetisation in the first block is ¶ M M(x,y,z)+ D y+ higher order terms.
+¶ y Thez-component of magnetisation of the first block in terms of I (1) is written as M D z = I (1).
+x z x Similarly, the z-component of magnetisation of the second block neglecting high-order terms which vanish in the limit where each block becomes very small, is given by  ¶ M  M + z D z = I (2)  z ¶ y  x There is another way of obtaining the current flowing in x-direction by considering these two tiny blocks, one above the other, along the z-axis, as shown in Fig.
+5.6b.
+We obtain the relation as ¶ M (J ) =- z (5.6) m x ¶ y By superimposition of these two situations, we get ¶ M ¶ M (J )x = z - y =((cid:209) · M) (5.7) m ¶ y ¶ z x Eq.
+(5.7) is obviously the x-component of a vector equation relating J m and the curl of M. Combining this with y and z components, we obtain J =(cid:209) · M (5.8) m Eq.
+(5.8) is a more general expression representing the relationship between the magnetisation and the equivalent current.
+We see from Eq.
+(5.8) that inside a uniformly magnetized material in which case M = constant; we have J = 0.
+This is true.
+See Eq.
+(5.8), the current is only m at the surface of the material where the magnetization has a discontinuity (dropping from a finite M to zero).
+Inside a non-uniformly magnetized material J is nonzero.
+m We shall see in the next section thatJ , which is introduced to explain m the origin of magnetisation in a material, is made to make its exit from 96 PHY204 MODULE 1 the equation, and only the conduction current density indicating the actual charge transport and which is experimentally measurable remains.
+3.3 The Auxiliary Field H (Magnetic Intensity) So far we have been considering that magnetisation is due to current associated with atomic magnetic moments and spin of the electron.
+Such currents are known as bound currents or magnetisation amperian current.
+The current density J in Eq.
+(5.8) is the bound current set up m within the material.
+Suppose you have a piece of magnetised material.
+What field does this object produce?
+The answer is that the field produced by this object is just the field produced by the bound currents established in it.
+Suppose we wind a coil around this magnetic material and send through this coil a certain current,I Then the field produced will be the sum of the field due to bound currents and the field due to current,I .
+The current I is known as the free current because it is flowing through the coil and we can measure it by connecting an ammeter in series with the coil.
+(In case the magnetic material happens to be a conductor, the free current will be the current flowing through the material itself.)
+Remember that free currents are those caused by external voltage sources, while the internal currents arise due to the motion of the electrons in the atoms.
+The current is free, because someone has plugged a wire into a battery and it can be started and stopped with a switch.
+Therefore, the total current density J can be written as: J = J + J (5.9) f m where, J represents the free current density.
+f Let us use Ampere's law to find the field.
+In differential form, it is written as: (cid:209) · B = m J (*) 0 Using Eq.
+(5.9), Ampere's law would then take the form as follows: (cid:209) · B = m (J +J ) 0 f m As mentioned earlier, we have no way to measure J experimentally, m but we have a way to express it in terms of a measurable quantity, the magnetization vector M through the Eq.
+(5.8).
+We then have 97PHY204 ELECTROMAGNETISM (cid:209) · B = m J +m ((cid:209) · M) 0 f 0 or  B  (cid:209) ·  - M= J (5.10) m f   0  B  Eq.
+(5.10) is the differential equation for the field  - M in terms of m   0 its source J , the free current density.
+This vector is given a new f symbol H, i.e., B - M =H (5.11) m 0 The vector H is called the magnetic 'intensity' vector, a name that rightly belongs to B, but, for historical reasons, has been given to H. Using Eq.
+(5.11), Eq.
+(5.10) becomes, (cid:209) · H = J (5.12) f In other words, H is related to the free current in the way B is related to the total current, bound plus free.
+This surely has made you think over the purpose of introducing the new vector field H. For practical reasons the vector H is very useful as it can be calculated from the knowledge of external current only, whereas B is related to the total current, which is not known.
+Eq.
+(5.12) can also be written in the integral form as ∫ H(cid:215) dl = I (5.13) f where I is the conduction current through the surface bounded by the f path of the line integral on the left.
+Here the line integral of H is around the closed path, which may or may not pass through the material.
+This equation can be used to calculate H, even in the presence of the magnetic material.
+SELF ASSESSMENT EXERCISE 1 Fig.
+5.7 shows a piece of iron wound by a coil carrying a current of 5A.
+Find the value of ∫ H(cid:215) dl = I around the path (1), (2) and (3).
+Also f state for which path(s) B = H and B „ H. 98 PHY204 MODULE 1 From Eq.
+(5.3), we see that the unit in which M is measured is amperes per meter.
+Eq.
+(5.11) shows that the vector H has the units as M, hence H is also measured in amperes per metre.
+The electrical engineers working with electromagnets, transformers, etc., call the unit of H ampere turns per metre.
+Since 'turns', which is supposed to imply the number of turns in the coil carrying a current, is dimensionless, it need not confuse you.
+Magnetic Properties of Substance In paramagnetic and diamagnetic materials, the magnetisation is maintained by the field.
+When the field is removed, M disappears.
+In fact, it is found that M is proportional to B, provided that the field is not too strong.
+Thus M(cid:181) B (5.14) It is conventional to express Eq.
+(5.14) in terms of H instead of B.
+Thus we have M = c H (5.15) m The constant of proportionality c is called the magnetic susceptibility m of the material.
+It is a dimensionless quantity, which varies from one substance to another.
+We can characterise the magnetic properties of a substance by c .
+It is negative for diamagnetic substances and positive m for paramagnetic materials.
+Its magnitude is very small compared to unity, that is |c | < < 1.
+For vacuum c is zero, since M can only exist m m in magnetised matter.
+We give below a short table giving the values of c for diamagnetic and paramagnetic substances at room temperature.
+m 99PHY204 ELECTROMAGNETISM M a t erial c m Paramagnetic Aluminium 2.1 · 10- 5 Paramagnetic Sodium 0.84 · 10- 5 Paramagnetic Tungsten 7.6· 10- 5 Paramagnetic Oxygen 190· 10- 5 Diamagnetic Bismuth -1.64· 10- 5 Diamagnetic Copper - 0.98· 10- 5 Diamagnetic Silver - 2.4· 10- 5 Diamagnetic Gold -3.5· 10- 5 We have not given a table for the susceptibilities of ferromagnetic substances as c depends not only on H but also on the previous m mangetic history of the material.
+Using Eq.
+(5.11) in the form B = m (H+M) 0 we have, B = m (1+c )H (5.16) 0 m = m K H 0 m \ B = m H (5.17) where m = m K = m (1+c ) 0 m 0 m m \ K = (5.18) m m 0 m is called the permeability of the medium and K is called the m relative permeability.
+We see that m has the same dimensions as m 0 and K is dimensionless.
+In vacuum c = 0 and m = m .
+Relative m m 0 permeability K differs from unity by a very small amount as K for m m para- and ferromagnetic materials are greater than unity and for diamagnetic material it is less than unity.
+The magnetic properties of a material are completely specified if any one of the three quantities, magnetic susceptibility,c , relative m permeability K or permeability m is known.
+m 100 PHY204 MODULE 1 Example 1 A toroid of aluminium of, length 1 m, is closely wound by 100 turns of wire carrying a steady current of 1 A.
+The magnetic field B in the toroid is found to be 1.2567· 10- 4 Wb m– 2.
+Find (i) H, (ii) c , and K (iii) M m m in the toroid and (iv) equivalent surface magnetization current I .
+m Solution (i) According to Eq.
+(5.13) ∫H(cid:215) dl = I f To evaluate H produced by the current, we consider a circular integration path along the toroid.
+H is constant everywhere along this path of length 1m.
+The number of current turns threading this integration path is 100· 1A.
+Since H is everywhere parallel to the circular integration path, we get H · 1 m = 100· 1 A or 100· 1A H = = 100 A/m 1m (ii) From Eq.
+(5.16) B = m K H 0 m or B 1256.7· 107 1 K = = · = 1.00005 m m H 4p · 10- 7 100 0 and (1+c )= K m m \ c = K - 1 = 1.00005 – 1 = 5· 10- 5 m m (iii) From Eq.
+(5.15) M = c H m 101PHY204 ELECTROMAGNETISM = 5· 10- 5· 100A m – 1 = 5· 10- 3 A m – 1 (iv) I = ML m = 5· 10- 3 A m – 1 · 1 m = 5 mA In this solution, we have assumed B, H and M to be uniform over the cross-section of the toroid and along the axis of the toroid.
+Try to do the following SAE SELF ASSESSMENT EXERCISE 2 An air-core solenoid wound with 20 turns per centimetre carries a current of 0.18 A.
+Find H and B at the centre of the solenoid.
+If an iron core of absolute permeability 6· 10- 3H m–1 is inserted in the solenoid, find the value of H and B?
+3.4 Relationship between B and H for Magnetic Material The specific dependence of M on B will be taken up in this section.
+The relationship between M and B or equivalently a relationship between B and H depend on the nature of the magnetic material, and are usually obtained from experiment.
+A convenient experimental arrangement is a toroid with any magnetic material in its interior.
+Around the toroid, two coils (primary and secondary) are wound, as shown in Fig.
+5.8.
+If we consider the radius of the cross-section of the toroidal windings to be small in comparison with the radius of the toroid itself, the magnetic field within the toroid can be considered to be approximately uniform.
+A current passing through the primary coil establishes H. The establishment of the current in the primary coil induces an electromotive force (emf).
+By measuring the induced voltage, we can determine changes in flux F and hence, in B inside the magnetic material.
+If we take H as the independent variable, and if we keep the track of the changes in B starting from B = 0, we can always know what B is for a particular value of H. In this way, we can obtain a B-H curve for different types of magnetic material.
+102 PHY204 MODULE 1 Fig.
+5.8 Arrangement for investigating the relation between B and M, or B and H, in a magnetic material The experiment described above can be carried out for diamagnetic and paramagnetic materials by commencing with I = 0 and slowly increasing the value of I to obtain a series of values of B and H. A plot of B against H for these substances is shown in the Fig.
+5.9(a).
+We see that the graph is a straight line as expected from the relation B = m (1+c )H (5.16) 0 m Fig.
+5.9 Internal magnetic field (B) versus applied magnetic field (H) for different types of magnetic materials, (a) In diamagnetic and paramagnetic materials, the relationship is linear, (b) In ferromagnetic materials, the relationship depends on the strength of the applied field and on the past history of the material, in (b), the field strengths along the vertical am are much greater than along the horizontal axis.
+Arrows indicate the direction in which the fields are changed.
+where m and c are constants.
+The slope of the graph is given by c 0 m m can be determined using the following relation: slope c = - 1 m m 0 103PHY204 ELECTROMAGNETISM For diamagnetic substances, slope< m makingc <0.
+For 0 m paramagnetic materials slope > m , so that c >0.
+0 m If in the experiment given above we use ferromagnetic materials like iron, we obtain a typical B – H curve as shown in Fig.
+5.9(b).
+(i) At I = 0, i.e., when H = 0, B is zero.
+When I is increased.
+B and H are determined for increasing values of I .
+At first, B increases with H along the curve 'a'.
+At some high value of H, the curve (shown by the dashed line in the figure) becomes linear, indicating that M ceases to increase, as the material has reached saturation with all the domain dipole moments in the same direction.
+(ii) If, after reaching saturation, we decrease the current in the coil to bring H back to zero, the E-H curve falls along the curve 'b'.
+When I reaches zero, there is still some B left, implying that even when I = 0, there is still some magnetization of M left in the specimen.
+The material is permanently magnetized.
+The value of B for H = 0 is called remanence.
+(iii) If the current is reversed in the primary coil and made to increase its value, the B-H curve runs along the curve 'b' until B becomes zero at a certain value of H. This value of H is called the coercive force.
+If we continue to increase the value of the current in the negative direction, the curve continues along 'b' until saturation is reached again.
+(iv) The current is now decreased until it becomes zero once again.
+This corresponds to H = 0, but B is not zero and have magnetization in the opposite direction.
+Here we reverse the current again, so that the current in the coil is once more along the positive direction.
+With the increasing current in this direction, the curve continues along the curve 'c' to meet the curve 'b' at saturation.
+If we alternate the current between large positive and negative values, the B-H curve goes back and forth along 'b ' and 'c ' in a cycle.
+This cycle curve is called hysteresis curve.
+It shows that B is not a single valued function of H, but depends on the previous treatment of the material.
+The shape of the hysteresis loop varies very widely from one substance to another.
+Those substances, like steel, alnico, etc., from which permanent magnets are made, have a very wide hysteresis loop with a large value of the coercive force (see Fig.
+5.10).
+However, those 104 PHY204 MODULE 1 substances, like soft iron, permalloy, etc., from which electromagnets (temporary magnet) are made, should have large remanence but very small coercive force.
+Those ferromagnetic materials, which are used in the cores of transformers, like iron-silicon (0.8-4.8%) alloys, have very narrow hysteresis loop.
+Fig.
+5.10 The hysteresis curves for a few materials.
+Curves (a) and (b) are respectively for specimen of soft - iron and steel materials 3.5 Magnetic Circuits A magnetic circuit is the closed path taken by the magnetic flux set up in an electric machine or apparatus by a magnetising force.
+(The magnetising force may be due to a current coil or a permanent magnet.)
+In order to study the resemblance between a magnetic circuit and an electric circuit, we will develop a relation corresponding to Ohm's law, for a magnetic circuit.
+Let us consider the case of an iron ring (Fig.
+5.11) magnetised by a current flowing through a coil wound closely over it.
+Suppose: I = current flowing in the coil N = number of turns in the coil l = length of the magnetic circuit (mean circumference of the ring) A = area of cross-section of the ring m = permeability of iron.
+In this case, all the magnetic flux produced is confined to the iron ring with very little leakage (we shall see the reason for this later).
+We have seen earlier that H inside the ring is given by 105PHY204 ELECTROMAGNETISM Fig.
+5.11 Magnetic circuit ∫ H(cid:215) dl = NI (from Ampere's law) where, the path of integration is along the axis of the ring.
+As the line integral of electric field E over a circuital path is the electromotive force (e.m.f), by analogy, the line integral of H is termed as magnetomotive force (M.M.F.)
+\ M.M.F.
+= ∫ H(cid:215) dl = NI At every point along this path in the ring, we write B H = m Further, if F is the magnetic flux given by F = BA, then H =F /mA, hence dl M.M.F.
+= ∫ H(cid:215) dl =F ∫ = NI (5.19) m A where we have taken F outside the integral as it is constant at all cross- sections of the ring.
+Eq.
+(5.19) reminds us of a similar equation for an electric circuit containing a source of E.M.F., namely, r dl e.m.f.
+= current · resistance = I∫ (5.20) A The Eqs.
+(5.19) and (5.20) suggest that: (i) The magnetomotive force (∫ H(cid:215) dl) is analogous with e.m.f.
+(∫ E(cid:215) dl).
+106 PHY204 MODULE 1 (ii) The magnetic flux F is analogous with current I in Ohm's law,  dl  (iii) The magnetic resistance known as reluctance ∫  is    m A  r dl analogous with electric resistance ∫   A  \ M.M.F.
+= flux · reluctance or M.M.F NI Total flux F = = (5.21) reluctance dl ∫ m A If we take m to be constant throughout the ring then dl L reluctance ´ = ∫ = (5.22) m A m A where L is the length of the ring.
+However, we must recognise the significant difference between an electric circuit and a magnetic circuit: (i) Energy is continuously being dissipated in the resistance of the electric circuit, whereas no energy is lost in the reluctance of the magnetic circuit.
+(ii) The electric current is a true flow of the electrons but there is no flow of such particle in a magnetic flux.
+(iii) At a given temperature, the resistivity r is independent of 1 current, while the corresponding quantity in reluctance varies m F with magnetic flux .
+Reluctances in Series Let us assume that the toroid is made of more than one ferromagnetic material, each of which is of the same cross-sectional area A, but with different permeabilities m , m , … 1 2 107PHY204 ELECTROMAGNETISM Fig.
+5.12 (a) A magnetic circuit composed of several materials: Reluctances in series, (b) Magnetic circuit consisting of two loops: Reluctances in parallel.
+Then, (see Fig.
+5.12a) as before, we have NI = ∫ H(cid:215) dl = ∫ H(cid:215) dl+∫ H(cid:215) dl+... 1 2 where the integrals on the right are taken over axial paths in the materials 1,2, ....
+Therefore, F F M.M.F.
+= ∫ dl+∫ dl+... 1 m A 2m A 1 2 dl dl = F ∫ +∫ +... 1 m A 2m A 1 2  L L  =F  1 + 1 +... m A m A  1 2 = F (´ +´ +...)=F ´ 1 2 so that the total reluctance of the given magnetic circuit is given by ´ =´ +´ +... (5.23) 1 2 Reluctances in Parallel We shall next illustrate the case of a magnetic circuit in which the reluctances are in parallel.
+Fig.
+5.12b shows such a magnetic circuit.
+The current carrying coils have N turns each, carrying a current I amperes.
+108 PHY204 MODULE 1 The magnetic flux F threading the coil splits into two paths with fluxes F and F as shown in the figure.
+Obviously, F =F +F .
+We assume 1 2 1 2 that the area of cross-section A is constant everywhere in the circuit.
+Let the lengths of the paths ABCD, DA and DEFA shown in the figure be L, L , and L respectively.
+For the path ABCDA, we have 1 2 F F NI = ∫ dl+ ∫ dl m A m A ABCD DA F F = L+ 1 L (5.24) m A m A 1 1 Similarly for the closed path ADEFA , we have F F 0= ∫ dl+ ∫ dl (5.25) m A m A AD DEFA Notice that we have used m and m for the paths AD and DEFA.
+1 2 AsF ’s being different for these paths, H would be different.
+This makesm ’s different in these paths.
+Using F =F +F and Eq.
+(5.25), 1 2 we write m L F = F +F 2 1 1 1 m L 1 2  m L  = F 1+ 2 1  1 m L  1 2 Substituting the value of F from the above equation in the Eq.
+(5.24), 1 we have  L L   1 (cid:215) 2  F  m A m A  NI = L + F 1 2 m A  L L   1 (cid:215) 2   m A m A  1 2 or  ´ ´  NI = F ´ + 1 2  (5.26) ´ ´   1 2 109PHY204 ELECTROMAGNETISM This shows that the reluctances of the paths DA and DEFA are in parallel as the magnetic flux F splits into F and F along these paths 1 2 respectively.
+The combined reluctance ´ of these paths is given, in terms of the reluctances ´ and ´ of these paths, as follows 1 2 1 1 1 = + (5.27) ´ ´ ´ 1 2 Notice that the Eq.
+(5.24), (5.25) and F =F +F are the statements of 1 2 Kirchhoff's laws for magnetic circuits.
+Now we see why the magnetic flux does not leak through the air.
+Air forms a parallel path for the flux, for air, m = m and for a ferromagnetic 0 materialm » 104; hence the air path is a very high reluctance path compared to that through the ferromagnetic material.
+The magnetic flux will follow the path of least reluctance, a situation similar to that in the electric circuit.
+The magnetic circuit formulae are used by the electrical engineers in calculations relating to electromagnets, motors and dynamos.
+The problem is usually to find the number of turns and the current in the winding of a coil, which is required to produce a certain flux density in the air gap of an electromagnet.
+Knowing the reluctance of the circuit, M.M.F.
+is calculated from the relation: M.M.F.
+= flux · reluctance Since M.M.F.
+is also NI (see Eq.
+(5.19)), the magnitude of ampere turns can be calculated.
+Let us illustrate it by studying the magnetic circuit of an electromagnet.
+Magnetic Circuit of an Electromagnet The magnetic circuit of an electromagnet consists of the yoke which forms the base of the magnet, the limbs on which the coil is wound, the pole pieces and the air gap.
+See Fig.
+5.13.
+Let l be the effective length 1 and a the area of cross-section of the yoke.
+If m is the permeability of 1 l its iron, then 1 is the reluctance of the yoke.
+Similarly the reluctance m a 1 1 l of each limb is 2 m a 2 2 110 PHY204 MODULE 1 l and the reluctance of each pole piece is 3 , while the reluctance of m a 3 3 l the air gap is 4 (because m » 0).
+Hence the total reluctance of the m a air 0 4 magnetic circuit is l 2l 2l l 1 + 2 + 3 + 4 m a m a m a m a 1 1 2 2 3 3 0 4 Fig.
+5.13 Magnetic circuit of an electromagnet.
+If the magnetic circuit carries one and the same flux F across all its parts, then according to Eq.
+(5.19), the number of ampere turns is:  l 2l 2l l  F  1 + 2 + 3 + 4  (5.28)    m a m a m a m a  1 1 2 2 3 3 0 4 Let us take another example of calculating the magnetic field B in the air gap of a toroid of Fig.
+5.14.
+Here the toroid is of a ferromagnetic material (soft iron) with a small air gap of width 'd ' which is small compared to the length L of the toroid.
+For this case, we have (L - d) d  NI = F  +  , F being the flux through this  m A m A 0 magnetic circuit.
+B = [m (L- d)+m d] m m 0 0 or NIm m B = 0 (5.29) m L+(m - m )d 0 0 111PHY204 ELECTROMAGNETISM This is the value of the magnetic field in the air gap.
+Read the following example which shows how the air gap effectively increases the length of the toroid.
+Fig.
+5.14: Magnetic field in the air gap Example 2 Compare the examples of a complete toroid of length L wound with a coil of N turns each carrying a current I amperes and of a toroid of length (L- d ) with an air gap of length d(d << L).
+Show that the air gap effectively increases the length of the toroid by (K - 1)d , where K is m m the relative permeability.
+Solution In the case of a complete toroid without the air gap, we have L B = NI/ .
+In the event of an air gap of length d , we have from Eq.
+m   (5.29): NIm m B = 0 m L+(m - m )d 0 0 Dividing both the numerator and the denominator by m m , we get 0 NI NI B = = L  1 1  1  d  + - d (L- d)+  m m m m m     0 0 NI NI = = 1 d  1 m (L- d)+m  m [(L- d)+Kmd]   0 112 PHY204 MODULE 1 so that NI B = 1 [L+(K - 1)d] m m If we compare this formula with that for the complete toroid, we see that L is effectively increased by (K - 1)d. m Before ending this unit solve the following SAQ.
+SELF ASSESSMENT EXERCISE 3 A soft iron ring with a 1.0 cm air gap is wound with a coil of 500 turns and carries a current of 2 A.
+The mean length of iron ring is 50 cm, its cross-section is 6cm2, its permeability is 2500m .
+Calculate the magnetic 0 induction in the air gap.
+Find also B and H in the iron ring.
+Let us now sum up what we have learnt in this unit.
+4.0 CONCLUSION In this unit, we have explained the terms, ferromagnetism, amperian current, Magnetisation, M, Magnetic intensity, H, susceptibility, permeability etc.
+An analogy has been derived for magnetic circuit from Ohm’s law.
+In addition, we have learnt about the inter-relationship between, M, H and other quantities.
+5.0 SUMMARY The behaviour of the ferromagnetic materials is complicated on account of the permanent magnetization and the phenomenon of hysteresis.
+This behaviour is explained by the presence of the domains in these materials.
+In each domain the dipole moments are locked to remain parallel due to 'exchange' force.
+However, in the unmagnetised state, the magnetisation directions of different domains are random, resulting in a zero net magnetisation.
+There also exist two other kinds of magnetic materials: antiferromagnetic and ferrimagnetic.
+For non-uniform magnetisation, magnetised matter is equivalent to a current distributionJ =(cid:209) · M, where M is magnetisation or magnetic moment per unit volume.
+The magnetic field produced by the magnetised material is obtained by Ampere's law as follows: (cid:209) · B =J +J f m 113PHY204 ELECTROMAGNETISM where J is the free current density which flows through the material f and J is the bound current density which is associated with m magnetisation.
+This gives  B  (cid:209) ·  - M=J m f   0 where  B  H= - M  is a new field vector.
+m   0 For paramagnetism and diamagnetism B, M and H are linearly related to each other, but for ferromagnetic materials which exhibit hysteresis, a non-linear behaviour.
+The study of the electromagnets, motors and dynamos involves the problem of current carrying coils containing ferromagnetic materials, i.e., it involves the study of magnetic circuits.
+We speak of the magnetic circuits when all the magnetic flux present is confined to a rather well- defined path or paths.
+The magnetic circuit formula is: magnetomotive force (M.M.F.)
+= flux · reluctance M.M.F.
+is also equal to NI where N is the number of turns of the coil wound over the magnetic material and I the current flowing through each coil.
+l Reluctance ´ = m a where l, a and m are the length, area of cross-section and permeability of the material.
+Additions of reluctances obey the same rules as additions of resistances.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Find the magnetizing field H and the magnetic flux density B at (a) a point 105 mm from a long straight wire carrying a current of 15 A and (b) the centre of a 2000-turn solenoid which is 0.24m long and bears a current of 1.6 A.
+(m = 4p · 10- 7H/m).
+0 2.
+A toroid of mean circumference 0.5 m has 500 turns, each carrying a current of 0.15 A.
+(a) Find H and B if the toroid has an 114 PHY204 MODULE 1 air core, (b) Find B and the magnetization M if the core is filled with iron of relative permeability 5000.
+3.
+A toroid with 1500 turns is wound on an iron ring 360 mm2 in cross-sectional area, of 0.75-m mean circumference and of 1500 relative permeability.
+If the windings carry 0.24A, find (a) the magnetizing field H (b) the m.m.f., (c) the magnetic induction B, (d) the magnetic flux, and (e) the reluctance of the circuit.
+7.0 REFERENCES/FURTHER READING IGNOU (2005).
+Electricity and Magnetism, Physics PHE-07, New Delhi, India.
+SOLUTIONS AND ANSWERS UNIT 1 SELF ASSESSMNET EXERCISES (1) Please see text.
+(2) The dipole moment per molecule = p The number of molecules per unit volume = n \ The dipole moment per unit volume = n p By definition, the dipole moment per unit volume = Polarisation P \ P = n p (3) The dielectric constant K is given by E K = E 0 without the dielectric the electric field would be q 1.0· 10- 7C E = = 0 e A (8.85· 10- 12C2N- 1m2)(100· 10- 4m2) 0 115PHY204 ELECTROMAGNETISM = 1.13· 106Vm- 2 1.13· 106Vm- 2 Dielectric constant = 3.3· 105Vm- 2 The surface charge density on the plate is q 1.0· 10- 7C = =1.0· 10- 6Cm- 2 A 100m2 (4) From Eq.
+(1.12) (cid:209) (cid:215) D= r f (i) we know that D=e E+P 0 Putting the value of D in Eq.
+(i) D=e E+P = r 0 f When P = 0, the above equation becomes (cid:209) (cid:215) e E= r 0 f r (ii) (cid:209) (cid:215) E= f e 0 Eq.
+(1.11) is e (cid:209) (cid:215) e E= r +r 0 0 f p when r = 0, the above equation reduces to p e (cid:209) (cid:215) e E= r 0 0 f or r (cid:209) (cid:215) E= f e 0 (iii) Eq.
+(ii) and Eq.
+(iii) are the same.
+Hence prove the result.
+116 PHY204 MODULE 1 (5) (i) The capacitance is A C =e l Before, calculating the capacitance, we will calculate the permittivity of the dielectric as follows: e = e e 0 r = (6.0)(8.85)· 10- 12farad/m = 5.31· 10- 11farad/m Thus, A C =e =(5.31· 10- 11farad/m) l = 1.71· 10- 11 farad (ii) We know that Q =CV = (1.71· 10- 11farad) (10 V) = 1.71· 10- 10C (iii) The dielectric displacement is calculated as follows: V (5.31· 10- 11 farad/m)(10V) D =e E =e = l 2· 10- 3m = 2.655· 10- 7Cm– 2 (iv) The polarisation is V P = D- e E = D- e 0 0 l = 2.66· 10- 7 (8.85· 10- 12 farad/m)(10V) Cm– 2 - 2· 10- 3m (6) Let s be the charge density on the surface of the plates.
+Considering each plate as an infinite plane sheet charge, the intensity at a point between them due to positively charged plate =s /2e .
+0 117PHY204 ELECTROMAGNETISM The intensity at the point due to the negatively charged plate is also = s /2e acting in the same direction.
+Hence the resultant 0 intensity at the point is s s s + = 2e 2e e 0 0 0 Since E= 50 N/C and e =8.854· 10- 12farad/m 0 s =50 e 0 \ s =e · 50=8.854· 10- 12· 50 0 = 442.7· 10- 12Cm – 2 Total charge on each plate = e E· Area of each plate 0 = 442.7· 10- 12· 1 = 4.427· 10- 10C (7) From Eq.
+(1.21) we have ∫E(cid:215) dl =0 From vector analysis we have ∫E(cid:215) dl = ∫((cid:209) · E)(cid:215) ndS= - ∫ (cid:209) (cid:215) (n· E)dS Surface = 0 For ∫ (cid:209) (cid:215) (n· E)dS to be zero, the integrand (cid:209) (cid:215) (n· E) has to be to zero.
+Again, in as much as (cid:209) (cid:215) (n· E) represents a space derivative operation we can set n· E to be either a constant or zero.
+If we set n· E = 0 then a trivial result follows.
+So it is better to choose n· E= a constant Applying this to Fig.
+1.11, we get 118 PHY204 MODULE 1 n· E =n· E 1 2 which is Eq.
+(1.23a).
+(8) The integral from of Gauss' law in dielectrics is ∫D(cid:215) dS= total free charge enclosed Surface (Refer to the Fig.
+1.10) (n(cid:215) D - n(cid:215) D )ds =s ds n2 n1 f where s is the surface charge density on the interface between the f dielectrics and n the unit vector along the outward drawn normal to the surface D and D are the normal components of the displacement n2 n1 vector in media 2 and 1 respectively.
+When s = 0, we get n(cid:215) D =n(cid:215) D n2 n1 Now D =e E and D =e E n1 1 n1 n2 2 n2 \ D=e E \ e n(cid:215) E =e n(cid:215) E 1 n1 2 n2 or n(cid:215) E e n1 = 1 n(cid:215) E e n2 2 Thus we find that the normal component of E is discontinuous.
+119PHY204 ELECTROMAGNETISM UNIT 2 SOLUTION & ANSWERS SELF ASSESSMENT EXERCISE'S (1) The potential difference (V) between the plates is not changed.
+But the electric field between the plates is V /(d/2)=2(V /d)= twice the value of the electric field E. The doubling of the electric field doubles the charge on each plate.
+Therefore, C =Q/V also doubles.
+Thus if we halve the distance of separation between the plates, the capacitance doubles.
+(2) We know that C =Q/V C = 1000m F = 0.001F and V = 24 V Q = CV =0.001· 1024C = 0.024 C (3) The energy stored in a capacitor is 1 W = Cf 2 2 It can be written 1 W = Cf · f 2 (i) We know that Q= Cf (ii) Using Eq.
+(ii) in Eq.
+(i), we get 1 W = Qf 2 Hence prove, the result.
+(4) C =e A/d 0 Here, e =8.85· 10- 12F/m, A= 4· 10- 2m2, d = 103m 0 120 PHY204 MODULE 1 Therefore, 8.85· 10- 12· 4· 10- 2 C = =3.54· 10- 10F 10- 3 Here C is the charge that raises the potential by unity or the charge holding capacity.
+(5) We have Capacit.
+with dielectric between plates e = r Capacit.
+with free space between plates Here e = 3.
+Thus the capacitance of the capacitor will get trebled r when the dielectric (e = 3) is filled up in all the air space.
+r Now a dielectric material is introduced.
+Let its thickness be t. The capacity of the capacitance is e A e A C = 0 , C = 0 air d dielectric (d - t+t/e ) r C [e A/(d - t- e )]· d dielectric = 0 r C e A air 0 d = d - t+t/e r 3 Here t = d and e = 3.
+4 r Therefore, 3 3d d d - t+t/e = d - d + = r 4 4· 3 2 Therefore C d dielectric = =2 C d/2 air That is, the capacitance will get doubled.
+(6) C = 2ep e /ln(10/8) 1 0 r and 121PHY204 ELECTROMAGNETISM C =2ep e /ln(5/4) 2 0 r C ln(5/4) 1 = = 1 C ln(10/8) 2 or C =C 1 2 (7) When the capacitor are connected in series, the equivalent is given by 1 1 1 1 1 = + + + C 0.05 0.02 0.1 0.05 r C = 0.01 m F T Q = C V T = 220· 0.01· 10- 6 = 2.2· 10- 6C Q 2.2· 10- 2 V = = = 44 V 1 C 0.05· 10- 2 1 Q 2.2· 10- 2 V = = = 110 V 2 C 0.02· 10- 2 2 Q 2.2· 10- 2 V = = = 220 V 3 C 0.01· 10- 2 3 (8) The arrangement is shown in Fig.
+2.20.
+Let C be the effective 4 capacitance of C and C .
+Using series law of capacitors 1 2 1 1 1 = + C C C 4 1 2 or C C C = 1 2 4 C +C 1 2 122 PHY204 MODULE 1 This capacitance C then adds to C to give the total capacitance C of 4 3 the combination i.e., C =C +C 4 3 or C C C =C + 1 2 3 C +C 1 2 Fig.
+2.20 123PHY204 ELECTROMAGNETISM UNIT 3 SOLUTIONS/ANSWERS SELF ASSESSMENT EXERCISE's (1) We identify pairs of dipoles equidistant from the centre, from Unit 3, we know that the dipole field falls off with distance as 1/r2.
+Since equidistant pairs have directions of p opposite to one another, the overall field at the centre due to the pair is zero.
+This is the case for every other pair.
+Hence E = 0. in (2) According to integral form of Gauss's law 1 E(cid:215) nds = dV e 0 Therefore, 1 4 E4pr2 = pr3 e 3 0 or 1 E= r 3e 0 in the vector form E(r)=(r)r/3e 0 P e (e - 1)E (3) E =E+ =E+ 0 r loc 3e 3e 0 0 3E+(e - 1)E = r 3e 0 = (e +2)E/3 r 124 PHY204 MODULE 1 UNIT 4 SOLUTIONS AND ANSWERS SELF ASSESSMENT EXERCISES 1(a) Potential energy U of the magnetic dipole is given by the relation: U =µ(cid:215) B where µ is the dipole moment and B is the magnetic field.
+Since U is expressed in Joules and B in Tesla, the above relation gives the unit of magnetic dipole moment as JT- 1. e (b) From Eq.
+(11.4), L 2m nh L = (because angular momentum of electron is quantized) 2p where n is an integer.
+Hence minimum allowed magnitude of dipole moment is given by putting n = 1, as follows: e h 1.602· 10- 19C 6.626· 10- 34Js m = = · min 2m 2p 2(9.109· 10- 31kg) 2p or m = 9.27· 10- 24CJskg- 1 min = 9.27· 10- 24JT- 1 eh \ the Bohr magneton is given by =9.27· 10- 24JT- 1 4pm 2.
+(a) g= 1 (ii) g = 2 e (b) Eq.
+(4.5) is m = S m hence 1.6· 10- 19C 9.27· 10- 24Am2 = · S 9.1· 10- 31kg so that 125PHY204 ELECTROMAGNETISM 9.1· 0- 31kg· 9.27· 10- 24Am2 S = 1.6· 10- 19C 9.1· 9.27 Akgm2 = · 10- 36 1.6 C = 52.72· 10- 36Js = 0.5272· 10- 34Js h But the spin angular momentum S is , therefore, 2 h h = =0.5272· 10- 34Js 2 4p or h = 4· 3.142· 0.5272· 10- 34Js = 6.626· 10- 34Js which is indeed the value of Planck’s constant.
+3.
+(a) Copper is slightly diamagnetic.
+Bismuth, Silver- diamagnetic, Aluminium & Sodium – paramagnetic (b) No.
+Since the diamagnetic material is characterised by the absence of intrinsic magnetic dipoles and paramagnetic substances have magnetic dipoles, the alloy of these materials will be the material with intrinsic magnetic dipoles.
+Such a material will exhibit the property of paramagnetism which masks the diamagnetism of both components of the alloy.
+4.
+We have the formula e w = g B p 2m but 2pf =w p p hence 2m 1 g =2pf · · p e B Now 2pf =2· 4.14· 42· 106s- 1 =263.93· 106s- 1 p 126 PHY204 MODULE 1 2m 2· 1860· 9.1· 10- 31 For proton, = kgC- 1 e 1.6· 10- 19 = 21.15· 10- 9kgC- 1 1 Given, = 1 Wb- 1m2 B Using this above we obtain g = 5.584, which is the proton g - factor.
+xeax eax 5.
+(a) ∫ xeaxdx = - ∫ dx integrated by parts a a xeax 1 eax xeax eax = - = - a a a a a2 +1 xeax+1  1 +1 1 1 Hence, ∫xeaxdx =   -  eax = (e+a +e- a)- (e+a - e- a)  a  a2  a2 a - 1 - 1 - 1 ea +e- a 6.
+We have cotha = and also that ea - e- a a2 a3 a2 a3 ea =1+a+ + +... and e- a =1- a+ - +... 2!
+3!
+2!
+3!
+Hence,  a2 a4   a2  ea +e- a =21+ + +...» 21+   2!
+4!
+  2!  a3   a2  ea - e- a =2a+ +...» 2a1+   3!
+  3!
+ so that a2 1+ cotha = 2 » 11+ a2 1- a2   a2  a 2  6  a1+   6  1 a2 a4  1 a = 1+ - » + a 3 12 a 3 127PHY204 ELECTROMAGNETISM Therefore, 1 a cotha- = and M = M a/3 a 3 s 128 PHY204 MODULE 1 UNIT 5 SOLUTIONS AND ANSWERS SELF ASSESSMENT EXERCISEs 1.
+Path (1) encloses I = 5 A \ ∫H(cid:215) dl = I= 5 A For path (2) ∫H(cid:215) dl =7I = 35 A For path (3) ∫H(cid:215) dl = 2I = 10 A B = H for path (1) B „ H for paths (2) and (3) because these paths pass through iron.
+2.
+H =nI =(2000m- 1)(0.18A)= 360 Am-1 B = m H =(4p · 10- 7H /m)(360Am- 1)=0.45mT 0 If an iron core of absolute permeability 6· 10- 3H/m is inserted in the solenoid, then H remains unchanged, i.e., H =360 Am-1 (unchanged) and B = m H =6· 10- 3H /m)(360Am- 1) = 2.16 T 3.
+The expression for the magnetic induction in the air gap is NIm B = [L+(K - 1)d] m Substituting the values given in the question, we get 500· 2· 2500· 4p · 10- 7 B = 0.50+(2500- 1)0.01 103· 104 · p · 10- 7 p = = = 0.123 Wb m– 2 0.50+25 25.5 B in the iron ring has the same value as in air, but H in iron is given by 129PHY204 ELECTROMAGNETISM B H = K m m 0 or H = 0.123 / 2500· 4p · 10- 7 = 39.1 Am– 1 130

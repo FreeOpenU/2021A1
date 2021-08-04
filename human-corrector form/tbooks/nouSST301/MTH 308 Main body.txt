@@ -1,0 +1,1109 @@
+NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECH.
+COURSE CODE:-MTH 308 COURSE TITLE:- INTRODUCTION TO MATHEMATICAL MODELLINGMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING COURSE GUIDE MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Course Developer/Writer Mr. Ajibola S.O.
+National Open University of Nigeria Programme Leader Dr. Sunday Reju National Open University of Nigeria NATIONAL OPEN UNIVERSITY OF NIGERIA iiMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dares Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published by National Open University of Nigeria Printed 2009 ISBN:978-058-412-9 All Rights Reserved iiiMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING CONTENTS PAGE Introduction ………………………………………….
+1 The Course …………………………………………… 1 Course Objectives…………………………………….
+1 Working through the Course………………………….. 1 Course Material……………………………………….
+2 Study Units…………………………………………….
+2 Assessment…………………………………………… 2 Tutor-Marked Assignment…………………………… 2 Final Examination and Grading……………………….
+3 Summary…………………………………………….. 3 Introduction This course – Mathematical Modeling - is meant to teach us how to transfer scientific, physical and mechanical problems into mathematical formulation using parameters to represent events.
+The examples given are drawn from contents you are already familiar with e.g.
+motion of a simple pendulum, ratio active mecary is illustrated with the help of real world problems by beginning with a non trivial word problem.
+Problems are described in terms of words and about the world around us.
+The different approaches to modeling a particular problem shall be discussed.
+The Course The status of this course is 2 units.
+It is packed into two Modules i.e.
+Module 1 and Module 2 respectively.
+Module 1 is grouped into two units, while module 2 has only one unit.
+Therefore the course can be summarized as having 2 modules and 3 units in all.
+This Course Guide gives a brief summary of the contents of the course material: methodology of the model building, identification of a model, solution of problems, course-effect diagrams, equation types, algebraic, ordinary differential, partial differential, differential integral and functional equations are fully discussed, as adapted from IGNOU.
+Course Objectives Students should be able to: 4.0 Identify different types of modeling.
+5.0 Convert a worked problem into its equivalent mathematical formulation ivMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 6.0 Explain the importance and define mathematical modeling.
+7.0 Identify many of the formulae already familiar with as the mathematical models of the real situation.
+Working through the Course This course involves that you would be required to spend lot of time to read.
+The contents of this material is very dense and will require a lot of your time.
+I would advise that you avail yourself the opportunity of attending the tutorial sessions where you would have the opportunity of exchanging ideas with your pears.
+The Course Material You will be provided with the following materials; Course guide Study units.
+In addition, the course comes with a list of recommended text books, which though are not compulsory for you to acquire or indeed need, but are necessary as supplements to the course material.
+Study Units The following are the study units contained in this course.
+The units are arranged into three identifiable but related modules.
+Module 1 Unit 1 Methodology of the Model Building This unit takes you through the definition of mathematical modeling i.e what and why, identification and formulation of a model, types of modeling and limitations of a mathematical model.
+Unit 2 Identification and Formulation of a Model This unit deals with identifying the essentials of a problem and Mathematical formulation.
+Module 2 Unit 1 vMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING This unit contains about the solution of problems, course-effect diagrams, equation types algebraic, ordinary differential, partial differential, differential integral and functional equation.
+Assessment There are two components of assessment for this course.
+The Tutor- Marked Assignment (TMA) and the end of course examination.
+Tutor-Marked Assignment The (TMA) is the continuous assessment component of your course.
+It accounts for 30% of the total score.
+You will be given four (4) TMAs to answer.
+Three of these must be answered before you are allowed to sit for the end of course examination.
+TMAs would be given to you by your facilitator and returned after you have done the assignment.
+Final Examination and Grading This examination concludes the assessment for the course.
+It constitutes 70% of the whole course.
+You will be informed of the time for the examination.
+It may or may not coincide with the university semester examination.
+Summary In this course, we have been able to cover the following: 1.0 Mathematical model is a translation of a real life problem into a mathematical description.
+2.0 The process of mathematical modeling involves three main steps – for formulation, finding solution and interpretation and evaluation.
+3.0 Caution: Lots of simplifications are made while translating a real life problem into mathematical language.
+One should be aware of it at every step.
+4.0 Mathematical models can be classified into linear/nonlinear, static/dynamics, discrete/continuous and deterministic/stochastic.
+viMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Course Code MTH 308 Course Title Introduction to Mathematical Modelling Course Developer/Writer Mr. Ajibola S.O.
+National Open University of Nigeria Programme Leader Dr. Sunday Reju National Open University of Nigeria NATIONAL OPEN UNIVERSITY OF NIGERIA viiMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dares Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published by National Open University of Nigeria Printed 2008 ISBN:978-058-412-9 All Rights Reserved Printed by: viiiMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING CONTENTS PAGE Module 1 ………………………………………………… 1 Unit 1 Methodology of the Model Building ………….
+1 Unit 2 Identification and Formulation of a Model …… 20 Module 2 ……………………………………………….. 45 Unit 1 Solution of Problems, Course-Effect ……..…… 45 Differences, Equation Types, Algebraic, Ordinary Differential, Partial Differential Difference Integral and Functional Equations ixNoneMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING MODULE 1 Unit 1 Methodology of the Model Building Unit 2 Identification and Formulation of a Model UNIT 1 METHODOLOGY OF THE MODEL BUILDING CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Mathematical Modelling – What and Why?
+3.2 Types of Modelling 3.3 Limitations of a Mathematical Models 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 5.0 INTRODUCTION In the introduction to this block, we indicated the need for mathematical modelling i.e., the use of mathematics to solve real life problems.
+In this unit, we shall introduce you to basic concepts of mathematical modelling.
+Our main aim is to develop the process of mathematical modelling in which a physical system or a real life problem is translated into a mathematical problem.
+The examples given are taken from contexts you are already familiar with e.g., motion of a simple pendulum, ratio active decay, population growth etc., The need for modelling is illustrated with the help of real life problems by beginning with a non-trivial life problem – a problem described in terms of words, about the world around us.
+The different approaches to modelling a particular problem are discussed.
+Simple exercises based on real life problems are inserted at various places so that you can convert the life problems into abstract form by selecting a particular type of modelling.
+At the end of the unit we have given an appendix where we have discussed the method of dimensional analysis.
+In case you are not familiar with the method, this would help you in understanding various examples wherever we have used it for modelling various physical situations.
+1MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 6.0 OBJECTIVES After reading this unit you should be able to: • define mathematical modelling and explain its importance • identify different types of modelling • convert a life problem into its equivalent mathematical formulation • identify many of the formulas you are already familiar with as the mathematical models of the situation.
+7.0 MAIN CONTENT 7.1 Mathematical Modelling – What and Why?
+Real life problems arise from different disciplines-sociology, chemistry, biology, physics, management, finance etc.
+At some point of time, while studying mathematics, you must have attempted solving the following problems: i) Finding the height of a tower ii) Estimating the yield of wheat in Nigeria in a particular harvest year.
+iii) Estimating the population of Nigeria in the year 2001 A.D. iv) Find the effect of a 30% reduction in income tax rate on the economy.
+It is possible that you might have solved some of these problems with the help of mathematics and mathematical modelling without actually knowing what mathematical modelling is.
+How do we treat the foregoing problems?
+For (i) we try to express the height of the tower in terms of some distances and angles which can be measured from the ground.
+For (ii) we try to find the area under wheat cultivation and find the average yield per acre by cutting and weighing crops from some representative fields.
+For (iii) we extrapolate population data available from previous censuses and develop a model expressing the population as a function of time (years).
+In simple words we can say that we examine the previous data and try to calculate what is likely to happen in the future.
+For (iv) we examine the effects of similar cuts in the past or develop a mathematical model giving relation between income-tax cuts, 2MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING purchasing power in hands of individuals, its effects on productivity and inflation etc.
+Examples of some more real life problems that may be amenable to a mathematical treatment and are of interest to people are as follows: i) How do the eye muscles move the eyeball around in its socket?
+ii) Forecast a monsoon with precision a month in advance iii) How and why do different parts of the personality of a person compete for control over him/her?
+iv) Suppose the tenth refrigerator produced in a factory took half as long as the first.
+What is the progress rate of production.
+The choice of approach to a real life problem depends on how the results are to be used.
+If the aim is to get knowledge for knowledge’s sake, then practical applications is of no importance.
+A present day engineer/industrialist will not undertake any strenuous task without a well defined purpose.
+Anyone who likes to invest on the industrial production of a product would like to make calculations either to avoid the unrealistically high cost of real scale experiments or to estimate some future situation.
+It is in this context a mathematical model of a life problem gains enormous significance.
+The concept of mathematical modelling is not a new one.
+The Chinese, the ancient Egyptians, Indians, Babylonians and Greeks indulged in understanding and predicting the natural phenomena through their knowledge of mathematics.
+The architects, artisans and craftsmen based many of their works of art on geometric principles.
+A natural question which could arise is “What is mathematical modelling?” Mathematical modelling consists of simplifying real life problems and representing them as mathematical problems (mathematical model), solving the mathematical problems and interpreting these solutions in the language of the real life.
+In other words, we can divide the modelling process into three main steps: formulation, finding solution and interpretation and evaluation.
+Formulation: Formulation can, in turn, be divided into three steps i) Stating the Question: Understanding natural phenomena involves describing them.
+An accurate description answers such questions as: How long?
+How fast?
+How loud?
+etc.
+But the questions we start with should not be vague or too complicated.
+In problem drawn from the real life this should be done by describing the context of the problem and then stating the problem within this context.
+3MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING ii) Identifying Relevant Factors: Decide which quantities and relationships that are important or unimportant for your question and also which can be neglected.
+The unimportant quantities are those that have very little or no effect on the process.
+For example, in studying the motion of a falling body, its colour is usually of little interest.
+iii) Mathematical Description: Each important quantity should be represented by a suitable mathematical entity e.g.
+a variable, a function, a geometric figure etc.
+Each relationship should be represented by an equation, inequality, or other suitable mathematical assumption.
+Finding the Solution: The mathematical formulation rarely gives us answer directly.
+We usually have to do some operations.
+This may involve a calculation, solving an equation, proving a theorem etc.
+START FORMULATION SOLUTION EVALUATION NO YES SATISFIED STOP Fig.
+1 Evaluation: Since a model is a simplified representation of a real problem, by its very nature, has built-in assumptions and approximations.
+Obviously, the most important question is to decide whether our model is a good one or not i.e., when the obtained results are interpreted physically whether or not the model gives reasonable answers.
+If a model is not accurate enough, we try to identify the sources of the shortcomings.
+It may happen that we need a new formulation, new mathematical manipulation and hence a new 4MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING evaluation.
+Thus mathematical modelling can be a cycle of the three modelling shown in the flowchart of fig.
+1.
+Before going further into the details of modelling let us consider some of the mathematical models or representations you are already familiar with.
+i) Any interval of time can be modeled by an algebraic variable t, 0 ¥ < t< .
+The numerical values of t must be obtained from the reading s of suitable clocks-a starting time t and the current time 1 t so that t = t – t .
+2 2 1 ii) A distance is modeled by a positive algebraic variable, say ‘d’ (0 £ d <¥ ).
+This distance ‘d’ between two points is assigned a numerical value based on the measurement using a rigid measuring rod (e.g., a metric rule).
+iii) The modelling of space is more interesting and has led to the development of many different axioms and theorems in geometry which in turn have played a larger role in the application of mathematics (or more precisely in civil engineering) to the construction of buildings, dams etc.
+To start with, space can be thought of as a collection of points.
+This basic model can be supplemented by further ideas such as direction and distance.
+We can further supplement these by different results e.g.
+(a) There is a unique circle passing through three distinct non- collinear points (b) The medians of a triangle are concurrent.
+You are familiar with the representation of the points of space using coordinate system e.g., the Cartesian system (x, y, z).
+This representation introduces you automatically to the important features of space: (i) its three dimensionality, (ii) its infiniteness (if x, I, z are allowed to take all real values) (iii) its continuity in the three directions.
+Various axioms and geometrical proofs you are familiar with follow from these basic models of distance and space.
+Example 1: How would you model speed and velocity?
+Solution: From their definition, speed/velocity is the rate of change of distance travelled.
+Since speed is a scalar, we model it as L/T, where L is the distance travelled and T is the time required to travel (Refer Appendix).
+While modelling velocity, the direction too should be specified and hence, the model for velocity is v = L/T where the vector 5MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING notation is used additionally.
+Using Calculus, the model can be further improved by writing the elementary distance as ds = (dx, dy, dz), so that ds v = .
+dt Note that the bold letters represent vectors.
+SELF ASSESSMENT EXERCISE 1 As you know every branch of knowledge has two aspects, one of which is theoretical involving mathematical, statistical and computer-based methods and the other of which is empirical based on experiments and observations likewise, mathematical models are basically of two kinds.
+i) Empirical models.
+ii) Theoretical models.
+Empirical: models are based on experimentally founded hypotheses.
+They lead to the construction of an underlying theoretical framework.
+In other words, they more often lead to ‘laws of nature’ which represent a fundamental characteristic of nature.
+Such models are formulated by giants of mathematics – Newton, Einstein etc.
+Typical examples are: the theory of gravitation by Sir Isaac Newton, Electromagnetic waves by Maxwell, theory of relativity by Einstein, planetary motion by Kepler, wave equation by Schrödinger etc.
+Only those hypotheses that have withstood large amounts of fact that the proposed model agrees well with a small amount of data does not suffice since the agreement could be just coincidental.
+It should be tested against a large amount of data before accepting it as a law.
+This aspect should be clear from the fact that nearly half a century elapsed between the works of Galileo and Newton.
+Theoretical models are inspired by the formulations or guidelines provided by the modelling schemes.
+The objective is to apply the basic laws or ideas in small ways and to particular cases.
+We shall discuss these formulations in greater detail in Unit 2.
+To illustrate the foregoing discussion, we refer to the problem of the simple pendulum with which you are all very familiar.
+This pendulum is simply a mass attached to one end of a string whose other end is fixed at a point.
+The mass is constrained to move in the plane of the paper, and we have chosen the (x, y) coordinates system so that the origin coincides with the lowest point of the pendulum swing.
+The symbol ‘m’ is used to denote the mass of the pendulum and ‘’ symbolizes the length of the pendulum.
+6MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Our objective is to describe the motion of the pendulum using a theoretical model.
+The starting point of such a theoretical model will be an empirical law-Newton’s law – The net force on a particle causes that particle to be accelerated in direct proportion to its mass.
+Our theoretical model, based on Newton’s law, has to account for the force acting on the mass and relate them to the coordinates (x, y) and their time rates of change.
+Thus, the model of force follows from the Newton’s law: F = ma where F is the force, m is the mass and a is the acceleration.
+Did you notice the difference here?
+In the model obtained here acceleration followed from its definition whereas force was based on an empirical law-Newton’s in this case.
+We shall not go into further details of the formulation at this stage.
+We shall take this up in Unit 2. but those of you who are familiar with the simple harmonic motion know that the theoretical model is given by differential equation.
+Before we go further how about trying these exercises?
+SELF ASSESSMENT EXERCISE 2 Why is it necessary to formulate a Mathematical Model?
+Understanding and solving real-life problem can be done in many ways.
+We can do experiments either with scaled physical models i.e., we can do experiments in the laboratory on a smaller scale simulating all the conditions of the real problem in a corresponding scale, or with the real life directly.
+But these may be highly risky as they may involve corrosive or explosive materials difficult to obtain in large quantities etc.
+a mathematical model is very inexpensive and we know how to represent a real problem in terms of appropriate equations and to solve them.
+Moreover, in many situations like finding the mass of the earth or predicting the Nigerian population in the year 2500 A.D., mathematical modelling is the only recourse.
+The mathematical approach has a number of advantages which can be illustrated by considering the following specific examples: i) What is the corrosive effect of the discharge of the Kaduna Refinery on the mosaic of Arewa House?
+For safety and cost reasons it would be undesirable to carry out the experiments on the Arewa House itself without first knowing the outcome.
+A scaled physical model could be used to obtain the desired information, but this would required facilities and will not be cost effective.
+What do we do then?
+For this kind of study a mathematical approach is preferred.
+7MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING ii) What will be the growth in the number of tourists to a historic city like Kaduna over the next five years?
+Information of this nature is frequently needed for planning purposes e.g., building more hotels or arranging tourists attractions etc.
+There is really no scientific alternative to a mathematical treatment for problems of this kind.
+There are more situations like these where mathematical treatment of the problem becomes necessary.
+Can you think of any?
+SELF ASSESSMENT EXERCISE 3 In our earlier discussion, we broadly classified mathematical models into two distinct types – empirical and theoretical.
+Models can be further classified as given in the following section.
+7.2 Types of Modelling According to the nature of the model we can classify mathematical models into the following four types: i) Linear or Non-Linear According to the resulting equations which may be algebraic, differential or difference, being linear or non-linear, models are classified as linear or non-linear.
+For instance, consider the equation dN = – λN …………………………………………….. (1) dt dN when we take negative sign on the right hand side of Eqn.
+(1) i.e., = dt -λN, then equation models the radio active decay.
+Where we assume that the rate of decay of a radio active atom is proportional to the number N of radio active atoms present and λ> 0 is a decay constant.
+For a positive sign on the right hand side Eqn.
+(1) represent linear models being linear differential equation.
+You know from your knowledge of MTE-08 that it is very easy to handle this equation.
+Its solution can be written as N = N e– λt …………………………………………….. (2) 0 Where N in the case of decay denotes the original number of radio- 0 active atoms at t = 0.
+This model, though very simple, agrees excellently with experimental results.
+In the case of population growth No would be the initial population.
+8MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING We are not as lucky always.
+Most of the real life problems are not amenable to such simple mathematical treatment.
+Many a time, the resulting equation is non-linear or highly non-linear but still you are able to solve it.
+Without going into the details here we give an example of the population growth model, better than the one given by Eqn.
+(1), as dN(t) = λN(B- N),λ > 0,B > 0 (3) dt where N is the size of the population and λ and B are the constants of proportionality.
+This is a non-linear model but it is still easy to find the solution as B N = , 1+ ke- λBt (4) Where k > 0 is an arbitrary constant.
+There are numerous experimental growth data, say, that of bacteria with which the model agrees extremely well with.
+Why we call this model better would become clear to you when we discuss the biological models in details in Block 3 ii) Static or Dynamic In static systems, time does not play any part, and hence the variables and relationships describing the system are time-independent.
+In contrast, in dynamic systems, time plays a very important role with the variables and/or relationships describing the system changing with time.
+Consider for instance a fluid flowing through a rigid diverging tube (see fig.
+2) A 2 A 1 v 1 v 2 P 1 Fig.
+2 P 2 Note: the point in a fluid flow at which the flow is directed radially outwards symmetrically in all directions is a source.
+The fluid enters the system at this point.
+The point at which the fluid leaves the system is a 9MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING sink.
+The flow is directed radially in-wards at this point in a symmetrical manner.
+Let the velocity of the fluid be V at the point P at which the area of 1 1 cross-section of the tube is A Let V be the velocity at the point P at 1.
+2 2 which the area of cross-section of the tube is A .
+The principle of 2 conservation of mass states that the rate of flow in at P is equal to the 1 rate of flow out at P since the tube is rigid and no at P extra fluid is 2 1 produced inside or nothing is taken out.
+In other words, there are no sources or sinks inside or surrounding the tube.
+Now the rate of mass entering the tube at P = area x velocity = A V 1 1 1 rate of mass leaving the tube at P = A V .
+2 2 2 Conservation law can be written therefore in the form of an equation.
+A V = A V (5) 1 1 2 2 (Rate of mass entering the tube at P = Rate of mass leaving the tube at 1 P ).
+2 Eqn.
+(5) is the conservation equation corresponding to the steady state i.e., all variables are independent of time.
+Such a system is a static system.
+In the dynamic formulations, the equations describing the model involve derivatives of the dependent variables with respect to time.
+Most of the real life problems e.g., the population growth (Eqn.
+(3)), the bacterial growth, simple harmonic oscillator, rocket launch are time dependent and come under the category of dynamic systems.
+iii) Discrete or Continuous Mathematical model may be discrete or continuous as the variables involved are discrete or continuous.
+In a discrete model, the dependent variable assumes a range of values and is characterized by discrete values of the independent variable e.g., suppose a population of cells divides synchronously, with each member producing a daughter cell.
+Let us define the number of cells in each generation with a subscript, that is M , M ,…….., M are respectively the number of cells in the first, 1 2 n second, ….
+Nth generations.
+The number of generation, the independent variable, is the discrete variable here.
+A simple equation relating successive generations is the difference equation M = aM , a>0 (6) n+1 n 10MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING If, initially, there are M cells, after n generations the population will be 0 M = aM = a(aM ) = a[aM = …... = an+1 M (7) n+1 n n-1 n-2)] 0 If |a| > 1, M increases over successive generations n If |a| < 1, M decreases over successive generation n and if a = 1, M is constant.
+n Most of the discrete models result in difference equation similar to Eqn.
+(6).
+We shall talk about these equations in more detail in Block 4.
+Models based on continuous variables are continuous models.
+The problem of radioactive decay is best described by treating the time element as being continuous with the variable of the system description i.e., number N of radio active atoms present.
+(Refer Eqn.
+(1)).
+Most of the continuous models result in differential equations ordinary or partial, the derivatives being instantaneous rates of change.
+Continuous models appear to be easier to handle than the discrete models due to the development of calculus and differential equations.
+However, continuous models are simpler only when analytical solutions are available, otherwise we have to approximate a continuous model also by a discrete model so that these can be handled numerically.
+Deterministic or Stochastic A system is said to be deterministic if the values assumed by the variables (for a static system) or the changes to the variable (for a dynamic system) are predictable with certainly.
+Consider for instance, the well known examples are the position and velocity of the bob of the pendulum.
+Since the laws of classical dynamics describe the motion fairly accurately the changes in position and velocity can be predicted with a high degree of certainty.
+Hence, in this case we can view the system as being deterministic.
+If the values assumed by the variables or the changes to the variables are not predictable with certainty, then uncertainty is a significant feature of the system.
+Such systems are called either probabilistic or stochastic system.
+For example, if one drops a rubber ball from a given height and measures the height of the bounce with sufficient accuracy it will be found that if the same process is repeated many times, the height of bounces are not the same every time.
+Even if all the maintained, the results show lot of variability.
+In such cases, the system must be viewed as a stochastic system.
+Very often, when you go to a big shop what strikes you is the long queue in front of the cash desk.
+The question “Why can’t this popular 11MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING shop have more than one cash counter?” comes to you mind.
+How many counters the shop needs will depend on the number of customers and their arrival rate, their departure rate, service time, peak periods etc.
+if the arrival rate is same as departure rate the queue length will remain the same.
+If the departure rate is more than the arrival rate, the queue will disappear after some time.
+If the departure rate is less than the arrival rate, then the queue will grow indefinitely and it is this situation that requires more cash counters.
+Here in this situation the arrival time, departure time and the service time of a customer are not deterministic.
+They follow certain probability distributions with mean rate of arrival, departure and service time.
+Arrival and departure times satisfy Poisson distribution whereas service time obeys exponential distributions.
+Models based on fitting these probability distributions to the arrival, arrive every five minutes (given time interval) then from Poisson z2 distribution e-z, ze-z, e-z etc.
+give the probability that 0, 1, 2 etc people 2 will join the queue within that time.
+We shall not go into the details of these models here.
+We shall take up such models in Unit 14, when we discuss probabilistic models.
+Every real system must be considered to be subject to randomness of one type or another, all of which are ignored in the formulation of a deterministic model.
+Hence, deterministic models generally present few mathematical difficulties but can only be considered to describe system behaviour in some average sense.
+Stochastic models are required wherever it is necessary to explicitly account for the randomness of underlying events.
+Most of the discrete and stochastic models lead to difference/algebraic equations whereas linear/nonlinear, static/dynamic and continuous models require the knowledge of algebraic/differential equations.
+With the advent of fast computers, it should be possible (wherever analytic solutions are not available) to solve these equations numerically.
+Apart from these, the success of mathematical modelling will also depend on the skills you have in algebra, calculus, geometry, trigonometry, transcendental equations, integral equations, integro-differential equations etc.
+As discussed earlier, the type of model will more or less decide the type of mathematics required to deal with the resulting equations.
+Consider the following example.
+Example 2: Which type of modelling will you use for the launching of a rocket/satellite for meteorological purposes?
+12MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Solution: Modelling used will be dynamic, continuous and deterministic.
+It is dynamic and continuous because the flight velocity will continuously depend on time.
+It is deterministic because equations describing the flight can be set up based on established laws and the path of the satellite/rocket can be predicted with certainty.
+And now an exercise for you.
+SELF ASSESSMENT EXERCISE 4 7.3 Limitations of a Mathematical Model Mathematical modelling is a multi-stage activity requiring a variety of concepts and techniques.
+Utmost caution is required in framing proper models for otherwise an absurd model will lead to an absurd solution.
+If the basic formulation is wrong, no amount of sophistication in the treatment of resulting equations can lead to a right answer.
+It is important to remember that the model is only a simplification of the real life problem and that the two are not the same.
+In fact lack of distinction between models and reality has often slowed down the progress in modelling.
+It is paradoxical that some models which were very successful initially in understanding the problem, have become stumbling-blocks to progress.
+The reason is we get used to a model and continue to use it even after it is discredited.
+For instance, consider the solar system.
+Till 16th century, it was believed that earth was the centre of the universe and all the other planets and sun moved around the earth.
+Because of this theory the model used to study the solar systems were circular paths with earth as the centre.
+It was called a Geocentric model.
+This model was successful in explaining night, day, seasons etc.
+But there were many observations, the model could not explain.
+Later in 16th century Copernicus proposed another theory called Heliocentric theory which describes that the sun is the centre of the universe, and that all planets moved around the sun in elliptical paths.
+So in this case the models used is an elliptical path with sun as the centre.
+This model successfully explained most of the problems connected with solar system, but people simply refused to accept this model, initially.
+One of the reason for this is that the geocentric model put the earth as the centre of the universe and people were unwilling to discard such a favourite notion.
+The model is only as good as the assumptions made while constructing it and any extrapolation which violates the assumptions may be dangerous.
+13MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Consider for instance, Eqn.
+(1) viz., dN = – λN dt it does not give good results when used for modelling the population growth.
+This is because, the solution N(t) = N eλt of the equation 0 dN = λN, gives N(t) ﬁ ¥ for t ﬁ ¥ .
+This means population grows dt exponentially without any bound.
+Whereas, solution N(t) = N e-λt of 0 dN the equations = - λNgives N(t) ﬁ 0 as t ﬁ ¥ , implying that dt population is ultimately driven to extinction.
+Both these outcomes are extreme and are not found to occur in the nature.
+In this sense, the model has severe limitations.
+Thus, there is a need to modify this model.
+Such a modified model is the logistic model which we shall discuss in detail in Unit 8 of Block 3 8.0 CONCLUSION To end the unit we now give the summary of what we have covered in it.
+9.0 SUMMARY In this unit we have covered the following points.
+1) Mathematical model is a translation of a real life word problem into a mathematical description.
+2) Performing experiments to understand and solve real-life problems may be risky and expensive.
+Also, at times, it may not be feasible at all to perform experiments.
+Mathematical Modelling is the only recourse in such situations.
+It is very inexpensive if we can represent a real problem in terms of appropriate equations and solve them.
+3) The process of mathematical modelling involves three main steps- for formulation, finding solution and interpretation and evaluation.
+4) Mathematical models may be classified into linear/nonlinear, static/dynamics, discrete/continuous and deterministic/stochastic.
+5) Mathematical modelling require basic knowledge of algebra, geometry, calculus, difference, differential and integral equations.
+Different types of Modelling require one or other of these at the formulation stage or at the time of finding solution.
+14MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 6) One has to be cautions about mathematical Modelling: Lot of simplifications are made while translating a real life problem into mathematical language.
+One should be aware of it at every stage.
+10.0 TUTOR-MARKED ASSIGNMENT 1.
+How would you model acceleration of a particle?
+2.
+How would you model momentum and work?
+(Hint: momentum = mass x velocity, work = force x distance) 3.
+What is the objective of modelling a simple pendulum?
+What are the important factors you need here before you apply the Newton’s laws of motion?
+4.
+Give two situations where mathematical treatment of problem is necessary to get the required solution.
+5.
+State the type of modelling you will use for the following problems.
+Also give reasons in support of your answer.
+i) Estimating the world population in the year 2005. ii) Finding the concentration levels of pollution in the River Niger due to discharge of waste.
+iii) Certain diseases like Heamophilia (Non-stop bleeding due to inadequate clotting agents) are genetically transmitted only by the females.
+Predicting the spread of this disease in successive generations, given the fraction of males and females suffering from it at a particular point of time.
+iv) Reducing the costs in large hospitals is to optimize the allocation of resources (beds, doctors, nurses) to types of activities (orthopedics, intensive care units, surgery etc.).
+helping the hospital administrators reduce the cost of operating hospitals.
+v) Annual plant produce seeds at the end of summer.
+A fraction of these seeds survive the winter, and some of these germinate at the beginning of the season (say May), giving rise to the new generation of plants.
+The process depends on the age of the seeds understanding this process.
+The successful use of dynamic models is based on the understanding of three closely related concepts – dimensionality, units and scaling.
+Natural laws, when properly written in mathematical form are equally valid whatever system of scientific unit is used to express them.
+To say that the universal laws should be independent of the system of units is another way of saying that they should be dimensionally consistent.
+15MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING One should not equate trains with match boxes, nor can one add cabbages to kings.
+If you ran 25 kilometres and earned 20 naira, would it be right to say that you ran as much as you earned?
+No, because the equation.
+N. 20 = 20 kilometres (1) does not make sense.
+Distance is measured in kilometres and no amount of naira can ever equal a kilometer.
+Technically speaking, we say that distance has the dimension of length i.e., [distance] = L (2) while income has the dimension of value, or [income] = V (3) so, it is dimensionally inconsistent to write Eqn.
+(1).
+However, if you were paid N1 for every kilometer you ran, it would be absolutely right to say that N 20 = 20km x (N1 per k.m.
+(4) This equation is dimensionally correct, because [naira per kilometer] = V/L.
+Thus, the right hand side of Eqn.
+(4) has the dimensions of L x V/ L = V, agreeing with the left hand side.
+Units are either Fundamental (or primary) or derived (or secondary).
+The nature of the fundamental units is somewhat arbitrary.
+They are independent of one another.
+If certain of the measurable properties of physical quantities are chosen as fundamental, then the units of measurement of all the remaining quantities can be expressed in terms of these fundamental quantities.
+Hence the latter units are called derived units.
+We can express all the mechanical quantities in terms of units of mass m, length 1, and time t. But when we consider problems involving heat, we have to introduce a new fundamental unit namely the absolute temperatureθ.
+This is necessary as the thermometric scale is independent of the definitions of mechanical units.
+Modelling in Sociology or Economics needs an additional dimension, namely the value of a product or income.
+Thus mass m, length 1, time t, absolute temperature θand the value V are the five fundamental units.
+All the physical quantities can be expressed in terms of these fundamental units.
+We shall denote the dimensions of these fundamental units of mass, length, time, temperature and value by [M], [L], [T], [θ], [V] respectively.
+16MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Formulation of the dimensional formulas: Dimensional formulas for velocity, acceleration, force, work-done, pressure, power etc.
+can be obtained from their definitions directly.
+Velocity = time rate of displacement = distance/time = [LT-1] Acceleration = time rate of change of velocity = velocity/time = [LT-2] Force = mass x acceleration = [MLT-2] Work = Force x displacement = [ML2T-2] Pressure = force acting on unit area = [ML-1T-2] Power = time rate of doing work = work/time = [ML2T-3] We may not always be able to write the dimensional formula for a quantity from its definition.
+Sometimes, we have to use a relation involving the quantity under consideration and some other quantities whose dimensional formulas are known.
+For example, to fix up the dimensional formula for elastic modulus, we can use the Hook’s law, according to which final length- Initial length Tension = Elastic Modulus x Intial length From this, it is clear that elastic modulus has the same dimensional formula as the tension i.e.
+force/unit area.
+Thus [elastic modulus] = [ML-1T-2] Dimensions of a quantity: The exponent of the power of any particular quantity in the dimensional formula of a quantity is called the “dimension” of that quantity in that fundamental quantity.
+For example, the acceleration has dimension zero in mass, dimension 1 in length and dimension -2 in time.
+The importance of knowing the dimensions of each variable is that there are certain rules which specify how dimensional entities can be related to each other.
+To be valid, any equation which states a general or theoretical relationship between two or more variables must follow these rules for dimensional correctness.
+i) Quantities added or subtracted must have the same dimensions.
+ii) Quantity equal to each other must have the same dimensions.
+17MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING iii) Any quantity may be multiplied or divided by any other quantity without regard to dimensions.
+However, the resulting product or quotient must have appropriate dimensions so that the above rules are not violated.
+iv) The dimensions of an entity are entirely independent of its magnitude.
+Hence dx must have the same dimension as x, even though the differential dx is infinitesimally small.
+For example, consider the equation for a radioactive decay where the quantity disappearing at a given time t is proportional to the quantity Q(t), present at that time, i.e., dQ = kQ (5) dt with solution Q = Q e-kt (6) 0 Where Q is the amount present at time t = 0. k is a proportionality 0 constant.
+Does k have any dimensions?
+Assuming that Q(t) is expressed as a mass, and letting [k] stand for the dimensions of k, the dimensional equation corresponding to Eqn.
+(5) is [MT-1] = [k][M] (7) which leads to [k] = [T-1] (8) meaning that k must have the dimension of reciprocal time, i.e., k must be a rate – a rate constant.
+Magnitude of Units We have not used any numerical magnitudes of the fundamental units in the above discussion related to dimensional analysis.
+After a quantity’s dimensionality has been settled, the number that determines its actual value will still depend upon the units in which those basic dimensions are measured.
+For example, velocity has the dimensions of length per units of time.
+Thus, if length is measured in kilometer and time in hours then a car travelling at 50 km.
+P.h., will travel at nearly 14 metre per second.
+Two frequent choices for the basic dimensions of mass, length and time are kilogramme, metre and second (Systeme Internationale, SI) and gram, centimeter and second (CGS system).
+In the SI system, the units of length, ass and time are primary/fundamental.
+But the unit of force is a derived one: it is the 18MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Newton (N) which is defined as the force which when acting on a mass of 1 kg.
+Produces an acceleration of 1m/s2 i.e., IN = 1 kg.m/s2.
+Similarly, the derived unit of work is the Joule (J) which is defined as the work done by a force of 1 N in moving a distance of 1m in the direction of the force.
+i.e., 1J = 1Nm = 1kg m2/s2 (9) The derived unit of power is the watt (W) which is defined as the rate of doing work = 1J/s.
+7.0 REFERENCES/FURTHER READINGS Mathematical Modelling from School of Sciences, IGNOU.
+Quantitative Analysis in Management by Kirk Patrick.
+Quantitative Analysis in Management by C.N.
+Lomoba.
+19MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING UNIT 2 IDENTIFYING AND FORMULATING A MODEL CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Identifying the Essentials of a Problem 3.2 Mathematical Formulation 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In unit 1, we introduced you to the concept of mathematical modelling.
+We discussed the necessity and advantages of studying a real life problem through mathematical modelling.
+Here we have taken four problems.
+From mechanics, biology and economics and tried to relate them to the new concept of mathematical modelling.
+You might be familiar with some of these problems even at your school level.
+In this unit, we shall proceed with the next step in modelling- i.e., given a real life problem, how do you convert it to model abstraction leading to a mathematical equation?
+We shall herein discuss, through some simple examples, how to i) identify the problem with all its complexities ii) identify the essential characteristics of the problems which have to be incorporated into the model iii) simplify the model by neglecting features which are of secondary or lesser importance iv) write the basic equations based on the basic laws of nature or intuitive logic, which retain the essential characteristics of the model.
+As in unit 1, we shall deal with examples you are already familiar with so that your attention is focused more on the modelling aspect.
+20MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 2.0 OBJECTIVES After reading this unit you should be able to: • explain a real life problem and register all the complexities involved in the problem • distinguish the essential characteristics of the problem from the non- essential ones • look for mathematical equations based on laws of nature or intuitive logic for the problem.
+3.0 MAIN CONTENT 3.1 Identifying the Essentials of a Problem Primarily, mathematical modelling utilizes analogy to help you understand the behaviour of complex systems.
+For example, the phrase “cool as cucumber” introduces a conceptual model of ‘cool’ into our minds.
+Similarly, we often make use of familiar things or situations to understand or explain new or unfamiliar situations.
+The word ROSE and the picture pf the rose flower are both models of smelling in reality.
+They may not be precise representations of the rose flower Fig.
+1 but they do communicate and bring the idea of the flower to your mind (see fig.1).
+Children model adulthood by playing mothers and fathers; medical students practise injections using oranges.
+Each of these activities involves some idealization of reality.
+No medical student confuses an orange with a human organ.
+He is aware that his training 21MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING under that simulated condition (i.e.
+a model) is to prepare him for the understanding of the real situation.
+Thus, modelling is an activity which is fundamental to the scientific method.
+Fig.
+2 Models rarely replicate a system.
+Also, they are not a unique representation and so can mean different things to different people.
+Consider how a business man and biologist view a mango tree.
+(see fig.
+2) Their conceptual views of the same object are rather different since they are both heavily influenced by their own environment, background and objectives.
+The same is true when we come to the mathematical modelling of any system or process.
+Thus, there is no hard and fast approach to developing a model.
+But, you need to broadly follow the following steps in the beginning: i) Establish a Main Purpose for the model.
+Real situations are quite complex.
+If one wishes to develop a model which will explain and account for all aspects of a phenomenon, such a model will most likely be difficult to develop, very complex and unmanageable.
+On the other hand, a model with limited purpose will be easy to handle and still many important conclusions related to the main purpose can be drawn.
+Thus, before developing a model we must be clear about the purpose of doing it.
+22MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING For example, in the case of a problem concerned with simple pendulum, what is our main purpose?
+It is to find the period of oscillation of the pendulum.
+ii) Observe the Real Life Situation and understand what is going on.
+These observations may be direct, as with using one of our senses or indirect, in which case we may use elaborate scientific equipment.
+This step allows you to gather data and inform yourself well about the problem.
+You then analyze the observations and know facts about the system or phenomenon being modelled and identify possible elements (observations, measurements, ideas) related to the purpose.
+This step is crucial to the developments of a realistic model since you will get an idea of what to expect.
+For example, before we venture on a mathematical model to describe the movement of the pendulum, we conduct some simple experiments to see how a pendulum behaves.
+We take two wooden balls of two different masses and conduct the experiment with each of them attached in turn to two strings of different lengths.
+We measure the period of oscillation.
+We make the observation that there is no appreciable variation of the period with mass, but there is a clear dependence result which will have to be used to validate any mathematical model for a simple pendulum.
+iii) Sift the Essentials from the Non-Essentials of the problem.
+The degree of detail needed to describe a system appropriately depends on various factors.
+If all the details are included in the description, it can become unmanageable and hence of limited use.
+On the other hand, if significant details are omitted, the description is incomplete and, once again, of limited use in carrying out the study.
+We need to find a sensible compromise.
+We explain this to you through the following example: To study the rate of growth of world population, a realistic study is one which differentiates the population by (i) age, (ii) gender and (iii) geographic location.
+This study will be definitely superior but more complex.
+The model developed would involve more dependent variables and hence more number of differential equations to be solved as compared to the model where all the different groups are lumped together.
+The Search for Essentials of the Problem is related to the main purpose of the model.
+We may be dealing with the same system but the objective of our study related to the system may be different in each study.
+For example, consider modelling the blood flow in the circulatory system.
+The blood cells are of a diameter approximately 10-6 23MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING cms and hence their individual motion or rotation may not contribute much to the fluid mechanics of blood flows in large arteries whose diameter range from 1 mm to 1 cm.
+But in small capillaries of diameter 1 micro metre, the cell sizes are comparable to the area of cross-section of the important.
+In other words, a mathematical model trying to depict the flow of blood in large arteries can assume blood to be homogeneous whereas a model of blood in capillaries has to emphasize the individual cell motion.
+We shall discuss the modelling of blood flows in detail in Block 3 Let us see if you can search for the essentials and two non-essentials each of the following problems.
+Let us now see that given a real life problem how to relate it to a mathematical formulation, keeping our objectives in mind.
+3.2 Mathematical Formulation In unit 1, we discussed different types of modelling.
+In this section, we concentrate on one of the most important aspects of mathematical modelling viz, relating the real life problem to a suitable abstract mathematical formulation.
+In order to carry out this step, we need a good understanding of the various mathematical formulations available.
+We also need to develop the skill to select the most appropriate formulation.
+This is very important, for often, one can choose more than one type of formulation.
+What is most appropriate can be identified from how much detail we want to find out about the problem or the facilities we have to study a problem.
+If we have a limited purpose, say, we want to have a rough idea about the problem, then, a simple model will suffice.
+i.e., the limitations and approximations are acceptable for our purpose.
+If the problem has to be studied in depth, an appropriate model would be the one with finer details.
+Let us illustrate this point through the following examples.
+Example1: Let us consider the problem of finding the period of oscillation of a simple pendulum.
+We shall consider here two formulas: Formulation 1: First we make a preliminary model based on dimensional analysis (see Appendix of unit 1 for the details about dimensional analysis) to understand the oscillation of a simple pendulum.
+Let us see if we can make something of the dependence of the period on the length of the pendulum.
+We need to consider the variables, the period T , the string length , and the gravitational 0 constant g, since it is obviously gravity that makes the pendulum swing.
+24MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Remark: g, is in fact, the gravitational acceleration of the surface of the earth.
+The value of g depends upon the precise location of its measurement, but it is nearly constant.
+Dimension of g = [LT-2] and its value in the SI unit is 9.8m/s2.
+We start with T = T (, g) (1) 0 0 i.e., T is a function of  and g. 0 It is clear that if we leave out some important quantities, we shall be in error.
+Similarly, if we have included some quantities, which are, in reality, irrelevant to the problem we will not only make the problem unnecessarily complicated but also will arrive at an unreal answer.
+Very clear understanding of the problem can only help us in making a correct choice of these quantities.
+Since T has the dimension of time, the right hand side should also have 0 the same dimension.
+Since the length dimension appears in a linear fashion in both  and g, it follows that T = T (/g) (2) 0 0 You may wonder why is it /g and not  + g or 2 + g2 etc.
+in Eqn.
+(2)?
+L This is because [T ) = time and [g] = .
+Now if we want that length 0 T2 should not appear on right hand side also, then  and g should appear as  the ratio .
+g  Also since [T ] = time, and [ ] = (time)2, it follows that 0 g T (g/l)1/2 = A, (3) 0 Where A is a constant to be determined.
+We use the experimental values to determine this constant A.
+In Table-I we have given the results obtained from experiments with two different masses, 230 gms and 385 gms respectively, attached in turn to two strings of lengths equal to 275 cm and 225 cm.
+The results are for small oscillations of the four pendulums obtained by permuting the two masses with the two strings.
+Table – 1 25MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Period obtained experimentally for four different pendulums Mass (gms) Length (cms) Time (secs) 385 275 3.371 230 275 3.352 225 3.042 For l = 275 cm, one measured valued of the period is 3.371 sc.
+With g = 9.8m/sec2 or 980 cm/sec2, we can use data in Eqn.
+(3) to find the constant A.
+980 i.e., A = (3.371) = 6.35 (4) 275 p which is approximately 2 .
+If we assume, from this similarly that the period of the pendulum is in fact given by p T = 2 l/g (5) 0 Then we can calculate periods for strings of lengths used in the experiment.
+Thus, we have in a way established a formula.
+Let us 22 p calculate the period using this formula (with = ).
+The values are 7 given in Table – 2.
+Table – 2 Periods obtained theoretically using Eqn.
+(5) for two different pendulums.
+l 225 cm 275 cm T 3.04 sec 3.36 sec The agreement with the measured values given in Table 1 is quite good.
+In fact the difference between measured and calculated value (for both the masses)_ is less than 1.5%.
+thus, dimensional analysis gives us a fairly good insight into the pendulum behaviour.
+However, there is much more to know about the pendulum, so we need to develop some more detailed analytical model.
+Let us now try to do that in Formulation 2.
+Formulation 2: Formulation 1 was helpful in finding the period of oscillation of a simple pendulum.
+But, what if we want to know more about the pendulum, for instance, the tension in its string?
+We find that 26MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Formulation 1 is not enough.
+Hence, we need to formulate a model which will improve our understanding of the problem beyond Eqn.
+(5) In the present formulation, we take recourse to the Newton’s laws of motion.
+Here since we are concentrating on the tension in the string we shall assume that the string has so little mass of its own that it can be neglected in the model.
+We shall also assume that the air offers little resistance.
+Then the only forces acting on the mass are the tension T in the string and the gravitational force mg. the tension in the string must act along the line of the string, while the gravitational force acts vertically downward along the y-axis where we have assumed that the y- axis is roughly perpendicular to the earth’s surface (see Fig.
+3).
+y x T l (x, y) mg O Fig.
+3 Newton’s second law tells us that the net force on a particle cause that particle to be accelerated in direct proportion to its mass.
+Here the forces acting on the particle are its weight mg and the tension.
+T. if f denotes the total force acting on the system then we would write d2x d2y (cid:229) F= m (cid:229), F= m (6) x dt2 y dy2 where (cid:229) F , (cid:229) F are net forces acting on the mass in directions parallel x y d2x d2y to the x and y axes and the terms and are the components of dt2 dt2 the acceleration of the mass parallel to the axes.
+q What is the component of T acting in the x-direction?
+It is – T sin .
+(Note that the negative sign is because T acts upwards and the resolved components falls in the negative x-direction).
+q What is the components of T acting in the y-direction?
+It is T cos - mg. 27MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING It then follows that (cid:229) F = - T sin q (7) x (cid:229) F = T cos q - mg (8) y also, note that q q x = l sin and y = l(1 - cos ).
+(9) Combining Eqns.
+(6), (7) and (8) we can obtain the following pair of differential equations: d2x q m = - T sin (10) dt2 d2y q m = T cos - mg (11) dt2 Eqns.
+(10) and (11) can be solved to obtain the values of x, y by eliminating T. we shall not into the details of solving these equations here.
+We shall solve them in unit 3 once solved, this formulation helps us not only to find the period of oscillation and the tension in the string but also the position vector of the bob at different time ‘t'.
+If you now compare the two formulations, you will find that the Formulation 1 based on dimensional analysis is quick and gives you a first guess about the nature of the solution or the main purpose of your study.
+But Formulation 2, though more length, gives you a deeper insight into the problem.
+Thus, the choice of a formulation depends on how far you want to go, how much details you want to gather in hand.
+Given two or more different adequate models, the question that arises is the following.
+Is one of them better than the rest in some sense?
+There can be two factors that can be used to rank different models to indicate the best.
+i) A model M is preferred to a model M if M has fewer 1 2 1 parameters.
+Thus models can be ranked in terms of the number of parameters in the model.
+Estimation of the parameters and design of experiments are not only costly but also very tedious and hence to be avoided.
+ii) If a model response is highly sensitive to the parameters of the model, then the model is of limited use for prediction purposes, as small errors in parameters will result in large errors in the model response.
+Thus, the models can be ranked in terms of the sensitivity of the response to changes in parameter values.
+28MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Before we take up another example you may like to try the following exercises.
+SELF ASSESSMENT EXERCISE 1 Note Ecology is the study of the interrelation between living organism and their environment.
+We are getting more aware of our environment, the pollution caused by the industries, the need to conserve our forest and to maintain an ecological balance.
+In this context, understanding the role played by the plants and trees around us on the earth as well as those in the lakes, rivers or the seas becomes relevant.
+We now take up in Example 2 the modelling of a problem related to ecology.
+We discuss simple formulations to understand the distribution of phytoplanktons.
+Phytoplanktons, as you may know, are microscopic plants, which, under certain conditions exhibit directed motion (metres per day) along gradients of light, density or chemical concentration.
+They are the basis of marine food cycle supporting life from shrimps and cod to blue whales and lastly man.
+They also contribute to the global changes in atmospheric carbon.
+Thus, understanding the plankton population is of major importance in predicting future fish harvests and in assessing the possible consequences of global warming.
+Example 2: Observations about the phytoplanktons reveal that their populations spatial pattern is often patchy i.e., the organism is distributed in a patchy manner in space.
+The mechanism which maintains this patchiness is still not very well understood.
+Though there may be various reasons (wind, velocity of water, temperature, salinity, nutrient distribution, consumption by the fishes etc.
+), two mechanisms seem to play important roles: (i) Diffusion of the phytoplanktons due to turbulence in surrounding media and (ii) random movement of the organisms.
+In fact aggregates can give rise to a more uniform distribution.
+Note: Turbulence is a type of random motion consisting of many whirls, moving in an irregular fashion.
+Diffusion is a phenomenon by which the particle group as a whole spreads according to the irregular motion of each particle.
+Let us now see how we can formulate this ecological problem: Formulation 1: Consider a water mass within which phytoplankton grows and diffusion takes lace.
+We may assume that this water mass is 29MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING surrounded by water in which plankton cannot survive.
+(see Fig.
+4).
+Since a part of the population is continuously lost to the surroundings owing to diffusion, the plankton patch would cease to exist unless reproduction within it counterbalances this loss.
+Now, the loss of organisms due to diffusion takes place through the boundary of the patch; hence its rate is proportional to the surface area of the patch.
+On the other hand, reproduction takes place locally within the patch, and hence its state is proportional to its volume.
+We know that for a sphere of radius r p The surface area of a sphere = 4 r2 (12) 4 p The volume inside a sphere = r3.
+3 Note: Fig.
+4:Region of water mass 1 (cid:181) Therefore, ration of surface area to the volume of a sphere is .
+This r means that a larger sphere carries less surface area relative to its volume than a smaller sphere.
+As the volume of water mass decreases, (i.e.
+r becomes smaller and smaller), diffusion plays an important role, and eventually a limit is reached beyond which reproduction can no longer compensate for the loss due to diffusion.
+We want to estimate the critical increase of plankton population.
+a Let D be the diffusivity, be the rate of growth and L the size of the water mass.
+It is obvious that the critical size L can be determined by c a the two parameters Dd and a i.e.
+L = f(D, ) (13) c dimensionally 30MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING D = [L2 T-1] (14) (You can assume this now but will be obvious to you when we do formulation 2).
+a Also you know, = [T-1], L = [L] (15) c Dimensional analysis leads us to 1 (cid:230) D(cid:246) 2 L = A (cid:231) (cid:247) (16) c Ł a ł Where A is a non-dimensional constant.
+Thus, we have arrived at a formula which gives us the critical size in terms of the diffusivity as well as the rate of growth.
+The constant A is not known.
+But, you know by now, as we discussed in the case of the simple pendulum (Unit 1), the dimensional analysis leads to formulas with a constant left undetermined.
+The constant A has to be determined by making observations or conducting experiments.
+The data collected should be estimated.
+(Recall how we estimated the constant in the p expression for period of oscillation of the pendulum as 2 ).
+You will see in Unit 3, when we solve the equations obtained in Formulation -2 p this constant A actually turns out to be .
+Formulation 2: In this formulation, we go for a little more detailed method for estimating L .
+This method is based on the equations c describing the diffusion of a substance in a medium in which it diffuses is given by ¶ C ¶ (cid:230) ¶ C(cid:246) ¶ (cid:230) ¶ C(cid:246) = (cid:231) D (cid:247) + (cid:231) D (cid:247) (17) ¶ t ¶ xŁ ¶ xł ¶ yŁ ¶ zł where D is the diffusivity and C is the concentration of the substance, (x, y; z) corresponds to the Cartesian coordinates and ‘t’ is the time.
+The derivation of this equation based on Fick’s law will be given in Blocks 2 and 3.
+For the present discussion, it is enough for you to know that this equation is based on the principle of conservation of mass.
+The left hand of the equation represents the rate of change of concentration while the right hand side represents the change of flux due to diffusion.
+Let us now check the dimension in Eqn.
+(17) Note: Flux is the amount of transport of matter in the (x, y, z) direction across a unit normal area in a unit time.
+31MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING [C] The L.H.S.
+is dimension .
+T [C] L2 R.H.S.
+is of dimension [D] (cid:222) [D=] , fact we assumed in Eqn L2 T (14).
+Now, let us formulate the model for dinging the critical length L using c the diffusion equation.
+We shall construct a simple one-dimensional model.
+Let the phytoplankton be limited to grow only in a one- dimensional region say along the x-axis, and let the region of bloom be limited to (O, L) as shown in fig.
+5. x 0 L Fig.
+5 The diffusion equation of the organism concentration C, is then given by ¶ C ¶ 2C = D + a C (18) ¶ t ¶ x2 This is the one dimensional diffusion equation (refer Eqn.
+(17) with constant diffusivity D. The last term a Cis added to the equation a because, there is an additional production in the region, being the growth rate.
+Our aim is to find the solution of Eqn.
+(18) that vanishes at x = 0 and x = L and corresponds to a given initial concentration C(x, 0) = f(x).
+We shall do so in Unit 3.
+But, what is interesting to note here is that this formulation is more detailed than formulation 1 in the sense that we can find not only the critical length L of the water mass but also the c distribution of the concentration of the phytoplanktons at different times £ £ and different points x in the region 0 x L. Thus, this formulation allows us to get more details about the population.
+Let us now imagine that the interchange between internal growth and loss at the boundary has been going on for a long time and now a steady state has reached i.e., C does not explicitly depend on t. What will happen then?
+Can you formulate the problem in that situation?
+You may try to do that.
+There is a lot of scope for improving Formulation 2. for example, 32MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING i) You can relax the assumption of a one dimensional model and consider a three dimensional model.
+But, you must realize that this will make the equations more difficult to solve.
+Still, for getting better insight into the problems more difficult to solve.
+Still, for getting better insight into the problem, you should not mind the complications on the mathematical analysis.
+Even if you cannot solve equations analytically using existing techniques, you may try to solve them numerically.
+ii) We have, so far, not discussed the movement of the water mass.
+The patchiness of the phytoplankton growth is very often wind driven and hence the velocity of the movement of the water mass can also be included in refining the model.
+This refinement will also call for more mathematical difficulties since you will have more equations to solve.
+You will have to solve for the three velocity components of the water mass and use them to solve the modified diffusion equations which include terms corresponding to the contribution of the velocity of the water mass.
+So, in this formulation, you may have to solve four differential equations (three for the three velocity components plus one diffusion equation).
+Thus, more the accuracy you require the more the model closely represents the real problem, the formulation results in solving more complicated equations.
+But that does not mean that a model is a good one only if it results in solving complicated equations.
+Formulations (1) and (2), are simplified models, they preserve the essential features of the problem and give the critical size by the balance of diffusion rate and growth rate.
+Thus, what is important is preserving the essential features of the problem.
+We shall now illustrate through an example, how simplifying a model without the inclusion of the essentials can lead to wrong results.
+Let us think about modelling the following problem: Example 3: A raindrop, beginning at rest, falls from a cloud 705.6 m above the ground.
+How long does it take to reach the ground?
+Formulation 1: We first model the raindrop as a freely falling body.
+For freely falling bodies you know that the distance x travelled by a particle in a time duration‘t’ is given by, gt2 x = ut + (19) 2 Where u is the initial velocity and g = 980 cm/sec2.
+33MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Since u = 0 in our present problem, we get, 70560 = 490t2 therefore, t2 = 144 or, t = 12 seconds (20) However, if we actually perform the experiment, we would discover two things which contradict the model.
+i) the weight of the raindrop makes an important difference in the time it takes to fall ii) the fastest time (for the largest raindrop) is about 40 seconds.
+Nearly three and a half times more than the one predicted by our simple model based on the theory of falling bodies.
+Where is the snag?
+Before applying any theorem or a rule it is important to remember the conditions or restrictions on which the theorem or the formula rests.
+In the case of the foregoing analysis, we have tried to use a formula which is only valid if the object is subjected only to the force of gravity.
+On the contrary, in the case of the raindrops,.
+The force of gravity is opposed by a significant amount of air drag – a blessing indeed for otherwise we might be killed by falling raindrops.
+You can test it with a golf ball.
+Air drag is present because of the greater density of the golf ball and the shorter distance of fall.
+Since our finding that the raindrop takes 12 seconds does not tally with the experimentally observed findings, there arises a need to improve the model by understanding the essentials of the problem – air drag in this case – and including it in the formulation.
+We now consider another formulation of this problem.
+Formulation 2: Stoke’s law states that for spherical droplets falling in motionless air and having a diameter D < 0.762 cm, the acceleration due to gravity is opposed by an amount proportional to the velocity of the 10- 5 dx raindrop, specifically by an amount equal to (0.329 x ) .
+Thus D2 dt we can write the equation for the rain drop as, d2x 0.329x10- 5 dx = 980 - (21) dt2 D2 dt This is a simple ordinary differential equation which can be easily solved but we shall not do that here.
+What you must notice here is the improvement we have introduced into the Formulation of the model.
+Incidentally, this formulation goes beyond the objectives of Formulation 1.
+We can predict from this model the existence of a terminal velocity – 34MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING i.e., the velocity which is an upper round to how fast the body can go at any time during its fall.
+To make this statement clearer we explain as follows: d2x dx When the acceleration is zero, we get the value of , i.e., the dt2 dt velocity as dx 980x105xD2 = (22) dt 0.329 If the droplet ever achieves this velocity, then the acceleration rate of change of velocity is zero.
+In such a situation the body continues with the same velocity and we are able to predict the terminal velocity.
+980x105xD2 V = cm/sec.
+(23) term 0.329 Actually, although we shall not prove it, in practice, a droplet falling according to Eqn.
+(19) never quite reaches its terminal velocity but gets closer and closer, to it.
+Unless its fall is interrupted by hitting the ground, the velocity eventually becomes so close to v that, for term practical purposes we consider it equal to v term.
+Furthermore, clouds are sufficiently high and a water droplet gets close to its terminal velocity quickly enough that it is not a bad assumption to suppose that the droplet travels at its terminal velocity for its whole trip.
+How about trying this exercise.
+SELF ASSESSMENT EXERCISE 2 Formulation 2 was an improvement over formulation 1 in that it introduced a very essential item – the air drag – into the model.
+But this formulation too has its limitations.
+It was based on Stoke’s law valid for very small droplets.
+We therefore consider yet another formulation.
+Formulation 3: In formulation 3 we shall use the fact that for spherical raindrops falling in still air and having diameter D > 0.12 cm, the acceleration due to gravity is opposed by an amount proportional to the 0.00046 square of its velocity, specifically an amount equal to ( ) D ( dx ) 2.
+Thus, the equation corresponding to this formulation is given dt by: 35MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING d2x 0.000460(cid:230) dx(cid:246) 2 = 980 - (cid:231) (cid:247) (24) dt2 D Ł dt ł This model too can give the terminal velocity which can be obtained as d2x dx before by setting = 0 and solving for .
+The result is dt2 dt 980D V = cm/sec.
+(25) term 0.000460 So far, models considered in Examples 1-3 were all continuous models leading to differential equations but you know from unit 1, this is not the case always.
+Models may be discrete as well.
+To illustrate this we shall now take up an example from economics, in particular from market equilibrium analysis which leads to a discrete model resulting in difference equations.
+Before going into the formulation of the model we shall familiarize you with the terminologies like demand, supply, equilibrium price, stability of equilibrium etc, associated with the market behaviour.
+We shall talk about them in detail in Unit 11 of Block 4 when we discuss modelling in economics.
+Economists often divide goods into two categories: commodities and manufactured items.
+Commodities are the primary products of the earth, such as oil, corn, lumber and so on.
+In both of these categories there are year-to-year fluctuations in prices of manufactured goods which usually follow fairly smooth trends whereas the prices of commodities often fluctuate up and down sharply.
+Where do these fluctuations come from?
+Economists look for the answer in the concepts of supply and demand.
+The supply of a commodity in a given time period is simply the amount available for sale in that period.
+But how does the supply come to exist in exactly that amount?
+A fundamental fact about commodities is that one must plan far in advance for their production.
+To get more wheat in the autumn, you must plant more in the spring.
+Therefore, in the period between planting and harvesting, there is little that can be done to affect the supply.
+This is called the Production lag.
+The demand for a commodity is the amount that will be bought at a given price.
+When the price goes up, demand goes down, and vice- 36MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING versa.
+Further, the response of demand to price changes is immediate, there is no lag.
+The market forces which determine the price and the quantity sold can be regarded as manifesting themselves through the aggregate demand (D(p)) and supply functions (S(p)) where p denotes price of the commodity.
+In general, Pi stands for the price of the commodity Qi and qi denotes the quantity of the commodity Qi.
+Demand function of thecommodity Qi is qi = D (pi) and the supply function of the i commodity Qi is qi = S (Pi).
+But here we shall confine our discussion i to a single commodity Q.
+Now for any commodity Q the quantity demanded must equal the quantity supplied at the equilibrium, price pe such that D(p) – S(p) = 0 for some p = pe (see Fig.
+6).
+Note P Fig.
+6 S(p) There is no guarantee that the equilibrium price will be established if the P market is not in equilibrium when the coentracting begins.
+Changes in D(p) consumer preference and innovations both tend to disturb an established equilibrium situation.
+The change defines a new equilibrium, but there is again no guarantee that is will be attained.
+In general, a dqisturbance denotes a situation in which the actual price is different from the equilibrium price.
+An equilibrium is stable if a disturbance results in a return to equilibrium and unstable if it does not.
+A disturbance usually creates an adjustment process in the market.
+For example if the actual price is less than the equilibrium price, the adjustment may consist of some buyers raising their bids for the commodity.
+Static Analysis investigates at a particular time the adjustment process and considers only the nature of the change, i.e., whether it is towards or away from, equilibrium.
+Define E(p) = D(p) – S(p) as the excess demand at price p. the Walrasian stability condition is based on the assumption that buyers tend to raise their bids if excess demand is positive and sellers tend to lower 37MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING their prices, if it is negative.
+Assuming this, a market is stable (static) if a price rise diminishes excess demand, i.e.
+if dE(p) = E'(p) = D'(p)- S'(p) < 0 dp In this case, nothing is said about the time path of the adjustment one might not expect instantaneous adjustments in the present model.
+If the initial price is not equal to the equilibrium price, it changes, and recontracting takes place.
+If the new price is still different from the equilibrium price, it is again forced to change.
+The dynamic nature of the recontracting may be formalized in a model in which recontracting takes place during periods of fixed length; say one hour, with the auctioneer announcing the new price at the beginning of each period.
+The analysis of dynamic stability investigates the course of price over time, i.e., from period to period.
+Equilibrium is stable in the dynamic sense if the price converges to (or approaches) the equilibrium price over time and it is unstable if the price change is away from the equilibrium.
+Example 4: Let us now see how we can formulate the dynamic stability of market equilibrium.
+Formulation 1: Suppose the demand function D for the periods t are t given as follows: D = ap + b (26) t t S = Ap + B (27) t t Where a, b, A and B are all consonants Then the equilibrium price p determined by setting D – S = 0 for p = p e t t t e is given by b- B P = (28) e A- a The assumption that a positive excess demand tends to raise price can be modelled in many different ways.
+A commonly used mathematical model is given by P – p = kE(p (29) t t -1 t-1) 38MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Where p is the price in period t and k is a positive constant.
+It means t that a positive excess demand E(p ) includes buyers to bid a price p = t-1 t p + kE(p ) > p in the following period.
+t-1 t-1 t – 1 The excess demand of period (t – 1) is then given by D(p ) – S(p ) = E(p ) = (a – A)p + (b – B) (30) t – 1 t – 1 t – 1 t – 1 Substituting from Equ.
+(30) in Eqn.
+(29) we have, P – p = k[(a – A)p + b – B] t t – 1 t – 1 Or, P = [1 + k(a – A)]p + k(b – B) (31) t t – 1 This is a first order difference equation describing the time path of price on the basis of the behaviour assumption contained in Eqn.
+(29).
+We shall give the method of solving Eqn.
+(31) in unit 11 when we discuss it in detail.
+But if you are familiar with difference equations it will not be difficult for you to verify that given the initial condition p = p when t = 0 0, it s solution is given by P = (p – p ) [1 + k(a – A)]t + p (32) t 0 e e b- B Where p = is the equilibrium price.
+e A- a The price level converges to p without oscillations if e - 1 < 1 + k(a – A) < 1 more of this will be discussed in unit 11, Block 4.
+Remark: if we assume that the adjustment takes place continuously, then Eqn.
+(29) is replaced by dp = kE(p) dt dp and Eqn.
+(31) takes the form = k(a – A)p + k(b – B) with solution dt p(t) = (p – p )ek(a – A)t + p where p is the initial price at t = 0 The 0 e e 0 ﬁ ﬁ ¥ equilibrium price is dynamically stable, that is, p p as t , if (a – e A) < 1 39MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING as we have already mentioned production takes time.
+The adjustment may not be instantaneous, but may become perceptible in the market only after a period of time.
+Agricultural commodities often provide good examples of lagged supply.
+Production plans are made after the harvest.
+The output corresponding to these production plans appears in the market a year later.
+We thus give another formulation of the dynamic stability but with lagged adjustment this time.
+Formulation 2: Let the demand and supply functions be as given below.
+D = ap + b (33) t t S = Ap + B (34) t t – 1 (Note that the supply function is a linear function of p ) t – 1 The market is in dynamic equilibrium if the price remains unchanged from period to period i.e.
+if p = p .
+from Eqn.
+(33) and (34) we get the t t – 1 B- b unique equilibrium price p = e a- A The quantity demanded in any period depends upon the price in that period, but the quantity supplied depends upon the price in the previous period.
+It is assumed that the quantity supplied in period t is always equal to the quantity demanded in that period i.e.
+D – S = 0 This gives t t A B- b P = p + (35) t a t- 1 a Eqn.
+(35) is a difference equation and its solution is given by A P = (p – p ) ( )t + p where p = p at t = 0. the market is dynamically t 0 e e t 0 a A A stable if p ﬁ ¥ .
+This is possible if < 1 (since ( )t ﬁ 0 as t ﬁ ¥ ).
+t a a 1 Geometrically, this happens if the slope ( ) of the demand curve has a 1 1 smaller absolute value than slope ( ) of the supply curve, i.e., < A |a | 1 .
+Pictorially, the stable equilibrium and the unstable equilibrium are |A| as shown in Fig.
+7 (a) and 7 (b) respectively.
+p p p o S(p) p o D(p) 40 D(p) S(p) q q q q 0 0MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING (a) Stable equilibrium (b) Unstable equilibrium Fig.
+7 You may now try the following exercise for a better understanding of the above discussion.
+SELF ASSESSMENT EXERCISE 3 8.0 CONCLUSION We now end this unit by giving a summary of what we have covered in it.
+9.0 SUMMARY In this unit we have covered the following: • Real-life problem may be analyzed to sift the most essential characteristics of the problem from details of minor importance.
+Examples of simple pendulum, rate of growth of world population or blood flow in the circulatory system are discussed to make you think what is of foremost importance in the problem that needs to be included in the model.
+• Once the essential characteristics of the model are listed according to their priority, there can be more than one way to approach the problem.
+In other words, the conversion of the real life problem into a mathematical description in terms of the equations can be done in different ways.
+The particular familiar examples- (i) Motion of a simple pendulum, (ii) Growth of phytoplankton population were formulated in two different ways through (a) dimensional analysis and (b) deterministic method.
+The former served for developing a preliminary model whereas the latter could take you farther in understanding/explaining the observations.
+Two formulations of dynamic stability of market equilibrium are also considered, one with lagged supply and one without it.
+• You can get erroneous results if you miss some essential characteristic of the model.
+This is shown through an example of the falling of a rain drop.
+41MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING • It is important that you should have a clear objective in mind when you deal with a real-life problem.
+If you want to have a rough idea of the problem, a crude model which does not take into account all the details of the problem (but certainly the essentials) will suffice.
+But if the objective is to understand the problem with all the minutest details, a thorough model which incorporates most of the parameters has to be formulated.
+It must be borne in mind that if more parameters are introduced in the problem it involves more cost (calculations using computers) and effort to solve the resulting mathematical equations.
+6.0 TUTOR MARKED ASSIGNMENT 1) Identify the essentials and two non-essentials in each of the followings: (a) Traffic flow in Kaduna depends critically on the traffic control scheme.
+If the scheme is poor, long lines can result at one or more intersections increasing the time to travel across the city.
+The problem is to evolve a scheme which minimizes the expected time to travel across the city.
+(b) Proper flow of blood is essential to transmit oxygen and other nutrients to various parts of the body in humans as well as in all other animals to various parts of the body in humans as well as in all other animals.
+Any constriction in the blood vessel or any change in the characteristics of blood vessels can change the flow and cause damages ranging from minor discomfort to sudden death.
+The problem is to find the relationship between blood flow and physiological characteristics of blood vessel.
+(c) Suppose you own an automobile industry.
+You require a set of standard bolts.
+For this purpose you float a tender.
+In response to the tender you receive quotations from ten different vendors.
+The problem which you face is to choose one of those ten vendors whose quotation maximizes your profit.
+2) As in E1), propose at least two real life problems and list the essentials and non-essentials in the problems.
+3) Consider the free fall of a body in a vacuum.
+The fall must be related to the gravitational acceleration g and the height h from which the body is released.
+Use dimensional analysis to show that the velocity V of the falling body is determined by the dimensional equations V/ gh = constant.
+42MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 4) A string of length l is connected to a fixed point at one end and to a stick of mass m at the other.
+The stick is whirling in a circle at constant velocity v. Use dimensional analysis to show that the force in the string is determined from the dimensionless equation Fl = constant.
+mv2 5) The volume rate of flow Q of a fluid through a tube is thought to D p depend on the pressure drop per unit length , the diameter d, l m and the viscosity .
+Show that only one dimensionless equation (cid:230) d4(cid:246) can be formed, from which it follows that Q = (constant) (cid:231) (cid:247) Ł m ł (cid:230) d4(cid:246) (cid:231) (cid:247) .
+Ł lł m M [Hint: Dimension of viscosity is ] LT 6) Formulate Example -2 in the case of a steady state i.e., when C does not explicitly depend on the time t. What type of equation you obtain in this case.
+7) Find the terminal velocity of a drizzle drop with diameter D = 0.01 cm Compare it to the terminal velocity of a fog droplet with one third of that diameter.
+8) For a rain drop of diameter D = 0.24 cm, find the terminal velocity.
+Also find how long it takes to reach the ground if it starts its descent in a cloud 4000 metre high.
+9) Discuss the static stability and dynamic stability for the following demand and supply functions where we assume k = 6 for the latter case.
+D = - 0.5p + 100 t t S = - 0.1p + 50 t t 10) Discuss the following market which is characterized by lagged supply response.
+D = 40 – 10 p t t S = 2 + 9p t t – 1 7.0 REFERENCES/FURTHER READINGS 43MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Mathematical Modelling from School of Sciences, IGNOU.
+Quantitative Analysis in Management by Kirk Patrick.
+Quantitative Analysis in Management by C.N.
+Lomoba.
+MODULE 2 Unit 1 Solution of Problems Course-Effect Diagrams, Equation Types, Algebraic, Ordinary Differential, Partial Differential, Difference Integral and Functional Equations 44MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING UNIT 1 SOLUTION OF PROBLEMS COURSE-EFFECT DIAGRAMS, EQUATION TYPES, ALGEBRAIC, ORDINARY DIFFERENTIAL, PARTIAL DIFFERENTIAL, DIFFERENCE INTEGRAL AND FUNCTIONAL EQUATIONS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Solution of Formulated Problems 3.1.1 Motion of a Simple Pendulum (Ordinary Differential Equation) Non-Linear Model (Integral and Functional Equation) 3.1.2 Phytoplankton Growth (Partial Differential Equation) 3.2 Interpretation of the Solution 4.0 Conclusion 5.0 Summary 6.0 Tutor Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION In the two previous units, we introduced you to some of the aspects of mathematical modelling.
+Unit 1 helped you to recall many of the definitions in mathematics, physics and biology with which you may already be familiar.
+But these very familiar concepts were presented to you as a part of mathematical modelling.
+In unit 1, we have discussed different types of modeling.
+In unit 2 we dealt detail with the first important stage of mathematical modelling, viz., identifying essential characteristics of the problem at hand, bringing out the most important features of the problem and formulating mathematical representations are algebraic / differential / difference equations and their combinations.
+In unit 2 you have seen that some equations are easy to handle with such that we can deduce the relevant information from the equation, directly as in the case Formulation 1 in Example 1.
+In the other cases we need to go further and solve these equations depending upon what type of equations they are.
+Here we shall discuss the second important stage of modelling, viz.
+solving the formulated equations and the interpretation of the solutions.
+We shall solve some of the problems formulated in unit 2.
+We have given some of them as an exercise for you to try.
+In Sec 3.2 we have mainly discussed two problems – one related to motion of a simple pendulum, and the other related to the growth of phytoplankton.
+45MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING You will find that the different techniques you have learnt in differential equations will be extremely useful in solving these problems.
+A model is complete only when we interpret the mathematical solution of the model.
+In Sec.
+3.3 we shall discuss this aspect of mathematical modelling namely interpreting/evaluating the solution.
+We shall explain how we interpret the solutions obtained for the problem of simple pendulum and that of phytoplankton.
+You will see that the interpretation helps us to gauge how effective the model is.
+In this section we shall also talk briefly about limitation/shortcoming of a model.
+You may notice that in this unit we have used only the techniques in differential equations to obtain a solution because the resulting equations were differential equations.
+But this is not the case always.
+In the later blocks you will see that there are other techniques like techniques in probability and linear algebra which are used in obtaining a solution.
+Do try the exercises given in this unit sincerely.
+This will help you to gauge whether you have followed concepts and the techniques we have explained.
+Let us list the objectives of this unit now.
+2.0 OBJECTIVES After reading this unit you should be able to • Use the techniques in differential equations for solving a formulated problem resulting in differential equations • Interpret the solution obtained in the context of the real situations.
+3.0 MAIN CONTENT 3.1 Solutions of Formulated Problems We learnt in unit 2 that we can choose more than one type of formulation for the same problem.
+The choice of a mathematical model to be developed must depend on the purpose for which the model is required.
+In Sec.
+2.3 Example 1 of unit 2 we saw that if the purpose of studying the movement of a simple pendulum is to find its period of oscillation, a quick solution based on dimensional analysis will serve our purpose.
+But if the objective of the study is to have a deeper insight into the problem we have to use a different model.
+In this case a model based on Newton’s law by resolving the forces acting on the bob of the 46MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING pendulum will serve the purpose.
+Similarly, we have shown in Example 2 of Sec.
+2.3 of unit 2 that if we want to have a cursory knowledge about marine ecology, a simple model based on dimensional analysis will suffice.
+With that we can easily have a rough estimate of the critical length or water mass required for the phytoplankton population to increase.
+But if we want to get more details, a model based on a system of differential equation would be required.
+We discuss in this section the solutions of the deeper problems formulated in unit 2.
+We shall first consider the second formulation related to the movement of simple pendulum.
+3.1.1 Motion of a Simple Pendulum (Ordinary Differential Equation) In the last two unit we discussed the problem of finding the period of oscillation, tension in the string and the position of the bob at any time of a simple pendulum.
+There we formulated the problem using Newton’s law (Example 1, formulation 2, unit 2).
+We shall now discuss how we find the solution.
+In the last unit we saw that the formulation resulted in two differential equations (see Eqn.
+(8) and Eqn.
+(9) of unit 2, which we give below: d2x m = - T sin q (1) dt2 d2y m = Tcos q - mg (2) dt2 where the tension T and the amplitude q are not known.
+Our objective is to find the position of the pendulum and the tension in the string at any time.
+This is possible if we know either the position (x, y) of the bob at that instant or the angle q the string makes with the vertical at that instant (see Fig.
+1) 47MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING y x A θ cos θ sin θ (x, y) (1 - cos θ) mg Fig.
+1 You know that x, y and q are connected by the relation.
+x =  sin q , y = (1 – cos q ),  being the length of the pendulum.
+Let us now solve q by eliminating the terms x and y. d2x d2y to eliminate the terms m and m from Eqn.
+(1) and Eqn.
+(2), we dt2 dt2 apply the chain rule dx dx dθ = .
+dt dθ dt By repeated application of the chain rule, we get d2x d2q (cid:230) dq (cid:246) 2 = cos q - sin q (cid:231) (cid:247) (3) dt2 dt2 Ł dt ł d2y d2q (cid:230) dq (cid:246) 2 = sin q + sin q (cid:231) (cid:247) (4) dt2 dt2 Ł dt ł so (1) and (2) become d2q Ø (cid:230) dq (cid:246) 2ø mcos q + Œ T - m(cid:231) (cid:247) œ sin q = 0 (5) dt2 Œº Ł dt ł œß d2q Ø (cid:230) dq (cid:246) 2ø msin q + Œ T - m(cid:231) (cid:247) œ cos q = - mg (6) dt2 Œº Ł dt ł œß Have we improve the situation?
+Eqn.
+(5) and (6) still look quite formidable!
+What if we multiply (5) by cos q and (6) by sin q and add the two equation?
+Well, we get 48MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING d2q m(cos2 q + sin2 q ) = -mg sin q (7) dt2 or d2q i.e., m + mg sin q = 0 (8) dt2 Thus, we have found the equation, in terms of q alone as a function of t. We try to find a similar formula for the tension T also.
+For this, we multiply (5) by sin q , (6) by cos q and then take the difference.
+We then find that Ø (cid:230) dq (cid:246) 2ø Œ T - m(cid:231) (cid:247) œ (sin2 q + cos2 q ) = mg cos q , (9) Œº Ł dt ł œß (cid:230) dq (cid:246) 2 i.e., T = m  (cid:231) (cid:247) + mg cos q (10) Ł dt ł This is another equation of motion, in a direction along the string, from which the tension can be calculated once q (t) has been determined from Eqn.
+(8).
+Now, have a close look at Eqn.
+(8) and (10).
+What type of differential equation are they?
+You might have noticed that both (8) and (10) are q 3 non-linear differential equation.
+(Note that sin q - + …..).
+From 3!
+your previous knowledge of differential equations you must have observed that it is not easy to find the solutions of non-linear differential equations, in general.
+One way of getting a quick solution is to make some approximations which will change the non-linear equations to a linear one and then solving the resulting linear equations by known methods.
+But while doing so, we should always see that these approximations do not omit the essential details of the problem.
+Next we shall show you how both these equations (8) and (10) can be simplified if we are ready to make an approximation i.e.
+the oscillations are small.
+With this approximation you will see that the equations become linear and the solutions are easy to obtain.
+Solution using Linear Model (D.E) To begin with, let us assume that the oscillations are small which means that q is small.
+This will enable us to approximate sin q by q since as q ﬁ 0, sin q ﬁ q .
+This will certainly reduce the accuracy in our 49MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING calculations.
+But the mathematics involved gets much reduced.
+In fact, even for fairly large angles, i.e., angles whose magnitude may be anywhere up to 30o, i.e., - 30o £ q £ 30o, we can take Sin q » q Cos q » 1 As you can expect, these approximations will introduce some errors.
+For example, let q = 15o.
+then from the table of sine you can find that sin 10o = 0.25881.
+To compare this with the given value of q we have to find q in radian measure.
+The radian measure of q = 15o is 0.26196. the error in this approximation is 0.26196 – 0.25881 = 0.00315.
+Using the approximations, we write Eqn.
+(8) as d2q g + q = 0 (11) dt2  and Eqn.
+(10) as Ø  (cid:230) dq (cid:246) 2ø T = mg Œ 1+ (cid:231) (cid:247) œ (12) Œº gŁ dt ł œß We can further simplify Eqn.
+(12) by using the argument that when q is (cid:230) dq (cid:246) 2 small (cid:231) (cid:247) < 1 and hence the second term in the bracket is much Ł dt ł smaller than the first term.
+Therefore we can neglect the second term.
+This would imply T = mg (13) Isn’t this an interesting result?
+Even for swings of the pendulum up to – 30o, the tension is a constant.
+Let us now go back to Eqn.
+(11).
+For you recognize it?
+It is nothing but the classical simple harmonic equation with which you were familiar even at high school.
+Eqn.
+(11) is a simple second order ordinary differential equation with constant coefficients.
+From your knowledge of ordinary differential equations you know that (cid:230) (cid:246) (cid:230) (cid:246) g g q = A cos (cid:231)(cid:231) t(cid:247)(cid:247) + B sin (cid:231)(cid:231) t(cid:247)(cid:247) (14) Ł  ł Ł  ł where A and B are arbitrary constants.
+50MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Now what are A and B?
+These constants will depend on the initial position of the bob and the velocity with which it is started.
+Let us assume that q = q at t = 0, where q is some arbitrary angle (15-a) 0 0 dq = at t = 0 (15-b) dt (15-a) would imply that at t = 0, the amplitude of motion of the pendulum is q .
+(15-b) implies that the initial speed of the pendulum is 0 zero.
+Thus, conditions (15-a) and (15-b) correspond to initially holding the pendulum at rest at any arbitrary angle q and then letting it go.
+0 When we put t = 0 and apply Eqn.
+(15-a) in Eqn.
+(14), we get A = q .
+0 dq dq Then we obtain from Eqn.
+(14 and apply the condition = 0, t = dt dt 0 to get (cid:230) (cid:246) (cid:230) (cid:246) g g g g - q sin (cid:231)(cid:231) t(cid:247)(cid:247) + B cos (cid:231)(cid:231) t(cid:247)(cid:247) = 0, when t = 0.
+0 Ł  ł l Ł  ł l This implies that B = 0.
+Therefore the solution is given by g q = q cos t (16) 0 l instead of Eqn.
+(15-a) and Eqn.
+(15-b), suppose we assume that q = 0, at t = 0 dq and = ω, at t = 0 dt This means that at t = 0, the initial amplitude of the motion is 0 i.e.
+the bob is at the equilibrium position and the initial speed is ω.
+Now we have it as an exercise for you to check that the solution in this case is given by (cid:230) (cid:246) l g q = ω sin (cid:231)(cid:231) t(cid:247)(cid:247) (17) g Ł  ł Thus, individually Eqn.
+(16) and Eqn.
+(17) is also a solution of Eqn.
+(11), being the solutions of a linear differential equation.
+51MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Therefore, (cid:230) (cid:246) (cid:230) (cid:246) g l g q = q cos (cid:231)(cid:231) t(cid:247)(cid:247) + ω sin (cid:231)(cid:231) t(cid:247)(cid:247) (18) 0 Ł  ł g Ł  ł is the solution of (11) with the conditions q = q , at t = 0 and 0 dq = ω, at t = 0 dt Can you guess what physical situation the solution will correspond to?
+This corresponds to the pendulum being release with an initial velocity ω from a point with angular distance q .
+We shall discuss the 0 interpretation of the solution in detail in Sec.
+3.3 Try this exercise now.
+In the foregoing discussion, you have seen that the approximations we introduced enable us to have a linear model which corresponded to the simple harmonic oscillation.
+But you must keep in mind that any simplification we introduced in the model will cost you something-in this case there had to be a restriction on the range of values of the amplitude i.e.
+|q | £ 30o Now, suppose you have a problem in which you cannot assume the oscillation to be small.
+Then in that case the non-linear characteristic of Eqn.
+(8) and Eqn.
+(10) has to be maintained which means that the resulting model will be a non-linear model.
+Next we shall discuss the solution in this case.
+Solution using non-linear model (Integral and Functional Equation) dq We begin with rewriting Eqn.
+(8) after multiplying by .
+We get dt (cid:230) d2q g (cid:246) dq (cid:231) + sinq (cid:247) = 0 (19) Ł dt2 l ł dt which we can also rewrite as d Ø 1(cid:230) dq (cid:246) 2 g ø Œ (cid:231) (cid:247) - cosœ = dt Œº 2Ł dtł l œß 52MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING This implies that 1 (cid:230) dq (cid:246) 2 g (cid:231) (cid:247) - cos q = a constant (20) 2 Ł dtł l If the initial condition is such that the pendulum is started at rest from an arbitrary angle q , then at t = 0 0 dq q (t) = q , = 0 0 dt dq Therefore if we put q = q and \= 0 in Eqn.
+(20), we get that the 0 dt g constant is ( - cosq ) 0 l 1 (cid:230) dq (cid:246) 2 g g i.e.
+(cid:231) (cid:247) - cos q = - cos q 0 2 Ł dtł l l (cid:230) dq (cid:246) 2 g (cid:230) q q (cid:246) Therefore, (cid:231) (cid:247) = 4 (cid:231) sin2 0 - sin2 (cid:247) (21) Ł dtł l Ł 2 2ł q (Using the identity cos q = 1 – 2 sin ).
+2 Substituting Eqn.
+(21) in eqn.
+(12) we get the value of the tension T in terms of q .
+The can check that the express for T is Ø (cid:230) q q (cid:246) ø T = mg Œ 1+ 4(cid:231) sin2 0 - sin2 (cid:247) œ (22) º Ł 2 2ł ß Also from Eqn.
+(21) we have dq g 2 dt q q l sin2 0 - sin2 2 2 Eqn.
+(22) has to be integrated to find q , the position of the pendulum as a function of t. What would be the limits of integration?
+The pendulum swinging from - q to q and back again.
+Suppose we denote as T the 0 0 0 period of the pendulum, during the period.
+A quarter period would be T the time interval 0 £ t £ 0 say, from q = q to q = 0 (see Fig.
+2).
+0 4 Thus Eqn.
+(22) can be integrated as follows: of the total period.
+53MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 1 Fig.
+2: The time taken to go from A to O is 4 g T0 dq 2 dt(cid:242) 4 dt(cid:242) 0 l 0 -q 0 q q sin2 0 - sin2 2 2 Integrating the left hand side, we get dq g T = 2 (cid:242) 0 2 q q 0 l -q 0 sin2 0 - sin2 2 2 Now we make sole change of variable.
+Put q = - Ø.
+Then we get dq l T (cid:242) q 0 q q (23) 0 g 0 sin2 0 - sin2 2 2 ø q y Let sin = sin 0 sin .
+Differentiating both sides, we get 2 2 1 ø q y y cos dø = sin 0 cos d 2 2 2 Then q q 2sin 0 cosy 2sin cosy dø = 2 dy = 2 dy ø q cos 1- sin2 0 sin2y 2 2 Substituting for dø in the integral on the R.H.S.
+os Eqn.
+(23), we get 54MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING q 2sin 0 coscy dy l p 2 (cid:242) 2 2 g 0 q T = sin 0 sin2y 0 q q sin 0 1- sin2 0 sin2y -1 2 q 2 2 sin2 2 q 2sin 0 coscy dy l p = 2 (cid:242) 2 2 g 0 q q sin 0 cosy 1- sin2 0 siny 2 2 2 l p 2dy 2 (cid:242) 2 = g 0 q (24) 1- sin2 0 sin2y 2 l p dy 2 (cid:242) 2 = g 0 q 1- sin2 0 sin2y 2 As you may recognize it, the integral in the R.H.S.
+of Eqn.
+(24) is a q q definite integral which gives you T as a function of say f( ).
+The 0 0 0 integral is called an elliptic integral.
+Tables are available to find the values of elliptic integrals.
+We have given one such table in the appendix.
+We shall now illustrate through an example, how we find T for a given 0 l and g, using the table.
+Example 1: Find T if q = 20o, given that l = 20 cm and g = 980 0 0 cm/sec2 q Solution: Substituting for and l in Eqn., (24) we get, 0 20 p dy 4 (cid:242) 2 sec T = 980 0 20 .
+0 1- sin2 sin2y 2 You compare the integral on the R.H.S.
+with the integral given in the appendix, [look at the colume of 90o and row of 10o].
+Then we get dy p » (cid:242) 1.58284 sec.
+02 1- sin210sin2y 55MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 4 \ » T x 1.58284 sec.
+0 7 » 1.00448 sec.
+Try these exercises now.
+SELF ASSESSMENT EXERCISE 1 Let us now find the solution of the other problem we had mentioned at the beginning of this section.
+3.1.2 Phytoplankton Growth (Partial Differential Equation) You may recall that in sec.
+2.3 of unit 2, we discussed a problem from ecology, namely the effect of growth of phytoplanktons on our environment.
+In unit 2 we have seen two formulations of this problem.
+We have seen that Formulation 2 resulted in a differential equation (Eqn.
+(17), unit 2) ¶ c ¶ 2C = D + a C (25) ¶ t ¶ x2 where C(x, t) is the organism concentration of the phytoplankton.
+You know that Eqn.
+(25) is a one-dimensional partial differential equation and can be solved using separation of variables.
+Let us assume.
+C(x, t) = X(x) Y(t) Then from Eqn.
+(25), we have dY(t) d2(X) a X(x) = D Y(dt) + X(x) Y (t) dt dx2 1 (cid:230) 1 dY (cid:246) 1 d2(X) (cid:222) - a (cid:231) (cid:247) = DŁ Y dt ł X dx2 the left hand side of the above equation is purely function of Y and the right hand side is purely a function of X. so, we equal them to a constant, say K. The constant has to be negative, otherwise the model will predict an exponential growth of phytoplankton’s which will not be realistic.
+Therefore for convenience, we take K = – l 2 , where l is a constant.
+You may again recall from your PDE course that, when we take the constant as – l 2, then non-triavial solution exists.
+We now get, two equations for determining X(x) and Y(t) as 56MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 1 d2X = - l 2 X dx2 1 (cid:230) 1 dY (cid:246) (cid:231) - a (cid:247) = - l 2 DŁ Y dt ł the solution is given by.
+l l (a - l 2D)t X(x) = A cos x + B sin x, Y(t) = C e (27) 1 Where C , A and B are some constant to be determined [see MTE-08, 1 Block 4] Now we find the constant A, B and C by applying the boundary 1 conditions C(x;t)_ = 0 when x = 0 when x = 0 and x = L. We have C(x,t) = X(x) Y(t) C(0,t) = X(0) Y(t), " t " C(L,t) = X(L) Y(t), t When we apply the boundary condition C(x,t) = 0 when x = 0. we get that " 0 = C(0,t) = X(0) Y(t), t i.e.
+X(0) = 0.
+Similarly by applying the boundary condition, C(x,t) = 0 when x = L, we get 0 = C(L,t) = X(L) Y(t), " t i.e.
+X(L) = 0 Hence we get that X(0) = X(L) = 0.
+X(0) = 0 implies that A = 0 Next we have to find B and C .
+1 From Eqn.
+(27) we have l X(x) = B sin x, since A = 0 This together with the fact that X(L) = 0, implies that l B sin L = 0.
+” If B = 0, we a trivial solution i.e., C 0, in which we are not interested.
+l l p The other possibility is that sin L = 0 which implies that L = n for np l each integer n and hence = .
+This shows that, for each, n, we get a L solution of the PDE as 57MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING np Z = B sin x n n L np l Thus corresponding to each value = , n = 0, 1, 2, ….
+We get a n L solution of the PDE.
+Therefore, we get the most general solution of Eqn.
+(25), as C(x, t) = (cid:229) B' sinl xe(a-l 2nD)t (28) n n np Where l = and B' = C B .
+we now apply the boundary condition n L n 1 n C(x,0) = f(x) at t = 0, in Eqn.
+(28, which gives ¥ f(x) = (cid:229) B' sin l x (29) n n n=1 where B' are constants to be determined.
+To determine B' , we n n mp x multiply both sides of Eqn.
+(29) by sin , where m is an integer, and L perform term by term integration.
+Then we get mp x ¥ np x mp x (cid:242) L f(x) sin dx = (cid:229) (cid:242) L B' sin sin dx 0 L n=1 0 n L L ¥ L p x = (cid:229) (cid:242) p B' sin ny sin my dy where y = n=1 p 0 n L Now, using the orthogonality condition, namely (cid:236) 0 if m „ n (cid:242) p sin np x sin mp x = (cid:237) p 0 (cid:238) 2if m = n, we get that 2 np x B' = (cid:242) L f(x) sin dx (30) n L 0 L You can notice that for given value of f(x), we can always evaluate the integral on the right-hand side which gives the value of B' .
+Thus, the n resulting solution for C as given by Eqn.
+(27) is ¥ (cid:230) np x(cid:246) (cid:230) Dn2p 2(cid:246) C(x,t) = (cid:229) B' sin (cid:231) (cid:247) exp (cid:231) a - (cid:247) t (31) n=1 n Ł L ł Ł L ł 58MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Where B' is defined by Eqn.
+(30) n We shall focus on the first term, i.e.
+the term corresponding to n = 1, of the series on the right hand side of Eqn.
+(31).
+The argument of the (cid:230) Dp 2(cid:246) a - exponential function is time-dependent, being given by (cid:231) (cid:247) t. If Ł L2 ł Dp 2 a < , the exponent becomes negative and hence the exponential L2 function approaches zero as t increases i.e.
+as time progresses.
+The second and higher order terms in the population of phytoplankton will then be unable to maintain itself against diffusion, and the patch Dp 2 a < disappear.
+On the other hand, if , at least the first term will L2 increase indefinitely with time.
+Therefore, the critical size L , is determined from the condition c Dp 2 a < i.e.
+L2 1 (cid:230) D(cid:246) 2 L = p (cid:231) (cid:247) c Ł a ł (32) You may recall, at this stage, the expression for L we derived in unit 2 c based on dimensional analysis.
+If is 1 (cid:230) D(cid:246) 2 L = A(cid:231) (cid:247) (33) c Ł a ł Where A is a non-dimensional constant.
+After the present calculations, based on the diffusion equation, we identify the constant of p proportionality as .
+Thus a more detailed model as the present one is more specific about the critical size, below which no phytoplankton population is possible.
+This model also gives you the distribution of plankton as a function of space and time i.e., C(x, t), (see Eqn.
+(31)).
+This solution based on Formulation 2 in Unit 2 is definitely more informative than the solution using dimensional analysis based on Formulation 1.
+But you must also realize that Formulation 1 was quick and served a, limited purpose of getting preliminary information but the derivation involved more mathematical tools, solving a second order partial differential equation in this case.
+The discussion above tells us that each formulation of a model has some advantages and disadvantages.
+In fact we have to consider many other 59MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING factors to evaluate the effectiveness of a model.
+In the next section we shall talk about this in detail.
+Before that why don’t you try this exercise.
+SELF ASSESSMENT EXERCISE 2 In the next section we shall see what the significances of the solution obtained is, in the context of the real-problem.
+3.2 Interpretation of the Solution As you have been reading throughout this block, a mathematical model is an attempt to capture, in abstract form, the essential characteristics of an observed phenomenon.
+We will accept a model if it explains all the facts that we would like it to explain.
+Otherwise, we will reject it, or else, improve it, then test it again.
+In other words, we measure the worth of a model by comparing the results obtained, with the observed facts about the real problem.
+This process is called the validation of the model.
+This process of validating a model should be preceded by the process of understanding the solutions of the mathematical model.
+In other words, the mathematical expressions obtained as solution have to be analyzed and the essential facts which the solution represents have to be understood.
+This process is known as “interpreting the solution of a model”.
+You will see that in some cases, we can interpret the solution merely by looking at it.
+But, in most cases, a graphical representation of the expression will be necessary and the interpretation of the graphs will demand a thorough knowledge about the problems being modelled.
+We shall illustrate these facts using an example.
+Example 1: Interpret the solution obtained for different formulations of the model of a simple pendulum.
+Solution: We have already shown you in formulation 1 how the p constant of proportionality was derive as 2 .
+This was done by relating our formula for period of oscillation (Eqn.
+3, unit 2) to the experiment results with pendulums of different lengths and masses.
+After establishing the formula for the period of the pendulum as l p T = 2 0 g (34) We can interpret our result in the following way: i) The period is independent of the mass of the pendulum.
+60MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING ii) It is directly proportional to the square root of the length of the pendulum.
+iii) it is inversely proportional to the square root of the acceleration due to gravity.
+So, in this case we could interpret the solution by directly looking at the expression (34) in our Formulation 2 of the same problem, we could find the position of the pendulum at any particular instant of time and it was also possible to estimate the tension in the string [See Eqn.
+(16)].
+Eqn.
+(16), being a cosine function which is periodic clearly brings out the oscillatory nature of the pendulum.
+Here, we make use of the graph of the cosine function to illustrate the behaviour of the pendulum.
+Fig.
+3 q gives the graph of the function.
+You can see the amplitude of the q q pendulum oscillates between - and + .
+in the figurre you can see o o that T is the period of the pendulum after which the motion reproduces 0 itself exactly.
+q 0 T 0 t = T T t = 0 0 0/2 Fig.
+3 The solution corresponding to a different set of boundary conditions, dq i.e., q = 0 = ω at t = 0 was given by Eqn.
+(17), Sec.
+3.2.1.
+In this dt l case, the amplitude is (ω ).
+The graph of this equation is give g bellow.
+(See.
+Fig.
+4) l w = g T t = 0 T 0 0 2 Fig.
+4 The solutions which are cosine/sine function imply that the oscillation of a pendulum will carry on the fever and the traveling wave will travel to 61MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING infinity without reduction of its amplitude.
+This is where the interpretation of the results leads to all contradiction – i.e., a result which contradicts the observations.
+All real oscillations die out, unless forced to continue by additional external forces.
+This is because there always are other forces present which damp the oscillations.
+These forces result from frictional or viscous action and you may recall no provision was made in either of our two formulations to include these damping forces.
+We shall be talking about the damped simple harmonic motion and forced oscillations in Unit 4 of the next block.
+Thus interpretation of our results highlights the shortcomings of the model and leads to other factors which will modify the model.
+In a similar way we can make observations regarding the problem in ecology also.
+Example 2: Discuss the solution obtained for the phytoplankton growth problem.
+Solution: In formulation 1 given in Unit 2 we could find the constant ‘C’ given by Eqn.
+(13) of unit 2, if you have observational data about the planktons.
+Also if we know the diffusivity of the planktons and the rate of growth, we can measure the planktons patches in the area of interest and from there calculate the value of C. (Incidentally, if it is worth knowing that the plankton patches in the open sea appear to occur in the order of 10-100 km).
+Thus we could interpret the solution by directly looking at the expression.
+Next let us consider Formulation (2).
+Eqn.
+in unit 3 gives a solution of Dp 2 a < this problem.
+There we have shown that if then the L2 exponential function in Eqn.
+(31) approaches zero as time increases.
+(See the paragraph preceding Eqn.
+(31) of Sec.
+3.2.2.)
+we also know that Dp 2 Dp a < L = .
+Therefore the condition can be replaced by L < L .
+c 2 L2 c Therefore, we get that for any L < L , no sustainable growth of c Phytoplankton occur.
+You can also note from Eqn.
+(32) that as the a growth increases, the critical size L gets smaller; whereas if the c intensity of diffusion D increases, L also increases.
+Both the c conclusions are in keeping with what we expect.
+Even this model leaves ample scope for modification.
+We have assumed in both the formulations that the planktons cannot survive outside a particular region.
+Again, we make no mention of the winded driven displacement of the planktons.
+Including many more factors will enhance the model and take it closer to reality.
+But it should be borne in 62MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING mind that the sophistication in the model may bring, along with it, more mathematical complexities.
+Why don’t you see if you have understood what has been discussed in this section.
+As the two examples, we formulated and solved in detail, show, there is lot of room for improvement of the model.
+The major limitation in Example 1 was the absence of a term representing air resistance whereas in Example 2 it was the absence of details surrounding the patch – the velocity of the steam etc.
+Sometimes it may happen that when we interpret the solution to fit the real-life situation, we find that there is vast difference between the theoretical model that has been created (with all the assumption) and the real-life situation.
+In such a situation as you have seen and will see, the model needs to be either scrapped or revised.
+4.0 CONCLUSION With this we come to the end of this unit.
+Let us now summarize what we have discussed in this unit.
+5.0 SUMMARY In this unit, we have discussed the following points: • The solutions of those problems formulated in unit 2 which resulted in differential equations.
+We have discussed mainly two problems: i) motion of a simple pendulum ii) growth of phytoplankton.
+The formulations of above two problems resulted in differential equation: a non-linear ordinary differential equation in the case of simple pendulum and a one-dimensional partial differential equation in the case of phytoplankton.
+o We have discussed the solutions in different parts.
+• The interpretation of the solutions obtained.
+• The interpretation of a solution is very essential to assess the effectiveness of a model.
+Though the models could explain many of the observed phenomena, there were lots of scopes for improvement.
+• In most situations, a better model involves more parameters and complications.
+You will need more and more sophisticated mathematical tools as you go on refining the model.
+63MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 6.0 TUTOR MARKED ASSIGNMENT 1) Obtain the solution given in Eqn.
+(17) under the initial condition dq = ω, at q = 0 at t = 0. dt 2) Show from hat the bob of the simple pendulum achieves its q maximum angular velocity at = 0.
+Why is this physically reasonable?
+Show that your results are applicable to both linear and nonlinear problem.
+3) Using the non-linear model of the pendulum, find the period of q oscillation for = 12 sec.
+and l = 4.
+0 4) How would you modify Formulation 2 in unit 2 by including an external force, say, air resistance?
+Find the solution of the new model.
+5) In the last unit you must have formulated the model for the problem in E6.
+Recall that the situation is that the interchange between the internal growth and loss of phytoplanktons has been going on for a long time, and a steady state has been reached (steady state means, the organism concentration C does not depend on time t) Find a solution of the mathematical formulation you obtained.
+6) Interpret the solution you derived in E5.
+64MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING j APPENDIX a j Ellipic integrals of the first kind F(j |a =) (cid:242) (-1 sian2 sqin2 )q - 12d .
+0 TABLE j a a 0 5O 10O 15O 20O 25O 30O 0 0 0.08726646 0.17453293 0.26179939 0.34906 585 0.43633231 0.52359878 2 0 0.08726660 0.17453400 0.26180298 0.34907 428 0.43634 855 0.52362636 4 0 0.08726700 0.17453721 0.26181 374 0.34909 952 0.43639719 0.52370903 6 0 0.08726767 0.17454255 0.26183 163 0.34914 148 0.43647 806 0.52384653 8 0 0.08726861 0.17454999 0.26185656 0.34919998 0.43659 086 0.52403839 10 0 0.08726980 0.17455949 0.26188 842 0.34927 479 0.43673518 0.52428402 j 2 0 0.08727 124 0.17457102 0.26192707 0.34936 558 0.43691 046 0.52458259 14 0 0.08727294 0.17458451 0.26197234 0.34947200 0.43711 606 0.52493314 16 0 0.08727487 0.17459991 0.26202 402 0.34959 358 0.43735 119 0.52533449 18 0 0.08727703 0.17461714 0.26208 189 0.34972 983 0.43761 496 0.52578529 20 0 0.08727941 0.17463611 0.26214568 0.34988016 0.43790 635 0.52628399 22 0 0.08728199 0.17465675 0.26221 511 0.35004 395 0.43822422 0.52682887 24 0 0.08728477 0.17467895 0.26228 985 0.35022 048 0.43856733 0.52741799 26 0 0.08728773 0.17470261 0.26236 958 0.35040901 0.43893 430 0.52804924 28 0 0.08729086 0.17472762 0.26245 392 0.35060 870 0.43932 364 0.52872029 30 0 0.08729413 0.17475386 0.26254 249 0.35081 868 0.43973 377 0.52942863 32 0 0.08729755 0.17478119 0.26263 487 0.35103 803 0.44016296 0.53017153 34 0 0.08730108 0.17480950 0.26273 064 0.35126576 0.44060 939 0.53094608 36 0 0.08730472 0.17483864 0.26282 934 0.35150083 0.44107 115 0.53174916 38 0 0.08730844 0.17486848 0.26293 052 0.35174218 0.44154622 0.53257745 40 0 0.08731222 0.17489887 0.26303 369 0.35198869 0.44203 247 0.53342745 42 0 0.08731 606 0.17492967 0.26313836 0.35223 920 0.44252 769 0.53429546 44 0 0.08731992 0.17496073 0.26324 403 0.35249254 0.44302 960 0.53517761 46 0 0.08732379 0.17499189 0.26335 020 0.35274 748 0.44353 584 0.53606986 48 0 0.08732766 0.17502300 0.26345 633 0.35300280 0.44404 396 0.53696798 50 0 0.08733149 0.17505392 0.26356 191 0.35325 724 0.44455 151 0.53786765 52 0 0.08733528 0.17508445 0.26366 643 0.35350955 0.44505 593 0.53876438 54 0 0.08733901 0.17511455 0.26376 936 0.35375 845 0.44555 469 0.53965358 56 0 0.08734265 0.17514397 0.26387 020 0.35400 269 0.44604519 0.54053059 58 0 0.08734619 0.17517259 0.26396 842 0.35424 101 0.44652 487 0.54139069 60 0 0.08734962 0.17520029 0.26406 355 0.35447217 0.44699 117 0.54222911 62 0 0.08735291 0.17522691 0.26415 509 0.35469 497 0.44744 153 0.54304111 64 0 0.08735605 0.17525232 0.26424 258 0.35490 823 0.44787 348 0.54382197 66 0 0.08735902 0.17527640 0.26432 556 0.35511 081 0.44828 459 0.54456704 68 0 0.08736182 0.17529903 0.26440 362 0.35530 160 0.44867252 0.54527182 70 0 0.08736442 0.17532010 0.26447 634 0.35547958 0.44903 502 0.54593192 72 0 0.08736681 0.17533949 0.26454 334 0.35564377 0.44936 997 0.54654316 74 0 0.08736898 0.17535712 0.26460 428 0.35579 326 0.44967 539 0.54710162 76 0 0.08737092 0.17537289 0.26465 883 0.35592721 0.44994 944 0.54760364 78 0 0.08737262 0.17538672 0.26470671 0.35604 488 0.45019046 0.54804587 80 0 0.08737408 0.17539854 0.26474 766 0.35614560 0.45039 699 0.54842534 82 0 0.08737528 0.17540830 0.26478 147 0.35622 880 0.45056 775 0.54873947 84 0 0.08737622 0.17541594 0.26480 795 0.35629 402 0.45070 168 0.54898608 86 0 0.08737689 0.17542142 0.26482 697 0.35634 086 0.45079 795 0.54916348 88 0 0.08737730 0.17542473 0.26483 842 0.35636908 0.45085 595 0.54927042 90 0 0.08737744 0.17542583 0.26484 225 0.35637 850 0.45087533 0.54930614 65MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING j a 35o 40o 45o 50o 60o 65o 0O 0.61086524 0.69813170 0.78539816 0.87266463 0.95993 109 1.04719755 2 0.61090819 0.69819436 0.78548509 0.87278045 0.96008 037 1.04738465 4 0.61103691 0.69838220 0.78574574 0.87312784 0.96052821 1.04794603 6 0.61125108 0.69869 484 0.78617974 0.87370649 0.96127450 1.04888194 8 0.61155010 0.69913161 0.78678644 0.87451593 0.96231911 1.05019278 10 0.61193318 0.69969159 0.78756494 0.87555 545 0.96366180 1.05187911 12 0.61239927 0.70037358 0.78851403 0.87682412 0.96530224 1.05394 160 14 0.61294707 0.70117608 0.78963221 0.87832076 0.96723998 1.05638099 16 0.61357504 0.70209730 0.79091768 0.88004389 0.96947438 1.05919813 IS 0.61428140 0.70313511 0.79236827 0.88199174 0.97200462 1.06239384 20 0.61506406 0.70428706 0.79398143 0.88416214 0.97482960 1.06596891 22 0.61592071 0.70555037 0.79575422 0.88655 254 0.97794790 1.06992405 24 0.61684871 0.70692183 0.79768324 0.88915992 0.98135773 1 .07425976 26 0.61784515 0.70839788 0.79976461 0.89198071 0.98505681 1.07897628 28 0.61890682 0.70997451 0.80199389 0.89501076 0.98904227 1.08407347 30 0.62003018 0.71164728 0.80436610 0.89824524 0.99331059 1.08955067 32 0.62121138 0.71341124 0.80687558 0,90167852 0.99785743 1.09540656 34 0.62244622 0.71526098 0.80951599 0.90530415 1.00267749 1.10163899 36 0.62373019 0.71719052 0.81228024 0.90911465 1.00776438 1.10824474 38 0.62505840 0.71919335 0.81516039 0.91310148 1.01311039 1.11521933 40 0.62642563 0.72126235 0.81814765 0.91725487 1.01870633 1.12255667 42 0.62782630 0.72338982 0.82123227 0.92156370 1.02454127 1.13024880 44 0.62925446 0.72556741 0.82440346 0.92601535 1.03060230 1.13828546 46 0.63070385 0.72778615 0.82764941 0.93.059558 1.03687427 1.14665369 48 0.63216783 0.73003640 0.83095712 0.93528 835 1.04333948 1.15533 731 50 0.63363946 0.73230789 0.83431247 0.94007568 1.04997735 1.16431637 52 0.63511149 0.73458 970 0.83770010 0.94493756 1.05676412 1.17356652 54 0.63657639 0.73687,028 0.84110344 0.94985177 1.06367248 1.18305833 56 0.63802636 0.73913751 0.84450468 0.95479381 1.07067 128 1.19275650 58 0.63945343 0.74137870 0.84788483 0.95973682 1.07772516 1.20261907 60 0.64084 944 0.74358071 0.85122375 0.96465156 1.08479434 1.21259661 62 0.64220 613 0.74572998 0.85450024 0.96950647 1.09183436 1.22263139 64 0.64351 520 0.74781266 0.85769220 0.97426773 1.09879601 1.23265660 66 0.64476 839 0.74981 471 0.86077677 0.97889946 1.10562535 1.24259576 68 0.64595 751 0.75172208 0.86373057 0.98336406 1.11226392 1.25236238 70 0.64707 458 0.75352 078 0.86652 996 0.98762253 1.11864920 1.26185988 72 0.64811189 0.75519716 0.86915135 0.99163506 1.12471530 1.27098218 74 0.64906209 0.75673800 0.87157159 0.99536 166 1.13039401 1.27961482 76 0.64991829 0.75813076 0.87376830 0.99876 287 1.13561610 1.28763696 78 0.65067414 0.75936376 0.87572037 1.00180067 1.14031304 1.29492436 80 0.65132394 0.76042640 0.87740833 1.00443 942 1.14441892 1.30135321 82 0.65186270 0.76130931 0.87881481 1.00664678 1.14787262 1.30680495 84 0.65228621 0.76200457 0.87992495 1.00839470 1.15062010 1.31117166 86 0.65259 116 0.76250582 0.88072675 1.00966028 1.15261652 1.31436170 88 0.65277510 0.76280 846 0.88121143 1.01042658 1.15382828 1.31630510 90 0.65283 658 0.76290 965 0.88137359 1.01068319 1.15423455 1.31695790 j a a 65o 70o 75o 80o 85o 90o 66MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING 0O 1.13446401 1.22173048 1.30899694 1.39626340 1.48352986 1.57079633 2 1.13469294 1.22200477 1.30931 959 1.39663672 1.48395543 1.57127495 4 1.13537994 1.22282810 1.31028822 1.39775763 1.48523342 1.57271243 6 1.13652576 1.22420 180 1.31190491 1.39962909 1.48736769 1.57511 361 8 1.13813 158 1.22612810 1.31417314 1.40225598 1.49036470 1.57848658 10 1.14019906 1.22861 010 1.31709778 1.40564522 1.49423361 1.58284280 12 1.14273032 1.23165 180 1.32068514 1.40980577 1.49898627 1.58819721 14 1.14572789 1.23525808 1.32494296 1.41474871 1.50463742 1.59456834 16 1.14919471 1.23943470 1.32988047 1.42048728 1.51120474 1.60197853 18 1.15313409 1.24418827 1.33550840 1.42703700 1.51870904 1.61045415 20 1.15754967 1.24952627 1.3418390!
+1.43441 578 1.52717445 1.62002590 22 1.16244535 1.25545700 1.34888616 1.44264399 1.53662865 1.63072910 24 1.16782525 1.26198957 1.35666531 1.45174466 1.54710309 1.64260414 26 1.17369362 1.26913385 1.36519359 1.46174360 1.55863334 1.65569693 28 1.18005472 1.27690045 1.37448981 1.47266958 1.57125942 1 .67005 943 30 1.18691 274 1.28530059 1.38457455 1.48455455 1.58502624 1.68575035 32 1.19427 162 1.29434605 1.39547013 1.49743384 1.59998406 1.70283594 34 1.20213489 1.30404906 1 .40720 064 1.51134644 1.61618906 1.72139083 36 1.21050542 1.31442210 1.41979 198 1.52633523 1.63370398 1.74149923 38 1.2193852 1.32547772 1.43327 179 1 .54244 734 1 .65259 894 1.76325618 40 1.22877499 1.33722824 1.44766938 1.55973441 1.67295226 1.78676913 42 1.23867392 1.34968545 1.46301565 1.57825301 1.69485 156 1.81215985 44 1.24907904 1.36286013 1.47934287 1.59806493 1.71839498 1.83956672 46 1.2599S475 1.37676 148 1.49668438 1.61923762 1.74369264 1.86914755 48 1.27138210 1.39139640 1.51507416 1.64184453 1.77086836 1.90108303 50 1.28325798 1.40676855 1.53454619 1.66596542 1.80006176 1.93558 110 52 1.29559414 1.42287717 1.55513354 1.69168665 1.83143068 1.97288227 54 1.30836604 1.43971 560 1.57686709 1.71910 125 1.86515414 2.01326657 56 1.32154 149 1.45726934 1.59977378 1.74830880 1.90143590 2.05706 232 5b 1.33507910 1.47551 372 1.62387409 1.77941482 1.94050873 2.10465766 60 1.34892643 1.49441 087 1.64917867 1.81252953 1.98263957 2.15651 565 62 1.36301803 1.51390609 1.67568359 1.84776547 2.02813 570 2.21319469 64 1.37727323 1.53392332 1.70336398 1.88523335 2.07735219 2.27537 643 66 1.39159384 1.55435972 1.73216516 1.92503509 2.13070051 2.34390 472 68 1.40586195 1.57507940 1.76199085 1 .96725 237 2.18865839 2.41984 165 70 1.41993796 1.59590624 1.79268736 2.01192798 2.25177995 2.50455 008 72 1.43365925 1.61661 644 1.82402292 2.05903 582 2.32070416 2.59981973 74 1.44684001 1.63693 134 1.85566 175 2.10843282 2.39615610 2.70806761 76 1.45927266 1.65651 218 1.88713308 2.15978295 2.47892 739 2.83267258 78 1.47073163 1.67495873 1.91779814 2.21243977 2.56980281 2.97856 895 80 1.48098006 1.69181 489 1 .94682 23 1 2.26527 326 2.66935 045 3.15338525 82 1.48977975 1.70658456 1.97316665 2.31643896 2.77736 748 3.36986 803 84 1.49690410 1.71876033 1.99562 118 2.36313736 2.89146664 3.65185597 86 1.50215336 1.72786543 2.01290452 2.40153358 3.00370926 4.05275817 88 1.50537033 1.73350464 2.02384 126 2.42718003 3.09448 898 4.74271727 ¥ 90 1.50645424 1.73541 516 2.02758 942 2.43624 605 3.13130 133 BLOCK SUMMARY 67 j aMTH 308 INTRODUCTION TO MATHEMATICAL MODELLING In this block, we have looked at there main stages involved in the mathematical modeling of a real-life situation.
+These are 1) Formulation of the mathematical equivalent 2) Obtained a mathematical solution.
+3) Interpreting the solution in terms of the situation and validating the solution.
+In Unit 1, you learnt the basic objectives of modelling and the different types of modelling.
+In Unit 2, you were introduced to the formulation of our problems i) A very familiar problem of motion of a simple pendulum ii) An ecological problem – Growth of phytoplankton in a water mass.
+iii) Time taken for a raindrop to fall from the clouds and reach the ground.
+iv) a problem related to economics from market equilibrium While going through these example, you would have realized that while formulating a model you need to i) understand the essentials of the problem, ii) have the objectives (limited (limited or detailed) clear in your mind iii) have the appropriate mathematical skills In Example 3, we also indicated how mindless simplification of the problem without the inclusion of the essentials can lead to wrong results.
+In unit 3 the first two examples of unit 2 (the third and the fourth examples were solved in Unit 2 itself) were analyzed using the solutions of the resulting differential equations.
+After reading this unit, you should have realized that merely getting the solutions of the formulated problem is not enough.
+You need to relate solution to the real-life problem concerned by interpreting it appropriately to see if it reflects the observed phenomena.
+You may need to modify the model by relaxing the assumptions or including some important characteristic (for e.g., air resistance in the case of simple pendulum model).
+As we have stressed throughout this block, and as you will see in the unit that follow, the modelling of any problem must go through these stages broadly.
+The following flow chart given at the end may help to give you a quick overview of the whole process.
+68MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING Note that some of the options/steps given in the flow chart are not discussed in detail in the examples discussed in this block.
+But we have given them here for the sake of completeness.
+You would realize their importance when we discuss more models in the latter blocks.
+While formulating a model for any real life situation use this flowchart to see if you have followed the procedure shown in it.
+You may do this by asking for instance, in the case of simple pendulum these questions can be of the following type.
+i) Did we make any assumptions?
+(Yes, we ignored the air resistance) ii) Could we find an analytic solution?
+(Yes, when we linearlised.
+But No, when we retained the non-linearity.
+We had to solve the elliptic integral numerically).
+We have not discussed computer simulation in this block but we included that possibility in the flow chart for completeness.
+iii) Could we validate the result using experimental values?
+(Yes, as far as the period of the pendulum was concerned.
+The answer is NO if we are verifying the instantaneous position of the pendulum.
+Our result showed that the pendulum oscillated indefinitely whereas in reality, it comes to rest.
+This aspect takes you back to model abstraction, you will have to include air resistance and do the whole process again).
+Interpretation of the results definitely allows you to understand the physics of the problem in a better way.
+It is economical too, since after establishing the formula for period of oscillation, you do not have to repeat the experiments for different lengths of the pendulum any more.
+The comparison with experimental results helped to fix the unknown parameter – the constant of proportionality in T a l/g - as 2p .
+0 After the solutions are tested and validated, no more experiments will be necessary and you can predict the values using the derived formulae.
+FLOW CHART REAL PROBLEM 69MTH 308 INTRODUCTION TO MATHEMATICAL MODELLING IF POSSIBLE RECONSIDER MODEL ABSTRACTION MODIFY ASSUMPTIONS OR APPROXIMATIONS TO BE INTRODUCED FORMULATE MATHEMATICAL EQUATIONS AND FIND THEIR SOLUTIONS ANALYTICAL NUMERICAL COMPUTER SIMULATION VALIDATE THE RESULTS USING EXPERIMENTAL VALUES NO DO THE THEORETICAL AND EXPERIMENTAL RESULTS COMPARE WELL?
+YES UNDERSTAND THE ESTIMATE UNKNOWN PREDICT VALUES PHYSICS OF THE PARAMETERS IN WHERE THE SYSTEM EXPERIMENTAL PROBLEM IN A RESULTS ARE NOT BETTER WAY AVAILABLE 7.0 REFERENCES/FURTHER READINGS Mathematical Modelling from School of Sciences, IGNOU.
+Quantitative Analysis in Management by Kirk Patrick.
+Quantitative Analysis in Management by C.N.
+Lomoba.
+70

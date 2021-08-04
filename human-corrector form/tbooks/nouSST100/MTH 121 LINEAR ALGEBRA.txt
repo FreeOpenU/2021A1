@@ -1,0 +1,1123 @@
+NoneMAT 121 LINEAR ALGEBRA MAT 121: LINEAR ALGEBRA COURSE GUIDE NATIONAL OPEN UNIVERSITY OF NIGERIA NOUN 2MAT 121 LINEAR ALGEBRA COURSE GUIDE Table of Contents Introduction What you will learn in the course Course Aim Course Objectives Working through this course Working course materials Working study units Working set textbooks Assessment Tutor marked assignments Course Overview INTRODUCTION: THE COURSE LINEAR ALGEBRA 1 (MAT 121) The first course in the study of linear algebra that will be offered by all 100 level students wishing to have a Bachelors' degree in Mathematics, Chemistry, Physics, Mathematics Education, Science Education, Social Science, Computer Science and Engineering.
+This course also could serve as a reference course for all who wish to model real life situations using systems of linear equations as a modeling tool.
+The word algebra is a household name in the study of any branch of mathematics.
+Algebra provides a generalization of arithmetic by using symbols, usually letters, to represent numbers.
+The development of the subject algebra has one of the longest history.
+As early as 3rd century the Babylonians, ancient Chinese and Egyptian mathematicians proposed and solved problems in words that is using rhetorical algebra and this was further developed into forms that are similar to what is being studied today.
+NOUN 3MAT 121 LINEAR ALGEBRA This development continued to the 9th century.
+A notable Arabic mathematician Al- Khwarizmi in his work on solving six different types of quadratic equations titled "compendium on calculation by completion and balancing" gave birth to the word algebra which is derived from the word "al-jabr" or completion.
+Since then the development of algebra has increased over the years.
+In the 19th and 20th centuries algebra has become much more abstract and has grown to include much more than the theory of equations.
+Modern development in algebra includes among others the study of matrices and vector spaces and as well transformation of geometric figures.
+These new topics in algebra fall into what is known today as linear algebra.
+Since then the study of linear algebra has continued to play important role in diverse fields such as biology, physics, chemistry, political science, business, computer science, information technology and engineering.
+Most practical problems that occur infield as mentioned above can be modeled by systems of linear equation.
+It will not be an exaggeration if it is said that well over 70 per cent of mathematical problems encountered in scientific, social and industrial applications involve solving systems of linear equations.
+Solutions to such system of linear equations have made the theory of linear algebra a very important tool in modern mathematics.
+Using the methods studied in this course it is often possible to tackle a sophisticated problem and reduce it to a single system of linear equations.
+For example one of the area I the study of linear algebra is matrices.
+Matrices enable you to write liner systems in a compact form and to obtain a quick and efficient procedure of solving such large systems of equation.
+Another area of linear algebra is the study of vector spaces.
+This enables mathematical objects such as real numbers, real valued functions, matrices, complex numbers, infinite series, vector in n-space etc to be added to each other and multiplied by real numbers.
+Translator of geometric figures can easily be studied with the aid of the theory of linear algebra.
+Before you can successfully do this course, you would have taken the first year algebra course offered in this university.
+Ability to use software packages in a computer is an added advantage.
+So a basic knowledge of operating a computer is recommended for those who can afford it.
+This course will consist of ten units divided into 2 modules.
+In the first module, you will be introduced to basic mathematics concept of matrix algebra and system of linear equations.
+The second module provides application of the theory of matrix algebra to solving system of linear equation.
+So knowledge of tools like determinants and inverse of a matrix is treated in the second module.
+Two units introducing linear transformation and vector space are included in the second module.
+NOUN 4MAT 121 LINEAR ALGEBRA The course is designed in such a way that you will not find it difficult to understand any unit.
+However the first 3 units are essential to the whole course.
+Materials in these units should be carefully studied and all tutorial questions should be answered correctly.
+The units, containing transformation and vector spaces should be studied carefully and diligently.
+Material in the last two units of the course is discussed in its introductory form.
+Students wishing to learn more about transformations and vector space should read the reference listed at the end of this course guide.
+Students should spend at least 8hrs to study each of unit 9 and unit 10.
+WHAT YOU WILL LEARN IN THIS COURSE In this course you will successfully learn how to use matrices to solve system of linear equation.
+You will also learn about the properties of matrices.
+You will use some of the properties of matrices to study transformation of geometric figures.
+COURSE AIM This course aims to (i) Make you very comfortable to solve all types of systems of linear equations by application of matrix algebra.
+(ii) Make you know how to represent transformations of geometric figures by application of matrix algebra.
+(iii) Make you add elements of sets (with special proportion) together and multiply them by real numbers.
+COURSE OBJECTIVES Overall objectives: On successful completion of this course you should be able to: 10.
+List various types of matrices.
+11.
+Find the sum of two or more matrices of the same order.
+12.
+Find the product of two or more matrices.
+13.
+Transcribe a system of linear equation into matrix form.
+14.
+Solve a system of linear equation by elimination method.
+15.
+Evaluate the determinant of an n x n matrix.
+16.
+Compute the inverse of an n x n matrices 17.
+Compute the adjunct of a square matrix.
+18.
+Solve an n x n system of linear equation by elementary row operation i.e.
+Guass-Jordan reduction method or row - echelon form.
+19.
+Solve an n x n system of linear equation by determinant method and crammer's rule.
+20.
+Find the matrix of any linear transformation 21.
+Define a vector space 22.
+Verify if a given set is a vector space.
+NOUN 5MAT 121 LINEAR ALGEBRA COURSE MATERIAL The following is the list of materials you need in order to successfully complete this course: (i) Course Guide for MAT 121 (ii) Study unit for MAT 121 (iii) Recommended list of Textbook (iv) Assignment file (v) Date of tutorials, continuous assessment and examination COURSE OVERVIEW There are ten study units in this course.
+They are divided into 2 modules as follows: MODULE 1 UNIT 1: Definition of a matrix and types of Matrices UNIT 2: Matrix Algebra UNIT 3: Linear equations UNIT 4: Determinants UNIT 5: Properties of Determinants MODULE 11 UNIT 6: Inverse of Matrices UNIT 7: Row Echelon form and systems of equations UNIT 8: Determinants and systems of equations UNIT 9: Transformation of the plane UNIT 10: Introduction of vector space SET TEXTBOOKS The following are recommended textbooks.
+You could borrow or purchase them.
+Seymour Lipschutz (1974) Schaum Outline series: Theory and Problems of LinearAlgebra.
+McGraw Hill Int Book Company NY S.A. Ilori, O Akinyele (1986) Elementary Abstract and linear Algebra.
+Ibadan University Press.
+Steven J.
+Lean (1986) 2nd Ed Linear Algebra with Application.
+Macmillan Publishing Company NY.
+NOUN 6MAT 121 LINEAR ALGEBRA S. A. Ilori D. O. Ajayi (2000) University Mathematics Series 2.
+Algebra Y books (A division of Ass Bookmarkers Nig.
+Ltd. Ibadan).
+Osisiogu U.
+A. et al (2001).
+Fundamentals of Mathematical Analysis Vol.
+1 Best soft Educational Books Nig.
+ASSIGNMENT FILE AND TUTOR MARKED ASSIGNMENTS There are at least five exercises at the end of each unit.
+Also these exercises are at the end of each section or topic.
+These assignments are given so that you will have sufficient drilling activities to position for the next section or topic.
+The exercises at the end of each unit are given for the purpose of continuous assessment.
+They are to be submitted to your subject tutor at the study center nearest to you.
+Such assignment will also be contained in your assignment file.
+FINAL EXAMINATION AND GRADING FOR THE COURSE The final examination will be taken at the study center.
+For this course, the examination will last between 2 - 21/2 hours.
+COURSE MARKING GUIDE Type of Assessment Marks Tutor Marked Assignment Each question in the assignment is 2 marks giving a total amount of 10 marks for each unit.
+Total amount obtainable is 40 marks.
+Examination 50 marks is obtainable STRATEGIES FOR STUDYING THE COURSE The course has been designed or presented in such a way that the explanations in each units are given in sufficient detail so that you can have little or no trouble reading and understanding.
+To further aid you in this course, a large number of examples are solved in each unit.
+You are expected to spend not less than 6 hours on NOUN 7MAT 121 LINEAR ALGEBRA each unit.
+This includes reworking all the solved examples.
+Experience has taught that continuous or repeated trails on the examples and exercise position you to have a better and lasting understanding of the concepts discussed in this course.
+SUMMARY In this course, you have studied 1.
+The definition of a matrix 2.
+Types of matrices 3.
+Addition and multiplication of matrices 4.
+Solutions to a system of linear equation 5.
+Determinants of a matrix 6.
+Adjoin and inverse of a matrix 7.
+How to use determinant to solve an n x n linear system 8.
+How to use elementary row operations to solve an n x n linear system.
+9.
+Linear transformation such as (i) Translation (ii) Reflection (iii) Rotation.
+10.
+To define a vector space 11.
+To determine whether a set is a vector space You can also use computer software packages to solve n x n systems and compute inverse and determinant of a large system.
+The two softwares that can do this are the MathCAD and matlab.
+In all, it is fun learning about matrices.
+We wish you success in your final examination.
+NOUN 8MAT 121 LINEAR ALGEBRA NOUN 9MAT 121 LINEAR ALGEBRA MAT 121: LINEAR ALGEBRA I COURSE DEVELOPMENT Course Developer Fred Ebunu Unit Writer Fred Ebunu Programme Leader Course Coordinator NATIONAL OPEN UNIVERSITY OF NIGERIA NOUN 10MAT 121 LINEAR ALGEBRA MODULE I UNIT 1 DEFINITION OF A MATRIX AND TYPES OF MATRICES Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Definition of a Matrix 4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 1.0 INTRODUCTION In this unit, you will be introduced to the concept of a matrix.
+This is simply a convenient way of representing arrays (tables) of numbers.
+Initially, notations of matrices were merely a shorthand system of solving certain classes of problems in algebra.
+However, the study of matrices has now extended to almost all branches of mathematics.
+Matrices are especially useful in the solutions of systems of linear equations, which will be discussed in subsequent units of this course.
+2.0 OBJECTIVES After studying this unit, you should be able to correctly  Define a matrix  List all 6 types of matrices  Identify at least 6 types of matrices 3.1 DEFINITION OF A MATRIX A matrix is a rectangular array of numbers that are enclosed within brackets.
+It can be further defined as a rectangular array of real numbers arranged in horizontal rows and vertical columns and is written as follows: NOUN 11MAT 121 LINEAR ALGEBRA A = [aij] = a a ………… a 11 12 1n a a ………… a 21 22 2n .
+.
+.
+.
+.
+.
+a a ……….. a m1 m2 mn The above array of numbers is called an m by n - matrix (written m x n ).
+A matrix has no numerical value.
+The numbers in the array are called the elements of the matrix.
+A double subscript is used to denote the location of any given elements.
+The first subscript gives the row and the second subscript - the column in which the element is located.
+That is aij is the element in row i and column j. Matrices are denoted by the upper case (Capital letter) boldface roman letters (A, B, etc) and elements, by italicized lower case letters (aij, bij, etc).
+A matrix with only one row of elements is called a row matrix; similarly, a matrix with only one column of elements is called a column matrix.
+Example: consider the 2 x 3 matrix 1 2 4 its rows are 1,2,4 and 3,1,0 3 1 0 and its columns are 3 2 4 1 , 1 and 0 .
+Exercises: Given the following matrices 1.
+3 4 2.
+-2 -1 0 3.
+2 1 3 -1 3 1 4 0 2 2 3 Write out the rows and columns.
+Answers 1.
+3 , 4 3 , -1 -2 , 3 3 4 3 -1 -2 3 NOUN 12MAT 121 LINEAR ALGEBRA 2.
+-2 , -1 , 0 , 3 , 1 , 4 -2 -1 0 3 1 4 3.
+2 , 1 , 0 , 2 2 1 0 2 3.2 TYPES OF MATRICES 3.2.1 SQUARE MATRICES Definition: Given an m x n matrix.
+If m=n i.e.
+when the number of rows = the number of columns = n, then the n x n matrix is called a square matrix of order n. Example: consider the matrices 1.
+A = 2 1 This has order of 2 i.e.
+a 2 x 2 matrix.
+1 0 2.
+1 3 4 This has an order of 3 i.e.
+a 3 x 3 matrix 4 0 -1 -3 1 2 3.2.2 ZERO OR NULL MATRIX A matrix in which every element is zero is called a zero matrix.
+Zero matrix or null matrixes can have any order.
+For example A= 0 0 0 0 0 0 is a zero matrix of order 3. r000 3.2.3 DIAGONAL MATRIX A diagonal matrix is a square matrix in which every off diagonal element is zero.
+That is if A = [aij] is a diagonal matrix then aij = 0 for i ≠ j.
+Example: consider a 3 x 3 square matrix given as 2 0 0 0 2 0 0 0 1 every other element is equal to zero except a = 2, a = 29 and a = 1.
+11 22 33 3.2.4 TRIANGULAR MATRICES NOUN 13MAT 121 LINEAR ALGEBRA A square matrix A =(aij ) of order n is an upper triangular matrix if all entries below the main diagonal are all zeros.
+That is, if aij = 0 for I>j where I,j=l,...,n. This is written as follows.
+A= a , a , a … a 11 12 13 in 0 a , a … a 22 23 2n 0 0 a33 … a3n .
+.
+.
+.
+.
+.
+0 0 0 ……a nm similarly, a square matrix A= (aij) of order n is a lower triangular matrix of its elements aij = 0 for I<j where I,j=1,...,n. In other words, a lower triangular matrix is a square matrix whose entries above the main diagonal are zero, and it is written as follows A= a 0 0 ... 0 ll a a 0 ... 0 21 22 a a a .
+.. 0 31 32 33 .
+.
+.
+.
+.
+.
+a , a a ... a n1 n2 n3 nn Example: the matrix given as 1 1 2 0 1 2 0 0 1 is a upper triangular matrix of order 3.
+2 0 0 0 While 4 2 0 0 is a lower triangular matrix of order 4 3 2 1 0 1 1 1 1 3.2.4 UNIT MATRIX OR IDENTITY MATRIX NOUN 14MAT 121 LINEAR ALGEBRA A unit matrix or identity matrix is a square matrix of order n having all its diagonal element unity and zero elements elsewhere.
+It is denoted by the symbol 1 and it is written as follows: n 1 = 1 0 0 ……0 n 0 1 0 ……0 0 0 1 ……0 .
+.
+.
+0 0 0 ……1 The role or importance of the special matrix In lies in the fact that it plays a role similar to that of the number 1 in a real number system.
+Example: The matrix 1 given as 3 1 = 1 0 0 is the 3 x 3 unit matrix 3 0 1 0 0 0 1 3.2.5 EQUALITY OF MATRICES Two matrices A, B, of the same order m x n are equally written A=B if and only if the corresponding elements are equal, that is aij = bij for every i,j.
+Where A = (aij) and B= (bij).
+Example: The matrices given as A= 2 1 3 and B= 2 3 3 1 1 1 1 3 1 A≠B since A is a matrix of 2x3and B is a matrix of 3x2.
+Example: The matrices A= 2 1 3 B= 2 1 3 4 1 5 22 1 5 are equal.
+TRANSPOSE OF A MATRIX NOUN 15MAT 121 LINEAR ALGEBRA Let A be an m x n matrix.
+Then the transpose of A is a matrix of order n x m obtained from A and denoted by AT or A1.
+Where AT= ( aij ) is equal to the ( aij ) of A for all i and j.
+This is given as follows a a ….
+a T a a ….
+a 11 12 1n 11 21 m1 a a ….
+a a a ….. a 21 22 2n 12 22 m2 .
+.
+.
+= .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+a a … a a a ….
+a m1 m2 mn 1n 2n mn 3.2.6 SYMMETRIC MATRIX Let A be an n x n square matrix.
+If the transpose of A is equal to A (i.e., AT = A) then A is called a symmetric matrix.
+In other words A is a symmetric matrix if aij = aji for all i and j.
+Example: The matrix A= 1 2 3 2 4 -5 is a symmetric matrix 3 -5 6 i.e.
+AT= 1 2 3 2 4 -5 3 -5 6 3.2.7 SKEW SYMMETRIC Let A be an n x n square matrix.
+If AT = -A then A is said to be a skew symmetric matrix.
+In other words A is equal to the negative of its transpose.
+In this case aij = -aji for all i and j.
+Example: Given that 0 -2 3 0 2 -3 A = 2 0 4 where AT = -2 0 -4 -3 -4 0 3 4 0 but - ( aij) = 0 2 -3 -2 0 -4 =AT 3 4 0 NOUN 16MAT 121 LINEAR ALGEBRA i.e.
+it has been shown that AT = -A.
+In any skew matrix the elements in the leading diagonal are all equal to zero.
+You are quite familiar with the set of complex number.
+You could recall that for any complex number Z= a + ib the complex conjugate is given as Z = a - ib.
+You can now discuss a spacing type of matrix where some of the elements are complex numbers.
+3.2.7 HERMITIAN MATRIX A square matrix A = ( aij ) of order n where (A)T = A is called a Hermitian Matrix.
+In any Hermitian matrix the diagonal elements are all real numbers.
+Example: The matrix 1 1-I 2 A = 1+I 3 I is a Hermitian matrix.
+The conjugate of A is 2 -1 0 given as: 1 1+I 2 Ā = 1-i 3 -1 2 1 0 (Ā)T = 1 1-I 2 l+i 3 -1 2 -I 0 3.2.8 SKEW HERMITIAN A square matrix A = (aij) of order n where the conjugate of the transpose is equal to the negative of the matrix.
+That is (A) T = -A.
+The diagonal elements of a skew Hermittian matrix are either zero or pure imaginary numbers.
+Example: The matrix i 1-i 2 A= -1-i 3i I is a skew Hermittian.
+-2 i 0 -i l+i 2 NOUN 17MAT 121 LINEAR ALGEBRA Ā= -1+i 3i -i -2 -i 0 -i 1+i 2 (Ā)T= -1+i -3i -I -2 -i 0 4.0 CONCLUSION In this unit, you have defined a matrix.
+You have also studied various types of matrices.
+For example you know that in a square matrix the number of row is equal to its number of columns.
+You now know how to find the transpose of a matrix.
+As well as determine whether any two given matrices are equal.
+In the next unit, you will use the properties of a square matrix to perform some algebra involving matrices.
+5.0 SUMMARY In this unit you have studied: (i) How to define a matrix.
+(ii) How to identify various types of matrices e.g.
+square matrix, symmetric matrix, skew symmetric matrix, etc.
+(iii) To find the transpose of a given matrix.
+(iv) To determine whether two matrices are equal.
+(v) Identify a unit matrix and a null matrix.
+6.0 EXERCISES TMAs 1.
+Find the order of a matrix A given that 0 4 A= 6 1 1 3 2.
+Given that 1 2 -1 1 2 w NOUN 18MAT 121 LINEAR ALGEBRA A= 2 -3 4 and B= 2 x 4 0 -4 5 y -4 Z Determine the values of w, x, y, and Z for which A=B.
+3.
+If 4 6 1 2 4 5 A = 7 9 B = 3 4 5 6 2 5 1 2 -1 3 1 4 -5 1 Find (i) AT (ii) BT Given that the following matrices: (a) 2 0 0 (b) 1 4 4 0 -1 0 1 2 2 0 0 3 1 3 1 (c) 0 0 (d) 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 (e) 3 0 0 (f) 1 2 9 1 3 0 0 1 1 4 1 2 0 0 1 (g) 0 1 6 (h) 5 5 3 -1 0 3 5 1 3 -6 -3 0 3 3 2 Determine in each case (4) The square matrixes (5) The skew symmetric matrix (6) The symmetric matrix (7) Identity matrix (8) Null matrix (9) Triangular matrix (10) Diagonal matrix.
+UNIT 2 NOUN 19MAT 121 LINEAR ALGEBRA MATRIX ALGEBRA Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Addition of Matrices 3.2 Scalar Multiplication 3.3 Multiplication of Matrices 4.0 Conclusion 5.0 Summary 6.0 Exercises TMAs 1.0 INTRODUCTION In this unit you will be introduced to how to carry out basic algebraic operation involving matrix.
+These include addition of matrices, subtraction of matrices and multiplication of matrices.
+These operations are very important because they occur in real life problems such as solving a system of linear equation.
+The foundation you acquire in this unit will be used throughout the duration of your study of the course - Linear Algebra.
+2.0 OBJECTIVES After studying this unit, you should be able to correctly: (i) Find the sum matrix of two or more matrices of the same order.
+(ii) Find the product matrix of two or more matrices.
+3.1 ADDITION OF MATRICES The sum of two or more matrices is obtained by adding corresponding elements.
+Before you can carry out the above, the two or more matrices must be conformable.
+In other words two or more matrices are said to be conformable for addition, if they have the same umbers of rows and the same number of columns.
+That is, they have the same order or shape.
+Thus once two or more matrices have different orders, addition will not be possible, since addition involves corresponding entries or elements.
+Let A and B be two matrices written as follows: a a ….
+a b b ….
+b 11 12 1n 11 12 1n NOUN 20MAT 121 LINEAR ALGEBRA a a ….
+a b b ….
+b 21 22 2n 21 22 2n A = .
+B = .
+.
+.
+.
+.
+a a … a b b … b m1 m2 mm m1 m2 mm then a + b a + b … a + b 11 11 12 12 1n 1n a + b b + a … a + b 21 21 22 22 2n 2n .
+.
+.
+a + b a + b … a + b m1 m1 m2 m2 mn mn Example 1 2 3 3 0 -3 1+3 2+0 3-3 2 1 4 + -2 1 4 = 2-2 1+1 4+4 = 4 2 0 0 2 8 Example 3 -2 0 1 2 3 4 5 6 + 4 1 6 7 1 8 is not defined since they are not of the same order.
+PROPERTIES OF MATRIX ADDITION (a) A + B = B + A Commutative (b) A + (B + C= (A + B) + C Associative (c) A + 0 = 0+A = A Matrix addition is commutative as well as associative 3.2 SCALAR MULTIPLICATION The product of a scalar K and a matrix A, written KA or AK is the matrix obtained by multiplying each elements of A by K. NOUN 21MAT 121 LINEAR ALGEBRA a a a ka ka ka 11 12 1n 11 12 1n KA = D a a a = ka ka ka 21 22 2n 21 22 2n a a a ka ka ka m1 m2 mn m1 m2 mn Example: If A = 2 1 3 1 find (i) 2A, (ii) – 2A, (iii) 4A, (iv) 4A + 2A (i) 2 1 2.2 2.1 4 2 2 3 1 = 2.3 2.1 = 6 2 (ii) -2A = -2 2 1 = -2.2 -2.1 = -4 -2 3 1 -2.3 -2.1 -6 -2 (iii) 4A = 4 2 1 = 4.2 4.1 = 8 4 3 1 4.3 4.1 12 4 (iv) 4A + 2A 8 4 + 4 2 = 8+4 4+2 = 12 6 12 4 6 2 12+6 4+2 18 6 Remark: -A=(-1) A and A-B=A+(-1 )B Example: Find a, b, c and d if 3 a b = a 8 + 4 a+b c d -1 2d c+d 3 Solution: You write each matrix operation as a single matrix i.e.
+3a 3b 4+a 8+a+b 3c 3d = -l+c+d 2d+3 Certain corresponding elements equal to each other to obtain the four linear equations 3a=4+a 2a=4 a=2 3b=8+a+b 2b=8+a b=5 3c=-1 +c+d 2c=d-1 c= 1 3d=2d+3 d=3 d=3 Example: Let 2 -5 1 1 -2 -3 0 1 -2 A= 3 0 -4 B= 0 -1 5 C= 1 -1 -2 NOUN 22MAT 121 LINEAR ALGEBRA Find 3A + 4B - 2C Solution: 3 2 -5 1 +4 1 -2 3 -2 0 1 -2 3 0 -4 0 -1 5 1 -1 -1 6 -15 3 4 -8 -12 0 -2 4 = 9 0 -12 + 0 -4 20 + -2 2 2 = 6+4+0 -15-18-2 3-12+4 10 -25 -5 9+0-2 0 - 4 +2 -12+20+2 = 7 -2 10 3.3 MATRIX MULTIPLICATION Let A and B be matrices such that the number of columns of A is equal to the number of rows of B.
+Then the product of A and B, written AB is the matrix with the same number of rows as A and of the same number of columns as B.
+The element in ith row and jth column is obtained by multiplying the ith row of A by the jth column of B.
+Example: Let A be an n x m matrix and B be an m x n matrix then a a a b b b c c 1n l2 ln 11 12 1m 11 1n a a a b b b .
+21 22 2n 12 22 2m .
+.
+.
+cij AB= .
+.
+.
+.
+.
+.
+a a a b b b cnl cnn m1 m2 mn nl n2 nm Where cij = aib + ai b j +.... + ai bn l j 2 2 n j If A is an n x m and B is m x n then AB is n x n matrix.
+But BA is m x m matrix.
+If the number of columns of A is not equal to the number of rows of B, say A is m x n and B is p x m where n # p then the matrix AB is not defined.
+Example: 1 2 2 1 2 = 1.2+2.-1 1.1+2.3 1.2 + 2.4 3 1 -1 3 4 3.2+(-1) 3.1+1.3 3.2 + 1.4 = 0 7 8 NOUN 23MAT 121 LINEAR ALGEBRA 5 6 10 Example: Let A be 2 x 3 and B be 3 x 2 matrixes.
+What is the size of AB What is the size of BA Solution: AB= (2 x3) (3 x2)=2x2 BA= (3 x2) (2 x3)=3x3 In the above the product AB is defined if the inner numbers in the bracket are equal, and then the product will have the size of the outer numbers in the given order.
+Example: Let A = (2, 2) and B = 1 -1 0 2 2 3 Find (i) AB (ii) BA Solution: (i) A=(1 x2) and B=(2x3) AB (I x2)(2 x3)= 1 x3 \ AB = (2 2) 1 -1 0 2 2 3 = (2.1+2.2, 2.-1+2.2, 0+2.3) = (6,2,6) (ii) BA = (2 x 3)(1 x 2) this is not defined since 3 ≠ 1.
+Example: Let 1 2 4 1 3 6 A= 2 3 4 B= 2 4 7 4 7 0 BA= 1 3 6 1 2 4 31 53 16 2 4 7 2 3 4 = 38 65 24 4 7 0 Example: Let NOUN 24MAT 121 LINEAR ALGEBRA 2 -2 1 -1 -5 2 4 B= 3 -4 1 Find (1) AB (ii) BA Solution: AB = (3 x 2)(2 x 3) = 3 x 3 (i) AB = 2 -2 1 -1 -5 8 6 -12 2 4 -3 -4 1 = -10 -18 -6 -3 -1 0 7 14 (ii) BA = (2 x 3)(3 x 2) = (2 x 2) 1 - 1 -5 2 -2 15 - 1 -3 -4 1 2 4 = -17 -11 -3 -1 In (i) above: (2-2) 1 =2+(-2)(-3)=8 3 (2 -2) -1 =-2+8=6 4 (2 -2) -5 = -10-2= -12 1 Thus to obtain the first row of AB you multiply the first row of A by each column of B.
+For the second row of AB, you multiply the second row of A by each column of B respectively: i.e.
+(2,4) 1 -3 = -10 (2,4) -1 NOUN 25MAT 121 LINEAR ALGEBRA -4 = -18 (2,4) -5 1 = -6 For the third row of AB, you multiply the third row of A by each column of B respectively.
+i.e.
+(-3,-1) 1 -3 =0 (-3,-1) -1 4 =7 (2, 4) -5 1 =14 Exercise: Repeat the above for matrix BA.
+Example: Let A = 1 2 3 and B = 1 2 5 0 1 -1 2 0 -3 1 4 -1 2 1 0 Given that ( cij) = AB Find (i) c (ii) c (iii) c (iv) AB 12 23 14 Solution: cij = the product of ith row of A and jth column of B.
+(i) c = (1, 2, 3) 2 12 -3 =2 2 (ii) c = (1, -1, 2) 5 23 1 =6 1 (iii) c = (1, 2, 3 ) 0 14 4 =8 0 (iv) AB = -2 2 10 8 -1 9 6 4 EXERCISE: NOUN 26MAT 121 LINEAR ALGEBRA Let A = 1 5 B = 4 0 2 5 1 0 D= 1 -1 0 E= 1 2 3 2 1 0 -1 0 1 3 1 1 3 0 1 Compute (i) AB (ii) BA(iii) DE (iv) ED Ans (i)9 0 (ii) 4 20 (iii) 2 2 2 13 0 1 5 1 4 7 5 6 11 (iv) 14 4 3 2 2 1 16 -2 1 Properties of matrix multiplication.
+For matrices A, B and c (with same size) (a) (AB) C = A (BC) (b) A(B+C)=AB+AC (c) (B + C) A = BA + CA (d) k (AB) = (kA) B = A (kB) where k is a scalar.
+The transpose operation on matrices satisfies the following properties (a) (kA)T = kA T where k is a scalar (b) (A T)T = A (c) (A+B)T=AT+BT (d) (AB)T = BT AT (e) (ABC) T = AT BT CT (f) (A+B+ C)T =AT+BT+CT Examples: Given that 4 1 2 0 A= 9 0 and B= 7 1 Verify that (A + B )T = AT + BT Solution: A+B= 4 1 2 0 6 1 9 0 + 7 1 = 16 1 (A+B )T= 6 16 NOUN 27MAT 121 LINEAR ALGEBRA 1 1 4 9 2 7 AT= 1 0 BT= 0 1 AT+BT= 4 9 2 7 6 16 1 0 + 0 1 = 1 1 Example: Given that 1 -1 0 1 2 3 A= 2 1 0 B= -1 0 1 3 1 1 3 0 1 Show that (BA)T = ATBT Solution: 14 4 3 14 2 6 BA= 2 2 1 (BA)T= 4 2 -2 6 -2 1 3 1 1 AT = 1 2 3 BT = 1 -1 3 -1 1 1 2 0 0 0 0 1 3 1 1 1 2 3 1 -1 3 14 2 6 ATBT= -1 1 1 2 0 0 = 4 2 -2 0 0 1 3 1 1 3 1 1 Example: Let C = 14 2 6 4 2 -2 3 1 1 Using the matrices A and B given in the above examples show that (B+C)A=BA+CA Solution: 1 -1 0 1 2 3 14 2 6 A= 2 1 0 B= -1 0 1 C= 4 2 -2 3 1 1 3 0 1 3 1 1 NOUN 28MAT 121 LINEAR ALGEBRA 15 4 9 1 -1 0 50 -2 9 (B+C)A = 13 2 -1 2 1 0 = 4 -2 -1 6 1 2 3 1 1 14 -3 2 14 4 3 36 -6 6 :.
+BA= 2 2 1 CA= 2 -4 -2 6 -2 1 8 -1 1 14 4 3 36 -6 6 50 -2 9 \ BA + CA= 2 2 1 + 2 -4 -2 = 4 -2 -1 6 -2 1 8 -1 1 14 -3 2 Example: Let A = 1 3 4 -1 Compute (i) A2 (ii) A3 (iii) f (A) where f (x) = 2x3 + x2 + 2 Solution: (i) A2 = AA = 1 3 1 3 13 0 4 -1 4 -1 = 0 13 (ii) A3 = AAA = 1 3 1 3 1 3 13 39 4 -1 4 -1 4 -1 = 52 -13 (iii)F(A)=2A3+A2+21= 2 13 39 13 0 1 0 52 -13 + 10 13 +2 0 1 = 26 78 13 0 2 0 41 78 104 -26 + 0 13 + 0 2 = 104 -11 4.0 CONCLUSION In this unit you have studied the addition of two or more matrices.
+You have also studied scalar multiplication over matrix addition.
+You have seen that matrix addition is possible only between matrices of the same size or order or shape.
+In other words, you cannot add matrices of different size or shape together.
+The same applies to matrix multiplication.
+You have studied that matrix multiplication is possible between two matrices where the number of rows of the first matrix is equal to the number of NOUN 29MAT 121 LINEAR ALGEBRA columns of the second matrix.
+There are certain algebraic properties that are exhibited by matrices under addition and multiplication.
+Some of these properties could be extended to their transpose respectively.
+These properties studied in this unit will form part of the foundation for solving systems of linear equations in other units.
+5.0 SUMMARY In this unit, you have studied how to: (i) Add two or more matrices of the same size.
+(ii) Find the difference between two matrices of the same size.
+(iii) Find the product of a scalar k and a matrix A i.e.
+kA.
+(iv) Find the product of two matrices (v) To verify the algebraic properties of matrix addition and multiplication such as (i) A + B = B + A (ii) (AB) C = A (BC) (iii) A (B + C ) = AB + AC etc.
+6.0 EXERCISES TMAs Given that A = 4 -3 1 -3 1 0 1 3 and B -8 2 and C= 2 1 1.
+Find 3A - 4B 2.
+Verify that (A + B + C)T = AT + BT + CT 3.
+Show that (A B)T = BT AT If A= 1 2 B= 0 -1 3 4 6 7 4.
+Show that(AB)C=A(BC)if A = 1 2 -4 5 B= 4 6 C= 0 1 2 -3 5 3 NOUN 30MAT 121 LINEAR ALGEBRA 5.
+Given that A = 1 -2 3 B = 3 0 2 4 5 -6 -7 1 8 Compute 3A + 2B, for No.
+6 - 10 Let A = 2 2 B = 1 3 3 1 5 -3 6.
+Compute A2 and A3 7.
+If f (x) = x3 - x2 + 2x -4 find f (A) 8.
+Compute B2 9.
+Show that (AB) 2 = A2B2 10.
+Show that 2(AB) = (2A) B = A (2B) UNIT 3 NOUN 31MAT 121 LINEAR ALGEBRA LINEAR EQUATIONS Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Linear Equations in 2 unknowns 3.2 Two linear equations in 2 unknowns 3.3 General linear equations 3.4 Systems of linear equations.
+4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 1.0 INTRODUCTION The theory of linear equation is an important tool in solving many practical problems in most aspects of life.
+It is one of the mathematical tools that has found its application in natural sciences, applied sciences, social sciences and management sciences.
+Therefore, solutions to problems modeled by linear equations can easily be solved by any computer.
+One of the ways is to put these systems in a form of a matrix and then use special techniques to solve them.
+However in this unit you will only concentrate on the analytical and probably graphical methods of solving linear equations.
+The extension of these using matrices will be studied in other units of this course.
+2.0 OBJECTIVES After studying this unit, you should be able to (i) Solve linear equations involving two unknowns.
+(ii) Identify 3 types of solutions of general linear equations.
+(iii) Find solution to 3 linear equations in 3 unknowns.
+3.1 LINEAR EQUATION IN TWO UNKNOWNS A linear equation in two unknown can be written in this form Ax + by = c where x and y are the unknown variables and a, b, and c are real numbers.
+A typical solution to the above consist of a pair of numbers, say α = (r, r2) which satisfies the equation NOUN 32MAT 121 LINEAR ALGEBRA ar +br =C l 2 The above can be solved by assigning any value to x and then solved for y or you assign arbitrary values to y and solve for x.
+Example Given that 4x + 2y = 6 If you let x = 0 in the equation you get 2y = 6 or y = 3.
+Thus you have that the pair (0, 3) is a solution.
+If you substitute x = 1 in the equation you obtain that 2y = 2 or y = 1 hence (1,1) is another solution.
+You can have a list of solutions.
+x y -3 9 -2 7 -1 5 0 3 1 1 2 -1 3 -3 The above table gives seven possible values for x and the corresponding values for y i.e.
+seven solution of the equation.
+Using the above table of values you can plot the graph of the equation 4x + 2y =6 this is given in fig 3.1 y 9 7 NOUN 33MAT 121 LINEAR ALGEBRA (5, -1) 5 3 (0, 3) 1 (3/2, 0) x -3 -2 -1 0 0 1 2 3 4 -1 (2, -1) -3 (3, -3) -5 Fig 3.1 The above graph is a straight line hence the name linear equation.
+All the solutions to the equation lie on some point on the line.
+Exercise (i) Determine 6 distinct solutions of 6x - 3y =12 and plot its graph.
+Answer X Y -2 -8 -1 -6 0 -4 1 -2 2 0 3 2 y 2 x NOUN 34MAT 121 LINEAR ALGEBRA -3 -2 -1 0 1 2 3 4 (2, 0) -2 (1, -2) (0,4) -4 (-1, -6) -6 (-2, -8) -8 3.2 TWO LINEAR EQUATIONS IN TWO UNKNOWNS Given a system of two linear equations in two unknowns x and y written as ax +by=c dx+ey=f A typical solution to the above is a pair of numbers, which satisfies both equations.
+Such solution is called a simultaneous solutions of the given equation or a solution of the system of equations.
+There are 3 possible solutions to any given simultaneous equations.
+These 3 possible solutions can be described geometrically.
+Case I: If the system of equation have exactly one solution, then the lines corresponding to the linear equations intersect in one point as displayed in fig 3.2. y y – x = 1 x 2x +y = 2 Fig 3.2 Case II: If the system has no solutions.
+Hence the lines corresponding to the linear equations are parallel as displayed in fig 3.3 y Here the coefficients of x 2y – 2x = 6 y – x = 1 and that of y are NOUN 35MAT 121 LINEAR ALGEBRA Proportional i.e 2/1 = -2/-1 x 0 Fig 3.3 Case III: If the system has an infinite number of solutions.
+Here the lines corresponding to the linear equations coincide as displayed in fig 3.4.
+Here the coefficients of x and that of y and the constant term are proportional i.e.
+2/6 = 1/3 =3/9 x Fig 3.4 Examples.
+Solve the following systems of linear equations (i) 3x - 2y = 6 (ii) 2x + 4y = 1 (iii) 3x - 2y = 3 x+2y=2 x+2y=2 6x-4y=6 Solution: (i) 3x - 2y = 6 X+2y=2 4x=8 x=2 \ 2y = 2 - x or y = (2-x)/2 When x = 2, y= (2-2)/2 = 0.
+Thus the pair (2,0) is a solution to the system.
+(ii) 2x + 4y = 1 x+2y=2 NOUN 36MAT 121 LINEAR ALGEBRA The coefficients of x are in the same proportion with coefficients of y. i.e.
+2/1 = 4/2 ≠1/a but in different proportion with the constant term.
+Therefore the lines are parallel and the system has no solution.
+(iii) 3x - 2y = 3 6x-4y=6 Here the coefficients of x and y as well as the constant term are in the same proportion i.e.
+3/6 = -2/-4 = 3/6 Hence the lines are coincident and the system has an infinite number of solutions, which correspond to the solutions of either equation.
+Exercise: Solve the following system of equations (i) 3x + 6y = 10 (ii) 2x - 3y = -7 6x+ 12y= 1 4x-6y=-14 3.3 GENERAL SYSTEMS OF LINEAR EQUATIONS You will now extend your previous knowledge gained so far to a general linear equations.
+Consider a linear equation with arbitrary number of unknowns say, xl, x2, .
+.
+.
+An which is written as follows a x +a x +a x +...... +a x =6 1 1 2 2 3 3 n n Where al, a2, a3, ....an & b are real numbers.
+An n - tuple of real numbers β = (r, r .... r ) is a solution to the general linear equations if the statement l 2 n a r + a x + a x ...+ a r =b is true.
+1 1 2 2 3 3 n n A linear equation is said to be degenerate if the coefficients of the unknown are all zero.
+A general system of m linear equations in n unknown xl, x2, .....xn is of the form a x + a x + ...+ a x = b l1 l 12 2 in n l a x + a x + ...+ a x = b 21 1 22 2 2n n 2 a x + a x + ...+ a x = b m1 l m2 2 mn n m Where the aij, bi are real numbers.
+Any n-tuple of numbers (3=(rl, r2,...rn) which satisfies all the equation is called a solution of the system.
+There are NOUN 37MAT 121 LINEAR ALGEBRA methods of solving such systems of equation, one of such method is known as the elimination method.
+Example: Solve the linear equations 3x + 2y - 7 = 19 ------ (i) 4x - y + 27 = 4 --------(ii) 2x + 4y - 52 = 32 ------(iii) Solution: 3x + 2y - 7 = 19 --------- (i) Eq(i) x 4 -Eq(2) x 3 1 ly – l0z = 64 Eq(2) - Eq(3) x 2 -9y + 12z = -60 3x+2y-z= 19 1ly-l0z=64 Eq (4) x 9 - Eq (5) x 11 42 Z = -84 \ Z = -2 Substituting the value of Z in eq (4) you obtain lly+20=64 l ly + 20 = 64 11 y = 44 y = 4 Substituting the values of y and z in equation (i) You get 3x+8+2 = 19 3x = 9 x =3 \ x =3,y =4 z =-2 EXERCISES Solve the following linear equation (1) 4x+y-32= 1 6x-y-4z=7 l0x+2y-6z=5 NOUN 38MAT 121 LINEAR ALGEBRA Ans: x= 1.5 y=-2 z= 1 (2) 2x+y-32=2 3x-y-42=14 5x+2y -62= 10 Ans: x = 6, y= -4, z = 2 (3) x+y+37=6 2x+2y-32=9 x+2y-62=-4 Ans: x = 12,y = -7, z = 1/3 (4) 3x+2y-32=2 x-3y -47= 14 5x+2y-62= 10 Ans: x = 34, y = -20, z = 20 (5) 2x+3y-2=25 2x-6y-82= 14 5x+2y-62= 10 Ans: x=-2,y=1,z=-3 FURTHER COMMENTS ON GENERAL SYSTEMS OF LINEAR EQUATIONS Let n-tuple of numbers R = (rl, r2,...rn) be a solution to the systems of m equations in n unknown xl, x2, ...x written as a X + .......................+ d X = b 11 1 in 1 l .
+.
+.
+.
+.
+.
+.
+.
+.
+a X + .................. + a x = b ml 1 mn n m NOUN 39MAT 121 LINEAR ALGEBRA The above system of linear equation is said to be degenerate if the coefficients aij of all the unknowns.
+x l, x2y ...,xn are all zero.
+There are two cases that can occur when aij = 0 Case I: If one of the constants b ≠ 0 i.e.
+The system has an equation of the i form: 0x + 0x + ....+ 0x = b with b ≠ 0, then the system has no solution.
+1 2 n i i Case II: If every constant b = 0 i.e.
+every equation in the system is of this i form 0x , + 0x + ...+ 0xn = 0, then the system has every n-tuple of real 1 2 numbers as a solution.
+Example: The system 0x + 0x + 0x = 1 1 2 3 0x + 0x + 0x = 0 1 2 3 0x + 0x + 0x = 0 1 2 3 has no solution since one of the constants on the right hand side is not zero.
+The system 0x + 0x + 0x = 0 1 2 3 0x + 0x + 0x =0 1 2 3 0x + 0x + 0x =0 1 2 3 has every 3 - tuple (3 = (rl, r2.... rn) as a solution since all the constants on the right hand side are zero.
+HOMOGENEOUS SYSTEMS OF EQUATION A system of linear equation is called homogeneous if it can be written in this form.
+a x + a x + ...+ a x = 0 11 12 2 in n a x + a x + ...+ a x = 0 21 1 22 2 2n n .
+.
+.
+.
+.
+.
+.
+.
+.
+a x + a x + ...a x = 0 ml l m2 2 nm n The above homogeneous equation has the trivial solution given as (0, ..., 0).
+It also has a non-trivial solution whenever n> m. the method of finding NOUN 40MAT 121 LINEAR ALGEBRA solutions to such system of equation shall be the subject of study in the preceding units.
+4.0 CONCLUSION In this unit you have studied a general system of equations.
+Starting from a simple linear equation of several unknown to 2 simultaneous linear equations in 2 unknowns.
+You have use simple algebraic manipulation to solve for the unknowns in a 2 by z systems of equation and 3 by 3 systems of equation.
+You have studied how to determine whether a system has (i) a solution (ii) no solution (iii) infinite number of solution.
+You have also studied how to determine whether s system of linear equation is degenerate or nondegenerate system.
+You have studied a homogeneous system.
+5.0 SUMMARY In this unit you have studied how to: (i) Determine the 3 types of solutions of a general system of linear equation (a) Unique solution (b) no solution (c) Infinite Solutions (ii) Classify system of linear equations into (a) degenerate type (b) homogeneous type.
+(iii) Solve system of linear equation by elimination method.
+6.0 EXERCISE TMAs Determine whether the following systems have (i) solution (unique solution) (ii) Infinite solutions (iii) no solutions.
+1. x-2y=3 -3x+6y=9 2.
+2x+2y=2 x+y=1 3. x+2y=3 x+y=1 Solve the following systems of linear equations: 4.
+5x-3y-2z=31 2x+6y+3~=4 4x+2y-2=30 NOUN 41MAT 121 LINEAR ALGEBRA 5. x-3y+2=-1 2x+y-42=-1 6x-7y+82=7 6.
+Determine whether the systems of linear equations are homogeneous.
+3x+y-5=0 2x+3y-8=0 x-2y+3=0 7.
+Solve the system of equations 2x - 5y + 2--z = 7 -------- (1) x + 2y - 4 ~ = 3 --------- (2) 3x - 4y - 6 z = 5 ------- (3) 8.
+Determine the values of x, x , & x l 2 3 2x – 2x - x = 3 -------- (1) 1 2 3 4x + 5x -2x = -3 ------ (2) 1 2 3 3x + 4x -3x = -7 ------ (3) 1 2 3 9.
+Consider the homogeneous system.
+X+2y+3z =0----- (1) -x+3y+22z =0---- (2) 2x+y-2z =0------ (3) UNIT 4 DETERMINANTS Table of Contents 1.0 Introduction 2.0 Objective NOUN 42MAT 121 LINEAR ALGEBRA 3.1 Determinant of 2 x 2 matrix 3.2 Determinant of 3 x 3 matrix 3.3 Determinant of n x n matrix 4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 7.0 Further Reading 1.0 INTRODUCTION The need to find an efficient way to solve a large system of linear equations has made the study of determinants imperative.
+Determinants are restricted to only square materials.
+In other words, determinants are only evaluated for matrices with matrices whose number rows are equal to the number of column.
+This has made square matrices to e very important in the study of linear algebra.
+In this unit, determinants of square matrices of order 2 and 3 will be discussed.
+Evaluation of determinant of a general order n will be introduced.
+2.0 OBJECTIVES After studying this unit, you should be able to (i) Evaluate the determinant of a 2 x 2 matrix.
+(ii) Evaluate the determinant of 3 x 3 matrix.
+(iii) Evaluate the determinant of any n x n matrix.
+3.1 DETERMINANT OF A 2 X 2 MATRIX The determinant of a matrix A is written as IAI = det (A) and it is a single specific number.
+For example the determinant of a 1 x 1 matrix (a) is the number itself, det(a) = a = a.
+Consider a linear equation in one unknown x ax =b In the previous unit a can stand as a 1 x 1 matrix and x as a one component vector.
+If a ≠ 0 i.e.
+a ≠ 0 then the equation ax = b will have a unique solution, given as x = Mal b = 1/a b. NOUN 43MAT 121 LINEAR ALGEBRA However in a case IaI = 0 or a = 0 then the equation has no solution if b # 0 and will have every number as a solution if b = 0.
+The matrix a is called the coefficient matrix for the equation ax = b.
+The determinant of a coefficient matrix plays a vital role in solving any system of equation.
+This will be discussed later in this unit and the next one.
+For now it can be said that if det(A) $ 0 i.e.
+determinant of a coefficient matrix is not equal to zero then the equation will have a unique solution.
+You shall now consider the determinant of 2 x 2 matrix.
+Let the matrix A be given as A= a b c d then the det (A) = IAI = a b c d =ad-bc Example find.
+2 4 1 5 = 2.5-1.4= 10-4 =6 4 5 2 4 = -4.4-2.5 = -16-10=-26 Example let A = 2 3 B = 4 5 C = 2 1 14 -4 1 6 -1 -4 Find (i) A (ii) B (iii) C (iv) AB (v) ABC Solution (i) 2 3 4 4 = 2(-4)-(3.4)=-8-12=-20, (ii) 4 5 1 6 =(6.4)-(1.5)=24-5=19, (iii) -2 -1 -1 4 = (-4.2)-(-1.1)=-8-(-1)=-8+ 1 =-7 (iv) AB= 2 3 4 5 11 28 4 -4 1 6 = 12 -4 NOUN 44MAT 121 LINEAR ALGEBRA AB = 11 28 12 -4 = -380 (v) ABC= 2 3 4 5 2 1 -6 -101 4 -4 1 6 -1 -4 = 28 28 ABC = 2660 In evaluating the above determinant pf a 2 x 2 matrix, you can use the orientation described in the diagram below.
+A = a b c d - + Here the arrow slanting downward indicates the product "ad" in the positive sense.
+And the arrow slanting upward indicates the product "cb" in the negative sense.
+Thus, the determinant is addition of these products i.e.
++ad - cb = ad - cb Example: Compute the determinant of each matrix (i) x-y y (ii) x-y x y x+y x x+y (iii) 1 -2 (iv) -a 1 -4 -4 1 b Solution: (i) x-y y -y x+y = (x - y)(x + y) - (y)(-y) = x2 –y2 + y2 = x2 (ii) x - y x x x+y = (x-y)(x+y) - (x)(x) = x2 - y2 -x2 = -y2 (iii) -1 2 -4 4 = (-1)(4) - (-2)(-4) = -4 - 8 = -12 (iv) -a 1 1 b = (-a)(b) - (1)(1) = -ab - 1 Example NOUN 45MAT 121 LINEAR ALGEBRA Determine those values of p for which P P 2 4p = 0 Solution P P 2 4p = 4p2 - 2p = 0 (cid:222) 2p2-p=0 ==> p(2p-1)=0 (cid:222) p=0 and 2p-1= 0 => p=V 2 lf p = 0 or p =½the determinant is zero EXERCISE 1.
+Compute the determinants of the following matrices.
+(i) A = 2 1 (ii) B = -1 -1 (iii) C = -2 1 1 -1 -4 -2 -3 4 (iv) D = -4 -3 (v) E = 2 -10 4 5 -10 35 2.
+Using the above matrix evaluate (i) A - B (ii) AB (iii) A2-B2 Ans.
+3.1 DETERMINANTS OF 3 X 3 MATRIX Let a 3 x 3 matrix be given as A = a b c l l l a b c 2 2 2 a b c 3 2 3 then the determinant of A is defined as follows NOUN 46MAT 121 LINEAR ALGEBRA a b c l l l a b c = ab c + a b c + a b c - ab c - a b c - a b c 2 2 2 l 2 3 2 3 1 3 1 2 l 3 2 2 1 3 3 2 1 a b c = a(b c - b c ) + b (a c - a c ) + c (a b - a b ) 3 3 3 l 2 3 3 2 l 3 2 2 3 1 2 3 3 2 The above could also be written as a b c -b a c +c a b l 2 2 l 2 2 1 2 2 b c a c a b 3 3 3 3 3 3 Remark: Each of the 2 x 2 matrix above can be obtained by deleting, in the original 3 x 3 matrix, the row and column containing its coefficient; i.e.
+a b c a b c a b c 1 1 1 1 1 1 1 1 1 a a b c -b a b c +c a b c 1 2 2 2 1 2 2 3 1 2 2 2 a b c a b c a b c 3 3 3 3 3 3 3 3 3 Example: Compute the determinant A= 1 0 3 5 -7 2 4 -8 1 det (A) = A = 1 0 3 5 -7 2 4 -8 1 = 1 -7 2 -0 5 2 +3 5 7 -8 1 4 1 4 -8 = 1(-7 - (-8.2)) - 0 + 3(5.
+(-8) - (4.-7)) = 1(-7+16)+3(-40+28) = 9-36 = -27 Example: Compute the above determinant using elements of the 3rd column as the coefficients the determinants of the 2 x 2 matrix.
+Solution: 3 5 -7 -2 1 0 + 1 1 0 4 -8 4 -8 5 -7 NOUN 47MAT 121 LINEAR ALGEBRA =3(-40+28)-2(-8-0)+1(-7-0) = -36+16-7=-27 The above example has shown that the determinant of a 3 x 3 matrix can be expressed as a linear combination of three determinants of order two with coefficient from any row or from any column and not just from the first row.
+Example: Compute the determinant of the matrix using (i) 2nd column (ii) 2nd row (iii) 3rd row as coefficients of the determinants of the 2 x 2 matrix A= 1 2 3 4 -2 3 0 5 -1 (i) 2 4 3 +2 1 3 +5 1 3 5 -1 0 -1 0 5 =-[2(-4)+2(-1)+5((3)-42)] = -(-8-2-45) =55 (ii) 4 2 3 +2 1 3 +3 1 2 5 -1 0 -1 0 5 - [4(-2 -15) + 2(-1) +3(5)] = -68 – 2 + 15= +55 (iii) 0 2 3 -5 1 3 - 1 2 -2 3 4 3 4 -2 3.3 DETERMINANT OF N X N MATRIX (OPTIONAL) You shall now study the determinant of a general n x n matrix.
+Before doing that, consider the following definitions.
+Definition let A = (aij) be an n x n matrix.
+The determinant of A denoted IAI is defined A = ∑ (-1) ∂ (k) a k , a k ...a k 1 1 2 2 n n Where the sum is taken over all k = (k , .
+.., k ) and ∂ (k) {0 if k is even} 1 n {1 if k is odd} Example: The determinant of a 1 x 1 matrix is all by the above definition.
+NOUN 48MAT 121 LINEAR ALGEBRA Example: Let A be a 2 x 2 matrix given as A = a a 11 12 a a 21 22 then A = (-1)0 a a +(-1)1 a a = a a - a a ll 22 l2 21 ll 22 l2 2l Example: Let A be a 3 x 3 matrix given as A = a a a ll 12 13 A = a a a 21 22 23 a a a 31 32 33 then A = a a a - a a a - a a a 11 22 32 11 23 32 12 21 33 +a a a +a a a - a a a 12 23 31 13 21 32 13 22 31 If you continue using this formation the determinant of a 4 x 4 matrix would involve the sum of 24 products of four elements.
+Therefore there is need to use a simpler formula.
+This will be done by introducing the concept or notations of minors and cofactors.
+Definition: Let A = (aij) be an n x n matrix.
+Let Mij be the (n-1) x (n-1) matrix obtained from A by deleting (in the original matrix) the row and column containing aij.
+The determinant of Mij is called the minor of aij.
+The cofactor Aij is hereby defined as Aij = (-1) l+j det (Mij).
+Recall in section 3.2 you studied how to compute the determinant of a 3 x 3 by using the same method described in the above definition.
+Given that A = a a a ll 12 13 a a a 21 22 23 a a a 31 32 33 then A = a (a a - a a ) - a (a a - a a ) + a (a a -a a ) ll 22 33 32 23 12 21 33 31 23 13 21 32 31 22 the above can be written as A = a det (M ) - a det (M ) +a det(M ) l1 1l l2 12 13 13 NOUN 49MAT 121 LINEAR ALGEBRA OR A = a A +a A +a A --------- (*) l1 ll l2 12 l3 13 Equation (*) is called the cofactor expansion of det (A) using the first row of A.
+Other cofactor expansions are given as follows A = -a (a a - a a ) + a (a a - a a ) 2l l2 33 13 32 22 11 33 13 31 - a (a a - a a ) 23 11 32 12 31 = a A +a A +a A 21 21 22 22 23 23 also A = a A +a A +a A 31 31 32 32 33 33 You can also get the above cofactor expansion by using the columns instead of the rows of A. i.e.
+A = a A +a A +a A 11 l1 21 21 31 31 = a A +a A +a A 12 12 22 22 32 32 = a A +a A +a A 13 13 23 23 33 33 Example: Compute the determinant of a 4 x 4 matrix given as A= 0 1 3 0 0 2 10 0 0 2 0 6 4 0 1 3 Solution: The cofactor expansion of the above determinant will involve four 3 x 3 determinants.
+Much labour can be reduced by expanding along the row or column that contains the most zeros.
+Therefore you will expand along the 1 st column since it contains 3 zeros.
+Hence A = 0 A11 + 0 A21 + 0 A31+ 4 A14 = -4 1 3 0 2 10 0 2 0 6 Using the same criteria you have 1 3 0 1 3 -4 2 10 0 = -4 6 2 10 =-4.6 (10-6) = -96 Example: Compute the determinant of a 5 x 5 matrix given as 1 0 0 0 0 NOUN 50MAT 121 LINEAR ALGEBRA 1 3 1 0 1 A= 2 1 1 0 2 3 2 2 6 8 1 0 0 0 2 Solution: 1St row has highest number of zero as elements.
+Therefore you will expand along the 1 St row i.e.
+the cofactor expansion of the determinant will involve five 4 x 4 matrix.
+3 -1 0 0 A = 1 1 0 1 1 + 0 A +0 A +0 A 12 13 14 2 2 6 3 0 0 0 2 3 -1 0 = 1 -2 1 1 0 = -2 6 3 -1 2 2 6 1 1 = -2.6(3-(-1)= -2.6.4=-48 From the above examples you have seen that using cofactor to evaluate determinant is generally more efficient than using the definition.
+Especially if the matrix in question is a sparse matrix i.e.
+matrix with many zero entries.
+Exercises: Compute the determinants of the following matrices using the cofactor method.
+(1) 9 20 3 (2) 1 3 4 5 A = 4 8 0 B = 1 0 2 1 1 -1 0 3 0 6 0 4 0 -1 0 (3) 2 1 2 3 1 0 3 1 4 0 C = 0 -2 1 3 0 0 0 0 7 1 0 1 2 -6 -2 Ans (1) -36 (2) 81 (3) -10 NOUN 51MAT 121 LINEAR ALGEBRA 4.0 CONCLUSION In this unit, you have studied how to compute the determinant of a 2 x 2 matrix.
+You also use the knowledge to compute determinant of a 3 x 3 matrix.
+The cofactor method of evaluating the determinant of an n x n matrix was introduced.
+You studied with examples that the cofactor method of evaluating the determinant of an n x n matrix is far simpler than using or applying the definition given at the beginning of the section 3.3.
+The evaluation of determinant of an n x n matrix will be very useful in solving systems of n linear equations in n unknowns.
+Also this cofactor method studied in this unit will be very useful when investigating or verifying some properties of determinants in the next unit.
+5.0 SUMMARY You have studied in this unit how to: (i) Compute the determinant of a 2 x 2 matrix i.e.
+a b = ad - bc c d (ii) Compute the determinant of a 3 x 3 matrix (iii) Compute the determinant of an n x n matrix.
+6.0 EXERCISES TMAs 1.
+Compute the determinant of the following 2 x 2 matrices (i) a b (ii) -2 4 (iii) -10 12 b a -1 0 13 14 (iv) 20 2 20 4 2.
+Determine those values of p for which -p 4 -2 2p = 0 3.
+Compute the determinant of (i) A= 3 1 2 (ii) B = 3 -1 -1 1 4 5 -2 1 3 6 7 8 4 -1 3 4.
+Compute the determinant of NOUN 52MAT 121 LINEAR ALGEBRA 1 4 5 6 2 1 1 1 0 1 3 2 0 0 0 4 A= 0 1 4 0 B = 3 1 0 2 0 2 5 0 1 1 0 1 5.
+Compute the determinant of 4 5 1 2 3 0 3 0 0 0 A = 0 4 1 2 3 0 5 6 7 8 0 4 3 0 0 UNIT 5 PROPERTIES OF DETERMINANTS Table of Contents 1.0 Introduction 2.0 Objectives NOUN 53MAT 121 LINEAR ALGEBRA 3.1 Basic Properties 3.2 Basic theorems 3.3 Row Operations 3.4 Adjoint of a Matrix 4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 7.0 Further Readings 1.0 INTRODUCTION In this unit you shall study more on determinants of matrices by investigating some basic properties of determinant.
+Changes in some of the elements of the row or columns might affect the sign of the determinant.
+There are certain theorems that explain this changes that can occur along the expansion of the cofactors of the determinants.
+Such theorem will be studied here without giving their proofs.
+The concept of the adjoint of a matrix will be introduced in this unit.
+The Cramer rule that will be discussed in the next unit will be based on the topics that will be studied in this unit.
+2.0 OBJECTIVES After studying this unit, you should be able to correctly: (i) Identify and verify 4 properties of a determinant.
+(ii) State the basic theorems without proof involving (i) determinant of a transpose (ii) triangular matrix.
+(iii) Compute the adjoint of a matrix.
+(iv) Manipulate and compute determinants resulting from row operations.
+3.1 BASIC PROPERTIES Basic properties of a determinant of a matrix are hereby given as follows: 1.
+Let A be an n x n matrix.
+If the elements in a row (column) are all zero, the A = 0.
+Example: Given A = 5 -7 7 0 0 1 NOUN 54MAT 121 LINEAR ALGEBRA 2 3 1 A = 5 0 0 +7 0 0 +7 0 0 3 1 2 1 2 3 =5.0+7.0+7.0 = 0 2.
+The determinant of the transpose of a matrix is equal to the determinant of the matrix.
+Let A = a b c l l 1 a b c 2 2 2 a b c 3 3 3 = a(b c - b c ) – b (a c - a c ) + c (a b - a b ) l 2 3 3 2 1 2 3 3 2 1 2 3 3 2 = ab c – a b c – b a c + ba c + ca b - ca b l 2 3 1 3 2 1 2 3 l 3 2 l 2 3 l 3 2 = ab c + c a b + ca b - ab c - ba c - ca b l 2 3 2 3 1 l 2 3 l 3 2 l 2 3 l 3 2 AT = a a a l 2 3 b b b 1 2 3 c c c 1 2 3 = a(b c - c b ) - a (bc - cb ) + a (bc - cb ) l 2 3 2 3 2 l 3 l 3 3 l 2 l 2 = ab c - ac b - a bc + a cb +a bc - a cb l 2 3 l 2 3 2 l 3 2 l 3 3 l 2 3 l 2 = ab c + a cb +a bc - a bc - ac b - a cb l 2 3 2 l 3 3 l 2 2 l 3 l 2 3 3 l 2 Example: Let A = 3 -4 2 1 A =3-(-4.2) = 11 AT = 3 2 -4 1 AT = 3 2 -4 1 =3-(-8)=11 A, then AT = A Example:- Let A = 2 -1 3 3 -1 0 NOUN 55MAT 121 LINEAR ALGEBRA 4 5 0 then AT = 2 3 4 -1 -1 5 3 0 0 A = 3 3 -1 4 5 =3 (3 x 5-(-1 x 4)) = 57 AT = 3 3 4 -1 5 =3(15-(-1 x4))=57 Example: Show that BT = B if -1 2 1 2 3 -1 1 1 B = 4 -2 3 4 5 3 2 1 -1 1 1 3 1 1 3 -1 1 B = -1 -2 3 4 -2 4 3 4 + 4 -2 4 3 2 1 5 2 1 5 3 1 -2 3 -1 1 4 -2 3 =18 5 3 2 BT = -1 3 4 5 2 -1 -2 3 1 1 3 2 2 1 4 1 = -1- 1 -2 3 -3 2 -2 3 +4 2 -1 3 1 3 2 1 3 2 1 1 2 1 4 1 2 4 1 2 1 1 -5 2 1 -2 1 1 3 = 18 2 1 4 The above property shows that rows and columns of a determinant are interchangeable.
+NOUN 56MAT 121 LINEAR ALGEBRA 3.
+If every element of a row (column) of a matrix A is multiplied by a nonzero constant then, the determinant of A is multiplied by that nonzero constant.
+Example: Let A = al a2 a3 b1 b2 b3 = a b c - ac b - a b c 2 2 3 l 2 3 2 1 3 c1 c2 c3 a c b + a bc - a c b 2 1 3 3 l 2 3 1 2 and λ A = λ a1 λ a2 λ a3 b1 b2 b3 = λ (a b c - ac b ) 1 2 3 l 2 3 c1 c2 c3 + λ (a c b - a bc ) 2 1 3 2 l 3 + λ (a b c - a cb ) 3 1 2 3 l 2 = λ (a b c – a c b + a c b - a bc + a b c - a c b ) 1 2 3 1 2 3 2 1 3 2 l 3 3 1 2 3 1 2 = λ A Example: Let A = 2 -1 2 1 -1 1 1 1 2 Let λ = 2.
+Multiply 2nd row of matrix A by 2 you get A1 = 2 -1 2 where Al is the matrix obtained after 2 -2 2 multiplying the 2nd row of A by 2.
+1 1 2 To show that (A1) = 2A = 2 A A = 2 -1 -1 + 1 1 + 2 1 -1 1 2 1 2 1 1 =2 (-2 -1) + (2 - 1) + 2 (1-(-1)) =-6 + 1 + 4 = -1 A1 = 2 -2 +2 + 2 2 +2 2 -2 1 2 1 2 1 1 =2 (-4 - 2) + (4 - 2) + 2 (2 + 2) = 2 (-6 + 1 + 4) = 2 (-1) = -2 4.
+Determinant of triangular matrices Let A = 0 .
+.
+.
+0 11 NOUN 57MAT 121 LINEAR ALGEBRA a a 21 22 a a a n1 n2 nn be a triangular matrix i.e.
+a matrix having zeros below or above the leading diagonal, then the determinant of A is given as A = a a ... a l1 22 nn Here the determinant is the product of all the elements in the leading diagonal.
+You can easily see this if you use the first row to expand the determinant and induction on n. Example: Determinant of the identity matrix 1n is equal to 1 for all n. I = 1 0 0 3 0 1 0 0 0 1 I =1(1 - 0) =1 3 I = 1 0 ...... 0 n 0 1....... 0 .
+.
+.
+0 0 ....... 1 I = 1 0……..0 n 0 1……..0 .
+.
+.
+.
+= 1 I n - 1 .
+.
+= 1 .
+1 .
+.
+.
+.
+1 = 1 2 .
+.
+0 0……..1 5.
+The determinant of the product matrix AB is equal to the product of the determinants.
+Let A and B be two square matrices of the same order.
+Then AB = A.
+B .
+Example: Given that A = -1 0 1 B = 1 1 0 2 3 1 0 1 2 NOUN 58MAT 121 LINEAR ALGEBRA 1 1 -1 1 1 3 A = -1 3 1 +1 2 3 1 -1 1 1 = 3 B = -1 1 2 - 0 2 1 3 1 3 = 1 AB = -1 0 1 -1 1 0 2 0 3 2 3 1 0 1 2 = -1 6 9 1 1 -1 1 1 3 -2 1 1 AB = 2 6 9 +3 -1 6 1 -1 -2 1 = 3 (cid:222) AB = A B =3 Example: A = 1 2 4 0 0 0 0 1 1 2 3 4 1 1 -1 1 B = 1 1 -1 0 1 1 0 0 2 1 -1 0 1 1 -1 2 A = 1 0 0 1 -2 0 0 1 +4 0 0 1 2 3 4 1 3 4 1 2 4 = -1 1 -1 1 1 -1 1 1 1 1 B = 1 1 0 0 -1 1 0 0 -1 1 1 0 1 -1 0 2 1 0 2 1 0 =2 1 -1 2 1 -1 2 1 1 2 AB = 11 7 -5 0 1 1 -1 2 11 1 -1 2 -7 1 1 2 13 10 -8 8 = 10 -8 8 13 -8 8 1 2 -1 2 2 -1 2 1 -1 2 NOUN 59MAT 121 LINEAR ALGEBRA +(5) 1 1 2 13 10 8 =-2 1 2 2 => AB = A B = -2 = -1.2 Now consider BA = 0 0 1 -3 1 2 4 1 = -1 1 2 1 -3 1 2 4 1 2 5 -3 1 2 3 1 2 5 = -2 2 2 -1 -1 2 2 1 2 2 -1 \ AB = BA = B A = A B 3.2 ROW OPERATIONS 1.
+Addition to one of a multiple of another row does not change the value of the determinant of a matrix.
+In other words the determinant remains unchanged when you add to one row a multiple of another row.
+Example: Let A = a a a l 2 3 b b b = a b c – a c b + a b c l 2 3 1 2 3 1 2 3 2 1 3 c c c - a cb + a bc - a c b 1 2 3 2 l 3 3 l 2 3 1 2 and Al = a + λ bl a + λ b a + λ b l 2 2 3 3 b b b 1 2 3 c c c 1 2 3 = a + λ b(b c - c b ) + a + λ b (bc - cb ) 1 l 2 3 2 3 2 2 l 3 l 3 a + λ b (b c - c b ) 3 3 1 2 1 2 = a (b c - c b ) + a (b c - c b ) + a (b c - c b ) 1 2 3 2 3 2 1 3 3 3 3 1 2 1 2 + λ b(b c - c b ) + λ b (bc - c b ) l 2 3 2 3 2 l 3 1 3 +λ (b c - cb ) 1 2 l 2 = A + λ b b b l 2 3 b b b l 2 3 c c c l 2 3 (Two rows are identical) hence NOUN 60MAT 121 LINEAR ALGEBRA = A + λ .0 = A Example: Let A = 1 3 4 -1 0 2 1 4 5 A1 = -1 3 8 -2 0 4 1 4 5 A = 0 2 -3 -1 2 -4 -1 0 4 5 1 5 1 4 = -6 A1 = -1 0 4 -3 -2 4 +8 -2 0 4 5 1 5 1 4 =-6 2.
+Suppose A, Al, A , A 1 and A , A 1 are rows of a 1 x 3 matrices l l 2 2 3 3 respectively then you have (i) det A +A 1 = det A + det A 1 1 1 l 1 A A A 2 2 2 A A A 3 3 3 (ii) det A det A + det A 1 1 1 A +A 1 = A A l 2 2 2 2 A A A3 3 3 (iii) det A = det A + det A 1 1 1 A A A 2 2 2 A +A 1 A A 3 3 3 3 The above properties are useful in the expansion and factorization of determinants.
+Example: Let A = al a2 a3 bl+dl b2+d2 b3+d3 cl c2 c3 then A = a a2 a l 3 b+d b +d b +d l 1 2 2 3 3 c c c 1 2 3 NOUN 61MAT 121 LINEAR ALGEBRA =a((b +d )c - c (b +d )) - a (c (b+d) -c (b +d ) l 2 2 3 2 3 3 2 3 l l 1 3 3 a ((b+d )c +c (b +d )) 3 l 2 2 l 2 2 = ab c - ac b - a c b +a c b +a bc +cb a +ad c -a c d -a c d - a cd +a bc l 2 3 l 2 3 2 3 1 2 1 3 3 l 2 l 2 3 l 2 3 1 2 3 2 3 l 2 l 2 3 l 2 +a cd 3 l 2 a a a a a a l 2 3 l 2 3 = b b b + b b b l 2 3 l 2 3 c c c c c c 1 2 3 1 2 3 Example: Let A = 2 3 1 A1=- 2 3 1 1 2 -1 -1 -2 4 -1 0 1 -1 0 1 show that B = A + A1 = -2 3 -1 = 2 3 1 + 2 3 1 0 0 3 1 2 1 -1 -2 1 -1 0 1 -1 0 1 -1 0 1 B = -3 2 3 - A = -1 3 - 1 + 2 3 = 6 -1 0 2 -1 1 2 = -9 A1 = -1 3 1 + 2 3 -2 1 -1 -2 = -15 -9=6-15 The sign of a determinant is reversed by interchanging any two of its rows.
+Example: Let A = a a a l 2 3 b b b l 2 3 c c c 1 2 3 and B = a a a l 2 3 b b b l 2 3 c c c 1 2 3 A = a(b c - c b ) - a (b c - cb ) +a (bc - cb ) l 2 3 2 3 2 1 3 l 3 3 l 2 l 2 - A = a (c b -b2C3) - a (cb -bc ) + a (cb - bc ) 1 2 3 2 l 3 l 2 3 l 2 l 2 = B = a (c b -b c ) - a (cb -b c ) +a (cb - b c ) 1 2 3 2 3 2 l 3 1 2 3 l 2 1 2 NOUN 62MAT 121 LINEAR ALGEBRA therefore B = - A Example: Given A= -1 2 3 1 0 2 2 0 1 Let B = 1 0 2 -1 2 3 2 0 1 then A = 2 1 1 = 2(1 - 4)=-6 2 1 B= -2 1 1 = -2(1-4) = 6 2 1 Exercises.
+Use the following matrices A = 1 -2 -3 B = 1 2 1 3 2 5 2 1 2 2 -1 3 3 1 3 C = 4 0 5 D = 1 2 1 3 2 5 3 2 0 2 -1 3 3 1 3 To compute (1) AT (ii) B (iii) C (iv) D Hence (2) Shows that AT = A (3) Shows that AB = B .
+λ A = A .
+B (4) Use matrices B and D to show that if the elements of any row are the sums or difference of two or more terms, the determinant may be written as the sum or difference of two determinants.
+(5) Use matrices A, AT, C and CT above to show that adding a multiple of one row (or column) of a matrix to another row (or column) of the matrix leaves the determinant unchanged.
+4.0 CONCLUSION NOUN 63MAT 121 LINEAR ALGEBRA In this unit you have examined various ways determinants of matrices can be computed.
+You have studied the effects certain row operations such as (i) Interchanging any two of the rows of a matrix, (ii) Adding a multiple of one row (or column) of a matrix to another row (or column) of the matrix etc.
+have on the value of the determinants.
+You have studied that row operations have the same effect on determinants as the column operations since the det A = det AT.
+The properties of determinants studied in this unit are very useful in solving systems of linear equations.
+5.0 SUMMARY In this unit you have studied; (a) Basic properties of determinants of matrices such as (i) det (A) = det (AT) (ii) AB = A .
+B = B .
+A (iii) A = a a ...a for all n x n triangular matrices etc.
+1l 22 1n (b) Row (column) operations such as (i) The determinant remains unchanged when you add to one row a multiple of another row.
+(ii) Interchanging the ith and jth rows (iii) Multiplying the ith row by a nonzero constant (iv) Adding the jth row multiplied by a scalar λ to the ith row.
+6.0 EXERCISES TMAs 1. if A = 1 -1 2 B= 1 0 0 1 2 0 1 1 0 4 3 1 1 1 1 What relation exists between det (A), det (B) and det (BA)?
+2.
+If A = 1 0 -2 B = 2 -2 2 3 1 2 2 2 -8 0 -1 0 0 -2 0 Find (1) A (ii) B (iii) find a scalar such that λ B = A In problems 3 - 7 use properties of determinants to evaluate the determinant.
+3.
+1 2 3 4.
+3 6 9 5.
+4 3 9 NOUN 64MAT 121 LINEAR ALGEBRA 3 1 6 3 1 6 3 1 6 2 -1 4 2 -1 4 2 -1 4 7.
+1 3 2 2 1 1 3 6 4 8.
+Compute (i) 2 1 4 (ii) 2 0 0 0 3 1 1 4 0 0 0 4 3 1 2 MODULE II UNIT 1 INVERSE OF MATRICES Table Of Contents 1.0 Introduction NOUN 65MAT 121 LINEAR ALGEBRA 2.0 Objectives 3.1 Invertible matrices 3.2 The inverse of a square matrix 3.3 Invertible matrices and determinants 4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 7.0 Further Reading 1.0 INTRODUCTION The study of inverse of matrix is an important tool in solving many real life problems that can be modeled by any given system of linear equation.
+For example let Ax = b where A is 1 x 1 matrix and x and b are scalar A typical solution to the above equation is given as x = b/A = bA-1.
+In this unit you will study how to find A-1 if A is a matrix of order greater than 1.
+This will enable you to solve a system of linear equation by matrix method.
+You should revise units 4 and 5 since most of the concepts studied there will be used as essential tools for this unit.
+2.0 OBJECTIVES After studying this unit, you should be able to: (1) Identify invertible matrices (2) Compute the inverse of 2 x 2 and 3 x 3 matrices.
+(3) Compute the inverse of an n x n matrix by using determinant method.
+3.1 INVERTIBLE MATRICES Definition of inverse of a matrix.
+Let A be a square matrix of order n. A is said to be invertible if there exists a square matrix B of order n such that AB =BA=1n Where In is the identity matrix of order n and B is called the inverse of A.
+Remark: Not all square matrices have inverses.
+For example let A be the matrix given as A= 3 6 1 3 and suppose that it has an inverse of the form B= x y NOUN 66MAT 121 LINEAR ALGEBRA Z w Then 3 6 x y = 1 0 1 3 z w 0 1 i.e.
+3x+6z 3y+6w = 1 0 x+32 y+3w 0 1 therefore 3x + 6z = 1 .............(i) 3y + 6w = 0 ............ (ii) x + 32 = 0 ............... (iii) y + 3w = 1 ................(iv) Equation (i) and (iii) represent two parallel lines, which are not coincident (see unit 3).
+Similarly, equations (ii) and (iv) are also parallel lines.
+Therefore, the equations (i) to (iv) have no solutions.
+Hence there are no values of x, y, z, w such that AB = 12 and as such the matrix A above has no inverse.
+Any square matrix, which has an inverse, is called a non-singular matrix or non-invertible matrix.
+If a matrix has an inverse, that inverse is unique.
+In other words if matrix A say has matrix B as its inverse then there will not be any other matrix that can stand in the place of B. i.e.
+there will not be any other matrix c such that AC = CA = In except of course C =B.
+The above truth can easily be established.
+That is you can show that if a matrix A is non-singular then it's inverse is unique.
+Assume that B and C are two inverse of A.
+You want to show that B = C. AB = I (B is an inverse of A) C(AB)=CI=C (CA) B = C I B = C (Since C is an inverse of A) B=C Hence the required result.
+You have shown that B=C.
+If matrix A is invertible, the unique inverse matrix of A is written as A-'.
+Certain properties of invertible matrices will be given with their proofs.
+Let A, B be invertible matrices and A be a non-zero constant.
+Then the following properties hold: NOUN 67MAT 121 LINEAR ALGEBRA (i) λ A is invertible and (λ A) -1 λ1-A-1 (ii) (ii) AB is invertible then (AB)-1 = B-1 A-1 (iii) A-1 is invertible and (A-1)-1 = A (iv) AT is invertible and (AT)-1= (A- 1) T Proof: (i) (λA)( λ-1A-1) = (λ λ -1)(AA-1) = 1.I= I and (λ-1A-1)( λ A) = (.λ-1 λ)(A-1A) = 1.I= I From the above it has been shown that /1 A is the inverse of A -1A-1 therefore in symbol you write (λ A) = λ-1 A-1.
+-1 (ii) (AB)B-1A-1 = A (BB-1) A-1 =(AI)A-1 =AA-1 =I (B-1A-1)(AB) = B-1(A-1A)B (cid:222) (B-1A-1)(AB) = B-1 (I) B = B-1IB = B-1B =I It has been shown that AB is the inverse of B-1A-1.
+In symbol you write (AB)-1 = B-1A-1 which gives you the required result.
+(iii) Since AA-1 = A-1A = I this implies that A is the inverse of A-1 therefore in symbol you write (A-1)-1 = A. which is the required result.
+(iv) Since AA-1 = A-IA = I taking the transposes, you get (AA-1)T =(A-1A)T = IT this implies that (A-1)TAT = AT(A-1 )T = I thus the inverse of AT is (A-1 )T therefore in symbol you write (AT)-1 = (A-1)T. EXERCISE (1) Show that the matrix given as A = 1 2 2 4 is non-invertible.
+(2) Give a definition of the inverse of n x n matrix.
+3.2 THE INVERSE OF A SQUARE MATRIX 3.2.1 THE INVERSE OF A NON-SINGULAR 2 X 2 MATRIX NOUN 68MAT 121 LINEAR ALGEBRA Given a 2 x 2 matrix of the form A= a b c d with an inverse You will find the values of x, y, z, w in terms of a, b, c, d such that AA-1 = I Hence a b x y 1 0 c d z w = 0 1 = ax+bz ay+bw 1 0 cx+dz cy+dw = 0 1 thus ax + bz = 1 (i) ay + bw = 0 (ii) cx + dz = 0 (iii) cy + dw = 1 (iv) Solving equation (i) and (iii) simultaneously you obtain x and z as X= d z = -c ad -bc ad -bc and solving equations (ii) and (iv) you obtain y and w as y = -b w = a ad - bc ad - bc therefore A-1= d -b ad - bc ad - bc = 1 d -b ad - bc -c a -c a ad-bc ad -bc In the above inverse of a 2 x 2 square matrix, you can remember it by noting that you interchange the entries in the leading diagonal, change the sign of NOUN 69MAT 121 LINEAR ALGEBRA the other two entries and divide the resulting matrix by the determinant of the matrix.
+( A = dd - bc).
+Hence you can rewrite the inverse as A-1 = 1 d -b A -c a You should note that A ≠ 0 for it to be invertible.
+All invertible matrices must have A ≠ 0.
+To test if a matrix is invertible all you have to do is to test if the determinant is non-zero i.e.
+A ≠ 0.
+Example: Determine whether the following matrices are invertible and find the inverse where it exists.
+(i) A = 2 1 (ii) B = -1 -2 4 5 3 4 C = 1 0 (iii) D = -1 2 3 4 2 4 Solution- (i) A =10-4= 6 \ A-1 = 1 5 -1 = 5/6 1/6 6 - 4 2 2/3 1/3 (ii) B = -1 2 3 4 =-4-(-6)=2 B-1 ½ 4 2 = 2 1 -3 -1 -3/2 -1/2 (iii) C = 1 0 3 4 =4 C-1=¼ 4 0 = 1 0 -3 1 ¾ ¼ (iv) D = 1 2 2 4 = 4 – 4 = 0 not invertible 3.2.2 THE INVERSE OF A 3 X 3 SQUARE MATRICES NOUN 70MAT 121 LINEAR ALGEBRA In the previous section you obtained a general formula for an inverse of a 2 x 2 matrix.
+In the case of 3 x 3, you might not be able to express the inverse in a closed form.
+However, the inverse can be obtained by solving a system of 9 equations involving 9 unknowns.
+Example: Compute the inverse of A = 2 3 -1 2 4 2 -2 -2 3 Solution: You will look for nine constants x1, x2, x3, y1, y2, y3, z1,z2 and z3, such that 2 3 -1 a 1 a2 a3 1 0 0 2 4 2 bl b2 b3 = 0 1 0 -2 -2 3 cl c2 c3 0 0 1 = 2a +3b -c 2a +3b -c 2a +3b -c 1 0 0 1 1 l 2 2 2 3 3 3 2a +4b +2c 2a +4b +2c 2a +4b +2c = 0 1 0 1 1 1 2 2 2 3 3 3 -2a -2b +3c -2a -2b +3c -2a -2b +3c 0 0 1 1 1 1 2 2 2 3 3 3 2a +3b -c = 1 1 1 1 2a +3b -c = 0 2 2 2 2a +3b -c = 0 3 3 3 2a +4b +2c = 0 1 1 1 2a +4b +2c = 1 2 2 2 2a +4b +2c = 0 3 3 3 -2a -2b +3c = 0 1 1 1 -2a -2b +3c =0 2 2 2 -2a -2b +3c = 1 3 3 3 Solving each system and noting that the determinant i.e.
+2 3 -1 2 4 2 = -2 ≠ 0 -2 -2 3 The solution of each of the three systems is given as a =-8 a =3.5 a =-5 1 2 3 b = 5 b = -2 b = 3 1 2 3 c = -2 c = 1 c = -1 1 2 3 NOUN 71MAT 121 LINEAR ALGEBRA Thus the inverse is given as A-1 = -8 3.5 -5 5 -2 3 -2 1 -1 You could also find the inverse of a 3 x 3 matrix by using elementary row operation.
+This is method of reducing a square matrix A of order n to an identity matrix 1 by a series of elementary row operation, and then the same n series of row operation is applied to I to yield the inverse of A. n Example: Let A = 2 3 -1 1 2 1 Find A-1 -1 -1 3 Solution 1.
+A= 2 3 -1 1 0 0 1 2 1 0 1 0 -1 -1 3 0 0 1 2.
+2 3 -1 1 0 0 0 -1 -3 1 -2 0 R (-2) 21 1 -1 3 0 0 1 3.
+2 3 -1 1 0 0 0 -1 -3 1 -2 0 R (2) 31 0 1 5 1 0 2 4.
+2 3 -1 1 0 0 0 -1 -3 1 -2 0 R (½) 23 6 0 2 2 -2 2 5.
+2 3 1 1 0 0 0 -1 -3 1 -2 0 R (½) 3 0 0 1 1 -1 1 2 3 -1 1 0 0 0 1 0 -4 5 3 R (-3) 21 0 0 1 1 -1 1 2 0 -1 1 0 0 0 1 0 -4 5 3 R (-3) 12 0 0 1 1 -1 1 NOUN 72MAT 121 LINEAR ALGEBRA 2 0 0 14 -16 10 0 1 0 -4 5 -3 R (1).
+13 0 0 1 1 -1 1 0 0 7 -8 5 0 1 0 -4 5 -3 R (½) 1 0 0 1 1 -1 1 \ A-1 = 7 -8 5 -4 5 -3 1 -1 1 Exercise: Compute the inverse of the following matrices 1.
+A= 2 1 -1 3 2 -1 -1 1 3 2.
+B = 1 1 -1 2 1 3 -1 4 6 Ans = A-1 = 7 -4 1 6 10 -10 -8 5 -1 2.B-1 = 1 15 -5 5 5 -3 1 30 -9 5 1 3.3 INVERTIBLE MATRICES AND DETERMINANTS You shall now obtain a general formula for the inverse of an n x n square matrices by the method of determinant.
+Let A be an n x n matrix given as A = a a ......a ll 12 ln a a ...... a 21 22 2n .
+.
+.
+a a … .
+.a n1 n2 nn Definition: The adjoint of A denoted by adj A is the transpose of the matrix of cofactors of the elements aij of A.
+(see section 3.3 of unit 4 for definition of cofactor), and is given as NOUN 73MAT 121 LINEAR ALGEBRA Adj A = A A ... A ll 21 1n A A ... A 2l 22 2n A A ... A In 2n nn Example: Compute the adjoint of the matrix given as A = 2 0 -1 3 2 -1 -1 1 3 The elements of the 1st row are 2, 0 and -1 and their cofactors are 2 -1 = 7 -1 3 -1 = -8 3 2 = 5 1 3 -1 3 -1 1 Similarly the elements of 2nd row are 3, 2 and -1 and their cofactors are -1 0 -1 =-1 2 -1 =5, -1 2 0 =-2 1 3 -1 3 -1 1 the elements of 3rd row are -1, 1 and 3, cofactors are given as 0 -1 =2 -1 -2 -1 = -1 2 0 =4 2 -1 3 -1 3 2 therefore the matrix of cofactor is given as Aco = 7 -8 5 -1 5 -2 2 -1 4 and A* - adj (A) = 7 -8 5 T 7 -1 5 -1 5 -2 = -8 5 -1 2 -1 4 5 -2 4 Furthermore, using matrix multiplication.
+Find AA* of the above example.
+AA* = 2 0 -1 7 1 2 9 0 0 1 0 0 3 2 -1 -8 5 1 = 0 9 0 = 9 0 1 0 -1 1 3 5 -2 4 0 0 9 0 0 1 Note A = 9.
+From above you AA* = A I ==> AA* = 1 A NOUN 74MAT 121 LINEAR ALGEBRA It implies that A* is the inverse of A A \ A-1 = A* Hence A-1 = 1 7 -1 2 A 9 -8 5 -1 5 -2 4 Generally given an n x n matrix A A = a a ….. a 1l 12 1n a a ..... a 21 22 2n a a .... a n1 n2 nn then A-1 = AA* where A* = adj (A) and A is det (A) A Example.
+Find the inverse of (i) A = 2 -3 4 -1 Solution: Using the adjoint method A* = A A A ll 12 13 A A A 21 22 23 A A A 31 32 33 A = 2 1 A = -1 1 1 A = 1 2 = 1 11 12 13 -1 3 -1 3 -1 1 A = -1 3 -1 = -8 A 2 -1 = 5 A = -1 2 3 = -1 21 22 23 -1 3 -1 3 -1 -1 A = 3 -1 = 5 A = -1 2 -1 = -3 A = 2 3 = 1 31 32 33 2 1 1 1 1 2 A* = 7 -4 1 T 7 -8 5 -8 5 -1 = -4 5 -3 5 -3 1 1 -1 1 A = 1 \ A -1 = A* = 7 -8 5 A -4 5 -3 1 -1 1 Example: Compute A-1 if A= 1 0 0 0 NOUN 75MAT 121 LINEAR ALGEBRA 1 -1 2 1 2 1 3 -1 1 2 2 2 adj (A) = A A A A ll 12 13 14 A A A A 21 22 23 24 A A A A 31 32 33 34 A A A A 41 42 43 44 A = -1 2 1 A = -1 1 2 1 A = 1 -1 1 11 12 13 1 3 -1 =-20 2 3 -1 =+1 2 1 -1 = 12 2 2 2 1 2 2 1 2 2 A = -1 1 -1 2 A = 0 0 0 A = 1 0 0 14 21 22 2 1 3 = -3 1 3 1 = 0 2 3 -1 = +8 1 2 2 2 -2 2 1 2 2 A = 1 0 0 A = 1 0 0 A = 0 0 0 23 24 31 2 1 -1 = -4 2 1 3 = +4 -1 2 1 = 0 1 2 2 1 2 2 2 2 2 A = 1 0 0 A = 1 0 0 A = 1 0 0 32 33 34 1 2 1 = -2 1 2 1 = -2 1 -1 +1 = +6 1 2 2 1 2 2 1 2 2 A = 0 0 0 A = 1 0 0 A = 1 0 0 41 42 43 -1 2 1 = 0 1 2 1 = -5 1 -1 1 = 0 1 3 1 2 3 -1 2 1 -1 A = 1 0 0 44 1 -1 2 = -5 2 1 3 -20 1 12 -3 T -20 0 0 0 A* = 0 8 -4 -4 = 1 8 -2 -5 0 -2 -4 6 12 -4 -4 0 0 -5 0 -5 -3 -4 6 -5 -20 0 0 0 \ A-1 = -1 1 8 -2 -5 20 12 -4 -4 0 -3 -4 6 -5 NOUN 76MAT 121 LINEAR ALGEBRA 4.0 CONCLUSION In this unit, you have studied how to compute the inverse of a matrix using the determinant method.
+You have extended the determinant method to adjoint method.
+In other words, you have studied how to find the inverse of a general n x n square matrix by the method of adjoint.
+You have also studied how to find the inverse by the method of elementary row operations.
+All these methods will form the necessary tool to solve a system of n equation in n unknown simultaneously, which will be the subject of study in the next unit.
+5.0 SUMMARY In this unit, you have studied how to (a) Compute the inverse of a square matrix by the method of elementary row operations (b) Compute the inverse of a square matrix by the determinant method.
+(c) How to compute the inverse of a square matrix by the adjoint method.
+(d) How to identify invertible matrices i.e.
+A ≠ 0.
+6.0 EXERCISES TMAs 1.
+Find the inverse of the following 2 x 2 matrices (i) A = 1 2 (ii) B = 3 -8 3 5 7 8 For question (2) and (3) 2.
+Find the inverse of the following matrices by method of elementary row operations.
+A= 1 2 1 1 3 4 1 5 1 3.
+A = 1 0 2 2 -1 3 4 1 8 Find the inverse of the matrices in question 4 and 5 by the adjoint method.
+NOUN 77MAT 121 LINEAR ALGEBRA 4.
+A = 3 4 5 2 -1 8 5 -2 7 5.
+A= 3 1 1 2 0 1 2 2 4 UNIT 2 ROW ECHELON FORM AND SYSTEMS OF EQUATIONS.
+Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Basic Definitions 3.2 Transcribing systems into matrix form NOUN 78MAT 121 LINEAR ALGEBRA 3.3 Solving systems by row reduced echelon form 4.0 Conclusion 5.0 Summary 6.0 Exercises TMAs 1.0 INTRODUCTION In this unit, you shall apply theory and properties of matrices you have studied in the previous units.
+The main focus here is to solve systems of linear equation using matrix.
+Interestingly all systems of linear equation can be transcribed into a matrix form.
+After which appropriate elementary row or column operation is used to obtain the solution of the system of linear equation.
+Basically, all systems can be transcribed into matrix form as follows A x = b where A is n x m matrix and X is m x 1 matrix and b is n x 1 matrix.
+2.0 OBJECTIVES After studying this unit you should be able to correctly (i) Define a row reduced echelon form of a matrix (ii) To transcribe system of linear equations into matrix form.
+(iii) To solve systems of linear equations by echelon form or Guass Jordan elimination.
+3.1 BASIC DEFINITION In this unit you will study how to use elementary row operation used in section 3.2 of previous section to solve systems of linear equations.
+However the following definitions will be needed.
+Definition: A matrix is said to be in row echelon form if (i) The first non-zero elementary in each row is 1.
+(ii) If row k does not consist entirely of zeros, the number of leading zero entries in row k + 1 is greater than the number of leading zero entries in row k. (iii) If there are rows whose entries are all zero, they are below the row having non-zero entries.
+You shall now consider some examples of matrices that are in row echelon form.
+NOUN 79MAT 121 LINEAR ALGEBRA 1.
+1 3 2 2.
+1 5 4 A = 1 4 B = 6 0 1 0 0 1 0 0 0 1 4 1 0 C = 6 0 1 4 0 0 0 0 A counter example of matrices that are not in row echelon form is given below as; A1 = 2 6 4 B1 = 0 0 0 C1 = 0 1 0 5 3 0 0 1 1 0 0 0 6 Matrix Al did not satisfy condition (i) above.
+Matrix B' did not satisfy condition (iii) above.
+While matrix C1 did not satisfy condition (ii).
+Definition: Elementary Row Operation include (i) Interchanging of two rows (ii) Multiplying a row by a non-zero real number (iii) Adding a multiple of one row to another row.
+Definition: Two systems of linear equations involving the same variables are said to be equivalent if they have the same solution set.
+What the above definition implies is that if you interchange the order in which two equation of a system are written it will not have effect on the solution set.
+The re-ordered system will be equivalent to the original system.
+Example: x+2y=2 4x+y=6 3x-y=4 and 3x-y=4 4x+y=6 x+2y=2 have the same solution set.
+Also if one of the equations in the above example is multiplied through by a non-zero constant, this will not have any effect on the solution set, however the new system will be equivalent to the old system.
+Example: x+y+2= 1 and 3x+3y+3z=3 NOUN 80MAT 121 LINEAR ALGEBRA -3x-4y+2z=8 -3x-4y+2z=8 are equivalent.
+Lastly if a multiple of one equation is added to another equation, the new system will be equivalent to the original system.
+Example: x + 2y + 32 = 4 x - 2y- z = 1 And 3x-2y+z=6 where x + 2y + 32 = 4 are equivalent.
+(2x -4y -2z) + (x + 2y +3z) = 4+2.1 = 3x -2y + 2 = 6 The 3 operations described above for systems of linear equations are equivalent to the 3 operations described in the definition above.
+Definition: An n x n system is said to be in a triangular form if there is the i`h equation.
+The coefficients of the first i-' variables are all zero and the coefficient of x; is non-zero (i-1, ..., n).
+Example: The system 4x+2y+z=8 (i) 3y - 8 = -4 (ii) 2z = 4 (iii) is in a triangular form.
+Because of the triangular form of the system you can easily solve it.
+For example z = 2, substituting in equal (ii) you obtain 3y-2= 1 => y= 1.
+Substituting values of z and y into equation (1) you obtain 4x + 2.1 + 2 = 8.
+=> x=1.
+Thus the solution set is given as (1,1,2).
+The 3 operations described above can reduce any n x n system of linear equation into a triangular form.
+3.2 TRANSCRIBING A SYSTEM INTO A MATRIX FORM Example: Let 3 x 3 system of linear equation be given as x + 2y + 2 = -2 3x – y -3z = 3 2x + 3y + 2 = 4 You can easily associate a 3 x 3 matrix whose entries are the coefficients of the (x, y, z).
+NOUN 81MAT 121 LINEAR ALGEBRA A= 1 2 1 3 -1 -3 2 3 1 The above matrix is called the coefficient matrix of the system of linear equation.
+If you attach to the coefficient matrix an additional column whose entries are the numbers on the right hand side of the system, you obtain a new matrix.
+B = 1 2 1 -2 3 -1 -3 3 2 3 1 4 The above matrix B is called the augmented matrix of the system.
+Definition: The process of using the 3 elementary row operations to transform a system of linear equations into one whose augmented matrix is in row echelon form is called Guassian elimination method.
+Remark: In unit 6 section 3.2.2 the inverse of 3 x 3 square matrix was obtained by the method of Guassian elimination.. (You could refer to it).
+Definition: A matrix is said to e in reduced row echelon form if: (i) The matrix is in row echelon for (ii) The first non-zero entry in each row is the only non-zero entry in its column.
+Example: The following are matrices in reduced echelon form.
+1 0 1 0 0 0 3 0 1 2 0 1 2 0 1 0 1 0 1 0 0 2 0 0 1 1 0 0 1 3 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 3.3 SOLVING SYSTEMS BY ROW REDUCED ECHELON FORM Example: Solve the system by echelon form or Guass Jordan elimination method.
+x + 2y - 3z = 3 2x – y – z = 11 NOUN 82MAT 121 LINEAR ALGEBRA 3x + 2y + 2 = -5 Solution: Transcribe the system in matrix form that is; 1 2 -3 x = 3 2 -1 -1 y 11 3 2 1 z -5 The augmented matrix is given as 1 2 -3 3 2 -1 -1 11 3 2 1 -5 Subtract 2 times the 1st row from the second row and also subtract 3 times the lst row from the 3rd row to give you a new matrix of this form.
+l 2 -3 3 0 5 5 5 0 -4 10 -14 Divide 2nd row by -5 to get a new matrix of the form 1 2 -3 3 0 1 -1 -1 0 -4 10 -14 Add 4 times 2d row to 3rd row to get a new matrix of this form 1 2 -3 3 0 1 -1 -1 0 0 6 -18 Observe that through the elementary row operation you have reduced the coefficient matrix to a triangular matrix.
+Now divide 3rd by 6 you get a new matrix of the form NOUN 83MAT 121 LINEAR ALGEBRA 1 2 -3 3 0 1 -1 -1 0 0 1 3 Adding 2nd row and 3rd row you get a new matrix of the form 1 2 -3 3 0 1 -1 -4 0 0 1 -3 Add 1st row to 3-times 3rd rows you get 1 1 2 0 -6 0 1 0 -4 0 0 1 -3 Add 1 s` row to -2 times 2nd row you get 0 1 0 2 0 1 0 -4 0 0 1 -3 The above matrix is a reduced row echelon form.
+Finally, rewrite the newest equation in the form of the original one you get 1 0 0 x 2 0 1 0 y = -4 0 0 1 z -3 => x=2, y=-4 and z=-3.
+\ The solution set is given as (2, -4, -3).
+The above process of solving the system of linear equation is also known as Guass Jordan reduction method.
+Example: Solve by echelon form the following system of equation.
+x - 4y-2z = 21 2x + y +2z =3 3x + 2y –z = 2 Solution: Transcribe into matrix form you get 1 -4 -2 x 21 2 1 2 y = 3 3 2 -1 z 2 NOUN 84MAT 121 LINEAR ALGEBRA Next write the above as an augmented matrix you get 1 -4 -2 21 2 1 2 3 3 2 -1 2 Subtract 2 x 1 S` row from 2nd row after which you subtract 3 x 1 s` row from 3rd row and you get a new matrix of this form.
+1 -4 -2 21 0 9 6 -39 0 14 5 -65 Next subtract 14 times the 2nd row from the 3rd row.
+l.e.
+9 -14 (0 9 6 -39) + ( 0 14 5 -65) 9 = (0 -14 -28, 14 x 39) + (0 14 5 -65) 3 9 = (0 0 -13, -13) 4 4 The new matrix is given as 1 -4 -2 21 0 9 6 -39 0 0 -13/3 -13/3 Multiply -3/13 by 3rd row you get new matrix to be 1 4 2 21 0 1 6/9 -39/9 0 0 1 1 Add -6/9 times 3rd row to 2nd row you get new matrix as 1 -4 -2 21 0 1 0 -5 0 0 1 1 Add - 4times 2nd row to lst row you get 1 0 -2 1 0 1 0 -5 NOUN 85MAT 121 LINEAR ALGEBRA 0 0 1 1 Add 2 times 3rd row to 1 s` row you get a new matrix given as 1 0 0 3 0 1 0 -5 0 0 1 1 Write the above in the original form you get 1 0 0 x 3 0 1 0 y = -5 0 0 1 z 1 Therefore x = 3, y = -5 and z = 1 Solution set is (3, -5, 1).
+EXERCISES Transcribe the following system of linear equation into augmented matrix form 1) 3x1 + 2x2 + 3x3 + x4 = 5 4x2 + 8x3 + 2x4 = -1 2x1 + 3x2 + 3x4 = 2 2x3 - x4 = -2 2) 4x1 + x3 = -6 2x1 + 3x2 + 3x3 = 1 4x2 - x3 = 2 Ans.
+1.
+3 2 3 1 5 2.
+4 0 1 -6 0 4 8 2 -1 2 3 3 1 0 0 2 -1 -2 0 4 -1 2 3) Determine which of the following matrices are in row echelon form (i) 1 0 2 1 (ii) 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 1 0 (iii) 0 0 1 (iv) 2 4 7 NOUN 86MAT 121 LINEAR ALGEBRA 0 1 0 0 2 8 1 0 0 0 0 4 Ans.
+(i) Yes (ii) No (iii) No (iv) No Solve the following by row echelon form 4) X + 2y + z = 4 3x - 4y - 2z = 2 5x + 3y + 5z = -1 Ans.
+(2, 3,-4) 5) x - 2y = 5 3x + y = 1 Ans.
+(1, -2) 6) 2x + y + 3z = 1 4x + 3y + 5z = 1 6x + 5y + 5z = -3 Ans.
+(-3, 1, 2) 7) 5x – lly =3 4x - 9y = 2 Ans.
+(5, 2) 8) 2x - y + 3z = 1 4x + 3y +5z = 1 6x + 5y + 5z = 2 Ans.
+(3/4, -1/4, -1/4) 9) 3x – y + 3z = 1 5x + 4y + z = 2 -4x + y + 32 = 2 Ans.
+(-2/3, -2⅓, 3⅓) 10) 2x + y + z - w =2 x -2y + 2z – w = 1 2x + 2y - 2z + 3w = -2 2x + y + z – w = 7 Ans.
+(5, -2½, -8½, -8) NOUN 87MAT 121 LINEAR ALGEBRA 4.0 CONCLUSION You have studied that an n x n linear system can be reduced to a triangular form and by appropriate elementary row operation a unique solution can be obtained by performing back substitution on the triangular system.
+However such a triangular system can further be reduced to a row echelon form having an augmented matrix of the form (I B ) where I is the n x n identity matrix n n and B is the solution matrix of n x 1 order.
+The Guass-Jordian elimination method described in this unit is just one of the methods of using properties of a matrix to solve a n x n linear system.
+In this next unit you will be introduced to two other methods.
+5.0 SUMMARY In this unit you have studied how to; (i) Determine whether a matrix is in a reduced row echelon form.
+(ii) Transcribe an n x n system of linear equations into augmented matrix form.
+(iii) To reduce an n x n linear system to a triangular system by application of elementary row operation.
+(iv) To reduce an n x n system of linear equations to row echelon form (v) To solve an n x n system of linear equations by the echelon form or Guass- Jordan elimination method.
+6.0 EXERCISES TMAs 1.
+Determine which of the following is in row echelon form.
+(i) 1 2 0 0 0 (ii) 4 3 10 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 (iii) 0 0 0 1 0 0 0 0 2 Solve the following by row echelon form NOUN 88MAT 121 LINEAR ALGEBRA 2. x + 2y = 1 3x +1 = 2 3. x + y = 1 -2x + 3y = 3 4.
+6x -2y =5 4x - 3y = 1 5.
+2x + y – 2 =1 3x + 3y - 5z = 1 6x + 5y - 2 = -3 UNIT 3 DETERMINANT AND SYSTEMS OF EQUATIONS Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Solving n x n system by direct matrix inversion 3.2 Solving n x n systems by determinant method 4.0 Conclusion 5.0 Summary 6.0 Exercise TMAs 7.0 Further Reading NOUN 89MAT 121 LINEAR ALGEBRA 1.0 INTRODUCTION This unit continues where unit 7 stopped in respect of using properties of matrix in solving n x n system of linear equation.
+The intention in this course is to present various methods of solving n x n linear systems using properties of matrices.
+So that with little effort on your side and with known software packages suggested at the end of this course you will be able to solve any type of n x n system of linear equations.
+In this unit, you shall be introduced to two additional methods of solving n x n systems of linear equations.
+(Refer to introduction of unit 7).
+2.0 OBJECTIVES After studying this unit, you should be able to correctly (i) Solve n x n system of linear equation by matrix inversion (ii) Solve n x n systems of linear equation by adjoint method (iii) Solve n x n system of linear equation by Cramer's rule 3.1 SOLVING n x n SYSTEM BY MATRIX INVERSION In this unit you shall be able to use theory of matrices to solve n x n system of linear equations.
+However it is of interest to know whether an n x n system has a unique solution.
+In the previous units you studied that an n x n matrix whose determinant is zero is not invertible.
+From this you can conclude that an n x n system of linear equations in this forms A x = b has a unique solution if the matrix A is non-singular.
+Consider the following linear system given as a x + a x + .
+.
+.
++ a x = b l1 1 12 2 in n l a x + a x + ... + a x = b 21 1 22 2 2n n 2 (A) NOUN 90MAT 121 LINEAR ALGEBRA a x + a x + ... + a x = b n1 1 n2 2 nn n n If the system (A) above has a solution then it is said to be consistent otherwise it is said to be inconsistent.
+A solution of a system of linear equations where all the X are zero is called a zero solution or trivial solution, i whereas a solution whereby not all the X are zero is called nonzero or non- i trivial solution.
+Using the matrix the above system (A) can be transcribed into this form AX = b where a a , .
+.
+.
+a ll l2 in A = a a .
+.
+.
+a 2l 22 2n the coefficient matrix a a .
+.
+.
+a n1 n2 nn x and b = b l l X = X b where X is the variable matrix and b is 2 2 the constant term matrix X b n n The above system will have a unique solution if A ≠ 0.
+Recall that you have studied equivalent systems in the previous unit.
+Also recall that a system is said to be homogeneous if A X = 0 that is all the elements of the matrix of constant term are zero, otherwise it is non-homogeneous i.e.
+AX=b ≠ 0.
+Generally, a solution of an n x n non-homogeneous system of linear equations AX = b is obtained by adding the general solution of the homogeneous system AX = 0 to a particular solution of a non-homogeneous system AX = b.
+The following list of useful properties of the inverse will be given (See unit 6).
+(i) The inverse of a non- singular matrix is unique i.e.
+there is only one matrix B for which AB = BA = I.
+(ii) If there are two n x n matrices A and B such that AB = I then A and B are non-singular, A-l = B, B-l = A, and AB = I.
+In view of the above if A is a non-singular matrix i.e.
+A ≠0 and AX = b then the solution given as X = A-lb is a unique solution of the system AX =b.
+You shall easily see that once we can determine the inverse of A the solution of the AX = b is easy to calculate.
+NOUN 91MAT 121 LINEAR ALGEBRA Example: Solve the following system of equation.
+l. 2x + 3y-1=3 2x + 4y + 2z =-1 -2x -2y +3z = 1 Solution: Transcribe using matrix solution, you obtain 2 3 -1 x 3 2 4 2 y = -1 -2 -2 3 z 4 X=A-1b -8 3.5 -5 A-1 = 5 -2 3 2 1 -1 x = -8 3.5 -5 3 -47½ X = y 5 -2 3 -1 = 29 z -2 1 -1 4 -11 Example: Solve the following system of equation 3x + y + z = 1 2x + z = 1 2x + 2y 4z = 1 Solution: In matrix notation, you get 3 1 1 x 1 2 0 1 y = 1 2 2 4 z 1 (cid:222) A X = b Where 3 1 1 A = 2 0 1 2 2 4 NOUN 92MAT 121 LINEAR ALGEBRA A-1 = x = 1 -2 -2 1 1 = -⅛ ( -3, 3, -2) y 8 -6 10 -1 1 z 4 -4 -2 1 = (⅜, -⅜, ¼) EXERCISE Solve the following systems by direct matrix inversion.
+l. 2x + y + 2 = 6 x + 2y + z = -5 2x + 2y + 2z = -2 Ans.
+= ⅓(25, -8, -24) 2.
+2x - 4y-2z =2 3x -3y + 2z =-5 x- y+ z =-6 Ans.
+(26, 19, -13) 3. x + z = 3 3x + 3y + 4z =-1 2x + 2y +3z =-2 4.
+Solve AX = b of question 1 to 3 for the following choices of b respectively.
+(i) b = (-2, -l, 2)T (ii) b = (1 - 2, -4)T (iii) b = (6, 5, -1)T 3.2 SOLVING n x n SYSTEMS BY DETERMINANT METHOD.
+In this section you will use the method of computing the inverse of a nonsingular matrix A by adjoint method to solve the system AX = b.
+You will also learn a method for solving AX = b using the Cramer's rule.
+Both methods use the determinant of the matrix A.
+You will need the concepts you studied in section 3.3 of unit 6.
+It is advisable that you read section 3.3 of unit 6 before you study this section.
+The concept you will use here is the same with the one used in the previous section.
+That is in order to solve AX = b you look for a nonsingular matrix A-1 such that AA-1 = I – and X = A-1 b.
+The various process or method of computing A-1 is what you have studied in unit 6.
+For example you can use the adjoint method to find A-1.
+NOUN 93MAT 121 LINEAR ALGEBRA i.e.
+A-1 = adj(A) = A* A A Therefore X = A-1b = A* b A Example: Solve the following system of linear equations.
+2x + 3y + z = 9 x + 2y + 3z =6 3x + y + 2z =8 Solution: In matrix notation, you have Thus A = 2 3 1 1 2 3 3 1 2 You are now set to find A-l by the adjoint method.
+A = 2 2 3 -3 1 3 +1 1 2 1 2 3 2 3 1 = 2(4 - 3) -3 (2 - 9) + 1 (1 - 6 ) =18 Next you find the cofactor of all the entries in matrix A. i.e.
+A = 2 3 = (-1)1+1(4 -3) = 1 ll 1 2 A = 1 3 = (1) 1 +2(2-9 )=7 12 3 2 A = 1 2 = (-1) 1+3 (1 - 6) = -5 13 3 1 A = 3 1 = (-1)2+1 (6-1) = -5 21 NOUN 94MAT 121 LINEAR ALGEBRA 1 2 A = 2 1 = (-1) 2+2(4 - 3) = 1 22 3 2 A = 2 3 = (-1)2+3 (2 - 9) = 7 23 3 1 A = 3 1 = (-1)3+1 (9 – 2) = 9 31 2 3 A = 2 1 = (-1)3+2(6 -1)=-5 32 1 3 A = 2 3 =(-1)3+3 (4-3)=1 33 1 2 Let C be the matrix offactor of A given as 1 7 -5 C = -5 1 7 9 -5 1 here adj (A) = A* = CT A* = 1 -5 7 7 1 -5 -5 7 1 A-1 = 1 A* = 1 1 -5 7 A 18 7 1 -5 -5 7 1 therefore x 1 1 -5 7 9 X = y 18 7 1 -5 6 z -5 7 1 8 = 1 9-30 + 56 1 35 18 63 + 6 -40 = 18 29 -45 + 42 +8 5 NOUN 95MAT 121 LINEAR ALGEBRA x 35/10 y = 9/18 z 5/18 EXERCISE Solve the following equation 1. x + 2y + z = 3 3x – y - 3z = -1 2x + 3y + z = 4 2. y- z + w = 3 2x- y + z + w = 6 2x + 4y + z -2w = -2 3x + y + z + w = 2 Ans: (1) ( 3, -2, 4) (2) ( 2.5, -1, -1, 1) 3.3.2 SOLVING n x n SYSTEM OF LINEAR EQUATION BY CRAMER'S RULE.
+This method is a method derived from the above adjoint method of solving linear system.
+Consider an n x n system given as a x + .
+.
+.
++ a x = b 11 1 1n n 1 a x + .
+.
+.
++ a x = b 21 1 2n n 2 a x +.
+.
+.
++ a x = b n1 1 nn n n Cramer's Rule: Let A be the coefficient matrix A of the above system (*), which is non-singular and let, b be n x 1 column matrix representing the constant term.
+Let Ai be the matrix obtained by replacing the ith column of A by b.
+If x is the unique solution to system (*) (i.e.
+AX = b) then Xi = det (Ai) = Ai , i = l, 2, ... n det (A) A The proof of the above rule will clearly demonstrate the relationship between it and the adjoint method.
+Proof of the Cramer's Rule: Given that AX = b and A ≠ 0 NOUN 96MAT 121 LINEAR ALGEBRA then X = A-1b But A-1 = adj (A) = 1 A * b (cid:247) A(cid:247) (cid:247) A(cid:247) thus X =A* b (cid:247) A(cid:247) .
+It follows that Xi = b A + b A + ... + b A , i 1, 2, .
+.
+.
+.
+, n. 1 1i 2 2i n ni (cid:247) A(cid:247) = (cid:247) A (cid:247) _ (cid:247) A(cid:247) Example: Use Cramer's rule to solve 4x -2y = 6 -3x + 4y =-2 Solution: In matrix notation you have 4 -2 x = 6 -3 4 y -2 (cid:222) A X = b (cid:247) A (cid:247) = 4 -2 = 16 – 6 = 10 -3 4 (cid:247) A (cid:247) = 6 -2 =24 – 4 = 20 1 -2 4 (cid:247) A (cid:247) = 4 6 = -8 + 18 =10 2 -3 -2 \ x = 20 y= 10 10 10 x =2, y=1 NOUN 97MAT 121 LINEAR ALGEBRA Example: Solve the following systems by Cramer's rule.
+1. x + 2y -3z = 1 3x -2y + 2z=0 2x + 3y - z=1 2. x + y =1 x + y – z =3 2x + y + z + 3 w = 2 x + 2y + 2y + 2w = 1 3.
+2x + 3y – z =1 x + 2y –z =3 -x – y + 3z = -2 Solution: (1) In matrix notation you have 1 2 -3 x 1 3 -2 2 y = 0 2 3 -1 z 1 (cid:247) A(cid:247) = 1 2 -3 3 -2 2 = -29 2 3 -1 (cid:247) A (cid:247) = 1 2 -3 1 0 -2 2 = -6 1 3 -1 (cid:247) A (cid:247) = 1 1 -3 2 3 0 2 = -4 2 1 -1 (cid:247) A (cid:247) = 1 2 1 3 3 -2 0 = 5 2 3 1 x = (cid:247) A (cid:247) = -6_ = _6_ l (cid:247) A (cid:247) -29 29 y = (cid:247) A (cid:247) = -4_ = _4_ 2 (cid:247) A (cid:247) -29 29 NOUN 98MAT 121 LINEAR ALGEBRA z = (cid:247) A (cid:247) = _5_ = _-5_ 3 (cid:247) A (cid:247) -29 29 2.
+In matrix notation you have 1 1 0 0 x 1 1 1 -1 0 y = 3 2 1 1 3 z 2 1 2 2 2 w 1 hence 1 1 0 0 (cid:247) A(cid:247) =1 1 -1 0 = -5 2 1 1 3 1 2 2 2 1 1 0 0 (cid:247) A (cid:247) = 3 1 -1 0 = 3 1 2 1 1 3 1 2 2 2 1 1 0 0 (cid:247) A (cid:247) = 1 3 1 0 2 2 2 1 3 = -8 1 1 2 2 1 1 1 0 (cid:247) A (cid:247) = 1 1 3 0 = -10 3 2 1 2 3 1 2 1 2 1 1 0 1 (cid:247) A (cid:247) = 1 1 1 3 = -6 4 2 1 1 2 1 2 2 1 .. x = (cid:247) A (cid:247) = _3_ y = (cid:247) A (cid:247) = - 8_ z = (cid:247) A (cid:247) = 10_ 1 2 3 (cid:247) A(cid:247) - 5 (cid:247) A(cid:247) -5 (cid:247) A(cid:247) -5 w= (cid:247) A (cid:247) = -6_ => (x, y, z, w) -1_ (3, -8, 10, -6) 4 (cid:247) A (cid:247) -5 -5 NOUN 99MAT 121 LINEAR ALGEBRA Quick Exercise Use b = (1, 12, 1, 4)T to solve the above.
+Ans (x, y, z, w) = (6, 5, -1, -5).
+3.
+In matrix notation youhave 2 3 -1 x 0 1 2 -1 y = 0 -1 -1 3 z 1 2 3 -1 (cid:247) A(cid:247) = 1 2 -1 = 3 -1 -1 3 .
+0 3 -1 2 0 -1 (cid:247) A (cid:247) = 0 2 -1 =-1 (cid:247) A (cid:247) = 1 0 -1 = 1 1 2 1 -1 3 -1 1 3 2 3 0 (cid:247) A (cid:247) = 1 2 0 = 1 3 -1 -1 1 x = (cid:247) A (cid:247) = -1_ y = (cid:247) A (cid:247) = 1_ , z = (cid:247) A (cid:247) = _1_ 1 2 3 (cid:247) A(cid:247) 3 (cid:247) A(cid:247) 3 (cid:247) A(cid:247) 3 (x, y, z) = ⅓ (-1, 1, 1).
+Exercises Solve Ax = b in examples (1) and (3) above for the following values of b.
+(i) b = ( 1 1 0)T (ii) b = ( 2, 4, 8)T (iii) b = (-3, 3, -6)T (iv) b = ( 5,3,-6)T Ans 1(i) 1/29 (11, -12, -14) 1 (ii) 1/-29 (-52, -54, -34) 1(iii) -1/29 (3, 60, -12) 1(iv) = (1, -4, -4) 3(i) ( -1, 1, 0) 3 (ii) ( -10, 8, 2) NOUN 100MAT 121 LINEAR ALGEBRA 3 (iii) ( -11, 5, -4) 3(iv) 1/3( 7, -1 - 4) 4.0 CONCLUSION In this unit, you have studied how to find the solution to an n x n system of linear equations.
+You studied how to find the solution of system AX = b when (cid:247) A(cid:247) ≠ 0 and A-1 is known.
+The solution arrived at is a unique solution because of the simple fact that A-1 is unique.
+Once a system AX = b is given and AA-1 exists.
+Any method can be used to compute elements of A-1 and the solution can be computed by direct matrix multiplication i.e.
+X = A-1b.
+You studied the Cramer's rule of solving any n x n system.
+Although Cramer's rule gives a very convenient method for arriving at the solution of an n x n system of linear equation in terms of determinants.
+To arrive at the final solution you must be ready to compute n + 1 determinants of order n. As you can see evaluating these numbers of determinants can sometimes be more involving than using the Guass - Jordan reduction or elimination method studied in the previous unit.
+5.0 SUMMARY You have studied in this unit how to; (i) Solve an n x n system of linear equation of the type AX = b using the inverse of A i. e X = A-1 b.
+(ii) Solve an n x n system of linear equations AX = b using adjoint method of computing the inverse of an n x n matrix.
+(iii) To use Cramer's rule to find the solution of an n x n system of linear equation.
+6.0 EXERCISES (TMAs) 1.
+Given that 3x + 2x = -17 1 2 4x + 3x = -15 1 2 Where A = 3 2 and A-1 = 3 -4 4 3 -2 3 b = -17 -15 and by direct inverse method find A-lb NOUN 101MAT 121 LINEAR ALGEBRA 2.
+Given the system X +X + X =0 2 3 4 3x +x - 4x =7 1 3 4 X +X +X +2X =6 1 2 3 4 2x +3x +x +3x =6 1 2 3 4 Where the inverse A-1 of the coefficient matrix is given by A-1 = 11/16 -1/8 -1/2 -1/16 ½ 0 1 -1/2 -13/16 -1/8 -1/2 -7/16 5/16 1/8 -1/2 1/16 Solve for x, x , x l 2 3 3.
+Given 2x - 3x + x = -7 1 2 3 x + 4x - 2x = 15 l 2 3 3x - x + 5x = -14 1 2 3 Let the coefficient matrix in terms of x 1, x2, and x3 be given as B = 2 -3 1 1 4 -2 where the inverse 3 -1 5 B-1 = 0.32 0.25 0.036 -.196 0.125 0.0893 -.232 -0.125 0.196 4.
+Let the system of equations- x - 3x + 4x = 7 l 2 3 3x - 4x + x =7 1 2 3 2x + 7x - 4x = 2 have coefficient matrix.
+1 2 3 1 -3 4 0.0108 .193 .157 -3 -4 1 A-1 = .168 -.145 -.133 2 7 -4 .349 -.1566 .0602 NOUN 102MAT 121 LINEAR ALGEBRA x 7 l X = -x and b = 7 2 x 2 3 5.
+If Ax = b where 2 3 -2 4 A = 3 5 -4 and b = 10 1 2 -3 9 7 -5 2 A-1 = -5 4 -2 Find A-1b -1 1 -1 6.
+Given that 3x + 2x + x = 1 1 2 3 x - x +3x =5 l 2 3 2x + 5x - 2x = 0 1 2 3 Where 3 2 1 A = 1 -1 3 2 5 -2 0.8125 -.563 -.4375 A-1 = -.5 .5 .5 -.4375 .075 .3125 1 Find A-1b where b = 5 0 7.
+By adjoint method solve for x, x , x in the following of linear l 2 3 equations.
+x - 3x - 2x = 8 l 2 3 2x +2x +x =4 1 2 3 3x - 4x + 2x = -3 1 2 3 7.
+Apply Cramer's rule to sol x -3x + 2x = 8 l 2 3 2x - x + x = 9 1 2 3 NOUN 103MAT 121 LINEAR ALGEBRA 3x + 2x + 3x = 5 1 2 3 9.
+Solve by Cramer's rule 3x + 2x = -17 1 2 4x + 3x = -15 1 2 10.
+Let the coefficient matrix in terms of x, x , and x be given as l 2 3 1 -3 4 7 3 4 1 b = 7 , x 1 2 7 4 2 X = x 2 x 3 Solve by Cramer's rule.
+11.
+Solve by Cramer's rule the system 3x +7x = 11 1 2 2x +5x + x =6 1 2 3 2x + 4x = 7 2 3 12.
+Solve y Cramer's rule 2x -x +5x =1 1 2 3 2x -3x = 4 1 3 6x -2x + x = 8 1 2 3 UNIT 4 TRANSFORMATION OF THE PLANE Table of Contents 1.0 Introduction 2.0 Objectives 3.1 Translation 3.2 Linear transformation 3.3 Properties of transformation NOUN 104MAT 121 LINEAR ALGEBRA 3.4 Further transformation 4.0 Conclusion 5.0 Summary 6.0 Exercises TMAs 1.0 INTRODUCTION A transformation is a change in the position, size, or shape of a geometric figure (such as a square or triangle).
+The main transformations are translation, reflection, rotation, and enlargement.
+Other types of transformations are stretching and shearing.
+In this unit, you will study 3 types of transformation.
+You will use the properties of matrices studied in the previous units to perform transformation of a plane into itself.
+A transformation can be seen as a mapping or function.
+In this unit, you shall use the word mapping and transformation interchangeably.
+You shall use the letter T to denote transformation or mapping.
+For example, a transformation from 2 - dimensional plane R2 to itself will be denoted by T: R2 ﬁ R2.
+The transformations that will be considered here will all be the linear type.
+Linear transformation or mapping from one plane to another plane plays an important role in mathematics.
+This unit will provide you with an introduction to the theory and properties of such mappings.
+In section 3.2, it is shown that each linear transformation T mapping a 2 dimensional plane R2 into itself can be represented by a 2 x 2 matrix A.
+Thus you can conveniently work with the matrix A in place of the mapping T. Any point in a 2 dimensional plane R2 is determined by its two coordinates i. e. by an ordered pair of two real numbers (x, y).
+You denote the position vector of a general point (x, y) in the plane by a 2 x 1 column matrix or vector V = x y Definition: A transformation (or mapping) T on the plane associates to every point in the plane a unique image point in the plane.
+The image of any point under T is represented by T (v).
+In R2 we consider such plane consisting of the rectangular Cartesian coordinates with i= 1 and j = 0 0 1 (i and j are known as unit vectors in R2) with the point 0 = 0 as the origin .
+0 NOUN 105MAT 121 LINEAR ALGEBRA Then a typical point a = x in the x - y plane i.e.
+R2 is given as y a = x 1 + y 0 =x + y i 0 1 2.0 OBJECTIVES After studying the unit you should be able to correctly (i) Define a linear transformation (ii) Define 3 types of transformations namely (a) translation (b) reflection and (c) rotation.
+(iii) Determine invariant points or lines of a transformation.
+(iv) Construct the matrix of transformation (v) Combine transformations.
+3.1 TRANSLATION Definition: A translation is a transformation of the plane to itself in which all points in the plane move by a fixed vector.
+Example: if x is any point in the plane R2 and a is a fixed vector, then y b the translation T can be expressed as T: x = x + a y y b or T: x x + a y ﬁ y b Example: The graph of the function y = f(x) + 2 or y – 2 = f(x) Can be obtained by a translation of the graph of y = f (x) by 2 units parallel to the y - axis.
+Example: The graph of the function y = f (x - 1) can be obtained by a translation of the graph y = f (x) by 1 unit parallel to the x - axis.
+NOUN 106MAT 121 LINEAR ALGEBRA Example: In general the graph of the function (y - a) = (x - b) can be obtained by translations of the graph of y = f (x) by a units parallel to the y - axis and by b units parallel to the x - axis.
+Example: Describe the graph of (y + 3) = f (x - 2) in terms of the graph y = f (x).
+Solution: The graph ( y + 3 ) = f (x - 2) is the graph of y = f (x) shifted 3 units upwards and 2 units to the right.
+Example: Given y = f (x) describe the translation needed to obtain the graph of (y-4)=f(x+3).
+Solution: The graph y - 4 = f (x + 3 ) is the graph of y = f (x) shifted 4 units upwards and 3 units to the left.
+Example: Given the graph x2 + y2 = r2 describe the translation needed to obtain the graph of x2 + y2 - 36x - 14y + 117 = 0 Solution x2 + y2-36x-14y +32 = (x-18)2 + (y-7)2-182-72 + 32 = 0 (cid:222) (x - 18)2 + (y - 7)2 = 182 +72 - 117.
+(x -18)2 + (y - 7)2 = 256 (cid:222) (x - 78)2 + (y - 7)2 = 162 The translation needed is the graph of x2 + y2 = 162 shifted 18 units to the right and 7 units upwards.
+Exercises Given the graph f (x), describe the translation needed to obtain the following graphs; (i) f(x -2 ) = y-4 (ii) f(-x + 2) = f(-lx - 2) (iii) f(x + 5) = y + 8 (iv) f(x - 6) = y - 7.
+Example: Given the graph x 2 + y 2 = 1 a2 b2 Describe the translations needed to obtain the graph 2x2 + 4x + 8y2 - 16y =30 2x2 + 4x + 8y2 - 16y = 30 2(x2 + 2x) + 8(y2 - 2y) = 30 2(x + 1)2 + 8(y- 1)2 = 32 (x + 1) 2 + (y - 1) 2 = 1 16 4 NOUN 107MAT 121 LINEAR ALGEBRA a = 4 b = 2 This is the graph of x 2 + y 2 = 1 shifted 1 unit to the left and 1 unit 16 4 upward.
+Exercise Given the graph of x 2 – y 2 a2 b2 Describe the translation needed to obtain the graph of 4x2- y2 + 4y + 8x = 16 3.2 LINEAR TRANSFORMATION Definition: A transformation T from a plane to itself is said to be linear if the following properties are satisfied.
+(i) For any point V and a in the plane T(u + v) = T(v)+T(u) (ii) For any number a and a point v in the plane T (a v) = a T(v).
+If T is a linear transformation from the plane to itself it follows from (i) & (ii) above that if a and v are point in the plane and - and 0 are real numbers T (a u + β v) = T (a u) + T (β v) = a T (u) + βT (v) Example: Let T be the operator defined by T(x) = 2x for each x ER2 Since T (a x) = 2(a x) = a (2x) = a T(x) and T(x + y ) = 2 (x + y) = (2x) + (2y) = Tx + Ty.
+It follows that T is a linear transformation.
+You can think of T defined above as stretching by a factor of 2.
+(see fig9.1) T (x) = 2x x NOUN 108MAT 121 LINEAR ALGEBRA Example: Consider the transformation T defined by T(x) = x 1 for each xER2.
+1 0 Thus if x = (x , x ) then 1 2 T (x) = (x , 0)T if y = (y , y )T 1 1 2 Then a x + βy = a x + βy 1 1 1 a x + βy 2 2 and it follows that T(a x + βy) = (a x + βy ) 1 2 1 0 = a x 1βy 1 3 1 0 + 0 = a T (x) + βT (y) (*) This implies that T is a linear transformation on the plane.
+The matrix of a linear transformation.
+It can now be shown that a 2 x 2 matrix gives rise to a linear transformation.
+Suppose A = a b b is a general 2 x 2 matrix c d If x is column vector representing a point in the plane, then the y transformation T can be defined as T x = a b x = ax + by y c d y cx + dy Thus T takes a point in the plane to another point in the plane.
+You can easily show that T is linear.
+Let u and v be any two points in the plane.
+Let a and P NOUN 109MAT 121 LINEAR ALGEBRA be two real numbers then by he properties of matrix addition and multiplication, you have that T(a u +βv) = A(a u +βv) = A(a u) + A(β v) = a A(u) + βA(v) = a T(u) + β T(v) It has been shown that a 2 x 2 matrix is indeed a linear transformation.
+It should be noted that to define a linear transformation T from the plane to itself, it is sufficient to define it for two-unit vectors i. e. i = e = 1 and j = e = 0 1 2 0 1 This is because any point in the plane can be represented as a positive vector of that given point.
+In other words if v is the position of the point v in the plane then V = xi + yj = xe + ye = x 1 + y 0 1 2 0 1 The above satisfied the properties of a linear transformation.
+See equation Example: Let T be a transformation on the plane by T x = x verify if T is linear y 0 Solution: Since T x + x = T x + x 1 2 1 2 y x y + y l 2 l 2 = T x + T x 1 2 y y 1 2 Furthermore T a x = T a x = a x = a x = a T x y a y 0 0 y NOUN 110MAT 121 LINEAR ALGEBRA Thus properties (i) are satisfied hence T is a linear transformation.
+Example: Let T be a transformation defined as T x = x + 2 y y 3 where T 0 = 2 ≠ 0 0 3 0 Since the origin is not mapped to the origin.
+The transformation is not linear.
+Thus every linear transformation takes the point 0, the origin into the origin.
+Example: Let T be defined by T x = 3x – 4y y x + 5y Write out the transformation matrix.
+Solution: T x = T 3x + T -4y = xT 3 + yT -4 y x 5y 1 5 \ the matrix of transformation is given as 3 -4 1 5 Example: Given that the matrix of a transformation T is 1 1 1 -1 (i) Determine the image under T of the unit square Solution: The image of 1 is 0 1 1 1 = 1 1 -1 0 1 and the image of 0 is 1 1 0 = 1 1 1 -1 1 1 NOUN 111MAT 121 LINEAR ALGEBRA the image of 1 is 1 1 1 = 2 1 1 1 1 0 (see fig 9.2) Fig 9.2 Example: Find the point which is transformed onto the point 3 under 2 T = 1 -1 2 2 Solution: The point x transformed into 3 under T is given by y 1 3 = 1 -1 x 2 2 2 y (cid:222) x – y = 3 2x + 2y = 2 (cid:222) y = -1, x = 2 (cid:222) 2 is the point -1 3.3 SOME PROPERTIES OF TRANSFORMATION 3.3.1 INVARIANT POINTS AND LINES Suppose T is a linear transformation 1.
+A point in the plane, which gets mapped to itself under T, is called an invariant point or a fixed point.
+NOUN 112MAT 121 LINEAR ALGEBRA That if x is a point in the plane and T(x) = x then x is said to be an invariant point.
+Example: The origin 0 j is an invariant point under any linear 0 transformation i.e.
+T 0 = 0 0 0 Example: The identity matrix I2 is a transformation where all the points in the plane are invariant points under it.
+Let x be any vector in the plane y then I x = x y y i.e.
+I x = I x = 1 0 x = x 2 y y 0 1 y y also 1 2 x + 2 = x 3 2 y 4 y Thus the identity matrix is the matrix of the identity transformation and is a linear transformation.
+Usually, to determine whether a given transformation has an invariant point all you need is to solve the following simultaneous equations.
+ax + by + h = x and cx + dy + lc = y which is obtained from a b x + h = x c d y k y If the above equation does not have a solution you conclude that the transformation under investigation has no variant point.
+If it has a solution that solution will be a unique solution.
+If it has infinitely much solution then all points in the plane will be invariant points.
+Remark: (i) The origin is the only invariant point under a zero transformation.
+(ii) Under a translation, there is no invariant point except when NOUN 113MAT 121 LINEAR ALGEBRA x = 0 and you have the identity transformation.
+y A line 1 is an invariant line or a fixed line if PEI implies that T(P)E1 Where P is a set of points in the plane.
+Example: Determine the invariant point under the transformation T given as T x = 1 2 x + 2 y 3 2 y 4 Solution: You get T x = x y y i.e.
+1 2 x + 2 = x 3 2 y 4 y (cid:222) 1 2 x + -1 x = -1 2 3 2 y y 4 (cid:222) x + 2y – x = -2 3x + 2y-y = -4 (cid:222) y = -1 and x = -1 Therefore the point is = 1 1 3.3.2 COMBINED TRANSFORMATION The following are transformation of the plane to itself.
+(i) A translation which moves every point by a constant column vector h k (ii) A linear transformation with a 2 x 2 matrix A = a b I c d NOUN 114MAT 121 LINEAR ALGEBRA (iii) A combination of any transformation from (i) or (ii).
+Given that T and T are both linear transformations of the plane with 1 2 matrices A and A respectively and A is a constant, then 1 2 (1) Their sum T1 + T2 is a linear transformation with matrix A + A 1 2 (2) Their difference T - T is a linear transformation with matrix 1 2 A - A 1 2 (3) λ T , is a linear transformation with matrix λ A .
+1 1 Example: Given that T : x 1 2 x 1 y 3 1 y Find (i) T + T (ii) T - T 1 2 1 2 Solution: T + T : x 1 2 + 1 -1 x 1 2 y 3 1 1 1 y T + T : x 2 1 x 1 2 y 2 0 y and T – T : x 0 3 x 1 2 y 2 0 y 3.3.3 FURTHER TRANSFORMATIONS You will now study other types of transformation.
+1.
+Reflection: A reflection in a line through the origin is a transformation of the plane to itself such that the image of a point is at the same distance from the origin (the mirror line) as the given point and the line joining a point and its image perpendicular to the mirror line.
+Remark: The mirror line is a line of invariant points for all reflection i. e the mirror line is an invariant line.
+NOUN 115MAT 121 LINEAR ALGEBRA Example: Consider a reflection in the x-axis i. e the mirror line is the x - axis where y = 0.
+See fig 9.3 A B here A1, B1 and Cl are the images Of A, B and C respectively 0 C C1 A1 B1 Fig 9.3 In fig 9.3 OABC is a unit square with O as 0 A = 0 B = 1 C = 1 0 1 1 0 A A1 B B1 C C1 The matrix of transformation is given as T = 1 0 R 0 -1 Example: Consider a reflection in the y - axis (see fig 9.4) A1 A B1 B Here A1, B1 and Cl are the images Of A B C. C1 respectively where OABC is C1 0 C the unit square Fig 9.4 NOUN 116MAT 121 LINEAR ALGEBRA O O i.e.
+0 0 0 0 A A i.e.
+0 0 1 1 B B i.e.
+1 -1 1 1 C C i.e.
+1 -1 0 0 Therefore matrix of transformation is given as T = 1 0 R 0 -1 The invariant line is x = 0.
+Exercise: Find the matrix of transformation for a reflection in the line (i) y = x (ii) y = -x Ans.
+(i) T = 0 1 (ii) T = 0 -1 R R 1 0 -1 0 2.
+Rotations A rotation about the origin (i.e.
+center of rotation) is a transformation of the plane to itself such that the angle from the position vector of a point to the position vector of its image (in the anticlockwise direction) is a fixed angle for all points in the plane.
+In this transformation the point of invariant is the origin.
+Therefore you can say that rotation about the origin is linear transformation.
+Example: Consider the rotation about the origin through 90°.
+See fig 9.5 B1 C1 A B Here A1, B1 and C1 are the images of A, B and C respectively where OABC is a unit square A1 0 C Fig 9.5 NOUN 117MAT 121 LINEAR ALGEBRA i.e.
+A = 0 A1 = -1 1 0 B = 1 B1 = -1 1 1 C = 1 C1 = 0 0 1 Therefore the transformation matrix is given as T = 0 -1 90 1 0 Exercise Find the matrix of transformation for a rotation about the origin through 180°.
+Ans.
+: T = 0 -1 180 1 0 4.0 CONCLUSION In this unit you have studied transformation of a 2 dimensional plane to itself.
+You have studied the properties of a near transformation.
+You have studied 3 types of transformation namely translated reflection and rotation.
+In each type of transformation studied you have been able to determine the matrix of transformation as well as the invariant point or line.
+5.0 SUMMARY You have studied in this unit how to (i) Define a linear transformation (ii) To determine whether a given transformation is linear or not.
+(iii) Find the matrix of transformation (iv) Determine invariant points or lines of transformation 6.0 EXERCISES TMAs 1.
+A transformation T mapping 0 0 1 1 0 0 0 0 0 0 1 -1 NOUN 118MAT 121 LINEAR ALGEBRA Determine the matrix of the transformation.
+2.
+Determine the set of invariant points under transformation given by T x = -1 2 x y 2 -1 y 3.
+Prove that points under identity transformation are invariant.
+4.
+The matrix of the transformation T of a plane is l -2 0 -1 Determine the images under T of the vertices Q (0, 0), A (4, 0), B (4, 2) And C (0, 2) of a rectangle QABC.
+What percentage is the area increased or decreased by the new transformation?
+5.
+The matrix of a transformation T of the plane is 2 2 2 -1 Determine the image under T of the unit square.
+6.
+The matrix of a transformation of the plane is 2 2 2 -1 Determine the point which is mapped onto the point 5 under T. 2 7.
+The matrix of the transformation T of the plane is 2 1 1 -1 Find the images under T of (i) The unit square QABC (ii) The vertices O (0,0), A (0,6), B (4, 0) of a triangle OAB.
+8.
+Given that T : x = 3 -1 x 1 y 2 -3 y and T : x = 3 1 x 2 y -2 3 y Determine the matrix given by (i) 3 T + 2 T 1 2 (ii) T T 1 2 NOUN 119MAT 121 LINEAR ALGEBRA 9.
+If T is a linear mapping that map 1 to 3 2 to 4 4 1 1 6 1 to 1 and 0 to 0 0 2 0 0 Determine the matrix of the transformation.
+10.
+Determine the matrix of the transformations T x = 2x - y 1 y y + 2y and T : x = 3x + 2y 2 y x Determine the invariant points under each transformation.
+11.
+Prove that under a linear transformation, the origin is always an invariant point.
+12.
+Prove that the matrix transformation 4 -1 -3 2 maps all points on the line y = 3x onto themselves.
+13.
+Given that the matrix transformation 1/2 1/253 1/253 -1/2 maps all points on the line y = x (cid:214) 3 onto themselves (cid:214) 3 14.
+Construct a matrix that transforms (1, 0) onto (3, 2) and (0, 1) onto (5, 3) UNIT 5 INTRODUCTION TO VECTOR SPACES Table of Contents 1.0 Introductions 2.0 Objectives 3.1 Vector Spaces 3.2 Subspaces NOUN 120MAT 121 LINEAR ALGEBRA 3.3 Rank of matrix 3.4 Linear Dependence 4.0 Conclusion 5.0 Summary 6.0 Exercises (TMAs) 1.0 INTRODUCTION In this unit you will be introduced to the concept of "Vector spaces" or linear spaces.
+You are familiar with the concept of a vector in 2 dimensional planes.
+For example a point x can be regarded as a vector in a 1 dimensional plane.
+i.e.
+˛ R1 (cid:222) x = {a: a˛ R}.
+This means that the vector x has only one real component.
+In unit 4, you studied a vector in 2 dimensional planes where it was said that if v is a point in a plane the position vector of that point can be expressed in terms of the unit vectors (ad) respectively.
+That is v = xî + yĵ (see fig 1.1) v = xî + yĵ î Fig 10.1 The above can be extended to a vector in n dimensional plane.
+In all your study of mathematics you come across many examples of mathematical objects that can be added to each other and multiplied by real numbers.
+To start with real numbers can be added together and as well multiplied.
+However there are other objects that can be added together among such are matrices, real - valued functions, complex numbers, infinite series vectors valued functions and so on.
+In this unit, you will discuss a general mathematical concept called a vector pace or linear space, which include all these examples and other special ones.
+Basically, a vector space involves a set of elements of any kind, which the two basic arithmetic operations of addition and multiplication by numbers can be performed.
+In this unit the definition of a vector space is given and some basic properties of vector spaces is introduced.
+2.0 OBJECTIVES After studying this unit, you should be able to correctly NOUN 121MAT 121 LINEAR ALGEBRA (i) Define a vector space.
+(ii) List all the ten axioms of a vector space.
+(iii) Determine whether a given space is a vector space.
+(iv) State properties of a vector space such as (i) subspace (ii) linear dependence and independence etc.
+3.1 VECTOR SPACE 3.1.1 THE DEFINITION OF A VECTOR SPACE.
+Let V denote a non-empty set of objects called elements.
+The set V is called a vector space if it satisfies the following ten axioms, which is listed in 3 groups.
+I. Closure Axioms C : Closure under addition.
+1 For every pair of elements x and y ˛ V there corresponds a unique element in V called the sum of x and y denoted by x + y. i.e.
+x + y ˛ V. C : Closure under multiplication by real numbers.
+2 For every x ˛ V and every number α there corresponds an element in V called the product of α and x, denoted by α x 1. e α x ˛ V. II.
+Axioms for Addition A : Commutative Law: For all x and y in V you have that x + y = 3 y + x. A4: Associative Law: for all x, y and z in V you have that (x + y) +z = x + (y + z).
+A : Existence of zero element: There is an element in V, denoted by 0, 5 such that x + 0 = x for all x ˛ V. A : Existence of negative (additive inverse).
+For every x ˛ V, the 6 element (-1) x has the property x + (-1) x = 0.
+III Axioms For Multiplication.
+NOUN 122MAT 121 LINEAR ALGEBRA M Associated Law: For every x ˛ V and all real numbers α and β 7 you have α (β x) = α β (x) M : Distributive Law for addition in V: For all x and y and y ˛ V and 8 all real α you have α (x + y) = α x + α y M : Distributive Law for addition of Numbers: For all x ˛ V and all 9 real α and β you have (α + β ) x = α x + β x. M : Existence of identity.
+For every x ˛ V you have 1.x = x.
+10 The above vector space is sometimes referred to as real vector space since you multiply throughout by real numbers.
+For us to determine whether a given set of vector is a vector space, all you need to do is to test if the set of vector satisfies the axioms 1 to 10 enumerated above.
+Example 1 shows that the set of real numbers R is a vector space.
+Solution: you need to show that R satisfies all the axioms from 1 to 10 C : The sum of any two real numbers is a real number.
+1 C : The product of any two real numbers is a real number.
+2 A : The set of real numbers is commutative.
+3 A : If x, y, z ˛ R then 4 (x + y) + z = x + (y + z ).
+A : 0 is the zero element of R1 5 A : For each x ˛ V, there exists an element - x˛ V such that x + (-x) = 0.
+6 Existence of inverse element.
+M : α (x + y) = kx + ky " x, y˛ V and α˛ R, distributive in terms of 7 scalar multiplication.
+M : (α + β ) x = α x + β x distributivity " x˛ V and α, β ˛ R. 8 M : (α β) x = α(β x) " x˛ V, α, β˛ R 9 NOUN 123MAT 121 LINEAR ALGEBRA M : There exist a number called one (1) ˛ R such that l .x = x. l = x " x˛ V 10 Existence of identity element.
+Example 2.
+Prove that R2 is a vector space.
+Here R2 must satisfy all he ten axioms as outlined above.
+C Closure under addition.
+For every pair of elements x and y˛ R2 there 1 corresponds a unique element in R2 called the sum of x and y denoted by x + y i.e.
+x + y ˛ R2 C Closure under multiplication.
+For every x, y˛ R2 and every number a 2 there corresponds an element in R2 called the product of a and x denoted by x˛ R2 = α (x , x ) = (αx , αx ) ˛ R2 1 2 1 2 A x˛ R2 (cid:222) x = (x , x ) 3 1 2 y˛ R2 (cid:222) y = (y , y ) 1 2 (cid:222) x + y = (x , x ) + (y , y ) 1 2 1 2 = (x + y , x + y ) 1 l 2 2 = (y + x , y2 + x ) l 1 2 = (y , y ) + (x + x ) 1 2 1 2 = y + x Thus x + y = y + x A (x + y) + z = {(x , x ) + (y , y )} + (z, z ) 4 1 2 1 2 l 2 = (x + y , x + y ) + (z , z ) 1 1 2 2 1 2 = (x + y + z , x + y + z ) 1 1 1 2 2 2 = (x , x ) + (y, z , y + z ) 1 2 l 1 2 2 = (x , x ) + [(y , y ) + (z , z )] 1 2 1 2 1 2 = x + (y + z) Thus (x + y) + z = x + (y + z) A Obviously 0 = (0,0) ˛ R 2 5 A Trivially, every element of R2 has its inverse in R2 6 M α (x + y) = α [(x , x ) + (y , y )] 7 1 2 1 2 = α (x + y, x + y ) = (α x +αy, αx + αy ) 1 l 2 2 1 l 2 2 = (αx , αx ) + (αy, αy ) 1 2 l 2 = α (x, x ) + α (y, y ) l 2 l 2 NOUN 124MAT 121 LINEAR ALGEBRA = αx + αy M (α + β)x = (α + β) (x , x ) 8 1 2 = [(α + β)x , (α + β)x ] 1 2 = (αx , + βx , αx + βx ) 1 2 2 2 = (αx , αx ) + (βx , βx ) 1 2 1 2 = α(x , x ) + β (x , x ) l 2 1 2 = αx + βx Thus α(x + y) = αx +βx M (αβ)x = (α β)(x , x ) 9 1 2 = (αβx , αβx ) 1 2 = α(βx , βx ) 1 2 = α[β(x , x )] 1 2 = α(βx) Thus (a β) x = α (α x) M There exist 1 ˛ R2 such that 10 l.x = 1.
+(x , x ) 1 2 = (1.x , 1.x ) 1 2 = (x .1, x .1) = (x , x ) 1 2 1 2 Thus, l .x = x .
+l = x " x ˛ R2 Since x is arbitrary Hence IR2 is a vector space.
+Example3: Prove that R3 is also a vector space.
+Solution: The solution here is the same as the case of IR2 above.
+C : " x, y ˛ R3.
+There exist x + y ˛ R3 closure under addition.
+1 C : Closure under multiplication 2 x ˛ R3 , α ˛ R3 α x = α (x , x , x ) = (αx, αx , αx ) ˛ ׀R3.
+1 2 3 l 2 3 A = x + y = (x , x , x ) + ( y , y , y ) 3 1 2 3 1 2 3 = (x + y , x + y , x + y ) 1 1 2 2 3 3 = (y + x, y + x , y +x ) 1 l 2 2 3 3 = (y , y , y ) + (x, x , x ) 1 2 3 l 2 3 = y + x Thus x + y = y + x NOUN 125MAT 121 LINEAR ALGEBRA A (x + y) +z 4 [(x , x , x ) + (y1, y , y )] + ( z , z , z ) 1 2 3 2 3 1 2 3 = (x + y , x + y , x + y ) + (z , z , z ) 1 1 2 2 3 3 1 2 3 = (x + y + z1, x + y + z , x + x + y + z ) 1 1 2 2 2 3 3 3 3 = (x , x , x ) + (y + z , y + z , y + z ) 1 2 3 1 1 2 2 3 3 = (x , x , x ) + [(y, y , y ) + (z, z , z )] 1 2 3 l 2 3 l 2 3 x + (y + z) Thus x + (y + z) = (x + y) + z A Trivially 0 = (0, 0, 0) ˛ ‌‌IR3 5 Such that 0 + x = (0, 0, 0) + (x, x , x ) l 2 3 = (0 + x , 0 + x , 0 + x ) 1 2 3 = (x + 0, x + 0, x + 0) 1 2 3 = (x , x , x ) = x 1 2 3 Thus 0 + x = x + 0 = x The rest of the axioms are left for you as exercises to test.
+You have looked into some examples of vector spaces.
+Before advancing into some complicated examples of vector spaces, let us now look into some examples of set vectors that are not vector spaces.
+If you want to show that a statement made by someone is true, you are only justified to conclude that it is true only when all the statement have been tested one by one and they are all true.
+However, if one of the statements happens not to be true, without further analysis, you have the right to conclude that the statements are not true.
+In practical terms, if a lawyer during cross examination in the court proves beyond all reasonable doubt that one of the statements made by a complainant is not true, then he stands the chance to plead the court to dismiss the case since one statement is not true, he can no longer accept any statement from the complainant.
+In a nutshell, if you are asked to show that a set o vector is a vector space, then if you can show that all the axioms are satisfied, you are done, conversely, if you are asked to show that set f vector is not a vector pace, then you can show that at least one of the axioms is not satisfied, then you are done.
+Example 4.
+Show that z (the set of all the integers) is not a vector space.
+Solution: NOUN 126MAT 121 LINEAR ALGEBRA You can pick an example to confirm that statement Obviously 3˛ z, ½ ˛ R1 but 3.
+½ = 3/2 = 1.5 ˇ z.
+Thus z is not a vector space.
+NOTE: The first axiom is satisfied i.e. "
+x y˛ z , x + y = y + x ˛ z The satisfaction of that axiom does not make Z a vector space since you can find one of the axioms, which a set of integers fail to satisfy.
+Exercises Show that the following are vector spaces (Hint see the example below).
+l. A set of 2 x 2 diagonal matrices 2.
+IRn where n is finite dimensional (i.e.
+n < ∞ ) 3.
+Let ¸ be a set of complex numbers defined on ¸ by (a + bi) + (c + di) = (a + c) + (b + d) I and the scalar multiplication defined by α (a + bi) = α a + α bi (Where i = √ -1) 4.
+Let V be the set of all order pairs of real numbers with addition defined by (x , x ) + (y , y ) = (x + y , x + y ) and scalar 1 2 1 2 1 1 2 2 multiplication defined by α (x , x ) = (αx, αx ).
+1 2 l 2 Example: Show that a set of 2 x 2 matrices is a vector space.
+Solution: (i) A3 Addition of 2 x 2 matrices gives 2 x 2 matrices and they are commutative.
+a a + b b l l 12 11 12 a a b b 21 22 21 22 = a + b a + b l l 1l 12 12 a + b a + b 21 21 22 22 = b + a b + a l l l l 12 12 b + a b + a 21 21 22 22 = b b a a 11 12 11 12 b b + a a 21 22 12 22 NOUN 127MAT 121 LINEAR ALGEBRA Thus A + B = B +A.
+A Let A, B and C be element of 2 x 2 matrices.
+4 Then (A + B) + C = a + b a + b c c ll 1l 12 12 11 12 a + b a + b + c c 21 21 22 22 21 22 = a + b + c a + b + c 11 11 11 12 12 12 a + b + c a + b + c 21 21 21 22 22 22 = a a + b + c b + c ll 12 1l 11 12 12 a a b + c b + c 21 22 21 21 22 22 = a a + b b + c c 11 12 11 12 11 12 a a b b c c 21 22 21 22 21 22 A + (B + C) Thus (A + B) + C = A + (B + C) A Trivially, 5 0 0 ˛ 2 x 2 matrix 0 0 A a a + -a -a 6 1l 21 ll 21 a a -a -a 21 22 21 22 a - a a - a ll ll 1l 1l a - a a - a 21 21 22 22 M α a + a + b b 7 1l 12 11 12 a + a b b 21 21 21 22 = α a + b a + b l l 11 11 12 a + b a + b 12 21 22 22 = α (a + b ) α (a + b ) 11 11 12 12 α (a + b ) α (a + b ) 21 21 22 22 NOUN 128MAT 121 LINEAR ALGEBRA = α a + α b α a + α b 11 11 11 12 α a + α b α a + α b 21 21 22 22 = α a α a + α b α b 11 12 11 12 α a α a α b α b 21 22 21 22 = α A+ α B Thus α (A+B ) = α A+ α B M (α + β)A = (α + β) 9 (α + β) a (α + β) a 11 12 (α + β )a (α + β) a 2l 22 α a + βa α a + βa l l 11 12 l2 α a + βa α a + βa 21 22 21 22 = α a α a βa βa l l 12 11 12 α a α a + βa βa 21 22 2l 22 = α a a β a a 11 12 11 12 a a + a a 12 22 11 22 = α A + βA Thus (α+ β)A = α A+ βA M (α β)A = (α β) = a a 7 11 12 a a 21 22 = α β a α βa 11 12 α β a α βa 21 22 = α β a β a 11 12 β a β a 21 22 = α β a a 11 12 a a 21 22 = α (β A) Thus (α β ) A = α ( β A) M $ 1 0 ˛ 2 x 2 matrix 10 NOUN 129MAT 121 LINEAR ALGEBRA 0 1 Э 1 0 A = 1 0 a a 11 12 0 1 0 1 a a 21 22 = a + 0 a + 0 11 12 0 + a 0 + a 21 22 = a a 11 12 a a 21 22 Thus I .
+A = A .
+I.
+Since A is an arbitrary matrix, it therefore stands the chance to represent all matrices of 2 x 2.
+Hence a set of 2 x 2 matrices is a vector space.
+5.
+This one is the same as R2, which has been proven to be a vector space.
+You may now turn to the set of vectors that are not vector spaces.
+Example 1.
+(the set of all the natural numbers) is not a vector space.
+Since —10˛ : 10+(-10) = 0 2.
+(the set of all the integers) is not a vector space since if you take α = - 1/3 and x = 17, then αx = -1/3 .
+17 = -17/3 ˇ 3.
+A set of non-singular 2 x 2 matrices is not a vector space in that 1 0 ˛ 2 x 2 matrices (non singular) 0 1 and -1 0 E 2 x 2 matrices ( non singular) 0 1 ˇ but 1 0 + -1 0 = 0 0 0 1 0 1 0 2 Is a member of non singular matrix.
+Hence non-singular 2 x 2 matrix is not a vector space.
+NOUN 130MAT 121 LINEAR ALGEBRA Problems: Show that the following are not vector spaces.
+1.
+Let S be a set of all ordered pairs of real numbers defined by (x , x ) + (y, y ) = (x + y, x + y ) and the scalar multiplication is 1 2 l 2 1 l 2 2 defined by α (x , x ) = (α x , αx ) 1 2 1 2 2.
+Let S be a set of all ordered pairs of real numbers defined by (x , x ) + (y, y ) = (x + y, x + y ) and scalar multiplication by 1 2 l 2 1 l 2 2 α (x , x ) = (1, x ) 1 2 2 3.2 SUBSPACES DEFINITION Definition A subset of vector space, which is also a vector space, is called a subspace.
+In other words, a subset of vector space is termed a subspace if the following conditions hold.
+Let S be a subset of a vector space V then, (i) if x, y ˛ S then, x + y ˛ S (ii) if x˛ S, α ˛ IR1 then α x˛ S Therefore S is closed under scalar multiplication and vector addition.
+Example 1 Let S = {(x, x , x )T : x = x } l 2 3 1 2 Show that S is a subspace of IR3 Solution: You only need to show that conditions (i) and (ii) above are satisfied.
+(i) x = (x ,x ,x )T ˛ S then 1 1 2 α x = α (x , x , x )T = (αx , αx , αx )T ˛ S 1 1 2 1 1 2 (ii) If ( x , x , x )T and ( a, a, b)T are arbitrary elements of S then, 1 1 2 (x ,x ,x )T + (a, a, b)T = (x + a, x + a, x + b)T˛ S 1 1 2 1 1 2 (x + a, x +a, x + b)T˛ S 1 1 2 Hence S is a subspace of IR3 (ii) Show that S the set of all 2 x 2 symmetric matrices is a subspace of 2 x 2 matrices.
+Let A ˛ S (cid:222) A = a a 11 12 NOUN 131MAT 121 LINEAR ALGEBRA a a 12 22 and B ˛ S (cid:222) B = b b 11 12 b b 12 22 So A + B = = a + b a + b ˛ S 11 11 12 12 a + b a + b 12 12 22 22 Also α A = a a a 11 12 a a 12 22 = α a α a 11 12 α a α a ˛ S 12 22 Hence a set of 2 x 2 symmetric matrices is a subspace of 2 x 2 matrices.
+(Go to attd page B 11) - B (10) ).
+3.3 RANK OF A MATRIX Definition: The rank of a matrix is the number of non-zero rows of the matrix after the matrix has been reduced to echelon form.
+By this definition, you only need to reduce any given matrix to row echelon form and the number of non-zero rows is obtained as the rank.
+Example 1: Find the rank of A if A = 1 -2 1 2 1 0 3 0 1 Now, 1 -2 1 1 -2 1 2 1 0 0 5 -2 3 0 1 0 6 -2 1 -2 1 0 5 -2 in the echelon form.
+0 0 2 From the above, the rank of A, r (A) = 3 and this is also called the dim (A) is dim (A) = 3.
+Example 2: NOUN 132MAT 121 LINEAR ALGEBRA Let A = 1 -2 3 1 -2 3 2 -5 1 0 1 5 in Echelon form 1 -4 7 0 0 0 Here the rank of A or dim (A) = 2.
+Then the non-zero rows form the basis vector of the row space o the reduced echelon.
+3.4.1 LINEAR DEPENDENCE Definition: Given a set of vector v , v ...v , V*.
+1 2 n V* is a linear combination of v , v , v ...v .
+If V*can be expressed as the sum 1 2 3 n of scalar multiples of v , v ...vn, 1 2 i.e.
+V* = α v + αv + .... + α v " αi˛ IR1 more compactly, we have that 1 1 2 n n n V* = ∑ α i Vi = i n At times, we can take V * = 0 then ∑ α i Vi = 0 i=1 If this happens when at least one α i ≠ 0, then we say that the set of vector v , 1 v ... v are linearly dependent.
+But conversely of it is only true when all the 2 n α i = 0 then the set of vectors are said to be linearly independent.
+Example 2 Which of the following collection of vectors are linearly independent in IR3 (a) (1, 1, 1)T, (1, 1, 0)T (l, 0, 0)T (b) (1, 0, 1)T, (9, 1, 0)T (c) (1.
+2, 4)T, (2, 1,3 )T, (4,-l, 1)T Solution (a) 1 1 1 0 α 1 +β 1 +α 0 = 0 1 0 0 0 α β α 0 α + β + 0 = 0 α 0 0 0 So α + β + α = 0 NOUN 133MAT 121 LINEAR ALGEBRA α + β = 0 α = 0 (cid:222) β = 0, α = 0 α = β = α = 0 The vectors are linearly independent.
+(b) 1 0 0 α 0 + 1 = 0 1 0 0 α 0 0 0 + β = 0 α 0 0 α 0 α = 0 β = 0 (cid:222) β = 0 (cid:222) α = β = 0 α 0 Hence the vectors are linearly independent.
+(c) 1 2 4 2 1 -1 = A 4 3 1 A = 1 2 4 2 1 -1 = 0 4 3 1 Hence the system has in addition to a trivial solution a nontrivial solution, which means that there, exists at least a ≠ 0 such that 1 2 4 α 0 1 2 1 -1 a = 0 2 4 3 1 a 0 3 Hence the vectors are linearly dependent.
+3.4.2 SPANNING SETS: BASIS OF VECTORS Definition: NOUN 134MAT 121 LINEAR ALGEBRA If an arbitrary vector from a vector space can be written as a linear combination of a set of vectors from the same vector space, then the set of vectors can be said to span the space.
+If the spanning set of vectors that spanned the vector space are themselves linearly independent then the set of vectors are said to form a basis of the vectors space.
+Exercises (1).
+Determine the null space of each of the following matrices.
+(i) A = 2 1 (ii) A = 1 2 -3 -1 3 2 -2 4 6 3 (2).
+Determine whether or not the following are spanning sets for IR2 (i) v = (2, 1) v = (3, 2) 1 2 (ii) v = (2, 3 ) v = (4, 6) 1 2 (iii) v = (1,2) v = (-1, 1) 1 2 (iv) v = (-1, 2) v = (1, -2) v = (2, -4).
+1 2 3 (3).
+Which of the following are spanning set for P .
+Justify your answer.
+3 (i) v = 1, v = x2 v = x2 -2 1 2 3 (ii) {x + 2, x2 - 1} (iii) {x + 2, x + 1, x2 - 1} (4).
+Which of the following set of vectors are linearly independent.
+(i) (1, 1, 1)T, (1, 1, 0)T, (1, 0, 0)T (iii) 1 0 0 1 2 3 0 1 , 0 , 0 , 0 , 2 (iv) -1 1 2 2 , -2 , -4 NOUN 135MAT 121 LINEAR ALGEBRA WRONSKIAN OF FUNCTIONS The Wronskian, W(x) is defined f f …….f 1 2 n f' f' ...... f1 1 2 n f11 f11 ...... f11 1 2 n fn , fn .......fn 1 2 n Where f (n) refers to d n f dxn If the W(x) ≠ 0, then the functions fl, f2 ... fn are linearly independent and linearly dependent if W(x) = 0 Example 1 Determine whether the functions are linearly independent 1, x2, x2 - 2 Solution W (1, x2, x2 -2) = 1 x2 x2 - 2 0 2x 2x 0 2 2 = (2x)2 - (2x)2 = 0.
+Hence the functions are linearly dependent.
+Example 2 Are the functions sine x, cos x, linearly independent?
+W (Sin x, Cos x) = Sin x Cos x Cos x -Sin x = -sin 2x - cos2x = - (sin 2x + cos2x) = -1 ≠ 0 NOUN 136MAT 121 LINEAR ALGEBRA Hence the functions Sin x, Cos x are linearly dependent.
+Exercise Determine whether the following functions/vectors are linearly independent.
+(a) ex, e-x (b) 1, x2, x2, x3 (c) Cos p x, Sin p x (d) 1, ex + e-x, ex - e-x (e) x3/2, x5/2 (f) log x , 100 e (g) tan x, sec x APPLICATION The idea of row space and column helps understand the system of linear systems.
+The system Ax = b can be written in the form a a a b 11 12 1n 1 a a a b 12 22 2n 2 x + x +...….
++ x = 1 2 n a a a b m1 m2 mn m From the above, Ax = b will be consistent if and only if b can be expressed as a linear combination of the column vectors of A.
+Thus Ax = b is consistent if and only if b is in the column space of A.
+If on the other hand b is replaced with zero vector, then the above x a + x a +...+ x a = 0 * 1 1 2 2 n n It follows from * above that the system Ax = 0 has only the trivial solution, x = 0 if and only if the column vectors of A are linearly independent.
+4.0 CONCLUSION In this unit, you have studied one of the important concepts of modern linear algebra solution to problems can easily be solved using standard algorithms based on the properties of a vector space.
+Using matrices, you have investigated the properties of a vector space.
+You know how to determine whether a set of vectors is linearly independent or not.
+You know how to find the rank of a matrix and its relation to a set of linearly independent vectors.
+NOUN 137MAT 121 LINEAR ALGEBRA 5.0 SUMMARY In this unit, you have studied how to (i) Define a vector space (ii) Determine whether a set is a vector space (iii) Define a subspace of a vector space (iv) Define and compute the rank of a matrix.
+(v) Determine whether a set of vectors is linearly independent or dependent.
+(vi) Define a basis of vector space.
+6.0 EXERCISES TMAs 1.
+Let T = x : x = 2x 1 2 1 x 2 Show that T is a subspace of IR2 2.
+Lset K = {x ˛ IR1 : x ˛ (0, 1)} Show that K is not a subspace of IR1 3.
+Let M be an n x n identity matrix.
+Show that M is not a subspace of the matrix M x n. 4.
+Let P be an n x n zero matrix.
+Prove that P is a subspace of m x n matrix 5.
+Let S = x : ˛ IR1 Prove that S is NOT a subspace 1 .
+of IR2 6.
+Given that 3x - x = 0 1 2 x + x =0 1 2 Show that the solution set of the above system is actually a subspace of IR2.
+(Hints: do not solve the system).
+7.
+Which of the following is true and why?
+Give examples to illustrate your points.
+(a) Any subset of a vector space is a subspace (b) Any subspace is automatically a vector space NOUN 138MAT 121 LINEAR ALGEBRA 8.
+Show that the solution to the given system of linear equation is a subspace of IR2.
+2x - x = 0 1 2 2x - x =0 1 2 9.
+Let A be an m x n matrix.
+Let N (A) denote the set of all solutions to the homogeneous system.
+Ax = 0.
+Prove that N (A) is a subspace of IRn.
+10.
+Determine N (A) if A 1 1 1 0 2 1 0 1 NOUN 139

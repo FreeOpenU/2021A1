@@ -1,0 +1,333 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH303 COURSE TITLE: VECTORS AND TENSORS ANALYSIS MTH303 COURSE GUIDE COURSE GUIDE MTH303 VECTORS AND TENSORS ANALYSIS Course Team Dr. Bankole Abiola (Developer/Editor) - NOUN Dr. J. O. Adeniran (Writer) - FUNAAB NATIONAL OPEN UNIVERSITY OF NIGERIA ii MTH303 COURSE GUIDE National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria First Printed 2012 ISBN: 978-058-395-5 All Rights Reserved iii MTH303 COURSE GUIDE CONTENTS PAGE Introduction …………………………………………………….…… 1 What you will Learn in This Course ………….…………….……… 1 Course Aim………………………………………………………….. 2 Course Objectives …………………………………………………… 2 Working through This Course ………………..…………………….. 2 Presentation Schedule ……………………..……………….……….. 3 Assessment …………………………………………………..……… 3 Tutor-Marked Assignment ………………………………...……….. 3 Final Examination and Grading …………………………………….. 4 Course Marking Scheme ………………………………………...….. 4 Course Overview …………………………………………………… 4 Facilitators/Tutors and Tutorials …………………………………… 4 Summary………………………………………………………….….
+5 iv  Introduction Vector and Tensors (MTH303), requires the knowledge acquired in (MTH142-Vector and Geometry) which you studied at the 100-Level.
+A good mastery of the course content in Mathematical Methods 1 (MTH281) will be helpful in learning this course successfully.
+This is a three-credit unit course.
+It is a compulsory course for all students majoring in mathematics at undergraduate level or B.Sc.
+(Education) Mathematics.
+It is also available to students offering the Bachelor of Science (B.Sc.)
+Computer and Information & Communication Technology.
+Any student with sufficient background in mathematics can also offer the course if he/she so wish though it may not count as credit towards graduation if it is not a required course in his/her field of study.
+The course is divided into two modules as enumerated below: Module 1 Unit 1 Elementary Vector Algebra Unit 2 Vector Differentiation (Gradient, Divergence and Curl) Unit 3 The Line Integral Module 2 Unit 1 Green’s Theorem, Divergence Theorem and Stokes‘s Theorem Unit 2 Tensor Analysis What You Will Learn in This Course This course guide tells you briefly what the course is about, what course materials you will be using and how you can work with these materials.
+In addition, it advocates some general guidelines for the amount of time you are likely to spend on each unit of the course in order to complete it successfully.
+It gives you guidance in respect of the Tutor-Marked Assignment which will be made available in the assignment file.
+There will be regular tutorial classes that are related to the course.
+It is advisable that you attend these tutorial sessions.
+The course will prepare you for the challenges you will meet in Vectors and Tensors MTH303 VECTORS AND TENSORS ANALYSIS Course Aim The main aim of the course is to provide you with an understanding of Vectors and Tensors.
+It also aims to make clear distinctions between the ways we handle problems in higher dimensional spaces, and provide solutions to some problems that may arise in engineering, physics, and other areas of human endeavour, where the knowledge of advance vector is required.
+Course Objectives To achieve the aims set out, the course has a set of objectives.
+Each unit has specific objectives which are included at the beginning of the unit.
+You should read these objectives before you study the unit.
+You may wish to refer to them during your study to check on your progress.
+You should always look at the unit objectives at the completion of each unit.
+By doing so, you would have followed the instructions in the unit.
+Below are comprehensive objectives of the course as a whole.
+By meeting these objectives, you should have achieved the aims of the course as a whole.
+In addition to the aims above, this course sets to achieve some objectives.
+Thus, after going through the course, you should be able to:  prove continuity and establish limit functions in Vectors and Tensors  define Divergence, Gradient of Scalar Functions, and Curl of Vectors  establish Green’s Theorem, Stokes’s Theorems and Divergence Theorem  work out answers to simple problems in Tensor Analysis.
+Working through This Course To complete this course you are required to read each study unit, read the textbooks and read other materials which may be provided by the National Open University of Nigeria.
+Each unit contains self-assessment exercises and at certain points in the course you would be required to submit assignments for assessment purposes.
+At the end of the course there is a final examination.
+The course should take you about a total of 16 weeks to complete.
+Below you will find listed all the components of the course, what you have to do and how you should allocate your time to each unit in order to complete the course in time and successfully.
+ii MTH303 VECTORS AND TENSORS ANALYSIS This course entails that you spend a lot of time to read and practice all related exercises.
+I will advise that you avail yourself of the opportunities of the tutorial classes provided by the university.
+Presentation Schedule Your course materials have important dates for the early and timely completion and submission of your TMAs and attending tutorials.
+You should remember that you are required to submit all your assignments by the stipulated time and date.
+You should guard against falling behind in your work.
+Assessment There are three aspects to the assessment of the course.
+The first is made up of self-assessment exercises, second consists of the Tutor-Marked Assignments and third is the written examination/end of course examination.
+You are advised to do the exercises.
+In tackling the assignments, you are expected to apply information, knowledge and technique you gathered during the course.
+The assignments must be submitted to your facilitator for formal assessment in accordance with the deadlines stated in the presentation schedule and the assignment file.
+The work you submit to your tutor for assessment will count for 30% of your total course work.
+At the end of the course you will need to sit for a final or end of course examination of about three hour duration.
+This examination will count for 70% of your total course mark.
+Tutor-Marked Assignment The TMA is a continuous assessment component of your course.
+It accounts for 30% of the total score.
+You will be given 4 TMAs to answer.
+Three of these must be answered before you are allowed to sit for the end of course examination.
+The TMAs would be given to you by your facilitator and returned after you have done the assignment.
+Assignment questions for the units in this course are contained in the assignment file.
+You will be able to complete your assignment from the information and material contained in your reading, references and study units.
+However, it is desirable in all Degree level of education to demonstrate that you have read and researched more into your references, which will give you a wider view point and may provide you with a deeper understanding of the subject.
+Make sure that each assignment reaches your facilitator on or before the deadline given in the presentation schedule and assignment file.
+If for iiiMTH303 VECTORS AND TENSORS ANALYSIS any reason you cannot complete your work on time, contact your facilitator before the assignment is due to discuss the possibility of an extension.
+Extension will not be granted after the due date.
+Final Examination and Grading The end of course examination for MTH303 (Vectors and Tensors) will be for about 3 hours and it has a value of 70% of the total course work.
+The examination will consist of questions, which will reflect the type of self-testing, practice exercise and tutor-marked assignment problems you have previously encountered.
+All areas of the course will be assessed.
+Use the time between finishing the last unit and sitting for the examination to revise the whole course.
+You might find it useful to review your self-test, TMAs and comments on them before the examination.
+The end of course examination covers information from all parts of the course.
+Course Marking Scheme Assignment Marks Assignments 1-4 Four assignments, best three marks of the four count at 10% each -30% of course marks.
+End of course examination 70% of overall course marks.
+Total 100% of course materials.
+Facilitators/Tutors and Tutorials There are 16 hours of tutorials provided in support of this course.
+You will be notified of the dates, times and location of these tutorials as well as the name and phone number of your facilitator, as soon as you are allocated a tutorial group.
+Your facilitator will mark and comment on your assignments, keep a close watch on your progress and any difficulties you might face and provide assistance to you during the course.
+You are expected to send your Tutor-Marked Assignment to your facilitator before the schedule date (at least two working days are required).
+They will be marked by your tutor and returned to you as soon as possible.
+Do not delay to contact your facilitator by telephone or e-mail if you need assistance.
+iv MTH303 VECTORS AND TENSORS ANALYSIS The following might be circumstances in which you would find assistance necessary, hence you would have to contact your facilitator if:  you do not understand any part of the study or the assigned readings  you have difficulty with the self-tests  you have a question or problem with an assignment or with the grading of an assignment.
+You should endeavour to attend the tutorials.
+This is the only chance to have face to face contact with your course facilitator and to ask questions which are answered instantly.
+You can raise any problem encountered in the course of your study.
+To gain much benefit from course tutorials, prepare a question list before attending them.
+You will learn a lot from participating actively in discussions.
+Summary MTH303 (Vectors and Tensors) is a course that intends to provide solutions to problems normally encountered by engineers, physicists and mathematicians in the course of doing their normal jobs.
+It also serves as a tool which often enables the mathematicians to widen the frontiers of their analytical, concerns to issues that have significant mathematical implications.
+Nevertheless, do not forget to apply the principles you have learnt to your understanding of Vectors and Tensors.
+I wish you success in the course and I hope that you will find it comprehensive and interesting.
+vMTH303 VECTORS AND TENSORS ANALYSIS Course Code MTH303 Course Title Vectors and Tensors Analysis Course Team Dr. Bankole Abiola (Developer/Editor) - NOUN Dr. J. O. Adeniran (Writer) - FUNAAB NATIONAL OPEN UNIVERSITY OF NIGERIA vi MTH303 VECTORS AND TENSORS ANALYSIS National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office No.
+5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published By: National Open University of Nigeria First Printed 2012 ISBN: 978-058-395-5 All Rights Reserved viiMTH303 VECTORS AND TENSORS ANALYSIS CONTENTS PAGE Module 1 ……………………………………………………..….
+1 Unit 1 Elementary Vector Algebra …………………………... 1 Unit 2 Vector Differentiation (Gradient, Divergence and Curl) ……………..……………………….…………... 6 Unit 3 The Line Integral …………………………………….. 14 Module 2 ………………………………………………………….
+23 Unit 1 Green’s Theorem, Divergence Theorem and Stokes‘s Theorem……………………………………………….. 23 Unit 2 Tensor Analysis ……………………………………… 29 viii MTH303 VECTORS AND TENSORS ANALYSIS MODULE 1 Unit 1 Elementary Vector Algebra Unit 2 Vector Differentiation (Gradient, Divergence and Curl) Unit 3 The Line Integral UNIT 1 ELEMENTARY VECTOR ALGEBRA CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Revision of Elementary Vector Algebra 3.1.1 Scalar Product of Two Vectors 3.1.2 Law of Scalar Product 3.1.4 Triple Products 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION This course is an introductory work to Vectors and Tensors.
+In this unit, an attempt will be made to revise some elements of vector algebra.
+You should note that a vector quantity is distinguished from a scalar quantity by the fact that a scalar quantity possesses only magnitude, whereas a vector quantity possesses both magnitude and directions.
+It is convenient to represent a vector geometrically as an arrow, pointing in the direction associated with the ones having length proportional to the associated magnitude.
+These and other properties of vector will be explained in this unit.
+You should read this unit carefully before proceeding to other unit.
+2.0 OBJECTIVES At the end this unit, you should be able to:  describe vectors and scalar quantities  list scalar product of two vectors  state the Law of scalar product  explain vector products  solve problems on vector algebra.
+1MTH303 VECTORS AND TENSORS ANALYSIS 3.0 MAIN CONTENT 3.1 Revision of Elementary Vector Algebra Definition: A scalar quantity has only magnitude while a vector quantity has both magnitude and direction.
+Angle between two vectors.
+Let a and b be two vectors such that a and b can be represented in the diagram below b  a Then the angle  between the two vector in such that 0 3.1.1 Scalar Product of Two Vectors Let a and b be any two vectors (of the same dimension).
+The scalar production of a and b denoted by ab is defined by ab  a b Cos  where a and b are the magnitude of vectors a and b respectively and  is the angle between aand b a a ,a ,a  and b  b ,b ,b  then ab  a b a b a b 1 2 3 1 2 3 1 1 2 2 3 3 a b a b a b   The angle between a and b is given byCos1 1 1 2 2 3 3    a b   Provided a and b are non-zero vectors.
+If i, j,k are the usual unit vectors along the x,y,z axis respectively then   a  a ,a ,a  a ia ja k 1 2 3 1 2 3   b b ,b ,b bib jb k b b 3 1 2 3 Where i j  ji k i ik  jk  k  j 0 and ii  j j k k 1 2 MTH303 VECTORS AND TENSORS ANALYSIS 3.1.2 Laws of Scalar Products (i) ab ba (ii) mabmab abm abm m  any scalar) (iii) if ab 0 then a and b are perpendicular.
+3.1.3 Vector Product  Let a & b be any two vectors with the same dimension and let n be a  unit vector perpendicular to both a & b, the vector product of a & b written as ab is defined by  ab  a b Sin n , 0 n  Where  is the angle betweena & b.
+If a  a ia ja k 1 2 3 b bib jb k 1 2 3 Then i j k ab  a a a 1 2 3 b b b 1 2 3 a a a a a a = i 2 3  j 1 3 k 1 2 b b b b b b 2 3 1 3 1 2 = ia b a b  ja b a b ka b a b  2 3 3 2 3 1 1 3 1 2 2 1 3.1.4 Triple Products The scalar and vector products of 3 vectors a,b and c may have meaningful products abc, abc and abc Hence, the following laws are valid.
+(i) abc  abc (ii) abcbcacab (iii) abcabc (iv) abcacbab c abc acb bc a (v) abc  ab  ac 3MTH303 VECTORS AND TENSORS ANALYSIS Remark 1 1.
+The product abc is sometimes called the scalar triple product or box product and may be denoted bya b c.
+2.
+The product abc is called the vector triple product.
+3.
+Reader are advised to provide proofs to i to v above by assuming that a  a ia ja k 1 2 3 b  bib jb k 1 2 3 Remark 2 (i) The quantity ab is a vector quantity (ii) If ab 0 then at least one of a or b and then by implication the angle between them is zero.
+(iii) If a and b are law then ab  a b (iv) abab  ab where  is any scalar.
+(v) The magnitude of ab and ab is the area of the parallelogram with sides a and b (vi) If ab 0 and neither a 0 nor b  0 then a and b are parallel, 4.0 CONCLUSION We have learnt about vector algebra in this unit.
+The materials in this unit are sufficient enough background to enable you understand the next unit.
+5.0 SUMMARY The following facts are to be remembered:  that vector has magnitude and direction, unlike scalar quantity which has only magnitude  that two vectors can be multiplied in two ways.
+ scalar products which result in scalar quantity  vector product which result in vector quantity  if ab 0 and a 0, b  0 then a is parallel to b  that the magnitude of vectors whose product is ab is the area of parallelogram with sides a andb.
+4 MTH303 VECTORS AND TENSORS ANALYSIS 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Find the length and direction comics of theorem a from the (1, - 1, 3) to the midpoint of the line segment from origin to the point (6, -6, 4) 2.
+Prove that ab  a  b and ab  a  b 3.
+If  denotes the angle between the vectors a and b use a theorem in elementary geometry that ab2  a 2  b2 2a b Cos  7.0 REFERENCE/FURTHER READING Francis, B. Hildebrand (nd).
+Advanced Calculus for Application (2nd ed.).
+5MTH303 VECTORS AND TENSORS ANALYSIS UNIT 2 VECTOR DIFFERENTIATION (GRADIENT, DIVERGENCE AND CURL) CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Differentiation of Vector 3.2 Gradient, Divergence and Curl 3.2.1 Directional Derivatives 3.2.2 Divergence of a Vector 3.2.3 The Curl of a Vector Function 3.3 Differential Derivatives 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 Reference/Further Reading 1.0 INTRODUCTION In unit 1, we learnt about vector algebra and established some properties of vectors.
+In this unit, we shall consider vector differentiation and derive some important formula and properties of vector differentiation.
+2.0 OBJECTIVES At the end this unit, you should be able to:  differentiate vector quantities  find the gradient of any scalar and vector field  identify the curl and divergence of vector field.
+3.0 MAIN CONTENT Definition 1 The vector function Au is said to be continuous at a point u if 0 given 0, we can find some  0  A(u) A(u  whenever 0 uu  0 lim This is equivalent to Au Au  u u 0 0 6 MTH303 VECTORS AND TENSORS ANALYSIS Definition 2 The derivative of the vector function Au is given as limit Auu Au dA dAi dA j dA provided that  1  2  3 k. u 0 u du du du du d2A d3A Higher derivatives such as , e.t.c.
+are similarly defined du2 du3 Remark 1 If A,B and C are differentiable vector functions of a scalar u and  is a differentiable scalar functions then d dA dB (i) A B   du du du d dB dA (ii) ABA B du du du d d B dA (iii) AB  A  B du du du d dA d (iv) A  A du du du d d dA (v) ABC A BC BC du du du  dc dB  dA = A B  C  BC    du du  du  dc dB  dA = AB  A C BC  du  du  du d d dA (vi) ABC A BC BC du du du  dc dB  dA = AB  A c BC  du  du  du 7MTH303 VECTORS AND TENSORS ANALYSIS 3.1 Differentiation of Vector 1.
+A Ai A j A k then 1 2 3 dA dAidA jdA k 1 2 3 (2) dAB AdBdAB (3) dAB AdBdAB (4) if A An,y,z then A A A dA dn dy dz n y z Examples Given a vector  - Sin t i + Cos t j + t k dQ d2Q dQ d2Q Obtain a. b. c. d. dt dt2 dt dt2 dQ d d d (a)  (Sin) i + (Cos t) j + tk dt dt dt dt d2Q d dQ d (b)     (Cos t i – Sin t j + k) dt2 dt dt  dt = - Sin t i – Cos t j dQ (c)  Cos2tSin2t12  Sin2tCos2t dt = 0.
+1 3.2 Gradient, Divergence and Curl of Vectors Consider the vector operators  called “del” or nabla defined by      i  j k n y z If (n,y,z has continuous first partial derivatives in a particular region, we define the gradient  as:      Grad   i  j k     n y z 8 MTH303 VECTORS AND TENSORS ANALYSIS    = i  j k n y z Examples (i) If n,y,znyz2 find     i  j k n y z          = i nyz2  j nyz2 k nyz2 n y z = nz2inz2 j2nyz k (ii) if n,y,z3n2yy3z2 find           i 3n2yy3z2  j 3n2yy3z2 k 3n2y y3z2 n y z   = 6nyi 3n2 3y2z2 j2y3z k (iii) If n,y,z is a scalar function P, we know that    Grad i  j k n y z And dr  dni  dyj  dzk    Grad dr  dn  dy  dz n y z = d This implies d grad drdr.
+3.2.1 Directional Derivatives We recall d dr , dr  ds dr dr dr   hence is the unit vector in the direction of dr ds dr ds d dr dr     grad  , if  a ds ds ds d  Then  a grad  ds 9MTH303 VECTORS AND TENSORS ANALYSIS NOTE: d  is the propagation of grad  on the unit vector a and the directional ds  derivative of  in the direction of a Remark  (i) The unit Normal vector N =  (ii) The grad of sum and products of scalars.
+ABi  AB j  ABk  AB n y z A A A  B B B  =  i j k   i j k      n y z   n y z  = A  B    AB  i AB j ABk AB n y z = A B A B A B i B A  j B A k B A     n n   y y   z z   A A A   B B B =i B j Bk BiA  jA kA       n y z   n y z   A A A  B B B =i  j k B Ai  j k       n y z   n y z  = BA  AB 3.2.2 Divergence of a Vector The divergence of a vector function An,y,z is defined by dir A A      = i  j k AiA jA k  n y z 1 2 3 A A A = 1  2  3 n y z 10 MTH303 VECTORS AND TENSORS ANALYSIS Examples 1.
+Obtain the divergence of the vector function A  2nzi  yzj  ny2k at the point (1, -1, 1) 2.
+If n2yz a scalar function and A2nzi yzjny2k Find A at the point (1, -1, 1) 3.
+Determine the content a so that the vector v  n3yi  y2nj  nazk is solenoid Solution        1.
+ A   i  j k 2nzi  yzj  ny2k   n y z  =  2nzi  yz  ny2 n y z = 2z + z = 3z 2.
+A 2n3yz2i  n2y2z jn3y3zk = 6n2yz2 2n2yz2 n3y3 A vector v is solenoid of its divergence zero V 0 implies that 1 + 1 + a = 0  a = - 2 3.2.3 The Curl of a Vector Function The curl of a vector function A define denoted by curl A A      i  j k AiA jA k  n y z 1 2 3 i j k    A A A A A A  =  3  2 , 1  3 , 2  1   n y z  y z z n n y  A A A 1 2 3 Examples 1.
+Find the curl of A if A3n2yi yz2 jnzk 2.
+If  n2y2 and A = 2nziyz jny2k Obtain curl A 11MTH303 VECTORS AND TENSORS ANALYSIS Solution i j k      1.
+Curl A =  02yz, z, 03n2 n y z 3n2y yz2 nz = 2yzi  zj  3n2k 2.
+ A  2n3yz2i  n2y2z2 jn3y2z k i j k     A n y z 2n3yz2 n2y2z2  n3y2z   = 2ny2z2 2n3z2, 4n3yz 3n2y2z,2ny2z 2n3z2 4.0 CONCLUSION This section is very important for the understanding of the remaining units.
+You are to master this unit very well.
+5.0 SUMMARY We have established formula to the following:  vector differentiation  the grad  of scalar field   the curl of a vector function   we show that the unit normal vector N =  6.0 TUTOR-MARKED ASSIGNMENT 1.
+A particle moves along the curve n  2t2, y t2 4t, z 3t 5 where t is the time.
+Find the component of its velocity and acceleration at time t = 1 2 2.
+If A  5titjt3k And B  Sin t i – Cos t j 12 MTH303 VECTORS AND TENSORS ANALYSIS d Find (a) AB dt d (b) AB dt d (c) A A dt 3.
+If n,y,z ny2z and A nziny2 j yz2k 3A Find at point (2, -1, 1) 2nz 4.
+Let r x,y,zbe a vector.
+  Prove that   r m 3mrm2 5.
+Find the divergence of the vector   B  y2 2xyz3,32xy x2z3,6z3 3x2yz2   6.
+If A 2x2 8xy2z,3x3y3ny,2x3z , show that A is not solenoidal.
+r 7.
+Show that the vector A is i rotational where r = xi + yj + zk r3 8.
+If A x2yi y2zj  z2xk show that  A A2A.
+9.
+Given that E and H are two vectors which are assumed to have continuous partial derivatives with respect to position and time.
+Furthermore, Suppose E 0, H 0 1H 1 E E  ; H  c t c t Prove that E & H satisfy the equation 1 2 2 c2 dt2 Use the above relations to show that  1 E2H2cEH 0 2 t 7.0 REFERENCE/FURTHER READING Francis B. Hildebrand (nd).
+Advanced Calculus for Application (2nd ed.).
+13MTH303 VECTORS AND TENSORS ANALYSIS UNIT 3 THE LINE INTEGRAL CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 The Line Integral 3.1.1 The Surface Integral 3.1.2 The Volume Integral 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In a line integral unlike other integrals, we have to consider two or more functions at a time, for integration purposes.
+Suppose these two functions are Mx,yand Nx,y such that they are single valued and continuous at every point of a curve AB.
+Divide the curve AB into  parts by means of Pix ,y  i 1,2,3............1 i i y B(c,d) P (x , y ) n-1 n-1 n-1 P P 1 2 (x ,y ) (x ,y,) 1 1 2 A(a,b) O x Let ∆x  x x , ∆y  y  y where x b,x  c,y  d i i i1 i i i1 0 n n Let ,n be defined by x  x y  yi i1 i1 i1 We form the product and then add then to get n M,x  N,y  i i i1 14 MTH303 VECTORS AND TENSORS ANALYSIS Limit of this sum  and all x 0, y 0 simultaneously is i defined as  line integral along the curve  of two functions M and N simultaneously.
+Thus, we write Limit   n  M,x  N,y  = x 0  i i  i i1 y 0 i Mx,ydx Nx,ydy CurveAB 2.0 OBJECTIVES At the end this unit, you should be able to:  evaluate the line integral of vector functions  identify problems relating to line integrals.
+3.0 MAIN CONTENT 3.1 The Line Integral Let Ax,y,z Ai A j A k be a vector function of position defined 1 2 3 and continuous along a curve C. The integral of the tangential component of A along C is written as: Adr  Adn A dy A dz 1 2 3 c c Where dr  dx dyjdzk.
+i For instance in Aerodynamic and fluid mechanics this line integral Adr is called the circulation of A about c c Where A represents the velocity of Air or the velocity of the fluid as the case may be.
+15MTH303 VECTORS AND TENSORS ANALYSIS Line Integral about closes plane B N C M A   Evaluate the integral I =  2xydy x2dx where C made up of the 3 sides c of triangle motor vertices 00,0, A1,0, &B1,1 Ans = 1 .
+3 SELF-ASSESSMENT EXERCISE 1 1.
+Evaluate the line integral I  ydx from a to a where C is the c circle x2  y2  a 2.
+Find the work done in moving a particle once around a circle C in: a. the xy-plane if the circle C has centre at the origin and radius b.
+If the force field F 2x yzix yzi3x2y4zk is as c. given.
+3.
+If F x3yiy2xj and C is the closed curve in the xy- plane, n=2 cost y = 3 sint, t=0 to t=2.
+Evaluate Fdr.
+4.
+Find the total work done if a particle is moved in a force field by F 3xyi y2 j along the curve y  2x2 in the xy-plane from (0, 0) to (1, 2).
+  5.
+IfA 5x2 4y i14yzj 20xz2k.
+Evaluate Adr from (0, 0, 0) to (1, 1, 1) along the following paths.
+a) c t, y t2, z t3 b) The straight line from (0, 0, 0) to (1, 0, 0) then from (1, 0, 0) to (1, 1, 0) and then to (1, 1, 1) 6.
+Calculate vdr where V= 2ji3xj and c is given by c 7.
+The straight line joining (2, 0) to (0, 0) 8.
+The arc of a circle with centre t theorigin and radius 2 units 16 MTH303 VECTORS AND TENSORS ANALYSIS 3.1.1 The Surface Integral X N P SSS Y R Z Let A represent an element of R and S the corresponding of area of S at the point P(x,y,z) on S. Let also x,y,z be a function of position on S and let Y denote the angle between two outward normal PN to the surface P and the positive Z axis.
+A  S Cos Y S  ASec Y And x,y,zS is the total value of x,y,z taken over the surface  0.
+This sum becomes the integral n I  x,y,zds  x,y,z Sec ydxdy  R Sec y = 1 z2  zy2 n This implies that I  ds   1 z  z2 dxdy s n y s R 17MTH303 VECTORS AND TENSORS ANALYSIS Let S be a 2 sided surface and let one side be considered arbitrary as the positive side associated with the differential of the surface area ds.
+A  vector ds whose magnitude is ds and direction is that ofn.
+then    ds  nds where n is the limit vector normal to any point of the positive   side of S. the integral  Ads  Ands is an example of a surface called the flux of A over  C S S. others are: i.
+ds  ii.
+nds  iii.
+Ads we have dAds Sec Y. where if z  fn,y implying that z fn,y0 f f   i j k     z  cn,y n y n       z f n,y 2 f 2 1   y This implies that    z fn,y f1  f 2 1 n  ds n y   If the angle Y between the z-axis and n is acute the positive sign is  adopt and if the angle is obtuse we adopt the negative sign.
+Hence   d dy Ands  An n depending on the projection    n  k  The projection 18 MTH303 VECTORS AND TENSORS ANALYSIS Example 1  Ands where A18i12j3yk and S is that part of the plane,  2n3y6z 12 which is in the ny plane (lnquadrate)   dndy Ands  A.n  nk  n 2n3y6z12 2i3j6k   2i3j6k n   2,3,6   7 7 7 7  nk 2 ,3 ,6  0,0,1 6 7 7 7 7   An18z,12,3y2 ,3 ,6  7 7 7  36z 3618y = 7 122n3y Now 2n3y6z 12 gives z  6    6122n3y 3618y An   7 7212n18y3618y 3612n =  7 7 This implies that   dndy 3612n 7ndy Ands  An     7 6 nk  =62ndndy To obtain the limit of integration of n we set y = z = 0, and for y we set z = 0 Hence we have 122n 6 3  62ndndy  24 1 y0 19MTH303 VECTORS AND TENSORS ANALYSIS SELF-ASSESSMENT EXERCISE 2 1.
+Evaluate the line integral I  ydx from a to a where C is the c circle x2  y2  a 2.
+Find the work done in moving a particle once around a circle C in: a. the xy-plane if the circle C has centre at the origin and radius b.
+If the force field F 2x yzix yzi3x2y4zk is as c. given.
+3.
+If F x3yiy2xj and C is the closed curve in the xy- plane, n=2 cost y = 3 sint, t=0 to t=2.
+Evaluate Fdr.
+4.
+Find the total work done if a particle is moved in a force field by F 3xyi y2 j along the curve y  2x2 in the xy-plane from (0, 0) to (1, 2).
+5.
+The straight line joining (2, 0) to (0, 0) ii.
+The arc of a circle with cen tre t the origin and radius 2 units 3.1.2 The Volume Integral The volume or space integral is given by Adr or dr for a Closed surface Example If F  n2i zj yzk.
+Evaluate F.ds = F dr where V is the s S volume enclosed by the cube given by0n 1, 0 y 1 and 0 z 1.
+Solution F ds  sFdr Where dr dndydz and F  2n y 1 1 F dr  12n ydndydz  2 3 0 0 0 20 MTH303 VECTORS AND TENSORS ANALYSIS SELF- ASSESSMENT EXERCISE 3  1.
+Evaluate Ands where A zinj3y2z k and S is the surface  of the cylinder n2  y2 16 included in the 1st quadrant between z = 0 and z = 5  2.
+Evaluate nds d in the 1st quadr  ant between z = 0 and z = 5.
+ 3.
+If F  yin2nzjnyk.
+Evaluate F.nds where S is the surface of the sphere n2  y2  z2  a2 from the nyplane.
+4.0 CONCLUSION The materials in this unit are very important for the understanding of subsequent units.
+You must understand this work thoroughly before moving to the next section.
+5.0 SUMMARY In this unit, we established the relationship between line integral of scalar field and vector functions.
+Thus, we have used the line integral in finding  Surface integral  Volume integral or space integral which is given as: Adr or dr, for a closed surface.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+LetF  2nxinj y2k .
+Evaluate F dv where V is the region bounded by the surface n  0, y 0, z  n2,z  4, x  2, y  6 2.
+If F  ny2i yzj zn2k.
+Evaluate F ds over the sphere given by n2  y2  z2 1 3.
+Evaluate  Ads where An zinz  yjy2 2zk and S is the surface of the sphere having centre at (3, -1, 2) and radius 3.
+  4.
+IfF  2n3 3z, 4ny, 4n .
+Evaluate Fdr where r is the closed region bounded by the plane n 0,y 0,z 0 and 2n2y z  4 21MTH303 VECTORS AND TENSORS ANALYSIS 7.0 REFERENCES/FURTHER READING Hildebrand, F.B.
+(nd).
+Advanced Calculus for Applications.
+Verma, P.D.S.
+(nd).
+Engineering Mathematics.
+22 MTH303 VECTORS AND TENSORS ANALYSIS MODULE 2 Unit 1 Green’s Theorem, Divergence Theorem and Stokes‘s Theorem Unit 2 Tensor Analysis UNIT 1 GREEN’S THEOREM, DIVERGENCE THEOREM AND STOKE‘S THEOREM CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Green’s Theorem 3.2 Divergence Theorem 3.3 Stoke’s Theorem 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit, we will discuss some mathematical theorems such as Green’s theorem, divergence theorem and stoke’s theorem.
+These theorems are useful in handling equations of mathematical physics, particularly in the area of velocity of a fluid in three dimensions.
+We know on application of these theorems particularly the divergence theorem that the velocity of an incompressible fluid has zero divergence.
+Some other applications will be considered in this section.
+The references at the back of this unit throw more light on the applications of these theorems; you may wish to contact them.
+23MTH303 VECTORS AND TENSORS ANALYSIS 2.0 OBJECTIVES At the end this unit, you should be able to:  apply the Green’s theorem  apply divergence theorem and stoke’s theorem to solving problems arising from mathematical physics.
+3.0 MAIN CONTENT 3.1 Green’s Theorem If R is a closed region on the ny-plane bounded by a simple closed curve C and if M and N are single valued functions which are continuous in n and y having continuous derivatives in R, then N M  Mdn Ndy    dndy where the curve C is traversed counter    n y  R clockwise Example   Verify the Green’s theorem in the plane for  ny y2 dnn2dywhere C c is a close curve of the region bounded by y  n and y  n2 Solution The point of intersection of y  n and y  n2 is (0, 0) and (1, 1), M  ny y2 and N  x2 M N  x2y and  2n y x  ny y2dnn2dy  2n x2ydndy R   L.HS is  ny y2 dnn2dy along y  n2,dy  2ndx c 1     I   n3 n4 2n3 dn   3n3 n4  19 1 20 0 Along y  n, dy  dn 1 1   I   n2 n2 n2 dn  3n2dn  1 2 0 0 I I  19 1 1 1 2 20 20 24 MTH303 VECTORS AND TENSORS ANALYSIS Now R.H.S.
+n2ydndy  1n n2ydydn 0 n2 R 2 1 1    =  ny y2 dn   n4 n3 dn  1 20 0 n2 0 SELF- ASSESSMENT EXERCISE 1 Evaluate having the Green’s theorem the integral (ySin n)dn Cosndy   where C is bounded by (0, 0), (1 0),  ,1 2, 2 3.2 Divergence Theorem If V is the volume bounded by a closed surface A and A is a vector function of position with continuous derivatives then  Adr  Ands or div FdvFdv  F ds  F ds n v s v v s R Example Verify the divergence theorem for A 4xi2y2 j z2k taken over the region bounded by n2  y2  4, z  0 and z  3 L.H.
+S = dv    4n  2y2  z2 n y z v  44y2zdr 2  4n2 344y2zdzdydx 4 2  4n2 0 R.H.S.
+The surface S of the cylinder consists of a base S (z 0) and the 1 top S z 3 and the convex positionS n2  y2  4.
+Then the surface is 2 3 given by     Ands  Ands Ands Ands 1 2 3     s s1 s2 s3  On S z 0 n k , A = 4xi2y2 j An 0 1   On S z 3 n = 4, A  4x 2y2 j9k so that 2 i 25MTH303 VECTORS AND TENSORS ANALYSIS  Ands  9ds 9ds 9436 2 3 S 2   On S x2  y2  4 3    xi yj  x2  y2  4  2xi2yj  n   2     xi yj An  4xi2y2 j z2k      2  = 2x2  y3 Let x 2 Cos, y  2 Sin ds  2ddz 3 This implies that  Ands  2322 Cos 2 Sin3 .
+2 dzd 3 S3  0 0 3 2     8 Cos28 Sin3  dzd 0 0 2 3  16   Cos2Sin2dzd 0 0 2   48 Cos2Sin3d 48 0 Hence the total surface S 03648 84 SELF -ASSESSMENT EXERCISE 2 1.
+Evaluate F nds where F  4xzi y2 j yzk and S is the  S surface of the cube bounded by n 0, x 1, y 1 z 0, z 1 2.
+Evaluate rnds where S is a closed surface.
+3.3 Stoke’s Theorem If S is an open two-sided surface bounded by a closed non-intersecting curve C (Simple closed curve) then if A has continuous derivatives.
+ Adr   Ands   Ads c  c s Where C is traversed counter-clock wisely Example: Use stoke’s theorem to determine   Ands where Ayz 2iyz4jxzk s  26 MTH303 VECTORS AND TENSORS ANALYSIS And S is the surface of the closed cube n 0,y 0, z 0, x 2, y  2, z  2 the xyplane.
+Solution: By stoke’s theorem  I =  Ands  Adr  s c =y z2dxyz4dy xzdz c Since it is above the xyplane then z  0 I  y2dx4dy c By applying the Green’s theorem M N M  y2, N 4 1 0 y x 2 2 I  dydx    dxdy  4.
+0 0 SELF- ASSESSMENT EXERCISE 3 Use the stoke’s theorem to determine 2x2  ydx y2z3dy y3z2dz where S is the upper half surface of the s sphere x2  y2  z2 1 is the xyplane.
+4.0 CONCLUSION The materials in this unit should be well understood before moving to tensor analysis which made use of all the materials we have developed in the preceding chapters.
+5.0 SUMMARY We have established the following formula: N M   MdxNdy  dxdy    x y  R   Adr  Ands.
+ S   Adr   Ands   Ads.
+ C 27MTH303 VECTORS AND TENSORS ANALYSIS Study the material presented in the preceding sections because the whole ideas will be used in the subsequent sections on vector and tensors.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Evaluate by using Green’s theorem      2.
+ x2  y dx x y2 dy Where C is a closed curve formed by C y3  x2 and y  xbetween (0, 0) and (1, 1) 3.
+Use stokes’ theorem to transform  ydx xdzzdyto a surface integral.
+4.
+Prove that Grad gradgrd 5.
+Prove that div divuu.grad 7.0 REFERENCES/FURTHER READING Hildebrand, F.B.
+(nd).
+Advanced Calculus for Application.
+Verma, P.D.S.
+(nd).
+Engineering Mathematics.
+28 MTH303 VECTORS AND TENSORS ANALYSIS UNIT 2 TENSOR ANALYSIS CONTENTS 1.0 Introduction 2.0 Objectives 4.0 Main Content 3.1 Transformation of Co-coordinates 3.2 Cartesian Tensor 3.3 Summation Convections 3.4 Contravariant and Covariant Vector 3.5 Contravariant, Covariant and Mixed Vector 3.6 Fundamental Operations with Tensor 3.7 Outer Multiplication 3.8 Multiplication of Tensor 3.9 Double Product of 2 Tensors 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION This section introduces you to Tensor Analysis.
+The work will make use of the ideas developed in the previous units.
+2.0 OBJECTIVES At the end this unit, you should be able to:  define tensors  perform various operations on tensors  solve correctly any exercise on tensor analysis.
+3.0 MAIN CONTENT A point in the N-dimensional space is a set of N numbers denoted by   X1,X2,.......,XN where 1, 2,….,N are taken not s exponents but as superscripts.
+The fact that we cannot visualise points in spaces of dimension higher than 3 has of course nothing to do with the existence of such space.
+29MTH303 VECTORS AND TENSORS ANALYSIS 3.1 Transformation of Co-coordinates 1 N Let X1,X2,X3,...,Xn and X ,X ,X ,...X be co-ordinates of point in 2 3 two different frames of references.
+Suppose there exist independent relations between the co-ordiante of the two systems having the form 1 1  X  X X1,X2,...,X N 2 2  X  X X1,X2,...,X N ----------- (1)  N N  N  X X1,X2,...X N R R    Which can be indicated briefly as X  X X1,X2,...X N _________ n where K = 1, 2, …N.
+It is assumed that the functions involved are singled valued, continuous and have continuous derivatives.
+The   1 2 N converse to each set of coordinates X ,X ,...,X the will correspond a     2 N unique set X1,X2,...,XN given by X K  Xk X ,X ,X ______-_ (iv) The relation given by equation (ii) and (iii) defines a transformation of co-ordinate from one frame of reference to another frame of reference.
+3.2 Cartesian Tensor Definition: When the transformations are from one rectangular co- ordinate system to another the tensors are called Cartesian tensors.
+3.3 Summation Convection N Note that ajxj  a x1 a x2 ...a xN but a shorter notation is 1 2 N i1 simply to write as a xj where the convention that whenever the index j (super or subscript) is repeated in a given term we are to sum from the index from 1 to N unless otherwise specified.
+This is called the summation convention instead of moving the index j we could us another letter say P and the sum could be written as a X p. Any index p which is repeated in a given term so that the summation convection applied is called a dummy index.
+As index occurring only once is called “free index” and can stand for any of the number 1, 2, …,N such as k is equation (ii) and (iii) 30 MTH303 VECTORS AND TENSORS ANALYSIS Examples   1.
+If X1,X2,...,X3 then the differential of  dx1     dx2 ... dxN x X2 X N 1 N   d  dxj  dxj X j X j j1 k k k k dX X X1 X X2 X NN 2.
+  .... t X1 t X2 t X N t k k X X XM   t XM t 3.
+If S2  g X12  g X22  g X32 11 22 33 S2  g Xk2 kk 3.4 Contravariant and Covariant Vectors   If N quantities A1,A2,...AN is in a co-ordinate system X1,X2,...,XN are 1 2 N related to N other quantitiesA ,A ,...,A .
+In another co-ordinate 1 2 N systemX ,X ,...,X .
+By the transformation equations P AP N X Aq X2 p1 They are called component of a Contravariant vector or Contravariant tensor of the first rank or first order.
+If N quantities A ,A ,...,A in a co-ordinate system X1,X2,...,X N are 1 2 N related to N, other quantities A ,A ,...,A in another co-ordinate 1 2 N 1 2 N systemX ,X ,...,X .
+By the transformation equalities N x2 A   A ,P 1,2,...,N p p q q1x xq By convection A  Aq they are called component of a covariant p p x vector or tensor of the first rank or first order.
+Note: That a superscript is used to indicate contravariant component and subscript is used to indicate a covariant component.
+31MTH303 VECTORS AND TENSORS ANALYSIS Examples on Contravariant and Covariant Tensor 1.
+Write the law of transformation for: i x xb xc A     Ak  jk xa j k bc x x 2.
+Illustrate: As an aid for remembering the transformation, note that the relative position of indices p q r On the left side of the 1 2 transformation are the same as those on the right hand side of the equation.
+Some these indexes are associated with x co-ordinate and since indices i, j,k are easily written as it was done p q pq x x xi xj xk (a) Bmn Consider B  , , , , Bmn ijk rst xm xn r s t ijk x x x p p x (b) Cm Consider C Cm xm 3.5 Contravariant, Covariant and Mixed Tensor   If N2 quantities Aqs in a co-ordinate system X1,X2,...,XN are related   pr 1 2 N to N2 other quantities A in another co-ordinate system X ,X ,...,X p r by transformation equations Apr N N x x Aqs p,r 1,2,..,N x2 xs q1 j1 p r pr x x A   Aqs it is called contravariant component of a tensor of xq xs the second rank.
+The N2 quantities A are called covariant component qs xq xs of a tensor of the second rank is A   A e.g.
+of mixed tensor pr p r qs x x p q Scalar or invariant: A scalar or invariant is called a tensor of rank zero.
+Symmetric and Skew Symmetric Tensor A tensor is called symmetric w.r.t.
+of indices if its component remains unaltered upon.
+Interchange of the indices e.g.
+if Ampt = Apmr the tensor qs qs is symmetric in p and m. A tensor is called skew symmetric with .respect .to.
+2 contravariant or 2 covariant indices of its component change sing upon interchange of the indices e.g.
+Ampr  Apmrin m& p qa qs 32 MTH303 VECTORS AND TENSORS ANALYSIS Tensor of rank greater than 2 Aqst are component of a mixed tensor of rank 5.
+(Contravariant of order kl 5 and covariant of order 2).
+The kronecker Delta 0 If j  k This written j is defined as j    is a mixed tensor of 2nd k k 1 If j  k rank.
+Examples p p q 1.
+Evaluate (a)  Aqr (b)   s q q r Solution p Since  1 if p  q & 0 if p q q p   Aqr  Aqr s s q xp p 2.
+Show that   xq q Solution xp If p = q, then =1 since X p  Xq xq xp xp p If p = q then xp and xq re independent then 0    x2 xq q 3.6 Fundamental Operation with Tensor Addition and Subtraction: The sum of 2 or more tensor of the same rank and type i.e.
+same number of Contravariant indices and same number of covariant indices is also a tensor of the same rank and type thus if Ampand Bmp are the tensor then Cmp  Amp  Bmp of vector is q q q q q Enumerative and Associative.
+The difference of 2 tensors of the same rank and type is also a tensor of the same rank and type.
+i.e.
+Dmp  Amp Bmp q q q 33MTH303 VECTORS AND TENSORS ANALYSIS Example If Apq and Bpq are tensor.
+Prove that their sum and difference are r r tensor.
+Solution j k jk x x xr A  , , Apq i xp xq j r x j k jk x x xr B  .
+.
+Bpq i xp xq j r x  Ajk  Bjk  xj .xk .xr Apq  Bpq i i xp xq i  r r  x  And Ajk Bjk xj .xk .xr Apq Bpq i i xp xq j  r r  x  3.7 Outer Multiplication The product of 2 tensors is a tensor whose rank is of the given tensor.
+This product which involves ordinary multiplication of the component of the tensor is called the outer product e.g.
+Apr Bm Cprm is the outer product of Apr and Bm q s qs q s Contraction: If one contravariant and one covariant index of a tensor are set equal, the result indicates that, summation over the equal.
+Indices are to be taking according to the summation convection.
+This resulting sum is a tensor of rank 2 lesser than the original tensor.
+The process is called contraction.
+SELF- ASSESSMENT EXERCISE iIf a tensor of rank 5 Ampr i.e.
+set r = s to obtain Ampr  Bmp qs qs q Tensor of Rank 3 Exercise 2 By setting the above Bmp where p = 2 Bmp  Dm q q 34 MTH303 VECTORS AND TENSORS ANALYSIS Internal Multiplication By the process of outer multiplication of 2 tensor followed by contraction, we obtain a new tensor called an inner product of a given tensor, the process is called inner multiplication.
+e.g.
+if Amp and Br the outer product Amp Br , letting q = r, we obtain q st q st Amp and Br and this is the inner product, moreover, if p = s then r st another inner product is obtain Amp and Br q pt Tensor form of gradient, divergent and curl (i) Gradient: If  is a scalar of invariant, the gradient of  is  defined by  = grad, P  where , P is the covariant xp derivative of  w.r.t xp (ii) Divergent: The divergent of Ap is the contraction of its covariant derivative w.r.t xq be the contraction of A p q Mathematically, 1   Ap Dir Ap  Ap  gAk  q gxk Xq A A (iii) Curl: The curl of A is A  A  p  q p p,q q,p Xq X p Tensor of rank 2, the curl is also define as pqr A p,q (iv) Laplacian: The Laplacian of  is the divergence of grad  and 1    2 = dir ,P  g g jk .
+g Xj xk  In case g  0, g must be replace by  g both cases g  0 & g  0 can be included the written g in place g .
+Alternating Tensor  i,j,k  i if i, j,k are in cycle  This is define by   1 if i, j,k are anti cycle i,j,k  0 if i, j,k on 0 k  i j  ij 0i  1 ij ik  ik i.j  0 for i j ij 35MTH303 VECTORS AND TENSORS ANALYSIS jk  jk i j  i. j sum O.K where  is the angle between i & j    r 2 i 1, j 1  i j 11 Sum K  K 2 Using alternating tensor 3   i j     k ijk ij1 ij2 ij3 K 21 = (0 + 0 + 1)K = K Notation Let us denote the unit tensor by ,  is a matrix.
+ = (1, 0, 0) = I a unit vector along k – arms 1  = (0, 1, 0) = j a unit vector along y – arms 2  = (0, 1, 0) = k a unit vector along z – arms 3 1 0 0    = 0 1 0 = unit 3 x 3 matrix   0 0 1   Use alternating tensor to establish the result of uv where uv are vectors.
+By vector product i j k uv  u u u 1 2 3 v v v 1 2 3 u v u v 0u v u v j  u v u v k 2 3 3 2 1 3 3 1 1 2 2 1 By alternating tensor 3 3 3 uv   i U V ijk j k i1 j1 k1 3 3      U V  U V  U V ij1 i j 1 ij2 i j 2 ij3 i j 3 i1 j1 36 MTH303 VECTORS AND TENSORS ANALYSIS 3   U V  U V  U V  U V  U V  U V i21 i 2 1 i31 i 3 1 i12 i 1 2 i32 i 3 2 i13 i 1 3 i21 i 2 3 j1  3    U V  U V  U V  U V  U V  U V  i21 i 2 1 i31 i 3 1 i12 i 1 2 i32 i 3 2 i13 i 1 3 i23 i 2 3   i1   U V   U V   U V  U V   U V  U V 321 3 2 1 231 2 3 1 312 3 1 2 132 1 3 2 213 2 1 3 123 1 2 3    U V   U V   U V  U V   U V  U V 321 3 2 1 231 2 3 1 312 3 1 2 132 1 3 2 213 2 1 3 123 1 2 3  U V K U V jU V K U V iU V jU V i 2 1 3 1 1 2 3 2 1 3 2 3 U V U V iU V U V jU V k U V proved.
+2 3 3 2 3 1 1 3 2 1 Defined The vector U  U ,U ,U ,   (1,0,0),  (0,1,0),  (0,0,1) e.t.c.
+is 1 2 3 1 2 3 called first order tensor.
+Let L be a second order tensor L L L  1 0 0  11 12 13   L L21 L22 L23 & 0 1 0  I3x3 L L L  0 0 1  31 32 33   3.8 Multiplication of Tensors We have various multiplications Dynoadic product Let U  U ,U ,U , V  V ,V V  be vectors i.e.
+first order tensor 1 2 3 1 2 3 Definition: we defined the dynoadic products of u & v written as U V U V U V U V   1 1 1 2 1 3  U V U V U V U V  2 1 2 2 2 3   U V U V U U   3 1 3 2 3 3 1 0 0 0 1 0     Hence   0 0 0 &   0 0 0 1 1 1 2     0 0 0 0 0 0     37MTH303 VECTORS AND TENSORS ANALYSIS Let L1  L N  3 i j ij Let s be scalar and L be second order tensor then SL  S i N  3 i j SL S L i j ij i1 j1 Single Dot, Product of 2 Tensors Definition: Let 0,L be tensors.
+We defined the single dot product of 0 and L Written 0 L so that the IL component of 0 L  0ij L jl L L L  0 0 0   11 12 13  11 12 13 L  L L L  , 00 0 0  21 22 23 21 22 23     L L L 0 0 0  31 32 33  31 32 33 S S S   11 12 13 3 0 L S21 S22 S23 where Sil  0ijLjL S S S  j1   31 32 33 = 0 L 0 L 0 L i1 1L i2 2L i3 jL Dot Product of a Tensor and a Vector Let L be a tensor, let v be a vector.
+The dot product of L and v   written L,V is defined by       L V  L V so that ith component of L V L V i ij j ij j 0 Example L L L   11 12 13 If L L L L  & V  V ,V ,V  21 22 23 1 2 3   L L L  31 32 33 38 MTH303 VECTORS AND TENSORS ANALYSIS 3 The first component is L V  L V  L V  L V 1j j 11 1 12 2 13 3 j1 3 The second component is L V  L V  L V  L V 2j j 21 1 22 2 23 3 j1 3 The third component is L V  L V  L V  L V 3j j 31 1 32 2 33 3 j1 So [L V ]= (S , S S ) 1 2 3 Let consider   vL1  V L or  V L i i ji i j ji  The ith component = V L j ji 3 First component = V L V L V L V L j ji 1 11 2 21 3 31 j1 3 Second component = V L V L V L V L j i2 1 12 2 22 3 32 j1 3 Third component = V L V L V L V L j j3 1 13 2 23 3 33 j1 Note L is symmetric if L  L ij ji Otherwise L is not symmetric hence     L V  V L Example Prove that (i) vvv (ii) uvwuvw 3.9 Double Product of 2 Tensors Let ,L be tensor   Definition: we define the double product of 0 and L written 0 :L   as 0 :L  0 L ij jl i j 39MTH303 VECTORS AND TENSORS ANALYSIS In the same way   L uw  L U W ij j i i j Similarly (i) (vw:xy)  VW X Y i j j i   (ii) 0 :L L ,   a if i j ij ij Prove 1 0 0 L L L     11 12 13 0 0 1 0L L21 L22 L23 0 0 1 L L L     31 32 33   3 3 0 L 0 L ij ji i1 i1 3    0 L 0 L 0 L i1 1i i2 2i i3 3i i1 =0 L 0 L 0 L 11 11 22 22 33 33 =  L  L  L i.e.
+ 0 if 0  j & uf j 11 11 33 ij ij 22 22 33    0 L  L  L  L 11 22 33 4.0 CONCLUSION The tensor analysis discussed in this unit is to familiarise you with high language being used in higher mathematics.
+You need to study this unit properly so that you can apply it to a lot of future mathematics courses.
+5.0 SUMMARY In this unit we have learnt about the following:  summation convention in tensor analysis  product of tensors  covariant tensors , and contra variant tensors  the gradient ,divergent and curl of tensors  tensors of various ranks.
+You are required to master them properly so that you will able to do various exercises and Tutor- Marked Assignments in this unit.
+40 MTH303 VECTORS AND TENSORS ANALYSIS 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Write each of the following using the summation convention.
+   d dx1  dx2 .... dxN.
+x1 x2 xN 2.
+If Apr and Bm are tensor.
+Prove that Cprm  Apr Bm is also a k s qs q s tensor i j ij x x xq A  .
+.
+Apr k xp xr k q x L m x xs B  .
+Bm n xm r s x i j L ij L ijL x x xq x xs  A B C      Aprm k v kr xp xr k xm r qs x x dxk xkdx1 xk d   dt xdt x2 7.0 REFERENCES/FURTHER READING Hildebrand, F.B.
+(nd).
+Advanced Calculus for Application.
+Verma, P.D.S.(nd).
+Engineering Mathematics.
+41

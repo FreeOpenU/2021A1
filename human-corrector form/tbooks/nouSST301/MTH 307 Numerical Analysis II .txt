@@ -1,0 +1,1079 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA COURSE CODE : MTH 307 COURSE TITLE: NUMERICAL ANALYSIS II 1  Course Code: MTH 307: Course Title: NUMERICAL ANALYSIS II Course Developer/Writer: Dr. S. A. Okunuga Department of Mathematics, University of Lagos Akoka, Lagos, Nigeria Course Editor: … Programme Leader: … Course Coordinator: … NATIONAL OPEN UNIVERSITY OF NIGERIA 2  MTH 307: NUMERICAL ANALYSIS II 3 units Course content MODULE 1 APPROXIMATIONS Unit 1 Polynomials Unit 2 Least Squares Approximation (Discrete Case) Unit 3 Least Squares Approximation (Continuous Case) MODULE 2: ORTHOGONAL POLYNOMIALS Unit 1 Introduction to Orthogonal System Unit 2 The Legendre Polynomials Unit 3 Least Squares Approximations by Legendre Polynomials Unit 4 The Chebyshev Polynomials Unit 5 Series of Chebyshev Polynomials Unit 6 Chebyshev Approximations MODULE 3: FURTHER INTERPOLATION TECHNIQUES Unit 1 Cubic Splines Approximation Unit 2 Hermite Approximations MODULE 4 NUMERICAL INTEGRATION Unit 1 Introduction to Numerical Integration Unit 2 Trapezoidal Rule Unit 3 Simpson’s Rules Unit 4 Newton-Cotes Formulas MODULE 5: BOUNDARY VALUE PROBLEMS Unit 1 Introduction to BVP Unit 2 BVP involving Partial Differential Equation Unit 3 Solution of Laplace Equation in a Rectangle 3 MODULE 1 APPROXIMATIONS UNIT 1: POLYNOMIALS 1.0 Introduction Polynomials are very useful in the study of Mathematics especially in Numerical Analysis.
+Over the years polynomials have been used as approximation to several functions.
+Although polynomials are sometimes difficult to solve as equations yet they help in appreciating the value of certain functions.
+To this end, polynomials are of paramount importance when it comes to approximation theory.
+2.0 Objectives By the end of this unit, the learner should be able to: (a) define a polynomial; (b) understand the degree of a polynomial; (c) distinguish between polynomial as a function and a polynomial equation; (d) express simple functions as polynomials (e) name types of approximation methods.
+3.0 What is a Polynomial?
+From elementary Mathematics, you have come across polynomials in various forms.
+The commonest one is what is usually called the quadratic expression which can be written as ax2 + bx + c Thus examples of polynomials may include: 2x2 – 3x +1 x2 + 6x – 5 x4 + 3x3- x 2 +2x + 5 and so on.
+We shall therefore give a standard definition of what a polynomial is Definition 1 A function P(x) of the form 2 n (3.1) P(x) = a + a x + a x + … + a x 0 1 2 n is said to be a polynomial in x, where a , a , a , .
+.
+.
+, a are the coefficients of the function P(x).
+o 1 2 n These coefficients may be real or complex numbers.
+3.1 The Degree of a Polynomial Definition 2 The highest power to which the variable x is raised in a polynomial P(x) is the degree of the polynomial.
+Hence, the polynomial function P(x) given by equation (3.1) is of degree n, For example any quadratic expression is a polynomial of degree 2.
+4 If P(x) = x4 + 3x3- x 2 +2x + 5, then P(x) is of degree 4 2x2 – 3x +1 is a polynomial of degree two.
+3.2 Polynomial Equation A polynomial is simply an expression whereas a polynomial can be come an equation if the expression is equated to a quantity, often to zero.
+Thus, when we write P(x) = 0 , from equation (3.1) then equation (3.1) becomes a polynomial equation.
+Although (3.1) is called an equation this is only because the polynomial is designated as P(x) on the left hand side.
+Apart from this, it is simply a polynomial.
+Thus 2 n a + a x + a x + … + a x 0 1 2 n is a polynomial of degree n, whereas 2 n a + a x + a x + … + a x = 0 (3.2) 0 1 2 n is a polynomial equation of degree n. We must observe that if all the terms of a polynomial exist, then the number of coefficients exceed the degree of the polynomial by one.
+Thus a polynomial of degree n given by equation (3.2) has n+1 coefficients.
+Polynomial equation can be solved to determine the value of the variable (say x) that satisfies the equation.
+On the other hand there is nothing to solve in a polynomial.
+At best you may factorize or expand a polynomial and never to solve for the value of the variable.
+Thus we can solve the polynomial equation x3 + x2 −2x =0 But we can only factorize x3 + x2 −2x To factorize the expression x3 + x2 −2x we shall get: x(x+2)(x – 1) But solving for x in the equation we get: x = –2 , 0, 1 There are many things that we can do with polynomials.
+One of such things is to use polynomials to approximate non-polynomial functions.
+3.3 Function Approximation There are functions that are not polynomials but we may wish to represent such by a polynomial.
+For example, we may wish to write cos x or exp(x) in terms of polynomials.
+How do we achieve this?
+The learner should not confuse this with expansion of a seemly polynomial by Binomial expansion.
+For example, we can expand (1+ x)8 using binomial expansion.
+Without expanding this, the expression is simply a polynomial of degree 8.
+However, if we wish to write ex as a polynomial, then it can be written in the form: ex = a +a x+a x2 +a x3 +...+a xn +... o 1 2 3 n This is only possible by using series expansion such as Taylor or Maclaurin series.
+The learner is assumed to have studied Taylor or Maclaurin series of simple functions at the lower level.
+For example, the expansion of exp(x) is written as: 2 3 n x x x x e =1+ x+ + +...+ +... 2!
+3!
+n!
+5 This shows that exp(x) can be expressed as a polynomial function.
+The degree of where the k x polynomial is truncated (terminated), say , is the approximation that is written for ex.
+It may k!
+be reasonable to let k be large, say at least 2.
+Hence a fourth order approximation of exp(x) will be: 2 3 4 x x x ex =1+ x+ + + (3.3) 2!
+3!
+4!
+That is, ex is written here as a polynomial of degree 4.
+Similarly the Taylor series for cos x is given by 2 4 6 x x x cosx =1+ + + + ... (3.4) 2!
+4!
+6!
+The illustration above leads us to the study of approximation theory.
+3.4 Types of Functions Approximation Before we go fully into the discussion of various approximations in Numerical Analysis, we need to state that there may arise two problems.
+The first problem arises when a function is given explicitly, but we wish to find a simpler type of function such as a polynomial, that can be used to approximate values of the given function.
+The second kind of problem in approximation theory is concerned with fitting functions to a given set of data and finding the “best” function in a certain class that can be used to represent the set of data.
+To handle these two problems, we shall in this study discuss some of the basic methods of approximations.
+Some of the approximation methods of functions, in existence, include: (i.)
+Taylor’s Approximation (ii.)
+Lagrange polynomials (iii.)
+Least-Squares approximation (iv.)
+Hermite approximation (v.) Cubic Spline interpolation (vi.)
+Chebyshev approximation (vii.)
+Legendre Polynomials (viii.)
+Rational function approximation; and some few others more.
+Every approximation theory involves polynomials; hence, some methods of approximation are sometimes called polynomials.
+For example, Chebyshev approximation is often referred to as Chebyshev polynomials.
+We shall begin this discussion of these approximations with the Least Squares Approximation.
+Self Assessment Exercise 1.
+How many non-zero coefficients has (2x+5)(x2 −1) 2 2.
+What is the degree of the polynomial involved in the equation: (2x+1)(x2 − ) =0?
+x hence obtain its solution.
+3.
+Write a polynomial of degree 3 with only two coefficients 4.
+By following equation (3.3) write down the expansion of e –x 6 4.0 Conclusion Polynomials are basic tools that can be used to express other functions in a simpler form.
+While it may be difficult to calculate e3 without a calculator, because the exponential function e is approximately 2.718, but we can simply substitute 3 into the expansion given by (3.3) and simplify to get an approximate value of e3.
+Hence a close attention should be given to this type of function.
+5.0 Summary In this Unit we have learnt that (i) polynomials are expression involving various degrees of variable x which may be sum together.
+(ii) polynomial expression is different from polynomial equation.
+(iii) simple functions can be written through the expansion given by Taylor or Maclaurin series.
+(iv) there are various polynomial approximations which can be used to estimate either a function or a set of data.
+6.0 Tutor Marked Assignment 1.
+Obtain the Taylor’s expansion of sin x 2.
+Distinguish between Taylor series and Binomial expansion 3.
+Find the Maclaurin series for e –x as far as the term involving x4 and hence estimate e –2 7.0 Further Reading and Other Resources.
+1.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+2.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+3.
+Okunuga, S. A., and Akanbi M, A., (2004).
+Computational Mathematics, First Course, WIM Pub.
+Lagos, Nigeria.
+4.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 7  MODULE 1 UNIT 2: Least Squares Approximation (Discrete Case) 1.0 Introduction Sometimes we may be confronted with finding a function which may represent a set of data points which are given for both arguments x and y.
+Often it may be difficult to find such a function y = y(x) except by certain techniques.
+One of the known methods of fitting a polynomial function to this set of data is the Least squares approach.
+The least squares approach is a technique which is developed to reduce the sum of squares of errors in fitting the unknown function.
+The Least Squares Approximation methods can be classified into two, namely the discrete least square approximation and the continuous least squares approximation.
+The first involves fitting a polynomial function to a set of data points using the least squares approach, while the latter requires the use of orthogonal polynomials to determine an appropriate polynomial function that fits a given function.
+For these reasons, we shall treat them separately.
+2.0 Objective By the end of this unit, you should be able to: (a) handle fitting of polynomial (for discrete case) by least squares method (b) derive the least square formula for discrete data (c) fit a linear polynomial to a set of data points (d) fit a quadratic or parabolic polynomial to a set of data points 3.0 Discrete Least Squares Approximation The basic idea of least square approximation is to fit a polynomial function P(x) to a set of data points (x, y) having a theoretical solution i i y = f(x) (3.1) The aim is to minimize the squares of the errors.
+In order to do this, suppose the set of data satisfying the theoretical solution ( 3.1) are (x , y ), (x , y ), .
+.
+.
+, (x , y ) 1 1 2 2 n n Attempt will be made to fit a polynomial using these set of data points to approximate the theoretical solution f(x).
+The polynomial to be fitted to these set of points will be denoted by P(x) or sometimes P (x) to n denote a polynomial of degree n. The curve or line P(x) fitted to the observation y , y , .
+.
+.
+, y 1 2 n will be regarded as the best fit to f(x), if the difference between P(x) and f(x) , i = 1, 2, .
+.
+.
+, n is i i least.
+That is, the sum of the differences e = f(x) – P(x), i = 1, 2, .
+.
+.
+, n should be the minimum.
+i i i The differences obtained from e could be negative or positive and when all these e are summed i i up, the sum may add up to zero.
+This will not give the true error of the approximating polynomial.
+Thus to estimate the exact error sum, the square of these differences are more appropriate.
+In other words, we usually consider the sum of the squares of the deviations to get the best fitted curve.
+Thus the required equation for the sum of squares error is then written as n ∑[ ]2 S = f(x )−P(x ) (3.2) i i i=1 which will be minimized.
+8 where P(x) is given by 2 n (3.3) P(x) = a + a x + a x + … + a x 0 1 2 n The above approach can be viewed either in the discrete case or in the continuous case 3.1 Fitting of polynomials (Discrete case) We shall now derive the formula in discrete form that fits a set of data point by Least squares technique.
+The aim of least squares method is to minimize the error of squares.
+To do this we begin by substituting equations (3.1) and (3.3) in equation (3.2), this gives: n [ ] 2 ∑ 2 k S = y −(a +a x +a x +....+a x ) (3.4) i o 1 i 2 i k i i=1 To minimize S, we must differentiate S with respect to a and equate to zero.
+Hence, if we i differentiate equation (3.4) partially with respect to a , a ,…,a , and equate each to zero, we shall 0 1 k obtain the following: ∂S n [ ] =−2∑ y −(a +a x +a x2 +....+a xk) =0 i o 1 i 2 i k i ∂a o i=1 ∂S n [ ] = −2∑ y −(a +a x +a x2 +....+a xk) x =0 i o 1 i 2 i k i i ∂a 1 i=1 ∂S n [ ] =−2∑ y −(a +a x +a x2 +....+a xk).x2 =0 (3.5) i o 1 i 2 i k i i ∂a 2 i=1 ………….
+∂S n [ ] =−2∑ y −(a +a x +a x2 +....+a xk).xk =0 i o 1 i 2 i k i i ∂a k i=1 These can be written as ∑y =na +a ∑x +a ∑x2 +....+a ∑xk i o 1 i 2 i k i ∑x y =a ∑x +a ∑x2 +a ∑x3+....+a ∑xk+1 i i o i 1 i 2 i k i ∑x2y =a ∑x2 +a ∑x3+a ∑x4 +....+a ∑xk+2 (3.6) i i o i 1 i 2 i k i … .
+.
+.
+.
+.
+.
+∑xky =a ∑xk +a ∑xk+1+a ∑xk+2 +....+a ∑x2k i i o i 1 i 2 i k i n where ∑ is assumed as short form for ∑ i=1 Solving equation (3.6) to determine a , a ,…a and substituting into equation (3.3) gives the best 0 1 k fitted curve to (3.1).
+The set of equations in (3.6) are called the Normal Equations of the Least Squares Method Equation (3.6) can only be used by creating a table of values corresponding to each sum and the sum is found for each summation.
+We shall now illustrate how to use the set of equations (3.6) in a tabular form.
+Self Assessment Exercise 1.
+For a quadratic approximation, how many columns will be required, list the variables for the columns excluding the given x and y columns.
+2.
+Give one reason why we need to square the errors in a least square method.
+9 3.2 Numerical Example Example 1 By using the Least Squares Approximation, fit (a) a straight line (b) a parabola to the given data below x 1 2 3 4 5 6 y 120 90 60 70 35 11 Which of these two approximations has least error?
+Solution (a) In order to fit a straight line to the set of data above, we assume the equation of the form y = a +a x o 1 The graph of the set of data above is given by in figure 1 140 120 100 80 Series1 60 40 20 0 0 2 4 6 8 Figure 1 By inspection a straight line may be fitted to this set of data as the line of best fit, since most of the points will lie on the fitted line or close to it.
+However, some may want to fit a curve to this but the accuracy of the curve fitted is a thing for consideration.
+Now from the straight line equation above, we have to determine two unknowns a , and a , the o 1 normal equations necessary to determine these unknowns can be obtained from equation (1.7) as: ∑y = na +a ∑x i o 1 i ∑x y =a ∑x +a ∑x2 i i o i 1 i Hence we shall need to construct columns for vales of xy and x2 in addition to x and y values already given.
+Thus the table below shows the necessary columns: 10 Table 1 x y x2 xy 1 120 1 120 2 90 4 180 3 60 9 180 4 70 16 280 5 35 25 175 6 11 36 66 Σ 21 386 91 1001 386=6a +21a o 1 1001= 21a +91a o 1 Solving these two equations, we obtain a =134.33 , a = −20 o 1 Therefore the straight line fitted to the given data is y = 134.33 – 20x (b) In a similar manner, the parabola can be written as y = a +a x+a x2.
+Hence the required o 1 2 normal equations to determine the unknowns a , a and a are: o 1 2 ∑y =na +a ∑x +a ∑x2 i o 1 i 2 i ∑x y =a ∑x +a ∑x2 +a ∑x3 i i o i 1 i 2 i ∑x2y =a ∑x2 +a ∑x3+a ∑x4 i i o i 1 i 2 i Thus, we construct the necessary columns in Table 2 given below: Table 2 x y x2 x3 x4 xy x2y 1 120 1 1 1 120 120 2 90 4 8 16 180 360 3 60 9 27 81 180 540 4 70 16 64 256 280 1120 5 35 25 125 625 175 875 6 11 36 216 1296 66 396 21 386 91 441 2275 1001 3411 Substituting into the normal equations, we have 6a +21a +91a =386 o 1 2 21a +91a +441a =1001 o 1 2 91a +441a +2275a =3411 o 1 2 On carefully solving these equations, we obtain 85 5 a =136 , a = − , a = o 1 2 4 28 As a learner, you are expected to solve these equations by any simple method known to you.
+Hence the fitted curve is y =136−85 x+ 5 x2 4 28 11 The graphs of the two approximate functions are shown below: Linear Approximation 160 140 120 100 80 60 40 20 0 0 2 4 6 8 Figure 2 Quadratic Approximation 160 140 120 100 80 60 40 20 0 0 2 4 6 8 Figure 3 The two lines look like a straight line but the errors of the two lines will depict the better approximation.
+We can now consider the accuracy of the two fitted functions to the data and decide on which one of the two approximations is better.
+To do this we may retain values of x for 1, 2, .
+.
+.
+, 6 and evaluate the corresponding y values.
+For example when x = 1, the linear approximation gives y = 134.33 – 20 = 114.33, where as for the same x = 1 the quadratic approximation gives: y =136−85 + 5 =114.9.
+For the set of 4 28 values of x tabulated we have the corresponding values for y in both approximations.
+The squares of the errors are considered as (y – y)2.
+The table below describes the error table.
+i 12  Table 3 x y y = y(L) y = y(Q) (y-y )2 (y-y )2 1 2 1 2 1 120 114.33 114.9 32.1489 26.01 2 90 94.33 94.2 18.7489 17.64 3 60 74.3 73.9 204.49 193.21 4 70 54.3 53.9 246.49 259.21 5 35 34.3 31.3 0.49 13.69 6 11 14.3 14.9 10.89 15.21 513.2578 524.97 The sums of squares of the error of fitted lines by linear function y(L) and quadratic function y(Q) are shown above in Table 3.
+The comment here is that the sum of squares of error of the linear (513.26) is slightly lower than that of the quadratic (524.97).
+Invariably the linear function is a better approximation to the data above.
+4.0 Conclusion Fitting a polynomial to discrete data by least squares methods is easily handled by creating tables of values and generating all necessary columns that will enable one to obtain the normal equations.
+The normal equations are then solved simultaneously to determine the unknowns which are then substituted into the required approximate polynomial equation.
+5.0 Summary In this Unit we have learnt (i) how to derive the normal equations of the least squares method (ii) that only necessary terms of the normal equations are computed; (iii) that the set of normal equations can be used to obtain any polynomial approximation by the least square method.
+(iv) that the choice of the degree of polynomial chosen in fitting the data by least squares method may not necessarily be the best fit; (v) that computation by least squares method is simple and straight forward to apply.
+6.0 Tutor Marked Assignment 1.
+The table below gives the readings from a laboratory experiment.
+Time t 2 3 5 6 9 Reading y 7 17 49 71 161 Fit (a) a linear function and (b) a quadratic polynomial to the above data by method of least squares and determine which of the two is a better approximation.
+2.
+How many normal equations will be needed to fit a cubic polynomial?
+Hence list the entire necessary variables for such fitting.
+13 7.0 Further Reading and Other Resources 1.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+2.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+3.
+Okunuga, S. A., and Akanbi M, A., (2004).
+Computational Mathematics, First Course, WIM Pub.
+Lagos, Nigeria.
+4.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 5.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 14 MODULE 1 UNIT 3 Least Squares Approximation (Continuous Case) 1.0 Introduction We have seen in the last unit how to fit a polynomial to a set of data points by using the least squares approximation technique.
+We shall in this unit consider the situation in which a function f(x) is to be approximated by the least squares method in terms of a polynomial.
+In this case since data are no longer given, it would not be necessary to create tables by columns but rather by carrying out some integration.
+The candidate is therefore required to be able to integrate simple functions as may be required.
+2.0 Objective By the end of this unit, the learner should be able to (i.)
+Distinguish between discrete data and continuous function (ii.)
+Fit polynomials to continuous functions by least squares approach 3.0 Fitting an Approximate Polynomials (Continuous case) If we wish to find a least square approximation to a continuous function f(x), our previous approach must be modified since the number of points (x, y) at which the approximation is to be i i measured is now infinite (and non-countable).
+Therefore, we cannot use a summation as n [ ]2 ∑ f(x )−P(x ) , but we must use a continuous measure, that is an integral.
+Hence if the i i i=1 interval of the approximation is [a, b], so that a ≤ x ≤b for all points under consideration, then we must minimize ∫b[f(x)−P(x)]2 dx a where y = f(x) is our continuous function and P(x) is our approximating function.
+3.1 Derivation Let f(x) be a continuous function which in the interval (a, b) is to be approximated by a polynomial linear combination P(x) = a +a x+a x2 +....+a xk (3.1) o 1 2 k [ ] S = ∫b y −(a +a x +a x2 +....+a xk) 2 dx i o 1 i 2 i k i a of n+1 given functions ϕ ,ϕ ,ϕ .
+..,ϕ .
+Then, c , c , …, c can be determined such that a o 1 2 n 0 1 n weighted Euclidean norm of the error function f(x) – p(x) becomes as small as possible b That is, f(x)−P(x) 2 = ∫ f(x)−P(x)2 w(x)dx (3.2) a where w(x) is a non-negative weighting function.
+Equation (3.2) is the continuous least square approximation problem.
+The minimization problem of f(x) by continuous function P(x) of( 3.1) is given by b[ ]2 S = ∫ f(x)−P(x) dx (3.3) a where the interval [a, b] is usually normalized to [-1,1] following Legendre polynomial or Chebyshev function approximation, hence, substituting equation (3.2) in (3.3), we obtain 15 1 S = ∫ [f(x)−{c ϕ (x)+cϕ(x)+c ϕ (x)+...+c ϕ (x)}]2 w(x)dx (3.4) o o 1 1 2 2 n n −1 where ϕ ,ϕ ,ϕ .
+..,ϕ are some chosen polynomials.
+o 1 2 n To minimize (3.3) or (3.4), one could consider two alternative methods to obtain the coefficients or the unknown terms.
+3.1.1 First Method The first approach for minimizing equation (3.3) is by carrying out an expansion of the term [ ]2 f(x)−P(x) , next carry out the integration and then by means of calculus, obtain the minimum by setting ∂S =0 , k = 0, 1, 2, …, n ∂c k This approach will be illustrated by the next example.
+Example Find the least square straight line that provides the best fit to the curve y = x over the interval 0≤ x ≤1.
+Solution Let the line be y = ax+b, we must minimize 1 [ ]2 S = ∫ x −ax−b dx 0 Expand the integrand, we obtain 1  3 2 2 2 S = ∫ x−2ax 2 − 2b x +a x +2abx+b dx 0   And integrating we get 1 S =1x2−4ax52− 4bx32+a2 x2+abx2+b2x   2 5 3 3  0 Evaluating we get a2 2 4 4 1 S = +b +ab− a− b+ 3 5 3 2 ∂S ∂S For a minimum error, we must set =0 , and =0 ∂a ∂b Doing this, we get ∂S = 2a+b− 4 =0 ∂a 3 5 ∂S = 2b+a− 4 =0 ∂b 3 Thus, we solve the equations 2a+b = 4 3 5 a+2b = 4 3 4 4 Solving, we get a = , b= 5 15 16  Hence the Least squares approximation is 4 4 y = x+ 5 15 4 4 WE observe that The line y = x+ meets the curve y = x in two points P(0.1487, 0.3856) 5 15 and Q(0.7471, 0.8643) as shown below.
+1.2 1 0.8 y=Sqrt (x) 0.6 y= 4/5 x + 4/15 0.4 0.2 0 0 0.5 1 1.5 Figure 1 This straight line is only a linear approximation to the given curve.
+We could have as well found other polynomial approximation using the same least squares technique.
+It will be observed that if P(x) is a polynomial of higher degree say n = 3 or more, the expression [ ]2 f(x)−P(x) may not be easy to expand before integrating, so we must seek another approach for the minimization.
+Self Assessment Exercise Give one disadvantage of the technique used above.
+3.1.2 Alternative Method Now, suppose we wish to find the least squares approximation, using a polynomial of degree k to a continuous function y over [a,b].
+In such a case, we must minimize the integral [ ] S = ∫b y −(a +a x +a x2 +....+a xk) 2 dx i o 1 i 2 i k i a If we do not want to expand the expression in the squared bracket, then we must first get the ∂S normal equations.
+In other words, we derive the normal equation by obtaining =0, before ∂a i integrating the resulting function and evaluating the result.
+Doing this we obtain 17 ( ) ∂S = ∫b−2 y −a −a x−a x2 −....−a xk dx =0 i o 1 2 k ∂a a o ( ) ∂S = ∫b−2x y −a −a x−a x2 −....−a xk dx =0 i o 1 2 k ∂a a 1 ( ) ∂S = ∫b−2x2 y −a −a x−a x2 −....−a xk dx =0 i o 1 2 k ∂a a 2 and in general we can write ∂S b r 2 k  = ∫ −2x y −a −a x−a x −....−a x  dx =0 for (r = 0,1, .
+.
+.
+, k ) i o 1 2 k ∂a a   r The factor (–2) that appeared first in the integral can be ignored since the right hand side of the equation is zero.
+Hence, the normal equations can be written as b r 2 k  ∫ x y −a −a x−a x −....−a x  dx =0 for (r = 0,1, .
+.
+.
+, k ) i o 1 2 k a   This will give (k+1) linear equations in the (k+1) unknowns a , a , .
+.
+.
+, a which can be solved 0 1 k simultaneously by any algebraic process.
+This approach may be simpler than the first one and we therefore suggest this second method.
+However any of the two techniques may be used and are both valid.
+Example 2 Find the least squares quadratic ax2 + bx + c, which best fits the curve y = x over the interval 0≤ x ≤1.
+Solution We need to minimize [ ] 1 2 2 S = ∫ x −ax −bx−c dx 0 By this new approach, we shall first of all obtain the normal equations.
+Thus we have: ( ) ∂S = ∫1 x −ax2 −bx−c dx =0 ∂c 0 ( ) ∂S = ∫1 x x −ax2 −bx−c dx =0 ∂b 0 ( ) ∂S = ∫1 x2 x −ax2 −bx−c dx =0 ∂a 0 Integrating, we get the three equations as follows: 1 3 2x 2−1ax3−1bx2−cx =0 3 3 2 0 1 5 2x 2−1ax4−1bx3−1cx2 =0 5 4 3 2 0 1 7 2x 2−1ax5−1bx4−1cx3 =0 7 5 4 3 0 Evaluating within the limits we obtain three simultaneous equations 18 1 1 2 a+ b+c = 3 2 3 1 1 1 2 a+ b+ c = 4 3 2 5 1 1 1 2 a+ b+ c = 5 4 3 7 Solving these equations simultaneously we get 4 48 6 a = − , b = , c = 7 35 35 Thus the least squares quadratic function is 4 2 48 6 f(x) = − x + x+ 7 35 35 ( ) 2 2 or f(x) = − 10x −24x−3 35 The earlier approach of expanding the integrand is also valid.
+However the number of terms in the expansion may not be friendly.
+The higher the degree of the polynomial we are trying to fit by least squares approximation, the more difficult it is to obtain the coefficients of the polynomial by expansion.
+Hence this last approach or method may be more appropriate for easy handling.
+The error table of the above result is given below ( ) x y = x f(x)=− 2 10x2 −24x−3 E= y – f(x)  35 0 0.0000 0.1714 0.1714 0.1 0.316228 0.302857 0.013371 0.2 0.447214 0.422857 0.024357 0.3 0.547723 0.531429 0.016294 0.4 0.632456 0.628571 0.003885 0.5 0.707107 0.714286 0.007179 0.6 0.774597 0.788571 0.013974 0.7 0.836660 0.851429 0.13666 0.8 0.894427 0.902857 0.094427 0.9 0.948683 0.942857 0.048683 1.0 1.0000 0.971429 0.0000 4.0 Conclusion To conclude this unit, it would be observed using the least squares approximation technique to fit a polynomial to a continuous function f(x) could be done in two ways.
+The reader is allowed to use either of the methods.
+However, expanding the integrand before carrying out the integration may be sometimes more difficult than to first of all find the normal equations.
+The error obtained in using the least square method will depend on how well a polynomial of certain degree is suitable in approximating the continuous function.
+5.0 Summary In this unit we have learnt that (i) it is possible to fit a polynomial to a continuous function by Least Squares Method (LSM) (ii) fitting a polynomial by LSM for a continuous function will necessarily require integration (iii) there are two approaches of fitting a polynomial by LSM for a continuous function 19 (iv) one approach will require expansion of [f(x) – P(x)]2 for a given polynomial P(x) while the other approach will go by the way of normal equation.
+6.0 Tutor Marked Assignment Find the least squares quadratic ax2 + bx + c, which best fits the curve y = 2x+1 over the interval 0≤ x ≤1.
+7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+2.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 3.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 4.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 20 MODULE 2 ORTHOGONAL POLYNOMIALS UNIT 1 Introduction To Orthogonal System 1.0 Introduction Orthogonal polynomials are of fundamental importance in many branches of mathematics in addition to approximation theory and their applications are numerous but we shall be mainly concerned with two special cases, the Legendre polynomials and the Chebyshev polynomials.
+More general applications are however easily worked out once the general principles have been understood.
+2.0 Objective By the end of this unit, the learner should be able to (i.)
+define what orthogonal polynomials are (ii.)
+formulate orthogonal and orthonormal polynomials (iii.)
+handle inner product of functions 3.0 Orthogonal Polynomials We begin this study by giving the definition of orthogonal functions: Definition 1 A system of real functions φ (x),φ(x),.... defined in an interval [a,b] is said to be orthogonal o 1 in this interval if b 0 , m ≠ n ∫ φ (x)φ (x) dx =  m n a λn , m = n If λ =λ =.....=1 the system is said to be normal.
+An orthogonal system which is also normal 0 1 is sometimes referred to as an orthonormal system.
+Note that since φ (x)is real, λ ≥ 0 and we shall assume that each φ (x) is continuous and non- n n n zero so that λ > 0. n The advantages offered by the use of orthogonal functions in approximation theory can now be made clear as follows.
+Suppose {φ ,(x)} is an orthogonal system and that f(x) is any function and n we wish to express f(x) in the form f(x) =c φ (x)+cφ(x)+....+c φ (x)+.... (3.1) o o 1 1 n n b b Then ∫ f(x)φ (x) dx =c ∫ φ2(x) dx =c λ n n n n n a a since all the other terms on the right-hand side are zero and so b c = 1 ∫ f(x)φ (x) dx (3.2) n n λ n a Thus the coefficients c in equation (3.1) can be found.
+These coefficients c are called the n n Fourier coefficients of f(x), with respect to the system {φ (x)} n 3.1 The Inner Products Let w(x) be the weighting function and let the inner product of two continuous functions f(x) and g(x) be defined as 21 b f,g = ∫ w(x) f(x)g(x)dx a where f, g are continuous in [a, b], then f(x) and g(x) satisfy the following properties: (i.)
+<αf,g > = < f,αg > =α< f,g > , α is a scalar (ii.)
+f + f ,g = f ,g + f ,g 1 2 1 2 (iii.)
+f, g + g = f ,g + f ,g 1 2 1 2 (iv.)
+f, g = g, f (v) f, f >0 for all f ∈ C[a,b] and f, f =0 iff f = 0.
+The functions f and g are said to be orthogonal if the inner product of f and g is zero, that is if f, g =0 In a similar manner we can define the inner product for the discrete case.
+The inner product of discrete functions f and g satisfy the orthogonality property given by m f, g = ∑ f(x )g(x ) k k k=0 where {x } are the zeroes of the function.
+k We remark here that polynomial approximation is one of the best ways to fit solution to unknown function f(x).
+A good polynomial P (x) which is an approximation to a continuous function f(x) in a finite n range [a, b] must possess oscillatory property.
+Among such polynomial approximation functions include the Chebyshev Polynomials and the Legendre Polynomials.
+We shall examine these polynomials and their properties in our discussion in this course as we go along.
+Definition 2 (Orthogonality with respect to a weight function) A series of functions {φ ,(x)} are said to be orthogonal with respect to the weight function w(x) n over (a,b) if b 0 , m ≠ n ∫ φ (x)φ (x)w(x) dx =  m n a λn , m = n The idea and principle of orthogonality properties are now extended to two common polynomials in the next few sections.
+3.2 EXAMPLE The best-known example of an orthogonal system is the trigonometric system 1, cos x, sin x, cos2x, sin2x,… Over the interval [-π, π].
+We shall define various combination of integral of product functions of sine and cosine as follows: π ∫ cosnxcosmx dx =0 (m ≠ n) −π π ∫ cosnxsinmx dx =0 (m ≠ n) −π 22 π ∫ sinnxcosmx dx =0 (m ≠ n) −π π ∫ sinnxsinmx dx =0 (m ≠ n) −π π and ∫ cosnx.sinnx dx =0 (m = n ≠ 0) −π π whereas ∫ cosnxcosnx dx =0 (m = n) −π π π ⇒ ∫ cos2 nx dx = ∫ 1(1+cos2nx) dx −π −π 2 π = 1(x+ 1 sin2nx) 2 2n −π = 1(π+ 1 sin2nπ)−1(−π+ 1 sin2n(−π))=π 2 2n 2 2n π Also ∫ sinnxsinnx dx =0 (m = n) −π π ⇒ ∫ sin2 nx dx = π (m=n≠0) −π π π and finally for n = 0, ∫ cos20 dx = ∫ 12 dx = 2π (m = n =0) −π −π Comparing this with our Definition 1 above, we obtain from these integrals the following values λ = 2π,λ =λ =... =π 1 2 3 It follows therefore that the system 1 cosx sinx cos2x sin2x , , , , 2π π π π π is orthogonal and normal 4.0 Conclusion The discussion above has simply illustrates the way to determine where a set of functions is orthogonal or otherwise.
+Other examples can be produced to show the orthogonality property.
+5.0 Summary In this unit we have learnt that (i.)
+a normal orthogonal system is an orthonormal system (ii.)
+orthogonality of some functions can be obtained by integration (iii.)
+inner product is written as an integral or a sum 6.0 Tutor Marked Assignment Verify whether the following functions are orthogonal or not (i.)
+1, ex , e2x , e3x , .
+.
+.
+.
+(ii.)
+ln x, ln2x , ln3x , ln4x, .
+.
+.
+7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+23 2.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 3.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 4.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 24 MODULE 2 UNIT 2 THE LEGENDRE POLYNOMIALS 1.0 Introduction Legendre polynomial is known to possess some oscillatory property among which makes it of importance in the field of numerical analysis.
+The polynomial has its root from the Legendre equation which is a second order differential equation.
+The first set of solutions of the Legendre equation is known as the Legendre polynomial.
+2.0 Objective By the end of this unit, the learner should be able to (i.)
+state the necessary formulae for generating the Legendre polynomials (ii.)
+generate the Legendre polynomials (iii.)
+define the Legendre polynomial as a class of orthogonal series.
+3.0 Legendre Polynomial Approximation When we try to find good polynomial approximations to a given function f(x) we are trying to represent f(x) in the form n ∑ k f(x) = C x (3.1) k k=0 k which is of the form of series equation (3.1) of the last unit with φ (x) = x .
+Unfortunately the k set 1, x, x2,… is not orthogonal over any non-zero interval as may be seen at once since, for example b b ∫ φ(x)φ (x) dx = ∫ x4 dx > 0 1 3 a a which contradicts the assertion that {xk} is orthogonal.
+It is however possible to construct a set of polynomials P (x), P (x), P (x),… P (x),… where P (x) is of degree n which are orthogonal over 0 1 2 n n the interval [-1, 1] and from these a set of polynomials orthogonal over any given finite interval [a,b] can be obtained.
+The method for finding a set of polynomials which are orthogonal and normal over [-1, 1] is a relatively simple one and we illustrate it by finding the first three such polynomials.
+We shall at this junction give a definition of Legendre Polynomial which can be used to generate the set of polynomials required.
+Definition 1 The Rodrigues’ formula for generating the Legendre polynomial is given by n [ ] 1 d 2 n P (x) = (x −1) (3.2) n n n 2 n!dx From the definition given above, it will be observed that an nth derivative must be carried out before a polynomial of degree n is obtained.
+Thus the first few set of Legendre polynomials can be obtained as follows: P (x)will not involve any derivative since n = 0, hence we have o p (x)=1 0 Also for n = 1, we shall have 25 1 d P (x) = .
+(x2 −1) = 1.2x = x 1 21.1!
+dx 2 2 [ ] 1 d P (x) = (x2 −1)2 2 2 2 2 2!dx 2 1 d 1 d P (x) = (x4 −2x2 +1) = (4x3 −4x) 2 8 dx2 8 dx 1 1 P (x) = (12x2 −4) = (3x2 −1) 2 8 2 To obtain P (x)it will require differentiating three times which will become cumbersome as n 3 increases.
+With this difficulty that may be encountered with higher differentiation especially as n > 2 in P (x) of Rodrigues’ formula (3.2) above, a simpler formula for generating the n Legendre polynomials is given by its recurrence relation.
+This is given next.
+3.1 Recurrence Formula for Legendre Polynomial The recurrence formula for the Legendre Polynomial P (x) is given by the equation n ( ) ( ) 2n+1 n Pn+1(x) = .x.Pn(x)− .Pn−1(x) (3.3) n+1 n+1 where P (x) is known to have satisfied the Legendre differential equation n ( ) 1− x2 P′′(x)−2x.P′(x)+n(n+1)P (x) = 0 n n n Once p (x)and p (x)are obtained from Rodrigue’s formula (3.2) as: 0 1 p (x)=1, and p (x)= x 0 1 We can now switch over to equation (3.3) to generate higher order polynomials.
+Thus for n = 1, 2, 3, .
+.. , we obtain from equation (3.3) as follows: ( ) ( ) For n = 1 we have P (x) = 3 .x.P (x)− 1 .P (x) 2 1 o 2 2 ( ) ( ) P (x) = 3 .x..x− 1 ..1= 3 x2 − 1 2 2 2 2 2 Which is the same as the P (x) earlier obtained using the Rodrigues’ formula (3.2) 2 Furthermore, for n = 2, we have ( ) ( ) P (x) = 5 .x.P (x)− 2 .P (x) 3 2 1 3 3 ( ) ( ) ( ) P (x) = 5 .x.
+3 x2 − 1 − 2 .x 3 3 2 2 3 1 ⇒ p (x)= (5x3 −3x) 3 2 Similarly for n = 3 we have ( ) ( ) P (x) = 7 .x.P (x)− 3 .P (x) 4 3 2 4 4 Substituting previous results we have 1( ) p (x)= 35x4 −30x2 +3 4 8 1( ) Also P (x) gives p (x)= 63x5 −70x3+15x etc 5 5 8 The reader may like to generate the Legendre polynomials up to p (x) 10 One of the properties of the Legendre polynomial is its orthogonality property.
+26 It is known that the Legendre Polynomial P (x) satisfies the following property: n 0 , if m ≠ n 1  ∫ P (x)P (x) dx =  (3.4) −1 n m  2 , if m = n; 2n+1 This is the orthogonality property which permits it to be a polynomial approximation to any continuous function within its range [-1, 1].
+It follows at once from equation (3.4) that {P (x)} forms an orthogonal, but not normal, set over n [-1, 1] with respect to the weight function w(x) = 1 and that the set { }  2n+1  qn(x) =  Pn(x)  2  forms an orthonormal set.
+4.0 Conclusion We observed that the Legendre Polynomials can be obtained from the Rodrigues’ formula but much easier by using the recurrence formula generated from the Legendre differential equation.
+5.0 Summary In this Unit we have learnt (i) how to use the Rodrigue’s formula to generate Legendre polynomials (ii) how to use recurrence relation as alternative formula to derive the same Legendre polynomials by simple substitution of previously known polynomials (iii) that the orthogonality property of the Legendre Polynomial permits it to be a polynomial approximation to an continuous function.
+6.0 Tutor Marked Assignment Obtain the Legendre Polynomials P (x) for n = 5, 6, .
+.
+.
+, 10 using both the Rodrigue’s formula n and the recurrence relation of the Legendre polynomials.
+7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+2.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 3.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 4.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 27 MODULE 2 UNIT 3 Least Squares Approximation by Legendre Polynomials 1.0 Introduction Legendre Polynomials are known to be applicable to least square approximation of functions.
+In this sense, we mean that we can follow the least square approximation technique and adapt this to Legendre polynomial.
+2.0 Objective By the end of this unit, the learner should be able to (i.)
+apply Legendre polynomial to least squares procedures (ii.)
+obtain least square approximation using Legendre polynomial 3.0 The Procedure n ∑ Let f(x) be any function defined over [-1, 1] and L (x) = a P (x) n k k k=0 be a linear combination of Legendre polynomials.
+We shall now determine what values of the coefficients {a } will make L (x) the best approximations in f(x) in the least squares sense over k n the interval [-1, 1].
+Our objective is to minimize I(a ,a ....,a ) = ∫1 [f(x)−L (x)]2 dx (3.1) o 1, n n −1 and so as in the least squares method, we must set ∂I =0 , r =0 ,1,..., n (3.2) ∂a r Using equation (3.2) in (3.1), we obtain an equivalent term written as  n  1 ∫ P (x) f(x)− ∑a P (x) dx =0 (r = 0, 1, 2, .
+.
+.
+, n) −1 r  k k   k=0  n 1 1 ⇒ ∫ P (x)f(x)dx− ∑a ∫ P (x)P (x)dx =0 r k r k −1 −1 k=0 Recall from last unit that the Legendre Polynomial P (x) satisfies the orthogonality property: n 0 , if m ≠ n 1  ∫ P (x)P (x) dx =  (3.3) −1 n m  2 , if m = n; 2n+1 when k = r, and by the orthogonality property (3.3) we shall obtain 1  2  ∫ P (x)f(x)dx = a   r r −1 2r +1 2r +1 +1 ⇒ a = ∫ f(x).P (x) dx (r = 0, 1, 2, .
+.
+.
+, n) (3.4) r r 2 −1 When the coefficients {a} have been found L (x) can be re-arranged as desired, as a polynomial r n in powers of x, that is, n n ∑ ∑ k a P (x) = b x k k k k=0 k=0 28 which provides a solution to the least squares polynomial approximation problem.
+The evaluation of the integrals on the right-hand side of (2.9) may have to be done numerically.
+The following examples shall be used to illustrate the least squares approximation method using the Legendre polynomial.
+3.1 Numerical Experiment EXAMPLE 1 Find the fourth degree least squares polynomial to |x| over [-1, 1] by means of Legendre polynomials.
+Solution n ∑ Let the polynomial be a P (x) k k k=0 Then, from equation (2.9) 2r +1 +1 a = ∫ x.P (x) dx (r = 0, 1, 2, 3, 4) r r 2 −1 1 +1 1 +1 1 Hence, a = ∫ x.P (x) dx = = ∫ x.1dx = o 0 2 −1 2 −1 2 3 +1 3 +1 a = ∫ x.P (x) dx = ∫ x.
+(x) dx = 0 1 1 2 −1 2 −1 a = 5∫+1 x.P (x) dx = 5∫+1 x.
+(3x2−1) dx =5∫1 (3x3 −x) dx = 5 2 2 2 −1 2 −1 2 2 0 8 a = 7∫+1 x.P (x) dx = 7∫+1 x.
+(5x3−3x) dx =0 3 3 2 −1 2 −1 2 a = 9∫+1 x.P (x) dx = 9∫1 x.
+(35x4−30x2+3) dx = − 3 4 4 2 −1 2 −1 8 16 The required polynomial is therefore 1 5 3 P (x)− P (x)− P (x) (3.5) 0 2 4 2 8 16 The expression (3.5) can be converted to normal polynomial form by substituting the polynomial form of P (x), P (x) and P (x) as given in the last unit.
+This ends up giving the required o 2 4 polynomial as: ( ) 1 2 4 I = 15+210x −105x (3.6) 128 Which is therefore the least squares polynomial for |x| over [-1, 1] Verification This result may be verified directly by using the least squares method given in the last module.
+4 ∑ k Now the least squares polynomial is a x k k=0 29 And by least square method we minimize [ ] S = ∫1 x −(a +a x+a x2 +a x3 +a x4) 2 dx o 1 2 3 4 −1 Now, setting the respective partial derivatives to zero by equation (3.2), we shall obtain the normal equations as follows: ∂S = ∫1 [x −(a +a x+a x2 +a x3 +a x4)]dx =0 o 1 2 3 4 ∂a −1 o ∂S = ∫1 x[x −(a +a x+a x2 +a x3 +a x4)]dx =0 o 1 2 3 4 ∂a −1 1 ∂S = ∫1 x2[x −(a +a x+a x2 +a x3 +a x4)]dx =0 o 1 2 3 4 ∂a −1 2 ∂S = ∫1 x3[x −(a +a x+a x2 +a x3 +a x4)]dx =0 o 1 2 3 4 ∂a −1 3 ∂S = ∫1 x4[x −(a +a x+a x2 +a x3 +a x4)]dx =0 o 1 2 3 4 ∂a −1 4 Integrating, we get the following equations: 1 1x2−(a x+1a x2+1a x3+1a x4+1a x5) =0 2 o 2 1 3 2 4 3 5 4 −1 1 1 x3−(1a x2+1a x3+1a x4+1a x5+1a x6) =0 3 2 0 3 1 4 2 5 3 6 4 −1 1 1x4−(1a x3+1a x4+1a x5+1a x6+1a x7) =0 4 3 0 4 1 5 2 6 3 7 4 −1 1 1 x5−(1a x4+1a x5+1a x6+1a x7+1a x8) =0 5 4 0 5 1 6 2 7 3 8 4 −1 1 1 x6−(1a x5+1a x6+1a x7+1a x8+1a x9) =0 6 5 0 6 1 7 2 8 3 9 4 −1 Evaluating within the limits we obtain the following equations 1 1 1 a + a + a = 0 2 4 3 5 2 1 1 a + a =0 1 3 3 5 1 1 1 1 a + a + a = 0 2 4 3 5 7 4 1 1 a + a =0 1 3 5 7 1 1 1 1 a + a + a = 0 2 4 5 7 9 6 Solving these simultaneously, we deduce at once that a = a = 0 and that 1 3 15 210 105 a = , a = , a = o 2 4 128 128 128 In agreement with coefficients of equation (3.6) Example 2 Given a continuous function ex for x∈[-1,1] fit a linear polynomial c + c x to ex and determine 0 1 its root mean square error 30  Solution Using Equation (3.1) we have 1 S = ∫ [f(x)−P(x)]2 dx −1 [ ] 1 2 S = ∫ ex −c −c x dx o 1 −1 x For f(x) =e , we can write the linear polynomial as P(x) = a +a x o 1 By using equation (3.4) we have 1 a = 1∫1 ex.1dx = 1ex =1.1752 o 2 −1 2 −1 a = 3∫1 x.ex dx = 3(xex −ex) 1 =1.1036 1 2 −1 2 −1 Therefore the linear polynomial is P(x) = 1.1752 + 1.1036x An average error of approximating f(x) by P(x) on the interval [a, b] is given by E = 1 ∫b f(x)−P(x)2 dx b−a a f(x)−P(x) = (3.7) b−a Hence by (3.7), the least square approximation will give a small error on [a, b].
+The quantity E is called the root mean square error in the approximation of f(x) f(x)−P(x) Now since E = b−a We can evaluate E using any of the k-, l- , or m- norm Using the l-norm, we write x e −(1.1752+1.1036x) l E = 1+1 x max e − max 1.1752+1.1036x −1<x<1 −1<x<1 = 2 2.71828−2.2788 = = 0.3108 2 Hence the error is as large as 0.3108.
+If higher approximating polynomial is used the error will be smaller that this.
+4.0 Conclusion The use of Legendre polynomial as a technique for least square approximation shows that the same result is achievable from the least square approximation method as well as the Legendre Polynomial approach.
+31  5.0 Summary In this Unit the reader have learnt (i.)
+the technique of using Legendre polynomial to obtain and approximation using the least square method.
+(ii.)
+that both Legendre approach and the Least squares approach will often produce the same result.
+6.0 Tutor Marked Assignment Obtain a fourth degree least squares polynomial for f(x) = 1 over [-1, 1] by means of Legendre x polynomials.
+7.0 Further Reading and Other Resources 1.
+Abramowitz M., Stegun I.
+(eds) ,(1964): Handbook of Mathematical functions, Dover , N.Y. 2.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+3.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+4.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 5.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 32 MODULE 2 UNIT 4: The Chebyshev Polynomials 1.0 Introduction It is always possible to approximate a continuous function with arbitrary precision by a polynomial of sufficient high degree.
+One of such approach is by using the Taylor series method.
+However, the Taylor series approximation of a continuous function f is often not so accurate in the approximation of f over an interval [a,b].
+If the approximation is to be uniformly accurate over the entire interval.
+This may be due to the fact that: (i) in some cases, the Taylor series may either converge too slowly or not at all.
+(ii) the function may not be analytic or if it is analytic the radius of convergence of the Taylor series may be too small to cover comfortably the desired interval.
+In addition, the accuracy of the Taylor series depends greatly on the number of terms contained in the series.
+However, a process that was based on the fundamental property of Chebyshev polynomial may be considered as alternative and it works uniformly over any given interval.
+We know that there are several special functions used for different purposes including approximation, polynomial fittings and solutions of differential equations.
+Some of these special functions include Gamma, Beta, Chebyshev, Hermite, Legendre, Laguerre and so on.
+However, not all these are good polynomial approximation to continuous functions.
+However, Chebyshev polynomials have been proved to be very useful in providing good approximation to any continuous function.
+To this end, the Chebyshev polynomial is usually preferable as polynomial approximation.
+The Chebyshev polynomial has equal error property and it oscillates between –1 and 1.
+Due to its symmetric property, a shifted form of the polynomial to half the range (0, 1) is also possible.
+2.0 Objective By the end of this unit, the learner should be able to (i.)
+state the necessary formulae for generating the Chebyshev polynomials (ii.)
+obtain Chebyshev polynomials T (x) up to n = 10 n (iii.)
+classify Chebyshev polynomial as a family of orthogonal series.
+3.0 Introduction To Chebyshev Polynomials As it was earlier stated, Chebyshev polynomials are often useful in approximating some functions.
+For this reason we shall examine the nature, properties and efficiency of the Chebyshev polynomial.
+Chebyshev Polynomial is based on the function “cos nθ” which is a polynomial of degree n in cosθ.
+Thus we give the following basic definition of the Chebyshev polynomial.
+Definition 1 The Chebyshev polynomial is defined in terms of cosine function as −1 T (x) =cos(n.cos x) for −1≤ x ≤1 , n ≥ 0 (3.1) n This definition can be translated to polynomials of x as it would be discussed very soon.
+Before we do this, if we put x = cosθ , the Chebyshev polynomial defined above becomes T (x) =cos(nθ) n T (x) is of the orthogonal family of polynomials of degree n and it has a weighting function n 33 1 w(x) = , −1≤ x ≤1 2 1−x It has an oscillatory property that in 0≤θ≤π the function has alternating equal maximum and minimum values of ± 1 at the n+1 points rπ θ = , r = 0, 1, 2, .
+.
+.
+, n. r n rπ or x =cos  , r = 0, 1, 2, .
+.
+.
+, n r  n  Thus the orthogonality relation of the Chebyshev polynomial is given as:  0 , n ≠ m  1  ∫ 1 Tn(x).Tm(x)dx = π , n = m =0 (3.2) −1 1−x2  1  π , n = m ≠ 0 2 It also has a symmetric property given by n T (−x) =(−1) T (x) (3.3) n n 3.1 Generating Chebyshev Polynomials Over the years the function T (x) is the best polynomial approximation function known for f(x).
+n In order to express T (x) in terms of polynomials the definition can be used to some extent, but n as n value increases, it becomes more difficult to obtain the actual polynomial except by some trigonometric identities, techniques and skill.
+For the reason, a simpler way of generating the Chebyshev polynomials is by using the recurrence formula for T (x) in [-1, 1].
+n The recurrence formula for generating the Chebyshev polynomial T (x) in [-1, 1] is given by n Tn+1(x) = 2xTn(x)−Tn−1(x) , n≥1 (3.4) Thus to obtain the Chebyshev polynomials, a combination of (3.1) and (3.4) can be used.
+Starting with the definition (3.1), that is −1 T (x) =cos(n.cos x) n We obtain the least polynomial when n = 0 as T (x) =cos0=1 0 −1 Also when n = 1, we get T (x) =cos(cos x) = x 1 −1 When n = 2, T (x) =cos(2cos x) 2 with x = cosθ T (x) =cos2θ 2 2 =2cos θ−1 2 = 2x −1 For n = 3, 4, .
+.
+.
+it will be getting more difficult to obtain the polynomials.
+However if we use the recurrence formula (3.4) , we can obtain T (x) by putting n = 1 so that 2 T (x) = 2xT (x)−T (x) 2 1 0 Substituting T (x) =1 , T (x)=x, (from the result earlier obtained), we have 0 1 2 T (x) = 2x.
+(x)−1 = 2x −1 2 34 This is simpler than using the trigonometric identity.
+Thus for n = 2, 3, .
+.
+.
+we obtain the next few polynomials as follows: When n = 2, the recurrence formula gives T (x) = 2xT (x)−T (x) 3 2 1 2 =2x(2x −1)−x 3 =4x −3x Similarly for n = 3, we obtain T (x) = 2xT (x)−T (x) 4 3 2 3 2 =2x(4x −3x)−(2x −1) 4 2 =8x −8x +1 In a similar manner 5 3 T (x) =16x −20x +5x 5 We can now write all these polynomials out for us to see the pattern which they form.
+T (x) =1 0 T (x)=x 1 T (x) = 2x2 −1 2 T (x)=4x3 −3x (3.5) 3 T (x)=8x4 −8x2 +1 4 5 3 T (x) =16x −20x +5x 5 You can now derive the next few ones, say up to T (x), following the same technique.
+10 Note that the recurrence formula is one step higher than the definition for the “n” value being used.
+In other words, when n = 2 in the definition we obtain T (x), whereas to get the same T (x) 2 2 from the recurrence formula we use n = 1.
+The reason is obvious; the recurrence formula starts with subscript “n+1” as against “n” in the definition.
+These polynomials are of great importance in approximation theory and in solving differential equations by numerical techniques.
+3.2 Properties of Chebyshev Polynomials In the interval –1 ≤ x ≤ 1 the Chebyshev Polynomial T (x) satisfies the following properties: n (i.)
+– 1 ≤ T (x) ≤ +1 n rπ (ii.)
+T (x) = 1 at (n + 1) points x , x , .
+.
+.
+, x , where x =cos  , r = 0, 1, 2, .
+.
+.
+, n n 0 1 n r  n  n (iii.)
+T (x) =(−1) n (iv.)
+The leading coefficient in T (x) is 2n – 1 .
+n 3.3 Derivation of the Recurrence Formula Now that we have seen the usefulness of the recurrence formula (2.16), it might be necessary for us to derive this formula from certain definition.
+There are two ways to this.
+We can use some trigonometric functions to get this since Chebyshev polynomial is defined as a cosine function.
+However, we can also derive this formula by solving it as a difference equation which can be shown to produce the definition (2.13).
+For the purpose of this course, since we are not treating linear difference equation, we shall go via the first type, by using some trigonometric functions.
+35 Equation (2.16) is given by Tn+1(x) = 2xTn(x)−Tn−1(x) , n≥1 To obtain this formula, we can recall from trigonometric knowledge that 1 1 cosA+cosB = 2cos (A+B)cos (A−B) 2 2 If we put A = (n + 1) arccos x and B = (n – 1) arccos x Then cos A + cos B = cos{(n + 1)arccos x} + cos{(n – 1)arccos x} = 2cos1[(n+1+n−1)arccosx].cos1[(n+1−n+1)arccosx] 2 2 1[ ] 1( ) = 2cos (2n)arccosx .cos 2arccosx 2 2 = 2 cos(n.arccos x) .
+cos(arccos x) cos A + cos B = 2cos(n arccos x).
+x cos A = 2xcos(n arccos x) – cos B That is cos[(n + 1)arccos x] = 2x cos[n arccos x] – cos[(n – 1)arccos x] −1 By definition, T (x) =cos(n.cos x), n we then have Tn+1(x) = 2xTn(x)−Tn−1(x) Thus the recurrence formula is easily established.
+4.0 Conclusion The derivation of Chebyshev polynomials has been demonstrated and made simple by using the recurrence formula rather than using the basic definition (3.1).
+we have equally given the derivation of the recurrence formula by simply using some trigonometry identities, although this derivation can be established by solving the recurrence formula as a difference equation from which the basic definition (3.1) is obtained.
+Other methods of derivation equally exist.
+5.0 Summary In this Unit we have learnt that: (i) Chebyshev polynomials are special kind of polynomials that satisfy some properties (ii) Chebyshev polynomials which are valid within [-1, 1] have either odd indices or even indices for T (x) depending on whether n is odd or even.
+n (iii) Chebyshev polynomials can be obtained from the recurrence formula.
+(iv) the recurrence formula for Chebyshev polynomials T (x) is more suitable to generate the n polynomials than its definition.
+6.0 Tutor Marked Assignment Obtain the Chebyshev polynomials T (x) for n = 5, 6, .
+.
+.
+, 10 n 7.0 Further Reading and Other Resources 1.
+Abramowitz M., Stegun I.
+(eds), (1964): Handbook of Mathematical functions, Dover, N.Y. 2.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 3.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+4.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 5.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 6.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 7.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 36 MODULE 2 UNIT 5: Series of Chebyshev Polynomials 1.0 Introduction Chebyshev polynomials can be used to make some polynomial approximations as against the use of least square method.
+The orthogonality properties of the Chebyshev polynomial permit the use of the polynomial as approximation to some functions.
+A case of cubic approximation will be considered in this study.
+2.0 Objective By the end of this unit the learner would have learn (i) the form of the function f(x) which permits the use of Chebyshev polynomials as approximation to it (ii) how to apply Chebyshev polynomials to fit a cubic approximation to a function f(x).
+3.0 Approximation By Chebyshev Polynomials If we have a function f(x) which we wish to approximate with a series of Chebyshev polynomials 1 f(x) = c +c T (x)+c T (x)+ .... +c T (x) (3.1) o 1 1 2 2 n n 2 How we can find the coefficients c?
+i T (x) m The theoretical method is to multiply f(x) by and integrate over [-1, 1], thereby making 1−x2 use of the orthogonality property of T (x).
+Thus, if we multiply both sides by this factor and n integrate over [-1, 1], we can write n 1 f(x)T (x) 1 T (x) 1 T (x)T (x) ∫ m dx = 1c ∫ m dx+ ∑ c ∫ n m dx o m −1 1−x2 2 −1 1−x2 m=1 −1 1−x2 The only term on the right which doesn’t vanish is the one where m = n ≠ 0.
+In other words if we use the orthogonality property given by equation (3.2) of the last unit, we have 1 f(x)T (x) ∫ m dx = 1πc m −1 1−x2 2 1 f(x)T (x) c = 2 ∫ m dx (3.2) m π −1 1−x2 The evaluation of the integral for c given by (3.2) will in general have to be done numerically m and in such cases it is obviously important to ensure that the truncation error is sufficiently small or the accuracy available via the Chebyshev approximation to f(x) will be reduced.
+In a few special cases, the integral can be evaluated analytically and the problem of truncation error does not arise; the most important of such case is when f(x) = xn (n ≥ 0) and we shall deal with this case below; but first we look at an example where evaluation of (3.2) is computed numerically.
+3.1 Numerical Examples Example 1 Find a cubic approximation to ex by using Chebyshev polynomials Solution Let the approximation be x 1 e = c +c T (x)+c T (x)+ .... +c T (x) o 1 1 2 2 n n 2 37 Then, from (2.17) 1 exT (x) c = 2 ∫ r dx (r = 0, 1, 2, 3) r π −1 1−x2 Using the substitution x = cosθ , we transform this integral as follows: x = cosθ ⇒ dx = −sinθdθ= − 1−cos2θdθ= − 1−x2 dθ when x = 1 , θ = 0 and when x = - 1, θ = π Substituting into the integral above, we have c = 2 ∫0 ecosθcos(rθ) − 1−x2 dθ r π π 1−x2   Canceling out the common terms and reversing the limits which eliminates the (-) sign we obtain π c = 2 ∫ ecosθcos(rθ) dθ (3.3) r π 0 This is better from a numerical point of view since the integrand no longer contains a singularity.
+In evaluating integrals containing a periodic function as a factor in the integrand it is usually best to make use of the simplest quadrature formulae, such as the midpoint rule, Simpson rule or trapezium rule.
+By using any of these methods the coefficients c can be evaluated for a series of j decreasing step-sizes and the results compared.
+This will established some confidence in the accuracy of the results.
+Thus using the trapezoidal (or simply trapezium) rule with step-sizes π/2k (k=1,2,3,4) f(x) = h(y +2y +2y +.....+2y + y ) o 1 2 n−1 n 2 where h is the step size.
+From equation (3.3), we obtain the following estimates for c 0 c = 2 ∫πecosθ dθ o π 0 π π With k = 1 we have h = , and for interval (0, π) we have three points 0, ,π 2 2 Thus we take y =ecosθ x 0 π π 2 y e 1 −1 e This integral by trapezium rule will give f(x) = h(y +2y + y ) o 1 2 2 ( )( )[ ] = 2 1 π e+2(1)+e−1 π 2 2 = 2.543081 With k = 2, we have h =π, and for interval (0, π) we have five points 0, π,π,3π,π 4 4 2 4 x 0 π π 3π π 4 2 4 y 2.718282 2.028115 1 0.493069 0.367879 38 f(x) = h(y +2y +2y +2y + y ) o 1 2 3 4 2 ( )( ) = 2 1 π [2.718282+2(2.028115+1+0.493069)+0.367879] π 2 4 = 2.532132 K Estimate 1 2.543081 (6 d.p) 2 2.532132 (6 d.p) 3 2.53213176 (8 d.p) 4 2.53213176 (8 d.p) And we conclude that c = 2.53213176 to 8d.p 0 The other coefficients are evaluated similarly and we find (to 8 d.p) c = 1.13031821, c = 0.27149534, c = 0.04433685 1 2 3 So that the required approximation is x e ≅1.26606588T (x)+1.13031821T (x)+0.27149534T (x) +0.04433685T (x) (3.4) o 1 2 3 It is not necessary to re-order (3.4) in powers of x for this formula may be used directly for the computation of approximations to ex by using the Chebyshev polynomials T (x) earlier obtained n in the last unit.
+Thus, taking x= 0.8 for an example, we have T (0.8) = 1 , T (0.8) = 0.8 o 1 Also T (0.8) = 2(0.8)( 0.8) – 1 = 0.28 2 and T (0.8) = 2(0.8)(0.28) – 0.8 = – 0.352 3 and equation (2.19) then gives rounded to (4d.p) 0.8 e ≅2.2307 The correct value to 4d.p is 2.2255 By comparison the cubic approximation obtained by truncating the Taylor series for ex after 4 terms gives ex =1+ x+ 1 x2 + 1 x3 + 1 x4 +.... 2 6 24 =1+0.8+ 1(0.8)2 + 1(0.8)3 = 2.2053 2 6 When we consider the errors in the two approximations we note that the error from the Chebyshev approximation is E = 2.2255−2.2307 =0.0052 Cheby While that of the Taylor series is E = 2.2255−2.2053 =0.0202 Tay The error of the Taylor series is almost 4 times as large as that of Chebyshev approximation.
+For small values of x however the Taylor series cubic will give better results e.g.
+at x = 0.2, The Chebyshev series gives e0.2 = 1.2172 (4 dp) While the Taylor series cubic gives e0.2 = 1.2213 and in fact the exact value is e0.2 = 1.2214 which illustrates the point that Chebyshev approximations do not necessarily produce the best approximations at any given point in the interval [-1, 1] but they do guarantee to minimize the greatest error in the interval.
+In general it frequently happens that several approximation formulae are available and each will have its own advantages and disadvantages.
+In particular, different formulae may give the best 39 results over different parts of the interval of approximation and it may require considerable analysis to decide which to use at any point.
+We now consider the special case when f(x) = xn (n ≥ 0).
+The importance of this case lies in its role in the method of economization.
+It is possible to express the Chebyshev the term xn , n = 1, 2, 3, .
+.
+.
+in terms of T (x).
+These Chebyshev representations for xn are easily obtained by n solving the Chebyshev polynomials successively as follows: T (x) = 1 hence x0 = 1 = T (x) 0 0 T (x) = x hence x = T (x) 1 1 T (x) = 2x2 – 1 = 2x2 – T (x) , hence x2 = ½ [T (x) + T (x)] 2 0 2 0 T (x) = 4x3 –3x = 4x3 – 3T (x) , hence x3 = ¼ [T (x) + 3T (x)] 3 1 3 0 4 1( ) Similarly, x = T (x)+4T (x)+3T (x) 4 2 0 8 and so on, Higher powers of x can equally obtained in terms of T (x) and the learner is n encouraged to obtain as far as x8 as an exercise.
+Now, since we can express xk as a linear combination of T (x), T (x),…,T (x) we can as well k k – 1 0 any power series expansion of an arbitrary function f(x) into an expansion in a series of Chebyshev polynomials.
+An example is given next.
+Example 2 Convert the first 5 terms of the Taylor series expansions for ex into Chebyshev polynomials Solution x 1 2 1 3 1 4 e =1+ x+ x + x + x +.... 2 6 24 1( ) 1 ( ) 1 ( ) =T (x)+T (x)+ T (x)+T (x) + T (x)+3T (x) + T (x)+4T (x)+3T (x) 0 1 2 0 3 1 4 2 0 4 24 192 1 1 1 1 1 1 1 =(1+ + )T (x)+(1+ )T (x)+( + )T (x)+ T (x)+ T (x) 0 1 2 3 4 4 64 8 4 48 24 192 x 81 9 13 1 1 e = T (x)+ T (x)+ T (x)+ T (x)+ T (x) 0 1 2 3 4 64 8 48 24 192 If we truncate this result after the term T (x) we shall obtain 3 x 81 9 13 1 e = T (x)+ T (x)+ T (x)+ T (x) (3.4) 0 1 2 3 64 8 48 24 1 with the principal error as T (x)+.... 4 192 This approximation can as well be regarded as the cubic expansion for ex.
+If we convert the coefficients of equation (3.3) to decimal form we have ex ≅1.26562500T (x)+1.125T (x)+0.2708333T (x) +0.041667T (x) (3.5) o 1 2 3 Thus we can compare equations (3.4) and (3.5) since both are cubic approximations to ex .obtained by the use of Chebyshev polynomials.
+The coefficients from the two equations are in the table below.
+T (x) T (x) T (x) T (x) 0 1 2 3 Equation (3.4) 1.26606588 1.13031821 0.27149534 0.04433685 Equation (3.5) 1.26562500 1.12500000 0.27083333 0.04166667 Since both cubic approximations provide some kind of good approximations to ex we would expect them to have similar coefficients but they are not identical because equation (3.4) is the approximation to ex using the first 4 Chebyshev polynomials whereas equation (3.5) is based 40 upon the Chebyshev equivalent of the first 5 terms of the Taylor series for ex ‘economized’ to a cubic 4.0 Conclusion It would be observed that as it was done with Legendre polynomials we have similarly obtain a approximate functions to f(x) using the Chebyshev polynomials.
+The technique of economization is a very useful one and can lead to significant improvements in the accuracy obtainable from a polynomial approximation to a power series.
+In the next section we present the technique in the general case and in passing see how (3.5) may be more easily obtained.
+5.0 Summary In this Unit the reader have learnt that: (i.)
+Chebyshev polynomials is a technique for approximation using the least square technique.
+(ii.)
+Chebyshev polynomial approach to fitting of approximation to a function is similar to that of Taylor series for the same function.
+6.0 Tutor Marked Assignment (1) Obtain a cubic polynomial to f(x) = 1/x over [-1, 1] by means of Chebyshev polynomials.
+(2) Convert the first 5 terms of the Taylor series expansions for e–x into Chebyshev polynomials 7.0 Further Reading and Other Resources 1.
+Abramowitz M., Stegun I.
+(eds) ,(1964): Handbook of Mathematical functions, Dover , N.Y. 2.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 3.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+4.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 5.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 41 MODULE 2 UNIT 6: Chebyshev Interpolation 1.0 Introduction Often we use Lagrange’s methods to interpolate some set of points defined by f(x).
+the technique is interesting when we involve the use of Chebyshev polynomials.
+The approach will be discussed in this unit with emphasis on terms such as Lagrange and Chebyshev polynomials.
+2.0 Objective By the end of this unit the learner would have learn how to (i) use Lagrange’s formula (ii) interpolate using Chebyshev polynomials (iii) Compute the error table from the approximation 3.0 Interpolation Technique If the values of a function f(x) are known at a set of points x < x < … < x we can construct a 1 2 n polynomial of degree (n – 1) which takes the values f(x) at x (i = 1,2,…,n).
+The polynomial is i i unique and can be found in various ways including the use of Newton’s divided difference formula or Lagrange’s method.
+Lagrange’s formula is more cumbersome to use in practice but it has the advantage that we can write down the required polynomial explicitly as: p(x)= ∑n f(x )∏n x−xi (3.1) j x −x j=1 i=1 j i j≠i n The reader should note that ∏(x−xi) is a product of function (x−xi), i = 1, 2, .
+.
+., n, just as i=1 n ∑(x−x ) is a summation function i i=1 n Thus ∏(x−x )is evaluated or expanded as: i i=1 n ∏(x−x ) =(x−x )(x−x ) ... (x−x ) i 1 2 n i=1 If f(x) is not a polynomial of degree ≤ (n – 1) the error when we use p(x) for interpolation can be shown to be n (n) E(x)=∏(x−x ) f (α) i n!
+i=1 where α is some number between x and x .
+If the values x , x ,…x have been fixed we can do 1 n 1 2 n nothing to minimize E(x) but if we can choose any n points within a specified interval it may be worthwhile choosing them in a particular way as we now show Suppose, for simplicity, that we are interested in values of x lying in the interval -1 ≤ x ≤ 1 and that we are free to choose any n points x , …, x in this interval for use in the interpolation 1 n formula (3.1).
+Now n ∏(x−x ) i i=1 42 is a polynomial of degree n with leading coefficient 1 and of all such polynomials the one with −(n−1) the minimum maximum value is 2 .
+It follows therefore that if we wish to minimize (3.1) we should choose the x so that i n T (x) ∏(x−x ) = 2−(n−1).T (x) = n i n n−1 2 i=1 And this is equivalent to saying that we should choose x x …,x to be the n roots of T (x), that 1, 2 n n is, we should take ( ) 2m−1 x =cos π , (m = 1 , 2, .
+.
+.
+, n) (3.2) m 2n The main disadvantage of Chebyshev interpolation is the need to use the special values of x i given by (3.2) rather than integral multiples of a step (such as 0.1, 0.2, .
+.
+.
+, etc).
+The values, however, are easy to compute for a given n. 3.1 Numerical Example Example 1 1 Use Chebyshev interpolation to find a cubic polynomial approximation to (1+ x)2 over [-1, 1] Solution For a cubic polynomial approximation, we need four interpolating points.
+Hence, the four Chebyshev interpolation points from equation (3.2) are π 3π 5π 7π x =cos( ) , x =cos( ) , x =cos( ) , x =cos( ) 1 2 3 4 8 8 8 8 and these values are x = 0.92388 , x = 0.382683 , x = – 0.382683 , x = – 0.92388 1 2 3 4 We note that x = – x and x = – x .
+The cubic can therefore be simplified by combining terms 3 2 4 1 involving (x and x ) and (x and x ).
+Thus, from equation (3.1) we shall obtain 1 4 2 3 p(x)= ∑4 f(x )∏4 x−xi j x −x j=1 i=1 j i j≠i (x− x )(x− x )(x− x ) (x−x )(x−x )(x−x ) = f(x ) 2 3 4 + f(x ) 1 3 4 1 2 (x − x )(x −x )(x −x ) (x −x )(x −x )(x −x ) 1 2 1 3 1 4 2 1 2 3 2 4 (x−x )(x−x )(x−x ) (x−x )(x−x )(x−x ) + f(x ) 1 2 4 + f(x ) 1 2 3 3 4 (x −x )(x −x )(x −x ) (x −x )(x −x )(x −x ) 3 1 3 2 3 4 4 1 4 2 4 3 But x = – x and x = – x , using this we get 3 2 4 1 (x−x )(x+ x )(x+ x ) (x−x )(x+ x )(x+ x ) P(x) = f(x ) 2 2 1 + f(x ) 1 2 1 1 2 (x −x )(x + x )(x + x ) (x −x )(x + x )(x + x ) 1 2 1 2 1 1 2 1 2 2 2 1 (x−x )(x−x )(x+ x ) (x−x )(x−x )(x+ x ) + f(−x ) 1 2 1 + f(−x ) 1 2 2 2 1 (−x −x )(−x −x )(−x + x ) (−x −x )(−x −x )(−x + x ) 2 1 2 2 2 1 1 1 1 2 1 2 1 Now putting f(x) =(1+ x)2 , we have P(x) = (1+ x )12 (x2 −x22)(x+ x1) +(1+ x )12 (x2 −x12)(x+ x2) 1 1 (x2 −x2)(2x ) (x2 −x2)(2x ) 1 2 1 2 1 2 + (1−x )12 (x2 −x12)(x−x2) + (1−x )12 (x2 − x22)(x− x1) 2 2 (x2 −x2)(−2x ) (x2 − x2)(−2x ) 2 1 2 1 2 1 43 Substituting for x and x we obtain 1 2 1 (x2−0.3826832)(x+0.92388 ) P(x)=(1.92388) 2 (0.923882 −0.3826832)(2×0.92388 ) 1 (x2−0.923882)(x+0.382683 ) +(1.92388 ) 2 (0.3826832−0.923882)(2×0.382683 ) 1 (x2−0.923882)(x−0.382683 ) + (1−0.382683 ) 2 (0.3826832−0.923882)(−2×0.382683 ) 1 (x2−0.3826832)(x−0.92388 ) + (1−0.382683 ) 2 (0.923882−0.3826832)(−2×0.92388 ) (x2 −0.146446)(x+0.92388 ) P(x)=(1.38702)× (0.853554 −0.146446)(1.84776 ) (x2 −0.853554 )(x+0.382683 ) +(1.38702)× (0.146446−0.853554)(0.765366 ) (x2 −0.853554)(x−0.382683 ) + (0.785695)× (0.146446−0.853554)(−0.765366 ) (x2 −0.146446)(x−0.92388 ) + (0.785695)× (0.853554−0.146446)(−1.84776 ) P(x) =(1.0615769)×(x2 −0.146446)(x+0.92388 ) +(−2.5628773)×(x2 −0.853554 )(x+0.382683 ) + (2.6383371)×(x2 −0.853554)(x−0.382683 ) + (−0.6013436)×(x2 −0.146446)(x−0.92388 ) Opening the brackets and simplifying we shall obtain the cubic polynomial approximation (to 5 decimal places) as: P(x) = 1.01171 + 0.49084x + 0.21116x2 + 0.12947x3 (3.3) 1 Comparison of P(x) in equation (3.3) with f(x) =(1+ x)2 at x = – ½ (¼) ½ with the absolute error E = f(x) – P(x)  is given in Table 1 below: Table 1 x – 0.5 – 0.25 0 0.25 0.50 P(x) 0.69732 0.87378 1.01171 1.12325 1.22052 1 f(x) =(1+ x)2 0.70711 0.86603 1.00000 1.11803 1.22475 Abs.
+Error E 0.00979 0.00775 0.00171 0.00522 0.00423 The above table displays the accuracy of the Chebyshev approximation to the given example.
+44  4.0 Conclusion We have been able to demonstrate the use of Lagrange’s method in our interpolation technique.
+We have also seen that Chebyshev polynomials are of great usefulness in the interpolation of simple functions.
+5.0 Summary In this Unit the reader have learnt that: (i.)
+interpolation technique is possible by using Chebyshev polynomials.
+(ii.)
+Lagrange’s method of interpolating is basic and very useful.
+(ii) the difference of the actual and the approximate value is the error 6.0 Tutor Marked Assignment 1 − Use Chebyshev interpolation technique to find a cubic polynomial approximation to (1−x) 2 over [-1, 1] 7.0 Further Reading and Other Resources 1.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 2.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+3.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+4.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 5.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 6.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 7.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 45  MODULE 3 FURTHER INTERPOLATION TECHNIQUES UNIT 1: CUBIC SPLINE INTERPOLATION 1.0 Introduction One of the problems which frequently arises when we try to approximate a function by means of a polynomial of high degree is that the polynomial turns out to have closed placed maxima and minima, thus giving it an undulatory (or ‘wiggly’) character.
+This is very undesirable if the polynomial is to be used for interpolation, and disastrous if it is to be used for numerical differentiation.
+In 1945, I. J. Schoenberg introduced the idea of approximation to functions by means of a series of polynomials over adjacent intervals with continuous derivatives at the end-points of the intervals.
+Such a set of polynomials he called ‘splines’, pointing out that architects and designers had been using mechanical devices of this kind for years.
+In his paper Schoenberg explains.
+A spline is a simple mechanical device for drawing smooth curves.
+It is a slender flexible bar made of wood or some other elastic materials.
+The spline is placed on the sheet of graph paper and held in place at various points..
+The mathematical equivalent of this ‘flexible bar’ is the cubic spline which has proved to be extremely useful for interpolation, numerical differentiation and integration and has been subject of many research papers.
+2.0 Objective By the end of this unit, the learner should be able to: (f) define a cubic spline; (g) derive a method of fitting a cubic spline; (h) fit a cubic spline to set of data points; (i) interpolate a function from the fitted cubic spline; (j) find the error in the cubic spline.
+3.0 Spline Function To be able to understand this module we shall begin the discussion by defining what is meant by splines of degree k and then develop the special case of the cubic (k = 3) Definition 1 A spline function S(x) of degree k with n nodes, x < x < … < x has the properties 1 2 n (i.)
+S(x) is given in the interval [x , x ] , i = 0, 1, .
+.
+.
+, n (where x = – ∞ , x = ∞) by i i+1 o n+1 a polynomial of degree at most k (in general, a different polynomial is obtained in each interval); (ii.)
+S(x) and all derivatives of orders 1, 2, …, k–1 are continuous on (– ∞ , ∞) In the case k = 3, the polynomials in each of the intervals are at most cubics and their first and second derivatives are continuous at the end points of the intervals.
+Such a set of polynomials form a cubic spline.
+We can narrow down this definition to a cubic spline S(x) as follows: 46  Definition 2 A Cubic Spline S(x) is a function which satisfies the following properties S(x) is a polynomial of degree one for x < x and x > x 0 n S(x) is at most a cubic polynomial in (x, x ) , i = 0, 1, 2,. .
+.
+, n – 1; i i+1 S(x) , S′(x) and S″(x) are continuous at each point (x , y) , i = 0, 1, 2,. .
+.
+, n; i i S(x) = y , i = 0, 1, 2,. .
+.
+, n. i i 3.1 Derivation of Cubic Spline How can we construct a cubic spline?
+How many data points or set is required?
+We shall give simple and interesting, with step by step procedure of derivation of cubic splines.
+We proceed as follows: Suppose that we are given a set of points x < x < … < x , not necessary equally spaced, and a 1 2 n set of values f(x ), f(x ),…, f(x ) at these points.
+Take a particular interval [x, x ] and fit a 1 2 n i i + 1 cubic over the interval which satisfies the definition of a cubic spline.
+Since the cubic may differ from one interval to another let the cubic be S(x) =P(x) = a +a x+a x2 +a x3 , x ≤ x ≤ x (3.1) i o 1 2 3 i i+1 Equation (3.1) contains 4 unknowns.
+We impose 2 obvious conditions P(x )= y , i i i and P (x ) = y .
+i+1 i i+1 The remaining 2 conditions are obtained by choosing the coefficients so that the first and second derivatives of P(x) at x, are equal to the first and second derivatives of P (x) at x , that is i i+1 i P′(x ) = P′ (x ) i i i+1 i P′′(x ) = P′′ (x ) i i i+1 i There remain special problem at x and x , but we will deal with these later.
+The conditions are 1 n now sufficient to determine the (n – 1) cubics which collectively constitute the cubic spline S(x) that is: S(x) = P (x) for x ≤ x ≤ x i i i+1 How can we solve these equations?
+The simplest method is to note that S″(x) is linear in x and is also continuous over the whole interval [x , x ] 1 n .
+S″ (x) can therefore be represented in [x, x ] by a linear function which is only seen to be i i + 1 x−x S′′(x) = S′′(xi)− i [S′′(xi+1)−S′′(xi)] (3.2) xi+1−xi We rewrite (3.2) in the form S′′(x) = x−xi S′′(xi+1)− x−xi+1 S′′(xi) (3.3) xi+1−xi xi+1−xi We integrate twice then, putting h = h = x – x as usual, the result can be written as i i+1 i 3 3 S(x) = (x−xi) S′′(xi+1)− (x−xi+1) S′′(xi)+a(x – xi) +b(x – xi+1) (3.4) 6h 6h Hence any expression of the form Ax + B may be written as a(x – x) +b(x – x ) for suitable i i+1 choice of a,b provided xi ≠ xi+1 We now impose the conditions that S(x ) = y and S(x ) = y i i i+1 i+1 so that on putting x = x , equation (3.4) becomes i 47 −(x −x )3 y = i i+1 S′′(x )+b(x −x ) (3.5) i i i i+1 6h 3 h y = S′′(x )−bh i i 6h 2 h ⇒ bh = −y + S′′(x ) i i 6 − y h b = i + S′′(x ) (3.6) i h 6 Also putting x = x in equation (3.4) , we get i+1 3 h yi+1 = S′′(xi+1)+ah 6h y h or a = i+1 − S′′(x ) (3.7) i+1 h 6 Substituting equations (3.6) and (3.7) in equation (3.4) gives: (x−x )3 (x−x )3 S(x) = i S′′(x )− i+1 S′′(x ) i+1 i 6h 6h y h  − y h  +(x−x ) i+1 − S′′(x ) +(x−x ) i + S′′(x ) i  i+1  i+1  i   h 6   h 6  after slight re-arrangement of terms, we obtain S′′(xi)(xi+1−x)3  S′′(xi+1)(x−xi)3  S(x) =  −h(xi+1−x)+  −h(x−xi) 6  h  6  h      (3.8) (xi+1−x) (x−xi) + yi + yi+1   h   h  This expression is valid for the interval x < x < x i i+1 It is worth noting that if in (3.8) we ignore the two terms involving S″(x) and S″(x ) we obtain i i+1 the approximation to S(x) (xi+1−x)yi −(x−xi)yi+1 S(x) ≅ i h which is the result for linear interpolation.
+We see therefore that the terms involving S″(x) and i S″(x ) can be regarded as correction terms obtained by using a cubic instead of a linear i+1 approximation.
+Before we can use (3.8) to determine S(x) we must find the values S″(x) and this i we do by using the conditions that the first derivatives are continuous at the nodes.
+Differentiating (3.8) and putting x = x we have i S′(x ) = S′′(xi)− 3(xi+1−xi)2 +h− hS′′(xi+1) − yi + yi+1 (3.9) i 6  h  6 xi h If we now replace i by (i – 1) in equation (3.8), differentiate and again put x = x , we obtain i 48 S′(xi) = S′′(xi)− 3(xi −xi−1)2 −h+hS′′(xi−1)− yi−1 + yi (3.10) 6  h  h h   where in this last equation h = x – x = h i i – 1 i – 1 The continuity of S″(x) at x now requires that the expressions on the right of (3.9) and (3.10) are i equal and this leads to the equation: y − y y − y  S′′(xi−1)hi−1 +S′′(xi)[2(xi+1 −xi−1)]+S′′(xi)h =6 i+1 i − i i−1 (3.11)  h hi−1  In the case where the x are evenly spaced (3.11) is simplified to i  y −2y + y  S′′(x )+4S′′(x )+S′′(x ) =6 i+1 i i−1 i−1 i i+1   2  h  Since h = h , x – x = h , x – x = h ⇒ x – x = 2h o i i – 1 i+1 i i+1 i – 1 We can simply replace S′′(x ) = M so as to get i i  y −2y + y  M +4M +M =6 i+1 i i−1 (3.12) i−1 i i+1   2  h  The sets ( n – 1) equations (3.11) and (3.12) contain (n+1) unknowns S″(x), (i = 0,1,…,n) and in i order to obtain a unique solution we must impose conditions on S″(x ) and S″(x ) and this is 0 n usually done by taking the spline in the intervals (– ∞ , x ) and (x , ∞) (that is, x< x and x > o n o x ) to be a straight line, so that n S″(x ) = 0 , S″(x ) = 0.
+0 n This corresponds, in physical terms to allowing the spline to assume its natural straight shape outside the intervals of approximation.
+The spline S(x) so determined under this condition is called the natural cubic spline.
+Given these extra two conditions the equations (3.12) are now sufficient to determine the S″(x) j and so S″(x).
+The system of linear equations which is usually generated from this equation is of tri-diagonal form and such systems can be solved either by direct methods, such as Gaussian elimination or, if n is large, by indirect methods such as the Gauss-Seidel.
+Often foe a small system, simple way of solving simultaneous equation is used.
+The above procedure is the usual mathematical principle of fitting a cubic spline to a set of data points.
+However, there exist an alternative method and this is given as follows: 3.1.1 Alternative Method of Deriving Cubic Spline In the interval (x , x), let S(x) be such that i-1 i 3 2 S(x) = P (x) = a x +b x +c x+d i = 1,2,. .
+.
+,n (3.13) i i i i i Since each of equation (3.13) has 4 unknowns, then we have 4n unknowns a, b , c , d ¸ i = 1, i i i i 2, .
+.
+., n Using continuity of S(x), S′(x) , S″(x0, we get 3 2 P (x ) = y = a x +b x +c x +d (3.14) i i i i i i i i i i 3 2 Pi+1(xi) = yi = ai+1xi +bi+1xi +ci+1xi +di+1 (3.15) for i = 1,2,. .
+.
+,(n – 1) equations (3.14) and (3,15) give 2(n – 1) conditions 49 2 2 3aixi +2bixi +ci =3ai+1xi +2bi+1xi +ci+1 (3.16) 6aixi +2bi =6ai+1xi +2bi+1 for i = 1,2,. .
+.
+,(n – 1) equations (3.16) give 2(n – 1) conditions Furthermore, y = a x3 +b x2 +c x +d 0 1 0 1 0 1 0 1 and y = a x3 +b x2 +c x +d n n n n n n n n Hence, totally we have 4n – 2 conditions.
+Furthermore, let S′′(x ) = M , S′′(x ) = M o o n n Now we have 4n conditions to solve for the 4n unknowns.
+This will give the cubic spline in each subinterval.
+If M = 0, M = 0 , we call this cubic spline as natural spline.
+0 n These two approaches can be used to obtain a cubic spline.
+It is necessary to emphasis that the interval may be uniform or non uniform.
+When the step is uniform, h is constant, but when the interval is uneven, then our step is taken as x – x = h for each interval.
+i i – 1 i Some examples are given below to illustrate this method.
+3.2 Numerical Examples Example 1 From the following table X 1 2 3 Y - 8 - 1 18 Obtain the cubic spline and hence by using your cubic spline, compute y(1.5) and y′(1),.
+Solution Here h = 1, and n = 2 .
+also assume M = 0 and M = 0 we have 0 2 , 6 [ ] Mi−1+4Mi +Mi+1= yi−1−2yi + yi+1 , for i = 1,2,. .
+.
+,(n – 1) 2 h From this, [ ] M +4M +M =6 y −2y + y 0 1 2 0 1 2 [ ] ∴ 4M =6 −8−2(−1)+18 =72 1 ∴ M =18 1 From equation (6) , for 1≤ x ≤ 2putting I = 1, we get [ ] 1 3 S(x) = 18(x−1) +(2−x)(−8)−4(x−1) 6 3 =3(x−1) +4x−12 3 2 =3x −9x +13x−15 50 45 y(1.5) = S(0.5) = 3(0.5)3 + 4(1.5) – 12 =− 8 y′= S′(x) =9(x−1)2 +4 y(1) = 4 Remark 1.
+We can also find S(x) in the interval (2,3) using the equation (3.8) for i = 2 2.
+Since y(1.5) is required, we have not cared to find S(x) in (2,3) 3.
+Note that y = x3 – 9 also gives the above table values in the range (1,3).
+Method 2 We will use the second method and work out the above problem.
+Let the cubic spline be 3 2 P (x)= a x +b x +c x+d in [1, 2] 1 1 1 1 1 3 2 P (x) = a x +b x +c x+d in [2, 3] 2 2 2 2 2 P (1) = a +b +c +d = −8 (i) 1 1 1 1 1 P (2) =8a +4b +4c +d = −1 (ii) 1 1 1 1 1 P (2) =8a +4b +2c +d = −1 (iii) 2 2 2 2 2 P (3) = 27a +9b +3c +d =18 (iv) 2 2 2 2 2 P′(x ) = P′ (x ) gives 1 1 2 1 3a (2)2 +2b (2)+c =3a (2)2 +2b (2)+c (v) 1 1 1 2 2 2 6a (2)+2b =6a (2)+2b (vi) 1 1 2 2 P′′(x ) = S′′(x ) =0 gives 1 0 0 6a (1)+2b =0 (vii) 1 1 P′′(x ) = S′′(x ) =0 gives 2 2 2 6a (3)+2b =0 (viii) 2 2 Solving (i) to (viii), we obtain a =3 , b = −9 , c =13 , d =−15 1 1 1 1 a = −3 , b = 27 , c = −59 , d =33 2 2 2 2 Hence the cubic splines are: 3 2 P (x) =3x −9x +13x−15 in [1, 2] 1 3 2 P (x) =−3x +27x −59x+33 in [2, 3] 2 The learner is expected to verify this result by solving the 8 equations.
+Now we can interpolate at x = 1.5 from our polynomial, we then obtain 3 2 45 P (1.5) =3(1.5) −9(1.5) +13(1.5)−15= − 1 8 P′(x) =9x2 −18x+13 1 ∴ P′(1) =9−18+13= 4 1 51 3 2 P (2) =−3(2 )+27(2 )−59(2)+33= −1= P (2) 2 1 P (3) =−3(33)+27(32)−59(3)+33=18 2 All these values tally with tabular values as x= 1, 2, 3.
+Example 2 Find the cubic Spline given the table x 0 2 4 6 y 1 9 41 41 where M =0 , M = −12 0 3 Solution Here h = 2 6[ ] M +4M +M = y −2y + y 0 1 2 0 1 2 4 3 = (1−18+41) 2 =36 6[ ] M +4M +M = y −2y + y 1 2 3 0 1 2 4 3 = (9−82+41) 2 =−48 Using M =0 , M = −12, we get 0 3 4M +M =36 1 2 and M +4M = −36 1 2 Solving we obtain, M =12 , M = −12 1 2 S(x) = 1 [(2−x)3(0)+(x−0)3(12)]+ 1(2−x)[1− 2(0)]+ 1[9− 2(12)] 12 2 3 2 3 3 = x +1 in [0, 2] 2 3 Similarly S(x) = 25−36x+18x −2x in [2,4] 2 and S(x) = −103+60x−6x in [4, 6] Example 3 Fit a natural cubic spline to the data below and use it to estimate f(55).
+x 25 36 49 64 81 y = f(x) 5 6 7 8 9 Solution 52 We use (3.11) to form a set of linear equations for S″(36), S″(49), S″(64) and we take S″(25) = S″(81) = 0.
+The equations are (0).11+2(24)S′′(36)+13S′′(49) =6( 1 − 1) 13 11 13.S′′(36)+2(28)S′′(49)+15S′′(64) =6( 1 − 1 ) 15 13 15.S′′(49)+2(32)S′′(64)+17(0) =6( 1 − 1 ) 17 15 Let S′′(36) = a ,S′′(49) =b ,S′′(64) =c, we re-write the equations in terms of a, b, c as 48a+13b = −12 143 13.a+56b+15c = − 12 195 15.b+64c = − 12 255 Solving these equations simultaneously we obtain a = S″(36) = – 0.001594 b = S″(49) = – 0.000568, c = S″(64) = – 0.000602 The point at which we wish to interpolate, x = 55, lies in the interval [49, 64] and we must use the cubic appropriate to that interval, i.e.
+we use equation (3.8) when x = 64, x = 49, x = 55 i+1 i and so we obtain S′′(49)(64−55)3  S′′(64)(55−49)3  S(55) =  −15(64−55)+  −15(55−49) 6  15  6  15      (64−55) (55−49) +7 +8      15   15  i.e.
+S(55) = 0.008179 – 0.007585 + 7.4 = 7.415764 So our estimate for f(55) is 7.415764 As remarked above the last two terms constitute the linear approximation which therefore has the value ( ) ( ) 9 6 7 −8 =7.4 15 15 Since the function, f(x) is in fact x we can check on the accuracy of the estimate.
+The error E of our cubic spline is obtained by taking the difference from the exact value Now 55 =7.416198 Hence E = 7.416198 – 7.415764 = 0.000434 And the error of the linear approximation is E = 7.416198 – 7.4 = 0.016198 1 Thus the linear estimate is correct to only 1 d.p.
+while the cubic spline turns out to be correct to 3 d.p.
+with little error of 4.34 ×10 – 4 The result is satisfactory because we are working near the middle of a range of a smooth function with a small (absolute) value for its second derivative.
+Remember that we have taken S″(25) = S″(81) = 0.
+Self Assessment Exercise 1.
+Can you find S(x) in the interval (2,3) for i = 2 in Example 1 above, using the same method.
+53 4.0 Conclusion Cubic spline has a great advantage of fitting polynomial of degree three simply by using the above techniques.
+It will be cumbersome to think of fitting a polynomial of higher degree as this will require deriving a set of formula as it was done in section 3.1.
+However, it is known that a cubic spline gives a good accuracy to several functions that permits polynomial fitting.
+5.0 Summary In this Unit we have learnt (i) how to derive the cubic spline formula involving set of linear equations (ii) how to fit a cubic spline or polynomial of degree three to a set of data points using cubic spline technique.
+(iii) that cubic spline have good accuracy with minimum error when used to fit a function.
+6.0 Tutor Marked Assignment Fit a natural cubic spline to the data below and use it to estimate f(24).
+x 10 15 20 25 30 y = f(x) 8 10 12 15 18 7.0 Further Reading and Other Resources 1.
+Abramowitz M., Stegun I.
+(eds) ,(1964): Handbook of Mathematical functions, Dover , N.Y. 2.
+De Boor C. (1978) : A Practical Guide to Splines, Springer Verlag, N.Y. 3.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+4.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 5.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 6.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 54 MODULE 3 UNIT 2 HERMITE APPROXIMATIONS 1.0 Introduction For approximation, or interpolation, of a function defined analytically a method due to Hermite is often useful.
+The method is superficially related to the spline method but in fact the two methods are very different because fitting of spline involves solving a system of linear equations to obtain numerical values for the second derivatives.
+S″(x), whereas for Hermite interpolation i the values of the first derivatives are given, and the second derivatives are not relevant Spline are mainly used for fitting polynomials to data, Hermite polynomials are mainly used for approximating to functions The most commonly used Hermite approximation polynomial is the cubic, as in the case of spline and we shall discuss only this case in detail, the more general case can be analyzed in a similar manner.
+2.0 Objective By the end of this unit, the learner should be able to: (i) distinguish between cubic spline and Hermite polynomial (ii) figure out the Hermite approximation formula (iii) fit polynomial by Hermite approximation technique and find an estimate.
+3.0 Hermite Approximation Formula Suppose we have an analytic function y = f(x) with values f(x) and derivatives f’(x) given at n i i points x (i = 1,…,n).
+Across each pair of adjacent points x , x we fit a cubic p (x) such that i m m+1 m p (x ) = f(x ) , p′ (x ) = f ′(x ) m m m m m m pm(xm+1) = f(xm+1) , pm′ (xm+1) = f ′(xm+1) Since p (x) contains 4 coefficients, then four necessary equations will determine it uniquely, and m indeed the formula for p (x) can be explicitly stated as: m 2 2 pm(x)=1+2 x−xm  xm+1−x  f(xm)+1+2 xm+1−x  x−xm  f(xm+1)  xm+1−xm xm+1−xm   xm+1−xm xm+1−xm  (3.1) ( )( )2 ( )2( ) + x−xm xm+1−x f′(xm) + x−xm xm+1−x f′(xm+1) ( )2 ( )2 xm+1−xm xm+1−xm A cubic Hermite approximation thus consists of a set of cubic polynomials; each defined over one interval, with continuity of the cubics and their first derivatives at all the nodes.
+An example will be given to illustrate how this is used.
+This formula is not difficult to know, all it required is the placement of each subscript of x.
+3.1 Numerical Example Example 1 Use Hermite cubic interpolation to estimate the value of 55 taking f(x) = x , x = 49, x = 64 1 2 Solution 1 Given f(x) = x then f ′(x) = 2 x 55 1 1 From (3.1) with x = 49, x = 64, f(x ) = 49 =7, f ′(x ) = = , m m+1 m m 2 49 14 1 1 Similarly, f(xm+1) = 64 =8 , f ′(xm+1) = = 2 64 16 we have the Hermite cubic approximation as 2 2  x−49  64− x   64− x  x−49  f(x) ≅ 1+2×   (7)+1+2×   (8)  64−4964−49  64−4964−49 (x−49)(64− x)2 ( ) (x−49)2(64− x)( ) 1 1 + + ( )2 14 ( )2 16 64−49 64−49 2 2 ( )( )2 ( )2( ) 2x−8364− x 143−2xx−49 x−49 64− x x−49 64− x =   (7)+   (8) + +  15  15   15  15  225×14 225×16 This gives the required Hermite polynomial approximation to f(x) = x .
+We may simplify this as much as possible.
+However, since we are only to estimate the square root of 55, simplifying this expression may not be all that necessary until we have substituted the value for x.
+Hence, putting x = 55 in the last equation obtained yields the estimate 55 ≅ 7.416286 The correct value of 55 to 6 d.p is 7416198, so the error is 0.000088 compared to an error of - .000434 when we used the natural cubic spline in Example 3 of Unit 1 4.0 Conclusion In general the errors when we use the Hermite cubic and the natural cubic spline on the same problem will not be very different for in both cases the error is proportional to h4 where h is the step between the two relevant nodes.
+5.0 Summary In this Unit we have learnt that (i) Hermite approximation differs from cubic.
+(ii) cubic spline fit a polynomial to a set of data points while Hermite approximate a function as a polynomial.
+(iii) Hermite approximation may be more accurate than the cubic spline.
+6.0 Tutor Marked Assignment Obtain an Hermite approximation of polynomial of degree 3 to the function f(x) = ln x for x = 2, 1 x = 5 and hence estimate the value of ln 3.5 2 7.0 Further Reading and Other Resources 1.
+Abramowitz M., Stegun I.
+(eds) ,(1964): Handbook of Mathematical functions, Dover , N.Y. 2.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 3.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+4.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+5.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 6.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 7.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 56 MODULE 4 NUMERICAL INTEGRATION UNIT 1 INTRODUCTION TO NUMERICAL INTEGRATION 1.0 Introduction In numerical analysis, integration seems to be easier than differentiation, which is the reverse in Calculus.
+Hence the cases where most integrals have no representation in terms of elementary function will only require the use of approximation functions.
+This is done by the process of numerical integration.
+The importance of numerical integration is clearly seen when we consider how frequently derivatives are involved in the formulation of problems in applied analysis.
+It is well observed that polynomial approximation serves as the basis for a variety of integral formulas, hence the need to have studied some polynomial approximation techniques.
+2.0 Objective At the end of this Unit, the learner would have learn (i) what numerical integration is all about (ii) differentiate between analytical approach and numerical approach to integration (iii) be able to list various known methods for numerical quadrature 3.0 Quadrature In the study elementary calculus especially integration, there are various techniques involved to evaluate different kind of integrals.
+Some integral are cumbersome that sometimes are left in form of another integral in a sense.
+There are several other ones that need the help of special functions or reduction of order before they can be evaluated.
+This is one reason why numerical integration comes to play a role in the evaluation of such integrals.
+The main procedure of numerical integration is to divide the range of interval of integration into some equal intervals and obtain the integral of the first strip of the interval.
+Upon the first result, other strips are generalized.
+The other strips after the first are to correct the accuracy of the first, thereby quadraturing the strips one after the other.
+Hence, Numerical integration is commonly referred to as Numerical quadrature and their formulas are called quadrature formulas.
+It is worth noting that results or formulas derived in this way are also termed as rules rather than methods.
+Thus, we talk of Trapezoidal rule, Simpson’s rules, Newton-Cotes rules, etc.
+The main idea is, if P(x) is an approximation to y(x) then b b ∫ P(x)dx ≈ ∫ y(x)dx (3.1) a a That is the integral of P(x) can be approximated by some numerical schemes which consider some points within the limits of integration.
+These points are node points or collocating points which are subdivided into by equal spacing on the x –axis.
+Thus if the range or limits of integration which is [a, b] are actually points [x , x ], then the 0 n interval [x , x ] can be subdivided into equal interval as shown below 0 n x x x .
+.
+.
+.
+x x 0 1 2 n-1 n Now between any successive interval, is what is called the step length denoted by h, so that h = x – x = x – x = x – x = .
+.
+.
+.
+= x – x 1 o 2 1 3 2 n n-1 ⇒ x = x + nh n o 57  3.1 Quadrature Formulas There are standard rules in numerical analysis that can be used to estimate the above integral.
+Among such rules or formulas are: (i.)
+Trapezoidal rule, 1 (ii.)
+Simpson’s - rule, 3 (iii.)
+Simpson’s 3 −rule, 8 (iv.)
+Newton – Cotes formulas The Trapezoidal rule is given by ∫ xn P(x)dx = 1h(y +2y +2y +.....+2y + y ) 0 1 2 n−1 n x0 2 1 The Simpson’s - rule is given by 3 ∫xn P(x)dx= 1h(y +4y +2y +4y +2y +.....+2y +4y + y ) xo 3 0 1 2 3 4 n−2 n−1 n While the Simpson’s 3 −rule is given by 8 x ∫ n P(x)dx = 3 h ( y + 3y + 3y +2y + 3y + 3y +2y + ... + 3y + 3y + y ) 0 1 2 3 4 5 6 n−2 n−1 n 8 x 0 The Newton – Cotes formulas depend on the value of n starting from n = 4 ,6, .
+.
+.
+The derivations of these formulas are very essential to the learning of Numerical integration.
+While they are interesting in the learning of the topic, it also helps in the understanding of the workings of these formulae rather than trying to memorize them.
+Thus attempt will be made to give the required techniques of their derivations and the learner will complete the rest.
+3.2 Newton Gregory Formula The most acceptable way of deriving all these rules listed above is by using the Newton forward formula or Newton backward formula.
+However we shall restrict our learning to using the Newton Forward formula for deriving the integration formula in this course.
+Geometrically the Trapezoidal rule which sometimes is simply called the trapezium formula can be derived by approximating a curve by a straight line, thereby getting a trapezium.
+The Newton Gregory Forward formula is given by P (x) = y + kC ∆y + kC ∆2 y + kC ∆3 y + ….
++ kC ∆n y (3.2) k 0 1 0 2 0 3 0 n 0 = y +k∆y + k(k−1)∆2y + k(k−1)(k−2)∆3y + ... + k(k−1)(k−2)....(k−n)∆ny 0 0 0 0 0 2!
+3!
+n!
+Integrating this formula of degree n between x and x gives several useful quadrature formulas.
+o n where ∆ is a forward difference operator defined as ∆y = y - y k k+1 k This formula (3.2) is very useful in the derivation of all numerical integration schemes.
+The accuracy of these quadrature formulas differs when applied to a definite integral.
+The smaller the stripe h is, the better the accuracy.
+It must be mentioned here that numerical integration deals with only definite integrals.
+In other words, indefinite integrals are best handled by analytical means.
+However in practice, most practical problems involve definite integrals and so numerical integration is very relevant in physical and day to day problems.
+Each of these formulas will be discussed in subsequent Units.
+58  4.0 Conclusion The use of quadrature formulas are of high importance to this study.
+We have introduced all the relevant formulas which we shall later use to evaluate some definite integrals.
+5.0 Summary In this Unit we have learnt that (i) quadrature is a numerical analysis terminology that refers to numerical integration (ii) there are three standard numerical integration formulas viz: Trapezoidal rule, Simpson’s rules and Newton – Cotes formulas (ii) Newton Gregory formula is the basis for the derivation of these quadrature formulas.
+6.0 Tutor Marked Assignment Use geometrical approach r to derive the trapezoidal rule.
+7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+2.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 3.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 59 MODULE 4 UNIT 2 TRAPEZOIDAL RULE 1.0 Introduction Integration is known to be a method of finding area under a curve.
+In particular, the curve may be bounded by two points on the x-axis.
+If this be the case, it might interest one to subdivide this area under a curve into small stripes of similar or equal width on the x-axis.
+As it was mentioned in the last unit we shall attempt to derive these formulas before illustrating their computation by examples.
+2.0 Objective At the end of this lesson, the learner would have been able to (i) know how to derive Trapezoidal rule geometrically (ii) learn how to use Newton Gregory formula to derive the Trapezoidal rule (iii) know how to implement Trapezoidal rule to evaluate a definite integral (iv) estimate the error of a trapezoidal rule.
+3.0 Derivation By Geometrical Approach Trapezoidal rule, partitions a function f(x) into n equally spaced points on x-axis, leading to various arguments (x x ).
+In order to derive the trapezoidal rule, the first approach shall be by i, i+1 geometrical means.
+Consider a function f(x) within the interval [x , x ] as shown in figure 1 0 n f(x) x x Figure 3.1 0 n The interval is subdivided into n equally spaced intervals with node points x , x , x ,… , x .
+0 1 2 n For any two immediate points x , x the diagram below (Figure 2) describes the phenomenon 0 1 y Trapezoidal average point rule 1 Q Area = ½ (x – x )(y + y ) 1 0 0 1 y = ½ h (y + y ) 0 P 0 1 x x Figure 3.2 0 1 60 The points P, Q are assumed to be very close to each other; thereby it is approximated to be a straight line.
+Hence, the region x PQx is a trapezium with parallel sides x P and x Q, making 0 1 0 1 (x – x ) as the width or height.
+1 0 Thus for the whole region under the curve f(x) bounded by the x-axis between [x , x ], the 0 n whole region is subdivided into small strips of small intervals [x , x ], [x , x ] , …, [x , x ].
+0 1 1 2 n – 1 n f(x) P P P 0 1 2 y o A A A 0 1 n-1 x x x x x Figure 3 0 1 2 n-1 n The first strip is assumed to be a trapezium where the point P P is taken to be approximately a 0 1 straight line.
+This region A is a trapezium x P P x with parallel sides x P and x P and the 0 0 0 1 1 0 0 1 1 height is x x .
+Since Area has same meaning as Integration from elementary calculus, then the 0 1 area of this trapezium A is 0 A = ½ [x P + x P ] × (x – x ).
+0 0 0 1 1 1 0 But x P will corresponds to y on y-axis, while x P corresponds to y , by geometry, hence 0 0 0 1 1 1 A = ½ (y + y ) × (x – x ) 0 0 1 1 0 Let the equally spaced interval be h, then h = x – x i + 1 i A = ½ h(y + y ) 0 0 1 Similarly in the trapezium A , the sides are x P P x and the area of this trapezium is 1 1 1 2 2 A = ½ (y + y ) × (x – x ) 1 1 2 2 1 which also gives A = ½h(y + y ) 1 1 2 Continuing in this way, we obtain all the n areas A , A A and we the sum them up to o 1, .
+.
+.
+, n – 1 cover the whole are under the curve and within the required interval [x , x ].
+Thus we shall have 0 n the whole area as A= A + A + A ... + A o 1 2 n−1 = 1h(y + y )+ 1h(y + y )+ 1h(y + y )+ .... + 1h(y + y ) o 1 1 2 2 3 n−1 n 2 2 2 2 A= 1h(y +2y +2y +2y +.... +2y + y ) (3.1) o 1 2 3 n−1 n 2 Equation (3.2) is the Trapezium rule and it is the geometrical way of deriving this formula.
+3.1 Derivation By Newton’s Formula To derive the same formula by numerical integration, we shall make use of the Newton Forward formula given by 61 P (x) = y + kC ∆y + kC ∆2 y + kC ∆3 y + ….
++ kC ∆n y (3.2) k 0 1 0 2 0 3 0 n 0 = y +k∆y + k(k−1)∆2y + k(k−1)(k−2)∆3y + ... + k(k−1)(k−2)....(k−n)∆ny 0 0 0 0 0 2!
+3!
+n!
+To do this, if we truncate equation (3.2) after 2 terms, we get P (x) = y + kC ∆y = y + k∆y k 0 1 0 0 0 then we shall integrate this between x and x , since n = 1, to get 0 1 x x ∫ 1P(x)dx =∫ 1 (y +k∆y ) dx (3.3) 0 0 x x 0 o We need to change the variable in the integral from x to k in order to evaluate the integral.
+But we established earlier that x = x + nh n o For any arbitrary variable x, we shall write x = x +kh, ⇒ dx = h dk 0 Thus to take care of the limits of integration, when x = x , then k = 0, and when x = x , x = x + kh ⇒ k = 1 0 1 1 o Hence, equation (3.3) becomes x 1 ∫ 1P(x)dx = h∫ (y +k∆y ) dk , 0 0 x 0 0 1 = h (k y + 1k2∆y ) 0 2 0 0 = h (y + 1∆y ) 0 2 0 ⇒ ∫x1P(x)dx = 1h(2y + y − y ) = 1h(y + y ) (3.4) x 2 0 1 0 2 0 1 0 This is similar to the result obtained geometrically by trapezium area A .
+This result (3.4) is o termed as one-phase of the Trapezoidal rule.
+By quadrature technique, we can repeat the same for interval [x , x ] by shifting the point from 1 2 [x , x ] to [x , x ].
+That is, 1 replaces 0, while 2 replaces 1 in equation (3.4) 0 1 1 2 Thus, ∫x2 P(x)dx = 1h(y + y ) x 2 1 2 1 This is called quadraturing the points from one interval to a similar interval of equal length.
+Continuing for interval [x x ] , [x x ] , [x x ] , .
+.
+.
+, [x x ], we obtain 0, 1 1, 2 2, 3 n-1, n x x x x x ∫ n P(x)dx = ∫ 1 P(x)dx+∫ 2 P(x)dx+∫ 3 P(x)dx+ ... +∫ n P(x)dx x0 x0 x1 x2 xn−1 = 1h(y + y )+ 1h(y + y )+ 1h(y + y )+.....+ 1h(y + y ) 0 1 1 2 2 3 n−1 n 2 2 2 2 x ⇒ ∫ n P(x)dx = 1h(y +2y +2y +.....+2y + y ) (3.5) 0 1 2 n−1 n 2 x 0 This gives the same formula as obtained in (3.1) and it is often called the Trapezoidal rule.
+3.2 TRUNCATION ERROR It must be observed that this formula is merely an approximation and the error committed is due to the truncation in the Newton’s formula.
+Hence, we can estimate the Truncation Error (TE) of this formula.
+We define the error as the difference between the exact y(x) and the approximated values P(x).
+Thus, we write x x x E = ∫ n y(x)dx−∫ n P(x)dx = ∫ n[y(x)−P(x)]dx x x x 0 0 0 62 n ∏(x−x ) i where y(x)−P(x)= i=1 y(n+1)(ξ) (n+1)!
+Then for n = 1 we can estimate the TE for the trapezoidal rule as follows: (x−x )(x−x ) y(x)−P(x) = 0 1 y(2)(ξ) 2!
+Hence, x E =∫x1(x−x0)(x−x1) y(2)(ξ) dx=x3 − x1x2 − x0x2 − x0x1x y(2)(ξ) 1 x 2!
+ 6 4 4 2  0   x 0  3 2 2  h x h x h x x h =  − 1 − 0 − 0 1 y(2)(ξ)   6 4 4 2    3 3  3 h h  (2) h (2) = − y (ξ) = − y (ξ)   6 4 12   which is the error committed within the first strip [x , x ] 0 1 Now applying it on the whole range of trapezoidal rule: x ∫ n P(x)dx = 1h(y + y )+ 1h(y + y )+.....+ 1h(y + y ) 0 1 1 2 n−1 n 2 2 2 x 0 The error thus become h3 h3 -h3 E = - y(2)(x )- y(2)(x )+.
+.
+.
+.+ y(2)(x ) 12 0 12 1 12 n−1 h3 = - [y(2) + y(2) + .
+.
+.
++ y(2)] 12 0 1 n−1 Let the derivative be bounded by m < y(2) < M. The sum is between nm and nM.
+This sum will be written as ny ″(ξ) for x < ξ <x 0 n But nh = x – x n o 3 h E = - ny(2)(ξ) 12 2 h (2) Thus, E = - (x −x )y (ξ) n o 12 which is the error committed when using trapezoidal rule to estimate an integral.
+3.3 Numerical Example Example 1 By using the Trapezoidal rule integrate x between argument 1.00 and 1.30 for the data below x 1.0 1.05 1.10 1.15 1.20 1.25 1.30 x 1.00 1.0247 1.04881 1.01238 1.09544 1.11803 1.14017 Obtain the actual error and estimate the truncation error 63  Solution: From the table of values given above, we observe that n = 6, and y = x , so we read from the second row of the table that y = 1.00 and so on up to y = 1.14017; the step length h = 0.05 0 6 (since h = 1.05 – 1 = 1.10 – 1.05 = 0.05) The Trapezoidal rule is given by equation (3.5) as x ∫ n P(x)dx = 1h(y +2y +2y +.....+2y + y ) 2 0 1 2 n−1 n x 0 Thus with n = 6, we have x ∫ 6 P(x)dx = 1h(y +2y +2y +2y +2y +2y + y ) 0 1 2 3 4 5 6 2 x 0 Substituting the values from the table we have 1.30 1 1+2(1.02470)+2(1.04881)+2(1.07238)  ∫ x dx = (0.05)  1.00 2  +2(1.09544)+2(1.11803)+1.14017 = 0.32147 The actual integral can be obtained analytically as 1.3 ∫1.30 x dx = 2 x32 =0.321486 1.00 3 1 Hence the actual error is E = 0.321485 – 0.32147 = 0.000015 = 1.5 × 10-5 The Truncation Error of the Trapezoidal rule is (x -x ) (0.30) −x−3/2 - n o h2y(2)(ξ) =- (0.05)2( ) 12 12 4 =0.000016 maximum error is obtained when x = ξ = 1.00 Example 2 π 3 π Evaluate ∫sinx dxwith h = , correct to 5 decimal places using Trapezoidal rule 12 0 Solution π Let y = sin x , then we construct the table of values with a step length of h = as given below 12 x x x x x 0 1 2 3 4 x 0 π π π π 12 6 4 3 y = sin x 0.00 0.25882 0.50000 0.70711 0.86603 y y y y y y 0 1 2 3 4 x ∫ 4 P(x)dx = 1h(y +2y +2y +2y + y ) 0 1 2 3 4 2 x 0 64 π ( ) ∫ 3 sinx dx = 1 π [0+2(0.25882)+2(0.5)+2(0.70711)+0.86603 ] 2 12 0 = 0.4971426 ≅ 0.49714 (correct to 5 decimal places) Analytically, π π 3 3 ∫sinx dx = −cosx = −cosπ +cos0 =0.5 3 0 0 Hence the absolute error is E = 0.5 – 0.49714 = 0.00286 = 2.86 × 10 -3 4.0 Conclusion The lesson has clearly shown that we need not know how to integrate a function before we can get an approximate value for such integral within a limiting boundary.
+We have also shown that the error committed can be compared with the actual value.
+This error is improved if the step length h is probably reduced.
+5.0 Summary In this Unit we have learnt (i) how to derive the trapezoidal rule both in geometrical way and using the Newton Gregory formula (ii) how to implement the trapezoidal rule to evaluate definite integrals (iii) that the error can be estimated by comparing with the analytical solution (iv) that the truncation error of the rule can be estimated 6.0 Tutor Marked Assignment 5 2 Evaluate ∫ dxwith h = 1 , correct to 5 decimal places using Trapezoidal rule x+1 2 2 7.0 Further Reading and Other Resources 1.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+2.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+3.
+Okunuga, S. A., and Akanbi M, A., (2004).
+Computational Mathematics, First Course, WIM Pub.
+Lagos, Nigeria.
+65  MODULE 4 UNIT 3 SIMPSON’S RULES 1.0 Introduction 1 There are two popular Sampson’s rules.
+One is called the Simpson’s - rule while the other is 3 the Simpson’s 3 −rule.
+The Simpson’s rules are similarly useful in approximating definite 8 1 1 integrals.
+We shall discuss the Simpson’s - rule in this Unit.
+Simpson’s - rule is a technique 3 3 that uses 2 steps at a time to estimate the integral of P(x) as against single step used by Trapezoidal rule.
+So, the interval [x x ] is taken in two by two steps as [x x ] , [x x ] , [x x ] 0, n 0, 2 2, 4 4, 6 , .
+.
+.
+, [x x ].
+This idea will help us to derive a scheme that would be suitable for integration n–2 , n of various functions.
+2.0 Objective At the end of this unit the learner must be able to 1 (i) derive the Simpson’s - rule, 3 (ii) distinguish between Simpson’s rule and Trapezoidal rule, (iii) know where Simpson rule is applicable in terms of number of node points (iv) solve problems using the Simpson’s 1/3 rule 1 3.0 Derivation of Simpson’s - Rule, 3 In order to develop a formula based on Simpson’s rule, we shall consider the integration of Newton Forward Formula (NFF) given in Unit 1 of this Module.
+Recall the NFF, we have P (x) = y + kC ∆y + kC ∆2 y + kC ∆3 y + ….
++ kC ∆n y (3.1) k 0 1 0 2 0 3 0 n 0 = y +k∆y + k(k−1)∆2y + k(k−1)(k−2)∆3y + ... + k(k−1)(k−2)....(k−n)∆ny 0 0 0 0 0 2!
+3!
+n!
+If we integrate within the interval [x x ] and truncating after the third term, we shall obtain 0, 2 x x ∫ 2 P(x)dx = ∫ 2 (y +k∆y + k(k−1)∆2y ) dx (3.2) 0 0 0 2 x x 0 0 The integration has to be limited to x as n = 2 and this suggest the truncation also at ∆2.
+2 Using the same technique employed earlier in Unit 2, to change the variable to k, we shall write x = x +kh, ⇒ dx = h dk 0 Thus to take care of the limits of integration, we examine x andx , so that 0 2 when x = x , then k = 0, and when x = x , x = x + kh ⇒ k = 2 0 2 2 o Hence the integral (3.2) becomes ∫ x2 P(x)dx = h∫ 2 (y +k∆y + k(k−1)∆2y ) dk x 0 0 0 2 0 0 66 2 3 2 k k = h (k y + 1k2∆y +( − )∆2y ) 0 2 0 6 4 0 0 = h (2 y + 2∆y + 1∆2y ) 0 0 0 3 = h [2y + 2(y – y ) + 1(y – 2y + y )] 0 1 0 3 2 1 0 = 1h [y + 4y + y ] (3.3) 3 0 1 2 1 which is a part or one phase of the Simpson’s - rule.
+3 By quadrature, we can shift to the next two steps, that is, [x , x ] to get the next integral as: 2 4 x ∫ 4 P(x)dx = 1 h(y +4y + y ) 2 3 4 3 x 2 Continuing this interval up to (x , x ) and summing up all the phases, we have n–2 n x x x x ∫ n P(x)dx = ∫ 2 P(x)dx+∫ 4 P(x)dx + ... +∫ n P(x)dx x x x x o 0 2 n−2 x ∫ n P(x)dx = 1h(y +4y + y )+ 1h(y +4y + y )+.....+ 1h(y +4y + y ) 0 1 2 2 3 4 n−2 n−1 n 3 3 3 x 0 ∫xn P(x)dx= 1h(y +4y +2y +4y +2y +.....+2y +4y + y ) (3.4) xo 3 0 1 2 3 4 n−2 n−1 n 1 Equation (3.4) is known as the Simpson’s - rule.
+It must be noted that due to the nature of this 3 formula, the formula will only be valid, if n is an even integer.
+That is, there must exist odd number of ordinates or collocating points within [x , x ].
+Note that the formula has alternate 0 n coefficients of 4 and 2 starting with 4 and then followed by 2 and ending the second to the last term as 4 with exception of the first and the last term that have coefficient of 1.
+3.1 Error Estimate of the Simpson’s 1/3 Rule The error committed while deriving the Simpson’s 1/3 rule is the error of truncation after the third term at ∆2.
+For this reason the truncation error can be estimated likewise as it was done for the trapezoidal Rule.
+Thus, if n = 2, the error committed on Simpson’s 1 - rule, which is the 3 Truncation error is given by (b-a) E = - h4y(4)(ξ) (3.5) 180 The reader is advised to verify this claim.
+3.2 Determination of Step length Sometimes we may be given problems without specifying the step length h. However if the number of ordinates are given, which is the same as our n then we can determine the step length.
+To calculate the step length, the required formula is given by b−a h = m−1 67 where m is the number of ordinates given, a and b are the boundary of the integral.
+For example 5 given the integral ∫P(x)dx and we are required to use 7 ordinates, then we recognize m = 7, a = 2 2 and b = 5, hence the step length h is obtained as 5−2 h = =0.5 7−1 Hence our x = 2 then add 0.5 to subsequent x until you get to b = 5.
+The last value must be the 0 i seventh ordinate which is x .
+Thus we shall have 6 x = 2, x = 2.5 , x = 3 x = 3.5, x = 4, x = 4.5, x = 5 0 1 2 3 4 5 6 3.3 Numerical Example Example 1 1 Integrate y= x within the limits 1.00 and 1.30 using the Simpson’s - rule with 7 ordinates and 3 working with 5 decimal places.
+Hence estimate the error of this method.
+Solution: We first observe that this is the same question as the previous one in Trapezoidal rule.
+However in this case the table of values is not given hence we are to generate the table of values by computing the corresponding values of y for a given value of x.
+Further more we are to use 7 ordinates means that we need y , y , .
+.
+.
+.
+,y , that is n = 6 (even), hence Simpson rule is 0 1 6. applicable.
+Also since we are told to use 7 ordinates, we are required to determine the step length h. To do this, the given values are a = 1.00, b = 3.00 and m = 7 thus, the step length is calculated as b−a 1.30−1.00 h = = =0.05, m−1 7−1 We then generate the table of values using calculator to find x for various values of x on the table.
+x x x x x x x 0 1 2 3 4 5 6 x 1.0 1.05 1.10 1.15 1.20 1.25 1.30 1.00 1.0247 1.04881 1.01238 1.09544 1.11803 1.14017 y= x y y y y y y y y 0 1 2 3 4 5 6 Hence the table of values is similar to the example given in Unit 2 for this same question.
+By equation (3.4) the Simpson 1/ - rule is 3 x ∫ nP(x)dx = 1h(y +4y +2y +4y +2y +.....+2y +4y + y ) 3 0 1 2 3 4 n−2 n−1 n x 0 1.3 ∫ x dx = 1h(y +4y +2y +4y +2y +.4y + y ) 3 0 1 2 3 4 5 6 1 Thus we evaluate the integral by simply substituting from our table above as 1.30 1+4(1.02470)+2(1.04881)+4(1.07238)  ∫ x dx = 1(0.05)  1.00 3  +2(1.09544)+4(1.11803)+1.14017  = 0.32149 68 The analytical result of this integral is 0.321485, correct to 6 decimal places.
+However correct to 5 decimal places will be 0.32149.
+It seems the error is zero.
+However if we had computed up to 6 places of decimal the error will be pronounced.
+All the same we can still estimate the error as 0.32149 - 0.321485 = 5×10-6 .
+This seems to be more accurate than the result given by the Trapezoidal rule in the last Unit.
+The Truncation error stated above for Simpson’s 1 - rule is: 3 (b-a) E = - h4y(4)(ξ) 180 Hence to estimate the Truncation Error with this problem we write (0.3) (0.3) 15 E = - (0.05)4 y(4)(ξ) =- (0.05)4(− x−7/2) 180 180 16 = 9 .0 × 10-9 Definitely, the Simpson’s 1 - rule is more accurate than the Trapezoidal rule.
+3 3.4 Result by computer output The above problem is coded in basic language and the result is easily obtained on a digital computer as given below.
+The learner is encouraged to try to code this also as given below and run the program to verify the result below.
+The program is written and coded to solve the example above using the Trapezoidal rule, Simpson’s 1/3 rule and the Simpson’s 3/8 rule.
+The program and the output are given next: CLS OPEN "SIMP1b.BAS" FOR OUTPUT AS #1 M = 10 REDIM X(M + 2), YS(M + 2), YT(M + 2), AY(M + 2), EY(M + 2) DEF FNF (X) = SQR(X) DEF FNE (X) = (2 / 3) * X ^ (3 / 2) X(0) = 1: H = .05 PRINT #1, TAB(11); "I"; TAB(31); "X(I)"; TAB(51); "Y(I)"; FOR N = 6 TO M SUMTR = 0: SUMSP1 = 0: SUMSP3 = 0 FOR I = 1 TO N + 1 J = I - 1: Y(J) = FNF(X(J)) ' IF N <= 8 OR N = M THEN PRINT #1, TAB(10); J; TAB(30); X(J); TAB(50); Y(J); X(I) = X(J) + H: 'IMPLEMENTATION OF THE RULES IF J = 0 OR J = N THEN TR = Y(J): SP1 = Y(J) ELSEIF J MOD 2 = 0 THEN SP1 = 2 * Y(J): TR = 2 * Y(J) ELSEIF J MOD 2 = 1 THEN SP1 = 4 * Y(J): TR = 2 * Y(J) END IF IF J = 0 OR J = N THEN 69  SP3 = Y(J) ELSEIF J MOD 3 = 1 OR J MOD 3 = 2 THEN SP3 = 3 * Y(J) ELSEIF J MOD 3 = 0 THEN SP3 = 2 * Y(J) END IF SUMTR = SUMTR + TR: SUMSP1 = SUMSP1 + SP1: SUMSP3 = SUMSP3 + SP3 IF J = N THEN EX = FNE(X(J)) - FNE(X(0)) NEXT I 'PRINT #1, TAB(1); " I"; TAB(15); "X(I)"; 'PRINT #1, TAB(30); "YT(I)"; TAB(45); "YS(I)"; TAB(60); "ET(I)"; TAB(75); ES(I) INTTR = H * SUMTR / 2: ERTR = ABS(INTTR - EX) INTSP1 = H * SUMSP1 / 3: ERSP1 = ABS(INTSP1 - EX) INTSP3 = 3 * H * SUMSP3 / 8: ERSP3 = ABS(INTSP3 - EX) PRINT #1, TAB(5); "TRAPEZOIDAL"; TAB(35); "SIMPSON 1/3"; TAB(55); "SIMPSON 3/8" PRINT #1, TAB(5); INTTR; TAB(35); INTSP1; TAB(55); INTSP3 PRINT #1, TAB(1); "EX"; TAB(5); EX; TAB(35); EX; TAB(55); EX PRINT #1, TAB(1); "ER"; TAB(5); ERTR; TAB(35); ERSP1; TAB(55); ERSP3 NEXT N END The result obtained after the program is imputed and ran is given next: I X(I) Y(I) 0 1 1 1 1.05 1.024695 2 1.1 1.048809 3 1.15 1.07238 4 1.2 1.095445 5 1.25 1.118034 6 1.3 1.140175 TRAPEZOIDAL SIMPSON 1/3 SIMPSON 3/8 .3214726 .3214853 .3214853 EX .321485 .321485 .321485 ER 1.248717E-05 2.980232E-07 2.682209E-07 0 1 1 1 1.05 1.024695 2 1.1 1.048809 3 1.15 1.07238 4 1.2 1.095445 5 1.25 1.118034 6 1.3 1.140175 7 1.35 1.161895 TRAPEZOIDAL SIMPSON 1/3 SIMPSON 3/8 .3790243 .3598532 .3646492 EX .3790384 .3790384 .3790384 ER 1.40667E-05 1.918522E-02 1.438922E-02 70  0 1 1 1 1.05 1.024695 2 1.1 1.048809 3 1.15 1.07238 4 1.2 1.095445 5 1.25 1.118034 6 1.3 1.140175 7 1.35 1.161895 8 1.4 1.183216 TRAPEZOIDAL SIMPSON 1/3 SIMPSON 3/8 .4376521 .4376682 .4304055 EX .4376678 .4376678 .4376678 ER 1.567602 3.874302E-07 7.26226E-03 0 1 1 1 1.05 1.024695 2 1.1 1.048809 3 1.15 1.07238 4 1.2 1.095445 5 1.25 1.118034 6 1.3 1.140175 7 1.35 1.161895 8 1.4 1.183216 9 1.45 1.204159 TRAPEZOIDAL SIMPSON 1/3 SIMPSON 3/8 .4973365 .4774578 .4973541 EX .4973536 .4973536 .4973536 ER 1.713634E-05 1.989585E-02 4.768372E-07 0 1 1 1 1.05 1.024695 2 1.1 1.048809 3 1.15 1.07238 4 1.2 1.095445 5 1.25 1.118034 6 1.3 1.140175 7 1.35 1.161895 8 1.4 1.183216 9 1.45 1.204159 10 1.5 1.224745 TRAPEZOIDAL SIMPSON 1/3 SIMPSON 3/8 .5580591 .5580781 .542896 EX .5580776 .5580776 .5580776 ER 1.853704E-05 4.172325E-07 .0151816 Source: Computational Mathematics by Okunuga & Akanbi Example 2 3 1 1 Evaluate ∫ dx using the Simpson’s one-third rule with h = , working with four 1 x+1 4 floating point arithmetic 71  Solution 1 1 Let y = y = , then we compute the values y with a step length of h = =0.25 as given in x+1 4 the table below x 1 1.25 1.5 1.75 2 2.25 2.5 2.75 3.0 y 0.5 0.4444 0.4000 0.3636 0.3333 0.3077 0.2857 0.2666 0.25 y y y y y y y y y 0 1 2 3 4 5 6 7 8 We observe that n= 8, which is even.
+Hence the Simpson’s 1/3 rule is applicable.
+The appropriate formula again from equation (3.4) is written as 3 ∫ 1 dx = 1h(y +4y +2y +4y +2y +.4y +2y +4y + y ) x+1 3 0 1 2 3 4 5 6 7 8 1 3 0.5+4(0.4444)+2(0.4)+4(0.3636)+2(0.3333)  ∫ 1 dx = 1×(0.25)×  1 x+1 3  +4(0.3077)+2(0.2857)+4(0.2666)+0.25 = 0.6931 3 1 3 Analytical solution is ∫ dx =ln(x+1) =ln4−ln2 =0.693147 ≅ 0.6931 1 x+1 1 The two results agreed.
+So up to 4 decimal places the numerical result is as accurate as the exact solution.
+4.0 Conclusion From the above discussion with two examples well discussed, it can be deduce that the Simpson 1/3 rule will only be applicable when n is even.
+The Simpson’s 1/3 rule is equally seen to be well accurate with very small error when compared to the analytical solution obtained from direct integration.
+The learner is encouraged to resolve all the example given so far and do the calculation to ascertain the values given in this study.
+5.0 Summary In this Unit we have learnt 1 (i) how to derive the Simpson’s - rule using the Newton Forward formula 3 1 (ii) how to implement the Simpson’s - rule to evaluate definite integrals 3 (iii) that the number of ordinates must be odd before the rule can be applicable, (iv) that the error can be estimated by comparing with the analytical solution (v) that the truncation error of the rule can be equally estimated 6.0 Tutor Marked Assignment 5 2 1.
+Evaluate ∫ dxwith h = 1 , correct to 5 decimal places using Simpson’s 1- rule x−1 2 3 2 ( )2 2.
+Integrate x+ 1 between 3 and 7 using Simpson’s 1- rule with 9 ordinates x 3 72  7.0 Further Reading and Other Resources 1.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 2.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+3.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+4.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 5.
+Okunuga, S. A., and Akanbi M, A., (2004).
+Computational Mathematics, First Course, WIM Pub.
+Lagos, Nigeria.
+73 MODULE 4 UNIT 4 NEWTON-COTES FORMULAS 1.0 Introduction 1 3 Apart from Trapezoidal rule and Simpson rule, we also have the Simpson rule.
+Beyond this 3 8 we have other formulas based on the same Newton Forward Formula (NFF) with higher n. For 1 example we recall that Trapezoidal rule use interval [x x ], Simpson rule use [x x ], and 0, 1 3 0, 2 3 Simpson rule will use [x x ] to obtain a one-phase of its formula.
+The formulas that use [x 8 0, 3 0, x ], where n is greater than 3, are called Newton-Cotes formula.
+Invariably, Newton–Cotes n formula generalizes all the rules including the ones earlier discussed.
+We shall in this unit consider the remaining formulas for approximating definite integrals.
+2.0 Objective At the end of this unit the learner must be able to 3 (v) derive the Simpson - rule, 8 (vi) distinguish between the Newton – Cotes formulas (vii) Simpson’s rule and Trapezoidal rule, (viii) know where Simpson rule is applicable in terms of number of node points 1 (ix) solve problems using the Simpson’s rule 3 3 3.0 Simpson Rule 8 3 1 The Simpson formula follows from the Simpson rule.
+The complete derivation will not be 8 3 given in this unit, but a sketch of it.
+However the technique is virtually the same as the ones earlier proved, since the derivation is from the same Newton Forward Formula.
+The learner is advised to verify some of the formulas stated in this Unit.
+Suppose the Newton Forward Formula (NFF) is truncated after the fourth term or after the third forward difference (that is for n = 3) and integration is carried out within [x , x ], we can write 0 3 ∫x3 P(x)dx = ∫x3 (y +k∆y + k(k−1) ∆2y + k(k−1)(k−2) ∆3y ) dx (3.1) 0 0 2 0 3!
+0 x x 0 0 Changing the variables from x to k and integrating, we shall obtain x ∫ 3P(x)dx = 3 h ( y + 3y + 3y + y ) (3.2) 8 0 1 2 3 x 0 This is known as a one-phase of the Simpson 3/ – rule.
+8 When quadrature principle is applied, we obtain the Simpson 3/ – rule finally as 8 x ∫ n P(x)dx = 3 h ( y + 3y + 3y +2y + 3y + 3y +2y + ... + 3y + 3y + y ) (3.3) 0 1 2 3 4 5 6 n−2 n−1 n 8 x 0 The coefficients are also systematic.
+The inner coefficients are 3, 3, 2, while the first and last term have 1 as the coefficient.
+The number of ordinates can only be 4, 7, 10, and so on When we have 4 ordinates we have the formula x ∫ 3P(x)dx = 3 h ( y + 3y + 3y + y ) (3.4) 8 0 1 2 3 x 0 74 For 7 ordinates we have ∫x6P(x)dx = 3 h ( y + 3y + 3y +2y + 3y + 3y + y ) (3.5) 0 1 2 3 4 5 6 x0 8 And for 10 ordinates we have ∫x9P(x)dx = 3 h ( y + 3y + 3y +2y + 3y + 3y +2y +3y + 3y + y ) (3.6) 0 1 2 3 4 5 6 7 8 9 x0 8 The implementation is exactly the same as we have demonstrated with Simpson 1/3 rule.
+3.1 The Form of Newton Cotes Formula Now as n increases, the number of terms to be included in the NFF will equally increase and the set of formulas that will be obtained are termed as Newton-Cotes (N-C) formula.
+We can generally represent the integration value of the NFF within a general interval [x , x ] as 0 n x ∫ n P(x)dx =Ch (c y + c y + .
+.
+.
++ c y ) (3.7) 0 0 1 1 n n x 0 Equation (3.7) provides only one phase of the formula and by quadrature; we can generalize to obtain any of these formulae.
+Thus, the table of values of coefficients c , r = 0, 1, 2, …, n in equation (3.7) is given below: r Rule n F c c c c c c c o 1 2 3 4 5 6 Trapezoidal 1 ½ 1 1 Simpson 1/3 2 1/ 1 4 1 3 Simpson 3/8 3 3/ 1 3 3 1 8 N-C of n = 4 4 2/ 7 32 13 32 7 45 N-C of n = 6 6 1/ 41 216 27 272 27 216 41 140 F in the table represents the factor of the formula, while c , , r = 0, 1, 2, …, n are the coefficients r Equation (3.7) provides a general quadrature formula due to Newton and Cotes and it embraces all class of formulas, which follows the NFF in a given interval.
+Hence, such quadrature formulas that have the form of equation (3.7) are called Newton-Cotes formula.
+For example Newton Cotes formula for n = 4 from the above table can be written for 5 ordinates as ∫x4P(x)dx = 2 h ( 7y + 32y + 13y +32y + 7y ) (3.8) 0 1 2 3 4 x0 45 Each of the Newton Cotes formula is completely written or obtained by implementing quadrature technique on one-phase of the scheme.
+For example equation (3.4) is one phase of the Simpson 3/8 rule.
+By quadrature equation (3.5) gives 2 phase of the scheme and so on.
+Equation (3.8) is also one-phase of the Newton Cotes formula (n=4) and by quadrature technique we can get the two-phase as 75 ∫x4P(x)dx = 2 h ( 7y + 32y + 13y +32y + 14y + 32y + 13y +32y + 7y ) 0 1 2 3 4 5 6 7 8 x0 45 Similar procedure is applicable to other Newton-Cotes formula.
+Self Assessment Test Write from the table the next possible Newton-Cotes formula for n = 4 4.0 Conclusion We have seen that there are several other formulas that can be used for approximate integration.
+The simplest of them is the Trapezoidal rule without any restriction on the number of ordinates.
+The other formulas or rules however have some restriction on the number of ordinates that must be prescribed before each of them could be used.
+5.0 Summary In this Unit we have learnt (i) how to derive the Simpson’s 3/8- rule using the Newton Forward formula (ii) the structure of the Newton-Cotes formulas 1 (iii) that the implementation of any of the Newton Cotes formulas is similar to Simpson’s - 3 rule for evaluating definite integrals (iv) that the number of ordinates is important before a particular rule can be applied, (v) that the formulas are obtained by quadraturing the one-phase of the formula.
+6.0 Tutor Marked Assignment 5 2 1.
+Evaluate ∫ dxwith h = 1 , correct to 5 decimal places using Simpson 3/8- rule.
+Compare x−1 2 2 your result with the analytical solution 2.
+Integrate x+1 between 3 and 7, correct to 5 decimal places, using (i) Simpson’s 3/8- rule with 7 ordinates (ii) Newton Cotes formula (n=4) with 9 ordinates Compare your result with the analytical solution and deduce which of the two is more accurate 5 3 Evaluate ∫log x dx correct to 6 decimal places with 9 ordinates e 1 Use (i) Trapezoidal rule (ii) Simpson 1/3-rule (iii) Newton Cotes formula (n=4) For evaluation.
+Obtain the actual error, which of these is most accurate?
+7.0 Further Reading and Other Resources 1.
+Atkinson K.E.
+(1978): An Introduction to Numerical Analysis, 2nd Edition, John Wiley & Sons, N.Y 2.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+3.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+4.
+Okunuga, S. A., and Akanbi M, A., (2004).
+Computational Mathematics, First Course, WIM Pub.
+Lagos, Nigeria.
+76 MODULE 5 BOUNDARY VALUE PROBLEMS UNIT 1: INTRODUCTION TO BOUNDARY VALUE PROBLEMS 1.0 Introduction What is a Boundary Value Problem?
+This is a kind of problem that is related to differential equations.
+A differential equation can be an Ordinary Differential Equation (ODE) or a Partial Differential Equation (PDE).
+However, an ODE can be classified into two, viz: (i.)
+Initial Value Problem (IVP) and (ii) Boundary Value Problem (BVP).
+These two classes of differential equations are of great importance and so their numerical solutions are equally studied under Numerical Analysis.
+We shall give the definition of the two.
+2.0 Objective At the end of this lesson, the learner would have been able to (i) distinguish between Initial Value Problem and Boundary Value Problem (ii) derive finite difference scheme for solving BVP (iii) solve BVP using a finite difference scheme 3.0 Distinction Between IVP and BVP There is a distinction between an Initial Value Problem and a Boundary Value Problem.
+As the name goes, one is prescribed with an initial condition while the other is prescribed with boundary conditions.
+For a better understanding we shall define both ordinary differential equation and partial differential equation before distinguish between IVP and BVP.
+We hereby give the following definitions.
+Definition 1 A differential equation involving ordinary derivatives (or total derivatives) with respect to a single independent variable is called an ordinary differential equation.
+Some examples of ODEs are given below.
+d2y dy −2x + y =0 dx2 dx 2 dy dy 3 − y  = x−7 dx dx dy −2xy =cosx dx Definition 2 A differential equation involving partial derivatives of one or more dependent variables with respect to more than one independent variable is called a Partial Differential Equation (PDE) Some examples of PDEs are given below.
+∂v ∂v (i) + =v2 ∂t ∂s 77 ∂2u ∂2u (ii) + =0 ∂x2 ∂y2 Definition 3: (Initial Value Problem) An Initial Value Problem (IVP) can be defined as an Ordinary Differential Equation with a condition specified at an initial point.
+dy For example: a +by =c , y(x ) = y (3.1) o o dx Where x and y are initial point of the equation.
+This example is simple enough as this involves o o only a single first order ODE.
+It is possible to have a system of first order ODEs with initial conditions all through for each of the equations.
+However we may have some other differential equations with some conditions specified either at the derivative or at the boundary of the problem being defined.
+This leads to the next definition.
+Definition 4: (Boundary Value Problem) A Boundary Value Problem (BVP) is a differential equation either an Ordinary Differential Equation (ODE) or Partial Differential Equation (PDE) with at least two specified conditions at the boundary points.
+The boundary points often will contain an initial point and the other at the end point of the problem.
+The two serve as the boundary to the problem.
+For example for an Ordinary Differential Equation a simple example of a BVP will be: 2 d y dy a +b +cy = d , y(x ) =α, y(x ) =β, x ≤ x ≤ x (3.2) o n o n 2 dx dx The above equation is a second order differential equation which is solvable for the specified range of values of x.
+Two conditions are specified at the extremes or the boundaries.
+That is the conditions are given at x = x and x = x .
+0 n Example of a BVP involving a PDE will be given later when discussing the methods of solving Partial Differential Equations.
+There are several numerical methods available today for solving first order ODEs with an initial condition.
+This is a course on its own as the subject is wide, though not so tasking.
+However, the focus of this course and Module is to expatiate on methods of solving BVPs.
+Hence, we shall in limit our discussion to the numerical methods for solving the BVPs of ordinary differential equations.
+3.1 SOLUTION OF BVP OF ODE The numerical solution of a second order Ordinary Differential Equation usually will involve solving system of equations.
+To do this, some approximations are put in place to replace the derivative function involved in the given differential equation.
+Suppose we are to solve the differential equation (3.2) using a numerical method, Two popular methods among other methods of solving this equation are either by Finite Difference Method (FDM) or by Shooting method.
+We shall in this unit discuss the Finite Difference Method for solving equation (3.2).
+Consider the Taylor series expansion of the function y(x+h) where h is regarded as the step length to be used in the problem.
+Then we shall obtain y(x+h) = y(x)+hy′(x)+ h2 y′′(x)+O(h3) (3.3) 2!
+78 where O(h3) is called error of order 3 representing the truncation error of where the expansion is terminated.
+We can obtain a first derivative approximation from this expansion by writing y(x+h)− y(x) = hy′(x)+ h2 y′′(x)+O(h3) 2!
+y(x+h)− y(x) = hy′(x)+O(h2) Dividing through by h we obtain y(x+h)− y(x) y′(x) = +O(h) (3.4) h Which shows that for small step length h, the error in approximating y′(x)is proportional to h. Furthermore if we expand the function y(x – h) we equally get y(x−h) = y(x)−hy′(x)+ h2 y′′(x)−O(h3) (3.5) 2!
+We can also obtain a first derivative approximation from this expansion as y(x)− y(x−h) y′(x) = +O(h) (3.6) h Equations (3.4) and (3.6) are approximations to y′(x)which can be used to replace the function as it may be required.
+Equation (3.4) is the forward difference representation while equation (3.6) is the backward difference representation.
+Now suppose we take the difference of equations (3.3) and (3.5) we shall obtain y(x+h)− y(x−h) = 2hy′(x)+(h3) This reduces to y′(x) = y(x+h)− y(x−h) +O(h2) (3.7) h Equation (3.7) is a central difference approximation to y′(x).
+It would be observed that the error in the last equation is smaller than that of the two equations (3.4) or (3.6), since for small h, h2 will be smaller than h. On the other hand if we add equations (3.3) and (3.5) we shall obtain y(x+h)+ y(x−h) = 2y(x)+(2)h2 y′′(x)+O(h4) 2!
+⇒ y(x+h)−2y(x)+ y(x−h) = h2y′′(x)+O(h4) Divide through by h2 we obtain y′′(x) = y(x+h)−2y(x)+ y(x−h) +O(h2) (3.8) 2 h This is a standard representation for the second derivative.
+Thus equations (3.4) and (3.8) can be substituted into equation (3.2) to obtain a numerical scheme for solving that equation.
+Recall the differential equation (3.2) 2 d y dy a +b +cy =c 2 dx dx Substituting (3.4) and (3.8) we have  y(x+h)−2y(x)+ y(x−h)  y(x+h)− y(x) a +b +cy(x) = d    h2   h  79 evaluating at x = x , n we observe that y(x+h) = y(xn +h) = y(xn+1) = yn+1 Also y(x−h) = y(xn −h) = y(xn−1) = yn−1 hence, we obtain  y(x +h)−2y(x )+ y(x −h)  y(x +h)− y(x ) a n n n +b n n +cy(x ) = d   n  h2   h  a yn+1−2yn + yn−1+b yn+1− yn +cy = d   n  h2   h  ( ) ( ) 2 2 a yn+1−2yn + yn−1 +bh yn+1− yn +ch yn = dh (3.9) On the other hand, we can use the central difference to replace the first derivative to get a yn+1−2yn + yn−1+b yn+1− yn−1+cy = d   n  h2   2h  ( ) 1 ( ) 2 2 a yn+1−2yn + yn−1 + bh yn+1− yn−1 +ch yn = dh (3.10) 2 Equations (3.9) and (3.10) are numerical schemes that can be used to solve equation (3.2).
+Either of these will yield the desire result with slight difference in accuracy.
+On applying the boundary conditions in (3.2) and writing the resulting equations for n = 1, 2, .
+.
+.
+, k-1, we obtain a system of equations with equal number of unknowns.
+The above shall be illustrated by the next example.
+3.2 Numerical Examples Example 1 Solve the boundary value problem (BVP) (1+ x2)y′′+2xy′− y = x2 (3.11) Satisfying the boundary conditions y(0) = 1 and y(1) = 0 You may use a step length of 0.25.
+Solution To solve this problem we can apply the approximation of the derivatives to the given equation (11), we then obtain (1+ x2) yn+1−2yn + yn−1+2x  yn+1− yn−1− y = x2 n   n n n  h2   2h  1 Since h = it implies that the range of x is divided into four parts by 5 node points 4 h 0 0.25 0.5 0.75 1 Thus x = 0 and x = 1 (that is : x = 0.25 x = 0.5 x = 0.75 ) 0 4 1 2 3 The boundary condition y(0) = 1 and y(1) = 0 simply transform to y = 1 and y = 0 0 4 Since n = 0 will be invalid as we will not be able to evaluate y then the reasonable thing to do -1 as in the theory above is to substitute n = 1,2,3,4.
+Hence, we obtain With n = 1, the formula above becomes 80     ( ) y −2y + y   y − y  1+ x12  2 (1)12 o +2x1 22(1)o − y1 = x12  4   4       ( )2 y −2y +1 ( ) y −1 ( )2 1+ 14  2 (1)21 +2 14  22(1) − y1 = 14  4   4  ( ) 17 ( ) ( ) 1 16 y −2y +1 + y −1 − y = 2 1 2 1 16 16 288y −560y = −255 (i) 2 1 Also for n = 2, we have     ( ) y −2y + y   y − y  1+ x22  3 (1)22 1+2x2 32(1)1− y2 = x22  4   4       ( )2 y −2y + y  ( ) y − y  ( )2 1+ 12  3 (1)22 1+2 12  32(1)1− y2 = 12  4   4  ( ) 5 ( ) ( ) 1 16 y −2y + y +2 y − y − y = 3 2 1 3 1 2 4 4 88y −164y +72y =1 (ii) 3 2 1 And for n = 3, we have      ( )2 y −2y + y  ( ) y − y  ( )2 1+ 43  4 (1)32 2 +2 43  42(1)2 − y3 = 43  4   4  448y −784y +352y =9 4 3 2 784y −352y = −9 (iii) 3 2 since y = 0.
+4 Thus we have a system of 3 equations in three unknowns y , y , y .
+The matrix form of these 1 2 3 three equations from (i), (ii), (iii), is written as: −560 288 0  y  −255 1       72 −164 88 y2 = 1        0 −352 784y3  −9  On solving, correct to four decimal places, we obtain 381783   y  0.6363  1  599984   y2 = 18855357  =0.3519       y3  799154544  0.1465 81 Thus the values corresponding to y , y , y are the results of the differential equation at points 1 2 3 x , x , x .
+1 2 3 4.0 Conclusion We have seen that the finite difference scheme is systematic and dynamic in producing solution to BVP.
+The resulting technique led to system of linear equations which can be solved by any available methods used for solving such system.
+The learner can also check other texts for other method of solving BVP in ODE, such as the shooting method earlier mentioned.
+5.0 Summary In this Unit we have learnt (i) distinction between BVP and IVP (ii) how to derive the Finite Difference scheme for solving BVP (iii) how to implement the Finite Difference Method on a BVP.
+6.0 Tutor Marked Assignment Solve the boundary value problem x2y′′+ xy′− y = 2x, satisfying the boundary conditions y(0) = 1 and y(1) = 0, use a step length h = 0.25.
+7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+2.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 3.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 82 MODULE 5: UNIT 2: BOUNDARY VALUE PROBLEMS INVOLVING PARTIAL DIFFERENTIAL EQUATIONS 1.0 Introduction As earlier stated, a Boundary Value Problem (BVP) could be a Partial Differential Equation (PDE) with two specified points at the initial point and at the boundary point.
+In scientific computing many problems are governed by non linear differential equation which requires a solution in a region R subject to exact condition on the boundary.
+Unlike the BVP involving an ODE, most BVPs usually occur from problems involving rate of change with respect to two or more independent variables.
+Such problems lead to PDEs.
+The two dimensional second order Partial Differential Equation is generally of the form 2 2 2 ∂ u ∂ u ∂ u ∂u ∂u a +b +c +d +e + fu+ g =0 (1.1) ∂x2 ∂x∂y ∂y2 ∂x ∂y where u is a function of two variables x and y, that is, u = u(x, y) The solution of this equation subject to prescribed conditions is generally obtained through some analytical methods by separating the variables x and y.
+However, the numerical solution of equation (1.1) can be obtained either by the finite difference method or the finite element method.
+2.0 Objective At the end of this lesson, the learner would have been able to (i.)
+define a second order PDE (ii.)
+define a Boundary Value Problem (BVP) involving a partial differential equation (iii.)
+classify various types of PDEs (iv.)
+classify types of boundary conditions among PDEs (v.) derive finite difference schemes for PDEs.
+3.0 Types Of Partial Differential Equations A number of mathematical models describing the physical system are the special cases of general second order PDE 2 2 2 ∂ u ∂ u ∂ u ∂u ∂u L(u) = A +B +C −H(x,y,u, , ) =0 (3.1) ∂x2 ∂x∂y ∂y2 ∂x ∂y Or L(u) = Au +Bu +Cu −H(x,y,u,u ,u ) =0 xx xy yy x y The following definitions are given with respect to equation (3.1).
+Equation (3.1) is said to be semi-linear, if A, B and C are functions of independent variables x and y only.
+If A, B and C are functions of x, y, u, u and u , then (3.1) is termed to be quasi-linear.
+x y However, when A, B and C are functions of x and y and H is a linear function of u, u and u , x y then (3.1) is said to be linear.
+Hence, the most general second order linear PDE in two independent variables can be written as A(x,y)u +B(x,y)u +C(x,y)u +D(x,y)u +E(x,y)u +F(x,y)u+G(x,y) =0 (3.2) xx xy yy x y When G(x, y) = 0, then equation (3.2) is known as a linear homogenous second order PDE.
+A solution of equation (3.1) or (3.2) will be of the form u = u(x, y) 83 Which represents a surface in (x, y, u) space called the integral surface.
+If on the integral surface, there exist curves across which the derivatives u , u and u are xx yy xy discontinuous or indeterminate then the curves are called “characteristics”.
+For this, we assume the solution of equation (3.1) is passing through a curve C whose parametric equations are x = x(s) , y = y(s) and u = u(s) (3.3) Furthermore, let each point (x, y, u) of curve C and the partial derivates u and u be known since x y the solution is of the form (3.3) at each point of x, y of curve C. 3.1 Classification of Partial Differential Equations Thus there are two families of curve which can be obtained from equation (3.1) along which the second order derivatives will not be determined in a definite or finite manner.
+There are called characteristics curves which are classified according to the following conditions.
+If B2 – 4AC > 0 , then we have real and distinct roots B2 – 4AC < 0, then we have imaginary roots B2 – 4AC = 0 , then we have real and coincidence or equal roots Hence, the Partial Differential Equation (3.1) or (3.2) is said to be: Parabolic, if B2 – 4AC = 0 It is Elliptic if B2 –4 AC < 0 and it is Hyperbolic, if B2 – 4AC > 0 Few examples are given below to illustrate these classifications.
+Examples 1.
+The wave equation is given by 2 2 ∂ u ∂ u = 2 2 ∂t ∂x This equation is a Hyperbolic equation, since A = 1, B = 0 , C = -1 so that, B2 – 4AC = 4 > 0 2.
+The heat flow equation is given by 2 ∂u ∂ u = ∂t ∂x2 Comparison with equation (3.1), we note that: A = 0, B = 0 , C = -1 so that B2 – 4AC = 0, Hence the heat flow equation is a Parabolic equation.
+3.
+The Laplace equation is also given by 2 2 ∂ u ∂ u + =0 2 2 ∂x ∂y Comparison with equation (3.1), shows that: A = 1, B = 0 , C = 1 so that B2 – 4AC = – 4 < 0.
+Thus the Laplace equation is an Elliptic equation.
+3.2 Classification of Boundary Conditions for PDE The parabolic and hyperbolic types of equations are either IVP or initial BVP whereas the elliptic equation is always a BVP.
+There are three types of boundary conditions.
+These are given below as follows: i) Dirichlet Conditions 84 Here the function (say u(x,y)) is prescribed along the boundary.
+If the function takes on zero value along the boundary, the conditions is called homogenous dirchlet condition otherwise it is called inhomogenous dirichlet boundary conditions.
+ii) The Neumann Boundary Condition Here the derivative of the function is specified along the boundary.
+We may also have homogenous or inhomogenous boundary conditions iii) Mixed Boundary Conditions Here the function and its derivatives are prescribed along the boundary.
+We may also have homogenous and inhomogenous conditions.
+3.3 Finite Difference Scheme Most PDEs are solved numerically by Finite Difference Method (FDM), although another known method is the Finite Element Method (FEM).
+Hence, there is the need to develop schemes of finite differences for derivatives of some functions.
+In ODE of the second order which was discussed earlier, the function y is a function of a single variable x.
+The treatment of the finte difference method was easier.
+However a similar technique and analogy will be employed for the development of the finite difference schemes (FDS) of a second order PDE.
+The difference now is u being a function of two variables x and y.
+In this regard, finite difference schemes or methods required that the (x, y) region of the problem to be examined be divided into smaller regions by rectilinear grid, mesh or lattice of discrete points with co-ordinates (x, y) given by i j x = x +iδx i o y = y + jδy j o This shows that each axis is divided into set of equal intervals by node points.
+Usually we shall represent δx = h , δy = k as our step lengths in x and y directions respectively.
+Hence, xn+r = xn +rh , yn+r = yn +rk Consider a function u(x, y) of two variables, with an increment δx in x yield u(x+δx,y) =u(x+h,y) If this is expanded by Taylor series, we shall obtain ∂u(x,y) h2 ∂2u(x,y) u(x+h,y) =u(x,y)+h + − ... (i) ∂x 2!
+∂x2 Similarly u(x−δx,y), the expansion yield u(x−δx,y) =u(x−h,y) ∂u(x,y) h2 ∂2u(x,y) ((ii) =u(x,y)−h + − ... ∂x 2!
+∂x2 Other expansions with increments on y give: u(x,y+δy) =u(x,y+k) 2 2 ∂u(x,y) k ∂ u(x,y) (iii) =u(x,y)+k + + ... ∂y 2!
+∂y2 85 u(x,y−δy) =u(x,y−k) 2 2 ∂u(x,y) k ∂ u(x,y) (iv) =u(x,y)−k + − ... ∂y 2!
+∂y2 Truncating equation (i) at second term yields, u(x+h,y)−u(x,y) = hu (x,y)+O(h2) ≅ hu x x u(x+h,y)−u(x,y) u = (3.4) x h at point (i, j) we have u(x +h,y )−u(x ,y ) i j i j u (x ,y ) = x i j h ∂u(xi,yj) u(xi+1,yj)−u(xi,yj) = ∂x h This is then written for easy handling as: ui+1,j − ui,j or u = (3.5) x h Similarly from (iii) by following the same procedure, we get ∂u ui,j+1− ui,j =u = (3.6) y ∂y k Equations (3.5) and (3.6) are forward difference approximation of u and u respectively.
+x y Similarly, truncating at third time we shall obtain the second derivative approximation.
+This can be achieved by taking the sum of equations (i) and (ii), to get 2 2 ∂ u u(x+h,y)+u(x−h,y) = 2u(x,y)+h 2 ∂x 2 2 ∂ u u(xi+1,yj)+u(xi−1,yj) = 2u(xi,yj)+h 2 ∂x This simplified to ∂2u ui+1,j−2ui,j+ui−1,j =u = (3.7) xx 2 2 ∂x h Also adding equations (iii) and (iv), we obtain a similar result as ∂2u ui,j+1−2ui,j+ui,j−1 =u = (3.8) yy 2 2 ∂y k Equations (3.7) and (3.8) are the finite difference approximation for the second derivatives u xx and u .
+They are sometimes called the second central difference approximations.
+These yy approximations are often used to develop the finite difference schemes which are tools for solving BVPs numerically.
+4.0 Conclusion We have seen that the subject of BVP is wide.
+Partial differential equations with boundary conditions differ depending on the type of boundary conditions.
+This will invariably affect the scheme which will be developed for its solution.
+We remark here that the basic differentiation formula as we have in analysis is the same used here for the development of the finite differences for the partial derivatives.
+86  5.0 Summary In this Unit we have learnt (i) The definition for various types of PDEs, (ii) About types of boundary conditions (iii) how to derive the finite differences for first and second partial derivatives.
+6.0 Tutor Marked Assignment ∂2u Write a finite difference for ∂x∂y 7.0 Further Reading and Other Resources 1.
+Conte S. D. and Boor de Carl Elementary Numerical Analysis an Algorithmic Approach 2nd ed.
+McGraw-Hill Tokyo.
+2.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+3.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 4.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 87 MODULE 5: UNIT 3: SOLUTION OF LAPLACE EQUATION IN A RECTANGLE 1.0 Introduction There are various technique required when developing finite difference schemes for partial differential equations.
+The type of PDE depends on the type of scheme that will be obtained, whether it is parabolic, elliptic or hyperbolic in nature.
+One PDE that is simple to develop a finite difference scheme for is the Laplace equation.
+We shall in this unit provide a Finite Difference Method for the Laplace equation and its method of solution.
+2.0 Objective At the end of this lesson, the learner would have been able to (i) define a second order PDE (ii) define a Boundary Value Problem (BVP) involving a partial differential equation (iii) classify various types of PDEs (iv) classify types of boundary conditions among PDEs (v) derive finite difference schemes for PDEs.
+3.0 LAPLACE EQUATION IN A RECTANGULAR BOUNDARY Consider the Laplace equation 2 2 ∂ u ∂ u + =0 (3.1) 2 2 ∂x ∂y where D is the domain in (x,y) plane, and C is its boundary.
+For simplicity, the domain D is chosen to be a rectangle such that { } D ≡ (x,y):0< x < a , 0< y <b with its boundary composed by { } C ≡ (x,y):x =0 , a ; y =0 , b y b D δ C δ 0 a x Figure 1 To obtain the numerical solution of (1) we introduce the net spacing a−0 b−0 δx = h = , δy = k = n+1 m+1 with uniformly net points x =i.δx =ih , y = j.δy = jk , i, j =0, ±1,±2, ... i j 88 Hence, the interior points to D are called Dδ { } Dδ = (xi,yj):1≤i ≤ n , 1≤ j ≤ m The net points on boundary C with exception of the 4 corners of the rectangle are called Cδ  i =(0,n+1) , 1≤ j ≤ m+1  Cδ = (xi,yj):   j =(0,m+1) , 1≤i ≤ n+1 We shall seek an approximate solution u(xi, yj) of (1) at the net points Dδ+Cδ.
+The PDE (3.1) is replaced by a central second difference quotients obtained in the last unit.
+This will be illustrated by the following example.
+3.1 Numerical Example Solve Laplace equation 2 2 ∂ u ∂ u + =0 (3.1) 2 2 ∂x ∂y Subject to the boundary conditions: u(x,0) =1 , u(0,y) =0 , u(1,y) =0 , u(x,1) =1 ; 0≤ x ≤1 , 0≤ y ≤1 Solution For simplicity we shall choose the meshes to be uniform and equal on both the x- and y- axes; that is, let δx =δy = h y 1 h h 0 1 x Figure 2 Replace equation (3.1) by second central differences, to have ∂2u ui+1,j−2ui,j+ui−1,j = 2 2 ∂x h ∂2u ui,j+1−2ui,j+ui,j−1 = 2 2 ∂y k Then we obtain on substituting into equation (3.1) ui+1,j−2ui,j+ui−1,j ui,j+1−2ui,j+ui,j−1 + =0 2 2 h k ⇒ ui+1,j−4ui,j+ui−1,j+ui,j+1+ui,j−1=0 ( ) ⇒ ui,j = 1 ui+1,j+ui−1,j+ui,j+1+ui,j−1 (3.2) 4 That is the average of 4 points supporting any point u produces the result at point (x, y) ij i j Using 3 internal meshes, that is, n = 3, 89 1−0 1 Then h = = 4−1 3 Hence, there are 4 internal points in domain D to be determined, since other points are on the boundary (Figure 2) u(x,0) = 1 , for all values of x, at y = 0, j = 0 u = 1 y u(0,y) = 0 for all y u = 1 1 u(1,y) = 0 , u(x,1) = 1 Let u = u , u = u , u = u , u = u 11 1 21 2 12 3 22 4 u=0 u=0 Then by equation (2) u = 1(u +u +u +u ) 1 0,1 2,1 1,o 1,2 4 u = 1 1 x = 1(0+u +1+u ) Figure 3 2 3 4 1( ) u = u +u +u +u 2 1,1 3,1 2,o 2,2 4 1( ) = u +0+1+u 1 4 4 1( ) u = u +0+1+u 3 4 1 4 1( ) u = u +0+1+u 4 3 2 4 Arranging these equations properly, we shall obtain 4u – u – u = 1 1 2 3 – u + 4u – u = 1 1 2 4 – u + 4u – u = 1 1 3 4 – u + 4u – u = 1 2 4 3 Solving for the four u’s, we obtain u = u = u = u = ½ 1 2 3 4 Thus the four internal points for this problem are ½ each.
+The internal points may be increased by increasing the number of meshes and different result will be obtained.
+Note that the results obtained are numerical values which serve as the solution to the BVP (3.1) at the node points.
+4.0 Conclusion It is expected that the learner should be able to use the simple approach given above to solve elementary BVPs with simple boundary conditions.
+5.0 Summary In this Unit we have learnt how to (i.)
+develop finite different scheme for the Laplace equation, (ii.)
+solve Laplace equation using the finite difference scheme.
+6.0 Tutor Marked Assignment Solve the Laplace equation 90 2 2 ∂ u ∂ u + =0 2 2 ∂x ∂y Subject to the boundary conditions: u(x,0) =1 , u(0,y) =0 , u(1,y) =0 , u(x,1) =1 ; 0≤ x ≤1 , 0≤ y ≤1 Use h = ¼ on both axes 7.0 Further Reading and Other Resources 1.
+Francis Scheid.
+(1989) Schaum’s Outlines Numerical Analysis 2nd ed.
+McGraw-Hill New York.
+2.
+Henrici P. (1982): Essential of Numerical Analysis, Wiley, N.Y 3.
+Kandassamy P., Thilagarathy K., & Gunevathi K. (1997) : Numerical Methods, S. Chand & Co Ltd, New Delhi, India 4.
+Leadermann Walter (1981) (Ed.
+): Handbook of Applicable Mathematics, Vol 3, Numerical Analysis, John Wiley, N.Y. 5.
+Turner P. R. (1994) Numerical Analysis Macmillan College Work Out Series Malaysia 91

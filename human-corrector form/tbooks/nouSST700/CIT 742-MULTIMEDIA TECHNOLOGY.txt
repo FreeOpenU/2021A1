@@ -1,0 +1,1676 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: CIT 742 COURSE TITLE: MULTIMEDIA TECHNOLOGY  COURSE GUIDE CIT 742 MULTIMEDIA TECHNOLOGY Course Team Vivian Nwaocha (Course Developer/Writer/ Coordinator) - NOUN Dr. B. Abiola (Programme Leader) - NOUN NATIONAL OPEN UNIVERSITY OF NIGERIA   CIT 742 COURSE GUIDE National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island, Lagos Abuja Office 5 Dar es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng Published by: National Open University of Nigeria Printed 2013 ISBN: 978-058-495-1 All Rights Reserved Printed by …………….. For National Open University of Nigeria ii  CIT 742 COURSE GUIDE CONTENTS PAGE Introduction……………………………………………….. iv What you will Learn in this Course……………………....... iv Course Aim………………………………………………... iv Course Objectives………………………………………….
+v Working through this Course……………………………… vii Course Materials…………………………………………... vii Study Units………………………………………………… vii Recommended Texts……………………………………….
+viii Assignment File…………………………………………… ix Presentation Schedule……………………………………... ix Assessment………………………………………………… x Tutor-Marked Assignments (TMAs)……………………….
+x Final Examination and Grading…………………………… x Course Marking Scheme…………………………………… x Course Overview………………………………………….. xi How to Get the Most from this Course……………………... xi Facilitators/Tutors and Tutorials……………………… xiii iii  CIT 742 COURSE GUIDE INTRODUCTION CIT 742: Multimedia Technology is a two-credit unit course for students studying towards acquiring the Postgraduate Diploma in Information Technology and related disciplines.
+The course is divided into four modules and 14 study units.
+It is aimed at giving the students a strong background on multimedia systems and applications.
+It gives an overview of the role and design of multimedia systems which incorporate digital audio, graphics and video, underlying concepts and representations of sound, pictures and video, data compression and transmission.
+This course equally covers the principles of multimedia authoring systems, source coding techniques, image histogram and processing.
+At the end of this course, students should be able to describe the relevance and underlying infrastructure of the multimedia systems.
+They are equally expected to identify core multimedia technologies and standards (digital audio, graphics, video, VR, rudiments of multimedia compression and image histogram.
+The course guide therefore gives you the general idea of what the course: CIT 742 is all about, the textbooks and other course materials to be referenced, what you are expected to know in each unit, and how to work through the course material.
+It suggests the general strategy to be adopted and also emphasises the need for self-assessment and tutor- marked assignment.
+There are also tutorial classes that are linked to this course and students are advised to attend.
+WHAT YOU WILL LEARN IN THIS COURSE The overall aim of this course, CIT 742, is to boost the expertise of students in handling multimedia systems.
+This course provides extensive multimedia applications and reference materials designed to augment your multimedia expertise.
+In the course of your studies, you will be equipped with definitions of common terms, characteristics and multimedia techniques.
+COURSE AIM This course aims to give students an in-depth understanding of multimedia systems technology, data representation and rudiments of multimedia compression and image histogram.
+It is hoped that the knowledge gained from this course would enhance students’ proficiency in using multimedia applications.
+iv  CIT 742 COURSE GUIDE COURSE OBJECTIVES It is appropriate that students observe that each unit has precise objectives.
+They are expected to study them carefully before proceeding to subsequent units.
+Therefore, it may be useful to refer to these objectives in the course of your study of the unit to assess your progress.
+You should always look at the unit objectives after completing a unit.
+In this way, you would be certain that you have accomplished what is required of you by the end of the unit.
+However, below are overall objectives of this course.
+On successful completion of this course, you should be able to: • outline the development stages of multimedia • give a concise definition of multimedia • state typical applications of multimedia • define the term ‘hypermedia’ • identify the difference between multimedia and hypertext • give a concise definition of multimedia • mention typical applications of multimedia • define the term ‘hypermedia’ • differentiate between multimedia and hypertext • itemise four characteristics of multimedia systems • outline the components of multimedia systems • describe the challenges for multimedia systems • discuss the concept of an authoring system • emphasise the significance of an authoring system • examine the main authoring paradigms • mention the authoring paradigm best suited for rapid prototyping • state the correlation between iconic/flow control and frame authoring paradigm • distinguish between discrete and continuous media • explain the concept of synchronisation • identify analog and digital signals • state the common sources of text and static data • describe the terms graphics and images • describe the common procedure for capturing audio signals • explain the concept of a raw video • list output devices for a basic multimedia system • describe the common modes of storage • identify the key issues I/O performance • state the difference between DVD-Video and DVD-ROM • list the key components of a RAID System • discuss the storage parameters that affect how data is stored v  CIT 742 COURSE GUIDE • explain the theory of digitisation • define the term ‘sampling rate’ • list the typical audio formats • describe the concept of colour representation • identify the key role of the Adaptive Delta Pulse Code Modulation • give a concise definition of pixel • state the factor that determines the quality of a monitors’ image • know typical image samples • identify how pixels are stored in different images • explain the concept of system dependent format • list the popular system dependent formats • identify the standard system independent format best suited for photographic image compression • give a concise definition of colour • explain the concept of spectrum of light • describe the term ‘chromatics’ • state the guidelines of using colour • explain what transform coding is • describe the notion of lossless compression • identify typical applications of lossy and lossless compression • discover how images are represented in the different forms of encoding • identify the basic lossy compression schemes • state the significance of Fourier transform • show the link between Fourier series coefficient and discreet cosine transform coefficient • give a concise description of the discrete time Fourier transform • list the common image-coding standards • explain the properties of the two dimensional Fourier transform • explain the principle of video compression • describe the JPEG algorithm approach • explain the application of video compression • discover the sensitivity of human hearing • describe the notion of psychoacoustics • describe the concept of the histogram of an image • give an overview of image analysis • identify a bi-modal image • mention two main image enhancement operators • explain the notion of image restoration • define the term ‘noise’.
+vi  CIT 742 COURSE GUIDE WORKING THROUGH THIS COURSE To complete this course, you are required to study all the units, the recommended text books, and other relevant materials.
+Each unit contains some self-assessment exercises and tutor-marked assignments, and at some point in this course, you are required to submit the tutor- marked assignments.
+There is also a final examination at the end of this course.
+Stated below are the components of this course and what you have to do.
+COURSE MATERIALS The major components of the course are: 1.
+Course Guide 2.
+Study Units 3.
+Text Books and References 4.
+Assignment File 5.
+Presentation Schedule STUDY UNITS There are 14 study units integrated into 4 modules in this course.
+They are: Module 1 Introduction to Multimedia Unit 1 Fundamentals of Multimedia Unit 2 Multimedia Systems Unit 3 Multimedia Authoring System Module 2 Multimedia Systems Technology Unit 1 Media and Signals Unit 2 Media Sources and Storage Requirements Unit 3 Output Devices and Storage Media Module 3 Multimedia Data Representations Unit 1 Basics of Digital Audio Unit 2 Graphics/Image File Format Unit 3 Standard System Formats Unit 4 Colour in Multimedia vii  CIT 742 COURSE GUIDE Module 4 Multimedia Compression Unit 1 Rudiments of Multimedia Compression Unit 2 Source Coding Techniques Unit 3 Video and Audio Compression Unit 4 Image Histogram and Processing TEXTBOOKS AND REFERENCES The following books are recommended as complement for other materials highlighted in this course: Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+(1st ed.).
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia in Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+viii  CIT 742 COURSE GUIDE Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S.
+Canada James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates Additional recommendations for understanding the concept of image histogram include: Boyle, R. & Thomas, R. (1988).
+Computer Vision: A First Course.
+Blackwell Scientific Publications.
+Chap.
+4.
+Davies, E. (1990).
+Machine Vision: Theory, Algorithms and Practicalities.
+Academic Press.
+Chap.
+4.
+Marion (1991).
+An Introduction to Image Processing.
+Chapman and Hall.
+Chap.
+5.
+Vernon, D. (1991).
+Machine Vision.
+Prentice-Hall.
+p 49.
+ASSIGNMENT FILE The assignment file will be given to you in due course.
+In this file, you will find all the details of the work you must submit to your tutor for marking.
+The marks you obtain for these assignments will count towards the final mark for the course.
+In sum, there are 14 tutor-marked assignments for this course.
+PRESENTATION SCHEDULE The presentation schedule included in this course guide provides you with important dates for completion of each tutor-marked assignment.
+You should therefore endeavour to meet the deadlines.
+ix  CIT 742 COURSE GUIDE ASSESSMENT There are two aspects to the assessment of this course.
+First, there are tutor-marked assignments; and second, the written examination.
+Therefore, you are expected to take note of the facts, information and problem solving gathered during the course.
+The tutor-marked assignments must be submitted to your tutor for formal assessment, in accordance to the deadline given.
+The work submitted will count for 40% of your total course mark.
+At the end of the course, you will need to sit for a final written examination.
+This examination will account for 60% of your total score.
+TUTOR-MARKED ASSIGNMENTS (TMAs) There are 14 TMAs in this course.
+You need to submit all the TMAs.
+The best four will therefore be counted.
+When you have completed each assignment, send them to your tutor as soon as possible and make certain that it gets to your tutor on or before the stipulated deadline.
+If for any reason you cannot complete your assignment on time, contact your tutor before the assignment is due to discuss the possibility of extension.
+Extension will not be granted after the deadline, unless on extraordinary cases.
+FINAL EXAMINATION AND GRADING The final examination for CIT 742 will be of last for a period of three hours and have a value of 60% of the total course grade.
+The examination will consist of questions which reflect the self-assessment exercise and tutor-marked assignments that you have previously encountered.
+Furthermore, all areas of the course will be examined.
+It would be better to use the time between finishing the last unit and sitting for the examination, to revise the entire course.
+You might find it useful to review your TMAs and comment on them before the examination.
+The final examination covers information from all parts of the course.
+COURSE MARKING SCHEME The following table includes the course marking scheme Table 1: Course Marking Scheme Assessment Marks Assignments 1-14 14assignments,40%for the best 4 Total = 10% X 4 = 40% x  CIT 742 COURSE GUIDE Final Examination 60%of overallcoursemarks Total 100%of CourseMarks xi  CIT 742 COURSE GUIDE COURSE OVERVIEW This table indicates the units, the number of weeks required to complete them and the assignments.
+Table 2: Course Organiser Unit TitleofWork Weeks Assessment Activity (End of Unit) CourseGuide Week1 Module 1 IntroductiontoMultimedia Unit 1 Fundamentalsof Week1 Assignment 1 Multimedia Unit 2 MultimediaSystems Week2 Assignment 2 Unit 3 MultimediaAuthoring Week3 Assignment 3 Tools Module 2 MultimediaSystemsTechnology Unit 1 MediaandSignals Week4 Assignment 4 Unit 2 MediaSourcesand Storage Week5 Assignment 5 Requirements Unit 3 OutputDevicesandStorage Week6 Assignment 6 Media Module 3 MultimediaDataRepresentation Unit 1 Basicsof DigitalAudio Week7 Assignment 7 Unit 2 Graphics/ImageFileFormat Week7 Assignment 8 Unit 3 StandardSystemFormats Week8 Assignment 9 Unit 4 Colourin Multimedia Week9 Assignment 10 Module 4 MultimediaCompression Unit 1 Rudimentsof Multimedia Week10 Assignment 11 Compression Unit 2 SourceCodingTechniques Week11 Assignment 12 Unit 3 VideoandAudio Week12 Assignment 13 Compression Unit 4 ImageHistogramand Week13 Assignment 14 Processing HOW TO GET THE MOST OUT OF THIS COURSE In distance learning, the study units replace the university lecturer.
+This is one of the huge advantages of distance learning mode; you can read and work through specially designed study materials at your own pace and at a time and place that is most convenient.
+Think of it as reading from the teacher, the study guide indicates what you ought to study, how to study it and the relevant texts to consult.
+You are provided with xii  CIT 742 COURSE GUIDE exercises at appropriate points, just as a lecturer might give you an in- class exercise.
+Each of the study units follows a common format.
+The first item is an introduction to the subject matter of the unit and how a particular unit is integrated with the other units and the course as a whole.
+Next to this is a set of learning objectives.
+These learning objectives are meant to guide your studies.
+The moment a unit is finished, you must go back and check whether you have achieved the objectives.
+If this is made a habit, then you will increase your chances of passing the course.
+The main body of the units also guides you through the required readings from other sources.
+This will usually be either from a set book or from other sources.
+Self-assessment exercises are provided throughout the unit, to aid personal studies and answers are provided at the end of the unit.
+Working through these self tests will help you to achieve the objectives of the unit and also prepare you for tutor-marked assignments and examinations.
+You should attempt each self test as you encounter them in the units.
+The following are practical strategies for working through this course 1.
+Read the course guide thoroughly.
+2.
+Organise a study schedule.
+Refer to the course overview for more details.
+Note the time you are expected to spend on each unit and how the assignment relates to the units.
+Important details, e.g.
+details of your tutorials and the date of the first day of the semester are available.
+You need to gather together all these information in one place such as a diary, a wall chart calendar or an organiser.
+Whatever method you choose, you should decide on and write in your own dates for working on each unit.
+3.
+Once you have created your own study schedule, do everything you can to stick to it.
+The major reason that students fail is that they get behind with their course works.
+If you get into difficulties with your schedule, please let your tutor know before it is too late to help.
+4.
+Turn to Unit 1 and read the introduction and the objectives for the unit.
+5.
+Assemble the study materials.
+Information about what you need for a unit is given in the table of content at the beginning of each unit.
+You will almost always need both the study unit you are working on and one of the materials recommended for further readings, on your desk at the same time.
+xiii  CIT 742 COURSE GUIDE 6.
+Work through the unit, the content of the unit itself has been arranged to provide a sequence for you to follow.
+As you work through the unit, you will be encouraged to read from your set books.
+7.
+Keep in mind that you will learn a lot by doing all your assignments carefully.
+They have been designed to help you meet the objectives of the course and will help you pass the examination.
+8. Review the objectives of each study unit to confirm that you have achieved them.
+If you are not certain about any of the objectives, review the study material and consult your tutor.
+9.
+When you are confident that you have achieved a unit’s objectives, you can start on the next unit.
+Proceed unit by unit through the course and try to pace your study so that you can keep yourself on schedule.
+10.
+When you have submitted an assignment to your tutor for marking, do not wait for its return before starting on the next unit.
+Keep to your schedule.
+When the assignment is returned, pay particular attention to your tutor’s comments, both on the tutor-marked assignment form and also written on the assignment.
+Consult your tutor as soon as possible if you have any questions or problems.
+11.
+After completing the last unit, review the course and prepare yourself for the final examination.
+Check that you have achieved the unit objectives (listed at the beginning of each unit) and the course objectives (listed in this course guide).
+FACILITATORS/TUTORS AND TUTORIALS There are eight hours of tutorial provided in support of this course.
+You will be notified of the dates, time and location together with the name and phone number of your tutor as soon as you are allocated a tutorial group.
+Your tutor will mark and comment on your assignments, keep a close watch on your progress and on any difficulties you might encounter and provide assistance to you during the course.
+You must mail your tutor marked assignment to your tutor well before the due date.
+At least two working days are required for this purpose.
+They will be marked by your tutor and returned to you as soon as possible.
+Do not hesitate to contact your tutor by telephone, e-mail or discussion board if you need help.
+The following might be circumstances in which you would find help necessary: contact your tutor if: • you do not understand any part of the study units or the assigned readings • you have difficulty with the self test or exercise xiv  CIT 742 COURSE GUIDE • you have questions or problems with an assignment, with your tutor’s comments on an assignment or with the grading of an assignment.
+You should try your best to attend the tutorials.
+This is the only chance to have face-to- face contact with your tutor and ask questions which are answered instantly.
+You can raise any problem encountered in the course of your study.
+To gain the maximum benefit from the course tutorials, prepare a question list before attending them.
+You will learn a lot from participating in discussion actively.
+Do have a pleasant discovery!
+xv  MAIN COURSE CONTENTS PAGE Module 1 Introduction to Multimedia……….
+1 Unit 1 Fundamentals of Multimedia……….. 1 Unit 2 Multimedia Systems………………… 7 Unit 3 Multimedia AuthoringSystem……… 11 Module 2 Multimedia Systems Technology….. 17 Unit 1 Media and Signals…………………… 17 Unit 2 Media Sources and Storage Requirements………………………… 21 Unit 3 Output Devices and Storage Media… 25 Module 3 Multimedia Data Representations….. 32 Unit 1 Basics of Digital Audio……………… 32 Unit 2 Graphics/Image File Format………….. 38 Unit 3 Standard System Formats…………….
+44 Unit 4 Colour in Multimedia………………… 48 Module 4 Multimedia Compression……….
+54 Unit 1 Rudiments of Multimedia Compression………………………….. 54 Unit 2 Source Coding Techniques…………… 61 Unit 3 Video and Audio Compression……….
+72 Unit 4 Image Histogram andProcessing…….. 78  CIT 742 MODULE 1 MODULE 1 INTRODUCTION TO MULTIMEDIA Unit 1 Fundamentals of Multimedia Unit 2 Multimedia Systems Unit 3 Multimedia Authoring System UNIT 1 FUNDAMENTALS OF MULTIMEDIA CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 History of Multimedia 3.2 Multimedia and Hypermedia 3.2.1 What is Multimedia?
+3.2.2 Multimedia Application 3.2.3 Hypertext 3.2.4 Hypermedia 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION This unit is designed to introduce you to multimedia basics.
+It provides an overview of the essential aspects of multimedia.
+It equally highlights the link between hypertext and hypermedia.
+Thus, it is recommended that you go through the entire module systematically to gain some insight of the course.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • outline the development stages of multimedia • give a concise definition of multimedia • state typical applications of multimedia • define the term ‘hypermedia’ • differentiate between multimedia and hypertext.
+1  CIT 742 MULTIMEDIA TECHNOLOGY 3.0 MAIN CONTENT 3.1 History of Multimedia The term "multimedia" was first coined by Bob Goldstein to promote the July 1966 opening of his "LightWorks at L'Oursin" show at Southampton, Long Island.
+On August 10, 1966, Richard Albarino borrowed the terminology, reporting: “Brainchild of songscribe-comic”.
+Two years later, in 1968, the term “multimedia” was re-appropriated to describe the work of a political consultant, David Sawyer, the husband of Iris Sawyer—one of Goldstein’s producers at L’Oursin.
+In the late 1970s the term was used to describe presentations consisting of multi-projector slide shows timed to an audio track.
+However, by the 1990s 'multimedia' took on its current meaning.
+In the 1993 first edition of McGraw-Hill’s Multimedia: Making It Work, Tay Vaughan declared, “Multimedia is any combination of text, graphic art, sound, animation, and video that is delivered by computer.
+When you allow the user – the viewer of the project – to control what and when these elements are delivered, it is interactive multimedia.
+When you provide a structure of linked elements through which the user can navigate, interactive multimedia becomes hypermedia.” Subsequently, the German language society, Gesellschaft für deutsche Sprache, decided to recognise the word's significance and ubiquitousness in the 1990s by awarding it the title of 'Word of the Year' in 1995.
+The institute summed up its rationale by stating "[Multimedia] has become a central word in the wonderful new media world".
+In common usage, the term multimedia refers to an electronically delivered combination of media including video, still images, audio, text in such a way that can be accessed interactively.
+Much of the content on the web today falls within this definition as understood by millions.
+Some computers which were marketed in the 1990s were called "multimedia" computers because they incorporated a CD-ROM drive, which allowed for the delivery of several hundred megabytes of video, picture, and audio data.
+3.2 Multimedia and Hypermedia In order to be effective in this digital age, one needs to understand two key technological terms used virtually in all facets of life - multimedia and hypermedia.
+In practical terms, when someone turns on a computer, puts a compact disc (CD) in its CD drive, and listens to her favorite music while she works on a paper, she is experiencing multimedia.
+2  CIT 742 MODULE 1 Other examples of multimedia usage include looking at pictures taken from a digital camera.
+In contrast, surfing the World Wide Web, following links from one site to another, looking for all types of information, is called experiencing hypermedia.
+The major difference between multimedia and hypermedia is that the user is more actively involved in the hypermedia experience, whereas the multimedia experience is more passive.
+3.2.1 What is Multimedia?
+Several authors have depicted multimedia in different ways.
+Essentially, it can be described as the integration of sound, animation, and digitised video with more traditional types of data such as text.
+It is an application-oriented technology that is used in a variety of ways, for example, to enhance presentations, and is based on the increasing capability of computers to store, transmit, and present many types of information.
+A good general definition is: Multimedia is the field concerned with the computer-controlled integration of text, graphics, drawings, still and moving images (Video), animation, audio, and any other media where every type of information can be represented, stored, transmitted and processed digitally.
+3.2.2 Multimedia Application A Multimedia Application is an Application which uses a collection of multiple media sources e.g.
+text, graphics, images, sound/audio, animation and/or video.
+Hypermedia can be considered as one of the multimedia applications.
+Some examples of multimedia applications are: business presentations, online newspapers, distance education, and interactive gaming, advertisements, art, entertainment, engineering, medicine, mathematics, business, scientific research and spatial temporal applications.
+Other examples of Multimedia Applications include: • World Wide Web • Hypermedia courseware • Video conferencing • Video-on-demand • Interactive TV • Groupware • Home shopping 3  CIT 742 MULTIMEDIA TECHNOLOGY • Games • Virtual reality • Digital video editing and production systems • Multimedia Database systems 3.2.3 Hypertext Typically, a Hypertext refers to a text which contains links to other texts.
+The term was invented by Ted Nelson around 1965.
+Hypertext is therefore usually non-linear (as indicated below).
+Fig.
+1.1: Hypertext 3.2.4 Hypermedia HyperMedia is not constrained to be text-based.
+It is an enhancement of hypertext, the non-sequential access of text documents, using a multimedia environment and providing users the flexibility to select which document they want to view next, based on their current interests.
+The path followed to get from document to document changes from user to user and is very dynamic.
+It can include other media, e.g., graphics, images, and especially the continuous media - sound and video.
+Apparently, Ted Nelson was also the first to use this term.
+4  CIT 742 MODULE 1 Fig.
+1.2: Hypermedia The World Wide Web (WWW) is the best example of hypermedia applications.
+SELF-ASSESSMENT EXERCISE State the main distinction between multimedia and hypermedia.
+4.0 CONCLUSION In this unit, we highlighted the development stages of multimedia and described the terms- multimedia, hypertext and hypermedia.
+We equally considered the multimedia applications as well as the relevance of multimedia and hypermedia.
+5.0 SUMMARY This unit provided an overview of the history of multimedia; description of multimedia, hypertext and hypermedia.
+Now, let us attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+State at least three media sources.
+2.
+Give a concise definition of multimedia.
+3.
+What is a multimedia application?
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+5  CIT 742 MULTIMEDIA TECHNOLOGY Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia in Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+6  CIT 742 MODULE 1 UNIT 2 MULTIMEDIA SYSTEMS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Characteristics of a Multimedia System 3.2 Challenges for Multimedia Systems 3.3 Desirable Features for a Multimedia System 3.4 Components of a Multimedia System 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In Unit 1, we gave an overview of fundamentals of multimedia and multimedia applications.
+This unit provides information about multimedia systems.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • identify four characteristics of multimedia systems • outline the components of multimedia systems • describe the challenges for multimedia systems.
+3.0 MAIN CONTENT 3.1 Characteristics of a Multimedia System Basically, a Multimedia system has four vital characteristics: • multimedia systems must be computer controlled • multimedia systems are integrated • the information they handlemustbe representeddigitally • the interface to the final presentation of media is usually interactive 3.2 Challenges for Multimedia Systems Multimedia systems may have to render a variety of media at the same instant -- a distinction from normal applications.
+There is a temporal 7  CIT 742 MULTIMEDIA TECHNOLOGY relationship between many forms of media (e.g.
+Video and Audio).
+Multimedia systems are often required for: • Sequencing within the media -- playing frames in correct order/time frame in video • Synchronisation -- inter-media scheduling (e.g.
+Video and Audio).
+Lip synchronisation is clearly important for humans to watch playback of video and audio and even animation and audio.
+Ever tried watching an out of (lip) sync film for a long time?
+Hence, the key issues multimedia systems need to deal with here are: • how to represent and store temporal information • how to strictly maintain the temporal relationships on play back/retrieval • what are the processes involved in tackling these issues?
+Another challenge is that the initial forms of data have to be represented digitally, i.e.
+translated from the analog source to the digital representation.
+The will involve scanning (graphics, still images), sampling (audio/video) although digital cameras now exist for direct scene to digital capture of images and video.
+3.3 Desirable Features for a Multimedia System Haven discovered the challenges that have to be surmounted in using multimedia systems; the following features are desirable for a Multimedia System: - Very High Processing Power: This is a requirement for dealing with large data processing and real time delivery of media.
+- Multimedia Capable File System: This feature is essential for delivering real-time media -- e.g.
+Video/Audio Streaming.
+Special Hardware/Software needed e.g.
+RAID technology.
+- Data Representations/File Formats that support multimedia: Data representations/file formats should be easy to handle yet allow for compression/decompression in real-time.
+- Efficient and High I/O: Input and output to the file subsystem needs to be efficient and fast.
+It is necessary to allow for real-time recording as well as playback of data.
+e.g.
+Direct to Disk recording systems.
+- Special Operating System: A special operating system is required to provide access to file system and process data efficiently and quickly.
+Consequently, the multimedia system 8  CIT 742 MODULE 1 needs to support direct transfers to disk, real-time scheduling, fast interrupt processing, I/O streaming etc.
+- Storage and Memory: Large storage units (of the order of 50 -100 Gb or more) and large memory (50 -100 Mb or more).
+Large Caches also required and frequently of Level 2 and 3 hierarchy for efficient management.
+- Network Support: Client-server systems commonly known as distributed systems.
+- Software Tools: User friendly tools are needed to handle media, design and develop applications, deliver media.
+3.4 Components of a Multimedia System We can now consider the core components required for a multimedia system: Capture devices -- Video Camera, Video Recorder, Audio Microphone, Keyboards, mice, graphics tablets, 3D input devices, tactile sensors, VR devices.
+Digitising/Sampling Hardware Storage Devices -- Hard disks, CD-ROMs, Jaz/Zip drives, DVD, etc Communication Networks -- Ethernet, Token Ring, FDDI, ATM, Intranets, Internets.
+Computer Systems -- Multimedia Desktop machines, Workstations, MPEG/VIDEO/DSP Hardware Display Devices -- CD-quality speakers, HDTV,SVGA, Hi-Res monitors, Colour printers etc.
+SELF-ASSESSMENT EXERCISE Identify four vital characteristics of multimedia systems.
+4.0 CONCLUSION From our studies in this unit, it is important to remember that there are four vital characteristics of multimedia systems.
+It is equally pertinent to note the core components of multimedia systems as well as the challenges for multimedia systems.
+9  CIT 742 MULTIMEDIA TECHNOLOGY 5.0 SUMMARY In this unit, we looked at the fundamental characteristics and components of multimedia systems.
+We equally considered the challenges for multimedia systems.
+We hope you found the unit enlightening.
+To assess your comprehension, attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Outline the components of multimedia systems.
+2.
+Describe the challenges for multimedia systems.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia in Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+10  CIT 742 MODULE 1 UNIT 3 MULITIMEDIA AUTHORING SYSTEMS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Authoring System 3.2 Significance of an Authoring System 3.3 Multimedia Authoring Paradigms 3.3.1 Scripting Language 3.3.2 Iconic/Flow Control 3.3.3 Frame 3.3.4 Card/Scripting 3.3.5 Cast/ Score/ Scripting 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION The initial task we have in this unit is to explain the concept of multimedia authoring system and authoring paradigm.
+You might be tempted to think you're never going to get to grips with these terms.
+But do not worry - after a few lessons, things will start to feel familiar.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • describe the concept of an authoring system • examine the significance of an authoring system • explain the term ‘authoring paradigm’ • list the main authoring paradigms • mention the authoring paradigm best suited for rapid prototyping • discuss the correlation between iconic/flow control and frame authoring paradigm.
+3.0 MAIN CONTENT 3.1 Authoring System An Authoring System simply refers to a program which has pre- programmed elements for the development of interactive multimedia software titles.
+Authoring systems vary widely in orientation, 11  CIT 742 MULTIMEDIA TECHNOLOGY capabilities, and learning curve.
+There is no such thing (at this time) as a completely point-and-click automated authoring system; some knowledge of heuristic thinking and algorithm design is necessary.
+Whether you realise it or not, authoring is actually just a speeded-up form of programming; you do not need to know the intricacies of a programming language, or worse, an API, but you do need to understand how programs work.
+3.2 Significance of an Authoring System It generally takes about 1/8th the time to develop an interactive multimedia project, such as a CBT (Computer Based Training) program, in an authoring system as opposed to programming it in compiled code.
+This means 1/8 the cost of programmer time and likely increased re-use of code (assuming that you pass this project's code to the next CBT project, and they use a similar or identical authoring system).
+However, the content creation (graphics, text, video, audio, animation, etc.)
+is not generally affected by the choice of an authoring system; any production time gains here result from accelerated prototyping, not from the choice of an authoring system over a compiled language.
+3.3 Multimedia Authoring Paradigms The authoring paradigm is a term used to describe the methodology by which the authoring system accomplishes its task.
+There are various paradigms, including: 3.3.1 Scripting Language The Scripting paradigm is the authoring method closest in form to traditional programming.
+The paradigm is that of a programming language, which specifies (by filename) multimedia elements, sequencing, hotspots, synchronisation, etc.
+A powerful, object-oriented scripting language is usually the centerpiece of such a system; in- program editing of elements (still graphics, video, audio, etc.)
+tends to be minimal or non-existent.
+Scripting languages do vary; check out how much the language is object-based or object-oriented.
+The scripting paradigm tends to be longer in development time (it takes longer to code an individual interaction), but generally more powerful interactivity is possible.
+Since most Scripting languages are interpreted, instead of compiled, the runtime speed gains over other authoring methods are minimal.
+The media handling can vary widely; check out your system with your contributing package formats carefully.
+The Apple's HyperTalk for HyperCard, Assymetrix's OpenScript for ToolBook and 12  CIT 742 MODULE 1 Lingo scripting language of Macromedia Director are examples of a Multimedia scripting language.
+Here is an example lingo script to jump to a frame global gNavSprite on exitFrame go the frame play sprite gNavSprite end 3.3.2 Iconic/Flow Control This tends to be the speediest (in development time) authoring style; it is best suited for rapid prototyping and short-development time projects.
+Many of these tools are also optimised for developing Computer-Based Training (CBT).
+The core of the paradigm is the Icon Palette, containing the possible functions/interactions of a program, and the Flow Line, which shows the actual links between the icons.
+These programs tend to be the slowest runtimes, because each interaction carries with it all of its possible permutations; the higher end packages, such as Authorware (Figure 2.1)or IconAuthor, are extremely powerful and suffer least from runtime speed problems.
+13  CIT 742 MULTIMEDIA TECHNOLOGY Fig.
+2.1: Macromedia Authorware Iconic/Flow Control Examples 3.3.3 Frame -- The Frame paradigm is similar to the Iconic/Flow Control paradigm in that it usually incorporates an icon palette; however, the links drawn between icons are conceptual and do not always represent the actual flow of the program.
+This is a very fast development system, but requires a good auto-debugging function, as it is visually un-debuggable.
+The best of these have bundled compiled-language scripting, such as Quest (whose scripting language is C) or Apple Media Kit.
+3.3.4 Card/Scripting The Card/Scripting paradigm provides a great deal of power (via the incorporated scripting language) but suffers from the index-card structure.
+It is excellently suited for Hypertext applications, and supremely suited for navigation intensive (a la Cyan's "MYST" game) applications.
+Such programs are easily extensible via XCMDs and 14  CIT 742 MODULE 1 DLLs; they are widely used for shareware applications.
+The best applications allow all objects (including individual graphic elements) to be scripted; many entertainment applications are prototyped in a card/scripting system prior to compiled-language coding.
+3.3.5 Cast/Score/Scripting The Cast/Score/Scripting paradigm uses a music score as its primary authoring metaphor; the synchronous elements are shown in various horizontal tracks with simultaneity shown via the vertical columns.
+The true power of this metaphor lies in the ability to script the behaviour of each of the cast members.
+The most popular member of this paradigm is Director, which is used in the creation of many commercial applications.
+These programs are best suited for animation-intensive or synchronised media applications; they are easily extensible to handle other functions (such as hypertext) via XOBJs, XCMDs, and DLLs.
+SELF-ASSESSMENT EXERCISE What is the significance of an authoring system?
+4.0 CONCLUSION In sum, an Authoring System refers to a program which has pre- programmed elements for the development of interactive multimedia software titles.
+It generally takes about 1/8th the time to develop an interactive multimedia project, in an authoring system as opposed to programming it in compiled codes.
+The term authoring paradigm describes the methodology by which the authoring system accomplishes its task.
+5.0 SUMMARY In this unit, we considered authoring systems and authoring paradigms.
+We equally looked at the specific applications of the different authoring paradigms.
+Hoping that you understood the topics discussed, you may now attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Explain the term ‘authoring paradigm.’ 2.
+List the main authoring paradigms.
+3.
+Give the authoring paradigm best suited for rapid prototyping.
+15  CIT 742 MULTIMEDIA TECHNOLOGY 4.
+Outline the relationship between iconic/flow control and frame authoring paradigm.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia in Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+16  CIT 742 MULTIMEDIA TECHNOLOGY MODULE 2 MULTIMEDIA SYSTEMS TECHNOLOGY Unit 1 Media and Signals Unit 2 Media Sources and Storage Requirements Unit 3 Output Devices and Storage Media UNIT 1 MEDIA AND SIGNALS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Media and Signals 3.1.1 Discrete vs Continuous Media 3.1.2 Analog and Digital Signals 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Media and signals are at the heart of every multimedia system.
+In this unit, we will discuss the concept of synchronisation and highlight typical examples of discrete and continuous media.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • distinguish between discrete and continuous media • explain the concept of synchronisation • identify analog and digital signals.
+3.0 MAIN CONTENT 3.1 Media and Signals In this unit, we shall treat the concepts of media and signals distinctly to facilitate a deeper understanding.
+17  CIT 742 MODULE 2 3.1.1 Discrete vs Continuous Media Multimedia systems deal with the generation, manipulation, storage, presentation, and communication of information in digital form.
+This implies that the data may be in a variety of formats: text, graphics, images, audio, and video.
+A good number of this data is large and the different media may need synchronisation, i.e.
+the data may have temporal relationships as an integral property.
+Some media is time independent or static or discrete media: normal data, text, single images, graphics are examples.
+Video, animation and audio are examples of continuous media.
+3.1.2 Analog and Digital Signals The world we sense is full of analog signals.
+Electrical sensors such as transducers, thermocouples, microphones etc convert the medium they sense into electrical signals.
+These are usually continuous and still analog.
+These analog signals must be converted or digitised into discrete digital signals that computer can readily deal with.
+Special hardware devices called Analog-to-Digital converters perform this task.
+For playback Digital-to-Analog must perform a converse operation.
+Note that Text, Graphics and some images are generated directly by computer and do not require digitising: they are generated directly in binary format.
+Handwritten text would have to be digitised either by electronic pen sensing of scanning of paper based form.
+SELF-ASSESSMENT EXERCISE List at least three common types of static media 4.0 CONCLUSION We discovered that data may be in a variety of formats: text, graphics, images, audio, and video.
+We equally saw typical examples of static and discrete signals.
+18  CIT 742 MULTIMEDIA TECHNOLOGY 5.0 SUMMARY In this unit, we learnt about discrete and continuous media.
+We equally described the term ‘synchronisation’ and examined analog and digital signals.
+Be assured that the facts gathered from this unit will be valuable for exploring multimedia applications.
+OK!
+Let us attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Distinguish between discrete and continuous media 2.
+Explain the concept of synchronisation 7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+19  CIT 742 MODULE 2 Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+20  CIT 742 MULTIMEDIA TECHNOLOGY UNIT 2 MEDIA SOURCES AND STORAGE REQUIREMENTS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Texts and Static Data 3.2 Graphics 3.3 Images 3.4 Audio 3.5 Video 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit we will consider each media and summarise how it may be input into a multimedia system.
+The unit will equally analyse the basic storage requirements for each type of data.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • state two common sources of text and static data • describe the terms graphics and images • describe the common procedure for capturing audio signals • explain the concept of a raw video.
+3.0 MAIN CONTENT 3.1 Texts and Static Data The sources of this media are the keyboard, floppies, disks and tapes.
+Text files are usually stored and input character by character.
+Files may contain raw text or formatted text e.g HTML, Rich Text Format (RTF) or a program language source (C, Pascal, etc.)
+The basic storage of text is 1 byte per character (text or format character).
+For other forms of data e.g.
+Spreadsheet files some formats 21  CIT 742 MODULE 2 may store format as text (with formatting) others may use binary encoding.
+3.2 Graphics Graphics are usually constructed by the composition of primitive objects such as lines, polygons, circles, curves and arcs.
+Graphics are usually generated by a graphics editor program (e.g.
+Freehand) or automatically by a program (e.g.
+Postscript usually generated this way).
+Graphics are usually editable or revisable (unlike Images).
+Graphics input devices include: keyboard (for text and cursor control), mouse, trackball or graphics tablet.
+Graphics files may adhere to a graphics standard (OpenGL, PHIGS, GKS) Text may need to stored also.
+Graphics files usually store the primitive assembly and do not take up a very high overhead.
+SELF-ASSESSMENT EXERCISE How are graphics constructed?
+3.3 Images Essentially, images are still pictures which (uncompressed) are represented as a bitmap (a grid of pixels).
+They may be generated by programs similar to graphics or animation programs.
+But images may be scanned for photographs or pictures using a digital scanner or from a digital camera.
+Some Video cameras allow for still image capture also.
+Analog sources will require digitising.
+In general, images may be stored at 1 bit per pixel (Black and White), 8 Bits per pixel (Gray Scale, Colour Map) or 24 Bits per pixel (True Colour).
+Thus a 512x512 Gray scale image takes up 1/4 Mb, a 512x512 24 bit image takes 3/4 Mb with no compression.
+This overhead soon increases with image size so compression is commonly applied.
+3.4 Audio Audio signals are continuous analog signals.
+They are first captured by microphones and then digitised and stored -- usually compressed as CD.
+Quality audio requires 16-bit sampling at 44.1 KHz.
+Thus, 1 Minute of 22  CIT 742 MULTIMEDIA TECHNOLOGY Mono CD quality audio requires 60*44100*2 Bytes which is approximately 5 Mb.
+3.5 Video Analog Video is usually captured by a video camera and then digitised.
+There are a variety of video (analog and digital) formats.
+Raw video can be regarded as being a series of single images.
+There are typically 25, 30 or 50 frames per second.
+Digital video clearly needs to be compressed.
+4.0 CONCLUSION We have been able to spot basic input and storage of text and static data.
+We discovered that, graphics are usually constructed by the composition of primitive objects such as lines, polygons, circles, curves and arcs.
+Images can be referred to as still pictures which (uncompressed) are represented as a bitmap.
+Audio signals are continuous analog signals.
+Raw video can be regarded as being a series of single images e.g explorer.
+5.0 SUMMARY In summary, this unit looked at the basic input and storage of text and static data.
+We also considered how graphics, images, audio and video are represented.
+You can now attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+State two common sources of text and static data.
+2.
+Describe the common procedure for capturing audio signals.
+3.
+Explain the concept of a raw video.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+23  CIT 742 MODULE 2 Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+24  CIT 742 MULTIMEDIA TECHNOLOGY UNIT 3 OUTPUT DEVICES AND STORAGE MEDIA CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Output Devices 3.2 High Performance I/O 3.3 Basic Storage 3.4 Redundant Array of Inexpensive Disks (RAID) 3.5 Optical Storage 3.6 CD Storage 3.7 DVD 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Now that you have been introduced to common types of media, we will now consider output devices and storage units for multimedia systems.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • list output devices for a basic multimedia system • describe the common modes of storage • identify the key issues I/O performance • differentiate between DVD-Video and DVD-ROM • itemise the key components of a RAID System • mention the storage parameters that affect how data is stored.
+3.0 MAIN CONTENT 3.1 Output Devices Usually, multimedia systems require output devices.
+The output devices for a basic multimedia system include: • A High Resolution Colour Monitor • CD Quality Audio Output • Colour Printer 25  CIT 742 MODULE 2 • Video Output to save Multimedia presentations to (Analog) Video Tape, CD-ROM DVD.
+• Audio Recorder (DAT, DVD, CD-ROM, (Analog) Cassette) • Storage Medium (Hard Disk, Removable Drives, CD-ROM) 3.2 High Performance I/O Before proceeding, let us consider some key issues that affect storage media: • Large volume of data • Real time delivery • Data format • Storage Medium • Retrieval mechanisms First two factors are the real issues that storage media have to contend with.
+Due to the volume of data, compression might be required.
+The type of storage medium and underlying retrieval mechanism will affect how the media is stored and delivered.
+Ultimately any system will have to deliver high performance I/O.
+We will discuss this issue before going on to discuss actual Multimedia storage devices.
+There are four factors that influence I/O performance: Data Data is high volume, maybe continuous and may require contiguous storage.
+It also refers to the direct relationship between size of data and how long it takes to handle.
+Compression and also distributed storage.
+Data Storage The strategy for data storage depends of the storage hardware and the nature of the data.
+The following storage parameters affect how data is stored: • Storage Capacity • Read and Write Operations of hardware • Unit of transfer of Read and Write • Physical organisation of storage units • Read/Write heads, Cylinders per disk, Tracks per cylinder, Sectors per Track • Read time • Seek time 26  CIT 742 MULTIMEDIA TECHNOLOGY Data Transfer Depends on how data generated and written to disk, and in what sequence it needs to retrieve.
+Writing/Generation of Multimedia data is usually sequential e.g.
+streaming digital audio/video direct to disk.
+Individual data (e.g.
+audio/video file) usually streamed.
+RAID architecture can be employed to accomplish high I/O rates by exploiting parallel disk access.
+Operating System Support Scheduling of processes when I/O is initiated.
+Time critical operations can adopt special procedures.
+Direct disk transfer operations free up CPU/Operating system space.
+SELF-ASSESSMENT EXERCISE What are the storage parameters that affect how data is stored?
+3.3 Basic Storage Basic storage units have problems dealing with large multimedia data • Single Hard Drives -- SCSI/IDE Drives.
+So called AV (Audio- Visual) drives, which avoid thermal recalibration between read/writes, are suitable for desktop multimedia.
+New drives are fast enough for direct to disk audio and video capture.
+But not adequate for commercial/professional Multimedia.
+Employed in RAID architectures.
+• Removable Media -- Jaz/Zip Drives, CD-ROM, DVD.
+Conventional (dying out?)
+floppies not adequate due 1.4 Mb capacity.
+Other media usually ok for backup but usually suffer from worse performance than single hard drives.
+3.4 Redundant Array of Inexpensive Disks (RAID) The concept of RAID has been developed to fulfill the needs of current multimedia and other application programs which require fault tolerance to be built into the storage device.
+Raid technology offers some significant advantages as a storage medium: 27  CIT 742 MODULE 2 • Affordable alternative to mass storage • High throughput and reliability The cost per megabyte of a disk has been constantly dropping, with smaller drives playing a larger role in this improvement.
+Although larger disks can store more data, it is generally more power effective to use small diameter disks (as less power consumption is needed to spin the smaller disks).
+Also, as smaller drives have fewer cylinders, seek distances are correspondingly lower.
+Following this general trend, a new candidate for mass storage has appeared on the market, based on the same technology as magnetic disks, but with a new organisation.
+These are arrays of small and inexpensive disks placed together, based on the idea that disk throughput can be increased by having many disk drives with many heads operating in parallel.
+The distribution of data over multiple disks automatically forces access to several disks at one time improving throughput.
+Disk arrays are therefore obtained by placing small disks together to obtain the performance of more expensive high end disks.
+The key components of a RAID System are: • set of disk drives, disk arrays, viewed by user as one or more logical drives • data may be distributed across drives • redundancy added in order to allow for disk failure.
+3.5 Optical Storage Optical storage has been the most popular storage medium in the multimedia context due its compact size, high density recording, easy handling and low cost per MB.
+CD is the most common and we discuss this below.
+Laser disc and recently DVD are also popular.
+3.6 CD Storage CDs (compact discs) are thin pieces of plastic that are coated with aluminum and used to store data for use in a variety of devices, including computers and CD players.
+The main or standard type of CD is called a CD-ROM; ROM means read-only memory.
+This type of CD is used to store music or data that is added by a manufacturer prior to sale.
+It can be played back or read by just about any CD player as well as most computers that have CD drives.
+A consumer cannot use this type of CD to record music or data files; it is not erasable or changeable.
+28  CIT 742 MULTIMEDIA TECHNOLOGY If consumers want to purchase recordable CDs to record music store data files, they usually have some options available to them.
+One is the CD-R, which is the typical choice for an individual who only wants to add data files or music to a CD once.
+An individual uses a CD burner, which is a component of many modern computer systems, to record to these discs.
+Some recordable CDs are classified as CD+R.
+This type of disc allows consumers to record music or data to it, but provides nearly twice the amount of space that is available with a CD-R. A CD-RW also has a place among the recordable CDs.
+This one is a bit different, because it allows consumers to erase it and record over it again.
+Otherwise, it can be used in the same manner as CD-Rs and CD+Rs.
+3.7 DVD DVD, which stands for Digital Video Disc, Digital Versatile Disc, is the next generation of optical disc storage technology.
+This disc has become a major new medium for a whole host of multimedia system: It is essentially a bigger, faster CD that can hold video as well as audio and computer data.
+DVD aims to encompass home entertainment, computers, and business information with a single digital format, eventually replacing audio CD, videotape, laserdisc, CD-ROM, and perhaps even video game cartridges.
+DVD has widespread support from all major electronics companies, all major computer hardware companies, and most major movie and music studios, which is unprecedented and says much for its chances of success (or, pessimistically, the likelihood of it being forced down our throats).
+It is important to understand the difference between DVD-Video and DVD-ROM.
+DVD-Video (often simply called DVD) holds video programs and is played in a DVD player hooked up to a TV.
+DVD- ROM holds computer data and is read by a DVD-ROM drive hooked up to a computer.
+The difference is similar to that between Audio CD and CD-ROM.
+DVD-ROM also includes future variations that are recordable one time (DVD-R) or many times (DVD-RAM).
+Most people expect DVD-ROM to be initially much more successful than DVD- Video.
+Most new computers with DVD-ROM drives will also be able to play DVD-Videos.
+There is also a DVD-Audio format.
+The technical specifications for DVD-Audio are not yet determined.
+29  CIT 742 MODULE 2 4.0 CONCLUSION To wrap up, recall that the type of storage medium and underlying retrieval mechanism will affect how the media is stored and delivered.
+RAID architecture can be employed to accomplish high I/O rates.
+Basic storage units have problems dealing with large multimedia data.
+CDs (compact discs) are thin pieces of plastic that are coated with aluminum and used to store data for use in a variety of devices.
+DVDs are essentially optical storage discs that can hold video as well as audio and computer data.
+Typically, they are bigger and faster than CDs.
+5.0 SUMMARY This unit provided an overview of output devices for a basic multimedia system.
+We also highlighted the common modes of storage, key issues affecting storage media as well as factors that affect I/O performance.
+However, to assess your level of assimilation, you would need to attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+What are the key components of a RAID System?
+2.
+List at least four output devices for a basic multimedia system.
+3.
+Describe the common modes of storage.
+4.
+Identify the key issues I/O performance.
+5.
+State the difference between DVD-Video and DVD-ROM.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+30  CIT 742 MULTIMEDIA TECHNOLOGY James, D. M. & William, V.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+31  CIT 642 MULTIMEDIA TECHNOLOGY MODULE 3 MULTIMEDIA DATA REPRESENTATIONS Unit 1 Basics of Digital Audio Unit 2 Graphics/Image File Format Unit 3 Standard System Formats Unit 4 Colour in Multimedia UNIT 1 BASICS OF DIGITAL AUDIO CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 The Theory of Digitisation 3.2 Digitisation of Sound 3.3 Typical Audio Formats 3.4 Colour Representations 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this module, we will focus on the theory of digitisation, sampling and quantisation.
+We will equally consider colour representation and the main role of the Adaptive Delta Pulse Code Modulation.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • explain the theory of digitisation • define the term ‘sampling rate’ • list the typical audio formats • describe the concept of colour representation • identify the key role of the Adaptive Delta Pulse Code Modulation.
+32  CIT 642 MODULE 3 3.0 MAIN CONTENT 3.1 The Theory of Digitisation Sound and image can be regarded as signals, in one or two dimensions, respectively.
+Sound can be described as a fluctuation of the acoustic pressure in time, while images are spatial distributions of values of luminance or color.
+Images can be described in their RGB (Red Green Blue) or HSB (Hue Saturation Value) components.
+Prior to processing signals by numerical computing devices, they have to be reduced to a sequence of discrete samples, and each sample must be represented using a finite number of bits.
+The first operation is called sampling, and the second operation is called quantisation of the domain of real numbers.
+3.2 Digitisation of Sound In order to gain a deeper understanding of the concept of digitising, we would need to analyse what the term sound actually means: • Sound is a continuous wave that travels through the air • The wave is made up of pressure differences.
+Sound is detected by measuring the pressure level at a location.
+• Sound waves have normal wave properties (reflection, refraction, diffraction, etc.).
+A variety of sound sources: Source Generates Sound • Air Pressure changes • Electrical -- Loud Speaker • Acoustic -- Direct Pressure Variations The destination receives (sensed the sound wave pressure changes) and has to deal with accordingly: Destination Receives Sound • Electrical -- Microphone produces electric signal • Ears -- Responds to pressure hear sound • To input sound into a computer: it needs to sampled or digitised; 33  CIT 642 MULTIMEDIA TECHNOLOGY • Microphones, video cameras produce analog signals (continuous- valued voltages) as illustrated in Fig 1 Fig.
+1.1: Continuous Analog Waveform • To get audio or video into a computer, we have to digitise it (convert it into a stream of numbers) Need to convert Analog- to-Digital -- Specialised hardware • The sampling rate or sample rate is a term that defines the number of samples per second (or per other unit) taken from a continuous signal to make a discrete signal.
+For time-domain signals, it can be measured in samples per second (S/s), or hertz (Hz).
+• Quantisation - divide the vertical axis (signal strength) into pieces.
+Sometimes, a non-linear function is applied.
+o 8 bit quantisation divides the vertical axis into 256 levels.
+16 bit gives you 65536 levels.
+SELF-ASSESSMENT EXERCISE Explain the term ‘sampling rate’ 3.3 Typical Audio Formats The typical audio formats are outlined below: • Popular audio file formats include .au (Unix workstations), .aiff (MAC, SGI), .wav (PC, DEC workstations) • A simple and widely used audio compression method is Adaptive Delta Pulse Code Modulation (ADPCM).
+Based on past samples, it predicts the next sample and encodes the difference between the actual value and the predicted value.
+34  CIT 642 MODULE 3 3.
+4 Colour Representations Colour is the visual perceptual property corresponding in humans to the categories called red, yellow, blue and others.
+Colour derives from the spectrum of distribution of light energy versus wavelength interacting in the eye with the spectral sensitivities of the light receptors.
+Electromagnetic radiation is characterized by its wavelength (or frequency) and its intensity.
+When the wavelength is within the visible spectrum (the range of wavelengths humans can perceive, approximately from 380 nm to 740 nm), it is known as "visible light”.
+Table 1 .1: Colours Colour Wavelength interval Frequency interval Red ~700-635 nm ~430-480THz Orange ~635-590 nm ~480-510THz Yellow ~590-560 nm ~510-540THz Green ~560-490 nm ~540-610THz Blue ~490-450 nm ~610-670THz Violet ~450-400 nm ~670-750THz Colour categories and physical specifications of colour are also associated with objects, materials, light sources, etc., based on their physical properties such as light absorption, reflection, or emission spectra.
+Colour space can be used as a model to identify colours numerically; for example, a colour can be specified by their unique RGB and HSV values.
+4.0 CONCLUSION Prior to processing signals by numerical computing devices, they have to be reduced to a sequence of discrete samples (Sampling), and each sample must be represented using a finite number of bits (quantisation of the domain of real numbers).
+Popular audio file formats include .au (Unix workstations), .aiff (MAC, SGI), .wav (PC, DEC workstations).
+5.0 SUMMARY This unit provided an overview of the theory of digitisation, sources of sound, colour representation, sampling and quantisation.
+We also considered typical audio formats, the main role of the Adaptive Delta Pulse Code Modulation.
+Hope you have found this unit enlightening.
+35  CIT 642 MULTIMEDIA TECHNOLOGY 6.0 TUTOR-MARKED ASSIGNMENT 1.
+Describe the concept of digitisation.
+2.
+Identify three main sources of sound.
+3.
+List the typical audio formats.
+4.
+What is the key role of the Adaptive Delta Pulse Code Modulation?
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia in Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton 36  CIT 642 MODULE 3 Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+37  CIT 642 MULTIMEDIA TECHNOLOGY UNIT 2 GRAPHICS/ IMAGE DATA STRUCTURE CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Pixels 3.2 Graphic Image Data Structure 3.3 Typical Image Samples 3.3.1 Monochrome/Bitmap Images 3.3.2 Grey-Scale Images 3.3.3 8-bit Images 3.3.4 24-bit Images 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION This unit presents the concept of pixels as well as some common graphics and image file formats.
+Some of them are restricted to particular hardware/operating system platforms; others are cross- platform independent formats.
+While not all formats are cross-platform, there are conversion applications that will recognise and translate formats from other systems.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • give a concise definition of pixel • discuss the factor that determines the quality of a monitors’ image • discover typical image samples • identify how pixels are stored in different images.
+3.0 MAIN CONTENT 3.1 Pixel The word pixel is based on a contraction of pix ("pictures") and el (for "element"); thus a ‘pixel’ refers to the smallest addressable screen element; it is the smallest unit of picture that can be controlled.
+Each 38  CIT 642 MODULE 3 pixel has its own address.
+The address of a pixel corresponds to its coordinates.
+Pixels are normally arranged in a two-dimensional grid, and are often represented using dots or squares.
+Each pixel is a sample of an original image; more samples typically provide more accurate representations of the original.
+The intensity of each pixel is variable.
+3.2 Monitor Resolution A digital image consists of many picture elements (pixels).
+The number of pixels that compose a monitors’ image determines the quality of the image (resolution).
+Higher resolution always yields better quality.
+A bit-map representation stores the graphic/image data in the same manner that the computer monitor contents are stored in video memory.
+SELF-ASSESSMENT EXERCISE What factor determines a monitors’ resolution?
+3.3 Typical Image Samples There are a wide range of images.
+However, for the purpose of this course, we will only consider the common images types.
+3.3.1 Monochrome/ Bitmap Images An example of a 1 bit monochrome image is illustrated in Figure 2.1 below where: Fig.2.1: Monochrome Image 39  CIT 642 MULTIMEDIA TECHNOLOGY Sample Monochrome Bit-Map Image • Each pixel is stored as a single bit (0 or 1) • A 640 x 480 monochrome image requires 37.5 KB of storage.
+• Dithering is often used for displaying monochrome images 3.3.2 Gray scale Image A common example of gray scale image is illustrated in Figure 2.2 below: Fig.
+2.2: Example of a Gray scale Bit-map Image • Each pixel is usually stored as a byte (value between 0 to 255) • A 640 x 480 gray scale image requires over 300 KB of storage 3.3.3 8-Bit Colour Images An example of an 8-Bit colour image is illustrated in Figure 2.3 below where: Fig.
+2.3: Example of 8-Bit Colour Image 40  CIT 642 MODULE 3 • One byte for each pixel • Supports 256 out of the millions possible, acceptable colour quality • Requires Colour Look-Up Tables (LUTs) • A 640 x 480 8-bit colour image requires 307.2 KB of storage (the same as 8-bit gray scale) 3.3.4 24-Bit Colour Images Base: 1 An example 24-Bit colour image is illustrated in Figure 2.4 where: Fig.
+2.4: Example of 24-Bit Colour Image • Each pixel is represented by three bytes (e.g., RGB) • Supports 256 x 256 x 256 possible combined colours (16,777,216) • A 640 x 480 24-Bit colour image would require 921.6 KB of storage • Most 24-Bit images are 32-Bit images, the extra byte of data for each pixel is used to store an alpha value representing special effect information 4.0 CONCLUSION To end, a ‘pixel’ refers to the smallest addressable screen element.
+A digital image consists of many picture elements (pixels).
+The number of pixels that compose a monitors’ image determines the quality of the image (resolution).
+Popular image samples include: monochrome/bitmap image, grey-scale image, 8-Bit colour image, 24- Bit colour image etc.
+41  CIT 642 MULTIMEDIA TECHNOLOGY 5.0 SUMMARY This unit provided an overview of the notion of pixels, monitor resolution and typical sample images.
+We hope you found this unit enlightening.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Give a concise definition of pixel 2.
+Discuss the factor that determines the quality of a monitors’ image 3.
+List at least four common image samples 4.
+What is the relevance of dithering in the context bitmap images?
+5.
+How are pixels depicted in 24-Bit colour images?
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill.
+Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley.
+James D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+42  CIT 642 MODULE 3 Kientzle, T. 1997.
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+43  CIT 642 MULTIMEDIA TECHNOLOGY UNIT 3 STANDARD SYSTEM FORMATS CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 System Dependent Formats 3.2 Standard System Independent Formats 3.2.1 GIF 3.2.2 JPEG 3.2.3 TIFF 3.2.4 GraphicAnimationFiles 3.2.5 Postscript/EncapsulatedPostscript 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In the previous unit we examined pixels, the concept of monitor resolution and sample images.
+Here, we will be looking at system dependent and independent formats with a view to discovering their specific applications as well as drawbacks.
+Do make the most of your studies.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • identify popular system dependent formats • state typical usage of the standard system independent formats.
+3.0 MAIN CONTENT 3.1 System Dependent Formats Many graphical/imaging applications create their own file format particular to the systems they are executed upon.
+The following are a few popular system dependent formats.
+• Microsoft Windows: BMP • Macintosh: PAINT and PICT • X-windows: XBM 44  CIT 642 MODULE 3 3.2 System Independent Formats The following brief format descriptions are the most commonly used standard system independent formats: • GIF (GIF87a, GIF89a) • JPEG • TIFF • Graphics Animation Files • Postscript/Encapsulated Postscript 3.2.1 GIF GIF stands for Graphics Interchange Format (GIF) devised by the UNISYS Corp. and CompuServe.
+Originally used for transmitting graphical images over phone lines via modems.
+This format uses the Lempel-Ziv Welch algorithm (a form of Huffman Coding), modified slightly for image scan line packets (line grouping of pixels).
+It is limited to only 8-bit (256) colour images, suitable for images with few distinctive colours (e.g., graphics drawing).
+It equally supports interlacing.
+SELF-ASSESSMENT EXERCISE State one limitation and delimitation of GIF 3.2.2 JPEG • A standard for photographic image compression created by the Joint Photographics Experts Group • Takes advantage of limitations in the human vision system to achieve high rates of compression • Lossy compression which allows user to set the desired level of quality/compression.
+3.2.3 TIFF • Tagged Image File Format (TIFF), stores many different types of images (e.g., monochrome, grayscale, 8-Bit & 24-Bit RGB, etc.)
+-> tagged • Developed by the Aldus Corp. in the 1980's and later supported by the Microsoft 45  CIT 642 MULTIMEDIA TECHNOLOGY • TIFF is a lossless format (when not utilising the new JPEG tag which allows for JPEG compression) • It does not provide any major advantages over JPEG and is not user-controllable.
+• It appears to be declining in popularity 3.2.4 Graphic Animation Files • FLC - main animation or moving picture file format, originally created by Animation Pro • FLI - similar to FLC • GL - better quality moving pictures, usually large file sizes 3.2.5 Postscript/Encapsulated Postscript • This is a typesetting language which includes text as well as vector/structured graphics and bit-mapped images • Used in several popular graphics programs (Illustrator, FreeHand) • Does not provide compression, files are often large 4.0 CONCLUSION In conclusion, graphical/imaging applications create their own file format specific to the systems they are executed upon.
+Classical system dependent formats include; Microsoft Windows: BMP, Macintosh: PAINT and PICT, X-Windows: XBM.
+On the other hand, standard system independent formats include: GIF (GIF87a, GIF89a), JPEG, TIFF, Graphics Animation Files, and Postscript/Encapsulated Postscript.
+5.0 SUMMARY We considered standard system dependent and independent formats.
+To test your knowledge, attempt the exercise the tutor-marked assignment.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Explain the concept of system dependent formats.
+2.
+List at least three popular system dependent formats.
+3.
+Which standard system independent format is best suited for photographic image compression?
+46  CIT 642 MODULE 3 7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+(1st ed.)
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James, D. M. & William, v.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+(1st ed.).
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinmann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+47  CIT 642 MULTIMEDIA TECHNOLOGY UNIT 4 COLOUR IN MULTIMEDIA CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Basics of Colour 3.1.1 Light and Spectra 3.1.2 The Human Retina 3.1.3 Cone and Perception 3.2 Guidelines for Colour Usage 3.3 Benefits and Challenges of using Colour 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit we will be learning about the fundamentals of colour in multimedia.
+We would also bring to light the benefits and challenges of using colour as well as the guidelines for using colour.
+Hope you would be able to grasp the key points.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • give a concise definition of colour • explain the concept of spectrum of light • appreciate the science of colours • describe a visible light • identify the similarity between the eye and a camera • discover the benefits and challenges of using colour • state the guidelines of using colour.
+3.0 MAIN CONTENT 3.1 Basics of Colour Colour is the visual perceptual property corresponding in humans to the categories called red, green, blue and others.
+Colour derives from the spectrum of light (distribution of light energy versus wavelength) interacting in the eye with the spectral sensitivities of the light receptors.
+48  CIT 642 MODULE 3 Colour categories and physical specifications of colour are also associated with objects, materials, light sources, etc., based on their physical properties such as light absorption, reflection, or emission spectra.
+By defining a colour space, colours can be identified numerically by their coordinates.
+Because perception of colour stems from the varying sensitivity of different types of cone cells in the retina to different parts of the spectrum, colours may be defined and quantified by the degree to which they stimulate these cells.
+These physical or physiological quantifications of colour, however, do not fully explain the psychophysical perception of colour appearance.
+The science of colour is sometimes called chromatics.
+It includes the perception of colour by the human eye and brain, the origin of colour in materials, colour theory in art, and the physics of electromagnetic radiation in the visible range (that is, what we commonly refer to simply as light).
+3.1.1 Light and Spectra • Visible light is an electromagnetic wave in the range of 400nm - 700 nm.
+• The light we often see is not a single wavelength; it is a combination of many wavelengths as depicted in the figure below.
+Fig.4.1: Light Wavelengths 3.1.2 The Human Retina • The eye is basically just like a camera • Each neuron is either a rod or a cone.
+Rods are not sensitive to colour.
+49  CIT 642 MULTIMEDIA TECHNOLOGY The functioning of a camera is often compared with the workings of the eye, mostly since both focus light from external objects in the visual field onto a light-sensitive medium.
+In the case of the camera, this medium is film or an electronic sensor; in the case of the eye, it is an array of visual receptors.
+With this simple geometrical similarity, based on the laws of optics, the eye functions as a transducer, as does a CCD camera.
+Fig.
+4.2: Human Visual System 3.1.3 Cones and Perception • Cones come in three types: red, green and blue.
+Each responds differently to various frequencies of light.
+The following figure shows the spectral-response functions of the cones and the luminous-efficiency function of the human eye.
+Fig.
+4.3: Cones and Luminous-efficiency Function of the Human Eye 50  CIT 642 MODULE 3 • The colour signal to the brain comes from the response of the 3 cones to the spectra being observed in the figure above.
+That is, the signal consists of 3 numbers: o Fig.
+4.4: Where E is the light and S are the sensitivity functions • A colour can be specified as the sum of three colours.
+So colours form a three dimensional vector space.
+SELF-ASSESSMENT EXERCISE Give an analogy between the human eye and a camera.
+3.2 Guidelines for Colour Usage The main guidelines for colour are as follows: 1.
+Do not use too many colours.
+Shades of colour, greys, and pastel colours are often the best.
+Colour coding should be limited to no more than five to seven different colours although highly trained users can cope with up to 11 shades.
+2.
+Make sure the interface can be used without colour as many users have colour impairment.
+Colour coding should therefore be combined with other forms of coding such as shape, size or text labels.
+3.
+Try to use colour only to categorise, differentiate and highlight, and not to give information, especially quantitative information.
+51  CIT 642 MULTIMEDIA TECHNOLOGY 3.3 Benefits and Challenges of using Colour Colour is important for effective display and hardware design because it makes the screen layout attractive; may reduce users’ interpretation errors; emphasises logical organisation of the information; and is very efficient at drawing the user's attention to a given part of the screen.
+However, colour is difficult to use correctly.
+The environment affects human colour perception e.g.
+lighting conditions may change the colours seen to less effective ones in display terms.
+Annoying after-images may be produced if a block of saturated colour is on display for a period of time.
+In addition, colour 'blindness' may significantly alter the appearance of a display for those affected by it, e.g.
+approximately 6% of men have difficulty distinguishing between shades of red and green.
+4.0 CONCLUSION In this unit, we discovered that colour derives from the spectrum of light interacting in the eye with the spectral sensitivities of the light receptors.
+We also learnt about chromatics, guidelines for using colour as well as the benefits and challenges of using colour.
+5.0 SUMMARY This unit highlighted the rudiments of colour in multimedia.
+The benefits and challenges of using colour as well as the guidelines for using colour were equally presented.
+We hope you enjoyed the unit.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Give a concise definition of colour.
+2.
+Explain the concept of spectrum of light.
+3.
+Describe the term ‘chromatics.
+4.
+State the guidelines of using colour.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger.
+(1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+52  CIT 642 MODULE 3 Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane (2002).
+Multimedia Communication.
+McGraw Hill Vince, J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James D. M. & William, v.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+(1st ed.).
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer, H. (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinmann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton.
+Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures.” http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+53  CIT 642 MULTIMEDIA TECHNOLOGY MODULE 4 MULTIMEDIA COMPRESSION Unit 1 Rudiments of Multimedia Compression Unit 2 Source Coding Techniques Unit 3 Video and Audio Compression Unit 4 Image Histogram and Processing UNIT1 RUDIMENTS OF MULTIMEDIA COMPRESSION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Overview of Multimedia Compression 3.2 Categories of Multimedia Compression 3.2.1 Lossy Compression 3.2.2 Lossless Compression 3.3 Lossy versus Lossless 3.4 Mathematical and Wavelet Transformation 3.4.1 JPEG Encoding 3.4.2 H.261, H.263, H.264 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Essentially, video and audio files are very large.
+Unless we develop and maintain very high bandwidth networks (Gigabytes per second or more) we have to compress these files.
+However, relying on higher bandwidths is not a good option.
+Thus, compression has become part of the representation or coding scheme.
+In this unit, we will learn about basic compression algorithms and then go on to study some actual coding formats.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • explain transform coding • describe the notion of lossless compression 54  CIT 642 MODULE 4 • identify typical applications of lossy and lossless compression • discuss how images are represented in the different forms of encoding • outline the basic lossy compression schemes.
+3.0 MAIN CONTENT 3.1 Overview of Multimedia Compression Multimedia compression is a broad term that refers to the compression of any type of multimedia (i.e.
+combination of media and content forms), most notably graphics, audio, and video.
+Multimedia actually derives from data sampled by a device such as a camera or a microphone.
+Such data contains large amounts of random noise, thus, traditional lossless compression algorithms tend to do a poor job compressing multimedia.
+Multimedia compression algorithms, traditionally known as codecs, work in a lossy fashion, the entire process is known as transform coding.
+The term Transform coding is a technique for compressing signals such as audio signals (1-D) or images (2-D).
+In transform coding, a frequency transform or other basic transformation is applied before entropy coding.
+The inverse transformation is applied after decoding.
+This has a considerable benefit since it produces coefficients that have a statistically significant distribution which can be modeled and compressed more easily.
+This implies that, after transformation, some coefficients are predictably greater, others smaller.
+Thus, some coefficients can be neglected or quantized (lossy compression) and/or entropy encoded (lossless compression).
+We shall see these categories of compression in the ensuing unit.
+SELF-ASSESSMENT EXERCISE Give a concise description of the term ‘multimedia compression’ 3.2 Categories of Multimedia Compression Multimedia compression can be broadly classified as Lossless and Lossy compression.
+55  CIT 642 MULTIMEDIA TECHNOLOGY 3.2.1 Lossy Compression In information technology, "lossy" compression is a data encoding method which discards some of the data, in order to achieve its goal, with the result that decompressing the data yields content that is different from the original, though similar enough to be useful in some way.
+Lossy compression is most commonly used to compress multimedia data (audio, video, still images), especially in applications such as streaming media and internet telephony.
+Lossy compression formats suffer from generation loss: repeatedly compressing and decompressing the file will cause it to progressively lose quality.
+Information- theoretical foundations for lossy data compression are provided by rate- distortion theory.
+Types of Lossy Compression Schemes There are two basic lossy compression schemes: • In lossy transform codecs, samples of picture or sound are taken, chopped into small segments, transformed into a new basis space, and quantised.
+The resulting quantised values are then entropy coded.
+• In lossy predictive codecs, previous and/or subsequent decoded data is used to predict the current sound sample or image frame.
+The error between the predicted data and the real data, together with any extra information needed to reproduce the prediction, is then quantised and coded.
+In some systems, the two techniques are combined, with transform codecs being used to compress the error signals generated by the predictive stage.
+3.2.2 Lossless Compression Lossless compression is a compression technique that does not lose any data in the compression process.
+This compression "packs data" into a smaller file size by using a kind of internal shorthand to signify redundant data.
+If an original file is 1.5MB, lossless compression can reduce it to about half that size, depending on the type of file being compressed.
+This makes lossless compression convenient for transferring files across the Internet, as smaller files transfer faster.
+Lossless compression is also handy for storing files as they take up less room.
+56  CIT 642 MODULE 4 The zip convention, used in programs like WinZip, uses lossless compression.
+For this reason zip software is popular for compressing program and data files.
+That is because when these files are decompressed, all bytes must be present to ensure their integrity.
+If bytes are missing from a program, it will not run.
+If bytes are missing from a data file, it will be incomplete and garbled.
+GIF image files also use lossless compression.
+Lossless compression has advantages and disadvantages.
+The advantage is that the compressed file will decompress to an exact duplicate of the original file, mirroring its quality.
+The disadvantage is that the compression ratio is not all that high, precisely because no data is lost.
+Typical Lossless Compression File Formats Audio • Waveform audio format (WAV) • Free Lossless Audio Codec (FLAC) • Apple Lossless Audio Codec (ALAC) • ATRAC Advanced Lossless • Audio Lossless Coding • MPEG-4 SLS • Direct Stream Transfer (DST) • DTS-HD Master Audio • Meridian Lossless Packing (MLP) • Monkey’s Audio APE • RealPlayer – RealAudio Lossless • Shorten – SHN,TTA – True Audio Lossless • WMA Lossless Graphics • Adaptive Binary Optimisation (ABO) • JPEG XR • Progressive Graphics File (PGF) • Portable Network Graphics (PNG) • Tagged Image File Format (TIFF) Video • Animation codec • CorePNG, Dirac • FFV1 • JPEG 2000 • Huffyuv 57  CIT 642 MULTIMEDIA TECHNOLOGY • Lagarith • MSU Lossless Video Codec • SheerVideo 3.3 Lossy versus Lossless Lossless and lossy compressions have become part of our every day vocabulary largely due to the popularity of MP3 music files.
+A standard sound file in WAV format, converted to an MP3 file will lose much data as MP3 employs a lossy, high-compression algorithm that tosses much of the data out.
+This makes the resulting file much smaller so that several dozen MP3 files can fit, for example, on a single compact disk, verses a handful of WAV files.
+However the sound quality of the MP3 file will be slightly lower than the original WAV.
+The advantage of lossy methods over lossless methods is that in some cases a lossy method can produce a much smaller compressed file than any lossless method, while still meeting the requirements of the application.
+Lossy methods are most often used for compressing sound, images or videos.
+This is because these types of data are intended for human interpretation where the mind can easily "fill in the blanks" or see past very minor errors or inconsistencies – ideally lossy compression is transparent (imperceptible), which can be verified via an ABX test.
+3.4 Mathematical and Wavelet Transformation Mathematical and wavelet transformation is the process through which images are converted to mathematical functions.
+Discreet Cosine Transformation uses series of cosine functions to approximate image.
+This technique is used with JPEG, MPEG1 and MPEG 2 formats.
+A wavelet function is used to approximate the image.
+This can be used with the JPEG 2000 and MPEG 4 formats.
+3.4.1 JPEG Encoding In this encoding, an image is represented by a two dimensional array of pixels.
+A gray scale picture of 307*200 pixels is represented by 2,457,600 bits and a color picture is represented by 7,372,800 bits.
+Due to the number of calculations to be had in a JPEG format of a gray scale picture, it is divided into blocks of 8*8 pixels.
+The number of the units’ id equal to the number of mathematical equations of each picture.
+The whole idea of JPEG is to change the picture into a linear set of numbers that reveals the redundancies.
+In addition to those techniques, MPEG is also a lossy compression technique.
+It is a way to encode the moving 58  CIT 642 MODULE 4 images and audio included in it.
+It supports many video formats from mobile phone to HD TV.
+3.4.2 H.261, H.263, H.264 H.261 is designed for video telephony and video conferencing applications.
+It was developed in 1988-1990.
+Data rate is a multiplication of a 64 kb/s.
+H.263 is a video coding technique for low bit rate communication.
+In addition, a 30% of bit saving can be done by this technique when it is compared to the MPEG-1.
+H.264 is a joint project of ITU-Ts Video Experts Group and the ISO/IEC MPEG group.
+All those three methods use different methods of reducing redundant data.
+There for the output differs from bit rate, quality and latency.
+4.0 CONCLUSION In this unit, we learnt that Transform coding is a technique for compressing signals such as audio signals (1-D) or images (2-D).
+Multimedia compression can be broadly classified as Lossless and Lossy compression.
+Discreet Cosine Transformation uses series of cosine functions to approximate image.
+This technique is used with JPEG, MPEG1 and MPEG2 formats.
+A wavelet function is used to approximate the image.
+We equally discovered that wavelet transform techniques will be a good implementation technique for the next generation.
+5.0 SUMMARY In this unit, we considered multimedia compression and the categories of multimedia compression (lossy and lossless).
+We equally learnt about the specific applications of these categories of multimedia.
+You may now proceed to the tutor marked assignment below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+What is Transform coding?
+2.
+Describe the notion of lossless compression.
+3.
+Give three applications of lossy compression.
+4.
+Describe JPEG encoding.
+5.
+State two basic lossy compression schemes.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+59  CIT 642 MULTIMEDIA TECHNOLOGY Buford, J.F.K.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger (1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle (1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew, P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill Vince ,J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James D. M. & William, v.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+(1st ed.).
+Berkeley: Osborne/McGraw-Hill.
+Shuman, J. G. (2002).
+Multimedia Elements: Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer ,H., (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. (1997).
+A Programmer's Guide to Sound.
+Addison Wesley.
+Watkinson (2004).
+The Art of Digital Audio.
+Heinemann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne (2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton Tekalp, A.M. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro to Computer Pictures”.http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada.
+James, D. M. & William, V.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates 60  CIT 642 MODULE 4 UNIT 2 SOURCE CODING TECHNIQUES CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Discrete Fourier Transform (DFT) 3.2 The Fast Fourier Transform 3.3 Two-dimensional Discreet Fourier Transform (DFT) 3.4 Properties of the two dimensional Fourier Transform 3.5 The Discrete-time Fourier Transform (DTFT) 3.6 Discrete Cosine Transform (DCT) 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit, you will learn about Fourier transform.
+You would also learn about the common types of transforms and how signals are transformed from one domain to another.
+Do take note of these key points.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • explain the concept of the Discreet Fourier Transform • identify the common types of transforms • describe how signals are transformed from one domain to the other • mention the different classes of signals • discuss the common applications of Fourier transforms in multimedia processing.
+3.0 MAIN CONTENT 3.1 Discrete Fourier Transform The Discrete Fourier Transform (DFT) is a specific form of Fourier analysis for converting one function (often in the time or spatial domain) into another (frequency domain).
+DFT is widely employed in signal processing and related fields to analyse frequencies contained in a sample signal, to solve partial differential equations, and to perform 61  CIT 642 MULTIMEDIA TECHNOLOGY other operations such as convolutions.
+Fast Fourier Transform (FFT) is an efficient implementation of DFT and is used, apart from other fields, in digital image processing.
+Fast Fourier Transform is applied to convert an image from the image (spatial) domain to the frequency domain.
+Applying filters to images in frequency domain is computationally faster than to do the same in the image domain.
+Mathematically, Suppose f = [ f f f ..., f ] 0, 1, 2 , N −1 is a sequence of length N. Then the discrete Fourier transform can be defined as: f = [ F F F ..., F ] 3.1 0 , 1, 2 , N −1 Where Fu = 1 ∑N −1 exp(cid:31)− xu (cid:31)f (cid:31) N (cid:31) x N x=0 2πi 3.2 The formula for the inverse DFT is very similar to the forward transform: N −1 (cid:31) xu (cid:31) xu = ∑x =0 exp(cid:31)(cid:31)2 πi N (cid:31)(cid:31) fu 3.3 When you try to compare equations 3.2 and 3.3., you will notice that there are really only two differences: 1 there is no scaling factor 1/N 2 the sign inside the exponential function is now positive instead of negative 3.2 The Fast Fourier Transform One of the many aspects which make the DFT so attractive for image processing is the existence of very fast algorithm to compute it.
+There are a number of extremely fast and efficient algorithms for computing a DFT; any of such algorithms is called a fast Fourier transform, or FFT.
+When an FFT is used, it reduces vastly the time needed to compute a DFT.
+A particular FFT approach works recursively by separating the original vector into two halves as represented in equation 3.4 and 3.5, computing the FFT of each half, and then putting the result together.
+This means that the FFT is most different when the vector length is a power of 2.
+62  CIT 642 MODULE 4 M −1 (cid:31) xu (cid:31) F (u) = ∑ f ( x) exp − 2πi 3.4 (cid:31) (cid:31) (cid:31) M (cid:31) x=0 1 M −1 (cid:31) xu (cid:31) f ( x) = ∑ F (u ) exp 2π 3.5 (cid:31) (cid:31) M M v= 0 (cid:31) (cid:31) Table 3.1 is used to depict the benefits of using the FFT algorithm as opposed to the direct arithmetic definition of equation 3.4 and 3.5 by comparing the number of multiplication required for each method.
+For a vector of length 2 n , the direct method takes (2 n ) 2 = 2 2 n multiplications; while the FFT takes only n2 n .
+Here the saving with respect to time is of an order of 2 n /n.
+Obviously, it becomes more attractive to use FFT algorithm as the size of the vector increases.
+Because of this computational advantage, it is advisable for any implementation of the DFT to use an FFT algorithm.
+Table 2.1: Comparison of FFT and direct arithmetic 2 n Direct FFT Increasein Arithmetic speed 4 16 8 2.0 8 84 24 2.67 16 256 64 4.0 32 1024 160 6.4 64 4096 384 10.67 128 16384 896 18.3 256 65536 2048 32.0 512 262144 2406 56.9 1024 1048576 10240 102.4 3.3 Two-dimensional Discrete Fourier Transform (DFT) In two dimensions, the DFT takes a matrix as input, and returns another matrix, of the same size as output.
+If the original matrix values are f(x,y), where x and y are the indices, then the output matrix values are F(u,v).
+We call the matrix F the Fourier transform f and write F =F (f ).
+63  CIT 642 MULTIMEDIA TECHNOLOGY Then the original matrix f is the inverse Fourier transform of F, and we write f = F −1 (F) We have seen that a (one-dimensional) function can be written as a sum of sines and cosines.
+Given that an image may be considered as a two dimensional function, it seems reasonable to assume that F can be expressed as sums of “corrugations” functions which have the general form z = a sin (bx+cy) Fig.2.1: Corrugate Function A sample of such function is depicted in Figure 2.1.
+And this is in fact exactly what the two dimensional Fourier transforms does: it rewrites the original matrix in terms of sums of corrugation.
+The definition of the two-dimensional discrete Fourier transform is very similar to that for one dimension.
+The forward and inverse transforms for an M x N matrix where for notational convenience we assume that the x indices are from 0 to M-1 and the y indices are from 0 to N-1 are: M −1 N −1 (cid:31) (cid:31) yv (cid:31)(cid:31) xu F (u,v) = ∑ ∑ f ( x, y) exp (cid:31)− + (cid:31)(cid:31) 2πi(cid:31) x= 0 y =0 (cid:31) (cid:31) M N 3.6 (cid:31)(cid:31) 1 M −1 N −1 (cid:31) (cid:31) xu y(cid:31)v (cid:31) F(x,y)= ∑ ∑ F (u, v) exp(cid:31)− 2πi(cid:31) + (cid:31) (cid:31) MN x=0 y =0 (cid:31) (cid:31) N 3.7 M (cid:31)(cid:31) You may need to revise your mathematics to fully comprehend the formulas.
+However, they are not as difficult as they look.
+64  CIT 642 MODULE 4 SELF-ASSESSMENT EXERCISE What is the factor that makes the DFT so attractive for image processing?
+3.4 Properties of Two-Dimensional Fourier Transform All the properties of the one-dimensional DFT transfer into two dimensions.
+We shall briefly consider some which are of particular use for image processing.
+Similarity- A close study of the formulae for the forward and inverse transforms reveals some similarity except for the scale factor 1/M N in the inverse transform and the negative sign in the exponent of the forward transform.
+This means that the same algorithm, only very slightly adjusted, can be used for both the forward and inverse transform.
+The DFT can thus be used as a spatial Filter Linearity - An important property of the DFT is its linearity; the DFT of a sum is equal to the sum of the individual DFT's, and the same goes for scalar multiplication: Thus F (f+g) = F(f) + F (g) F (kf) = k F(f) Where k 0 is a scalar product and f and g are matrices.
+This follows directly from the definition given in equation 3.6 This property is of great use in dealing with image degradation such as noise which can be modeled as a sum: d=f + n where f is the original image, n is the noise, and d is the degraded image.
+Since F (d) = F(f) + F (n) We may be able to remove or reduce n by modifying the transform.
+And we shall see some noise appear on the DFT in a way which makes it particularly easy to remove 65  CIT 642 MULTIMEDIA TECHNOLOGY 3.5 The Discrete-time Fourier Transform (DTFT) The Discrete-time Fourier transform (DTFT) is one of the specific forms of Fourier analysis.
+As such, it transforms one function into another, which is called the frequency domain representation, or simply the "DTFT", of the original function (which is often a function in the time-domain).
+But the DTFT requires an input function that is discrete.
+Such inputs are often created by sampling a continuous function, like a person's voice.
+The DTFT frequency-domain representation is always a periodic function.
+Since one period of the function contains all of the unique information, it is sometimes convenient to say that the DTFT is a transform to a "finite" frequency-domain (the length of one period), rather than to the entire real line.
+Given a discrete set of real or complex numbers: x[n], n∈ Ζ (integer), the discrete-time Fourier transform (DTFT) is written as: ∞ X ( ω ) = ∑ x [ n ]e − i ω n n = −∞ The following inverse transforms recovers the discrete-time sequence π 1 x[n ] = ∫ X (ω ).e iωn dω 2π −π 1 2 T =T ∫ X ( f ).
+e i 2 π fnT df T 1 − 2 T Since the DTFT involves infinite summations and integrals, it cannot be calculated with a digital computer.
+Its main use is in theoretical problems as an alternative to the DFT.
+For instance, suppose you want to find the frequency response of a system from its impulse response.
+If the impulse response is known as an array of numbers, such as might be obtained from an experimental measurement or computer simulation, a DFT program is run on a computer.
+This provides the frequency spectrum as another array of numbers, equally spaced between, for example, 0 and 0.6 of the sampling rate.
+In other cases, the impulse response might be given as an equation, such as a sine function or an exponentially decaying sinusoid.
+The DTFT is used here to mathematically calculate the frequency domain as another equation, specifying the entire continuous curve between 0 and 0.6.
+While the 66  CIT 642 MODULE 4 DFT could also be used for this calculation, it would only provide an equation for samples of the frequency response, not the entire curve.
+3.6 Discrete Cosine Transform (DCT) A discrete cosine transform (DCT) expresses a sequence of finitely many data points in terms of a sum of cosine functions oscillating at different frequencies.
+In particular, a DCT is a Fourier-related transform similar to the discrete Fourier transform (DFT), but using only real numbers.
+DCTs are equivalent to DFTs of roughly twice the length, operating on real data with even symmetry (since the Fourier transform of a real and even function is real and even), where in some variants the input and/or output data are shifted by half a sample.
+The cosine transform, like Fourier Transform, uses sinusoidal basis functions.
+The difference is that the cosine transform basis functions are not complex; they use only cosine functions, and not sine functions.
+The two- dimensional discrete cosine transform (DCT) equation for an N x N image for an example is as given by: N −1 N −1 (cid:31) (2m + 1)uπ (cid:31) (2n + 1)vπ (cid:31) F (u, v) = C (u)C (v) ∑ ∑ f [m.n] cos(cid:31)(cid:31) (cid:31) cos(cid:31) (cid:31) (cid:31) 2 N (cid:31) (cid:31) 2 N (cid:31) m =0 n = 0 for 0 ≤ u, v < N (cid:31) 1 / N foru = 0 with C(u)= (cid:31) 2 / N foru ≠ 0 (cid:31) We can interpret this as the projection of f [m,n] onto basis functions of the form: (cid:31) (2m + 1)uπ (cid:31) (2n + 1)vπ (cid:31) e [m, n] = C (u, v) co s(cid:31)(cid:31) (cid:31)cos(cid:31) (cid:31) u ,v (cid:31) 2 N (cid:31) (cid:31) 2 N (cid:31) Since this transform uses only the cosine function it can be calculated using only real arithmetic, instead of complex arithmetic as the DFT requires.
+The cosine transform can be derived from the Fourier transform by assuming that the function (the image) is mirrored about the origin, thus making it an even function.
+Thus, it is symmetric about the origin.
+This has the effect of canceling the odd terms, which correspond to the sine term (imaginary term) in Fourier transform.
+This also affects the implied symmetry of the transform, where we now have a function that is implied to be 2N x 2N.
+67  CIT 642 MULTIMEDIA TECHNOLOGY Some sample basis functions are shown in Figure 2.2, for a value of N=8.
+Based on the preceding discussions, we can represent an image as a superposition of weighted basis functions (using the inverse DCT): N −1 N −1 (cid:31) (2m + 1)uπ (cid:31) (2n + 1)vπ (cid:31) f [m, n] = ∑ ∑ C (u )C (v) F[u, v] cos(cid:31) (cid:31) (cid:31) cos(cid:31) (cid:31) (cid:31) 2 N (cid:31) (cid:31) 2 N (cid:31) u = 0 v=0 for 0 ≤ m, n < N (cid:31) 1 / N foru = 0 with C(u)= (cid:31) 2 / N foru ≠ 0 (cid:31) Fig.
+2.2: Sample basis functions for an 8x8 block of pixels The above four have been chosen out of a possible set of 64 basis functions.
+This goes to show that DCT coefficients are similar to Fourier series coefficients in that they provide a mechanism for reconstructing the target function from the given set of basic functions.
+In itself, this is not particularly useful, since there are as many DCT coefficients as there were pixels in the original block.
+However, it turns out that most real images (natural images) have most of their energy concentrated in the lowest DCT coefficients.
+This is explained graphically in Figure 2.3 where we show a 32 x 32 pixel version of the test image, and its DCT coefficients.
+It can be shown that most of the energy is around the (0,0) point in the DCT coefficient plot.
+This is the motivation for compression 68  CIT 642 MODULE 4 – since the components for high values of u and v are small compared to the others, why not drop them, and simply transmit a subset of DCT coefficients, and reconstruct the image based on these.
+This is further illustrated in Figure 2.4, where we give the reconstructed 32 x 32 image using a small 10x10 subset of DCT coefficients.
+As you can see there is little difference between the overall picture of Figure 2.2 (a) and Figure 2.4 , so little information has been lost.
+However, instead of transmitting 32x32=1024 pixels, we only transmitted 10x10 =100 coefficients, which is a compression ratio of 10.24 to 1.
+Fig.
+2.3: (a) 32 x 32 pixel version of our standard test image.
+(b) The DCT of this image.
+Fig.
+2.4: 32 x 32 pixel image reconstructed from 10x10 subset of DCT coefficients.
+Overall information has been retained, but some detail has been lost.
+An optimal transform for compression would maximise the “energy- compressing” feature of the transform; that is the transform of the image would have most of its energy in the fewest number of coefficients.
+The DCT is not the optimal transform from this perspective; it can be shown mathematically that a Karhunen-Loeve transform will provide the best basis for compression.
+However, this optimal basis is image-dependent 69  CIT 642 MULTIMEDIA TECHNOLOGY and computationally intensive to find, so it is not commonly used in image compression systems.
+DCTs are important to numerous applications in science and engineering, from lossy compression of audio and images (where small high-frequency components can be discarded), to spectral methods for the numerical solution of partial differential equations.
+The use of cosine rather than sine functions is critical in these applications: for compression, it turns out that cosine functions are much more efficient whereas for differential equations the cosines express a particular choice of boundary conditions.
+The DCT is the basis of many widespread image-coding standards: specifically, JPEG, MPEG, and H.26X which are respectively still image, video-playback, and video telephony standards.
+4.0 CONCLUSION To wrap up, we discovered that ‘Fourier Transform’ is of fundamental importance to image processing.
+It allows us to perform tasks which would be impossible to perform any other way; its efficiency allows us to perform most compression tasks more quickly.
+The Fourier Transform is a very useful mathematical tool for multimedia processing.
+The Fourier Transform and the inverse Fourier transforms are the mathematical tools that can be used to switch from one domain to the other.
+5.0 SUMMARY In this unit, we covered the definition of Fourier transforms, types of Fourier Transform and its application in digital image processing.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+What is the significance of Fourier transform?
+2.
+State the link between Fourier series coefficient and discreet cosine transform coefficient.
+3.
+Give a concise description of the discrete time Fourier transform.
+4.
+List three common image-coding standards.
+5.
+Explain two properties of the two dimensional Fourier transform.
+7.0 REFERENCES / FURTHER READING McAndrew (2004).
+An Introduction to Digital Image Processing with Matlab.
+School of Computer Science and Mathematics, Victoria University of Technology.
+70  CIT 642 MODULE 4 Lim, J. S. (1990).
+Two-Dimensional Signal and Image Processing.
+Prentice Hall.
+William, K. P. (1991).
+Digital Image Processing.
+(2nd ed.).
+John Wiley and Sons.
+Gibson , J. D.
+(Ed.)
+.(2001).
+Multimedia Communications: Directions and Innovations.
+San-Diego, USA: Academic Press.
+Schuler, M. C. (2005).
+Digital Signal Processing: A Hands-on Approach.
+USA: McGraw Hills.
+71  CIT 642 MULTIMEDIA TECHNOLOGY UNIT 3 VIDEO AND AUDIO COMPRESSION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Principle of Video Compression 3.2 Application of Video Compression 3.3 Audio Compression 3.3.1 Simple Audio Compression 3.3.2 Psychoacoustics 3.4 Human Hearing and Voice 3.5 Streaming Audio (and video) 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION In this unit, you have a chance to learn another aspect of Multimedia Technology.
+We will study about video compression.
+We will equally learn about different audio compressions.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • explain the principle of video compression • describe the JPEG algorithm approach • examine the application of video compression • appreciate the sensitivity of human hearing • discuss the notion of psychoacoustics.
+3.0 MAIN CONTENT 3.1 Principle of Video Compression The principle of still image compression is very similar to that of video compression.
+Video is simply sequence of digitised picture.
+Video can also be referred to as moving picture.
+The terms “frame” and “pictures” are used interchangeably in relation to video.
+However, we shall use the term frame in relation to videos except where particular standard uses the term picture.
+72  CIT 642 MODULE 4 In principle, one way to compress video source is to apply any of the common algorithms such as JPEG algorithm independently to each frame that makes up a video.
+This approach is also known as moving JPEG or MPEG.
+For now typical compression ratios of about 29:1 obtained with JPEG are not large enough to produce the compression ratio needed for multimedia applications.
+In practice, in addition to the spatial redundancy present in each frame considerable redundancy is often present between a set of frame since, in general, only a small portion of each frame is involved with any motion that is generally, only a small portion of each frame is involved with any motion that is taking place.
+For an example, consider the movement of a person’s lip or eye in a video telephony application.
+3.2 Application of Video Compression Haven studied the theory of encoding now let us see how this is applied in practice.
+Video (and audio) need to be compressed in practice for the following reasons: 1.
+Uncompressed video (and audio) data are huge.
+In HDTV, the bit rate easily exceeds 1 Gbps.
+-- big problems for storage and network communications.
+For example: One of the formats defined for HDTV broadcasting within the United States is 1920 pixels horizontally by 1080 lines vertically, at 30 frames per second.
+If these numbers are all multiplied together, along with 8 bits for each of the three primary colors, the total data rate required would be approximately 1.5 Gb/sec.
+Because of the 6 MHz.
+channel bandwidth allocated, each channel will only support a data rate of 19.2 Mb/sec, which is further reduced to 18 Mb/sec by the fact that the channel must also support audio, transport, and ancillary data information.
+As can be seen, this restriction in data rate means that the original signal must be compressed by a figure of approximately 83:1.
+This number seems all the more impressive when it is realised that the intent is to deliver very high quality video to the end user, with as few visible artifacts as possible.
+2.
+Lossy methods have to be employed since the compression ratio of lossless methods (e.g., Huffman, Arithmetic, LZW) is not high enough for image and video compression, especially when distribution of pixel values is relatively flat.
+The following compression types are commonly used in video compression: 73  CIT 642 MULTIMEDIA TECHNOLOGY • Spatial Redundancy Removal - Intraframe coding (JPEG) • Spatial and Temporal Redundancy Removal - Intraframe and Interframe coding (H.261, MPEG) SELF-ASSESSMENT EXERCISE Which compression method is preferable in the image and video compression context?
+3.3 Audio Compression As with video a number of compression techniques have been applied to audio.
+We shall consider the common ones in the subsequent units.
+3.3.1 Simple Audio Compression The following are some of the Lossy methods applied to audio compression: • Silence Compression - detect the "silence", similar to run-length coding • Adaptive Differential Pulse Code Modulation (ADPCM) e.g., in CCITT G.721 - 16 or 32 Kbits/sec • Encodes the difference between two consecutive signals • Adapts at quantisation so fewer bits are used when the value is smaller.
+o It is necessary to predict where the waveform is headed -> difficult o Apple has proprietary scheme called ACE/MACE.
+Lossy scheme that tries to predict where wave will go in next sample.
+About 2:1 compression.
+• Linear Predictive Coding (LPC) fits signal to speech model and then transmits parameters of model.
+Sounds like a computer talking, 2.4 kbits/sec • Code Excited Linear Predictor (CELP) does LPC, but also transmits error term - audio conferencing quality at 4.8 kbits/sec.
+3.3.2 Psychoacoustics These methods are related to how humans actually hear sounds 74  CIT 642 MODULE 4 3.4 Human Hearing and Voice These methods are related to how humans actually hear sounds.
+• Range is about 20 Hz to 20 kHz, most sensitive at 2 to 4 KHz.
+• Dynamic range (quietest to loudest) is about 96 dB • Normal voice range is about 500 Hz to 2 kHz o Low frequencies are vowels and bass o High frequencies are consonants Question: How sensitive is human hearing?
+• Experiment: Put a person in a quiet room.
+Raise level of 1 kHz tone until just barely audible.
+Vary the frequency and plot In sum, • If we have a loud tone at, say, 1 kHz, then nearby quieter tones are masked • Best compared on critical band scale - range of masking is about 1 critical band • Two factors for masking - frequency masking and temporal masking 3.5 Streaming Audio (and Video) This is the popular delivery medium for the Web and other Multimedia networks Examples of streamed audio (and video) (and video) • Real Audio • Shockwave • WAV files (not video obviously) If you hYou could try the file was originally recorded at CD Quality (44 Khz, 16-bit Stereo) and is nearly minutes in length.
+75  CIT 642 MULTIMEDIA TECHNOLOGY • The original uncompressed file is about 80 Mb.
+• The compressed file (at 33.3) is only 1.7 Mb in total and is still of very good quality.
+• The file is downloaded to browser and not steamed above.
+Whilst real audio players and encoders are freely available (see {\em http://www.realaudio.com/}).
+Real audio servers {\bf cost money}.
+• Buffered Data: • Trick get data to destination before it is needed • Temporarily store in memory (buffer) • Server keeps feeding the buffer • Client application reads buffer • Needs reliableconnection, moderately fast too.
+• Specialised client, Steaming Audio Protocol (PNM for real audio).
+4.0 CONCLUSION In conclusion, video is simply sequence of digitised picture, they can be compressed.
+One way to compress video source is to apply any of the common algorithms such as JPEG algorithm independently to each frame that makes up a video.
+Normal voice range is about 500 Hz to 2 kHz.
+Low frequencies are vowels and bass, while high frequencies are consonants.
+5.0 SUMMARY In sum, we learnt about the principle of video compression.
+We equally discovered the common types of audio compression as well as the phenomenon of human hearing and voice.
+Some examples of streamed audio (and video) are; real audio, shockwave, .WAV files.
+Hope you grasped these key points?
+You can now attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+List the common compression techniques used in audio.
+2.
+Give two common examples of streamed audio.
+3.
+State the lossy method applied to audio compression.
+7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K,.
+(1994).
+Multimedia Systems.
+ACM Press.
+76  CIT 642 MODULE 4 Fluckiger.
+(1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle.
+(1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew ,P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+(1st ed.)
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill Vince ,J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James D. M. & William, v.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+(1st ed.).
+Berkeley: Osborne/McGraw-Hill.
+Shuman ,J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer ,H., (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. 1997.
+A Programmer's Guide to Sound.
+Addison Wesley, Watkinson, (2004).
+The Art of Digital Audio.
+Heinmann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne.
+(2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton Tekalp, A.M.. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+“Intro.
+to Computer Pictures”.http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada James, D. M. & William, v.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates 77  CIT 642 MULTIMEDIA TECHNOLOGY UNIT 4 IMAGE HISTOGRAM AND PROCESSING CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 3.1 Histogram of an Image 3.2 Image Analysis 3.3 Image Enhancement Operators 3.4 Image Restoration 3.4.1 Noise 3.4.2 Noise Reduction 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Reading 1.0 INTRODUCTION Image processing is a very important aspect of digital signal processing (DSP).
+In this unit, we shall explore the application of DSP techniques in the enhancement of images, by applying histogram analysis.
+We shall equally consider image restoration which is a main relevance of image processing.
+2.0 OBJECTIVES At the end of this unit, you should be able to: • describe the concept of the histogram of an image • give an overview of image analysis • identify a bi-modal image • state two main image enhancement operators • explain the notion of image restoration • define the term ‘noise’.
+3.0 MAIN CONTENT 3.1 Histogram of an Image In an image processing context, the histogram of an image normally refers to a histogram of the pixel intensity values.
+This histogram is a graph showing the number of pixels in an image at each different intensity value found in that image.
+For an 8-bit gray scale image there are 256 different possible intensities, and so the histogram will 78  CIT 642 MODULE 4 graphically display 256 numbers showing the distribution of pixels amongst those gray scale values.
+Histograms can also be taken of colour images --- either individual histogram of red, green and blue channels can be taken, or a 3-D histogram can be produced, with the three axes representing the red, blue and green channels, and brightness at each point representing the pixel count.
+The exact output from the operation depends upon the implementation --- it may simply be a picture of the required histogram in a suitable image format, or it may be a data file of some sort representing the histogram statistics.
+SELF-ASSESSMENT EXERCISE Describe the histogram of an image 3.2 Image Analysis The process of image analysis is very simple.
+The image is scanned in a single pass and a running count of the number of pixels found at each intensity value is recorded.
+This is then used to construct a suitable histogram.
+Histograms have many applications.
+One of the more common is to decide what value of threshold to employ when converting a gray scale image to a binary one through thresholding.
+If the image is suitable for thresholding then the histogram will be bi-modal, i.e.
+the pixel intensities will be clustered around two well-separated values.
+A suitable threshold for separating these two groups will be found somewhere in between the two peaks in the histogram.
+If the distribution is not like this then it is unlikely that a good segmentation can be produced by thresholding.
+The intensity histogram for the input is is 79  CIT 642 MULTIMEDIA TECHNOLOGY The object being viewed is dark in color and it is placed on a light background, and so the histogram exhibits a good bi-modal distribution.
+One peak represents the object pixels, one represents the background.
+The histogram is the same, but with the y-axis expanded to show more detail.
+It is clear that a threshold value of around 120 should segment the picture nicely, as can be seen in The histogram of image is This time there is a significant incident illumination gradient across the image, and this blurs out the histogram.
+The bi-modal distribution has been destroyed and it is no longer possible to select a single global threshold that will neatly segment the object from its background.
+Two failed thresholding segmentations are shown in and using thresholds of 80 and 120, respectively.
+It is often helpful to be able to adjust the scale on the y-axis of the histogram manually.
+If the scaling is simply done automatically, then 80  CIT 642 MODULE 4 very large peaks may force a scale that makes smaller features indiscernible.
+3.3 Image Enhancement Operators The histogram is used and altered by many image enhancement operators.
+Two operators which are closely connected to the histogram are contrast stretching and histogram equalisation.
+They are based on the assumption that an image has to use the full intensity range to display the maximum contrast.
+Contrast stretching takes an image in which the intensity values don't span the full intensity range and stretches its values linearly.
+This can be illustrated with Its histogram shows that most of the pixels have rather high intensity values.
+Contrast stretching the image yields which has a clearly improved contrast.
+The corresponding histogram is If we expand the y-axis, as was done in we can see that now the pixel values are distributed over the entire intensity range.
+Due to the discrete character of the pixel values, we can't increase the number of distinct intensity values.
+That is the reason why the stretched histogram shows the gaps between the single values.
+The image also has low contrast.
+However, if we look at its histogram, we see that the entire intensity range is used and we therefore cannot apply contrast stretching.
+On the other hand, the histogram also shows that most of the pixels values are clustered in a rather small area, whereas the top half of the intensity values is used by only a few pixels.
+81  CIT 642 MULTIMEDIA TECHNOLOGY The idea of histogram equalisation is that the pixels should be distributed evenly over the whole intensity range, i.e.
+the aim is to transform the image so that the output image has a flat histogram.
+The image results from the histogram equalisation and is the corresponding histogram.
+Due to the discrete character of the intensity values, the histogram is not entirely flat.
+However, the values are much more evenly distributed than in the original histogram and the contrast in the image was essentially increased.
+3.4 Image Restoration Image restoration focuses on the removal or reduction of degradations which happened during the acquisition of an image data.
+The degradations may include noise, which are errors in the pixel values, or optical effects such as out of focus blurring, or blurring due to camera motion.
+While neighbourhood operations can be used as a dependable technique for image restoration, other techniques require the use of frequency domain processes.
+3.4.1 Noise In image digital signal processing systems, the term noise refers to the degradation in the image signal, caused by external disturbance.
+If an image is being sent electronically from one place to another, via satellite or through networked cable or other forms of channels we may observe some errors at destination points.
+These errors will appear on the image output in different ways depending on the type of disturbance or distortions in the image acquisition and transmission processed.
+This gives a clue to what type of errors to expect, and hence the type of noise on the image; hence we can choose the most appropriate method for reducing the effects.
+Cleaning an image corrupted by noise is thus an important aspect of image restoration.
+Some of the standard noise forms include: • Salt and Pepper Noise • Gaussain Noise 82  CIT 642 MODULE 4 And provide some details on the different approaches to eliminating or reducing their effects on the image.
+3.4.2 Noise Reduction Now that we have identified the sources of noise in digital signals and some types of noise, we shall describe some of the techniques of reducing or eliminating noise in the image processing.
+On a general note filters can be used to remove or eliminate noise in an image.
+The energy of a typical image is primarily in the low frequency region; therefore, a (two-dimensional) low-pass filtering will be good enough in removing a substantial amount of uniform random noise though not without removing some details of the image.
+On the other hand, the edges that exist in an image usually produce high frequency components.
+If these components are removed or reduced in energy, the edges will become fuzzier.
+Median filter is ideal in removing impulse noise while preserving the edges.
+They are non-linear filters however, and therefore the process cannot be reversed.
+In median filtering, a window or mask slides along the image.
+This window defines a local area around the pixel being processed.
+The median intensity value of the pixel within that window becomes the new intensity value of the pixel being processed.
+4.0 CONCLUSION To wrap up, recall the following: In an image processing context, the histogram of an image normally refers to a histogram of the pixel intensity values.
+Two operators which are closely connected to the histogram are contrast stretching and histogram equalisation.
+Image restoration focuses on the removal or reduction of degradations which happened during the acquisition of an image data.
+Remember that with more practise, you will acquire skills for advanced Multimedia Technology.
+All the best!
+5.0 SUMMARY In this unit we discovered that image processing is a very important aspect of digital signal processing (DSP).
+We also explored the application of DSP techniques in the enhancement of images, by applying histogram analysis as well as image restoration.
+Let us now attempt the questions below.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Give an overview of image analysis.
+83  CIT 642 MULTIMEDIA TECHNOLOGY 2.
+When is an image said to be bi-modal?
+3.
+State two main image enhancement operators.
+4.
+Define the term ‘noise.’ 7.0 REFERENCES/FURTHER READING Lowe, W. & Hall, J.
+(1999).
+Hypermedia and the Web: An Engineering Approach.
+Buford, J.F.K,.
+(1994).
+Multimedia Systems.
+ACM Press.
+Fluckiger.
+(1994).
+Understanding Networked Multimedia.
+Prentice Hall.
+Boyle.
+(1998).
+Design for Multimedia Learning.
+Prentice Hall.
+Agnew ,P.W.
+& Kellerman, A.S. (1996).
+Distributed Multimedia: Technologies, Applications, and Opportunities in the Digital Information Industry.
+(1st ed.)
+Addison Wesley.
+Sloane, (2002).
+Multimedia Communication.
+McGraw Hill Vince ,J.
+(1995).
+Virtual Reality Systems.
+Addison Wesley James D. M. & William, v.R (1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates.
+Vaughan, T. (1993).
+Multimedia: Making It Work.
+(1st ed.).
+Berkeley: Osborne/McGraw-Hill.
+Shuman ,J. G. (2002).
+Multimedia Elements:Multimedia In Action.
+Vikas Publishing House Pvt Ltd. Maurer ,H., (1996).
+Hyperwave: The Next Generation Web Solution.
+Addison Wesley.
+Kientzle, T. 1997.
+A Programmer's Guide to Sound.
+Addison Wesley, Watkinson, (2004).
+The Art of Digital Audio.
+Heinmann.
+Synthesizer Basics, GPI Publications.
+Brook & Wynne.
+(2001).
+Signal Processing: Principles and Applications.
+Hodder and Stoughton Tekalp, A.M.. (1995).
+Digital Video Processing.
+Prentice Hall PTR.
+84  CIT 642 MODULE 4 “Intro.
+to Computer Pictures”.http://ac.dal.ca:80/ dong/image.htm from Allison Zhang at the School of Library and Information Studies, Dalhousie University, Halifax, N.S., Canada James, D. M. & William, v.R.
+(1996).
+Encyclopedia of Graphics File Formats.
+(2nd ed.).
+O'Reilly & Associates 85

@@ -1,0 +1,2766 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: MTH 402 COURSE TITLE: GENERAL TOPOLOGY II  UNIT 1: TOPOLOGICAL SPACES Contents 1 Introduction 1 2 Objectives 2 3 Basic Concepts 2 3.1 Definitions and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.2 Basis for Topology .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.2.1 The Metric Topology .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.2.2 Product Topology .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 3.2.3 The Subspace Topology .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+9 3.3 Closed Sets and Limit Points .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 3.3.1 Closed Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 3.3.2 Closure and Interior of a Set .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 3.3.3 Limit Points .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 4 Conclusion 13 5 Summary 13 6 Tutor Marked Assignments (TMAS) 15 1 INTRODUCTION In your study of metric spaces, you defined a number of key ideas like, limit point, closure of a set, etc.
+In each case, the definition rests on the notion of a neighbourhood, or, what amounts to the same thing, the notion of an open set.
+You in turn defined the notions (neighborhood and open set) by using the metric (or distance) in the given space.
+However, instead of introducing a metric in a given set X, you can go about things differently, by specifying a system of open sets in X with suitable properties.
+This approach leads to the introduction of the notion of 1 2 Objectives TOPOLOGICAL SPACES a topological space.
+Metric spaces are topological spaces of a rather special (although very important) kind.
+2 Objectives.
+At the end of this unit, you shall be: (i) able to define a topological space.
+(ii) conversant with some important topological notions.
+3 Basic Concepts.
+3.1 Definitions and Examples Definition 3.1 Let X be a set.
+A topology on X is a collection τ of subsets of X, satisfying the following properties: 1.
+The set X itself and the empty set (cid:3544) are in τ ; [ 2.
+Arbitrary unions U of elements of τ are in τ. i i \n 3.
+Finite intersections U of elements of τ are in τ. k k=1 Definition 3.2 By a topological space is meant a pair (X, τ ), consisting of a set X and a topology τ defined on X.
+Just as a metric space is a pair consisting of a set X and a metric defined on X, so a topo- logical space is a pair consisting of a set X and a topology defined on X.
+Thus to specify a topological space, you must specify both a set X and a topology on X.
+You can equip one and the same set with various different topologies, thereby defining various different topolog- ical spaces.
+In the sequel, you shall omit τ and call only X a topological space provided no confusion arise.
+Definition 3.3 The elements of the topology τ on X are called open sets.
+Example 3.1 (Sierpinski topology) Let X = {a, b.c} you can define many topologies on X.
+For example, you can define τ = {(cid:3544) , X, {b}, {a, b}, {b, s c}}.
+Then τ is a topology on X called the sierpinski topology.
+s  2 3.1 Definitions and Examples TOPOLOGICAL SPACES Example 3.2 (The Discrete topology).
+If X is a set, take τ to be the P (X ), the power set of d X. τ is clearly a topology on X, it is called the discrete topology.
+In the discrete topology, all d subsets of X are open.
+It is the largest topology on X Example 3.3 (The Indiscrete topology).
+Let X be a set, and let τ = {(cid:3544) , X }.
+Then τ is t t clearly a topology on X called the indiscrete or trivial topology.
+It is the smallest topology on X and (X, τ ) is called the topological space of coalesced points.
+This is mainly of academic t interest.
+Example 3.4 (Finite complement topology).
+Let X be a set, and let τ be the collection of all f subsets U of X such that X r U is either finite or X, i.e., τ is the collection of the form f τ := {U (cid:3669) X : either X r U is finite or X r U = X }.
+f Then τ is a topology of X called the finite complement topology.
+f Example 3.5 Let X be a set, and let τ be the collection of subsets U of X such that X r U is c either countable or is X, i.e., τ is a collection of the form c τ := {U (cid:3669) X : either X r U is at most countable or X r U = X } c Then τ is a topology on X. c Definition 3.4 Let τ and τ be two topologies on X.
+Then τ is said to be finer than τ (i.e., τ 1 2 1 2 2 is coarser than τ ) if τ (cid:3670) τ .
+1 1 2 According to definition (3.4) you can observe that if τ is any topology on X, then τt (cid:3669) τ (cid:3669) τd where τ and τ are as defined in examples (3.2) and (3.3).
+d t \ Theorem 3.1 The intersection τ = τ of topologies {τ on X is itself a topology in X α α (cid:3547)∆ }α α (where ∆ is some indexing set.)
+Proof.
+You are required to verify the three(3) axioms of a topology of X for \ τ = τ .
+α α(cid:3547)∆ given that {τ } is family of topologies on X. α α(cid:3547)∆ So proceed as follows: 1.
+Since τ is a topology on X for each α (cid:3547) ∆, the (cid:3544) and X are in each τ , so that α α \ (cid:3544), X (cid:3547) τ =: α τ α(cid:3547)∆ 3 3.2 Basis for Topology TOPOLOGICAL SPACES 2.
+Let {U } be a collection of elements of τ, where I is some indexing set.
+Let i i(cid:3547)I [ U = U .
+i i(cid:3547)I You have to show that U (cid:3547) τ.
+But you already have that for each i (cid:3547) I , U (cid:3547) τ implies that U (cid:3547) τ for fixed α (cid:3547) [ i i α ∆.
+Since τ is a topology on X, U = U (cid:3547) τ for α (cid:3547) ∆.
+Therefore, by taking α i α i(cid:3547)I intersections over α (cid:3547) ∆, you have [ \ U = U (cid:3547) τ =: τ i α i(cid:3547)I α(cid:3547)∆ i.e., U (cid:3547) τ.
+3.
+To verify axiom (3) it is enough to do it for two sets U and U in τ.
+The results follows 1 2 by induction on n. Therefore, take two sets U and U in τ and let 1 2 U = U (cid:3580) U .
+1 2 You have to show that U (cid:3547) τ.
+But U , U (cid:3547) τ implies that U , U (cid:3547) τ for each α (cid:3547) ∆.
+1 2 1 2 α Thus U = U (cid:3580) U (cid:3547) τ since each τ , α (cid:3547) ∆ is a topology on X.
+Hence, 1 2 α α \ U = U (cid:3580) U (cid:3547) τ =: τ 1 2 α α(cid:3547)∆ i.e., U (cid:3547) τ. and the proof is complete.
+3.2 Basis for Topology For each examples in the preceeding section, you were able to specify the topology by describ- ing the entire collection τ of open sets.
+This is usually difficult in general.
+In most cases, you will need to specify instead a smaller collection of subsets of X and then define the topology in terms of this collection.
+Definition 3.5 (Basis) Let X be a set.
+A basis for a topology on X is a collection B of subsets of X (called basis elements) such that 1.
+For each x (cid:3547) X, there exists B (cid:3547) B such that x (cid:3547) B, or equivalently X = (cid:3581) B.
+B(cid:3547)B 2.
+If x (cid:3547) X and B , B (cid:3547) B such that x (cid:3547) B (cid:3580) B , there exists B (cid:3547) B such that 1 2 1 2 3 x (cid:3547) B (cid:3669) B (cid:3580) B .
+3 1 2 Definition 3.6 (Topology generated by a Basis).
+If B satisfies the above two conditions, then we define the topology τ generated by B as follows: A subset U of X is in τ (i.e., U is open) if for each x (cid:3547) U, there exists a basis element B (cid:3547) B such that x (cid:3547) B (cid:3669) U.
+That is to say that τ is a collection of the form  4 3.2 Basis for Topology TOPOLOGICAL SPACES τ := {U (cid:3547) X : U = (cid:3544) or if x (cid:3547) U, there exists B (cid:3547) B such that x (cid:3547) B (cid:3669) U } You can easily verify that τ is a topology on X.
+Note that each basis element is open.
+Example 3.6 Let B = {(a, b) : a, b (cid:3547) R, a < b}.
+Then B is a basis for a topology on R called the standard or euclidean topology on R. Example 3.7 Let B0 = {[a, b) : a, b (cid:3547) R, a < b}.
+Then B0 is a basis for a topology on R called the lower limit topology on R. Example 3.8 Let B = {{x} : x (cid:3547) X }.
+Then B is a basis for the discrete topology on X.
+Proposition 3.1 Let X be a set, and let B be a basis for a topology τ on X.
+Then τ equals the collection of all unions of elements of B.
+Proof.
+Let (B ) be a collection of elements of B.
+Then for each i (cid:3547) I , B (cid:3547) τ (because i i(cid:3547)I [ i each B is open).
+Since τ is a topology, B (cid:3547) τ. i i i(cid:3547)I Conversely, let U (cid:3547) τ, and let x (cid:3547) U.
+B is a basis for τ implies there exist B (cid:3547) B such that x x (cid:3547) B (cid:3669) U, this implies that x [ [ U = {x} (cid:3669) B (cid:3669) U. x x(cid:3547)U x(cid:3547)U [ Thus U = B , so that U is a union of elements of B x x(cid:3547)U Example 3.9 Let X = {a, b, c, d, e, f } and τ 0 := {X, (cid:3544), {a}, {c, d}, {a, c, d}, {b, c, d, e, f }}.
+Then B = {{a}, {c, d}, {b, c, d, e, f }} is a basis for τ 0 as B (cid:3669) τ 0 and every element of τ 0 can be expressed as a union of elements of B.
+Note the τ 0 itself is also a basis for τ 0 So far, you have seen that when you are given a basis, you can define a topology.
+But the following example tells you that you have to be very careful when you have an arbitrary collectiion of subsets of a set X.
+Example 3.10 Let X = {a, b, c} and B = {{a}, {c}, {a, b}, {b, c}}.
+Then B is not a basis for any topology on X.
+To see this, suppose that B is a basis for some topology τ.
+Then τ consists of all unions of sets in B; that is, τ = {X, (cid:3544), {a}, {c}, {a, c}, {a, b}, {b, c}}.
+However, τ is not a topology since {a, b} (cid:3580) {b, c} = {b} 6(cid:3547) τ.
+So τ does not have property (3) of Definition 3.1.
+This is a contradiction, and so your supposition is false.
+Thus B is not a basis for any topology on X.
+5 3.2 Basis for Topology TOPOLOGICAL SPACES In view of the above example, the question of interest now is; Under what conditions is of a collection C of subsets of X a basis for a topology on X ?
+The answer to this question is provided by the next proposition.
+Proposition 3.2 Let X be a topological space.
+Suppose that C is a collection of open subsets of X such that for each open set U of X and each x (cid:3547) U, there exists C (cid:3547) C such that x (cid:3547) C (cid:3669) U.
+Then C is a basis for a topology of X.
+When topologies are given by basis, it is useful to have a criterion in terms of the bases for determining whether one topology is finer than the other.
+One such criterion is the following: Proposition 3.3 Let B and B0 be basis for the topologies τ and τ 0, respectively, on X.
+Then the following are equivalent: 1. τ 0 is finer that τ.
+2.
+For each x (cid:3547) X and each basis element B (cid:3547) B containing x, there exists a basis element B0 (cid:3547) B0 such that x (cid:3547) B0 (cid:3669) B.
+Proof.
+(1) (cid:3514) (2).
+Let x (cid:3547) X and B (cid:3547) B such that x (cid:3547) B.
+You know that B (cid:3547) τ by definition and that τ (cid:3669) τ 0 by condition (1); therefore, B (cid:3547) τ 0.
+Since τ 0 is generated by B0, then there exists an element B0 (cid:3547) B0 such that x (cid:3547) B0 (cid:3669) B.
+(2) (cid:3514) (1).
+Given an element U (cid:3547) τ.
+Your goal is to show that U (cid:3547) τ 0.
+So let x (cid:3547) U.
+Since B generate τ, there is an element B (cid:3547) B such that x (cid:3547) B (cid:3669) U.
+By condition (2) there exists B0 (cid:3547) B0 such that x (cid:3547) B0 (cid:3669) B.
+Then x (cid:3547) B0 (cid:3669) U, so U (cid:3547) τ 0, by definition.
+3.2.1 The Metric Topology One of the most important and frequently used ways of imposing a topology on a set is to define the toplogy in terms of a metric on a set.
+Topologies given in this way lie at the heart of modern analysis, for example.
+In this section, you shall be introduce with the metric topology and some of its examples.
+Definition 3.7 A metric on a set X is a function d : X × X (cid:3450) R having the following properties: 1. d(x, y) (cid:3640) 0 for all x, y (cid:3547) X ; equality holds if and only if x = y.
+2. d(x, y) = d(y, x) for all x, y (cid:3547) X.
+3. d(x, z) (cid:3639) d(x, y) + d(y, z) for all x, y, z (cid:3547) X (Triangle inequality).
+Given a metric d on X, (X, d) is a metric space and the number d(x, y) is called the distance between x and y in the metric d.  6 3.2 Basis for Topology TOPOLOGICAL SPACES Definition 3.8 Let (X, d) be a metric space.
+Let x (cid:3547) X and > 0.
+The set B (x, ) := {y (cid:3547) X : d(x, y) < } d of all point y (cid:3547) X whose distance from x is less than is called the open ball centred at x with radius , otherwise called (cid:3557) ball centered at x. Lemma 3.1 Let d be a metric on the set X.
+Then the collection of all (cid:3557) balls B (x, ), for d x (cid:3547) X and > 0 is a basis for a topology on X, called the metric topology induced by d. Proof.
+The first condition of a basis is trivial since x (cid:3547) B(x, ) for any > 0.
+Before you check the second condition for a basis, first of all prove the fact that if y (cid:3547) B(x, ) for some x (cid:3547) X and > 0, there exists δ > 0 such that B(y, δ) (cid:3669) B(x, ).
+Define δ = (cid:3557) d(x, y), then by triangle inequality, if z (cid:3547) B(y, δ) then d(x, z) (cid:3639) d(x, y) + d(y, z) < .
+Now to check the second condition for basis, let B and B be two basis elements and let y (cid:3547) B 1 2 1 (cid:3580) B .
+Choose δ and δ such that B(y, δ ) (cid:3669) B and B(y, δ ) (cid:3669) B .
+Let δ = min(δ , δ ), you 2 1 2 1 1 2 2 1 2 have B(y, δ) (cid:3669) B (cid:3580) B .
+1 2 Using what you have just proved, you can rephrase the definition of the metric topology as follows: Definition 3.9 A set U is open in the metric topology induced by d if and only if for each x (cid:3547) U there exist > 0 such that B (x, ) (cid:3669) U. d Example 3.11 Given a set X, define   1 if x = y d(x, y) =  0 if x = y It is easy to check that d is a metric on X.
+The topology induced by this metric is the discrete topology; the basis element for example consists of the points x alone.
+Example 3.12 The standard metric on the real numbers R is defined by d(x, y) = |x (cid:3557) y|.
+It is easy to check that d is a metric.
+3.2.2 Product Topology.
+Here, you shall be introduced to the product topology, but a detailed study of this kind of topology will be done in subsequent units.
+Let X and Y be topological spaces.
+There is a standard way of defining a topology on the cartesian product X × Y.
+We consider this topology now and study some of its properties.
+Lemma 3.2 Let X and Y be two topological spaces.
+Let B be the collection of all sets of the form U × V, where U is an open subset of X and V is an open subset of Y.
+i.e., B := {U × V : U is open in X and V is open in Y } 7 3.2 Basis for Topology TOPOLOGICAL SPACES Then B is basis for a topology on X × Y.
+Proof.
+The first condition is trivial, since X ×Y is itself a basis element.
+The second condition is almost easy, since the intersection of any two basis element U × V and U × V is another 1 1 2 2 basis element.
+For (U × V ) (cid:3580) (U × V ) = (U (cid:3580) U ) × (V × V ), 1 1 2 2 1 2 1 2 and the later set is a basis element because U (cid:3580) U and V (cid:3580) V are open in X and Y, respectively.
+1 2 1 2 Definition 3.10 Let X and Y be topological spaces.
+The Product topology on X × Y is the topology having the collection B as basis.
+It is easy to check that B is not a topology itself on X × Y.
+You may now ask, what if the topologies on X and Y are given by basis?
+The answer to this question is in what follows.
+Theorem 3.2 If B is a basis for the topology on X and C is the basis for the topology on Y, then the collection D = {B × C : B (cid:3547) B and C (cid:3547) C} is a basis for the topology on X × Y.
+Proof.
+You can use proposition 3.2.
+Given an open set W of X ×Y and a point (x, y) (cid:3547) X ×Y of W, by definition of the product topology, there exists a basis element U × V such that (x, y) (cid:3547) U × V (cid:3669) W. Since B and C are bases for X and Y, respectively, you can choose an element B (cid:3547) B such that x (cid:3547) B (cid:3669) U and an element C (cid:3547) C such that y (cid:3547) C (cid:3669) V. So (x, y) (cid:3547) B × C (cid:3669) U × V (cid:3669) W. Thus the collection D meets the criterion of proposition 3.2. so D is a basis of X × Y.
+Example 3.13 You have the standard topology of R. The product topology of this topology with itself is called the Product topology on R × R = R2.
+It has as basis the collection of all products of open sets of R, but the theorem you just proved tells you that the much smaller collection of all products (a, b) × (c, d) of open intervals in R will also serve as a basis for the topology of R2.
+Each such set can be pictured as the interior of a rectangle in R2.
+It is sometimes useful to express the product topology in terms of subasis.
+To do this, we just define certain functions called projections.
+Definition 3.11 Let π : X × Y (cid:3450) Y and let π : X × Y (cid:3450) Y defined by 1 2 π (x, y) = x and π (x, y) = y.
+1 2 The maps π and π are called projection of X × Y onto its first and second factors, respectively.
+1 2 The word onto is used because they are surjective (unless one of the spaces X or Y happens to be empty, in which case X × Y is empty and your whole discussion is empty as well).
+If U is an open subset of X, then π(cid:3557) 1(U ) is precisely the set U × Y, which is open in X × Y.
+1 Similarly, if V is open in Y, then π(cid:3557) 1 (V ) = X ×V, which is also open in X ×Y.
+The intersection 2 of these two sets in the set U × V. This fact leads to the following theorem.
+8 3.2 Basis for Topology TOPOLOGICAL SPACES Theorem 3.3 The collection S = {π(cid:3557) 1(U ) : U is open in X } (cid:3581) {π(cid:3557) 1 (V ) : V is open in Y } 1 2 is a subbasis for the product topology on X × Y.
+Proof.
+Let τ denote the product topology on X × Y, let τ 0 be the topology generated by S. Since S (cid:3669) τ then arbitrary unions of finite intersections of elements of S stay in τ.
+Thus τ 0 (cid:3669) τ.
+On the other hand, every basis element U × V for the topology τ is a finite intersection of elements of S, since U × V = π(cid:3557) 1 (U ) (cid:3580) π(cid:3557) 1 (V ).
+1 2 Therefore U × V belongs to τ 0, so τ (cid:3669) τ 0 as well.
+3.2.3 The Subspace Topology Definition 3.12 Let X be a topological space with topology τ.
+If Y is a subset of X, the collection τY = {Y (cid:3580) U : U (cid:3547) τ } is a topology on Y, called the subspace topology.
+With this topology.
+Y is called a subspace of X ; its open sets consists of all intersection of open sets of X with Y. Lemma 3.3 If B is a basis for the topology on X, the collection B = {B (cid:3580) Y : B (cid:3547) Y B} is a basis for the subspace topology in Y.
+Proof.
+Let U be an open set of X and y (cid:3547) U (cid:3580) Y, By definition of basis, there exists B (cid:3547) B such that y (cid:3547) B (cid:3669) U.
+Then y (cid:3547) B (cid:3580) Y (cid:3669) U (cid:3580) Y.
+It follows from proposition 3.2 that B is a Y basis for the subspace topology on Y.
+When dealing with a space X and a subspace Y of X, you need to be careful when you use the term open set.
+The question is do you mean an element of the topology of Y or an element of the topology on X ?
+The following definition is useful.
+If Y is a subspace of X, the set U is open in Y (or open relative to Y ) if it belongs to the topology of Y : this implies in particular it is a subspace of Y.
+There is a special situation in which every open set in Y is also open in X. Lemma 3.4 Let Y be a subspace of X.
+If U is open in Y and Y is open in X then U is open in X.
+Proof.
+Since U is open in Y, U = V (cid:3580) Y for some V open in X.
+Since Y and V are both open in X, so is V (cid:3580) Y.
+Proposition 3.4 Let A be a subspace of X and B a subspace of Y.
+Then the product topology on A × B is the same as the topology A × B inherits as a subspace of X × Y.
+9 3.3 Closed Sets and Limit Points TOPOLOGICAL SPACES 3.3 Closed Sets and Limit Points Now that you have a few examples at hand, you can proceed to see some of the basic concepts associated with topological space.
+In this section, you shall be introduced to the notion of closed set, interior, closure and limit point of a set.
+3.3.1 Closed Sets Definition 3.13 A subset A of a topological set X is said to be Closed if X rA, the complement of A in X is open.
+Example 3.14 The subset [a, b] of R is closed because its complement R r [a, b] = ((cid:3557) (cid:3569) , a) (cid:3581) (b, (cid:3569) ), is open.
+Similarly [a, +(cid:3569) ) is closed.
+Example 3.15 Consider the following subset of the real line: Y = [01] (cid:3581) (2, 3), in the subspace topology.
+In this space, the set [0, 1] is open, since it is the intersection of the open set (cid:3557) 1 , 3 2 2 of R with Y.
+Similarly, (2, 3) is open as subset of Y.
+Since [0, 1] and (2, 3) are complement in Y of each other, you can conclude that both are closed as subset of Y.
+The collection of closed subsets of a space X has properties similar to those satisfied by the collection of open subsets of X. Theorem 3.4 Let X be a topological space.
+Then the following conditions hold: 1.
+(cid:3544) and X are closed.
+2.
+Arbitrary intersection of closed sets is closed.
+3.
+Finite unions of closed sets are closed.
+Proof.
+Apply DeMorgan’s laws: \ [ X r A = (X r A ).
+α α α(cid:3547)I α(cid:3547)I [ \ X r A = (X r A ).
+α α α(cid:3547)I α(cid:3547)I When dealing with subspaces, you need to be very careful in using the term open set.
+The following theorem is very important.
+Theorem 3.5 Let Y be a subspace of X.
+Then a set A is closed in Y if and only if it equals the intersection of a closed set of X with Y.
+10 3.3 Closed Sets and Limit Points TOPOLOGICAL SPACES Proof.
+Assume that A = C (cid:3580) Y, where C is closed in X, then X r C is open in X, so that (X r C ) (cid:3580) Y is open in Y, by definition of the subspace topology.
+But (X r C ) (cid:3580) Y = Y r A.
+Hence Y r A is open in Y, so that A is closed in Y. Conversely, assume that A is closed in Y.
+The set X r U is closed in X, and A = Y (cid:3580) (X r U ), so that A equals the intersection of a closed set of X and Y, as desired.
+Note that a set that is closed in the subspace Y may not be closed in X.
+So the question now is, when is a closed set in a subspace Y closed in the space X ?
+The next theorem provides an answer to this question.
+Theorem 3.6 Let Y be a subspace of X.
+If A is closed in Y, and Y is closed in X, then A is closed in X.
+3.3.2 Closure and Interior of a Set Definition 3.14 Let A be a subset of a topological space X.
+The interior of A denoted by int (A) or A˚ is defined as the union of all open sets contained in A.
+The closure of A denoted by cl (A) or A is defined as the intersection of closed sets containing A.
+Clearly, the interior of A is an open set and the closure of A is a closed set; futhermore, A˚ (cid:3669) A (cid:3669) A If A is open, then A = A˚; on the other hand, if A is closed, then A = A.
+Proposition 3.5 Let Y be a subspace of X ; Let A be a subset of Y.
+Let A¯ denote the clusure of A in X.
+Then the closure of A in Y is A¯ (cid:3580) Y.
+Another useful way of describing the closure of a set is given in the following theorem.
+Theorem 3.7 Let A be a subset of the topological space X.
+1.
+The x (cid:3547) A¯ if and only if every open set U containing x intersects A.
+2.
+Supposing the topology of X is given by a basis, then x (cid:3547) A¯ if and only if every basis element B containing x intersects A.
+Proof.
+Consider the statement (a).
+It is a statement of the form P (cid:3516) Q.
+Transforming each statement to is contrapositive, gives you the logical equivalence (not P ) (cid:3516) (not Q).
+Explicitly, x (cid:3547) A¯ if and only if there exists an open set U containing x that does not intersect A.
+In terms of this assertion, the theorem is easy to prove.
+If x is not in A¯, the set X r A is open and contains x and does not intersect A as desired.
+Conversely, If there exists an open set U containing x which does not intersect A, then X r A is a closed set containing A.
+By definition of the closure A¯, the set X r U must contain A¯; therefore x 6(cid:3547) A¯.
+Part (b) follows from the definiton of basis.
+11 3.3 Closed Sets and Limit Points TOPOLOGICAL SPACES Definition 3.15 Let X be a topological space.
+Let x (cid:3547) X and V be a subset of X containing x. V is said to be a neighbourhood of x if there exist and open set U of X such that x (cid:3547) U (cid:3669) V. The collection of all neighbourhoods of x is denoted by N (x).
+Proposition 3.6 Let X be a topological space and x (cid:3547) X.
+Then 1.
+N (x) is nonempty; 2.
+If V (cid:3547) N and V (cid:3669) A then A (cid:3547) N (x); 3.
+A finite intersection of neighbourhoods of x is a neighbourhood of x.
+Proposition 3.7 Let X be a topological space.
+Let U be a subset of X.
+Then U is open if and only in U (cid:3547) N (x) for every x (cid:3547) U. Lemma 3.5 If A is a subset of a topological space X, then x (cid:3547) A¯ if and only if every neigh- bourhood of x intersects A.
+i.e., x (cid:3547) A if and only if for all V (cid:3547) N (x), V (cid:3580) A = (cid:3544).
+Proof.
+((cid:3514) ) Let x (cid:3547) A, and let V (cid:3547) N (x).
+Since V (cid:3547) N (x), there exist U open such that x (cid:3547) U (cid:3669) V. It is enough for you to show that U (cid:3580) A = (cid:3544).
+Suppose U (cid:3580) A = (cid:3544), it implies that A (cid:3669) U c. And U c is closed since U is open, thus, A (cid:3669) U c. Which implies that x (cid:3547) U c, which is a contradiction.
+Hence, U (cid:3580) A = (cid:3544).
+((cid:3512) ) Assume that for every neighbourhood V of x, V (cid:3580) A = (cid:3544).
+You have to show c that x (cid:3547) A.
+Suppose x (cid:3547) A, this implies that x (cid:3547) A which is open (because A is closed) and so c c A (cid:3547) N (x), and by hypothesis, A (cid:3580) A = (cid:3544).
+This is a contradiction, hence x (cid:3547) A.
+Example 3.16 Let X be the real line R. If A = (0, 1], then A¯ = [0, 1], B = {1/n : n (cid:3640) 1} then B¯ = B (cid:3581) {0}.
+If C = {0} (cid:3581) (1, 2) then C¯ = {0} (cid:3581) [1, 2], = R. Q¯ Example 3.17 Consider the subspace Y = (0, 1] of the real line R. The set A = (0, 1 ) is a 2 subset of Y.
+Its closure in R is the set [0, 1 ] and its closure in Y is the set A¯ = [0, 1 ] (cid:3580) Y = (0, 1 ].
+2 2 2 3.3.3 Limit Points Definition 3.16 Let A be subset of a topological set X and let x (cid:3547) X. x is said to be a limitpoint (or cluster point or point of accumulation) of A if every neighbourhood of x intersects A in some point other than that x itself.
+x (cid:3547) X is a limit point of A if for all V (cid:3547) N (x), V (cid:3580) (A r {x}) = (cid:3544).
+Or x is a limit point of A if x belongs to the closure of A r {x}.
+The point x may lie in A or not.
+12 4 Conclusion TOPOLOGICAL SPACES Theorem 3.8 Let A be a subset of the topological space X.
+Let A0 be the set of all limit points of A.
+Then A¯ = A (cid:3581) A0.
+Proof.
+Clearly, A (cid:3581) A0 (cid:3669) A¯.
+To prove the reverse inclusion, let x (cid:3547) A¯.
+If x happens to be in A, it is trivial that x (cid:3547) A (cid:3581) A0.
+Suppose that x 6(cid:3547) A.
+Since x (cid:3547) A0, this implies that every neighbourhood U of x intersects A.
+Because x 6(cid:3547) A, the set U intersects A in a point different from x.
+Then x (cid:3547) A0, so that x (cid:3547) A (cid:3581) A0 as desired.
+Corollary 3.1 A subset of a topological space is closed if and only if it contains all its limit points.
+Proof.
+The set A is closed if and only if A = A¯, and the later holds if and only if A0 (cid:3669) A.
+4 Conclusion In this unit, you have been introduced to the meaning and examples of topological spaces and some basic concepts of topological spaces such as basis for a topology, closed set, open sets, interior of a set, closure of a set, neighbourhood of a set and limit point of a set.
+You have seen some examples and proved some results.
+5 Summary Having gone through this unit, you now know that; (i) a topology defined on a set X is a collection τ of subsets of X satisfying (a) X and (cid:3544) are in τ, (b) arbitrary unions of elements of τ are in τ, (c) finite intersections of elements of τ are in τ.
+(ii) a topological space is a pair (X, τ ) consisting of a set X and a topology τ defined on it.
+(iii) the elements of a topology on X are called open sets.
+(iv) if τ and τ are topologies defined on X, then τ is said to be finer that τ if τ (cid:3669) τ .
+In 1 2 1 2 2 1 otherwords you say that τ is coarser than τ .
+2 1 (v) an arbitrary intersection of topologies is also a topology.
+(vi) a basis for a topology τ on X is a collection B of subsets of X (i.e., basis elements) such that (a) for each X, there exist B (cid:3547) B such that x (cid:3547) B, or equivalently, X = (cid:3581) .
+B(cid:3547)B (b) if x (cid:3547) X and B , B (cid:3547) B such that x (cid:3547) B (cid:3580) B , there exists B (cid:3547) B such that 1 2 1 2 3 x (cid:3547) B (cid:3669) B (cid:3580) B .
+3 1 2 13 5 Summary TOPOLOGICAL SPACES (vii) the topology generated by a basis B is given by τ := {U (cid:3547) X : U = (cid:3544) or if x (cid:3547) U, there exists B (cid:3547) B such that x (cid:3547) B (cid:3669) U } (viii) The collection B := {U × V : U is open in X and V is open in Y } is a basis for the product topology on X × Y.
+(ix) The collection S = {π(cid:3557) 1(U ) : U is open in X } (cid:3581) {π(cid:3557) 1(V ) : V is open in Y } 1 2 is a subbasis for the product topology on X × Y.
+Where π : X × Y (cid:3450) X and π : 1 2 X × Y (cid:3450) Y are the projection maps defined on X × Y by π (x, y) = x and π (x, y) = y.
+1 2 (x) if Y is a subset of a topological space (X, τ ), the collection τ = {Y (cid:3580) U : U (cid:3547) τ } Y is a topology on Y, called the subspace topology.
+Y is called a subspace of X, its open sets consists of all intersection of open sets of X with Y.
+(xi) A subset A of a topological space X is said to be closed in X if X r A, (the complement of A in X ) is open.
+(xii) if X is a topological space, then (a) (cid:3544) and X are closed.
+(b) an arbitrary intersection of closed sets is closed.
+(c) a finite union of closed sets is closed.
+(xiii) if Y is a subspace of X, then a set A is closed in Y if and only if it equals the intersection of a closed set in X with Y.
+(xiv) if A is a subset of a topological space X, then the interior of A, denoted by A˚ is the union of all open sets contained in A, while the closure of A denoted by A is the intersection of all closed sets contained in A.
+(xv) if V is a subset of a topological space X and x (cid:3547) X such that x (cid:3547) V, then V is called a neighbourhood of x if there exists an open set U of X such that x (cid:3547) U (cid:3669) V. (xvi) N (x) denotes the collection of all neighbourhoods of x.
+(xvii) if A is a subset of a topological space X, an element x of X is called a limit point of A if for all V (cid:3547) N (x), V (cid:3580) (A r {x}) = (cid:3544).
+(xviii) a subset of a topological space is closed if and only if it contains all its limit point.
+14 6 Tutor Marked Assignments (TMAS) TOPOLOGICAL SPACES 6 Tutor Marked Assignments (TMAs) Exercise 6.1 1.
+In the following, answer true or false.
+(a) The collection τ = {U : X r U is infinite or empty or all X } (cid:3569) is a topology in X ?
+S (b) The union τ of a family {τ } of topology on X is a topology on X. α α (c) The countable collection B = {(a, b) : a < b, a, b (cid:3547) Q} is a basis for a topology on R. (d) If A is a subset of a topological space X, and suppose that for each x (cid:3547) A, there exists an open set U such that x (cid:3547) U (cid:3669) A, then A is an open set in X.
+2.
+Let R be with the standard topology and let A (cid:3669) R. Then A is open in R if there exist an interval I such that I (cid:3669) A.
+For a, b (cid:3547) R, which of the following forms is is the interval I (a) I = (a, b) (b) I = (a, b] (c) I = [a, b) (d) I = [a, b] 3.
+If τ is a topology on a set X, which of the following is not true about τ ?
+(a) Finite union of elements of τ is in τ.
+(b) Finite intersection of elements of τ are in τ.
+(c) The empty set (cid:3544) and the whole set X are in τ.
+(d) Arbitrary intersection of elements of τ are in τ.
+4.
+Answer true or false.
+The collection B = {U × V : U is open in X and V is open in Y } is (a) a topology on the product space X × Y.
+(b) a basis for a topology on the product space X × Y.
+5.
+Let π : X × Y (cid:3450) X and π : X × Y (cid:3450) Y be the projection maps defined by 1 2 π (x, y) = x and π (x, y) = y.
+1 2 The collection  15 6 Tutor Marked Assignments (TMAS) TOPOLOGICAL SPACES S = {π(cid:3557) 1(U )|U open in X } (cid:3581) {π(cid:3557) 1(V )|V open in Y } 1 2 is for the product topology on X × Y.
+(a) a collection of open sets (b) a basis (c) a subbasis (d) a topology 6.
+Let R be endowed with the standard topology.
+Consider the set Y = [(cid:3557) 1, 1] as a subspace of R. Which of the following sets are open in Y ?
+1 A = x : < |x| < 1 2 1 B = x : < |x| (cid:3639) 1 2 1 C = x : (cid:3639) |x| < 1 2 1 D = x : (cid:3639) |x| (cid:3639) 1 2 (a) A, B and C only (b) A only (c) B and C only.
+(d) D only.
+7.
+With the standard topology of R. which of the sets in question 6 above are open in R?
+(a) A, B and C only (b) A only (c) B, C and D only.
+(d) D only.
+8.
+Let R be endowed with the standard topology.
+Consider the set Y = [(cid:3557) 1, 1] as a subspace of R. Which of the following sets are closed in Y ?
+1 A = x : < |x| < 1 2 1 B = x : < |x| (cid:3639) 1 2 1 C = x : (cid:3639) |x| < 1 2 1 D = x : (cid:3639) |x| (cid:3639) 1 2 16 6 Tutor Marked Assignments (TMAS) TOPOLOGICAL SPACES (a) A, B, C and D. (b) B and C only (c) B, C and D only.
+(d) D only.
+9.
+With the standard topology of R. which of the sets in question 8 above are closed in R?
+(a) A, B and C only (b) B, C and D only (c) B and C only.
+(d) D only.
+10.
+If A (cid:3669) X, a topological space, then the boundary of A, denoted by ∂A of Bd A by: ∂A = A¯ (cid:3580) X r A.
+The folowing are true; 1.
+A˚ and ∂A are disjoint, and A¯ = A˚ (cid:3581) ∂A.
+2.
+∂A = set if and only if A is both open and closed.
+3.
+U is open if and only if ∂U = U¯ r U.
+Justify.
+11.
+Hence or otherwise compute the boundary and interior of each of the following subsets of R2 (a) A = {(x, y) : y = 0} (b) B = {(x, y) : x > 0 and y = 0} (c) C = A (cid:3581) B.
+(d) D = {(x, x) : x is rational} 12.
+If R, the real line is endowed with the indiscrete topology.
+Let A = [0, 1).
+What is A¯?
+(a) [0, 1] (b) R (c) [0, 1) (d) (cid:3544) [Hint: Use theorem 3.7] 13.
+If R, the real line is endowed with the usual metric topology, and let A = (0, 1).
+What is ∂A?
+(a) R (b) [0, 1] (c) {0, 1} (d) (0, 1] 17  UNIT 2: SEPARATION AXIOMS Contents 1 Introduction 1 2 Objectives 2 3 Axioms of Separation 2 3.1 Hausdorff Spaces (T (cid:3557) spaces) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 2 3.1.1 Sequences .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.2 The First Separation Axiom (T (cid:3557) spaces) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 1 3.3 The zeroth Separation Axiom.
+(T (cid:3557) spaces) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 0 3.4 Third Separation Axiom (T (cid:3557) spaces) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 3 3.4.1 Regular spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 3.5 Fourth Separation Axiom.
+(T (cid:3557) spaces) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 4 3.6 Continuous Functions .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 3.6.1 Definition, Examples and Main Properties .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 3.7 Homeomorphism .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 3.8 More on Separation Axioms .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+14 4 Conclusion 14 5 Summary 15 6 TMAs 16 1 INTRODUCTION Your understanding of the notions of closed sets open sets and limit points in the real line or arbitrary metric space can be misleading when you carry such understanding to topological space.
+For example in the space R and R2 , each one-point set is closed.
+But this fact is not true for an arbitrary topological space.
+For if you consider the three-point set X = {a, b, c}, 1 2 Objectives SEPARATION AXIOMS endowed with the the sierpinski topology τ = {(cid:3544) , X, {b}, {a, b}, {b, c}}.
+In this space, the s point set {b} is not closed, because its complement {a, c} is not open.
+Similary, the understanding you have about convergence of a sequence in the real line can be misleading when you consider an arbitrary topological space.
+For example on the real line, the limit of a sequence if it exists is unique, but this is not true in an arbitrary topological space.
+In this unit, you shall be introduced to the separation axioms a natural restrictions on the topological structure making the structure closer to that of a metric space(i.e., closer to being metrizable).
+A lot of separation axioms are known.
+Here you shall study five most important of them.
+They are numerated, and denoted by T , T , T , T , and T , respectively.
+0 1 2 3 4 2 Objectives At the end of this unit, you should be able to; (i) define a Hausdorff space and state some of its properties.
+(ii) prove that in a Hausdorff space, every point set is closed.
+(iii) define a convergent sequence and show that in a Hausdorff space, the limit is unique.
+(iv) prove that every metric topology is Hausdorff.
+(v) know five separation axioms and their properties.
+3 Axioms of Separation 3.1 Hausdorff Spaces (T (cid:3557) spaces) 2 The most celebrated of all the axioms of separation is the second axiom of separation T .
+It was 2 suggested by the mathematician Felix Hausdorff, and so mathematicians have come to call it by hi name.
+And so Topological spaces that satisfy the second separation axiom will be called Hausdorff spaces.
+Definition 3.1 A topological space is called a Hausdorff space, if for each x, y of distint points of X, there exist neighbourhoods U and U of x and y respectively, that are disjoint.
+x y More formally X is Hausdorff if (cid:3539) x, y (cid:3547) X with x = y, there exist U (cid:3547) N (x), U (cid:3547) N (y) : U (cid:3580) U = x y x y (cid:3544).
+U.x .Uy x y Figure 1: Hausdorff axiom (T ) 2  2 3.1 Hausdorff Spaces (T (cid:3557) spaces) SEPARATION AXIOMS 2 As earlier remarked, Hausdorff space are T .
+2 For example, consider the real line R, with the standard topology, that is the topological spaces whose open sets are of the form (a, b), a, b (cid:3547) R with a < b (the open intervals).
+Take for instance the points 1 , 1 (cid:3547) R, the open intervals ( 1 , 1 ) and ( 5 , 7 ) are neighbourhoods of 1 2 4 6 3 12 12 4 and 1 respectively and ( 1 , 1 ) (cid:3580) ( 5 , 7 ) = (cid:3544).
+In fact, you know that the standard topology of R 2 6 3 12 12 is induced by the metric d defined by d(x, y) = |x (cid:3557) y| for all x, y (cid:3547) R. And for each x (cid:3547) R, the (cid:3557) ball centered at x with radius > 0 is given by B(x, ) = {y (cid:3547) R : d(x, y) = |x (cid:3557) y| < } = (x (cid:3557) , x + ) Thus for each x, y (cid:3547) R, with x = y, just choose = 1 d(x, y) > 0 then x (cid:3547) (x (cid:3557) , x + ) = 3 B(x, ) and y (cid:3547) (y (cid:3557) , y + ) = B(y, ) and B(x, ) (cid:3580) B(y, ) = (cid:3544).
+The above exercise can be done in an arbitrary space with the metric topology.
+and this gives you the first example of Hausdorff spaces.
+Example 3.1 Every metric topology is Hausdorff.
+Example 3.2 Every discrete space is Hausdorff.
+To see this, Let X be a discrete topological space, and let x, y (cid:3547) X with x = y.
+Take U = x {x}, and U = {y}, then U and U are open sets in the discrete topology, and U (cid:3580) U = y x y x y (cid:3544).
+Exercise 3.1 Let Q be the set of rational numbers with the standard topology of R, and let Q0 denote the set of all irrational numbers also with the standard topology of R. Is Q and Q0 Hausdorff?
+The following are some space that are not Hausdorff.
+Example 3.3 The real line R with the finite complement topology is not Hausdorff.
+To see this recall first that the finite complement topology is defined by τ = {U (cid:3669) X : X r U is either finite or the whole set X } f Now suppose R with the finite complement topology is Hausdorff, then for every x, y (cid:3547) R there exists open neighbourhoods U , U of x and y such that x y U (cid:3580) U = x y (cid:3544).
+Taking complements of both sides gives you that (R r U ) (cid:3581) (R r U ) = R. x y Which means that R is finite as a union of two finite sets, otherwise, the sets U and U would be x y empty sets and thus are no longer neighbourhoods of x and y respectively, this is a contradiction.
+Hence R with the finite complement topology is not Hausdorff.
+3 3.1 Hausdorff Spaces (T (cid:3557) spaces) SEPARATION AXIOMS 2 Example 3.4 Let X = {a, b, c} endowed with the topology τ = {(cid:3544) , X, {b}, {b, c}, {b, s a}} This is easy to see, because a and c are distinct points in X and there are no neighbourhoods of a and c with empty intersection.
+The following important results makes Hausdorff spaces interesting.
+Theorem 3.1 Let X be a Hausdorff space, then for all x (cid:3547) X, the singleton set {x} is closed.
+Proof.
+Let x (cid:3547) X be arbitrary and set A = {x}.
+It is enough to show that A = A¯.
+You know that A (cid:3669) A¯, so it is left for you to show that A¯ (cid:3669) A.
+You can do this by contraposition (i.e., you know that if A (cid:3669) B, then for every y (cid:3547) A, y (cid:3547) B; the contraposition is that if y 6(cid:3547) B then y 6(cid:3547) A).
+Now, suppose that y 6(cid:3547) A, i.e., y = x, since X is Hausdorff, there exist U (cid:3547) N (x), U (cid:3547) N (y) such that U (cid:3580) U = (cid:3544).
+This implies that U (cid:3580) A = (cid:3544), i.e., x y x y y y 6(cid:3547) A¯.
+Hence, A¯ (cid:3669) A.
+Therefore, both inclusions A (cid:3669) A¯ and A¯ (cid:3669) A gives you that A¯ = A i.e., A = {x} is closed.
+3.1.1 Sequences In your course of elementary analysis, you can recall that a sequence {x } of elements of R is n said to converge to x(cid:3562) (cid:3547) R if given any > 0, there exist N := N ( ) (cid:3547) N such that for all n (cid:3640) N, |x (cid:3557) x(cid:3562) | < .
+(1) n The inequality (1) is equivalent to say that for all n (cid:3640) N, x (cid:3547) (x(cid:3562) (cid:3557) , x(cid:3562) n + ) Also you know that if X is a metric space, with a metric d, then a sequence {x } in X n converges to x(cid:3562) (cid:3547) X if given any > 0, there exists N := N ( ) such that for all n (cid:3640) N, d(x , x(cid:3562) ) < (2) n That is to say that for every n (cid:3640) N, x (cid:3547) B (x(cid:3562) , ).
+n d Suppose, now that you set U = (x(cid:3562) (cid:3557) , x(cid:3562) + ), or U = B (x(cid:3562) , ) according as you d refer to the real line R or the metric space X, you will have that U is a neighbourhood of x(cid:3562) and depends on > 0.
+And since > 0 is arbitrary, then U is also arbitrary.
+This is now of great help to you to define convergent sequence in an arbitrary topological space since absolute value or distance does not make sense in an arbitrary topological space, but the concept of neighbourhood is meaningful in any topological space.
+Thus in an arbitrary topological space you have the following definiton.
+Definition 3.2 Convergent sequence.
+Let X be a topological space, let {x } be a sequence of n elements of X.
+Then {x } is said to converge to x (cid:3547) X if for all neighbourhoods U of x, there n exists N (cid:3547) N such that for all n (cid:3640) N, x (cid:3547) U.
+That is n x (cid:3450) x (cid:3547) X as n (cid:3450) (cid:3569) if for all U (cid:3547) N (x), there exists N (cid:3547) N : for all n (cid:3640) N x (cid:3547) U n n 4 3.2 The First Separation Axiom (T (cid:3557) spaces) SEPARATION AXIOMS 1 You also remember that in the real line R, and in a metric space X, you proved that the limit of a convergent sequence {x } is unique.
+This is not true in an arbitrary topological space as n shown in the following example.
+Example 3.5 Let R the reals be endowed with the finite complement topology, and let {x } be n a sequence of elements of R defined by, x = 1 , for n (cid:3640) 1.
+If this sequence converges, n n every element of R is a limit of this sequence.
+To see this, Let x (cid:3547) R, and suppose x (cid:3450) x, then by definition, let U be a neighbourhood n of x, there exists N (cid:3547) N such that for all n (cid:3640) N, (cid:3547) U otherwise, 1 (cid:3547) U c for all n (cid:3640) n n 1 N (i.e., { 1 } does not converge to x).
+This would mean that infinitely many points of the sequence n is contained in a finite set, (since U belongs to the finite complement topology means that U c is a finite set while it is assumed that U c is not the whole R itself which would mean that U = (cid:3544) and thus would not be a neighbourhood of x).
+This is impossible, thus x must be the limit of the sequence { 1 } and since x is arbitrary, { 1 } converges to every element of R. n n But you know vividly well that in the real line, R, the limit of the sequence { 1 } is 0.
+So you see 2 that convergence of a sequence actually depends on the type of topology imposed on the space.
+The next result tells us more about a sequence in a Hausdorff space.
+It says that in a Hausdorff space, the limit of a convergent sequence is unique.
+that is why you have terms like uniqueness of limits on the real line with the standard topology and in an arbitrary metric space, because they are Hausdorff.
+Theorem 3.2 Let X be a Hausdorff space, then a sequence of points of X converges to at most one point of X.
+(i.e., if a sequence {x } in X, a Hausdorff space, converges, the limit is n unique.)
+Proof.
+Let X be a Hausdorff space, and let {x } be a convergent sequence of elements of X. n Assume that x converges to x and y, you have to prove that x = y.
+Suppose for x = y, since n X is Hausdorff, there exist U (cid:3547) N (x) and U (cid:3547) N (y) such that U (cid:3580) U = (cid:3544).
+U (cid:3547) N (x) x y x y x and x (cid:3450) x implies that there exists N (cid:3547) N such that x (cid:3547) U for all n (cid:3640) N .
+Also U (cid:3547) n 1 n x 1 y N (y) and x (cid:3450) y implies that there exists N (cid:3547) N such that x (cid:3547) U for all n (cid:3640) N .
+Now n 2 n y 2 choose N := max{N , N } then x (cid:3547) U (cid:3580) U = (cid:3544) (a contradiction).
+Hence x = y.
+1 2 N x y Having prove some of the basic result of Hausdorff spaces (i.e., T (cid:3557) spaces), you will now 2 be introduced to all the other axioms of separation.
+3.2 The First Separation Axiom (T (cid:3557) spaces) 1 Definition 3.3 (T (cid:3557) spaces) A topological space X satisfies the first separation axiom T 1 1 if each one of any two points of X has a neighborhood that does not contain the other point.
+Thus X is called a T (cid:3557) space.
+That is 1 X is T if for all x, y (cid:3547) X with x = y, there exist U (cid:3547) N (x) such that y 6(cid:3547) U .
+1 x x Another name for a T space is a Fréchet space.
+1  5 3.3 The zeroth Separation Axiom.
+(T (cid:3557) spaces) SEPARATION AXIOMS 0 .
+.U y x y Figure 2: (T (cid:3557) axiom) 1 Theorem 3.3 A topological space X satisfies the first separation axiom (i) if and only if all one point set in X is closed.
+(ii) if and only if every finite set in X is closed.
+Proof.
+(i) ((cid:3514) ) Suppose X is T , and let x (cid:3547) X.
+By the T axiom For all y (cid:3547) X, y = x, i.e.
+1 1 y (cid:3547) X r {x}, there exist an open set U (cid:3547) N (y) such that x 6(cid:3547) U .
+This implies y y that U (cid:3669) X r {x}.
+X r {x} contains an open set U , gives us that it is open, and y y so its complement (X r {x})c = {x} must be closed.
+((cid:3512) ) Suppose X is a topological space in which all singletons are closed and let x, y (cid:3547) X such that x = y, then X r {x} is an open and contains y and x 6(cid:3547) (X r {x}).
+This implies that X is T .
+1 (ii) ((cid:3514) ) Suppose X is T , then every singleton {x} is closed.
+So also is a finite set, because 1 it is a finite union of singletons which are closed sets.
+((cid:3512) ) Suppose that X is such that finite sets are closed, and let x, y (cid:3547) X, x = y then {x} is a finite set, (X r {x}) is an open neighbourhood of y and does not contain x.
+Hence, X is T 1 Example 3.6 Every Hausdorff space is T .
+But the converse is not true.
+1 Clearly, If you consider a set X = R the real line with the finite complement topology, then X is a T (cid:3557) space.
+Since if x, y (cid:3547) X, U = X r {y} is an open set containing x that does 1 x not contain y, also, U = X r {x} is an open set containing y that does not contain x.
+You y have also seen in example 3.3 that R with this topology is not hausdorf.
+Hence you have given an example of a T space that is not Hausdorff.
+1 3.3 The zeroth Separation Axiom.
+(T (cid:3557) spaces) 0 The zeroth separation axiom appears as a weakened first sepatation axiom.
+It states as follows: Definition 3.4 (T (cid:3557) spaces).
+A topological space X satisfies the Kolmogorov axiom or the 0 zeroth separation axiom T if at least one of any two distinct points of X has a neighborhood 0 that does not contain the other point.
+6 3.4 Third Separation Axiom (T (cid:3557) spaces) SEPARATION AXIOMS 3 Spaces that satisfy the zeroth separation axiom or the Kolmogorov axiom T are regarded 0 as T (cid:3557) spaces.
+That is; 0 X is T if for all x, y (cid:3547) X with x = y, there exist an open set O such that either x (cid:3547) O and 0 y 6(cid:3547) O or y (cid:3547) O and x 6(cid:3547) O Example 3.7 Every T space is T so also is every T space.
+But the converse is not true in 1 0 2 each case.
+Example 3.8 Let X = {a, b} be endowed with the topology τ = {X, (cid:3544), {a}}.
+Then X is T 0 but not T .
+1 Proposition 3.1 Let X be a topological space.
+The following properties of X are equivalent: (a) X is T ; 0 (b) any two different points of X has different closures; 3.4 Third Separation Axiom.
+T (cid:3557) spaces 3 Definition 3.5 T (cid:3557) spaces.
+A topological space X satisfies the third separation axiom if every 3 closed set in X and every point of its complement have disjoint neighborhoods.
+T (cid:3557) spaces are topological spaces that satisfy the third separation axiom.
+3 That is, X is T if for every closed set F (cid:3669) X and every x (cid:3547) X such that x 6(cid:3547) F there exists 3 open sets U , U (cid:3669) X with F (cid:3669) U , x (cid:3547) U such that U (cid:3580) U = (cid:3544).
+F x F x F x U F F .Ux x Figure 3: T axiom 3 3.4.1 Regular spaces Definition 3.6 Regular space.
+A topological space X is said to be a regular space if for any closed set F of X and any point x (cid:3547) X r F, there exists open sets U , U (cid:3669) X such that F x x (cid:3547) U , F (cid:3669) U and U (cid:3580) U = (cid:3544).
+x F x F If a topological space X is regular and is a T (cid:3557) space, then X is a T (cid:3557) space.
+On the 1 3 other hand, if X is a T (cid:3557) space and a T (cid:3557) space, then X is regular.
+3 1  7 3.5 Fourth Separation Axiom.
+(T (cid:3557) spaces) SEPARATION AXIOMS 4 Example 3.9 Examples of regular spaces are R, Z, Q, Qc and R2.
+Example 3.10 Any metric space is regular.
+Example 3.11 Every regular T (cid:3557) space X is T (Hausdorff).
+1 2 3.5 Fourth Separation Axiom.
+(T (cid:3557) spaces) 4 Definition 3.7 (T (cid:3557) spaces) A topological space X satisfies the fourth separation axiom if any 4 two disjoint closed sets in X have disjoint neighborhoods.
+Topological spaces that satisfy the fourth separation axiom are called T (cid:3557) spaces.
+4 Thus X is a T if for any two closed sets E, F (cid:3669) X with E (cid:3580) F = (cid:3544) there exists open sets 4 U , U (cid:3669) X such that E (cid:3669) U , F (cid:3669) U and U (cid:3580) U = (cid:3544).
+E F E F E F U U E F F E Figure 4: T (cid:3557) axiom.
+4 Example 3.12 * Any indiscrete topological space satisfies the fourth separation axiom.
+This is also an example of a T space that is not T .
+4 2 Definition 3.8 Normal Spaces.
+A topological space X is normal if it satisfies the first and the fourth separation axioms.
+Example 3.13 Every metric space is normal.
+3.6 Continuous Functions 3.6.1 Definition, Examples and Main Properties Definition 3.9 Continuous Function.
+Let X and Y be topological spaces.
+A function f : X (cid:3450) Y is said to be continuous if for each open subset U of Y, the set f (cid:3557) 1(U ) is an open Y Y subset of X, where f (cid:3557) 1(UY ) = {x (cid:3547) X : f (x) (cid:3547) UY } Continuity of a function depends not only on the function alone, but also on the topologies specified for its domain and range.
+8 3.6 Continuous Functions SEPARATION AXIOMS Theorem 3.4 If the topology on the range Y is given by a basis B, then f is continuous if and only if any basis element B (cid:3547) B, the set f (cid:3557) 1(B) is open in X.
+Proof.
+((cid:3514) ) Let the topology Y be given by basis B, and suppose that f is continous, the for all B (cid:3547) B, f (cid:3557) 1(B) is open in X since each B (cid:3547) B is open.
+((cid:3512) ) Suppose that each B (cid:3547) B, f (cid:3557) 1 (B) is open in X, you have to show that f is continuous.
+So take an open set V (cid:3547) Y, then you can write V as a union of basis elements, i.e., [ V = B .
+i i(cid:3547)I Therefore, [ f (cid:3557) 1(V ) = f (cid:3557) 1(B i ).
+i(cid:3547)I So that f (cid:3557) 1(V ) is open as a union of the sets f (cid:3557) 1(B ), i (cid:3547) I , which are open by assumption.
+i Example 3.14 Any constant function is continuous.
+Exercise 3.2 Let f : R (cid:3450) R be given by  x, if x (cid:3639)  1 f (x) =  x + 2, if x > 1 Is f continuous?
+Exercise 3.3 Consider the map f : [0, 2] (cid:3450) [0, 2]  x if x (cid:3547) [0, 1),  f (x) =  3 (cid:3557) x if x (cid:3547) [1, 2].
+Is it continuous (with respect to the topology induced from the real line)?
+Exercise 3.4 Let X be the subspace of R given by X = [0, 1] (cid:3581) [2, 4] Define f : X (cid:3450) R by   1, if x (cid:3547) [0, 1] f (x) =  2, if x (cid:3547) [2, 4].
+prove that f is continuous.
+Example 3.15 Consider a real valued function of real variable f : R (cid:3450) R. In analysis one defines continuity via (cid:3557) δ definition.
+As you would, the (cid:3557) δ definition and your are equivalent.
+Theorem 3.5 Let X and Y be topological space, let f : X (cid:3450) Y.
+Then the following are equivalent: (1) f is continuous.
+9 3.7 Homeomorphism SEPARATION AXIOMS (2) For every subset A of X, one has f (A¯) (cid:3669) f (A).
+(3) For every closed set B of Y, the set f (cid:3557) 1(B) is closed in X.
+(4) For each x (cid:3547) X and each neighbourhood V of f (x), there exists a neighbourhood U of x such that f (U ) (cid:3669) V. If the condition in (4) holds for the point x, we say that f is continuous at x.
+Proof.
+We show that (1) (cid:3514) (2) (cid:3514) (3) (cid:3514) (1) and that (1) (cid:3514) (4) (cid:3514) (1) (1) (cid:3514) (2).
+Assume that f is continuous.
+Let A be a subset of X.
+We show that if x (cid:3547) A¯, then f (x) (cid:3547) f (A).
+Let x (cid:3547) A¯ and let V be an open neighbourhood of f (x).
+Then f (cid:3557) 1(V ) is an open subset X containing x, so f (cid:3557) 1(V ) (cid:3580) A = (cid:3544) because x (cid:3547) A¯.
+Let y (cid:3547) f (cid:3557) 1(V ) (cid:3580) A, then f (y) (cid:3547) V (cid:3580) f (A), thus f (x) (cid:3547) f (A), as desired.
+(2) (cid:3514) (3).
+Let B be a closed subset of Y and A = f (cid:3557) 1(B).
+We wish to show that A is closed in X.
+We show that A¯ = A.
+By elementary set theory, we have f (A) = f (f (cid:3557) 1(B)) (cid:3669) B.
+Therefore, if x (cid:3547) A¯, then f (x) (cid:3547) f (A¯) (cid:3669) f (A) (cid:3669) B¯ = B. so that f (x) (cid:3547) B, thus x (cid:3547) f (cid:3557) 1 (B) = A, as desired.
+(3) (cid:3514) (1).
+Let V be an open subset of Y.
+Set B = Y r V. Then f (cid:3557) 1(B) = X r f (cid:3557) 1(V ).
+Now B is closed set of Y, then f (cid:3557) 1(B) is closed in X by hypothesis, so that f (cid:3557) 1(V ) is open in X, as desired.
+(1) (cid:3514) (4).
+Let x (cid:3547) X and let V be an open neighbourhood of f (x).
+Then the set U = f (cid:3557) 1(V ) is an open neighbourhood of x such that f (U ) (cid:3669) V. (4) (cid:3514) (1).
+Let V be an open set of Y.
+Let x (cid:3547) f (cid:3557) 1(V ).
+Then f (x) (cid:3547) V, so that by hypothesis there is an open neighbourhood U of x such that f (U ) (cid:3669) V. Then U (cid:3669) f (cid:3557) 1(V ).
+It follows x x x that f (cid:3557) 1(V ) can be written as the union of the open sets U , so that it is open.
+x 3.7 Homeomorphism You are familiar with the following definitions about functions Definition 3.10 Let X and Y be sets, the map f : X (cid:3450) Y is a surjective map or just a surjection if every element of Y is the image of at least one element of X.
+That is, f is a surjection if for all y (cid:3547) Y, there exists x (cid:3547) X such that f (x) = y.
+A map f : X (cid:3450) Y is an injective map, injection or one-to-one map if every element of Y is the image of at most one element of X.
+That is f is an injection if for all y (cid:3547) Y, there exists a unique x (cid:3547) X such that f (x) = y.
+A map is a bijective map, bijection or invertible map if it is both surjective and injective.
+Definition 3.11 Let X and Y be topological spaces; Let f : X (cid:3450) Y be a bijection.
+If both f and its inverse f (cid:3557) 1 : Y (cid:3450) X are continuous, then f is called a homeomorphism.
+10 3.7 Homeomorphism SEPARATION AXIOMS Definition 3.12 (Equvalence Relation) Let X be a set and R be a relation on X.
+Then R is called an equivalence relation if R is (a) Symmetric: xRx for all x (cid:3547) X (b) Reflective: If xRy then yRx for all x, y (cid:3547) X.
+(c) Transitive: If xRy and yRz then xRz for all x, y, z (cid:3547) X.
+Definition 3.13 Two topological spaces X and Y are homeomorphic if there exists a homeo- morphism f : X (cid:3450) Y between the spaces.
+Theorem 3.6 Being homeomorphic is an equivalence relation.
+Suppose that f : X (cid:3450) Y is an injective continuous map, where X and Y are topological spaces, Let Z be the image set f (X ), considered as a subspace of Y ; then the function f 0 : X (cid:3450) Z obtained by restricting the range of f is bijective.
+Definition 3.14 If f 0 : X (cid:3450) Z is an homeomorphism, we say that the map f : X (cid:3450) Y is a topological imbedding or simply an imbedding of X in Y .
+Example 3.16 The function f : R (cid:3450) R given by f (x) = 3x + 1 is a homeomorphism.
+Example 3.17 The function F : ((cid:3557) 1, 1) (cid:3450) R given by x F (x) = 1 (cid:3557) x2 is a homeomorphism.
+Example 3.18 The identity map g : R (cid:3450) R is bijective and continuous, but it is not a homeo- l morphism.
+Example 3.19 Let S1 denote the unit circle, S1 = {(x, y) : x2 + y2 = 1} considered as a subspace of the plane R2, and let F : [0, 1] (cid:3450) S1 be a map defined by f (t) = (cos 2πt, sin 2πt).
+The map F is bijective and continuous, but F (cid:3557) 1 is not continuous.
+Theorem 3.7 Let X, Y and Z be topological spaces.
+If f : X (cid:3450) Y and g : Y (cid:3450) Z are continuous, then the map g (cid:4311) f : X (cid:3450) Z is continuous.
+Proof.
+Let W be an open set in Z, (g (cid:4311) f )(cid:3557) 1 (W ) = f (cid:3557) 1 (cid:4311) g(cid:3557) 1(W ) = f (cid:3557) 1(g(cid:3557) 1(W ))  Since f and g are continuous, g(cid:3557) 1(W ) is open in Y implies that f (cid:3557) 1(g(cid:3557) 1(W )) are open in X.
+Thus, g (cid:4311) f is continuous on X.
+11 3.7 Homeomorphism SEPARATION AXIOMS Theorem 3.8 (Restricting the domain).
+If f : X (cid:3450) Y is continuous, and if A is a subspace of X, then the restricted function f : A (cid:3450) Y is continuous.
+|A Proof.
+You have to show that f (cid:3557) 1(W ) is open in the subspace topology τ on A induced |A A by the topology τ on X for any open set W in Y.
+So let W be an open set in Y.
+By the continuity of f on X, f (cid:3557) 1(W ) is open in X and f (cid:3557) 1(W ) = {x (cid:3547) A : f (x) (cid:3547) W } |A |A = {x (cid:3547) A : f (x) (cid:3547) W } = A (cid:3580) {x (cid:3547) X : f (x) (cid:3547) W } = A (cid:3580) f (cid:3557) 1(W ) which implies that f (cid:3557) 1 (W ) open in the subspace topology τ .
+|A A Theorem 3.9 (Restricting or expanding the range).
+Let f : X (cid:3450) Y be continuous.
+1.
+If Z is a subspace of Y containing the image set f (X ), then the map g : X (cid:3450) Z obtained by restricting the range of f is continuous.
+2.
+If Z is a space having Y as a subspace, then the function h : X (cid:3450) Z obtained by expanding the range of f is continuous.
+Proof.
+1.
+You know that since Z is a subspace of Y, the subspace topology on τ induced on Z by Z the topology τ on Y is given by τ = {V (cid:3580) Z : V (cid:3547) τ }.
+Z Now, let V be open in Y (meaning that Z (cid:3580) V is open in Z ), you have to show that g(cid:3557) 1(Z (cid:3580) V ) is open in X.
+You can compute as follows g(cid:3557) 1(Z (cid:3580) V ) = {x (cid:3547) X : g(x) = f (x) (cid:3547) Z (cid:3580) V } = {x (cid:3547) X : f (x) (cid:3547) V } = f (cid:3557) 1(V ) 2.
+Using similar argument on the subspace topology as in (1) above, let W be open in Z, then Y (cid:3580) W is open in Y (because Y is a subspace of Z ) and h(cid:3557) 1 (W ) = {x (cid:3547) X : h(x) (cid:3547) W } = {x (cid:3547) X : f (x) (cid:3547) W } = {x (cid:3547) X : f (x) (cid:3547) Y (cid:3580) W } = f (cid:3557) 1 (Y (cid:3580) W ) is open in X because f is continuous and f (cid:3557) 1(Y (cid:3580) W ) is open in X.
+Hence h is continu- ous.
+12 3.7 Homeomorphism SEPARATION AXIOMS Theorem 3.10 (The pasting lemma) Let X = A (cid:3581) B, where A and B are closed in X.
+Let f : A (cid:3450) Y and g : B (cid:3450) Y be continuous.
+If f (x) = g(x) for every x (cid:3547) A (cid:3580) B, then the function h : X (cid:3450) Y defined by   f (x) if x (cid:3547) A h(x) =  g(x) if x (cid:3547) B is continous.
+Proof.
+Let F be a closed set in Y. h(cid:3557) 1 (F ) = {x (cid:3547) X : h(x) (cid:3547) F } = {x (cid:3547) A : f (x) (cid:3547) F } (cid:3581) {x (cid:3547) B : g(x) (cid:3547) F } = f (cid:3557) 1(F ) (cid:3581) g(cid:3557) 1(F ).
+f (cid:3557) 1(F ) is closed in X because it is closed in A and A is closed in X, also g(cid:3557) 1(F ) is closed in X since it is closed in B and B is closed in X.
+Hence h(cid:3557) 1(F ) is closed in X as a finite union of closed sets in X.
+Hence, h is continuous.
+Example 3.20 Let h : R (cid:3450) R be defined by   x , if x (cid:3640) 0 2 h(x) =  x, if x (cid:3639) 0. then h is continuous.
+To see this, Set A = [0, +(cid:3569) ) and f : A (cid:3450) R, defined by f (x) = x , also let B = ((cid:3557) (cid:3569) , 0] 2 and g : B (cid:3450) R, defined by g(x) = x.
+Observe that A and B are closed sets in R and R = A(cid:3581) B. f and g continuous functions, A (cid:3580) B = {0} and f (0) = g(0) = 0.
+Hence by pasting lemma, h is continuous.
+Theorem 3.11 (Maps in products) Let f : Z (cid:3450) X × Y be given by f (z) = (f (x), f (y)).
+1 2 Then f is continuous if and only if the functions f : Z (cid:3450) X and f : Z (cid:3450) Y 1 2 are continuous.
+The maps f and f are called coordinate functions of f. 1 2 Proof.
+Let π : X × Y (cid:3450) X and π : X × Y (cid:3450) Y be projections maps.
+These maps are 1 2 continuous.
+Note that for each z (cid:3547) Z,  13 3.8 More on Separation Axioms SEPARATION AXIOMS f (z) = π (f (z)) and f (z) = π (f (z)).
+1 1 2 2 If f is continuous then f and f are continuous as composites of continuous functions.
+1 2 Conversely, suppose that f and f are continuous.
+Let U × V be a basis element of for the 1 2 product topology in X × Y.
+A point z is in f (cid:3557) 1 (U × V ) if and only if f (z) (cid:3547) U × V, that is, if and only if f (z) (cid:3547) U and f (z) (cid:3547) V. Therefore 1 2 f (cid:3557) 1(U × V ) = f (cid:3557) 1(U ) (cid:3580) f (cid:3557) 1(V ).
+1 2 Since both of the sets f (cid:3557) 1(U ) and f (cid:3557) 1(V ) are open, so is their intersection.
+1 2 3.8 More on Separation Axioms Theorem 3.12 Let X be a topological space and Y a Hausdorff space.
+Let f : X (cid:3450) Y be a map.
+If f is continuous, then the Graph of f Graph(f ) = {(x, f (x)) : x (cid:3547) X } is a closed subset of X × Y.
+Proof.
+Suppose f is continuous, you have to show that the graph of f is closed.
+It is enough for you to show that the complement of the graph of f is open in X ×Y.
+So let U = (Graph(t))c, and let (x , y ) (cid:3547) U.
+This implies that y = f (x ).
+Since Y is Hausdorff, there exist open sets 0 0 0 0 W and W in Y containing y and f (x ) respectively such that y0 f (x0 ) 0 0 W (cid:3580) W = y0 f (x0 ) (cid:3544) Since f is continuous at x , (because f is continuous) and x and W (cid:3547) N (f (x )), there 0 0 f (x0 ) 0 exists U (cid:3547) N (x ) such that f (U ) (cid:3669) W .
+Take x0 0 x0 f (x0 ) B = U × W .
+x0 y0 B is a basis element for the product topology on X × Y and for (x, y) (cid:3547) B, you have that x (cid:3547) U and y (cid:3547) W .
+Also x (cid:3547) U implies that f (x) (cid:3547) W and so y = f (x), thus x0 y0 x0 f (x0 ) (x, y) 6(cid:3547) Graph(f ), which implies that (x, y) 6(cid:3547) U.
+Thus B (cid:3669) U, and so U is open.
+Hence Graph(f ) is closed.
+Theorem 3.13 (Urysohn’s Lemma).
+Let A and B be two disjoint closed subsets of a normal space X.
+Then there exists a continuous function f : X (cid:3450) I such that f (A) = 0 and f (B) = 1.
+4 Conclusion In this unit, you were introduced to five separation axioms, Hausdorff, Regular and normal spaces.
+You also studied the concept of continuity and homeomorphism.
+You also proved some important results which you have often used in you courses in analysis.
+14 5 Summary SEPARATION AXIOMS 5 Summary In this unit you now know that (i) If X is a topological space, then X is T : If for all x, y (cid:3547) X with x = y, there exist an open set O such that either x (cid:3547) O and 0 y 6(cid:3547) O or y (cid:3547) O and x 6(cid:3547) O T : If for all x, y (cid:3547) X with x = y, there exist U (cid:3547) N (x) such that y 6(cid:3547) U .
+Or there 1 x x exists Uy (cid:3547) N (y) such that x 6(cid:3547) Uy T : If for all x, y (cid:3547) X with x = y, there exist U (cid:3547) N (x), U (cid:3547) N (y) such that 2 x y U (cid:3580) U = (cid:3544).
+T (cid:3557) spaces are called Hausdorff spaces.
+x y 2 T : If for every closed set F (cid:3669) X and every x (cid:3547) X such that x 6(cid:3547) F there exists open 3 sets U , U (cid:3669) X with F (cid:3669) U , x (cid:3547) U such that U (cid:3580) U = (cid:3544).
+F x F x F x T : if for any two closed sets E, F (cid:3669) X with E (cid:3580) F = (cid:3544) there exists open sets U , U (cid:3669) 4 E F X such that E (cid:3669) U , F (cid:3669) U and U (cid:3580) U = (cid:3544).
+E F E F (ii) X is a regular space if it is both T and T .
+1 3 (iii) X is a normal space if it is both T and T .
+Also X is normal if and only if it is both 1 4 Hausdorff (T ) and T .
+2 4 (iv) A function f : X (cid:3450) Y between topological spaces X and Y is continuous if for every open set V of Y, the preimage f (cid:3557) 1 (V ) = {x (cid:3547) X : f (x) (cid:3547) V } is open in X.
+(v) f : X (cid:3450) Y is a homeomorphism if f is bijective and f and f (cid:3557) 1 : Y (cid:3450) X are continuous.
+(vi) Topological spaces X and Y are homeomorphic if there exist a homeomorphism f : X (cid:3450) Y between them.
+(vii) A sequence {x } in a topological space is convergent to x (cid:3547) X if given any neighbour- n hood V of x, we can find an integer N (cid:3547) N such that for all n (cid:3640) N, x (cid:3547) V. n (viii) In a Hausdorff space, every singleton is closed.
+(ix) In a Hausdorff space, the limit of a convergent sequence is unique (x) Urysohn’s lemma.
+If A and B be two disjoint closed subsets of a normal space X.
+Then there exists a continuous function f : X (cid:3450) I such that f (A) = 0 and f (B) = 1.
+(xi) A topological space X is metrizable if its topological structure is generated by a certain metric.
+(xii) Every metrizable space is Hausdorff.
+15 6 TMAs SEPARATION AXIOMS 6 TMAs Exercise 6.1 1.
+Which of the following spaces is Hausdorff?
+(a) The discrete space.
+(b) The indiscret space.
+(c) R with the finite complement topology.
+(d) X = {a, b} endowed with the topology τ = {(cid:3544) , X, {a}} 2.
+Which of the following spaces is not Hausdorff?
+(a) R with the standard topology.
+(b) R with the lower limit topology.
+(c) R with the metric topology.
+(d) R with the finite complement topology.
+3.
+If {x } be a sequence in R endowed with the finite complement topology.
+If {x } n n con- verges in R then (a) the limit is unique.
+(b) {x } converges to only two points.
+n (c) {x } converges to one point in R and one point outside R. n (d) {x } converges to every element of R n 4.
+In the finite complement topology of R, let the sequence {x } be defined by x = n, for n n n (cid:3547) N. If the limit of the sequence is x, then x must be (a) (cid:3569) (b) 0 (c) a unique constant (d) arbitrary in R 5.
+Which of the following spaces is not metrizable.
+(a) Any discrete space (b) X with the countable complement topology.
+(c) R with the standard topology.
+(d) R2 with the standard topology.
+6.
+Which of the following is not true about T (cid:3557) spaces 1 (a) Every singleton is closed (b) Every finite set is closed (c) Every Hausdorff space is T .
+1 16 6 TMAs SEPARATION AXIOMS (d) Every T space is Hausdorff.
+1 7.
+Let X be a topological space that satisfies the Kolmogorov axiom (T ).
+Which of the 0 following is not true about X ?
+(a) Any two different points of X has different closures.
+(b) X contains no indiscrete subspace consisting of two points.
+(c) X contains no indiscrete subspace consisting of more than one point.
+(d) X has an indiscrete subspace consisting of two points only.
+8.
+Let X be a topological space.
+The X is regular if (a) X is both T and T .
+1 2 (b) X is T only 3 (c) X is both T and T 2 3 (d) X is T only.
+2 9.
+Which of the following spaces is not regular.
+(a) R (b) Q (c) Z (d) Every Hausdorff space X.
+(Where R, Z and Q are with the standard topology on R.) 10.
+In what follows, answer true of false.
+(Justify you claims).
+(a) Let f : R (cid:3450) R be defined by   x (cid:3557) 2 f or x (cid:3639) 0 f (x) =  x + 2 f or x (cid:3640) 0 then f is continuous.
+(b) The identity map id : (X, Ω ) (cid:3450) (X, Ω ) 1 2 if and only if Ω (cid:3669) Ω .
+Where Ω and Ω are topological structures on X.
+2 2 1 2 (c) The function f : R (cid:3450) R defined by l f (x) = x is continuous.
+Where R denotes the lower limit topology on R and R is endowed l with the standard topology.
+(d) Let f : R (cid:3450) R be as defined in (c) above, with R and R are as in (c).
+Then f is l l continuous.
+(e) If X is T , then it must be T .
+4 2 17 6 TMAs SEPARATION AXIOMS (f) Every normal space is both regular and Hausdorff.
+(g) Every open and bounded interval (a, b) of R, a < b is homeomorphic to R. (h) The closed and bounded interval [a, b] of R, is homeomorphic to [0, 1] (i) X is Hausdorff if and only if the diagonal ∆ = {(x, x) : x (cid:3547) X } is closed in X × X.
+1  18 2  UNIT 3: CATEGORY AND SEPARABILITY Contents 1 Introduction 1 2 Objectives 2 3 Main Content 2 3.1 Dense Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.1.1 Baire Spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+3 3.2 The Axioms of Countability .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+3 3.2.1 Second Countablity axiom .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.2.2 Separability and Separable Spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 3.2.3 Sequence Lemma .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+5 3.2.4 Neighbourhood Basis .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.2.5 First Countability Axiom .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 3.2.6 Sequence Lemma Revisited .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 4 Conclusion 10 5 Summary 10 6 Tutor Marked Assignments (TMAs) 11 1 INTRODUCTION In this unit, you shall be introduced to the notion of category, separability and axioms of count- ability.
+You shall be introduced with dense sets, and see some sets of the first and second categories.
+3  2 Objectives CATEGORY AND SEPARABILITY 2 OBJECTIVES At the end of this unit, you should be able to: (i) identify dense sets and nowhere dense sets.
+(ii) identify sets of first and second categories.
+(iii) identify separable spaces spaces.
+(iv) state the first and second countability axioms.
+(v) identify first and second countable space.
+(vi) state and prove the sequence lemma and its converse.
+3 Main Content 3.1 Dense Sets Definition 3.1 (Dense Sets) Let X be a topological space and let A and B be two subsets of X.
+A is dense in B if B (cid:3669) A.
+A is dense in X or everywhere dense in X if A = X.
+Example 3.1 Q the set of rational numbers is a dense subset of R because Q = R. Proof.
+Suppose Q = R. Then there exists an x (cid:3547) R r Q.
+As R r Q is open in R, there exist a, b with a < b such that x (cid:3547) (a, b) (cid:3669) R r Q.
+But in every interval (a, b) there is a rational number q; that is q (cid:3547) (a, b).
+So q (cid:3547) R r Q which implies q (cid:3547) R r Q.
+This is a contradiction, as q (cid:3547) Q.
+Hence Q = R. Example 3.2 Let X = {a, b, c, d, e} and τ = {X, (cid:3544), {a}, {c, d}, {a, c, d}, {b, c, d, e}} It is easy to see that {b} = {b, e}, {a, c} = X, and {b, d} = {b, c, d, e}.
+Thus the set {a, c} is dense in X.
+Example 3.3 Let (X, τ ) be a discrete space.
+Then every subset of X is closed (since its com- plement is open).
+Therefore the only dense subset of X is X itself, since each subset of X is its own closure.
+Theorem 3.1 Let (X, τ ) be a topological space, and let A be a subset of X.
+A is dense in X if and only if every nonempty open subset U of X, A (cid:3580) U = (cid:3544).
+Proof.
+Assume that for all open set U of X, U (cid:3580) A = (cid:3544).
+If A = X, then clearly A is dense in X.
+If A = X, let x (cid:3547) X r A.
+If U (cid:3547) τ and x (cid:3547) U then U (cid:3580) A = (cid:3544).
+So x is a limit point of A.
+4  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY As x is an arbitrary point in X r A, every point of X r A is a limit point of A.
+So X r A (cid:3669) A0 , and then by theorem 3.8 of unit 1, A = A0 (cid:3581) A = X ; that is, A is dense in X. Conversely, assume A is dense in X.
+Let U be a nonempty open subset of X.
+Suppose U (cid:3580) A = (cid:3544).
+Then if x (cid:3547) U, x 6(cid:3547) A and x is not a limit point of A, since U is an open set containing x which does not contains any element of A.
+That is a contradiction since, as A is dense in X, every element of X r A is a limit point of A.
+So the supposition is false and U (cid:3580) A = (cid:3544), as required.
+Definition 3.2 ( Sets) A set is nowhere dense if the set A has empty interior.
+Definition 3.3 Let A be a subset of a topological space (X, τ ).
+Let p (cid:3547) X.
+The point p is an isolated point a the set A if p (cid:3547) A and there exist Up (cid:3547) N (p) such that (A r {p}) (cid:3580) Up = (cid:3544).
+3.1.1 Baire Spaces Definition 3.4 Let Y be a subset of a topological space (X, τ ).
+If Y is a union of a countable number of nowhere dense subsets of X, then Y is said to be a set of the first category or meager.
+If Y is not first category, it is said to be a set of the second category.
+Definition 3.5 A topological space (X, τ ) is said to be a Baire Space if for every sequence T {X } of open dense subsets of X, the set ∞ is also dense in X. n n =1 Example 3.4 Every complete metric space is a Baire space.
+3.2 The Axioms of Countability.
+In this section, you shall be introduce to three restriction on the topological structure.
+These are first and second countability axioms and the separability.
+Before proceeding to state these axioms, you have the following important definition and results.
+Definition 3.6 (Cardinality) Two sets A and B have equal cardinality if there exists a bijection between them.
+Definition 3.7 (Countable Sets) A set A is said to be a countable set if it has the same cardi- nality as a subset of the set N of positive integers.
+While A is said to be at mmost countable if it has the same cardinality as the set N of positive integers.
+Results: The following results will be stated without proof, because that is not the major interest here.
+You can find the proofs in any good textbook on topology or analysis.
+1.
+A set X is countable if and only if there exists an injection ϕ : X (cid:3450) N (or, more generally, an injection of X into another countable set).
+5  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY 2.
+Any subset of a countable set is countable, 3.
+The image of a countable set under any map is countable.
+4.
+Z is countable.
+5.
+The set N2 = {(k, n) : k, n (cid:3547) N} is countable.
+6.
+The union of a countable family of countable sets is countable.
+7.
+Q is countable.
+8.
+R is not countable.
+3.2.1 Second Countability axiom First of all, you shall be introduced to the second countability axiom and separability.
+Definition 3.8 (Second Countability axiom) A topological space X satisfies the second axiom of countability or is second countable if X has a countable basis.
+Example 3.5 R endowed with the standard topology is second countable.
+The basis B = {(a, b), a < b, a, b (cid:3547) Q} (cid:3599)= Q × Q.
+Hence is countable.
+Also 1 1 B = r (cid:3557) , r + , r (cid:3547) Q, n (cid:3640) 1 n n is a countable basis of R. Example 3.6 R endowed with the lower limit topology is not second countable.
+Example 3.7 The discrete topology of any uncountable set is not second countable.
+Example 3.8 Not all metric spaces are second contable.
+For instance R with the discrete metric i.e.,   1 if x = y ρ (x, y) = 0  0 if x = y is not second countable.
+6  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY 3.2.2 Separability and Separable Spaces.
+Definition and Examples Definition 3.9 (Separability) A topological space X is separable if it contains a countable dense subset.
+Example 3.9 R endowed with the standard topology is separable because Q is a countable dense subset of R. Example 3.10 Any infinite set X endowed with the finite complement topology is separable since any infinite set is dense in X.
+Example 3.11 The set of all points x = (x , x , ..., x ) with rational coordinates is a countable 1 2 n dense subset in the metric space Rn .
+Hence Rn is separable.
+Example 3.12 The set of all points x = (x , x , ..., x , ...) with only finitely many nonzero 1 2 k rational coordinates, is countably dense in the space ( ) X∞ l2 = x = (x1, x2, ..., xk , ..) : |xk |2 < (cid:3569) k=1 Hence, l is separable.
+2 Example 3.13 The set of all polynomials with rational coefficients is countably dense in the space C [a, b] of continuous real valued function.
+Hence C [a, b] is separable.
+Theorem 3.2 Any second countable topological space X is separable.
+Proof.
+Suppose X is second countable, then X contains a countable basis B = {B , n (cid:3547) N}.
+n For each n (cid:3547) N choose dn (cid:3547) Bn and define D = {dn , n (cid:3640) 1} then D is dense in X.
+Remark 3.1 The converse of this theorem is not true in general.
+Notwithstanding in a metric space, second countability and separability are equivalent.
+Theorem 3.3 Let (X, d) be a separable metric space then X is second countable.
+Proof.
+Since X is separable, D = {d , n (cid:3547) N} is a countable dense subset of X.
+Take n B = {B(dn , 1m ), n (cid:3640) 1, m (cid:3640) 1} Then B is a countable basis for (X, d) 3.2.3 Sequence Lemma Definition 3.10 A topological space (X, τ ) is metrizable if there exists a metric d on the set X such that the topology τ on X is induced by d. Theorem 3.4 (Sequence Lemma) 7  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY 1.
+Let X be a topological space, and A be a subset of X.
+If there exists a sequence {x } of n elements of A converging to x (cid:3547) X, then x (cid:3547) A.
+The converse holds if X is metrizable.
+2.
+Let X and Y be topological spaces, and f : X (cid:3450) Y be a function.
+If the function f is continuous, then for every sequence {x } is in X such that {x } converges to x (cid:3547) X, n n The sequence {f (x )} converges to f (x) in Y.
+The converse is true if X is metrizable.
+n Proof.
+1.
+Let x (cid:3547) X.
+Suppose that there exists a sequence {x } in A such that x (cid:3450) x, you have to n n show that x (cid:3547) A.
+Let U be a neighbourhood of x, x (cid:3450) (cid:3569) as n (cid:3450) (cid:3569) implies that n there exist N (cid:3547) N such that for all n (cid:3640) N, x (cid:3547) U.
+In particular, x (cid:3547) U.
+But x (cid:3547) n N N A implies that U (cid:3580) A = (cid:3544).
+which implies that x (cid:3547) A. Conversely, suppose that X is metrizable and x (cid:3547) A.
+Let d be a metric for the topology of X.
+For each n (cid:3640) 1, the neighbourhood 1 B x, (cid:3580) A = (cid:3544).
+n Choose x (cid:3547) B(x, 1 ) (cid:3580) A for n (cid:3640) 1.
+Then, {x } is a sequence of points of A and n n n 0 (cid:3639) d(xn , x) < n1 (cid:3450) 0 as n (cid:3450) (cid:3569) which implies that x (cid:3450) x as n (cid:3450) (cid:3569) .
+n 2.
+Assume that f is continuous.
+Let {x } be a sequence in X such that x (cid:3450) x as n (cid:3450) (cid:3569) .
+n n You have to show that f (x ) (cid:3450) f (x).
+Let V be a neighbourhood of f (x).
+Then f −1 (V ) n is a neighbourhood of x, and so there exists N (cid:3640) 1 such that xn (cid:3547) f −1(V ) for n (cid:3640) N. Then f (xn ) (cid:3547) V for n (cid:3640) N, which implies that f (xn ) (cid:3450) f (x) as n (cid:3450) (cid:3569) as desired.
+Conversely, assume that the convergence condition is satisfied.
+Let A be a subset of X.
+You have to show that f is continuous, it suffices to show that f (A) (cid:3669) f (A).
+If x (cid:3547) A, there exists a sequence {x } of points of A converging to x (by seqence lemma).
+By n assumption the sequence the seqeunce {f (x )} converges to f (x).
+Since f (x ) (cid:3547) f (A), n n the sequence lemma implies that f (x) (cid:3547) f (A), as desired.
+3.2.4 Neighbourhood Basis Definition 3.11 (Neighbourhood basis).
+Let (X, τ ) be a topological space and let x (cid:3547) X.
+The collection W is called a neighbourhood basis of the point x if the following conditions are satisfied; (i) W is a subcollection of neighbourhoods of x (W (cid:3669) N (x)) i.e., for all W (cid:3547) W, W (cid:3547) N (x).
+(ii) For all V (cid:3547) N (x), there exist W (cid:3547) W such that W (cid:3669) V. 8  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY Example 3.14 Let R be endowed with the standard topology.
+Then for all x (cid:3547) R, W = {(x (cid:3557) , x + ), > 0} is a neighbourhood basis of x.
+Proof.
+(i) Let x (cid:3547) X.
+Clearly, for all > 0, (x(cid:3557) , x+ ) is a neighbourhood of x and so W (cid:3669) N (x).
+(ii) Let V (cid:3547) N (x) then there exist an open set U such that x (cid:3547) U (cid:3669) V. This implies that there exists > 0 such that (x (cid:3557) , x + ) (cid:3669) U (cid:3669) V. Example 3.15 Let (X, d) be a metric space, let x (cid:3547) X, then W = {B (x, ), > 0} d is a neighbourhood basis in the metric topology.
+Example 3.16 Let R denote the real line endowed with the lower limit topology.
+Let x (cid:3547) X, l then W = {[x, x + ), > 0} is a neighbourhood basis for the lower limit topology on the real line.
+Example 3.17 Let (X, τ ) be a discrete topololgical space.
+Then for all x (cid:3547) X, W = {{x}, x (cid:3547) X } is a neighbourhood basis of x in the discrete topology.
+3.2.5 First Countability Axiom Definition 3.12 (First Countability Axiom) A topological space X satisfies the first count- ability axiom or is said to be first countable if any point x (cid:3547) X has a countable neighbourhood basis.
+Example 3.18 Let R be endowed with the standard topology.
+For all x (cid:3547) R define 1 1 W = x (cid:3557) , x + : n (cid:3640) 1 n n or W = {(x (cid:3557) r, x + r), r > 0, r (cid:3547) Q} In each case, W is a countable neighbourhood basis of x.
+Thus R is first countable.
+Example 3.19 Let R be endowed with the lower limit topology.
+For all x (cid:3547) R, define 9  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY W = x, x + 1 , n (cid:3640) 1 .
+n Then W is a countable neighbourhood basis for x.
+Hence, R with the lower limit topology is first countable.
+Example 3.20 Let (X, d) be a metric space.
+for every x (cid:3547) X, define 1 W = B x, : n (cid:3640) 1 n or W = {B(x, r) : r > 0, r (cid:3547) Q} Then in each case, W is a countable neighbourhood basis of x.
+Thus every metric space is first countable.
+Theorem 3.5 Let (X, τ ) be a topological space.
+If X is second countable, then X is first countable.
+Proof.
+Assume that X is second countable, then X has a countable basis B = {b , n (cid:3547) N}.
+n Let x (cid:3547) X, and define W = {Bx, x (cid:3547) Bn } then W (cid:3669) B, so that W is countable.
+1.
+For all B (cid:3547) W, B (cid:3547) N (x).
+n n 2.
+Let V (cid:3547) N (x), this implies that there exists an open set U such that x (cid:3547) U (cid:3669) V. This implies that there exists B (cid:3547) W such that x (cid:3547) B (cid:3669) U (cid:3669) V, so that B (cid:3669) V nx nx nx Thus W is a countable neighbourhood of x.
+Hence X is first countable 3.2.6 Sequence Lemma Revisited Recall that in the sequence lemma which you proved above, It says that if A is subset of a topologicals space X and there exists a sequences {x } of points of A such that x (cid:3450) x in X as n n n (cid:3450) (cid:3569) , then x (cid:3547) A.
+And you proved the converse in a metrizable space.
+This tells that the implication ((cid:3514) ) If {x } is a sequence in A such that x (cid:3450) x in X, then x (cid:3547) A n n is true in any topological space.
+But the converse If x (cid:3547) A then there exists a sequence {x } of A such that x (cid:3450) x n n is only true if X is a metrizable space.
+Similarly for the continuous function f : X (cid:3450) Y, sequential continuity holds for topological spaces X and Y, i.e., 10  3.2 The Axioms of Countability CATEGORY AND SEPARABILITY f is continuous (cid:3514) for all sequence {x } of X such that x (cid:3450) x in X, f (x ) (cid:3450) f (x) in Y. n n n The converse i.e., For a sequence {x } of X such tha if x (cid:3450) x implies that f (x ) (cid:3450) f (x) then f is continuous; n n n holds if and only if X is metrizable.
+In what follows, you shall discorver that if X is a first countable space the X also recorvers the converse of the sequence lemma.
+i.e., the converses of the sequential closure and the se- quential continuity.
+Before you proceed, the following lemma will be usefull.
+Lemma 3.1 Let X be a topological space and let x (cid:3547) X.
+Suppose X is first countable, then there exist a countable basis of x, say, W = {W , n (cid:3640) 1} such that W (cid:3669) W .
+n n+1 n Proof.
+Let x (cid:3547) X.
+Since X is first countable then there exists a countable neighbourhood basis V = {V , n (cid:3640) 1} of x.
+Define for each n (cid:3640) 1, n \n W = V n i i=1 and let W = {W , n (cid:3640) 1} Then n (i) W is countable.
+(ii) W (cid:3547) N (x), for each n (cid:3640) 1, because finite intersection of neighbourhoods of a point x n is also a neighbourhood of x.
+(iii) Let V (cid:3547) N (x), there exists N (cid:3547) N such that V (cid:3547) V and x (cid:3547) V (cid:3669) V. But N N \N W = V (cid:3669) V (cid:3669) V. N i N i=1 Thus for every V (cid:3547) N (x) there exist N such that W (cid:3547) W and W (cid:3669) V. N N n\+1 \n n\ (iv) W = V = V (cid:3580) V (cid:3669) V = W .
+That is W (cid:3669) W .
+n+1 i n+1 i i n n+1 n i=1 i=1 i=1 Thus W is a countable neighbourhood basis of x that satisifies W (cid:3669) W , n (cid:3640) 1. n+1 n Theorem 3.6 Let X be a first countable topological space and A be a subset of X.
+Then if x (cid:3547) A, there exists a sequence {x } of A such that x (cid:3450) x as n (cid:3450) (cid:3569) .
+n n Proof.
+Since X is first countable, from lemma 3.1, there exists a countable neighbourhood W = {W , n (cid:3640) 1} such that W (cid:3669) W .
+Now let x (cid:3547) A.
+This implies that for all n (cid:3640) 1, n n+1 n W (cid:3580) A = (cid:3544).
+Let x (cid:3547) W (cid:3580) A.
+Then {x } is a sequence of points of A. n n n n Claim: xn (cid:3450) x as n (cid:3450) (cid:3569) 11  4 Conclusion CATEGORY AND SEPARABILITY Proof of Claim: Let V (cid:3547) N (x).
+Then there exists N (cid:3547) N such that x (cid:3547) W (cid:3669) V and for N all n (cid:3640) N, x (cid:3547) W (cid:3669) W (cid:3669) V. n n N This implies that for all n (cid:3640) N, x (cid:3547) V. Hence x (cid:3450) x as n (cid:3450) (cid:3569) .
+And the proof is complete.
+n n Theorem 3.7 Let X and Y be two topological spaces.
+And let f : X (cid:3450) Y be a function.
+Suppose X is first countable.
+If for every sequence {x } of X such that x (cid:3450) x in X as n n n (cid:3450) (cid:3569) , one has that f (x ) (cid:3450) f (x) in Y then f is continuous.
+n Proof.
+It suffices to prove that if F is closed subset of Y, then the preimage f −1 (F ) is closed in X, i.e., f −1 (F ) = f −1(F ).
+But you have already that f −1 (F ) (cid:3669) f −1(F ), so it is left for you to show that f −1(F ) (cid:3669) f −1(F ).
+So let x (cid:3547) f −1 (F ), Since X is first countable, you have by seqeunce lemma that there exist a sequence {x } of points of f −1(F ) such that n x (cid:3450) x as n (cid:3450) (cid:3569) .
+This implies that f (x ) is a sequence of elements of F, and by assumption, n n f (x ) (cid:3450) f (x) in Y.
+Since F is closed, F = F and so f (x) (cid:3547) F, that is x (cid:3547) f −1(F ).
+Thus n f −1(F ) (cid:3669) f −1(F ) as required.
+Therefore, f −1(F ) is closed in X.
+Hence f is continuous.
+4 Conclusion In this unit you were introduced to dense sets, sets of first and second category, and Baire spaces.
+You also studied the axioms of countability and separability and saw some examples of spaces that satisfy some of the axioms.
+You were able to prove that a first countable space satisfies the converse of the sequence lemma.
+5 Summary Having gone through this unit, you now know that; (i) A subset A of a topological X is dense in B (cid:3669) X if B (cid:3669) A.
+A is everywhere dense in X if A = X, while A is nowhere dense in X if int(A) = (cid:3544).
+(ii) A subset Y of a topological space X is of the first category if Y is a countable union of sets of nowhere dense subsets of X.
+Otherwise Y is of the second category.
+(iii) A set is countable if it has the same cardinality with at least a subset of a countable set.
+(iv) A point p (cid:3547) X is called an isolated point of a subset A of a topological space X if there exists a neighbourhood U of p such that (A r {p}) (cid:3580) U = (cid:3544).
+(v) W is a neighbourhood basis of a point x (cid:3547) X if (a) for all W (cid:3547) W, W (cid:3547) N (x).
+(b) V (cid:3547) N (x) then there exists W (cid:3547) W such that W (cid:3669) V. (vi) A topological space is first countable if it contains a countable neighbourhood basis.
+12  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY (vii) A topological space is second countable if it contains a countable basis.
+(viii) A topological space is separable if it contains a countable dense subset.
+(ix) Every second countable space is first countable.
+(x) Every second countable space if separable.
+The converse is true if the space is metrizable.
+(ix) A topological space X is metrizable if its topological structures can be generated by a metric.
+(x) Sequence Lemma (a) If there exists a sequence {x } of elements of a subset A of a topological space X, n such that xn (cid:3450) x (cid:3547) X, then x (cid:3547) A.
+(b) If f : X (cid:3450) Y is continuous, then for all sequence {x } of elements of X, such that n xn (cid:3450) x in X then f (xn ) (cid:3450) f (x) in Y.
+The converse of the sequence lemma is true if X is either first countable or metrizable.
+6 Tutor Marked Assignments (TMAs) Exercise 6.1 1.
+X = {a, b, c, d, e} and τ = {X, (cid:3544), {a}, {c, d}, {a, c, d}, {b, c, d, e}} Let A = {a, c}.
+The set A0 of limit points of A is given by (a) A0 = {b, c, e} (b) A0 = {b, d, e} (c) A0 = {b, e} (d) A0 = X 2.
+Let R the real line be endowed with the discrete topology.
+Which of the following subsets of R is dense in R?
+(a) Q (b) R itself (c) Qc.
+(d) All singletons.
+3.
+Let A = (0, 1] (cid:3581) {2} be a subset of R. Then the isolated points of A in R are (a) 0 and 1 (b) 0 and 2 (c) 1 and 2 13  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY (d) 2 only 4.
+For the set A in question 3, Which of the following are the limit points of A?
+(a) 0 and 1 (b) 1 and 2 (c) 0 only (d) 2 only 5.
+In R with the standard topology, which of the following sets is nowhere dense?
+(a) Qc (b) {1, 1 , 1 , ..., 1 , ...} 2 3 n (c) (0, 1) (d) [0, 1) 6.
+The minimal neighbourhood basis of a point x in the discrete topology contains (a) the whole set X and the empty set (cid:3544) only.
+(b) Only the singletons.
+(c) All open sets of X only.
+(d) The whole set X only.
+7.
+The minimal neighbourhood of a point x in the indiscrete topology contains (a) the whole set X and the empty set (cid:3544) only.
+(b) Only the singletons.
+(c) The empty set only.
+(d) The whole set X only.
+8.
+Which of the following spaces is second countable?
+(a) R with the finite complement topology.
+(b) R with the countable complement topology.
+(c) R with the lower limit topology.
+(d) N with the discrete topology.
+9.
+Which of the following spaces is not first countable?
+(a) R endowed with the lower limit topology.
+(b) R endowed with the finite complement topology.
+(c) R endowed with the discrete topology.
+(d) Q endowed with the indiscrete topology.
+14  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY UNIT 4: COMPACTNESS Contents 1 Introduction 1 2 Objectives 2 3 Compact Sets and Spaces 2 3.1 Definitions and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.1.1 Compactness in Product Spaces .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.1.2 Heine-Borel Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 3.2 Finite Intersection Property (FIP) .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+8 3.3 Compactness and Continuous function .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+10 3.3.1 The Extremum Value Theorem .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+11 3.4 Limit Point and Sequential Compactness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 3.4.1 Limit Point Compactness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+12 3.4.2 Sequential Compactness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+13 3.5 Locally Compactness and One-point Compactification .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+14 3.5.1 Local Compactness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+14 3.5.2 One-point Compactification .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+14 4 Conclusion 15 5 Summary 15 6 Tutor Marked Assignments(TMAs) 16 1 INTRODUCTION In this unit, you shall be introduced to a topological property playing a very special and impor- tant role in topology and its application.
+It is a sort of topological counterpart for the property of being finite in the context of set theory.
+15  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 1 16  62 TOubtjoerc tMiveasr k ed Assignments (TMAs) CATEGORY ANDC OMPACTNESS SEPARABILITY 2 Objectives At the end of this unit, you should be able to; (i) Give the definition of Covers and subcorvers.
+(ii) Define compact sets, subsets and compact spaces.
+(iii) Give the sequential characterization of compactness.
+(iv) Identify sequentially, countably and locally compact sets.
+3 Compact Sets and Spaces 3.1 Definition and Examples Definition 3.1 (Covering and Open Cover) A collection A of subsets of X is said to be a corvering of X, If the union of the elements of A is X.
+i.e., [ X = O i i(cid:3547)I where U (cid:3547) A for all i (cid:3547) I , (I is an index set).
+A is called open covering if its elements are i open subsets of X.
+Definition 3.2 (Subcover) If A is a covering of X and O (cid:3669) A is also a covering of X, then O is a subcover or subcovering of A.
+Definition 3.3 (Compact Set) A topological space X is compact if every open covering of X is reducible to a finite subcovering.
+That is A topological space X is compact if for every open covering {O } , there exists a i i(cid:3547)I finite subfamily O , O , ..., O such that such that i1 i2 in [n X = O i k k=1 Definition 3.4 Let A be a subset of a topological space X.
+Then A is said to be compact if for every family of open sets {O } such that i i(cid:3547)I [ A (cid:3673) O , i i(cid:3547)I there exists a finite subfamily O , O , ..., O such that i1 i2 in [n A (cid:3673) O .
+i k k=1 17  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 2 18  63 .T1u toDr e Mfinairtkioends Aansdsi gEnxmamenptsle s(T MAs) CATEGORY ANDC OMPACTNESS SEPARABILITY Example 3.1 Let X be endowed with the indiscrete topology.
+Then X is compact.
+Proof.
+In the indiscrete topology, the only open covering of X is the (cid:3544) and X itself.
+Hence, X is compact.
+Example 3.2 The real line R endowed with the standard topology is not compact.
+Proof.
+It suffices to produce an open covering of R which cannot be reducible to a finite subcovering.
+Now [(cid:3569) R = ((cid:3557) n, n) n=1 If there exist a finite open subcover, then there exists n , n , ..., n such that 1 2 m [m R = ((cid:3557) n , n ) = ((cid:3557) N, N ) i i i=1 Where N = max n .
+Which is impossible.
+Hence R is not compact.
+i 1(cid:3639) i(cid:3639) m Example 3.3 Let A = (0, 1].
+Then A is not compact in R. Proof.
+In (0, 1] we have the trace topology (i.e., subspace topology) {( 1 , 2), n (cid:3547) N} is an n open covering of [(cid:3569) 1 (0, 1] = , 2 n n=1 Suppose that (0, 1] is compact, then there exists n , ..., n such that 1 m m[ 1 1 (0, 1] = , 2 = , 2 n N i i=1 Where N = max n , which is a contradiction.
+Hence (0,1] is not compact.
+i 1(cid:3639) i(cid:3639) m Example 3.4 = (0, +(cid:3569) ) is not compact.
++ R(cid:3562) Proof.
+Suppose that R(cid:3562) is compact, {( 1 , n), n (cid:3547) N} is an open covering of such that R(cid:3562) + n + [(cid:3569) 1 R(cid:3562) = , n + n n=1 So there exist n , ..., n such that i m [m 1 1 R(cid:3562) = , n = , N + n i N i i=1 19  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY Where N = max n .
+This is imposible i 1(cid:3639) i(cid:3639) m 3 20  63 .T1u toDr e Mfinairtkioends Aansdsi gEnxmamenptsle s(T MAs) CATEGORY ANDC OMPACTNESS SEPARABILITY Example 3.5 Let (X, τ ) be a topological space and let (x ) be a sequence of points of X such n that x (cid:3450) x in X, then {x , n (cid:3640) 1} (cid:3581) {x} is compact.
+n n Example 3.6 Any finite set of a topological set (X, τ ) is compact Proof.
+Let A (cid:3669) X be a finite set, the the elements of A can be listed, i.e., A = {x , x , ..., x }.
+1 2 n Let {O } be an open covering for A, i.e., i i(cid:3547)I [ A (cid:3673) Oi i(cid:3547)I The for each x (cid:3547) A, choose an open set O such that x (cid:3547) O .
+Thus j ij j ij [n A (cid:3673) O i j j=1 Remark 3.1 So you see from example 3.6 that every finite set (in a topological space) is com- pact.
+Indeed, as earlier mentioned in the begining of this unit, “compactness” can be thought as a topological genralization of “finiteness”.
+Example 3.7 A subset A of a discrete space is compact if and only if it is finite.
+Proof.
+If A is finite then Example 3.6 shows that it is compact.
+Conversely, let A be compact.
+Then the family of singleton sets O = {x}, x (cid:3547) A is x such that each O is open and x [ A (cid:3673) O .
+x x(cid:3547)A Since A is compact, there exist x , x , ..., x such that 1 2 n [n A (cid:3673) O ; x i i=1 that is A (cid:3673) {x , ..., x 1 n } Theorem 3.1 Any closed and bounded interval in R is compact.
+Proof.
+Let [a, b]a < b be a closed and bounded interval of R Let {O } a family of open i i(cid:3547)I sets of R such that [ [a, b] (cid:3673) Oi i(cid:3547)I Step 1: Suppose a (cid:3639) x < b.
+Then there exists y > x such that [x, y] can be covered by at most two O0 s. For this end, if x has an immediate successor y, then the interval [x, y] has i only two elements, so it can be covered by at most two U 0s.
+If x does not have an immediate i successor, find U containing x.
+Pick z > x such that [x, z) (cid:3669) U ; this is possible because U is i i i open.
+Since x does not have an immediate successor, there is y such that x < y < z.
+Then [x, y] 21  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY (cid:3669) U .
+i Step 2: Now let 4 22  63 .T1u toDr e Mfinairtkioends Aansdsi gEnxmamenptsle s(T MAs) CATEGORY ANDC OMPACTNESS SEPARABILITY A = {y (cid:3547) (a, b] : [a, y] can be covered by finitely many Ui } By step 1, there exists an element y > a such that [a, y] can be covered at most by two U 0s.
+i Therefore A is nonempty and bounded above.
+Let c = sup A.
+Step 3: Claim: c (cid:3547) A.
+Let i such that c (cid:3547) U .
+Since U is open and c > a, there exists an interval (d, c] (cid:3669) U .
+Since d i i i cannot be an upper bound for A, there is an element of A larger that d. Let z such that d < z < c. Then [a, c0] can be covered by finitely many U 0s and [c0, c] (cid:3669) U .
+Therefore [a, c] = [a, c0] (cid:3581) [c0, c] i i can be covered by finitely many U0s.
+Hence c (cid:3547) A. i Step 4: Claim: c = b.
+Suppose c < b.
+By step 1, there exist y > c such that [c, y] can be covered by at most two U 0s.
+Since c (cid:3547) A, [a, c] can be covered by finitely many U 0s.
+So [a, y] = i i [a, c] (cid:3581) [c, y] can be covered by finitely many U 0s and therefore y (cid:3547) A.
+This contradicts the fact i that c = sup .
+Hence c = b. Theorem 3.2 A closed subset A of a compact topological space (X, τ ) is compact.
+Proof.
+Let {O } be a family of open subsets of X such that i i(cid:3547)I [ A (cid:3673) O .
+i i(cid:3547)I Now [ X = A (cid:3581) Ac = O (cid:3581) Ac i i(cid:3547)I Since X is compact, there exists i , ..., i such that 1 m [m X = Oi (cid:3581) Ac.
+j j=1 This implies that [m A (cid:3673) Oij j=1 Hence, A is compact.
+Theorem 3.3 If A is a compact subset of a Hausdorff topological space (X, τ ), then A is closed.
+Proof.
+Suppose A is a compact subset of X and let x (cid:3547) Ac.
+Then for all y (cid:3547) A, x = y.
+Since X is Hausdorff, there exist U open in X and contains x, V open in X and contains y such that y y U (cid:3580) V = (cid:3544).
+So y y [ A (cid:3673) V .
+y y(cid:3547)A Since A is compact, there exists y , ..., y such that 1 m m 23  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY [ A (cid:3673) V y i i=1 5 24  63 .T1u toDr e Mfinairtkioends Aansdsi gEnxmamenptsle s(T MAs) CATEGORY ANDC OMPACTNESS SEPARABILITY Let \m U = U yi i=1 and [m V = V y i i=1 Then U is open and contains x, V is open and contains A, and U (cid:3580) V = (cid:3544).
+This implies that U (cid:3580) A = (cid:3544), that is U (cid:3669) Ac.
+Thus Ac is open.
+Hence A is closed.
+In the course of the proof of theorem 3.3, you proved the following result.
+Theorem 3.4 Let A be a compact subset of a Hausdorff topological space X and let x (cid:3547) X.
+Then there exist open sets U and V with A (cid:3669) V and x (cid:3547) U such that V (cid:3580) U = (cid:3544).
+This result is the third separation axiom T .
+3 Theorem 3.5 Let A and B be compact subsets of a Hausdorff topological space X such that A (cid:3580) B = (cid:3544).
+Then there exists open sets U and V with A (cid:3669) U and B (cid:3669) V such that U (cid:3580) V = (cid:3544).
+3.1.1 Compactness in Product Spaces Theorem 3.6 (Tube Lemma) Let X × Y be the product topology.
+Suppose that Y is compact.
+If W is an open subset of X × Y containing {x} × Y for some x (cid:3547) X, then it contains some tube U × Y around {x} × Y.
+Where U is an open set containing x. X tube U x Y {x} x Y Y Figure 1: Tube Lemma 25  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY Proof.
+Observe that {x} × Y (cid:3599)= Y, and since Y is compact, {x} × Y is compact.
+Now for each y (cid:3547) Y, you have (x, y) (cid:3547) {x} × Y (cid:3669) W. Therefore, there exists open sets U containing y 6 26  63 .T1u toDr e Mfinairtkioends Aansdsi gEnxmamenptsle s(T MAs) CATEGORY ANDC OMPACTNESS SEPARABILITY x, V containing y such that (x, y) (cid:3547) U × V (cid:3669) W. Thus {U × V , y (cid:3547) Y } is an open cover of y y y y y {x} × Y.
+Since {x} × Y is compact, there exists y , ..., y such that 1 n [n {x} × Y (cid:3669) Uyi × Vyi i=1 Take \n U = U .
+y1 i=1 Then U is open, it contains x and {x} × Y (cid:3669) U × Y (cid:3669) W. For if (z, y) (cid:3547) U × Y, you have that z (cid:3547) U and y (cid:3547) Y. y (cid:3547) Y implies that there exists i such that y (cid:3547) V .
+This implies that z 0 yi0 (cid:3547) U and (z, y) (cid:3547) U × V (cid:3669) W. yi0 yi0 yi0 Theorem 3.7 A finite product Yn X i i=1 of compact spaces {Xi }i=n1 is compact.
+This theorem is called the Tychonoff product theorem.
+The converse of the Tychonoff product theorem is also true.
+Proof.
+You can prove this for a product X × Y of two compact spaces X and Y.
+The generalization follows by induction.
+So let {W } be a family of open sets of the i i(cid:3547)I product topology, such that [ X × Y (cid:3673) Wi i(cid:3547)I Let x (cid:3547) X be fixed.
+You have that [ {x} × Y (cid:3673) X × Y (cid:3673) Wi i(cid:3547)I {x} × Y is compact since Y is, and so there exists i , ..., i such that 1 m [m {x} × Y (cid:3673) Wij = Wx j=1 By tube lemma, there exists an open set U containing x such that {x} × Y (cid:3673) U × Y (cid:3673) W .
+x x x And so [ X (cid:3673) U .
+x x(cid:3547)X Since X is compact, there exists x , ..., x such that 1 n [n X (cid:3673) U x i i=1 Therefore, [n [n [n [m X × Y (cid:3673) (Ux i × Y ) (cid:3673) Wx i (cid:3673) Wij i=1 i=1 i=1 j=1 27  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY Hence, X × Y is compact.
+7 28  63 .T2u toFri n Mitea rIknetde rAsescstiigonnm Pernotps e(rTtyM (AFsIP) ) CATEGORY ANDC OMPACTNESS SEPARABILITY 3.1.2 Heine-Borel Theorem Theorem 3.8 A subset A of Rn is compact if and only if it is closed and bounded.
+Proof.
+((cid:3514) ) Let Rn be endowed with the euclidean metric !
+1 Xn 2 d(x, y) = (xi (cid:3557) yi )2 i=1 Assume A is compact the A is closed since Rn is Hausdorff.
+Also {B(0, n), n (cid:3547) N} is a family of open sets of Rn and [(cid:3569) A (cid:3673) B(0, n) n=1 Where B(0, n) = {y (cid:3547) R : d(y, 0) < n} is the open ball with center 0 and radius n. By the compactness of A, there exists n , ..., n such that 1 k [k A (cid:3673) B(0, n ) (cid:3673) B(0, N ) i i=1 where N = max n .
+Hence A is bounded.
+i 1(cid:3639) i(cid:3639) k ((cid:3512) ) Suppose A is closed and bounded in Rn , and show that A is compact.
+It suffices to show that A is a subset of a compact set.
+But A is bounded implies that there exist R > 0 such that Yn A (cid:3673) B(0, R) (cid:3673) [(cid:3557) R, R] i=1 Yn each [(cid:3557) R, R] is compact in R and so [(cid:3557) R, R] is compact as a finite product of compact sets.
+i=1 And so A is a closed subset of a compact set, therefore, A is compact.
+Remark 3.2 Note that the above theorem was proved in Rn .
+In an arbitrary metric space, what you have is that any compact space is closed and bounded but the converse is not true.
+3.2 Finite Intersection Property (FIP) Definition 3.5 Finite intersection Property (FIP).
+Let X be a a topological space.
+A collec- tion C of subsets of X satisfies the Finite Intersection Property (FIP) if any intersection of a finite subcollection of C is nonempty.
+\ C = {A , i (cid:3547) I } satisfy FIP if for any J (cid:3547) P (I ), A = (cid:3544).
+i f i i(cid:3547)J Where P (I ) (finite part of I ) denotes a the set of all finite indexes of I .
+f 29  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 8 30  63 .T2u toFri n Mitea rIknetde rAsescstiigonnm Pernotps e(rTtyM (AFsIP) ) CATEGORY ANDC OMPACTNESS SEPARABILITY Theorem 3.9 A topological space X is compact if and only if collection C = {C : i (cid:3547) I } i of closed sets having the FIP, one has that \ C = i (cid:3544).
+i(cid:3547)I Proof.
+((cid:3514) ) Let X be a compact set and C = {C , i (cid:3547) I } be a collection of closed sets of X i having the finite intersection property, i.e., for all J (cid:3547) P (I ) such that f \ C = i (cid:3544) i(cid:3547)J You have to show that \ C = (cid:3544).
+i i(cid:3547)I Suppose \ C = (cid:3544).
+i i(cid:3547)I Then [ X = (X r C ).
+i i(cid:3547)I Each X r C is open since C is closed, thus, {X r C , i (cid:3547) I } is an open covering for X i i i and since X is compact, there exists J (cid:3547) P (I ) such that 0 f [ X = (X r C ).
+i i(cid:3547)J This implies that \ C = (cid:3544) i i(cid:3547)J contradicting the assumption that C satisfies F I P. Hence our supposition was wrong.
+Therefore \ C = i (cid:3544) i(cid:3547)J Corollary 3.1 Let X be a compact space and let {C , n (cid:3640) 1} be a collection of n nonempty closed sets such that C (cid:3669) C .
+Then n+1 n \ C = n (cid:3544).
+n(cid:3640) 1 31  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY Proof.
+Let n , ..., n (cid:3547) N, since C (cid:3669) C , and each C is nonempty, then 1 p n+1 n n \p Cn i = CN = (cid:3544).
+i=1 Where N = max n This implies that {C , n (cid:3640)1 satisfies the F I P. So by the last theorem, i n 1(cid:3639) i(cid:3639) p } \ C = n (cid:3544) n(cid:3640) 1 9 32  63 .T3u toCr o Mmpaarkcetnde sAs s saingdn mCeonnttsi n(uToMusA fsu) nction CATEGORY ANDC OMPACTNESS SEPARABILITY Theorem 3.10 If X is a compact Hausdorff space having no isolated points, then X is un- countable.
+Proof.
+Step 1: First show that given any nonempty open set of X and any point x of X, there exists a nonempty set V contained in U such that x 6(cid:3547) V. Choose a point y (cid:3547) U different from x, this is possible if x in U because x is not an isolated point of X and it is also possible if x in not in U simply because U is nonempty.
+Now choose disjoint neighbourhood W and W of x and y respectively.
+Then take V = U (cid:3580) W .
+1 2 2 Step 2: Let f : N (cid:3450) X.
+Then show that f is not injective.
+Let x = f (n).
+Apply step 1 to the nonempty open set U = X to choose a nonempty open set V n 1 such that x 6(cid:3547) V .
+In general, given V , an nonempty open set, choose V to be a 1 1 n(cid:3557) 1 n nonempty open set such that V (cid:3669) V and c 6(cid:3547) V .
+Consider the nested sequence {V } n n(cid:3557) 1 n n 1 of nonempty closed sets of X.
+Since X is compact, there exists a point x (cid:3547) (cid:3580) V .
+Now if f is n surjective, then there exists n such that f (n) = x = x, which implies that x (cid:3547) V .
+n n n Contradiction.
+Corollary 3.2 Every closed and bounded interval of R is uncountable.
+3.3 Compactness and Continuous function Theorem 3.11 Let X and Y be topological space, and let f : X (cid:3450) Y be a function.
+If X is compact and f is continuous, the f (X ) is compact.
+Proof.
+Let {V } be a family of open sets of Y such that i i(cid:3547)I [ f (X ) (cid:3673) Vi i(cid:3547)I This implies that [ X (cid:3669) f (cid:3557) 1 (f (X )) (cid:3673) f (cid:3557) 1(V ) i i(cid:3547)I By the continuity of f, {f (cid:3557) 1 (Vi (cid:3547)I is a family of open sets of X, and since X is compact, )}i [m there exists i , ..., i such that X (cid:3673) f (cid:3557) 1(V ) 1 m i j j=1 which implies that !
+[m [m [m f (X ) (cid:3673) f f (cid:3557) 1 (Vi ) (cid:3673) f (f (cid:3557) 1(Vi )) = Vi j j j H X ) is j=1 en compact.
+i.e., ce , f ( 33  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY j=1 j=1 [m f (X ) (cid:3673) Vi j j=1 This theorem says that the continuous image of a compact set is compact.
+10 34  63 .T3u toCr o Mmpaarkcetnde sAs s saingdn mCeonnttsi n(uToMusA fsu) nction CATEGORY ANDC OMPACTNESS SEPARABILITY Theorem 3.12 Let f : X (cid:3450) Y be a continuous bijective function.
+If X is compact and Y is Hausdorff, then f is a homeomorphism.
+Proof.
+Let F be a closed subset of X.
+Since X is compact, you have by theorem 3.2 that F is compact.
+Also by the continuity of f, and theorem 3.6, you have that f (F ) is compact.
+Since Y is Hausdorff, theorem 3.3 gives you that f (F ) is closed in Y.
+And since f is a bijection, f (cid:3557) 1 exists and is continuous.
+3.3.1 The Extremum Value Theorem Theorem 3.13 The Extremum Value Theorem Let f : X (cid:3450) Y be continuous, where Y is an ordered set in the order topology.
+If K is a compact subset of X, then there exists points c¯ and c in K such that f (c) = min f (x) and f (c¯) = max f (x) x(cid:3547)K x(cid:3547)K Proof.
+Since f is continuous, and K is compact, the set A = f (K ) is compact.
+So you can show that A has a largest element M and a smallest element m. Then since m and M belongs to A, you have to show that m = f (c) and M = f (c¯) for some points c and c¯ in K. By contradiction, assume that A has no largest element, then the collection {((cid:3557) (cid:3569) , a)|a (cid:3547) A} forms an open cover of A.
+Since A is compact, some finite subcover ((cid:3557) (cid:3569) , a ), ..., ((cid:3557) (cid:3569) , a 1 n ) covers A.
+If a is the largest of the elements, a , ..., a then a belongs to none of these sets, i0 1 n i0 contrary to the fact that they cover A (because a (cid:3547) A).
+A similar argument shows that A has i0 a smallest element.
+Definition 3.6 Lebesgue Number Let A be an open cover of X. δ is a Lebesgue number on A if for all subsets A of X such that the diameter of A is less than δ, there exists U (cid:3547) A such that A (cid:3673) U. Theorem 3.14 Let (X, d) be a metric space, Let A = {U , i (cid:3547) I } be an open cover of X.
+If X i is compact, then there exists δ > 0 such that any subset of X, having diameter less than δ is contained in one of the U 0s.
+i Proof.
+Let A = {U , i (cid:3547) I } be an open cover of X such that i [ X = U i i(cid:3547)I 1 If X (cid:3547) A, then any positive number is a lebesgue number of A.
+So you can assume that U ( X. i 35  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY Take C = X r U and define f : X (cid:3450) R by i i Xn f (x) = d(x, C ) n i i=1 11 36  63 .T4u toLri mMita rPkoeidn tA asnsdig Snemqeunetnst i(aTl M CAoms)p actness CATEGORY ANDC OMPACTNESS SEPARABILITY Now for any x (cid:3547) X, there exist i (cid:3547) I such that x (cid:3547) U .
+Since U is open, that there exists 0 i0 i0 > 0 such that B(x, ) (cid:3673) U .
+If y (cid:3547) C then y 6(cid:3547) U , i.e., y 6(cid:3547) B(x, ) which implies i0 i0 i0 that d(x, y) (cid:3640) and so d(x, C ) (cid:3640) , thus f (x) (cid:3640) i0 /n.
+Since f is continuous on X (which is compact), then f has a minumum value δ > 0.
+You now have to show that δ is the Lebesgue number.
+For this let A be a subset on X of diameter less than δ.
+Choose x (cid:3547) B, then A (cid:3669) B(x , δ).
+Now 0 0 δ (cid:3639) f (x ) (cid:3639) d(x , 0 0 C ) m where d(x , C ) is the largest of the number d(x , C ).
+Then B(x , δ) (cid:3669) U , as desired.
+0 m 0 i 0 m Definition 3.7 Let (X, d ) and (Y, d ) be metric spaces.
+A function f : (X, d ) (cid:3450) (Y, d ) X Y X Y is said to be uniformly continuous if given any > 0 there exists a δ > 0 such that for every pairy of points x , x of X, 1 2 d (x , x ) < δ implies that d (f (x ), f (x )) < X 1 2 Y 1 2 Theorem 3.15 Let (X, d ) and (Y, d ) be metric spaces and let f : X (cid:3450) Y be continuous.
+If X Y X is compact then f is uniformly continuous.
+Proof.
+Let > 0 be given.
+{B (y, /2), y (cid:3547) Y } is an open covering of Y.
+So that Y {f (cid:3557) 1 (B (y, /2)), y (cid:3547) Y } is an open covering of X, and has a Lebegue number δ since X Y is compact.
+Let x , x be points of X such that d(x , x ) < δ.
+This implies that diameter 1 2 1 2 ({x , x }) < δ.
+Thus {x , x } (cid:3673) f (cid:3557) 1(B(y , /2)) and so f (x ), f (x ) (cid:3547) B(y , /2).
+There- 1 2 1 2 0 1 2 0 fore, d(f (x ), f (x )) (cid:3639) d(f (x ), y ) + d(f (x ), y ) < + = .
+1 2 1 0 2 0 2 2 i.e., d(f (x ), f (x )) < as desired.
+1 2 3.4 Limit Point and Sequential Compactness 3.4.1 Limit Point Compactness Definition 3.8 A space X is said to be limit point compact if every infinite subset of X has a limit point.
+Theorem 3.16 Any compact space is limit point compact, but not conversely.
+Proof.
+Let X be a compact space.
+Given a subset A of X, the goal is to prove that if A is infinite, then A has a limit point.
+The proof is done by contraposition.
+That is If A has no limit point then A must be finite.
+Suppose that A has no limit point.
+Then A is closed.
+Since X is compact.
+Furthermore, for each a (cid:3547) A, you can choose an open neighbourhood U of a such that U intersects A in the a a point a alone.
+The subspace A is covered by the open cover {U : a (cid:3547) A}; being compact, it a can be covered by finitely many of these sets.
+Each U contains only one point of A, the set A a 37  6m Tuustt obre Mfinairtke.e d Assignments (TMAs) CATEGORY AND SEPARABILITY The next is to show that for metrizable spaces, these two versions of compactness coincides.
+That is (X, ρ) is compact if and only if (X, ρ) is limit point compact.
+To this end, you shall be introduced to another version of compactness called sequential compactness.
+12 38  63 .T4u toLri mMita rPkoeidn tA asnsdig Snemqeunetnst i(aTl M CAoms)p actness CATEGORY ANDC OMPACTNESS SEPARABILITY 3.4.2 Sequential Compactness Definition 3.9 A topological space X is said to be sequentially compact if every sequence of points of X has a convergence subsequence.
+Theorem 3.17 Let X be a metrizable space.
+Then the following are equivalent.
+1.
+X is compact.
+2.
+X is limit point compact.
+3.
+X is sequentially compact.
+Proof.
+You have already shown that (1) (cid:3514) (2) in theorem 3.14.
+To prove that (2) (cid:3514) (3), assume that X is limit point compact.
+Given a sequence (x ) of points of X, consider the n set A = {x : n (cid:3640) 1}.
+If the set A is finite, then there is a point x such that x = x n n for infinitely many values of n. In this case, the sequence (x ) has a subsequence that is n constant, and therefore converges.
+On the other hand, if A is infinite, then A has a limit point x.
+Define a subsequence of (x ) converging to x as follows.
+First choose n so that n 1 x (cid:3547) B(x, 1) n1 Then suppose the positive integer n is given.
+Because the ball B(x, 1/i) intersects A in i(cid:3557) 1 infinitely many points, you can choose an index n > n such that i i(cid:3557) 1 x (cid:3547) B(x, 1/i) ni Then the subsequence (x ) converges to x. nk Finally you have to show that (3) (cid:3514) (1).
+This is the hardest part of the proof.
+First, show that if X is sequentially compact, then the Lebesgue number holds for X.
+(This would form compactness, and compactness is what you want to prove.)
+Let A be an open cover of X.
+Assume that there exist no δ > 0 such that each set of diameter less that δ has an element of A containing it.
+Your assumption implies in particular that for each positive integer n, there exists a set of diameter less than 1/n that is not contained in any element of A.
+Let C be such set.
+Choose n a point x (cid:3547) C for each n. By hypothesis, some subsequence {x } of the sequence {x n n nk n } converges, say to a point a.
+Now a is in some element U of the open cover A.
+Because U is open, you may choose > 0 such that B(a, ) (cid:3669) U.
+Let k be sufficiently large such that 1/n < /2 and d(x , a) < /2, then there exists C (cid:3669) B(a, ).
+Contradiction.
+k nk nk Secondly, you have to show that if X is sequentially compact, then given , there exists a finite cover of X (cid:3557) balls.
+Once again, proceed by contradiction.
+Assume that there exists an > 0 such that X cannot be covered by finitely many (cid:3557) ball.
+Construct a sequence of points x n as follows: First, choose x to be any point of X.
+Noting that the ball B(x , ) = X (otherwise 1 1 X could be covered by a single (cid:3557) ball) choose x to be a point of X not in B(x , ).
+In general, 2 1 given x , ..., x , choose x to be a point of X not in the union 1 n n+1 39  6 Tutor Marked Assignments (TMBA(xs) , ) (cid:3581) · · · (cid:3581) B(x , )C ATEGORY AND 1 n SEPARABILITY 13 40  63 .T5u toLro cMalalryk eCdo mApssaicgtnnmesesn tasn d(T OMnAe-sp)o int CompactificatiCoAn TEGORY ANDC OMPACTNESS SEPARABILITY using the fact that these ball do not cover X.
+By construction d(x , x ) (cid:3640) for i = 1, ..., n+1 i n. Therefore, the sequence (x ) can have no convergent subsequence.
+In fact any ball of radius n /2 can contain x for at most one value of n. n Finally, show that if X is sequentially compact, then X is compact.
+Let A be an open cover of X.
+Because X is sequentially compact, then the open cover A has a Lebesgue number δ.
+Let = δ/3; using sequentially compact of X to find a finite cover of X by (cid:3557) balls.
+Each of these balls has diameter at most 2δ/3, so it lies in an element of A.
+Choosing one such element of A for each of these (cid:3557) balls, you obtain a finite subcollection of A that covers X.
+3.5 Locally Compactness and One-point Compactification 3.5.1 Local Compactness Definition 3.10 A topological space X is locally compact if each point of X has a neighbour- hood with compact closure.
+Example 3.8 R the real line endowed with the standard topology is locally compact because for all x (cid:3547) R, (x (cid:3557) 1, x + 1) is a neighbourhood of x whose closure is the closed and bounded interval [x (cid:3557) 1, x + 1] of R, which is compact by theorem 2.1.
+Example 3.9 The sets Z, and N are locally compact sets in R but are not compact.
+Example 3.10 In R, Q the set of rational numbers is not locally compact.
+Theorem 3.18 Every compact space is locally compact.
+Proof.
+Let x (cid:3547) X and U be a neighbourhood of x.
+Suppose X is compact, then U is a closed subset of a compact space, and hence is compact.
+3.5.2 One-Point Compactification Let (X, Ω) be a Hausdorff topological space.
+Let X (cid:3562) be the set obtained by adding a point x to X (of course, x does not belong to X ).
+Let Ω(cid:3562) be the collection of subsets of X (cid:3562) (cid:3562) (cid:3562) consisting of • sets open in X and • sets of the form X (cid:3562) r C, where C (cid:3669) X is a compact set.
+i.e., Ω(cid:3562) = Ω (cid:3581) {X (cid:3562) r C : C (cid:3669) X is a compact set}.
+Then 1.
+Ω(cid:3562) is a topological structure on X (cid:3562) .
+41  6 Tutor Marked Assignments (TMAs) CATEGORY AND 2.
+(X (cid:3562) , Ω(cid:3562) ) is compact.
+SEPARABILITY 14 42  64 TCuotnocrl uMsiaornk ed Assignments (TMAs) CATEGORY ANDC OMPACTNESS SEPARABILITY 3.
+The inclusion (X, Ω) ,(cid:3450) (X (cid:3562) , Ω(cid:3562) ) is a topological embedding.
+4.
+If X is locally compact, then the space (X (cid:3562) , Ω(cid:3562) ) is Hausdorff.
+Definition 3.11 A topological embedding of a space X into a compact space Y is a compactifi- catioin of X if the image of X is dense in Y.
+In this situation, Y is also called a compactification of X.
+If X is a locally compact Hausdorff space, and Y is a compactification of X with one-point Y r X, then there exists a homeomorphism Y (cid:3450) X (cid:3562) which is the identity on X.
+Definition 3.12 Any space Y that satisfy the above condition is called a one-point compactifi- cation or Alexandrov compactification of X.
+4 Conclusion In this unit you have studied compactness; covers, compact sets and subsets of compact spaces and proved some important results as regards to compactness, some of them you have always used in its special case in your studies in Analysis and calculus.
+You were also introduced to the notions of limit point, sequentially and locally compactness and one-point compactification.
+5 Summary Having gone through this unit, you now know that; (i) A collection A = {U , i (cid:3547) I } of open subsets of a topological space X is an open [i covering of X if X = U i i(cid:3547)I (ii) A topological space X is compact if every open covering of X can be reducible to a finite subcovering.
+(iii) Every finite set is compact.
+(iv) The real line R is not compact.
+(v) Any closed and bounded interval of R is compact.
+(vi) Any closed subset of a compact space is compact.
+(vii) Any compact subset of a Hausdorff space is closed.
+(viii) A finite product of compact spaces is compact.
+(ix) Any compact set of a metric space is closed and bounded.
+(x) In the metric space Rn compactness and closed and bounded are equivalent.
+This is the Heine Borel theorem 43  6 Tutor Marked Assignments (TMAs) CATEGORY AND 15 SEPARABILITY 44  66 TTuuttoorr MMaarrkkeedd AAssssiiggnnmmeennttss (T(TMMAAs)s ) CATEGORY ANDC OMPACTNESS SEPARABILITY (xi) A collection C of subsets of a topological space X satisfies the Finite Intersectiion Prop- erty (FIP) if any intersection of a finite subcollection of C is nonempty.
+(xii) A topological space X is compact if and only if any collection C of closed sets of X satisfying the FIP, one has that the arbitrary intersection is nonempty.
+(xiii) The continuous image of a compact set is compact.
+(xiv) If K is a compact subset of a topological space X and f is a continuous function from X to an ordered space Y then f attains its maximum and minimum on K. This result is called the Extreme Value Theorem.
+(xv) δ is a Lebesgue number on an open cover A of X if for all subsets A of X such that diameter of is less that δ, there exists U (cid:3547) A such that A (cid:3673) U.
+(xvi) A continuous function f from a compact metric space X to another metric space Y is uniformly continuous.
+(xvii) A space X is called limit point compact if every infinite subset of X has a limit point.
+(xviii) A topological space is sequentially compact if every sequence of points of X has a con- vergent subsequence.
+(xix) A topological space X is locally compact if each point of X has a neighbourhood with compact closure.
+(xx) A topological embedding of a space X into a space Y is a compactification of X if the image of X is dense in Y.
+In such situation, Y is also called a compactification of X (xxi) A space Y is called one-point compactification of X if X is a locally compact Hausdorff space, and Y is a compactification of X with one-point Y r X, such that there exists a homeomorphism Y (cid:3450) X (cid:3562) which is identity on X.
+6 Tutor Marked Assignments (TMAs) 1.
+Which of the following spaces is not compact?
+(a) Every discrete space.
+(b) Every indiscrete space.
+(c) Any finite space.
+(d) A finite discrete space.
+2.
+Which of the following statements is false?
+(a) Any closed subset of a compact space is compact.
+(b) Any compact subset of a Hausdorff space is compact.
+(c) Any finite set is compact.
+(d) Any closed and bounded set of a metric space is compact.
+45  6 Tutor Marked Assignments (TMAs) CATEGORY AND 16 SEPARABILITY 46  66 TTuuttoorr MMaarrkkeedd AAssssiiggnnmmeennttss (T(TMMAAs)s ) CATEGORY ANDC OMPACTNESS SEPARABILITY 3.
+Which of the following sets is compact in R?
+(a) [0, 1] (cid:3580) Q (b) [0, 1] (cid:3580) Qc (c) [0, 1) (d) [0, 1] 4.
+Let f : [a, b] (cid:3450) R be a continuous function.
+Then f ([a, b]) is (a) closed but not bounded.
+(b) bounded but not closed.
+(c) neither closed nor bounded.
+(d) closed and bounded.
+5.
+Which of the following sets is not compact?
+(a) S1 = {(x, y) (cid:3547) R2 : x2 + y2 = 1} = 1} (b) Sn = {(x , x , ..., x , x )Rn+1 : x2 + x2 + · · · + x2 + x2 1 2 n n+1 1 2 n n+1 (c) Rn+ = {(x1 , ..., xn ) (cid:3547) Rn : x1 (cid:3640) 0, ..., xn (cid:3640) 0} (d) A = {x = (x , x , ..., x ) : x = 0 i = 1, 2, ..., n} 1 2 n i 6.
+Let X = [0, 1) (cid:3581) [2, 3] be a subspace of the standard topology on R. The subset A = [0, 1) of X is (a) closed, bounded and compact in X.
+(b) closed, bounded and not compact in X.
+(c) closed and compact in X.
+(d) bounded and compact in X.
+7.
+In an arbitray metric space (X, ρ) (a) every closed and bounded set is compact.
+(b) every compact set is closed and bounded.
+(c) every bounded set is compact.
+(d) every closed set is compact.
+8.
+Let A0 be the closed and boun d ed in terval [0, 1] in R. Let A1 be the set obtained from A0 1 2 by deleting its middle third , .
+Let A be the set obtained from A by deleting its 3 3 2 1 1 2 7 8 middle thirds , and , .
+In general, define A by the equation 9 9 9 9 n [(cid:3569) 1 + 3k 2 + 3k A = A , .
+n n(cid:3557) 1 3n 3n r k=0 The intersection \ K = A n n(cid:3547)N 47  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY is called the Cantor set.
+It is a subset of [0, 1].
+Which of the following is not true about K. 17 48  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 6 Tutor Marked Assignments(TMAs) COMPACTNESS (a) K is compact.
+(b) K has no isolated points.
+(c) K is countable.
+(d) K is uncountable.
+9.
+Which of the following sets is not locally compact?
+(a) R (b) Q (c) Rn (d) a discrete space.
+49  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 18 50  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY UNIT 5: CONNECTEDNESS Contents 1 Introduction 1 2 Objectives 2 3 Connected Spaces 2 3.1 Separated and Connected Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.1.1 Definitions and Examples .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+2 3.1.2 Connected Sets .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+3 3.2 Connected Subspaces of the Real Line .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+4 3.3 Path Connectedness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.4 Components and Local Connectedness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.4.1 Connected Components .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+6 3.4.2 Locally Connectedness .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+7 4 Conclusion 7 5 Summary 7 6 Tutor Marked Assignments (TMAs) 8 1 INTRODUCTION In your study of calculus, you must have come across this all important results called the in- termediate value theorm which states that if f : I (cid:3450) R is continuous, and r is a real number between f (a) and f (b) then there exists c (cid:3547) I such that f (c) = r, where I denotes an interval of R. Although this theorem refers to continuous functions, notwithstanding it also depends on the topological property of the interval I .
+In fact we can restate the intermediate value theorem as follows; The continuous image of an interval I of R is also an interval .
+This topological notion property of the interval I on which the intermediate value theorem depends is called connectedness.
+51  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 1 52  62 TOubtjoerc tMiveasr k ed Assignments (TMAs) CATEGORY ACNODN NECTEDNESS SEPARABILITY In this unit, you will be introduced to a generalization of the intermediate theorem, and some other related theorems which you have proved in particular cases of the real line.
+2 Objectives At the end of this unit, you should be able to; (i) Differentiate between connected sets and separated spaces.
+(ii) Define connected spaces.
+(iii) Understand the connectedness to the real line.
+(iv) Identify the connected components of a given space.
+(v) Identify locally connected spaces.
+(vi) Know and use of the concept of path connectedness.
+3 Connected Spaces.
+3.1 Separated and Connected Sets 3.1.1 Definitions and Examples Definition 3.1 Let X be a topological space.
+A Separation of X is a pair U, V of disjoint open sets of X, whose uninon is X.
+Definition 3.2 A topological space X is connected if it has no separation.
+Example 3.1 In R, Let X = [(cid:3557) 1, 0) (cid:3581) (0, 1].
+[(cid:3557) 1, 0) and (0, 1] are open in X.
+They are nonempty and disjoint.
+And so is a separation of X.
+Therefore X is not connected.
+Example 3.2 Let X = {a, b}.
+If X is endowed with the indiscrete topology, the X has no separation and thus is connected.
+Another way of formulating the definition of connectedness is the following: Theorem 3.1 A space X is connected if and only if the only subsets of X that are both open and closed in X are the empty set and X itself.
+Proof.
+If A is a nonempty proper subset of X that is both open and closed in X, then the sets U = A and V = X r A constitute a separation of X, for they are open, disjoint and nonempty, and their union is X. Conversely, if U and V form a separation of X, then U is nonempty and different from X and it is both open and closed in X.
+53  6 Tutor Marked Assignments (TMAs) CATEGORY AND 2 SEPARABILITY 54  63 .T1u toSre pMaarrakteedd aAnsds iCgnomnneencttse d(T SMeAts s ) CATEGORY ACNODN NECTEDNESS SEPARABILITY Example 3.3 If X is any discrete space with more than one element, then X is not connected as each singleton set is both open and closed.
+Example 3.4 If X is any indiscrete space, then it is connected as the only sets that are both closed and open are X and (cid:3544).
+3.1.2 Connected Sets If you refer to a set Y as connected, you mean that Y lies in some topological space (which should be clear from the context) and, equipped with the subspace topology, thereby making Y a connected space.
+So Y is connected in a topological space X if Y is connected in the subspace topology induced by the topology on X. Theorem 3.2 Let Y be a subspace of a topological space X.
+A separation of Y is a pair A, B of nonempty disjoints sets whose union is Y and neither of which contains a limit point of the other (i.e., A (cid:3580) B0 = (cid:3544) and B (cid:3580) A0 = (cid:3544)).
+Proof.
+Suppose first that A and B form a separation of Y.
+Then A is both open and closed in Y.
+The closure of A in Y is the set A (cid:3580) Y, which implies that A (cid:3580) B = (cid:3544).
+Since A is the union of A and its limit points, B contains no limit points of A.
+A similar argument shows that A contains no limit points of B. Conversely, Suppose that A and B are disjoint nonempty sets whose union is Y, neither of which contains a limit point of the other.
+Then A (cid:3580) B = (cid:3544) and A (cid:3580) B = (cid:3544); therefore, we conclude that A = A (cid:3580) Y and B = B (cid:3580) Y.
+Thus A and B are closed in Y, and since A = Y r B, and B = Y r A, they are open in Y, as desired.
+Example 3.5 Let X = [0, 1] (cid:3581) (1, 2] = A (cid:3581) B.
+The A, B is not a separation of X since 1 (cid:3547) B0 (cid:3580) A = (cid:3544).
+Example 3.6 Q the set of all rational numbers is not a connected set.
+Indeed the only connected subspace of Q are the one point sets.
+If Y is a subspace of Q containing two points p and q, one can choose an irrational number a lying between p and q, and Having seen some examples of sets that are not connected, what follows are result that will help you determine how to construct connected sets from existing ones.
+Lemma 3.1 If the sets A and B forms a separation of X, and Y is a connected subspace of X, then either Y lies entirely in either A or B.
+Proof.
+Since A and B are both open in X, the set A (cid:3580) Y and B (cid:3580) Y are open in Y, and Y = (A (cid:3580) Y ) (cid:3581) (B (cid:3580) Y ).
+If both of them are nonempty, then they constitute a separation, of Y.
+But since Y is connected, either A (cid:3580) Y = (cid:3544) or B (cid:3580) Y = (cid:3544).
+So that Y either lies in A or B as required.
+Theorem 3.3 The Union of a collection of connected subspaces of X that have one point in 55  6co Tmumtoor n M isa croknedn eActsesdi.g nments (TMAs) CATEGORY AND SEPARABILITY 3 56  63 .T2u toCr o Mnnaerckteedd ASussbisgpnamceesn tos f (tThMe RAesa)l Line CATEGORY ACNODN NECTEDNESS SEPARABILITY T Proof.
+Let (C ) be a collection of connected spaces on X ; let p be a point of C .
+You i i(cid:3547)I S i(cid:3547)I i have to prove that the space Y = C is connected.
+Suppose that Y = A (cid:3581) B is a separation i (cid:3547)I i of Y.
+The point p is in one of the sets A or B; suppose p (cid:3547) A.
+Since C is connected, it must i lie entirely in either A or B, and it cannot lie in B because it contains the point p of A.
+Hence, S C (cid:3669) A for every i, so C (cid:3669) A, contradiction the fact that B is nonempty.
+i i(cid:3547)I i Theorem 3.4 Let A be a connected subspace of X.
+If A (cid:3669) B (cid:3669) A then B is connected and in particular A.
+Proof.
+Let A be a connected subspace of X and let A (cid:3669) B (cid:3669) A.
+Suppose B = C (cid:3581) D is a separation of B, then by lemma 3.1, the set A lies entirely in C or in D. Suppose A (cid:3669) C, then A (cid:3669) C ; since C (cid:3580) D = (cid:3544), B cannot intersect D, this contradicts the fact that D is a nonempty subset of B. Theorem 3.5 The image of a connected space under a continuous function is connected.
+Proof.
+Let f : X (cid:3450) Y be a continuous map, let X be connected.
+You have to show that the space Z = f (X ) is connected.
+Since the map obtained from f by restricting its range to the space Z is also continuous, it suffices to consider the case of a continuous surjective map g : X (cid:3450) Z Suppose Z = A (cid:3581) B is a separation of Z into the disjoint nonempty open sets.
+Then g(cid:3557) 1(A) and g(cid:3557) 1(B) form a separation of X, contradicting the assumption that X is connected.
+Theorem 3.6 A finite cartesian product of connected spaces is connected.
+Proof.
+You can prove this theorem for the product of two connected spaces X and Y.
+Choose a point (a, b) in X × Y.
+Note that the horizontal slice X × {b} is connected, being homeomorphic with X, and each vertical slice {x} × Y is connected being homeomorphic with Y.
+As a result each T (cid:3557) shaped space T = (X × {b}) (cid:3581) ({x} × Y ) x is connected, being the union of two connected spaces that the point {x, b} is common.
+Now S form the union T of all this T (cid:3557) shaped spaces.
+The union is connected because it is the x(cid:3547) X x union of collection of connected spaces that have the point (a, b) in common.
+Since this union equals X × Y, the space X × Y is connected.
+The proof for any finite product of connected spaces follows by induction.
+3.2 Connected Subspaces of the Real Line Here you shall show that the real line is connected.
+So also is the intervals of R or the rays i.e., sets of the form (a, (cid:3569) ).
+You are also going to prove a generalization of the intermediate value theorem of calculus.
+Definition 3.3 A simply ordered set L having more than one element is called linear contin- 57  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY uum if the following hold: 4 58  63 .T2u toCr o Mnnaerckteedd ASussbisgpnamceesn tos f (tThMe RAesa)l Line CATEGORY ACNODN NECTEDNESS SEPARABILITY 1.
+L has the least upper bound property.
+2.
+If x < y, there exists z such that x < z < y. Theorem 3.7 If L is a linear continuum in the order topology, then L is connected, and so are the intervals and rays in L. Proof.
+Recall that a subspace Y of L is said to be convex if for each points a, b of Y with a < b, one has the interval [a, b] lies in Y.
+You have to prove that if Y is a convex subspace of L, then Y is connected.
+Suppose that Y = A (cid:3581) B is a separation of Y.
+Choose a (cid:3547) A and b (cid:3547) B, suppose that a < b.
+The interval [a, b] of points of L is the union of the disjoint sets A = A (cid:3580) [a, b] and B = B (cid:3580) [a, b] 0 0 each is open in [a, b] in the subspace topology, which is the same as the order topology.
+The sets A and B are nonempty because a (cid:3547) A and b (cid:3547) B .
+Thus A and B constitute a separation of 0 0 0 0 0 0 [a, b].
+Let c = sup A .
+You have to show that c belongs to A or to B , which would contradict 0 0 0 the fact that [a, b] is the union of A and B .
+0 0 Case 1: Suppose that c (cid:3547) B .
+Then c = a, so either c = b or a < c < b.
+In either case, it 0 follows from the fact that B is open in [a, b] that there exist some interval of the form (d, c] 0 contained in B .
+If c = b, you have a contradiction at once, for d is a smaller upper bound in A 0 0 than c. If c < b, observe that (c, b] does not intersect A (because c is an upper bound on A ).
+0 0 Then (d, b] = (d, c] (cid:3581) (c, b] does not intersect A .
+Again, d is a smaller upper bound on A than c, contrary to construction.
+0 0 Case 2: Suppose that c (cid:3547) A then c = b, so either c = a or a < c < b.
+Because A is open 0 0 in [a, b], there must be some interval of the form [c, e) contained in A .
+Because of the order 0 property(2) of the linear continuum L, you can choose a point z (cid:3547) L such that c < z < e. Then z (cid:3547) A , contrary to the fact that c is an upper bound for A .
+0 0 Corollary 3.1 The real line R is connected and so are intervals and rays in R. As an application, the intermediate value theorem of calculus is suitably generalized.
+Theorem 3.8 (Intermediate Value Theorem) Let f : X (cid:3450) Y be a continuous map, where X is a connected space and Y is an ordered set in the order topology.
+If a and b are two points of X and if r is a point of Y lying between f (a) and f (b), then there exists a point c in X such that f (c) = r. Proof.
+Assume that the hypothesis of the theorem.
+The sets A = f (X ) (cid:3580) ((cid:3557) (cid:3569) , r) and B = F (X ) (cid:3580) (r, +(cid:3569) ) are disjoint, nonempty because one contains f (a) and the other contains f (b).
+Each is open in f (X ).
+If there is no point c (cid:3547) X such that f (c) = r, the A and B form a separation of f (X ) 59  6w Thuictho ri s M coanrkneedct eAds.
+sTighnism ise nat sc o(nTtMradAics)ti on.
+CATEGORY AND SEPARABILITY 5 60  63 .T3u toPra tMh aCrkoendn eActsesdingnesms e nts (TMAs) CATEGORY ACNODN NECTEDNESS SEPARABILITY 3.3 Path Connectedness Definition 3.4 Given points x and y of the topological space X, a path in X from x to y is a continuous map f : [a, b] (cid:3450) X of some closed interval in the interval in the real line to the space X, such that f (a) = x and f (b) = y.
+Definition 3.5 Path Connectedness.
+A topological space X is said to be path connected if every pair of points of X can be joined by a path in X. Theorem 3.9 If X is a path connected space then X is connected.
+Proof.
+Suppose X = A (cid:3581) B is a separation of X.
+Let x (cid:3547) A and y (cid:3547) B.
+Choose a path f : [a, b] (cid:3450) X joining x and y.
+The subspace f ([a, b]) of X is connected as a continuous image of a connected space.
+Therefore it lies in entirely in either A or B which contradicts the fact that A and B are disjoint.
+Example 3.7 Define the unit ball Bn in Rn by B = {x (cid:3547) Rn : kxk (cid:3639) 1} where kxk = (x2 + x2 + · · · + x2 )1/2 1 2 n The unit ball Bn is path connected, given any two points x, y in Bn , the straight line path f : [0, 1] (cid:3450) Rn defined by f (t) = (1 (cid:3557) t)x + ty lies in Bn .
+3.4 Components and Local Connectedness 3.4.1 Connected Components Definition 3.6 Connected Components Given a topological space X, define and equvalence relation (cid:3599) by x (cid:3599) y if and only if there exists a connected subspace of X containing x and y.
+Claim: (cid:3599) is an equivalence relation.
+1. x (cid:3599) x because {x} is connected (so (cid:3599) is reflexive.)
+2.
+(cid:3599) is symmetric by definition.
+3.
+(cid:3599) is transitive, because x (cid:3599) y and y (cid:3599) z implies that there exists connected 61  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY subspaces C and C of X such that x, y (cid:3547) C and y, z (cid:3547) C .
+Let C = C (cid:3581) C , then C is 1 2 1 2 1 2 connected since y (cid:3547) C (cid:3580) C and x, z (cid:3547) C. Hence x (cid:3599) y.
+1 2 A connected component or a component is all equivalence classes for this equivalence relation.
+6 62  64 TCuotnocrl uMsiaornk ed Assignments (TMAs) CATEGORY ACNODN NECTEDNESS SEPARABILITY Theorem 3.10 The connected components of X are connected disjoint subspaces of X whose union is X, such that each nonempty connected subspace of X intersects only one of them.
+Proof.
+Being equivalence classes, the components of X are disjoint and their union is X.
+Each connected subspace A of X intersects only one of them.
+For if A intersects the components C 1 and C of X, say in the points x and x respectively, then x (cid:3599) x by definition, this 2 1 2 1 2 cannot happen unless C = C .
+To show that the component C is connected, choose a point 1 2 x of C. For each point x of C, we know that x (cid:3599) x, so there is a connected subspace A 0 0 x containing x and x.
+By the result just proved, A (cid:3669) C. Therefore 0 x [ C = A x x(cid:3547)C since the subspaces A are connected and have the point x in common, their union is connected.
+x 0 3.4.2 Locally Connectedness Definition 3.7 A topological space (X, τ ) is said to be locally connected if it has a basis B consisting of connected open sets.
+Example 3.8 Z the set of integers is a locally connected space which is not connected.
+Example 3.9 Rn is locally connected for all n (cid:3640) 1 Example 3.10 Let (X, τ ) be the subspace of R2 consisting of the points in the line segments joining (0, 1) to (0, 0) and to all the points ( 1 , 0), n = 1, 2, 3, .... Then the space (X, τ ) is n connected but not locally connected.
+Proposition 3.1 Every open subset of a locally connected space is locally connected.
+Proposition 3.2 A finite product of locally connected spaces is locally connected.
+4 Conclusion In this unit, you were introduced to a topological property called connectedness.
+You studied connected and separated spaces with example and the connectedness of the real line.
+You also studied the connected components of a given space, locally connected spaces and path connectedness.
+You also proved some important results such as the intermediate value theorem.
+5 Summary Having gone through this unit, you now know that; 63  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 7 64  66 TTuuttoorr MMaarrkkeedd AAssssiiggnnmmeennttss ((TTMMAAss)) CATEGORY ACNODN NECTEDNESS SEPARABILITY (i) A separation of a topological space X is a pair U, V of disjoint open sets of X, whose union is X.
+(ii) A topological space X is connected if it has no separation.
+Or X is connected if and only if the only closed and open sets in X is (cid:3544) and X itself.
+(iii) A set is connected if it is connected in the subspace topology induced by the topology in the topological space.
+(iv) A union of a collection of connected subspaces of X that have one point in common is connected.
+(v) The continuous image of a connected space is connected.
+(vi) A finite cartesian product of connected spaces is connected.
+(vii) The real line is connected.
+So also is the intervals and rays.
+(viii) A simply ordered set L having more than one element is called linear continuum if L has the least upper bound property and if x < y, then there exists z such that x < z < y.
+(ix) A linear continuum in the order topology is connected.
+(x) If f : X (cid:3450) Y is a continuous map from the connected space X to the ordered space Y in the order topology, a and b are two points of X and if r is a point of Y lying between f (a) and f (b), then there exists a point c in X such that f (c) = r. This is the intermediate value theorem (xi) A path from a point x to y in the topological space X is a continuous map f : [a, b] (cid:3450) X of some closed interval in the real line to the space X, such that f (a) = x and f (b) = y. X is called path connected if every pair of points of X can be joined by a path in X.
+If X is a path connected space then X is connected (xii) A connected component is all equivalence classes for the equivalence relation ; x (cid:3599) y if and only if there exists a connected subspace X containing x and y.
+The connected components of X are connected disjoint subspaces of X whose union is X, such that each nonempty connected subspace of X intersects only one of them.
+(xiii) A topological space X is said to be locally connected if it has a basis B consisting of connected open sets.
+6 Tutor Marked Assignments (TMAs) Exercise 6.1 1.
+Let X be a discrete topological space.
+If X is connected, then (a) X is infinite.
+(b) X is countable.
+65  6 Tutor ( cM) aXrk eisd fiAnsitsei gwnimthe mntos r(eT tMhaAn so)n e element.
+CATEGORY AND SEPARABILITY 8 66  66 TTuuttoorr MMaarrkkeedd AAssssiiggnnmmeennttss ((TTMMAAss)) CATEGORY ACNODN NECTEDNESS SEPARABILITY (d) X is a singleton.
+2.
+Let X = {a, b, c, d, e}.
+Suppose X is connected when endowed with the topology τ, which of the following could be τ ?
+(a) τ = P (X ), the power set of X.
+(b) τ = {X, (cid:3544), {a}, {c, d}, {a, c, d}} (c) τ = {X, (cid:3544), {a}, {c, d}, {a, c, d}, {b, c, d, e}}.
+(d) τ = {X, (cid:3544), {a}, {c, d}, {a, c, d}, {b, e}, {a, b, e}{b, c, d, e}} 3.
+Let X = {a, b}.
+Which of the following topologies will make X disconnected.
+(a) τ = {X, (cid:3544), {a}, {b}}.
+(b) τ = {X, (cid:3544), {a}} (c) τ = {X, (cid:3544), {b}} (d) τ = {X, (cid:3544) } 4.
+In which of the following spaces is the subset {0, 1} of real numbers connected.
+(a) R with the standard topology (b) R with the finite complement topology (c) R = [0, (cid:3569) ) with the topology Ω = {(cid:3544) , X, (a, +(cid:3569) )}.
++ (d) R with the discrete topology 5.
+If R is endowed with the finite complement topology, then the following sets are con- nected except (a) the empty set.
+(b) singleton sets.
+(c) infinite sets.
+(d) N 6.
+Every connected space is path connected.
+(TRUE/FALSE) 7.
+Every connected space is locally connected.
+(TRUE/FALSE) 8.
+Every locally connected space is connected.
+(TRUE/FALSE) 9.
+Let A be a subset of a space X.
+Then the pair U, V is a separation such that A = U (cid:3581) B if and only if (a) U 0 (cid:3669) V or V 0 (cid:3669) U (b) V 0 (cid:3580) U = (cid:3544) and U 0 (cid:3580) V = (cid:3544) 67  6 Tutor ( cM) aUrk e(cid:3580)d V A =ss i(cid:3544)gn amnedn Uts (cid:3580)(T VM =A s(cid:3544)) CATEGORY AND SEPARABILITY (d) V 0 (cid:3580) U = (cid:3544) and U 0 (cid:3580) V = (cid:3544) or V 0 (cid:3580) U = (cid:3544) and U 0 (cid:3580) V = (cid:3544) 10.
+If C and C are connected components and A is a connected set, then 1 2 9 68  66 TTuuttoorr MMaarrkkeedd AAssssiiggnnmmeennttss ((TTMMAAss)) CATEGORY ACNODN NECTEDNESS SEPARABILITY (a) either C1 (cid:3580) C2 = (cid:3544) or C1 = C2, and A intersects both C1 and C2 (b) C (cid:3580) C = (cid:3544) and C = C , and A intersects both C and C .
+1 2 1 2 1 2 (c) either C1 (cid:3580) C2 = (cid:3544) or C1 = C2, and A intersects either C1 or C2 (d) C (cid:3580) C = (cid:3544) and C = C , and A intersects either C or C .
+1 2 1 2 1 2 11.
+A topological space is totally separated if all its components are singletons.
+Which of the following spaces is not totally separated?
+(a) Any discrete space.
+(b) The space Q endowed the topology induced from standard topology of R. (c) The cantor set K (d) R with the standard topology 12.
+If X is a connected space and f : X (cid:3450) R is a continuous function.
+Then f (X ) is an interval I of R. Which of the following is not correct about this assertion.
+(a) f (X ) is connected.
+(b) The interval of R is connected.
+(c) R is connected.
+(d) The interval I is a continuous image of the connected space X 69  6 Tutor Marked Assignments (TMAs) CATEGORY AND SEPARABILITY 10 70

@@ -1,0 +1,293 @@
+ NATIONAL OPEN UNIVERSITY OF NIGERIA SCHOOL OF SCIENCE AND TECHNOLOGY COURSE CODE: PHY 313 COURSE TITLE: Mathematical Methods of Physics II Course Code PHY 313 Mathematical Methods of Physics II Course Title Course Developer Dr. OMOLOFE.
+Babatope Department of Mathematics Faculty of Science Federal University of Technology, Akure, Ondo State.
+Content Editor Dr. Ajibola.
+S.O National Open University of Nigeria Lagos Programme Leader Dr. Ajibola S. O.
+National Open University of Nigeria Lagos  NATIONAL OPEN UNIVERSITY OF NIGERIA National Open University of Nigeria Headquarters 14/16 Ahmadu Bello Way Victoria Island Lagos Abuja Office 5, Dar Es Salaam Street Off Aminu Kano Crescent Wuse II, Abuja Nigeria.
+e-mail: centralinfo@nou.edu.ng URL: www.nou.edu.ng National Open University of Nigeria 2006 First Printed 2008 ISBN: All Rights Reserved Printed by: For National Open University of Nigeria PHY313 MATHEMATICAL METHODS OF PHYSICS II (3 UNITS) COURSE CONTENT Function of complex variables.
+Analyticity.
+Complex integration.
+The residual theorem and its applications.
+Conformal mapping.
+The eigenvalue problem for matrices.
+Diagonalization of matrices.
+Introduction to tensors.
+Integral equations.
+Basic group theory.
+Application of group theory.
+Course Code PHY 313 Mathematical Methods of Physics II Course Title Course Developer OMOLOFE Babatope Department of Mathematics Faculty of Science Federal University of Technology.
+Akure Ondo State.
+FFUUNNCCTTIIOONNSS OOFF CCOOMMPPLLEEXX VVAARRIIAABBLLEESS MODULE 1 Unit 1 Complex Variables CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 4.0 Conclusion 5.0 Summary 6.0 Tutor-MMaarrkkeedd AAssssiiggnnmmeenntt 7.0 RReeffeerreenncceess//FFuurrtthheerr RReeaaddiinnggss 1.0 INTRODUCTION Complex number ccaann bbee ddeeffiinneedd aas an expression of the form ,, wwhheerree are real numbers and iiss aa ````nnuummbbeerr'''' ssuucchh tthhaatt .
+The number iiss ccaalllleedd tthhee rreeaall ppaarrtt of ( ii..ee.. aa == RRee zz) and iiss tthhee iimmaaggiinnaarryy ppaarrtt ((oorr iimmaaggiinnaarryy ccooeeffffiicciieenntt)) ooff z ( b = Im z).
+TThhee sseett ooff aallll ccoommpplleexx nnuummbbeerrss iiss ddeennootteed .
+We denote * = - 0.
+2.0 OBJECTIVES 11 TToo kknnooww ccoommpplleexx vvaarriiaabbllee aanndd iittss pprrooppeerrttiieess.. 2 To know operations ooff ccoommpplleexx variable and when applicable 3 TToo kknnooww ccoommpplleexx vvaarriiaabbllee aass aa ffuunnccttiioonn 4 To know tthheeoorreemmss oonn lliimmiittss ooff functions  3.0 MAIN CONTENT 3.1 Definition: AA ccoommpplleexx nnuummbbeerr iiss aann eexxpprreessssiioonn ooff tthhee ffoorrmm , where are real numbers and iiss aa ````nnuummbbeerr'''' ssuucchh tthhaatt .
+The number iiss ccaalllleedd tthhee rreeaall ppaarrtt of ( i.e.
+a = Re z) and iiisss ttthhheee iiimmmaaagggiiinnnaaarrryyy pppaaarrrttt (((ooorrr iiimmmaaagggiiinnnaaarrryyy cccoooeeeffffffiiiccciiieeennnttt))) ooofff z ( b = Im z).
+TThhee sseett ooff aallll ccoommpplleexx nnuummbbeerrss iiss ddeennootteedd .
+We denote * = - 0.
+Properties: 1.
+Equality: .
+2.
+If .
+3.
+If , iiss ccaalllleedd ppuurree iimmaaggiinnaarryy..
+Example • is pure imaginary.
+• is real.
+Definition (Operations) Let and .
+1.
+Addition: .
+2.
+Multiplication: TTThhheeessseee ooopppeeerrraaatttiiiooonnnsss hhhaaavvveee ttthhheee sssaaammmeee aaalllgggeeebbbrrraaaiiiccc ppprrrooopppeeerrrtttiiieeesss aaasss ttthhheee cccooorrrrrreeessspppooonnndddiiinnnggg ooopppeeerrraaatttiiiooonnnsss iiinnn (((aaassssssoooccciiiaaatttiiivvviiitttyyy,,, cccooommmmmmuuutttaaatttiiivvviiitttyyy,,, eeetttccc...;;; pppllleeeaaassseee ppprrrooovvveee .........)))... TTThhhuuusss,,, ttthhheee ccclllaaassssssiiicccaaalll fffooorrrmmmuuulllaaasss (((sssuuuccchhh aaasss NNeewwttoonn''ss bbiinnoommiiaall)) aarree aallssoo ttrruuee iinn .
+.
+.
+.
+.
+.
+Example .
+.
+.
+.
+3.2 TTTHHHEEEOOORRREEEMMMSSS OOONNN LLLIIIMMMIIITTTSSS OOOFFF FFFUUUNNNCCCTTTIIIOOONNNSSS 1. eexxiissttss,, tthheenn iitt iiss uunniiqquuee 2. and , then 3.
+4.
+Definition: We mean given , ssuucchh tthhaatt iiff where is the domain of then – In some applications, S CONTINUITY : SEQUENCE If iiss aann iinnffiinniittee sseeqquueennccee ooff ccoommpplleexx nnuummbbeerrss,, tthheenn wwee ssaayy .
+n=1 That is, ccoonnvveerrggeess ttoo WW iiff ggiivveenn , N such that n N, then n=1 – 3.3 CAUCHY SEQUENCE A sequence { }} iiss CCaauucchhyy iiff ggiivveenn >0, N such that m, ssuucchh tthhaatt ℇ ∃ Example: EEvveerryy ccoonnvveerrggeenntt sseeqquueennccee iiss CCaauucchhyy sseeqquueennccee By ,, wwee mmeeaann aass approaches infinity, if for any ,, M >0 such that – wwee mmeeaann ffoorr aannyy NN>>00,, – NOTE: 1.
+2. is never zero.
+3.
+If x is real, ffoorr xx >>00 ffoorr xx<<00 4. l l = .
+Proposition: Given that are two complex variables, then and Proof.
+Denote and , where aarree rreeaall nnuummbbeerrss.. TThheenn Thus:  = Similarly, , thus: = Definition: ((IInnvveerrssee ooff aa ccoommpplleexx)) If z 0,, tthheenn iitt hhaass aa ccoommpplleexx iinnvveerrssee .
+Let , where and aarree rreeaall nnuummbbeerrss;; tthheenn wwee hhaavvee:: Proof.
+MMuullttiippllyy bbootthh nnuummeerraattoorr aanndd ddeennuummeerraattoorr bbyy Theorem: Let .. TThheerree eexxiissttss aa rreeaall nnuummbbeerr such that .
+Proof.
+Denote ,, wwhheerree and are real numbers.
+Then iiff,, aanndd oonnllyy iiff,, ,, ii..ee.. tthhee iimmaaggee ooff iinn tthhee ccoommpplleexx ppllaannee iiss aa ppooiinntt oonn tthhee uunniitt-circle.
+For each point on the unit-cciirrccllee,, tthheerree eexxiisstt aa rreeaall nnuummbbeerr ssuucchh tthhaatt tthhee ccoooorrddiinnaatteess ooff tthhiiss ppooiinntt aarree .
+Definition: The number iiss ccaalllleedd aann aarrgguummeenntt ooff and is denoted .
+NNoottee tthhaatt tthhiiss aarrgguummeenntt iiss ddeeffiinneedd uupp ttoo aann aaddddiittiioonnaall .
+Example : IIInnn FFFiiiggguuurrreee bbbeeelllooowww,,, aaa vvvaaallluuueee ooofff ttthhheee aaarrrggguuummmeeennnttt ooofff ttthhheee cccooommmpppllleeexxx nnnuuummmbbbeeerrr cccooorrrrrreeessspppooonnndddiiinnnggg tttooo aaa pppoooiiinnnttt iiisss diplayed in green.
+TThhee uunniitt cciirrccllee iinn CCaauucchhyy-Argand plane.
+Example 1: Solution: UUssiinngg tthhee bbiinnoommiiaall ffoorrmmuullaa,, we obtain  (cid:7) (cid:7) (cid:14) (cid:14) (cid:15) (cid:7) (cid:4) (cid:6) (cid:8)4(cid:10)(cid:6) (cid:11)(cid:12)6(cid:6) (cid:11) (cid:12)4(cid:10)(cid:6)(cid:11) (cid:8)(cid:11) (cid:7) (cid:14) (cid:14) (cid:7) (cid:7) (cid:15) (cid:4) (cid:6) (cid:12)6(cid:6) (cid:11) (cid:8)(cid:11) (cid:8)(cid:10)(cid:16)4(cid:6) (cid:11)(cid:12)4(cid:6)(cid:11) (cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) so that (cid:7) (cid:14) (cid:14) (cid:7) (cid:7) (cid:15) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:6) (cid:12)6(cid:6) (cid:11) (cid:8)(cid:11) (cid:21)(cid:22)(cid:23) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:16)4(cid:6) (cid:11)(cid:12)4(cid:6)(cid:11) (cid:17) Example 2: Express the function in the (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:25)(cid:26)(cid:27)(cid:28)(cid:16)(cid:25)(cid:17)(cid:8) (cid:25) (cid:8) (cid:29)(cid:30)(cid:16)(cid:25)(cid:17) (cid:10)(cid:22) (cid:31) (cid:28) (cid:24)!
+"(cid:30) (cid:24)(cid:16)(cid:25)(cid:17) form .
+(cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) Solution.
+Using the elementary properties of complex numbers, it follows that (cid:14) (cid:14) (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:16)(cid:6)(cid:12)(cid:10)(cid:11)(cid:17)(cid:6)(cid:8)(cid:16)(cid:6)(cid:8)(cid:10)(cid:11)(cid:17) (cid:8)(cid:11) (cid:4) (cid:16)2(cid:6) (cid:12)(cid:11) (cid:8)(cid:11)(cid:17)(cid:8)(cid:10)(cid:16)(cid:6)(cid:11)(cid:17) .
+(cid:14) (cid:14) so that (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) 2(cid:6) (cid:12)(cid:11) (cid:8)(cid:11) (cid:21)(cid:22)(cid:23) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:6)(cid:11) Examples 1 and 2 show how to find u(x,y) and v(x,y) when a rule for computing f is given.
+Conversely, if u(x,y) and v(x,y) are two real-valued functions of the real variables x and y, they determine a complex-valued function (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) We can use the formulas )*)(cid:26) )+)(cid:26) to find a formula for f involving the variables (cid:6) (cid:4) (cid:21)(cid:22)(cid:23) (cid:11) (cid:4) (cid:25) (cid:21)(cid:22)(cid:23) (cid:25)(cid:26) (cid:14) (cid:14), Example 3: Express by a formula involving the variables .
+(cid:14) (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) 4(cid:6) (cid:8)(cid:10)4(cid:11) (cid:25) (cid:21)(cid:22)(cid:23) (cid:25)(cid:26) Solution.
+Calculation reveals that (cid:25)(cid:8)(cid:25).
+2 (cid:25)(cid:12)(cid:25).
+2 (cid:24)(cid:16)(cid:25)(cid:17)(cid:4) 4- / (cid:8) 40 1 2 2(cid:10) (cid:14) (cid:14) (cid:14) (cid:14) (cid:4) (cid:25) (cid:8) 2(cid:25)(cid:25)(cid:26) (cid:8) (cid:25)(cid:26) (cid:12) (cid:10)(cid:16)(cid:25) (cid:12) 2(cid:25)(cid:25)(cid:26) (cid:8) (cid:25)(cid:26) (cid:17) (cid:14) (cid:14) (cid:4) (cid:16)1 (cid:12) (cid:10)(cid:17)(cid:25) (cid:8) (cid:16)2 (cid:8) 2(cid:10)(cid:17)(cid:25)(cid:25)(cid:26) (cid:8) (cid:16)1 (cid:12) (cid:10)(cid:17)(cid:25)(cid:26) 3.4 GEOMETRIC INTERPRETATION OF A COMPLEX FUNCTION If D is the domain of real-valued functions , the equations (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:21)(cid:22)(cid:23) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) and (cid:18) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:20) (cid:4) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) describe a transformation (or mapping) from D in the xy plane into the uv plane, also called the w plane.
+Therefore, we can also consider the function 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) to be a transformation (or mapping) from the set D in the z plane onto the range R in the w plane.
+This idea was illustrated in Figure 2.1.
+In the following paragraphs we present some additional key ideas.
+They are staples for any kind of function, and you should memorize all the terms in bold.
+If is a subset of the domain of , the set is called the image 4 5 (cid:24) 6 (cid:4) 03 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) 7 z 9 A1 of the set is said to map .
+The image of a single point is a single point, and 4,(cid:21)(cid:22)(cid:23) (cid:24) 4 !(cid:22)(cid:31)!
+6 the image of the entire domain, , is the range, .
+The mapping is said to be 5 (cid:27) 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) from A into S if the image of is contained in .
+Mathematicians use the notation 4 ; (cid:24):4 = ; to indicate that a function maps .
+Figure below illustrates a function f whose 4 (cid:10)(cid:22)(cid:31)!
+; domain is and whose range is .
+The shaded areas depict that the function maps 5 (cid:27) .
+The function also maps , and, of course, it 4 !(cid:22)(cid:31)!
+6 4 (cid:10)(cid:22)(cid:31)!
+(cid:27) (cid:30)(cid:21)>?
+5 !(cid:22)(cid:31)!
+(cid:27).
+Figure maps A onto B. maps A into R. 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) The inverse image of a point w is the set of all points z in D such that .
+The 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) inverse image of a point may be one point, several points, or nothing at all.
+If the last case occurs then the point is not in the range of .
+A (cid:24) Example 4: Express in polar form.
+B (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:25) (cid:8)4(cid:25) (cid:12)6 Solution.
+We obtain ,D ,D B ,D (cid:14) ,BD (cid:14) ,(cid:14)D (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:24)C"(cid:28) E (cid:4) (cid:16)"(cid:28) (cid:17) (cid:8)4(cid:16)"(cid:28) (cid:17) (cid:12)6 (cid:4) F(cid:28) (cid:8) 4" (cid:28) (cid:12) 6 B (cid:14) B (cid:14) (cid:4) " cos5I(cid:8) " cos2I (cid:12) 6(cid:8)(cid:10)(cid:16) " sin5I (cid:8)4 " sin2I(cid:17) (cid:4) L (cid:16)",I(cid:17)(cid:8) (cid:10)M(cid:16)",I(cid:17) So that B (cid:14) B (cid:14) L (cid:16)",I(cid:17) (cid:4) " cos5I (cid:8) " cos2I(cid:12) 6 (cid:21)(cid:22)(cid:23) M(cid:16)",I(cid:17) (cid:4) " sin5I(cid:8)4 " sin2I Example 5: The ellipse centered at the origin with a horizontal major axis of 4 units and vertical minor axis of 2 units can be represented by the parametric equation , for ?
+(cid:16)(cid:31)(cid:17) (cid:4) 2cos(cid:31)(cid:8) (cid:10)sin(cid:31) (cid:4) (cid:16)2cos(cid:31),sin(cid:31)(cid:17) 0 O (cid:31) O 2P Suppose we wanted to rotate the ellipse by an angle of Qradians and shift the center of the R ellipse 2 units to the right and 1 unit up.
+Using complex arithmetic, we can easily generate a parametric equation that does so: "(cid:16)(cid:31)(cid:17) ,Q P P "(cid:16)(cid:31)(cid:17) (cid:4) ?
+(cid:16)(cid:31)(cid:17)(cid:28)R (cid:8) (cid:16)2(cid:8)(cid:10)(cid:17) (cid:4) (cid:16)2cos(cid:31)(cid:8) (cid:10)sin(cid:31)(cid:17)Scos (cid:8) sin T(cid:8) (cid:16)2(cid:8)(cid:10)(cid:17) 6 6 P P P P (cid:4) S2cos(cid:31) cos (cid:12) sin(cid:31)sin T(cid:8)(cid:10)S2cos(cid:31) sin (cid:8) sin(cid:31)cos T(cid:8) (cid:16)2(cid:8)(cid:10)(cid:17) 6 6 6 6 1 √3 (cid:4) U√3cos(cid:31) (cid:12) sin(cid:31)(cid:8) 2X(cid:8)(cid:10)(cid:16)cos(cid:31)(cid:8) sin(cid:31)(cid:8) 1(cid:17) 2 2 1 √3 (cid:4) (cid:16)√3cos(cid:31)(cid:12) sin(cid:31)(cid:8) 2,cos(cid:31)(cid:8) sin(cid:31)(cid:8) 1(cid:17) 2 2 for , Figures below show parametric plots of these ellipses 0 O (cid:31) O 2P Figure (a) Plot ooff tthhee oorriiggiinnaall eelllliippssee (b) PPlloott ooff tthhee rroottaatteedd eelllliippssee Example 6: SShhooww tthhaatt tthhee iimmaaggee ooff tthhee rriigghhtt hhaallff ppllaannee under the linear transformation is the half plane .
+Solution: TThhee iinnvveerrssee ttrraannssffoorrmmaattiioonn iiss ggiivveenn bbyy which we write as Substituting iinnttoo gives which simplifies .
+FFiigguurree 22..1111 iilllluussttrraatteess tthhee mmaappppiinngg..
+Figure 2: TThhee tthhee lliinneeaarr ttrraannssffoorrmmaattiioonn .. 4.0 CONCLUSION In conclusion Examples 1 and 2 above show how to find u(x,y) and v(x,y) when a rule for computing f is given.
+Conversely, if u(x,y) and v(x,y) are two real-valued functions of the real variables x and y, they determine a complex-valued function (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8) We can use the formulas (cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) )*)(cid:26) )+)(cid:26) to find a formula for f involving the variables (cid:6) (cid:4) (cid:21)(cid:22)(cid:23) (cid:11) (cid:4) (cid:25) (cid:21)(cid:22)(cid:23) (cid:25)(cid:26) (cid:14) (cid:14), 5.0 SUMMARY If D is the domain of real-valued functions , the equations (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:21)(cid:22)(cid:23) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) and (cid:18) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:20) (cid:4) (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) describe a transformation (or mapping) from D in the xy plane into the uv plane, also called the w plane.
+Therefore, we can also consider the function 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) to be a transformation (or mapping) from the set D in the z plane onto the range R in the w plane.
+They are staples for any kind of function, and you should memorize all the terms in bold.
+6.0 TMA 1 Express by a formula involving the variables .
+(cid:14) (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) 3(cid:6) (cid:8)(cid:10)(cid:11) (cid:25) (cid:21)(cid:22)(cid:23) (cid:25)(cid:26) 2 Express in polar form.
+(cid:7) (cid:14) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:25) (cid:8)2(cid:25) (cid:12)1 3 (cid:7) 3"(cid:10)(cid:31)(cid:28) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:25) (cid:10)(cid:22) (cid:31) (cid:28) (cid:24)!
+"(cid:30) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) 4 Prove that cosz,sin z,cosh z, and sinhzare entire functions.
+5 What is the idea that led to the Cauchy-Riemann equations?
+6 State the Cauchy-Riemann equations from memory.
+7 What is an analytic function?
+Can a function be differentiable at a pointz without being analytic at z .
+0 0 7.0 REFRENCES / FURTHER READINGS Hildraban, F. B.
+Advanced Calculus for Application.
+Murray, R. Spieg (1974).
+Schaums Outline Series or Theory and Problem of Advanced Calculus.
+Great Britain: McGraw–Hill Inc. Stephenor, G. (1977).
+Mathematical Methods for Science Students.
+London: Longman, Group Limited.
+Stroud, K.A.
+(1995).
+5th ed.
+Engineering Maths.
+() Palgraw Verma, P.D.S.
+(1995).
+Engineering Mathematics.
+New Delhi: Vikas Publishing House PVT Ltd. UNIT 2 ANALYTIC FUNCTION CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION A function f(z) is analytic at a point if its derivative f'(z) exists not only at (cid:25)Y but at every point z in a neighborhood of .
+(cid:25)Y (cid:25)Y One can show that if f(z) is analytic the partial derivatives of u and v of all orders exist and are continuous functions of x and y.
+Thus we have (cid:14) (cid:14) (cid:14) (cid:14) Z (cid:18) Z (cid:20) Z (cid:20) Z Z(cid:20) Z Z(cid:18) Z (cid:18) (cid:4) (cid:4) (cid:4) (cid:4) (cid:12) (cid:4) (cid:12) (cid:14) (cid:14) Z(cid:6) Z(cid:6)Z(cid:11) Z(cid:11)Z(cid:6) Z(cid:11)Z(cid:6) Z(cid:11)Z(cid:11) Z(cid:11) That is [\] [\] (cid:8) (cid:4) 0 \ \ [^ [_ Thus both u(x,y) and v(x,y) satisfy Laplace's equation.
+2.0 OBJECTIVES 1 To know about analytic functions 2 To know about complex integral 3 To treat theorems and some related examples 3.0 MAIN CONTENT An analytic function is an infinitely differentiable function such that the Taylor series at any point x in its domain 0 converges to ƒ(x) for x in a neighbourhood of x .
+The set of all real analytic functions on a 0 ω given set D is often denoted by C (D).
+A function ƒ defined on some subset of the real line is said to be real analytic at a point x if there is a neighbourhood D of x on which ƒ is real analytic.
+If a complex analytic function is defined in an open ball around a point x , its power series 0 expansion at x is convergent in the whole ball.
+This statement for real analytic functions 0 (with open ball meaning an open interval of the real line rather than an open disk of the complex plane) is not true in general; the function of the example above gives an example for x = 0 and a ball of radius exceeding 1, since the power series 1 − x2 + x4 − x6... diverges for 0 |x| > 1.
+Any real analytic function on some open set on the real line can be extended to a complex analytic function on some open set of the complex plane.
+However, not every real analytic function defined on the whole real line can be extended to a complex function defined on the whole complex plane.
+Theorem: If the derivative of f(z) exists at a point z, then the partial derivatives of and (cid:18) (cid:20) exist at that point and obey the following conditions: Z(cid:18) Z(cid:20) Z(cid:18) Z(cid:20) (cid:4) (cid:21)(cid:22)(cid:23) (cid:4) (cid:12) Z(cid:6) Z(cid:11) Z(cid:11) Z(cid:6) This above equations are called Cauchy Riemann equations Let u and v be real and single valued functions of x and y are called which, together with their partial derivatives of the first order, are continuous at a point.
+If those partial derivatives satisfy the Cauchy-Riemann conditions at that point, then the derivative of f exists at that point.
+3.1 Cauchy Riemann Equation: A necessary condition that be analytic in region R is that u 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) and v satisfy Cauchy Riemann equations.
+Z(cid:18) Z(cid:20) Z(cid:18) Z(cid:20) (cid:4) (cid:21)(cid:22)(cid:23) (cid:4) (cid:12) Z(cid:6) Z(cid:11) Z(cid:11) Z(cid:6) Usually u(x,y) and v(x,y) are called conjugate functions.
+3.2 ANALYTIC FUNCTIONS A function f(z) is analytic at a point if its derivative f'(z) exists not only at (cid:25)Y but at every point z in a neighborhood of .
+(cid:25)Y (cid:25)Y One can show that if f(z) is analytic the partial derivatives of u and v of all orders exist and are continuous functions of x and y.
+Thus we have (cid:14) (cid:14) (cid:14) (cid:14) Z (cid:18) Z (cid:20) Z (cid:20) Z Z(cid:20) Z Z(cid:18) Z (cid:18) (cid:4) (cid:4) (cid:4) (cid:4) (cid:12) (cid:4) (cid:12) (cid:14) (cid:14) Z(cid:6) Z(cid:6)Z(cid:11) Z(cid:11)Z(cid:6) Z(cid:11)Z(cid:6) Z(cid:11)Z(cid:11) Z(cid:11) That is [\] [\] (cid:8) (cid:4) 0 \ \ [^ [_ Thus both u(x,y) and v(x,y) satisfy Laplace's equation.
+Example: Show that defined by is analytic in and that abc . )
+) (cid:24)(cid:16)(cid:25)(cid:17):=` (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:28) ` (cid:4) (cid:28) a) Solution: Let .
+(cid:25) (cid:4) (cid:6)(cid:8)(cid:10)(cid:11) Bu definition, ) ^*,_ ^ ,_ ^ (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:28) (cid:4) (cid:28) (cid:4) (cid:28) (cid:28) (cid:4) (cid:28) (cid:16)cosy(cid:8)isin(cid:11)(cid:17) So, ^ ^ (cid:18)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:28) cosy and (cid:20)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:28) sin(cid:11) To show is analytic, we verify Cauchy Riemann equations.
+(cid:24) Z(cid:18) Z(cid:20) ^ ^ (cid:4) (cid:28) cos(cid:11) , (cid:4) (cid:28) sin(cid:11) Z(cid:6) Z(cid:6) Z(cid:18) Z(cid:20) ^ ^ (cid:4) (cid:12)(cid:28) sin(cid:11), (cid:4) (cid:28) cos(cid:11) Z(cid:11) Z(cid:11) So, [] [f [] [f are satisfied.
+(cid:4) (cid:21)(cid:22)(cid:23) (cid:4) (cid:12) [^ [_ [_ [^ Hence, is analytic.
+To show ag , ) ) ^ (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:28) (cid:4) (cid:28) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) (cid:4) (cid:28) cos(cid:11)(cid:8) a) ^ (cid:10)(cid:28) sin(cid:11) Since [g [] [f = = ^ ^ ^ ^ ,_ ^*,_ ) (cid:4) (cid:8) (cid:10) (cid:28) cos(cid:11)(cid:8)(cid:10)(cid:28) sin(cid:11) (cid:28) (cid:16)cosy(cid:8)isin(cid:11)(cid:17)(cid:4) (cid:28) (cid:28) (cid:4) (cid:28) (cid:4) (cid:28) [) [^ [^ Hence, abc . )
+(cid:4) (cid:28) a) 3.3 COMPLEX INTEGRAL Definition (Definite Integral of a Complex Integrand): Let where (cid:24)(cid:16)(cid:31)(cid:17) (cid:4) (cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17) u(t) and v(t) are real-valued functions of the real variable t for .
+Then (cid:21) O (cid:31) O h j j j j .
+(A) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) i C(cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17) E(cid:23)(cid:31) (cid:4) i (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)i (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k k k We generally evaluate integrals of this type by finding the anti derivatives of u(t) and v(t) and evaluating the definite integrals on the right side of Equation above.
+That is, if and , we have l l L (cid:16)(cid:31)(cid:17) (cid:4) (cid:18)(cid:16)(cid:31)(cid:17) M (cid:16)(cid:31)(cid:17) (cid:4) (cid:20)(cid:16)(cid:31)(cid:17) j j j .
+(B) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) i (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)i (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) L(cid:16)h(cid:17)(cid:12) L(cid:16)(cid:21)(cid:17)(cid:8)(cid:10)(cid:16)M(cid:16)h(cid:17)(cid:12)M(cid:16)(cid:21)(cid:17)(cid:17) k k k Example: Show that m (cid:15) B .
+i (cid:16)(cid:31)(cid:12)1(cid:17) (cid:23)(cid:31) (cid:4) (cid:12) Y (cid:7) Solution: We write the integrand in terms of its real and imaginary parts, i.e.
+(cid:15) (cid:15) (cid:14) (cid:24)(cid:16)(cid:31)(cid:17) (cid:4) (cid:16)(cid:31)(cid:12)1(cid:17) (cid:4) (cid:31) (cid:12)3(cid:31) (cid:8)(cid:10)(cid:16)(cid:12)3(cid:31) (cid:8)1(cid:17) Here, and .
+The integrals of u(t) and v(t) are (cid:15) (cid:14) (cid:18)(cid:16)(cid:31)(cid:17) (cid:4) (cid:31) (cid:12)3(cid:31) (cid:20)(cid:16)(cid:31)(cid:17) (cid:4) (cid:12)3(cid:31) (cid:8)1 m m (cid:15) (cid:15) op (cid:15)o\ m B i (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) i (cid:16)(cid:31) (cid:12)3(cid:31) (cid:17) (cid:23)(cid:31) (cid:4) n (cid:12) q (cid:4) (cid:12) Y Y (cid:7) (cid:14) Y (cid:7) and m m (cid:14) (cid:15) (cid:15) m iY (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) iY(cid:16)(cid:12)3(cid:31) (cid:8)1 (cid:17) (cid:23)(cid:31) (cid:4) r(cid:12)(cid:31) (cid:8)(cid:31)sY (cid:4) 0 Hence, by Definition (A), m (cid:15) m m B B i (cid:16)(cid:31)(cid:12)1(cid:17) (cid:23)(cid:31) (cid:4) i (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)i (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:12) (cid:8)0(cid:10) (cid:4) (cid:12) Y Y Y (cid:7) (cid:7) Example: Show that it\(cid:28)o*,o(cid:23)(cid:31) (cid:4) mS(cid:28)t\ (cid:12)1T(cid:8) , S(cid:28)t\ (cid:8)1T .
+Y (cid:14) (cid:14) Solution.
+We use the method suggested by Definitions (A) and (B) above Q Q Q (cid:14) (cid:14) (cid:14) o*,o o ,o o u (cid:28) (cid:23)(cid:31) (cid:4) u (cid:28) (cid:28) (cid:23)(cid:31) (cid:4) u (cid:28) (cid:16)cos(cid:31)(cid:8)(cid:10)sin(cid:31)(cid:17)(cid:23)(cid:31) Y Y Y Q Q (cid:14) (cid:14) o o (cid:4) u (cid:28) cos(cid:31)(cid:23)(cid:31)(cid:8)(cid:10)u (cid:28) sin(cid:31)(cid:23)(cid:31) Y Y We can evaluate each of the integrals via integration by parts.
+For example, Q Q Q (cid:14) ov (cid:14) o o (cid:14) o u (cid:28) cos(cid:31)(cid:23)(cid:31) (cid:4) (cid:16)(cid:28) sin(cid:31)(cid:17) (cid:12)u (cid:28) sin(cid:31)(cid:23)(cid:31) ovY Y Y Q Q P (cid:14) (cid:4) S(cid:28)(cid:14)sin (cid:12) (cid:28)Ysin0T(cid:12) u (cid:28)osin(cid:31)(cid:23)(cid:31) 2 Y Q Q (cid:14) (cid:4) (cid:16)(cid:28)(cid:14).1(cid:12)1.0(cid:17)(cid:12) u (cid:28)osin(cid:31)(cid:23)(cid:31) Y Q Q (cid:14) (cid:4) (cid:28)(cid:14) (cid:12) u (cid:28)osin(cid:31)(cid:23)(cid:31) Y Q Q ovQ (cid:14) (cid:4) (cid:28)(cid:14) (cid:12) (cid:16)(cid:28)o.
+(cid:12)cos(cid:31)(cid:17) (cid:14) (cid:8)u (cid:28)o.
+(cid:12)cos(cid:31)(cid:23)(cid:31) ovY Y Q Q ovQ (cid:14) (cid:4) (cid:28)(cid:14) (cid:8) (cid:16)(cid:28)ocos(cid:31)(cid:17) (cid:14) (cid:12)u (cid:28)ocos(cid:31)(cid:23)(cid:31) ovY Y Q Q Q (cid:14) (cid:4) (cid:28)(cid:14) (cid:8) (cid:16)(cid:28)(cid:14).0(cid:12)1.1(cid:17)(cid:12)u (cid:28)ocos(cid:31)(cid:23)(cid:31) Y Q Q (cid:14) (cid:4) (cid:28)(cid:14) (cid:12) 1(cid:12)u (cid:28)ocos(cid:31)(cid:23)(cid:31) Y t Adding to both sides of this equation and then dividing by 2 gives i\(cid:28)ocos(cid:31)(cid:23)(cid:31) Y it\(cid:28)ocos(cid:31)(cid:23)(cid:31) (cid:4) mS(cid:28)t\ (cid:12)1T .
+Likewise,it\(cid:28)osin(cid:31)(cid:23)(cid:31) (cid:4) , S(cid:28)t\ (cid:8)1T .
+Y (cid:14) Y (cid:14) Therefore, it\(cid:28)o*,o(cid:23)(cid:31) (cid:4) mS(cid:28)t\ (cid:12)1T(cid:8) , S(cid:28)t\ (cid:8)1T Y (cid:14) (cid:14) Complex integrals have properties that are similar to those of real integrals.
+We now trace through several commonalities.
+Let and be (cid:24)(cid:16)(cid:31)(cid:17) (cid:4) (cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17) {(cid:16)(cid:31)(cid:17) (cid:4) >(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)|(cid:16)(cid:31)(cid:17) continuous on .
+(cid:21) O (cid:31) O h Using Definition (A), we can easily show that the integral of their sum is the sum of their integrals, that is j j j (C) i (cid:16)(cid:24)(cid:16)(cid:31)(cid:17)(cid:8){(cid:16)(cid:31)(cid:17)(cid:17)(cid:23)(cid:31) (cid:4) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)i {(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k k If we divide the interval into and and integrate over (cid:21) O (cid:31) O h (cid:21) O (cid:31) O F F O (cid:31) O h (cid:24)(cid:16)(cid:31)(cid:17) these subintervals by using (A), then we get j } j .
+(D) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k } Similarly, if denotes a complex constant, then ~ (cid:8)(cid:10)(cid:127) j j .
+(E) i (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)(cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k If the limits of integration are reversed, then j k .
+(F) i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:12)i (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k j The integral of the product f(t)g(t) becomes j j i (cid:24)(cid:16)(cid:31)(cid:17){(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) i (cid:16)(cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17)(cid:17)(cid:16) >(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)|(cid:16)(cid:31)(cid:17)(cid:17)(cid:23)(cid:31) k k j j (G) (cid:4) i (cid:16)(cid:18)(cid:16)(cid:31)(cid:17)>(cid:16)(cid:31)(cid:17)(cid:12)(cid:20)(cid:16)(cid:31)(cid:17)|(cid:16)(cid:31)(cid:17)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)i (cid:16)(cid:18)(cid:16)(cid:31)(cid:17)|(cid:16)(cid:31)(cid:17)(cid:12)(cid:20)(cid:16)(cid:31)(cid:17)>(cid:16)(cid:31)(cid:17)(cid:17)(cid:23)(cid:31) k k Example: Let us verify property (E).
+We start by writing (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)(cid:24)(cid:16)(cid:31)(cid:17) (cid:4) (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)C(cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17)E (cid:4) F(cid:18)(cid:16)(cid:31)(cid:17)(cid:12) (cid:23)(cid:20)(cid:16)(cid:31)(cid:17)(cid:8) (cid:10)(cid:16)F(cid:20)(cid:16)(cid:31)(cid:17)(cid:8)(cid:23)(cid:18)(cid:16)(cid:31)(cid:17)(cid:17) Using Definition (A), we write the left side of Equation (E) as j j j j j i (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)C(cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17)E(cid:23)(cid:31) (cid:4) Fi (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:12)(cid:23)i (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)(cid:10)Fi (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)(cid:23)i (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k k k k which is equivalent to j j j j j u (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)C(cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17)E(cid:23)(cid:31) (cid:4) Fu (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)(cid:10)(cid:23)u (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)(cid:10)Fu (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)(cid:10)(cid:23)(cid:10)u (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k k k k j j (cid:4) (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)u (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8)(cid:10)(cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)u (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k j j (cid:4) (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)(cid:16)u (cid:18)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:8) (cid:10)u (cid:20)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31)(cid:17) k k j j € (cid:28)"(cid:28)(cid:24)!
+"(cid:28)u (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)(cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:16)F (cid:8)(cid:10)(cid:23)(cid:17)u (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) k k It is worthwhile to point out the similarity between equation (B) and its counterpart in calculus.
+Suppose that U and V are differentiable on and (cid:21) O (cid:31) O h (cid:129)(cid:16)(cid:31)(cid:17) (cid:4) L(cid:16)(cid:31)(cid:17)(cid:8) .
+Since , equation (B) takes on the l l l (cid:10)M(cid:16)(cid:31)(cid:17) (cid:129) (cid:16)(cid:31)(cid:17) (cid:4) L (cid:16)(cid:31)(cid:17)(cid:8)(cid:10)M (cid:16)(cid:31)(cid:17) (cid:4) (cid:18)(cid:16)(cid:31)(cid:17)(cid:8)(cid:10)(cid:20)(cid:16)(cid:31)(cid:17) (cid:4) (cid:24)(cid:16)(cid:31)(cid:17) familiar form j ovj .
+(H) ik (cid:24)(cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:129)(cid:16)(cid:31)(cid:17)‚ovk (cid:4) (cid:129)(cid:16)h(cid:17)(cid:12)(cid:129)(cid:16)(cid:21)(cid:17) where .
+We can view Equation (H) as an extension of the fundamental theorem l (cid:129) (cid:16)(cid:31)(cid:17) (cid:4) (cid:24)(cid:16)(cid:31)(cid:17) of calculus.
+j l .
+(I) i (cid:24) (cid:16)(cid:31)(cid:17)(cid:23)(cid:31) (cid:4) (cid:24)(cid:16)h(cid:17)(cid:12)(cid:24)(cid:16)(cid:21)(cid:17) k Example: Use Equation (H) to show that it\(cid:28)o*,o(cid:23)(cid:31) (cid:4) mS(cid:28)t\ (cid:12)1T(cid:8) , S(cid:28)t\ (cid:8)1T Y (cid:14) (cid:14) Solution: We seek a function F with the property that .
+We note l (cid:16)m*,(cid:17)o (cid:129) (cid:16)(cid:31)(cid:17) (cid:4) (cid:28) that m (cid:16)m*,(cid:17)o satisfies this requirement, so (cid:129)(cid:16)(cid:31)(cid:17) (cid:4) (cid:28) m*, Q u(cid:14)(cid:28)o*,o(cid:23)(cid:31) (cid:4) 1 (cid:28)(cid:16)m*,(cid:17)o‚ovQ(cid:14) (cid:4) 1 (cid:28)(cid:16)m*,(cid:17)Q(cid:14) (cid:12) 1 (cid:28)Y ovY 1(cid:8)(cid:10) 1(cid:8)(cid:10) 1(cid:8)(cid:10) Y1 Q Q 1 1 Q 1 , (cid:4) (cid:28)(cid:14)(cid:28) (cid:14) (cid:12) (cid:4) (cid:10)(cid:28)(cid:14) (cid:12) 1(cid:8)(cid:10) 1(cid:8)(cid:10) 1(cid:8)(cid:10) 1(cid:8)(cid:10) 1 Q 1 Q (cid:4) S(cid:10)(cid:28)(cid:14) (cid:12)1T (cid:4) (cid:16)1(cid:12)(cid:10)(cid:17)(cid:16)(cid:12)1(cid:8)(cid:10)(cid:28)(cid:14)(cid:17) 1(cid:8)(cid:10) 2 1 Q (cid:10) Q (cid:4) S(cid:28)(cid:14) (cid:12)1T(cid:8) S(cid:28)(cid:14) (cid:8)1T 2 2 4.0 CONCLUSION Conclusively, A function f(z) is analytic at a point if its derivative f'(z) exists not only at (cid:25)Y but at every point z in a neighborhood of .
+(cid:25)Y (cid:25)Y 5.0 SUMMARY A necessary condition that be analytic in region R is that u 3 (cid:4) (cid:24)(cid:16)(cid:25)(cid:17) (cid:4) (cid:18)(cid:16)(cid:6),(cid:11)(cid:17)(cid:8)(cid:20)(cid:16)(cid:6),(cid:11)(cid:17) and v satisfy Cauchy Riemann equations.
+6.0 TMA 1 Use Equation (H) to evaluate t i\(cid:28)o*,o(cid:23)(cid:31) Y 2 Evaluate m B .
+i (cid:16)(cid:31)(cid:12)1(cid:17) (cid:23)(cid:31) Y 7.0 REFRENCES / FURTHER READINGS Hildraban, F. B.
+Advanced Calculus for Application.
+Murray, R. Spieg (1974).
+Schaums Outline Series or Theory and Problem of Advanced Calculus.
+Great Britain: McGraw–Hill Inc. Stephenor, G. (1977).
+Mathematical Methods for Science Students.
+London: Longman, Group Limited.
+Stroud, K.A.
+(1995).
+5th ed.
+Engineering Maths.
+() Palgraw Verma, P.D.S.
+(1995).
+Engineering Mathematics.
+New Delhi: Vikas Publishing House PVT Ltd. UNIT 3 RESIDUE THEOREM CONTENTS 1.0 Introduction 2.0 Objectives 3.0 Main Content 4.0 Conclusion 5.0 Summary 6.0 Tutor-Marked Assignment 7.0 References/Further Readings 1.0 INTRODUCTION The residue theorem, sometimes called Cauchy's Residue Theorem in complex analysis is a powerful tool to evaluate line integrals of analytic functions over closed curves and can often be used to compute real integrals as well.
+It generalizes the Cauchy integral theorem and Cauchy's integral formula.
+From a geometrical perspective, it is a special case of the generalized Stokes' theorem.
+2.0 OBJECTIVES • to be able to determine and explain Residue; • to be able to use Residue to evaluate integrals; and • to show that the Residue integration method can be extended to the case of several singular points of f(z)inside C 3.0 MAIN CONTENT Residue theorem: Suppose U is a simply connected open subset of the complex plane, and a ,...,a are finitely many points of U and f is a function which is defined and holomorphic on 1 nU \ {a ,...,a }.
+If γ is a rectifiable curve in U which bounds the a , but does not meet any and 1 n k whose start point equals its endpoint, then If γ is a positively oriented Jordan curve, I(γ, a ) = 1 and so k Here, Res(f, a ) denotes the residue of f at a , and I(γ, a ) is the winding number of the curve γ k k k about the point a .
+This winding number is an integer which intuitively measures how many k times the curve γ winds around the point a ; it is positive if γ moves in a counter clockwise k ("mathematically positive") manner around a and 0 if γ doesn't move around a at all.
+k k The relationship of the residue theorem to Stokes' theorem is given by the Jordan Curve Theorem.
+The general plane curve γ must first be reduced to a set of simple closed curves {γ} whose total is equivalent to γ for integration purposes; this reduces the problem to i finding the integral of f dz along a Jordan curve γ with interior V. The requirement that f be i holomorphic on U = U \ {a } is equivalent to the statement that the exterior derivative d(f dz) 0 k = 0 on U .
+Thus if two planar regions V and W of U enclose the same subset {a} of {a }, the 0 j k regions V\W and W\V lie entirely in U , and hence is well- 0 i (cid:23)(cid:16)(cid:24)(cid:23)(cid:25)(cid:17)(cid:12) i (cid:23)(cid:16)(cid:24)(cid:23)(cid:25)(cid:17) …\ƒ ƒ\… defined and equal to zero.
+Consequently, the contour integral of f dz along γ=∂V is equal to i the sum of a set of integrals along paths λ, each enclosing an arbitrarily small region around a j single a—the residues of f (up to the conventional factor 2πi) at {a}.
+Summing over {γ}, we j j i recover the final expression of the contour integral in terms of the winding numbers{I(γ, a )}.
+k In order to evaluate real integrals, the residue theorem is used in the following manner: the integrand is extended to the complex plane and its residues are computed (which is usually easy), and a part of the real axis is extended to a closed curve by attaching a half-circle in the upper or lower half-plane.
+The integral over this curve can then be computed using the residue theorem.
+Often, the half-circle part of the integral will tend towards zero as the radius of the half-circle grows, leaving only the real-axis part of the integral, the one we were originally interested in.
+Example: The integral TThhee ccoonnttoouurr CC..
+Fig.
+1 arises in probability theory wwhheenn ccaallccuullaattiinngg tthhee characteristic function ooff tthhee Cauchy distribution.. IItt rreessiissttss tthhee tteecchhnniiqquueess ooff eelleemmeennttaarryy calculus bbuutt ccaann bbee eevvaalluuaatteedd bbyy eexxpprreessssiinngg iitt aass aa lliimmiitt ooff ccoonnttoouurr iinntteeggrraallss..
+Suppose t >> 00 aanndd ddeeffiinnee tthhee ccoonnttoouurr C that goes along the real line from −−a to a and then counterclockwise aalloonngg aa sseemmiicciirrccllee cceenntteerreedd aatt 00 ffrroomm a to −a.
+Take a ttoo bbee ggrreeaatteerr tthhaann 11,, so that the imaginary unit i iiisss eeennnccclllooossseeeddd wwwiiittthhhiiinnn ttthhheee cccuuurrrvvveee... TTThhheee cccooonnntttooouuurrr iiinnnttteeegggrrraaalll iiisss Since eitz is an entire function (having no singularities aatt aannyy ppooiinntt iinn tthhee ccoommpplleexx ppllane), this ffuunnccttiioonn hhaass ssiinngguullaarriittiieess oonnllyy wwhheerree tthhee ddeennoommiinnaattoorr z2 ++ 11 iiss zzeerroo.. SSiinnccee z2 + 1 = (z + i)(z − i), that happens only where z == i or z = −i.. OOnnllyy oonnee ooff tthhoossee ppooiinnttss iiss iinn tthhee rreeggiioonn bboouunnddeedd by this contour.
+Because f(z)) iiss the residue of f(z) at z = i is AAccccoorrddiinngg ttoo tthhee rreessiidduuee tthheeoorreemm,, tthheenn,, wwee hhaavvee The contour C mmaayy bbee sspplliitt iinnttoo aa ""ssttrraaiigghhtt"" ppaarrtt aanndd aa ccuurrvveedd aarrcc,, ssoo tthhaatt and thus Using estimations iitt ccaann bbee sshhoowwnn tthhaatt Therefore If t < 00 tthheenn aa ssiimmiillaarr aarrgguummeenntt wwiitthh aann aarrcc C' that winds around −i rraatthheerr tthhaann i shows that TThhee ccoonnttoouurr CC'' .
+Fig.
+2 † ,o) (cid:28) o u (cid:23)(cid:25) (cid:4) P(cid:28) (cid:14) (cid:25) (cid:8)1 +† and finally we have † ,o) (cid:28) +|o| u (cid:23)(cid:25) (cid:4) P(cid:28) (cid:14) (cid:25) (cid:8)1 +† If t = 0 then the integral yields immediately to elementary calculus methods and its value is π.
+Example Show that ¥ cossx p ¥ sinsx ∫ dx = eks, ∫ dx = 0 (s >0, k >0) - ¥ k2 + x2 k - ¥ k2 + x2 Solution eisz In fact, has only one pole in the upper plane, namely, a simple pole at k2 + x2 z =ik, and from (4) we obtain eisz eisz  e- ks  Res =   =  .
+z=ik k2 + z2 2z  2ik  z=ik Therefore, ¥ eisz e- ks p ∫ dx = 2pi = eks.
+- ¥ k2 + z2 2ik k Since eisx = cossx+isinsx,this yields the above results  3.2 Types of Real Improper Integrals Another kind of improper integral is a definite integral ∫Bf(x)dx A whose integral becomes infinite at a point ain the interval of integration, lim f(x) =¥ xﬁ a Then the integral means ∫Bf(x)dx = lim∫a- t f(x)dx+lim∫B f(x)dx A tﬁ a A hﬁ 0 a+h where t and h approaches zero independently and through positive values.
+It may happen that neither of these limits exists, if t,h ﬁ 0 independently, but lim∫a- t f(x)dx+∫B f(x)dx tﬁ 0 A a+h  exists.
+This is called the Cauchy principal value of the integral.
+It is written pv.v.∫Bf(x)dx.
+A For example, pv.v.∫1 dx =lim∫- t dx +∫1dx = 0   - 1x3 tﬁ 0 - 1 x3 t x3 the principal value exists although the integral itself has no meaning.
+The whole situation is quite similar to that discussed in the second part of the previous section.
+To evaluate improper integral whose integrands have poles on the real axis, we use a part that avoids these singularities by following small semi-circles at the singular points; the procedure maybe illustrated by the following example.
+Example An Application Show that ¥ sinx p ∫ dx = .
+0 x 2 (This is the limit of sine integral Si(x) as xﬁ ¥ ) Solution (sinz) a.
+We do not consider because this function does not behave suitably at z eiz infinity.
+We consider , which has a simple pole at z=0, and integrate around zeiz the contour in figure below.
+Since is analytic inside and on C Cauchy’s z integral theorem gives eiz ∫ dz =0 C z b.
+We prove that the value of the integral over the large semicircleC approaches 1 dz Ras approaches infinity.
+Setting z = R eiq .dz =iR eiq dq , and therefore z =idq eiz p p ∫ dz = ∫ eizidq £ ∫ eiz dq (z = R eiq ) C z 0 0 In the integrant on the right, eiz = eiR(cosq+isinq) = eiRcosq e- Rsinq =e- Rsinq .
+We insert this, sin(p - q ) =sinq to get an integral from0 to p 2, and then v ‡ 2q p (when0£ q £ p 2); to get an integral that we can evaluate: Fig.
+3  Fig.
+4 ∫p eiz dq = ∫p e- Rsinq dq =p∫ 2e- Rsinq dq dq 0 0 0 p < 2∫p 2e- 2Rq p dq = (1- e- R) ﬁ 0 as R ﬁ ¥ C 0 R 1 Hence the value of the integral over C approaches as R ﬁ ¥ 1 c. For the integral over small semicircle C in figure above , we have 2 eiz dz eiz - 1 ∫ dz = ∫ +∫ dz C z C z C z 2 2 2 The first integral on the right equals- pi.
+The integral of the second integral is analytic and thus bounded, say, less than some constant M in absolute value for all z onC and between C and the x-axis.
+Hence by the ML- inequality, 2 2 the absolute value of this integral cannot exceedMpr .
+This approachesr ﬁ 0.
+Because of part (b), from (7) we thus obtain eiz ¥ eix eiz ∫ dz = pv.v.∫ dx+lim∫ dz C2 z - ¥ x rﬁ 0 C2 z¥ eix = pv.v.∫ dx- pi = 0 - ¥ x Hence this principal value equalspi; its real part is 0 and its imaginary part is ¥ sinx pv.v.∫ dx =p (8) - ¥ x d. Now the integrand in (8) is not singular at x =0.
+Furthermore, Since for positive xthe function 1 x decreases, the area under the curve of the integrand between two consecutive positive zeros decreases in a monotone fashion, that is, the absolute value of the integrals I = ∫pn +p sinxdx n =0(cid:215),1(cid:215),(cid:215) (cid:215) (cid:215) n np x From a monotone decreasing sequence, I , I(cid:215) ,(cid:215) (cid:215) (cid:215) and I ﬁ 0as nﬁ ¥ .
+Since these 1 2 n integrals have alternating sign (why?
+), it follows from the Leibniz test that the infinite seriesI + I + I+ (cid:215) (cid:215) (cid:215) (cid:215) converges.
+Clearly, the sum of the series is the integral 0 1 2 ∫¥ sinxdx = lim∫bsinxdx 0 x ﬁb ¥ 0 x which therefore exists.
+Similarly the integral from 0 to - ¥ exists.
+Hence we need not take the principal value in (8), and ¥ sinx ∫ dx =p - ¥ x Since the integrand is an even function, the desired result follows.
+In part (c) of example 2 we avoided the simple pole by integrating along a small semicircleC , and then we let C shrink to a point.
+This process suggests the 2 2 following.
+3.4.3 Simple Poles on the Real Axis If (z) has a simple pole at z = a on the real axis, then lim∫ f(z)dz =piResf(z).
+rﬁ 0 C2 z=a Theorem 1 Fig.
+5 Proof By the definition of a simple pole the integrand f(z)has at z =athe Laurent series b f(z) = 1 + g(z), b = Res f(z) z- a 1 z=a where g(z)is analytic on the semicircle of integration C :z = a+reiq , 0£ q =p 2 and for allzbetween C and the x-axis.
+By integration, 2 p b ∫ f(z)dz = ∫ 1 ireiq dq +∫ g(z)dz C 0 reiq C 2 2 The first integral on the right equals- bpi.The second cannot exceedMpr in absolute 1 value, by the ML-inequality and Mpr ﬁ 0as r ﬁ 0.
+We may combine this theorem with (7) or (3) in this section.
+Thus, pv.v.∫¥ f(x)dx = 2pi∑Resf(z)+pi∑Resf(z) (9) - ¥ (summation over all poles in the upper half-plane in the first sum, and on the x-axis in the second), valid for rational f(x) = p(x) q(x)with degreeq‡ degree p+2, having simple poles on the x-axis.
+This is the end of unit 1, which added another powerful general integration method to the methods discussed in the chapter on integration.
+Remember that our present residue method is based on Laurent series, which we therefore had to discuss first.
+In the next chapter we present a systemic discussion of mapping by analytic functions (“conformal mapping”) .Conformal mapping will then be applied to potential theory, our last chapter on complex analysis.
+4.0 CONCLUSION In conclusion, havjng run through this unit we have seen that our simple method have been extended to the case when the integrand has several isolated singularities inside the contour.
+We also proof the Residue theorem.
+5.0 SUMMARY The residue of an analytic function f(z)at a pointz = z is the coefficient of 0 1 the power in the Laurent series z- z 0 b b f(z) = a +a (z- z+)(cid:215) (cid:215) (cid:215) (cid:215) + 1 + 2 + (cid:215) (cid:215) (cid:215) (cid:215) of f(z)which converges nearz 0 1 0 z- z (z- z )2 0 0 0 (except atz itself).
+This residue is given by the integral 3.1 0 1 b = ∫ f(z)dz (1) 1 2pi C but can be obtained in various other ways, so that one can use (1) for evaluating integral over closed curves.
+More generally, the residue theorem (sec.3.2) states that if f(z)is analytic in a domain D such except at finitely many pointsz and Cis a j simple close path in D such that noz lies on Cand the full interior ofCbelongs to D, j then 1 ∫ f(z)dz = ∑Res f(z) (2) Cj 2pi j z=zj (summation only over thosez that lie insideC).
+j This integration method is elegant and powerful.
+Formulas for the residue at poles are (m=order of the pole) 1  dm- 1 [ ] Res f(z) = lim (z- z )m f(z) , m =1,2(cid:215) ,(cid:215) (cid:215) (3)   z=z (m- 1)!zﬁ z dzm- 1 0  0 0 Hence for a simple pole (m=1),  Res f(z) = lim(z- z )f(z) (3*) z=z zﬁ z 0 0 0 Another formula for the case of a simple pole of f(z) = p(z) q(z) p(z) Res f(z) = (3**) ¢ z=z q (z) 0 Residue integration involves closed curves, but the real interval of integration 0£ q £ 2p is transformed into the unit circle by setting z =eiq , so that by residue integration we can integrate real integrals of the form (sec.
+3.3) ∫2p F(cosq sinq )dq 0 whereF is a rational function of cosq and sinq ,such as, for instance, sin2q ,etc.
+5- 4cosq Another method of integrating real integrals by residues is the use of a closed contour consisting of an interval- R £ x£ Rof the real axis and a semicircle z = R. From the residue theorem, if we let R ﬁ ¥ ,we obtain for rational f(x) = p(x) q(x) (with q(x) „ 0 andq >degree p+2) ∫¥ f(x)dx = 2pi∑Resf(z) (sec.3.3) - ¥ [ ] ∫¥ cossxdx= - 2p ∑ImRes f(z)eisz - ¥ [ ] ∫¥ sinsxdx = 2p ∑ImRes f(z)eisz (sec.3.4) - ¥ (sum of all residues at poles in the upper-half plane).
+In sec.3.4, we also extend this method to real integrals whose integrands become infinite at some point in the interval of integration.
+6.0 TUTOR-MARKED ASSIGNMENT 1.
+Explain the term residues and how it can be used for evaluating integrals 2.
+Find the residues at the singular points of the following functions; cos2z ez (a) (b) tan z (c) z4 (z+pi)6 3.
+Evaluate the following integrals where C is the unit circle (counterclockwise).
+dz z2 +1 (a) ∫cotzdz (b) ∫ (c) ∫ C C1- ez C z2 - 2z 4.
+Show that ∫2p dq = 2p 0 2- cosq 7.0 REFERENCES/FURTHER READINGS Hildraban, F. B.
+Advanced Calculus for Application.
+Murray, R. Spieg (1974).
+Schaums Outline Series or Theory and Problem of Advanced Calculus.
+Great Britain: McGraw–Hill Inc. Stephenor, G. (1977).
+Mathematical Methods for Science Students.
+London: Longman, Group Limited.
+Stroud, K.A.
+(1995).
+5th ed.
+Engineering Maths.
+() Palgraw Verma, P.D.S.
+(1995).
+Engineering Mathematics.
+New Delhi: Vikas Publishing House PVT Ltd.
